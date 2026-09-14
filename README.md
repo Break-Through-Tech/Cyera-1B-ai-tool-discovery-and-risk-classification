@@ -12,7 +12,7 @@
 |  Aram Ramos  | @aramseries  | AI Coach  |
 |  Forum Shah    | @shahforum  | Member                 |
 |  Sheila Aquino  |  @shem3ra  |  Member  |
-|        |     |           |
+|  Sadit Hussain  |  @sadithussain  |  Member  |
 ---
 
 ## 🎯 **Project Highlights**
