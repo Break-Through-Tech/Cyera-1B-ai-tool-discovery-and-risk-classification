@@ -11,7 +11,7 @@
 |  Shubham Arya   | @Arya25 | Challenge Advisor            |
 |  Aram Ramos  | @aramseries  | AI Coach  |
 |  Forum Shah    | @shahforum  | Member                 |
-|       |        |   |
+|  Sheila Aquino  |  @shem3ra  |  Member  |
 |        |     |           |
 ---
 
