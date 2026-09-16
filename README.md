@@ -13,6 +13,7 @@
 |  Forum Shah    | @shahforum  | Member                 |
 |  Sheila Aquino  |  @shem3ra  |  Member  |
 |  Sadit Hussain  |  @sadithussain  |  Member  |
+|  Min Thaw Zin   |  @Min-13     | Member   |
 ---
 
 ## 🎯 **Project Highlights**
