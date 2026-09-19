@@ -14,6 +14,7 @@
 |  Sheila Aquino  |  @shem3ra  |  Member  |
 |  Sadit Hussain  |  @sadithussain  |  Member  |
 |  Min Thaw Zin   |  @Min-13     | Member   |
+| Abigail De Leon | @abigail-deleon | Member |
 ---
 
 ## 🎯 **Project Highlights**
