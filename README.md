@@ -15,6 +15,7 @@
 |  Sadit Hussain  |  @sadithussain  |  Member  |
 |  Min Thaw Zin   |  @Min-13     | Member   |
 | Abigail De Leon | @abigail-deleon | Member |
+| Joshua Hu | @JoshuaCongHu | Member — Exploratory Data Analysis (EDA) |
 ---
 
 ## 🎯 **Project Highlights**
@@ -30,13 +31,22 @@
 
 ## 👩🏽‍💻 **Setup and Installation**
 
-**Provide step-by-step instructions so someone else can run your code and reproduce your results. Depending on your setup, include:**
+```bash
+git clone https://github.com/Break-Through-Tech/Cyera-1B-ai-tool-discovery-and-risk-classification.git
+cd Cyera-1B-ai-tool-discovery-and-risk-classification
+python3 -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+```
 
-* How to clone the repository
-* How to install dependencies
-* How to set up the environment
-* How to access the dataset(s)
-* How to run the notebook or scripts
+All datasets are already in `data/`.
+
+**Run the EDA notebook**
+
+```bash
+jupyter notebook notebooks/eda.ipynb          # open interactively
+# or re-run it headless from the repo root:
+jupyter nbconvert --to notebook --execute --inplace notebooks/eda.ipynb
+```
 
 ---
 
@@ -52,16 +62,25 @@
 
 ## 📊 **Data Exploration**
 
-**You might consider describing the following (as applicable):**
+> EDA conducted by **Joshua Hu ([@JoshuaCongHu](https://github.com/JoshuaCongHu))**. Full analysis with charts: [`notebooks/eda.ipynb`](notebooks/eda.ipynb)
 
-* The dataset(s) used: origin, format, size, type of data
-* Data exploration and preprocessing approaches
-* Insights from your Exploratory Data Analysis (EDA)
-* Challenges and assumptions when working with the dataset(s)
+**Datasets**
 
-**Potential visualizations to include:**
+| Dataset | File | Size | Contents |
+|---|---|---|---|
+| AIToolBuzz AI tools (Kaggle), cleaned | `data/cleaned_kaggle.csv` | 13,701 tools (from 16,762 raw) | Name, category, primary task, short description, website, country, year founded |
+| Dataset B: AI Tool Metadata (incomplete) | `data/dataset_b_ai_tool_metadata_incomplete.csv` | 13,701 tools | Kaggle mapped to the `VISION.md` schema; governance fields still blank |
+| Dataset A: NovaTech usage (synthetic) | `data/novatech_usage (1).csv` | 30,000 events, 500 employees | Sept 2026 app activity across 6 departments, 21 apps, incl. bytes uploaded/downloaded |
+| Dataset A: Summit Financial usage (synthetic) | `data/summit_financial_usage (1).csv` | 25,120 events, 400 employees | Sept 2026 app activity across 6 departments, 22 apps, incl. bytes uploaded/downloaded |
 
-* Plots, charts, heatmaps, feature visualizations, sample dataset images
+**Key insights**
+
+* **Kaggle metadata is sparse beyond the core fields.** Year Founded is missing for 64% of tools, Country 59%, industry and technologies about 52%, and Keywords 40%. Name, description, category and website are the reliable features.
+* **Descriptions are short and categories are noisy.** The median description is 8 words, and 17% of tools have 5 words or fewer. The 14 Kaggle categories are imbalanced (Media & Content Creation is 26%) and often wrong for well-known tools: ChatGPT is listed as "Communication And Support" and Grammarly as "Security And Privacy". They need mapping to the `VISION.md` taxonomy and a hand-labeled evaluation set before they can be used as training labels.
+* **Dataset B has no negative class.** Every row is `is_ai_tool = True`, so AI-vs-not-AI detection needs non-AI SaaS examples added.
+* **A known-tool domain lookup isn't enough.** Matched against the usage logs it gets precision 0.67 and recall 0.60. Some non-AI platforms match because AI add-ons share their domain (`slack.com` → "Slack GPT", `zoom.us` → "Zoom IQ"). Some real AI tools are missed because of stale or path-based domains or because they're absent from Kaggle: Cursor, GitHub Copilot, Midjourney and DocuMind AI. That supports the embedding/LLM approach for unseen tools.
+* **The synthetic logs contain a clear shadow-AI case.** DocuMind AI appears only in Summit Financial's Finance department (84 of 129 employees) and isn't in the metadata. It uploads 7.95 MB per event, 2.6× every other app, and it's the only app with uploads over 10 MB. This is the `VISION.md` §4 scenario the pipeline should surface, and it shows upload volume relative to the baseline should be a core risk feature.
+* **The synthetic usage is very uniform.** Event types, session durations, upload sizes, hours and weekdays are all flat, and every employee uses AI tools. Signal comes from the department × application mix and from outliers against that flat baseline.
 
 ---
 
