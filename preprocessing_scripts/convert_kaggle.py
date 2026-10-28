@@ -1,3 +1,11 @@
+# PURPOSE:
+#
+# Convert cleande kaggle dataset
+# into AI Tool Metadata schema
+# outlined in Vision.md
+#
+# Blank columns need to be synthetically generated
+
 from urllib.parse import urlparse
 import numpy as np
 import pandas as pd
