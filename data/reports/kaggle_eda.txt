@@ -1,0 +1,291 @@
+
+==============================================================================
+1. FILE OVERVIEW
+==============================================================================
+File:          data\raw\kaggle.csv
+Encoding used: utf-8-sig   (a fallback from utf-8 means the file has non-utf-8 bytes)
+Delimiter:     ','
+Rows:          16,762
+Columns:       13
+Memory:        18.97 MB
+
+Columns:
+  - Name
+  - Link
+  - Logo
+  - Category
+  - Primary Task
+  - Keywords
+  - Year Founded
+  - Short Description
+  - Country
+  - industry
+  - technologies
+  - Website
+  - Website Status
+
+==============================================================================
+2. MISSING VALUES (blank, whitespace, 'nan', 'n/a' all count as missing)
+==============================================================================
+                   missing  pct_missing  unique_values           severity
+Year Founded         10931        65.21             41       HEAVY (>50%)
+Country              10134        60.46             99       HEAVY (>50%)
+technologies          9129        54.46           6817       HEAVY (>50%)
+industry              8935        53.31             95       HEAVY (>50%)
+Keywords              7233        43.15           7875  moderate (20-50%)
+Short Description      530         3.16          16213          ok (<=5%)
+Logo                   225         1.34          16524          ok (<=5%)
+Website Status          27         0.16             30          ok (<=5%)
+Name                     0         0.00          16609          ok (<=5%)
+Primary Task             0         0.00           3495          ok (<=5%)
+Category                 0         0.00             14          ok (<=5%)
+Link                     0         0.00          16762          ok (<=5%)
+Website                  0         0.00          16744          ok (<=5%)
+
+Heavily missing columns (>50%): ['Year Founded', 'Country', 'technologies', 'industry']
+
+Missing fields per row (how complete is a typical record?):
+  5                                                              6151  ( 36.7%)
+  0                                                              4383  ( 26.1%)
+  1                                                              2185  ( 13.0%)
+  4                                                              1801  ( 10.7%)
+  2                                                              1116  (  6.7%)
+  3                                                               664  (  4.0%)
+  6                                                               458  (  2.7%)
+  7                                                                 4  (  0.0%)
+
+Columns that are fully populated: ['Name', 'Primary Task', 'Category', 'Link', 'Website']
+
+==============================================================================
+3. DUPLICATES
+==============================================================================
+Fully duplicated rows: 0
+Duplicate 'Name': 295 rows share 142 repeated values
+Duplicate 'Link': 0 rows share 0 repeated values
+Duplicate 'Domain': 4 rows share 2 repeated values
+Duplicate names after lowercasing/stripping punctuation: 539 rows
+Saved duplicate rows to kaggle_duplicates.csv
+
+==============================================================================
+4. CATEGORICAL COLUMNS
+==============================================================================
+Distinct categories: 14
+Category distribution:
+  Media And Content Creation                                     4289  ( 25.6%)
+  Communication And Support                                      2022  ( 12.1%)
+  Technology And Development                                     1739  ( 10.4%)
+  Operations And Management                                      1567  (  9.3%)
+  Marketing And Sales                                            1389  (  8.3%)
+  Ai And Machine Learning                                        1320  (  7.9%)
+  Business And Finance                                           1053  (  6.3%)
+  Specialized Technologies                                        967  (  5.8%)
+  Data And Analytics                                              765  (  4.6%)
+  Creative And Entertainment                                      580  (  3.5%)
+  Industry Specific                                               328  (  2.0%)
+  Education And Learning                                          277  (  1.7%)
+  Personal And Lifestyle                                          262  (  1.6%)
+  Security And Privacy                                            204  (  1.2%)
+
+[Primary Task] distinct=3495  missing=0
+  Content                                                         393  (  2.3%)
+  Images                                                          373  (  2.2%)
+  Chatbots                                                        217  (  1.3%)
+  Customer support                                                215  (  1.3%)
+  Chatting                                                        213  (  1.3%)
+  Writing                                                         210  (  1.3%)
+  Videos                                                          183  (  1.1%)
+  Data analysis                                                   175  (  1.0%)
+  Productivity                                                    168  (  1.0%)
+  Learning                                                        157  (  0.9%)
+
+[Country] distinct=99  missing=10134
+  <missing>                                                     10134  ( 60.5%)
+  United States                                                  3674  ( 21.9%)
+  United Kingdom                                                  475  (  2.8%)
+  India                                                           372  (  2.2%)
+  Canada                                                          233  (  1.4%)
+  Germany                                                         173  (  1.0%)
+  France                                                          163  (  1.0%)
+  Australia                                                       140  (  0.8%)
+  Singapore                                                       134  (  0.8%)
+  Netherlands                                                     111  (  0.7%)
+
+[industry] distinct=95  missing=8935
+  <missing>                                                      8935  ( 53.3%)
+  information technology & services                              5945  ( 35.5%)
+  marketing & advertising                                         223  (  1.3%)
+  education management                                            159  (  0.9%)
+  online media                                                    130  (  0.8%)
+  information services                                            104  (  0.6%)
+  e-learning                                                       83  (  0.5%)
+  financial services                                               79  (  0.5%)
+  writing & editing                                                62  (  0.4%)
+  health, wellness & fitness                                       61  (  0.4%)
+
+[technologies] distinct=6817  missing=9129
+  <missing>                                                      9129  ( 54.5%)
+  Mobile Friendly                                                  85  (  0.5%)
+  Amazon AWS                                                       45  (  0.3%)
+  Cloudflare DNS, Gmail, Google Apps, CloudFlare Hosting           43  (  0.3%)
+  Gmail, Google Apps                                               39  (  0.2%)
+  Cloudflare DNS, CloudFlare Hosting                               29  (  0.2%)
+  Cloudflare DNS, CloudFlare Hosting, Mobile Friendly              29  (  0.2%)
+  Gmail, Google Apps, Mobile Friendly                              29  (  0.2%)
+  AI                                                               20  (  0.1%)
+  Google Tag Manager, Mobile Friendly                              19  (  0.1%)
+
+[Website Status] distinct=30  missing=27
+  Active                                                        14038  ( 83.7%)
+  Not Reachable                                                  1059  (  6.3%)
+  Error                                                           543  (  3.2%)
+  Error 403                                                       481  (  2.9%)
+  Error 404                                                       316  (  1.9%)
+  Error 406                                                        44  (  0.3%)
+  Error 436                                                        40  (  0.2%)
+  Error 503                                                        29  (  0.2%)
+  <missing>                                                        27  (  0.2%)
+  Expired                                                          24  (  0.1%)
+
+
+==============================================================================
+5. KEYWORDS
+==============================================================================
+Rows with keywords: 9,529 of 16,762
+Keywords per row: min=1  median=21  max=43
+Top 25 keywords:
+  software development                                 3215
+  technology                                           2451
+  ai                                                   2245
+  information technology & services                    2035
+  information & internet                               2034
+  artificial intelligence                              1376
+  machine learning                                      889
+  information technology and services                   836
+  information technology                                652
+  saas                                                  613
+  services                                              609
+  b2b                                                   531
+  content creation                                      526
+  generative ai                                         519
+  education                                             469
+  software                                              426
+  automation                                            396
+  enterprise software                                   388
+  it services & it consulting                           380
+  b2c                                                   376
+  workflow automation                                   376
+  e-commerce                                            375
+  marketing                                             359
+  natural language processing                           356
+  productivity                                          351
+
+==============================================================================
+6. TEXT QUALITY (descriptions, mojibake, AI signal)
+==============================================================================
+Description length (chars): min=5  median=53  mean=84  max=709
+  Descriptions shorter than 40 chars: 2,703 (16.7%)
+  Descriptions shorter than 80 chars: 12,034 (74.1%)
+  Duplicate descriptions: 38 rows
+  Descriptions with an explicit AI/ML term: 8,198 (50.5%)
+  Descriptions with NO explicit AI/ML term: 8,034 (harder for description-based detection)
+  Descriptions that mention the tool's own name: 24.8%
+
+Shortest 10 descriptions (likely weak signal):
+  [GetSales.io] Sales
+  [MemeDaddy] Memes
+  [EmojiHi] Emojis
+  [CodePal] Coding
+  [PixelVibe] Images
+  [IDjpg] Images
+  [7taps] Courses
+  [CogiX] Content
+  [Penelope AI] Writing
+  [Shapemate] Fitness
+
+Mojibake / encoding damage (looks like â€™, Ã©, Â, �):
+  Short Description: 6 rows
+
+Leading/trailing whitespace in text columns:
+
+==============================================================================
+7. WEBSITE / DOMAIN CHECKS
+==============================================================================
+Missing Website: 0
+Websites containing '?ref=aitoolbuzz.com' tracking: 16,762
+Distinct domains: 16,741 of 16,743 rows with a domain
+Most repeated domains:
+  hubspot.com                                                       2  (  0.0%)
+  power-pm-ai.web.app                                               2  (  0.0%)
+  chatgpt.com                                                       1  (  0.0%)
+  claude.ai                                                         1  (  0.0%)
+  gemini.google.com                                                 1  (  0.0%)
+  copilot.microsoft.com                                             1  (  0.0%)
+  llama.com                                                         1  (  0.0%)
+  deepseek.com                                                      1  (  0.0%)
+  perplexity.ai                                                     1  (  0.0%)
+  x.ai                                                              1  (  0.0%)
+
+Domains that are not a plain host (spaces, no dot):
+  0 rows
+
+Website Status:
+  Active                                                        14038  ( 83.7%)
+  Not Reachable                                                  1059  (  6.3%)
+  Error                                                           543  (  3.2%)
+  Error 403                                                       481  (  2.9%)
+  Error 404                                                       316  (  1.9%)
+  Error 406                                                        44  (  0.3%)
+  Error 436                                                        40  (  0.2%)
+  Error 503                                                        29  (  0.2%)
+  <missing>                                                        27  (  0.2%)
+  Expired                                                          24  (  0.1%)
+  Rows not marked 'Active': 2,723 (candidates to drop or flag)
+
+==============================================================================
+8. YEAR FOUNDED
+==============================================================================
+Missing: 10,931   Non-numeric: 0
+Range: 1969 - 2025   median: 2022
+Implausible (<1950 or >2026): 0
+Most common years:
+  2023                                                           1726  ( 29.6%)
+  2024                                                            854  ( 14.6%)
+  2022                                                            631  ( 10.8%)
+  2021                                                            458  (  7.9%)
+  2020                                                            447  (  7.7%)
+  2019                                                            292  (  5.0%)
+  2018                                                            226  (  3.9%)
+  2017                                                            205  (  3.5%)
+  2025                                                            202  (  3.5%)
+  2016                                                            158  (  2.7%)
+  2015                                                            112  (  1.9%)
+  2014                                                            100  (  1.7%)
+
+==============================================================================
+9. DATA COMPLETENESS BY CATEGORY (are some categories poorly covered?)
+==============================================================================
+                            rows  avg_missing_fields
+Category                                            
+Creative And Entertainment   580                3.83
+Media And Content Creation  4289                3.18
+Specialized Technologies     967                3.14
+Personal And Lifestyle       262                3.11
+Ai And Machine Learning     1320                2.86
+Education And Learning       277                2.78
+Communication And Support   2022                2.68
+Technology And Development  1739                2.66
+Security And Privacy         204                2.61
+Operations And Management   1567                2.57
+Industry Specific            328                2.52
+Data And Analytics           765                2.46
+Marketing And Sales         1389                2.42
+Business And Finance        1053                2.10
+
+==============================================================================
+10. TAKEAWAYS TO CHECK
+==============================================================================
+- Columns with >50% missing (probably unusable as features): ['Year Founded', 'Country', 'industry', 'technologies']
+- 14 raw categories; plan to remap to your own taxonomy.
+- Compare Name/Website/Short Description here against your final dataset with a diff
+  to see which problems are inherited from Kaggle and which your pipeline introduced.
+- Every row in this source is presumably an AI tool, so non-AI negatives must come from elsewhere.
