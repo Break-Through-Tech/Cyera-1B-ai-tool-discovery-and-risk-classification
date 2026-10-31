@@ -16,6 +16,7 @@
 |  Min Thaw Zin   |  @Min-13     | Member   |
 | Abigail De Leon | @abigail-deleon | Member |
 | Joshua Hu | @JoshuaCongHu | Member — Exploratory Data Analysis (EDA) |
+| Abdulfattah Ahmed | @abdulfattaha42 | Member |
 ---
 
 ## 🎯 **Project Highlights**
