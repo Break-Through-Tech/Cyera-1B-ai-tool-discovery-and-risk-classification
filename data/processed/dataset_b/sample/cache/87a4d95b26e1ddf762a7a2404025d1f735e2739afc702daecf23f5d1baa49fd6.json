@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_00591",
+    "description_usable": true,
+    "function": "debugging and explanations for code",
+    "category": "Coding / Developer Tools",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Developer tool providing AI-driven code debugging, explanations, and improvements."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:36:01.826913+00:00"
+}

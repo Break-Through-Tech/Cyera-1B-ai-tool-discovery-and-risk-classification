@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_13326",
+    "description_usable": true,
+    "function": "Automated LinkedIn post generation for engaging content",
+    "category": "Content Generation",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Mentions automated LinkedIn post generation, but does not explicitly mention AI or ML."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:33:07.225699+00:00"
+}

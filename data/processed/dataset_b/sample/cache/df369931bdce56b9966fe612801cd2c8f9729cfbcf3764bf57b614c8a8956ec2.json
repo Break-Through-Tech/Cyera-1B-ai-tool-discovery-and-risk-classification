@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_03523",
+    "description_usable": true,
+    "function": "Screening platform for recruiting background checks",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Background check and employment screening platform using AI/ML algorithms."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:31:33.064039+00:00"
+}

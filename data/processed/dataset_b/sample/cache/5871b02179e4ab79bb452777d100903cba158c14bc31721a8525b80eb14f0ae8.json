@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_13158",
+    "description_usable": true,
+    "function": "Provide a Notion knowledge base chatbot for customer support",
+    "category": "Customer Support",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Chatbot tool for Notion knowledge base, but unclear if AI-driven based purely on description and keywords."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:12.865429+00:00"
+}

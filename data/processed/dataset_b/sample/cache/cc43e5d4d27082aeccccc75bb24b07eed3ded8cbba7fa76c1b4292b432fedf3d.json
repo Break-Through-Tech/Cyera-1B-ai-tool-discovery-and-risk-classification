@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_01797",
+    "description_usable": true,
+    "function": "No-code/low-code platform for building and deploying mobile apps",
+    "category": "Coding / Developer Tools",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "App builder platform featuring AI-driven and AI-powered app creation tools."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:36:17.536387+00:00"
+}

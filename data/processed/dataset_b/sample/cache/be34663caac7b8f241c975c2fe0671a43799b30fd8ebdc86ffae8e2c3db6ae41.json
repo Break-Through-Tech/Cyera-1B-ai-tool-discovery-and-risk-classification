@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_02163",
+    "description_usable": true,
+    "function": "Query PostgreSQL databases using natural language by translating questions into SQL queries",
+    "category": "Data Analytics",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI tool that translates natural language to SQL queries using OpenAI and Vercel AI SDK."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:37.301068+00:00"
+}

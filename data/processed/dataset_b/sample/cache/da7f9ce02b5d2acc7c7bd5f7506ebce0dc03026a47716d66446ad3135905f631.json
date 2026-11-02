@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_12768",
+    "description_usable": true,
+    "function": "Transform your text into natural human voices",
+    "category": "Content Generation",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Text to speech tool; description and primary task do not explicitly confirm AI use and keywords are empty."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:34:48.768301+00:00"
+}

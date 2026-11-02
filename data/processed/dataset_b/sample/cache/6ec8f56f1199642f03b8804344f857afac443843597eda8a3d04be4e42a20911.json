@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_03962",
+    "description_usable": true,
+    "function": "generate unique images from text prompts and edit images",
+    "category": "Image / Video Generation",
+    "ai_status": "ai",
+    "needs_review": true,
+    "reason": "Description and keywords indicate text-to-image AI art generation, but primary_task conflicts by stating 'Travel plans'."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:31:18.157260+00:00"
+}

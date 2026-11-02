@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_00574",
+    "description_usable": true,
+    "function": "Provide an AI-powered MacOS personal assistant accessible via shortcut",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Explicitly states an AI-powered MacOS personal assistant."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:12.857489+00:00"
+}

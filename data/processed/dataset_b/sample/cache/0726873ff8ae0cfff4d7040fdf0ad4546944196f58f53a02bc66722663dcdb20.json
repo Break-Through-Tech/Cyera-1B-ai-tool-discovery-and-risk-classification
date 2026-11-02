@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_08064",
+    "description_usable": false,
+    "function": "",
+    "category": "Image / Video Generation",
+    "ai_status": "ai",
+    "needs_review": true,
+    "reason": "Description is vague marketing ('leading platform for modern short-form content creation'). Keywords confirm generative AI video tool."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:33:52.060163+00:00"
+}

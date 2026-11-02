@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_01359",
+    "description_usable": true,
+    "function": "Automate business processes with iPaaS",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Integration Platform as a Service (iPaaS) for automating business workflows using AI."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:31:33.060715+00:00"
+}

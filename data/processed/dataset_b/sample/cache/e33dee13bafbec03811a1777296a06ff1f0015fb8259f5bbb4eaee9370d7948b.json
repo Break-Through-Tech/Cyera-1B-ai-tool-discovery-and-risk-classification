@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_13716",
+    "description_usable": true,
+    "function": "transforms business data into actionable intelligence using predictive analytics, anomaly detection, and NLP, providing intuitive dashboards for data visualization",
+    "category": "Data Analytics",
+    "ai_status": "ai",
+    "needs_review": true,
+    "reason": "Conflicting evidence: primary task mentions 'Panoramic images' while description and keywords define a business data analytics platform."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:34:48.786348+00:00"
+}

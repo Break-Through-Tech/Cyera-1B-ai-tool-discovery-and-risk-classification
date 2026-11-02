@@ -1,0 +1,22 @@
+{
+  "rows_in": 16762,
+  "rows_out": 16762,
+  "schema": [
+    "tool_id",
+    "tool_name",
+    "domain",
+    "description",
+    "is_ai_tool",
+    "category",
+    "vendor",
+    "approved_status",
+    "enterprise_plan_available",
+    "sso_available",
+    "data_retention",
+    "training_on_customer_data",
+    "admin_controls_available",
+    "risk_label"
+  ],
+  "input_sha256": "3e0bf4a56a9979f50880f4a8bd0fc7f18d9c2b329d9782f568ac6fbdbb1c8a75",
+  "note": "AI labels provisional; blank enrichment and governance values are unknown."
+}

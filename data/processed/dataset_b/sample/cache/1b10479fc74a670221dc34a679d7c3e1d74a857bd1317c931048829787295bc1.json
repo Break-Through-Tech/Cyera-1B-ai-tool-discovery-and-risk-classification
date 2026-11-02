@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_02680",
+    "description_usable": false,
+    "function": "",
+    "category": "Other",
+    "ai_status": "ai",
+    "needs_review": true,
+    "reason": "Description is generic marketing slogan; keywords indicate AI speech translation and video dubbing."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:34:05.210743+00:00"
+}

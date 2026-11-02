@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_04371",
+    "description_usable": true,
+    "function": "autonomously writing Java unit tests",
+    "category": "Coding / Developer Tools",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI tool for autonomously generating Java unit tests."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:36:28.962138+00:00"
+}

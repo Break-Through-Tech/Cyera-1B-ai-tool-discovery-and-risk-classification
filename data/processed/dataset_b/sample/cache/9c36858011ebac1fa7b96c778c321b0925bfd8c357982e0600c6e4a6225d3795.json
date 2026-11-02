@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_14640",
+    "description_usable": true,
+    "function": "Voice-over production tool offering voice styles, languages, and video software compatibility for creating audio content",
+    "category": "Content Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Explicitly described as an AI voice-over production tool."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:33:52.054537+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_16310",
+    "description_usable": true,
+    "function": "create and monetize personalized AI prompts",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Explicitly creates and monetizes AI prompts."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:36:28.959618+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_04121",
+    "description_usable": true,
+    "function": "Unlock the power of ChatGPT with a simple shortcut key",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Keyboard shortcut utility providing access to ChatGPT on macOS."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:31:18.154264+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_15093",
+    "description_usable": false,
+    "function": "",
+    "category": "Coding / Developer Tools",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Description consists entirely of vague marketing copy with no functional capability stated."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:36:01.824294+00:00"
+}

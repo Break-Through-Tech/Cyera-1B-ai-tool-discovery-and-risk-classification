@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_01362",
+    "description_usable": true,
+    "function": "Automated job application cover letter generation",
+    "category": "Content Generation",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Generates cover letters, but description only specifies 'automated' rather than AI."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:23.957361+00:00"
+}

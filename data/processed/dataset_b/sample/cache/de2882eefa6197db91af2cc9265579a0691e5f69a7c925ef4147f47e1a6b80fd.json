@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_14310",
+    "description_usable": true,
+    "function": "Generate images and text automatically from a single search bar",
+    "category": "Content Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Generates images and text automatically; name and context indicate an ML/AI assistant."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:33:52.052837+00:00"
+}

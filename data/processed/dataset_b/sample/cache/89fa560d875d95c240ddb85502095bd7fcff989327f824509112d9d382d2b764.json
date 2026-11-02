@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_11581",
+    "description_usable": true,
+    "function": "Custom health coach for achieving fitness goals",
+    "category": "Other",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Health and fitness coach utilizing AI body scanning and calorie tracking; categorized as Other."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:36:17.538143+00:00"
+}

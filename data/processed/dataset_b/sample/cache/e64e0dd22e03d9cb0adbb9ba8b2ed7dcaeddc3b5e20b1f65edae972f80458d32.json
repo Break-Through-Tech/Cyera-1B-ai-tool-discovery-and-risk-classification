@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_15338",
+    "description_usable": true,
+    "function": "AI planning tool for work and life",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI planning and task management tool for personal and work productivity."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:23.947220+00:00"
+}

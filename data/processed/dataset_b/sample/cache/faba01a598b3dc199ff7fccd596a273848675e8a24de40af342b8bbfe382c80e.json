@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_16096",
+    "description_usable": true,
+    "function": "Conduct AI interviews for HR processes",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI-powered HR interviewing tool."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:11.469723+00:00"
+}

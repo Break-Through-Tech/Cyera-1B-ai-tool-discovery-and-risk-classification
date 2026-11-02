@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_12036",
+    "description_usable": true,
+    "function": "Create and edit images with unmatched context-awareness, character consistency, and visual precision.",
+    "category": "Image / Video Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Image creation and editing tool confirmed as AI via keywords (AI, Deep Learning, Image Generation)."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:34:05.197659+00:00"
+}

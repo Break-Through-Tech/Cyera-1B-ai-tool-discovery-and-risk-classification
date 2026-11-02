@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_09667",
+    "description_usable": false,
+    "function": "",
+    "category": "Sales / Marketing",
+    "ai_status": "ai",
+    "needs_review": true,
+    "reason": "Description is vague marketing ('building sales credibility and accelerating trust') without specific operational capabilities."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:31:33.056884+00:00"
+}

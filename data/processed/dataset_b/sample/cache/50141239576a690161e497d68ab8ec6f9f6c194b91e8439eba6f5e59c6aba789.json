@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_14084",
+    "description_usable": true,
+    "function": "enabling automated traffic enforcement, curbside management, and mobility insights to improve public transit, enforce traffic laws, and optimize urban planning",
+    "category": "Other",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Computer vision and AI platform for smart city traffic enforcement and urban mobility planning."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:36:01.808758+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_02791",
+    "description_usable": true,
+    "function": "Convert Your Documents Into Tests",
+    "category": "Productivity",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "No explicit AI functionality mentioned; automated document conversion could be rule-based."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:36:28.963408+00:00"
+}

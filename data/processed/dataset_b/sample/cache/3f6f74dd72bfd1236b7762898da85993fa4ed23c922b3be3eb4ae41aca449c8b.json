@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_06771",
+    "description_usable": true,
+    "function": "Instantly compose a website for business with AI",
+    "category": "Coding / Developer Tools",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI-powered website generation and composition tool."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:36:17.531762+00:00"
+}

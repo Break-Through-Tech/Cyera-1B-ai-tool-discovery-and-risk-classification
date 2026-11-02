@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_01488",
+    "description_usable": true,
+    "function": "Automate the creation of professional-grade videos for marketing, social media, and more",
+    "category": "Image / Video Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Explicitly described as an AI-powered video creation platform."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:34:59.997581+00:00"
+}

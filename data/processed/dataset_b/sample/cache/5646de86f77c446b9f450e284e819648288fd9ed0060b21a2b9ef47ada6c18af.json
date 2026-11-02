@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_01770",
+    "description_usable": true,
+    "function": "generate content",
+    "category": "Content Generation",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Generates content, but the description and task do not specify whether AI is used."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:34:18.655752+00:00"
+}

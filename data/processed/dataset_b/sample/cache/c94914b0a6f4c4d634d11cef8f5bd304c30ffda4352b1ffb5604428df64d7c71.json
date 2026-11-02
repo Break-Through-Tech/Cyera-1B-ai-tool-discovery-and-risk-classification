@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_15483",
+    "description_usable": true,
+    "function": "provides instant, unbiased feedback and actionable suggestions for improving landing page conversion rates by analyzing clarity, persuasion, and user experience",
+    "category": "Sales / Marketing",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI-powered landing page and CRO marketing tool."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:33:07.218083+00:00"
+}

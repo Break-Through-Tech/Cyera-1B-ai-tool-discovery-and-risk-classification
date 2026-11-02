@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_02169",
+    "description_usable": true,
+    "function": "automates the creation of professional business reports from various data sources",
+    "category": "Data Analytics",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Business intelligence and reporting tool using AI to automate report generation from data sources."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:31:18.172772+00:00"
+}

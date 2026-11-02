@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_07272",
+    "description_usable": true,
+    "function": "helps users record, analyze, and understand their dreams with personalized interpretations and insights",
+    "category": "Other",
+    "ai_status": "ai",
+    "needs_review": true,
+    "reason": "Severe mismatch: description describes an AI dream journal, while primary_task and keywords describe influencer marketing."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:33:22.268557+00:00"
+}

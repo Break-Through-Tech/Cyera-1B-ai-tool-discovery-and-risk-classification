@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_14284",
+    "description_usable": true,
+    "function": "Extract key ideas from long videos to save time",
+    "category": "Productivity",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Description does not specify AI technology and keywords are empty."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:34:48.770712+00:00"
+}

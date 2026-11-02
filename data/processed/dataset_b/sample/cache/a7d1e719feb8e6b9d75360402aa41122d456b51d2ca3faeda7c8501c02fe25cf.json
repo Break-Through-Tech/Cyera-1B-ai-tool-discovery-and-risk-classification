@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_01051",
+    "description_usable": true,
+    "function": "Check and humanize AI-generated content",
+    "category": "Content Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI content detection and text humanizing/rewriting tool."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:34:48.788251+00:00"
+}

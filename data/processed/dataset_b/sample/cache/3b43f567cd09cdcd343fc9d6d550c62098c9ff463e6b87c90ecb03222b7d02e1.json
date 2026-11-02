@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_07909",
+    "description_usable": true,
+    "function": "generating tailored resumes and cover letters, providing interview preparation, and offering networking strategies",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI-powered job search co-pilot assisting with resume/cover letter writing, interview prep, and networking."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:01.223663+00:00"
+}

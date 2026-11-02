@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_05486",
+    "description_usable": false,
+    "function": "",
+    "category": "Productivity",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Description is vague marketing slogan ('Where your professional story meets AI precision') with no concrete task details."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:12.859183+00:00"
+}

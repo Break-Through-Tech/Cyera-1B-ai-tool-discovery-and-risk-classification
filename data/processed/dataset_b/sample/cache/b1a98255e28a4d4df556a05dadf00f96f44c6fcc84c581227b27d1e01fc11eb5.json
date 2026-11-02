@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_01832",
+    "description_usable": true,
+    "function": "transforms long-form content into short-form clips optimized for social media platforms with captions, B-rolls, and music",
+    "category": "Image / Video Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Clear AI video editing and clip generation functionality described."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:33:52.058087+00:00"
+}

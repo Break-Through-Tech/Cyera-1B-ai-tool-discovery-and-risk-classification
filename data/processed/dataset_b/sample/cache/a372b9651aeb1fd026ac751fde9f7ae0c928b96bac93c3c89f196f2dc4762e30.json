@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_13953",
+    "description_usable": true,
+    "function": "AI Travel Guide for personalized exploration",
+    "category": "Other",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI travel guide and itinerary generation tool falls under Other."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:23.948365+00:00"
+}

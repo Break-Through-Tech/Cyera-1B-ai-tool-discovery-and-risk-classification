@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_09148",
+    "description_usable": true,
+    "function": "Transform selfies into various looks",
+    "category": "Image / Video Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI image transformation tool for avatars and selfies."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:23.840369+00:00"
+}

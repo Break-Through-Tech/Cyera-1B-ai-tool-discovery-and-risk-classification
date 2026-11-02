@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_03372",
+    "description_usable": true,
+    "function": "Craft compelling job applications, optimizing resume and cover letter for job postings by analyzing job descriptions",
+    "category": "Content Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI tool for crafting and optimizing resumes and cover letters."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:23.960716+00:00"
+}

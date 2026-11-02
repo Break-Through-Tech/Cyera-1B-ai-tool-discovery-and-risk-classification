@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_05272",
+    "description_usable": true,
+    "function": "Preserves details when upscaling images",
+    "category": "Image / Video Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Image upscaler confirmed to utilize AI and machine learning in keywords."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:34:33.933149+00:00"
+}

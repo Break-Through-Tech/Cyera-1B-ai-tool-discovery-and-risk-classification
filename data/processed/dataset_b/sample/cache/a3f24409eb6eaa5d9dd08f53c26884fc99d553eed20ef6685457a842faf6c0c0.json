@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_13304",
+    "description_usable": true,
+    "function": "transcription and translation services",
+    "category": "Meeting / Transcription Tools",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Provides AI-powered transcription and translation services."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:01.220257+00:00"
+}

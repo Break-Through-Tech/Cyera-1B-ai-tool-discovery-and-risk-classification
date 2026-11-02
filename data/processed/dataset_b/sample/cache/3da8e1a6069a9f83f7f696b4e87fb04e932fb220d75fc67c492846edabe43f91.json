@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_11344",
+    "description_usable": false,
+    "function": "",
+    "category": "AI Infrastructure / Model Platforms",
+    "ai_status": "ai",
+    "needs_review": true,
+    "reason": "Description is high-level marketing without explaining specific capabilities; keywords conflict heavily between digital agency and audio-visual AI utilities."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:36:01.826054+00:00"
+}

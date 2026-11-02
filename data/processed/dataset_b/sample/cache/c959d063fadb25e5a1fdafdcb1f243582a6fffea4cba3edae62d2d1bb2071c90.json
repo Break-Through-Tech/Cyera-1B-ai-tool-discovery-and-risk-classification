@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_03094",
+    "description_usable": true,
+    "function": "train and deploy AI models on sensitive, distributed data using privacy-enhancing technologies like federated learning and confidential computing, without direct data access or movement",
+    "category": "AI Infrastructure / Model Platforms",
+    "ai_status": "ai",
+    "needs_review": true,
+    "reason": "There is a sharp conflict between the description (federated learning/AI model platform) and primary_task ('News summaries')."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:34:33.914070+00:00"
+}

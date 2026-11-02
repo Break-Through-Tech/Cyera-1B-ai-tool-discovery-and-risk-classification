@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_08275",
+    "description_usable": true,
+    "function": "caption videos for social media",
+    "category": "Image / Video Generation",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Captions videos, but there is no evidence provided confirming whether AI is utilized."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:34:18.643690+00:00"
+}

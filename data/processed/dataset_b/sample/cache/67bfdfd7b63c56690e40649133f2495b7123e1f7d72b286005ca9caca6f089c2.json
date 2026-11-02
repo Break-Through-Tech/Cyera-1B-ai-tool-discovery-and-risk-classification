@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_05553",
+    "description_usable": true,
+    "function": "Automated obituary generation",
+    "category": "Content Generation",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Automated obituary generation is described, but neither description nor keywords substantiate AI implementation."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:00.004580+00:00"
+}

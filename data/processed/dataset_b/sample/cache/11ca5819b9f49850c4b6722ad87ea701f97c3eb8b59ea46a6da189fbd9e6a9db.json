@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_09961",
+    "description_usable": true,
+    "function": "Assist with personalized food ordering",
+    "category": "Other",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Food ordering assistant backed by AI agent and restaurant automation keywords."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:00.005771+00:00"
+}

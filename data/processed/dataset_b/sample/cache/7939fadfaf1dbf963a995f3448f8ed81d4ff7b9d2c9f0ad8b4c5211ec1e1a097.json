@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_02106",
+    "description_usable": false,
+    "function": "",
+    "category": "Sales / Marketing",
+    "ai_status": "ai",
+    "needs_review": true,
+    "reason": "Description is generic marketing hype with no concrete task or capability specified."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:33:34.430753+00:00"
+}

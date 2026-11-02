@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_02947",
+    "description_usable": true,
+    "function": "Generate unique icons",
+    "category": "Image / Video Generation",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Description does not state AI capability, and tool name alone does not prove AI status."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:34:59.994088+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_07022",
+    "description_usable": false,
+    "function": "",
+    "category": "Productivity",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Description is generic marketing lacking concrete capabilities, and AI status is not stated in metadata."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:34:33.925231+00:00"
+}

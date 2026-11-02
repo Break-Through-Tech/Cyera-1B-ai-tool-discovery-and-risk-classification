@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_05696",
+    "description_usable": true,
+    "function": "Slack conversation summarization",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Summarizes Slack conversations, aided by AI."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:31:18.158098+00:00"
+}

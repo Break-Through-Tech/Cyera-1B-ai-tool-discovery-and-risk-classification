@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_01420",
+    "description_usable": true,
+    "function": "generate concise YouTube summaries and key points",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Explicitly uses ChatGPT to generate summaries and key points of YouTube videos."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:34:18.642680+00:00"
+}

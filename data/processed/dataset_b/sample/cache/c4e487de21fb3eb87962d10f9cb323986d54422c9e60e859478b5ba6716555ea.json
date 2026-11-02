@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_01701",
+    "description_usable": true,
+    "function": "create high-performing LinkedIn posts by analyzing your audience and suggesting optimal content strategies",
+    "category": "Content Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI-powered tool for generating and optimizing LinkedIn posts based on audience analysis."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:33:34.431844+00:00"
+}

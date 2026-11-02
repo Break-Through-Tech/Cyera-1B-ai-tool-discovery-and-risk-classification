@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_07422",
+    "description_usable": true,
+    "function": "provide trade signals for stocks, forex, and crypto",
+    "category": "Data Analytics",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Provides automated trade signals; keywords and context confirm AI trading signals."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:31:45.444648+00:00"
+}

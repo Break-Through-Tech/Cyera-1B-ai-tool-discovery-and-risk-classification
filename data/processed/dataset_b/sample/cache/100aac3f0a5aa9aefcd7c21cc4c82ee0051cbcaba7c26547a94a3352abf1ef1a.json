@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_11382",
+    "description_usable": true,
+    "function": "Rewriting text, enhancing clarity, and providing grammar, plagiarism, and summarization features",
+    "category": "Content Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI-powered paraphrasing, grammar checking, and text refinement tool."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:26:38.640139+00:00"
+}

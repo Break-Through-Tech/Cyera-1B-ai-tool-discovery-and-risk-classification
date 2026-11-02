@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_08760",
+    "description_usable": true,
+    "function": "automatically fetches your invoices from all your emails and subscriptions",
+    "category": "Productivity",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Automated invoice fetching utility; unclear if it employs AI or traditional rule-based automation."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:31:18.171764+00:00"
+}

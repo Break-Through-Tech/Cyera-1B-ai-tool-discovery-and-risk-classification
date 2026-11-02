@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_03833",
+    "description_usable": true,
+    "function": "Answer questions via an automated chatbot",
+    "category": "Customer Support",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Identifies a question-answering chatbot, but does not explicitly confirm AI technology in description or keywords."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:12.863670+00:00"
+}

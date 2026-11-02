@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_00700",
+    "description_usable": true,
+    "function": "Automated video translation services supporting multiple languages",
+    "category": "Content Generation",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Provides automated video translation, but whether AI is specifically used is not explicit in the metadata."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:26:38.633346+00:00"
+}

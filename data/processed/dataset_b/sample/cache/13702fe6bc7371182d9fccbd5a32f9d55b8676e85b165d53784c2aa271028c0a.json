@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_10752",
+    "description_usable": true,
+    "function": "discover winning products by analyzing millions of ads across platforms like Facebook, TikTok, Pinterest, and Snapchat",
+    "category": "Sales / Marketing",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Ad spy tool for competitor research; no clear indication of AI capabilities in description or keywords."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:33:22.264245+00:00"
+}

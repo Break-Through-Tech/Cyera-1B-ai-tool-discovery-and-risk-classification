@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_11956",
+    "description_usable": true,
+    "function": "Integrates data analysis into Blazor applications to query data using natural language, generate insights, create interactive visualizations, and build custom dashboards",
+    "category": "Coding / Developer Tools",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI-powered developer tool for embedding natural language data analysis and dashboards into Blazor apps."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:37.291585+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_07604",
+    "description_usable": true,
+    "function": "Recipe generator creating personalized meal plans and shopping lists",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI-powered meal planning and recipe generation tool."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:11.461200+00:00"
+}

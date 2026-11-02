@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_15284",
+    "description_usable": true,
+    "function": "Agentic Coding Platform for Real Software",
+    "category": "Coding / Developer Tools",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Agentic AI platform for software coding."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:36:01.819098+00:00"
+}

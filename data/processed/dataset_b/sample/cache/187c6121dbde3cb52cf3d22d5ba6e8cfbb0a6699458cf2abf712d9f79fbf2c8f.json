@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_14696",
+    "description_usable": true,
+    "function": "provide real-time voice conversations with an AI companion",
+    "category": "General AI Assistants",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Clear AI companion for conversational voice interactions."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:35.218348+00:00"
+}

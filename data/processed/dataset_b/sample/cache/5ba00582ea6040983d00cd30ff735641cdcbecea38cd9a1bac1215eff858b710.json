@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_07386",
+    "description_usable": true,
+    "function": "generates high-converting ad creatives and compelling copy for various social media and search platforms in seconds",
+    "category": "Sales / Marketing",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI-driven tool for generating ad creatives and copy for marketing platforms."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:34:33.921391+00:00"
+}

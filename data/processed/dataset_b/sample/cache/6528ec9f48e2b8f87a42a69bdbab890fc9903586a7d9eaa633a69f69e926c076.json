@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_07985",
+    "description_usable": true,
+    "function": "3D floor plan creation",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Automated 3D floor plan generation service utilizing AI for architecture and interior design."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:23.833108+00:00"
+}

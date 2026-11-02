@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_13181",
+    "description_usable": true,
+    "function": "AI research assistant that helps users quickly understand academic papers, summarize, explain complex concepts, answer specific questions, and extract key information from uploaded PDFs",
+    "category": "Research / Search",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI-powered academic research assistant providing summarization and Q&A on papers."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:34:48.774365+00:00"
+}

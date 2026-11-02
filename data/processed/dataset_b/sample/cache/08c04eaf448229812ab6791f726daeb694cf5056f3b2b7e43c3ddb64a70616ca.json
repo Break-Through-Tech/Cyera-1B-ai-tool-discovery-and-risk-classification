@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_15379",
+    "description_usable": true,
+    "function": "assist with messaging on Tinder, Instagram, and other messaging platforms",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI assistant specifically for messaging support on dating/social platforms."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:35.216486+00:00"
+}

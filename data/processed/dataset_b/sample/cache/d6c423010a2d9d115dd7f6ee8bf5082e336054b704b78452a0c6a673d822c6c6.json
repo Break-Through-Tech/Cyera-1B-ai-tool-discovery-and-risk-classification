@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_15294",
+    "description_usable": true,
+    "function": "AI assistant for Gantt charts",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Provides an AI assistant specifically for creating/managing Gantt charts."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:11.453790+00:00"
+}

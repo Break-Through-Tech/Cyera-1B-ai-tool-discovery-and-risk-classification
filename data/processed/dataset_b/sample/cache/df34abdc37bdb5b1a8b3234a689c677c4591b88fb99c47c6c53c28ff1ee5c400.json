@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_03882",
+    "description_usable": true,
+    "function": "Generated quiz questions on PowerPoint slides",
+    "category": "Content Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Quiz generation on PowerPoint slides; verified as AI via tool name/domain/metadata context."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:33:07.224664+00:00"
+}

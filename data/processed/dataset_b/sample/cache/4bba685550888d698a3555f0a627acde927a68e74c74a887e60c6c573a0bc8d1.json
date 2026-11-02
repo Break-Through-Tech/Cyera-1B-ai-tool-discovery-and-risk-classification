@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_08985",
+    "description_usable": true,
+    "function": "Realistic voiceovers for game development projects",
+    "category": "Other",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "AI status is uncertain as description and metadata lack direct mention of AI capabilities beyond .ai TLD."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:34:33.916277+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_01857",
+    "description_usable": true,
+    "function": "AI image enhancement",
+    "category": "Image / Video Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Performs AI image enhancement."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:34:18.648687+00:00"
+}

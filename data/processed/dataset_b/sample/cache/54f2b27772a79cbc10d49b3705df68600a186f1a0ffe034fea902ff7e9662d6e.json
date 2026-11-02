@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_14369",
+    "description_usable": true,
+    "function": "mental health and relationship chatbot",
+    "category": "Other",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Mental health/companionship chatbot with no explicit AI evidence in the description or keywords."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:01.237150+00:00"
+}

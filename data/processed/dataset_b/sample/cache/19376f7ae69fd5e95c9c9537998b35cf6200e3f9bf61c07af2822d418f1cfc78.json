@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_01520",
+    "description_usable": true,
+    "function": "Insights for investment decisions",
+    "category": "Data Analytics",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI-driven financial research, data analytics, and investment insights platform."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:31:33.069602+00:00"
+}

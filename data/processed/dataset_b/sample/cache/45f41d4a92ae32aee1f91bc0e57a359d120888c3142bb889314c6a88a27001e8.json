@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_02572",
+    "description_usable": true,
+    "function": "Automated sales outreach and lead generation",
+    "category": "Sales / Marketing",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Tool focuses on sales outreach and lead generation automation; no AI capabilities are evidenced in description or metadata."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:23.819744+00:00"
+}

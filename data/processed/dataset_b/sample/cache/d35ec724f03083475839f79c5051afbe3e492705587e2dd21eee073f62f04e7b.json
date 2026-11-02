@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_11443",
+    "description_usable": true,
+    "function": "Build and ship your own app in 5 minutes",
+    "category": "Coding / Developer Tools",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "App builder utilizing AI and vibe coding/LLM technology to construct applications rapidly."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:36:01.818151+00:00"
+}

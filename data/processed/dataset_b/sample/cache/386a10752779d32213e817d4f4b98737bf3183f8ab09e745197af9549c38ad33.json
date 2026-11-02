@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_00426",
+    "description_usable": true,
+    "function": "Transform any subject into a stunning online course",
+    "category": "Content Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Course creation platform powered by AI indicated by tool name and domain CourseAI."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:36:28.966599+00:00"
+}

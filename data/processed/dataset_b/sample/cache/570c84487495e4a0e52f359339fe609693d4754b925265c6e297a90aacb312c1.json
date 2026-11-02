@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_16685",
+    "description_usable": true,
+    "function": "remove vocals from any music track to create instrumental or karaoke versions of songs",
+    "category": "Other",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Clear functionality provided. AI status is confirmed by primary_task mentioning 'AI music generator'. Audio editing/vocal extraction fits Other category."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:33:52.046047+00:00"
+}

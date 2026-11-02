@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_11503",
+    "description_usable": true,
+    "function": "creates realistic, high-quality audio from text",
+    "category": "Content Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI text-to-speech and voice generator for creating audio content."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:31:18.155217+00:00"
+}

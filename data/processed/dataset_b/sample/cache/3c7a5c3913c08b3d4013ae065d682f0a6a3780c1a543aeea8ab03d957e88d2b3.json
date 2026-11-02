@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_11902",
+    "description_usable": true,
+    "function": "All-in-one image editing toolkit.",
+    "category": "Image / Video Generation",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Generic image editing toolkit with no AI indicators in the description or keywords."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:34:05.198721+00:00"
+}

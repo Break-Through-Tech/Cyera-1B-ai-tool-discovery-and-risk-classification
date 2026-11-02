@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_14814",
+    "description_usable": true,
+    "function": "developing software strategies for businesses",
+    "category": "Productivity",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Description does not mention AI, and keywords are empty, leaving AI status unclear despite primary_task label."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:31:45.448060+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_15288",
+    "description_usable": true,
+    "function": "analyze skin concerns and recommend custom Korean skin care routines",
+    "category": "Other",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Explicitly details AI analysis of skin concerns and personalized skincare recommendations."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:35.213547+00:00"
+}

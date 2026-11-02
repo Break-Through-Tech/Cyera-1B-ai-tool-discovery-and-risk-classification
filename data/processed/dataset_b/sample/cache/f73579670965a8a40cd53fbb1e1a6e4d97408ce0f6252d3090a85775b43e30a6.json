@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_09844",
+    "description_usable": true,
+    "function": "Suite of business software including CRM, customer service, IT service management, and marketing automation",
+    "category": "Customer Support",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Customer service and CRM suite incorporating AI functionality."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:23.824342+00:00"
+}

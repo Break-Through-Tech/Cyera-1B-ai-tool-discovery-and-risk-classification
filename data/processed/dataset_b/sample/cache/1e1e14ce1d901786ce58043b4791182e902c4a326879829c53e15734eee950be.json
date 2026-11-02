@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_06903",
+    "description_usable": true,
+    "function": "Personalize and duplicate social media content",
+    "category": "Content Generation",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Description mentions personalizing and duplicating social content but does not confirm AI involvement."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:12.861000+00:00"
+}

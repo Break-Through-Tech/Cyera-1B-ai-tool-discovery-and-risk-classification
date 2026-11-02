@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_09339",
+    "description_usable": true,
+    "function": "streamlines workflows, automates responses, and improves team collaboration",
+    "category": "Customer Support",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Clearly described AI-powered customer support platform that automates responses and manages workflows."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:01.218656+00:00"
+}

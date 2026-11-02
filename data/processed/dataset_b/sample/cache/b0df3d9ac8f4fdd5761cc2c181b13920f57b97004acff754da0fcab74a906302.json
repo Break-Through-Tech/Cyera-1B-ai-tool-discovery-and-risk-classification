@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_05911",
+    "description_usable": true,
+    "function": "Bilingual text editing with an integrated AI co-writer",
+    "category": "Content Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Multilingual writing assistant and AI co-writer."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:26:38.626231+00:00"
+}

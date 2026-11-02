@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_14425",
+    "description_usable": true,
+    "function": "Organizes tasks and predicts next tasks",
+    "category": "Productivity",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Predictive task management implies possible AI, but no explicit confirmation of AI methodology."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:11.450040+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_06356",
+    "description_usable": true,
+    "function": "Automated collaboration for task management",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Automated task collaboration tool with clear AI/ChatGPT integrations confirmed in keywords."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:31:45.450713+00:00"
+}

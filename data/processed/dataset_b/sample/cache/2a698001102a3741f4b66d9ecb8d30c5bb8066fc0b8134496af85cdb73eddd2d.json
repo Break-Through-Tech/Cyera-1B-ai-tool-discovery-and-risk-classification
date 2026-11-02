@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_11436",
+    "description_usable": false,
+    "function": "",
+    "category": "Sales / Marketing",
+    "ai_status": "ai",
+    "needs_review": true,
+    "reason": "Description is just a marketing tagline ('Your AI Marketing Assistant') lacking concrete task details."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:33:22.263388+00:00"
+}

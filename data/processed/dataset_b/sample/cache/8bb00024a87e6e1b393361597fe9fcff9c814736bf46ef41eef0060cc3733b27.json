@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_07174",
+    "description_usable": true,
+    "function": "Web 3D design & persona creation platform",
+    "category": "Image / Video Generation",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Description and keywords provide no evidence of AI functionality."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:34:33.927799+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_11649",
+    "description_usable": true,
+    "function": "help users quickly understand and analyze academic papers, articles, and documents, summarize content, answer questions, extract key insights, and assist with literature reviews",
+    "category": "Research / Search",
+    "ai_status": "ai",
+    "needs_review": true,
+    "reason": "Severe conflict between description (academic research assistant) and primary_task/keywords (CAD design automation)."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:48.682707+00:00"
+}

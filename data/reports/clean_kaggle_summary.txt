@@ -1,0 +1,58 @@
+======================================================================
+CLEAN_KAGGLE SUMMARY
+======================================================================
+Rows in:  16,762
+Rows out: 16,762   (dropped 0)
+Columns dropped on purpose: ['Logo', 'Year Founded', 'Country', 'industry', 'technologies']
+
+Text repairs / drops:
+  mojibake_fixed: 6
+
+Website status -> group (check this mapping against your data):
+site_status_group website_status  rows
+           active         Active 14038
+           active         active     1
+          blocked      Error 401     5
+          blocked      Error 403   481
+          blocked      Error 406    44
+          blocked      Error 429    17
+          blocked      Error 436    40
+          blocked      Error 999     1
+             dead      Error 404   316
+             dead      Error 410    13
+             dead        Expired    24
+             dead  Not Reachable  1059
+        uncertain          Error   543
+        uncertain      Error 202     1
+        uncertain      Error 304     1
+        uncertain      Error 400     1
+        uncertain      Error 402    20
+        uncertain      Error 405     1
+        uncertain      Error 418     2
+        uncertain      Error 427     1
+        uncertain      Error 500    21
+        uncertain      Error 502    23
+        uncertain      Error 503    29
+        uncertain      Error 504     2
+        uncertain      Error 520     4
+        uncertain      Error 521     9
+        uncertain      Error 523     3
+        uncertain      Error 525    10
+        uncertain      Error 526    18
+        uncertain      Error 530     7
+          unknown      <missing>    27
+
+Description quality:
+  short        9,331
+  ok           4,198
+  very_short   2,703
+  missing        530
+
+Rows with a shared/platform host (domain isn't a unique identifier): 363
+Rows with an invalid or missing domain: 19
+Rows sharing a domain with another row: 4
+Rows sharing a normalized name with another row: 539
+tool_id unique: True
+
+Wrote data\processed\kaggle_clean.csv
+Wrote data\reports\clean_kaggle_log.csv

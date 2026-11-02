@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_16628",
+    "description_usable": true,
+    "function": "Turn photos into cartoons",
+    "category": "Image / Video Generation",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Converts photos to cartoons; unclear whether it relies on AI models or conventional graphic filters."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:23.833990+00:00"
+}

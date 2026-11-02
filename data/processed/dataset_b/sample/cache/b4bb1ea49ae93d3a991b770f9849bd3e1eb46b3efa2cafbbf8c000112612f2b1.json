@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_08364",
+    "description_usable": true,
+    "function": "Create anime art in seconds with realtime AI canvas",
+    "category": "Image / Video Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Generates anime art using an AI canvas."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:34:05.209850+00:00"
+}

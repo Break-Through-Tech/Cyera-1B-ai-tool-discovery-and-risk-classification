@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_06106",
+    "description_usable": true,
+    "function": "Online healthcare ecosystem for healthy & beautiful hair",
+    "category": "Other",
+    "ai_status": "ai",
+    "needs_review": true,
+    "reason": "Keywords specify AI diagnostics/scalp analysis, but core description is broad healthcare ecosystem; requires review for category and AI role."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:31:45.453213+00:00"
+}

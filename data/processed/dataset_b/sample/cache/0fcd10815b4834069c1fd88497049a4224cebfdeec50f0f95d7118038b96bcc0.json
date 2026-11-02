@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_01264",
+    "description_usable": true,
+    "function": "Produce AI content with a human touch",
+    "category": "Content Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Produces AI content for copywriting and marketing."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:00.000286+00:00"
+}

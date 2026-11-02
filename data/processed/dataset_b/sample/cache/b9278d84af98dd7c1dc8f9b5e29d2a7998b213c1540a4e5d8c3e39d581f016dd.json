@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_07826",
+    "description_usable": true,
+    "function": "Generate automated notes for mental health providers",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Automates psychotherapy notes for clinicians; keywords verify AI scribe and documentation features."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:12.872039+00:00"
+}

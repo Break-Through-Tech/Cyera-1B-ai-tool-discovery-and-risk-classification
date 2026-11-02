@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_04652",
+    "description_usable": true,
+    "function": "content browsing and summarization",
+    "category": "Research / Search",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Content browsing and summarization tool powered by LLMs and machine learning."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:31:45.457043+00:00"
+}

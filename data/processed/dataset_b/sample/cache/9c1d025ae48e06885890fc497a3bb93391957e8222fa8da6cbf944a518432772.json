@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_12165",
+    "description_usable": false,
+    "function": "",
+    "category": "Other",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Marketing tagline lacking a concrete description of features or AI capabilities."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:36:17.520567+00:00"
+}

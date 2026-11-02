@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_12363",
+    "description_usable": true,
+    "function": "live translation for churches",
+    "category": "Meeting / Transcription Tools",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Live AI-powered speech translation service for church environments."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:01.232411+00:00"
+}

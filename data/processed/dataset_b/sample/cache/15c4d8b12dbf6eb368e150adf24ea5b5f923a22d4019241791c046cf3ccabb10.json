@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_13588",
+    "description_usable": true,
+    "function": "providing solutions, explanations, and practice problems tailored to your skill level to prepare for coding interviews",
+    "category": "Coding / Developer Tools",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Interview prep tool for coding; neither description nor keywords establish if AI is utilized."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:36:01.815741+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_11766",
+    "description_usable": true,
+    "function": "Insurance underwriting co-pilot",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Generative AI co-pilot designed for insurance underwriting and risk analysis."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:31:33.059485+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_00873",
+    "description_usable": false,
+    "function": "",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": true,
+    "reason": "Description is generic IT consulting marketing; describes a healthcare tech consulting firm rather than a software tool."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:48.687930+00:00"
+}

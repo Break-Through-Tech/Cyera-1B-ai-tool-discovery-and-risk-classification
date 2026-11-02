@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_09974",
+    "description_usable": true,
+    "function": "Interview users about their lives to preserve personal memories",
+    "category": "Other",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "App interviews users to preserve life memories using conversational AI (supported by keywords and domain)."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:12.864626+00:00"
+}

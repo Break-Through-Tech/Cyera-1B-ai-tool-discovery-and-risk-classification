@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_00748",
+    "description_usable": true,
+    "function": "create and share AI-generated memes through interactive contests",
+    "category": "Content Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Platform for generating and sharing AI memes."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:48.692346+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_14649",
+    "description_usable": true,
+    "function": "Engineer and deploy large language models",
+    "category": "AI Infrastructure / Model Platforms",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Infrastructure tool focused on engineering and deploying LLMs."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:36:17.535581+00:00"
+}

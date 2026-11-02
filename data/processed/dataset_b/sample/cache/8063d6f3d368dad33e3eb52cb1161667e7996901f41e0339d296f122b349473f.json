@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_02446",
+    "description_usable": true,
+    "function": "verify content and detect plagiarism and AI-generated content",
+    "category": "Other",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Content verification and plagiarism/AI detection tool; fits security/integrity (Other)."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:35.224719+00:00"
+}

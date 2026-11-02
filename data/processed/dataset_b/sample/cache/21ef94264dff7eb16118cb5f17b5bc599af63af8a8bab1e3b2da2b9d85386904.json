@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_05284",
+    "description_usable": true,
+    "function": "Generating prompts for various actions in spreadsheets",
+    "category": "Productivity",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Generates spreadsheet prompts, but lacks explicit evidence of AI implementation vs template generation."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:37.297117+00:00"
+}

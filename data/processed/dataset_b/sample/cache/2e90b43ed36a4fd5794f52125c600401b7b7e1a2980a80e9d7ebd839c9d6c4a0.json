@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_10748",
+    "description_usable": true,
+    "function": "Meeting scheduling and coordination automation",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Meeting scheduling and coordination automation with no AI features noted."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:23.961808+00:00"
+}

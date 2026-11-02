@@ -25,8 +25,9 @@ from urllib.parse import urlparse
 
 import pandas as pd
 
-DEFAULT_PATH = Path("data") / "raw" / "kaggle.csv"
-DEFAULT_OUT = Path("data") / "reports"
+REPO_ROOT = Path(__file__).resolve().parent.parent
+DEFAULT_PATH = REPO_ROOT / "data" / "raw" / "kaggle.csv"
+DEFAULT_OUT = REPO_ROOT / "data" / "reports"
 
 MISSING_TOKENS = {"", "nan", "none", "null", "n/a", "na", "-"}
 MOJIBAKE_RE = re.compile(r"â€|Ã[\u0080-\u00bf]|Â[\u0080-\u00bf]|ï¿½|\ufffd")
@@ -352,13 +353,20 @@ def main():
     ap.add_argument("--out", type=Path, default=DEFAULT_OUT)
     args = ap.parse_args()
 
+    def resolve(path: Path) -> Path:
+        path = Path(path)
+        return path if path.is_absolute() else (REPO_ROOT / path).resolve()
+
+    args.path = resolve(args.path)
+    args.out = resolve(args.out)
+
     try:
         sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     except Exception:
         pass
 
     if not args.path.exists():
-        sys.exit(f"File not found: {args.path.resolve()}\nRun this from the project root.")
+        sys.exit(f"File not found: {args.path}")
 
     args.out.mkdir(parents=True, exist_ok=True)
     pd.set_option("display.width", 200)

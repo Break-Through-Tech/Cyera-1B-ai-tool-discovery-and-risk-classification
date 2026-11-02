@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_09764",
+    "description_usable": true,
+    "function": "Create ultra realistic text to speech voiceovers.",
+    "category": "Content Generation",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Text-to-speech voiceover tool without explicit indication of AI."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:34:05.208886+00:00"
+}

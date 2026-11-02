@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_09780",
+    "description_usable": true,
+    "function": "data visualization and document editing",
+    "category": "Productivity",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Description mentions data visualization and document editing, primary task is chatbots, and there is no clear confirmation of AI functionality."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:01.230062+00:00"
+}

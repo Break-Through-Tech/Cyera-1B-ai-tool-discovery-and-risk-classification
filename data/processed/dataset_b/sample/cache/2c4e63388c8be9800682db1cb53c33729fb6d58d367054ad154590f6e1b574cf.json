@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_09302",
+    "description_usable": true,
+    "function": "Automate data analysis, reporting, and visualization tasks within a spreadsheet",
+    "category": "Data Analytics",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI-powered spreadsheet tool for automated data analysis, reporting, and visualization."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:37.306052+00:00"
+}

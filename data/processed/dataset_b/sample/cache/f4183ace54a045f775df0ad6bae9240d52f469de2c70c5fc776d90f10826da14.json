@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_05599",
+    "description_usable": true,
+    "function": "Contract management and organization",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Contract lifecycle and management tool leveraging AI for indexing, metadata, and search."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:31:33.055577+00:00"
+}

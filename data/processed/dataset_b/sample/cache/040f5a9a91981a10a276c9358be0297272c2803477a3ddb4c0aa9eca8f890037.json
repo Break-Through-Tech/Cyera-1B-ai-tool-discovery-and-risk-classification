@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_16041",
+    "description_usable": false,
+    "function": "",
+    "category": "Sales / Marketing",
+    "ai_status": "ai",
+    "needs_review": true,
+    "reason": "Description is marketing promotional copy without identifying concrete functions or tasks."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:33:22.273004+00:00"
+}

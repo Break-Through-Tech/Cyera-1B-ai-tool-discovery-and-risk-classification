@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_12324",
+    "description_usable": true,
+    "function": "Interact with local LLMs in Apple Notes",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Directly integrates local LLMs into Apple Notes for interactive productivity."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:31:18.150772+00:00"
+}

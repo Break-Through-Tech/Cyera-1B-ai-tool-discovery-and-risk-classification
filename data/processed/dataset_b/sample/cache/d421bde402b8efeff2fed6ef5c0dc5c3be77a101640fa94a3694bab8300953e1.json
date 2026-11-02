@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_11915",
+    "description_usable": true,
+    "function": "generate engaging posts, compelling captions, and relevant hashtags across various platforms",
+    "category": "Content Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Clearly describes an AI-powered social media content generation tool."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:33:22.258412+00:00"
+}

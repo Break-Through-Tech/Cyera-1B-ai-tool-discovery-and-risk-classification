@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_14182",
+    "description_usable": true,
+    "function": "generates a full speech based on user-provided details about the couple and desired tone",
+    "category": "Content Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI speech generation tool for writing best man wedding speeches."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:01.236302+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_06187",
+    "description_usable": false,
+    "function": "",
+    "category": "Sales / Marketing",
+    "ai_status": "ai",
+    "needs_review": true,
+    "reason": "Description is vague marketing ('Tell our bots what to do...'). Keywords suggest automated AI prospecting/sales intelligence, warranting review."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:33:22.259709+00:00"
+}

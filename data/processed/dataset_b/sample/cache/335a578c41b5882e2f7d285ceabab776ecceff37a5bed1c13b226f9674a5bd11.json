@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_11421",
+    "description_usable": false,
+    "function": "",
+    "category": "Sales / Marketing",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Description is generic marketing text. Category and AI status are derived from primary task (Email writing) and keywords."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:01.215697+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_14509",
+    "description_usable": true,
+    "function": "Generate resignation letters",
+    "category": "Content Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Generates resignation letters using AI."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:11.457945+00:00"
+}

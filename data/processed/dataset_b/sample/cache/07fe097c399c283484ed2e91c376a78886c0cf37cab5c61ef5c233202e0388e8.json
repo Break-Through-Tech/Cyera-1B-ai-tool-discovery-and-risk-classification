@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_06199",
+    "description_usable": true,
+    "function": "Transcribes 120+ languages' audio/video",
+    "category": "Meeting / Transcription Tools",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Audio and video transcription tool powered by AI."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:33:34.436861+00:00"
+}

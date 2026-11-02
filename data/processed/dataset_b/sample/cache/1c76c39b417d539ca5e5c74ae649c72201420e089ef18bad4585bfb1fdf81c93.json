@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_03470",
+    "description_usable": true,
+    "function": "Get immediate health guidance with Niah AI chat",
+    "category": "General AI Assistants",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI chat assistant providing health guidance."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:48.680522+00:00"
+}

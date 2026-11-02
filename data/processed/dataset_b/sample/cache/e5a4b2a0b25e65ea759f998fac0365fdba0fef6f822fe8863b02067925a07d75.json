@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_04463",
+    "description_usable": true,
+    "function": "streamlines Kubernetes cluster management by automating tasks and providing a unified interface for various platform operations",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "DevOps tool for automating Kubernetes cluster management; no AI features are indicated in description or keywords."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:36:01.813311+00:00"
+}

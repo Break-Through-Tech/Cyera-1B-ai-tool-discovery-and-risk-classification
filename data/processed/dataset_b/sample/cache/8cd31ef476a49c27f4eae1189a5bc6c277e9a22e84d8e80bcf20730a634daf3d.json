@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_10246",
+    "description_usable": true,
+    "function": "Build and deploy custom chatbots without coding",
+    "category": "Customer Support",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "No-code chatbot builder for conversational AI experiences."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:23.828517+00:00"
+}

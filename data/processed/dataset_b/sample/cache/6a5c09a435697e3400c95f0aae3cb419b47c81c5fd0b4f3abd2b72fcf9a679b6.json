@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_08554",
+    "description_usable": true,
+    "function": "Engage customers using a website-tailored AI chatbot",
+    "category": "Customer Support",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI chatbot for instant customer engagement on websites."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:12.869094+00:00"
+}

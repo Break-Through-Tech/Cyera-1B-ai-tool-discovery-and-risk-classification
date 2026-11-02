@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_01066",
+    "description_usable": false,
+    "function": "",
+    "category": "AI Infrastructure / Model Platforms",
+    "ai_status": "ai",
+    "needs_review": true,
+    "reason": "Description is vague marketing ('Get AI to do what you actually want it to do'), though metadata shows it is a model fine-tuning/training platform."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:31:18.169401+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_08442",
+    "description_usable": true,
+    "function": "AI-Powered Art from Text",
+    "category": "Image / Video Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Identifies AI-powered text-to-art generation."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:34:33.932160+00:00"
+}

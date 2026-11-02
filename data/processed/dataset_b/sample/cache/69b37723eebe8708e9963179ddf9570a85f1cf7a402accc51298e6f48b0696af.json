@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_07344",
+    "description_usable": true,
+    "function": "helps people manage their health",
+    "category": "Other",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Healthcare management tool with AI medical decision support features classified under Other."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:33:07.213222+00:00"
+}

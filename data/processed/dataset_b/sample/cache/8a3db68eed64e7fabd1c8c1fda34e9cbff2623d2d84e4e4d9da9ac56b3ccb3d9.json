@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_11790",
+    "description_usable": true,
+    "function": "Streamline customer support processes",
+    "category": "Customer Support",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Customer support tool confirmed to use AI/LLMs by extensive keyword and domain evidence."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:12.868082+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_16687",
+    "description_usable": true,
+    "function": "Voice Dictation - Type with your Voice",
+    "category": "Productivity",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Standard voice dictation tool without clear indication of generative or explicit AI functionality."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:48.687068+00:00"
+}

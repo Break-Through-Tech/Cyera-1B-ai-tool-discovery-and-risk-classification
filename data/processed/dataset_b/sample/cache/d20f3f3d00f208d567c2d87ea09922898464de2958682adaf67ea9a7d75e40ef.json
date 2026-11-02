@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_12343",
+    "description_usable": true,
+    "function": "centralizes information from various sources to enable users to ask questions and receive instant answers",
+    "category": "Research / Search",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI-powered knowledge base and Q&A search system for information retrieval."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:31:45.459493+00:00"
+}

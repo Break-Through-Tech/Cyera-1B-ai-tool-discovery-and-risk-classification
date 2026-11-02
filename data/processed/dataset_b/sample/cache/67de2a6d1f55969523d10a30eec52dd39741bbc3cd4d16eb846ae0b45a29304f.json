@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_06918",
+    "description_usable": true,
+    "function": "No-code platform for building and deploying AI-powered applications",
+    "category": "AI Infrastructure / Model Platforms",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Platform for building, deploying, and integrating AI models into applications."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:36:17.529796+00:00"
+}

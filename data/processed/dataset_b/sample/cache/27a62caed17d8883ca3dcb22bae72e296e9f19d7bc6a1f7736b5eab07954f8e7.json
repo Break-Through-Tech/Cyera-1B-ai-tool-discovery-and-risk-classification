@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_04367",
+    "description_usable": true,
+    "function": "generates high-quality 3D product videos automatically from 2D images",
+    "category": "Image / Video Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Generates 3D product videos from 2D images using AI."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:33:34.440075+00:00"
+}

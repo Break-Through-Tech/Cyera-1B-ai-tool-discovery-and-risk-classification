@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_03429",
+    "description_usable": true,
+    "function": "Document summarization and answering assistant.",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Document assistant confirmed as AI via keywords (ai notes, ai for research, ai tutor)."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:34:05.212461+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_15223",
+    "description_usable": true,
+    "function": "Streamline content workflows with on-demand coverage-like summaries, audience insights, and instant comps",
+    "category": "Sales / Marketing",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Content intelligence and audience insights platform utilizing machine learning."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:31:33.054279+00:00"
+}

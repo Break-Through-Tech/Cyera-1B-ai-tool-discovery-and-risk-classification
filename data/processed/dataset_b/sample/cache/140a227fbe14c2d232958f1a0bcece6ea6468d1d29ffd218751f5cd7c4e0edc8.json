@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_00289",
+    "description_usable": true,
+    "function": "automate and optimize sales processes, improving lead generation, engagement, and conversion rates",
+    "category": "Sales / Marketing",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI-powered sales assistant for lead generation, outreach, and sales automation."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:33:34.429777+00:00"
+}

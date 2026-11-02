@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_09827",
+    "description_usable": true,
+    "function": "personal AI tutor-Free Plagiarism Checker",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI tutor and plagiarism checker platform for students."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:33:34.444583+00:00"
+}

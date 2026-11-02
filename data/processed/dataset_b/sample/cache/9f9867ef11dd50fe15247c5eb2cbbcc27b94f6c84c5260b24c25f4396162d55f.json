@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_02320",
+    "description_usable": true,
+    "function": "Optimized SEO & content creation for projects",
+    "category": "Content Generation",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Description and keywords do not explicitly confirm AI status despite domain/name."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:33:07.219053+00:00"
+}

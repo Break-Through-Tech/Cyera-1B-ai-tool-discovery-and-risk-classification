@@ -1,0 +1,1797 @@
+﻿tool_id,tool_name,exclusion_reason
+tool_00036,Zyka,flagged_dead
+tool_00124,Visa Estonia,flagged_dead
+tool_00151,Trendvideo,flagged_dead
+tool_00152,typewrAIter,flagged_dead
+tool_00188,Snowflake Cortex,flagged_dead
+tool_00224,RapportBuilder,flagged_dead
+tool_00272,LLaMa2 Perplexity,flagged_dead
+tool_00362,Fluxon,flagged_dead
+tool_00383,Squad GPT,flagged_dead
+tool_00412,Upskillz.ai,flagged_dead
+tool_00487,Coursebot,flagged_dead
+tool_00490,Writer.md,flagged_dead
+tool_00548,BuyScout,missing_description
+tool_00556,Succeed AI,flagged_dead
+tool_00569,VoxCraft,flagged_dead
+tool_00571,Logmeals,flagged_dead
+tool_00579,Hellooo,flagged_dead
+tool_00622,NeverEnds,flagged_dead
+tool_00658,Buzzwize,missing_description
+tool_00659,Dawn AI,missing_description
+tool_00682,Podcast.ai,flagged_dead
+tool_00733,BeFreed,missing_description
+tool_00734,bugfree.ai,missing_description
+tool_00755,Drafts.sh,flagged_dead
+tool_00782,Limeline,flagged_dead
+tool_00813,Career Chakra,missing_description
+tool_00907,AllChat,flagged_dead
+tool_00928,Discoze,flagged_dead
+tool_00956,Asklo AI,missing_description
+tool_01003,Dovetail,missing_description
+tool_01064,Nightforia,flagged_dead
+tool_01086,ADLN,flagged_dead
+tool_01130,Charlie Lounge,flagged_dead
+tool_01131,Dr.Watermark,flagged_dead
+tool_01135,Clearmind,flagged_dead
+tool_01153,ProJourney AI,flagged_dead
+tool_01155,WatchThis,flagged_dead
+tool_01176,Ask The Oracle,missing_description
+tool_01198,Uktob.ai,flagged_dead
+tool_01201,Video AI One,flagged_dead
+tool_01206,CourseGen,flagged_dead
+tool_01216,Archistar,flagged_dead
+tool_01227,Magify.design,flagged_dead
+tool_01229,Deep-talk.ai,flagged_dead
+tool_01248,ChatMe.CPA,flagged_dead
+tool_01297,Lamini,flagged_dead
+tool_01310,EzOut,flagged_dead
+tool_01340,Data Extraction,flagged_dead
+tool_01343,AI Stickr,flagged_dead
+tool_01366,Lilybank,flagged_dead
+tool_01399,Cold Mail Bot,flagged_dead
+tool_01426,Hello Literature,flagged_dead
+tool_01429,µScale,flagged_dead
+tool_01432,Juno,flagged_dead
+tool_01444,BigJpg AI,missing_description
+tool_01445,Calk AI,missing_description
+tool_01446,Deep Sequencer,missing_description
+tool_01470,BasedGPT,flagged_dead
+tool_01496,ExplainThis AI,flagged_dead
+tool_01507,Athennian AI,missing_description
+tool_01514,AI Pro Management,missing_description
+tool_01558,Skyla,flagged_dead
+tool_01559,Compass,flagged_dead
+tool_01571,Ariana AI,flagged_dead
+tool_01572,Digibate,missing_description
+tool_01626,Omnidock,flagged_dead
+tool_01674,ACE ESSAY,flagged_dead
+tool_01677,Amabay,flagged_dead
+tool_01692,Wonder AI,flagged_dead
+tool_01732,SkillsUp,flagged_dead
+tool_01763,FillBot,flagged_dead
+tool_01776,Summarize.ac,flagged_dead
+tool_01809,Apply AI,missing_description
+tool_01810,CrevCLI,missing_description
+tool_01819,Openlibre,flagged_dead
+tool_01847,SpeakAide,flagged_dead
+tool_01874,YourArtist,flagged_dead
+tool_01876,DataBanc,flagged_dead
+tool_01885,YC-GPT,flagged_dead
+tool_01893,Morgan by Atris,flagged_dead
+tool_01895,Zapclip,flagged_dead
+tool_01917,Dioptify,flagged_dead
+tool_01954,Adel,flagged_dead
+tool_02004,Lingtual,flagged_dead
+tool_02030,Minerva,flagged_dead
+tool_02031,Krome Photos,flagged_dead
+tool_02057,Capital Companion,missing_description
+tool_02113,Finpilot,flagged_dead
+tool_02128,Ask Command,flagged_dead
+tool_02153,Shoppingbot,flagged_dead
+tool_02164,PlotCh.at,flagged_dead
+tool_02170,Cluc.io,flagged_dead
+tool_02181,Triplay.ai,flagged_dead
+tool_02185,The PR Creator,flagged_dead
+tool_02221,Cubed,flagged_dead
+tool_02232,Blogkit,flagged_dead
+tool_02237,Essay Writer AI,flagged_dead
+tool_02240,Eloquence,flagged_dead
+tool_02264,AutoCode Pro,flagged_dead
+tool_02265,Manga TV,flagged_dead
+tool_02275,Grug Notes,flagged_dead
+tool_02287,KeyAI,flagged_dead
+tool_02308,FindThatEmail,flagged_dead
+tool_02310,AI photo restorer,missing_description
+tool_02311,AppFlows,missing_description
+tool_02312,Berean.ai,missing_description
+tool_02313,Change Clothes AI,missing_description
+tool_02314,Clippit AI,missing_description
+tool_02331,SexpertAI,flagged_dead
+tool_02352,The Cape,flagged_dead
+tool_02369,FlirtAI,flagged_dead
+tool_02377,Synth Resume,flagged_dead
+tool_02390,D&AVIZ,flagged_dead
+tool_02420,WithUI,flagged_dead
+tool_02452,Augmenta,missing_description
+tool_02476,Draft Alpha,missing_description
+tool_02516,AskCory,missing_description
+tool_02521,Docuo,flagged_dead
+tool_02523,Wunderguide,flagged_dead
+tool_02527,EdTools,flagged_dead
+tool_02529,DatingKiller,missing_description
+tool_02531,Tarta,flagged_dead
+tool_02569,Logic Loop,flagged_dead
+tool_02576,Creo,flagged_dead
+tool_02650,Cramify,missing_description
+tool_02651,Credal,missing_description
+tool_02652,Data Parrot,missing_description
+tool_02653,NuntiumAI,missing_description;flagged_dead
+tool_02682,VoiceSense,flagged_dead
+tool_02691,Meetrics,flagged_dead
+tool_02698,Monoid,flagged_dead
+tool_02739,AI Time Tracking,flagged_dead
+tool_02780,Lina Chat,flagged_dead
+tool_02788,Deskflow,flagged_dead
+tool_02824,Lean Canvas AI,flagged_dead
+tool_02826,CopyPartner,flagged_dead
+tool_02828,TTSAI by ENTD,flagged_dead
+tool_02854,JourneyArt,flagged_dead
+tool_02870,Design Pilot,flagged_dead
+tool_02883,Edit At Scale,flagged_dead
+tool_02914,Open Love,flagged_dead
+tool_02938,CareerCompanion,flagged_dead
+tool_02939,Diagramix,flagged_dead
+tool_02956,Aidelly,flagged_dead
+tool_02960,Design Copilot AI,flagged_dead
+tool_02961,AIPhoto Studio,flagged_dead
+tool_02982,CoInvent AI,flagged_dead
+tool_02983,COFIN,flagged_dead
+tool_03010,Unfated,flagged_dead
+tool_03014,Calldock,missing_description
+tool_03015,Digiface,missing_description
+tool_03016,DocComment,missing_description
+tool_03017,Document CoPilot,missing_description
+tool_03018,Document Extract,missing_description
+tool_03033,Makebelieve,flagged_dead
+tool_03052,TypeOfUs,flagged_dead
+tool_03077,Checklist Generator,flagged_dead
+tool_03082,Babel Dish,flagged_dead
+tool_03086,Flock Writer,flagged_dead
+tool_03090,Merlin.cx,flagged_dead
+tool_03103,Garson,flagged_dead
+tool_03122,Upscales,flagged_dead
+tool_03137,Waveform,flagged_dead
+tool_03157,Matchbooks,flagged_dead
+tool_03168,LEWK,flagged_dead
+tool_03170,Mindelia,flagged_dead
+tool_03183,Written Labs,flagged_dead
+tool_03190,VerifactAI,flagged_dead
+tool_03194,Store Copilot,flagged_dead
+tool_03202,AI Chat,flagged_dead
+tool_03227,Legoai,flagged_dead
+tool_03244,Eazy Editor,flagged_dead
+tool_03248,Analisa,flagged_dead
+tool_03251,AIChatbot,flagged_dead
+tool_03262,Enif,flagged_dead
+tool_03277,Synna,flagged_dead
+tool_03279,Tammy,flagged_dead
+tool_03282,Phrases.AI,flagged_dead
+tool_03290,SEOBox,flagged_dead
+tool_03297,Lemonado,flagged_dead
+tool_03356,CrewAI,flagged_dead
+tool_03461,Quest AI,flagged_dead
+tool_03463,Userview,flagged_dead
+tool_03490,PennyFlo,flagged_dead
+tool_03496,Kahuna,flagged_dead
+tool_03498,Asendia AI,missing_description
+tool_03499,Cove,missing_description
+tool_03500,Punt,missing_description;flagged_dead
+tool_03508,EcoReturns,flagged_dead
+tool_03527,Deflamel,flagged_dead
+tool_03550,Akita,flagged_dead
+tool_03551,Kropply,flagged_dead
+tool_03555,Tune Studio,flagged_dead
+tool_03559,DEX Insight,flagged_dead
+tool_03565,MittaAI,flagged_dead
+tool_03588,Motionbear,flagged_dead
+tool_03589,AskAnyAI,missing_description;flagged_dead
+tool_03590,Madlad,flagged_dead
+tool_03592,Copilot Hub,flagged_dead
+tool_03594,Luna,flagged_dead
+tool_03608,Nice Shorts,flagged_dead
+tool_03623,UXsquid,flagged_dead
+tool_03629,Pixie Page,flagged_dead
+tool_03650,Vitsi AI,flagged_dead
+tool_03659,BladeRunner,flagged_dead
+tool_03666,Builco,flagged_dead
+tool_03706,ImageAI.ai,flagged_dead
+tool_03717,AIReception - Hyperrealistic Virtual Receptionist,flagged_dead
+tool_03719,SupaClip Pro,flagged_dead
+tool_03726,Comicai,flagged_dead
+tool_03727,Toks,flagged_dead
+tool_03743,Portrait by Vana,flagged_dead
+tool_03756,LLAMABOT,flagged_dead
+tool_03788,Convostack,flagged_dead
+tool_03803,Intellibase,flagged_dead
+tool_03805,CraftmailAI,flagged_dead
+tool_03828,CelebU,flagged_dead
+tool_03852,Personal Replit Ghostwriter,flagged_dead
+tool_03874,Excel Formul Bot,flagged_dead
+tool_03891,Aiappideas,flagged_dead
+tool_03896,Design Ducky,flagged_dead
+tool_03913,MIA,flagged_dead
+tool_03937,ScholarAI,flagged_dead
+tool_03942,PYAI,flagged_dead
+tool_03950,Tindra,flagged_dead
+tool_03970,Rendo AI,flagged_dead
+tool_03973,Agionic,missing_description
+tool_03974,AI Book Writer,missing_description
+tool_03975,[AI] Data Assistant,missing_description
+tool_03976,Applyre AI,missing_description
+tool_03977,AutoContent API,missing_description
+tool_03978,Awan LLM,missing_description
+tool_03979,Buckshot,missing_description;flagged_dead
+tool_03980,Budgetfy,missing_description
+tool_03981,Cal.build,missing_description
+tool_03982,DogMusic AI,missing_description
+tool_03983,Moshi AI,missing_description;flagged_dead
+tool_04015,Promptchainer,flagged_dead
+tool_04024,CodeWiz,flagged_dead
+tool_04034,Madison AI,flagged_dead
+tool_04059,Langui,flagged_dead
+tool_04060,Marvin,flagged_dead
+tool_04061,EducatesAI,flagged_dead
+tool_04077,MicroByte,flagged_dead
+tool_04081,Echonotes,flagged_dead
+tool_04116,IntelliGeniusAI,flagged_dead
+tool_04120,AI Tarot Chat,flagged_dead
+tool_04128,Msgmate,flagged_dead
+tool_04137,Kmeans,flagged_dead
+tool_04148,Inke,flagged_dead
+tool_04150,Xplained,flagged_dead
+tool_04156,Datr,flagged_dead
+tool_04161,Typefrost,flagged_dead
+tool_04165,Alva AI,flagged_dead
+tool_04184,Marple,flagged_dead
+tool_04192,Digha,flagged_dead
+tool_04236,Apeiron AI,missing_description
+tool_04251,SEOlligence,flagged_dead
+tool_04254,PONS AI,flagged_dead
+tool_04257,Kroto One,flagged_dead
+tool_04262,Emaildojo,flagged_dead
+tool_04284,Magicast,flagged_dead
+tool_04285,3DFY,flagged_dead
+tool_04286,The Digital Dogs,flagged_dead
+tool_04307,Deflekt,flagged_dead
+tool_04321,simulai,flagged_dead
+tool_04328,Languify AI,flagged_dead
+tool_04344,Labnote AI,flagged_dead
+tool_04366,AI Savant,flagged_dead
+tool_04377,Cykel,flagged_dead
+tool_04384,Axsar PDF,flagged_dead
+tool_04390,Copernic,flagged_dead
+tool_04412,Dogfood,flagged_dead
+tool_04453,Xembly,flagged_dead
+tool_04458,Aegis,flagged_dead
+tool_04462,Verbaly,flagged_dead
+tool_04502,BitoAI,flagged_dead
+tool_04514,Waveline Extract,flagged_dead
+tool_04516,Senseforth,flagged_dead
+tool_04525,youtwo.ai,flagged_dead
+tool_04528,Beba AI,flagged_dead
+tool_04606,Canny Valley,missing_description
+tool_04607,Classmate,missing_description
+tool_04620,Compliance Genie,flagged_dead
+tool_04633,URAi,flagged_dead
+tool_04653,Calendly,flagged_dead
+tool_04678,Dive,flagged_dead
+tool_04686,Ava by Wizco,flagged_dead
+tool_04708,SplashAI,flagged_dead
+tool_04713,Aayde,flagged_dead
+tool_04715,DaHelp Quest,flagged_dead
+tool_04746,Pivot365.io,flagged_dead
+tool_04748,Opinionate,flagged_dead
+tool_04761,Osito,flagged_dead
+tool_04769,Digest Fahamu,flagged_dead
+tool_04792,Zavata,flagged_dead
+tool_04809,Moshi,flagged_dead
+tool_04817,What If App,flagged_dead
+tool_04836,Emet Insights,flagged_dead
+tool_04837,Dream App,flagged_dead
+tool_04849,Bard PDF,flagged_dead
+tool_04850,Multi AI Chat,flagged_dead
+tool_04882,Blogtopod,flagged_dead
+tool_04888,SlideGPT,flagged_dead
+tool_04914,MemeYourself,flagged_dead
+tool_04916,DesignlyAI,flagged_dead
+tool_04918,Knoiz,flagged_dead
+tool_04930,Attain,flagged_dead
+tool_04933,Corgi,flagged_dead
+tool_04938,TXTGPT,flagged_dead
+tool_04940,Diffusion Logo Studio,flagged_dead
+tool_04955,Demu,flagged_dead
+tool_04967,PodcastMemo,flagged_dead
+tool_04984,My Own Assistant,flagged_dead
+tool_04996,LooFM,flagged_dead
+tool_05004,Studywand,flagged_dead
+tool_05011,Dumbbell AI,flagged_dead
+tool_05016,DocuSpeed,flagged_dead
+tool_05017,PDF Coach,flagged_dead
+tool_05019,QR Code Craft,flagged_dead
+tool_05022,DimaBlocks,flagged_dead
+tool_05029,MightyGPT,flagged_dead
+tool_05061,Magus,flagged_dead
+tool_05071,ExerDevAI,flagged_dead
+tool_05081,ProductPics.ai,flagged_dead
+tool_05101,Props,flagged_dead
+tool_05115,EasyCallScript,flagged_dead
+tool_05138,Diffusion World,flagged_dead
+tool_05139,Liro.ai,flagged_dead
+tool_05148,Memoable,flagged_dead
+tool_05150,Mavis,flagged_dead
+tool_05154,DoryAI,flagged_dead
+tool_05159,AI-anywhere,flagged_dead
+tool_05172,Typedream,flagged_dead
+tool_05177,Mitrip,flagged_dead
+tool_05208,Church,flagged_dead
+tool_05218,CreateGirls AI,flagged_dead
+tool_05219,Aidea,missing_description
+tool_05220,AI-Reply,missing_description
+tool_05221,Art Remix,missing_description
+tool_05222,AskVideo,missing_description
+tool_05223,AudioWaveAI,missing_description
+tool_05224,BigIdeasDB,missing_description
+tool_05225,ClarityDocs,missing_description
+tool_05226,Clemence,missing_description
+tool_05227,CreateAny,missing_description
+tool_05228,Customform AI,missing_description
+tool_05229,DatingShoot,missing_description
+tool_05230,Detect.ai,missing_description
+tool_05231,DocLegal.ai,missing_description
+tool_05232,Docu-Chat,missing_description
+tool_05239,Swifto,flagged_dead
+tool_05256,DrawnbyAI,flagged_dead
+tool_05265,SnapDress,flagged_dead
+tool_05271,MyAutoBio,flagged_dead
+tool_05283,InlineGPT,flagged_dead
+tool_05293,Tooltips AI,flagged_dead
+tool_05318,ReplyInbox,flagged_dead
+tool_05324,Rocky AI,flagged_dead
+tool_05325,Meeting Navigator,flagged_dead
+tool_05337,EzAP,flagged_dead
+tool_05343,Project Blink,flagged_dead
+tool_05344,Docu.review,flagged_dead
+tool_05345,Codara,flagged_dead
+tool_05355,JustCodeAI,flagged_dead
+tool_05357,NicheFind,flagged_dead
+tool_05363,Newsblocks,flagged_dead
+tool_05371,AliceCam,flagged_dead
+tool_05374,Summary AI,flagged_dead
+tool_05376,Nectar.run,flagged_dead
+tool_05387,Telescope AI,flagged_dead
+tool_05423,ThreadScribe.ai,flagged_dead
+tool_05424,DreamCanvas,flagged_dead
+tool_05433,Tune Chat,flagged_dead
+tool_05434,Faster.Chat,flagged_dead
+tool_05435,TurboComment,flagged_dead
+tool_05440,Make me Epic,flagged_dead
+tool_05442,PlotGPT,flagged_dead
+tool_05459,BodyCompAI,flagged_dead
+tool_05469,Ideapad,flagged_dead
+tool_05481,Dashai,flagged_dead
+tool_05483,Wedding Speech AI,flagged_dead
+tool_05503,Create Like Ninja,flagged_dead
+tool_05527,Bella Sales,flagged_dead
+tool_05554,Lomni,flagged_dead
+tool_05555,Maax AI,flagged_dead
+tool_05560,Pandalyst,flagged_dead
+tool_05577,Fork.ai,missing_description;flagged_dead
+tool_05604,Web Domina,flagged_dead
+tool_05616,Juucy,flagged_dead
+tool_05631,Snaplet,flagged_dead
+tool_05648,Ask Bloc,flagged_dead
+tool_05653,Dubdub,flagged_dead
+tool_05655,LEAF,flagged_dead
+tool_05659,CreativeCat,flagged_dead
+tool_05665,DaveAI,flagged_dead
+tool_05666,AgentInsightS,flagged_dead
+tool_05669,Poster studio,flagged_dead
+tool_05679,CyanArrow,flagged_dead
+tool_05702,Jife,flagged_dead
+tool_05719,Zipik,flagged_dead
+tool_05721,Ayfie,flagged_dead
+tool_05723,Hirenze,missing_description;flagged_dead
+tool_05739,FALTAH,flagged_dead
+tool_05752,CloseRocket,missing_description
+tool_05755,Calepin,flagged_dead
+tool_05768,Typewiser,flagged_dead
+tool_05800,Assistr,flagged_dead
+tool_05809,SEOCopy,flagged_dead
+tool_05810,VideoSage,flagged_dead
+tool_05819,ActionGPT,missing_description
+tool_05820,Divi Form Builder,missing_description
+tool_05827,Nova A.I.,flagged_dead
+tool_05840,Wavu,flagged_dead
+tool_05879,Faceshape,flagged_dead
+tool_05894,SeniorDev,flagged_dead
+tool_05903,Caktus,flagged_dead
+tool_05908,EarningsEdge.ai,flagged_dead
+tool_05914,Telow,flagged_dead
+tool_05976,Unbound,flagged_dead
+tool_05978,Crear AI,flagged_dead
+tool_05988,Gueno,flagged_dead
+tool_06002,Latenode,flagged_dead
+tool_06024,Stonks GPT,flagged_dead
+tool_06050,Dopt,flagged_dead
+tool_06058,Magicreach,flagged_dead
+tool_06059,USP,flagged_dead
+tool_06062,Krashless,flagged_dead
+tool_06066,SEO Quickr,flagged_dead
+tool_06072,MindfulDataAI,flagged_dead
+tool_06080,Lexii,flagged_dead
+tool_06089,Cypher,flagged_dead
+tool_06099,Aircover,missing_description
+tool_06100,Alterfy,missing_description;flagged_dead
+tool_06101,DataLynn,missing_description
+tool_06102,Receptive AI,missing_description
+tool_06103,Threado AI,missing_description;flagged_dead
+tool_06123,Toplyne,flagged_dead
+tool_06147,Dover,flagged_dead
+tool_06176,Upword,flagged_dead
+tool_06246,Jumprun,flagged_dead
+tool_06264,Golem,flagged_dead
+tool_06266,Dola,flagged_dead
+tool_06276,Voz,flagged_dead
+tool_06282,Campedia,flagged_dead
+tool_06284,Lazy Write,flagged_dead
+tool_06291,MailEcho,flagged_dead
+tool_06292,Meetslay,flagged_dead
+tool_06303,Ipso AI,flagged_dead
+tool_06324,Talkitout,flagged_dead
+tool_06336,Blastora,flagged_dead
+tool_06338,Jotters Pad,flagged_dead
+tool_06354,Maximus,flagged_dead
+tool_06355,Pull Request Help,flagged_dead
+tool_06360,MagicFormat,flagged_dead
+tool_06370,Review Writer,flagged_dead
+tool_06382,ELBO Art,flagged_dead
+tool_06386,Leader Menu,flagged_dead
+tool_06389,Photoshift,flagged_dead
+tool_06395,Dealize AI,flagged_dead
+tool_06428,Makeweb.ai,flagged_dead
+tool_06431,Data Raccoon,flagged_dead
+tool_06444,ChatPDF.net,flagged_dead
+tool_06483,Country Lyrics AI,flagged_dead
+tool_06510,Riff,flagged_dead
+tool_06511,MetaVoice Studio,flagged_dead
+tool_06531,AskAIForm,flagged_dead
+tool_06548,Nava,flagged_dead
+tool_06576,Project Hermes,flagged_dead
+tool_06581,Magic Sketchpad,flagged_dead
+tool_06596,Kupiks,flagged_dead
+tool_06597,CreateApp,flagged_dead
+tool_06602,ROQ,flagged_dead
+tool_06604,Maily Wizard,flagged_dead
+tool_06605,Decorify,flagged_dead
+tool_06607,Swift AI Writer,flagged_dead
+tool_06611,Opax,flagged_dead
+tool_06614,Synapso AI,flagged_dead
+tool_06626,MeaningfulCX,flagged_dead
+tool_06628,MysticQuill,flagged_dead
+tool_06629,Purple Wave,flagged_dead
+tool_06635,Relayer,flagged_dead
+tool_06639,Promptreply,flagged_dead
+tool_06647,Moemate,flagged_dead
+tool_06651,OSCAR AI,flagged_dead
+tool_06670,CostDown,flagged_dead
+tool_06671,SmarterFolder,flagged_dead
+tool_06677,EasyDaddy,flagged_dead
+tool_06692,MostArt,flagged_dead
+tool_06698,ProtoUI,flagged_dead
+tool_06710,Tribescaler,flagged_dead
+tool_06712,Fabled AI,flagged_dead
+tool_06721,Func News,flagged_dead
+tool_06761,Asktro,flagged_dead
+tool_06790,Kindle GPT,flagged_dead
+tool_06792,Echo AI,flagged_dead
+tool_06804,GPT Law,flagged_dead
+tool_06816,TranslateI18N - A Visual Studio Extension for i18n gpt translator,flagged_dead
+tool_06829,Math Sniper,flagged_dead
+tool_06834,DANchat,flagged_dead
+tool_06841,MemeDaddy,flagged_dead
+tool_06844,Lily,flagged_dead
+tool_06845,Merton,flagged_dead
+tool_06847,VertaAI,flagged_dead
+tool_06850,Meditator.pro,flagged_dead
+tool_06859,StudentMate,flagged_dead
+tool_06866,AIAnimeGenerator,missing_description
+tool_06867,AI Essay Grader,missing_description
+tool_06868,AI Image Enhancer,missing_description;flagged_dead
+tool_06869,AnimeGen,missing_description
+tool_06870,AutEng AI,missing_description
+tool_06871,BarberGPT,missing_description
+tool_06872,Buzz Cut Filter,missing_description
+tool_06873,Clip Studio AI,missing_description
+tool_06874,DemoDazzle,missing_description
+tool_06875,Dewatermark,missing_description
+tool_06876,Doc2Exam,missing_description
+tool_06877,Dreamery AI,missing_description;flagged_dead
+tool_06878,Imaginova,missing_description;flagged_dead
+tool_06879,Lazy AI,missing_description;flagged_dead
+tool_06880,Lean,missing_description;flagged_dead
+tool_06882,Eroale,flagged_dead
+tool_06889,MoreViews,flagged_dead
+tool_06904,Wealthaire,flagged_dead
+tool_06919,PicToMesh,flagged_dead
+tool_06990,Zendial,flagged_dead
+tool_06998,DocAsk,flagged_dead
+tool_07000,PayGenie,flagged_dead
+tool_07019,Script Pro,flagged_dead
+tool_07033,Skillify,flagged_dead
+tool_07035,FigGPT,flagged_dead
+tool_07045,Lettergram,flagged_dead
+tool_07059,Quilt & Create,flagged_dead
+tool_07068,Dwim,flagged_dead
+tool_07071,Rednit,flagged_dead
+tool_07075,Listicle Club,flagged_dead
+tool_07076,DataGPTd,flagged_dead
+tool_07082,Pix AI Video,flagged_dead
+tool_07085,LectoMate,flagged_dead
+tool_07089,Vtopia.ai,flagged_dead
+tool_07096,mindECHO,flagged_dead
+tool_07099,Trip Club,flagged_dead
+tool_07102,Reel2Recipe,flagged_dead
+tool_07120,Puurl,flagged_dead
+tool_07127,DaDa,flagged_dead
+tool_07133,Qashboard,flagged_dead
+tool_07144,Upscaler CC,flagged_dead
+tool_07147,docbot,flagged_dead
+tool_07149,Weave,flagged_dead
+tool_07152,Debunkd,flagged_dead
+tool_07184,CueTap,flagged_dead
+tool_07192,Speechson,flagged_dead
+tool_07197,OAM AI Concierge,flagged_dead
+tool_07218,Utubescripts,flagged_dead
+tool_07236,Dreamery,missing_description
+tool_07249,WP Wand,flagged_dead
+tool_07250,Quiz Wizard,flagged_dead
+tool_07253,DescribeIt,flagged_dead
+tool_07260,Pacely,flagged_dead
+tool_07280,Beebzi,missing_description
+tool_07299,Capacities,missing_description
+tool_07300,SINT,flagged_dead
+tool_07306,ChordChord,missing_description
+tool_07311,MindsetAI,flagged_dead
+tool_07324,Calldesk,missing_description
+tool_07330,Wiseone,flagged_dead
+tool_07338,MateAI,flagged_dead
+tool_07342,Writesparkle,flagged_dead
+tool_07359,Zevo,flagged_dead
+tool_07364,Cloth2Life,flagged_dead
+tool_07370,Palet Design,flagged_dead
+tool_07371,ThinkEvolve,flagged_dead
+tool_07376,Zevi,flagged_dead
+tool_07380,SharurAI Xbot,flagged_dead
+tool_07394,FutrOS,flagged_dead
+tool_07396,Pixelgen,flagged_dead
+tool_07400,Sayl,flagged_dead
+tool_07407,Now & Me,flagged_dead
+tool_07411,Sam,flagged_dead
+tool_07418,EverSQL,flagged_dead
+tool_07419,Copula AI,flagged_dead
+tool_07441,Mersei,flagged_dead
+tool_07453,The Agile You,flagged_dead
+tool_07459,Swork,flagged_dead
+tool_07463,EditApp,flagged_dead
+tool_07487,Wazzap AI,missing_description
+tool_07496,Pentest Copilot,flagged_dead
+tool_07501,Perceptif,flagged_dead
+tool_07505,Medgic,flagged_dead
+tool_07518,Refeat,flagged_dead
+tool_07519,Movie Deep Search,flagged_dead
+tool_07526,MajiLabs,flagged_dead
+tool_07544,Designera,flagged_dead
+tool_07553,Aethera,missing_description
+tool_07578,FieldDay,flagged_dead
+tool_07581,Strollr,flagged_dead
+tool_07595,Nack AI,flagged_dead
+tool_07607,IllustrateAI,missing_description
+tool_07624,Lemmy,flagged_dead
+tool_07625,ai_licia,flagged_dead
+tool_07630,Echo,flagged_dead
+tool_07639,LeeAI,flagged_dead
+tool_07661,ProfessorAI,flagged_dead
+tool_07679,Windsor,flagged_dead
+tool_07680,Modelize,flagged_dead
+tool_07683,Genji,flagged_dead
+tool_07757,Facet,flagged_dead
+tool_07812,Neptyne,flagged_dead
+tool_07813,Zenfetch,flagged_dead
+tool_07823,QuestionAI,flagged_dead
+tool_07827,Dataherald,flagged_dead
+tool_07829,Nara,flagged_dead
+tool_07854,Memory Lane,flagged_dead
+tool_07866,Imagine Anything,flagged_dead
+tool_07889,DeepMate,flagged_dead
+tool_07904,Script.It,flagged_dead
+tool_07941,AI Bees,missing_description
+tool_07942,Array Assistant,missing_description
+tool_07943,Assign-AI,missing_description
+tool_07944,AutoEasy,missing_description
+tool_07945,BarRaiser,missing_description
+tool_07946,BRYTER Extract,missing_description
+tool_07947,BugRaptors,missing_description
+tool_07948,ChatOne,missing_description
+tool_07949,Coachutopia,missing_description;flagged_dead
+tool_07955,Tara AI,flagged_dead
+tool_07958,SEO Content AI,flagged_dead
+tool_07960,CreatorML,flagged_dead
+tool_07965,Ask Jules,flagged_dead
+tool_07966,Dymaxion,flagged_dead
+tool_08037,Touch AI,flagged_dead
+tool_08056,Squigl,flagged_dead
+tool_08071,Nexto,flagged_dead
+tool_08098,Dialect,flagged_dead
+tool_08111,Pet Genius,flagged_dead
+tool_08125,Joia,flagged_dead
+tool_08140,Ponzu.gg,flagged_dead
+tool_08144,Scribix Ai,flagged_dead
+tool_08145,TrustLoop,flagged_dead
+tool_08150,EzMail,flagged_dead
+tool_08163,Supportbot Pro,flagged_dead
+tool_08166,Kidotail AI,flagged_dead
+tool_08187,Lumina Chat,flagged_dead
+tool_08192,Wisecraft,flagged_dead
+tool_08193,Diffusion.gg,flagged_dead
+tool_08199,xMagic,flagged_dead
+tool_08202,Pocket Hansei,flagged_dead
+tool_08203,Optimist Varied,flagged_dead
+tool_08228,ProductlyAI,flagged_dead
+tool_08240,Xspiral,flagged_dead
+tool_08249,SwiperHelp,flagged_dead
+tool_08253,Wordplus,flagged_dead
+tool_08269,DiveDeck,flagged_dead
+tool_08271,ParallelGPT,flagged_dead
+tool_08280,VirtualFit,flagged_dead
+tool_08292,TresdotsAI,flagged_dead
+tool_08293,Modelit,flagged_dead
+tool_08310,Insightful,flagged_dead
+tool_08311,Luminaries,flagged_dead
+tool_08314,Pantheon Robotics,flagged_dead
+tool_08321,Joi AI,flagged_dead
+tool_08342,BigSpeak,flagged_dead
+tool_08345,Zivy Listens,flagged_dead
+tool_08354,CoolOutreachAI,flagged_dead
+tool_08362,Salieri,flagged_dead
+tool_08365,Consistent Character,flagged_dead
+tool_08372,Hedra AI,flagged_dead
+tool_08375,Lorai,flagged_dead
+tool_08380,SEOfficer,flagged_dead
+tool_08386,LegenDraw,flagged_dead
+tool_08399,Voice AI Note,flagged_dead
+tool_08406,FairyTailAI,flagged_dead
+tool_08418,DialogGPT,flagged_dead
+tool_08420,Faqmy.website,flagged_dead
+tool_08427,RespacedAI,flagged_dead
+tool_08435,Texql,flagged_dead
+tool_08439,DatePlanner,flagged_dead
+tool_08453,RoxyBit,flagged_dead
+tool_08455,Taim,flagged_dead
+tool_08468,Vestium AI,flagged_dead
+tool_08480,QuestWiz,flagged_dead
+tool_08482,Kira,flagged_dead
+tool_08492,Maching.ai,flagged_dead
+tool_08498,Loopy,flagged_dead
+tool_08499,Photo to Anime,flagged_dead
+tool_08519,Linked Forge,flagged_dead
+tool_08530,Metapix,flagged_dead
+tool_08544,Viroll,flagged_dead
+tool_08545,Phosus,flagged_dead
+tool_08547,Reacti.Ai,flagged_dead
+tool_08553,Eva.circul,flagged_dead
+tool_08567,Allie,flagged_dead
+tool_08585,SmoothAI.Chat,flagged_dead
+tool_08595,AIGIFs,flagged_dead
+tool_08611,MonsterImage,flagged_dead
+tool_08613,Workout Master,flagged_dead
+tool_08615,Galactic Pulse,flagged_dead
+tool_08623,SnippetHub,flagged_dead
+tool_08625,Emails Copilot,flagged_dead
+tool_08630,JustBlog,flagged_dead
+tool_08632,YouAI,flagged_dead
+tool_08639,We Write Cards,flagged_dead
+tool_08654,Post Parrot,flagged_dead
+tool_08659,Mai Tai,flagged_dead
+tool_08665,Linkquire,flagged_dead
+tool_08667,Oraklon,flagged_dead
+tool_08670,Dubify,flagged_dead
+tool_08678,Fakehn,flagged_dead
+tool_08709,Pics Enhancer,flagged_dead
+tool_08721,Moncelo,flagged_dead
+tool_08723,DraftsAI,flagged_dead
+tool_08731,ProductPic,flagged_dead
+tool_08748,Warmest,flagged_dead
+tool_08766,SEOCopilot,flagged_dead
+tool_08768,AISpeak,flagged_dead
+tool_08772,Legal AI,flagged_dead
+tool_08775,Maika AI,flagged_dead
+tool_08784,Log4u,flagged_dead
+tool_08785,LogoPicture AI,flagged_dead
+tool_08803,FasterApply,flagged_dead
+tool_08807,Slayed,flagged_dead
+tool_08809,Peachly AI,flagged_dead
+tool_08849,Ace It,missing_description
+tool_08850,AdGPT,missing_description
+tool_08851,Adsby,missing_description
+tool_08852,AflowMind,missing_description
+tool_08853,AI Avatar Art,missing_description
+tool_08854,AI Chat Bot,missing_description;flagged_dead
+tool_08855,AIflixhub,missing_description
+tool_08856,AI Image Extender,missing_description
+tool_08857,AimDash,missing_description
+tool_08858,AIStartupInsights,missing_description
+tool_08859,AI Synapse,missing_description;flagged_dead
+tool_08860,AppIsUp,missing_description
+tool_08861,ARIA,missing_description
+tool_08862,Artemis AI,missing_description
+tool_08863,AudioX,missing_description
+tool_08864,Averi AI,missing_description
+tool_08865,Best Creator,missing_description
+tool_08866,Bestppt.ai,missing_description
+tool_08867,Book Summarizer,missing_description
+tool_08868,Brandmate AI,missing_description;flagged_dead
+tool_08869,BravoClip,missing_description;flagged_dead
+tool_08870,Chat Recap AI,missing_description
+tool_08871,Chatty Tutor,missing_description
+tool_08872,Contacted.io,missing_description;flagged_dead
+tool_08873,CoverSentry,missing_description
+tool_08874,DeckFlow,missing_description
+tool_08875,DeepTab,missing_description
+tool_08876,DigiAI,missing_description;flagged_dead
+tool_08877,DraftAI,missing_description
+tool_08878,Edraw.AI,missing_description
+tool_08879,IncarnaMind,missing_description;flagged_dead
+tool_08880,JazzUp,missing_description;flagged_dead
+tool_08881,LeadsGenerator AI,missing_description;flagged_dead
+tool_08882,MailFast,missing_description;flagged_dead
+tool_08883,Movie.so,missing_description;flagged_dead
+tool_08884,Open Agent Studio,missing_description;flagged_dead
+tool_08885,Super Memos AI,missing_description;flagged_dead
+tool_08886,Supreme AI Writer,missing_description
+tool_08887,Yula,missing_description;flagged_dead
+tool_08892,PURPLE BRaiN,flagged_dead
+tool_08922,Get In Shape,flagged_dead
+tool_08926,TuneGPT,flagged_dead
+tool_08931,DigitalSidekicks,flagged_dead
+tool_08933,Voxme,flagged_dead
+tool_08944,Diplop,flagged_dead
+tool_08946,Llmchess,flagged_dead
+tool_08954,OutGrow,flagged_dead
+tool_08962,Review Summarizer,flagged_dead
+tool_08966,Datawise,flagged_dead
+tool_08982,Mockitt,flagged_dead
+tool_08986,Context,flagged_dead
+tool_08988,Cookii,flagged_dead
+tool_08991,Design My Room,flagged_dead
+tool_08997,Erase-It,flagged_dead
+tool_09001,Startupseocheck,flagged_dead
+tool_09003,Mutahunter,flagged_dead
+tool_09016,Luxa,flagged_dead
+tool_09018,Templates Chat,flagged_dead
+tool_09033,WordSeek,flagged_dead
+tool_09038,Paperclips,flagged_dead
+tool_09065,Excelformularizer,flagged_dead
+tool_09074,Stream Slides,flagged_dead
+tool_09087,VoiceReplace,flagged_dead
+tool_09089,Neets,flagged_dead
+tool_09091,Weekly Workout,flagged_dead
+tool_09094,Endoftext,flagged_dead
+tool_09111,OddityAI,flagged_dead
+tool_09125,Podstellar,flagged_dead
+tool_09126,VideoToWords,flagged_dead
+tool_09128,jsonAI,flagged_dead
+tool_09131,NoteSummarizer,flagged_dead
+tool_09139,MagicRecap,flagged_dead
+tool_09142,Face to Many,flagged_dead
+tool_09152,ExploraNote,flagged_dead
+tool_09155,Journi,flagged_dead
+tool_09156,TwoShot,flagged_dead
+tool_09161,freebeat AI,flagged_dead
+tool_09164,Noisee AI,flagged_dead
+tool_09171,JustComment,flagged_dead
+tool_09173,Genepod,flagged_dead
+tool_09175,QBitmap,flagged_dead
+tool_09178,MapDeduce,flagged_dead
+tool_09179,Purpose Quest,flagged_dead
+tool_09184,Stylefie,flagged_dead
+tool_09185,Nero Muse,flagged_dead
+tool_09188,CrazyHorseAI,flagged_dead
+tool_09191,Wondera,flagged_dead
+tool_09194,UltimateAI,flagged_dead
+tool_09196,Coprompter,flagged_dead
+tool_09200,Dating CoPilot,flagged_dead
+tool_09221,Charstar,flagged_dead
+tool_09228,Lucyd App,flagged_dead
+tool_09234,Wait But Why GPT,flagged_dead
+tool_09238,VivoChat,flagged_dead
+tool_09248,WriteGPT,flagged_dead
+tool_09249,Joor,flagged_dead
+tool_09257,FixxAI,flagged_dead
+tool_09268,Protocol Pal,flagged_dead
+tool_09270,Donakosy,flagged_dead
+tool_09275,AlpacaML,flagged_dead
+tool_09276,Quivr,flagged_dead
+tool_09278,KeyPush,flagged_dead
+tool_09280,NextChat,flagged_dead
+tool_09296,Noa Coach,flagged_dead
+tool_09300,SimpleMail,flagged_dead
+tool_09308,Atlas,missing_description;flagged_dead
+tool_09309,Beat Shaper,missing_description
+tool_09318,SecBrain,flagged_dead
+tool_09320,Daiviq,flagged_dead
+tool_09326,Ultra-Attention,flagged_dead
+tool_09334,Bibit AI,missing_description
+tool_09373,Scope Money,flagged_dead
+tool_09403,Databorg,flagged_dead
+tool_09406,Genie TechBio,missing_description;flagged_dead
+tool_09407,Tyles,flagged_dead
+tool_09414,Enwrite,flagged_dead
+tool_09415,RhetorAI,flagged_dead
+tool_09417,PencilsOut,flagged_dead
+tool_09437,Vidya,flagged_dead
+tool_09442,Rare Geanie,flagged_dead
+tool_09443,Avtaar,flagged_dead
+tool_09446,Muzzle,flagged_dead
+tool_09481,Cowriter,missing_description
+tool_09487,SplenderAI,flagged_dead
+tool_09497,Ajelix,flagged_dead
+tool_09500,Levytation,flagged_dead
+tool_09509,Business Photo AI,missing_description
+tool_09514,Veg3,flagged_dead
+tool_09539,FikraHub,missing_description;flagged_dead
+tool_09547,Cheerlink,missing_description
+tool_09553,TaleWeaver,flagged_dead
+tool_09556,Snapby AI,flagged_dead
+tool_09557,Yoit Style,flagged_dead
+tool_09563,ClousH,flagged_dead
+tool_09572,Quantera.ai,missing_description;flagged_dead
+tool_09589,Capmonster,missing_description
+tool_09591,Superblogs,flagged_dead
+tool_09611,PocketAI,flagged_dead
+tool_09613,Draft by Robin AI,flagged_dead
+tool_09633,Sniff Job,missing_description;flagged_dead
+tool_09638,Orimon,flagged_dead
+tool_09670,Rawuser,flagged_dead
+tool_09683,UserVista,flagged_dead
+tool_09701,Mimrr,flagged_dead
+tool_09705,Savvy Planner,flagged_dead
+tool_09709,Smol Developer,flagged_dead
+tool_09720,Onward,flagged_dead
+tool_09730,Flowlie,flagged_dead
+tool_09745,Papertalk,flagged_dead
+tool_09751,Rephrase,flagged_dead
+tool_09755,Podmob,flagged_dead
+tool_09770,CutLabs,flagged_dead
+tool_09774,Giftwrap,flagged_dead
+tool_09777,AI Cards,flagged_dead
+tool_09806,Storia Lab,flagged_dead
+tool_09829,WriterGenie,flagged_dead
+tool_09848,Viralify AI,flagged_dead
+tool_09930,AdRoll,missing_description
+tool_09931,Aerial,missing_description
+tool_09932,Agree.com,missing_description
+tool_09933,Airtop,missing_description
+tool_09934,Awesome Social,missing_description;flagged_dead
+tool_09935,Azna AI,missing_description
+tool_09936,Baseline AI,missing_description
+tool_09937,Bex,missing_description
+tool_09938,Buena.ai,missing_description
+tool_09939,Calibrex,missing_description
+tool_09940,Career Genie,missing_description
+tool_09941,Casey Scholar,missing_description
+tool_09942,Chambr,missing_description
+tool_09943,Chatbit,missing_description
+tool_09944,ChatOnce,missing_description;flagged_dead
+tool_09945,DataLab,missing_description
+tool_09946,DocJuris,missing_description
+tool_09947,Senior AI,missing_description;flagged_dead
+tool_09948,Superintelligent,missing_description
+tool_09955,XPRT,flagged_dead
+tool_09960,LowerEBill,flagged_dead
+tool_09993,Bidify,flagged_dead
+tool_10018,Managr,flagged_dead
+tool_10026,DaLMatian,flagged_dead
+tool_10041,Suede,flagged_dead
+tool_10062,Question Base,flagged_dead
+tool_10075,MomentoAI,flagged_dead
+tool_10080,Prism,flagged_dead
+tool_10087,SaberTrade,flagged_dead
+tool_10094,Datalynx,flagged_dead
+tool_10100,Bookshlf,flagged_dead
+tool_10104,Namy AI,flagged_dead
+tool_10106,Maimovie,flagged_dead
+tool_10118,Wasps,flagged_dead
+tool_10119,UltraAI,flagged_dead
+tool_10123,Decoritt,flagged_dead
+tool_10128,PantryBot,flagged_dead
+tool_10132,SlideInstantly,flagged_dead
+tool_10142,SaaSQuick,flagged_dead
+tool_10153,depikt,flagged_dead
+tool_10156,Keo Dev,flagged_dead
+tool_10159,Target Client AI,flagged_dead
+tool_10160,WriteRightAI,flagged_dead
+tool_10175,ReadLater,flagged_dead
+tool_10180,Eloise,flagged_dead
+tool_10194,Swarm Reviews,flagged_dead
+tool_10197,UpWin,flagged_dead
+tool_10198,Chatio,flagged_dead
+tool_10202,Hyperlight,flagged_dead
+tool_10208,Privacy Observer,flagged_dead
+tool_10224,PS2filter,flagged_dead
+tool_10238,Prototide,flagged_dead
+tool_10244,Copywise,flagged_dead
+tool_10248,Scoopika,flagged_dead
+tool_10250,Ditto,flagged_dead
+tool_10252,Workhack,flagged_dead
+tool_10253,Templates 24,flagged_dead
+tool_10257,Olilo,flagged_dead
+tool_10261,Maskr,flagged_dead
+tool_10266,PDFAI.one,flagged_dead
+tool_10267,UserSketch,flagged_dead
+tool_10269,Watzie,flagged_dead
+tool_10271,DocsPedia,flagged_dead
+tool_10274,Pillowtalks Chat,flagged_dead
+tool_10278,Knibble,flagged_dead
+tool_10292,SQLephant,flagged_dead
+tool_10295,Rizz AI,flagged_dead
+tool_10298,Sparkin AI,flagged_dead
+tool_10299,Creatorhood,flagged_dead
+tool_10301,LocalBot,flagged_dead
+tool_10303,Unc,flagged_dead
+tool_10314,ScriptFast,flagged_dead
+tool_10318,UseChat,flagged_dead
+tool_10319,CodebaseChat,flagged_dead
+tool_10320,X - Model,flagged_dead
+tool_10330,GetDone,flagged_dead
+tool_10331,PowerNote.app,flagged_dead
+tool_10334,Fantoons,flagged_dead
+tool_10342,WizFairy,flagged_dead
+tool_10345,Film Face,flagged_dead
+tool_10347,StoryBird,flagged_dead
+tool_10354,PropertyPen,flagged_dead
+tool_10358,HiddenArt,flagged_dead
+tool_10369,Stelvio,flagged_dead
+tool_10372,Relume Ipsum,flagged_dead
+tool_10379,Snape,flagged_dead
+tool_10387,Text Theater,flagged_dead
+tool_10409,Faith Forward,flagged_dead
+tool_10412,Debaters,flagged_dead
+tool_10417,Petals,flagged_dead
+tool_10422,DiscordPal,flagged_dead
+tool_10423,Locket,flagged_dead
+tool_10428,DSensei,flagged_dead
+tool_10435,Lina.Place,flagged_dead
+tool_10443,ResearchAI,flagged_dead
+tool_10444,SpinDoc,flagged_dead
+tool_10447,Proposalsgenerator,flagged_dead
+tool_10454,Regex Generator AI,flagged_dead
+tool_10462,Journalie,flagged_dead
+tool_10468,AIGA,flagged_dead
+tool_10472,Modelfuse,flagged_dead
+tool_10480,Decode 4 Kids,flagged_dead
+tool_10486,Notelier,flagged_dead
+tool_10488,TwGPT,flagged_dead
+tool_10489,Video Upscaler,flagged_dead
+tool_10495,Lunally,flagged_dead
+tool_10499,Typesetterr,flagged_dead
+tool_10513,Safyrus,flagged_dead
+tool_10526,SpyTik,flagged_dead
+tool_10528,NeedBook,flagged_dead
+tool_10540,Jory Chat,flagged_dead
+tool_10548,XCopilot,flagged_dead
+tool_10568,Hello Person,flagged_dead
+tool_10571,Wiseses,flagged_dead
+tool_10572,Name Generator,flagged_dead
+tool_10582,Baba Selo,flagged_dead
+tool_10595,DatingbyAI,flagged_dead
+tool_10604,Recontact,flagged_dead
+tool_10610,Larity,flagged_dead
+tool_10627,YourStudyGPT,flagged_dead
+tool_10629,TEXTGHOST V2,flagged_dead
+tool_10640,Make3D,flagged_dead
+tool_10649,Documate,flagged_dead
+tool_10656,Sentient Email,flagged_dead
+tool_10657,OpenGrant,flagged_dead
+tool_10659,SlickGPT,flagged_dead
+tool_10681,IllumiDesk,flagged_dead
+tool_10683,SorSor,flagged_dead
+tool_10691,Precruit,flagged_dead
+tool_10706,Parlay,flagged_dead
+tool_10740,Math99th,flagged_dead
+tool_10746,RecipeBox,flagged_dead
+tool_10766,Blinkfeed,flagged_dead
+tool_10773,AdaraChatbot,missing_description;flagged_dead
+tool_10774,addto.me,missing_description
+tool_10775,Adviseful.ai,missing_description
+tool_10776,Aflow,missing_description
+tool_10777,AiCoursify,missing_description
+tool_10778,AI Fill Image,missing_description;flagged_dead
+tool_10779,AILogoCreator,missing_description
+tool_10780,Aimage AI,missing_description
+tool_10781,AIQrArt,missing_description;flagged_dead
+tool_10782,AI Song Maker,missing_description
+tool_10783,AI Tattoo Ink,missing_description
+tool_10784,Ajent,missing_description;flagged_dead
+tool_10785,AllyChat,missing_description;flagged_dead
+tool_10786,Allyzio Copilot,missing_description;flagged_dead
+tool_10787,ArtPrompter,missing_description
+tool_10788,AskSatoshi,missing_description
+tool_10789,AskSetu,missing_description
+tool_10790,AskToWeb,missing_description;flagged_dead
+tool_10791,Audiomatic,missing_description
+tool_10792,AutoCodeWizard,missing_description
+tool_10793,AWSME AI,missing_description
+tool_10794,Bexy.ai,missing_description
+tool_10795,Bril AI,missing_description;flagged_dead
+tool_10796,CandyCall,missing_description
+tool_10797,Chatd.ai,missing_description
+tool_10798,ChatPhoto,missing_description
+tool_10799,ChatScribe Pro,missing_description;flagged_dead
+tool_10800,Circle to Search,missing_description;flagged_dead
+tool_10801,ClearAI,missing_description;flagged_dead
+tool_10802,Clever CSV,missing_description
+tool_10803,CleverType,missing_description
+tool_10804,ClipGOAT,missing_description;flagged_dead
+tool_10805,Cuco AI,missing_description;flagged_dead
+tool_10806,Dad Can't Draw,missing_description
+tool_10807,DatesAI,missing_description
+tool_10808,Decopy,missing_description
+tool_10809,Dibba.ai,missing_description
+tool_10810,DinuAI,missing_description;flagged_dead
+tool_10811,Discov AI,missing_description;flagged_dead
+tool_10812,Domusic.ai,missing_description
+tool_10813,Draftlex AI,missing_description
+tool_10814,DrawMy.Pet,missing_description
+tool_10815,Engine Labs,missing_description
+tool_10816,Expenses Day,missing_description;flagged_dead
+tool_10817,Felter AI,missing_description;flagged_dead
+tool_10818,Fireopps,missing_description;flagged_dead
+tool_10819,FitLens AI,missing_description;flagged_dead
+tool_10820,Gardian AI,missing_description;flagged_dead
+tool_10821,GlobalGPT,missing_description
+tool_10822,Golfmind,missing_description;flagged_dead
+tool_10823,Intimal AI,missing_description;flagged_dead
+tool_10824,LeetPost,missing_description;flagged_dead
+tool_10825,MayaKriti,missing_description;flagged_dead
+tool_10826,Minard,missing_description;flagged_dead
+tool_10827,MVP Machine,missing_description;flagged_dead
+tool_10828,MyLog.food,missing_description;flagged_dead
+tool_10829,Picsalt,missing_description;flagged_dead
+tool_10830,Study Hero,missing_description;flagged_dead
+tool_10831,TailorTask,missing_description;flagged_dead
+tool_10832,ViddyAI,missing_description;flagged_dead
+tool_10833,weever.ai,missing_description;flagged_dead
+tool_10834,WhisperAPI,missing_description
+tool_10835,YTNinja,missing_description;flagged_dead
+tool_10836,ZapStart,missing_description;flagged_dead
+tool_10859,Personalities.ME,flagged_dead
+tool_10861,Touring,flagged_dead
+tool_10864,RingleDingle,flagged_dead
+tool_10868,PhotogenicAI,flagged_dead
+tool_10871,ShopMigo,flagged_dead
+tool_10872,Tiny Pockets,flagged_dead
+tool_10875,Greynights,flagged_dead
+tool_10876,Wavechat,flagged_dead
+tool_10878,Pawtrait Studio,flagged_dead
+tool_10887,ContentCal,flagged_dead
+tool_10892,Fama One,flagged_dead
+tool_10899,Groundsales,flagged_dead
+tool_10900,Speqy AI,flagged_dead
+tool_10908,Photospells,flagged_dead
+tool_10911,Zenprompts,flagged_dead
+tool_10939,Surfkey,flagged_dead
+tool_10943,Dreamt,flagged_dead
+tool_10957,Zenes AI,flagged_dead
+tool_10958,SceneryAI,flagged_dead
+tool_10977,ScreenAI,flagged_dead
+tool_10978,LookUp YC,flagged_dead
+tool_10982,Scale Sleek,flagged_dead
+tool_10998,PandaChat,flagged_dead
+tool_11008,Personamo,flagged_dead
+tool_11028,ShortCast,flagged_dead
+tool_11030,LangCSS,flagged_dead
+tool_11034,SuperKeen AI,flagged_dead
+tool_11052,DoubleSlash,flagged_dead
+tool_11054,Avolo,flagged_dead
+tool_11055,TextToVideo.Bot,flagged_dead
+tool_11061,Wavflow,flagged_dead
+tool_11072,TTS-Generator,flagged_dead
+tool_11075,NegosAI,flagged_dead
+tool_11080,LeadsMe,flagged_dead
+tool_11082,Wizbot,flagged_dead
+tool_11094,Weploy,flagged_dead
+tool_11098,Ocu AI,flagged_dead
+tool_11100,Telly,flagged_dead
+tool_11101,Structured Labs,flagged_dead
+tool_11102,Knowmore,flagged_dead
+tool_11115,xPromo,flagged_dead
+tool_11120,ThumbGenix,flagged_dead
+tool_11132,StudyBotPro,flagged_dead
+tool_11149,VatchAI,flagged_dead
+tool_11157,Video AI Dubbing,flagged_dead
+tool_11158,EasterLabs,flagged_dead
+tool_11167,Spot a Bot,flagged_dead
+tool_11173,WhenX,flagged_dead
+tool_11180,SalesGPT.xyz,flagged_dead
+tool_11181,Negative Space,flagged_dead
+tool_11184,WriteMyEmail,flagged_dead
+tool_11187,Xthreads,flagged_dead
+tool_11188,Scribeflows,flagged_dead
+tool_11196,SageAI,flagged_dead
+tool_11199,Postlyy,flagged_dead
+tool_11200,SoCool,flagged_dead
+tool_11206,AiShot,flagged_dead
+tool_11209,Tweetify,flagged_dead
+tool_11212,Yt2Tweets,flagged_dead
+tool_11215,Optimyzee,flagged_dead
+tool_11216,Player2.tax,flagged_dead
+tool_11218,Tango,flagged_dead
+tool_11231,XO Analytics,flagged_dead
+tool_11237,Hoody AI,missing_description
+tool_11267,Dreamjobs,missing_description
+tool_11274,CustomWriting,missing_description
+tool_11277,Phraser,flagged_dead
+tool_11286,Sypher,missing_description;flagged_dead
+tool_11303,NOA.tech,flagged_dead
+tool_11306,Deta Surf,missing_description
+tool_11314,RespectablyAI,flagged_dead
+tool_11320,SawalAI,flagged_dead
+tool_11336,Nivan,flagged_dead
+tool_11359,Truebees,flagged_dead
+tool_11362,Jimaku,flagged_dead
+tool_11377,Socialsnips,flagged_dead
+tool_11380,ThumbCrowd,flagged_dead
+tool_11381,EchoPal,missing_description;flagged_dead
+tool_11389,Voxio,flagged_dead
+tool_11395,Prodescription,flagged_dead
+tool_11405,Pixcap,flagged_dead
+tool_11415,Semicode,flagged_dead
+tool_11445,Zazzani,flagged_dead
+tool_11450,Wiser,flagged_dead
+tool_11454,Rejoy,flagged_dead
+tool_11460,Added Matter,missing_description
+tool_11461,CallBooker,missing_description
+tool_11462,CudekAI,missing_description
+tool_11463,SkillReactor,missing_description;flagged_dead
+tool_11464,TAISK,missing_description;flagged_dead
+tool_11466,TravelGenie,flagged_dead
+tool_11498,HowToWrite,flagged_dead
+tool_11499,Trove,flagged_dead
+tool_11508,Scalescout,flagged_dead
+tool_11514,Loopin,flagged_dead
+tool_11517,Rainforest QA,flagged_dead
+tool_11518,mutable.ai,flagged_dead
+tool_11521,Printnanny,flagged_dead
+tool_11594,Octane AI,flagged_dead
+tool_11602,Permify,flagged_dead
+tool_11608,Eagle Bot,flagged_dead
+tool_11627,Performify,flagged_dead
+tool_11633,Rasgo,flagged_dead
+tool_11657,Xnote,flagged_dead
+tool_11666,Soffos AI,flagged_dead
+tool_11695,Rewatch,flagged_dead
+tool_11706,Accent GenAI,missing_description
+tool_11707,Agent Herbie,missing_description
+tool_11708,AssistLoop,missing_description
+tool_11709,Audo AI,missing_description
+tool_11710,BENlabs,missing_description
+tool_11711,Buddiz,missing_description
+tool_11712,Buzzkit AI,missing_description
+tool_11713,ChatFAI,missing_description
+tool_11714,Cimphony AI,missing_description
+tool_11715,Concierge AI,missing_description
+tool_11716,Decrackle,missing_description
+tool_11717,Deferred.com,missing_description
+tool_11718,Dovly,missing_description
+tool_11719,Furl,missing_description
+tool_11720,Goafterwork,missing_description;flagged_dead
+tool_11721,Law School AI,missing_description;flagged_dead
+tool_11722,Subtitles Love,missing_description;flagged_dead
+tool_11723,WorkUp,missing_description;flagged_dead
+tool_11739,WanderGenie,flagged_dead
+tool_11802,Sticky App,flagged_dead
+tool_11850,Rebuff,flagged_dead
+tool_11852,PentaPrompt,flagged_dead
+tool_11854,Sassy Luna,flagged_dead
+tool_11855,Pixalsaga,flagged_dead
+tool_11862,SendCall,flagged_dead
+tool_11870,Meetext,flagged_dead
+tool_11871,Relationship 2.0,flagged_dead
+tool_11886,Offthreadr,flagged_dead
+tool_11888,LastApply,flagged_dead
+tool_11911,reddiscan,flagged_dead
+tool_11913,Trendingly,flagged_dead
+tool_11919,DreamDrop,flagged_dead
+tool_11924,SmartWriteAI,flagged_dead
+tool_11925,TwoSlash,flagged_dead
+tool_11928,Shorts App,flagged_dead
+tool_11929,Leary,flagged_dead
+tool_11934,Research Buddy,flagged_dead
+tool_11936,ReplyGenius,flagged_dead
+tool_11937,GREMI,flagged_dead
+tool_11942,Time off,flagged_dead
+tool_11947,Ziggy,flagged_dead
+tool_11948,Supacodes,flagged_dead
+tool_11950,Priya,flagged_dead
+tool_11960,EstateText,flagged_dead
+tool_11970,Squadpilot,flagged_dead
+tool_11975,VERA,flagged_dead
+tool_11988,Clip Panda,flagged_dead
+tool_12012,Langame card game,flagged_dead
+tool_12018,ParsePrompt,flagged_dead
+tool_12021,Policy Pro,flagged_dead
+tool_12032,PoemGeneratorAI,flagged_dead
+tool_12046,Rapidpages,flagged_dead
+tool_12053,Storyville,flagged_dead
+tool_12054,SnapCraft,flagged_dead
+tool_12058,NeoSVG,flagged_dead
+tool_12068,Trazo,flagged_dead
+tool_12070,Karlo,flagged_dead
+tool_12075,TakomoAI,flagged_dead
+tool_12078,Textify by Storia,flagged_dead
+tool_12080,Ohayo,flagged_dead
+tool_12084,QR-Art,flagged_dead
+tool_12086,Travel Bug,flagged_dead
+tool_12088,Latentspace,flagged_dead
+tool_12089,Olli,flagged_dead
+tool_12096,QuackAI,flagged_dead
+tool_12099,Dreamora,flagged_dead
+tool_12101,Mindcommerce,flagged_dead
+tool_12102,Zodiac-Chat,flagged_dead
+tool_12109,JitterPix,flagged_dead
+tool_12120,StoryStation,flagged_dead
+tool_12121,Vaizz,flagged_dead
+tool_12127,ScriptRank,flagged_dead
+tool_12130,Talktohire,flagged_dead
+tool_12137,Creatormind,flagged_dead
+tool_12139,Onepic,flagged_dead
+tool_12147,Typee Chat,flagged_dead
+tool_12152,Supermanage AI,flagged_dead
+tool_12154,Post Master,flagged_dead
+tool_12157,Logomeld,flagged_dead
+tool_12166,Unboard,flagged_dead
+tool_12171,Faith,flagged_dead
+tool_12183,SermoAI,flagged_dead
+tool_12186,SantaGPT.in,flagged_dead
+tool_12195,Embedstore,flagged_dead
+tool_12205,Galgos AI,flagged_dead
+tool_12210,Maiwriter,flagged_dead
+tool_12211,Profile Crafter,flagged_dead
+tool_12212,QRfiddle,flagged_dead
+tool_12217,Resona V2A,flagged_dead
+tool_12222,Neural Actors,flagged_dead
+tool_12223,Domainotron,flagged_dead
+tool_12224,Omni-Zero,flagged_dead
+tool_12241,OnlyWaifus.ai,flagged_dead
+tool_12251,Tractatus,flagged_dead
+tool_12257,VideoGist,flagged_dead
+tool_12261,BeautifulSouls,flagged_dead
+tool_12270,PTH.ai,flagged_dead
+tool_12282,How Old Do I Look,flagged_dead
+tool_12299,Resona,flagged_dead
+tool_12301,WellAide,flagged_dead
+tool_12303,Miranda,flagged_dead
+tool_12305,Parsepolicy,flagged_dead
+tool_12306,SBhelper,flagged_dead
+tool_12311,Pmtoolsai,flagged_dead
+tool_12319,Waanda,flagged_dead
+tool_12321,PS2 Filter AI,flagged_dead
+tool_12322,Venixs,flagged_dead
+tool_12323,TipTap,flagged_dead
+tool_12326,ProductAI.one,flagged_dead
+tool_12332,Raya,flagged_dead
+tool_12335,Journo AI,flagged_dead
+tool_12358,Prelto,flagged_dead
+tool_12380,Vicpra,flagged_dead
+tool_12385,Mailyr,flagged_dead
+tool_12393,VidCatter,flagged_dead
+tool_12423,RetrievalAI,flagged_dead
+tool_12431,2frames.app,missing_description;flagged_dead
+tool_12432,AdShare,missing_description
+tool_12433,AetheriumAI,missing_description
+tool_12434,AfiHunt AI,missing_description;flagged_dead
+tool_12435,AgentVoice,missing_description
+tool_12436,AI Auto Blogger,missing_description
+tool_12437,AICruiter,missing_description;flagged_dead
+tool_12438,AI Dating Photos,missing_description;flagged_dead
+tool_12439,AI Drum Generator,missing_description
+tool_12440,AI Hairstyle,missing_description
+tool_12441,AIJobSaga,missing_description;flagged_dead
+tool_12442,AImusic.one,missing_description
+tool_12443,AI PPT Maker,missing_description
+tool_12444,AiReelGenerator,missing_description
+tool_12445,AI Sentence Generator,missing_description
+tool_12446,AITalk,missing_description
+tool_12447,AI Twitter Roast,missing_description
+tool_12448,altcheckerai,missing_description;flagged_dead
+tool_12449,AppScriptor,missing_description;flagged_dead
+tool_12450,ArtifyMaster,missing_description
+tool_12451,AsoLift,missing_description
+tool_12452,AteneAI,missing_description
+tool_12453,Auto AI Assistant (AAA),missing_description
+tool_12454,AutoResearch.pro,missing_description;flagged_dead
+tool_12455,AutoUGC,missing_description
+tool_12456,Avturo,missing_description
+tool_12457,Backlot,missing_description
+tool_12458,BaseAI,missing_description
+tool_12459,Best Man Pro,missing_description
+tool_12460,Better Synonyms,missing_description
+tool_12461,Build Or Not,missing_description
+tool_12462,Cactus interior,missing_description
+tool_12463,Campaign CompassAI,missing_description
+tool_12464,Caricature Maker,missing_description
+tool_12465,Celerforge,missing_description;flagged_dead
+tool_12466,Censorfy,missing_description
+tool_12467,ChatOrDie,missing_description;flagged_dead
+tool_12468,Cheaterbuster,missing_description
+tool_12469,Church Loom,missing_description
+tool_12470,Classify Anything,missing_description
+tool_12471,Coated,missing_description;flagged_dead
+tool_12472,ConseilOutfit,missing_description;flagged_dead
+tool_12473,CraftedCourses.io,missing_description
+tool_12474,CrePal,missing_description
+tool_12475,CSCopilot,missing_description
+tool_12476,Cursor,missing_description
+tool_12477,Cynthia AI,missing_description
+tool_12478,DeckGuru,missing_description
+tool_12479,DigiDish,missing_description
+tool_12480,Dinefy,missing_description
+tool_12481,Domain Crafter,missing_description
+tool_12482,Dreams Meanings,missing_description;flagged_dead
+tool_12483,Duzo,missing_description;flagged_dead
+tool_12484,Egg3,missing_description;flagged_dead
+tool_12485,Hypera,missing_description;flagged_dead
+tool_12486,Icebreaker,missing_description;flagged_dead
+tool_12487,Image Ally,missing_description;flagged_dead
+tool_12488,Inkr.app,missing_description
+tool_12489,Instashot,missing_description;flagged_dead
+tool_12490,JournalsAI,missing_description;flagged_dead
+tool_12491,Junie AI,missing_description;flagged_dead
+tool_12492,LandingPro AI,missing_description;flagged_dead
+tool_12493,Melody.Gift,missing_description;flagged_dead
+tool_12494,MentionMaster,missing_description;flagged_dead
+tool_12495,MyTrip.city,missing_description;flagged_dead
+tool_12496,Non Dumb Emails,missing_description;flagged_dead
+tool_12497,nxtblog.ai,missing_description;flagged_dead
+tool_12498,Pantio,missing_description;flagged_dead
+tool_12499,Patsnap Eureka,missing_description;flagged_dead
+tool_12500,PrimeCX AI,missing_description;flagged_dead
+tool_12501,Reply4Me,missing_description;flagged_dead
+tool_12502,Reputable,missing_description;flagged_dead
+tool_12503,ScribblePad AI,missing_description;flagged_dead
+tool_12504,search.sh,missing_description
+tool_12505,StickerIt.AI,missing_description;flagged_dead
+tool_12506,Thrive Together,missing_description;flagged_dead
+tool_12507,VIEWLOCITY,missing_description;flagged_dead
+tool_12508,Wellcode CLI,missing_description
+tool_12523,ProductListing,flagged_dead
+tool_12527,Plicanta,flagged_dead
+tool_12533,DryRunAI,flagged_dead
+tool_12540,AIPass,flagged_dead
+tool_12550,Social Plans,flagged_dead
+tool_12551,Fast Eulogy,flagged_dead
+tool_12556,TravelPlanBooker,flagged_dead
+tool_12593,Storymage,flagged_dead
+tool_12599,QuickVid,flagged_dead
+tool_12613,Varys AI,flagged_dead
+tool_12627,Salesrep GPT,flagged_dead
+tool_12641,ModerateKit,flagged_dead
+tool_12646,Intrvuz,flagged_dead
+tool_12666,KubeHelp,flagged_dead
+tool_12676,SmiliMedia,flagged_dead
+tool_12677,Viralviews,flagged_dead
+tool_12693,newsnuggetAI,flagged_dead
+tool_12702,Study Potion AI,flagged_dead
+tool_12709,VolubleAI,flagged_dead
+tool_12713,Summarize AI,flagged_dead
+tool_12719,OmniOps,flagged_dead
+tool_12722,Aginsi,flagged_dead
+tool_12728,Whattopack,flagged_dead
+tool_12729,Resumer,flagged_dead
+tool_12736,Termio,flagged_dead
+tool_12745,Zainii,flagged_dead
+tool_12749,Museclip,flagged_dead
+tool_12755,Podcast Disclosed,flagged_dead
+tool_12760,Soundeff,flagged_dead
+tool_12764,Pet Shots AI,flagged_dead
+tool_12766,Omni-Zero,flagged_dead
+tool_12770,Pixar Persona,flagged_dead
+tool_12771,Voxweave,flagged_dead
+tool_12772,ReScripted,flagged_dead
+tool_12779,TripBy.me,flagged_dead
+tool_12783,Snapsked,flagged_dead
+tool_12794,Tweeets,flagged_dead
+tool_12797,SortBird,flagged_dead
+tool_12800,MovieAIPoster,flagged_dead
+tool_12812,UpChatty,flagged_dead
+tool_12816,WhatWide,flagged_dead
+tool_12822,VSLAI,flagged_dead
+tool_12829,TravelAroundTheWorld,flagged_dead
+tool_12836,Woodle,flagged_dead
+tool_12842,Write A Thank You,flagged_dead
+tool_12843,Post BrAIner,flagged_dead
+tool_12845,ProductWriter.ai,flagged_dead
+tool_12847,Setu,flagged_dead
+tool_12851,Xsaas,flagged_dead
+tool_12858,Playlist Genius,flagged_dead
+tool_12873,MoBuddy,flagged_dead
+tool_12874,Prepar,flagged_dead
+tool_12875,Clipcision,flagged_dead
+tool_12910,BrandBastion,missing_description;flagged_dead
+tool_12911,UsefulAI,flagged_dead
+tool_12916,Sibylia,flagged_dead
+tool_12936,Artifise,flagged_dead
+tool_12945,Turbine,flagged_dead
+tool_12948,Textrics,flagged_dead
+tool_12956,Salesmaa,flagged_dead
+tool_12963,Brandmark,missing_description
+tool_12975,Ascenscia,missing_description
+tool_12995,Reflectfit,flagged_dead
+tool_13000,Scribba,flagged_dead
+tool_13008,Rythmex,flagged_dead
+tool_13013,Soshial,missing_description;flagged_dead
+tool_13018,FabricGenie,flagged_dead
+tool_13026,QMapper,flagged_dead
+tool_13029,AudioStack,missing_description
+tool_13051,WeFIRE,flagged_dead
+tool_13065,PurpleAI,flagged_dead
+tool_13070,Quetab,flagged_dead
+tool_13079,SpeakUp,flagged_dead
+tool_13080,Redoc,flagged_dead
+tool_13087,Plannit,flagged_dead
+tool_13090,Xata,flagged_dead
+tool_13127,Permar AI,flagged_dead
+tool_13128,Posturenet,flagged_dead
+tool_13160,Agentplace,missing_description
+tool_13161,Astrocade,missing_description
+tool_13162,Athmick,missing_description
+tool_13163,Checkbox,missing_description
+tool_13164,CIMBA,missing_description
+tool_13165,Clueso,missing_description
+tool_13166,Coursable,missing_description
+tool_13167,Cramly.ai,missing_description
+tool_13168,DailyBot,missing_description
+tool_13169,DocuEase,missing_description
+tool_13170,Heeyo,missing_description;flagged_dead
+tool_13220,Taskified,flagged_dead
+tool_13242,Spartan Apps,flagged_dead
+tool_13270,SylphAI,flagged_dead
+tool_13271,Quicklines,flagged_dead
+tool_13285,ReplyAIBot,flagged_dead
+tool_13293,Quanty,flagged_dead
+tool_13305,VecRank,flagged_dead
+tool_13312,PostMaker,flagged_dead
+tool_13320,Openlang,flagged_dead
+tool_13337,Link In Video,flagged_dead
+tool_13340,Zenbots,flagged_dead
+tool_13353,Personai,flagged_dead
+tool_13354,DocsChat,flagged_dead
+tool_13357,Storytailor,flagged_dead
+tool_13362,YourPen,flagged_dead
+tool_13372,StickerAIArt,flagged_dead
+tool_13374,LansiAI,flagged_dead
+tool_13382,SnapshotAI,flagged_dead
+tool_13385,SurveyLoom,flagged_dead
+tool_13388,YooHoo,flagged_dead
+tool_13397,Tattoon,flagged_dead
+tool_13401,Todobot,flagged_dead
+tool_13403,Reloc.tech,flagged_dead
+tool_13404,Traivl,flagged_dead
+tool_13407,Powerups,flagged_dead
+tool_13409,Revisor,flagged_dead
+tool_13410,Substratus,flagged_dead
+tool_13416,Lejrr,flagged_dead
+tool_13424,ScatteredNote,flagged_dead
+tool_13434,Recordme,flagged_dead
+tool_13435,Proxy,flagged_dead
+tool_13439,Video-GPT,flagged_dead
+tool_13441,Zipx,flagged_dead
+tool_13442,UltraREALS,flagged_dead
+tool_13444,Toyon,flagged_dead
+tool_13449,Semiform,flagged_dead
+tool_13451,TalkFlow,flagged_dead
+tool_13455,Therapist Online,flagged_dead
+tool_13467,Resubscribe,flagged_dead
+tool_13470,ZapHire,flagged_dead
+tool_13480,GPTPress,flagged_dead
+tool_13490,SmartPress,flagged_dead
+tool_13492,UIGPT,flagged_dead
+tool_13502,WarpSound,flagged_dead
+tool_13505,Riter App,flagged_dead
+tool_13506,JobMind,flagged_dead
+tool_13511,SneakerLogoAi,flagged_dead
+tool_13512,TheBookSum,flagged_dead
+tool_13543,Picasso AI,flagged_dead
+tool_13544,Remixo,flagged_dead
+tool_13553,Spellpage,flagged_dead
+tool_13557,RappingAI,flagged_dead
+tool_13573,Variart,flagged_dead
+tool_13576,Nextresu.me,flagged_dead
+tool_13590,SiteGuide,flagged_dead
+tool_13614,MyBuddyFit,flagged_dead
+tool_13628,TheFinAdvisor,flagged_dead
+tool_13637,1HourGPT,missing_description
+tool_13638,Ads Copilot,missing_description;flagged_dead
+tool_13639,Agentleader,missing_description
+tool_13640,AgentWP,missing_description
+tool_13641,AI Animate Image,missing_description
+tool_13642,AI Content Vitaminizer by Buddler,missing_description;flagged_dead
+tool_13643,AI Credit Repair,missing_description
+tool_13644,AI Diary,missing_description;flagged_dead
+tool_13645,AIEasyShot,missing_description
+tool_13646,AIHumanize,missing_description
+tool_13647,AI Keywording,missing_description;flagged_dead
+tool_13648,AIQ interview,missing_description
+tool_13649,AI RoastBot,missing_description
+tool_13650,AISheets,missing_description
+tool_13651,AIWidgetPro,missing_description;flagged_dead
+tool_13652,Arold,missing_description
+tool_13653,Artbit,missing_description
+tool_13654,Article2audio,missing_description
+tool_13655,Askful,missing_description
+tool_13656,AvatarStudio,missing_description
+tool_13657,Baloon.dev,missing_description
+tool_13658,BatchGPT,missing_description;flagged_dead
+tool_13659,BestPhotoAI,missing_description
+tool_13660,Better Self AI,missing_description
+tool_13661,BoltAI,missing_description
+tool_13662,BusyScribe,missing_description
+tool_13663,Buysmart.ai,missing_description
+tool_13664,BypassGPT.co,missing_description
+tool_13665,Cambrianml,missing_description
+tool_13666,CasperPractice,missing_description
+tool_13667,chatQR,missing_description
+tool_13668,CheatEye,missing_description
+tool_13669,ClosingWTF,missing_description
+tool_13670,Collectif,missing_description;flagged_dead
+tool_13671,ColoringBookAI,missing_description;flagged_dead
+tool_13672,CursorLens,missing_description
+tool_13673,DeveloperSoft,missing_description
+tool_13674,didocs.ai,missing_description;flagged_dead
+tool_13675,Drawbert,missing_description;flagged_dead
+tool_13676,DreamCut,missing_description
+tool_13677,Finjy,missing_description;flagged_dead
+tool_13678,FixMyResume,missing_description;flagged_dead
+tool_13679,Fotol AI,missing_description
+tool_13680,Free AI Audio Cleaner Online,missing_description
+tool_13681,GabrielCV,missing_description;flagged_dead
+tool_13682,GetAudify,missing_description;flagged_dead
+tool_13683,Heartbeat,missing_description;flagged_dead
+tool_13684,Jex,missing_description;flagged_dead
+tool_13685,KnowledgeGPT,missing_description;flagged_dead
+tool_13686,Lime AI,missing_description
+tool_13687,MakeBlog AI,missing_description;flagged_dead
+tool_13688,MythicMyth,missing_description;flagged_dead
+tool_13689,News.Podcast.Done,missing_description;flagged_dead
+tool_13690,No Fate AI,missing_description;flagged_dead
+tool_13691,OmniGen AI,missing_description
+tool_13692,Phala Cloud,missing_description
+tool_13693,PicGenieAI,missing_description;flagged_dead
+tool_13694,ProductPhoto,missing_description;flagged_dead
+tool_13695,QuickCare,missing_description;flagged_dead
+tool_13696,Quote Generator,missing_description;flagged_dead
+tool_13697,RquestR,missing_description;flagged_dead
+tool_13698,SEO4retail.ai,missing_description;flagged_dead
+tool_13699,ShellMate,missing_description
+tool_13700,VideoIQ AI,missing_description;flagged_dead
+tool_13701,Wellcare,missing_description;flagged_dead
+tool_13719,ScholarTurbo,flagged_dead
+tool_13722,Unrealphotoshoot,flagged_dead
+tool_13725,Tractify,flagged_dead
+tool_13726,Rody,flagged_dead
+tool_13739,Waverly,flagged_dead
+tool_13741,LearnLingo,flagged_dead
+tool_13743,Press Monkey,flagged_dead
+tool_13753,VideoMyListing,flagged_dead
+tool_13757,Spellforge,flagged_dead
+tool_13785,Qritic,flagged_dead
+tool_13793,Plinx,flagged_dead
+tool_13810,Storyhex,flagged_dead
+tool_13830,FastContent,flagged_dead
+tool_13831,ReplyReach,flagged_dead
+tool_13841,NoiseGPT,flagged_dead
+tool_13845,Tiempo,flagged_dead
+tool_13849,Parrot AI,flagged_dead
+tool_13854,Vendorful,flagged_dead
+tool_13867,Swapper - AI Fashion Model & E-commerce Assistant,flagged_dead
+tool_13876,Vidiofy,flagged_dead
+tool_13877,Rowsup,flagged_dead
+tool_13888,PixelPerfect,flagged_dead
+tool_13897,Video To Tweet,flagged_dead
+tool_13898,Spoken AI,flagged_dead
+tool_13902,Tripsei,flagged_dead
+tool_13908,Notey,flagged_dead
+tool_13912,Nujoom,flagged_dead
+tool_13920,UpFrame,flagged_dead
+tool_13935,Pickup-lines,flagged_dead
+tool_13938,Newtype,flagged_dead
+tool_13939,Stablematic,flagged_dead
+tool_13945,Wordster,flagged_dead
+tool_13946,PostHunt,flagged_dead
+tool_13949,Yearbook Photos,flagged_dead
+tool_13954,WriteMe,flagged_dead
+tool_13958,PlanTrip,flagged_dead
+tool_13960,Snaprizz,flagged_dead
+tool_13963,Quickeee,flagged_dead
+tool_13970,Zeeno,flagged_dead
+tool_13981,Pygmalion,flagged_dead
+tool_13985,Starsky,flagged_dead
+tool_13986,Pixcleaner,flagged_dead
+tool_14009,SEO Optimized Article Writer - Aisento,missing_description
+tool_14012,Sococal,flagged_dead
+tool_14016,Sociask,missing_description;flagged_dead
+tool_14019,Dadan - Online Video Creation platform,missing_description
+tool_14025,ReplyNext,missing_description;flagged_dead
+tool_14030,High5,flagged_dead
+tool_14032,Yomii,flagged_dead
+tool_14034,Onfido,flagged_dead
+tool_14049,Sonara,flagged_dead
+tool_14054,Startilla,flagged_dead
+tool_14101,SidenoteAI,flagged_dead
+tool_14105,Arcade AI,missing_description
+tool_14106,ArticleX - Podcast to Article,missing_description
+tool_14107,Clari Revenue Platform,missing_description
+tool_14108,Dapta,missing_description
+tool_14109,Dezyn,missing_description
+tool_14110,Dosu,missing_description
+tool_14111,Ella - by Atomic Elevator,missing_description
+tool_14112,Lettercast,missing_description;flagged_dead
+tool_14113,Nobio AI,missing_description;flagged_dead
+tool_14114,Salesroom,missing_description;flagged_dead
+tool_14154,AI For Developers,flagged_dead
+tool_14175,RePic AI,flagged_dead
+tool_14206,Productful,flagged_dead
+tool_14217,Pagewise,flagged_dead
+tool_14219,Trimmr,flagged_dead
+tool_14231,RecipeWrangle,flagged_dead
+tool_14241,OnlyBabes.ai,flagged_dead
+tool_14244,Rediron,flagged_dead
+tool_14248,SmartCV,flagged_dead
+tool_14262,Vribble,flagged_dead
+tool_14279,Vocut,flagged_dead
+tool_14281,Tech Vetting,flagged_dead
+tool_14293,Smooth Talker,flagged_dead
+tool_14301,Verticle,flagged_dead
+tool_14302,Satellitewriter,flagged_dead
+tool_14313,ScriptGenAI,flagged_dead
+tool_14332,SkillOk,flagged_dead
+tool_14333,Snapstager,flagged_dead
+tool_14383,Note-Rack,flagged_dead
+tool_14385,AI Text Summarizer,missing_description
+tool_14386,AIComicFactory.ai,missing_description
+tool_14387,AI Dating Coach by Mimetic Labs,missing_description
+tool_14388,AI Detector Online,missing_description
+tool_14389,AI Headline Generator by DiagnoSEO,missing_description
+tool_14390,AI Interview Copilot,missing_description
+tool_14391,AI Photo Editor,missing_description
+tool_14392,AI PowerPoint Maker,missing_description
+tool_14393,AIResumeBuilder,missing_description
+tool_14394,Aitherapy - Free AI Therapist,missing_description
+tool_14395,Auto recruit,missing_description;flagged_dead
+tool_14396,AutoResume,missing_description
+tool_14397,Best Coloring Pages,missing_description
+tool_14398,BrowserAct,missing_description
+tool_14399,ChatMatrix,missing_description
+tool_14400,CloutSim: AI Twitter Simulator,missing_description
+tool_14401,Crayon AI,missing_description
+tool_14402,CRON AI Builder Online,missing_description
+tool_14403,Deepfind,missing_description
+tool_14404,DeepMaker AI Tattoo Generator,missing_description
+tool_14405,Depth - AI Product Manager,missing_description
+tool_14406,DetectGPT - AI Humanizer,missing_description
+tool_14407,DreamShootAI,missing_description
+tool_14408,Free AI Music Generator,missing_description
+tool_14409,FreePhotoAI,missing_description;flagged_dead
+tool_14410,Hot Tattoo AI,missing_description;flagged_dead
+tool_14411,Leo: AI Phone Assistants for Small Businesses,missing_description
+tool_14412,Meal Wizzard,missing_description;flagged_dead
+tool_14413,MyKaya,missing_description;flagged_dead
+tool_14414,Ogrovision,missing_description
+tool_14415,PACT | Free Compliance Audit,missing_description
+tool_14416,PixelWise,missing_description;flagged_dead
+tool_14417,Playjump,missing_description;flagged_dead
+tool_14418,Recolor Me,missing_description;flagged_dead
+tool_14419,RightCruiter,missing_description;flagged_dead
+tool_14420,Speek,missing_description;flagged_dead
+tool_14421,SubCapGenie,missing_description;flagged_dead
+tool_14422,Whiteboard by Athena AI,missing_description
+tool_14434,Neurobit,flagged_dead
+tool_14435,Tiimo,flagged_dead
+tool_14467,RestorePhotos.Pro,flagged_dead
+tool_14470,Repeto,flagged_dead
+tool_14476,Speechforms,flagged_dead
+tool_14477,Searcholic,flagged_dead
+tool_14484,Pebble,flagged_dead
+tool_14493,Reppi,flagged_dead
+tool_14497,Onboardix,flagged_dead
+tool_14519,Web Transpose,flagged_dead
+tool_14543,Notionsmith,flagged_dead
+tool_14544,SlashDreamer,flagged_dead
+tool_14553,Siuuu,flagged_dead
+tool_14618,BeautyPlus AI Image Enhancer,missing_description
+tool_14629,UX-Ray 1.0 by Baymard,missing_description
+tool_14669,Attention Insight Heatmaps,missing_description
+tool_14702,Discovery Outcomes,missing_description
+tool_14754,Tomsplanner,flagged_dead
+tool_14870,Cloud Contracts 365,missing_description
+tool_14943,SuperBooking,flagged_dead
+tool_15117,AI Ease: AI Headshot Generator,missing_description
+tool_15118,AI Resume Builder for Recruiters,missing_description
+tool_15119,Britannica AI Chatbot,missing_description
+tool_15120,Chordio Wireframes,missing_description
+tool_15121,Crackerjack Resume,missing_description
+tool_15122,Image Caption Generator,missing_description
+tool_15123,Rowebco,missing_description
+tool_15526,AI Tools Corner,flagged_dead
+tool_15753,All Things AI,flagged_dead
+tool_15760,Telechat,flagged_dead
+tool_15889,Yesr,flagged_dead
+tool_15906,Altern,flagged_dead
+tool_16067,AI Tools For Me,flagged_dead
+tool_16165,Zanki,flagged_dead
+tool_16206,AI Poster Generator,missing_description
+tool_16207,AI Chatbot Support,missing_description
+tool_16208,AI Christmas Photo,missing_description
+tool_16209,AI Email Generator,missing_description
+tool_16210,Ai Generator Cards,missing_description
+tool_16211,AI Image Generator,missing_description
+tool_16212,AI Interior Studio,missing_description
+tool_16213,AI Kissing Video Generator,missing_description
+tool_16214,AI Kiss Video Generator,missing_description
+tool_16215,AI Letter Generator,missing_description
+tool_16216,AI Manga Translator,missing_description
+tool_16217,AI Newsletter Generator,missing_description
+tool_16218,AI PDF Redaction Tool,missing_description
+tool_16219,AI Song Generator AI,missing_description
+tool_16220,AI Sound Effect Generator,missing_description
+tool_16221,AI Tattoo Generator App,missing_description
+tool_16222,ArtAny AI's Image to Video,missing_description
+tool_16223,Artifact Hospitality,missing_description
+tool_16224,Attractiveness Score,missing_description
+tool_16225,Bar Exam - Educato AI,missing_description
+tool_16226,Bulk Image Generator,missing_description
+tool_16227,Car Part Identifier,missing_description
+tool_16228,CGFT - Finetuned Code AI,missing_description
+tool_16229,Chatflot AI Chatbot,missing_description
+tool_16230,Claptools Free Youtube Transcriptor,missing_description
+tool_16231,Clean Inbox for Gmail,missing_description
+tool_16232,Course Generator Pro,missing_description
+tool_16233,Creative Minds Think Alike,missing_description
+tool_16234,Disney Pixar AI Generator,missing_description
+tool_16235,Dream Interpretation AI,missing_description
+tool_16236,MatchPoint - dodocs.ai,missing_description
+tool_16237,MUI VS Code Extension,missing_description
+tool_16238,Path Weaver,missing_description;flagged_dead
+tool_16239,Remusic,missing_description;flagged_dead
+tool_16240,Zoviz Branding Expert,missing_description
+tool_16680,Summarycat,flagged_dead
+tool_16744,01.AI,invalid_or_missing_domain
+tool_16745,DataCove AI,invalid_or_missing_domain
+tool_16746,Tongyi (Qwen) | 通义 - 你的超级个人助理,invalid_or_missing_domain
+tool_16747,Zithara,invalid_or_missing_domain
+tool_16748,Artevia,invalid_or_missing_domain
+tool_16749,Atero AI,invalid_or_missing_domain
+tool_16750,Crusoe,invalid_or_missing_domain
+tool_16751,GemsOfAi,invalid_or_missing_domain
+tool_16752,Connect Genie Ai,invalid_or_missing_domain
+tool_16753,Groq,invalid_or_missing_domain
+tool_16754,hikeseo,invalid_or_missing_domain
+tool_16755,Kaspar AI,invalid_or_missing_domain
+tool_16756,OpenCV,invalid_or_missing_domain
+tool_16757,Qwen,invalid_or_missing_domain
+tool_16758,Loopify Copilot,invalid_or_missing_domain
+tool_16759,Notewise,invalid_or_missing_domain
+tool_16760,Sharly AI,invalid_or_missing_domain
+tool_16761,x.ai,invalid_or_missing_domain
+tool_16762,Z.ai,invalid_or_missing_domain

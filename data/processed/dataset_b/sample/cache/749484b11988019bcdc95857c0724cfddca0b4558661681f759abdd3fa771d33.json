@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_04667",
+    "description_usable": false,
+    "function": "",
+    "category": "Other",
+    "ai_status": "ai",
+    "needs_review": true,
+    "reason": "Description is generic marketing ('The all-in-one AI platform for your classroom') without specific functions; needs review to confirm specific educational scope."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:12.861927+00:00"
+}

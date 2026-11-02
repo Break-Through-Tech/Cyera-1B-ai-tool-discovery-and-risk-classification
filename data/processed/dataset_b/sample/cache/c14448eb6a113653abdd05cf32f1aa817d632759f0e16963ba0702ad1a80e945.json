@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_03865",
+    "description_usable": true,
+    "function": "Generate text messages for flirting, sexting, and dating",
+    "category": "Content Generation",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Generates text messages for dating/flirting, but does not explicitly confirm AI usage in description or metadata."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:12.867224+00:00"
+}

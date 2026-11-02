@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_14698",
+    "description_usable": true,
+    "function": "Keyword Research and ChatGPT prompts browser extension",
+    "category": "Sales / Marketing",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Browser extension providing keyword research and ChatGPT prompts."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:36:28.974168+00:00"
+}

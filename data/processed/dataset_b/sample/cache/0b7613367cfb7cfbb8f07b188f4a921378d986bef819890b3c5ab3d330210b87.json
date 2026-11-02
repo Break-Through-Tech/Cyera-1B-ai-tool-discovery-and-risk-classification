@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_06762",
+    "description_usable": false,
+    "function": "",
+    "category": "Sales / Marketing",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Description is vague/incomplete marketing outcome; AI status cannot be confirmed from description and keywords."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:33:34.432798+00:00"
+}

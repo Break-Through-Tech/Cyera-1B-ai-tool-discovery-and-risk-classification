@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_02089",
+    "description_usable": true,
+    "function": "AI-Powered Resumes, Cover Letters, and Mock Interviews",
+    "category": "Content Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Generates career documents (resumes and cover letters) with AI assistance."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:23.950515+00:00"
+}

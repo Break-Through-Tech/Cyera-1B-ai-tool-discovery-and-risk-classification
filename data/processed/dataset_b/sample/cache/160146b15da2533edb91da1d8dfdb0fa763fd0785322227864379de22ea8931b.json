@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_06127",
+    "description_usable": true,
+    "function": "Automates radiology workflows including image analysis, report generation, and quality control",
+    "category": "Other",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Specialized AI medical software for radiology analysis and reporting."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:26:38.636373+00:00"
+}

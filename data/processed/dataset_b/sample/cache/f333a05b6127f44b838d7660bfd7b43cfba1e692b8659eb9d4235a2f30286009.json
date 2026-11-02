@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_06419",
+    "description_usable": true,
+    "function": "generate engaging content, schedule posts, and analyze performance across various platforms",
+    "category": "Content Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI-powered social media content generation and scheduling tool."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:33:34.427023+00:00"
+}

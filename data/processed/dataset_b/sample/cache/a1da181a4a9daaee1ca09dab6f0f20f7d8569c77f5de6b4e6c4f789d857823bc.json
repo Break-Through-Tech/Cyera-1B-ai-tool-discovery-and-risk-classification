@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_05797",
+    "description_usable": true,
+    "function": "Boost conversion rates with GPT-powered chatbots optimized for eCommerce",
+    "category": "Customer Support",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "ECommerce chatbot powered by GPT for sales and customer conversion."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:31:33.041739+00:00"
+}

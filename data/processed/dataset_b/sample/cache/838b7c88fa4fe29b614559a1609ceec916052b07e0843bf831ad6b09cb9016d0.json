@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_01700",
+    "description_usable": true,
+    "function": "Candidate search and recruitment solution",
+    "category": "Productivity",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "AI in name alone does not prove AI capability, and description does not mention AI."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:11.454933+00:00"
+}

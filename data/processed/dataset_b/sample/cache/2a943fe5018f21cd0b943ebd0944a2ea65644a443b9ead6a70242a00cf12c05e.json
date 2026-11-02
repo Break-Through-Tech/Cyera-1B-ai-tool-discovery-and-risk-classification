@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_01071",
+    "description_usable": true,
+    "function": "AI-powered video editing tool that simplifies the process of clipping, editing, and posting videos across various platforms",
+    "category": "Image / Video Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI-powered video clipping and editing tool."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:34:48.781381+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_04610",
+    "description_usable": true,
+    "function": "Online course creation and management",
+    "category": "Content Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Course creation and management tool supported by extensive AI content generation keywords."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:36:17.534551+00:00"
+}

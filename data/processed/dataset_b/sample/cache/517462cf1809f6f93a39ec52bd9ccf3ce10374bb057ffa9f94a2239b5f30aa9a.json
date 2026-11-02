@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_05846",
+    "description_usable": true,
+    "function": "Ace technical coding interviews with autonomous mock interviews",
+    "category": "Coding / Developer Tools",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Autonomous mock interviews for technical coding interview preparation imply AI-driven interview simulation."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:31:18.149159+00:00"
+}

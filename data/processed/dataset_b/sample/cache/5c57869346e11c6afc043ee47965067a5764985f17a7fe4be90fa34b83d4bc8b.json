@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_00072",
+    "description_usable": true,
+    "function": "provides hands-free meal discovery and ordering through natural language, voice, or image interactions",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI-powered food ordering agent Remy handles meal discovery and ordering via natural language, voice, and image interactions."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:36:01.805973+00:00"
+}

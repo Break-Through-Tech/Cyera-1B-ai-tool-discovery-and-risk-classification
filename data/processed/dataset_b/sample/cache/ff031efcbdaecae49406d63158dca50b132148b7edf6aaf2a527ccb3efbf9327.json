@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_15616",
+    "description_usable": true,
+    "function": "Convert receipts and invoices into clean, ready-to-use JSON data",
+    "category": "Productivity",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "OCR receipt extraction tool; unclear if it uses AI/machine learning or standard OCR heuristics."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:31:33.053129+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_08629",
+    "description_usable": true,
+    "function": "Generated artwork for artists and designers",
+    "category": "Image / Video Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Image generation capability indicated by description, name, and primary_task."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:33:52.064918+00:00"
+}

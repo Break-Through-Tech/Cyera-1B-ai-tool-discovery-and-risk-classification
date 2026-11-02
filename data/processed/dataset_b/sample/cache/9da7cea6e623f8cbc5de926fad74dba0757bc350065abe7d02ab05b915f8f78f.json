@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_08445",
+    "description_usable": true,
+    "function": "Provides personalized workout plans and AI-powered coaching to help users achieve fitness goals",
+    "category": "Other",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI-driven fitness and coaching platform; fitness falls outside predefined specific categories so Other is appropriate."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:36:17.523724+00:00"
+}
