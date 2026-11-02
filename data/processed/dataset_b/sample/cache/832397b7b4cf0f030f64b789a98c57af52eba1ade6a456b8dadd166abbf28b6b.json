@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_03226",
+    "description_usable": true,
+    "function": "Create strong visual social, web, and ad designs",
+    "category": "Image / Video Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Creates visual designs and ads; keywords confirm generative AI image/design functionality."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:37.282519+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_04380",
+    "description_usable": true,
+    "function": "Automated, AI-generated note taking for recruiters and interviewers",
+    "category": "Meeting / Transcription Tools",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Provides AI-generated note taking and transcription specifically designed for interviewers."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:23.821217+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_07936",
+    "description_usable": true,
+    "function": "Monitored, debugged, and tested product development",
+    "category": "AI Infrastructure / Model Platforms",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Developer platform for AI/LLM evaluation, testing, safety, and debugging."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:36:17.539124+00:00"
+}

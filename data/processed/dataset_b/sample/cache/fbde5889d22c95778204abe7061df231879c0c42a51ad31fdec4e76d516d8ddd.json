@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_04881",
+    "description_usable": true,
+    "function": "Convert your website traffic into paying customers with AI-driven insights",
+    "category": "Sales / Marketing",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI-driven conversion rate optimization and traffic insights."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:33:07.227515+00:00"
+}

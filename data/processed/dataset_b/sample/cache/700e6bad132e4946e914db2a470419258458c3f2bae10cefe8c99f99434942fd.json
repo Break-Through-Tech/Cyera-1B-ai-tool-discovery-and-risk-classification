@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_00303",
+    "description_usable": true,
+    "function": "Analyze data and generate reports in Excel",
+    "category": "Data Analytics",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Analyzes data and generates reports in Excel, but AI status is not established from the provided metadata."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:37.293137+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_03545",
+    "description_usable": true,
+    "function": "file personal taxes efficiently and accurately using AI-powered guidance",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Provides AI-powered personal tax filing assistance and guidance."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:31:45.439094+00:00"
+}

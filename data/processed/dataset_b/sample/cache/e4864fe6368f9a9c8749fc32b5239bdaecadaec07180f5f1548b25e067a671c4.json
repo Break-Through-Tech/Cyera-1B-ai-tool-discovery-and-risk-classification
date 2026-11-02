@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_15724",
+    "description_usable": true,
+    "function": "Create photorealistic images using the HiDream-I1 AI image generation model",
+    "category": "Image / Video Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Explicitly identifies concrete AI image generation capability using a specific model."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:33:52.065720+00:00"
+}

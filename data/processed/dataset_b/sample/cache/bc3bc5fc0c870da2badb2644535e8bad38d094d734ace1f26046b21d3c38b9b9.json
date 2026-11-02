@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_10256",
+    "description_usable": false,
+    "function": "",
+    "category": "Coding / Developer Tools",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Description is generic marketing hype ('Build your next AI startup in under 7 minutes!') with no specific feature details."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:31:33.050156+00:00"
+}

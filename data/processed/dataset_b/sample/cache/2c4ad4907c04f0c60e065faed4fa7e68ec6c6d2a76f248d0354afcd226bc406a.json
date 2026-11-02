@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_05711",
+    "description_usable": true,
+    "function": "AI Interview Agents for data driven hiring",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "HR and recruitment platform leveraging AI interview agents."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:23.958171+00:00"
+}

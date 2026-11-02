@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_08114",
+    "description_usable": true,
+    "function": "personal AI Health Assistant for accurate health decisions",
+    "category": "Other",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Personal AI health assistant providing medical advice and decision support."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:51.885382+00:00"
+}

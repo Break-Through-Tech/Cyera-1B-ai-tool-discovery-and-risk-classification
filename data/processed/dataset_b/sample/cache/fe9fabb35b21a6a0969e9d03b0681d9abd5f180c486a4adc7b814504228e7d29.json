@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_01788",
+    "description_usable": true,
+    "function": "transforms text prompts into visual creations",
+    "category": "Image / Video Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Text-to-image/visual generative art tool explicitly described."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:33:52.057138+00:00"
+}

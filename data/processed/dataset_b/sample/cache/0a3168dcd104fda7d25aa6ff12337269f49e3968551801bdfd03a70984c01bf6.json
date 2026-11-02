@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_04816",
+    "description_usable": true,
+    "function": "analyze your Bazi chart providing insights into personality, strengths, weaknesses, and potential life paths",
+    "category": "Other",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI tool for Bazi (Chinese Metaphysics/Four Pillars of Destiny) chart analysis."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:48.674439+00:00"
+}

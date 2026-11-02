@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_11198",
+    "description_usable": true,
+    "function": "Assistant and bot builder for trading",
+    "category": "Coding / Developer Tools",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Unclear whether the trading assistant and bot builder employs AI models or rule-based algorithms."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:31:33.063157+00:00"
+}

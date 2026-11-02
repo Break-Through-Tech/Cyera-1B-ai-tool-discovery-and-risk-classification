@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_03829",
+    "description_usable": true,
+    "function": "Extracts data from PDFs for businesses",
+    "category": "Data Analytics",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "PDF data extraction tool; lacks explicit confirmation of AI status beyond the GPT name prefix."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:36:17.532893+00:00"
+}

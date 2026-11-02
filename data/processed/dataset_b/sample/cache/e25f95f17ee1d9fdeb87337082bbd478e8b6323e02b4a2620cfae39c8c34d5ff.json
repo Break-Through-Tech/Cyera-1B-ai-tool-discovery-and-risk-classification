@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_11794",
+    "description_usable": true,
+    "function": "automating administrative tasks like charting, scheduling, and communication to free up clinicians' time",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI clinical assistant automating administrative workflows and documentation for healthcare professionals."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:36:01.812125+00:00"
+}

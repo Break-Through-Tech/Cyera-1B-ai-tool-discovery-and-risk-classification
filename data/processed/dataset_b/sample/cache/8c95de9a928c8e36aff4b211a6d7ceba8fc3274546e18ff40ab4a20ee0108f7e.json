@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_02337",
+    "description_usable": true,
+    "function": "Realistic face swapping in photos and videos",
+    "category": "Image / Video Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI-powered face swapping tool for photos and videos."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:23.837499+00:00"
+}

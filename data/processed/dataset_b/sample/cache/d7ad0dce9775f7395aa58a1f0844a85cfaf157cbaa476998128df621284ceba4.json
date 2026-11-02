@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_10205",
+    "description_usable": true,
+    "function": "Automated job application creation",
+    "category": "Productivity",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Mentions automation but lacks explicit evidence of AI functionality."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:11.455955+00:00"
+}

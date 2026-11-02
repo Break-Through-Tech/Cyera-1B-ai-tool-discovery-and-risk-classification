@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_05313",
+    "description_usable": true,
+    "function": "Provides reviews and insights on AI tools",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "A directory and review site covering AI tools, not an AI model or generator itself."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:26:38.639379+00:00"
+}

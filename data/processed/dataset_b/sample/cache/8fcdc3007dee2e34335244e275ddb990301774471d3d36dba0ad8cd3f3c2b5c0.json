@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_04659",
+    "description_usable": true,
+    "function": "Talent management and recruitment solution",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Talent recruitment solution utilizing AI and machine learning according to detailed keywords."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:11.463729+00:00"
+}

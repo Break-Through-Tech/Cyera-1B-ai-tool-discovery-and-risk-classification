@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_07266",
+    "description_usable": true,
+    "function": "Chat with AI experts on any topic",
+    "category": "General AI Assistants",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Conversational AI assistant framed as topic experts."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:31:18.152249+00:00"
+}

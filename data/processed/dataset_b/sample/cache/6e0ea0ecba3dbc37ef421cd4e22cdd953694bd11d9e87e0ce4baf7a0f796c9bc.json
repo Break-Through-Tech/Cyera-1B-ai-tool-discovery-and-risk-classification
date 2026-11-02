@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_02610",
+    "description_usable": true,
+    "function": "Review and analyze legal documents with AI summarization, key information extraction, and Q&A",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": true,
+    "reason": "Description defines a legal document review/analysis platform, while primary_task is 'Audio transcription', creating conflicting evidence."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:12.873015+00:00"
+}

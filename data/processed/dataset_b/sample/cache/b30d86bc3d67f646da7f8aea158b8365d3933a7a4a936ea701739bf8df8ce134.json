@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_02687",
+    "description_usable": true,
+    "function": "build and deploy AI-powered applications leveraging a no-code/low-code platform",
+    "category": "AI Infrastructure / Model Platforms",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "No-code/low-code platform for building and deploying AI applications."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:36:28.961037+00:00"
+}

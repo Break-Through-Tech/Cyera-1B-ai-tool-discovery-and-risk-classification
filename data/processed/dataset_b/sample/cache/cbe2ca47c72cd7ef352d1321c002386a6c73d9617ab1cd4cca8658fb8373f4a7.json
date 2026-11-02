@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_07503",
+    "description_usable": false,
+    "function": "",
+    "category": "Image / Video Generation",
+    "ai_status": "ai",
+    "needs_review": true,
+    "reason": "Description is generic marketing ('Produce top-quality visuals faster'). Keywords confirm extensive AI video/image generation features."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:33:52.055568+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_04716",
+    "description_usable": true,
+    "function": "Access all AI tools with a single subscription",
+    "category": "AI Infrastructure / Model Platforms",
+    "ai_status": "non_ai",
+    "needs_review": true,
+    "reason": "Aggregator/subscription platform providing access to AI tools, but unclear if the platform itself possesses native AI functionality."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:51.871996+00:00"
+}

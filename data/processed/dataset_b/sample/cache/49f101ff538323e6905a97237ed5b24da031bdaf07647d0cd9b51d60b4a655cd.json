@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_06161",
+    "description_usable": true,
+    "function": "Translation management system for translation workflows, project management, and QA",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Translation management platform with generative AI and AI translation capabilities listed in keywords."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:11.462223+00:00"
+}

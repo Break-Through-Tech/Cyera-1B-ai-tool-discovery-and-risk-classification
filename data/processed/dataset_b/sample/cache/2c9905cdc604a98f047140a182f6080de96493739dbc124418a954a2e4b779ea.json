@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_11394",
+    "description_usable": true,
+    "function": "Chat with documents using AI",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Enables chatting with and extracting information from documents using AI."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:37.288562+00:00"
+}

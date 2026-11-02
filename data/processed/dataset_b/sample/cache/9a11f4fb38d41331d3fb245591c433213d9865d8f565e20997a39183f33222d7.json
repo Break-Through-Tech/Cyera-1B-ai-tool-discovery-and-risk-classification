@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_04496",
+    "description_usable": true,
+    "function": "Created 3D graphics intuitively",
+    "category": "Image / Video Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Concrete function to create 3D graphics, confirmed as AI tool via keywords mentioning ai models, foundation models, and deep learning."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:33:52.051919+00:00"
+}

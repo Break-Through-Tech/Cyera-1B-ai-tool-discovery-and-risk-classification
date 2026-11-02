@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_16335",
+    "description_usable": true,
+    "function": "Remove background noise from audio instantly with AI",
+    "category": "Other",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI tool specifically designed for audio enhancement and background noise removal."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:34:33.922393+00:00"
+}

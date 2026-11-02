@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_06775",
+    "description_usable": true,
+    "function": "Automate conversations and support across channels for customer service",
+    "category": "Customer Support",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI-powered customer service platform automating support conversations."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:12.870041+00:00"
+}

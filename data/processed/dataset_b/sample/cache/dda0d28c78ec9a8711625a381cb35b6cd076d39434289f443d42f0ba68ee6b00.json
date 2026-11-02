@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_04723",
+    "description_usable": true,
+    "function": "handles calls, messages, and scheduling",
+    "category": "Customer Support",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI-powered digital receptionist for customer interaction, calling, messaging, and scheduling."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:01.227418+00:00"
+}

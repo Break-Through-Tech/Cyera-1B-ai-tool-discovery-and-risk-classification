@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_15588",
+    "description_usable": true,
+    "function": "Chrome extension that turns basic prompts into detailed instructions",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI prompt engineering and optimization browser extension."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:26:38.629272+00:00"
+}

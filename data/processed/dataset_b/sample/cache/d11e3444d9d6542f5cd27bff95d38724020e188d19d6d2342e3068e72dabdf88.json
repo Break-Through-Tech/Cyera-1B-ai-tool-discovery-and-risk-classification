@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_10398",
+    "description_usable": true,
+    "function": "Customize your Twitch stream's text-to-speech experience",
+    "category": "Content Generation",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Text-to-speech functionality described, but no evidence provided indicates modern AI/ML vs standard TTS algorithms."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:33:52.048632+00:00"
+}

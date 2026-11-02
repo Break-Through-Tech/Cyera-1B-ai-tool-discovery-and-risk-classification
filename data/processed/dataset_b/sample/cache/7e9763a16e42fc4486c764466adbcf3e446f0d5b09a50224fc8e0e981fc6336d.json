@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_15098",
+    "description_usable": true,
+    "function": "generates high-converting email marketing campaigns, helps users create various email types, and tailor content with specific tones and audience targeting",
+    "category": "Sales / Marketing",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI email marketing campaign generator."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:33:07.226636+00:00"
+}

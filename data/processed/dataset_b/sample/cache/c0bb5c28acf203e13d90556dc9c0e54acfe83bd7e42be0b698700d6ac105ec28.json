@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_05815",
+    "description_usable": true,
+    "function": "make decisions faster with the help of AI",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI assistant helping users make decisions faster."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:31:45.442048+00:00"
+}

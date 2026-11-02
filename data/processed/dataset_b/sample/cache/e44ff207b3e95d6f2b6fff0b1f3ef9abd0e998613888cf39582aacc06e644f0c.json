@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_14954",
+    "description_usable": true,
+    "function": "helps craft high-ranking content with ready-to-use suggestions, outlines, competitor analyses, and detailed briefs",
+    "category": "Content Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Explicitly describes an AI-powered content outline builder using SEO insights."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:33:22.260626+00:00"
+}

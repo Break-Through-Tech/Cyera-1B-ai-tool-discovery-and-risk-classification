@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_03205",
+    "description_usable": true,
+    "function": "language translation for individuals and teams",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Deep learning machine translation service confirmed by keywords and description."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:36:28.969079+00:00"
+}

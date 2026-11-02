@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_09340",
+    "description_usable": true,
+    "function": "Transform audio samples into Vital presets",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Converts audio samples into Vital synthesizer presets without any indication of AI."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:34:59.996581+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_09335",
+    "description_usable": true,
+    "function": "building and deploying AI agents",
+    "category": "AI Infrastructure / Model Platforms",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Development platform for creating, training, and deploying AI agents."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:31:18.164413+00:00"
+}

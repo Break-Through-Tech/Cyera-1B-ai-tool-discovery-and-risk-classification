@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_05493",
+    "description_usable": true,
+    "function": "Write quicker with the power of A.I.",
+    "category": "Content Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI-assisted writing software."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:34:48.779153+00:00"
+}

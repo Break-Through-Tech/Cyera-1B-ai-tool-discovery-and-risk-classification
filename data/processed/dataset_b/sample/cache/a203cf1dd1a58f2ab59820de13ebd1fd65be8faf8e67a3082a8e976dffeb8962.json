@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_02583",
+    "description_usable": true,
+    "function": "Build, test, observe and improve AI apps",
+    "category": "AI Infrastructure / Model Platforms",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Platform and developer tooling for building, testing, and observing LLM/AI applications."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:36:17.522593+00:00"
+}

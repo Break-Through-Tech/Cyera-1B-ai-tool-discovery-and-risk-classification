@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_15784",
+    "description_usable": true,
+    "function": "Discover and create book summaries",
+    "category": "Content Generation",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Creates book summaries, but description and metadata do not confirm if AI summarization is used."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:37.298463+00:00"
+}

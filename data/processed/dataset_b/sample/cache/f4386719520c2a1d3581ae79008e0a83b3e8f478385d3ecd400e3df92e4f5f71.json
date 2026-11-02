@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_06780",
+    "description_usable": true,
+    "function": "AI-powered video interviewing providing automated candidate screening and insightful analytics",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI video interviewing and candidate screening tool for recruitment."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:23.959713+00:00"
+}

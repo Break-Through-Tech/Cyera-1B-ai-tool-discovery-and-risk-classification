@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_07649",
+    "description_usable": true,
+    "function": "SEO content writing and optimization",
+    "category": "Content Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI-boosted SEO content generation and writing tool."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:33:07.228396+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_07220",
+    "description_usable": true,
+    "function": "AI PDF and web summaries for reading and research",
+    "category": "Research / Search",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI-powered summarization and research tool for PDFs and web pages."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:26:38.623608+00:00"
+}

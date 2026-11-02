@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_07186",
+    "description_usable": true,
+    "function": "Workflow optimization and process mining for industries",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Focuses on workflow optimization and process mining without any indication of AI capability."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:23.940832+00:00"
+}

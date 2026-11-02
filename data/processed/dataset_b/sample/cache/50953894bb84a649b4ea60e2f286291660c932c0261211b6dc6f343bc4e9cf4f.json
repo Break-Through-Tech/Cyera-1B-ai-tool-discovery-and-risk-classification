@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_08976",
+    "description_usable": true,
+    "function": "Search and answer questions in documents",
+    "category": "Productivity",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Enables document search and Q&A, but metadata lacks explicit confirmation of AI functionality."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:37.303828+00:00"
+}

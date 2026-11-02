@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_07548",
+    "description_usable": true,
+    "function": "Construction management software",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Identifies concrete task of construction management with no indication of AI functionality."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:11.464681+00:00"
+}

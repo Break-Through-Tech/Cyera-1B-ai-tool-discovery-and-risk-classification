@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_04484",
+    "description_usable": true,
+    "function": "Contract analysis with feedback and negotiation suggestions",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Legal tech platform utilizing NLP and AI to analyze contracts and suggest negotiations."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:31:33.067736+00:00"
+}

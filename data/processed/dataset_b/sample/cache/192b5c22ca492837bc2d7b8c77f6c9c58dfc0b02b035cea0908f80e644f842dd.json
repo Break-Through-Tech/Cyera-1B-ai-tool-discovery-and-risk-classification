@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_00923",
+    "description_usable": true,
+    "function": "Controlling GANs through point-based manipulation",
+    "category": "Image / Video Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "GANs (Generative Adversarial Networks) are AI models used here for image manipulation."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:34:59.984521+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_02493",
+    "description_usable": true,
+    "function": "Turn product workflows into interactive demos and videos",
+    "category": "Content Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Creates interactive demos and product videos from workflows, leveraging AI features like AI voiceovers."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:31:18.163260+00:00"
+}

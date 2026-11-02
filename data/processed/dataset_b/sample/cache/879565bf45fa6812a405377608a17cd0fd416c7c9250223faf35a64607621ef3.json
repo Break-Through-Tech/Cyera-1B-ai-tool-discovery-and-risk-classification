@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_16606",
+    "description_usable": true,
+    "function": "Turn photos into cinematic videos instantly",
+    "category": "Image / Video Generation",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "AI capability is not confirmed in the text of the description itself, only in tool name/domain."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:34:33.929528+00:00"
+}

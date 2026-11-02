@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_05660",
+    "description_usable": true,
+    "function": "chatbot for engaging customers",
+    "category": "Customer Support",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Chatbot platform for customer engagement and support, confirmed AI by keywords."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:01.233396+00:00"
+}

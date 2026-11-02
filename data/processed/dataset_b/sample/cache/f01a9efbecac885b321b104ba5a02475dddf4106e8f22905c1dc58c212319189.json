@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_00986",
+    "description_usable": true,
+    "function": "identify emerging trends and opportunities",
+    "category": "Data Analytics",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI-powered trend forecasting and market research tool."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:33:34.434661+00:00"
+}

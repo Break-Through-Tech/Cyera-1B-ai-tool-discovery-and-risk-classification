@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_06252",
+    "description_usable": true,
+    "function": "personal AI language teacher",
+    "category": "Other",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI language tutor tool for education/learning."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:48.679366+00:00"
+}

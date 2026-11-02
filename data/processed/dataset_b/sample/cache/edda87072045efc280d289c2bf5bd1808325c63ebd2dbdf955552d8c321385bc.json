@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_04401",
+    "description_usable": true,
+    "function": "Providing custom AI chat and voice bots for businesses",
+    "category": "Customer Support",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Provides custom AI chat and voice bots for businesses, primarily used for customer communication and support."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:31:45.443045+00:00"
+}

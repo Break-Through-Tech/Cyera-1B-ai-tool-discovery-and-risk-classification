@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_15342",
+    "description_usable": true,
+    "function": "virtual assistant for your online store",
+    "category": "Customer Support",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI-powered virtual assistant for online e-commerce stores."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:51.881224+00:00"
+}

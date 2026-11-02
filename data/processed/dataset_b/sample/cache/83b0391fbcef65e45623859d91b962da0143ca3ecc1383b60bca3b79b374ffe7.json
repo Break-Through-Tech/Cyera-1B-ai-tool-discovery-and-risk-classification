@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_15039",
+    "description_usable": true,
+    "function": "find IT career path via a psychology-backed aptitude test",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Description details an IT career aptitude test; no clear AI functionality indicated in description or task."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:35.211591+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_12103",
+    "description_usable": true,
+    "function": "Discover news, podcasts, and AI-driven insights",
+    "category": "Research / Search",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Functional news/content discovery application using AI-driven insights."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:33:52.059148+00:00"
+}

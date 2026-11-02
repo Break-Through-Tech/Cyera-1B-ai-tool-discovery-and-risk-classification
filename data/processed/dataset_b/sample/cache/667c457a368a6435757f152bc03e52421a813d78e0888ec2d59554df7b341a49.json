@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_00288",
+    "description_usable": true,
+    "function": "answer job application questions",
+    "category": "Productivity",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Identifies concrete function (answering job application questions) but AI status is not demonstrated."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:35.215656+00:00"
+}

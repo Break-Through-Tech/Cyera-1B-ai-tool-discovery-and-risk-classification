@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_12821",
+    "description_usable": true,
+    "function": "analyzes text and speech to identify areas for improvement in clarity, conciseness, and style and provides personalized feedback",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI-powered tool that analyzes communication and provides feedback for skill improvement."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:31:45.458009+00:00"
+}

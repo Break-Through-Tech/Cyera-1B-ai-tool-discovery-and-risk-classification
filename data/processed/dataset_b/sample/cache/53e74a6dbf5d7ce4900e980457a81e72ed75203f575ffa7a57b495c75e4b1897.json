@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_09680",
+    "description_usable": false,
+    "function": "",
+    "category": "Other",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Description is generic marketing ('All-in-one platform for creators and managers') with no concrete task or AI evidence."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:34:59.993055+00:00"
+}

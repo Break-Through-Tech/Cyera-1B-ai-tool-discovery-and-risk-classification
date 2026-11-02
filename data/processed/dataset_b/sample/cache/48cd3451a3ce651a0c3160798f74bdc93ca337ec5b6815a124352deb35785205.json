@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_15627",
+    "description_usable": true,
+    "function": "Create images with Flux",
+    "category": "Image / Video Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Description explicitly identifies it as an AI image creator."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:34:59.992118+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_15696",
+    "description_usable": true,
+    "function": "Create customizable logos",
+    "category": "Image / Video Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI-powered tool for generating customizable logos."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:37.285828+00:00"
+}

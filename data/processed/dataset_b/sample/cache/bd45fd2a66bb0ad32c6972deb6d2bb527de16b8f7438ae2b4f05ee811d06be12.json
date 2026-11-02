@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_00646",
+    "description_usable": true,
+    "function": "Generate branded copywriting landing pages rapidly",
+    "category": "Content Generation",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Generates landing pages and copy, but text does not confirm AI involvement."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:36:17.530801+00:00"
+}

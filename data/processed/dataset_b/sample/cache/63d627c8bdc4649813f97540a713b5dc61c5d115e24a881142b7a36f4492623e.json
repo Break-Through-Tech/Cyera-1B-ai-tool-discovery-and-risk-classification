@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_03468",
+    "description_usable": true,
+    "function": "Generates custom-made pet portraits",
+    "category": "Image / Video Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Generates custom pet portraits, supported by ai art / artificial intelligence keywords."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:34:59.999400+00:00"
+}

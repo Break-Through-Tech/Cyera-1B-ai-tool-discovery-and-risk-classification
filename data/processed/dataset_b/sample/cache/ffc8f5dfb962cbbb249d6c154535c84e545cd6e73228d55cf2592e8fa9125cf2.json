@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_13200",
+    "description_usable": true,
+    "function": "Renovate and remodel your home with AI-powered design",
+    "category": "Image / Video Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Uses AI design and visualization tools for home remodeling and architectural imagery."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:23.952247+00:00"
+}

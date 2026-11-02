@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_14639",
+    "description_usable": true,
+    "function": "data-driven analytics, growth marketing, and AI-powered content idea generation",
+    "category": "Sales / Marketing",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Explicitly combines analytics with AI-powered content idea generation for TikTok."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:33:22.265985+00:00"
+}

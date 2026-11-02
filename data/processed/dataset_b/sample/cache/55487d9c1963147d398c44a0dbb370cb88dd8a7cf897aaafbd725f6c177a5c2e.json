@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_15369",
+    "description_usable": true,
+    "function": "track, review, and improve trading",
+    "category": "Data Analytics",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI tool for tracking and reviewing trading performance."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:31:45.440137+00:00"
+}

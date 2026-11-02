@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_04598",
+    "description_usable": true,
+    "function": "Master coding through immersive, hands-on learning",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Educational coding platform with no AI features indicated."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:36:28.976463+00:00"
+}

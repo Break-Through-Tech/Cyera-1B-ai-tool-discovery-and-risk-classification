@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_10108",
+    "description_usable": true,
+    "function": "academic text editing with grammar check and citations",
+    "category": "Productivity",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Provides academic text editing, grammar checks, and citations, but no AI functionality is stated."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:34:18.647806+00:00"
+}

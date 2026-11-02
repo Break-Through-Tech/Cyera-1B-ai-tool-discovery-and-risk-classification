@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_16043",
+    "description_usable": true,
+    "function": "Get featured in ChatGPT & AI search results",
+    "category": "Sales / Marketing",
+    "ai_status": "non_ai",
+    "needs_review": true,
+    "reason": "Optimizes visibility within AI search/answer engines; unclear if the tool itself uses AI capabilities."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:33:34.425809+00:00"
+}

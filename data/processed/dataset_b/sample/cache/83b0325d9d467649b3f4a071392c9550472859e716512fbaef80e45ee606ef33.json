@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_14306",
+    "description_usable": true,
+    "function": "Generate consistent and editable AI Vector Illustrations",
+    "category": "Image / Video Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Tool generates AI vector illustrations and SVGs."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:34:33.930381+00:00"
+}

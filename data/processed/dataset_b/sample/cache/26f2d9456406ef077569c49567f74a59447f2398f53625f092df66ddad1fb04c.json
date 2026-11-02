@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_13475",
+    "description_usable": true,
+    "function": "transforms text into high-quality audiobooks, offering customizable voices and styles",
+    "category": "Content Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI tool transforming text into audiobooks."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:34:48.783308+00:00"
+}

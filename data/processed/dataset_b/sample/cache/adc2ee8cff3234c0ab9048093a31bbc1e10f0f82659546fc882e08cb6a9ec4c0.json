@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_15709",
+    "description_usable": true,
+    "function": "create AI videos with synchronized audio",
+    "category": "Image / Video Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Generates AI video with synchronized audio."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:34:18.646053+00:00"
+}

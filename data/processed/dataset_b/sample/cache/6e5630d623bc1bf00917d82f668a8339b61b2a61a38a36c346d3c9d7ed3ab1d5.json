@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_01484",
+    "description_usable": true,
+    "function": "Validated feedback for startup ideas",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Provides automated/AI-powered feedback and validation for startup ideas."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:31:33.043598+00:00"
+}

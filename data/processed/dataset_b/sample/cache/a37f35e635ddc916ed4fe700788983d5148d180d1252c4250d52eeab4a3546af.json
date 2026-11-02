@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_00060",
+    "description_usable": true,
+    "function": "offering advanced solutions for dentists and patients, enhancing dental practice efficiency and patient care",
+    "category": "Other",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Specialized AI healthcare platform for dental diagnostics and practice management."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:51.882968+00:00"
+}

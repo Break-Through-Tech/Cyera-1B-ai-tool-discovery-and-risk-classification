@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_04876",
+    "description_usable": true,
+    "function": "Conversational PDF viewer",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Conversational PDF viewer; primary task and name confirm AI document Q&A."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:37.290312+00:00"
+}

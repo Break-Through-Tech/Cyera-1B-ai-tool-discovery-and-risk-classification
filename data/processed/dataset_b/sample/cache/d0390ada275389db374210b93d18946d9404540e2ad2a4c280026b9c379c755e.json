@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_01087",
+    "description_usable": true,
+    "function": "Video editing for content and marketing teams",
+    "category": "Image / Video Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Video editing application with multiple AI-assisted generation and editing features indicated in keywords."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:34:33.923348+00:00"
+}

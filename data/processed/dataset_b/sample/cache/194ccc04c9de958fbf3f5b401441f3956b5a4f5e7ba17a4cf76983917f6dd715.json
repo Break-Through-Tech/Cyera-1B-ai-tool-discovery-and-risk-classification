@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_01783",
+    "description_usable": true,
+    "function": "connect aspiring co-founders with complementary skills and goals using a matching algorithm",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Uses a matching algorithm to pair co-founders; no explicit AI features indicated."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:31:45.441202+00:00"
+}

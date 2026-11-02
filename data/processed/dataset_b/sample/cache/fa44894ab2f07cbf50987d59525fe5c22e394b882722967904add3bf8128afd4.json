@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_02545",
+    "description_usable": true,
+    "function": "detect text plagiarism",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Performs text plagiarism detection, supported by NLP/AI text analysis keywords."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:35.223719+00:00"
+}

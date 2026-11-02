@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_08747",
+    "description_usable": true,
+    "function": "Summarize online articles",
+    "category": "Productivity",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Summarizes online articles, but AI status is unconfirmed without explicit AI indicators."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:34:59.988288+00:00"
+}

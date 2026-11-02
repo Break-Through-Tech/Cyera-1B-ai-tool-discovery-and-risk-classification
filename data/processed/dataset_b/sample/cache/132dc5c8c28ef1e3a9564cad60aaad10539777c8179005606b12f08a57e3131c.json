@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_01859",
+    "description_usable": true,
+    "function": "Transform text and images into high-quality videos instantly with Dream Machine AI.",
+    "category": "Image / Video Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Converts text and images to video using AI."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:34:05.199624+00:00"
+}

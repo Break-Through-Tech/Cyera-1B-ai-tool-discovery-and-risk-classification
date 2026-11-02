@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_14600",
+    "description_usable": true,
+    "function": "Calculate Your Product's Carbon Footprint",
+    "category": "Data Analytics",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Carbon footprint calculator with no clear AI features specified despite 'AI tools for research' task label."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:51.867231+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_07828",
+    "description_usable": true,
+    "function": "create professional-grade videos with AI",
+    "category": "Image / Video Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI video generation tool explicitly stated in description and keywords."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:34:48.765342+00:00"
+}

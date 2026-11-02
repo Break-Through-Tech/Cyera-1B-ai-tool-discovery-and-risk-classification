@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_03249",
+    "description_usable": true,
+    "function": "Create forms, surveys, or quizzes with AI",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Uses AI to generate forms, surveys, and quizzes."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:37.304898+00:00"
+}

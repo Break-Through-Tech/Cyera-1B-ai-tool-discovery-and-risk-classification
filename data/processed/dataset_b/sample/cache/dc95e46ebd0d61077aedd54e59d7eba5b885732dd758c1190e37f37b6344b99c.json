@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_03578",
+    "description_usable": true,
+    "function": "creates professional product videos automatically from text prompts and images",
+    "category": "Image / Video Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI tool generating product videos from text prompts and images."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:34:48.777678+00:00"
+}

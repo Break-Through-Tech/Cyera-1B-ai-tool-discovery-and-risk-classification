@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_15182",
+    "description_usable": true,
+    "function": "automates tasks, provides data insights, and answers questions about revenue operations using natural language",
+    "category": "Sales / Marketing",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Clearly describes an AI assistant for RevOps that answers questions and automates tasks using natural language."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:33:22.273956+00:00"
+}

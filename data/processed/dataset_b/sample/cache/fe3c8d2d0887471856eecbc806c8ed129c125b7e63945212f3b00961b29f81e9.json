@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_07429",
+    "description_usable": true,
+    "function": "Your go-to tool for effortless flowcharting.",
+    "category": "Productivity",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Flowcharting tool without clear AI functionality indicated in description or keywords."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:34:05.201495+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_06779",
+    "description_usable": true,
+    "function": "Internal linking made easy with AI",
+    "category": "Sales / Marketing",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Identifies internal linking optimization for SEO powered by AI."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:33:22.274973+00:00"
+}

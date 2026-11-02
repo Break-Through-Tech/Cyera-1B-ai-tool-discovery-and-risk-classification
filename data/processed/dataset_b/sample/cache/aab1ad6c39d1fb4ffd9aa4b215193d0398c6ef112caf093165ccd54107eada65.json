@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_15978",
+    "description_usable": true,
+    "function": "Generate images with text and picture using an API",
+    "category": "Image / Video Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Tool generates images from text and picture inputs using an API, matching AI Image / Video Generation."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:33:52.047549+00:00"
+}

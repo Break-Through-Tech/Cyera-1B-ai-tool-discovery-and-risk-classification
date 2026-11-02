@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_10210",
+    "description_usable": true,
+    "function": "Automated video editing and clipping for social media",
+    "category": "Image / Video Generation",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Mentions automated video editing but does not specify AI functionality."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:34:48.771787+00:00"
+}

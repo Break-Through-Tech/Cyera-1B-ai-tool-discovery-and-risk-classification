@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_02763",
+    "description_usable": true,
+    "function": "personalized communication, segmentation, fundraising optimization, and event management for alumni engagement",
+    "category": "Sales / Marketing",
+    "ai_status": "ai",
+    "needs_review": true,
+    "reason": "Severe mismatch between primary_task ('Test automation') and description/keywords (alumni engagement CRM/fundraising platform)."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:36:28.978743+00:00"
+}

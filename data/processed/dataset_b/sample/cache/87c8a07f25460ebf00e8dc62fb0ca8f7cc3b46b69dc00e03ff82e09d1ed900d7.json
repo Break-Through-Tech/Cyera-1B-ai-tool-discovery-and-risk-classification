@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_12634",
+    "description_usable": true,
+    "function": "condenses long articles, documents, and web pages into concise summaries",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI text summarization tool for documents and web pages."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:48.681627+00:00"
+}

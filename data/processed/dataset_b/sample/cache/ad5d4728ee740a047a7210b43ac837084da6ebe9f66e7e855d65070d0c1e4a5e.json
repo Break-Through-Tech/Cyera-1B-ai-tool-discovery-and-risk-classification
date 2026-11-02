@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_12793",
+    "description_usable": true,
+    "function": "create engaging Twitter content, including tweets, threads, and captions, using AI-powered suggestions and templates",
+    "category": "Content Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI-powered tool for generating Twitter content and tweets."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:33:22.266825+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_01142",
+    "description_usable": true,
+    "function": "Fast presentation generation with customizable design",
+    "category": "Productivity",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Only domain has .ai; presentation generation description does not specify AI use."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:34:48.785216+00:00"
+}

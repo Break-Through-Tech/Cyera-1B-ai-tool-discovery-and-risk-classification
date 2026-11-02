@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_12339",
+    "description_usable": true,
+    "function": "KickBot is an interactive streaming platform that allows creators to engage with their audience in real-time through various interactive elements like polls, Q&As, and games, enhancing viewer experience and boosting engagement.",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Interactive streaming engagement tool with no indication of AI functionality."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:34:05.196594+00:00"
+}

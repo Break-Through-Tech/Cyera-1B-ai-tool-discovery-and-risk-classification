@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_13289",
+    "description_usable": true,
+    "function": "essay writing",
+    "category": "Content Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI-based writing tool designed for essay generation."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:33:34.446236+00:00"
+}

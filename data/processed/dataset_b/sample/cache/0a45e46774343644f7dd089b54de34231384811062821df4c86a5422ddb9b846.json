@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_16540",
+    "description_usable": true,
+    "function": "Transform selfies into AI-generated images",
+    "category": "Image / Video Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Generates avatars/images from selfies using AI."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:23.835478+00:00"
+}

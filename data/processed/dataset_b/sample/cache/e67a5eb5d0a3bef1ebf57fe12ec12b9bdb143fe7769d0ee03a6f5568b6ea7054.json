@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_00626",
+    "description_usable": true,
+    "function": "AI-powered tools for teachers: save time, enhance teaching",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI assistant suite designed for educators."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:36:28.983253+00:00"
+}

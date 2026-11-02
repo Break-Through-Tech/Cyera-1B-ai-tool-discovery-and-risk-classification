@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_08839",
+    "description_usable": true,
+    "function": "transforms your ideas into captivating stories, characters, and worlds by generating unique narratives, detailed backstories, and rich lore",
+    "category": "Content Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI-powered creative story, narrative, and world-building generation tool."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:34:33.917533+00:00"
+}

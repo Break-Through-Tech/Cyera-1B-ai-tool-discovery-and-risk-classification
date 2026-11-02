@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_01477",
+    "description_usable": true,
+    "function": "Turn your OpenAI Assistant into a Web App in 2 minutes",
+    "category": "Coding / Developer Tools",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Developer utility to convert OpenAI assistants into web applications."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:48.688725+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_02566",
+    "description_usable": true,
+    "function": "Assisting healthcare with secure, HIPAA-compliant AI",
+    "category": "General AI Assistants",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "HIPAA-compliant AI assistant tailored for healthcare environments."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:36:01.814493+00:00"
+}

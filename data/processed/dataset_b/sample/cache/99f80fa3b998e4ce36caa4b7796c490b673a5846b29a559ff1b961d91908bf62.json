@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_16341",
+    "description_usable": true,
+    "function": "Remove Watermark from Photo",
+    "category": "Image / Video Generation",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Description states photo watermark removal, but provides no evidence whether AI or standard image processing is used."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:37.287364+00:00"
+}

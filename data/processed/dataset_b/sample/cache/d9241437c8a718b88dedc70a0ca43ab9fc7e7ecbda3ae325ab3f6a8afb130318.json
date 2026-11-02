@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_06667",
+    "description_usable": true,
+    "function": "provides instant, actionable feedback on various content types, including text, audio, video, and images",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI tool designed for reviewing and giving feedback across multiple media formats."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:48.672665+00:00"
+}

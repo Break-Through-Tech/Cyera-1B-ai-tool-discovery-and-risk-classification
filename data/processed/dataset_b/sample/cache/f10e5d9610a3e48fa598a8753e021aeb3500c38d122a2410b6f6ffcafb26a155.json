@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_09272",
+    "description_usable": true,
+    "function": "AI prompts generator",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Prompt generation tool for AI workflows."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:48.684498+00:00"
+}

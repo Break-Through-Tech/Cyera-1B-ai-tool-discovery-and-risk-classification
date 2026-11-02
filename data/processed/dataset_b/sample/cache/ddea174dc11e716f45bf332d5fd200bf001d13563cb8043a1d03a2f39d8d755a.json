@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_16012",
+    "description_usable": true,
+    "function": "Generate UIs for mobile and web",
+    "category": "Coding / Developer Tools",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Generates UIs, but lacks explicit mention or evidence of AI technology in the record."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:36:28.975379+00:00"
+}

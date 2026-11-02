@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_15912",
+    "description_usable": true,
+    "function": "Find out who AI thinks you are based on your Tweets",
+    "category": "Other",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Explicitly uses AI to analyze tweets and determine persona identity."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:37.280781+00:00"
+}

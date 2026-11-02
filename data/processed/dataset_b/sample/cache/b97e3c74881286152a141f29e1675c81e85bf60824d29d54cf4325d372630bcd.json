@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_02035",
+    "description_usable": true,
+    "function": "Find and convert leads with hyper-targeted messages using AI",
+    "category": "Sales / Marketing",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI-powered lead conversion and targeted messaging tool."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:33:07.222095+00:00"
+}

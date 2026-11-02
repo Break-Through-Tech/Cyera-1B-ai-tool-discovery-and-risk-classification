@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_04491",
+    "description_usable": true,
+    "function": "Create and edit documents using only your voice",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Voice dictation and document editing tool utilizing speech recognition and contextual AI models."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:48.683641+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_05764",
+    "description_usable": true,
+    "function": "Plan travel itineraries on WhatsApp",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Itinerary planning via WhatsApp; keywords explicitly indicate AI algorithms and AI travel planning."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:11.448459+00:00"
+}

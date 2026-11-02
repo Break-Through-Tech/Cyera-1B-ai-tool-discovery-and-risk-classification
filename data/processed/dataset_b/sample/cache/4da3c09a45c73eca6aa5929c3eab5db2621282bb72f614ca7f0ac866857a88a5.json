@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_06561",
+    "description_usable": true,
+    "function": "detect and prevent online ad click fraud",
+    "category": "Sales / Marketing",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Detects and prevents online ad click fraud; keywords confirm AI fraud prevention."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:35.222758+00:00"
+}

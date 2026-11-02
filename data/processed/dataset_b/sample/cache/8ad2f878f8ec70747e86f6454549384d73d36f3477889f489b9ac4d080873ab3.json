@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_06932",
+    "description_usable": true,
+    "function": "create personalized itineraries based on their preferences and budget",
+    "category": "Other",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI-powered travel itinerary planning tool."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:31:18.166885+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_05119",
+    "description_usable": true,
+    "function": "create videos from text",
+    "category": "Image / Video Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Text-to-video generation tool powered by AI."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:33:34.440923+00:00"
+}

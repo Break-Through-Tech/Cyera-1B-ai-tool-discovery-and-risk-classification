@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_08062",
+    "description_usable": false,
+    "function": "",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Description is generic marketing, but primary task and keywords clearly detail an AI homework copilot and study tools."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:36:28.965528+00:00"
+}

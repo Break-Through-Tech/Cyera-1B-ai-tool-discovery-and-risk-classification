@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_15773",
+    "description_usable": true,
+    "function": "Design AI influencers and generate AI content",
+    "category": "Image / Video Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Generative AI tool for creating AI influencers and visual design/content."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:23.830372+00:00"
+}

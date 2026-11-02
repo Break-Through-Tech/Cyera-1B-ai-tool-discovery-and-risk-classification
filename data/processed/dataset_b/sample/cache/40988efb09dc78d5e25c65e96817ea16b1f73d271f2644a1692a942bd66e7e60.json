@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_14952",
+    "description_usable": true,
+    "function": "Build high-quality, trustworthy AI models with an advanced development platform",
+    "category": "AI Infrastructure / Model Platforms",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Platform for building, testing, and monitoring AI/ML models."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:36:17.533737+00:00"
+}

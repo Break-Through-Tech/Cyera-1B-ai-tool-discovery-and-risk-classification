@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_07713",
+    "description_usable": true,
+    "function": "take notes, transcribe lectures, and get personalized tutoring",
+    "category": "Meeting / Transcription Tools",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Automated lecture transcription, note-taking, and study assistant."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:48.689719+00:00"
+}

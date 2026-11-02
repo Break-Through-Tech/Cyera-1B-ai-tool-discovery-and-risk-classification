@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_11258",
+    "description_usable": true,
+    "function": "Track personalized meals with fitness coaching",
+    "category": "Other",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Meal tracking and fitness app; keywords indicate AI nutrition coach features. Categorized as Other since it is personal health/fitness."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:23.943079+00:00"
+}

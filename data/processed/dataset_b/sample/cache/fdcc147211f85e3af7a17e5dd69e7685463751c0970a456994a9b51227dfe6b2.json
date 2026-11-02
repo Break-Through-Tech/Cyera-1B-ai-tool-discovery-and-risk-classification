@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_13910",
+    "description_usable": true,
+    "function": "offering personalized, instant tutoring and educational resources across various subjects. It provides interactive explanations and Q&A",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI-powered interactive tutoring and educational resource platform."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:51.870315+00:00"
+}

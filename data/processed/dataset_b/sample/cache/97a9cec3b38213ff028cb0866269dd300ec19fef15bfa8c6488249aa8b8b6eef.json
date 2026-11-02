@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_14706",
+    "description_usable": true,
+    "function": "B2B sourcing engine",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI-powered B2B procurement and sourcing platform."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:31:33.048416+00:00"
+}

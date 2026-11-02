@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_03087",
+    "description_usable": true,
+    "function": "Stock market sentiment analysis and prediction",
+    "category": "Data Analytics",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "AI status is uncertain as sentiment analysis and prediction could use traditional quantitative methods or AI models."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:31:33.057944+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_06441",
+    "description_usable": true,
+    "function": "chatbot platform for messaging apps",
+    "category": "Customer Support",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "No explicit AI confirmation in description or keywords; a chatbot platform may be rule-based."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:01.225485+00:00"
+}

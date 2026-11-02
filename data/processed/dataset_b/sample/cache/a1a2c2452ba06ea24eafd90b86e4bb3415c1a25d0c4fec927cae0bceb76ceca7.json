@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_04685",
+    "description_usable": false,
+    "function": "",
+    "category": "Content Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Description is generic marketing ('toolkit for professional content creation and analytics'). Keywords mention ai content generation."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:34:18.639271+00:00"
+}

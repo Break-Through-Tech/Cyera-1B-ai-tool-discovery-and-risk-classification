@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_06212",
+    "description_usable": false,
+    "function": "",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": true,
+    "reason": "Description is marketing slogan ('Turn everyone into your Recruiter...'). Needs review for usable description."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:11.466846+00:00"
+}

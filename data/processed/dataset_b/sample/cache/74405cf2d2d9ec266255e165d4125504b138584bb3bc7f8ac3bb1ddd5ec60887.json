@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_00714",
+    "description_usable": true,
+    "function": "AI-powered website and app localization services",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Identifies AI-powered website and application localization."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:33:22.271849+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_01329",
+    "description_usable": true,
+    "function": "professional slides creation",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI assistant for automated creation and design of presentation slides."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:33:34.437800+00:00"
+}

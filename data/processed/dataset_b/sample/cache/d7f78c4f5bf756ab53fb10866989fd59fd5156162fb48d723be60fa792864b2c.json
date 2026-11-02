@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_13364",
+    "description_usable": true,
+    "function": "Conversion of images to retro-style pixel art.",
+    "category": "Image / Video Generation",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Converts images to pixel art, but it is uncertain whether it uses AI."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:34:05.202432+00:00"
+}

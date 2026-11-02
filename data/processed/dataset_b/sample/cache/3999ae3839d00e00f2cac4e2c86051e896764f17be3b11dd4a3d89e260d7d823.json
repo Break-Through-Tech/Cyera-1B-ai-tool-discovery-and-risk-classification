@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_00799",
+    "description_usable": true,
+    "function": "Simplifies complex text and rephrases sentences and paragraphs using AI",
+    "category": "Content Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Text rephrasing and readability simplification powered by AI."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:26:38.632365+00:00"
+}

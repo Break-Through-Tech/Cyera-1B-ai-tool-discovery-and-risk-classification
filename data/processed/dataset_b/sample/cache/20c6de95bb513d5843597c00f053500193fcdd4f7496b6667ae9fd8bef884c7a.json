@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_05114",
+    "description_usable": true,
+    "function": "Get professional headshots using AI technology",
+    "category": "Image / Video Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI-powered headshot and avatar generator."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:23.836493+00:00"
+}

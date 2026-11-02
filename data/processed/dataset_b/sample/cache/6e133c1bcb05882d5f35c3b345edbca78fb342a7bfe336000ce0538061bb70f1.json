@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_07589",
+    "description_usable": false,
+    "function": "",
+    "category": "Content Generation",
+    "ai_status": "ai",
+    "needs_review": true,
+    "reason": "Description is a generic marketing slogan ('Empowering content creation with AI') without concrete capability."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:33:52.064110+00:00"
+}

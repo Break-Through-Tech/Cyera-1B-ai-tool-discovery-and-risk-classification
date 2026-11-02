@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_06211",
+    "description_usable": false,
+    "function": "",
+    "category": "Coding / Developer Tools",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Description is marketing fluff ('turn every engineer into a 10x engineer'), but keywords demonstrate AI-powered code review and dev tools."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:36:28.971753+00:00"
+}

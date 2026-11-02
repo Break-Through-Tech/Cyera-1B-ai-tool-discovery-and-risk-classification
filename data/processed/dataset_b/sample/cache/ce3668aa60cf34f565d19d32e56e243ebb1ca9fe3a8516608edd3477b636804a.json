@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_04752",
+    "description_usable": true,
+    "function": "AI-powered mind mapping and brainstorming tool",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI-assisted brainstorming and mind mapping productivity application."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:48.691563+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_08707",
+    "description_usable": true,
+    "function": "Create profile pictures with AI",
+    "category": "Image / Video Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI profile picture and avatar generation."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:23.839378+00:00"
+}

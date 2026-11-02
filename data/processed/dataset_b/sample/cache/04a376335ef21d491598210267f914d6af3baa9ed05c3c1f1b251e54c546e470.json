@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_03513",
+    "description_usable": true,
+    "function": "Process documents with 99% accuracy",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Automated document processing and data extraction tool using deep learning and generative AI based on keywords and primary task."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:51.856324+00:00"
+}

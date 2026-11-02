@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_08058",
+    "description_usable": true,
+    "function": "generate test cases and automate the testing process for web applications",
+    "category": "Coding / Developer Tools",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI-powered test automation platform for generating test cases."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:36:28.972966+00:00"
+}

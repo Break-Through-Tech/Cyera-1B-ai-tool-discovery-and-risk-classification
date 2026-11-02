@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_05781",
+    "description_usable": true,
+    "function": "AI-driven study assistant for research and essays",
+    "category": "Research / Search",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI study and research assistant specializing in scientific literature and summaries."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:26:38.635535+00:00"
+}

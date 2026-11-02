@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_12937",
+    "description_usable": true,
+    "function": "Generate images, videos, and text from simple prompts",
+    "category": "Content Generation",
+    "ai_status": "ai",
+    "needs_review": true,
+    "reason": "Conflicting evidence between primary_task ('Resumes') and description ('generate high-quality images, videos, and text')."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:11.460059+00:00"
+}

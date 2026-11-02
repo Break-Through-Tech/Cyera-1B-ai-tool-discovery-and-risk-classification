@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_11269",
+    "description_usable": true,
+    "function": "Create professional, ATS-friendly resumes, CVs, and cover letters using customizable templates and intelligent content suggestions",
+    "category": "Content Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI-powered tool for generating resumes, CVs, and cover letters."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:23.946413+00:00"
+}

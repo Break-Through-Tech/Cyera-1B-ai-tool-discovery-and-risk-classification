@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_02911",
+    "description_usable": true,
+    "function": "generate high-quality essays quickly and efficiently, assisting with brainstorming, outlining, writing, and editing",
+    "category": "Content Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI-powered essay writing and content generation assistant."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:34:48.776790+00:00"
+}

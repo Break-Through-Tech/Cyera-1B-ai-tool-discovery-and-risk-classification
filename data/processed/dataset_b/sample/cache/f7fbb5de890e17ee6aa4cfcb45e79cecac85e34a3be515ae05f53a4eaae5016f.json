@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_13635",
+    "description_usable": true,
+    "function": "Summarizes, analyzes, and extracts key information from documents like PDFs and web pages, allowing users to chat with documents",
+    "category": "Research / Search",
+    "ai_status": "ai",
+    "needs_review": true,
+    "reason": "Document analysis and summarization assistant with AI chat; flagged for review due to conflict between description (document research) and primary_task ('Mental health analysis')."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:23.823416+00:00"
+}

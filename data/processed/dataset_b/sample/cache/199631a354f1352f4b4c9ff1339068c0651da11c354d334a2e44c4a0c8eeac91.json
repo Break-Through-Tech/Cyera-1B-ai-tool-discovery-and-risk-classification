@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_11504",
+    "description_usable": true,
+    "function": "call center functionalities, SMS messaging, power dialers, live chat, and CRM integrations",
+    "category": "Customer Support",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Contact center platform for sales and support teams powered by AI."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:01.228326+00:00"
+}

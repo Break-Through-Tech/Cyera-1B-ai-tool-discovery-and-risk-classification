@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_06117",
+    "description_usable": true,
+    "function": "Personalized study materials and quizzes",
+    "category": "Other",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Educational tool for test prep providing AI-driven study materials and quizzes."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:36:01.807679+00:00"
+}

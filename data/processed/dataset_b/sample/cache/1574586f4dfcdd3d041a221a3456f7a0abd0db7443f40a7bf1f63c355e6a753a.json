@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_02413",
+    "description_usable": true,
+    "function": "Discover AI tools through a directory",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Directory/marketplace platform listing AI tools, not an AI functional tool itself."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:37.294284+00:00"
+}

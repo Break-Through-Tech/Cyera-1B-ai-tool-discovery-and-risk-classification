@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_12390",
+    "description_usable": false,
+    "function": "",
+    "category": "Content Generation",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Description is a generic outcome goal ('Maximize reach & engagement') rather than a specific capability; AI status is unspecified."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:33:22.265153+00:00"
+}

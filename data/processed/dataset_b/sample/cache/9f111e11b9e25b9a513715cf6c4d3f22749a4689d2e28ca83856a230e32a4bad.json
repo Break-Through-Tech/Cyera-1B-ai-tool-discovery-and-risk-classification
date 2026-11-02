@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_03600",
+    "description_usable": true,
+    "function": "Analyzes essays for AI-generated content, grammar errors, and plagiarism",
+    "category": "Content Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI essay analyzer offering feedback, grammar/plagiarism checking, and AI detection."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:26:38.627247+00:00"
+}

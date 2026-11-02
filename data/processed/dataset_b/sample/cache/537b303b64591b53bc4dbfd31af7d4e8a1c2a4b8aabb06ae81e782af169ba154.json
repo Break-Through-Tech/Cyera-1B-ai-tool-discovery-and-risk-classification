@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_12711",
+    "description_usable": true,
+    "function": "Summarize web pages in Safari browser",
+    "category": "Productivity",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Provides webpage summarization in Safari, but description and metadata do not confirm whether it uses AI."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:31:18.170528+00:00"
+}

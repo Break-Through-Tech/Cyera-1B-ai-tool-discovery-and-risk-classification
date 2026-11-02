@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_02514",
+    "description_usable": true,
+    "function": "Enhance photos with advanced editing features",
+    "category": "Image / Video Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Image enhancement and photo editing platform leveraging AI features."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:33:34.445423+00:00"
+}

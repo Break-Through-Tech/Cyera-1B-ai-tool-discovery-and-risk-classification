@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_08911",
+    "description_usable": true,
+    "function": "Orchestrates & executes Generative AI pipelines",
+    "category": "AI Infrastructure / Model Platforms",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Infrastructure tool for orchestrating and executing generative AI pipelines."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:31:18.165730+00:00"
+}

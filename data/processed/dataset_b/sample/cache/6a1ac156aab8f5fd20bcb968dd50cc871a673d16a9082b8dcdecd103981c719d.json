@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_06007",
+    "description_usable": true,
+    "function": "Embed AI-powered data experience into your web app",
+    "category": "Data Analytics",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Provides an embeddable AI data analytics experience for web apps."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:51.864000+00:00"
+}

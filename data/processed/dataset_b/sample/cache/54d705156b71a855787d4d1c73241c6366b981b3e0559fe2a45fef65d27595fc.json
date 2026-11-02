@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_14768",
+    "description_usable": true,
+    "function": "Compete on the MRR leaderboard, get feedback, find new users and grow your startup",
+    "category": "Sales / Marketing",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Provides a platform/leaderboard to compete, get feedback, and find users; no AI features mentioned or indicated."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:33:22.256557+00:00"
+}

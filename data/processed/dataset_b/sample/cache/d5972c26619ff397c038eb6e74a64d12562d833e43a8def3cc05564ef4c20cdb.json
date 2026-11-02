@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_13988",
+    "description_usable": true,
+    "function": "Schedule, plan, organize, write emails, and summarize meetings",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI personal assistant unifying calendar, email, tasks, contacts, and meeting summaries."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:11.459044+00:00"
+}

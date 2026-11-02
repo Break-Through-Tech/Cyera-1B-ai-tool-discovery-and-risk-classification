@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_01542",
+    "description_usable": false,
+    "function": "",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": true,
+    "reason": "Marketing slogan description ('Put product requirements on Autopilot') is not usable on its own; keywords indicate an AI product manager and no-code tool."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:23.951342+00:00"
+}

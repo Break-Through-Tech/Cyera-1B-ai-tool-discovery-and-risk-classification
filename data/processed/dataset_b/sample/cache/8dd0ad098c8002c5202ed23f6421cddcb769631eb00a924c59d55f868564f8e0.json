@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_02875",
+    "description_usable": true,
+    "function": "Discover personalized weekly dinner plans",
+    "category": "Other",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI-powered meal and dinner planner, classified under Other."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:23.955317+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_15474",
+    "description_usable": false,
+    "function": "",
+    "category": "Other",
+    "ai_status": "ai",
+    "needs_review": true,
+    "reason": "Description is generic marketing ('Amp up your dating game'). Category is lifestyle/dating."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:35.209608+00:00"
+}

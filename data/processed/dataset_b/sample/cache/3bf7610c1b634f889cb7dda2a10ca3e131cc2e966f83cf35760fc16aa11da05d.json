@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_09209",
+    "description_usable": true,
+    "function": "Stock screening and portfolio management using investment strategies from renowned investors to identify potentially undervalued stocks",
+    "category": "Data Analytics",
+    "ai_status": "ai",
+    "needs_review": true,
+    "reason": "Primary task listed as 'Startup idea evaluation' conflicts with description and keywords describing a stock screener and portfolio management tool."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:31:33.045003+00:00"
+}

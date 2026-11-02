@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_06584",
+    "description_usable": true,
+    "function": "transform long-form videos into various formats for different platforms",
+    "category": "Image / Video Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Concrete AI-powered video repurposing tool described."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:33:52.061261+00:00"
+}

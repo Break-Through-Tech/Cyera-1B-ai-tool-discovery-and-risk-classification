@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_03439",
+    "description_usable": true,
+    "function": "Email sequence creation for marketing campaigns",
+    "category": "Content Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Identifies email sequence generation for marketing; confirmed AI via keywords ('ai email writing')."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:33:22.267699+00:00"
+}

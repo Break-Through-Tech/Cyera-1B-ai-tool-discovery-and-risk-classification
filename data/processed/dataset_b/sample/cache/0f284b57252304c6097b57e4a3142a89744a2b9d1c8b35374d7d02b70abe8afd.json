@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_10605",
+    "description_usable": true,
+    "function": "Get instant, accurate answers from AI Chatbots",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Provides AI chatbot capabilities for document Q&A."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:51.859173+00:00"
+}

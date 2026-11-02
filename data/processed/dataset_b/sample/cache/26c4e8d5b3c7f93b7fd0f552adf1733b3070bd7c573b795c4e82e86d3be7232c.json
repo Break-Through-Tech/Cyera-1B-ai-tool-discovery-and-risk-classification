@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_08790",
+    "description_usable": false,
+    "function": "",
+    "category": "Productivity",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Description is generic marketing ('macOS workflow optimizer') and does not identify concrete capabilities or AI use, despite primary_task mentioning ChatGPT."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:31:18.156185+00:00"
+}

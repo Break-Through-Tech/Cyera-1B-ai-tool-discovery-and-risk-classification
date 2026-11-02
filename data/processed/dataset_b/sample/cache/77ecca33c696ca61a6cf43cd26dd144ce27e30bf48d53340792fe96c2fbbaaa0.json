@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_02067",
+    "description_usable": true,
+    "function": "analyzes customer feedback from various sources to identify trends, pain points, and opportunities for product improvement",
+    "category": "Data Analytics",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Customer feedback analysis platform utilizing AI insights as indicated in keywords."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:51.860436+00:00"
+}

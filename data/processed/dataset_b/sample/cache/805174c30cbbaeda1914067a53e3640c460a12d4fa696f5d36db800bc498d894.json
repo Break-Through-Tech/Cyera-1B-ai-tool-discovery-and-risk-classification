@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_16368",
+    "description_usable": true,
+    "function": "Project management software to optimize workflows",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Explicitly described as AI-powered project management software."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:11.456920+00:00"
+}

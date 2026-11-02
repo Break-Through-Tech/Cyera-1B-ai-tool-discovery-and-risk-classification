@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_08189",
+    "description_usable": true,
+    "function": "Analyzing your medical reports in layman terms",
+    "category": "Other",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Explains medical reports in simple terms, but description and metadata do not confirm AI usage."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:36:01.817069+00:00"
+}

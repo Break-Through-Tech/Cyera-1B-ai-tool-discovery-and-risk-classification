@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_02906",
+    "description_usable": true,
+    "function": "Enhancing productivity with prompts and summarization",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Uses prompts and summarization, designed as ChatGPT for websites."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:26:38.621471+00:00"
+}

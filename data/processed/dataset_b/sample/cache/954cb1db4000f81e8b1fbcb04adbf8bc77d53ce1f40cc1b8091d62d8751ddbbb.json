@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_06674",
+    "description_usable": true,
+    "function": "Fine-tune GPT",
+    "category": "AI Infrastructure / Model Platforms",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Tool for fine-tuning GPT models."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:36:17.537380+00:00"
+}

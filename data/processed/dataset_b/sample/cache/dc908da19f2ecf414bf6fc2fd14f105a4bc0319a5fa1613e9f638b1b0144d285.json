@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_13129",
+    "description_usable": true,
+    "function": "Connecting users with matches for networking",
+    "category": "Productivity",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Domain has .ai but description and metadata do not provide evidence of AI functionality."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:31:33.065085+00:00"
+}

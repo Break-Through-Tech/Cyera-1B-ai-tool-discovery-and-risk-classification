@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_13235",
+    "description_usable": true,
+    "function": "Streamlining student engagement with AI-driven communication",
+    "category": "Customer Support",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI-driven communication/chatbot tool for higher education student engagement and support."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:35:48.678180+00:00"
+}

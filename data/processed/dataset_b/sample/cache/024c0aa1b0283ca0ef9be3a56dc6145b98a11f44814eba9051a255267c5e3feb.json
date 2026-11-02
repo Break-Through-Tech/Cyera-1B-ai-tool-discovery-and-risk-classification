@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_15955",
+    "description_usable": true,
+    "function": "Generate and edit AI images with reference image, prompt templates, and natural language editing",
+    "category": "Image / Video Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI image generation and natural language editing tool."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:23.829570+00:00"
+}

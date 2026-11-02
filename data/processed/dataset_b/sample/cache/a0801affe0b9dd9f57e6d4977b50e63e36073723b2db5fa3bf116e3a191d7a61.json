@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_13379",
+    "description_usable": true,
+    "function": "Create personalized children's books with AI",
+    "category": "Content Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Explicitly creates personalized children's books using AI."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:34:05.193295+00:00"
+}

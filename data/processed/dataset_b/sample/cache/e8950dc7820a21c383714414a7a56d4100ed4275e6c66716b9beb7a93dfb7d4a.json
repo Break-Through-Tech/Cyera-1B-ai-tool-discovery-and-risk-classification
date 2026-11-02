@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_08419",
+    "description_usable": true,
+    "function": "Customer support chatbots",
+    "category": "Customer Support",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Chatbot platform for customer support service."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:36:01.820079+00:00"
+}

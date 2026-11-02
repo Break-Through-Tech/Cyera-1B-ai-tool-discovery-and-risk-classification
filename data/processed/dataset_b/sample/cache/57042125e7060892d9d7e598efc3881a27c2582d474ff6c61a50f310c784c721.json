@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_02434",
+    "description_usable": true,
+    "function": "AI assistant built for Mac to avoid context-switching and copy/paste",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Native macOS AI assistant to speed up workflows and reduce context-switching."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:26:38.634708+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_15355",
+    "description_usable": true,
+    "function": "AI roleplay, character chat and RPG platform with long-term memory",
+    "category": "General AI Assistants",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Platform explicitly provides AI roleplay and character chat."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:12.856521+00:00"
+}

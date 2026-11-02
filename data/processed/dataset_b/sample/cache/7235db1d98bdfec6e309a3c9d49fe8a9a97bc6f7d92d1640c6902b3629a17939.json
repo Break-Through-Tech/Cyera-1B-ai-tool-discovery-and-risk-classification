@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_00941",
+    "description_usable": true,
+    "function": "Generate Excel formulas based on natural language descriptions",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Generative AI tool that translates natural language text into spreadsheet formulas."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:31:33.062224+00:00"
+}

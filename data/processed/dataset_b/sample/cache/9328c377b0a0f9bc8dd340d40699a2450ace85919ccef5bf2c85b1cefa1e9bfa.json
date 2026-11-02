@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_16580",
+    "description_usable": true,
+    "function": "speech-to-text platform that transforms audio and video into accurate transcripts",
+    "category": "Meeting / Transcription Tools",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Explicitly an AI-powered speech-to-text tool for transcribing audio/video."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:34:18.641634+00:00"
+}

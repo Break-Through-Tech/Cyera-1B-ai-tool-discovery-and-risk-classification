@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_12603",
+    "description_usable": true,
+    "function": "Randomized games with unique adversaries",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Gaming application featuring randomized adversaries without AI claims."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:32:23.832154+00:00"
+}

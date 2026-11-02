@@ -1,0 +1,13 @@
+{
+  "result": {
+    "tool_id": "tool_03823",
+    "description_usable": true,
+    "function": "real-time voice chats with AI personas that sense your emotions",
+    "category": "General AI Assistants",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Provides real-time voice chat with AI personas."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-02T06:31:45.455254+00:00"
+}
