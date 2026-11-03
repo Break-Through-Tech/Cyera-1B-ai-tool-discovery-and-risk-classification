@@ -1,0 +1,71 @@
+{
+  "catalog_records": 16762,
+  "negative_seed_records": 30,
+  "prepared_records": 14792,
+  "catalog_dispositions": {
+    "train": 14670,
+    "excluded": 1998,
+    "test": 46,
+    "validation": 46,
+    "quarantined": 2
+  },
+  "catalog_reasons": {
+    "included": 14762,
+    "unreviewed_overlap_with_negative_seed": 7,
+    "flagged_dead_site": 1247,
+    "related_to_heldout_application": 2,
+    "review_rejected": 90,
+    "review_needs_review": 105,
+    "missing_name_or_description": 530,
+    "invalid_domain": 19
+  },
+  "splits": {
+    "train": {
+      "rows": 14692,
+      "class_counts": {
+        "1": 14670,
+        "0": 22
+      },
+      "label_sources": {
+        "provisional_catalog_membership": 14457,
+        "gemini_text_review": 213,
+        "team_non_ai_seed": 22
+      }
+    },
+    "validation": {
+      "rows": 50,
+      "class_counts": {
+        "1": 46,
+        "0": 4
+      },
+      "label_sources": {
+        "gemini_text_review": 46,
+        "team_non_ai_seed": 4
+      }
+    },
+    "test": {
+      "rows": 50,
+      "class_counts": {
+        "1": 46,
+        "0": 4
+      },
+      "label_sources": {
+        "gemini_text_review": 46,
+        "team_non_ai_seed": 4
+      }
+    }
+  },
+  "target": "is_ai_tool",
+  "label_mapping": {
+    "0": "conventional primary application purpose",
+    "1": "AI-focused tool"
+  },
+  "governance_risk_target": false,
+  "independently_verified_test_labels": false,
+  "checks": {
+    "all_catalog_rows_accounted_for": true,
+    "no_cross_split_identity_overlap": true,
+    "both_classes_in_every_split": true,
+    "no_provisional_catalog_labels_in_evaluation": true
+  }
+}
