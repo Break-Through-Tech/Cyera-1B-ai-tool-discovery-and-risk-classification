@@ -163,7 +163,6 @@ def main():
     combined=[r for rows in splits.values() for r in rows]
     for name,rows in [('classification',combined),*splits.items()]:save(a.out/f'{name}.csv',rows,FIELDS)
     save(a.out/'catalog_audit.csv',audit,AUDIT_FIELDS)
-    save(a.out/'excluded_and_quarantined.csv',[r for r in audit if r['disposition'] not in splits],AUDIT_FIELDS)
     summary=dict(catalog_records=len(audit),negative_seed_records=len(load(a.non_ai)),
         prepared_records=len(combined),catalog_dispositions=dict(Counter(r['disposition'] for r in audit)),
         catalog_reasons=dict(Counter(r['reason'] for r in audit)),
