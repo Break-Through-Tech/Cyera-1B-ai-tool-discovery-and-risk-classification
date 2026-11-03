@@ -1,0 +1,27 @@
+{
+  "seed": 42,
+  "split_ratios": {
+    "train": 0.7,
+    "validation": 0.15,
+    "test": 0.15
+  },
+  "split_unit": "connected application groups; approximate ratios",
+  "features": [
+    "text_for_model"
+  ],
+  "text_composition": "tool_name + description, same fields for both classes",
+  "excluded_features": [
+    "category",
+    "label_source",
+    "label_quality",
+    "source_file",
+    "domain",
+    "risk_label",
+    "approved_status"
+  ],
+  "recovered_non_ai_source": "87f760769e39e89ba3bcb1691d8f0eb32c60e4b2:data/non_ai_enterprise_tools.csv",
+  "inputs": {
+    "ai": "6f668a0b566a6278420079d6fb72d25893557c1600f2e89a0729146c9477540d",
+    "non_ai": "ad81466c7df6b098867517f9bba6f3027318bc69b297a129edc0f2f67edccc16"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "target": "is_ai_tool",
+  "label_mapping": {
+    "0": "non-AI primary application purpose",
+    "1": "AI-focused tool"
+  },
+  "input_rows": {
+    "ai": 305,
+    "non_ai": 30
+  },
+  "output_rows": 335,
+  "excluded_rows": 0,
+  "class_counts": {
+    "1": 305,
+    "0": 30
+  },
+  "splits": {
+    "train": {
+      "rows": 235,
+      "class_counts": {
+        "1": 213,
+        "0": 22
+      },
+      "ai_category_counts": {
+        "Data Analytics": 8,
+        "Image / Video Generation": 34,
+        "Sales / Marketing": 13,
+        "AI Infrastructure / Model Platforms": 12,
+        "Content Generation": 35,
+        "Productivity": 44,
+        "Other": 24,
+        "Coding / Developer Tools": 11,
+        "General AI Assistants": 7,
+        "Research / Search": 8,
+        "Customer Support": 13,
+        "Meeting / Transcription Tools": 4
+      }
+    },
+    "validation": {
+      "rows": 50,
+      "class_counts": {
+        "1": 46,
+        "0": 4
+      },
+      "ai_category_counts": {
+        "Image / Video Generation": 8,
+        "Content Generation": 9,
+        "Data Analytics": 2,
+        "AI Infrastructure / Model Platforms": 1,
+        "Productivity": 14,
+        "Other": 4,
+        "Sales / Marketing": 1,
+        "Meeting / Transcription Tools": 1,
+        "Customer Support": 2,
+        "General AI Assistants": 3,
+        "Coding / Developer Tools": 1
+      }
+    },
+    "test": {
+      "rows": 50,
+      "class_counts": {
+        "1": 46,
+        "0": 4
+      },
+      "ai_category_counts": {
+        "Image / Video Generation": 11,
+        "Content Generation": 8,
+        "General AI Assistants": 3,
+        "Other": 5,
+        "AI Infrastructure / Model Platforms": 3,
+        "Productivity": 7,
+        "Coding / Developer Tools": 2,
+        "Customer Support": 1,
+        "Meeting / Transcription Tools": 1,
+        "Research / Search": 2,
+        "Data Analytics": 2,
+        "Sales / Marketing": 1
+      }
+    }
+  },
+  "checks": {
+    "both_classes_every_split": true,
+    "unique_application_ids": true,
+    "no_cross_split_identity_host_name_description_overlap": true
+  },
+  "ready_for_baseline_development": true,
+  "gold_standard_evaluation": false,
+  "label_quality": "weak_supervision",
+  "limitations": [
+    "AI labels and categories are model-reviewed, not independently verified.",
+    "Non-AI labels are inherited from team seed data; ordinary platforms may include AI features.",
+    "30 negatives provide a small, imbalanced evaluation sample.",
+    "Different source writing styles may confound AI detection.",
+    "No real-world accuracy or governance risk is established by these labels."
+  ]
+}

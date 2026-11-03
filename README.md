@@ -85,6 +85,23 @@ jupyter nbconvert --to notebook --execute --inplace notebooks/eda.ipynb
 
 ---
 
+## Classification dataset preparation (issue #5)
+
+The full available-data preparation pipeline accounts for all 16,762 cleaned catalog records and combines eligible weak AI examples with the team's 30 non-AI examples recovered from Git history. It produces 14,792 applications: 14,692 training, 50 validation and 50 test rows.
+
+`is_ai_tool` is the binary detection target (`1` = AI-focused tool, `0` = conventional primary application purpose). Business-function categories are separate; no risk scores or vendor security claims are inferred. Labels remain weak supervision, not independently verified ground truth.
+
+```bash
+python3 preprocessing_scripts/prepare_full_classification.py
+python3 -m unittest discover -s tests -v
+```
+
+Model-reviewed positives and team negatives form the held-out sets; unreviewed catalog labels are used for training only. Connected names, hostnames and identical descriptions stay together, and held-out-related provisional records are quarantined. Generated CSVs, provenance, input hashes and the complete catalog audit are in `data/processed/classification_full/`.
+
+See [the full dataset guide](docs/full_classification_dataset.md) for exclusions, split policy and limitations. The [335-row starter set](docs/classification_dataset.md) is retained for reference. The older EDA paths and counts elsewhere in this README describe a previous data revision. Baseline training is separate work under issue #6.
+
+---
+
 ## 🧠 **Model Development**
 
 **You might consider describing the following (as applicable):**

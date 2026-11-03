@@ -1,0 +1,15 @@
+{
+  "seed": 42,
+  "inputs": {
+    "kaggle_clean.csv": "0d3e60af81b1d7224a7ea7b0673eeb6de74589cbff52cbf4e516914770059d57",
+    "review_results.csv": "60de287ddb1ddf2b35e46b5f8ebb44d84cfc1fd628557e497b7ee1c45e966cbf",
+    "non_ai_enterprise_tools.csv": "ad81466c7df6b098867517f9bba6f3027318bc69b297a129edc0f2f67edccc16"
+  },
+  "features": [
+    "text_for_model"
+  ],
+  "text_composition": "tool_name + description",
+  "split_policy": "70/15/15 groups of model-reviewed/seed anchors; provisional-only groups train; heldout-related provisional rows quarantined",
+  "label_policy": "Weak supervision only. Review exclusions override catalog membership. Negative-overlap unreviewed catalog rows excluded.",
+  "unknown_categories": "blank; never fabricated"
+}
