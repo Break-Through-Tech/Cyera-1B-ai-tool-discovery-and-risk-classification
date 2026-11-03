@@ -79,8 +79,7 @@ Inputs:
 Outputs under `data/processed/classification_full/`:
 
 - `classification.csv`, `train.csv`, `validation.csv`, `test.csv`.
-- `catalog_audit.csv`: all 16,762 source catalog records with dispositions and reasons.
-- `excluded_and_quarantined.csv`: the 2,000 catalog records withheld from classification.
+- `catalog_audit.csv`: all 16,762 source catalog records with dispositions and reasons, including the 2,000 excluded/quarantined records.
 - `summary.json`: counts, checks and target definition.
 - `manifest.json`: SHA-256 input hashes, seed, feature and split policies.
 
