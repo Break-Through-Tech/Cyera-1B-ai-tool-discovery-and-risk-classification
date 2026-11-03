@@ -1,0 +1,36 @@
+{
+  "selected_binary_model": "reviewed_only",
+  "categories": [
+    "AI Infrastructure / Model Platforms",
+    "Coding / Developer Tools",
+    "Content Generation",
+    "Customer Support",
+    "Data Analytics",
+    "General AI Assistants",
+    "Image / Video Generation",
+    "Meeting / Transcription Tools",
+    "Other",
+    "Productivity",
+    "Research / Search",
+    "Sales / Marketing"
+  ],
+  "threshold": 0.5,
+  "versions": {
+    "python": "3.12.5",
+    "sklearn": "1.7.2",
+    "numpy": "2.5.4",
+    "joblib": "1.6.0"
+  },
+  "inputs": {
+    "train.csv": "cae3800a319082dea2de4cb8e61370a7e51a33506e0a8229555d8095309e6405",
+    "validation.csv": "b699854cd2e01e6db2a07f5a88ac50eb247ab84fd30c15b07f3cad5ad87a0ab7",
+    "test.csv": "facb2110aa8b11c568a2bfe2b3597d2c50d274cf6f6f4df7588892febf0dd987"
+  },
+  "training": {
+    "vectorizer": "word TF-IDF, unigrams+bigrams, sublinear TF, max_features=50000",
+    "classifier": "LogisticRegression(C=1.0, max_iter=2000, random_state=42)",
+    "binary_sample_weight": "source weights: 1 reviewed/seed, 0.25 provisional; then balance effective class mass",
+    "category_sample_weight": "inverse category frequency",
+    "refit_on_evaluation": false
+  }
+}

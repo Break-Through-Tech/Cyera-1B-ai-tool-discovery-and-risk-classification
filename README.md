@@ -85,6 +85,21 @@ jupyter nbconvert --to notebook --execute --inplace notebooks/eda.ipynb
 
 ---
 
+## Baseline classification models (issue #6)
+
+Train reproducible TF-IDF + Logistic Regression baselines for AI/non-AI detection and an initial business-purpose category classifier. Both reviewed-only and full-catalog variants are evaluated against a majority-class baseline. Validation macro F1 selects the reviewed-only binary model; the labels remain weak supervision.
+
+```bash
+python -m pip install -r modeling/requirements.txt
+python modeling/train_baseline.py --out artifacts/reproduced-baseline
+python modeling/predict.py --name "Example Writing Assistant" --description "An AI assistant that generates marketing copy from prompts."
+python -m unittest discover -s tests -v
+```
+
+See [the baseline guide](docs/baseline_classification.md) for results, settings, prediction output and limitations, or use [the runnable notebook](notebooks/full_classification_baseline.ipynb). Saved models, reports and test predictions are in `artifacts/baseline/`. Detection, category and governance risk are separate tasks; this baseline does not calculate risk.
+
+---
+
 ## Classification dataset preparation (issue #5)
 
 The full available-data preparation pipeline accounts for all 16,762 cleaned catalog records and combines eligible weak AI examples with the team's 30 non-AI examples recovered from Git history. It produces 14,792 applications: 14,692 training, 50 validation and 50 test rows.
