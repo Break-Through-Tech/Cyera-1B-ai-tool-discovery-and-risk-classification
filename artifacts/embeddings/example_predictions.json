@@ -1,0 +1,125 @@
+[
+  {
+    "tool_name": "ExampleCodeHelper",
+    "is_ai_tool": 1,
+    "model_ai_score": 0.9103371591410069,
+    "binary_family": "embeddings",
+    "category": "Coding / Developer Tools",
+    "category_model_score": 0.22175867604177923,
+    "category_family": "embeddings",
+    "similar_training_tools": [
+      {
+        "application_id": "app_7f7a62a19054b72c",
+        "tool_name": "Code Fundi",
+        "description": "Faster, improved code with debugging and explanations.",
+        "cosine_similarity": 0.6289802193641663,
+        "supplied_is_ai_tool": 1,
+        "supplied_category": "Coding / Developer Tools",
+        "label_source": "gemini_text_review"
+      },
+      {
+        "application_id": "app_0e0166223aaf7717",
+        "tool_name": "DocuWriter.ai",
+        "description": "AI-powered tools for Developers",
+        "cosine_similarity": 0.5531003475189209,
+        "supplied_is_ai_tool": 1,
+        "supplied_category": "Coding / Developer Tools",
+        "label_source": "gemini_text_review"
+      },
+      {
+        "application_id": "app_822c62042d9b5f9f",
+        "tool_name": "CodewpAI",
+        "description": "Generate WordPress code faster and smarter with our AI-powered tool. Boost your workflow with an AI WordPress code generator.",
+        "cosine_similarity": 0.5525132417678833,
+        "supplied_is_ai_tool": 1,
+        "supplied_category": "Coding / Developer Tools",
+        "label_source": "gemini_text_review"
+      }
+    ],
+    "label_scope": "Primary application purpose as described; not presence or absence of AI features or observed AI usage",
+    "needs_review": true,
+    "caveat": "Experimental weak-label models; cosine similarity is relatedness, not proof of AI functionality or governance risk"
+  },
+  {
+    "tool_name": "ExampleMeetingNotes",
+    "is_ai_tool": 1,
+    "model_ai_score": 0.853915211677441,
+    "binary_family": "embeddings",
+    "category": "Meeting / Transcription Tools",
+    "category_model_score": 0.19766867887180878,
+    "category_family": "embeddings",
+    "similar_training_tools": [
+      {
+        "application_id": "app_6b36301b61950530",
+        "tool_name": "Metaview",
+        "description": "Automated, AI-generated note taking for recruiters and interviewers.",
+        "cosine_similarity": 0.6396247148513794,
+        "supplied_is_ai_tool": 1,
+        "supplied_category": "Meeting / Transcription Tools",
+        "label_source": "gemini_text_review"
+      },
+      {
+        "application_id": "app_0f6c4756ae5bb3b9",
+        "tool_name": "Amie - AI Note Taker",
+        "description": "Amie is an AI-powered personal assistant that unifies calendar, email, tasks, and contacts. It leverages AI to help users schedule, plan, organize, write emails, and summarize meetings, aiming to streamline productivity with a joyful user experience.",
+        "cosine_similarity": 0.6039186716079712,
+        "supplied_is_ai_tool": 1,
+        "supplied_category": "Productivity",
+        "label_source": "gemini_text_review"
+      },
+      {
+        "application_id": "app_6cc2ae212d3613be",
+        "tool_name": "FlashAI",
+        "description": "Enhancing productivity with prompts and summarization.",
+        "cosine_similarity": 0.5752996802330017,
+        "supplied_is_ai_tool": 1,
+        "supplied_category": "Productivity",
+        "label_source": "gemini_text_review"
+      }
+    ],
+    "label_scope": "Primary application purpose as described; not presence or absence of AI features or observed AI usage",
+    "needs_review": true,
+    "caveat": "Experimental weak-label models; cosine similarity is relatedness, not proof of AI functionality or governance risk"
+  },
+  {
+    "tool_name": "ExampleFileArchive",
+    "is_ai_tool": 0,
+    "model_ai_score": 0.10728103173709214,
+    "binary_family": "embeddings",
+    "category": null,
+    "category_model_score": null,
+    "category_family": "embeddings",
+    "similar_training_tools": [
+      {
+        "application_id": "app_58cf7c0f52719db2",
+        "tool_name": "Dropbox",
+        "description": "A cloud file storage and synchronization service with sharing and collaboration features.",
+        "cosine_similarity": 0.7181914448738098,
+        "supplied_is_ai_tool": 0,
+        "supplied_category": null,
+        "label_source": "team_non_ai_seed"
+      },
+      {
+        "application_id": "app_c1ad394a6de67879",
+        "tool_name": "Box",
+        "description": "A cloud content management platform for secure file storage, sharing, and collaboration.",
+        "cosine_similarity": 0.5869131088256836,
+        "supplied_is_ai_tool": 0,
+        "supplied_category": null,
+        "label_source": "team_non_ai_seed"
+      },
+      {
+        "application_id": "app_a4ca84692f02b49f",
+        "tool_name": "Microsoft Teams",
+        "description": "A collaboration hub combining chat, video meetings, file storage, and app integration.",
+        "cosine_similarity": 0.5813044309616089,
+        "supplied_is_ai_tool": 0,
+        "supplied_category": null,
+        "label_source": "team_non_ai_seed"
+      }
+    ],
+    "label_scope": "Primary application purpose as described; not presence or absence of AI features or observed AI usage",
+    "needs_review": true,
+    "caveat": "Experimental weak-label models; cosine similarity is relatedness, not proof of AI functionality or governance risk"
+  }
+]
