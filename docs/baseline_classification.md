@@ -2,6 +2,8 @@
 
 This implements the first binary AI-detection and business-purpose category baselines on the dataset merged in PR #11. The classifiers in this change were trained from the existing data; the earlier Gemini pipeline supplied model-reviewed labels, not these trained classifiers.
 
+A [source and code review on November 4](source_review_2026-11-04.md) checked all 30 negative seed descriptions, 12 AI/category training examples and the three original selected-model test errors. Four uncertain/stale training identities are now withheld through `data/reviews/source_review_2026-11-04.json`; prepared CSVs and held-out labels remain unchanged. Initial metrics are retained in `artifacts/baseline/pre_source_review_metrics.json`. The counts and results below describe the models after those exclusions.
+
 ## Models and targets
 
 - **Binary detection:** word TF-IDF + Logistic Regression. The target is `is_ai_tool`: `1` for an AI-focused tool and `0` for conventional primary application purpose.
@@ -14,8 +16,8 @@ Two binary training variants are compared:
 
 | Variant | Reviewed AI training rows | Provisional AI training rows | Non-AI training rows | Total |
 |---|---:|---:|---:|---:|
-| `reviewed_only` | 213 | 0 | 22 | 235 |
-| `full_catalog` | 213 | 14,457 | 22 | 14,692 |
+| `reviewed_only` | 209 | 0 | 22 | 231 |
+| `full_catalog` | 209 | 14,457 | 22 | 14,688 |
 
 “Reviewed” means accepted by the repository's existing Gemini text review, not independently human-verified. The 30 non-AI examples come from the team's restored seed dataset and label conventional primary purpose; they do not establish that a platform has no AI features.
 
@@ -30,10 +32,10 @@ Fixed settings:
 - TF-IDF word unigrams/bigrams, sublinear term frequency, minimum document frequency 1 and at most 50,000 features.
 - Logistic Regression: C=1.0, max_iter=2000, random_state=42.
 - Binary row weights: 1.0 for reviewed/seed records and 0.25 for provisional catalog members, then normalized to equal total effective weight per binary class.
-- Category row weights: inverse category frequency on the 213 annotated AI training records.
+- Category row weights: inverse category frequency on the 209 annotated AI training records.
 - Binary threshold: 0.5. Model scores have not been calibrated.
 
-Select the binary variant with the highest validation macro F1. Ties prefer `reviewed_only`. Test results are generated after selection; test records never fit the vectorizer or classifier. The final files keep the training-only fitted models, without refitting on evaluation sets. The earlier exploratory run used the same split and fixed settings; these are reproducibility/development results, not a fresh independent benchmark.
+Select the binary variant with the highest validation macro F1. Ties prefer `reviewed_only`. Test results are generated after selection; test records never fit the vectorizer or classifier. The final files keep the training-only fitted models, without refitting on evaluation sets. The earlier exploratory run and source review used the same split and fixed model settings; these are reproducibility/development results, not a fresh independent benchmark.
 
 ## Results
 
@@ -41,7 +43,7 @@ Select the binary variant with the highest validation macro F1. Ties prefer `rev
 |---|---:|---:|---:|---:|
 | Majority-class predictor | 0.479 | 0.479 | 92% | 0% (0/4) |
 | Reviewed-only Logistic Regression | **0.823** | **0.770** | 94% | 50% (2/4) |
-| Full-catalog Logistic Regression | 0.684 | 0.684 | 94% | 25% (1/4) |
+| Full-catalog Logistic Regression | 0.479 | 0.684 | 94% | 25% (1/4) |
 
 The default prediction variant is `reviewed_only`, chosen on validation macro F1. Additional provisional positives did not improve this fixed baseline on validation; the comparison does not establish why.
 
@@ -52,7 +54,7 @@ Selected model's test confusion matrix (rows = supplied labels, columns = predic
 | Supplied non-AI | 2 | 2 |
 | Supplied AI | 1 | 45 |
 
-The initial category model has 34.8% validation accuracy and 30.4% test accuracy, with 0.235 test macro F1 across all 12 training categories. Its category evaluation uses 46 supplied AI examples per split. Meeting / Transcription Tools has no support in either held-out category set. These results are conditional on an AI label, not end-to-end detection-plus-category accuracy.
+The initial category model has 34.8% validation accuracy and 28.3% test accuracy, with 0.205 test macro F1 across all 12 training categories. Its category evaluation uses 46 supplied AI examples per split. Meeting / Transcription Tools has no support in either held-out category set. These results are conditional on an AI label, not end-to-end detection-plus-category accuracy.
 
 `artifacts/baseline/metrics.json` contains per-class precision, recall, F1, support, balanced accuracy and confusion matrices for both binary variants and category evaluation. Test prediction CSVs identify individual binary errors. `model_config.json` records exact settings, library versions and hashes of training/validation/test inputs.
 
@@ -70,7 +72,7 @@ python modeling/train_baseline.py --out artifacts/reproduced-baseline
 python -m unittest discover -s tests -v
 ```
 
-The default training output is `artifacts/baseline`. Existing nonempty output directories are protected unless `--overwrite` is supplied. `--data` can select another prepared directory containing train.csv, validation.csv and test.csv.
+The default training output is `artifacts/baseline`. Existing nonempty output directories are protected unless `--overwrite` is supplied. `--data` can select another compatible prepared directory containing train.csv, validation.csv and test.csv. `--source-review` selects the versioned review file; IDs and training membership must match that dataset. Exclusions cannot target validation/test records.
 
 Predict with the included models:
 
@@ -82,13 +84,13 @@ python modeling/predict.py --name "Example File Archive" --description "A cloud 
 
 Use `--models artifacts/reproduced-baseline` for a different model directory. `--binary full_catalog` explicitly selects the alternate binary model. The default comes from `model_config.json`.
 
-Prediction returns `is_ai_tool`, an uncalibrated `model_ai_score`, and, for predicted AI tools, a separate category suggestion and category model score. Results are marked `needs_review=true`. Text with no known vocabulary produces a null detection and an explanation. A concrete description is required; a bare hostname does not reveal unseen-tool functionality.
+Prediction explicitly states the primary-purpose label scope: it does not establish whether AI features exist or were used. It returns `is_ai_tool`, an uncalibrated `model_ai_score`, and, for predicted AI tools, a separate category suggestion and category model score. Results are marked `needs_review=true`. Text with no known vocabulary produces a null detection and an explanation. A concrete description is required; a bare hostname does not reveal unseen-tool functionality.
 
 `notebooks/full_classification_baseline.ipynb` runs the same preparation/training/prediction scripts. Repeated notebook runs overwrite only the named `artifacts/notebook_run/` outputs. It does not duplicate the model implementation.
 
 ## Verification and limitations
 
-The full suite includes 15 preparation tests and model tests for source-aware class weighting, train-only vocabulary, validation-based selection, saved-model metric reproduction, missing/OOV input handling, and separate detection/category outputs. All model input hashes match the committed CSVs. The preparation step already accounts for all source catalog records; its full audit remains in `classification_full/catalog_audit.csv`.
+The full suite has 25 passing tests, including 15 preparation tests and model tests for source-aware class weighting, train-only vocabulary, validation-based selection, saved-model metric reproduction, missing/OOV input handling, and separate detection/category outputs. All model input hashes match the committed CSVs. The preparation step already accounts for all source catalog records; its full audit remains in `classification_full/catalog_audit.csv`.
 
 The labels are weak supervision, not independently verified truth. Four non-AI examples per evaluation split make recall unstable: one example changes it by 25 percentage points. A majority predictor already gets 92% test accuracy, so the selected model's 94% accuracy should be read alongside its macro F1 and per-class errors. Different source writing styles may confound classification, and identity grouping does not resolve all aliases or semantic near-duplicates.
 

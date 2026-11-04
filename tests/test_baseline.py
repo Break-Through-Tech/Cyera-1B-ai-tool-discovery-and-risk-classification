@@ -10,7 +10,7 @@ AVAILABLE=importlib.util.find_spec('sklearn') is not None
 if AVAILABLE:
     import joblib
     import numpy as np
-    from train_baseline import balanced_source_weights, estimator, metrics
+    from train_baseline import apply_source_review, balanced_source_weights, estimator, metrics
     from predict import predict
 
 
@@ -50,6 +50,42 @@ class BaselineTests(unittest.TestCase):
         for filename, expected in config['inputs'].items():
             actual=hashlib.sha256((ROOT/'data/processed/classification_full'/filename).read_bytes()).hexdigest()
             self.assertEqual(actual,expected)
+
+    def test_source_review_withholds_whole_training_groups(self):
+        splits=dict(train=[dict(source_record_id='a',group_id='g1',is_ai_tool='1'),
+                           dict(source_record_id='alias',group_id='g1',is_ai_tool='1'),
+                           dict(source_record_id='b',group_id='g2',is_ai_tool='1'),
+                           dict(source_record_id='n',group_id='g3',is_ai_tool='0')],
+                    validation=[dict(source_record_id='v',is_ai_tool='1')],
+                    test=[dict(source_record_id='t',is_ai_tool='0')])
+        review=dict(schema_version=1,records=[dict(source_record_id='a',training_action='exclude_training')])
+        filtered,excluded=apply_source_review(splits,review)
+        self.assertEqual({r['source_record_id'] for r in filtered['train']},{'b','n'})
+        self.assertEqual({r['source_record_id'] for r in excluded},{'a','alias'})
+        self.assertEqual(filtered['test'],splits['test'])
+        self.assertEqual(filtered['validation'],splits['validation'])
+        self.assertEqual(len(splits['train']),4)
+        review['records'][0]['source_record_id']='t'
+        with self.assertRaises(ValueError):apply_source_review(splits,review)
+        review['records'][0]['source_record_id']='unknown'
+        with self.assertRaises(ValueError):apply_source_review(splits,review)
+
+    def test_source_review_file_matches_saved_model(self):
+        import hashlib
+        config=json.loads((ROOT/'artifacts/baseline/model_config.json').read_text())
+        review_path=ROOT/'data/reviews'/config['source_review']['file']
+        self.assertEqual(hashlib.sha256(review_path.read_bytes()).hexdigest(),config['source_review']['sha256'])
+        self.assertEqual(set(config['source_review']['excluded_training_ids']),
+                         {'tool_01528','tool_00986','tool_00072','tool_00289'})
+        self.assertIn('not presence or absence of AI',config['label_scope'])
+
+    def test_source_review_coverage_and_honest_provenance(self):
+        review=json.loads((ROOT/'data/reviews/source_review_2026-11-04.json').read_text())
+        self.assertFalse(review['human_verified'])
+        self.assertEqual(len([r for r in review['records'] if r['sample']=='all_negative_seeds']),30)
+        self.assertEqual(len([r for r in review['records'] if r['sample']=='one_training_record_per_category']),12)
+        self.assertEqual(len(review['initial_binary_test_errors']),3)
+        self.assertTrue(all(r['source_urls'] for r in review['records']))
 
     def test_inference_abstains_for_unknown_vocabulary(self):
         result=predict(ROOT/'artifacts/baseline','zzqjxvv','zzqjxvv')

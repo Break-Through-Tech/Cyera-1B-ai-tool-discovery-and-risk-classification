@@ -26,6 +26,23 @@
     "validation.csv": "b699854cd2e01e6db2a07f5a88ac50eb247ab84fd30c15b07f3cad5ad87a0ab7",
     "test.csv": "facb2110aa8b11c568a2bfe2b3597d2c50d274cf6f6f4df7588892febf0dd987"
   },
+  "label_scope": "Primary application purpose as described; not presence or absence of AI features or observed AI usage",
+  "source_review": {
+    "file": "source_review_2026-11-04.json",
+    "sha256": "d9b090c74d09d9342e43d857896fb3f76dff7858124f0fac08674204e77d350f",
+    "excluded_training_ids": [
+      "tool_01528",
+      "tool_00986",
+      "tool_00072",
+      "tool_00289"
+    ],
+    "excluded_training_groups": [
+      "group_432f7ee122b56924",
+      "group_5ebae838c8b4c321",
+      "group_7a58de3999c2d2c5",
+      "group_c3b18834a83b9a80"
+    ]
+  },
   "training": {
     "vectorizer": "word TF-IDF, unigrams+bigrams, sublinear TF, max_features=50000",
     "classifier": "LogisticRegression(C=1.0, max_iter=2000, random_state=42)",

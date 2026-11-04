@@ -96,6 +96,8 @@ python modeling/predict.py --name "Example Writing Assistant" --description "An 
 python -m unittest discover -s tests -v
 ```
 
+The [source/code review](docs/source_review_2026-11-04.md) checks the negative seeds, a category sample and original errors, withholds four uncertain training identities, and preserves evaluation labels. Negative labels describe conventional primary purpose rather than an absence of AI capabilities.
+
 See [the baseline guide](docs/baseline_classification.md) for results, settings, prediction output and limitations, or use [the runnable notebook](notebooks/full_classification_baseline.ipynb). Saved models, reports and test predictions are in `artifacts/baseline/`. Detection, category and governance risk are separate tasks; this baseline does not calculate risk.
 
 ---
