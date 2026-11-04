@@ -1,6 +1,6 @@
 # Cyera - AI Tool Discovery & Risk Classification
 
-The [v2 classification dataset guide](docs/classification_dataset_v2.md) documents the expanded source-reviewed labels, frozen splits, reproduction command and requirements for future model training.
+The [v2 classification dataset guide](docs/classification_dataset_v2.md) documents the expanded source-reviewed labels, frozen splits, reproduction command and requirements for future model training. The [v2 model guide](docs/classification_models_v2.md) covers retraining, frozen evaluation results and the prediction CLI.
 
 > 💡 **Note for the team:** This is just a template. Update the above title with your AI Studio Challenge Project name. Remove all guidance notes and example text in this template and populate this README with your own content. You can work on this README throughout AI Studio, and get feedback from your AI Studio Coach and Challenge Advisor before finalizing it.  
 

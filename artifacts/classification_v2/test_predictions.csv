@@ -1,0 +1,73 @@
+label_id,tool_name,expected_is_ai_tool,expected_category,selected_is_ai_tool,selected_category,selected_ai_score,tfidf_is_ai_tool,tfidf_category,embeddings_is_ai_tool,embeddings_category
+v2_00de59b044e3,Taskade AI Agents,1,Productivity,1,Data Analytics,0.6218349100846289,1,Data Analytics,1,Customer Support
+v2_01677e8adede,Zulip,0,,0,,0.27015852634823917,0,Meeting / Transcription Tools,0,Meeting / Transcription Tools
+v2_046e15ec1d75,ClickUp Brain,1,Productivity,1,Productivity,0.7879620230658363,1,Productivity,1,Productivity
+v2_0b7c2b9b6137,MeetGeek,1,Meeting / Transcription Tools,1,Meeting / Transcription Tools,0.6971373863713233,1,Meeting / Transcription Tools,1,Meeting / Transcription Tools
+v2_0d4b32c8a4ca,Databricks Genie,1,Data Analytics,0,,0.4963540513690931,0,Data Analytics,1,Data Analytics
+v2_0fc712a7cb8f,Fastmail,0,,0,,0.29352869972124707,0,Sales / Marketing,0,Sales / Marketing
+v2_1128aeaa8e15,Taiga,0,,0,,0.25414351352261727,0,Productivity,0,AI Infrastructure / Model Platforms
+v2_15e6b1c54312,KeePassXC,0,,0,,0.25836790110402486,0,Productivity,0,Data Analytics
+v2_160b93ba38ba,Google Gemini,1,General AI Assistants,1,General AI Assistants,0.8090515355783998,1,General AI Assistants,1,General AI Assistants
+v2_1724791bb12f,AIVA,1,Audio / Speech Tools,1,Audio / Speech Tools,0.7327525562394401,1,Audio / Speech Tools,1,Audio / Speech Tools
+v2_19a101a7fe10,ShareFile,0,,0,,0.23571838967837702,0,Productivity,0,Customer Support
+v2_23273be40d43,EspoCRM,0,,0,,0.3036718988444056,0,Customer Support,0,Sales / Marketing
+v2_24e415191601,Mautic,0,,0,,0.28457446441987616,0,Sales / Marketing,0,Sales / Marketing
+v2_305238273bb0,Motion,1,Productivity,1,Productivity,0.6352653933347768,1,Productivity,1,Meeting / Transcription Tools
+v2_329f891bb0e4,Amazon Q Developer,1,Coding / Developer Tools,1,Coding / Developer Tools,0.7789364524936548,1,Coding / Developer Tools,1,Coding / Developer Tools
+v2_363f8e279f80,Intercom Fin,1,Customer Support,1,Customer Support,0.6168364312043321,1,Customer Support,1,Customer Support
+v2_38663223fce3,Conversica,1,Sales / Marketing,1,General AI Assistants,0.5165644262576136,1,General AI Assistants,1,Sales / Marketing
+v2_3b3516aad1d9,Ashby,0,,0,,0.2368743701293935,0,Meeting / Transcription Tools,0,Sales / Marketing
+v2_3fcf0ff109cb,Psono,0,,0,,0.3493357335796026,0,Productivity,0,Data Analytics
+v2_445929267209,Element,0,,0,,0.3134682748453958,0,Sales / Marketing,0,Image / Video Generation
+v2_462084cbbb1e,Rippling,0,,0,,0.25918457374708015,0,Meeting / Transcription Tools,0,Data Analytics
+v2_474eb123d313,Copper CRM,0,,0,,0.29047533401848796,0,Sales / Marketing,0,Sales / Marketing
+v2_4a35582c54fb,AiSDR,1,Sales / Marketing,1,Sales / Marketing,0.7698728110709641,1,Sales / Marketing,1,Sales / Marketing
+v2_4b9236c8c82f,ThoughtSpot Spotter,1,Data Analytics,1,Data Analytics,0.6428660444431818,1,Data Analytics,1,Data Analytics
+v2_4b968b619494,ResearchRabbit,1,Research / Search,1,Research / Search,0.7362017751391137,1,Research / Search,1,Research / Search
+v2_4e44ddffb6da,Workday,0,,0,,0.23845613369763738,0,Meeting / Transcription Tools,0,Data Analytics
+v2_4ec90cb5a1d1,FreeCAD,0,,0,,0.41772446824663767,0,AI Infrastructure / Model Platforms,0,AI Infrastructure / Model Platforms
+v2_5058a8968dcd,When2meet,0,,0,,0.322909964241106,0,Meeting / Transcription Tools,0,Meeting / Transcription Tools
+v2_586937124e15,Suno,1,Audio / Speech Tools,1,Audio / Speech Tools,0.7703837063688239,1,Audio / Speech Tools,1,Audio / Speech Tools
+v2_58b12530ee5e,Okta Single Sign-On,0,,0,,0.2689959177092676,0,Productivity,0,Customer Support
+v2_5982776464b2,Pika,1,Image / Video Generation,1,Image / Video Generation,0.7199898853663034,1,Image / Video Generation,1,Image / Video Generation
+v2_5a80e4ba8e6d,Blender,0,,0,,0.46726553560366746,0,Productivity,0,Image / Video Generation
+v2_5efa94085cb2,ownCloud,0,,0,,0.23751153801505584,0,Productivity,0,Customer Support
+v2_65e3b5ae45f3,Gorgias AI Agent,1,Customer Support,1,Customer Support,0.6753454353270576,1,Customer Support,1,Customer Support
+v2_66dc8bf3821c,Ideogram,1,Image / Video Generation,1,Image / Video Generation,0.6993788445579602,1,Image / Video Generation,1,Image / Video Generation
+v2_7a4e79b4c3c4,Forgejo,0,,0,,0.24115873243028288,0,Coding / Developer Tools,0,Coding / Developer Tools
+v2_7dec08bf680c,Artisan Ava,1,Sales / Marketing,1,Sales / Marketing,0.6348414192459767,1,Sales / Marketing,1,Sales / Marketing
+v2_7ee41c7f9217,Insightly,0,,0,,0.2828189682908189,0,Sales / Marketing,0,Sales / Marketing
+v2_7f871cbf905f,OpenRouter,1,AI Infrastructure / Model Platforms,1,AI Infrastructure / Model Platforms,0.7023979512184467,1,AI Infrastructure / Model Platforms,1,AI Infrastructure / Model Platforms
+v2_8073c5350194,Deel,0,,0,,0.26888288476159977,0,Productivity,0,Sales / Marketing
+v2_80f7c06f4c9a,Wordtune,1,Content Generation,1,Content Generation,0.8233719636751302,1,Content Generation,1,Content Generation
+v2_858107c713c2,Chef Infra,0,,0,,0.3562046675490464,0,Coding / Developer Tools,0,AI Infrastructure / Model Platforms
+v2_8ea20d7601da,Kopia,0,,0,,0.29860676135763053,0,Productivity,0,Image / Video Generation
+v2_906063196e64,PolyAI,1,Customer Support,1,Customer Support,0.681941999674362,1,Customer Support,1,Customer Support
+v2_92b77ed2712e,Scholarcy,1,Research / Search,1,Research / Search,0.744663210496129,1,Research / Search,1,Research / Search
+v2_997569cd8165,Akaunting,0,,0,,0.2309066732644327,0,Meeting / Transcription Tools,0,Sales / Marketing
+v2_9e2ef53faecc,Replit Agent,1,Coding / Developer Tools,1,Coding / Developer Tools,0.6712027698863923,1,Coding / Developer Tools,1,Coding / Developer Tools
+v2_9e365138bc22,Recraft,1,Image / Video Generation,1,Productivity,0.6015812158281827,1,Productivity,1,Image / Video Generation
+v2_9ea2545dc8e5,Freedcamp,0,,0,,0.28390601279527705,0,General AI Assistants,0,Productivity
+v2_a05ce3fa06fe,LedgerSMB,0,,0,,0.2295152050098917,0,Meeting / Transcription Tools,0,Sales / Marketing
+v2_a4cb1e23263b,HyperWrite,1,Content Generation,1,Productivity,0.8258914202641842,1,Productivity,1,Content Generation
+v2_add92b9cde2b,Grok,1,General AI Assistants,1,General AI Assistants,0.823613941293796,1,General AI Assistants,1,General AI Assistants
+v2_b0293884d06d,Easy!Appointments,0,,0,,0.25368162605714795,0,Productivity,0,Customer Support
+v2_b728120e9b29,OpenSearch,0,,0,,0.3183107848009145,0,Data Analytics,0,Data Analytics
+v2_b9549e9e9e77,Argo CD,0,,0,,0.3971876114677747,0,AI Infrastructure / Model Platforms,0,AI Infrastructure / Model Platforms
+v2_bc5d4bfdc0b7,Request Tracker,0,,0,,0.2509562766272882,0,Customer Support,0,Customer Support
+v2_bf05aab57d98,BentoML,1,AI Infrastructure / Model Platforms,1,AI Infrastructure / Model Platforms,0.6599445156573768,1,AI Infrastructure / Model Platforms,1,AI Infrastructure / Model Platforms
+v2_c0d672554241,ClickUp,0,,0,,0.2826947973290489,0,Productivity,0,Productivity
+v2_c1233198763e,Polymer,1,Data Analytics,1,Audio / Speech Tools,0.5041205898569294,1,Audio / Speech Tools,0,Data Analytics
+v2_c1b3cbad8e80,SciSummary,1,Research / Search,1,Research / Search,0.7586074612857284,1,Research / Search,1,Research / Search
+v2_c9c69e7618d4,Paperpal,1,Content Generation,1,Content Generation,0.8333329730147098,1,Content Generation,1,Content Generation
+v2_ce7a951b7a0f,Gerrit,0,,0,,0.2891550417166166,0,General AI Assistants,0,Coding / Developer Tools
+v2_d468473c91a8,TickTick,0,,0,,0.2774760720365808,0,General AI Assistants,0,Productivity
+v2_d793040fe89a,Otter.ai,1,Meeting / Transcription Tools,1,Meeting / Transcription Tools,0.8342981695079074,1,Meeting / Transcription Tools,1,Meeting / Transcription Tools
+v2_e0a924ea4cb7,FileCloud,0,,0,,0.22374998141131028,0,Productivity,0,Data Analytics
+v2_e44a5261597d,Fireflies.ai,1,Meeting / Transcription Tools,1,Meeting / Transcription Tools,0.7382456746282435,1,Meeting / Transcription Tools,1,Meeting / Transcription Tools
+v2_e4f9c522e1c8,Kimi,1,General AI Assistants,1,General AI Assistants,0.7903426670261389,1,General AI Assistants,1,General AI Assistants
+v2_e853b4e183ed,ElevenLabs,1,Audio / Speech Tools,1,Audio / Speech Tools,0.7269850320199865,1,Audio / Speech Tools,1,Audio / Speech Tools
+v2_e8be7168ff0d,Hugging Face Inference Endpoints,1,AI Infrastructure / Model Platforms,1,AI Infrastructure / Model Platforms,0.6205879065024219,1,AI Infrastructure / Model Platforms,1,AI Infrastructure / Model Platforms
+v2_ec53b05ca723,Freshdesk,0,,0,,0.3236615966900543,0,Customer Support,0,Customer Support
+v2_f3b53d30af5c,KMyMoney,0,,0,,0.251056331306643,0,Productivity,0,Sales / Marketing
+v2_fc34547c4b46,CodeRabbit,1,Coding / Developer Tools,1,Coding / Developer Tools,0.6814413672927859,1,Coding / Developer Tools,1,Coding / Developer Tools

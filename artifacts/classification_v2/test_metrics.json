@@ -1,0 +1,719 @@
+{
+  "selection_config_sha256": "c5fe695227dc92c5efa5ca69e798ff35b73ad976239babfad7d5ed3b6deb1055",
+  "selected_binary_family": "tfidf",
+  "selected_category_family": "tfidf",
+  "test_rows": 72,
+  "test_class_counts": {
+    "non_ai": 36,
+    "ai": 36
+  },
+  "models": {
+    "tfidf": {
+      "binary": {
+        "accuracy": 0.9861111111111112,
+        "balanced_accuracy": 0.9861111111111112,
+        "macro_f1": 0.9861084314103801,
+        "confusion_matrix": [
+          [
+            36,
+            0
+          ],
+          [
+            1,
+            35
+          ]
+        ],
+        "confusion_matrix_label_order": [
+          "non_ai",
+          "ai"
+        ],
+        "per_class": {
+          "non_ai": {
+            "precision": 0.972972972972973,
+            "recall": 1.0,
+            "f1-score": 0.9863013698630136,
+            "support": 36.0
+          },
+          "ai": {
+            "precision": 1.0,
+            "recall": 0.9722222222222222,
+            "f1-score": 0.9859154929577465,
+            "support": 36.0
+          },
+          "accuracy": 0.9861111111111112,
+          "macro avg": {
+            "precision": 0.9864864864864865,
+            "recall": 0.9861111111111112,
+            "f1-score": 0.9861084314103801,
+            "support": 72.0
+          },
+          "weighted avg": {
+            "precision": 0.9864864864864865,
+            "recall": 0.9861111111111112,
+            "f1-score": 0.98610843141038,
+            "support": 72.0
+          }
+        }
+      },
+      "category_conditional_on_true_ai": {
+        "accuracy": 0.8611111111111112,
+        "balanced_accuracy": 0.861111111111111,
+        "macro_f1": 0.8626984126984127,
+        "confusion_matrix": [
+          [
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            2
+          ]
+        ],
+        "confusion_matrix_label_order": [
+          "AI Infrastructure / Model Platforms",
+          "Audio / Speech Tools",
+          "Coding / Developer Tools",
+          "Content Generation",
+          "Customer Support",
+          "Data Analytics",
+          "General AI Assistants",
+          "Image / Video Generation",
+          "Meeting / Transcription Tools",
+          "Productivity",
+          "Research / Search",
+          "Sales / Marketing"
+        ],
+        "per_class": {
+          "AI Infrastructure / Model Platforms": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 3.0
+          },
+          "Audio / Speech Tools": {
+            "precision": 0.75,
+            "recall": 1.0,
+            "f1-score": 0.8571428571428571,
+            "support": 3.0
+          },
+          "Coding / Developer Tools": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 3.0
+          },
+          "Content Generation": {
+            "precision": 1.0,
+            "recall": 0.6666666666666666,
+            "f1-score": 0.8,
+            "support": 3.0
+          },
+          "Customer Support": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 3.0
+          },
+          "Data Analytics": {
+            "precision": 0.6666666666666666,
+            "recall": 0.6666666666666666,
+            "f1-score": 0.6666666666666666,
+            "support": 3.0
+          },
+          "General AI Assistants": {
+            "precision": 0.75,
+            "recall": 1.0,
+            "f1-score": 0.8571428571428571,
+            "support": 3.0
+          },
+          "Image / Video Generation": {
+            "precision": 1.0,
+            "recall": 0.6666666666666666,
+            "f1-score": 0.8,
+            "support": 3.0
+          },
+          "Meeting / Transcription Tools": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 3.0
+          },
+          "Productivity": {
+            "precision": 0.5,
+            "recall": 0.6666666666666666,
+            "f1-score": 0.5714285714285714,
+            "support": 3.0
+          },
+          "Research / Search": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 3.0
+          },
+          "Sales / Marketing": {
+            "precision": 1.0,
+            "recall": 0.6666666666666666,
+            "f1-score": 0.8,
+            "support": 3.0
+          },
+          "accuracy": 0.8611111111111112,
+          "macro avg": {
+            "precision": 0.8888888888888888,
+            "recall": 0.861111111111111,
+            "f1-score": 0.8626984126984127,
+            "support": 36.0
+          },
+          "weighted avg": {
+            "precision": 0.8888888888888888,
+            "recall": 0.8611111111111112,
+            "f1-score": 0.8626984126984127,
+            "support": 36.0
+          }
+        }
+      }
+    },
+    "embeddings": {
+      "binary": {
+        "accuracy": 0.9861111111111112,
+        "balanced_accuracy": 0.9861111111111112,
+        "macro_f1": 0.9861084314103801,
+        "confusion_matrix": [
+          [
+            36,
+            0
+          ],
+          [
+            1,
+            35
+          ]
+        ],
+        "confusion_matrix_label_order": [
+          "non_ai",
+          "ai"
+        ],
+        "per_class": {
+          "non_ai": {
+            "precision": 0.972972972972973,
+            "recall": 1.0,
+            "f1-score": 0.9863013698630136,
+            "support": 36.0
+          },
+          "ai": {
+            "precision": 1.0,
+            "recall": 0.9722222222222222,
+            "f1-score": 0.9859154929577465,
+            "support": 36.0
+          },
+          "accuracy": 0.9861111111111112,
+          "macro avg": {
+            "precision": 0.9864864864864865,
+            "recall": 0.9861111111111112,
+            "f1-score": 0.9861084314103801,
+            "support": 72.0
+          },
+          "weighted avg": {
+            "precision": 0.9864864864864865,
+            "recall": 0.9861111111111112,
+            "f1-score": 0.98610843141038,
+            "support": 72.0
+          }
+        }
+      },
+      "category_conditional_on_true_ai": {
+        "accuracy": 0.9444444444444444,
+        "balanced_accuracy": 0.9444444444444445,
+        "macro_f1": 0.9345238095238096,
+        "confusion_matrix": [
+          [
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3
+          ]
+        ],
+        "confusion_matrix_label_order": [
+          "AI Infrastructure / Model Platforms",
+          "Audio / Speech Tools",
+          "Coding / Developer Tools",
+          "Content Generation",
+          "Customer Support",
+          "Data Analytics",
+          "General AI Assistants",
+          "Image / Video Generation",
+          "Meeting / Transcription Tools",
+          "Productivity",
+          "Research / Search",
+          "Sales / Marketing"
+        ],
+        "per_class": {
+          "AI Infrastructure / Model Platforms": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 3.0
+          },
+          "Audio / Speech Tools": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 3.0
+          },
+          "Coding / Developer Tools": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 3.0
+          },
+          "Content Generation": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 3.0
+          },
+          "Customer Support": {
+            "precision": 0.75,
+            "recall": 1.0,
+            "f1-score": 0.8571428571428571,
+            "support": 3.0
+          },
+          "Data Analytics": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 3.0
+          },
+          "General AI Assistants": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 3.0
+          },
+          "Image / Video Generation": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 3.0
+          },
+          "Meeting / Transcription Tools": {
+            "precision": 0.75,
+            "recall": 1.0,
+            "f1-score": 0.8571428571428571,
+            "support": 3.0
+          },
+          "Productivity": {
+            "precision": 1.0,
+            "recall": 0.3333333333333333,
+            "f1-score": 0.5,
+            "support": 3.0
+          },
+          "Research / Search": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 3.0
+          },
+          "Sales / Marketing": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 3.0
+          },
+          "accuracy": 0.9444444444444444,
+          "macro avg": {
+            "precision": 0.9583333333333334,
+            "recall": 0.9444444444444445,
+            "f1-score": 0.9345238095238096,
+            "support": 36.0
+          },
+          "weighted avg": {
+            "precision": 0.9583333333333334,
+            "recall": 0.9444444444444444,
+            "f1-score": 0.9345238095238094,
+            "support": 36.0
+          }
+        }
+      }
+    }
+  },
+  "selected_end_to_end_accuracy": 0.9166666666666666,
+  "majority_class": {
+    "binary": {
+      "accuracy": 0.5,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.3333333333333333,
+      "confusion_matrix": [
+        [
+          36,
+          0
+        ],
+        [
+          36,
+          0
+        ]
+      ],
+      "confusion_matrix_label_order": [
+        "non_ai",
+        "ai"
+      ],
+      "per_class": {
+        "non_ai": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1-score": 0.6666666666666666,
+          "support": 36.0
+        },
+        "ai": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 36.0
+        },
+        "accuracy": 0.5,
+        "macro avg": {
+          "precision": 0.25,
+          "recall": 0.5,
+          "f1-score": 0.3333333333333333,
+          "support": 72.0
+        },
+        "weighted avg": {
+          "precision": 0.25,
+          "recall": 0.5,
+          "f1-score": 0.3333333333333333,
+          "support": 72.0
+        }
+      }
+    }
+  },
+  "scope": "Frozen v2 holdout, assistant-reviewed labels and assistant-authored descriptions; no v1/catalog training augmentation",
+  "test_used_for_selection": false,
+  "pretrained_encoder_may_have_seen_products": true,
+  "independently_human_verified": false,
+  "caveats": [
+    "36 examples per binary class; three positives per category.",
+    "Category scores are conditional on true AI labels; end-to-end requires both detection and category.",
+    "Scores are uncalibrated; no governance-risk or AI-feature prediction is trained.",
+    "Author style and public product knowledge may inflate results."
+  ]
+}
