@@ -1,0 +1,301 @@
+﻿split,query_id,query_name,expected_is_ai_tool,rank,reference_id,reference_name,reference_is_ai_tool,reference_category,cosine_similarity
+validation,app_04407abea77d9e27,AI-signals,1,1,app_c0612537dc3b91ad,Traderstats,1,Data Analytics,0.5790753364562988
+validation,app_04407abea77d9e27,AI-signals,1,2,app_6bd596874cf254d7,Accio,1,Productivity,0.3824857175350189
+validation,app_04407abea77d9e27,AI-signals,1,3,app_91c1e5629e082406,Undetectable,1,Content Generation,0.36951836943626404
+validation,app_07f5aebd03163ddb,Grsai AI,1,1,app_61ecfa5f55cfe779,Zizoto,1,Image / Video Generation,0.5343673229217529
+validation,app_07f5aebd03163ddb,Grsai AI,1,2,app_ee744c08a2eedeae,SpiritMe,1,Image / Video Generation,0.5158606171607971
+validation,app_07f5aebd03163ddb,Grsai AI,1,3,app_a9a19ed9fcdf7040,HiDream Pro,1,Image / Video Generation,0.5088678002357483
+validation,app_089d6807c8055b02,Semrush outline builder,1,1,app_e10162fd6748a1db,Outranking,1,Content Generation,0.5548269152641296
+validation,app_089d6807c8055b02,Semrush outline builder,1,2,app_a898ef4029d27e92,AIChatting,1,Content Generation,0.40596863627433777
+validation,app_089d6807c8055b02,Semrush outline builder,1,3,app_d3290250b0caa0ed,AI Essay Checker,1,Content Generation,0.38785117864608765
+validation,app_08f2ffb2ebc0e403,Pico,1,1,app_723c133b7cca4769,TiramAi,1,AI Infrastructure / Model Platforms,0.5036098957061768
+validation,app_08f2ffb2ebc0e403,Pico,1,2,app_7b0ff0f2dc825cbd,PhotoFuse,1,Image / Video Generation,0.3867989778518677
+validation,app_08f2ffb2ebc0e403,Pico,1,3,app_822c62042d9b5f9f,CodewpAI,1,Coding / Developer Tools,0.3828374445438385
+validation,app_1092907384925838,MyEssayTyper,1,1,app_d3290250b0caa0ed,AI Essay Checker,1,Content Generation,0.7142127156257629
+validation,app_1092907384925838,MyEssayTyper,1,2,app_7a1c40c83d8d3126,EssayFlow,1,Content Generation,0.6034995317459106
+validation,app_1092907384925838,MyEssayTyper,1,3,app_938c9eb6ce35b263,ParaphrasingTool,1,Content Generation,0.5456120371818542
+validation,app_116829e2684d7d56,Voiset,1,1,app_68869e94e35b406a,Focal,1,Research / Search,0.5566361546516418
+validation,app_116829e2684d7d56,Voiset,1,2,app_0e0166223aaf7717,DocuWriter.ai,1,Coding / Developer Tools,0.533891499042511
+validation,app_116829e2684d7d56,Voiset,1,3,app_ddf3e95226a1753a,Make Illustrations,1,Image / Video Generation,0.5299736857414246
+validation,app_18c2e8d67ef1b281,Octocom,1,1,app_3e54bca6369225ce,GPTBricks,1,Customer Support,0.5920397639274597
+validation,app_18c2e8d67ef1b281,Octocom,1,2,app_915961314a040acf,Web2Chat,1,Customer Support,0.5422433018684387
+validation,app_18c2e8d67ef1b281,Octocom,1,3,app_efa2249c7a9bcbbb,OnChat,1,Customer Support,0.5174404382705688
+validation,app_293a383c36dd05ac,Warpvideo AI,1,1,app_02ae225a0f81ca49,GeminiAIVideo,1,Image / Video Generation,0.5764631032943726
+validation,app_293a383c36dd05ac,Warpvideo AI,1,2,app_56a08d77915e6233,Dream Machine AI,1,Image / Video Generation,0.5423789620399475
+validation,app_293a383c36dd05ac,Warpvideo AI,1,3,app_8d54ddc5b54ff540,Elai.io,1,Image / Video Generation,0.5348536372184753
+validation,app_2a3fdeb416848744,DocuSign,0,1,app_743e9cf10bc7a592,Confluence,0,,0.39169177412986755
+validation,app_2a3fdeb416848744,DocuSign,0,2,app_0e0166223aaf7717,DocuWriter.ai,1,Coding / Developer Tools,0.3710733950138092
+validation,app_2a3fdeb416848744,DocuSign,0,3,app_7373a8ba3f8e0eaa,Docus AI,1,Other,0.36465033888816833
+validation,app_301a4bc47b068f04,Agent 360,1,1,app_4cdf899a7d6bd215,Qoder,1,Coding / Developer Tools,0.5088145732879639
+validation,app_301a4bc47b068f04,Agent 360,1,2,app_efa2249c7a9bcbbb,OnChat,1,Customer Support,0.48419368267059326
+validation,app_301a4bc47b068f04,Agent 360,1,3,app_915961314a040acf,Web2Chat,1,Customer Support,0.4334369897842407
+validation,app_323019057bd6d118,photes.io,1,1,app_3a4fd395f12ba998,Voxpad,1,Productivity,0.5895949602127075
+validation,app_323019057bd6d118,photes.io,1,2,app_0222f7b8f239334d,Photify AI,1,Image / Video Generation,0.5752116441726685
+validation,app_323019057bd6d118,photes.io,1,3,app_7282bc5d3249b549,ReelBuzz,1,Image / Video Generation,0.5587825179100037
+validation,app_346174d8bb304144,Landingi,1,1,app_7cd8a9791a80468d,Roast My Landing Page,1,Sales / Marketing,0.5862053036689758
+validation,app_346174d8bb304144,Landingi,1,2,app_9483db8e77834e9e,Sivi,1,Image / Video Generation,0.45876768231391907
+validation,app_346174d8bb304144,Landingi,1,3,app_6f623a163509d7e6,Buster.so,1,Data Analytics,0.44959768652915955
+validation,app_35f17b1f1781b0b3,MythBlender,1,1,app_7008a255bb11c249,Storytell.ai,1,Research / Search,0.47662153840065
+validation,app_35f17b1f1781b0b3,MythBlender,1,2,app_a2f53c984c73db8b,StoriesForKids.ai,1,Content Generation,0.40025168657302856
+validation,app_35f17b1f1781b0b3,MythBlender,1,3,app_0e0166223aaf7717,DocuWriter.ai,1,Coding / Developer Tools,0.3977392017841339
+validation,app_36a3eea7763f16e6,Okta,0,1,app_201f491843221c08,ServiceNow,0,,0.4130929112434387
+validation,app_36a3eea7763f16e6,Okta,0,2,app_a4cce568cdc9a7de,Veriff,1,Other,0.410184383392334
+validation,app_36a3eea7763f16e6,Okta,0,3,app_efa2249c7a9bcbbb,OnChat,1,Customer Support,0.3627946674823761
+validation,app_3b1071d7d8ec9336,HeyScience,1,1,app_68869e94e35b406a,Focal,1,Research / Search,0.6070352792739868
+validation,app_3b1071d7d8ec9336,HeyScience,1,2,app_7373a8ba3f8e0eaa,Docus AI,1,Other,0.5625730156898499
+validation,app_3b1071d7d8ec9336,HeyScience,1,3,app_ae3c4de2cf096953,Learniverse,1,Productivity,0.5551619529724121
+validation,app_42df35fb1c052035,TutorAI,1,1,app_ae3c4de2cf096953,Learniverse,1,Productivity,0.6425367593765259
+validation,app_42df35fb1c052035,TutorAI,1,2,app_8d54ddc5b54ff540,Elai.io,1,Image / Video Generation,0.5493571162223816
+validation,app_42df35fb1c052035,TutorAI,1,3,app_43a9d9997434ad10,RockettAI,1,Productivity,0.5334694981575012
+validation,app_47696e5c6d636f85,Deleo,1,1,app_f0a9af6df26193b5,WOXO,1,Image / Video Generation,0.6158082485198975
+validation,app_47696e5c6d636f85,Deleo,1,2,app_f637c7d0aee41008,AISEO Art,1,Image / Video Generation,0.6055434942245483
+validation,app_47696e5c6d636f85,Deleo,1,3,app_1ec3b53c92f3349e,Patience,1,Image / Video Generation,0.5824971795082092
+validation,app_48254b0803c6b582,IELTS CHAMP,1,1,app_a846bb747383bd2d,Teacher AI,1,Other,0.4759429693222046
+validation,app_48254b0803c6b582,IELTS CHAMP,1,2,app_853579a517da933b,Diglot,1,Content Generation,0.44584086537361145
+validation,app_48254b0803c6b582,IELTS CHAMP,1,3,app_c32d3521aa767643,Idyll,1,General AI Assistants,0.4295528531074524
+validation,app_4aa1918533fc93f8,Promptroi,1,1,app_a4a1283a63839b0d,Franchise AI Assistant,1,General AI Assistants,0.5548103451728821
+validation,app_4aa1918533fc93f8,Promptroi,1,2,app_ae3c4de2cf096953,Learniverse,1,Productivity,0.5455452799797058
+validation,app_4aa1918533fc93f8,Promptroi,1,3,app_473ab43cf29051c0,Malibu,1,Image / Video Generation,0.5285064578056335
+validation,app_4b4f454400303fef,AIVideoGenerator.me,1,1,app_42249d3535757cfb,Magi-1,1,Image / Video Generation,0.6919424533843994
+validation,app_4b4f454400303fef,AIVideoGenerator.me,1,2,app_f0a9af6df26193b5,WOXO,1,Image / Video Generation,0.6420438289642334
+validation,app_4b4f454400303fef,AIVideoGenerator.me,1,3,app_56a08d77915e6233,Dream Machine AI,1,Image / Video Generation,0.6292521953582764
+validation,app_4bac80ae2449fc4b,Aura AI,1,1,app_0df8a1f643ed24e9,ChatSpot,1,General AI Assistants,0.5290380716323853
+validation,app_4bac80ae2449fc4b,Aura AI,1,2,app_2ebea2247f3670f4,Ai Music Generator,1,Content Generation,0.5258166790008545
+validation,app_4bac80ae2449fc4b,Aura AI,1,3,app_145f455343810b41,Dreamjourney AI,1,General AI Assistants,0.5175386071205139
+validation,app_5201a9242a3b284d,HereAfter AI,1,1,app_5b0597fc41040d4b,Dolly AI,1,General AI Assistants,0.5583216547966003
+validation,app_5201a9242a3b284d,HereAfter AI,1,2,app_6f623a163509d7e6,Buster.so,1,Data Analytics,0.5480955839157104
+validation,app_5201a9242a3b284d,HereAfter AI,1,3,app_5b1109d96fde92ce,Bange,1,Content Generation,0.5365369319915771
+validation,app_56b8afc1c76848a9,Academic Help,1,1,app_7a1c40c83d8d3126,EssayFlow,1,Content Generation,0.6113740801811218
+validation,app_56b8afc1c76848a9,Academic Help,1,2,app_d3290250b0caa0ed,AI Essay Checker,1,Content Generation,0.582733154296875
+validation,app_56b8afc1c76848a9,Academic Help,1,3,app_938c9eb6ce35b263,ParaphrasingTool,1,Content Generation,0.526718258857727
+validation,app_58bec8dbc87eaa86,Tandem GPT,1,1,app_1e925826483678e1,Prompteasy,1,AI Infrastructure / Model Platforms,0.46813082695007324
+validation,app_58bec8dbc87eaa86,Tandem GPT,1,2,app_67b8cea7af8fe78b,KnowNotes,1,Meeting / Transcription Tools,0.4405503273010254
+validation,app_58bec8dbc87eaa86,Tandem GPT,1,3,app_3e54bca6369225ce,GPTBricks,1,Customer Support,0.4143156111240387
+validation,app_5a74c1c05fa8c9f2,TaxGPT.com,1,1,app_a59b13d222e112b5,Excel Formula GPT,1,Productivity,0.41468316316604614
+validation,app_5a74c1c05fa8c9f2,TaxGPT.com,1,2,app_70df33383c0bf703,BotGPT,1,Customer Support,0.33703914284706116
+validation,app_5a74c1c05fa8c9f2,TaxGPT.com,1,3,app_1e925826483678e1,Prompteasy,1,AI Infrastructure / Model Platforms,0.3338121473789215
+validation,app_60005b206087cd64,YTSummary,1,1,app_6cc2ae212d3613be,FlashAI,1,Productivity,0.5237153172492981
+validation,app_60005b206087cd64,YTSummary,1,2,app_7008a255bb11c249,Storytell.ai,1,Research / Search,0.47077757120132446
+validation,app_60005b206087cd64,YTSummary,1,3,app_104fac96ea641f72,Docuchat,1,Productivity,0.44986483454704285
+validation,app_6657115f5edfaafa,SAP S/4HANA,0,1,app_8d379b384da7bef0,Smartsheet,0,,0.4476902186870575
+validation,app_6657115f5edfaafa,SAP S/4HANA,0,2,app_cc5413cbcc73436b,NetSuite,0,,0.4129793047904968
+validation,app_6657115f5edfaafa,SAP S/4HANA,0,3,app_e5b89fe6416649fd,BambooHR,0,,0.41026613116264343
+validation,app_6d9beab49c7c80eb,Jam,1,1,app_b12db02b6bc5654d,Autoblocks,1,AI Infrastructure / Model Platforms,0.4857724606990814
+validation,app_6d9beab49c7c80eb,Jam,1,2,app_7f7a62a19054b72c,Code Fundi,1,Coding / Developer Tools,0.40482261776924133
+validation,app_6d9beab49c7c80eb,Jam,1,3,app_1d025fecf42000d2,Jira,0,,0.34234997630119324
+validation,app_6f5257c88743b402,4oImageAPI.io,1,1,app_a9a19ed9fcdf7040,HiDream Pro,1,Image / Video Generation,0.5492842793464661
+validation,app_6f5257c88743b402,4oImageAPI.io,1,2,app_f0a9af6df26193b5,WOXO,1,Image / Video Generation,0.5246566534042358
+validation,app_6f5257c88743b402,4oImageAPI.io,1,3,app_42249d3535757cfb,Magi-1,1,Image / Video Generation,0.5204883813858032
+validation,app_71e252c5fe22c858,LogoMate,1,1,app_ddf3e95226a1753a,Make Illustrations,1,Image / Video Generation,0.44742918014526367
+validation,app_71e252c5fe22c858,LogoMate,1,2,app_1552bd8dcbb84b34,Nano Banana.pro,1,Image / Video Generation,0.4375220835208893
+validation,app_71e252c5fe22c858,LogoMate,1,3,app_088e003d040bcae4,Graph Maker,1,Data Analytics,0.43073850870132446
+validation,app_73b6fe519976346a,Bomml,1,1,app_135385a631dd9670,Aivia,1,Productivity,0.49114567041397095
+validation,app_73b6fe519976346a,Bomml,1,2,app_beb0e02e6250c255,Markovml,1,AI Infrastructure / Model Platforms,0.4467010200023651
+validation,app_73b6fe519976346a,Bomml,1,3,app_5e5bd2e17a218f25,Dust,1,AI Infrastructure / Model Platforms,0.43786120414733887
+validation,app_84973a61084136b2,Renovate AI,1,1,app_1ec3b53c92f3349e,Patience,1,Image / Video Generation,0.5689197778701782
+validation,app_84973a61084136b2,Renovate AI,1,2,app_38533e35b7f70078,Scenario,1,Image / Video Generation,0.5458436608314514
+validation,app_84973a61084136b2,Renovate AI,1,3,app_0e0166223aaf7717,DocuWriter.ai,1,Coding / Developer Tools,0.528746485710144
+validation,app_86bb82a0560c07aa,Foxus AI,1,1,app_2d12d2261a34444a,Buzzi.ai,1,Content Generation,0.5330925583839417
+validation,app_86bb82a0560c07aa,Foxus AI,1,2,app_a898ef4029d27e92,AIChatting,1,Content Generation,0.5258052945137024
+validation,app_86bb82a0560c07aa,Foxus AI,1,3,app_0a02a3e59bc5f9cd,CopyReadyNow,1,Content Generation,0.5194433331489563
+validation,app_88d3a1c835411c44,Muskan.ai,1,1,app_861190e3bd89dce9,BekiAI,1,Sales / Marketing,0.36037778854370117
+validation,app_88d3a1c835411c44,Muskan.ai,1,2,app_745673607091ff6e,Sage AI,1,Other,0.35808175802230835
+validation,app_88d3a1c835411c44,Muskan.ai,1,3,app_ec9b33c272ed1282,Suki,1,Productivity,0.3502162992954254
+validation,app_910f3dfa49b034b6,Whatmore,1,1,app_8d54ddc5b54ff540,Elai.io,1,Image / Video Generation,0.5915018320083618
+validation,app_910f3dfa49b034b6,Whatmore,1,2,app_46845dc6ad0b4a84,isFake.ai,1,Other,0.540208101272583
+validation,app_910f3dfa49b034b6,Whatmore,1,3,app_2d12d2261a34444a,Buzzi.ai,1,Content Generation,0.518092930316925
+validation,app_930a974ade5ffc2e,Thegist,1,1,app_1120cd2344d664d7,Slack,0,,0.5997283458709717
+validation,app_930a974ade5ffc2e,Thegist,1,2,app_69a1ce66ed325eb7,IAsk,1,Research / Search,0.45831623673439026
+validation,app_930a974ade5ffc2e,Thegist,1,3,app_6cc2ae212d3613be,FlashAI,1,Productivity,0.44134771823883057
+validation,app_9ff6bd3c58a4af36,Humanize.im,1,1,app_bfaf41be474f6a48,How To Be Best Man,1,Content Generation,0.5615525841712952
+validation,app_9ff6bd3c58a4af36,Humanize.im,1,2,app_5b0597fc41040d4b,Dolly AI,1,General AI Assistants,0.494661808013916
+validation,app_9ff6bd3c58a4af36,Humanize.im,1,3,app_2d12d2261a34444a,Buzzi.ai,1,Content Generation,0.4770803153514862
+validation,app_aa5a73f4deb2c836,Solo AI,1,1,app_915961314a040acf,Web2Chat,1,Customer Support,0.5727746486663818
+validation,app_aa5a73f4deb2c836,Solo AI,1,2,app_2ebea2247f3670f4,Ai Music Generator,1,Content Generation,0.5721650719642639
+validation,app_aa5a73f4deb2c836,Solo AI,1,3,app_8d54ddc5b54ff540,Elai.io,1,Image / Video Generation,0.5667200684547424
+validation,app_aadd5174fb0c5a69,Sayfli,1,1,app_0df8a1f643ed24e9,ChatSpot,1,General AI Assistants,0.5774268507957458
+validation,app_aadd5174fb0c5a69,Sayfli,1,2,app_e2d059ff6e11bf0e,Tovie,1,Customer Support,0.5490556359291077
+validation,app_aadd5174fb0c5a69,Sayfli,1,3,app_a846bb747383bd2d,Teacher AI,1,Other,0.5452731251716614
+validation,app_adaff4afc6b58b2e,Pizi AI,1,1,app_104fac96ea641f72,Docuchat,1,Productivity,0.5437378287315369
+validation,app_adaff4afc6b58b2e,Pizi AI,1,2,app_217334ee75618895,ChatwithpdfAI,1,Productivity,0.5310418605804443
+validation,app_adaff4afc6b58b2e,Pizi AI,1,3,app_08bbb20d06c95593,PaperChat,1,Productivity,0.5242929458618164
+validation,app_b2016160089e574d,Nubee,1,1,app_0222f7b8f239334d,Photify AI,1,Image / Video Generation,0.5715643763542175
+validation,app_b2016160089e574d,Nubee,1,2,app_3e9d8f0a4bb16aee,AI Outpainting Image,1,Image / Video Generation,0.5091315507888794
+validation,app_b2016160089e574d,Nubee,1,3,app_a2cd56c582afb45a,Flux Kontext AI,1,Image / Video Generation,0.5012415647506714
+validation,app_b5f6541f61a55f17,Coupa,0,1,app_1d025fecf42000d2,Jira,0,,0.3658389151096344
+validation,app_b5f6541f61a55f17,Coupa,0,2,app_a8954e4dd009bd09,Yuma,1,Customer Support,0.3394050896167755
+validation,app_b5f6541f61a55f17,Coupa,0,3,app_0a1c49fe3b997345,Tray.io,1,Productivity,0.3270784318447113
+validation,app_b8d3570029a29666,Dubbing AI,1,1,app_39abd4ff9404556b,Exemplary AI,1,Meeting / Transcription Tools,0.6538437604904175
+validation,app_b8d3570029a29666,Dubbing AI,1,2,app_5129e6cfe5bc67bc,SubEasy.ai,1,Meeting / Transcription Tools,0.593791663646698
+validation,app_b8d3570029a29666,Dubbing AI,1,3,app_5b0597fc41040d4b,Dolly AI,1,General AI Assistants,0.5849767327308655
+validation,app_bae80a9558e3ab0a,Reppls,1,1,app_5b1109d96fde92ce,Bange,1,Content Generation,0.5992622375488281
+validation,app_bae80a9558e3ab0a,Reppls,1,2,app_6b36301b61950530,Metaview,1,Meeting / Transcription Tools,0.5455229878425598
+validation,app_bae80a9558e3ab0a,Reppls,1,3,app_4b635d1e35ce1295,Intervidy,1,Productivity,0.5439442992210388
+validation,app_c1a8bbd923aa56aa,Littlecook,1,1,app_e8d7c42dc6b16160,OnlyPans,1,Other,0.4459715485572815
+validation,app_c1a8bbd923aa56aa,Littlecook,1,2,app_dbeda269a17e86b1,Prospre,1,Other,0.41648975014686584
+validation,app_c1a8bbd923aa56aa,Littlecook,1,3,app_9daf655c6db33a6f,Exolyt,1,Sales / Marketing,0.3719090521335602
+validation,app_d5efc6497530c9b1,Intellectia,1,1,app_68869e94e35b406a,Focal,1,Research / Search,0.48238295316696167
+validation,app_d5efc6497530c9b1,Intellectia,1,2,app_c0612537dc3b91ad,Traderstats,1,Data Analytics,0.4523489475250244
+validation,app_d5efc6497530c9b1,Intellectia,1,3,app_4235ec347d413b02,LearnMentalModels,1,Productivity,0.4419734477996826
+validation,app_e2a55d9b7daa8b77,Prompt Sloth Write Better AI Prompts,1,1,app_68e6a82a7d4da157,Marblism,1,Coding / Developer Tools,0.5152003765106201
+validation,app_e2a55d9b7daa8b77,Prompt Sloth Write Better AI Prompts,1,2,app_b7a6d1702de9d2ba,Alter,1,Productivity,0.4907122850418091
+validation,app_e2a55d9b7daa8b77,Prompt Sloth Write Better AI Prompts,1,3,app_6cc2ae212d3613be,FlashAI,1,Productivity,0.4832257628440857
+validation,app_e6feda75c9112b82,Upscayl,1,1,app_1552bd8dcbb84b34,Nano Banana.pro,1,Image / Video Generation,0.47068163752555847
+validation,app_e6feda75c9112b82,Upscayl,1,2,app_3e9d8f0a4bb16aee,AI Outpainting Image,1,Image / Video Generation,0.4515342116355896
+validation,app_e6feda75c9112b82,Upscayl,1,3,app_9648a6d7b1e1b01f,Deep Image,1,Image / Video Generation,0.4266801178455353
+validation,app_fb7aaf734aebdf51,FineVoice AI Voice Changer,1,1,app_93a9fe83b589bd97,All Voice Lab,1,Content Generation,0.6180307269096375
+validation,app_fb7aaf734aebdf51,FineVoice AI Voice Changer,1,2,app_7bf2d3996f7a9073,Voice Cleaner AI,1,Other,0.6136869192123413
+validation,app_fb7aaf734aebdf51,FineVoice AI Voice Changer,1,3,app_d7f2a132eb0dda0f,Aqua Voice,1,Productivity,0.5848851799964905
+validation,app_fe921d7c30ee809a,Online Gantt,1,1,app_088e003d040bcae4,Graph Maker,1,Data Analytics,0.5331475734710693
+validation,app_fe921d7c30ee809a,Online Gantt,1,2,app_0e0166223aaf7717,DocuWriter.ai,1,Coding / Developer Tools,0.49133363366127014
+validation,app_fe921d7c30ee809a,Online Gantt,1,3,app_8d54ddc5b54ff540,Elai.io,1,Image / Video Generation,0.48397552967071533
+test,app_015bc33cdfa6181b,Diffusion Art,1,1,app_1ec3b53c92f3349e,Patience,1,Image / Video Generation,0.6363672018051147
+test,app_015bc33cdfa6181b,Diffusion Art,1,2,app_ddf3e95226a1753a,Make Illustrations,1,Image / Video Generation,0.5843698382377625
+test,app_015bc33cdfa6181b,Diffusion Art,1,3,app_f637c7d0aee41008,AISEO Art,1,Image / Video Generation,0.5796493887901306
+test,app_084e708c4095c192,Unbound ML E-commerce AI Assistant,1,1,app_efa2249c7a9bcbbb,OnChat,1,Customer Support,0.506208062171936
+test,app_084e708c4095c192,Unbound ML E-commerce AI Assistant,1,2,app_ddf3e95226a1753a,Make Illustrations,1,Image / Video Generation,0.503900408744812
+test,app_084e708c4095c192,Unbound ML E-commerce AI Assistant,1,3,app_3e9d8f0a4bb16aee,AI Outpainting Image,1,Image / Video Generation,0.4789969325065613
+test,app_0a8ad6439645d980,ForEva,1,1,app_dbeda269a17e86b1,Prospre,1,Other,0.5835723876953125
+test,app_0a8ad6439645d980,ForEva,1,2,app_e8d7c42dc6b16160,OnlyPans,1,Other,0.4734250605106354
+test,app_0a8ad6439645d980,ForEva,1,3,app_745673607091ff6e,Sage AI,1,Other,0.39897680282592773
+test,app_0aecd175d08fb310,Gpt twit-bot,1,1,app_3e54bca6369225ce,GPTBricks,1,Customer Support,0.5257906913757324
+test,app_0aecd175d08fb310,Gpt twit-bot,1,2,app_70df33383c0bf703,BotGPT,1,Customer Support,0.50339275598526
+test,app_0aecd175d08fb310,Gpt twit-bot,1,3,app_cf161300a14978ff,TweetyAI,1,Content Generation,0.48979607224464417
+test,app_18bd4149023fcb35,Listen2.AI - Smart News,1,1,app_104fac96ea641f72,Docuchat,1,Productivity,0.526887059211731
+test,app_18bd4149023fcb35,Listen2.AI - Smart News,1,2,app_7008a255bb11c249,Storytell.ai,1,Research / Search,0.5061005353927612
+test,app_18bd4149023fcb35,Listen2.AI - Smart News,1,3,app_33b100d932f7591e,Respired,1,Sales / Marketing,0.500765860080719
+test,app_1ce9ecd012779c8e,HumanizerPro,1,1,app_bfaf41be474f6a48,How To Be Best Man,1,Content Generation,0.532529890537262
+test,app_1ce9ecd012779c8e,HumanizerPro,1,2,app_0a02a3e59bc5f9cd,CopyReadyNow,1,Content Generation,0.4918037950992584
+test,app_1ce9ecd012779c8e,HumanizerPro,1,3,app_0e0166223aaf7717,DocuWriter.ai,1,Coding / Developer Tools,0.45007720589637756
+test,app_1d1595a8c29d3f9b,Elephas,1,1,app_a846bb747383bd2d,Teacher AI,1,Other,0.5209153294563293
+test,app_1d1595a8c29d3f9b,Elephas,1,2,app_8d54ddc5b54ff540,Elai.io,1,Image / Video Generation,0.516474723815918
+test,app_1d1595a8c29d3f9b,Elephas,1,3,app_0df8a1f643ed24e9,ChatSpot,1,General AI Assistants,0.5129188895225525
+test,app_25f20f9ad5547e3d,Chat Thing,1,1,app_915961314a040acf,Web2Chat,1,Customer Support,0.6675599217414856
+test,app_25f20f9ad5547e3d,Chat Thing,1,2,app_104fac96ea641f72,Docuchat,1,Productivity,0.6452314853668213
+test,app_25f20f9ad5547e3d,Chat Thing,1,3,app_0df8a1f643ed24e9,ChatSpot,1,General AI Assistants,0.6318396925926208
+test,app_26a927a65aaad31c,TalkTonic AI,1,1,app_c32d3521aa767643,Idyll,1,General AI Assistants,0.6315593719482422
+test,app_26a927a65aaad31c,TalkTonic AI,1,2,app_e2d059ff6e11bf0e,Tovie,1,Customer Support,0.6196956634521484
+test,app_26a927a65aaad31c,TalkTonic AI,1,3,app_0df8a1f643ed24e9,ChatSpot,1,General AI Assistants,0.6185600757598877
+test,app_402097cd16579291,Word WandAI,1,1,app_01eaae404b118a9d,Zendesk,0,,0.3179384171962738
+test,app_402097cd16579291,Word WandAI,1,2,app_efa2249c7a9bcbbb,OnChat,1,Customer Support,0.31297066807746887
+test,app_402097cd16579291,Word WandAI,1,3,app_7008a255bb11c249,Storytell.ai,1,Research / Search,0.29693424701690674
+test,app_40990fbbfbdecab8,EasyChat AI,1,1,app_104fac96ea641f72,Docuchat,1,Productivity,0.66281658411026
+test,app_40990fbbfbdecab8,EasyChat AI,1,2,app_08bbb20d06c95593,PaperChat,1,Productivity,0.6214439868927002
+test,app_40990fbbfbdecab8,EasyChat AI,1,3,app_0df8a1f643ed24e9,ChatSpot,1,General AI Assistants,0.5699394941329956
+test,app_420a638f65755d92,CourseAI,1,1,app_c91d24d067dafdf0,LearningStudioAI,1,Content Generation,0.7276259660720825
+test,app_420a638f65755d92,CourseAI,1,2,app_67b8cea7af8fe78b,KnowNotes,1,Meeting / Transcription Tools,0.45914575457572937
+test,app_420a638f65755d92,CourseAI,1,3,app_ae3c4de2cf096953,Learniverse,1,Productivity,0.4570200741291046
+test,app_49630366f8f778b3,Clarify AI,1,1,app_ddf3e95226a1753a,Make Illustrations,1,Image / Video Generation,0.5147476196289062
+test,app_49630366f8f778b3,Clarify AI,1,2,app_a898ef4029d27e92,AIChatting,1,Content Generation,0.48913729190826416
+test,app_49630366f8f778b3,Clarify AI,1,3,app_3e90ec46f8dc8afe,GitMind,1,Productivity,0.4848461449146271
+test,app_4c83e2a19b7506af,OpinionStage,1,1,app_0028f2249feae62d,StrawPoll,1,Data Analytics,0.5812329649925232
+test,app_4c83e2a19b7506af,OpinionStage,1,2,app_a898ef4029d27e92,AIChatting,1,Content Generation,0.5395995378494263
+test,app_4c83e2a19b7506af,OpinionStage,1,3,app_1f3d1c06d93abb9b,ClassPoint AI,1,Content Generation,0.517501950263977
+test,app_50daa2d46de094e5,Concur Expense,0,1,app_a4cce568cdc9a7de,Veriff,1,Other,0.2475282847881317
+test,app_50daa2d46de094e5,Concur Expense,0,2,app_cc5413cbcc73436b,NetSuite,0,,0.2424052208662033
+test,app_50daa2d46de094e5,Concur Expense,0,3,app_372dece31d2b1447,CareerPen,1,Content Generation,0.2355896234512329
+test,app_531420a9d6aab740,Experai,1,1,app_0df8a1f643ed24e9,ChatSpot,1,General AI Assistants,0.6013743281364441
+test,app_531420a9d6aab740,Experai,1,2,app_68869e94e35b406a,Focal,1,Research / Search,0.5832053422927856
+test,app_531420a9d6aab740,Experai,1,3,app_104fac96ea641f72,Docuchat,1,Productivity,0.5777387619018555
+test,app_57dd9fabc19bed28,PicAI,1,1,app_0222f7b8f239334d,Photify AI,1,Image / Video Generation,0.756218671798706
+test,app_57dd9fabc19bed28,PicAI,1,2,app_a9a19ed9fcdf7040,HiDream Pro,1,Image / Video Generation,0.6374331712722778
+test,app_57dd9fabc19bed28,PicAI,1,3,app_f0a9af6df26193b5,WOXO,1,Image / Video Generation,0.6258230209350586
+test,app_61c770b2a7eb0575,Winston AI,1,1,app_4af27af5b3383917,Duplichecker,1,Productivity,0.6738521456718445
+test,app_61c770b2a7eb0575,Winston AI,1,2,app_91c1e5629e082406,Undetectable,1,Content Generation,0.5049824118614197
+test,app_61c770b2a7eb0575,Winston AI,1,3,app_d3290250b0caa0ed,AI Essay Checker,1,Content Generation,0.4508851170539856
+test,app_6602247546aa5ef3,Template Prompts,1,1,app_7282bc5d3249b549,ReelBuzz,1,Image / Video Generation,0.515266478061676
+test,app_6602247546aa5ef3,Template Prompts,1,2,app_b7a6d1702de9d2ba,Alter,1,Productivity,0.4828996956348419
+test,app_6602247546aa5ef3,Template Prompts,1,3,app_ae3c4de2cf096953,Learniverse,1,Productivity,0.4807417690753937
+test,app_6898fc391b9f2be1,Writastic,1,1,app_d8471271b19a1b12,WriteBot.io,1,Content Generation,0.5445780754089355
+test,app_6898fc391b9f2be1,Writastic,1,2,app_91e5eb59637f0d27,Brisk Write,1,Content Generation,0.4350112974643707
+test,app_6898fc391b9f2be1,Writastic,1,3,app_44f8e438ef164ba7,Aposting,1,Content Generation,0.4104568362236023
+test,app_6dec77fa2ad31344,Swantide AI Assistant,1,1,app_a4a1283a63839b0d,Franchise AI Assistant,1,General AI Assistants,0.5322666764259338
+test,app_6dec77fa2ad31344,Swantide AI Assistant,1,2,app_0e0166223aaf7717,DocuWriter.ai,1,Coding / Developer Tools,0.48990902304649353
+test,app_6dec77fa2ad31344,Swantide AI Assistant,1,3,app_0df8a1f643ed24e9,ChatSpot,1,General AI Assistants,0.48903465270996094
+test,app_6ec74833a7501c4b,Almo Chat,1,1,app_915961314a040acf,Web2Chat,1,Customer Support,0.7193782329559326
+test,app_6ec74833a7501c4b,Almo Chat,1,2,app_e2d059ff6e11bf0e,Tovie,1,Customer Support,0.6152408719062805
+test,app_6ec74833a7501c4b,Almo Chat,1,3,app_0df8a1f643ed24e9,ChatSpot,1,General AI Assistants,0.6020218729972839
+test,app_748ea91ce3735412,ChatSlide,1,1,app_0df8a1f643ed24e9,ChatSpot,1,General AI Assistants,0.6572701334953308
+test,app_748ea91ce3735412,ChatSlide,1,2,app_1f3d1c06d93abb9b,ClassPoint AI,1,Content Generation,0.5996453166007996
+test,app_748ea91ce3735412,ChatSlide,1,3,app_e2d059ff6e11bf0e,Tovie,1,Customer Support,0.5753939747810364
+test,app_751c5b238b3ea964,VideoWeb AI,1,1,app_42249d3535757cfb,Magi-1,1,Image / Video Generation,0.704655647277832
+test,app_751c5b238b3ea964,VideoWeb AI,1,2,app_56a08d77915e6233,Dream Machine AI,1,Image / Video Generation,0.6606988310813904
+test,app_751c5b238b3ea964,VideoWeb AI,1,3,app_f0a9af6df26193b5,WOXO,1,Image / Video Generation,0.6376695036888123
+test,app_7d3666ebca530fce,Asana,0,1,app_135385a631dd9670,Aivia,1,Productivity,0.5289056301116943
+test,app_7d3666ebca530fce,Asana,0,2,app_cc78d448303baf34,Workday,0,,0.5085535645484924
+test,app_7d3666ebca530fce,Asana,0,3,app_8d379b384da7bef0,Smartsheet,0,,0.4815079867839813
+test,app_8aee73828332425e,Voyager minedojo,1,1,app_39abd4ff9404556b,Exemplary AI,1,Meeting / Transcription Tools,0.4880673587322235
+test,app_8aee73828332425e,Voyager minedojo,1,2,app_5e5bd2e17a218f25,Dust,1,AI Infrastructure / Model Platforms,0.47634416818618774
+test,app_8aee73828332425e,Voyager minedojo,1,3,app_4cdf899a7d6bd215,Qoder,1,Coding / Developer Tools,0.44499683380126953
+test,app_95309529c024eee1,NotesOllama,1,1,app_6b36301b61950530,Metaview,1,Meeting / Transcription Tools,0.3710135519504547
+test,app_95309529c024eee1,NotesOllama,1,2,app_3a4fd395f12ba998,Voxpad,1,Productivity,0.3397798538208008
+test,app_95309529c024eee1,NotesOllama,1,3,app_6611599e7ec3bf12,Smartcat,1,Productivity,0.33400028944015503
+test,app_95fd7d98e21b43ca,Scrumbuiss,1,1,app_135385a631dd9670,Aivia,1,Productivity,0.4331842362880707
+test,app_95fd7d98e21b43ca,Scrumbuiss,1,2,app_8d379b384da7bef0,Smartsheet,0,,0.4225110411643982
+test,app_95fd7d98e21b43ca,Scrumbuiss,1,3,app_3fb3a5f1b0273840,Trello,0,,0.4128946363925934
+test,app_9a2ee7aba88b7230,Chat With Your Database,1,1,app_efa2249c7a9bcbbb,OnChat,1,Customer Support,0.5488952398300171
+test,app_9a2ee7aba88b7230,Chat With Your Database,1,2,app_0df8a1f643ed24e9,ChatSpot,1,General AI Assistants,0.5455216765403748
+test,app_9a2ee7aba88b7230,Chat With Your Database,1,3,app_915961314a040acf,Web2Chat,1,Customer Support,0.5350524187088013
+test,app_a1dc98b3ec2d1aef,Power BI,0,1,app_4e76506e43b26cbe,Tableau,0,,0.6036951541900635
+test,app_a1dc98b3ec2d1aef,Power BI,0,2,app_ec44945483029911,Client Reports,1,Data Analytics,0.4931676685810089
+test,app_a1dc98b3ec2d1aef,Power BI,0,3,app_ae95bde3647e640c,GetWebsite.Report,1,Sales / Marketing,0.40069738030433655
+test,app_a2ef9519e32df915,Huxli,1,1,app_67b8cea7af8fe78b,KnowNotes,1,Meeting / Transcription Tools,0.4868992567062378
+test,app_a2ef9519e32df915,Huxli,1,2,app_91e5eb59637f0d27,Brisk Write,1,Content Generation,0.46026113629341125
+test,app_a2ef9519e32df915,Huxli,1,3,app_6cc2ae212d3613be,FlashAI,1,Productivity,0.4444487988948822
+test,app_a4619c2d399dfeb5,MostlyAI,1,1,app_6cc2ae212d3613be,FlashAI,1,Productivity,0.5094296336174011
+test,app_a4619c2d399dfeb5,MostlyAI,1,2,app_c0612537dc3b91ad,Traderstats,1,Data Analytics,0.4771049916744232
+test,app_a4619c2d399dfeb5,MostlyAI,1,3,app_0028f2249feae62d,StrawPoll,1,Data Analytics,0.44294559955596924
+test,app_acc4eb4abf826f36,MindPlexa,1,1,app_3e90ec46f8dc8afe,GitMind,1,Productivity,0.5740078091621399
+test,app_acc4eb4abf826f36,MindPlexa,1,2,app_135385a631dd9670,Aivia,1,Productivity,0.517067015171051
+test,app_acc4eb4abf826f36,MindPlexa,1,3,app_8d379b384da7bef0,Smartsheet,0,,0.47938913106918335
+test,app_af2809cb839c1269,Mindgrasp,1,1,app_6cc2ae212d3613be,FlashAI,1,Productivity,0.5455917119979858
+test,app_af2809cb839c1269,Mindgrasp,1,2,app_104fac96ea641f72,Docuchat,1,Productivity,0.5174887776374817
+test,app_af2809cb839c1269,Mindgrasp,1,3,app_6b36301b61950530,Metaview,1,Meeting / Transcription Tools,0.4991680383682251
+test,app_b0b4decab039624d,Mentalyc,1,1,app_6b36301b61950530,Metaview,1,Meeting / Transcription Tools,0.5473335385322571
+test,app_b0b4decab039624d,Mentalyc,1,2,app_3a4fd395f12ba998,Voxpad,1,Productivity,0.4507463276386261
+test,app_b0b4decab039624d,Mentalyc,1,3,app_745673607091ff6e,Sage AI,1,Other,0.4339905083179474
+test,app_b6bdf7053c4823c2,GitHub Enterprise,0,1,app_f3eca00058785ae2,GitLab,0,,0.6869789958000183
+test,app_b6bdf7053c4823c2,GitHub Enterprise,0,2,app_743e9cf10bc7a592,Confluence,0,,0.4602162837982178
+test,app_b6bdf7053c4823c2,GitHub Enterprise,0,3,app_822c62042d9b5f9f,CodewpAI,1,Coding / Developer Tools,0.4333205819129944
+test,app_b9fce627c83dafb0,Wedspeech.AI,1,1,app_0df8a1f643ed24e9,ChatSpot,1,General AI Assistants,0.37354764342308044
+test,app_b9fce627c83dafb0,Wedspeech.AI,1,2,app_c32d3521aa767643,Idyll,1,General AI Assistants,0.3547913432121277
+test,app_b9fce627c83dafb0,Wedspeech.AI,1,3,app_0f6c4756ae5bb3b9,Amie - AI Note Taker,1,Productivity,0.3497740924358368
+test,app_bc03f107f4ca7ed6,Deepbrain AI,1,1,app_5b1109d96fde92ce,Bange,1,Content Generation,0.5570293068885803
+test,app_bc03f107f4ca7ed6,Deepbrain AI,1,2,app_6b36301b61950530,Metaview,1,Meeting / Transcription Tools,0.47513914108276367
+test,app_bc03f107f4ca7ed6,Deepbrain AI,1,3,app_4b635d1e35ce1295,Intervidy,1,Productivity,0.4707145094871521
+test,app_cf7f5b7b2e6c8593,Thrivebase,1,1,app_e19f0aeaf17d7a86,Vault AI,1,Sales / Marketing,0.47749724984169006
+test,app_cf7f5b7b2e6c8593,Thrivebase,1,2,app_a24f705cd0b84c89,HubSpot Marketing Hub,0,,0.46609964966773987
+test,app_cf7f5b7b2e6c8593,Thrivebase,1,3,app_efa2249c7a9bcbbb,OnChat,1,Customer Support,0.46484363079071045
+test,app_cfc9d8b20bf1e017,Addy AI,1,1,app_3a4fd395f12ba998,Voxpad,1,Productivity,0.5515739321708679
+test,app_cfc9d8b20bf1e017,Addy AI,1,2,app_0a02a3e59bc5f9cd,CopyReadyNow,1,Content Generation,0.5286635160446167
+test,app_cfc9d8b20bf1e017,Addy AI,1,3,app_5b0597fc41040d4b,Dolly AI,1,General AI Assistants,0.4790690243244171
+test,app_d278d45cf9f41d5c,Floom,1,1,app_ca6c7d18dbc6ff13,Floik,1,Content Generation,0.4485592246055603
+test,app_d278d45cf9f41d5c,Floom,1,2,app_0e0166223aaf7717,DocuWriter.ai,1,Coding / Developer Tools,0.44665974378585815
+test,app_d278d45cf9f41d5c,Floom,1,3,app_7282bc5d3249b549,ReelBuzz,1,Image / Video Generation,0.43999502062797546
+test,app_d5f0e66a849b5293,Boundary AI,1,1,app_0e0166223aaf7717,DocuWriter.ai,1,Coding / Developer Tools,0.5758885145187378
+test,app_d5f0e66a849b5293,Boundary AI,1,2,app_0a02a3e59bc5f9cd,CopyReadyNow,1,Content Generation,0.5707908868789673
+test,app_d5f0e66a849b5293,Boundary AI,1,3,app_ea8a7c0472c56795,BlueGPT,1,AI Infrastructure / Model Platforms,0.5669772028923035
+test,app_dba3a24872748133,Imajinn.ai,1,1,app_f637c7d0aee41008,AISEO Art,1,Image / Video Generation,0.5377142429351807
+test,app_dba3a24872748133,Imajinn.ai,1,2,app_437dc8bc9ff45c36,Akuma,1,Image / Video Generation,0.5290194749832153
+test,app_dba3a24872748133,Imajinn.ai,1,3,app_0522264cddb4089b,Pet Portrait AI,1,Image / Video Generation,0.4662623405456543
+test,app_df6df77e8ab08b43,Knobi,1,1,app_2d12d2261a34444a,Buzzi.ai,1,Content Generation,0.3670670986175537
+test,app_df6df77e8ab08b43,Knobi,1,2,app_71453c715e4f10d4,RollSummary,1,Productivity,0.361820250749588
+test,app_df6df77e8ab08b43,Knobi,1,3,app_723c133b7cca4769,TiramAi,1,AI Infrastructure / Model Platforms,0.3578428030014038
+test,app_e74951d76d380ec5,Upsend,1,1,app_5b1109d96fde92ce,Bange,1,Content Generation,0.5563726425170898
+test,app_e74951d76d380ec5,Upsend,1,2,app_6b36301b61950530,Metaview,1,Meeting / Transcription Tools,0.47484496235847473
+test,app_e74951d76d380ec5,Upsend,1,3,app_8d54ddc5b54ff540,Elai.io,1,Image / Video Generation,0.4550565183162689
+test,app_ec8c1b74a2f00bdc,Question AI.io,1,1,app_68869e94e35b406a,Focal,1,Research / Search,0.5256199836730957
+test,app_ec8c1b74a2f00bdc,Question AI.io,1,2,app_a846bb747383bd2d,Teacher AI,1,Other,0.4893936812877655
+test,app_ec8c1b74a2f00bdc,Question AI.io,1,3,app_861190e3bd89dce9,BekiAI,1,Sales / Marketing,0.48830530047416687
+test,app_ee5fd9088bbe64ca,Inkey,1,1,app_d3290250b0caa0ed,AI Essay Checker,1,Content Generation,0.6273987293243408
+test,app_ee5fd9088bbe64ca,Inkey,1,2,app_ae3c4de2cf096953,Learniverse,1,Productivity,0.5794512629508972
+test,app_ee5fd9088bbe64ca,Inkey,1,3,app_a846bb747383bd2d,Teacher AI,1,Other,0.5550381541252136
+test,app_ef652cf2ebfecb4a,AiChatPilot,1,1,app_a898ef4029d27e92,AIChatting,1,Content Generation,0.62740159034729
+test,app_ef652cf2ebfecb4a,AiChatPilot,1,2,app_104fac96ea641f72,Docuchat,1,Productivity,0.5303848385810852
+test,app_ef652cf2ebfecb4a,AiChatPilot,1,3,app_5e5bd2e17a218f25,Dust,1,AI Infrastructure / Model Platforms,0.5274574756622314
+test,app_f1092c8bfd2086b2,KIVA by Wellows,1,1,app_e10162fd6748a1db,Outranking,1,Content Generation,0.5038400292396545
+test,app_f1092c8bfd2086b2,KIVA by Wellows,1,2,app_c7e573c735491435,unrav.io,1,Content Generation,0.3947673439979553
+test,app_f1092c8bfd2086b2,KIVA by Wellows,1,3,app_e5f6c0324fe40d86,KlearStack,1,Productivity,0.3855585753917694
+test,app_f7a17bf06a48e816,Stable Diffusion,1,1,app_3e9d8f0a4bb16aee,AI Outpainting Image,1,Image / Video Generation,0.6265437602996826
+test,app_f7a17bf06a48e816,Stable Diffusion,1,2,app_a9a19ed9fcdf7040,HiDream Pro,1,Image / Video Generation,0.6258342266082764
+test,app_f7a17bf06a48e816,Stable Diffusion,1,3,app_ddf3e95226a1753a,Make Illustrations,1,Image / Video Generation,0.6107973456382751

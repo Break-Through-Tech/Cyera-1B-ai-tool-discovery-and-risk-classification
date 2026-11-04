@@ -1,0 +1,50 @@
+{
+  "encoder_id": "sentence-transformers/all-MiniLM-L6-v2",
+  "encoder_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "embedding_dimension": 384,
+  "encoder_frozen": true,
+  "normalized": true,
+  "device": "cpu",
+  "threshold": 0.5,
+  "selected_embedding_variant": "reviewed_only",
+  "default_binary_family": "embeddings",
+  "default_category_family": "embeddings",
+  "baseline_binary_variant": "reviewed_only",
+  "category_labels": [
+    "AI Infrastructure / Model Platforms",
+    "Coding / Developer Tools",
+    "Content Generation",
+    "Customer Support",
+    "Data Analytics",
+    "General AI Assistants",
+    "Image / Video Generation",
+    "Meeting / Transcription Tools",
+    "Other",
+    "Productivity",
+    "Research / Search",
+    "Sales / Marketing"
+  ],
+  "reference_rows": 231,
+  "reference_policy": "model-reviewed/seed training records only; excludes held-out groups",
+  "inputs": {
+    "train.csv": "cae3800a319082dea2de4cb8e61370a7e51a33506e0a8229555d8095309e6405",
+    "validation.csv": "b699854cd2e01e6db2a07f5a88ac50eb247ab84fd30c15b07f3cad5ad87a0ab7",
+    "test.csv": "facb2110aa8b11c568a2bfe2b3597d2c50d274cf6f6f4df7588892febf0dd987"
+  },
+  "source_review_sha256": "d9b090c74d09d9342e43d857896fb3f76dff7858124f0fac08674204e77d350f",
+  "excluded_training_ids": [
+    "tool_01528",
+    "tool_00986",
+    "tool_00072",
+    "tool_00289"
+  ],
+  "label_scope": "Primary application purpose as described; not presence or absence of AI features or observed AI usage",
+  "versions": {
+    "sentence_transformers": "5.7.0",
+    "transformers": "4.57.6",
+    "torch": "2.15.0",
+    "numpy": "2.5.4",
+    "sklearn": "1.7.2"
+  },
+  "baseline_config_sha256": "84ed1daa05e3dfef4c9091ba878739da24d830ccadb3f245960276ceb08d550a"
+}
