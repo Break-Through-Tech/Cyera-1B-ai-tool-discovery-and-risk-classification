@@ -1,0 +1,78 @@
+{
+  "dataset_version": "2.0",
+  "seed": 20261104,
+  "source_labels_sha256": "5a0fe3cb94a5f73a13218a2e06877a358e4cb35991aa1b3e9fb6b45747899e15",
+  "labels": "assistant_source_review; not independently human verified",
+  "test_policy": "Frozen before v2 model development. Do not tune on test. Existing v1 models may have trained on overlapping products.",
+  "splits": {
+    "test": {
+      "rows": 72,
+      "class_counts": {
+        "0": 36,
+        "1": 36
+      },
+      "ai_category_counts": {
+        "AI Infrastructure / Model Platforms": 3,
+        "Audio / Speech Tools": 3,
+        "Coding / Developer Tools": 3,
+        "Content Generation": 3,
+        "Customer Support": 3,
+        "Data Analytics": 3,
+        "General AI Assistants": 3,
+        "Image / Video Generation": 3,
+        "Meeting / Transcription Tools": 3,
+        "Productivity": 3,
+        "Research / Search": 3,
+        "Sales / Marketing": 3
+      }
+    },
+    "validation": {
+      "rows": 24,
+      "class_counts": {
+        "0": 12,
+        "1": 12
+      },
+      "ai_category_counts": {
+        "AI Infrastructure / Model Platforms": 1,
+        "Audio / Speech Tools": 1,
+        "Coding / Developer Tools": 1,
+        "Content Generation": 1,
+        "Customer Support": 1,
+        "Data Analytics": 1,
+        "General AI Assistants": 1,
+        "Image / Video Generation": 1,
+        "Meeting / Transcription Tools": 1,
+        "Productivity": 1,
+        "Research / Search": 1,
+        "Sales / Marketing": 1
+      }
+    },
+    "train": {
+      "rows": 200,
+      "class_counts": {
+        "0": 152,
+        "1": 48
+      },
+      "ai_category_counts": {
+        "AI Infrastructure / Model Platforms": 4,
+        "Audio / Speech Tools": 4,
+        "Coding / Developer Tools": 4,
+        "Content Generation": 4,
+        "Customer Support": 4,
+        "Data Analytics": 4,
+        "General AI Assistants": 4,
+        "Image / Video Generation": 4,
+        "Meeting / Transcription Tools": 4,
+        "Productivity": 4,
+        "Research / Search": 4,
+        "Sales / Marketing": 4
+      }
+    }
+  },
+  "sha256": {
+    "protected_evaluation_groups.json": "19ff18ba2df9a03245beb118fb65610290c517fe136897b33299e43d9dd3f1c8",
+    "test.csv": "30dc43a6f5c01109c6e424370ca6ee69a0d21dce53970cabcc929749f8a23cba",
+    "train.csv": "63a3c30814e4d40eda35fea05a3e15fd1c433075e88739d4b1e8997f7b6c13d0",
+    "validation.csv": "019f35804891e17ed33629efe6f8e1239bb6ce2d77d906a57db3328bcaf69c5f"
+  }
+}
