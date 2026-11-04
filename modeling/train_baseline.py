@@ -40,6 +40,29 @@ def balanced_source_weights(rows):
     return raw
 
 
+def apply_source_review(splits, review):
+    """Withhold flagged training identities without relabeling a benchmark."""
+    records = review.get('records', [])
+    if review.get('schema_version') != 1 or any(r.get('training_action') not in ('keep', 'exclude_training') for r in records):
+        raise ValueError('Unsupported source review schema or training action')
+    ids = [r['source_record_id'] for r in records]
+    if len(set(ids)) != len(ids):
+        raise ValueError('Source review contains duplicate record IDs')
+    known = {r['source_record_id'] for rows in splits.values() for r in rows}
+    if set(ids) - known:
+        raise ValueError('Source review references unknown dataset records')
+    excluded_ids = {r['source_record_id'] for r in records if r['training_action']=='exclude_training'}
+    training_ids = {r['source_record_id'] for r in splits['train']}
+    if excluded_ids - training_ids:
+        raise ValueError('Review exclusions may reference training records only; benchmark labels remain frozen')
+    groups = {r['group_id'] for r in splits['train'] if r['source_record_id'] in excluded_ids}
+    excluded = [r for r in splits['train'] if r['group_id'] in groups]
+    filtered = dict(splits, train=[r for r in splits['train'] if r['group_id'] not in groups])
+    if {r['is_ai_tool'] for r in filtered['train']} != {'0', '1'}:
+        raise ValueError('Source review removed an entire training class')
+    return filtered, excluded
+
+
 def metrics(y,pred,labels,names):
     return dict(accuracy=float(accuracy_score(y,pred)),
         balanced_accuracy=float(balanced_accuracy_score(y,pred)),
@@ -53,6 +76,7 @@ def main():
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument('--data',type=Path,default=ROOT/'data/processed/classification_full')
     p.add_argument('--out',type=Path,default=ROOT/'artifacts/baseline')
+    p.add_argument('--source-review',type=Path,default=ROOT/'data/reviews/source_review_2026-11-04.json')
     p.add_argument('--overwrite',action='store_true')
     a=p.parse_args()
     if a.out.exists() and any(a.out.iterdir()) and not a.overwrite:p.error('Output exists; use --overwrite or a new --out')
@@ -62,6 +86,8 @@ def main():
     for s in ('validation','test'):
         if any(r['label_source']=='provisional_catalog_membership' for r in splits[s]):
             raise ValueError('Evaluation labels cannot be unreviewed catalog membership')
+    review=json.loads(a.source_review.read_text())
+    splits, excluded=apply_source_review(splits,review)
     a.out.mkdir(parents=True,exist_ok=True)
     datasets=dict(reviewed_only=[r for r in splits['train'] if r['label_source']!='provisional_catalog_membership'],
                   full_catalog=splits['train'])
@@ -91,7 +117,7 @@ def main():
              ['application_id','tool_name','expected_is_ai_tool','predicted_is_ai_tool','model_ai_score'])
     reports['majority_class']['test']=metrics(y['test'],dummy.predict(np.zeros((len(y['test']),1))),labels,names)
     # Begin business-purpose categorization using only available reviewed categories.
-    cr=[r for r in splits['train'] if r['is_ai_tool']=='1' and r['category']]
+    cr=[r for r in splits['train'] if r['is_ai_tool']=='1' and r['category'] and r['label_source']=='gemini_text_review']
     categories=sorted({r['category'] for r in cr})
     category_model=estimator()
     counts=Counter(r['category'] for r in cr)
@@ -109,8 +135,11 @@ def main():
         binary=reports,category=category_reports,category_labels=categories,
         threshold=.5,feature='text_for_model only',
         weak_label_development_results=True,independently_verified_accuracy=False,
+        source_review=dict(date=review['review_date'],excluded_training_rows=len(excluded),
+                           excluded_training_ids=[r['source_record_id'] for r in excluded],
+                           heldout_labels_changed=False,independent_fresh_evaluation=False),
         limitations=['Only four non-AI examples in each evaluation split.',
-                    'Model-reviewed positive labels and team negative labels have not been independently audited.',
+                    'Positive labels are not comprehensively source-verified; negative labels are scope-dependent, not AI-free vendor claims.',
                     'Model scores are uncalibrated and are not risk scores.',
                     'Category evaluation is conditional on an AI label, not end-to-end detection accuracy.',
                     'Source writing style may confound classification.'])
@@ -118,6 +147,10 @@ def main():
     model_config=dict(selected_binary_model=selected,categories=categories,threshold=.5,
         versions=dict(python=platform.python_version(),sklearn=sklearn.__version__,numpy=np.__version__,joblib=joblib.__version__),
         inputs={f'{s}.csv':hashlib.sha256((a.data/f'{s}.csv').read_bytes()).hexdigest() for s in splits},
+        label_scope='Primary application purpose as described; not presence or absence of AI features or observed AI usage',
+        source_review=dict(file=a.source_review.name,sha256=hashlib.sha256(a.source_review.read_bytes()).hexdigest(),
+                           excluded_training_ids=[r['source_record_id'] for r in excluded],
+                           excluded_training_groups=sorted({r['group_id'] for r in excluded})),
         training=dict(vectorizer='word TF-IDF, unigrams+bigrams, sublinear TF, max_features=50000',
                       classifier='LogisticRegression(C=1.0, max_iter=2000, random_state=42)',
                       binary_sample_weight='source weights: 1 reviewed/seed, 0.25 provisional; then balance effective class mass',

@@ -17,7 +17,7 @@ def predict(models,name,description,model_name=None):
     text=f"{' '.join(name.split())}. {' '.join(description.split())}"
     vector=binary.named_steps['tfidf'].transform([text])
     if vector.nnz==0:
-        return dict(tool_name=name,is_ai_tool=None,category=None,needs_review=True,reason='No known vocabulary; insufficient evidence')
+        return dict(tool_name=name,is_ai_tool=None,category=None,label_scope=config.get('label_scope'),needs_review=True,reason='No known vocabulary; insufficient evidence')
     score=float(binary.predict_proba([text])[0,list(binary.classes_).index(1)])
     label=int(score>=config['threshold'])
     category=None;category_score=None
@@ -26,6 +26,7 @@ def predict(models,name,description,model_name=None):
         scores=categorizer.predict_proba([text])[0]
         i=int(scores.argmax());category=str(categorizer.classes_[i]);category_score=float(scores[i])
     return dict(tool_name=name,is_ai_tool=label,model_ai_score=score,category=category,
+                label_scope=config.get('label_scope'),
                 category_model_score=category_score,needs_review=True,
                 reason='Experimental model trained with weak labels and 30 negative examples; scores are uncalibrated')
 

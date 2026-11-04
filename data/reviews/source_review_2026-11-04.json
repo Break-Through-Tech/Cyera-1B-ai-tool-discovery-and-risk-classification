@@ -1,0 +1,647 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-11-04",
+  "reviewer": "Codex assistant using official product sources",
+  "scope": "All 30 conventional seed descriptions, a deterministic one-per-category sample of 12 reviewed AI training records, and the three original selected-model test errors.",
+  "sampling_rule": "Lowest source_record_id in each category among Gemini-reviewed training positives; all negative seeds; all original selected-model binary errors.",
+  "review_type": "assistant_source_review",
+  "human_verified": false,
+  "independent_benchmark": false,
+  "policy": "Evidence corroborates described product functions, not absence of AI or vendor security posture. Training exclusions do not rewrite prepared CSVs or held-out labels.",
+  "records": [
+    {
+      "source_record_id": "non_ai_001",
+      "tool_name": "Slack",
+      "sample": "all_negative_seeds",
+      "original_is_ai_tool": 0,
+      "decision": "retain_scoped_negative",
+      "training_action": "keep",
+      "scope": "Conventional primary-purpose description only; not an AI-free vendor or evidence of no AI usage.",
+      "finding": "Channels, messaging, file sharing and collaboration. AI features also appear on this page.",
+      "source_urls": [
+        "https://slack.com/features"
+      ],
+      "category_decision": "not_applicable"
+    },
+    {
+      "source_record_id": "non_ai_002",
+      "tool_name": "Salesforce Sales Cloud",
+      "sample": "all_negative_seeds",
+      "original_is_ai_tool": 0,
+      "decision": "retain_scoped_negative",
+      "training_action": "keep",
+      "scope": "Conventional primary-purpose description only; not an AI-free vendor or evidence of no AI usage.",
+      "finding": "CRM records and sales pipeline workflows; the current product also incorporates AI.",
+      "source_urls": [
+        "https://www.salesforce.com/sales/cloud/guide/?bc=OTH"
+      ],
+      "category_decision": "not_applicable"
+    },
+    {
+      "source_record_id": "non_ai_003",
+      "tool_name": "Jira",
+      "sample": "all_negative_seeds",
+      "original_is_ai_tool": 0,
+      "decision": "retain_scoped_negative",
+      "training_action": "keep",
+      "scope": "Conventional primary-purpose description only; not an AI-free vendor or evidence of no AI usage.",
+      "finding": "Project and work-item tracking.",
+      "source_urls": [
+        "https://www.atlassian.com/software/jira/features/project-tracking-software"
+      ],
+      "category_decision": "not_applicable"
+    },
+    {
+      "source_record_id": "non_ai_004",
+      "tool_name": "Workday",
+      "sample": "all_negative_seeds",
+      "original_is_ai_tool": 0,
+      "decision": "retain_scoped_negative",
+      "training_action": "keep",
+      "scope": "Conventional primary-purpose description only; not an AI-free vendor or evidence of no AI usage.",
+      "finding": "HR, workforce, payroll and reporting functionality, with AI capabilities also advertised.",
+      "source_urls": [
+        "https://www.workday.com/en-us/products/human-capital-management.html"
+      ],
+      "category_decision": "not_applicable"
+    },
+    {
+      "source_record_id": "non_ai_005",
+      "tool_name": "Zoom",
+      "sample": "all_negative_seeds",
+      "original_is_ai_tool": 0,
+      "decision": "retain_scoped_negative",
+      "training_action": "keep",
+      "scope": "Conventional primary-purpose description only; not an AI-free vendor or evidence of no AI usage.",
+      "finding": "Meetings and collaboration remain identifiable functions; built-in AI means generic usage is ambiguous.",
+      "source_urls": [
+        "https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0060423"
+      ],
+      "category_decision": "not_applicable"
+    },
+    {
+      "source_record_id": "non_ai_006",
+      "tool_name": "Confluence",
+      "sample": "all_negative_seeds",
+      "original_is_ai_tool": 0,
+      "decision": "retain_scoped_negative",
+      "training_action": "keep",
+      "scope": "Conventional primary-purpose description only; not an AI-free vendor or evidence of no AI usage.",
+      "finding": "Knowledge pages, documentation and collaboration; Rovo AI is also offered.",
+      "source_urls": [
+        "https://www.atlassian.com/software/confluence/features"
+      ],
+      "category_decision": "not_applicable"
+    },
+    {
+      "source_record_id": "non_ai_007",
+      "tool_name": "Microsoft Teams",
+      "sample": "all_negative_seeds",
+      "original_is_ai_tool": 0,
+      "decision": "retain_scoped_negative",
+      "training_action": "keep",
+      "scope": "Conventional primary-purpose description only; not an AI-free vendor or evidence of no AI usage.",
+      "finding": "Meeting chat, messages and collaboration are documented conventional functions.",
+      "source_urls": [
+        "https://learn.microsoft.com/en-us/microsoftteams/manage-meeting-chat"
+      ],
+      "category_decision": "not_applicable"
+    },
+    {
+      "source_record_id": "non_ai_008",
+      "tool_name": "SAP S/4HANA",
+      "sample": "all_negative_seeds",
+      "original_is_ai_tool": 0,
+      "decision": "retain_scoped_negative",
+      "training_action": "keep",
+      "scope": "Conventional primary-purpose description only; not an AI-free vendor or evidence of no AI usage.",
+      "finding": "ERP system covering finance, manufacturing and procurement functions.",
+      "source_urls": [
+        "https://learning.sap.com/products/s4hana-cloud"
+      ],
+      "category_decision": "not_applicable"
+    },
+    {
+      "source_record_id": "non_ai_009",
+      "tool_name": "NetSuite",
+      "sample": "all_negative_seeds",
+      "original_is_ai_tool": 0,
+      "decision": "retain_scoped_negative",
+      "training_action": "keep",
+      "scope": "Conventional primary-purpose description only; not an AI-free vendor or evidence of no AI usage.",
+      "finding": "ERP, accounting, inventory and order-management functions; AI is also part of the current product.",
+      "source_urls": [
+        "https://www.netsuite.com/portal/products/erp.shtml"
+      ],
+      "category_decision": "not_applicable"
+    },
+    {
+      "source_record_id": "non_ai_010",
+      "tool_name": "ServiceNow",
+      "sample": "all_negative_seeds",
+      "original_is_ai_tool": 0,
+      "decision": "retain_scoped_negative",
+      "training_action": "keep",
+      "scope": "Conventional primary-purpose description only; not an AI-free vendor or evidence of no AI usage.",
+      "finding": "IT service-management workflows; this supports the ITSM description, not a platform-wide absence of AI.",
+      "source_urls": [
+        "https://www.servicenow.com/docs/r/it-service-management/r_ITServiceManagement.html"
+      ],
+      "category_decision": "not_applicable"
+    },
+    {
+      "source_record_id": "non_ai_011",
+      "tool_name": "HubSpot Marketing Hub",
+      "sample": "all_negative_seeds",
+      "original_is_ai_tool": 0,
+      "decision": "retain_scoped_negative",
+      "training_action": "keep",
+      "scope": "Conventional primary-purpose description only; not an AI-free vendor or evidence of no AI usage.",
+      "finding": "Marketing Hub lead generation and marketing automation. The broader suite includes AI products.",
+      "source_urls": [
+        "https://legal.hubspot.com/hubspot-product-and-services-catalog/products"
+      ],
+      "category_decision": "not_applicable"
+    },
+    {
+      "source_record_id": "non_ai_012",
+      "tool_name": "Asana",
+      "sample": "all_negative_seeds",
+      "original_is_ai_tool": 0,
+      "decision": "retain_scoped_negative",
+      "training_action": "keep",
+      "scope": "Conventional primary-purpose description only; not an AI-free vendor or evidence of no AI usage.",
+      "finding": "Organizing, scheduling and managing project tasks.",
+      "source_urls": [
+        "https://help.asana.com/s/article/managing-projects"
+      ],
+      "category_decision": "not_applicable"
+    },
+    {
+      "source_record_id": "non_ai_013",
+      "tool_name": "Trello",
+      "sample": "all_negative_seeds",
+      "original_is_ai_tool": 0,
+      "decision": "retain_scoped_negative",
+      "training_action": "keep",
+      "scope": "Conventional primary-purpose description only; not an AI-free vendor or evidence of no AI usage.",
+      "finding": "Boards, lists and cards for visual work management.",
+      "source_urls": [
+        "https://trello.com/guide/trello-101"
+      ],
+      "category_decision": "not_applicable"
+    },
+    {
+      "source_record_id": "non_ai_014",
+      "tool_name": "Box",
+      "sample": "all_negative_seeds",
+      "original_is_ai_tool": 0,
+      "decision": "retain_scoped_negative",
+      "training_action": "keep",
+      "scope": "Conventional primary-purpose description only; not an AI-free vendor or evidence of no AI usage.",
+      "finding": "File storage, sharing and content collaboration.",
+      "source_urls": [
+        "https://www.box.com/cloud-content-management"
+      ],
+      "category_decision": "not_applicable"
+    },
+    {
+      "source_record_id": "non_ai_015",
+      "tool_name": "Dropbox",
+      "sample": "all_negative_seeds",
+      "original_is_ai_tool": 0,
+      "decision": "retain_scoped_negative",
+      "training_action": "keep",
+      "scope": "Conventional primary-purpose description only; not an AI-free vendor or evidence of no AI usage.",
+      "finding": "Cloud file synchronization, storage and sharing.",
+      "source_urls": [
+        "https://www.dropbox.com/features/sync"
+      ],
+      "category_decision": "not_applicable"
+    },
+    {
+      "source_record_id": "non_ai_016",
+      "tool_name": "DocuSign",
+      "sample": "all_negative_seeds",
+      "original_is_ai_tool": 0,
+      "decision": "retain_scoped_negative",
+      "training_action": "keep",
+      "scope": "Conventional primary-purpose description only; not an AI-free vendor or evidence of no AI usage.",
+      "finding": "Electronic signatures and agreement workflows; AI agreement analytics are a separate capability on the same product page.",
+      "source_urls": [
+        "https://www.docusign.com/en-gb/products"
+      ],
+      "category_decision": "not_applicable"
+    },
+    {
+      "source_record_id": "non_ai_017",
+      "tool_name": "Okta",
+      "sample": "all_negative_seeds",
+      "original_is_ai_tool": 0,
+      "decision": "retain_scoped_negative",
+      "training_action": "keep",
+      "scope": "Conventional primary-purpose description only; not an AI-free vendor or evidence of no AI usage.",
+      "finding": "Workforce application access through single sign-on.",
+      "source_urls": [
+        "https://www.okta.com/products/single-sign-on-workforce-identity/"
+      ],
+      "category_decision": "not_applicable"
+    },
+    {
+      "source_record_id": "non_ai_018",
+      "tool_name": "GitHub Enterprise",
+      "sample": "all_negative_seeds",
+      "original_is_ai_tool": 0,
+      "decision": "retain_scoped_negative",
+      "training_action": "keep",
+      "scope": "Conventional primary-purpose description only; not an AI-free vendor or evidence of no AI usage.",
+      "finding": "Developer collaboration and software-delivery platform that also provides AI integrations.",
+      "source_urls": [
+        "https://docs.github.com/en/enterprise-cloud@latest/admin/overview/about-github-for-enterprises"
+      ],
+      "category_decision": "not_applicable"
+    },
+    {
+      "source_record_id": "non_ai_019",
+      "tool_name": "GitLab",
+      "sample": "all_negative_seeds",
+      "original_is_ai_tool": 0,
+      "decision": "retain_scoped_negative",
+      "training_action": "keep",
+      "scope": "Conventional primary-purpose description only; not an AI-free vendor or evidence of no AI usage.",
+      "finding": "Repositories, merge requests, CI/CD and application lifecycle workflows; Duo is separately listed.",
+      "source_urls": [
+        "https://docs.gitlab.com/user/"
+      ],
+      "category_decision": "not_applicable"
+    },
+    {
+      "source_record_id": "non_ai_020",
+      "tool_name": "PagerDuty",
+      "sample": "all_negative_seeds",
+      "original_is_ai_tool": 0,
+      "decision": "retain_scoped_negative",
+      "training_action": "keep",
+      "scope": "Conventional primary-purpose description only; not an AI-free vendor or evidence of no AI usage.",
+      "finding": "Incident response, notification and on-call workflows.",
+      "source_urls": [
+        "https://docs.pagerduty.com/incident-management"
+      ],
+      "category_decision": "not_applicable"
+    },
+    {
+      "source_record_id": "non_ai_021",
+      "tool_name": "Splunk Enterprise",
+      "sample": "all_negative_seeds",
+      "original_is_ai_tool": 0,
+      "decision": "retain_scoped_negative",
+      "training_action": "keep",
+      "scope": "Conventional primary-purpose description only; not an AI-free vendor or evidence of no AI usage.",
+      "finding": "Search, transform, analyze and visualize operational data; machine-learning capabilities are also listed.",
+      "source_urls": [
+        "https://help.splunk.com/en/splunk-enterprise"
+      ],
+      "category_decision": "not_applicable"
+    },
+    {
+      "source_record_id": "non_ai_022",
+      "tool_name": "Tableau",
+      "sample": "all_negative_seeds",
+      "original_is_ai_tool": 0,
+      "decision": "retain_scoped_negative",
+      "training_action": "keep",
+      "scope": "Conventional primary-purpose description only; not an AI-free vendor or evidence of no AI usage.",
+      "finding": "Analytics and interactive data visualization.",
+      "source_urls": [
+        "https://help.tableau.com/current/tableau/en-us/tableau_product_overview.htm"
+      ],
+      "category_decision": "not_applicable"
+    },
+    {
+      "source_record_id": "non_ai_023",
+      "tool_name": "Power BI",
+      "sample": "all_negative_seeds",
+      "original_is_ai_tool": 0,
+      "decision": "retain_scoped_negative",
+      "training_action": "keep",
+      "scope": "Conventional primary-purpose description only; not an AI-free vendor or evidence of no AI usage.",
+      "finding": "Business analytics, reporting, visualization and sharing. Copilot availability does not turn every report-viewing event into confirmed AI use.",
+      "source_urls": [
+        "https://learn.microsoft.com/en-us/power-bi/fundamentals/power-bi-overview"
+      ],
+      "category_decision": "not_applicable"
+    },
+    {
+      "source_record_id": "non_ai_024",
+      "tool_name": "Coupa",
+      "sample": "all_negative_seeds",
+      "original_is_ai_tool": 0,
+      "decision": "retain_scoped_negative",
+      "training_action": "keep",
+      "scope": "Conventional primary-purpose description only; not an AI-free vendor or evidence of no AI usage.",
+      "finding": "Procurement service sheets and invoice workflows; evidence covers this conventional workflow, not every Coupa feature.",
+      "source_urls": [
+        "https://docs.coupa.com/en/supplier-documentation/coupa-for-suppliers/the-coupa-supplier-portal-or-csp/features-and-processes-in-the-coupa-supplier-portal/service-sheets/invoicing-for-services-in-the-csp"
+      ],
+      "category_decision": "not_applicable"
+    },
+    {
+      "source_record_id": "non_ai_025",
+      "tool_name": "Concur Expense",
+      "sample": "all_negative_seeds",
+      "original_is_ai_tool": 0,
+      "decision": "retain_scoped_negative",
+      "training_action": "keep",
+      "scope": "Conventional primary-purpose description only; not an AI-free vendor or evidence of no AI usage.",
+      "finding": "Expense submission, review and reimbursement workflows.",
+      "source_urls": [
+        "https://www.concur.com/products/concur-expense"
+      ],
+      "category_decision": "not_applicable"
+    },
+    {
+      "source_record_id": "non_ai_026",
+      "tool_name": "BambooHR",
+      "sample": "all_negative_seeds",
+      "original_is_ai_tool": 0,
+      "decision": "retain_scoped_negative",
+      "training_action": "keep",
+      "scope": "Conventional primary-purpose description only; not an AI-free vendor or evidence of no AI usage.",
+      "finding": "HR workflows and employee-management software.",
+      "source_urls": [
+        "https://www.bamboohr.com/platform/"
+      ],
+      "category_decision": "not_applicable"
+    },
+    {
+      "source_record_id": "non_ai_027",
+      "tool_name": "Greenhouse",
+      "sample": "all_negative_seeds",
+      "original_is_ai_tool": 0,
+      "decision": "retain_scoped_negative",
+      "training_action": "keep",
+      "scope": "Conventional primary-purpose description only; not an AI-free vendor or evidence of no AI usage.",
+      "finding": "Applicant tracking and recruiting workflow; the current ATS also advertises AI capabilities.",
+      "source_urls": [
+        "https://www.greenhouse.com/ats"
+      ],
+      "category_decision": "not_applicable"
+    },
+    {
+      "source_record_id": "non_ai_028",
+      "tool_name": "Zendesk",
+      "sample": "all_negative_seeds",
+      "original_is_ai_tool": 0,
+      "decision": "retain_scoped_negative",
+      "training_action": "keep",
+      "scope": "Conventional primary-purpose description only; not an AI-free vendor or evidence of no AI usage.",
+      "finding": "Customer-support ticket management; built-in AI means the whole platform cannot be described as AI-free.",
+      "source_urls": [
+        "https://www.zendesk.com/service/ticketing-system/"
+      ],
+      "category_decision": "not_applicable"
+    },
+    {
+      "source_record_id": "non_ai_029",
+      "tool_name": "Mailchimp",
+      "sample": "all_negative_seeds",
+      "original_is_ai_tool": 0,
+      "decision": "retain_scoped_negative",
+      "training_action": "keep",
+      "scope": "Conventional primary-purpose description only; not an AI-free vendor or evidence of no AI usage.",
+      "finding": "Marketing platform covering email, audience tools and automation; AI tools are also explicitly listed.",
+      "source_urls": [
+        "https://mailchimp.com/marketing-platform/"
+      ],
+      "category_decision": "not_applicable"
+    },
+    {
+      "source_record_id": "non_ai_030",
+      "tool_name": "Smartsheet",
+      "sample": "all_negative_seeds",
+      "original_is_ai_tool": 0,
+      "decision": "retain_scoped_negative",
+      "training_action": "keep",
+      "scope": "Conventional primary-purpose description only; not an AI-free vendor or evidence of no AI usage.",
+      "finding": "Project, portfolio and process management.",
+      "source_urls": [
+        "https://www.smartsheet.com/content/smartsheet-faqs"
+      ],
+      "category_decision": "not_applicable"
+    },
+    {
+      "source_record_id": "tool_01528",
+      "tool_name": "Breve AI",
+      "sample": "one_training_record_per_category",
+      "original_is_ai_tool": 1,
+      "original_category": "AI Infrastructure / Model Platforms",
+      "decision": "withhold_unconfirmed",
+      "training_action": "exclude_training",
+      "category_decision": "withhold_pending_metadata_refresh",
+      "finding": "Official endpoint was inaccessible in this review; indexed directories were insufficient primary evidence. This is not a finding that the historical AI label was false.",
+      "source_urls": [
+        "https://breveai.com/"
+      ]
+    },
+    {
+      "source_record_id": "tool_00591",
+      "tool_name": "Code Fundi",
+      "sample": "one_training_record_per_category",
+      "original_is_ai_tool": 1,
+      "original_category": "Coding / Developer Tools",
+      "decision": "retain_with_metadata_drift_note",
+      "training_action": "keep",
+      "category_decision": "retain_with_documented_scope",
+      "finding": "Current documentation supports AI-enabled codebase search/research and developer tooling. Positioning has evolved from the older debugging description.",
+      "source_urls": [
+        "https://docs.codefundi.app/docs/introduction"
+      ]
+    },
+    {
+      "source_record_id": "tool_00426",
+      "tool_name": "LearningStudioAI",
+      "sample": "one_training_record_per_category",
+      "original_is_ai_tool": 1,
+      "original_category": "Content Generation",
+      "decision": "retain_source_corroborated",
+      "training_action": "keep",
+      "category_decision": "retain_with_documented_scope",
+      "finding": "The CourseAI domain documents the LearningStudioAI API, resolving the apparent name/domain mismatch. AI course content generation supports Content Generation.",
+      "source_urls": [
+        "https://courseai.co/docs",
+        "https://learningstudioai.com/ai-course-generator"
+      ]
+    },
+    {
+      "source_record_id": "tool_04401",
+      "tool_name": "Tovie",
+      "sample": "one_training_record_per_category",
+      "original_is_ai_tool": 1,
+      "original_category": "Customer Support",
+      "decision": "retain_source_corroborated",
+      "training_action": "keep",
+      "category_decision": "retain_with_documented_scope",
+      "finding": "AI voice agents and contact-centre workflows support the AI label and Customer Support category.",
+      "source_urls": [
+        "https://tovie.ai/"
+      ]
+    },
+    {
+      "source_record_id": "tool_00986",
+      "tool_name": "Trendhopper",
+      "sample": "one_training_record_per_category",
+      "original_is_ai_tool": 1,
+      "original_category": "Data Analytics",
+      "decision": "withhold_stale_metadata",
+      "training_action": "exclude_training",
+      "category_decision": "withhold_pending_metadata_refresh",
+      "finding": "Current official product generates SEO articles; stored trend-forecasting description and Data Analytics category are not corroborated. Needs a versioned metadata refresh, not an automatic non-AI relabel.",
+      "source_urls": [
+        "https://www.trendhopper.ai/"
+      ]
+    },
+    {
+      "source_record_id": "tool_01369",
+      "tool_name": "ChatSpot",
+      "sample": "one_training_record_per_category",
+      "original_is_ai_tool": 1,
+      "original_category": "General AI Assistants",
+      "decision": "retain_with_identity_note",
+      "training_action": "keep",
+      "category_decision": "retain_with_documented_scope",
+      "finding": "The official domain redirects to Breeze Assistant. AI assistant status is supported; General AI Assistants remains a coarse taxonomy choice for the assistant rather than a label for generic HubSpot usage.",
+      "source_urls": [
+        "https://chatspot.ai/",
+        "https://www.hubspot.com/products/artificial-intelligence/breeze-ai-assistant"
+      ]
+    },
+    {
+      "source_record_id": "tool_00923",
+      "tool_name": "DraGAN",
+      "sample": "one_training_record_per_category",
+      "original_is_ai_tool": 1,
+      "original_category": "Image / Video Generation",
+      "decision": "retain_source_corroborated",
+      "training_action": "keep",
+      "category_decision": "retain_with_documented_scope",
+      "finding": "Authors document generative image manipulation, supporting AI and Image / Video Generation.",
+      "source_urls": [
+        "https://vcai.mpi-inf.mpg.de/projects/DragGAN/"
+      ]
+    },
+    {
+      "source_record_id": "tool_04380",
+      "tool_name": "Metaview",
+      "sample": "one_training_record_per_category",
+      "original_is_ai_tool": 1,
+      "original_category": "Meeting / Transcription Tools",
+      "decision": "retain_source_corroborated",
+      "training_action": "keep",
+      "category_decision": "retain_with_documented_scope",
+      "finding": "The current interview-notes product supports AI notetaking. Meeting / Transcription describes the stored feature, not the entire broader recruiting suite.",
+      "source_urls": [
+        "https://www.metaview.ai/interview-notes"
+      ]
+    },
+    {
+      "source_record_id": "tool_00510",
+      "tool_name": "Voicemod",
+      "sample": "one_training_record_per_category",
+      "original_is_ai_tool": 1,
+      "original_category": "Other",
+      "decision": "retain_source_corroborated",
+      "training_action": "keep",
+      "category_decision": "retain_with_documented_scope",
+      "finding": "Official page identifies an AI voice changer. Other is a taxonomy fallback because this project has no dedicated audio category.",
+      "source_urls": [
+        "https://www.voicemod.net/"
+      ]
+    },
+    {
+      "source_record_id": "tool_00072",
+      "tool_name": "Craveo",
+      "sample": "one_training_record_per_category",
+      "original_is_ai_tool": 1,
+      "original_category": "Productivity",
+      "decision": "withhold_unconfirmed",
+      "training_action": "exclude_training",
+      "category_decision": "withhold_pending_metadata_refresh",
+      "finding": "Domain redirects to a pivot announcement; the former food-ordering AI functionality is not corroborated by the current landing page. The linked business endpoint was unavailable.",
+      "source_urls": [
+        "https://remy.craveo.in/",
+        "https://www.craveo.in/"
+      ]
+    },
+    {
+      "source_record_id": "tool_01996",
+      "tool_name": "IAsk",
+      "sample": "one_training_record_per_category",
+      "original_is_ai_tool": 1,
+      "original_category": "Research / Search",
+      "decision": "retain_source_corroborated",
+      "training_action": "keep",
+      "category_decision": "retain_with_documented_scope",
+      "finding": "Current AI question-answer/search experience supports AI and Research / Search.",
+      "source_urls": [
+        "https://iask.ai/"
+      ]
+    },
+    {
+      "source_record_id": "tool_00289",
+      "tool_name": "AgentProd",
+      "sample": "one_training_record_per_category",
+      "original_is_ai_tool": 1,
+      "original_category": "Sales / Marketing",
+      "decision": "withhold_stale_identity",
+      "training_action": "exclude_training",
+      "category_decision": "withhold_pending_metadata_refresh",
+      "finding": "The catalog domain currently resolves to a domain-sale page. No current application identity was corroborated; do not turn a parked domain into a negative application example.",
+      "source_urls": [
+        "https://www.agentprod.com/"
+      ]
+    },
+    {
+      "source_record_id": "tool_04181",
+      "tool_name": "MostlyAI",
+      "sample": "binary_test_error",
+      "original_is_ai_tool": 1,
+      "decision": "retain_source_corroborated",
+      "training_action": "keep",
+      "category_decision": "not_reviewed_for_relabel",
+      "finding": "Official documentation explicitly describes generative AI training and synthetic-data generation; retain positive label.",
+      "source_urls": [
+        "https://mostly.ai/docs/concepts/what-is-synthetic-data",
+        "https://mostly.ai/docs/generators"
+      ]
+    }
+  ],
+  "initial_binary_test_errors": [
+    {
+      "application_id": "app_a1dc98b3ec2d1aef",
+      "source_record_id": "non_ai_023",
+      "tool_name": "Power BI",
+      "initial_expected_is_ai_tool": 0,
+      "initial_prediction": 1,
+      "initial_model_ai_score": 0.5042182205080282,
+      "review_conclusion": "Keep original benchmark label under the documented primary-purpose scope; this remains a model error."
+    },
+    {
+      "application_id": "app_a4619c2d399dfeb5",
+      "source_record_id": "tool_04181",
+      "tool_name": "MostlyAI",
+      "initial_expected_is_ai_tool": 1,
+      "initial_prediction": 0,
+      "initial_model_ai_score": 0.4737000000859497,
+      "review_conclusion": "Keep original benchmark label under the documented primary-purpose scope; this remains a model error."
+    },
+    {
+      "application_id": "app_b6bdf7053c4823c2",
+      "source_record_id": "non_ai_018",
+      "tool_name": "GitHub Enterprise",
+      "initial_expected_is_ai_tool": 0,
+      "initial_prediction": 1,
+      "initial_model_ai_score": 0.5161946827403684,
+      "review_conclusion": "Keep original benchmark label under the documented primary-purpose scope; this remains a model error."
+    }
+  ]
+}
