@@ -1,0 +1,15 @@
+{
+  "synthetic": true,
+  "description": "Fictional company approvals and hypothetical control settings for testing only. These are not assertions about real vendors, plans, or contracts.",
+  "companies": {
+    "Summit Financial": {
+      "documind-ai.com": {"approved_status": "unapproved"},
+      "chatgpt.com": {"approved_status": "unapproved", "sso_available": false, "training_on_customer_data": true, "data_retention": "indefinite", "admin_controls_available": false, "enterprise_plan_available": false},
+      "cursor.com": {"approved_status": "approved", "sso_available": true, "training_on_customer_data": false, "data_retention": "30_days", "admin_controls_available": true, "enterprise_plan_available": true}
+    },
+    "NovaTech": {
+      "chatgpt.com": {"approved_status": "approved", "sso_available": true, "training_on_customer_data": false, "data_retention": "30_days", "admin_controls_available": true, "enterprise_plan_available": true},
+      "cursor.com": {"approved_status": "approved", "sso_available": true, "training_on_customer_data": false, "data_retention": "30_days", "admin_controls_available": true, "enterprise_plan_available": true}
+    }
+  }
+}

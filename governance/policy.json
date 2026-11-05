@@ -1,0 +1,23 @@
+{
+  "version": "demo-1.0",
+  "medium_score": 20,
+  "high_score": 50,
+  "sensitive_departments": ["Finance", "HR", "Legal"],
+  "large_mean_upload_bytes": 5000000,
+  "large_single_upload_bytes": 10000000,
+  "large_mean_download_bytes": 10000000,
+  "broad_adoption_users": 50,
+  "long_retention_days": 90,
+  "points": {
+    "unapproved": 25,
+    "no_sso": 10,
+    "customer_data_training": 20,
+    "long_retention": 10,
+    "no_admin_controls": 10,
+    "no_enterprise_plan": 5,
+    "sensitive_department": 10,
+    "large_upload": 15,
+    "large_download": 5,
+    "broad_adoption": 5
+  }
+}

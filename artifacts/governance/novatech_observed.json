@@ -1,0 +1,1562 @@
+{
+  "company": "NovaTech",
+  "synthetic_activity": true,
+  "synthetic_scenario_applied": false,
+  "inputs": {
+    "activity": {
+      "file": "novatech_usage (1).csv",
+      "sha256": "3fc0deafbb6f2fc53a0f44914a873ad7fc7e1e374f2c5c57b54ee02d52a6056d"
+    },
+    "metadata": {
+      "file": "dataset_b_master.csv",
+      "sha256": "be55b869bcd873931842d692ecb53c73009e8032bf3770b8d8caa994768b377c"
+    },
+    "policy": {
+      "file": "policy.json",
+      "sha256": "181fb959f3dd38cf5308a52fe7f3dc760c37af6b15ccf2c5889cf3eba2d1231a"
+    }
+  },
+  "policy_version": "demo-1.0",
+  "application_count": 21,
+  "applications": [
+    {
+      "application_key": "atlassian.com",
+      "application_names": [
+        "Jira"
+      ],
+      "unique_users": 269,
+      "departments": [
+        "Customer Support",
+        "Engineering",
+        "Finance",
+        "HR",
+        "Marketing",
+        "Sales"
+      ],
+      "events": 469,
+      "first_seen": "2026-09-01T09:54:00+00:00",
+      "last_seen": "2026-09-30T18:05:00+00:00",
+      "upload_observations": 469,
+      "download_observations": 469,
+      "total_bytes_uploaded": 1473415019,
+      "total_bytes_downloaded": 3356719260,
+      "mean_bytes_uploaded": 3141609.8486140724,
+      "max_bytes_uploaded": 9912145,
+      "mean_bytes_downloaded": 7157183.923240938,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 269,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "metadata_match": false,
+      "company": "NovaTech"
+    },
+    {
+      "application_key": "chatgpt.com",
+      "application_names": [
+        "ChatGPT"
+      ],
+      "unique_users": 494,
+      "departments": [
+        "Customer Support",
+        "Engineering",
+        "Finance",
+        "HR",
+        "Marketing",
+        "Sales"
+      ],
+      "events": 2253,
+      "first_seen": "2026-09-01T08:08:00+00:00",
+      "last_seen": "2026-09-30T18:24:00+00:00",
+      "upload_observations": 2253,
+      "download_observations": 2253,
+      "total_bytes_uploaded": 6786822260,
+      "total_bytes_downloaded": 15460626050,
+      "mean_bytes_uploaded": 3012348.983577452,
+      "max_bytes_uploaded": 9996300,
+      "mean_bytes_downloaded": 6862239.70261873,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "dataset_b",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 494,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "metadata_match": true,
+      "company": "NovaTech"
+    },
+    {
+      "application_key": "claude.ai",
+      "application_names": [
+        "Claude"
+      ],
+      "unique_users": 493,
+      "departments": [
+        "Customer Support",
+        "Engineering",
+        "Finance",
+        "HR",
+        "Marketing",
+        "Sales"
+      ],
+      "events": 2445,
+      "first_seen": "2026-09-01T08:03:00+00:00",
+      "last_seen": "2026-09-30T18:59:00+00:00",
+      "upload_observations": 2445,
+      "download_observations": 2445,
+      "total_bytes_uploaded": 7520536074,
+      "total_bytes_downloaded": 16754483567,
+      "mean_bytes_uploaded": 3075883.8748466256,
+      "max_bytes_uploaded": 9989481,
+      "mean_bytes_downloaded": 6852549.516155419,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "dataset_b",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 493,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "metadata_match": true,
+      "company": "NovaTech"
+    },
+    {
+      "application_key": "code.visualstudio.com",
+      "application_names": [
+        "VS Code"
+      ],
+      "unique_users": 373,
+      "departments": [
+        "Customer Support",
+        "Engineering",
+        "Finance",
+        "HR",
+        "Marketing",
+        "Sales"
+      ],
+      "events": 3432,
+      "first_seen": "2026-09-01T08:00:00+00:00",
+      "last_seen": "2026-09-30T18:57:00+00:00",
+      "upload_observations": 3432,
+      "download_observations": 3432,
+      "total_bytes_uploaded": 10315081881,
+      "total_bytes_downloaded": 23141750898,
+      "mean_bytes_uploaded": 3005559.9886363638,
+      "max_bytes_uploaded": 9998474,
+      "mean_bytes_downloaded": 6742934.410839161,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 373,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "metadata_match": false,
+      "company": "NovaTech"
+    },
+    {
+      "application_key": "cursor.com",
+      "application_names": [
+        "Cursor"
+      ],
+      "unique_users": 332,
+      "departments": [
+        "Customer Support",
+        "Engineering",
+        "Finance",
+        "HR",
+        "Marketing",
+        "Sales"
+      ],
+      "events": 984,
+      "first_seen": "2026-09-01T08:04:00+00:00",
+      "last_seen": "2026-09-30T18:54:00+00:00",
+      "upload_observations": 984,
+      "download_observations": 984,
+      "total_bytes_uploaded": 2934688838,
+      "total_bytes_downloaded": 7198813062,
+      "mean_bytes_uploaded": 2982407.3556910567,
+      "max_bytes_uploaded": 9982386,
+      "mean_bytes_downloaded": 7315866.932926829,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 332,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "metadata_match": false,
+      "company": "NovaTech"
+    },
+    {
+      "application_key": "docs.google.com",
+      "application_names": [
+        "Google Docs"
+      ],
+      "unique_users": 351,
+      "departments": [
+        "Customer Support",
+        "Engineering",
+        "Finance",
+        "HR",
+        "Marketing",
+        "Sales"
+      ],
+      "events": 1757,
+      "first_seen": "2026-09-01T08:34:00+00:00",
+      "last_seen": "2026-09-30T18:58:00+00:00",
+      "upload_observations": 1757,
+      "download_observations": 1757,
+      "total_bytes_uploaded": 5093008591,
+      "total_bytes_downloaded": 12368804367,
+      "mean_bytes_uploaded": 2898695.8400682984,
+      "max_bytes_uploaded": 9987161,
+      "mean_bytes_downloaded": 7039729.292544109,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 351,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "metadata_match": false,
+      "company": "NovaTech"
+    },
+    {
+      "application_key": "drive.google.com",
+      "application_names": [
+        "Google Drive"
+      ],
+      "unique_users": 348,
+      "departments": [
+        "Customer Support",
+        "Engineering",
+        "Finance",
+        "HR",
+        "Marketing",
+        "Sales"
+      ],
+      "events": 1740,
+      "first_seen": "2026-09-01T08:19:00+00:00",
+      "last_seen": "2026-09-30T18:50:00+00:00",
+      "upload_observations": 1740,
+      "download_observations": 1740,
+      "total_bytes_uploaded": 5251057051,
+      "total_bytes_downloaded": 12157681789,
+      "mean_bytes_uploaded": 3017848.8798850575,
+      "max_bytes_uploaded": 9999198,
+      "mean_bytes_downloaded": 6987173.441954023,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 348,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "metadata_match": false,
+      "company": "NovaTech"
+    },
+    {
+      "application_key": "gemini.google.com",
+      "application_names": [
+        "Gemini"
+      ],
+      "unique_users": 492,
+      "departments": [
+        "Customer Support",
+        "Engineering",
+        "Finance",
+        "HR",
+        "Marketing",
+        "Sales"
+      ],
+      "events": 2414,
+      "first_seen": "2026-09-01T08:04:00+00:00",
+      "last_seen": "2026-09-30T18:54:00+00:00",
+      "upload_observations": 2414,
+      "download_observations": 2414,
+      "total_bytes_uploaded": 7355797673,
+      "total_bytes_downloaded": 16806784084,
+      "mean_bytes_uploaded": 3047140.7096106047,
+      "max_bytes_uploaded": 9999983,
+      "mean_bytes_downloaded": 6962213.787903894,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "dataset_b",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 492,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "metadata_match": true,
+      "company": "NovaTech"
+    },
+    {
+      "application_key": "github.com",
+      "application_names": [
+        "GitHub"
+      ],
+      "unique_users": 372,
+      "departments": [
+        "Customer Support",
+        "Engineering",
+        "Finance",
+        "HR",
+        "Marketing",
+        "Sales"
+      ],
+      "events": 3498,
+      "first_seen": "2026-09-01T08:01:00+00:00",
+      "last_seen": "2026-09-30T18:54:00+00:00",
+      "upload_observations": 3498,
+      "download_observations": 3498,
+      "total_bytes_uploaded": 10361251392,
+      "total_bytes_downloaded": 24470329455,
+      "mean_bytes_uploaded": 2962050.140651801,
+      "max_bytes_uploaded": 9999690,
+      "mean_bytes_downloaded": 6995520.141509434,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "dataset_b",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 372,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "metadata_match": true,
+      "company": "NovaTech"
+    },
+    {
+      "application_key": "github.com/copilot",
+      "application_names": [
+        "GitHub Copilot"
+      ],
+      "unique_users": 317,
+      "departments": [
+        "Customer Support",
+        "Engineering",
+        "Finance",
+        "HR",
+        "Marketing",
+        "Sales"
+      ],
+      "events": 957,
+      "first_seen": "2026-09-01T08:04:00+00:00",
+      "last_seen": "2026-09-30T18:53:00+00:00",
+      "upload_observations": 957,
+      "download_observations": 957,
+      "total_bytes_uploaded": 2948191676,
+      "total_bytes_downloaded": 6704391743,
+      "mean_bytes_uploaded": 3080660.0585161964,
+      "max_bytes_uploaded": 9995132,
+      "mean_bytes_downloaded": 7005634.00522466,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 317,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "metadata_match": false,
+      "company": "NovaTech"
+    },
+    {
+      "application_key": "grammarly.com",
+      "application_names": [
+        "Grammarly"
+      ],
+      "unique_users": 317,
+      "departments": [
+        "Customer Support",
+        "Engineering",
+        "Finance",
+        "HR",
+        "Marketing",
+        "Sales"
+      ],
+      "events": 1044,
+      "first_seen": "2026-09-01T08:04:00+00:00",
+      "last_seen": "2026-09-30T18:37:00+00:00",
+      "upload_observations": 1044,
+      "download_observations": 1044,
+      "total_bytes_uploaded": 3227582398,
+      "total_bytes_downloaded": 7494000604,
+      "mean_bytes_uploaded": 3091554.021072797,
+      "max_bytes_uploaded": 9986915,
+      "mean_bytes_downloaded": 7178161.498084291,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "dataset_b",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 317,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "metadata_match": true,
+      "company": "NovaTech"
+    },
+    {
+      "application_key": "jasper.ai",
+      "application_names": [
+        "Jasper"
+      ],
+      "unique_users": 242,
+      "departments": [
+        "Customer Support",
+        "Engineering",
+        "Finance",
+        "HR",
+        "Marketing",
+        "Sales"
+      ],
+      "events": 477,
+      "first_seen": "2026-09-01T09:23:00+00:00",
+      "last_seen": "2026-09-30T17:10:00+00:00",
+      "upload_observations": 477,
+      "download_observations": 477,
+      "total_bytes_uploaded": 1429451634,
+      "total_bytes_downloaded": 3194875151,
+      "mean_bytes_uploaded": 2996753.9496855345,
+      "max_bytes_uploaded": 9998449,
+      "mean_bytes_downloaded": 6697851.469601677,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "dataset_b",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 242,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "metadata_match": true,
+      "company": "NovaTech"
+    },
+    {
+      "application_key": "linkedin.com",
+      "application_names": [
+        "LinkedIn"
+      ],
+      "unique_users": 301,
+      "departments": [
+        "Customer Support",
+        "Engineering",
+        "Finance",
+        "HR",
+        "Marketing",
+        "Sales"
+      ],
+      "events": 855,
+      "first_seen": "2026-09-01T08:59:00+00:00",
+      "last_seen": "2026-09-30T18:22:00+00:00",
+      "upload_observations": 855,
+      "download_observations": 855,
+      "total_bytes_uploaded": 2570123625,
+      "total_bytes_downloaded": 6106260898,
+      "mean_bytes_uploaded": 3005992.543859649,
+      "max_bytes_uploaded": 9995210,
+      "mean_bytes_downloaded": 7141825.611695906,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 301,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "metadata_match": false,
+      "company": "NovaTech"
+    },
+    {
+      "application_key": "midjourney.com",
+      "application_names": [
+        "Midjourney"
+      ],
+      "unique_users": 255,
+      "departments": [
+        "Customer Support",
+        "Engineering",
+        "Finance",
+        "HR",
+        "Marketing",
+        "Sales"
+      ],
+      "events": 453,
+      "first_seen": "2026-09-01T08:35:00+00:00",
+      "last_seen": "2026-09-30T18:18:00+00:00",
+      "upload_observations": 453,
+      "download_observations": 453,
+      "total_bytes_uploaded": 1395234879,
+      "total_bytes_downloaded": 3429972011,
+      "mean_bytes_uploaded": 3079988.695364238,
+      "max_bytes_uploaded": 9960933,
+      "mean_bytes_downloaded": 7571682.143487859,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "dataset_b",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 255,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "metadata_match": true,
+      "company": "NovaTech"
+    },
+    {
+      "application_key": "office.com",
+      "application_names": [
+        "Microsoft Excel"
+      ],
+      "unique_users": 282,
+      "departments": [
+        "Customer Support",
+        "Engineering",
+        "Finance",
+        "HR",
+        "Marketing",
+        "Sales"
+      ],
+      "events": 939,
+      "first_seen": "2026-09-01T08:06:00+00:00",
+      "last_seen": "2026-09-30T18:58:00+00:00",
+      "upload_observations": 939,
+      "download_observations": 939,
+      "total_bytes_uploaded": 3059667322,
+      "total_bytes_downloaded": 6747108331,
+      "mean_bytes_uploaded": 3258431.6528221513,
+      "max_bytes_uploaded": 9999973,
+      "mean_bytes_downloaded": 7185418.8828541,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 282,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "metadata_match": false,
+      "company": "NovaTech"
+    },
+    {
+      "application_key": "perplexity.ai",
+      "application_names": [
+        "Perplexity"
+      ],
+      "unique_users": 304,
+      "departments": [
+        "Customer Support",
+        "Engineering",
+        "Finance",
+        "HR",
+        "Marketing",
+        "Sales"
+      ],
+      "events": 903,
+      "first_seen": "2026-09-01T08:26:00+00:00",
+      "last_seen": "2026-09-30T18:54:00+00:00",
+      "upload_observations": 903,
+      "download_observations": 903,
+      "total_bytes_uploaded": 2723453501,
+      "total_bytes_downloaded": 6204005337,
+      "mean_bytes_uploaded": 3016006.091915836,
+      "max_bytes_uploaded": 9983838,
+      "mean_bytes_downloaded": 6870437.803986711,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "dataset_b",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 304,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "metadata_match": true,
+      "company": "NovaTech"
+    },
+    {
+      "application_key": "salesforce.com",
+      "application_names": [
+        "Salesforce"
+      ],
+      "unique_users": 317,
+      "departments": [
+        "Customer Support",
+        "Engineering",
+        "Finance",
+        "HR",
+        "Marketing",
+        "Sales"
+      ],
+      "events": 952,
+      "first_seen": "2026-09-01T08:20:00+00:00",
+      "last_seen": "2026-09-30T18:36:00+00:00",
+      "upload_observations": 952,
+      "download_observations": 952,
+      "total_bytes_uploaded": 2812989933,
+      "total_bytes_downloaded": 6965121645,
+      "mean_bytes_uploaded": 2954821.3581932774,
+      "max_bytes_uploaded": 9961467,
+      "mean_bytes_downloaded": 7316304.24894958,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 317,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "metadata_match": false,
+      "company": "NovaTech"
+    },
+    {
+      "application_key": "slack.com",
+      "application_names": [
+        "Slack"
+      ],
+      "unique_users": 314,
+      "departments": [
+        "Customer Support",
+        "Engineering",
+        "Finance",
+        "HR",
+        "Marketing",
+        "Sales"
+      ],
+      "events": 1124,
+      "first_seen": "2026-09-01T08:52:00+00:00",
+      "last_seen": "2026-09-30T18:40:00+00:00",
+      "upload_observations": 1124,
+      "download_observations": 1124,
+      "total_bytes_uploaded": 3492382713,
+      "total_bytes_downloaded": 7994052321,
+      "mean_bytes_uploaded": 3107102.0578291817,
+      "max_bytes_uploaded": 9992674,
+      "mean_bytes_downloaded": 7112146.193060499,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "dataset_b",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 314,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "metadata_match": true,
+      "company": "NovaTech"
+    },
+    {
+      "application_key": "teams.microsoft.com",
+      "application_names": [
+        "Microsoft Teams"
+      ],
+      "unique_users": 339,
+      "departments": [
+        "Customer Support",
+        "Engineering",
+        "Finance",
+        "HR",
+        "Marketing",
+        "Sales"
+      ],
+      "events": 1219,
+      "first_seen": "2026-09-01T08:01:00+00:00",
+      "last_seen": "2026-09-30T18:51:00+00:00",
+      "upload_observations": 1219,
+      "download_observations": 1219,
+      "total_bytes_uploaded": 3682007466,
+      "total_bytes_downloaded": 8793838770,
+      "mean_bytes_uploaded": 3020514.7383100903,
+      "max_bytes_uploaded": 9996222,
+      "mean_bytes_downloaded": 7213977.662018048,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 339,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "metadata_match": false,
+      "company": "NovaTech"
+    },
+    {
+      "application_key": "workday.com",
+      "application_names": [
+        "Workday"
+      ],
+      "unique_users": 281,
+      "departments": [
+        "Customer Support",
+        "Engineering",
+        "Finance",
+        "HR",
+        "Marketing",
+        "Sales"
+      ],
+      "events": 905,
+      "first_seen": "2026-09-01T08:01:00+00:00",
+      "last_seen": "2026-09-30T17:59:00+00:00",
+      "upload_observations": 905,
+      "download_observations": 905,
+      "total_bytes_uploaded": 2757554056,
+      "total_bytes_downloaded": 6194201803,
+      "mean_bytes_uploaded": 3047021.0563535914,
+      "max_bytes_uploaded": 9977764,
+      "mean_bytes_downloaded": 6844421.881767956,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 281,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "metadata_match": false,
+      "company": "NovaTech"
+    },
+    {
+      "application_key": "zoom.us",
+      "application_names": [
+        "Zoom"
+      ],
+      "unique_users": 328,
+      "departments": [
+        "Customer Support",
+        "Engineering",
+        "Finance",
+        "HR",
+        "Marketing",
+        "Sales"
+      ],
+      "events": 1180,
+      "first_seen": "2026-09-01T08:38:00+00:00",
+      "last_seen": "2026-09-30T18:59:00+00:00",
+      "upload_observations": 1180,
+      "download_observations": 1180,
+      "total_bytes_uploaded": 3617371936,
+      "total_bytes_downloaded": 8032802736,
+      "mean_bytes_uploaded": 3065569.4372881358,
+      "max_bytes_uploaded": 9995308,
+      "mean_bytes_downloaded": 6807459.945762712,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "dataset_b",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 328,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "metadata_match": true,
+      "company": "NovaTech"
+    }
+  ],
+  "limitations": [
+    "Catalog policies are mostly missing; missing values add no points and remain unknown.",
+    "Synthetic scenarios do not assert real vendor policies or enterprise approval.",
+    "All observed applications are assessed; AI identification remains a separate upstream task.",
+    "Thresholds are demonstration policy choices, not learned or validated security cutoffs."
+  ]
+}
