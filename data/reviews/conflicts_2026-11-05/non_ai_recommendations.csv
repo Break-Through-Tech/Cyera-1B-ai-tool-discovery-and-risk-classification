@@ -1,0 +1,103 @@
+record_id,tool_name,domain,source_label,recommended_label,proposed_product_scope,action,evidence_summary,evidence_url
+non_ai_catalog:saas_00004,GitHub,github.com,0,0,GitHub,keep_source_label,Official product material describes source-code hosting and developer collaboration.,https://github.com
+non_ai_catalog:saas_00006,Vimeo,vimeo.com,0,0,Vimeo,keep_source_label,"Official product material describes video creation, management and sharing.",https://vimeo.com
+non_ai_catalog:saas_00008,Linktree,linktr.ee,0,0,Linktree,keep_source_label,Official product material describes link-in-bio publishing and creator commerce.,https://linktr.ee
+non_ai_catalog:saas_00011,Microsoft,bing.com,0,,Microsoft,set_aside_pending_resolution,The record names Microsoft as a company but points at Bing; company scope and search-product scope are mixed.,https://bing.com
+non_ai_catalog:saas_00016,Oracle,oracle.com,0,,Oracle,set_aside_pending_resolution,"The record is a multi-product vendor, not a named application; oracle.com must not be equated with oracle.sshh.io.",https://oracle.com
+non_ai_catalog:saas_00022,Discord,discord.com,0,0,Discord,keep_source_label,Official product material describes group messaging and community voice/video chat.,https://discord.com
+non_ai_catalog:saas_00023,SurveyMonkey,surveymonkey.com,0,0,SurveyMonkey,keep_source_label,Official product material describes survey and form creation.,https://surveymonkey.com
+non_ai_catalog:saas_00030,Calendly,calendly.com,0,0,Calendly,keep_source_label,Official product material describes appointment and meeting scheduling.,https://calendly.com
+non_ai_catalog:saas_00032,Slack,slack.com,0,0,Slack,keep_source_label,Official product material describes team communication and collaboration.,https://slack.com
+non_ai_catalog:saas_00033,Zoho,zoho.com,0,,Zoho,set_aside_pending_resolution,The vendor suite contains conventional applications and named AI assistants; select an application before labeling.,https://zoho.com
+non_ai_catalog:saas_00034,HubSpot,hubspot.com,0,0,HubSpot,keep_source_label,"Official product material describes CRM, marketing, sales and service workflows.",https://hubspot.com
+non_ai_catalog:saas_00036,Notion,notion.so,0,,Notion,set_aside_pending_resolution,Current homepage emphasizes agents and AI while the stored description is a general workspace; specify the product/feature scope.,https://notion.so
+non_ai_catalog:saas_00040,Buffer,buffer.com,0,0,Buffer,keep_source_label,Official product material describes social media scheduling and publishing.,https://buffer.com
+non_ai_catalog:saas_00041,Figma,figma.com,0,0,Figma,keep_source_label,Official product material describes collaborative interface design and development.,https://figma.com
+non_ai_catalog:saas_00042,Feedly,feedly.com,0,1,Feedly,proposed_relabel,Official product material describes AI-based threat-intelligence collection and analysis.,https://feedly.com
+non_ai_catalog:saas_00044,Semrush,semrush.com,0,0,Semrush,keep_source_label,Official product material describes marketing visibility and SEO analysis.,https://semrush.com
+non_ai_catalog:saas_00048,Hootsuite,hootsuite.com,0,0,Hootsuite,keep_source_label,Official product material describes social media management.,https://hootsuite.com
+non_ai_catalog:saas_00054,Airtable,airtable.com,0,,Airtable,set_aside_pending_resolution,The older low-code description and current AI workflow/agent positioning need a specific conventional-versus-AI product scope.,https://airtable.com
+non_ai_catalog:saas_00058,Jotform,jotform.com,0,0,Jotform,keep_source_label,Official product material describes online form creation.,https://jotform.com
+non_ai_catalog:saas_00059,JetBrains,jetbrains.com,0,,JetBrains,set_aside_pending_resolution,The vendor portfolio is broader than its named AI development products; select a product.,https://jetbrains.com
+non_ai_catalog:saas_00066,Constant Contact,constantcontact.com,0,0,Constant Contact,keep_source_label,Official product material describes email marketing campaign management. Official product search result describes software for sending bulk email campaigns.,https://www.constantcontact.com/email-marketing?hubspot_post-cta=anchor
+non_ai_catalog:saas_00069,DeepL,deepl.com,0,1,DeepL,proposed_relabel,Official product material describes neural-machine translation and AI language services.,https://deepl.com
+non_ai_catalog:saas_00071,Zapier,zapier.com,0,0,Zapier,keep_source_label,Official product material describes application integration and workflow automation.,https://zapier.com
+non_ai_catalog:saas_00076,Gumroad,gumroad.com,0,0,Gumroad,keep_source_label,Official product material describes selling digital products.,https://gumroad.com
+non_ai_catalog:saas_00085,Epidemic Sound,epidemicsound.com,0,0,Epidemic Sound,keep_source_label,Official product material describes licensed music and sound-effect discovery.,https://epidemicsound.com
+non_ai_catalog:saas_00088,Ahrefs,ahrefs.com,0,0,Ahrefs,keep_source_label,Official product material describes search visibility and marketing analytics.,https://ahrefs.com
+non_ai_catalog:saas_00091,Pixlr,pixlr.com,0,,Pixlr,set_aside_pending_resolution,Current page combines general photo editing and generative media; scope must distinguish editor from generator.,https://pixlr.com
+non_ai_catalog:saas_00092,Loom,loom.com,0,0,Loom,keep_source_label,Official product material describes screen recording and video messaging.,https://loom.com
+non_ai_catalog:saas_00100,Webflow,webflow.com,0,0,Webflow,keep_source_label,"Official product material describes website design, content management and hosting.",https://webflow.com
+non_ai_catalog:saas_00101,CoSchedule,coschedule.com,0,0,CoSchedule,keep_source_label,Official product material describes social publishing and marketing calendars.,https://coschedule.com
+non_ai_catalog:saas_00103,Tawk,tawk.to,0,0,Tawk,keep_source_label,"Official product material describes live chat, ticketing and customer support.",https://tawk.to
+non_ai_catalog:saas_00108,Miro,miro.com,0,0,Miro,keep_source_label,Official product material describes visual collaboration and product-development planning.,https://miro.com
+non_ai_catalog:saas_00113,Prezi,prezi.com,0,0,Prezi,keep_source_label,Official product material describes interactive presentations.,https://prezi.com
+non_ai_catalog:saas_00117,ActiveCampaign,activecampaign.com,0,0,ActiveCampaign,keep_source_label,Official product material describes marketing automation and customer campaigns.,https://activecampaign.com
+non_ai_catalog:saas_00118,Picsart,picsart.com,0,,Picsart,set_aside_pending_resolution,"The creative platform combines editing, templates and AI creation; choose a product or feature before forcing a binary label.",https://picsart.com
+non_ai_catalog:saas_00120,Grammarly,grammarly.com,0,1,Grammarly,proposed_relabel,Official product material describes AI writing guidance and text generation.,https://grammarly.com
+non_ai_catalog:saas_00125,Box,box.com,0,0,Box,keep_source_label,Official product material describes content management and collaboration.,https://box.com
+non_ai_catalog:saas_00128,GetResponse,getresponse.com,0,0,GetResponse,keep_source_label,Official product material describes email marketing and landing-page automation.,https://getresponse.com
+non_ai_catalog:saas_00131,Hotjar,hotjar.com,0,0,Hotjar,keep_source_label,Official product material describes website behavior insights and feedback.,https://hotjar.com
+non_ai_catalog:saas_00142,Tableau,tableau.com,0,0,Tableau,keep_source_label,Official product material describes business intelligence and visual analytics.,https://help.tableau.com/current/tableau/en-us/tableau_product_overview.htm
+non_ai_catalog:saas_00143,ClickUp,clickup.com,0,0,ClickUp,keep_source_label,"Official product material describes task, document and project management.",https://clickup.com
+non_ai_catalog:saas_00154,Unity,unity.com,0,0,Unity,keep_source_label,Official product material describes real-time 3D development and game creation.,https://unity.com
+non_ai_catalog:saas_00157,ChatGPT,chatgpt.com,0,1,ChatGPT,proposed_relabel,"Official product material describes a conversational assistant for reasoning, writing and task assistance.",https://openai.com/chatgpt/overview/
+non_ai_catalog:saas_00166,Fotor,fotor.com,0,0,Fotor,keep_source_label,Official product material describes general photo editing.,https://fotor.com
+non_ai_catalog:saas_00179,Xero,xero.com,0,0,Xero,keep_source_label,Official product material describes business accounting.,https://xero.com
+non_ai_catalog:saas_00189,Jetpack,jetpack.com,0,0,Jetpack,keep_source_label,"Official product material describes WordPress security, backups and performance.",https://jetpack.com
+non_ai_catalog:saas_00192,Headspace,headspace.com,0,0,Headspace,keep_source_label,"Official product material describes meditation, sleep and mental-health content.",https://headspace.com
+non_ai_catalog:saas_00194,Duolingo,duolingo.com,0,0,Duolingo,keep_source_label,Official product material describes language learning through lessons.,https://duolingo.com
+non_ai_catalog:saas_00196,Wolfram Alpha,wolframalpha.com,0,0,Wolfram Alpha,keep_source_label,Official product material describes algorithmic computation over a curated knowledgebase.,https://www.wolframalpha.com/faqs
+non_ai_catalog:saas_00198,SendPulse,sendpulse.com,0,0,SendPulse,keep_source_label,Official product material describes multichannel marketing automation.,https://sendpulse.com
+non_ai_catalog:saas_00202,Mixpanel,mixpanel.com,0,0,Mixpanel,keep_source_label,Official product material describes product analytics and experimentation.,https://mixpanel.com
+non_ai_catalog:saas_00206,Elementor,elementor.com,0,0,Elementor,keep_source_label,Official product material describes visual website building.,https://elementor.com
+non_ai_catalog:saas_00211,Icons8,icons8.com,0,0,Icons8,keep_source_label,Official product material describes design assets and icon libraries.,https://icons8.com
+non_ai_catalog:saas_00217,Venngage,venngage.com,0,0,Venngage,keep_source_label,Official product material describes infographic and document design.,https://venngage.com
+non_ai_catalog:saas_00224,AWeber,aweber.com,0,0,AWeber,keep_source_label,Official product material describes email marketing.,https://aweber.com
+non_ai_catalog:saas_00225,Freshworks,freshworks.com,0,,Freshworks,set_aside_pending_resolution,"The official product directory spans distinct customer-service, IT and CRM products; vendor-level scope is ambiguous.",https://freshworks.com
+non_ai_catalog:saas_00236,Tidio,tidio.com,0,,Tidio,set_aside_pending_resolution,Current homepage emphasizes Lyro AI resolution while the source describes general live chat; scope Lyro separately.,https://tidio.com
+non_ai_catalog:saas_00239,Intuit,intuit.com,0,,Intuit,set_aside_pending_resolution,"The company portfolio spans accounting, tax, marketing and AI agents; a specific product is needed.",https://intuit.com
+non_ai_catalog:saas_00245,ElevenLabs,elevenlabs.io,0,1,ElevenLabs,proposed_relabel,Official product material describes model-generated speech and voice agents.,https://elevenlabs.io
+non_ai_catalog:saas_00252,Akismet,akismet.com,0,1,Akismet,proposed_relabel,Official product material describes machine-learning spam classification.,https://akismet.com
+non_ai_catalog:saas_00264,Pipedrive,pipedrive.com,0,0,Pipedrive,keep_source_label,Official product material describes sales CRM and pipeline management.,https://pipedrive.com
+non_ai_catalog:saas_00282,Elastic,elastic.co,0,,Elastic,set_aside_pending_resolution,"The vendor spans search database, observability, security and AI agents; identify a product rather than label the portfolio.",https://elastic.co
+non_ai_catalog:saas_00284,Auphonic,auphonic.com,0,1,Auphonic,proposed_relabel,Official product material describes AI-based audio enhancement and speech processing.,https://auphonic.com
+non_ai_catalog:saas_00286,Unbounce,unbounce.com,0,0,Unbounce,keep_source_label,Official product material describes landing-page creation and conversion optimization.,https://unbounce.com
+non_ai_catalog:saas_00288,Cloudinary,cloudinary.com,0,0,Cloudinary,keep_source_label,Official product material describes image/video asset management and delivery.,https://cloudinary.com
+non_ai_catalog:saas_00295,CrowdStrike,crowdstrike.com,0,,CrowdStrike,set_aside_pending_resolution,A broad AI-native security vendor/platform record does not identify a sufficiently specific detection or conventional-management product.,https://crowdstrike.com
+non_ai_catalog:saas_00303,Jasper,jasper.ai,0,1,Jasper,proposed_relabel,Official product material describes AI agents for marketing content/workflows.,https://jasper.ai
+non_ai_catalog:saas_00316,Surfer,surferseo.com,0,,Surfer,set_aside_pending_resolution,Current AI-visibility positioning differs from the stored SEO/content-optimization description; identify the exact product.,https://surferseo.com
+non_ai_catalog:saas_00330,Otter,otter.ai,0,1,Otter,proposed_relabel,Official product material describes AI meeting transcription and summaries.,https://otter.ai
+non_ai_catalog:saas_00336,Smallpdf,smallpdf.com,0,0,Smallpdf,keep_source_label,Official product material describes PDF conversion and editing.,https://smallpdf.com
+non_ai_catalog:saas_00338,JobPotato,tally.so,0,,JobPotato,set_aside_pending_resolution,"Stored name says JobPotato, but domain and description identify Tally; correct the identity before use.",https://tally.so
+non_ai_catalog:saas_00344,Lovefield,google.github.io,0,0,Lovefield,keep_source_label,Official product material describes an in-browser relational database.,https://github.com/google/lovefield
+non_ai_catalog:saas_00357,DataCamp,datacamp.com,0,0,DataCamp,keep_source_label,Official product material describes data-science and AI education.,https://datacamp.com
+non_ai_catalog:saas_00376,LiveChat,livechat.com,0,0,LiveChat,keep_source_label,Official product material describes customer messaging and helpdesk workflows.,https://livechat.com
+non_ai_catalog:saas_00389,You,you.com,0,1,You,proposed_relabel,Official product material describes generative AI research and assistants. Official support search result describes a business GenAI platform.,https://support.you.com/kb/s/article/Getting-started-for-Enterprise-users
+non_ai_catalog:saas_00392,Klaviyo,klaviyo.com,0,0,Klaviyo,keep_source_label,Official product material describes email and SMS marketing.,https://klaviyo.com
+non_ai_catalog:saas_00395,Stability AI,stability.ai,0,1,Stability AI,proposed_relabel,Official product material describes generative image and media models.,https://stability.ai
+non_ai_catalog:saas_00399,Dialpad,dialpad.com,0,,Dialpad,set_aside_pending_resolution,Current agentic CX/AI platform and conventional communications capabilities are mixed in this broad record.,https://dialpad.com
+non_ai_catalog:saas_00400,RescueTime,rescuetime.com,0,0,RescueTime,keep_source_label,Official product material describes automatic time tracking.,https://rescuetime.com
+non_ai_catalog:saas_00410,Pitch,pitch.com,0,0,Pitch,keep_source_label,Official product material describes collaborative presentation authoring.,https://pitch.com
+non_ai_catalog:saas_00411,Benchmark Email,benchmarkemail.com,0,0,Benchmark Email,keep_source_label,Official product material describes email campaign management.,https://benchmarkemail.com
+non_ai_catalog:saas_00420,Midjourney,midjourney.com,0,1,Midjourney,proposed_relabel,Official product material describes generating images and videos from prompts.,https://docs.midjourney.com/hc/en-us/articles/33329261836941-Getting-Started-Guide
+non_ai_catalog:saas_00433,Bubble,bubble.io,0,,Bubble,set_aside_pending_resolution,The current homepage emphasizes AI application generation alongside visual no-code editing; distinguish the AI builder from the conventional platform.,https://bubble.io
+non_ai_catalog:saas_00447,Podium,podium.com,0,,Podium,set_aside_pending_resolution,Current lead/AI positioning differs from the stored communications-platform scope; also unrelated to hello.podium.page.,https://podium.com
+non_ai_catalog:saas_00455,ACD Systems,acdsee.com,0,0,ACD Systems,keep_source_label,Official product material describes photo/video editing and asset management.,https://acdsee.com
+non_ai_catalog:saas_00456,Rank Math,rankmath.com,0,0,Rank Math,keep_source_label,Official product material describes WordPress SEO configuration and optimization.,https://rankmath.com
+non_ai_catalog:saas_00457,Intercom,intercom.com,0,0,Intercom,keep_source_label,Official product material describes a helpdesk with an integrated AI agent.,https://intercom.com
+non_ai_catalog:saas_00464,Movavi,movavi.com,0,0,Movavi,keep_source_label,Official product material describes photo and video editing.,https://movavi.com
+non_ai_catalog:saas_00468,Zoom Video Communications,zoom.com,0,0,Zoom Video Communications,keep_source_label,Official product material describes meetings and business communications.,https://zoom.com
+non_ai_catalog:saas_00480,SurveySparrow,surveysparrow.com,0,0,SurveySparrow,keep_source_label,Official product material describes customer feedback and surveys.,https://surveysparrow.com
+non_ai_catalog:saas_00481,Vercel,vercel.com,0,0,Vercel,keep_source_label,Official product material describes application hosting and deployment.,https://vercel.com
+non_ai_catalog:saas_00482,AdRoll,adroll.com,0,0,AdRoll,keep_source_label,Official product material describes multichannel advertising campaign management.,https://adroll.com
+non_ai_catalog:saas_00484,Crisp Instant Messaging,crisp.chat,0,0,Crisp Instant Messaging,keep_source_label,Official product material describes customer messaging and support.,https://crisp.chat
+non_ai_catalog:saas_00486,Memrise,memrise.com,0,0,Memrise,keep_source_label,Official product material describes language learning.,https://memrise.com
+non_ai_catalog:saas_00493,LangChain,langchain.com,0,1,LangChain,proposed_relabel,Official product material describes AI agent and language-model application infrastructure.,https://langchain.com
+non_ai_catalog:saas_00500,Amplitude,amplitude.com,0,0,Amplitude,keep_source_label,Official product material describes product analytics and user-behavior measurement.,https://amplitude.com
+non_ai_catalog:claude_00001,Slack,slack.com,0,0,Slack,keep_source_label,Official product material describes team communication and collaboration.,https://slack.com
+non_ai_catalog:claude_00005,Zoom,zoom.us,0,0,Zoom,keep_source_label,Official product material describes meetings and business communications.,https://zoom.us
+non_ai_catalog:claude_00011,HubSpot Marketing Hub,hubspot.com,0,0,HubSpot Marketing Hub,keep_source_label,Official product material describes marketing campaign and demand-management workflows.,https://hubspot.com
+non_ai_catalog:claude_00014,Box,box.com,0,0,Box,keep_source_label,Official product material describes content management and collaboration.,https://box.com
+non_ai_catalog:claude_00018,GitHub Enterprise,github.com,0,0,GitHub Enterprise,keep_source_label,Official product material describes enterprise source-code hosting and collaboration.,https://github.com
+non_ai_catalog:claude_00022,Tableau,tableau.com,0,0,Tableau,keep_source_label,Official product material describes business intelligence and visual analytics.,https://help.tableau.com/current/tableau/en-us/tableau_product_overview.htm
