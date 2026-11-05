@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **Chartbeat** at **chartbeat.com** is directly provided by the operating company **Chartbeat, Inc.**.\n\n### Evidence:\n* **Terms of Service** (`chartbeat.com/terms`):\n  > *\"These Terms of Service (the “Terms”) are a binding contract between the customer listed on the applicable Work Order (including any end-users, “Customer”) and Chartbeat, Inc. These Terms govern Customer's use of the website(s), products, services and applications (the “Services”) offered by Chartbeat, Inc. (the “Chartbeat Services”)...\"*\n* **Privacy Policy** (`chartbeat.com/privacy-policy`):\n  > *\"This Privacy Notice (this “Notice”) describes how Chartbeat, Inc. and its affiliates (collectively, “Chartbeat,” “we,” “us,” or “our”) process personal data...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **Chartbeat** at **chartbeat.com** is directly provided by the operating company **Chartbeat, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFx7vhedjsDDnR6R5D3YaCFfKL3q4fIa_PRTRaa658fjmBCtyY12svTZP125kSM_wKXVocM3rHWpkyMAMqv55B_oL0rCpN1mc8Pwe-DhiELgnA=",
+          "title": "chartbeat.com"
+        },
+        {
+          "id": 1,
+          "text": "rms govern Customer's use of the website(s), products, services and applications (the “Services”) offered by Chartbeat, Inc. (the “Chartbeat Services”)...\"*\n* **Privacy Pol",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFx7vhedjsDDnR6R5D3YaCFfKL3q4fIa_PRTRaa658fjmBCtyY12svTZP125kSM_wKXVocM3rHWpkyMAMqv55B_oL0rCpN1mc8Pwe-DhiELgnA=",
+          "title": "chartbeat.com"
+        },
+        {
+          "id": 2,
+          "text": "These Terms of Service (the “Terms”) are a binding contract between the customer listed on the applicable Work Order (including any end-users, “Customer”) and Chartbeat, Inc. These Terms govern Customer's use of the website(s), products, services and applications (the “Services”) offered by Chartbeat, Inc. (the “Chartbeat S",
+          "url": "https://chartbeat.com/terms/",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Chartbeat, Inc.",
+        "evidence": "According to the Terms of Service, the products, services, and applications offered as the Chartbeat Services are provided by Chartbeat, Inc.",
+        "source": {
+          "id": 2,
+          "text": "These Terms of Service (the “Terms”) are a binding contract between the customer listed on the applicable Work Order (including any end-users, “Customer”) and Chartbeat, Inc. These Terms govern Customer's use of the website(s), products, services and applications (the “Services”) offered by Chartbeat, Inc. (the “Chartbeat S",
+          "url": "https://chartbeat.com/terms/",
+          "title": ""
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Chartbeat",
+    "domain": "chartbeat.com",
+    "description": "Chartbeat is a content intelligence platform based in Manhattan, focused on providing real-time insights for publishers across desktop, social, and mobile platforms. By partnering with over 60,000 media brands in more than 60 countries, Chartbeat helps content creators move beyond basic metrics like clicks and pageviews to understand audience engagement and build business value from their content. The company is committed to innovation and seeks to enhance the ability of media companies to effectively measure and amplify audience attention."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Chartbeat, Inc.",
+  "evidence": "According to the Terms of Service, the products, services, and applications offered as the Chartbeat Services are provided by Chartbeat, Inc.",
+  "source": {
+    "id": 2,
+    "text": "These Terms of Service (the “Terms”) are a binding contract between the customer listed on the applicable Work Order (including any end-users, “Customer”) and Chartbeat, Inc. These Terms govern Customer's use of the website(s), products, services and applications (the “Services”) offered by Chartbeat, Inc. (the “Chartbeat S",
+    "url": "https://chartbeat.com/terms/",
+    "title": ""
+  },
+  "checked_at": "2026-11-05T09:48:50.066471+00:00"
+}

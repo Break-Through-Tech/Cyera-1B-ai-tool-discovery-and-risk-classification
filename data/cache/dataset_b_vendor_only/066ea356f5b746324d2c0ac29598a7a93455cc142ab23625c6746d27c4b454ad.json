@@ -1,0 +1,43 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the compliance solutions and services at **termly.io** is **Termly Inc.** (doing business as **Termly**).\n\n### Evidence\nAccording to the official **Terms of Use** on `termly.io`:\n> *\"We are Termly Inc., doing business as Termly (“Termly,” “we,” “us,” or “our”), a company registered in the State of Delaware. We operate the website https://termly.io (the “Website”) through which we provide you our services, (collectively, the “Services” which include the provision and use of the Website).\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the compliance solutions and services at **termly.io** is **Termly Inc.** (doing business as **Termly**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGl-J-L2pnYVj7oxqqFrlIpOw6QUuZIpug1wHYSMr1XuifRbwFSlYmQeI7tqcUFu9HCeSaJq5j2WV9BYJDzq1WqsrGewl28X9bSR9RKU6I--P26MUKOPPlo",
+          "title": "termly.io"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Termly Inc.",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing the compliance solutions and services at termly.io is Termly Inc. (doing business as Termly).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the compliance solutions and services at **termly.io** is **Termly Inc.** (doing business as **Termly**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGl-J-L2pnYVj7oxqqFrlIpOw6QUuZIpug1wHYSMr1XuifRbwFSlYmQeI7tqcUFu9HCeSaJq5j2WV9BYJDzq1WqsrGewl28X9bSR9RKU6I--P26MUKOPPlo",
+          "title": "termly.io"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Termly",
+    "domain": "termly.io",
+    "description": "Termly provides businesses with essential compliance solutions, including free legal policy generators and a GDPR cookie consent manager. Their services help companies ensure legal protection and adherence to regulations quickly and efficiently, making it easier to manage compliance requirements."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Termly Inc.",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing the compliance solutions and services at termly.io is Termly Inc. (doing business as Termly).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the compliance solutions and services at **termly.io** is **Termly Inc.** (doing business as **Termly**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGl-J-L2pnYVj7oxqqFrlIpOw6QUuZIpug1wHYSMr1XuifRbwFSlYmQeI7tqcUFu9HCeSaJq5j2WV9BYJDzq1WqsrGewl28X9bSR9RKU6I--P26MUKOPPlo",
+    "title": "termly.io"
+  },
+  "checked_at": "2026-11-05T08:33:10.946232+00:00"
+}

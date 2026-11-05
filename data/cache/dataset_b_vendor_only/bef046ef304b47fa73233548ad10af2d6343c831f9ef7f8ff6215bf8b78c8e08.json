@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **OnChat** (at **`onchat.ai`**) is **Soldigo SRL**.\n\n### Evidence\n* According to the official **Terms and conditions** on `onchat.ai` (Section 18.7): \n  > *\"Soldigo Srl (OnChat) is a company registered in Romania.\"*\n* Official marketplace listings (such as the Shopify App Store) also identify the developer and support provider for OnChat as **Soldigo SRL** (Str. Piața Libertății nr. 10, Miercurea Ciuc, Romania).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **OnChat** (at **`onchat.ai`**) is **Soldigo SRL**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOPFWh4j-unhe-PAnmlLGljEjBM5H2nMYHSZ2oHLnLumgdruXwbobAunRNOX-P0HxOttJifaaV0w0GEc-8wmWUkAjGGLoMRCFSpR6BYMhVQKWv_p4MRR_rKY9X",
+          "title": "onchat.ai"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **OnChat** (at **`onchat.ai`**) is **Soldigo SRL**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE06kPMKzs_fMSK-TqLpvdkIPmsJ1PBpK5J7EYnxCFGK4HP_3xk5otbrjz9_y0wE2ZBV2IroiGu6hP1_56lvf6vH_HCyUDqD8Mtc_qql6jg9Zk1F9s=",
+          "title": "shopify.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"Soldigo Srl (OnChat) is a company registered in Romania.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOPFWh4j-unhe-PAnmlLGljEjBM5H2nMYHSZ2oHLnLumgdruXwbobAunRNOX-P0HxOttJifaaV0w0GEc-8wmWUkAjGGLoMRCFSpR6BYMhVQKWv_p4MRR_rKY9X",
+          "title": "onchat.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Soldigo SRL",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing OnChat (at onchat.ai) is Soldigo SRL.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **OnChat** (at **`onchat.ai`**) is **Soldigo SRL**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOPFWh4j-unhe-PAnmlLGljEjBM5H2nMYHSZ2oHLnLumgdruXwbobAunRNOX-P0HxOttJifaaV0w0GEc-8wmWUkAjGGLoMRCFSpR6BYMhVQKWv_p4MRR_rKY9X",
+          "title": "onchat.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "OnChat",
+    "domain": "onchat.ai",
+    "description": "AI powered virtual assistant for your online store."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Soldigo SRL",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing OnChat (at onchat.ai) is Soldigo SRL.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **OnChat** (at **`onchat.ai`**) is **Soldigo SRL**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOPFWh4j-unhe-PAnmlLGljEjBM5H2nMYHSZ2oHLnLumgdruXwbobAunRNOX-P0HxOttJifaaV0w0GEc-8wmWUkAjGGLoMRCFSpR6BYMhVQKWv_p4MRR_rKY9X",
+    "title": "onchat.ai"
+  },
+  "checked_at": "2026-11-05T06:22:23.953145+00:00"
+}

@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly operating and providing the **Macaly** platform at **macaly.com** is **LANGTAIL.COM s.r.o.**.\n\n### Supporting Evidence\nAccording to the official **AI Transparency Notice** on **macaly.com**:\n> *\"We are LANGTAIL.COM s.r.o., ID No. 198 68 987, with its registered seat at Záhřebská 562/41, Vinohrady, 120 00 Prague 2, Czech Republic... We operate the website available at macaly.com (the 'Platform' or 'Macaly') and provide the related services, applications, software, features, AI-powered tools and integrations accessible through the Platform...\"*\n\nThe website's legal footers also confirm: *\"Macaly by Langtail\"*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly operating and providing the **Macaly** platform at **macaly.com** is **LANGTAIL.COM s.r.o.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1gbONc0CyWc4nDtDgYSmOd-nlsl876MtNTH9mgvygDD4OPVeZbylsCJ-c70kLTJgUPtev3V9xoDzhNP_cBUPOPgZj2yELxUxanB7-bH4WeIjDJ976_hn2-A1w8ViVHyIF5Ek=",
+          "title": "macaly.com"
+        },
+        {
+          "id": 1,
+          "text": "operate the website available at macaly.com (the 'Platform' or 'Macaly') and provide the related services, applications, software, features, AI-powered tools and integrations accessible through the Platform...\"*\n\nT",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1gbONc0CyWc4nDtDgYSmOd-nlsl876MtNTH9mgvygDD4OPVeZbylsCJ-c70kLTJgUPtev3V9xoDzhNP_cBUPOPgZj2yELxUxanB7-bH4WeIjDJ976_hn2-A1w8ViVHyIF5Ek=",
+          "title": "macaly.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "LANGTAIL.COM s.r.o.",
+        "evidence": "Passage 0 directly states that the vendor directly operating and providing the Macaly platform at macaly.com is LANGTAIL.COM s.r.o.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly operating and providing the **Macaly** platform at **macaly.com** is **LANGTAIL.COM s.r.o.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1gbONc0CyWc4nDtDgYSmOd-nlsl876MtNTH9mgvygDD4OPVeZbylsCJ-c70kLTJgUPtev3V9xoDzhNP_cBUPOPgZj2yELxUxanB7-bH4WeIjDJ976_hn2-A1w8ViVHyIF5Ek=",
+          "title": "macaly.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Macaly",
+    "domain": "macaly.com",
+    "description": "Macaly is a no-code/low-code platform for building and deploying mobile apps, streamlining the development process with its intuitive interface and pre-built components."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "LANGTAIL.COM s.r.o.",
+  "evidence": "Passage 0 directly states that the vendor directly operating and providing the Macaly platform at macaly.com is LANGTAIL.COM s.r.o.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly operating and providing the **Macaly** platform at **macaly.com** is **LANGTAIL.COM s.r.o.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1gbONc0CyWc4nDtDgYSmOd-nlsl876MtNTH9mgvygDD4OPVeZbylsCJ-c70kLTJgUPtev3V9xoDzhNP_cBUPOPgZj2yELxUxanB7-bH4WeIjDJ976_hn2-A1w8ViVHyIF5Ek=",
+    "title": "macaly.com"
+  },
+  "checked_at": "2026-11-05T07:52:13.896647+00:00"
+}

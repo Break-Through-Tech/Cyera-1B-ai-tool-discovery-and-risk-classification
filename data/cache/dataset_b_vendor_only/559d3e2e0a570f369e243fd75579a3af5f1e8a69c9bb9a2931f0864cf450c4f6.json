@@ -1,0 +1,85 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **Voxpad** (hosted at **voxpad.net**) is provided and operated by **TRANSLATIO AI LLC**, developed by founder **Mansour Najah** (Mansour N). \n\n### Evidence & Provider Statements:\n* Software and company registry records identify the vendor: *\"Developed by TRANSLATIO AI LLC, Voxpad offers a user-friendly interface that makes note creation a breeze\"* and list the operating entity for `voxpad.net` as *\"TRANSLATIO AI LLC\"*.\n* Product profiles further note: *\"Built by Mansour Najah, listed as Mansour N on Product Hunt... The company is Translatio AI LLC, based in Arlington, Virginia\"*, corroborated by the developer's public development notes documenting the creation of Voxpad.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **Voxpad** (hosted at **voxpad.net**) is provided and operated by **TRANSLATIO AI LLC**, developed by founder **Mansour Najah** (Mansour N)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9KjbdILNkGjBcy8au42h5P4-NQEWWIV7mC1_gwXd2zB0qZJS6cosgdhjw5-qI25rAJszE_X1LXrDu3sorKJxC-NiDdNMBmN5jB93GjfNzPDwa3NjxwZ6vbhwhicLZsyBNuMw=",
+          "title": "aiville.com"
+        },
+        {
+          "id": 1,
+          "text": "The software product **Voxpad** (hosted at **voxpad.net**) is provided and operated by **TRANSLATIO AI LLC**, developed by founder **Mansour Najah** (Mansour N)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMqWx0UnO8sM1PjW4whVYxIZkVQ-jFKBX6407GExSZ70tfg2eEyvMRr8M3AZ49fvxYsahHe_buLZHa-TYFWT2tcn4UE4CR3KRfjDjRME614HTn22U8zkB1MARXYSH_IszYLsE=",
+          "title": "aiville.com"
+        },
+        {
+          "id": 2,
+          "text": "The software product **Voxpad** (hosted at **voxpad.net**) is provided and operated by **TRANSLATIO AI LLC**, developed by founder **Mansour Najah** (Mansour N)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyII5DYH13dTQ3vJlNintZ0SWIc1Ageo-7Z_uVwlpTA61cfn3sCYM42KMZJG_RmucaRvbcY_SCMlSX7i9rlRsHgpLtcEF1_8OYnH0_y5uAJq_Eul9FnUVegsC20Q==",
+          "title": "cxwl.com"
+        },
+        {
+          "id": 3,
+          "text": "Software and company registry records identify the vendor: *\"Developed by TRANSLATIO AI LLC, Voxpad offers a user-friendly interface that makes note creation a breeze\"* and list the operating entity for `voxpad.net` as *\"TRANSLATIO AI LLC\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyII5DYH13dTQ3vJlNintZ0SWIc1Ageo-7Z_uVwlpTA61cfn3sCYM42KMZJG_RmucaRvbcY_SCMlSX7i9rlRsHgpLtcEF1_8OYnH0_y5uAJq_Eul9FnUVegsC20Q==",
+          "title": "cxwl.com"
+        },
+        {
+          "id": 4,
+          "text": "Software and company registry records identify the vendor: *\"Developed by TRANSLATIO AI LLC, Voxpad offers a user-friendly interface that makes note creation a breeze\"* and list the operating entity for `voxpad.net` as *\"TRANSLATIO AI LLC\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQUV99LiSBVaXAm2-uxfa62fvlI1F6j2qRMLjb_PPwYP5TyQsqYJQPpiixPYOK9Z_gmQXXM0hxU7Px2ULdsAdvFyg7FAjvQXA3GOS3frkNN_A2Kfsd9phjh_t6xQ==",
+          "title": "skillcurb.com"
+        },
+        {
+          "id": 5,
+          "text": "The company is Translatio AI LLC, based in Arlington, Virginia\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9KjbdILNkGjBcy8au42h5P4-NQEWWIV7mC1_gwXd2zB0qZJS6cosgdhjw5-qI25rAJszE_X1LXrDu3sorKJxC-NiDdNMBmN5jB93GjfNzPDwa3NjxwZ6vbhwhicLZsyBNuMw=",
+          "title": "aiville.com"
+        },
+        {
+          "id": 6,
+          "text": "The company is Translatio AI LLC, based in Arlington, Virginia\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMqWx0UnO8sM1PjW4whVYxIZkVQ-jFKBX6407GExSZ70tfg2eEyvMRr8M3AZ49fvxYsahHe_buLZHa-TYFWT2tcn4UE4CR3KRfjDjRME614HTn22U8zkB1MARXYSH_IszYLsE=",
+          "title": "aiville.com"
+        },
+        {
+          "id": 7,
+          "text": "The company is Translatio AI LLC, based in Arlington, Virginia\"*, corroborated by the developer's public development notes documenting the creation of Voxpad",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIx2UM_0QAsWR1XL1IzoASeu0sFVjJAvVeAkA3ZTPRXyPTOfjGoFSE487kLYbeQGI8D_yue8IfIMs8E-1Seq8IK98oVqxVPzVS5KtDOFqylmAszgiJxAIwSSl4zv-LzUMxsLJuZfDCRh4UnRrz3PxdQ31mF9PVtwLcFtUlIq3rd9MZQSpk2n6-EA2s9uhQhg==",
+          "title": "medium.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "TRANSLATIO AI LLC",
+        "evidence": "Passage 0 explicitly states that the software product Voxpad (hosted at voxpad.net) is provided and operated by TRANSLATIO AI LLC.",
+        "source": {
+          "id": 0,
+          "text": "The software product **Voxpad** (hosted at **voxpad.net**) is provided and operated by **TRANSLATIO AI LLC**, developed by founder **Mansour Najah** (Mansour N)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9KjbdILNkGjBcy8au42h5P4-NQEWWIV7mC1_gwXd2zB0qZJS6cosgdhjw5-qI25rAJszE_X1LXrDu3sorKJxC-NiDdNMBmN5jB93GjfNzPDwa3NjxwZ6vbhwhicLZsyBNuMw=",
+          "title": "aiville.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Voxpad",
+    "domain": "voxpad.net",
+    "description": "Create notes 10x faster with AI."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "TRANSLATIO AI LLC",
+  "evidence": "Passage 0 explicitly states that the software product Voxpad (hosted at voxpad.net) is provided and operated by TRANSLATIO AI LLC.",
+  "source": {
+    "id": 0,
+    "text": "The software product **Voxpad** (hosted at **voxpad.net**) is provided and operated by **TRANSLATIO AI LLC**, developed by founder **Mansour Najah** (Mansour N)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9KjbdILNkGjBcy8au42h5P4-NQEWWIV7mC1_gwXd2zB0qZJS6cosgdhjw5-qI25rAJszE_X1LXrDu3sorKJxC-NiDdNMBmN5jB93GjfNzPDwa3NjxwZ6vbhwhicLZsyBNuMw=",
+    "title": "aiville.com"
+  },
+  "checked_at": "2026-11-05T07:19:25.760475+00:00"
+}

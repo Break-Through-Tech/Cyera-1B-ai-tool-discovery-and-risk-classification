@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **OpenLayer** platform at **openlayer.com** is **Unbox Inc.** (doing business as **Openlayer**).\n\n### Evidence\n* **Terms of Service:** *\"These Terms constitute a legally binding agreement between Unbox Inc., a Delaware corporation doing business as Openlayer (“Openlayer,” “Unbox,” “we,” “us,” or “our”), and the entity or individual that accepts these Terms or accesses or uses the Services... These Terms govern your access to and use of Openlayer's artificial intelligence and machine learning evaluation, testing, observability, and monitoring platform...\"*\n* **Privacy Policy:** *\"This Privacy Policy (this “Policy”) describes the practices of Unbox Inc., doing business as Openlayer (“Openlayer,” “Unbox,” “us,” “we,” or “our”) for collecting, using, maintaining, disclosing, and otherwise processing... the information that we collect from you via this website, when you use our platform and services...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **OpenLayer** platform at **openlayer.com** is **Unbox Inc.** (doing business as **Openlayer**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFc1xAjL6ndI3MWau83bTNFwFeF1YmrILRJ7uMvUaMtTPys6U7dWtge3viPIL00nGp3wVGoiZUWCcpFktr8ofrv0NSn4XjDHpYT2EanuVdZJKvMzOwimbLlY0uEVP1P4RQ=",
+          "title": "openlayer.com"
+        },
+        {
+          "id": 1,
+          "text": "our access to and use of Openlayer's artificial intelligence and machine learning evaluation, testing, observability, and monitoring platform...\"*\n* **Privacy Policy:",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFc1xAjL6ndI3MWau83bTNFwFeF1YmrILRJ7uMvUaMtTPys6U7dWtge3viPIL00nGp3wVGoiZUWCcpFktr8ofrv0NSn4XjDHpYT2EanuVdZJKvMzOwimbLlY0uEVP1P4RQ=",
+          "title": "openlayer.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Unbox Inc.",
+        "evidence": "Passage 0 directly identifies Unbox Inc. (doing business as Openlayer) as the vendor directly providing the OpenLayer platform at openlayer.com.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the **OpenLayer** platform at **openlayer.com** is **Unbox Inc.** (doing business as **Openlayer**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFc1xAjL6ndI3MWau83bTNFwFeF1YmrILRJ7uMvUaMtTPys6U7dWtge3viPIL00nGp3wVGoiZUWCcpFktr8ofrv0NSn4XjDHpYT2EanuVdZJKvMzOwimbLlY0uEVP1P4RQ=",
+          "title": "openlayer.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "OpenLayer",
+    "domain": "openlayer.com",
+    "description": "Build high-quality, trustworthy AI models with OpenLayer's advanced development platform."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Unbox Inc.",
+  "evidence": "Passage 0 directly identifies Unbox Inc. (doing business as Openlayer) as the vendor directly providing the OpenLayer platform at openlayer.com.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the **OpenLayer** platform at **openlayer.com** is **Unbox Inc.** (doing business as **Openlayer**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFc1xAjL6ndI3MWau83bTNFwFeF1YmrILRJ7uMvUaMtTPys6U7dWtge3viPIL00nGp3wVGoiZUWCcpFktr8ofrv0NSn4XjDHpYT2EanuVdZJKvMzOwimbLlY0uEVP1P4RQ=",
+    "title": "openlayer.com"
+  },
+  "checked_at": "2026-11-05T07:51:25.280121+00:00"
+}

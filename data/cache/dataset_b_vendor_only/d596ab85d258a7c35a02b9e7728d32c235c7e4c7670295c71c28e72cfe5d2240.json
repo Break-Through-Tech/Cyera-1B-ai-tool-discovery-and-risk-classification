@@ -1,0 +1,79 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on official disclosures on **eset.com**, the operating entity providing and doing business as **ESET North America** is **ESET, LLC** (with core software development and global rights held by parent entity **ESET, spol. s r. o.**).\n\n### Evidence and Provider Statements\n* **Operating Entity / Provider Statement:** \n  Official legal and contact documentation on `eset.com` explicitly identifies ESET North America as:\n  > *\"ESET Contact North America. ESET North America. ESET, LLC. 655 West Broadway, Suite 700. San Diego, CA 92101 U.S.A.\"*\n  \n  Terms documents on the domain specify the legal operating entity name and trade name:\n  > *\"This Sweepstakes is offered by ESET, LLC dba ESET NORTH AMERICA (“ESET”)...\"*\n\n* **Privacy Policy (`eset.com/us`):**\n  > *\"This privacy policy (“Policy”) describes how ESET North America and its affiliates and subsidiaries (“ESET,” “we” or “us”) collect, use, disclose, and otherwise process the personal information described in this Policy. Your use of eset.com/us/ (the “Site”) and the services and products we provide (“Services”) is subject to this Policy...\"*\n\n* **Software Developer / Parent Company:**\n  The EULA and general terms of use identify **ESET, spol. s r. o.** (headquartered at Einsteinova 24, Bratislava, Slovakia) as the software developer and licensor.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOd55RvDqndD-FRbUS7ZGqAY3zdub18kPzv2v7FRU4OfOHrHaGHEp8KyuVNwY6RKICohq9UwYj4mQi8E0GCqiNhssco-mpsd6ilrWedBgq5D7s-RWnODtY3c8qtg==",
+          "title": "eset.com"
+        },
+        {
+          "id": 1,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDKGKZsEEseUn7AdA13KR2n2etmDAqRNOpL5iHViyzTeGdFMGrUGQ0viytiqziLq8UE60kTwezUHjzVFRYoai_vpSpkoTWMpk5wmBNfXbVm05dskk-Gg==",
+          "title": "eset.com"
+        },
+        {
+          "id": 2,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELP0c2MnrAg6ONU5RCiuqcRUJ4vv5UFuNxASkY3TGEJssEKEbQADhiRi_BeoMfS8SS6UcpSTWKpQ4r_nLyNnuCBIAWHsMRZzivPJLc07YVo6hDpn3-vcOjH-Qi1OwUp8lfzNpL",
+          "title": "eset.com"
+        },
+        {
+          "id": 3,
+          "text": "San Diego, CA 92101 U.S.A.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOd55RvDqndD-FRbUS7ZGqAY3zdub18kPzv2v7FRU4OfOHrHaGHEp8KyuVNwY6RKICohq9UwYj4mQi8E0GCqiNhssco-mpsd6ilrWedBgq5D7s-RWnODtY3c8qtg==",
+          "title": "eset.com"
+        },
+        {
+          "id": 4,
+          "text": "*\"This Sweepstakes is offered by ESET, LLC dba ESET NORTH AMERICA (“ESET”)...\"*\n\n* ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELP0c2MnrAg6ONU5RCiuqcRUJ4vv5UFuNxASkY3TGEJssEKEbQADhiRi_BeoMfS8SS6UcpSTWKpQ4r_nLyNnuCBIAWHsMRZzivPJLc07YVo6hDpn3-vcOjH-Qi1OwUp8lfzNpL",
+          "title": "eset.com"
+        },
+        {
+          "id": 5,
+          "text": "*\"This Sweepstakes is offered by ESET, LLC dba ESET NORTH AMERICA (“ESET”)...\"*\n\n* ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVCOWaBRFej_ejI-0nd43vAE_r9jLfrUBw-TRN9RUEM5W9hNAa3E0HgfqqQn9rREpIF3iQOGWvAwOIaLkTTmHPFpLUOhl75dZw76YRZbyXsd_13WWS0rgpjr-6cBkGfqsHIiE=",
+          "title": "eset.com"
+        },
+        {
+          "id": 6,
+          "text": "/us/ (the “Site”) and the services and products we provide (“Services”) is subject to this Policy...\"*\n\n* **Software Developer / P",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4FImo53WO35SWx2SXOxdReOJyMeuI5YpWvNgm8LkIA7yiaY9vfyqsapeJiUHPM91o-WdxpgBibqDBafrvRjfVT3vz5g6h8soZY_XwYoiD52d4RZUHDYZv12Fcrh3L4emP",
+          "title": "eset.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "ESET, LLC",
+        "evidence": "Passage 4 indicates that ESET, LLC does business as ESET North America ('This Sweepstakes is offered by ESET, LLC dba ESET NORTH AMERICA').",
+        "source": {
+          "id": 4,
+          "text": "*\"This Sweepstakes is offered by ESET, LLC dba ESET NORTH AMERICA (“ESET”)...\"*\n\n* ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELP0c2MnrAg6ONU5RCiuqcRUJ4vv5UFuNxASkY3TGEJssEKEbQADhiRi_BeoMfS8SS6UcpSTWKpQ4r_nLyNnuCBIAWHsMRZzivPJLc07YVo6hDpn3-vcOjH-Qi1OwUp8lfzNpL",
+          "title": "eset.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "ESET North America",
+    "domain": "eset.com",
+    "description": "ESET North America is a leading provider of IT security solutions, renowned for its innovative NOD32 technology. With a robust customer base of over 100 million users worldwide, ESET offers comprehensive protection for both businesses and consumers across more than 180 countries, ensuring safer technology experiences."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "ESET, LLC",
+  "evidence": "Passage 4 indicates that ESET, LLC does business as ESET North America ('This Sweepstakes is offered by ESET, LLC dba ESET NORTH AMERICA').",
+  "source": {
+    "id": 4,
+    "text": "*\"This Sweepstakes is offered by ESET, LLC dba ESET NORTH AMERICA (“ESET”)...\"*\n\n* ",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELP0c2MnrAg6ONU5RCiuqcRUJ4vv5UFuNxASkY3TGEJssEKEbQADhiRi_BeoMfS8SS6UcpSTWKpQ4r_nLyNnuCBIAWHsMRZzivPJLc07YVo6hDpn3-vcOjH-Qi1OwUp8lfzNpL",
+    "title": "eset.com"
+  },
+  "checked_at": "2026-11-05T09:26:25.097305+00:00"
+}

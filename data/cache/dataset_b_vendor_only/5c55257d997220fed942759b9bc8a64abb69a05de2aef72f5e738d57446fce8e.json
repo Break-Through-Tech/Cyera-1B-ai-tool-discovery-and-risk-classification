@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product at **tovie.ai** is **Tovie AI Limited** (or **Tovie AI Ltd**).\n\n### Evidence:\n* **Terms of Service (Tovie AI Cloud):** Identifies the licensor as *\"TOVIE AI LIMITED, a company incorporated and existing under the laws of England and Whales under registration number 11595010\"*.\n* **Privacy Policy / Legal Notices:** States *\"Tovie AI Ltd (en adelante 'Tovie', 'nosotros', 'nuestro') es el responsable del tratamiento... Razón social: Tovie AI Ltd. Número de registro: 11595010 (Reino Unido, Companies House). Domicilio: 128 City Road, London, England, EC1V 2NX\"*.\n* **Site Notices & Footer:** Consistently attributes copyright and operations across `tovie.ai` to *\"Tovie AI Limited\"*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product at **tovie.ai** is **Tovie AI Limited** (or **Tovie AI Ltd**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHk7IbD0cLaGGZ8ZFz3dwC9rPbMDUmQuE3TAhF9BW1GOm6TKE1CwRXOYhHyVLm4yIndcNeyI5QEupbA37KP2VJSeOQ-cxGgcT9LdBs=",
+          "title": "tovie.ai"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the software product at **tovie.ai** is **Tovie AI Limited** (or **Tovie AI Ltd**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDCB4lO9_wq6va5B1woqgP0djqGwGuJRJqjuAXglSX480gEOgMnWKQ8pg70iaNriDscW4q_0fKhnVCBFBnr7k_A0JVoDxGkMfKlqrv9sDjXTEQT5pcqCzF5Jwhb3C37xaV",
+          "title": "tovie.ai"
+        },
+        {
+          "id": 2,
+          "text": "**Terms of Service (Tovie AI Cloud):** Identifies the licensor as *\"TOVIE AI LIMITED, a company incorporated and existing under the laws of England and Whales under registration number 11595010\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4x7iM02ZTFDwcgE5rDQ5FdgcdmvOWTW2K_riWogsBEgYx5dNlAB3rPmuKSYswYoqNG58rzodVwSSdQjuBSmi3epDwlhH7rdEICgnq77xljc9MijfyuHbgYUc1nlq5-M27pwHq9dY=",
+          "title": "tovie.ai"
+        },
+        {
+          "id": 3,
+          "text": "micilio: 128 City Road, London, England, EC1V 2NX\"*.\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDCB4lO9_wq6va5B1woqgP0djqGwGuJRJqjuAXglSX480gEOgMnWKQ8pg70iaNriDscW4q_0fKhnVCBFBnr7k_A0JVoDxGkMfKlqrv9sDjXTEQT5pcqCzF5Jwhb3C37xaV",
+          "title": "tovie.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Tovie AI Limited",
+        "evidence": "Passage 0 states that the vendor directly providing the software product at tovie.ai is Tovie AI Limited (or Tovie AI Ltd).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the software product at **tovie.ai** is **Tovie AI Limited** (or **Tovie AI Ltd**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHk7IbD0cLaGGZ8ZFz3dwC9rPbMDUmQuE3TAhF9BW1GOm6TKE1CwRXOYhHyVLm4yIndcNeyI5QEupbA37KP2VJSeOQ-cxGgcT9LdBs=",
+          "title": "tovie.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Tovie",
+    "domain": "tovie.ai",
+    "description": "Providing custom AI chat and voice bots for businesses"
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Tovie AI Limited",
+  "evidence": "Passage 0 states that the vendor directly providing the software product at tovie.ai is Tovie AI Limited (or Tovie AI Ltd).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the software product at **tovie.ai** is **Tovie AI Limited** (or **Tovie AI Ltd**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHk7IbD0cLaGGZ8ZFz3dwC9rPbMDUmQuE3TAhF9BW1GOm6TKE1CwRXOYhHyVLm4yIndcNeyI5QEupbA37KP2VJSeOQ-cxGgcT9LdBs=",
+    "title": "tovie.ai"
+  },
+  "checked_at": "2026-11-05T05:46:03.615047+00:00"
+}

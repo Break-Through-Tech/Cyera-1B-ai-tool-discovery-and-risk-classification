@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Scribd** at **scribd.com** is **Scribd, Inc.** (operating as **Scribd Netherlands B.V.** for users located in the European Economic Area and the United Kingdom).\n\n### Evidence\nAccording to Scribd's official **Global Terms of Use** and **Terms of Service**:\n* *\"These Global Terms of Use (“Terms”) govern Your use of websites (“Sites”), mobile applications (“Apps”), software, content, and all products and services (collectively, the “Services”) provided by Scribd, Inc. (“the Company”, “We”, “Our”, or “Us”), including Everand™, Scribd®, and Slideshare®.\"*\n* *\"If you are located in the greater European Economic Area (“EEA+”) or the United Kingdom (“U.K.”), then these terms are an agreement between you and Scribd Netherlands B.V. If you are not located in the EEA+ or the U.K., then these terms are an agreement between you and Scribd, Inc.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Scribd** at **scribd.com** is **Scribd, Inc.** (operating as **Scribd Netherlands B.V.** for users located in the European Economic Area and the United Kingdom)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOO-uMnTnl-ujSlIXRRxpfOGhnJMeSWG6pc2k0X9BejxFLwVRvbB0d7gKwC8WV43y9Eqch-1uX-uznjyWae3-zs8NEn1dqt1A9QA2PL7njYYAO1kkC",
+          "title": "scribdinc.com"
+        },
+        {
+          "id": 1,
+          "text": "*\"These Global Terms of Use (“Terms”) govern Your use of websites (“Sites”), mobile applications (“Apps”), software, content, and all products and services (collectively, the “Services”) provided by Scribd, Inc. (“the Company”, “We”, “Our”, or “Us”), including Everand™, Scribd®, and Slideshare®.\"*\n* *\"If you are located in the great",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQED1b2UTEuLFFuSa3oJDsw-s7I81ja12bVEqj4EtFuQltSW3HMCv686c6K5zKsKDp15-3JB50z68kYExLMgoE5wfUKx1T4AhgAp7BOHE4QPW90ieFbXO43-QK1gGu1NKrmjqewV2n0cAJWs_KZFBEz-LvS-Ejx5hRI694ePvsNupA==",
+          "title": "scribd.com"
+        },
+        {
+          "id": 2,
+          "text": "These Global Terms of Use (“Terms”) govern Your use of websites (“Sites”), mobile applications (“Apps”), software, content, and all products and services (collectively, the “Services”) provided by Scribd, Inc. (“the Company”, “We”, “Our”, or “Us”), including Everand™, Scribd®, and Slideshare®.\"*\n* *\"",
+          "url": "https://support.scribd.com/hc/en-us/articles/210129326-Global-Terms-of-Use",
+          "title": ""
+        },
+        {
+          "id": 3,
+          "text": "If you are located in the greater European Economic Area (“EEA+”) or the United Kingdom (“U.K.”), then these terms are an agreement between you and Scribd Netherlands B.V. If you are not located in the EEA+ or the U.K., then these terms ar",
+          "url": "https://support.scribd.com/hc/en-us/articles/210129326-Global-Terms-of-Use",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Scribd, Inc.",
+        "evidence": "Passage 1 states that products and services, including Scribd®, are provided by Scribd, Inc.",
+        "source": {
+          "id": 1,
+          "text": "*\"These Global Terms of Use (“Terms”) govern Your use of websites (“Sites”), mobile applications (“Apps”), software, content, and all products and services (collectively, the “Services”) provided by Scribd, Inc. (“the Company”, “We”, “Our”, or “Us”), including Everand™, Scribd®, and Slideshare®.\"*\n* *\"If you are located in the great",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQED1b2UTEuLFFuSa3oJDsw-s7I81ja12bVEqj4EtFuQltSW3HMCv686c6K5zKsKDp15-3JB50z68kYExLMgoE5wfUKx1T4AhgAp7BOHE4QPW90ieFbXO43-QK1gGu1NKrmjqewV2n0cAJWs_KZFBEz-LvS-Ejx5hRI694ePvsNupA==",
+          "title": "scribd.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Scribd",
+    "domain": "scribd.com",
+    "description": "Scribd, Inc. is a digital platform focused on making knowledge and information widely accessible. It offers three main products: Everand™, which provides curated content experiences, Scribd®, a subscription service for books, audiobooks, and documents, and SlideShare®, a platform for sharing presentations and professional content. The company serves a global audience, facilitating learning and information sharing."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Scribd, Inc.",
+  "evidence": "Passage 1 states that products and services, including Scribd®, are provided by Scribd, Inc.",
+  "source": {
+    "id": 1,
+    "text": "*\"These Global Terms of Use (“Terms”) govern Your use of websites (“Sites”), mobile applications (“Apps”), software, content, and all products and services (collectively, the “Services”) provided by Scribd, Inc. (“the Company”, “We”, “Our”, or “Us”), including Everand™, Scribd®, and Slideshare®.\"*\n* *\"If you are located in the great",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQED1b2UTEuLFFuSa3oJDsw-s7I81ja12bVEqj4EtFuQltSW3HMCv686c6K5zKsKDp15-3JB50z68kYExLMgoE5wfUKx1T4AhgAp7BOHE4QPW90ieFbXO43-QK1gGu1NKrmjqewV2n0cAJWs_KZFBEz-LvS-Ejx5hRI694ePvsNupA==",
+    "title": "scribd.com"
+  },
+  "checked_at": "2026-11-05T08:12:18.389791+00:00"
+}

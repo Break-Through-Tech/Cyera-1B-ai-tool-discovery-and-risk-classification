@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **HeyScience** at **heyscience.ai** is directly provided by **HeyScience SA**. \n\nAccording to the official *Terms and Conditions* published on `heyscience.ai`:\n> *\"This Agreement is legally binding between you ('User', 'you' or 'your') and HeyScience SA ('HeyScience SA', 'we', 'us' or 'our').\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **HeyScience** at **heyscience.ai** is directly provided by **HeyScience SA**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEWUTduMsaRPvTbkGV0acepjMqMS2-SBQ3gweYBsx-PGXt8TsZLxLzMSPU0osRh-UIXJsfbynHnTUYEbi7ODYiCk9RGbTbhiqW84xSa__1l-s9JLQ-C2epXpGqolJu5qLoq6c=",
+          "title": "heyscience.ai"
+        },
+        {
+          "id": 1,
+          "text": "*\"This Agreement is legally binding between you ('User', 'you' or 'your') and HeyScience SA ('HeyScience SA', 'we', 'us' or 'our').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEWUTduMsaRPvTbkGV0acepjMqMS2-SBQ3gweYBsx-PGXt8TsZLxLzMSPU0osRh-UIXJsfbynHnTUYEbi7ODYiCk9RGbTbhiqW84xSa__1l-s9JLQ-C2epXpGqolJu5qLoq6c=",
+          "title": "heyscience.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "HeyScience SA",
+        "evidence": "Passage 0 states that the software product HeyScience at heyscience.ai is directly provided by HeyScience SA.",
+        "source": {
+          "id": 0,
+          "text": "The software product **HeyScience** at **heyscience.ai** is directly provided by **HeyScience SA**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEWUTduMsaRPvTbkGV0acepjMqMS2-SBQ3gweYBsx-PGXt8TsZLxLzMSPU0osRh-UIXJsfbynHnTUYEbi7ODYiCk9RGbTbhiqW84xSa__1l-s9JLQ-C2epXpGqolJu5qLoq6c=",
+          "title": "heyscience.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "HeyScience",
+    "domain": "heyscience.ai",
+    "description": "Your AI-driven study assistant for research and essays."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "HeyScience SA",
+  "evidence": "Passage 0 states that the software product HeyScience at heyscience.ai is directly provided by HeyScience SA.",
+  "source": {
+    "id": 0,
+    "text": "The software product **HeyScience** at **heyscience.ai** is directly provided by **HeyScience SA**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEWUTduMsaRPvTbkGV0acepjMqMS2-SBQ3gweYBsx-PGXt8TsZLxLzMSPU0osRh-UIXJsfbynHnTUYEbi7ODYiCk9RGbTbhiqW84xSa__1l-s9JLQ-C2epXpGqolJu5qLoq6c=",
+    "title": "heyscience.ai"
+  },
+  "checked_at": "2026-11-05T05:33:48.954203+00:00"
+}

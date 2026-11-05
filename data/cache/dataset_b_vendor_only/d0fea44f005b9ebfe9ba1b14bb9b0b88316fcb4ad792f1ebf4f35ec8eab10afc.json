@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Slides** at **slides.com** is **Slides, Inc.**.\n\n### Evidence:\n* **Privacy Policy:** States, *\"It is Slides, Inc.'s policy to respect your privacy regarding any information we may collect while operating our websites.\"*\n* **Website Notices & About Page:** The official pages at `slides.com` list the copyright ownership as *\"© Slides, Inc.\"* and note the company was founded in 2013 by Hakim El Hattab and Owen Bossola as an independent, self-funded business.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Slides** at **slides.com** is **Slides, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGk5IQKrytDkctzArP-X94hxtDbw5A2CBRQaO6xZCE4KRoE0fTR8so5rFZr9chhW--seHJUT9U1JSWCmGTHFzdBtJxlztsl-UqFvZJR_yRRn5T2T3SDcXgvMuSDqeBU4EZXjH8i-2aU",
+          "title": "slides.com"
+        },
+        {
+          "id": 1,
+          "text": "**Privacy Policy:** States, *\"It is Slides, Inc.'s policy to respect your privacy regarding any information we may collect while operating our websites.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGk5IQKrytDkctzArP-X94hxtDbw5A2CBRQaO6xZCE4KRoE0fTR8so5rFZr9chhW--seHJUT9U1JSWCmGTHFzdBtJxlztsl-UqFvZJR_yRRn5T2T3SDcXgvMuSDqeBU4EZXjH8i-2aU",
+          "title": "slides.com"
+        },
+        {
+          "id": 2,
+          "text": "**Website Notices & About Page:** The official pages at `slides.com` list the copyright ownership as *\"© Slides, Inc.\"* ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOI-dfntWPHPMvnwC-y7WIf0PhOYRvP0fWgRIuG5l9GtKDJvk0x0qUZM2ZS5hQtoAZJXJR_--tkRtPvZO0IQdtTJFu_00uGwgTjIKL-5EV63EJ03-k_MC6zTryFXqOJg==",
+          "title": "slides.com"
+        },
+        {
+          "id": 3,
+          "text": "**Website Notices & About Page:** The official pages at `slides.com` list the copyright ownership as *\"© Slides, Inc.\"* ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwIJvH4sgkoXGLSthu0J4O5Q-HjU0h3hrTA28bg0EDSDBmEEgXTZpx3L6pmCXuokya5992zbd9mSiGQwvuTsL49yJ5ssFn0imKUCS6gg==",
+          "title": "slides.com"
+        },
+        {
+          "id": 4,
+          "text": "**Website Notices & About Page:** The official pages at `slides.com` list the copyright ownership as *\"© Slides, Inc.\"* and note the company was founded in 2013 by Hakim El Hattab and Owen Bossola as an independent, self-funded business.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwIJvH4sgkoXGLSthu0J4O5Q-HjU0h3hrTA28bg0EDSDBmEEgXTZpx3L6pmCXuokya5992zbd9mSiGQwvuTsL49yJ5ssFn0imKUCS6gg==",
+          "title": "slides.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Slides, Inc.",
+        "evidence": "Passage 0 directly states that the vendor directly providing Slides at slides.com is Slides, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Slides** at **slides.com** is **Slides, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGk5IQKrytDkctzArP-X94hxtDbw5A2CBRQaO6xZCE4KRoE0fTR8so5rFZr9chhW--seHJUT9U1JSWCmGTHFzdBtJxlztsl-UqFvZJR_yRRn5T2T3SDcXgvMuSDqeBU4EZXjH8i-2aU",
+          "title": "slides.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Slides",
+    "domain": "slides.com",
+    "description": "Slides is an online platform designed for creating, presenting, and sharing presentations directly in your web browser. Unlike traditional software like PowerPoint or Keynote, it eliminates the need for downloads and offers a fully featured presentation editor that allows users to collaborate and enhance their presentations seamlessly."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Slides, Inc.",
+  "evidence": "Passage 0 directly states that the vendor directly providing Slides at slides.com is Slides, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Slides** at **slides.com** is **Slides, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGk5IQKrytDkctzArP-X94hxtDbw5A2CBRQaO6xZCE4KRoE0fTR8so5rFZr9chhW--seHJUT9U1JSWCmGTHFzdBtJxlztsl-UqFvZJR_yRRn5T2T3SDcXgvMuSDqeBU4EZXjH8i-2aU",
+    "title": "slides.com"
+  },
+  "checked_at": "2026-11-05T09:33:20.481199+00:00"
+}

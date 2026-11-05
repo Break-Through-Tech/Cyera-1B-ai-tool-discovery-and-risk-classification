@@ -1,0 +1,79 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **Huemint** hosted at **huemint.com** is created and directly provided by independent software designer and engineer **Jack Qiao**. \n\n### Supporting Evidence:\n* **Product & Domain:** Huemint (`huemint.com`).\n* **Developer Identification:** \n  * The product was launched by Jack Qiao (under the username `Jack000`) on Hacker News (*\"Show HN: Huemint – Machine learning for color design (huemint.com)\"*) and on Product Hunt as its maker.\n  * Technical documentation and API integrations explicitly cite him as the creator/provider; for example, NVIDIA's repository for its sample API extension states: *\"This extension uses the Huemint.com API. Huemint uses machine learning to create unique color schemes. Special thanks to Jack Qiao for allowing us to use the Huemint API for this demonstration. Check out Huemint.com.\"*\n  * No separate operating corporate entity is registered or published on the site itself.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **Huemint** hosted at **huemint.com** is created and directly provided by independent software designer and engineer **Jack Qiao**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3L_9z4Itjs900G3EuaQ-fEznz_bIordohFF1tt0346XGDRkSwN8BSOOpaK920c-J90Plg1orViBLD0WX1DseYN_iExE-8Wv1tNKhtzVB5udq1PpyqF-yRu-fCZQAR9pFIXxH38oqw1B4fAgBfLg==",
+          "title": "everypixel.com"
+        },
+        {
+          "id": 1,
+          "text": "The software product **Huemint** hosted at **huemint.com** is created and directly provided by independent software designer and engineer **Jack Qiao**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhZ6ZoMg1F9UQ5KwMC9Aikd-lMvvynAWVdJqNMkYgDeWQg7THRWtbh1PHIXsWWKMH-kJJQlTuY_B3ebtCiS48kIi6tJa8Do4cLcH3LiJ75sgr6uyBFEH_LdMznJJKJCVafwUCcAZ4hV__B0xy9GA0A7aclW4AYVUZTkbKBAQJhaO4azVKGLivOHBbPVhPHHkOBTVIbA4wK",
+          "title": "fastcompany.com"
+        },
+        {
+          "id": 2,
+          "text": "**Product & Domain:** Huemint (`huemint.com`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWoognAtbdk1Cu4sINeCPKiSUaqTz320dvo0q4DH6i98VxyUZyHWg_yqMmsq6ifaJXHqvPNk7IXlxRmmc9muX8UoHr1jjXk9_cFA==",
+          "title": "huemint.com"
+        },
+        {
+          "id": 3,
+          "text": "The product was launched by Jack Qiao (under the username `Jack000`) on Hacker News (*\"Show HN: Huemint – Machine learning for color design (huemint.com)\"*) a",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8mnLno8M-U5thz3dz4Tfnnmblh4xpj5AbCDGGY2Fl3U2ioyHsNcV-j-J9PfYGCHLGsDbdBgrrflixKqtbfD8PQ_4c9gPs8IEZvMrHjQH6x7mg2PEMSgJiDPqpFo_54WOlQbc=",
+          "title": "ycombinator.com"
+        },
+        {
+          "id": 4,
+          "text": "The product was launched by Jack Qiao (under the username `Jack000`) on Hacker News (*\"Show HN: Huemint – Machine learning for color design (huemint.com)\"*) and on Product Hunt as its maker.\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEO8l6qecRnIrZmAQ2jocpWGBKA-NTZ5fIfnOOpIYQwDrp3M6xEWBVCmiiTz2HKDfr25W1iXl_V8cJVEhYyXjvLsnlkFqu-pKfhNqYRq8Ym34TpP4NqJvUXHdd6IpaZAJ4tpA==",
+          "title": "producthunt.com"
+        },
+        {
+          "id": 5,
+          "text": "eck out Huemint.com.\"*\n ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6Z8iD6Gx7BNna3-PZHonMKTMKuhW8V_HWB0xZQkdQV4HN_E1t10uG6Z72FGyJkokR3MpDtffTLPLlCXDgfw-twxe7ItxKW9cR8L4NLHUXqKMW6oCzDoo3C7lyigLWfiZnAIV6ZpDLSf7DKjqgUOAPOwfOfl33zTUM",
+          "title": "github.com"
+        },
+        {
+          "id": 6,
+          "text": "This extension uses the Huemint.com API. Huemint uses machine learning to create unique color schemes. Special thanks to Jack Qiao for allowing us to use the Huemint API for this demonstration. Check out Huemin",
+          "url": "https://github.com/NVIDIA-Omniverse/kit-extension-sample-apiconnect",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Jack Qiao",
+        "evidence": "Passage 0 explicitly states that the software product Huemint hosted at huemint.com is created and directly provided by independent software designer and engineer Jack Qiao.",
+        "source": {
+          "id": 0,
+          "text": "The software product **Huemint** hosted at **huemint.com** is created and directly provided by independent software designer and engineer **Jack Qiao**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3L_9z4Itjs900G3EuaQ-fEznz_bIordohFF1tt0346XGDRkSwN8BSOOpaK920c-J90Plg1orViBLD0WX1DseYN_iExE-8Wv1tNKhtzVB5udq1PpyqF-yRu-fCZQAR9pFIXxH38oqw1B4fAgBfLg==",
+          "title": "everypixel.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Huemint",
+    "domain": "huemint.com",
+    "description": "Creating unique color schemes with machine learning."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Jack Qiao",
+  "evidence": "Passage 0 explicitly states that the software product Huemint hosted at huemint.com is created and directly provided by independent software designer and engineer Jack Qiao.",
+  "source": {
+    "id": 0,
+    "text": "The software product **Huemint** hosted at **huemint.com** is created and directly provided by independent software designer and engineer **Jack Qiao**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3L_9z4Itjs900G3EuaQ-fEznz_bIordohFF1tt0346XGDRkSwN8BSOOpaK920c-J90Plg1orViBLD0WX1DseYN_iExE-8Wv1tNKhtzVB5udq1PpyqF-yRu-fCZQAR9pFIXxH38oqw1B4fAgBfLg==",
+    "title": "everypixel.com"
+  },
+  "checked_at": "2026-11-05T07:00:41.167408+00:00"
+}

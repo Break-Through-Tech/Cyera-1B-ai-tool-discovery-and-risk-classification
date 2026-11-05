@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on the official website for **MySQL** at **`mysql.com`**, the vendor directly providing the product is **Oracle** (Oracle Corporation).\n\n### Supporting Evidence and Citations\n* **About Page (`mysql.com/about/`):** \n  > *\"Oracle drives MySQL innovation, delivering new capabilities to power next generation web, cloud, mobile and embedded applications.\"*\n* **Commercial Licensing & Documentation Legal Notices (`mysql.com`):** \n  > *\"Oracle offers a commercial license for all of its MySQL software that is embedded in or bundled with another application.\"*  \n  > *\"Copyright © 2006, 2026, Oracle and/or its affiliates.\"*\n* **Website Operation & Authentication:** The site footer displays *“© 2026 Oracle”* and specifies that *“MySQL.com is using Oracle SSO for authentication.”*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "Based on the official website for **MySQL** at **`mysql.com`**, the vendor directly providing the product is **Oracle** (Oracle Corporation)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBRMzTnfJD0GH_0kehB-RbkVhT3ldubeA8DvSMl7KEQ4lv3TSi6HLJgmDhBk1Uw3bqRXLZPyQDzCh8Vd16YfmMMPyYOKH5a6VjUvh6NxT5CrbusdY608itks7nVVz0LwrWOWqLfOXoQvZ5y87lqHIrAoxmKNS2pUiJxPUIcGVwJ8M=",
+          "title": "mysql.com"
+        },
+        {
+          "id": 1,
+          "text": "Based on the official website for **MySQL** at **`mysql.com`**, the vendor directly providing the product is **Oracle** (Oracle Corporation)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECOtchtNBbpcoJdgmMbxq7LHW6Wr5BhgJ5gAZ4S7oxKMfpmSv0hPF1YqohqYRSLcQ1zqZIeWLokJHXSXNLfstVam70xz-qmF18hIw5A8zs4wxlA_c9ZXKPxA==",
+          "title": "wikipedia.org"
+        },
+        {
+          "id": 2,
+          "text": "*\"Oracle drives MySQL innovation, delivering new capabilities to power next generation web, cloud, mobile and embedded applications.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVm6zVWs8wISWz6Z6-vLzXmW2fO1Pynqcfa1ijWdJ0LYImjIVVRa1-VPwnjG1EK8qkZfl7NkYAa9Z19Z8zCWh7O0_ZuodqCZy0-EI98tvkrmzS",
+          "title": "mysql.com"
+        },
+        {
+          "id": 3,
+          "text": "*\"Oracle offers a commercial license for all of its MySQL software that is embedded in or bundled with another application.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFivKlKd5zF2PynFO7MW5gQBv_emD6GRsVIfp6ngh0KMKZot8oWa-NsQapMoqOpxeGh6P_d-yfeiWsrS8Mg3R9LVx0T4_bu85OYzni357vCNytX-_ZkwtRHQ_EvNpIrsdSrnC6kUAE=",
+          "title": "mysql.com"
+        },
+        {
+          "id": 4,
+          "text": "*\"Copyright © 2006, 2026, Oracle and/or its affiliates.\"*\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0C0oeU5Hq0uB2TnwK_nNxJtTLkL56yHF_pfDZMQUbicxUZmqo0IsbubbgxTcONk3dH8PB6STu3R2DNK2le0I98ZSU1cMf62TWvxDDPvUwdZXvGYLX_iarp9db-vT96mvepJAtKike4Wf4VkU=",
+          "title": "mysql.com"
+        },
+        {
+          "id": 5,
+          "text": "*Website Operation & Authentication:** The site footer displays *“© 2026 Oracle”* and s",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBRMzTnfJD0GH_0kehB-RbkVhT3ldubeA8DvSMl7KEQ4lv3TSi6HLJgmDhBk1Uw3bqRXLZPyQDzCh8Vd16YfmMMPyYOKH5a6VjUvh6NxT5CrbusdY608itks7nVVz0LwrWOWqLfOXoQvZ5y87lqHIrAoxmKNS2pUiJxPUIcGVwJ8M=",
+          "title": "mysql.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Oracle",
+        "evidence": "According to mysql.com, Oracle offers a commercial license for all of its MySQL software embedded in or bundled with another application, establishing Oracle as the provider.",
+        "source": {
+          "id": 3,
+          "text": "*\"Oracle offers a commercial license for all of its MySQL software that is embedded in or bundled with another application.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFivKlKd5zF2PynFO7MW5gQBv_emD6GRsVIfp6ngh0KMKZot8oWa-NsQapMoqOpxeGh6P_d-yfeiWsrS8Mg3R9LVx0T4_bu85OYzni357vCNytX-_ZkwtRHQ_EvNpIrsdSrnC6kUAE=",
+          "title": "mysql.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "MySQL",
+    "domain": "mysql.com",
+    "description": "MySQL is a widely used open-source database management system known for its performance, reliability, and ease of use. It is particularly favored for web-based applications and is utilized by major online platforms such as Facebook, Twitter, and YouTube. Additionally, MySQL serves as an embedded database for numerous independent software vendors (ISVs) and original equipment manufacturers (OEMs), making it a versatile choice in the tech industry."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Oracle",
+  "evidence": "According to mysql.com, Oracle offers a commercial license for all of its MySQL software embedded in or bundled with another application, establishing Oracle as the provider.",
+  "source": {
+    "id": 3,
+    "text": "*\"Oracle offers a commercial license for all of its MySQL software that is embedded in or bundled with another application.\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFivKlKd5zF2PynFO7MW5gQBv_emD6GRsVIfp6ngh0KMKZot8oWa-NsQapMoqOpxeGh6P_d-yfeiWsrS8Mg3R9LVx0T4_bu85OYzni357vCNytX-_ZkwtRHQ_EvNpIrsdSrnC6kUAE=",
+    "title": "mysql.com"
+  },
+  "checked_at": "2026-11-05T09:13:28.566965+00:00"
+}

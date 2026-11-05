@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Pico** at **`picoapps.xyz`** is **WhimsyWorks, Inc.**\n\n### Evidence\n* Across official pages on **`picoapps.xyz`** (including the About, Pricing, and FAQ pages), the footer identifies the operating company and copyright holder as:  \n  > *\"Company WhimsyWorks Inc. Made in NYC\"*  \n  > *\"© WhimsyWorks, Inc. All rights reserved.\"*\n* The official About page (`picoapps.xyz/about`) is signed by founder & CEO Abi Raja on behalf of the company behind Pico.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Pico** at **`picoapps.xyz`** is **WhimsyWorks, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnqS-nRvQ9PJJOGfVzktAz1dEAfokFZ29ttwYGbZW0GywGXLKZ3_KlXSJ4-nV896t4R2A4TSvLTLM0qJ8l1JvFEcSQDM6UTQmuN5Zm6_8PhA==",
+          "title": "picoapps.xyz"
+        },
+        {
+          "id": 1,
+          "text": "Across official pages on **`picoapps.xyz`** (including the About, Pricing, and FAQ pages), the footer identifies the operating company and copyright holder as",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnqS-nRvQ9PJJOGfVzktAz1dEAfokFZ29ttwYGbZW0GywGXLKZ3_KlXSJ4-nV896t4R2A4TSvLTLM0qJ8l1JvFEcSQDM6UTQmuN5Zm6_8PhA==",
+          "title": "picoapps.xyz"
+        },
+        {
+          "id": 2,
+          "text": "Across official pages on **`picoapps.xyz`** (including the About, Pricing, and FAQ pages), the footer identifies the operating company and copyright holder as",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9YKwLjYDxkcXOV8cdq89mwCTDQOmOnlJZlIaauBvP39e6qhZuCTAJuj6PLxURJauE0HKBwk-6m7kK5Uf0SIjHYhv-xh5gkYcS4K5_lVhqG-qN",
+          "title": "picoapps.xyz"
+        },
+        {
+          "id": 3,
+          "text": "Made in NYC\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnqS-nRvQ9PJJOGfVzktAz1dEAfokFZ29ttwYGbZW0GywGXLKZ3_KlXSJ4-nV896t4R2A4TSvLTLM0qJ8l1JvFEcSQDM6UTQmuN5Zm6_8PhA==",
+          "title": "picoapps.xyz"
+        },
+        {
+          "id": 4,
+          "text": "ll rights reserved.\"*\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnqS-nRvQ9PJJOGfVzktAz1dEAfokFZ29ttwYGbZW0GywGXLKZ3_KlXSJ4-nV896t4R2A4TSvLTLM0qJ8l1JvFEcSQDM6UTQmuN5Zm6_8PhA==",
+          "title": "picoapps.xyz"
+        },
+        {
+          "id": 5,
+          "text": "he official About page (`picoapps.xyz/about`) is signed by founder & CEO Abi Raja on behalf of the company behind Pico.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnqS-nRvQ9PJJOGfVzktAz1dEAfokFZ29ttwYGbZW0GywGXLKZ3_KlXSJ4-nV896t4R2A4TSvLTLM0qJ8l1JvFEcSQDM6UTQmuN5Zm6_8PhA==",
+          "title": "picoapps.xyz"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "WhimsyWorks, Inc.",
+        "evidence": "Passage 0 states that the vendor directly providing Pico at picoapps.xyz is WhimsyWorks, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Pico** at **`picoapps.xyz`** is **WhimsyWorks, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnqS-nRvQ9PJJOGfVzktAz1dEAfokFZ29ttwYGbZW0GywGXLKZ3_KlXSJ4-nV896t4R2A4TSvLTLM0qJ8l1JvFEcSQDM6UTQmuN5Zm6_8PhA==",
+          "title": "picoapps.xyz"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Pico",
+    "domain": "picoapps.xyz",
+    "description": "Pico is a no-code platform for building and deploying AI-powered applications. Users can create custom apps using pre-built components and integrate various AI models."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "WhimsyWorks, Inc.",
+  "evidence": "Passage 0 states that the vendor directly providing Pico at picoapps.xyz is WhimsyWorks, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Pico** at **`picoapps.xyz`** is **WhimsyWorks, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnqS-nRvQ9PJJOGfVzktAz1dEAfokFZ29ttwYGbZW0GywGXLKZ3_KlXSJ4-nV896t4R2A4TSvLTLM0qJ8l1JvFEcSQDM6UTQmuN5Zm6_8PhA==",
+    "title": "picoapps.xyz"
+  },
+  "checked_at": "2026-11-05T07:50:54.836031+00:00"
+}

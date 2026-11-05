@@ -1,0 +1,107 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Dubbing AI** at **dubbingai.io** is **HALO INTERACTIVE PTE. LTD.**\n\n### Evidence:\n* According to the **Dubbing AI Voice Changer Terms of Service** hosted on `dubbingai.io`:\n  > *\"This Agreement (including the revised version), Dubbing AI Voice Changer Privacy Policy, and agreements or other documents (if any) related to third-party software or technologies used by Dubbing AI Voice Changer Software, together constitute the Dubbing AI Voice Change Software The complete agreement of the website and service is legally binding on users and HALO INTERACTIVE PTE. LTD.\"*\n* The website footer across `dubbingai.io` also states: *\"HALO INTERACTIVE PTE. LTD. All rights reserved.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "LTD.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUH8FSvzqus9Sdxj6tLTBY0wxt2kmVo9arAdVwXdA54iF0IU5-hh0N_6otL_A0iUDX4A2Wu52UaWAnu_ktSzV-zO2fgJz5rBkUMooB0RohzmKedeucVoQ=",
+          "title": "dubbingai.io"
+        },
+        {
+          "id": 1,
+          "text": "LTD.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoQHkIcFEdc3oNSJTOA7XxEn9svvjZFJJvx0w7WDZtWEhrXgGrkTeBxehNvTHZCRdMXZ0AjWKqFr761d5PX_EyPKTCGijRVFvlYpCoqcKGvx16wVQHysjxhV3M2JhMCHnI59ZneiaZ1dxSVgOq2xGwcAHdR5v36YStqfkLXxWyeXTl",
+          "title": "dubbingai.io"
+        },
+        {
+          "id": 2,
+          "text": "LTD.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUH8FSvzqus9Sdxj6tLTBY0wxt2kmVo9arAdVwXdA54iF0IU5-hh0N_6otL_A0iUDX4A2Wu52UaWAnu_ktSzV-zO2fgJz5rBkUMooB0RohzmKedeucVoQ=",
+          "title": "dubbingai.io"
+        },
+        {
+          "id": 3,
+          "text": "All rights reserved.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoQHkIcFEdc3oNSJTOA7XxEn9svvjZFJJvx0w7WDZtWEhrXgGrkTeBxehNvTHZCRdMXZ0AjWKqFr761d5PX_EyPKTCGijRVFvlYpCoqcKGvx16wVQHysjxhV3M2JhMCHnI59ZneiaZ1dxSVgOq2xGwcAHdR5v36YStqfkLXxWyeXTl",
+          "title": "dubbingai.io"
+        },
+        {
+          "id": 4,
+          "text": "All rights reserved.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHthAALWsdEZ1UsQf46CiTPLNpcxZMsJJmIdMHyI1zvgXwLf8C6NrtkU4GmOBeKlsFRvmp-R76RxW_Yv3biQR0MI-3GqXCRa6oAySShzsLmvAXP3f0=",
+          "title": "dubbingai.io"
+        },
+        {
+          "id": 5,
+          "text": "All rights reserved.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoQHkIcFEdc3oNSJTOA7XxEn9svvjZFJJvx0w7WDZtWEhrXgGrkTeBxehNvTHZCRdMXZ0AjWKqFr761d5PX_EyPKTCGijRVFvlYpCoqcKGvx16wVQHysjxhV3M2JhMCHnI59ZneiaZ1dxSVgOq2xGwcAHdR5v36YStqfkLXxWyeXTl",
+          "title": "dubbingai.io"
+        }
+      ],
+      "result": {
+        "status": "unknown",
+        "vendor": "UNKNOWN",
+        "evidence": "The provided passages contain only truncated text fragments ('LTD.**', 'All rights reserved.\"*') and do not identify or verify the vendor or provider relationship for Dubbing AI."
+      }
+    },
+    {
+      "answer": "The software product **Dubbing AI** (hosted at **dubbingai.io**) is directly provided and operated by **HALO INTERACTIVE PTE. LTD.**.\n\n### Evidence:\n* According to the **Dubbing AI Voice Changer Terms of Service** on `dubbingai.io`: \n  > *\"This Agreement (including the revised version), Dubbing AI Voice Changer Privacy Policy, and agreements or other documents (if any) related to third-party software or technologies used by Dubbing AI Voice Changer Software, together constitute the Dubbing AI Voice Change Software The complete agreement of the website and service is legally binding on users and HALO INTERACTIVE PTE. LTD.\"*\n* Official website footers across `dubbingai.io` state: *\"HALO INTERACTIVE PTE. LTD. All rights reserved.\"*\n* The official mobile app store developer listing for Dubbing AI similarly designates **HALO INTERACTIVE PTE. LTD.** as the developer/publisher.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "LTD.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHq2aOu_hepeaogAJ7QAbfk_KNqfqu3M_ysDF2uNhoc6CMcRX4NzQ8lJrgrRJNtBEzxcmjUyQL740KOi4E6wFbmQmKOOPgMlNj4BVu-4tzyiXNE0bADuw==",
+          "title": "dubbingai.io"
+        },
+        {
+          "id": 1,
+          "text": "LTD.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3Pca3YmMOcNPfiDe_RdjFx2t_FjKgA-3b-ggdVTVRvoTqhqfD7YzTgieHdfqePzkUngX2l_H1WYlvUte00vQpUXiqBxj4djsl5CQELw5zJrlPuRGUhvuFcHJsCraZJynM3ZnPXlumNuoUZ0BihOm3RPe8QsKr1sstK5HpyaD3",
+          "title": "google.com"
+        },
+        {
+          "id": 2,
+          "text": "LTD.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHq2aOu_hepeaogAJ7QAbfk_KNqfqu3M_ysDF2uNhoc6CMcRX4NzQ8lJrgrRJNtBEzxcmjUyQL740KOi4E6wFbmQmKOOPgMlNj4BVu-4tzyiXNE0bADuw==",
+          "title": "dubbingai.io"
+        },
+        {
+          "id": 3,
+          "text": "All rights reserved.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwRazya-jUqmbCBeUqc2pGCS4Xsw1EFcvqpeVZUzUKVWKxlCvr_4hdLSIXTntus6e3XOFr4BdAyi8ebajxCcUivKVw3hpJsdx5uaTfkpDnXhb-F3Z4ZYHqPeMQm-4LcUsp-lFToWbwwdFs8-rOcIjk8bBRnZaQHbzJRulBKcxTDYw=",
+          "title": "dubbingai.io"
+        },
+        {
+          "id": 4,
+          "text": "All rights reserved.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuDmWFu1YS8W1SsMKDi8SeEL4621VYFxbGPKjWIYeOGPxVWtjbMEb9pjXEf2mkbdHIYk_VPJGNun45zViSKfpdXAQ5oROI5S00bLoT3F36daeNHwI=",
+          "title": "dubbingai.io"
+        },
+        {
+          "id": 5,
+          "text": "LTD.** as the developer/publisher",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3Pca3YmMOcNPfiDe_RdjFx2t_FjKgA-3b-ggdVTVRvoTqhqfD7YzTgieHdfqePzkUngX2l_H1WYlvUte00vQpUXiqBxj4djsl5CQELw5zJrlPuRGUhvuFcHJsCraZJynM3ZnPXlumNuoUZ0BihOm3RPe8QsKr1sstK5HpyaD3",
+          "title": "google.com"
+        }
+      ],
+      "result": {
+        "status": "unknown",
+        "vendor": "UNKNOWN",
+        "evidence": "The provided search passages only contain incomplete text fragments (e.g., 'LTD.**' and 'All rights reserved.') and do not mention the full vendor name or clearly identify the provider for Dubbing AI."
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Dubbing AI",
+    "domain": "dubbingai.io",
+    "description": "Speak in any voice, anywhere, real-time."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "unknown",
+  "vendor": "UNKNOWN",
+  "evidence": "The provided search passages only contain incomplete text fragments (e.g., 'LTD.**' and 'All rights reserved.') and do not mention the full vendor name or clearly identify the provider for Dubbing AI.",
+  "checked_at": "2026-11-05T05:37:24.209912+00:00"
+}

@@ -1,0 +1,79 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product **Slack** at **slack.com** is **Slack Technologies, LLC** (along with **Slack Technologies Limited** for users outside the United States and Canada), operating as a Salesforce company.\n\n### Supporting Evidence and Citations\n* **Privacy Policy (`slack.com/privacy-policy`):**\n  > *\"When we refer to 'Slack', we mean Slack Technologies, LLC or Slack Technologies Limited, as explained in more detail in the 'Identifying the data controller and processor' section below.\"*\n  > *\"This Privacy Policy applies to Slack's online workplace productivity tools and platform, including the associated Slack mobile and desktop applications (collectively, the 'Services'), Slack.com and other Slack websites...\"*\n* **Legal Terms & Partner Agreements (`slack.com`):**\n  > *\"The company name is 'Slack Technologies, LLC.'\"*\n  > Under contracting entity designations: For users domiciled in the United States and Canada, the contracting entity is **Slack Technologies, LLC**; for the rest of the world, it is **Slack Technologies Limited**.\n* **Website Notice:**\n  > *\"© Slack Technologies, LLC, a Salesforce company. All rights reserved.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product **Slack** at **slack.com** is **Slack Technologies, LLC** (along with **Slack Technologies Limited** for users outside the United States and Canada), operating as a Salesforce company",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtFzGWCU5wk4feY9SJLx4Exg5zsuHVLlILS1Td7JRhnZAyEXWo8KIW2D75kHheKCoDUNhO3Nf8wGE5DC57vS0CIHaDn3lDeBWTrdOCXDhk0ejWVpGakvEP2O9tQ9ofI2LSXZk1EoNP-SyIeeMeoM0=",
+          "title": "slack.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the software product **Slack** at **slack.com** is **Slack Technologies, LLC** (along with **Slack Technologies Limited** for users outside the United States and Canada), operating as a Salesforce company",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdiq7V3cRIGfcnVSZOA5EUoOjSl8TywDqdLoFKybz7lopNLdIjzIR88Zk383yW6kAF6p7WTg_fitPZGVlvnXNaAKDn-GrTZAivWmREj4I7Rk_ZHqfj-bVPBPOmgg==",
+          "title": "slack.com"
+        },
+        {
+          "id": 2,
+          "text": "The vendor directly providing the software product **Slack** at **slack.com** is **Slack Technologies, LLC** (along with **Slack Technologies Limited** for users outside the United States and Canada), operating as a Salesforce company",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5_FmIRVehbkGyfcyN4EQR_dF48PbrLAPk4xNfZ1f6mIW_9sw5_v4Duz4ecCXk-hDJPcDalMW2K8edZTkHE06KaWbXT-tIqg-hLlcrnSw2XW-io1vrQM1ITeTeGo1-aJ4=",
+          "title": "slack.com"
+        },
+        {
+          "id": 3,
+          "text": "*\"When we refer to 'Slack', we mean Slack Technologies, LLC or Slack Technologies Limited, as explained in more detail in the 'Identifying the data controller and processor' section below.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtFzGWCU5wk4feY9SJLx4Exg5zsuHVLlILS1Td7JRhnZAyEXWo8KIW2D75kHheKCoDUNhO3Nf8wGE5DC57vS0CIHaDn3lDeBWTrdOCXDhk0ejWVpGakvEP2O9tQ9ofI2LSXZk1EoNP-SyIeeMeoM0=",
+          "title": "slack.com"
+        },
+        {
+          "id": 4,
+          "text": "*\"This Privacy Policy applies to Slack's online workplace productivity tools and platform, including the associated Slack mobile and desktop applications (collectively, the 'Services'), Slack.com and other Slack websites...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtFzGWCU5wk4feY9SJLx4Exg5zsuHVLlILS1Td7JRhnZAyEXWo8KIW2D75kHheKCoDUNhO3Nf8wGE5DC57vS0CIHaDn3lDeBWTrdOCXDhk0ejWVpGakvEP2O9tQ9ofI2LSXZk1EoNP-SyIeeMeoM0=",
+          "title": "slack.com"
+        },
+        {
+          "id": 5,
+          "text": "*\"The company name is 'Slack Technologies, LLC.'\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQXUen7QVs-8eILK-q-6ex8kTZaPNP0FhUM2bCQF2ZLNVoyNP4dYsyHI34eA_GOZ7RSZFjwmyZjj2r5bGvyAZtaAVXbF7IYhSsGcBnkR6IKe1vhR6kr2H5w5HLg5QQu3jHw8U=",
+          "title": "slack.com"
+        },
+        {
+          "id": 6,
+          "text": "Under contracting entity designations: For users domiciled in the United States and Canada, the contracting entity is **Slack Technologies, LLC**; for the rest of the world, it is **Slack Technologies Limited**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5_FmIRVehbkGyfcyN4EQR_dF48PbrLAPk4xNfZ1f6mIW_9sw5_v4Duz4ecCXk-hDJPcDalMW2K8edZTkHE06KaWbXT-tIqg-hLlcrnSw2XW-io1vrQM1ITeTeGo1-aJ4=",
+          "title": "slack.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Slack Technologies, LLC",
+        "evidence": "Passage 0 directly states that the vendor providing the software product Slack at slack.com is Slack Technologies, LLC (along with Slack Technologies Limited for users outside the United States and Canada), operating as a Salesforce company.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the software product **Slack** at **slack.com** is **Slack Technologies, LLC** (along with **Slack Technologies Limited** for users outside the United States and Canada), operating as a Salesforce company",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtFzGWCU5wk4feY9SJLx4Exg5zsuHVLlILS1Td7JRhnZAyEXWo8KIW2D75kHheKCoDUNhO3Nf8wGE5DC57vS0CIHaDn3lDeBWTrdOCXDhk0ejWVpGakvEP2O9tQ9ofI2LSXZk1EoNP-SyIeeMeoM0=",
+          "title": "slack.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Slack",
+    "domain": "slack.com",
+    "description": "Slack is a productivity platform designed to enhance workplace collaboration and efficiency. Integrated with Salesforce Customer 360, it empowers teams through no-code automation, seamless knowledge sharing, and constant connectivity. Slack promotes a diverse and inclusive work culture, aiming to make work simpler and more enjoyable for everyone."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Slack Technologies, LLC",
+  "evidence": "Passage 0 directly states that the vendor providing the software product Slack at slack.com is Slack Technologies, LLC (along with Slack Technologies Limited for users outside the United States and Canada), operating as a Salesforce company.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the software product **Slack** at **slack.com** is **Slack Technologies, LLC** (along with **Slack Technologies Limited** for users outside the United States and Canada), operating as a Salesforce company",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtFzGWCU5wk4feY9SJLx4Exg5zsuHVLlILS1Td7JRhnZAyEXWo8KIW2D75kHheKCoDUNhO3Nf8wGE5DC57vS0CIHaDn3lDeBWTrdOCXDhk0ejWVpGakvEP2O9tQ9ofI2LSXZk1EoNP-SyIeeMeoM0=",
+    "title": "slack.com"
+  },
+  "checked_at": "2026-11-05T09:31:01.927699+00:00"
+}

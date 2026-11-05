@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The software platform **Box** provided at **box.com** is directly operated and provided by **Box, Inc.** (and its regional subsidiaries such as Box.com (UK) Ltd. and K.K. Box Japan for users outside the United States).\n\n### Provider Statement\nAccording to the official **Box Terms of Service**:\n> *\"By using, accessing or browsing the Box Service, platform and products including applications, mobile, software, websites or other properties owned or operated by Box or by registering for a Box account ('Services') you are agreeing to be bound by these Terms for the Services provided by Box ('Box' or 'we'). If you reside in the United States, you are entering into this contract with Box, Inc.\"*\n\nAdditionally, the **Box Privacy Notice** notes:\n> *\"The Box Privacy Notice applies to Box, Inc. and its subsidiaries (collectively, 'Box' or 'we' or 'us' or 'our') when using the Box Services.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software platform **Box** provided at **box.com** is directly operated and provided by **Box, Inc.** (and its regional subsidiaries such as Box.com (UK) Ltd. and K.K. Box Japan for users outside the United States)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0ox0Od8tGWSPUMjzprX2dyNVrmnwP0Tz27DGW8cwo3X5LIC8qyFb_1j-_JA5zt-OstreJJlU9Pg2j6M-KaBf4VCkelZ5my7But7PmdtyrDOZ54Tl4uI1Ozbt-oGSu",
+          "title": "box.com"
+        },
+        {
+          "id": 1,
+          "text": "According to the official **Box Terms of Service**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0ox0Od8tGWSPUMjzprX2dyNVrmnwP0Tz27DGW8cwo3X5LIC8qyFb_1j-_JA5zt-OstreJJlU9Pg2j6M-KaBf4VCkelZ5my7But7PmdtyrDOZ54Tl4uI1Ozbt-oGSu",
+          "title": "box.com"
+        },
+        {
+          "id": 2,
+          "text": "If you reside in the United States, you are entering into this contract with Box, Inc.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0ox0Od8tGWSPUMjzprX2dyNVrmnwP0Tz27DGW8cwo3X5LIC8qyFb_1j-_JA5zt-OstreJJlU9Pg2j6M-KaBf4VCkelZ5my7But7PmdtyrDOZ54Tl4uI1Ozbt-oGSu",
+          "title": "box.com"
+        },
+        {
+          "id": 3,
+          "text": "*\"The Box Privacy Notice applies to Box, Inc. and its subsidiaries (collectively, 'Box' or 'we' or 'us' or 'our') when using the Box Services.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTrcsQEH9rQfhQCeNr1JNeJGc_powmdLvrumFKny1uxBJi829W4ArhnxG92tJggfo07uxVk7Jwjjy1l3bS7fk67cRuNThUyfDPYb_dg-OkKRSewCKj8h1xY0umzNg=",
+          "title": "box.com"
+        },
+        {
+          "id": 4,
+          "text": "mobile, software, websites or other properties owned or operated by Box or by registering for a Box account ('Services') you are agreeing to be bound by these Terms for the Services provided by Box ('Box' or 'we'). If you reside in the United States, you are entering into this contract with Box, I",
+          "url": "https://box.duke.edu/wp-content/uploads/TermsofServiceBox2019.pdf",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Box, Inc.",
+        "evidence": "Passage 0 directly states that the software platform Box provided at box.com is operated and provided by Box, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The software platform **Box** provided at **box.com** is directly operated and provided by **Box, Inc.** (and its regional subsidiaries such as Box.com (UK) Ltd. and K.K. Box Japan for users outside the United States)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0ox0Od8tGWSPUMjzprX2dyNVrmnwP0Tz27DGW8cwo3X5LIC8qyFb_1j-_JA5zt-OstreJJlU9Pg2j6M-KaBf4VCkelZ5my7But7PmdtyrDOZ54Tl4uI1Ozbt-oGSu",
+          "title": "box.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Box",
+    "domain": "box.com",
+    "description": "Box is an Intelligent Content Cloud platform that enhances collaboration, content management, and business workflows through enterprise AI. Established in 2005, Box serves prominent global companies from various industries and is headquartered in Redwood City, California, with additional offices in the US, Europe, and Asia. Besides its business services, Box also supports nonprofits through initiatives at box.org."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Box, Inc.",
+  "evidence": "Passage 0 directly states that the software platform Box provided at box.com is operated and provided by Box, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The software platform **Box** provided at **box.com** is directly operated and provided by **Box, Inc.** (and its regional subsidiaries such as Box.com (UK) Ltd. and K.K. Box Japan for users outside the United States)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0ox0Od8tGWSPUMjzprX2dyNVrmnwP0Tz27DGW8cwo3X5LIC8qyFb_1j-_JA5zt-OstreJJlU9Pg2j6M-KaBf4VCkelZ5my7But7PmdtyrDOZ54Tl4uI1Ozbt-oGSu",
+    "title": "box.com"
+  },
+  "checked_at": "2026-11-05T08:04:26.248539+00:00"
+}

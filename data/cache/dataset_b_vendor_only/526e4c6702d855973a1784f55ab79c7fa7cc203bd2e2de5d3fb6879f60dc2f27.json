@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Aloware** at **aloware.com** is **Aloware, Inc.**\n\n### Provider Statement\n* **Terms and Conditions:** *\"These Terms of Use constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and Aloware, Inc. (“we,” “us” or “our”), concerning your access to and use of the aloware.com website, app.aloware.com, Aloware Application, Aloware Desktop and Mobile Client as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto...\"*\n* **Privacy Policy:** *\"This policy describes how Aloware, Inc. (“Aloware”) collects, uses, and shares personal information... In this privacy policy, 'we' and 'us' refers to Aloware. 'Services' refers collectively to the services provided by us. 'Site' refers to https://www.aloware.com.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Aloware** at **aloware.com** is **Aloware, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHO7xNsEzYT6EjOEhCnv8A8m66cuvMl-OuyvsdfZucCfhOzsj-ggcnEY1VLgyVJfhXn8IZfPVEGyz1PmLUg1sg6dmYf2e496_rObp2kY8c_zJPqeggkVbgZ",
+          "title": "aloware.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Aloware** at **aloware.com** is **Aloware, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvtGB7JxyyDS7NqkHER-Kujbjqs5AzNvdhLNq5B3bv_yEOi7h8yPdMwGzhvFVLw3-8kkRi_I0jvg5X0Goh19HpfBx4E6mmLnFiRETxUOded8VP_EluKMg9XLHUZpQ8",
+          "title": "aloware.com"
+        },
+        {
+          "id": 2,
+          "text": "**Terms and Conditions:** *\"These Terms of Use constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and Aloware, Inc. (“we,” “us” or “our”), concerning your access to and use of the aloware.com website, app.aloware.com, Aloware Application, Aloware Desktop and Mobile Client as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto...\"*\n* **Privacy Pol",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvtGB7JxyyDS7NqkHER-Kujbjqs5AzNvdhLNq5B3bv_yEOi7h8yPdMwGzhvFVLw3-8kkRi_I0jvg5X0Goh19HpfBx4E6mmLnFiRETxUOded8VP_EluKMg9XLHUZpQ8",
+          "title": "aloware.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Aloware, Inc.",
+        "evidence": "According to the Terms of Use in passage 2, Aloware, Inc. operates and provides access to and use of the aloware.com website and the Aloware Application.",
+        "source": {
+          "id": 2,
+          "text": "**Terms and Conditions:** *\"These Terms of Use constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and Aloware, Inc. (“we,” “us” or “our”), concerning your access to and use of the aloware.com website, app.aloware.com, Aloware Application, Aloware Desktop and Mobile Client as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto...\"*\n* **Privacy Pol",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvtGB7JxyyDS7NqkHER-Kujbjqs5AzNvdhLNq5B3bv_yEOi7h8yPdMwGzhvFVLw3-8kkRi_I0jvg5X0Goh19HpfBx4E6mmLnFiRETxUOded8VP_EluKMg9XLHUZpQ8",
+          "title": "aloware.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Aloware",
+    "domain": "aloware.com",
+    "description": "Aloware is an all-in-one contact center software designed for sales and support teams. It offers robust features like call center functionalities, SMS messaging, power dialers, live chat, and deep CRM integrations, powered by AI for enhanced customer communication and operational efficiency."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Aloware, Inc.",
+  "evidence": "According to the Terms of Use in passage 2, Aloware, Inc. operates and provides access to and use of the aloware.com website and the Aloware Application.",
+  "source": {
+    "id": 2,
+    "text": "**Terms and Conditions:** *\"These Terms of Use constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and Aloware, Inc. (“we,” “us” or “our”), concerning your access to and use of the aloware.com website, app.aloware.com, Aloware Application, Aloware Desktop and Mobile Client as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto...\"*\n* **Privacy Pol",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvtGB7JxyyDS7NqkHER-Kujbjqs5AzNvdhLNq5B3bv_yEOi7h8yPdMwGzhvFVLw3-8kkRi_I0jvg5X0Goh19HpfBx4E6mmLnFiRETxUOded8VP_EluKMg9XLHUZpQ8",
+    "title": "aloware.com"
+  },
+  "checked_at": "2026-11-05T05:52:02.576945+00:00"
+}

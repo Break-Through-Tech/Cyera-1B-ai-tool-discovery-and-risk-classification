@@ -1,0 +1,79 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on the legal and corporate disclosures on **lastpass.com** (as well as official app marketplace listings), the vendor directly providing the **LastPass** software product is **LastPass US LP** (along with regional operating affiliate **LastPass Ireland Limited** for European/international operations).\n\n### Key Evidence & Statements:\n* **Terms of Service & Contracting Entities:** The LastPass Terms of Service state that the agreement governs access to the software and services *\"provided or operated by the applicable LastPass entity identified at lastpass.com/legal-center/contracting-entities (“LastPass,” “us,” or “we”)\"*. Under its contractual and regulatory schedules, the primary United States operating entity is identified as **LastPass US LP** (headquartered at 125 High Street, Boston, MA), while non-U.S./EEA services are contracted via **LastPass Ireland Limited**.\n* **Imprint / Website Service Provider:** The official website Impressum identifies the service provider as **LastPass Ireland Limited**.\n* **Copyright & Trademarks:** The site copyright and trademark disclosures specify: *\"© LastPass US LP. All rights reserved\"* and list **LastPass US LP** as the trademark holder and operating entity.\n* **App Store Listings:** On both the Apple App Store and Google Play Store, the official developer and publisher of the LastPass applications is listed as **LastPass US LP**.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "Based on the legal and corporate disclosures on **lastpass.com** (as well as official app marketplace listings), the vendor directly providing the **LastPass** software product is **LastPass US LP** (along with regional operating affiliate **LastPass Ireland Limited** for European/international operations)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTPMCMwfdtvLp-zNMJTZAzXYSCy0GmAkAfoCK4rFTnlhq7OiYPjoM54G94k_XO1S_rIB92Mn1yDNAn1xXocQc_nXPIrRJANk-WluMQhO0Rbia42ry_LDm5_ryCu4qd_cbiWXrCnA==",
+          "title": "lastpass.com"
+        },
+        {
+          "id": 1,
+          "text": "Based on the legal and corporate disclosures on **lastpass.com** (as well as official app marketplace listings), the vendor directly providing the **LastPass** software product is **LastPass US LP** (along with regional operating affiliate **LastPass Ireland Limited** for European/international operations)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZ0CTMa3rzO0LwnyZZ2SkIRRvegksXqw7U5kjj9o1-DYP4tsozEEWP0r-xl56GYOZVroQ_7sefP3tjKYTX6xSbstMRbLNaci0syXArGo8M9DjKf4o6KK779vfxyagmlLsOLvux3A==",
+          "title": "lastpass.com"
+        },
+        {
+          "id": 2,
+          "text": "**Terms of Service & Contracting Entities:** The LastPass Terms of Service state that the agreement governs access to the software and services *\"provided or operated by the applicable LastPass entity identified at lastpass.com/legal-center/contracting-entities (“LastPass,” “us,” or “we”)\"*. Under its ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEM0RcXWHL1JrYukm_nKX4XxmZ3J_nquxHRPg20QVGtz2B9hhv27KZLxO9xG1aa6sVuKa6ksnFb-E0tUyrhSRUmBELauzSoVxZq1NtQ8lNjuPZ-AL_HOkmnSsTN5J611vPiEUcKaZpY-mMMcl0urdQUqTkYX2A=",
+          "title": "lastpass.com"
+        },
+        {
+          "id": 3,
+          "text": "ntractual and regulatory schedules, the primary United States operating entity is identified as **LastPass US LP** (headquartered at 125 High Street, Boston, MA), while non-U.S./EEA services are contracted via **LastPass Ireland Limited**.\n* **Imprin",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdcvHxG3_Ct40cewOCZpl9Ca9edzKIgiqgXImAn1GSIJak_pc4Gj2K_xTw90UiNxqo7q6flTL7fttuV5G3KGJ3bvCJx9GPxb4HcJgOi9IoxMY4DogNvMFOFmP0NSPRo1dXbkrNXIoFZcTZhlJ0Rf7-G_4XGCaZF1Wbdgo=",
+          "title": "lastpass.com"
+        },
+        {
+          "id": 4,
+          "text": "ntractual and regulatory schedules, the primary United States operating entity is identified as **LastPass US LP** (headquartered at 125 High Street, Boston, MA), while non-U.S./EEA services are contracted via **LastPass Ireland Limited**.\n* **Imprin",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWLf5RroQ_rOyqE27f0EpNbXlFfj67099sKj5Ac4MST_cXDKa5inLBGaYU820bz0bv88pU15GQgf2SeyEMW4_z8Ib4MVORK8QkxLkHkLC6_5Uo_SGMtl5SRmKlNKcfF5-bS8fmdX3PMSCDczA-ee1B9yVEe3rGQN-ZEh6v2YLs3h3NojZNRIg=",
+          "title": "lastpass.com"
+        },
+        {
+          "id": 5,
+          "text": "Website Service Provider:** The official website Impressum identifies the service provider as **LastPass Ireland Limited**.\n* **Copyri",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZ0CTMa3rzO0LwnyZZ2SkIRRvegksXqw7U5kjj9o1-DYP4tsozEEWP0r-xl56GYOZVroQ_7sefP3tjKYTX6xSbstMRbLNaci0syXArGo8M9DjKf4o6KK779vfxyagmlLsOLvux3A==",
+          "title": "lastpass.com"
+        },
+        {
+          "id": 6,
+          "text": "served\"* and list **LastPass US LP** as the trademark holder and operating entity.\n* **App Sto",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTPMCMwfdtvLp-zNMJTZAzXYSCy0GmAkAfoCK4rFTnlhq7OiYPjoM54G94k_XO1S_rIB92Mn1yDNAn1xXocQc_nXPIrRJANk-WluMQhO0Rbia42ry_LDm5_ryCu4qd_cbiWXrCnA==",
+          "title": "lastpass.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "LastPass US LP",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing the LastPass software product is LastPass US LP (along with regional affiliate LastPass Ireland Limited).",
+        "source": {
+          "id": 0,
+          "text": "Based on the legal and corporate disclosures on **lastpass.com** (as well as official app marketplace listings), the vendor directly providing the **LastPass** software product is **LastPass US LP** (along with regional operating affiliate **LastPass Ireland Limited** for European/international operations)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTPMCMwfdtvLp-zNMJTZAzXYSCy0GmAkAfoCK4rFTnlhq7OiYPjoM54G94k_XO1S_rIB92Mn1yDNAn1xXocQc_nXPIrRJANk-WluMQhO0Rbia42ry_LDm5_ryCu4qd_cbiWXrCnA==",
+          "title": "lastpass.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "LastPass",
+    "domain": "lastpass.com",
+    "description": "LastPass provides password management services to simplify and secure online activities for both individuals and enterprises. Established in 2008, the service supports various browsers and devices, offering seamless integration for secure single sign-on (SSO) and password management across organizations of all sizes. LastPass aims to enhance online security, compliance, and productivity for its users."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "LastPass US LP",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing the LastPass software product is LastPass US LP (along with regional affiliate LastPass Ireland Limited).",
+  "source": {
+    "id": 0,
+    "text": "Based on the legal and corporate disclosures on **lastpass.com** (as well as official app marketplace listings), the vendor directly providing the **LastPass** software product is **LastPass US LP** (along with regional operating affiliate **LastPass Ireland Limited** for European/international operations)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTPMCMwfdtvLp-zNMJTZAzXYSCy0GmAkAfoCK4rFTnlhq7OiYPjoM54G94k_XO1S_rIB92Mn1yDNAn1xXocQc_nXPIrRJANk-WluMQhO0Rbia42ry_LDm5_ryCu4qd_cbiWXrCnA==",
+    "title": "lastpass.com"
+  },
+  "checked_at": "2026-11-05T09:30:38.781619+00:00"
+}

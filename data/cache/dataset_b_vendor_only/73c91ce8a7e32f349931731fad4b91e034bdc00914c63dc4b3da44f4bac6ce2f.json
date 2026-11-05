@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software, hosting, and domain services for **GoDaddy** at **godaddy.com** is **GoDaddy.com, LLC** (operating alongside **GoDaddy Operating Company, LLC**).\n\n### Supporting Evidence\nAccording to the official **GoDaddy Universal Terms of Service Agreement** governing **godaddy.com**:\n> *\"This Universal Terms of Service Agreement (this “Agreement” or “UTOS”) is entered into by and between GoDaddy.com, LLC, and any of its affiliated entities that provide Services here under, including, but not limited to, GoDaddy Payments, LLC (for any payment services) and Poynt, LLC (for any hardware services) (collectively, 'GoDaddy'), and you... This Agreement sets forth the general terms and conditions of your use of this Site and the products and services purchased or accessed through this Site...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software, hosting, and domain services for **GoDaddy** at **godaddy.com** is **GoDaddy.com, LLC** (operating alongside **GoDaddy Operating Company, LLC**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWsmU-8Lo7xJBj_mGxHC_YEdgOufPBSkbqcnjeZtdjI__vu4XvfgqpnhLwPw88KTMEC076giVSdylrLZjNvY8dbEZmmZ21oM4Im0a-imZyFhS_msqmuG_8BBop5Icm8Q==",
+          "title": "godaddy.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the software, hosting, and domain services for **GoDaddy** at **godaddy.com** is **GoDaddy.com, LLC** (operating alongside **GoDaddy Operating Company, LLC**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqmJTKCOV1_9xqxrYLL6nFHkBKtowxkdVJvffHgJ42vxby5DYVvgtFOkCfdHqMstx3oJwHxBb29MiY7cujY_1va8mfh3nEyUXT3mvbxJTq3lVTxXZ2VfruxCfn5Y5w8xCl9gnUWn_1IkMQ70i7mnaqyi_XBsh9uZ3VTpmYfIRs11Y0cQ==",
+          "title": "godaddy.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "GoDaddy.com, LLC",
+        "evidence": "Passage 0 explicitly identifies GoDaddy.com, LLC as the vendor directly providing the software, hosting, and domain services for GoDaddy at godaddy.com.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the software, hosting, and domain services for **GoDaddy** at **godaddy.com** is **GoDaddy.com, LLC** (operating alongside **GoDaddy Operating Company, LLC**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWsmU-8Lo7xJBj_mGxHC_YEdgOufPBSkbqcnjeZtdjI__vu4XvfgqpnhLwPw88KTMEC076giVSdylrLZjNvY8dbEZmmZ21oM4Im0a-imZyFhS_msqmuG_8BBop5Icm8Q==",
+          "title": "godaddy.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "GoDaddy",
+    "domain": "godaddy.com",
+    "description": "GoDaddy is a leading web hosting and domain registration company headquartered in Tempe, Arizona. It provides a suite of services to individuals and businesses such as domain name registration, website hosting, email hosting, and website building tools. Founded in 1997, GoDaddy is known for its user-friendly products aimed at helping entrepreneurs and small businesses establish an online presence. Additionally, GoDaddy offers online marketing and business productivity tools, making it a one-stop shop for online business solutions."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "GoDaddy.com, LLC",
+  "evidence": "Passage 0 explicitly identifies GoDaddy.com, LLC as the vendor directly providing the software, hosting, and domain services for GoDaddy at godaddy.com.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the software, hosting, and domain services for **GoDaddy** at **godaddy.com** is **GoDaddy.com, LLC** (operating alongside **GoDaddy Operating Company, LLC**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWsmU-8Lo7xJBj_mGxHC_YEdgOufPBSkbqcnjeZtdjI__vu4XvfgqpnhLwPw88KTMEC076giVSdylrLZjNvY8dbEZmmZ21oM4Im0a-imZyFhS_msqmuG_8BBop5Icm8Q==",
+    "title": "godaddy.com"
+  },
+  "checked_at": "2026-11-05T10:07:54.192873+00:00"
+}

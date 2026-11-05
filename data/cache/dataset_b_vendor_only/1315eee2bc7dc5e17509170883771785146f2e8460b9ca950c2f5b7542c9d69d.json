@@ -1,0 +1,91 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **Schedulicity** software platform at **schedulicity.com** is **Schedulicity, Inc.** (acquired by and integrated into **Vagaro, Inc.** in January 2025).\n\n### Supporting Evidence and Provider Statements\n* **Operating Entity / Developer:** SEC filings and official app marketplace listings identify the operating company and developer headquartered in Bozeman, Montana, as **Schedulicity, Inc.** (e.g., SEC Form D: *\"Issuer's Identity... Name of Issuer: Schedulicity, Inc... Bozeman, MT\"*; app listings published by *\"Schedulicity, Inc.\"*).\n* **Acquisition / Direct Provider Transition:** In January 2025, Vagaro, Inc. announced: *\"Vagaro... today announced that they have strategically acquired Schedulicity... Vagaro will continue the support of all Schedulicity businesses\"*, transitioning `schedulicity.com` users into its service (*\"Schedulicity is now Vagaro\"*).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **Schedulicity** software platform at **schedulicity.com** is **Schedulicity, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEz6KjSFMotjDlIdWWNsJEdf9Ue7ltknZPKhMdhSW8xWdvsgF-k-nXK6JjWw__aTLHEXFgqJL9E5l1sq9o2LmQV4AmaZqSao4RmKJn5V0-T79_5jzR3o5mspTETM02eXY7OG-Oa-NGKKjLq6S3jGjn4IHZOdj0De48naBDBHmqeQ3h21vHhgZ28M3Yn7P05zw==",
+          "title": "tracxn.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the **Schedulicity** software platform at **schedulicity.com** is **Schedulicity, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqXaV9uwu4JfGs2_Wm3HwRou3FSTYy1Mj1QtnIwhWcpQ-0U4yt0UQAEPvGCgMGb-FqfC8EahJIAGh3lHT_JQ0diJKTaV-ovBmeLdv7jSKKGuL-UEW9qBrsYbsCsKleuxXj0z9h_T4gcHKzrykcGSfLIMD9inpQWDuRxEXn_EVIlA-q7IKD8ylyr6WDA5jKuW0=",
+          "title": "sec.gov"
+        },
+        {
+          "id": 2,
+          "text": "The vendor directly providing the **Schedulicity** software platform at **schedulicity.com** is **Schedulicity, Inc.** (acquired by and integrated into **Vagaro, Inc.** in January 2025)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgoz9gNWLDhG4ABHF2nti1XSYLMbPLmGq1dRbhLF7eltYAEVKRGZ992Mh4tpaguIPFd3wbf8M8YbNUe59PUdmifBoLzO3Uuq2ZTb8Uxf9QjimzcD0hnqZ3q85rfyANc3HAupzqzMNoZ__goDEiIGjnb3wFqI2laC9m63761MPbFJiqG_N_uXr4mEKZeu9vWYeV40-djSnAw4au9tOOLewz1-pU5K3VA4iy",
+          "title": "businesswire.com"
+        },
+        {
+          "id": 3,
+          "text": "The vendor directly providing the **Schedulicity** software platform at **schedulicity.com** is **Schedulicity, Inc.** (acquired by and integrated into **Vagaro, Inc.** in January 2025)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGD252IgAMV7V4xwmn0R_er0MbobP72LZunEdSaEnvprjtxPn5WHvyTvNMvFmprOfLQZzOK7OFo2fCKs498YsQ3-FMcwpZ931zzyd_FHNX9B9nN0cyuRAAV1lmIByQeHbipNZVP6hjfPhdXVUY=",
+          "title": "twizzlo.com"
+        },
+        {
+          "id": 4,
+          "text": "*)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDWUedMIt4EvcVPYj0iNLqrz8EAQge-RtIwcnGk9HZtcEO7582-MzZY-R9pjAOeec2oKbifp7UnzUcwHWG8sDWW-KYN1lcfIrrAZKeMQNe43kW0UZaz5yi80HBVOoomRPizT3S0Wxf2jGQj_B27w==",
+          "title": "aptoide.com"
+        },
+        {
+          "id": 5,
+          "text": "*)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqXaV9uwu4JfGs2_Wm3HwRou3FSTYy1Mj1QtnIwhWcpQ-0U4yt0UQAEPvGCgMGb-FqfC8EahJIAGh3lHT_JQ0diJKTaV-ovBmeLdv7jSKKGuL-UEW9qBrsYbsCsKleuxXj0z9h_T4gcHKzrykcGSfLIMD9inpQWDuRxEXn_EVIlA-q7IKD8ylyr6WDA5jKuW0=",
+          "title": "sec.gov"
+        },
+        {
+          "id": 6,
+          "text": "Vagaro will continue the support of all Schedulicity businesses\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgoz9gNWLDhG4ABHF2nti1XSYLMbPLmGq1dRbhLF7eltYAEVKRGZ992Mh4tpaguIPFd3wbf8M8YbNUe59PUdmifBoLzO3Uuq2ZTb8Uxf9QjimzcD0hnqZ3q85rfyANc3HAupzqzMNoZ__goDEiIGjnb3wFqI2laC9m63761MPbFJiqG_N_uXr4mEKZeu9vWYeV40-djSnAw4au9tOOLewz1-pU5K3VA4iy",
+          "title": "businesswire.com"
+        },
+        {
+          "id": 7,
+          "text": "Vagaro will continue the support of all Schedulicity businesses\"*, transitioning `schedulicity.com` users into its service (*\"Schedulicity is now Vagaro\"*)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGF3xyOvFb4gMZvHR5pYTqADolUpTGgBhWm8kRy1nsgjFEVIaopNSininTHcqhOIo5k3bTCavP_ZKuBuL631FpFjfGsSU5u1oHpM87kBxL2CdK7FHYuXWZgsvXEBpyXgXnHWwDpGPDTseTrjtsx2Q==",
+          "title": "usecarly.com"
+        },
+        {
+          "id": 8,
+          "text": "Vagaro will continue the support of all Schedulicity businesses\"*, transitioning `schedulicity.com` users into its service (*\"Schedulicity is now Vagaro\"*)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGD252IgAMV7V4xwmn0R_er0MbobP72LZunEdSaEnvprjtxPn5WHvyTvNMvFmprOfLQZzOK7OFo2fCKs498YsQ3-FMcwpZ931zzyd_FHNX9B9nN0cyuRAAV1lmIByQeHbipNZVP6hjfPhdXVUY=",
+          "title": "twizzlo.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Schedulicity, Inc.",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing the Schedulicity software platform at schedulicity.com is Schedulicity, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the **Schedulicity** software platform at **schedulicity.com** is **Schedulicity, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEz6KjSFMotjDlIdWWNsJEdf9Ue7ltknZPKhMdhSW8xWdvsgF-k-nXK6JjWw__aTLHEXFgqJL9E5l1sq9o2LmQV4AmaZqSao4RmKJn5V0-T79_5jzR3o5mspTETM02eXY7OG-Oa-NGKKjLq6S3jGjn4IHZOdj0De48naBDBHmqeQ3h21vHhgZ28M3Yn7P05zw==",
+          "title": "tracxn.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Schedulicity",
+    "domain": "schedulicity.com",
+    "description": "Schedulicity is a premier online scheduling platform that facilitates the booking of appointments, classes, and workshops across over 50 diverse industries. Serving consumers in more than 7,700 cities throughout the U.S. and Canada, Schedulicity has successfully managed over 117 million bookings since its establishment in 2009. Headquartered in Bozeman, Montana, the company is recognized for its commitment to innovation and exceptional customer service."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Schedulicity, Inc.",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing the Schedulicity software platform at schedulicity.com is Schedulicity, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the **Schedulicity** software platform at **schedulicity.com** is **Schedulicity, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEz6KjSFMotjDlIdWWNsJEdf9Ue7ltknZPKhMdhSW8xWdvsgF-k-nXK6JjWw__aTLHEXFgqJL9E5l1sq9o2LmQV4AmaZqSao4RmKJn5V0-T79_5jzR3o5mspTETM02eXY7OG-Oa-NGKKjLq6S3jGjn4IHZOdj0De48naBDBHmqeQ3h21vHhgZ28M3Yn7P05zw==",
+    "title": "tracxn.com"
+  },
+  "checked_at": "2026-11-05T08:45:15.581200+00:00"
+}

@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **Qualtrics** software product and related cloud services at **qualtrics.com** is **Qualtrics, LLC**.\n\n### Evidence:\n* **Qualtrics General Terms and Conditions (GTC):**  \n  > *\"If a valid agreement exists between you (“Customer”) and Qualtrics, LLC (“Qualtrics”) related to the subject matter hereof, those terms take precedence over these terms...\"*\n* **Qualtrics Privacy Statement:**  \n  > *\"Qualtrics, LLC is the entity responsible for the processing of personal information under this Privacy Policy (as a controller, where provided under applicable law)... 333 W River Park Drive, Provo, Utah 84604, USA...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **Qualtrics** software product and related cloud services at **qualtrics.com** is **Qualtrics, LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEftsrKPdyUP5sqzxwmpEdtG031c1nSYEHhxPzhmRjzyNzvIwpUh-Xm-ZOiWQvemNX1jWewd-PKm_u-dXcl_TiJVcsqhkZ9iTRGKZFuGpjddrCYu95mCEdJUsSYCzFNK40ZWQ==",
+          "title": "qualtrics.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the **Qualtrics** software product and related cloud services at **qualtrics.com** is **Qualtrics, LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_Uall67IRQ7bxhh4FTAT6bi_pOyXBufmNCsI8MUd-zizZVwu-vBGNYohF8gTTGW_UQtkqUs18Jx92gZ-tVIRPp47AyrF6nRhy40GC0k7Smw2sj4SFmSk-gbsgXRl-0d0RDwaM6w==",
+          "title": "qualtrics.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"If a valid agreement exists between you (“Customer”) and Qualtrics, LLC (“Qualtrics”) related to the subject matter hereof, those terms take precedence over these terms...\"*\n* **Qua",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_Uall67IRQ7bxhh4FTAT6bi_pOyXBufmNCsI8MUd-zizZVwu-vBGNYohF8gTTGW_UQtkqUs18Jx92gZ-tVIRPp47AyrF6nRhy40GC0k7Smw2sj4SFmSk-gbsgXRl-0d0RDwaM6w==",
+          "title": "qualtrics.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Qualtrics, LLC",
+        "evidence": "Passage 0 directly states that the vendor providing the Qualtrics software product and related cloud services at qualtrics.com is Qualtrics, LLC.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the **Qualtrics** software product and related cloud services at **qualtrics.com** is **Qualtrics, LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEftsrKPdyUP5sqzxwmpEdtG031c1nSYEHhxPzhmRjzyNzvIwpUh-Xm-ZOiWQvemNX1jWewd-PKm_u-dXcl_TiJVcsqhkZ9iTRGKZFuGpjddrCYu95mCEdJUsSYCzFNK40ZWQ==",
+          "title": "qualtrics.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Qualtrics",
+    "domain": "qualtrics.com",
+    "description": "Qualtrics is a leading software company specializing in Experience Management, providing tools that enable organizations to enhance frontline experiences, develop high-performing teams, and create beloved products. With over 19,000 clients worldwide, Qualtrics serves various sectors including retail, government, and healthcare. Founded in 2002, the company focuses on bridging experience gaps through innovative technology and emphasizes a culture of teamwork and customer service."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Qualtrics, LLC",
+  "evidence": "Passage 0 directly states that the vendor providing the Qualtrics software product and related cloud services at qualtrics.com is Qualtrics, LLC.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the **Qualtrics** software product and related cloud services at **qualtrics.com** is **Qualtrics, LLC**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEftsrKPdyUP5sqzxwmpEdtG031c1nSYEHhxPzhmRjzyNzvIwpUh-Xm-ZOiWQvemNX1jWewd-PKm_u-dXcl_TiJVcsqhkZ9iTRGKZFuGpjddrCYu95mCEdJUsSYCzFNK40ZWQ==",
+    "title": "qualtrics.com"
+  },
+  "checked_at": "2026-11-05T08:52:01.063529+00:00"
+}

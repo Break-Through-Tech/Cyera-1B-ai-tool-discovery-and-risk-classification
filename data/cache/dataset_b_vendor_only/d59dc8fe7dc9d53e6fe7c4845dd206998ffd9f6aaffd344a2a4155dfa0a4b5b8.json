@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Unreal Engine** at **unrealengine.com** is **Epic Games, Inc.** (and its affiliate **Epic Games Commerce GmbH** / **Epic Games International S.à r.l.** for users outside the United States).\n\n### Evidence\n* **Terms of Service (`unrealengine.com`):** \n  > *\"The following terms and conditions ('Terms') apply to your use of the websites of Epic Games, Inc. and its affiliates ('Epic', 'we' 'us' or 'our'), including any content, functionality, products, and services offered on or through such websites...\"*\n* **Unreal Engine End User License Agreement (`unrealengine.com/eula`):** \n  > *\"In the United States of America the Epic entity entering into this Agreement with you is Epic Games, Inc. Outside of the United States of America the Epic entity entering into this Agreement with you is Epic Games Commerce, GmbH.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Unreal Engine** at **unrealengine.com** is **Epic Games, Inc.** (and its affiliate **Epic Games Commerce GmbH** / **Epic Games International S.à r.l.** for users outside the United States).",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEougpqt4Q3PRRmuYQHWahjQryXxuvq39IRQu1vfAi9qmSKefpkrL6xDtB6TC3IGZ87n71kYoiwJAq5mEUB_mrFA3VqO8qh8vAKz7oRyIvJ2XHA0ZnjiJqpejzaBtDXIxAoURvzJ5jl-1y9loSRgU9uFWVJFB3GSXzIsZwd4g5xTgcre61vFkkA4DlFPuDHAJElwt401G8iaB3V6i3v",
+          "title": "epicgames.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Unreal Engine** at **unrealengine.com** is **Epic Games, Inc.** (and its affiliate **Epic Games Commerce GmbH** / **Epic Games International S.à r.l.** for users outside the United States).",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbM24w23vkG5OVlEdDV7Xbsd8WuyKIwDXZ0ZGmAwBP1JZ-gavHX3Ld5-OG8mvGeDU17mMMRPPMFOVvNJxem6yEszzlxUhM75BornwvAtk3O3IF1NvDDNj9zXwk71-Fa5oww31HDLfq7kvwQU06fSzlBsH5XvfIJB4SLXSlKG5FHoKYZuc1RRvHCYt0jvCyck6Gbw==",
+          "title": "unrealengine.com"
+        },
+        {
+          "id": 2,
+          "text": "\"The following terms and conditions ('Terms') apply to your use of the websites of Epic Games, Inc. and its affiliates ('Epic', 'we' 'us' or 'our'), including any content, functionality, products, and services offered on or through such websites...\"*\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEXXn4CkpqvQEDE-A3uN5iHy3HaDL_0TCAEg7XqBMhJW2ktgVKs9NamRC6Bgjl5JPu_qxDsNdlMYAREECmlXg9aaE5dd3Mu8nQuoPnpiGjwKxca18tuLunDFyjgsn2ayI82PvBgGJUtSdcyJR0Pagi9GgkRvjqfcAzytCuMkHyOA==",
+          "title": "unrealengine.com"
+        },
+        {
+          "id": 3,
+          "text": "The following terms and conditions ('Terms') apply to your use of the websites of Epic Games, Inc. and its affiliates ('Epic', 'we' 'us' or 'our'), including any content, functionality, products, and services offered on or through such websit",
+          "url": "https://zh.scribd.com/document/361426283/Epic-Games-vs-Charles-Vraspir",
+          "title": ""
+        },
+        {
+          "id": 4,
+          "text": "In the United States of America the Epic entity entering into this Agreement with you is Epic Games, Inc. Outside of the United States of America the Epic entity entering into this Agreement with you is Epic Games Commerce",
+          "url": "https://cdn2.unrealengine.com/unreal-engine-end-user-license-agreement-18-1-a8e14000e547.pdf",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Epic Games, Inc.",
+        "evidence": "Passage 1 states directly that the vendor providing Unreal Engine at unrealengine.com is Epic Games, Inc.",
+        "source": {
+          "id": 1,
+          "text": "The vendor directly providing **Unreal Engine** at **unrealengine.com** is **Epic Games, Inc.** (and its affiliate **Epic Games Commerce GmbH** / **Epic Games International S.à r.l.** for users outside the United States).",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbM24w23vkG5OVlEdDV7Xbsd8WuyKIwDXZ0ZGmAwBP1JZ-gavHX3Ld5-OG8mvGeDU17mMMRPPMFOVvNJxem6yEszzlxUhM75BornwvAtk3O3IF1NvDDNj9zXwk71-Fa5oww31HDLfq7kvwQU06fSzlBsH5XvfIJB4SLXSlKG5FHoKYZuc1RRvHCYt0jvCyck6Gbw==",
+          "title": "unrealengine.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Unreal Engine",
+    "domain": "unrealengine.com",
+    "description": "Unreal Engine is a leading real-time 3D creation platform known for its advanced capabilities in generating photorealistic graphics and immersive experiences. It is widely used in various industries, including gaming, film, architecture, and virtual reality, making it a versatile tool for creators seeking high-quality visuals."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Epic Games, Inc.",
+  "evidence": "Passage 1 states directly that the vendor providing Unreal Engine at unrealengine.com is Epic Games, Inc.",
+  "source": {
+    "id": 1,
+    "text": "The vendor directly providing **Unreal Engine** at **unrealengine.com** is **Epic Games, Inc.** (and its affiliate **Epic Games Commerce GmbH** / **Epic Games International S.à r.l.** for users outside the United States).",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbM24w23vkG5OVlEdDV7Xbsd8WuyKIwDXZ0ZGmAwBP1JZ-gavHX3Ld5-OG8mvGeDU17mMMRPPMFOVvNJxem6yEszzlxUhM75BornwvAtk3O3IF1NvDDNj9zXwk71-Fa5oww31HDLfq7kvwQU06fSzlBsH5XvfIJB4SLXSlKG5FHoKYZuc1RRvHCYt0jvCyck6Gbw==",
+    "title": "unrealengine.com"
+  },
+  "checked_at": "2026-11-05T09:04:24.018672+00:00"
+}

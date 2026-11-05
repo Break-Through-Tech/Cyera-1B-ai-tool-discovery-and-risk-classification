@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software products and services at **corefiling.com** (including CoreFiling and its True North Data Platform suite) is **CoreFiling Limited**.\n\n### Evidence\n* **Legal notice & website footer:** *\"CoreFiling Limited is registered in England and Wales with number 03412339.\"*\n* **Terms and Conditions of Use:** *\"The term 'CoreFiling' or 'us' or 'we' refers to CoreFiling Limited, a company registered in England (number 3412339) with a registered office at 9 Bardwell Road, Oxford, OX2 6SU.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software products and services at **corefiling.com** (including CoreFiling and its True North Data Platform suite) is **CoreFiling Limited**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFy1vNYcEtO--fBAcJGtB9P29zaoV1_ZQ0LjzvMwhS0i0X8Y2LRzG_dhNxLVLbLE2upwaghTcV7YU65QFE4OUyKL7x2luzfbeeoPQGkuqIUGw==",
+          "title": "corefiling.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the software products and services at **corefiling.com** (including CoreFiling and its True North Data Platform suite) is **CoreFiling Limited**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpVCic69AW-FLQytP9rmMmqMAMh0__Y5AHS8tJbw5tCoTEJu7t6g1znJLMtzETZgelRMNH16Z1UwBuPpcGccxZFFFX1xzqp8Uuul2W2K-Q-0BFxwVDXQzG",
+          "title": "corefiling.com"
+        },
+        {
+          "id": 2,
+          "text": "The vendor directly providing the software products and services at **corefiling.com** (including CoreFiling and its True North Data Platform suite) is **CoreFiling Limited**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYOjys0MnMuK5_XaNOg4-rAVkcpcqVH2vEJxRYUYHRngMpZaD2AD6Q6cEOfgl1BfR2CEaQrl-91T48cJsHBQMeaHHj5ShmofdxCvhDL9YKsJACwZ07WdnelA==",
+          "title": "corefiling.com"
+        },
+        {
+          "id": 3,
+          "text": "**Legal notice & website footer:** *\"CoreFiling Limited is registered in England and Wales with number 03412339.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFy1vNYcEtO--fBAcJGtB9P29zaoV1_ZQ0LjzvMwhS0i0X8Y2LRzG_dhNxLVLbLE2upwaghTcV7YU65QFE4OUyKL7x2luzfbeeoPQGkuqIUGw==",
+          "title": "corefiling.com"
+        },
+        {
+          "id": 4,
+          "text": "**Legal notice & website footer:** *\"CoreFiling Limited is registered in England and Wales with number 03412339.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpVCic69AW-FLQytP9rmMmqMAMh0__Y5AHS8tJbw5tCoTEJu7t6g1znJLMtzETZgelRMNH16Z1UwBuPpcGccxZFFFX1xzqp8Uuul2W2K-Q-0BFxwVDXQzG",
+          "title": "corefiling.com"
+        },
+        {
+          "id": 5,
+          "text": "**Terms and Conditions of Use:** *\"The term 'CoreFiling' or 'us' or 'we' refers to CoreFiling Limited, a company registered in England (number 3412339) with a registered office at 9 Bardwell Road, Oxford, OX2 6SU.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhPn9YCsvJtkooMjHfC-wbUaXkUeAiwKDFuZr-C6i9c8WelJMvrsmOXfK1c4R9aL0v24ZbFGll5k7OtUKrRUNJTrkT1D-WRvhU6DHKNPOp919vgWpnaLMLG2sgDdag-na-QOrP-14EzEebh5VGkyK7ro2VuIUeGvgVFNY9JW_5y20kTjzfXOGd9QfSkqev7ojqIZEGlA==",
+          "title": "corefiling.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "CoreFiling Limited",
+        "evidence": "Passage 0 states that the vendor directly providing the software products and services at corefiling.com (including CoreFiling and its True North Data Platform suite) is CoreFiling Limited.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the software products and services at **corefiling.com** (including CoreFiling and its True North Data Platform suite) is **CoreFiling Limited**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFy1vNYcEtO--fBAcJGtB9P29zaoV1_ZQ0LjzvMwhS0i0X8Y2LRzG_dhNxLVLbLE2upwaghTcV7YU65QFE4OUyKL7x2luzfbeeoPQGkuqIUGw==",
+          "title": "corefiling.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "CoreFiling",
+    "domain": "corefiling.com",
+    "description": "CoreFiling is a technology company specializing in data collection and management solutions for corporate and regulatory reporting. With over 25 years of experience, they support various sectors including financial services, enterprises, and government organizations. Their flagship product, the True North Data Platform (TNDP), offers a comprehensive suite of applications and APIs designed to facilitate efficient data handling across complex ecosystems. CoreFiling's strong expertise in data modeling, quality, and standards positions them as a trusted partner for regulators and enterprises worldwide."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "CoreFiling Limited",
+  "evidence": "Passage 0 states that the vendor directly providing the software products and services at corefiling.com (including CoreFiling and its True North Data Platform suite) is CoreFiling Limited.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the software products and services at **corefiling.com** (including CoreFiling and its True North Data Platform suite) is **CoreFiling Limited**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFy1vNYcEtO--fBAcJGtB9P29zaoV1_ZQ0LjzvMwhS0i0X8Y2LRzG_dhNxLVLbLE2upwaghTcV7YU65QFE4OUyKL7x2luzfbeeoPQGkuqIUGw==",
+    "title": "corefiling.com"
+  },
+  "checked_at": "2026-11-05T10:03:38.671111+00:00"
+}

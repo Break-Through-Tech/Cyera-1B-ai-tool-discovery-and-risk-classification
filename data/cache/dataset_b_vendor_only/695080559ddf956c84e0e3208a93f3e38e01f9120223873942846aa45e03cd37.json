@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **BrowserStack** at **browserstack.com** is directly provided and operated by **BrowserStack, Inc.** (along with affiliated operating entities such as BrowserStack Limited in Ireland and BrowserStack Software Pvt. Ltd. in India).\n\n### Supporting Evidence & Citation:\n* **Privacy Policy (`browserstack.com/privacy`):**  \n  > *\"Your privacy is of paramount importance to BrowserStack, Inc. BrowserStack, Inc. and its affiliates are referred to collectively in this policy as “BrowserStack”, “we”, “us” or “our.” Our affiliates are: BrowserStack Inc. in the United States. BrowserStack Limited in Ireland. BrowserStack Software Pvt. Ltd. in India. Perceptual, Inc. in the United States.\"*\n* **Terms of Service (`browserstack.com/terms`):**  \n  Specifies that agreements governing the use of BrowserStack services are *\"governed by the laws of the State of Delaware and the United States\"* with disputes resolved in courts located in or encompassing New Castle County, Delaware.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **BrowserStack** at **browserstack.com** is directly provided and operated by **BrowserStack, Inc.** (along with affiliated operating entities such as BrowserStack Limited in Ireland and BrowserStack Software Pvt. Ltd. in India)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAVSKx28K4tFHUa6jR50r-abNtMVx_MiOhKafsOjMv8Lr-1ClIWDhurzcgt7sKDtloTijdUlDVxnM58X2Z_xihF3EA6S82jh3T9F4FKNP5TXcaXzl3l_fqaE0=",
+          "title": "browserstack.com"
+        },
+        {
+          "id": 1,
+          "text": " in the United States.\"*\n* **Terms of Se",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAVSKx28K4tFHUa6jR50r-abNtMVx_MiOhKafsOjMv8Lr-1ClIWDhurzcgt7sKDtloTijdUlDVxnM58X2Z_xihF3EA6S82jh3T9F4FKNP5TXcaXzl3l_fqaE0=",
+          "title": "browserstack.com"
+        },
+        {
+          "id": 2,
+          "text": "Your privacy is of paramount importance to BrowserStack, Inc. BrowserStack, Inc. and its affiliates are referred to collectively in this policy as “BrowserStack”, “we”, “us” or “our.” Our affiliates are: BrowserStack Inc. in the United States. BrowserStack Limited in Ireland. BrowserStack Software Pvt. Ltd. in India. Perceptual, Inc. in the United States",
+          "url": "https://www.browserstack.com/privacy",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "BrowserStack, Inc.",
+        "evidence": "BrowserStack at browserstack.com is directly provided and operated by BrowserStack, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The software product **BrowserStack** at **browserstack.com** is directly provided and operated by **BrowserStack, Inc.** (along with affiliated operating entities such as BrowserStack Limited in Ireland and BrowserStack Software Pvt. Ltd. in India)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAVSKx28K4tFHUa6jR50r-abNtMVx_MiOhKafsOjMv8Lr-1ClIWDhurzcgt7sKDtloTijdUlDVxnM58X2Z_xihF3EA6S82jh3T9F4FKNP5TXcaXzl3l_fqaE0=",
+          "title": "browserstack.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "BrowserStack",
+    "domain": "browserstack.com",
+    "description": "BrowserStack is a leading software testing platform that facilitates over two million tests daily from its 19 global data centers. It offers developers and QA teams cloud-based access to more than 3,500 real mobile devices and browsers, eliminating the need for extensive in-house testing infrastructure. Serving over 50,000 customers, including major corporations like Tesco, Shell, and Wells Fargo, BrowserStack enables teams to enhance software quality and accelerate development cycles."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "BrowserStack, Inc.",
+  "evidence": "BrowserStack at browserstack.com is directly provided and operated by BrowserStack, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The software product **BrowserStack** at **browserstack.com** is directly provided and operated by **BrowserStack, Inc.** (along with affiliated operating entities such as BrowserStack Limited in Ireland and BrowserStack Software Pvt. Ltd. in India)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAVSKx28K4tFHUa6jR50r-abNtMVx_MiOhKafsOjMv8Lr-1ClIWDhurzcgt7sKDtloTijdUlDVxnM58X2Z_xihF3EA6S82jh3T9F4FKNP5TXcaXzl3l_fqaE0=",
+    "title": "browserstack.com"
+  },
+  "checked_at": "2026-11-05T08:48:48.338315+00:00"
+}

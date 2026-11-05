@@ -1,0 +1,119 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product **StreamElements** at **streamelements.com** is **StreamElements Pte. Ltd.** (operating as a subsidiary under Razer).\n\n### Provider Statement\nAccording to the official **Terms of Use** on `streamelements.com`:\n> *\"These Terms of Use ('Terms') are offered to you by StreamElements Pte. Ltd. and its affiliates ('StreamElements', 'we', 'our', or 'us') and govern your use as a visitor or user to www.streamelements.com (together with its subdomains and Content... the 'Site'). The Site, together with StreamElements, Marks, App, Plug-In... and services are collectively referred to as the 'Services'.\"*\n\n(This is also affirmed in the site's official Privacy Policy, Copyright Policy, and Cookies Policy).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "Ltd.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfH0m92i37UwYunuNAAYSicb6Ay6bEXq0AvrwJ5JSiAmO7KkmGISu-9mRN2WpbjxwRNp9xfSX7QbvdV1f-OsA9xY1HDxhpNENK4p7kWy-dMoFYdEqaIg==",
+          "title": "streamelements.com"
+        },
+        {
+          "id": 1,
+          "text": "Ltd.** (operating as a subsidiary under Razer)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvCi0viT2LQZL35UTuqaVh4Drj3XBAm---x70ubGbfukc6vXI2THedee4Smp_rCyAArzlrIBTG-kWl1E6pNgBaZ9IayfnU7pdGCZj7THOxkqefXbbNL3I_02vLMN0j4VoLEWxb1iFlh_aoxr6jDzjKRnr2-NC5BMd9C0V8LDos2e9Yy7Wo4cqg3A==",
+          "title": "streamelements.com"
+        },
+        {
+          "id": 2,
+          "text": "The Site, together with StreamElements, Marks, App, Plug-In... and services are collectively referred to as the 'Services'.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfH0m92i37UwYunuNAAYSicb6Ay6bEXq0AvrwJ5JSiAmO7KkmGISu-9mRN2WpbjxwRNp9xfSX7QbvdV1f-OsA9xY1HDxhpNENK4p7kWy-dMoFYdEqaIg==",
+          "title": "streamelements.com"
+        },
+        {
+          "id": 3,
+          "text": "(This is also affirmed in the site's official Privacy Policy, Copyright Policy, and Cookies Policy)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEe5MB_-1b02Z2FgSKb1LJW1lJkCNZr2kUTRvP2LSmIWuERROJS1h00028G2cfVW3Rs1cMlv4gtYaIL1pwHbJArmZi0nYiHCJMkUn_OISt-sUVvbBGCpt4=",
+          "title": "streamelements.com"
+        },
+        {
+          "id": 4,
+          "text": "(This is also affirmed in the site's official Privacy Policy, Copyright Policy, and Cookies Policy)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4AOOVUmX5L7Etbw1lquNML-o9AS2nq4whYlXxVO1rm_gn-r648aLJBj39UEx6XA7XFJFgWxCjsvttKdGlgfZXs5EMo2cdiUiqhmHMngIKpSwjGjztKxrE6A==",
+          "title": "streamelements.com"
+        },
+        {
+          "id": 5,
+          "text": "(This is also affirmed in the site's official Privacy Policy, Copyright Policy, and Cookies Policy)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQVV97pWL5TwEO9Hyl_1fJBRVdfLvAfLZprOUogx6lawnEQcQs1Q-F1d4gqT1dX2smRpnjql1tdWtNGifv2md7_GwADZg97OszOwMqpMXmtCn7-HWYoWU=",
+          "title": "streamelements.com"
+        }
+      ],
+      "result": {
+        "status": "unknown",
+        "vendor": "UNKNOWN",
+        "evidence": "The provided passages contain only incomplete fragments and do not clearly state the full vendor or operating entity for StreamElements."
+      }
+    },
+    {
+      "answer": "The software product **StreamElements** provided at **streamelements.com** is directly operated and provided by **StreamElements Pte. Ltd.** (a Razer subsidiary following the acquisition of StreamElements' assets from Live Momentum Ltd.).\n\n### Evidence\n* **Terms of Use** (`streamelements.com/terms`):\n  > *\"Welcome to StreamElements. These Terms of Use ('Terms') are offered to you by StreamElements Pte. Ltd. and its affiliates ('StreamElements', 'we', 'our', or 'us') and govern your use as a visitor or user to www.streamelements.com...\"*\n\n* **Privacy Policy** (`streamelements.com/privacy`):\n  > *\"StreamElements Pte. Ltd. and its affiliates ('StreamElements', 'we', 'our', or 'us') are committed to safeguarding the privacy of our customers and users ('you', 'your')... This Privacy Policy ('Privacy Policy') governs your use as a visitor and/or user to the Site...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "Ltd.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_DpzoMwvi2b2RRSmmUlAetjYSfnN2i9jsYL7iLHvZAqJ5nDtOCNPPAOktHBIrLcnlNqPEzphO65O8wyaZk5CEaPqJg8RUaOXM6SLQyebfzJOgJ-6X",
+          "title": "streamelements.com"
+        },
+        {
+          "id": 1,
+          "text": "Ltd.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKF9eWxF2CYoGPEluebro51t2uTo3k3EjTkzl3nQ076CxJs_b2P7wJHOqtsuYMxDrcZKj6OCpYRZs0rMVBJ37MOQzXRcFW-FNFw2ewMmEow5pByBGMKL8V",
+          "title": "streamelements.com"
+        },
+        {
+          "id": 2,
+          "text": "Ltd.** (a Razer subsidiary following the acquisition of StreamElements' assets from Live Momentum Ltd.)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_jtTAnAvmJR4xgCkCd8VR55SJG3eegQ1rB5mfw1O1k7TMym2Vzs4bd4VL4YHI4pyeMe365agnqXC0zQ9PQE7_f1XFgXi7gHhNG4j_qj7KGGD3yOh_VreQhGr0o-wmVHDWSQ_xhwlMilWzTaFwpZpUjBbgMNEOS7ofB2dH",
+          "title": "razer.com"
+        },
+        {
+          "id": 3,
+          "text": "Ltd.** (a Razer subsidiary following the acquisition of StreamElements' assets from Live Momentum Ltd.)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_mFKRoYqCch9PrHVlhRTmyYsSXbZecljs6r6g17QuUwoGQNZxvg9NYeazRy83x9HusEm4GekMGUqiaMQYLjp8PHlVKgMLj6mVLOdQ9bSZyUorv3XGAjS5Vz6CHOeWJ2WwGKNNsQo=",
+          "title": "razer.com"
+        },
+        {
+          "id": 4,
+          "text": "Ltd. and its affiliates ('StreamElements', 'we', 'our', or 'us') and govern your use as a visitor or user to www.streamelements.com...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_DpzoMwvi2b2RRSmmUlAetjYSfnN2i9jsYL7iLHvZAqJ5nDtOCNPPAOktHBIrLcnlNqPEzphO65O8wyaZk5CEaPqJg8RUaOXM6SLQyebfzJOgJ-6X",
+          "title": "streamelements.com"
+        },
+        {
+          "id": 5,
+          "text": "This Privacy Policy ('Privacy Policy') governs your use as a visitor and/or user to the Site...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKF9eWxF2CYoGPEluebro51t2uTo3k3EjTkzl3nQ076CxJs_b2P7wJHOqtsuYMxDrcZKj6OCpYRZs0rMVBJ37MOQzXRcFW-FNFw2ewMmEow5pByBGMKL8V",
+          "title": "streamelements.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "StreamElements",
+        "evidence": "Passage 4 indicates that the terms governing the use of www.streamelements.com are offered by the entity and its affiliates identified as 'StreamElements'.",
+        "source": {
+          "id": 4,
+          "text": "Ltd. and its affiliates ('StreamElements', 'we', 'our', or 'us') and govern your use as a visitor or user to www.streamelements.com...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_DpzoMwvi2b2RRSmmUlAetjYSfnN2i9jsYL7iLHvZAqJ5nDtOCNPPAOktHBIrLcnlNqPEzphO65O8wyaZk5CEaPqJg8RUaOXM6SLQyebfzJOgJ-6X",
+          "title": "streamelements.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "StreamElements",
+    "domain": "streamelements.com",
+    "description": "StreamElements is a leading platform offering tools and services for livestream and video production, focusing on monetization, audience engagement, and influencer marketing. It provides content creators with free cloud-based overlays, alerts, chatbots, and various sponsorship opportunities. Serving millions of creators across popular platforms like Twitch, YouTube, Twitter, and TikTok, StreamElements also facilitates brand connections through performance marketing campaigns."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "StreamElements",
+  "evidence": "Passage 4 indicates that the terms governing the use of www.streamelements.com are offered by the entity and its affiliates identified as 'StreamElements'.",
+  "source": {
+    "id": 4,
+    "text": "Ltd. and its affiliates ('StreamElements', 'we', 'our', or 'us') and govern your use as a visitor or user to www.streamelements.com...\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_DpzoMwvi2b2RRSmmUlAetjYSfnN2i9jsYL7iLHvZAqJ5nDtOCNPPAOktHBIrLcnlNqPEzphO65O8wyaZk5CEaPqJg8RUaOXM6SLQyebfzJOgJ-6X",
+    "title": "streamelements.com"
+  },
+  "checked_at": "2026-11-05T10:08:47.167296+00:00"
+}

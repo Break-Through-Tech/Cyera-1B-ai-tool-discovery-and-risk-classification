@@ -1,0 +1,91 @@
+{
+  "attempts": [
+    {
+      "answer": "The software platform **Digistore24** at **digistore24.com** is directly operated and provided by **Digistore24 GmbH** (the original German operating entity), operating internationally alongside regional entities including **Digistore24 Inc.** (US/Americas) and **Digistore24 MSLW Limited** (Ireland/EU).\n\n### Evidence and Provider Statements\n* **Digistore24 GmbH** (Germany/DACH): \n  * The *Terms and Conditions of Digistore24 for Buyers* state: *“The terms and conditions... shall apply to the free use of the online platform www.digistore24.com... as well as for all contracts concluded via the same between Digistore24 GmbH, St.-Godehard-Straße 32, 31139 Hildesheim... and you as our customer”*. \n  * The German privacy notice and imprint identify the responsible data controller and platform operator as: *“Digistore24 GmbH, St.-Godehard-Straße 32, 31139 Hildesheim, Germany”*.\n* **Digistore24 Inc.** (United States / Global): \n  * The *Terms of Sale and Conditions of Use* define: *“Your use of https://www.digistore24.com/, including any sub-domains thereof, affiliated websites, and mobile applications... which are owned and maintained by Digistore24 Inc. (‘Digistore24,’ ‘we,’ ‘our,’ ‘us’)”*.\n* **Digistore24 MSLW Limited** (Ireland / Europe):\n  * The European *Terms of Sale and Conditions of Use* state: *“Your use of www.digistore24.com... which are owned and/ or licensed and maintained by Digistore24 MSLW Limited, Ormond Building, 31-36 Ormond Quay Upper, Dublin 7, D07 EE37, Ireland... are governed by the policies, terms, and conditions set forth below”*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software platform **Digistore24** at **digistore24.com** is directly operated and provided by **Digistore24 GmbH** (the original German operating entity)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEl87jp-XLUckLNuX-kMKypKCc74MIjCLF917ekwPNkOQYXTqsm1qrNX2oz0SYo9PTDj_XYbSexasDTXtBECfpzMiSlOwNgTINSJn3h4iFxvTbb5HRxxOn7A5is3IjmDQ91342bFrwr9lZ9AyoNnyX4eevookebm5r-VvdN",
+          "title": "digistore24.com"
+        },
+        {
+          "id": 1,
+          "text": "The software platform **Digistore24** at **digistore24.com** is directly operated and provided by **Digistore24 GmbH** (the original German operating entity)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvzz6GpOEak-_1clhkv5Mgzp5vWOxSe820cNX4MgBnNnUpxrf7HnyxkUSy6tPFVlUfrdGRN1Y1nTwZTQSXEzt9KeZPlhOZvCUahUweBhwIpIe7svwhw_IQU8a60gu0G2JuHiHtyQZbVuuyKFBJlJFjjeF6sYO3sJD9fw==",
+          "title": "digistore24.com"
+        },
+        {
+          "id": 2,
+          "text": "The software platform **Digistore24** at **digistore24.com** is directly operated and provided by **Digistore24 GmbH** (the original German operating entity), operating internationally alongside regional entities including **Digistore24 Inc.** (US/Americas)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH59GhuSTzZ-TH3Xo8gvB688mrMh52E-7noL2lVq_DNrgicuTjeI297cA-sTMQcc4VmfOC9L1EN9637E837UAe1xUkTXP07cuoFfZAcSNPS3Sm-L5iRdqqhcU33Ww22ETkzUa5TTL0PsTJ7H4e6aroUZ8YmoY053HCpbaQ=",
+          "title": "digistore24.com"
+        },
+        {
+          "id": 3,
+          "text": "The software platform **Digistore24** at **digistore24.com** is directly operated and provided by **Digistore24 GmbH** (the original German operating entity), operating internationally alongside regional entities including **Digistore24 Inc.** (US/Americas)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEU1UDzyJWC6RZwmrxG68OOwGxm4vQGrHSzMFrS_tqZOCbVVPwQ_DnnTSB18HZV6uFnf7Fd3pf8p3g8w7zzu2lZMBzo88uezx41KLvddeFALJ_uaCtiqrfYTevorkl4es4Q-gvZYP2T2Eq5J3MAwHd0yA2o0U4At6Sf9fXa",
+          "title": "digistore24.com"
+        },
+        {
+          "id": 4,
+          "text": "The software platform **Digistore24** at **digistore24.com** is directly operated and provided by **Digistore24 GmbH** (the original German operating entity), operating internationally alongside regional entities including **Digistore24 Inc.** (US/Americas) and **Digistore24 MSLW Limited** (Ireland/EU)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcHxxu3c8mkhwRgD15iqDIAgj-YICe_GLDAexBo52yLB8lhIOMlRsO4FjeaWigUmT5wceYQunTd1RycMN_kt0AvmExfeFaHHFiR72UWxcQ0FJsa_P3nsbmH2B5a0rYSkXUjgY7070=",
+          "title": "digistore24.com"
+        },
+        {
+          "id": 5,
+          "text": "The software platform **Digistore24** at **digistore24.com** is directly operated and provided by **Digistore24 GmbH** (the original German operating entity), operating internationally alongside regional entities including **Digistore24 Inc.** (US/Americas) and **Digistore24 MSLW Limited** (Ireland/EU)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdAakY5G2chgsbXrlaM_KVNKXVFHahvYfv2pA3SR28RzQp8HIIBe54dmzVg-zFXC5UPjykdec8Iqn3xR6fl9w5KhgzD8YeswGhPOwZAqXRq8zA2GRewCeX1wcPSo-h8_zS",
+          "title": "digistore24.com"
+        },
+        {
+          "id": 6,
+          "text": "The *Terms and Conditions of Digistore24 for Buyers* state: *“The terms and conditions... shall apply to the free use of the online platform www.digistore24.com... as well as for all contracts concluded via the same between Digistore24 GmbH, St.-Godehard-Straße 32, 31139 Hildesheim... and you as our customer”*. \n  ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEl87jp-XLUckLNuX-kMKypKCc74MIjCLF917ekwPNkOQYXTqsm1qrNX2oz0SYo9PTDj_XYbSexasDTXtBECfpzMiSlOwNgTINSJn3h4iFxvTbb5HRxxOn7A5is3IjmDQ91342bFrwr9lZ9AyoNnyX4eevookebm5r-VvdN",
+          "title": "digistore24.com"
+        },
+        {
+          "id": 7,
+          "text": "erman privacy notice and imprint identify the responsible data controller and platform operator as: *“Digistore24 GmbH, St.-Godehard-Straße 32, 31139 Hildesheim, Germany”*.\n* **Digi",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvzz6GpOEak-_1clhkv5Mgzp5vWOxSe820cNX4MgBnNnUpxrf7HnyxkUSy6tPFVlUfrdGRN1Y1nTwZTQSXEzt9KeZPlhOZvCUahUweBhwIpIe7svwhw_IQU8a60gu0G2JuHiHtyQZbVuuyKFBJlJFjjeF6sYO3sJD9fw==",
+          "title": "digistore24.com"
+        },
+        {
+          "id": 8,
+          "text": " of Sale and Conditions of Use* define: *“Your use of https://www.digistore24.com/, including any sub-domains thereof, affiliated websites, and mobile applications... which are owned and maintained by Digistore24 Inc. (‘Digistore24,’ ‘we,’ ‘our,’ ‘us’)”*.\n* **Digistore24 MSLW Limited",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEU1UDzyJWC6RZwmrxG68OOwGxm4vQGrHSzMFrS_tqZOCbVVPwQ_DnnTSB18HZV6uFnf7Fd3pf8p3g8w7zzu2lZMBzo88uezx41KLvddeFALJ_uaCtiqrfYTevorkl4es4Q-gvZYP2T2Eq5J3MAwHd0yA2o0U4At6Sf9fXa",
+          "title": "digistore24.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Digistore24 GmbH",
+        "evidence": "Passage 0 states that the software platform Digistore24 at digistore24.com is directly operated and provided by Digistore24 GmbH.",
+        "source": {
+          "id": 0,
+          "text": "The software platform **Digistore24** at **digistore24.com** is directly operated and provided by **Digistore24 GmbH** (the original German operating entity)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEl87jp-XLUckLNuX-kMKypKCc74MIjCLF917ekwPNkOQYXTqsm1qrNX2oz0SYo9PTDj_XYbSexasDTXtBECfpzMiSlOwNgTINSJn3h4iFxvTbb5HRxxOn7A5is3IjmDQ91342bFrwr9lZ9AyoNnyX4eevookebm5r-VvdN",
+          "title": "digistore24.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Digistore24",
+    "domain": "digistore24.com",
+    "description": "Digistore24 is a German reselling and affiliate marketing platform specializing in digital products. Established over a decade ago, the company is committed to helping entrepreneurs automate their businesses and share their knowledge with millions. By simplifying and automating business processes, Digistore24 empowers both large and small businesses to establish and grow their online presence in a rapidly expanding industry."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Digistore24 GmbH",
+  "evidence": "Passage 0 states that the software platform Digistore24 at digistore24.com is directly operated and provided by Digistore24 GmbH.",
+  "source": {
+    "id": 0,
+    "text": "The software platform **Digistore24** at **digistore24.com** is directly operated and provided by **Digistore24 GmbH** (the original German operating entity)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEl87jp-XLUckLNuX-kMKypKCc74MIjCLF917ekwPNkOQYXTqsm1qrNX2oz0SYo9PTDj_XYbSexasDTXtBECfpzMiSlOwNgTINSJn3h4iFxvTbb5HRxxOn7A5is3IjmDQ91342bFrwr9lZ9AyoNnyX4eevookebm5r-VvdN",
+    "title": "digistore24.com"
+  },
+  "checked_at": "2026-11-05T08:16:46.817315+00:00"
+}

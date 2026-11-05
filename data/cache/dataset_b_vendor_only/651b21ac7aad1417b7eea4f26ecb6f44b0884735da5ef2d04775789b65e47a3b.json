@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software platform at **hootsuite.com** (for **Hootsuite**) is **Hootsuite Inc.**.\n\n### Evidence & Provider Statements\nAccording to the official **Hootsuite Self-Serve Terms of Service** (and corresponding Enterprise Terms):\n> *\"By accessing or using the Self-Serve Services offered by Hootsuite Inc. (“Hootsuite”, “we”, “us” or “our”), you are confirming that you have read, understand and accept this Agreement.\"*\n\nAdditionally, the **Hootsuite Enterprise Terms of Service** state:\n> *\"By purchasing, accessing or using the Enterprise Services offered by Hootsuite Inc. (“Hootsuite”, “we”, “us”, or “our”), you are confirming that you have read, understand and accept this Agreement.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software platform at **hootsuite.com** (for **Hootsuite**) is **Hootsuite Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGO7XWtv_fi8hr8zl-Jrhy_Ntm4hJqi2Ni34fOEh8zmW-gVG06djjekYu1mHJqp0VJi-9-4S8201oQeklwXDrL5Rk9yUjv7F0-snXx_C2kynFQBSgPRn9sRw70=",
+          "title": "hootsuite.com"
+        },
+        {
+          "id": 1,
+          "text": "*\"By accessing or using the Self-Serve Services offered by Hootsuite Inc. (“Hootsuite”, “we”, “us” or “our”), you are confirming that you have read, understand and accept this Agreement.\"*\n\nAdditionally, ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGO7XWtv_fi8hr8zl-Jrhy_Ntm4hJqi2Ni34fOEh8zmW-gVG06djjekYu1mHJqp0VJi-9-4S8201oQeklwXDrL5Rk9yUjv7F0-snXx_C2kynFQBSgPRn9sRw70=",
+          "title": "hootsuite.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Hootsuite Inc.",
+        "evidence": "Passage 0 explicitly identifies Hootsuite Inc. as the vendor directly providing the software platform at hootsuite.com for Hootsuite.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the software platform at **hootsuite.com** (for **Hootsuite**) is **Hootsuite Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGO7XWtv_fi8hr8zl-Jrhy_Ntm4hJqi2Ni34fOEh8zmW-gVG06djjekYu1mHJqp0VJi-9-4S8201oQeklwXDrL5Rk9yUjv7F0-snXx_C2kynFQBSgPRn9sRw70=",
+          "title": "hootsuite.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Hootsuite",
+    "domain": "hootsuite.com",
+    "description": "Hootsuite is a leading social media management platform that empowers brands to optimize their social strategies and enhance customer interactions. With a comprehensive suite of tools for conducting social campaigns, managing customer conversations, and providing social commerce solutions, Hootsuite caters to thousands of businesses globally. Additionally, Hootsuite Academy offers online education and certification programs to help professionals develop essential social media skills, ensuring users can maximize their effectiveness on the platform."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Hootsuite Inc.",
+  "evidence": "Passage 0 explicitly identifies Hootsuite Inc. as the vendor directly providing the software platform at hootsuite.com for Hootsuite.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the software platform at **hootsuite.com** (for **Hootsuite**) is **Hootsuite Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGO7XWtv_fi8hr8zl-Jrhy_Ntm4hJqi2Ni34fOEh8zmW-gVG06djjekYu1mHJqp0VJi-9-4S8201oQeklwXDrL5Rk9yUjv7F0-snXx_C2kynFQBSgPRn9sRw70=",
+    "title": "hootsuite.com"
+  },
+  "checked_at": "2026-11-05T09:33:34.943203+00:00"
+}

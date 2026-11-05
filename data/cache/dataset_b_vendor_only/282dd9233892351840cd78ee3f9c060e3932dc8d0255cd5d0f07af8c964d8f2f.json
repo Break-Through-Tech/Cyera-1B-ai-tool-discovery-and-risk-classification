@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The operating vendor directly providing **WOXO** (at the domain **short.woxo.tech** / **woxo.tech**) is **Front10 LLC**.\n\n### Supporting Evidence:\n* **Terms of Service:** \n  > *\"Subject to these Terms of Service (this “Agreement”), Front10 LLC. (“Front10”, “we”, “us” and/or “our”) provides access to WOXO's cloud platform, including, without limitation, this website, certain API's and domain registration services (collectively, the “Services”).\"*\n* **Privacy Policy:** \n  > *\"Welcome to https://woxo.tech hosted by Front10, LLC (“Front10”, “we”, “us” and/or “our”)... This application, Woxo, managed by Front10, requests access to Google user Account to enhance user experience...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The operating vendor directly providing **WOXO** (at the domain **short.woxo.tech** / **woxo.tech**) is **Front10 LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJS3iZaRrJsl6P1UxWKg5BLHag3-ZJLZO1wjPrKVBXTRvJ_Yn1s-Apqb7v42wuPLZcAgpeODq7sVN_bp9QIhGjI8CO52JizINadDYxVNSvuQ5LRlumRHQ=",
+          "title": "woxo.tech"
+        },
+        {
+          "id": 1,
+          "text": "The operating vendor directly providing **WOXO** (at the domain **short.woxo.tech** / **woxo.tech**) is **Front10 LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETJ7xML93BYLFNM9XW-bC0ddSlrqftXIM9S_YLsmCEQwyer2n_wyJWkTiHHeNWdk9DWP_7_YThdl7koD6od8Ej870xFRuqJABq7ynVTZRlQTWubgbpug==",
+          "title": "woxo.tech"
+        },
+        {
+          "id": 2,
+          "text": "ont10”, “we”, “us” and/or “our”) provides access to WOXO's cloud platform, including, without limitation, this website, certain API's and domain registration services (collectively, the “Services”).\"*\n* **Privacy Policy:** \n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJS3iZaRrJsl6P1UxWKg5BLHag3-ZJLZO1wjPrKVBXTRvJ_Yn1s-Apqb7v42wuPLZcAgpeODq7sVN_bp9QIhGjI8CO52JizINadDYxVNSvuQ5LRlumRHQ=",
+          "title": "woxo.tech"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Front10 LLC",
+        "evidence": "Passage 0 explicitly states that the operating vendor directly providing WOXO (at the domain short.woxo.tech / woxo.tech) is Front10 LLC.",
+        "source": {
+          "id": 0,
+          "text": "The operating vendor directly providing **WOXO** (at the domain **short.woxo.tech** / **woxo.tech**) is **Front10 LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJS3iZaRrJsl6P1UxWKg5BLHag3-ZJLZO1wjPrKVBXTRvJ_Yn1s-Apqb7v42wuPLZcAgpeODq7sVN_bp9QIhGjI8CO52JizINadDYxVNSvuQ5LRlumRHQ=",
+          "title": "woxo.tech"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "WOXO",
+    "domain": "short.woxo.tech",
+    "description": "Convert text into stunning AI-generated videos."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Front10 LLC",
+  "evidence": "Passage 0 explicitly states that the operating vendor directly providing WOXO (at the domain short.woxo.tech / woxo.tech) is Front10 LLC.",
+  "source": {
+    "id": 0,
+    "text": "The operating vendor directly providing **WOXO** (at the domain **short.woxo.tech** / **woxo.tech**) is **Front10 LLC**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJS3iZaRrJsl6P1UxWKg5BLHag3-ZJLZO1wjPrKVBXTRvJ_Yn1s-Apqb7v42wuPLZcAgpeODq7sVN_bp9QIhGjI8CO52JizINadDYxVNSvuQ5LRlumRHQ=",
+    "title": "woxo.tech"
+  },
+  "checked_at": "2026-11-05T06:54:45.341502+00:00"
+}

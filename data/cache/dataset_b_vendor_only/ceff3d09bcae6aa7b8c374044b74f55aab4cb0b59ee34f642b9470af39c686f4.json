@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on the official legal documentation for **DupliChecker** at **duplichecker.com**, the operating company and direct provider of the service is **DupliChecker.com, Inc.**\n\n### Provider Citation\nFrom the official Privacy Policy on `duplichecker.com`:\n> *\"All the way through this policy, know that when we write 'DupliChecker.com' or 'we' or 'us', it means that we speak of **DupliChecker.com, Inc.**, a corporation, and our subsidiaries and other affiliates.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "Based on the official legal documentation for **DupliChecker** at **duplichecker.com**, the operating company and direct provider of the service is **DupliChecker.com, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1z24iZb43-JebnBFj9Bep4vudx2ygeV7UQZIxksSwDmHyglLIhJ0HhdsVBpY-5LSMxZjDUWXwIZGvTdMxjbsTh2cLVVBWc_AoGOU77Ij_dW8byysPeuS7Fya_5Dy_5BLi",
+          "title": "duplichecker.com"
+        },
+        {
+          "id": 1,
+          "text": "*\"All the way through this policy, know that when we write 'DupliChecker.com' or 'we' or 'us', it means that we speak of **DupliChecker.com, Inc.**, a corporation, and our subsidiaries and other affiliates.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1z24iZb43-JebnBFj9Bep4vudx2ygeV7UQZIxksSwDmHyglLIhJ0HhdsVBpY-5LSMxZjDUWXwIZGvTdMxjbsTh2cLVVBWc_AoGOU77Ij_dW8byysPeuS7Fya_5Dy_5BLi",
+          "title": "duplichecker.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "DupliChecker.com, Inc.",
+        "evidence": "Passage 0 states that based on the official legal documentation for DupliChecker at duplichecker.com, the operating company and direct provider of the service is DupliChecker.com, Inc.",
+        "source": {
+          "id": 0,
+          "text": "Based on the official legal documentation for **DupliChecker** at **duplichecker.com**, the operating company and direct provider of the service is **DupliChecker.com, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1z24iZb43-JebnBFj9Bep4vudx2ygeV7UQZIxksSwDmHyglLIhJ0HhdsVBpY-5LSMxZjDUWXwIZGvTdMxjbsTh2cLVVBWc_AoGOU77Ij_dW8byysPeuS7Fya_5Dy_5BLi",
+          "title": "duplichecker.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Duplichecker",
+    "domain": "duplichecker.com",
+    "description": "Text plagiarism detection."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "DupliChecker.com, Inc.",
+  "evidence": "Passage 0 states that based on the official legal documentation for DupliChecker at duplichecker.com, the operating company and direct provider of the service is DupliChecker.com, Inc.",
+  "source": {
+    "id": 0,
+    "text": "Based on the official legal documentation for **DupliChecker** at **duplichecker.com**, the operating company and direct provider of the service is **DupliChecker.com, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1z24iZb43-JebnBFj9Bep4vudx2ygeV7UQZIxksSwDmHyglLIhJ0HhdsVBpY-5LSMxZjDUWXwIZGvTdMxjbsTh2cLVVBWc_AoGOU77Ij_dW8byysPeuS7Fya_5Dy_5BLi",
+    "title": "duplichecker.com"
+  },
+  "checked_at": "2026-11-05T07:32:45.184029+00:00"
+}

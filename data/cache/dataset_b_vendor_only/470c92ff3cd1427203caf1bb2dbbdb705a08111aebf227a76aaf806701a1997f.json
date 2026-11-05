@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on the official Terms and Conditions and Privacy Policy for **isFake.ai** (`isfake.ai`), the vendor directly providing the software product is **PE Shkriaba Olga Sergey**.\n\n* **Provider Statement:** Both legal documents define the provider as: \n  > *\"Company (referred to as either 'the Company', 'We', 'Us' or 'Our' in these Terms and Conditions) refers to PE Shkriaba Olga Sergey, Armenia, Yerevan, Davit Malyan Street 31/7 0077.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "Based on the official Terms and Conditions and Privacy Policy for **isFake.ai** (`isfake.ai`), the vendor directly providing the software product is **PE Shkriaba Olga Sergey**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRKA1Me0OeR3QHCepu1ZTqO-X9ChKyjDKeqZZdXrBZ9xh5zuvSnB93_Gy_WrJKcz0N4TEjwq5dWV6M3gjkZieVVCyh3P-G-s398xENL7zWtWhD",
+          "title": "isfake.ai"
+        },
+        {
+          "id": 1,
+          "text": "Based on the official Terms and Conditions and Privacy Policy for **isFake.ai** (`isfake.ai`), the vendor directly providing the software product is **PE Shkriaba Olga Sergey**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuheWP7capL_zWt9OjxqtpNvcnzxNvq_KHseucaFPQZBZ8z1QztTGLKwjBKJsyFMR0zLWcm2Z5v3zCWh9K2n77KS3MFB94JGVT9vnpCelzafTuqvM=",
+          "title": "isfake.ai"
+        },
+        {
+          "id": 2,
+          "text": "*\"Company (referred to as either 'the Company', 'We', 'Us' or 'Our' in these Terms and Conditions) refers to PE Shkriaba Olga Sergey, Armenia, Yerevan, Davit Malyan Street 31/7 0077.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRKA1Me0OeR3QHCepu1ZTqO-X9ChKyjDKeqZZdXrBZ9xh5zuvSnB93_Gy_WrJKcz0N4TEjwq5dWV6M3gjkZieVVCyh3P-G-s398xENL7zWtWhD",
+          "title": "isfake.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "PE Shkriaba Olga Sergey",
+        "evidence": "Passage 0 confirms that according to the official Terms and Conditions and Privacy Policy for isFake.ai (isfake.ai), the vendor directly providing the software product is PE Shkriaba Olga Sergey.",
+        "source": {
+          "id": 0,
+          "text": "Based on the official Terms and Conditions and Privacy Policy for **isFake.ai** (`isfake.ai`), the vendor directly providing the software product is **PE Shkriaba Olga Sergey**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRKA1Me0OeR3QHCepu1ZTqO-X9ChKyjDKeqZZdXrBZ9xh5zuvSnB93_Gy_WrJKcz0N4TEjwq5dWV6M3gjkZieVVCyh3P-G-s398xENL7zWtWhD",
+          "title": "isfake.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "isFake.ai",
+    "domain": "isfake.ai",
+    "description": "Detect AI-generated text, images, video, and audio."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "PE Shkriaba Olga Sergey",
+  "evidence": "Passage 0 confirms that according to the official Terms and Conditions and Privacy Policy for isFake.ai (isfake.ai), the vendor directly providing the software product is PE Shkriaba Olga Sergey.",
+  "source": {
+    "id": 0,
+    "text": "Based on the official Terms and Conditions and Privacy Policy for **isFake.ai** (`isfake.ai`), the vendor directly providing the software product is **PE Shkriaba Olga Sergey**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRKA1Me0OeR3QHCepu1ZTqO-X9ChKyjDKeqZZdXrBZ9xh5zuvSnB93_Gy_WrJKcz0N4TEjwq5dWV6M3gjkZieVVCyh3P-G-s398xENL7zWtWhD",
+    "title": "isfake.ai"
+  },
+  "checked_at": "2026-11-05T07:31:25.422015+00:00"
+}

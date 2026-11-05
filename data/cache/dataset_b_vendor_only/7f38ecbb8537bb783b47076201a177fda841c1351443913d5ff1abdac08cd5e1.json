@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software platform **Greenhouse** at **greenhouse.com** is **Greenhouse Software, Inc.**\n\n### Evidence\nAccording to the official **Master Subscription Agreement** on `greenhouse.com`:\n> *\"This Master Subscription Agreement (“MSA”) governs Greenhouse's provision of Greenhouse Services, and Customer's use thereof, pursuant to an Order Form executed between Greenhouse Software, Inc. (“Greenhouse”) and the entity placing an order for Greenhouse Services (“Customer”)...\"*\n\nAdditionally, the legal **Data Processing Addendum** on `greenhouse.com` defines the contracting provider as:\n> *\"Greenhouse Software, Inc., a company whose registered office is at 228 Park Avenue S, PMB 14744, New York, NY 10003-1502 USA ('Greenhouse').\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software platform **Greenhouse** at **greenhouse.com** is **Greenhouse Software, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiof73uc0u5WF0yI9uWUN9N38lx-HIy219TO8DQ_EX9oMYy9-DVbupc0KiV9uF-QX_NcVTDIlofZFoeLGtspTjACMGvnKe3cNW7N3HD0KlwTTt4dzDRcGXbtYOREzbBG384rTEWEs_xZry-EGu0aMgISXVqOMK8i3Rrqm0yMgyW6rbD3tB0wu6Efk=",
+          "title": "greenhouse.io"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the software platform **Greenhouse** at **greenhouse.com** is **Greenhouse Software, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEob43NrMM4ya7RpXXGkAcNI_Dbxk4n4xLpw6x3KHyDfstCVta3_H_1IHih4gz9-hCUcBoAo0-lQjj2dg-7hQkN6aydIPeTb8SuJXPQHl-Fkk39g_2ET-8lihQ3BjeY48twkAIMkxgXGaS5jRHFZw==",
+          "title": "greenhouse.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"This Master Subscription Agreement (“MSA”) governs Greenhouse's provision of Greenhouse Services, and Customer's use thereof, pursuant to an Order Form executed between Greenhouse Software, Inc. (“Greenhouse”) and the entity placing an order for Greenhouse Services (“Customer”)...\"*\n\nAdditional",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEob43NrMM4ya7RpXXGkAcNI_Dbxk4n4xLpw6x3KHyDfstCVta3_H_1IHih4gz9-hCUcBoAo0-lQjj2dg-7hQkN6aydIPeTb8SuJXPQHl-Fkk39g_2ET-8lihQ3BjeY48twkAIMkxgXGaS5jRHFZw==",
+          "title": "greenhouse.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Greenhouse Software, Inc.",
+        "evidence": "Passage 1 explicitly states that the vendor directly providing the software platform Greenhouse at greenhouse.com is Greenhouse Software, Inc.",
+        "source": {
+          "id": 1,
+          "text": "The vendor directly providing the software platform **Greenhouse** at **greenhouse.com** is **Greenhouse Software, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEob43NrMM4ya7RpXXGkAcNI_Dbxk4n4xLpw6x3KHyDfstCVta3_H_1IHih4gz9-hCUcBoAo0-lQjj2dg-7hQkN6aydIPeTb8SuJXPQHl-Fkk39g_2ET-8lihQ3BjeY48twkAIMkxgXGaS5jRHFZw==",
+          "title": "greenhouse.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Greenhouse",
+    "domain": "greenhouse.com",
+    "description": "An applicant tracking and recruiting platform for managing job postings, candidates, and hiring workflows."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Greenhouse Software, Inc.",
+  "evidence": "Passage 1 explicitly states that the vendor directly providing the software platform Greenhouse at greenhouse.com is Greenhouse Software, Inc.",
+  "source": {
+    "id": 1,
+    "text": "The vendor directly providing the software platform **Greenhouse** at **greenhouse.com** is **Greenhouse Software, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEob43NrMM4ya7RpXXGkAcNI_Dbxk4n4xLpw6x3KHyDfstCVta3_H_1IHih4gz9-hCUcBoAo0-lQjj2dg-7hQkN6aydIPeTb8SuJXPQHl-Fkk39g_2ET-8lihQ3BjeY48twkAIMkxgXGaS5jRHFZw==",
+    "title": "greenhouse.com"
+  },
+  "checked_at": "2026-11-05T07:59:45.716084+00:00"
+}

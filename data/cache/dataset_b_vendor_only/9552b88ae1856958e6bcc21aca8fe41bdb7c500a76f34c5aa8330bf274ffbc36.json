@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "For **BaziAI** at the domain **bazi-ai.com**:\n\n* **Operating Company / Legal Entity:** No distinct registered corporate entity is published on the site's legal or policy pages.\n* **Published Developer:** The platform was developed and published by **Liu Wei (刘苇)** (GitHub: `liuweifly` / `@jasperwliu`). On Hacker News, the developer announced the platform: *\"We've built BaziAI (https://bazi-ai.com), an AI-powered platform that combines traditional Chinese Bazi (八字) astrology with DeepSeek...\"* and provided developer support via `liuweifly@yahoo.com` and the official domain contact `jasper@bazi-ai.com`.\n* **Supported Provider Brand:** The service is operated under the brand **BaziAI**. The website's copyright and legal documentation state: \n  * *\"© 2026 • BaziAI All rights reserved.\"*\n  * *\"At BaziAI, we are committed to providing accurate and insightful AI-powered fortune-telling and Bazi analysis services.\"* (Refund Policy)",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**Published Developer:** The platform was developed and published by **Liu Wei (刘苇)** (GitHub: `liuweifly` / `@jasperwliu`). On",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwKfSCI22XQycWpUFR1o_Af7Fdow9sp6TJaDMgTDEms6CzsS0o8fdcdQxiFYHzDr0X3qR8Sa43KBFT_IxxMXTMmlkt8nGuFnr1GppnKq_WDHOG",
+          "title": "github.com"
+        },
+        {
+          "id": 1,
+          "text": "**Published Developer:** The platform was developed and published by **Liu Wei (刘苇)** (GitHub: `liuweifly` / `@jasperwliu`). On",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgvsi6HylMLyXQJx5qIVKfIt1us24lYota9745kBRKIMT99SdFKS8zBqtAS5uaC7TTIFQTqun1rhWc0SnoWkZWTLmiDHshkTTo5UdRc1w7umpf",
+          "title": "github.com"
+        },
+        {
+          "id": 2,
+          "text": "acker News, the developer announced the platform: *\"We've built BaziAI (https://bazi-ai.com), an AI-powered platform that combines traditional Chinese Bazi (八字) astrology with DeepSeek...\"* and provided developer support via `liuweifly@yahoo.com` and the official domain contact `jasper@bazi-ai.com`.\n* **Su",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpr8KcRaevRZ4WLDC2KpJZiltxxz0hbyXdDZx6P2SUl0jrPtAP-KUP3Ee7mfQLvpT4X04hnKJ2gSqCe9FVk-brG4CZZrgJkX16UglhMD6B3pVyPJMK-GHZi1mMRY25mHTw-Bs=",
+          "title": "ycombinator.com"
+        },
+        {
+          "id": 3,
+          "text": "acker News, the developer announced the platform: *\"We've built BaziAI (https://bazi-ai.com), an AI-powered platform that combines traditional Chinese Bazi (八字) astrology with DeepSeek...\"* and provided developer support via `liuweifly@yahoo.com` and the official domain contact `jasper@bazi-ai.com`.\n* **Su",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxvLa-l07x3IyDZas30jUWNxsooH_d3IDOtBevI6PjrlM2r5rgGNDLa1ELfnKsG6YqF52hXKg6PJ2Wl-WmPSWumqXhtIx70mekzxlwM8Abjhoy7aAXJYpOAjqX4IoRuoIJeEE=",
+          "title": "ycombinator.com"
+        },
+        {
+          "id": 4,
+          "text": "ted Provider Brand:** The service is operated under the brand **BaziAI**. The we",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFERluw6D2jBPCgfboGdqgdCREKcYdel2EzwhQF8QlJ-vLB-NBCHGHSLIOOBjP9EexsQJbWFYDkXPnepz5-Dwy426xVD0WLbtznX9GIaGdxmwkpzeKOKg==",
+          "title": "bazi-ai.com"
+        },
+        {
+          "id": 5,
+          "text": " • BaziAI All rights reserved.\"*\n  * *\"At B",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFERluw6D2jBPCgfboGdqgdCREKcYdel2EzwhQF8QlJ-vLB-NBCHGHSLIOOBjP9EexsQJbWFYDkXPnepz5-Dwy426xVD0WLbtznX9GIaGdxmwkpzeKOKg==",
+          "title": "bazi-ai.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Liu Wei (刘苇)",
+        "evidence": "Passage 0 explicitly identifies Liu Wei (刘苇) as the developer who developed and published the platform.",
+        "source": {
+          "id": 0,
+          "text": "**Published Developer:** The platform was developed and published by **Liu Wei (刘苇)** (GitHub: `liuweifly` / `@jasperwliu`). On",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwKfSCI22XQycWpUFR1o_Af7Fdow9sp6TJaDMgTDEms6CzsS0o8fdcdQxiFYHzDr0X3qR8Sa43KBFT_IxxMXTMmlkt8nGuFnr1GppnKq_WDHOG",
+          "title": "github.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "BaziAI",
+    "domain": "bazi-ai.com",
+    "description": "BaziAI uses AI to analyze your Bazi chart (Four Pillars of Destiny) providing insights into your personality, strengths, weaknesses, and potential life paths."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Liu Wei (刘苇)",
+  "evidence": "Passage 0 explicitly identifies Liu Wei (刘苇) as the developer who developed and published the platform.",
+  "source": {
+    "id": 0,
+    "text": "**Published Developer:** The platform was developed and published by **Liu Wei (刘苇)** (GitHub: `liuweifly` / `@jasperwliu`). On",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwKfSCI22XQycWpUFR1o_Af7Fdow9sp6TJaDMgTDEms6CzsS0o8fdcdQxiFYHzDr0X3qR8Sa43KBFT_IxxMXTMmlkt8nGuFnr1GppnKq_WDHOG",
+    "title": "github.com"
+  },
+  "checked_at": "2026-11-05T07:35:01.627910+00:00"
+}

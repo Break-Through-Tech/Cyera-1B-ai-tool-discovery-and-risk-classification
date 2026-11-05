@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **Clockify** at **clockify.me** is directly provided and operated by **CAKE.com Inc.**.\n\n### Evidence\nAccording to the official **CAKE.com Terms of Use** governing **clockify.me**:\n> *\"YOUR ACCESS TO, ACQUISITION AND USE OF ANY CAKE.COM WEBSITES, APPLICATIONS, WIDGETS, AND TOOLS, INCLUDING CLOCKIFY, PUMBLE, AND PLAKY, AND ANY OTHER PRODUCTS, SOFTWARE AND SERVICES PROVIDED BY US... IS GOVERNED BY THESE CAKE.COM TERMS OF USE...\"*\n> \n> *\"Our Services are owned, operated and provided by CAKE.com Inc., a company operating under the laws of State of California, located at 2100 Geng Road, Suite 210, Palo Alto, CA 94303, United States...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **Clockify** at **clockify.me** is directly provided and operated by **CAKE.com Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHP1u0jxeSpTFdIm-4TUK_2FG9MhsGmfAzkvKw_OAkFrVHZguGqoqAcpQyNuYZSeDHmOBOOcCjD-2z5HBH7QfrW_mr1tiKRwvfHn8t_DjXyFe5K1OlHKhkBZNAMCcZvBN7llCS4mVGcuaALiLQ_NcyHH0M7EzhJzPw=",
+          "title": "clockify.me"
+        },
+        {
+          "id": 1,
+          "text": "The software product **Clockify** at **clockify.me** is directly provided and operated by **CAKE.com Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhoQOu5UVNQJz-KEeOBvidznafMD3iQWBPHRK4XUad418l56CRb5sS8elnmpNB5Q76912a2WbfEWFnt3QCdcxD2C8Caxq8peVO9k0=",
+          "title": "cake.com"
+        },
+        {
+          "id": 2,
+          "text": "According to the official **CAKE.com Terms of Use** governing **clockify.me**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhoQOu5UVNQJz-KEeOBvidznafMD3iQWBPHRK4XUad418l56CRb5sS8elnmpNB5Q76912a2WbfEWFnt3QCdcxD2C8Caxq8peVO9k0=",
+          "title": "cake.com"
+        },
+        {
+          "id": 3,
+          "text": "According to the official **CAKE.com Terms of Use** governing **clockify.me**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIknmC9rbKb9sSApcNHaKR-DmIP-QxJ9MkyEvRdvH2yNkLOWjXHbKQ48sLv-ylpzN67mqsgkCmy83diAGk6mWcOLusSKYz_wwAPyrOeMcokiTY",
+          "title": "clockify.me"
+        },
+        {
+          "id": 4,
+          "text": "IS GOVERNED BY THESE CAKE.COM TERMS OF USE...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIknmC9rbKb9sSApcNHaKR-DmIP-QxJ9MkyEvRdvH2yNkLOWjXHbKQ48sLv-ylpzN67mqsgkCmy83diAGk6mWcOLusSKYz_wwAPyrOeMcokiTY",
+          "title": "clockify.me"
+        },
+        {
+          "id": 5,
+          "text": "*\"Our Services are owned, operated and provided by CAKE.com Inc., a company operating under the laws of State of California, located at 2100 Geng Road, Suite 210, Palo Alto, CA 94303, United States...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhoQOu5UVNQJz-KEeOBvidznafMD3iQWBPHRK4XUad418l56CRb5sS8elnmpNB5Q76912a2WbfEWFnt3QCdcxD2C8Caxq8peVO9k0=",
+          "title": "cake.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "CAKE.com Inc.",
+        "evidence": "Passage 0 states that the software product Clockify at clockify.me is directly provided and operated by CAKE.com Inc.",
+        "source": {
+          "id": 0,
+          "text": "The software product **Clockify** at **clockify.me** is directly provided and operated by **CAKE.com Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHP1u0jxeSpTFdIm-4TUK_2FG9MhsGmfAzkvKw_OAkFrVHZguGqoqAcpQyNuYZSeDHmOBOOcCjD-2z5HBH7QfrW_mr1tiKRwvfHn8t_DjXyFe5K1OlHKhkBZNAMCcZvBN7llCS4mVGcuaALiLQ_NcyHH0M7EzhJzPw=",
+          "title": "clockify.me"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Clockify",
+    "domain": "clockify.me",
+    "description": "Clockify is a widely used time tracking software that enables users to effortlessly monitor their work hours across various projects. The platform is designed for both individuals and teams, offering features for tracking time with ease and maintaining detailed timesheets. Clockify serves millions of users globally, making it a go-to solution for time management needs."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "CAKE.com Inc.",
+  "evidence": "Passage 0 states that the software product Clockify at clockify.me is directly provided and operated by CAKE.com Inc.",
+  "source": {
+    "id": 0,
+    "text": "The software product **Clockify** at **clockify.me** is directly provided and operated by **CAKE.com Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHP1u0jxeSpTFdIm-4TUK_2FG9MhsGmfAzkvKw_OAkFrVHZguGqoqAcpQyNuYZSeDHmOBOOcCjD-2z5HBH7QfrW_mr1tiKRwvfHn8t_DjXyFe5K1OlHKhkBZNAMCcZvBN7llCS4mVGcuaALiLQ_NcyHH0M7EzhJzPw=",
+    "title": "clockify.me"
+  },
+  "checked_at": "2026-11-05T09:16:27.847695+00:00"
+}

@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The published developer for **Warpvideo AI** at the domain **warpvideo.ai** is **Saketh Kotamraju**. \n\n* **Evidence/Citation:** Software catalog listings (such as Softonic and CNET Download) list the product as *\"Warpvideo AI for Web Apps By Saketh Kotamraju\"* with the developer specification explicitly stated as *\"Developer: Saketh Kotamraju\"*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The published developer for **Warpvideo AI** at the domain **warpvideo.ai** is **Saketh Kotamraju**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFce-k8zv_MyQZCEFT41Q7tJCXODXt9QWhiB6tePbWgBZPXEhAj6IPaIHu_grdnT3dYWUuLnxLb08kTVPAa6VmICox-lYglD-X26_s54ltT0vpa6PNltTOgf6NsjAj6UwzdFQ==",
+          "title": "softonic.com"
+        },
+        {
+          "id": 1,
+          "text": "The published developer for **Warpvideo AI** at the domain **warpvideo.ai** is **Saketh Kotamraju**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpuhjL47yC1MEyTr5dCgzeWnwIOiGmAdIPYdIhJu4a1G7o4_0IideVIKa0g6gHThdTrQCesKmStxg1rVrq1nIe5Qgprq020wnCitQ8UiXZjL15ifzlID_VqiVGKolkszYTswROsutUCL2z6xnfFca8is1j2-moZAcXmE8=",
+          "title": "cnet.com"
+        },
+        {
+          "id": 2,
+          "text": "**Evidence/Citation:** Software catalog listings (such as Softonic and CNET Download) list the product as *\"Warpvideo AI for Web Apps By Saketh Kotamraju\"* with the developer specification explicitly stated as *\"Developer: Saketh Kotamraju\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFce-k8zv_MyQZCEFT41Q7tJCXODXt9QWhiB6tePbWgBZPXEhAj6IPaIHu_grdnT3dYWUuLnxLb08kTVPAa6VmICox-lYglD-X26_s54ltT0vpa6PNltTOgf6NsjAj6UwzdFQ==",
+          "title": "softonic.com"
+        },
+        {
+          "id": 3,
+          "text": "**Evidence/Citation:** Software catalog listings (such as Softonic and CNET Download) list the product as *\"Warpvideo AI for Web Apps By Saketh Kotamraju\"* with the developer specification explicitly stated as *\"Developer: Saketh Kotamraju\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpuhjL47yC1MEyTr5dCgzeWnwIOiGmAdIPYdIhJu4a1G7o4_0IideVIKa0g6gHThdTrQCesKmStxg1rVrq1nIe5Qgprq020wnCitQ8UiXZjL15ifzlID_VqiVGKolkszYTswROsutUCL2z6xnfFca8is1j2-moZAcXmE8=",
+          "title": "cnet.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Saketh Kotamraju",
+        "evidence": "Passage 0 explicitly identifies Saketh Kotamraju as the published developer for Warpvideo AI at the domain warpvideo.ai.",
+        "source": {
+          "id": 0,
+          "text": "The published developer for **Warpvideo AI** at the domain **warpvideo.ai** is **Saketh Kotamraju**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFce-k8zv_MyQZCEFT41Q7tJCXODXt9QWhiB6tePbWgBZPXEhAj6IPaIHu_grdnT3dYWUuLnxLb08kTVPAa6VmICox-lYglD-X26_s54ltT0vpa6PNltTOgf6NsjAj6UwzdFQ==",
+          "title": "softonic.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Warpvideo AI",
+    "domain": "warpvideo.ai",
+    "description": "Warpvideo AI is an AI-powered video creation platform that automates the process of creating professional-grade videos for marketing, social media, and more."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Saketh Kotamraju",
+  "evidence": "Passage 0 explicitly identifies Saketh Kotamraju as the published developer for Warpvideo AI at the domain warpvideo.ai.",
+  "source": {
+    "id": 0,
+    "text": "The published developer for **Warpvideo AI** at the domain **warpvideo.ai** is **Saketh Kotamraju**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFce-k8zv_MyQZCEFT41Q7tJCXODXt9QWhiB6tePbWgBZPXEhAj6IPaIHu_grdnT3dYWUuLnxLb08kTVPAa6VmICox-lYglD-X26_s54ltT0vpa6PNltTOgf6NsjAj6UwzdFQ==",
+    "title": "softonic.com"
+  },
+  "checked_at": "2026-11-05T07:10:17.415085+00:00"
+}

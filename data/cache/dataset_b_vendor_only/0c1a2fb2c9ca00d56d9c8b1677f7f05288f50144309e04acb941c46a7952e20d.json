@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on the official website and legal documentation for **Voice Cleaner AI** at **voicecleaner.ai**, no separate registered corporate entity (such as an Inc. or LLC) or individual developer is publicly identified. Instead, the service directly identifies itself and operates under the provider brand **VoiceCleaner** (or **VoiceCleaner AI**).\n\n### Provider Evidence & Citations:\n* **Terms & Conditions:** Identifies the provider as *VoiceCleaner AI*, stating: *\"VoiceCleaner AI is a comprehensive SaaS tool that provides efficient and secure online audio processing services\"* and provides contact via *\"Email: info@voicecleaner.ai\"*.\n* **Refund Policy:** Defines the provider entity stating: *\"As a SaaS service provider, all products and services offered by VoiceCleaner and its business units...\"* and *\"By placing an order with VoiceCleaner, you confirm that you have read, understood, and fully accepted all the terms of this policy prior to your purchase\"*.\n* **Website Footer & Copyright:** Listed as *\"© VoiceCleaner\"*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "Instead, the service directly identifies itself and operates under the provider brand **VoiceCleaner** (or **VoiceCleaner AI**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHV4zP2HfyL6yWHaTkX0sagH5dpC1_kvfFTFMdFCteeqyjFtoUnp1161UTsZkCfFOOuyCxwUA9xZhLz6MQ0UGC4-F5C2wlLpiulIyWO_ylTcD3Jjj-i9_T8uw==",
+          "title": "voicecleaner.ai"
+        },
+        {
+          "id": 1,
+          "text": "Instead, the service directly identifies itself and operates under the provider brand **VoiceCleaner** (or **VoiceCleaner AI**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJ-DrzfKLzx1b9UNbsFAdHFFu9qqzir05ROGzlNVZTZUx-19UFFcSZ2Rx5B7XiCJfuFWHJYpQMzB1qKNRkzju3i92q7txyNXwbMh0KEO_BTIoCB4St--rm04c=",
+          "title": "voicecleaner.ai"
+        },
+        {
+          "id": 2,
+          "text": "**Terms & Conditions:** Identifies the provider as *VoiceCleaner AI*, stating: *\"VoiceCleaner AI is a comprehensive SaaS tool that provides efficient and secure online audio processing services\"* and provides contact via *\"Email: info@voicecleaner.ai\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHV4zP2HfyL6yWHaTkX0sagH5dpC1_kvfFTFMdFCteeqyjFtoUnp1161UTsZkCfFOOuyCxwUA9xZhLz6MQ0UGC4-F5C2wlLpiulIyWO_ylTcD3Jjj-i9_T8uw==",
+          "title": "voicecleaner.ai"
+        },
+        {
+          "id": 3,
+          "text": "**Terms & Conditions:** Identifies the provider as *VoiceCleaner AI*, stating: *\"VoiceCleaner AI is a comprehensive SaaS tool that provides efficient and secure online audio processing services\"* and provides contact via *\"Email: info@voicecleaner.ai\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCIu876tQgb_DQnPTjX9kqVEE2epPh0p-_A21qWJ0RkuaGE3yHZwggX2RTp5yC4lVUKHF8ucPTxogtRlPLvuwOh8PMSNiSHdEax9oIkEJgXHVElC1JxF06hp0=",
+          "title": "voicecleaner.ai"
+        },
+        {
+          "id": 4,
+          "text": "**Refund Policy:** Defines the provider entity stating: *\"As a SaaS service provider, all products and services offered by VoiceCleaner and its business units...\"* and *\"By placing an order with VoiceCleaner, you confirm that you have read, understood, and fully accepted all the terms of this policy prior to your purchase\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJ-DrzfKLzx1b9UNbsFAdHFFu9qqzir05ROGzlNVZTZUx-19UFFcSZ2Rx5B7XiCJfuFWHJYpQMzB1qKNRkzju3i92q7txyNXwbMh0KEO_BTIoCB4St--rm04c=",
+          "title": "voicecleaner.ai"
+        },
+        {
+          "id": 5,
+          "text": "**Website Footer & Copyright:** Listed as *\"© VoiceCleaner\"*.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECj6Dq5JK56uHXl3aFmg4uaU5UdxfIhrpxnom2USg0ZvdBAoqoUuTS3JXGBdta9KSto54XTMn-fsgIn1lqsn_CvnyrdDgSl8OxSbPyHAA=",
+          "title": "voicecleaner.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "VoiceCleaner",
+        "evidence": "The Refund Policy defines the provider entity stating that 'as a SaaS service provider, all products and services offered by VoiceCleaner and its business units' are subject to its terms.",
+        "source": {
+          "id": 4,
+          "text": "**Refund Policy:** Defines the provider entity stating: *\"As a SaaS service provider, all products and services offered by VoiceCleaner and its business units...\"* and *\"By placing an order with VoiceCleaner, you confirm that you have read, understood, and fully accepted all the terms of this policy prior to your purchase\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJ-DrzfKLzx1b9UNbsFAdHFFu9qqzir05ROGzlNVZTZUx-19UFFcSZ2Rx5B7XiCJfuFWHJYpQMzB1qKNRkzju3i92q7txyNXwbMh0KEO_BTIoCB4St--rm04c=",
+          "title": "voicecleaner.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Voice Cleaner AI",
+    "domain": "voicecleaner.ai",
+    "description": "Remove background noise from audio instantly with AI."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "VoiceCleaner",
+  "evidence": "The Refund Policy defines the provider entity stating that 'as a SaaS service provider, all products and services offered by VoiceCleaner and its business units' are subject to its terms.",
+  "source": {
+    "id": 4,
+    "text": "**Refund Policy:** Defines the provider entity stating: *\"As a SaaS service provider, all products and services offered by VoiceCleaner and its business units...\"* and *\"By placing an order with VoiceCleaner, you confirm that you have read, understood, and fully accepted all the terms of this policy prior to your purchase\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJ-DrzfKLzx1b9UNbsFAdHFFu9qqzir05ROGzlNVZTZUx-19UFFcSZ2Rx5B7XiCJfuFWHJYpQMzB1qKNRkzju3i92q7txyNXwbMh0KEO_BTIoCB4St--rm04c=",
+    "title": "voicecleaner.ai"
+  },
+  "checked_at": "2026-11-05T06:59:40.133032+00:00"
+}

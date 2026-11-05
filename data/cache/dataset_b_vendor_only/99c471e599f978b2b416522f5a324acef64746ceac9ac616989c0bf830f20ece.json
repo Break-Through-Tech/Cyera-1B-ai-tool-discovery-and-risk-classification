@@ -1,0 +1,109 @@
+{
+  "attempts": [
+    {
+      "answer": "For **WordPress** at the domain **wordpress.org**:\n\n### Directly Providing Vendor / Developer\n* **Developer / Provider Project:** **WordPress open-source project** (a community of global contributors led by co-founder and lead developer **Matt Mullenweg**), supported by the **WordPress Foundation** (which owns and licenses the trademark). \n* **Site / Infrastructure Operator:** **Matt Mullenweg** individually owns and operates the `wordpress.org` website and its distribution infrastructure.\n\n---\n\n### Official Provider Statements\n* **About WordPress (`wordpress.org/about/`):**  \n  > *\"WordPress is open source software. Supporting the idea of democratizing publishing and the freedoms that come with open source, is a large community of people collaborating on and contributing to this project. The WordPress open source project has evolved in progressive ways over time—supported by skilled, enthusiastic developers, designers, scientists, bloggers, and more... The WordPress® trademark is the intellectual property of the WordPress Foundation.\"*\n\n* **Project Governance (`make.wordpress.org`):**  \n  > *\"The WordPress project is run by a core leadership team and led by co-founder and lead developer Matt Mullenweg. The team governs all aspects of the project, including core development, WordPress.org, and community initiatives.\"*\n\n* **Legal / Operational Standing for `wordpress.org`:**  \n  In legal filings concerning the operation of the domain and repository, counsel for Mullenweg stated:  \n  > *\"WordPress.org – a website owned and run by Defendant Matt Mullenweg individually, for the benefit of the community he loves. WordPress.org is not WordPress. WordPress.org is not Automattic or the WordPress Foundation, and is not controlled by either. To the contrary... WordPress.org is Mr. Mullenweg’s responsibility.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**Developer / Provider Project:** **WordPress open-source project**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEvrdlguhqARxPU0Jy0a37IzCG77eHQZMtL84ofSZgfWBkjqo4VEfGrpAWdnJTfad6THJPkR4DcxQ6OmUL5xVa5UBjDbws1P1-qYE-z27zBvar",
+          "title": "wordpress.org"
+        },
+        {
+          "id": 1,
+          "text": "**Developer / Provider Project:** **WordPress open-source project**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXvsVCbu0R4fnSeA3TH1KTmcO36ib8z743mS2cdlfI1OEgW36aTaAErHCWg4G0z3Rld1nQMs-2W4_laieYJ3Pn8ZwD7BFTrfxi6FHp4Vv5-Ryv",
+          "title": "wordpress.org"
+        },
+        {
+          "id": 2,
+          "text": "**Developer / Provider Project:** **WordPress open-source project** (a community of global contributors led by co-founder and lead developer **Matt Mullenweg**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQj32tdImEaTuNOTDWl4xOOYXlbHyms0N-QHj3XPAUZqXEZwZlKYD8iXMayPXd4q4FHO71T3OSQH8W9b6072Fu9li9J3w0nXn1ClgulWVFRSBR",
+          "title": "wordpress.org"
+        },
+        {
+          "id": 3,
+          "text": "**Developer / Provider Project:** **WordPress open-source project** (a community of global contributors led by co-founder and lead developer **Matt Mullenweg**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE81-L2R1xqOAOMl4rNWdQHUWy0JO6Gb5R3DGdKj6uMV2YvEfIPqVdw8Jiia-B6Q9m7bbch9UoHqJh7OyyVs3-j23q3l-zLsM2gEqfhrPzpq9lDkbE6oQMuncHtffgWvf1hVGE8fwVeUHhEMWjEEVYjtCE=",
+          "title": "wordpress.org"
+        },
+        {
+          "id": 4,
+          "text": "**Developer / Provider Project:** **WordPress open-source project** (a community of global contributors led by co-founder and lead developer **Matt Mullenweg**), supported by the **WordPress Foundation** (which owns and licenses the trademark)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQj32tdImEaTuNOTDWl4xOOYXlbHyms0N-QHj3XPAUZqXEZwZlKYD8iXMayPXd4q4FHO71T3OSQH8W9b6072Fu9li9J3w0nXn1ClgulWVFRSBR",
+          "title": "wordpress.org"
+        },
+        {
+          "id": 5,
+          "text": "**Developer / Provider Project:** **WordPress open-source project** (a community of global contributors led by co-founder and lead developer **Matt Mullenweg**), supported by the **WordPress Foundation** (which owns and licenses the trademark)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_dQT_Yfn6-1t-NONCbE1oY1RE08-hpOuiQ20jeeXfKeDQYKFDGHI9K5cscdY7KSzpAKAXMBC3gCO6JUE1zB6A6YGB4aXXjUZaWjtuAX13FjR_2xkj",
+          "title": "wordpressfoundation.org"
+        },
+        {
+          "id": 6,
+          "text": "**Site / Infrastructure Operator:** **Matt Mullenweg** individually owns and operates the `wordpress.org` website and its distribution infrastructure",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1aowrXjJ1X1iT95HlQMptUNv1TyvQsB0U1-Xod2UzKUQ_4IXMVIzERoIVbDye-qlebxESq3zl4Uto0D1r9LxewZHKH-Pk1_lNCusMVQkLo2FiWvowNSWFza94O3z64sPdXcw2dYtArMtOoBEhQ4HUK-un0rqVA1zVtcaLOhHVYRGzTFfXrA==",
+          "title": "wptavern.com"
+        },
+        {
+          "id": 7,
+          "text": "**Site / Infrastructure Operator:** **Matt Mullenweg** individually owns and operates the `wordpress.org` website and its distribution infrastructure",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHe4VvmnTyqW2CqAbzTRxBo4GG3hMMdAap-4znb9Pnnusz0izdZvT_Zaw19d7YW59OiWLg48jiS-AgetDttb4KdQ5n6bzLQVy8y1JJP3p_nq-wNaVPm7iOLtz18pY2BE0Q2gqR3Z5n7IhSAJ1d6fEbibhUMGbDDt--RPq1euJlS9Ge-rmpVwv4FRSOMqNBtCiaP-nI=",
+          "title": "gigazine.net"
+        },
+        {
+          "id": 8,
+          "text": "e WordPress® trademark is the intellectual property of the WordPress Foundation.\"*\n\n*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEvrdlguhqARxPU0Jy0a37IzCG77eHQZMtL84ofSZgfWBkjqo4VEfGrpAWdnJTfad6THJPkR4DcxQ6OmUL5xVa5UBjDbws1P1-qYE-z27zBvar",
+          "title": "wordpress.org"
+        },
+        {
+          "id": 9,
+          "text": "e WordPress® trademark is the intellectual property of the WordPress Foundation.\"*\n\n*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXvsVCbu0R4fnSeA3TH1KTmcO36ib8z743mS2cdlfI1OEgW36aTaAErHCWg4G0z3Rld1nQMs-2W4_laieYJ3Pn8ZwD7BFTrfxi6FHp4Vv5-Ryv",
+          "title": "wordpress.org"
+        },
+        {
+          "id": 10,
+          "text": " team governs all aspects of the project, including core development, WordPress.org, and community initiatives.\"*\n\n*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE81-L2R1xqOAOMl4rNWdQHUWy0JO6Gb5R3DGdKj6uMV2YvEfIPqVdw8Jiia-B6Q9m7bbch9UoHqJh7OyyVs3-j23q3l-zLsM2gEqfhrPzpq9lDkbE6oQMuncHtffgWvf1hVGE8fwVeUHhEMWjEEVYjtCE=",
+          "title": "wordpress.org"
+        },
+        {
+          "id": 11,
+          "text": "WordPress.org – a website owned and run by Defendant Matt Mullenweg individually, for the benefit of the community he loves. WordPress.org is not WordPress. WordPress.org is not Automattic or the WordPress Foundation, and is not controlled by either. To the contrar",
+          "url": "https://www.killerstartups.com/automattic-faces-staffing-crisis-amid-wp-engine-dispute/",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "WordPress open-source project",
+        "evidence": "Passage 4 identifies the WordPress open-source project (led by Matt Mullenweg and supported by the WordPress Foundation) as the developer/provider project for WordPress.",
+        "source": {
+          "id": 4,
+          "text": "**Developer / Provider Project:** **WordPress open-source project** (a community of global contributors led by co-founder and lead developer **Matt Mullenweg**), supported by the **WordPress Foundation** (which owns and licenses the trademark)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQj32tdImEaTuNOTDWl4xOOYXlbHyms0N-QHj3XPAUZqXEZwZlKYD8iXMayPXd4q4FHO71T3OSQH8W9b6072Fu9li9J3w0nXn1ClgulWVFRSBR",
+          "title": "wordpress.org"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "WordPress",
+    "domain": "wordpress.org",
+    "description": "WordPress is an open-source web publishing platform that allows users to create and manage websites and blogs easily. It is known for its flexibility, user-friendly interface, and vast array of plugins and themes, making it suitable for a wide range of users from individuals to large organizations. Located globally, WordPress fosters a community of developers and users who contribute to its continuous improvement and support."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "WordPress open-source project",
+  "evidence": "Passage 4 identifies the WordPress open-source project (led by Matt Mullenweg and supported by the WordPress Foundation) as the developer/provider project for WordPress.",
+  "source": {
+    "id": 4,
+    "text": "**Developer / Provider Project:** **WordPress open-source project** (a community of global contributors led by co-founder and lead developer **Matt Mullenweg**), supported by the **WordPress Foundation** (which owns and licenses the trademark)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQj32tdImEaTuNOTDWl4xOOYXlbHyms0N-QHj3XPAUZqXEZwZlKYD8iXMayPXd4q4FHO71T3OSQH8W9b6072Fu9li9J3w0nXn1ClgulWVFRSBR",
+    "title": "wordpress.org"
+  },
+  "checked_at": "2026-11-05T09:00:40.532127+00:00"
+}

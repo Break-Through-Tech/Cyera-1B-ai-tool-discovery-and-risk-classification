@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product **Auphonic** at **auphonic.com** is **Auphonic GmbH**.\n\n### Evidence\n* **Terms of Service & Privacy Policy (`auphonic.com`):** \n  > *\"Auphonic.com ('Auphonic', 'we', 'us', 'our') is an audio post production service, owned and operated by Auphonic GmbH.\"*\n* **Legal Notice / Impressum (`auphonic.com`):** \n  Lists **Auphonic GmbH** (registered in Austria, FN 586923 y) as the entity responsible for the development and operation of the software and online service.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product **Auphonic** at **auphonic.com** is **Auphonic GmbH**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTgimMV93Lh0kycuNsRlJieOpy-fgKN6yfigqzc_J7uDq7oGR4hNQ-6futLc9Vk1-j5skC9rIfY7tsungjb53_Nj02EpXBrDs78GNuQZzLblEk",
+          "title": "auphonic.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the software product **Auphonic** at **auphonic.com** is **Auphonic GmbH**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3rrAqYhT2gyU4_cXmcZUVFvH4CrdDEMi2aUakDjp9vXH1mJKWzjn_gW9I84z9xBnpNwc1GTxUlNmaMJSTFx7myluxWf9UPSeBQgNUio0se2Htam4xH9FlOmMn",
+          "title": "auphonic.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"Auphonic.com ('Auphonic', 'we', 'us', 'our') is an audio post production service, owned and operated by Auphonic GmbH.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTgimMV93Lh0kycuNsRlJieOpy-fgKN6yfigqzc_J7uDq7oGR4hNQ-6futLc9Vk1-j5skC9rIfY7tsungjb53_Nj02EpXBrDs78GNuQZzLblEk",
+          "title": "auphonic.com"
+        },
+        {
+          "id": 3,
+          "text": "*\"Auphonic.com ('Auphonic', 'we', 'us', 'our') is an audio post production service, owned and operated by Auphonic GmbH.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3rrAqYhT2gyU4_cXmcZUVFvH4CrdDEMi2aUakDjp9vXH1mJKWzjn_gW9I84z9xBnpNwc1GTxUlNmaMJSTFx7myluxWf9UPSeBQgNUio0se2Htam4xH9FlOmMn",
+          "title": "auphonic.com"
+        },
+        {
+          "id": 4,
+          "text": "Lists **Auphonic GmbH** (registered in Austria, FN 586923 y) as the entity responsible for the development and operation of the software and online service",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGqxQaDG_sd0tPIWpKFxMxFwZQFFqkY_diO2k38Bm5VDpswBvHWvypjfWOEVRgxyRwdDb9mMwITJy9Epuqw070opKxSvUXzeiZAPzYuvx9JkOwYvrA=",
+          "title": "auphonic.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Auphonic GmbH",
+        "evidence": "Auphonic.com is an audio post production service owned and operated by Auphonic GmbH.",
+        "source": {
+          "id": 2,
+          "text": "*\"Auphonic.com ('Auphonic', 'we', 'us', 'our') is an audio post production service, owned and operated by Auphonic GmbH.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTgimMV93Lh0kycuNsRlJieOpy-fgKN6yfigqzc_J7uDq7oGR4hNQ-6futLc9Vk1-j5skC9rIfY7tsungjb53_Nj02EpXBrDs78GNuQZzLblEk",
+          "title": "auphonic.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Auphonic",
+    "domain": "auphonic.com",
+    "description": "Auphonic is an online audio post-production service that automates the enhancement of audio recordings for various applications, including podcasts, audiobooks, and lectures. The platform employs advanced algorithms in music information retrieval and audio signal processing to manage tasks such as loudness adjustment, noise reduction, and encoding. Users benefit from a simple upload process that eliminates the need for technical expertise in audio editing, making it accessible for both amateurs and professionals. Auphonic supports multiple audio formats and offers features like chapter marks and automated content deployment to popular platforms."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Auphonic GmbH",
+  "evidence": "Auphonic.com is an audio post production service owned and operated by Auphonic GmbH.",
+  "source": {
+    "id": 2,
+    "text": "*\"Auphonic.com ('Auphonic', 'we', 'us', 'our') is an audio post production service, owned and operated by Auphonic GmbH.\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTgimMV93Lh0kycuNsRlJieOpy-fgKN6yfigqzc_J7uDq7oGR4hNQ-6futLc9Vk1-j5skC9rIfY7tsungjb53_Nj02EpXBrDs78GNuQZzLblEk",
+    "title": "auphonic.com"
+  },
+  "checked_at": "2026-11-05T08:03:10.680925+00:00"
+}

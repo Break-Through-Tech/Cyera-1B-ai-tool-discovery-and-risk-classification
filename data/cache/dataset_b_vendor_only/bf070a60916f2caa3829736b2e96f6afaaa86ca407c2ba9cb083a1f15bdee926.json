@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Splunk** at **splunk.com** is **Splunk LLC** (a Cisco company).\n\n### Evidence\n* **Splunk General Terms:**  \n  > *\"These Splunk General Terms (“General Terms”) between Splunk LLC, a Delaware limited liability company, with its principal place of business at 3098 Olsen Drive, San Jose, California 95128, USA (“Splunk” or “we” or “us” or “our”) and you (“Customer” or “you” or “your”) govern your acquisition, access to, and use of Splunk's Offerings...\"*\n\n* **Splunk Websites Terms and Conditions of Use:**  \n  > *\"Splunk LLC... makes information, products, and services available on this website (the “Site”), subject to the following terms and conditions of use (“Terms”).\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Splunk** at **splunk.com** is **Splunk LLC** (a Cisco company)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrBoM23Zr9Ftc9y4Ex1QHqPFzOsSxnJD-K9XTz6hluDcj4FEZPBHJzIWi_MOyzozCasLj33d70hxMNj9a3HnPuZ4i8KhUx70wUZO1pF2t-ygmPKxlX7d61HbUgKGZYh-aHlqhH0REfjJ5AUjCoHDDxi0o=",
+          "title": "splunk.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Splunk** at **splunk.com** is **Splunk LLC** (a Cisco company)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrBoM23Zr9Ftc9y4Ex1QHqPFzOsSxnJD-K9XTz6hluDcj4FEZPBHJzIWi_MOyzozCasLj33d70hxMNj9a3HnPuZ4i8KhUx70wUZO1pF2t-ygmPKxlX7d61HbUgKGZYh-aHlqhH0REfjJ5AUjCoHDDxi0o=",
+          "title": "splunk.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"These Splunk General Terms (“General Terms”) between Splunk LLC, a Delaware limited liability company, with its principal place of business at 3098 Olsen Drive, San Jose, California 95128, USA (“Splunk” or “we” or “us” or “our”) and you (“Customer” or “you” or “your”) govern your acquisition, access to, and use of Splunk's Offerings...\"*\n\n* **Splunk Websites Terms and ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrBoM23Zr9Ftc9y4Ex1QHqPFzOsSxnJD-K9XTz6hluDcj4FEZPBHJzIWi_MOyzozCasLj33d70hxMNj9a3HnPuZ4i8KhUx70wUZO1pF2t-ygmPKxlX7d61HbUgKGZYh-aHlqhH0REfjJ5AUjCoHDDxi0o=",
+          "title": "splunk.com"
+        },
+        {
+          "id": 3,
+          "text": "between Splunk LLC, a Delaware limited liability company, with its principal place of business at 3098 Olsen Drive, San Jose, California 95128, USA (“Splunk” or “we” or “us” or “our”) and you (“Customer” or “you” or “your”) gov",
+          "url": "https://www.splunk.com/en_us/legal/splunk-general-terms.html",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Splunk LLC",
+        "evidence": "Passage 0 states that the vendor directly providing Splunk at splunk.com is Splunk LLC (a Cisco company).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Splunk** at **splunk.com** is **Splunk LLC** (a Cisco company)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrBoM23Zr9Ftc9y4Ex1QHqPFzOsSxnJD-K9XTz6hluDcj4FEZPBHJzIWi_MOyzozCasLj33d70hxMNj9a3HnPuZ4i8KhUx70wUZO1pF2t-ygmPKxlX7d61HbUgKGZYh-aHlqhH0REfjJ5AUjCoHDDxi0o=",
+          "title": "splunk.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Splunk",
+    "domain": "splunk.com",
+    "description": "Splunk provides a unified security and observability platform that enhances digital resilience and safety for organizations. By offering tools for monitoring, securing, and analyzing data, Splunk helps businesses manage digital disruptions effectively and maintain operational continuity."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Splunk LLC",
+  "evidence": "Passage 0 states that the vendor directly providing Splunk at splunk.com is Splunk LLC (a Cisco company).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Splunk** at **splunk.com** is **Splunk LLC** (a Cisco company)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrBoM23Zr9Ftc9y4Ex1QHqPFzOsSxnJD-K9XTz6hluDcj4FEZPBHJzIWi_MOyzozCasLj33d70hxMNj9a3HnPuZ4i8KhUx70wUZO1pF2t-ygmPKxlX7d61HbUgKGZYh-aHlqhH0REfjJ5AUjCoHDDxi0o=",
+    "title": "splunk.com"
+  },
+  "checked_at": "2026-11-05T08:50:46.383065+00:00"
+}

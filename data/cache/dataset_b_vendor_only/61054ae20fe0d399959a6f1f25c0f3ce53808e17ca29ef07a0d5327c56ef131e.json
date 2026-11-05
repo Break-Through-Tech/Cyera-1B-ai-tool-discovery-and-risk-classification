@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product at **stablediffusionweb.com** (branded on the site as **Stable Diffusion Online**) is **Black Technology LTD**.\n\n### Evidence & Provider Statement\n* **Privacy Policy (`stablediffusionweb.com/privacy`):** States, *\"Stable Diffusion Online is operated by Black Technology LTD.\"*\n* **Website Terms & Conditions and Footer:** Confirms the operator/rights holder with the notice, *\"Copyright © 2026 Black Technology LTD. All rights reserved.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product at **stablediffusionweb.com** (branded on the site as **Stable Diffusion Online**) is **Black Technology LTD**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMaKlg7IRUZKU3ztR-Gmoyh2p2aGGe4ddC41G9BjbaM581ChQxAFQbVpjUsWg70Pe77RYx61ijjoni9bpscnBBkCzzJzbLBBrvJgb5t-1T5CwlebEGGr0yWymoIuNjp3tffvY=",
+          "title": "stablediffusionweb.com"
+        },
+        {
+          "id": 1,
+          "text": "**Privacy Policy (`stablediffusionweb.com/privacy`):** States, *\"Stable Diffusion Online is operated by Black Technology LTD.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMaKlg7IRUZKU3ztR-Gmoyh2p2aGGe4ddC41G9BjbaM581ChQxAFQbVpjUsWg70Pe77RYx61ijjoni9bpscnBBkCzzJzbLBBrvJgb5t-1T5CwlebEGGr0yWymoIuNjp3tffvY=",
+          "title": "stablediffusionweb.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Black Technology LTD",
+        "evidence": "The Privacy Policy of stablediffusionweb.com explicitly states that Stable Diffusion Online is operated by Black Technology LTD.",
+        "source": {
+          "id": 1,
+          "text": "**Privacy Policy (`stablediffusionweb.com/privacy`):** States, *\"Stable Diffusion Online is operated by Black Technology LTD.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMaKlg7IRUZKU3ztR-Gmoyh2p2aGGe4ddC41G9BjbaM581ChQxAFQbVpjUsWg70Pe77RYx61ijjoni9bpscnBBkCzzJzbLBBrvJgb5t-1T5CwlebEGGr0yWymoIuNjp3tffvY=",
+          "title": "stablediffusionweb.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Stable Diffusion",
+    "domain": "stablediffusionweb.com",
+    "description": "Create stunning art with Stable Diffusion - the ultimate AI Image Generation Tool"
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Black Technology LTD",
+  "evidence": "The Privacy Policy of stablediffusionweb.com explicitly states that Stable Diffusion Online is operated by Black Technology LTD.",
+  "source": {
+    "id": 1,
+    "text": "**Privacy Policy (`stablediffusionweb.com/privacy`):** States, *\"Stable Diffusion Online is operated by Black Technology LTD.\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMaKlg7IRUZKU3ztR-Gmoyh2p2aGGe4ddC41G9BjbaM581ChQxAFQbVpjUsWg70Pe77RYx61ijjoni9bpscnBBkCzzJzbLBBrvJgb5t-1T5CwlebEGGr0yWymoIuNjp3tffvY=",
+    "title": "stablediffusionweb.com"
+  },
+  "checked_at": "2026-11-05T06:48:42.762939+00:00"
+}

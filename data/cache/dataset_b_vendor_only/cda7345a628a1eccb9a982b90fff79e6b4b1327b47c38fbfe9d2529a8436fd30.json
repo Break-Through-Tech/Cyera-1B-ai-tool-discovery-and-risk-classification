@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Font Awesome** at **fontawesome.com** is **Fonticons, Inc.** (doing business as Font Awesome).\n\n### Evidence:\n* **Terms of Service** (`fontawesome.com`):  \n  > *\"By using the fontawesome.com website (\"Service\"), or any services of Fonticons, Inc. (\"Font Awesome\"), you agree to be bound by the following terms and conditions...\"*\n* **Privacy Policy** (`fontawesome.com`):  \n  > *\"...explains the rights and policies concerning Fonticons, Inc.'s doing business as Font Awesome ('we,' 'our,' or the 'company's') — including its Web Awesome products, websites (fontawesome.com and webawesome.com), and related services...\"*\n* **Font Awesome Pro License** (`fontawesome.com`):  \n  > *\"Fonticons, Inc., a Delaware corporation (the Company) and the company or individual who has purchased or is presently purchasing a Font Awesome Pro license through the Web Store at fontawesome.com...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Font Awesome** at **fontawesome.com** is **Fonticons, Inc.** (doing business as Font Awesome)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfm1JlA34frcOjMyOXhN5Li6FGKpT7cNNUcBnd0biPSCe5ccHjFmodpHu1igxBpW9IpVz1JpIQ5JTv0ixXBmfo1nF5nGN69NAyzOi6YN2VwU2NXLbn",
+          "title": "fontawesome.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Font Awesome** at **fontawesome.com** is **Fonticons, Inc.** (doing business as Font Awesome)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5Vn2c73DjTDCork2dZA8wPINYS6mLXradjdVLLX85RUrc5jTAQHRMZQSK8MG1Bq85aw0arrt9Hv2wIS4k-F5m6dhUD0DYOpEA6GRDtxnvEzk=",
+          "title": "fontawesome.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"By using the fontawesome.com website (\"Service\"), or any services of Fonticons, Inc. (\"Font Awesome\"), you agree to be bound by the following terms and conditions...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5Vn2c73DjTDCork2dZA8wPINYS6mLXradjdVLLX85RUrc5jTAQHRMZQSK8MG1Bq85aw0arrt9Hv2wIS4k-F5m6dhUD0DYOpEA6GRDtxnvEzk=",
+          "title": "fontawesome.com"
+        },
+        {
+          "id": 3,
+          "text": "*\"...explains the rights and policies concerning Fonticons, Inc.'s doing business as Font Awesome ('we,' 'our,' or the 'company's') — including its Web Awesome products, websites (fontawesome.com and webawesome.com), and related services...\"*\n*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfm1JlA34frcOjMyOXhN5Li6FGKpT7cNNUcBnd0biPSCe5ccHjFmodpHu1igxBpW9IpVz1JpIQ5JTv0ixXBmfo1nF5nGN69NAyzOi6YN2VwU2NXLbn",
+          "title": "fontawesome.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Fonticons, Inc.",
+        "evidence": "Passage 2 states that using the fontawesome.com website entails agreeing to the terms and conditions of Fonticons, Inc. (\"Font Awesome\"), identifying Fonticons, Inc. as the operating vendor.",
+        "source": {
+          "id": 2,
+          "text": "*\"By using the fontawesome.com website (\"Service\"), or any services of Fonticons, Inc. (\"Font Awesome\"), you agree to be bound by the following terms and conditions...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5Vn2c73DjTDCork2dZA8wPINYS6mLXradjdVLLX85RUrc5jTAQHRMZQSK8MG1Bq85aw0arrt9Hv2wIS4k-F5m6dhUD0DYOpEA6GRDtxnvEzk=",
+          "title": "fontawesome.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Font Awesome",
+    "domain": "fontawesome.com",
+    "description": "Font Awesome is a leading provider of vector icons and social logos, widely used by web developers and designers to enhance the visual appeal of their websites. The company offers a comprehensive toolkit to streamline the integration of icons into web projects, making it easier for users to access a variety of customizable icons. Located online, Font Awesome serves a global audience, providing resources that are essential for creating visually engaging digital content."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Fonticons, Inc.",
+  "evidence": "Passage 2 states that using the fontawesome.com website entails agreeing to the terms and conditions of Fonticons, Inc. (\"Font Awesome\"), identifying Fonticons, Inc. as the operating vendor.",
+  "source": {
+    "id": 2,
+    "text": "*\"By using the fontawesome.com website (\"Service\"), or any services of Fonticons, Inc. (\"Font Awesome\"), you agree to be bound by the following terms and conditions...\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5Vn2c73DjTDCork2dZA8wPINYS6mLXradjdVLLX85RUrc5jTAQHRMZQSK8MG1Bq85aw0arrt9Hv2wIS4k-F5m6dhUD0DYOpEA6GRDtxnvEzk=",
+    "title": "fontawesome.com"
+  },
+  "checked_at": "2026-11-05T08:09:17.882149+00:00"
+}

@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Word WandAI** at **wordwandai.com** is **K1ng Kong Solutions Pty Ltd.**\n\nAccording to the official Terms of Service on `wordwandai.com`:\n> *\"These Terms of Service (these “Terms”) form a binding legal agreement between Word WandAI, trading under K1ng Kong Solutions Pty Ltd., (“Word WandAI”, “we”, “us”, or “our”) and you regarding the use of (a) the website located at www.wordwandai.com...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Word WandAI** at **wordwandai.com** is **K1ng Kong Solutions Pty Ltd.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsKFtd_gas2Pi1uZSWOhtEPo3lNAfGleGY_y81XIq5ous2hX1E49q5DIlVl68b2OlWfNGNYzusJ85huylzsQuCtI6bdcte-MfEF1j7LPWpzMG8Ka4huhEurDSEVMvBCAQB",
+          "title": "wordwandai.com"
+        },
+        {
+          "id": 1,
+          "text": "These Terms of Service (these “Terms”) form a binding legal agreement between Word WandAI, trading under K1ng Kong Solutions Pty Ltd., (“Word WandAI”, “we”, “us”, or “our”) and you regarding the use of (a) the website located at www.wor",
+          "url": "https://www.wordwandai.com/terms-of-service",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "K1ng Kong Solutions Pty Ltd.",
+        "evidence": "Passage 1 states that the Terms of Service for wordwandai.com form a binding legal agreement between 'Word WandAI, trading under K1ng Kong Solutions Pty Ltd.' and the user.",
+        "source": {
+          "id": 1,
+          "text": "These Terms of Service (these “Terms”) form a binding legal agreement between Word WandAI, trading under K1ng Kong Solutions Pty Ltd., (“Word WandAI”, “we”, “us”, or “our”) and you regarding the use of (a) the website located at www.wor",
+          "url": "https://www.wordwandai.com/terms-of-service",
+          "title": ""
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Word WandAI",
+    "domain": "wordwandai.com",
+    "description": "Word WandAI is an AI-powered customer support tool that helps businesses automate responses, improve efficiency, and enhance customer satisfaction."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "K1ng Kong Solutions Pty Ltd.",
+  "evidence": "Passage 1 states that the Terms of Service for wordwandai.com form a binding legal agreement between 'Word WandAI, trading under K1ng Kong Solutions Pty Ltd.' and the user.",
+  "source": {
+    "id": 1,
+    "text": "These Terms of Service (these “Terms”) form a binding legal agreement between Word WandAI, trading under K1ng Kong Solutions Pty Ltd., (“Word WandAI”, “we”, “us”, or “our”) and you regarding the use of (a) the website located at www.wor",
+    "url": "https://www.wordwandai.com/terms-of-service",
+    "title": ""
+  },
+  "checked_at": "2026-11-05T05:54:30.854883+00:00"
+}

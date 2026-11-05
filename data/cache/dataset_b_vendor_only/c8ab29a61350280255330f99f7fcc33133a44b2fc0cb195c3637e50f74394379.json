@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The operating company and vendor directly providing **Capsule** at **capsule.video** is **Capsule.Video, Inc.**\n\n### Evidence\n* **Privacy Policy (`capsule.video/privacy`):** \n  > *\"Capsule.Video, Inc. (“Capsule,” “we,” “us,” or “our”) provides an AI-enabled video creation, editing, collaboration, rendering, management, and delivery platform.\"*\n* **Website Footer (`capsule.video`):** \n  > *\"© 2026 Capsule.Video Inc. All rights reserved.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The operating company and vendor directly providing **Capsule** at **capsule.video** is **Capsule.Video, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvACkRaenJARSBlkLws1IzhxreLYAQnMIwj5M3SgGvTSwDxROsRoXHtANhGZ4shuFm-32UquSBtJJC1f4hpcFZO0GUYAJy_UOmkJwv8PAJOHZ5rg==",
+          "title": "capsule.video"
+        },
+        {
+          "id": 1,
+          "text": "*\"Capsule.Video, Inc. (“Capsule,” “we,” “us,” or “our”) provides an AI-enabled video creation, editing, collaboration, rendering, management, and delivery platform.\"*\n* **Website Foo",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvACkRaenJARSBlkLws1IzhxreLYAQnMIwj5M3SgGvTSwDxROsRoXHtANhGZ4shuFm-32UquSBtJJC1f4hpcFZO0GUYAJy_UOmkJwv8PAJOHZ5rg==",
+          "title": "capsule.video"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Capsule.Video, Inc.",
+        "evidence": "Passage 0 explicitly identifies Capsule.Video, Inc. as the operating company and vendor directly providing Capsule at capsule.video.",
+        "source": {
+          "id": 0,
+          "text": "The operating company and vendor directly providing **Capsule** at **capsule.video** is **Capsule.Video, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvACkRaenJARSBlkLws1IzhxreLYAQnMIwj5M3SgGvTSwDxROsRoXHtANhGZ4shuFm-32UquSBtJJC1f4hpcFZO0GUYAJy_UOmkJwv8PAJOHZ5rg==",
+          "title": "capsule.video"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Capsule",
+    "domain": "capsule.video",
+    "description": "Video editing for content and marketing teams."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Capsule.Video, Inc.",
+  "evidence": "Passage 0 explicitly identifies Capsule.Video, Inc. as the operating company and vendor directly providing Capsule at capsule.video.",
+  "source": {
+    "id": 0,
+    "text": "The operating company and vendor directly providing **Capsule** at **capsule.video** is **Capsule.Video, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvACkRaenJARSBlkLws1IzhxreLYAQnMIwj5M3SgGvTSwDxROsRoXHtANhGZ4shuFm-32UquSBtJJC1f4hpcFZO0GUYAJy_UOmkJwv8PAJOHZ5rg==",
+    "title": "capsule.video"
+  },
+  "checked_at": "2026-11-05T06:59:51.415621+00:00"
+}

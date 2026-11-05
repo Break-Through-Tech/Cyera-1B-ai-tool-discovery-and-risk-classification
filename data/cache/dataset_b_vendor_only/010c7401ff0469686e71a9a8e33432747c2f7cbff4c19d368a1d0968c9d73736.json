@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **ShareThis** at **sharethis.com** is **ShareThis, Inc.**.\n\n### Supporting Evidence\n* **ShareThis Publisher Terms of Use**:\n  > *\"ShareThis, Inc. and its affiliates (“We”, “Us,” or “ShareThis”) makes available to Publishers certain code, applications, graphics (including icons), tools, analytics, widgets, plug-ins and proprietary methods and systems that include, without limitation: a. Sharing tools that include capabilities for deploying digital content and/or materials via social Web linking, bookmarking, rating, recommending, emailing, instant messaging, indexing, and posting to blogs (“ShareThis Icon”)...\"*\n* **ShareThis Privacy Notice**:\n  > *\"Contact Information. ShareThis, Inc. 3000 El Camino Real Building 4, Suite 200. Palo Alto, CA 94306, USA privacy@sharethis.com.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **ShareThis** at **sharethis.com** is **ShareThis, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmZugSSAg7ZQrgq-axhmqIKbIqhUlp9HjI4A_FAPq2JOD-WXjQTynhPxfnod2XHM7ySjWUg_IJ0DSTnDUJkD-XSFBHQeu7ARDsTAB6M54mfGSgkjJS1f1fmhGT6i1xJ2BA4Go=",
+          "title": "sharethis.com"
+        },
+        {
+          "id": 1,
+          "text": "s that include capabilities for deploying digital content and/or materials via social Web linking, bookmarking, rating, recommending, emailing, instant messaging, indexing, and posting to blogs (“ShareThis Icon”)...\"*\n* **ShareThis P",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmZugSSAg7ZQrgq-axhmqIKbIqhUlp9HjI4A_FAPq2JOD-WXjQTynhPxfnod2XHM7ySjWUg_IJ0DSTnDUJkD-XSFBHQeu7ARDsTAB6M54mfGSgkjJS1f1fmhGT6i1xJ2BA4Go=",
+          "title": "sharethis.com"
+        },
+        {
+          "id": 2,
+          "text": "ShareThis, Inc. and its affiliates (“We”, “Us,” or “ShareThis”) makes available to Publishers certain code, applications, graphics (including icons), tools, analytics, widgets, plug-ins and proprietary methods and systems that include, without limitation: a. Sharing tools that include capabilities for deploying digital content and/or materials via social Web linking, bookmarking, rating, recommending, emailing, instant messaging, indexing, and posting to blogs (“ShareThis Ic",
+          "url": "https://sharethis.com/publisher-terms-of-use/",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "ShareThis, Inc.",
+        "evidence": "According to the publisher terms of use, ShareThis, Inc. and its affiliates make available code, applications, graphics, tools, analytics, widgets, and sharing tools.",
+        "source": {
+          "id": 2,
+          "text": "ShareThis, Inc. and its affiliates (“We”, “Us,” or “ShareThis”) makes available to Publishers certain code, applications, graphics (including icons), tools, analytics, widgets, plug-ins and proprietary methods and systems that include, without limitation: a. Sharing tools that include capabilities for deploying digital content and/or materials via social Web linking, bookmarking, rating, recommending, emailing, instant messaging, indexing, and posting to blogs (“ShareThis Ic",
+          "url": "https://sharethis.com/publisher-terms-of-use/",
+          "title": ""
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "ShareThis",
+    "domain": "sharethis.com",
+    "description": "ShareThis is a leader in social sharing intelligence, utilizing extensive data collection and analysis since 2007 to provide insights into social sharing behavior. By synthesizing data from various social platforms, ShareThis delivers actionable marketing intelligence for brands and publishers. Based in the United States, ShareThis also focuses on creating a positive workplace culture, evidenced by multiple awards for being a great place to work."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "ShareThis, Inc.",
+  "evidence": "According to the publisher terms of use, ShareThis, Inc. and its affiliates make available code, applications, graphics, tools, analytics, widgets, and sharing tools.",
+  "source": {
+    "id": 2,
+    "text": "ShareThis, Inc. and its affiliates (“We”, “Us,” or “ShareThis”) makes available to Publishers certain code, applications, graphics (including icons), tools, analytics, widgets, plug-ins and proprietary methods and systems that include, without limitation: a. Sharing tools that include capabilities for deploying digital content and/or materials via social Web linking, bookmarking, rating, recommending, emailing, instant messaging, indexing, and posting to blogs (“ShareThis Ic",
+    "url": "https://sharethis.com/publisher-terms-of-use/",
+    "title": ""
+  },
+  "checked_at": "2026-11-05T08:37:39.546830+00:00"
+}

@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly operating and providing **Coolors** at **coolors.co** is **Coolors s.r.l.** (created and developed by Fabrizio Bianchi).\n\n### Evidence & Provider Statements\n* **Terms of Service** (`coolors.co`):\n  > *\"Coolors s.r.l. Viale G. Ribotta, 21. Roma - Italia. Owner contact email: info@coolors.co. 'Coolors' refers to: this website, including its subdomains and any other website through which the Owner makes its Service available...\"*\n* **Privacy Policy** (`coolors.co`):\n  > *\"Owner and Data Controller: Coolors s.r.l. Piazza Roberto Gaucci, 23. Colleferro - 00034 - Roma - Italia.\"*\n* **Website / App Store Listings**:\n  > The website footer notes *\"© Coolors by Fabrizio Bianchi\"*, and the official application listing lists the developer as **Coolors srl**.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "(created and developed by Fabrizio Bianchi)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHvb7eoDOfU8d0l6d1tatZtIN5xVjwMhJFS-lIacIMDkbBDQM9NAz52QKh2T41cVYMo8k_TdCbtfsK95asKOJgygquhT8eZ1YrIpshKTOAQXUi93Zl1Q==",
+          "title": "coolors.co"
+        },
+        {
+          "id": 1,
+          "text": "(created and developed by Fabrizio Bianchi)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSClMB-EkdpM163OrrwHmNo3hmqOrEfnYkstbiZ1mTdHYzZmYtVVzJIOPemLKnvi77aRtqtOfwcW_OXTZKNBj5cWqHMKXrS5vm9Bt6QlwMNnV6hsr8dTeL",
+          "title": "coolors.co"
+        },
+        {
+          "id": 2,
+          "text": "'Coolors' refers to: this website, including its subdomains and any other website through which the Owner makes its Service available...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSClMB-EkdpM163OrrwHmNo3hmqOrEfnYkstbiZ1mTdHYzZmYtVVzJIOPemLKnvi77aRtqtOfwcW_OXTZKNBj5cWqHMKXrS5vm9Bt6QlwMNnV6hsr8dTeL",
+          "title": "coolors.co"
+        },
+        {
+          "id": 3,
+          "text": "Colleferro - 00034 - Roma - Italia.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHvb7eoDOfU8d0l6d1tatZtIN5xVjwMhJFS-lIacIMDkbBDQM9NAz52QKh2T41cVYMo8k_TdCbtfsK95asKOJgygquhT8eZ1YrIpshKTOAQXUi93Zl1Q==",
+          "title": "coolors.co"
+        },
+        {
+          "id": 4,
+          "text": "The website footer notes *\"© Coolors by Fabrizio Bianchi\"*, and the official application listing lists the developer as **Coolors srl**.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2OHqhBOkhv0H14LplXTwV4oZ3DSxtrjH8FmW82tspyAhMGpKOa54gV7QqJrRl_-Kzy_LefTUIjXXKpJMlpBl1FdCCDx1nEOGJ0ImifkiLwvwcExKk4-36x89T3PUOXWR20hR77yCLwVI9gFPatqjhdsk=",
+          "title": "coolors.co"
+        },
+        {
+          "id": 5,
+          "text": "The website footer notes *\"© Coolors by Fabrizio Bianchi\"*, and the official application listing lists the developer as **Coolors srl**.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG54u_I-sehi1ZLpF8ixR6oAVUyE9kLGzxGUv_VK2Da-qbUUZn5IfSHUy1qPAvwdOpQINW-E-VwUHhj76WPlZx4wSND5SJX5daIlNK-oEqXZd9GPRBNTdbTlOrlxpgcxaT7ZJ2-2mhEbOEQn_UCXw==",
+          "title": "apple.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Coolors srl",
+        "evidence": "Passage 4 confirms from coolors.co that the website footer states '© Coolors by Fabrizio Bianchi' and the application listing lists the developer as Coolors srl.",
+        "source": {
+          "id": 4,
+          "text": "The website footer notes *\"© Coolors by Fabrizio Bianchi\"*, and the official application listing lists the developer as **Coolors srl**.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2OHqhBOkhv0H14LplXTwV4oZ3DSxtrjH8FmW82tspyAhMGpKOa54gV7QqJrRl_-Kzy_LefTUIjXXKpJMlpBl1FdCCDx1nEOGJ0ImifkiLwvwcExKk4-36x89T3PUOXWR20hR77yCLwVI9gFPatqjhdsk=",
+          "title": "coolors.co"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Coolors",
+    "domain": "coolors.co",
+    "description": "Coolors is a popular online platform that allows users to create and manage color palettes for design projects. With over 2 million users globally, it serves designers and artists seeking inspiration and organization for their color choices. Coolors is accessible through its website and offers various tools for both professionals and hobbyists in the creative field."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Coolors srl",
+  "evidence": "Passage 4 confirms from coolors.co that the website footer states '© Coolors by Fabrizio Bianchi' and the application listing lists the developer as Coolors srl.",
+  "source": {
+    "id": 4,
+    "text": "The website footer notes *\"© Coolors by Fabrizio Bianchi\"*, and the official application listing lists the developer as **Coolors srl**.",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2OHqhBOkhv0H14LplXTwV4oZ3DSxtrjH8FmW82tspyAhMGpKOa54gV7QqJrRl_-Kzy_LefTUIjXXKpJMlpBl1FdCCDx1nEOGJ0ImifkiLwvwcExKk4-36x89T3PUOXWR20hR77yCLwVI9gFPatqjhdsk=",
+    "title": "coolors.co"
+  },
+  "checked_at": "2026-11-05T08:08:57.744494+00:00"
+}

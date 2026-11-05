@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **AfterShip** software platform at **aftership.com** is **Automizely Pte. Ltd.** (doing business as **AfterShip**), with its affiliate **AfterShip Inc.** acting as its payment and billing agent in the United States.\n\n### Supporting Evidence\n* **AfterShip Terms of Service (Definitions):** \n  > *\"AfterShip, We, Our means Automizely Pte. Ltd. AfterShip Group means Automizely Pte. Ltd. and its Affiliates.\"*\n* **AfterShip Acceptable Use Policy:** \n  > *\"This Acceptable Use Policy (the “AUP”) describes rules that apply to any party ('You', 'Your', or 'User') using any Service provided by Automizely Pte. Ltd. ('We', 'Us', 'Our', or 'AfterShip').\"*\n* **Terms of Service (Payment Agent):** \n  > *\"AfterShip USA shall be responsible for US Payment Agent Services only, and the delivery of Services shall be that of AfterShip.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "Ltd.** (doing business as **AfterShip**), with its affiliate **AfterShip Inc.** acting as its payment and billing agent in the United States",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFn37zqxR_4voEx4Rvreb-YFIXyOSANy92-LuNXcVzDlTRQ3a1i2NQfygXw-XEXws1uknmZ0HQr_xXmZRPBX_YP4xw-qR0KuYeRlDMJIJwHNvv3BVH5wRNv4sMSKXdNUiYEsKB7pVk=",
+          "title": "aftership.com"
+        },
+        {
+          "id": 1,
+          "text": "Ltd.** (doing business as **AfterShip**), with its affiliate **AfterShip Inc.** acting as its payment and billing agent in the United States",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFn37zqxR_4voEx4Rvreb-YFIXyOSANy92-LuNXcVzDlTRQ3a1i2NQfygXw-XEXws1uknmZ0HQr_xXmZRPBX_YP4xw-qR0KuYeRlDMJIJwHNvv3BVH5wRNv4sMSKXdNUiYEsKB7pVk=",
+          "title": "aftership.com"
+        },
+        {
+          "id": 2,
+          "text": "Ltd.** (doing business as **AfterShip**), with its affiliate **AfterShip Inc.** acting as its payment and billing agent in the United States",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFftTtpzGtFXSZp7DJRr1-ZTIlddeDR861ZgPUdWWUj3oqp7GXrhjAizeBUVDnGajq6XSv1LCtl-KUALG7WRgc8q8w2nibgzN4sc5tYh7X8IKZhGKni_FNxpG5udBRyMrBQr_GtKoum0uGDnIwTDv4AxvTOhe8=",
+          "title": "aftership.com"
+        },
+        {
+          "id": 3,
+          "text": "Ltd. and its Affiliates.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFn37zqxR_4voEx4Rvreb-YFIXyOSANy92-LuNXcVzDlTRQ3a1i2NQfygXw-XEXws1uknmZ0HQr_xXmZRPBX_YP4xw-qR0KuYeRlDMJIJwHNvv3BVH5wRNv4sMSKXdNUiYEsKB7pVk=",
+          "title": "aftership.com"
+        },
+        {
+          "id": 4,
+          "text": " ('We', 'Us', 'Our', or 'AfterShip').\"*\n* *",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFftTtpzGtFXSZp7DJRr1-ZTIlddeDR861ZgPUdWWUj3oqp7GXrhjAizeBUVDnGajq6XSv1LCtl-KUALG7WRgc8q8w2nibgzN4sc5tYh7X8IKZhGKni_FNxpG5udBRyMrBQr_GtKoum0uGDnIwTDv4AxvTOhe8=",
+          "title": "aftership.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "AfterShip",
+        "evidence": "Passage 0 confirms the entity is doing business as AfterShip, with affiliate AfterShip Inc. acting as its payment and billing agent in the United States.",
+        "source": {
+          "id": 0,
+          "text": "Ltd.** (doing business as **AfterShip**), with its affiliate **AfterShip Inc.** acting as its payment and billing agent in the United States",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFn37zqxR_4voEx4Rvreb-YFIXyOSANy92-LuNXcVzDlTRQ3a1i2NQfygXw-XEXws1uknmZ0HQr_xXmZRPBX_YP4xw-qR0KuYeRlDMJIJwHNvv3BVH5wRNv4sMSKXdNUiYEsKB7pVk=",
+          "title": "aftership.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "AfterShip",
+    "domain": "aftership.com",
+    "description": "AfterShip is a customer experience platform established in 2012, specializing in enhancing loyalty and engagement for global eCommerce brands and retailers. Their comprehensive software suite supports the entire customer journey by offering services like email automation, SMS marketing, shipment tracking, returns management, and multi-carrier shipping. Trusted by over 17,000 customers including well-known brands like TOMS and Kylie Cosmetics, AfterShip integrates seamlessly with more than 1,000 carriers globally, assisting retailers in boosting revenue and improving customer experience."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "AfterShip",
+  "evidence": "Passage 0 confirms the entity is doing business as AfterShip, with affiliate AfterShip Inc. acting as its payment and billing agent in the United States.",
+  "source": {
+    "id": 0,
+    "text": "Ltd.** (doing business as **AfterShip**), with its affiliate **AfterShip Inc.** acting as its payment and billing agent in the United States",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFn37zqxR_4voEx4Rvreb-YFIXyOSANy92-LuNXcVzDlTRQ3a1i2NQfygXw-XEXws1uknmZ0HQr_xXmZRPBX_YP4xw-qR0KuYeRlDMJIJwHNvv3BVH5wRNv4sMSKXdNUiYEsKB7pVk=",
+    "title": "aftership.com"
+  },
+  "checked_at": "2026-11-05T09:41:11.228417+00:00"
+}

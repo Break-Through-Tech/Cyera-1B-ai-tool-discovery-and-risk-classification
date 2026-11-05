@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **What3words** provided at **what3words.com** is operated and directly provided by **what3words Limited**.\n\n### Provider Statement\nAccording to the official **what3words Privacy Policy** at `what3words.com`:\n> *\"what3words Limited, a company with its registered address at Great Western Studios, 65 Alfred Rd, London, England, W2 5EU, UK (“what3words”, “we” or “us”) is the Controller, unless stated otherwise. This Policy is addressed to individuals outside of our organisation with whom we interact, including visitors to our Website, users of our Apps, our business customers and other users of our services...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **What3words** provided at **what3words.com** is operated and directly provided by **what3words Limited**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1mdglrWqpYkzN3GHmstdfHYOBl3V51wUE24jHNOn6bFKkVPw9EaJUMHePMti-T5xtV1U5Frc6rUDZs9Rkee_fUJ4XaOeAYPSQWBwpNszuEkoos3GUKr35VTWeX48ikrz3cg==",
+          "title": "what3words.com"
+        },
+        {
+          "id": 1,
+          "text": "The software product **What3words** provided at **what3words.com** is operated and directly provided by **what3words Limited**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPNIFFtuIzNUXZxxExILTE0oDQ-ijp45J0SVRk9F29yXFkoW5T2prLbDqQRv4VB0-pQ_k4gQCmRrWXFjMpKqN5HsJ6UyNKwDlYqQxoDuxOHsiDU1k=",
+          "title": "what3words.com"
+        },
+        {
+          "id": 2,
+          "text": "Great Western Studios, 65 Alfred Rd, London, England, W2 5EU, UK (“what3words”, “we” or “us”) is the Controller, unless stated otherwise. This Policy is addressed to individuals outside of our organisation with whom we interact, including visitors to our Website, users of our Apps, our business customers and other users of our servi",
+          "url": "https://what3words.com/privacy",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "what3words Limited",
+        "evidence": "Passage 0 explicitly states that the software product What3words provided at what3words.com is operated and directly provided by what3words Limited.",
+        "source": {
+          "id": 0,
+          "text": "The software product **What3words** provided at **what3words.com** is operated and directly provided by **what3words Limited**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1mdglrWqpYkzN3GHmstdfHYOBl3V51wUE24jHNOn6bFKkVPw9EaJUMHePMti-T5xtV1U5Frc6rUDZs9Rkee_fUJ4XaOeAYPSQWBwpNszuEkoos3GUKr35VTWeX48ikrz3cg==",
+          "title": "what3words.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "What3words",
+    "domain": "what3words.com",
+    "description": "What3words offers a unique addressing system that divides the world into 3m x 3m squares, each assigned a distinct three-word address. This innovative solution enhances location communication for various applications, serving businesses, governments, and individuals across more than 170 countries. Users can easily share and identify precise locations, making it a valuable tool for logistics, events, and outdoor activities."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "what3words Limited",
+  "evidence": "Passage 0 explicitly states that the software product What3words provided at what3words.com is operated and directly provided by what3words Limited.",
+  "source": {
+    "id": 0,
+    "text": "The software product **What3words** provided at **what3words.com** is operated and directly provided by **what3words Limited**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1mdglrWqpYkzN3GHmstdfHYOBl3V51wUE24jHNOn6bFKkVPw9EaJUMHePMti-T5xtV1U5Frc6rUDZs9Rkee_fUJ4XaOeAYPSQWBwpNszuEkoos3GUKr35VTWeX48ikrz3cg==",
+    "title": "what3words.com"
+  },
+  "checked_at": "2026-11-05T10:08:07.274845+00:00"
+}

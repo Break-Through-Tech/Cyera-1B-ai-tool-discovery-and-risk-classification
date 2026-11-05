@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **Delta Driven** at **getdeltadriven.com** is provided directly under the brand/developer name **Delta Driven** (also published as **getdeltadriven**).\n\n### Evidence:\n* **Official Website (`getdeltadriven.com`):** The footer states the provider copyright:  \n  > *\"Delta Driven is an AI powered personal trainer available via Telegram. Copyright © 2024 Delta Driven. All rights reserved.\"*\n* **Software Catalog Listings:** Distributed and listed on CNET/Softonic with the developer specified as:  \n  > *\"Delta Driven for Web Apps · By getdeltadriven\"*\n\nNo separate registered corporate parent or legal company name (e.g., LLC, Inc.) is published on the website.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **Delta Driven** at **getdeltadriven.com** is provided directly under the brand/developer name **Delta Driven** (also published as **getdeltadriven**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1hgpRDLzBEjobgTtlqWOlpF_vedpq4Ds7XjO8CmmQwvIoRlgAYUSTz0SXQcm9sGk1bSZnuRSESlpC-evqAtSifCS05At1NQ23U_QBZFdlHWyVMRFmSLGo_Bs1VIDIXrocAk_ZJf8lTuZ973211FagVg9SeGdAHkEqx48=",
+          "title": "cnet.com"
+        },
+        {
+          "id": 1,
+          "text": "The software product **Delta Driven** at **getdeltadriven.com** is provided directly under the brand/developer name **Delta Driven** (also published as **getdeltadriven**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPyUoIP_NCFcmRNmreAK5tSZhC55kQDv8uEX5yZm5fi15m1o8OzJ0-zdzSc3HL_TtIKRxNv3IjMTdlJV98KFS7rWdmpx0orcqqafLvPHnfRNo=",
+          "title": "getdeltadriven.com"
+        },
+        {
+          "id": 2,
+          "text": "ll rights reserved.\"*\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPyUoIP_NCFcmRNmreAK5tSZhC55kQDv8uEX5yZm5fi15m1o8OzJ0-zdzSc3HL_TtIKRxNv3IjMTdlJV98KFS7rWdmpx0orcqqafLvPHnfRNo=",
+          "title": "getdeltadriven.com"
+        },
+        {
+          "id": 3,
+          "text": "\"Delta Driven for Web Apps · By getdeltadriven\"*\n\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1hgpRDLzBEjobgTtlqWOlpF_vedpq4Ds7XjO8CmmQwvIoRlgAYUSTz0SXQcm9sGk1bSZnuRSESlpC-evqAtSifCS05At1NQ23U_QBZFdlHWyVMRFmSLGo_Bs1VIDIXrocAk_ZJf8lTuZ973211FagVg9SeGdAHkEqx48=",
+          "title": "cnet.com"
+        },
+        {
+          "id": 4,
+          "text": "\"Delta Driven for Web Apps · By getdeltadriven\"*\n\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXueUgPyIlB3kJXBa4ZprGPnG852uBE5NsS355PiAu6JFSCuPoSokZIyjN4eusMPcukrNYgMD80bitZEThsAkUKnNwQ-VdcRANtjjybZtCI4k_qlqoy0_rJSYJN0n46weT87jhFHFLKpiQUFf5-ek7QUiTDcELhw==",
+          "title": "cnet.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Delta Driven",
+        "evidence": "Passage 1 directly confirms that the software product Delta Driven at getdeltadriven.com is provided under the brand/developer name Delta Driven.",
+        "source": {
+          "id": 1,
+          "text": "The software product **Delta Driven** at **getdeltadriven.com** is provided directly under the brand/developer name **Delta Driven** (also published as **getdeltadriven**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPyUoIP_NCFcmRNmreAK5tSZhC55kQDv8uEX5yZm5fi15m1o8OzJ0-zdzSc3HL_TtIKRxNv3IjMTdlJV98KFS7rWdmpx0orcqqafLvPHnfRNo=",
+          "title": "getdeltadriven.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Delta Driven",
+    "domain": "getdeltadriven.com",
+    "description": "Delta Driven is a fitness AI tool that uses personalized workout plans and AI-powered coaching to help users achieve their fitness goals. It adapts to individual progress and preferences, offering a dynamic and effective fitness journey."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Delta Driven",
+  "evidence": "Passage 1 directly confirms that the software product Delta Driven at getdeltadriven.com is provided under the brand/developer name Delta Driven.",
+  "source": {
+    "id": 1,
+    "text": "The software product **Delta Driven** at **getdeltadriven.com** is provided directly under the brand/developer name **Delta Driven** (also published as **getdeltadriven**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPyUoIP_NCFcmRNmreAK5tSZhC55kQDv8uEX5yZm5fi15m1o8OzJ0-zdzSc3HL_TtIKRxNv3IjMTdlJV98KFS7rWdmpx0orcqqafLvPHnfRNo=",
+    "title": "getdeltadriven.com"
+  },
+  "checked_at": "2026-11-05T07:49:51.810152+00:00"
+}

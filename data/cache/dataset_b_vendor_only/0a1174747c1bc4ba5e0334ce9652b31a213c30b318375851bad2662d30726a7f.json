@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The operating vendor directly providing **PrintFriendly** at **printfriendly.com** is **Print Friendly LLC**.\n\n### Evidence\nAccording to the official **Terms and Conditions** on `printfriendly.com`:\n> *\"We are Print Friendly LLC (\"Company,\" \"we,\" \"us,\" \"our\"), a company registered in the United States. We operate the website printfriendly.com (the \"Site\"), the mobile application PrintFriendly (the \"App\"), the PrintFriendly and ScanFriendly browser extensions (each an \"Extension\"), as well as any other related products and services that refer or link to these legal terms...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The operating vendor directly providing **PrintFriendly** at **printfriendly.com** is **Print Friendly LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3dtxiaISeMBF16IXnPVfQZvzs12vYNfnSobht7W2dpsM03_3hZ8InQp3pRHEXHMDo8DEUCubUMmIyaq4w1G8uHJ-H-TprpWr7v4-gl5vR_QtBpvzs9GpbxA==",
+          "title": "printfriendly.com"
+        },
+        {
+          "id": 1,
+          "text": "According to the official **Terms and Conditions** on `printfriendly.com`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3dtxiaISeMBF16IXnPVfQZvzs12vYNfnSobht7W2dpsM03_3hZ8InQp3pRHEXHMDo8DEUCubUMmIyaq4w1G8uHJ-H-TprpWr7v4-gl5vR_QtBpvzs9GpbxA==",
+          "title": "printfriendly.com"
+        },
+        {
+          "id": 2,
+          "text": "We operate the website printfriendly.com (the \"Site\"), the mobile application PrintFriendly (the \"App\"), the PrintFriendly and ScanFriendly browser extensions (each an \"Extension\"), as well as any other related products and services that refer or link to these legal terms...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3dtxiaISeMBF16IXnPVfQZvzs12vYNfnSobht7W2dpsM03_3hZ8InQp3pRHEXHMDo8DEUCubUMmIyaq4w1G8uHJ-H-TprpWr7v4-gl5vR_QtBpvzs9GpbxA==",
+          "title": "printfriendly.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Print Friendly LLC",
+        "evidence": "Passage 0 states that the operating vendor directly providing PrintFriendly at printfriendly.com is Print Friendly LLC.",
+        "source": {
+          "id": 0,
+          "text": "The operating vendor directly providing **PrintFriendly** at **printfriendly.com** is **Print Friendly LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3dtxiaISeMBF16IXnPVfQZvzs12vYNfnSobht7W2dpsM03_3hZ8InQp3pRHEXHMDo8DEUCubUMmIyaq4w1G8uHJ-H-TprpWr7v4-gl5vR_QtBpvzs9GpbxA==",
+          "title": "printfriendly.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "PrintFriendly",
+    "domain": "printfriendly.com",
+    "description": "PrintFriendly is a web service and browser extension that enhances online content by making web pages more printer-friendly and allows users to convert web pages and files into PDF format. The platform focuses on improving the printing experience for users, enabling easy and efficient access to properly formatted documents."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Print Friendly LLC",
+  "evidence": "Passage 0 states that the operating vendor directly providing PrintFriendly at printfriendly.com is Print Friendly LLC.",
+  "source": {
+    "id": 0,
+    "text": "The operating vendor directly providing **PrintFriendly** at **printfriendly.com** is **Print Friendly LLC**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3dtxiaISeMBF16IXnPVfQZvzs12vYNfnSobht7W2dpsM03_3hZ8InQp3pRHEXHMDo8DEUCubUMmIyaq4w1G8uHJ-H-TprpWr7v4-gl5vR_QtBpvzs9GpbxA==",
+    "title": "printfriendly.com"
+  },
+  "checked_at": "2026-11-05T08:32:29.281117+00:00"
+}

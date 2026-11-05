@@ -1,0 +1,43 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **Sixfold** insurance underwriting platform at **sixfold.ai** is **Sixfold AI, Inc.**\n\n### Evidence\nAccording to the official **Sixfold Website Privacy Policy** (`sixfold.ai/privacy-policy`):\n> *\"This Privacy Policy covers how Sixfold AI, Inc. (“Sixfold”, “we”, “our” or “us”) collects, uses, discloses and stores information about you when you (as a visitor, account owner, registered user, or other user) access or use our (i) website (the “Website”), (ii) services provided by Sixfold as SAAS solutions via the Website or through our application programming interface (“API”) or otherwise...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **Sixfold** insurance underwriting platform at **sixfold.ai** is **Sixfold AI, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvdany9qG8kHRhHZ3u2NI_c9Y1Ey7abIv6ZhkwHpAFlxhLJrnIj7mjiHMLOsvWdQzk4VxtMqrN7iJd3gcnkYG-gsY00Srs-1h_7rStg7vKHASHAsKBJCZufQM=",
+          "title": "sixfold.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Sixfold AI, Inc.",
+        "evidence": "Passage 0 explicitly identifies Sixfold AI, Inc. as the vendor directly providing the Sixfold insurance underwriting platform at sixfold.ai.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the **Sixfold** insurance underwriting platform at **sixfold.ai** is **Sixfold AI, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvdany9qG8kHRhHZ3u2NI_c9Y1Ey7abIv6ZhkwHpAFlxhLJrnIj7mjiHMLOsvWdQzk4VxtMqrN7iJd3gcnkYG-gsY00Srs-1h_7rStg7vKHASHAsKBJCZufQM=",
+          "title": "sixfold.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Sixfold",
+    "domain": "sixfold.ai",
+    "description": "Revolutionize insurance underwriting with our cutting-edge generative AI co-pilot."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Sixfold AI, Inc.",
+  "evidence": "Passage 0 explicitly identifies Sixfold AI, Inc. as the vendor directly providing the Sixfold insurance underwriting platform at sixfold.ai.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the **Sixfold** insurance underwriting platform at **sixfold.ai** is **Sixfold AI, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvdany9qG8kHRhHZ3u2NI_c9Y1Ey7abIv6ZhkwHpAFlxhLJrnIj7mjiHMLOsvWdQzk4VxtMqrN7iJd3gcnkYG-gsY00Srs-1h_7rStg7vKHASHAsKBJCZufQM=",
+    "title": "sixfold.ai"
+  },
+  "checked_at": "2026-11-05T05:42:36.785078+00:00"
+}

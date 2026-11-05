@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Voiset** at **voiset.io** is **Union Smart Tech s.r.o.** (also referenced on the site as **Union Smart Technology**).\n\n### Evidence\n* **Privacy Policy (`voiset.io/privacy-policy`):**  \n  > *\"Union Smart Tech s.r.o. ('Union Smart Tech', 'we', 'our', or 'us')... This Privacy Policy explains how we collect, use, and disclose your personal information when you use our website, https://www.voiset.io (the 'Service'). This Privacy Policy governs access to and use of the Union Smart Tech, s.r.o. services, including the Voiset web browser interfaces, mobile applications, and extensions (together, the 'Service'), which is provided by Union Smart Tech, s.r.o.\"*\n* **Website Footer (`voiset.io`):**  \n  > *\"Copyright © 2026. Union Smart Technology. All Rights Reserved. Terms of use · Privacy Policy · Powered by Union Smart Technology.\"*\n* **App Marketplace Listings:**  \n  The official marketplace listing for Voiset designates **Union Smart Tech s.r.o.** as the registered business developer.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "(also referenced on the site as **Union Smart Technology**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH783uWvWslCAhm9tq7yubHh0nUDIjSKEAGIYgIJS6SK5TfJ2XsNmMhuYii8Y2ss7ic3wscyF-BgLGpu0n_gAcMharzfU41SlOVbP1s8InAIg5CX9DtBiTNMQ==",
+          "title": "voiset.io"
+        },
+        {
+          "id": 1,
+          "text": "(also referenced on the site as **Union Smart Technology**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFkRtGIN4kftIZaHVL4_eBLEmAz_ADqU7wen_223yr-TlwsFnLLaNUbfTq3NV6djy0vMyXJT22izU2BbgfRHGnm4u4p_6dXWCnQ1k=",
+          "title": "voiset.io"
+        },
+        {
+          "id": 2,
+          "text": "This Privacy Policy governs access to and use of the Union Smart Tech, s.r.o. services, including the Voiset web browser interfaces, mobile applications, and extensions (together, the 'Service'), which is provided by Union Smart Tech, s.r.o.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH783uWvWslCAhm9tq7yubHh0nUDIjSKEAGIYgIJS6SK5TfJ2XsNmMhuYii8Y2ss7ic3wscyF-BgLGpu0n_gAcMharzfU41SlOVbP1s8InAIg5CX9DtBiTNMQ==",
+          "title": "voiset.io"
+        },
+        {
+          "id": 3,
+          "text": "erms of use · Privacy Policy · Powered by Union Smart Technology.\"*\n* ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFkRtGIN4kftIZaHVL4_eBLEmAz_ADqU7wen_223yr-TlwsFnLLaNUbfTq3NV6djy0vMyXJT22izU2BbgfRHGnm4u4p_6dXWCnQ1k=",
+          "title": "voiset.io"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Union Smart Tech, s.r.o.",
+        "evidence": "Passage 2 states that Voiset web browser interfaces, mobile applications, and extensions are provided by Union Smart Tech, s.r.o.",
+        "source": {
+          "id": 2,
+          "text": "This Privacy Policy governs access to and use of the Union Smart Tech, s.r.o. services, including the Voiset web browser interfaces, mobile applications, and extensions (together, the 'Service'), which is provided by Union Smart Tech, s.r.o.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH783uWvWslCAhm9tq7yubHh0nUDIjSKEAGIYgIJS6SK5TfJ2XsNmMhuYii8Y2ss7ic3wscyF-BgLGpu0n_gAcMharzfU41SlOVbP1s8InAIg5CX9DtBiTNMQ==",
+          "title": "voiset.io"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Voiset",
+    "domain": "voiset.io",
+    "description": "AI planning tool for work and life."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Union Smart Tech, s.r.o.",
+  "evidence": "Passage 2 states that Voiset web browser interfaces, mobile applications, and extensions are provided by Union Smart Tech, s.r.o.",
+  "source": {
+    "id": 2,
+    "text": "This Privacy Policy governs access to and use of the Union Smart Tech, s.r.o. services, including the Voiset web browser interfaces, mobile applications, and extensions (together, the 'Service'), which is provided by Union Smart Tech, s.r.o.\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH783uWvWslCAhm9tq7yubHh0nUDIjSKEAGIYgIJS6SK5TfJ2XsNmMhuYii8Y2ss7ic3wscyF-BgLGpu0n_gAcMharzfU41SlOVbP1s8InAIg5CX9DtBiTNMQ==",
+    "title": "voiset.io"
+  },
+  "checked_at": "2026-11-05T07:21:38.076320+00:00"
+}

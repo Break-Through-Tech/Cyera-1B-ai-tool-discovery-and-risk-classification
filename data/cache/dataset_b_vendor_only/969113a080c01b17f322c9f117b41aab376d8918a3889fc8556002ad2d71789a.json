@@ -1,0 +1,79 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **unrav.io** (at **unrav.io**) is **Unravio, LLC**.\n\n### Evidence & Provider Statements:\n* **Operating Company:** On the official Microsoft Edge Add-ons listing for the browser extension of *unrav.io*, the publisher/vendor is officially listed as **Unravio, LLC**.\n* **Developer/Founder:** The software was founded and developed by **Sacha Arozarena Valladares** (who authors content and tools across `unrav.io`).\n* **Site Copyright & Brand:** The official website footer states: `© 2026 Unrav.io. All rights reserved.` / `© 2025 unrav.io. MAKE COMPLEX SIMPLE AGAIN.`.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **unrav.io** (at **unrav.io**) is **Unravio, LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8gxEgLa6mGa6rfM1r8tJHDa6w3nrqnavgWyPlX56F0x588t6Sehh0Ukn3WQLFQhHcLqK79sJhX2alJ8h56x86xQabKG8-suiXuxlgeLQy1VKoi5fu7ywR8_wLYyp9nluQbAZ3Avscc3oOEokhJrgdfT2wumsHt9qya1wRRoPs9c0W1qlSAjlP",
+          "title": "microsoft.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **unrav.io** (at **unrav.io**) is **Unravio, LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5zC3Y5WEBRbVu68s9wNsCOaofsOxAuv-3u1zdzGJJIxZokqC4z6YRx9ai1XlCwLqN6Se9nCmkaEX5FXNAp68eyIFkyV3fVCKwuqWOuPvMfJq0iBQPemfdcblrBs5UkJBo-gF8ttohCZjlk-dresKz-nRx2lgE38nrDjREk7lnVW4-EpKhzrc36O9S1PgV",
+          "title": "microsoft.com"
+        },
+        {
+          "id": 2,
+          "text": "**Operating Company:** On the official Microsoft Edge Add-ons listing for the browser extension of *unrav.io*, the publisher/vendor is officially listed as **Unravio, LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8gxEgLa6mGa6rfM1r8tJHDa6w3nrqnavgWyPlX56F0x588t6Sehh0Ukn3WQLFQhHcLqK79sJhX2alJ8h56x86xQabKG8-suiXuxlgeLQy1VKoi5fu7ywR8_wLYyp9nluQbAZ3Avscc3oOEokhJrgdfT2wumsHt9qya1wRRoPs9c0W1qlSAjlP",
+          "title": "microsoft.com"
+        },
+        {
+          "id": 3,
+          "text": "**Operating Company:** On the official Microsoft Edge Add-ons listing for the browser extension of *unrav.io*, the publisher/vendor is officially listed as **Unravio, LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5zC3Y5WEBRbVu68s9wNsCOaofsOxAuv-3u1zdzGJJIxZokqC4z6YRx9ai1XlCwLqN6Se9nCmkaEX5FXNAp68eyIFkyV3fVCKwuqWOuPvMfJq0iBQPemfdcblrBs5UkJBo-gF8ttohCZjlk-dresKz-nRx2lgE38nrDjREk7lnVW4-EpKhzrc36O9S1PgV",
+          "title": "microsoft.com"
+        },
+        {
+          "id": 4,
+          "text": "**Developer/Founder:** The software was founded and developed by **Sacha Arozarena Valladares** (who authors content and tools across `unrav.io`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDb0u_O9FJR7PLsrWXRZxZnNnY0vXU_pBBreAwBy9PYI5Aqnqv2LTzUXsfImQb0FxpHzEIUEDt-Q2o-KxSXbCzqYpNHIIDUURVCKxpRRTE8lF1tksi-_UdY3u4VLIpKgEZqSokHuWWpQ-qiPxLLOAx4VFSmxVHQdwqbL5s9WrGHBhz2A==",
+          "title": "aitinkerers.org"
+        },
+        {
+          "id": 5,
+          "text": "**Developer/Founder:** The software was founded and developed by **Sacha Arozarena Valladares** (who authors content and tools across `unrav.io`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuKUytCDTDi_W_Qmteiwjh9e5KpYDDTM9bqrmm1MwPS66uPMqxt6aDbXuDnU16eMytckZN1c024xDWRY9Sb1x_AiXo_G6JhV2epx8__JjutQ_nAn1XjH6P4CCpziHWlfvOZ7WdqhY9aw2HRnyqLkNJy05e7u_ZhcFesfcEXNGoD4kU8w==",
+          "title": "unrav.io"
+        },
+        {
+          "id": 6,
+          "text": "**Site Copyright & Brand:** The official website footer states: `© 2026 Unrav.io. All rights reserved.` ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEH7tquY90RpHGJP6GDTSOFdjhoMK0o0znlMsJSwdfRDDEj1c8pLh62dyKCWf522SdRa2SJZsC_m2cBSFipxK5Etfs7_FSBhTfpA1zoVg==",
+          "title": "unrav.io"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Unravio, LLC",
+        "evidence": "On the official Microsoft Edge Add-ons listing for the browser extension of unrav.io, the publisher/vendor is officially listed as Unravio, LLC.",
+        "source": {
+          "id": 2,
+          "text": "**Operating Company:** On the official Microsoft Edge Add-ons listing for the browser extension of *unrav.io*, the publisher/vendor is officially listed as **Unravio, LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8gxEgLa6mGa6rfM1r8tJHDa6w3nrqnavgWyPlX56F0x588t6Sehh0Ukn3WQLFQhHcLqK79sJhX2alJ8h56x86xQabKG8-suiXuxlgeLQy1VKoi5fu7ywR8_wLYyp9nluQbAZ3Avscc3oOEokhJrgdfT2wumsHt9qya1wRRoPs9c0W1qlSAjlP",
+          "title": "microsoft.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "unrav.io",
+    "domain": "unrav.io",
+    "description": "Unrav.io simplifies complex text, making it easier to understand. It uses AI to rephrase sentences and paragraphs, improving readability and clarity."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Unravio, LLC",
+  "evidence": "On the official Microsoft Edge Add-ons listing for the browser extension of unrav.io, the publisher/vendor is officially listed as Unravio, LLC.",
+  "source": {
+    "id": 2,
+    "text": "**Operating Company:** On the official Microsoft Edge Add-ons listing for the browser extension of *unrav.io*, the publisher/vendor is officially listed as **Unravio, LLC**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8gxEgLa6mGa6rfM1r8tJHDa6w3nrqnavgWyPlX56F0x588t6Sehh0Ukn3WQLFQhHcLqK79sJhX2alJ8h56x86xQabKG8-suiXuxlgeLQy1VKoi5fu7ywR8_wLYyp9nluQbAZ3Avscc3oOEokhJrgdfT2wumsHt9qya1wRRoPs9c0W1qlSAjlP",
+    "title": "microsoft.com"
+  },
+  "checked_at": "2026-11-05T05:33:25.161050+00:00"
+}

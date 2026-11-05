@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **Rad AI** platform at **radai.com** is **Rad AI, Inc.**\n\n### Supporting Evidence:\n* **Legal Notice & Copyright:** The official website footers across `radai.com` state: *“© 2026 Rad AI, Inc. All rights reserved.”*\n* **Privacy Policy:** The site's Privacy Policy designates the operating entity and data controller as:  \n  *“Owner and Data Controller: Rad AI, 548 Market St PMB 49792, San Francisco, CA 94104-5401. Owner contact email: privacy@radai.com.”*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **Rad AI** platform at **radai.com** is **Rad AI, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_GW4aOvcmykIvzMTfIJspaA9CZuuW0NdwQjDlvwcP1BTCozuGf9M1pMks9emiBw-otC7cogI-tQvqAZiyHNJ3eyL-j3s3d2UGV1EiGVU7ACeoDo0=",
+          "title": "radai.com"
+        },
+        {
+          "id": 1,
+          "text": " rights reserved.”*\n* **",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_GW4aOvcmykIvzMTfIJspaA9CZuuW0NdwQjDlvwcP1BTCozuGf9M1pMks9emiBw-otC7cogI-tQvqAZiyHNJ3eyL-j3s3d2UGV1EiGVU7ACeoDo0=",
+          "title": "radai.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Rad AI, Inc.",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing the Rad AI platform at radai.com is Rad AI, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the **Rad AI** platform at **radai.com** is **Rad AI, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_GW4aOvcmykIvzMTfIJspaA9CZuuW0NdwQjDlvwcP1BTCozuGf9M1pMks9emiBw-otC7cogI-tQvqAZiyHNJ3eyL-j3s3d2UGV1EiGVU7ACeoDo0=",
+          "title": "radai.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Rad AI",
+    "domain": "radai.com",
+    "description": "Rad AI streamlines radiology workflows by automating tasks like image analysis, report generation, and quality control, improving efficiency and accuracy for radiologists."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Rad AI, Inc.",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing the Rad AI platform at radai.com is Rad AI, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the **Rad AI** platform at **radai.com** is **Rad AI, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_GW4aOvcmykIvzMTfIJspaA9CZuuW0NdwQjDlvwcP1BTCozuGf9M1pMks9emiBw-otC7cogI-tQvqAZiyHNJ3eyL-j3s3d2UGV1EiGVU7ACeoDo0=",
+    "title": "radai.com"
+  },
+  "checked_at": "2026-11-05T05:34:03.079451+00:00"
+}

@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Calendly** at **calendly.com** is **Calendly, LLC**.\n\n### Evidence\nAccording to official legal and contractual documentation on **calendly.com**:\n* **Definitions page**: *“'Calendly,' 'we,' 'our,' or 'us' means Calendly, LLC and its Affiliates.”*\n* **Privacy Notice**: *“This privacy notice ('Privacy Notice') describes how Calendly, LLC ('Calendly', 'we', 'us', 'our') collects, uses, and discloses your Personal Data in the course of our business.”*\n* **Data Processing Addendum (DPA)**: Notes that the agreement is entered into with *“Calendly LLC (together, with any subsidiaries and affiliated entities, collectively 'Calendly' or 'Processor').”*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Calendly** at **calendly.com** is **Calendly, LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZEXK659MdoCEsSKtmXX0CwatVkOo00KkHtQOCDjXPJzWXGAp5QIcOCNRmIzM-sTj7fVly0y9zo21A-6riSqtBWgv4w1dfx8sjqhXrrh_O8rjj2CR-ukyudRJcdL4-pg==",
+          "title": "calendly.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Calendly** at **calendly.com** is **Calendly, LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcqfQ6G5D7bv5uBKsXSvbc7aplf0RQFtpXg3cV3MREhRn-BXq-P87QBU6zGi637yPnak8JIaqo_MmDou1_zxGwEpeRp8grIsE0UZT9KA4VfbJ8LIoPYFuMbCPT-Q==",
+          "title": "calendly.com"
+        },
+        {
+          "id": 2,
+          "text": "**Definitions page**: *“'Calendly,' 'we,' 'our,' or 'us' means Calendly, LLC and its Affiliates.”*\n* *",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcqfQ6G5D7bv5uBKsXSvbc7aplf0RQFtpXg3cV3MREhRn-BXq-P87QBU6zGi637yPnak8JIaqo_MmDou1_zxGwEpeRp8grIsE0UZT9KA4VfbJ8LIoPYFuMbCPT-Q==",
+          "title": "calendly.com"
+        },
+        {
+          "id": 3,
+          "text": "ivacy Notice**: *“This privacy notice ('Privacy Notice') describes how Calendly, LLC ('Calendly', 'we', 'us', 'our') collects, uses, and discloses your Personal Data in the course of our business.”*\n* **Dat",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZEXK659MdoCEsSKtmXX0CwatVkOo00KkHtQOCDjXPJzWXGAp5QIcOCNRmIzM-sTj7fVly0y9zo21A-6riSqtBWgv4w1dfx8sjqhXrrh_O8rjj2CR-ukyudRJcdL4-pg==",
+          "title": "calendly.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Calendly, LLC",
+        "evidence": "Passage 0 confirms that the vendor directly providing Calendly at calendly.com is Calendly, LLC.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Calendly** at **calendly.com** is **Calendly, LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZEXK659MdoCEsSKtmXX0CwatVkOo00KkHtQOCDjXPJzWXGAp5QIcOCNRmIzM-sTj7fVly0y9zo21A-6riSqtBWgv4w1dfx8sjqhXrrh_O8rjj2CR-ukyudRJcdL4-pg==",
+          "title": "calendly.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Calendly",
+    "domain": "calendly.com",
+    "description": "Calendly is a global scheduling automation platform designed to simplify the process of booking meetings. By eliminating the back-and-forth traditionally involved in scheduling, it enhances productivity for individuals, teams, and organizations around the world. With over 20 million users in 230 countries, Calendly facilitates better collaboration, enabling businesses to close deals, streamline hiring, and foster relationships more efficiently."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Calendly, LLC",
+  "evidence": "Passage 0 confirms that the vendor directly providing Calendly at calendly.com is Calendly, LLC.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Calendly** at **calendly.com** is **Calendly, LLC**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZEXK659MdoCEsSKtmXX0CwatVkOo00KkHtQOCDjXPJzWXGAp5QIcOCNRmIzM-sTj7fVly0y9zo21A-6riSqtBWgv4w1dfx8sjqhXrrh_O8rjj2CR-ukyudRJcdL4-pg==",
+    "title": "calendly.com"
+  },
+  "checked_at": "2026-11-05T09:32:41.715176+00:00"
+}

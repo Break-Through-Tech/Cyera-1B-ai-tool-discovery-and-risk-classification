@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing and developing the legal reference system **КонсультантПлюс** at **consultant.ru** is **ЗАО «КонсультантПлюс»** (CJSC \"ConsultantPlus\").\n\n### Supporting Evidence:\n* According to the official company page (*О компании и продуктах КонсультантПлюс*) on `consultant.ru`:\n  > *\"ЗАО «КонсультантПлюс» является разработчиком справочной правовой системы КонсультантПлюс... ЗАО «КонсультантПлюс» является правообладателем программ, включенных в единый [реестр]...\"* (CJSC \"ConsultantPlus\" is the developer of the legal reference system ConsultantPlus... CJSC \"ConsultantPlus\" is the copyright holder of the software...)\n* The site's legal disclosures and policies, including the *Политика ЗАО «Консультант Плюс» в отношении обработки персональных данных*, identify **ЗАО «Консультант Плюс»** as the operator and founder (*учредитель*) of the service and website.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing and developing the legal reference system **КонсультантПлюс** at **consultant.ru** is **ЗАО «КонсультантПлюс»** (CJSC \"ConsultantPlus\").\n\n### Supporting Evidence:\n* Accor",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgLsKAJrxrawV8FEWsV_rmtQH57H5kOrVb1k7hlChgUuLXANHngXR7AEFEwE_yGLH_XsgI3gIIVjiSYOLbG9DE_Aoe79MlPSfT4_026-7nK2-gD-a_xA==",
+          "title": "consultant.ru"
+        },
+        {
+          "id": 1,
+          "text": "тант Плюс»** as the operator and founder (*учредитель*) of the se",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgLsKAJrxrawV8FEWsV_rmtQH57H5kOrVb1k7hlChgUuLXANHngXR7AEFEwE_yGLH_XsgI3gIIVjiSYOLbG9DE_Aoe79MlPSfT4_026-7nK2-gD-a_xA==",
+          "title": "consultant.ru"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "ЗАО «КонсультантПлюс»",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing and developing the legal reference system КонсультантПлюс at consultant.ru is ЗАО «КонсультантПлюс» (CJSC \"ConsultantPlus\").",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing and developing the legal reference system **КонсультантПлюс** at **consultant.ru** is **ЗАО «КонсультантПлюс»** (CJSC \"ConsultantPlus\").\n\n### Supporting Evidence:\n* Accor",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgLsKAJrxrawV8FEWsV_rmtQH57H5kOrVb1k7hlChgUuLXANHngXR7AEFEwE_yGLH_XsgI3gIIVjiSYOLbG9DE_Aoe79MlPSfT4_026-7nK2-gD-a_xA==",
+          "title": "consultant.ru"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "КонсультантПлюс",
+    "domain": "consultant.ru",
+    "description": "ConsultantPlus, established in 1992, is a leading developer of a comprehensive legal reference system widely used in Russia. The system provides over 99 million documents, including federal legislation, regional laws, judicial practices, and international legal acts. It features online services such as contract and accounting policy builders, catering to lawyers, accountants, and various professionals. ConsultantPlus operates through a vast network of 300 information centers in major cities and over 400 service units in smaller towns across Russia and Belarus."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "ЗАО «КонсультантПлюс»",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing and developing the legal reference system КонсультантПлюс at consultant.ru is ЗАО «КонсультантПлюс» (CJSC \"ConsultantPlus\").",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing and developing the legal reference system **КонсультантПлюс** at **consultant.ru** is **ЗАО «КонсультантПлюс»** (CJSC \"ConsultantPlus\").\n\n### Supporting Evidence:\n* Accor",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgLsKAJrxrawV8FEWsV_rmtQH57H5kOrVb1k7hlChgUuLXANHngXR7AEFEwE_yGLH_XsgI3gIIVjiSYOLbG9DE_Aoe79MlPSfT4_026-7nK2-gD-a_xA==",
+    "title": "consultant.ru"
+  },
+  "checked_at": "2026-11-05T08:33:30.124779+00:00"
+}

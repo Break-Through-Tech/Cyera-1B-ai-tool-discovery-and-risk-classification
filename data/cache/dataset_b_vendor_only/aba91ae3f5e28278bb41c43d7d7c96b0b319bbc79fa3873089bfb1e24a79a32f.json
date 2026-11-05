@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **RockettAI** (available at **rockettai.com**) is directly provided by **Rockett AI Ltd**.\n\n### Evidence:\nAccording to the official Terms and Conditions and Privacy Policy on `rockettai.com`:\n* *\"Rockett AI Ltd · Registered in England and Wales · Company number 15099424 · Registered office: 20 Wenlock Road, London, England, N1 7GU.\"*\n* *\"RockettAI provides AI tools for teachers, school leaders, MAT leaders and school staff... Copyright 2026, Rockett AI Ltd.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **RockettAI** (available at **rockettai.com**) is directly provided by **Rockett AI Ltd**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZ8LEPvHBeTDQEK8Bf57Wz98YObpoYWCQTYwKGTvSwMbdOB0DV8LaiYxLG2N6C-Vnyd7jEbV976Ex3XZu_aPRcfM-SLoVVHAiXYsRkugdeWosSP2hFes7BuYr0gyQ9",
+          "title": "rockettai.com"
+        },
+        {
+          "id": 1,
+          "text": "The software product **RockettAI** (available at **rockettai.com**) is directly provided by **Rockett AI Ltd**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwFcZFmJaATi9nZfO88hZJZXS2Gku6Flct7g384rdU9gqZeeUKBdaTtiZVM3xhePN93Ey2mSVFTZPoe18GtiHt3AGwpiJnqsT909IwFM6BMhZAE4zKmznBYA3ga54=",
+          "title": "rockettai.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"Rockett AI Ltd · Registered in England and Wales · Company number 15099424 · Registered office: 20 Wenlock Road, London, England, N1 7GU.\"*\n* ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZ8LEPvHBeTDQEK8Bf57Wz98YObpoYWCQTYwKGTvSwMbdOB0DV8LaiYxLG2N6C-Vnyd7jEbV976Ex3XZu_aPRcfM-SLoVVHAiXYsRkugdeWosSP2hFes7BuYr0gyQ9",
+          "title": "rockettai.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Rockett AI Ltd",
+        "evidence": "Passage 0 explicitly confirms that the software product RockettAI (available at rockettai.com) is directly provided by Rockett AI Ltd.",
+        "source": {
+          "id": 0,
+          "text": "The software product **RockettAI** (available at **rockettai.com**) is directly provided by **Rockett AI Ltd**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZ8LEPvHBeTDQEK8Bf57Wz98YObpoYWCQTYwKGTvSwMbdOB0DV8LaiYxLG2N6C-Vnyd7jEbV976Ex3XZu_aPRcfM-SLoVVHAiXYsRkugdeWosSP2hFes7BuYr0gyQ9",
+          "title": "rockettai.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "RockettAI",
+    "domain": "rockettai.com",
+    "description": "AI-powered tools for teachers: save time, enhance teaching."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Rockett AI Ltd",
+  "evidence": "Passage 0 explicitly confirms that the software product RockettAI (available at rockettai.com) is directly provided by Rockett AI Ltd.",
+  "source": {
+    "id": 0,
+    "text": "The software product **RockettAI** (available at **rockettai.com**) is directly provided by **Rockett AI Ltd**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZ8LEPvHBeTDQEK8Bf57Wz98YObpoYWCQTYwKGTvSwMbdOB0DV8LaiYxLG2N6C-Vnyd7jEbV976Ex3XZu_aPRcfM-SLoVVHAiXYsRkugdeWosSP2hFes7BuYr0gyQ9",
+    "title": "rockettai.com"
+  },
+  "checked_at": "2026-11-05T07:56:52.083866+00:00"
+}

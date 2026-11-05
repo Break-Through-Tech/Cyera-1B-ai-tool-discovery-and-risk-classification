@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Docus AI** at **docus.ai** is **Docus, Inc.**\n\n### Provider Statement\nAccording to the official **Terms of Use** on `docus.ai`:\n> *\"These Terms of Use (the “Terms”) govern accessing to, requesting, procuring, receiving, obtaining, using, or otherwise utilizing the www.docus.ai (the “Website”) published, owned, and operated by **Docus, Inc.** (hereinafter – the “Docus”, “we”, “us” or “our”, “ours”) and/or services, products, information, features, technologies, software which are made available through the use of the Website (the “Services”).\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Docus AI** at **docus.ai** is **Docus, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1_tajO7WMo0VcF1lqJ9U_IJo18Ysv_7fIXaaiEobe9ZWyM9AjoPnWUukwy8nhVUzSuWaRwCIYMDC3RhR3zKD2LcfGZlpfoSIyyuPymW1mKUhPeQ==",
+          "title": "docus.ai"
+        },
+        {
+          "id": 1,
+          "text": "These Terms of Use (the “Terms”) govern accessing to, requesting, procuring, receiving, obtaining, using, or otherwise utilizing the www.docus.ai (the “Website”) published, owned, and operated by **Docus, Inc.** (hereinafter – the “Docus”, “we”, “us” or “our”, “ours”) and/or services, products, information, features, technologies, software which are made available through the use of the Website (the “Services",
+          "url": "https://docus.ai/terms-of-use",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Docus, Inc.",
+        "evidence": "According to the Terms of Use on docus.ai, www.docus.ai and its associated services, products, features, technologies, and software are published, owned, and operated by Docus, Inc.",
+        "source": {
+          "id": 1,
+          "text": "These Terms of Use (the “Terms”) govern accessing to, requesting, procuring, receiving, obtaining, using, or otherwise utilizing the www.docus.ai (the “Website”) published, owned, and operated by **Docus, Inc.** (hereinafter – the “Docus”, “we”, “us” or “our”, “ours”) and/or services, products, information, features, technologies, software which are made available through the use of the Website (the “Services",
+          "url": "https://docus.ai/terms-of-use",
+          "title": ""
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Docus AI",
+    "domain": "docus.ai",
+    "description": "Your personal AI Health Assistant for accurate health decisions."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Docus, Inc.",
+  "evidence": "According to the Terms of Use on docus.ai, www.docus.ai and its associated services, products, features, technologies, and software are published, owned, and operated by Docus, Inc.",
+  "source": {
+    "id": 1,
+    "text": "These Terms of Use (the “Terms”) govern accessing to, requesting, procuring, receiving, obtaining, using, or otherwise utilizing the www.docus.ai (the “Website”) published, owned, and operated by **Docus, Inc.** (hereinafter – the “Docus”, “we”, “us” or “our”, “ours”) and/or services, products, information, features, technologies, software which are made available through the use of the Website (the “Services",
+    "url": "https://docus.ai/terms-of-use",
+    "title": ""
+  },
+  "checked_at": "2026-11-05T06:23:02.546349+00:00"
+}

@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Amie - AI Note Taker** at the domain **amie.so** is **Amie GmbH**.\n\n### Supporting Evidence:\n* **Terms of Use (`amie.so/terms`):** \n  > *\"These Terms of Use ('Terms') govern your access to and use of the services provided by Amie GmbH ('Amie,' 'we,' 'us,' or 'our'), located at Adalbertstraße 20, 10997 Berlin, Germany... Amie offers an online calendar application accessible via our websites, amie.so and through calendar.amie.so, app.amie.so and our mobile application... together, the 'Services.'\"*\n* **Imprint (`amie.so/imprint`):** \n  > *\"Providers pursuant to sec. 5 (1) German Telemedia Act (Telemediengesetz - TMG): Amie GmbH. Address: Adalbertstr. 20, 10997 Berlin. Commercial register number: Amtsgericht Charlottenburg - HRB 214883 B.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Amie - AI Note Taker** at the domain **amie.so** is **Amie GmbH**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzqXnvnBO8T3qqdivgIkXsx9G5VTJJ4tC0yfX3NZf0mSUnaysNaMxD5w5aCPCSxl5ugViEc1XAJWmUbWOub4STL386tBxVaTvk9C8=",
+          "title": "amie.so"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Amie - AI Note Taker** at the domain **amie.so** is **Amie GmbH**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFCzmJgIEcFVS7exVsiCO1BrlpecA2DBo33jFnsiCNPbHDvoChTbtXTlELkoPvtLjztj_bNgPA-5rumDuvChLAptGyuP3N",
+          "title": "amie.so"
+        },
+        {
+          "id": 2,
+          "text": "The vendor directly providing **Amie - AI Note Taker** at the domain **amie.so** is **Amie GmbH**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2LL1_7yBS1RKyrNVou2uqXGx70li9Eqbt8xxLiYu3Eh3DQOxg0qSPbxB4ltFAjUl0Bp6gyuKuS2-X0no-5eP2Ju5HSHoyuQD9Fi7ghw==",
+          "title": "amie.so"
+        },
+        {
+          "id": 3,
+          "text": "mie offers an online calendar application accessible via our websites, amie.so and through calendar.amie.so, app.amie.so and our mobile application... together, the 'Services.'\"*\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzqXnvnBO8T3qqdivgIkXsx9G5VTJJ4tC0yfX3NZf0mSUnaysNaMxD5w5aCPCSxl5ugViEc1XAJWmUbWOub4STL386tBxVaTvk9C8=",
+          "title": "amie.so"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Amie GmbH",
+        "evidence": "The vendor directly providing Amie - AI Note Taker at the domain amie.so is Amie GmbH",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Amie - AI Note Taker** at the domain **amie.so** is **Amie GmbH**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzqXnvnBO8T3qqdivgIkXsx9G5VTJJ4tC0yfX3NZf0mSUnaysNaMxD5w5aCPCSxl5ugViEc1XAJWmUbWOub4STL386tBxVaTvk9C8=",
+          "title": "amie.so"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Amie - AI Note Taker",
+    "domain": "amie.so",
+    "description": "Amie is an AI-powered personal assistant that unifies calendar, email, tasks, and contacts. It leverages AI to help users schedule, plan, organize, write emails, and summarize meetings, aiming to streamline productivity with a joyful user experience."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Amie GmbH",
+  "evidence": "The vendor directly providing Amie - AI Note Taker at the domain amie.so is Amie GmbH",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Amie - AI Note Taker** at the domain **amie.so** is **Amie GmbH**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzqXnvnBO8T3qqdivgIkXsx9G5VTJJ4tC0yfX3NZf0mSUnaysNaMxD5w5aCPCSxl5ugViEc1XAJWmUbWOub4STL386tBxVaTvk9C8=",
+    "title": "amie.so"
+  },
+  "checked_at": "2026-11-05T07:15:43.278645+00:00"
+}

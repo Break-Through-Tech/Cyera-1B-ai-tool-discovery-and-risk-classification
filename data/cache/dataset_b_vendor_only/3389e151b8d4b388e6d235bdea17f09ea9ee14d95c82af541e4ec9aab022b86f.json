@@ -1,0 +1,85 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software platform and debugger at **jwt.io** is **Auth0** (part of **Okta, Inc.**).\n\n### Evidence:\n* **jwt.io Footer / Branding:** The website explicitly designates its provider in the footer under the header **\"PRESENTED BY AUTH0\"** alongside the copyright notice **\"Copyright © Okta. All rights reserved.\"**.\n* **Project Documentation:** The official documentation and repository for the `jwt.io` platform state that it is **\"Maintained by Auth0\"**. Additionally, Auth0 directly catalogs `JWT.io` under its suite of official developer tools.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFEQhff5_OXis0ZRUKz-O-3mDwQigcdKTK2KLknd19xPHtq8oz_DeMgasqL961ifBdjvQCTZyoSuwsjEEdOMGsfZFHD-cyuELDH1Xno-sYgi9Xjtz0CWggIrdycG_vTa0QoIrRSzN6iO9IdEIi9gDTW3rYcwIZtUJ5k1eC",
+          "title": "auth0.com"
+        },
+        {
+          "id": 1,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYqOVrjVV6ClRVlBSMqMCmrPjRqdDLo0fkYMvX7e0ee-_ltz9Q63S5z1FZ4ql2VHNknyB32L8noIHUP5bpwv1yJz2CKqjbndG556HMzbHEU5M=",
+          "title": "jwt.io"
+        },
+        {
+          "id": 2,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSjbcHrCpbMAVrWuq-9SUNyF73n3-M5hN-hOyb1lyZEaJ6N81j31qDa4N7Tj66qGgMlwkGeXu89MFW5y6k4znVtv4xvaqFeD2OXuf8kdo0gH0LuE-1hk1SRVmFD3ASyl1rlNk7CQTeDcORaROsrA==",
+          "title": "jwt.io"
+        },
+        {
+          "id": 3,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFH8EGdDuDfCbGLlHVkYY-wyilzEf6yW9Yt2nqwxgxLXJkp4imqdHM8hcJ1rR-l2b7vvsielg9T4EWjkfUXRtXM5e8loIm5ZJhtcSrPNBIqVjlgn_WvNd9TKSPVJxHj64kq_eaXj-NUru0BQj5qhpDwfa8b55U6fw==",
+          "title": "github.com"
+        },
+        {
+          "id": 4,
+          "text": "ll rights reserved.\"**.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSjbcHrCpbMAVrWuq-9SUNyF73n3-M5hN-hOyb1lyZEaJ6N81j31qDa4N7Tj66qGgMlwkGeXu89MFW5y6k4znVtv4xvaqFeD2OXuf8kdo0gH0LuE-1hk1SRVmFD3ASyl1rlNk7CQTeDcORaROsrA==",
+          "title": "jwt.io"
+        },
+        {
+          "id": 5,
+          "text": "ll rights reserved.\"**.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkCSevvE0h9c4qNDrfGk2Oh0rdxHRdnIQgNQCcqaJeBnPeMeDw1xCfSzqoAawl2npH6UHMPX_ARcjD-CNNWi1OgjW5UA==",
+          "title": "jwt.io"
+        },
+        {
+          "id": 6,
+          "text": "*Project Documentation:** The official documentation and repository for the `jwt.io` platform state that it is **\"Maintained by Auth0\"**.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKobaiioph7xEnesp1vOoynVNWp5XC_S_x-fvmxg7JorC0wD4zSU7-L5tpjncjygA4vEpiF2uBzj54tex6RckSVBNTv1xgTecGGEOYMzDjdSw=",
+          "title": "jwt.io"
+        },
+        {
+          "id": 7,
+          "text": "dditionally, Auth0 directly catalogs `JWT.io` under its suite of official developer tools.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFEQhff5_OXis0ZRUKz-O-3mDwQigcdKTK2KLknd19xPHtq8oz_DeMgasqL961ifBdjvQCTZyoSuwsjEEdOMGsfZFHD-cyuELDH1Xno-sYgi9Xjtz0CWggIrdycG_vTa0QoIrRSzN6iO9IdEIi9gDTW3rYcwIZtUJ5k1eC",
+          "title": "auth0.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Auth0",
+        "evidence": "Passage 6 explicitly states that the official documentation and repository for the jwt.io platform state that it is 'Maintained by Auth0'.",
+        "source": {
+          "id": 6,
+          "text": "*Project Documentation:** The official documentation and repository for the `jwt.io` platform state that it is **\"Maintained by Auth0\"**.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKobaiioph7xEnesp1vOoynVNWp5XC_S_x-fvmxg7JorC0wD4zSU7-L5tpjncjygA4vEpiF2uBzj54tex6RckSVBNTv1xgTecGGEOYMzDjdSw=",
+          "title": "jwt.io"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "JWT",
+    "domain": "jwt.io",
+    "description": "JWT is a platform focused on providing a compact and secure way to represent claims between two parties using JSON Web Tokens. These tokens are lightweight and URL-safe, making them suitable for various applications in web and mobile environments. The claims are encoded as JSON objects and are secured through digital signatures, ensuring safe data exchange. JWT supports applications across diverse industries, enhancing security and efficiency in digital communications."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Auth0",
+  "evidence": "Passage 6 explicitly states that the official documentation and repository for the jwt.io platform state that it is 'Maintained by Auth0'.",
+  "source": {
+    "id": 6,
+    "text": "*Project Documentation:** The official documentation and repository for the `jwt.io` platform state that it is **\"Maintained by Auth0\"**.",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKobaiioph7xEnesp1vOoynVNWp5XC_S_x-fvmxg7JorC0wD4zSU7-L5tpjncjygA4vEpiF2uBzj54tex6RckSVBNTv1xgTecGGEOYMzDjdSw=",
+    "title": "jwt.io"
+  },
+  "checked_at": "2026-11-05T09:58:46.077080+00:00"
+}

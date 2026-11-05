@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **Figma** software platform at **figma.com** is **Figma, Inc.**.\n\n### Supporting Evidence & Provider Statement\n* In Figma's legal disclosures and regulatory filings regarding the service at `figma.com`, the company specifies: \n  > *\"Unless otherwise indicated, the terms 'Figma,' the 'company,' 'we,' 'us,' and 'our' refer to Figma, Inc. and our subsidiaries... We have an automated and highly efficient self-service option, available through Figma.com.\"*\n* Figma's official privacy and legal terms (`figma.com/legal/privacy/`) state:\n  > *\"Figma, Inc. (for the purposes of this section, 'Figma', 'we', or 'us')...\"*\n* Official store listings (e.g., Chrome Web Store) identify the developer and provider of Figma tools as **Figma, Inc.** (located in San Francisco, CA).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **Figma** software platform at **figma.com** is **Figma, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4vvu3LkAJ1XFKOgTqjCr-5GpgNGDhxft4Hnb9SIQyxy1j5DkF0Bvfty98zNjO6CrW05LpPoNhsIDJFotT8hr9Q2sCFbH8A7Qjy4M0YbrAR9X12pJL4ln-ykxLbWlKGSetLuVvT9rIjtw0i4W-9Q==",
+          "title": "bloomberg.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the **Figma** software platform at **figma.com** is **Figma, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFtUR6Rq_Ds-M5fu1pKB6kqQo2hadjfgukRvTAIE2hbxeFN4wSNxekEmxasLPPUoz9zxEWDkd3M89joAOkBXEnMIhJZFLuFEYzxW4RiMJd3ttUk8rltO1ETw0KDPVjSswesAjl5l0qyVxmNQLrYRXpNx_g2hhXJORLMIo5BoEkmPq2G_HJtWF0=",
+          "title": "sec.gov"
+        },
+        {
+          "id": 2,
+          "text": "We have an automated and highly efficient self-service option, available through Figma.com.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcr6DnLO8XPvlgNpVSRLGZnkC0bT7PdO4EkCsB1bu5Z-ZKZD9Y-lm2ZLIE-BgD5TxIvxFx35Zo-FZSN_V5evPlq-Bw7URAsIjUIWf-_CM9GEp8LVlXJ3e1SW6MuUOE00Gl4MhvRCrtlJJW5tcdefcCkcOETHoY_4y83w4moN1R4zGTof5BkA==",
+          "title": "sec.gov"
+        },
+        {
+          "id": 3,
+          "text": "We have an automated and highly efficient self-service option, available through Figma.com.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXdrDMTogTk0VAiEjPKx3l1Fxktn5tsLiQaRajFX6lxZdfWVAbk8o5j_pjv53CUOgd9vHElPzyh0U_2ePeDeoqZr4PJgfPo5nwr_xTRYr9xGCfSEm4M2RN6Z_6ewDHleSoYP4hdGvygWUoI4DiWWWQGxCLaqkTPBVnDQ9gpqdqS4TQbgSMyQ==",
+          "title": "sec.gov"
+        },
+        {
+          "id": 4,
+          "text": "*\"Figma, Inc. (for the purposes of this section, 'Figma', 'we', or 'us')...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiDZI1lXdPqQrNgBOsH9gbuFFApjuhKjxk2Oeb6AQHNtmJI4zkuezSLv0k1PDkbo5KBKyXiTxjIsqxreMf4V_FjBMpyMxCk5-KdLskwmwxN40b1_hp1UnfY3K_OZrPA0mURGPx0BGx-emJel1L1ZHpOTczBOeaSwiP03weFO9DxDECuAcAqW9gHBJ-PNG163cqgd00LTerPAedpgw=",
+          "title": "smlouvy.gov.cz"
+        },
+        {
+          "id": 5,
+          "text": "Official store listings (e.g., Chrome Web Store) identify the developer and provider of Figma tools as **Figma, Inc.** (located in San Francisco, CA)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhmnzoOqQ7Xuc-5NQJAuhwxnS0vFI62Wr5MGv9-ZlEKPrNsXehI4UVRl5Yt9WENMG0JWXHc4P675ZYSnMXQRkz0ReDpOYypQqMdIANc7CvrHLstOBTiDifDkk9lz9zjCoxqPtyEnjr765Gfg7RP4y2rePOtRYjbSjP18jVaHCMb0wyBEO2",
+          "title": "google.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Figma, Inc.",
+        "evidence": "Passage 0 states directly that the vendor providing the Figma software platform at figma.com is Figma, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the **Figma** software platform at **figma.com** is **Figma, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4vvu3LkAJ1XFKOgTqjCr-5GpgNGDhxft4Hnb9SIQyxy1j5DkF0Bvfty98zNjO6CrW05LpPoNhsIDJFotT8hr9Q2sCFbH8A7Qjy4M0YbrAR9X12pJL4ln-ykxLbWlKGSetLuVvT9rIjtw0i4W-9Q==",
+          "title": "bloomberg.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Figma",
+    "domain": "figma.com",
+    "description": "Figma is a cloud-based design platform based in San Francisco, California that enables teams to collaborate on interface design projects in real-time. It offers a suite of tools for wireframing, prototyping, and design systems, making it popular among UX/UI designers and developers alike. Figma's collaborative features allow multiple users to work simultaneously, enhancing workflow and communication in a digital environment."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Figma, Inc.",
+  "evidence": "Passage 0 states directly that the vendor providing the Figma software platform at figma.com is Figma, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the **Figma** software platform at **figma.com** is **Figma, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4vvu3LkAJ1XFKOgTqjCr-5GpgNGDhxft4Hnb9SIQyxy1j5DkF0Bvfty98zNjO6CrW05LpPoNhsIDJFotT8hr9Q2sCFbH8A7Qjy4M0YbrAR9X12pJL4ln-ykxLbWlKGSetLuVvT9rIjtw0i4W-9Q==",
+    "title": "bloomberg.com"
+  },
+  "checked_at": "2026-11-05T08:48:00.962294+00:00"
+}

@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on the official legal documentation for **Dreamjourney AI** at **`dreamjourneyai.com`**, the product is directly provided under the brand/entity name **Dreamjourney AI** (or **DreamjourneyAI**), with no separate parent or registered corporate entity specified.\n\n### Evidence:\n* **Terms of Service:** *\"These Terms of Service (\"Terms\") govern your access to and use of the App and constitute a binding legal agreement between you and DreamjourneyAI.\"*\n* **Privacy Policy:** *\"At DreamjourneyAI, accessible from https://dreamjourneyai.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by DreamjourneyAI and how we use it.\"*\n* **Website Footer:** *\"© Dreamjourney AI. All rights reserved. support@dreamjourneyai.com.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "Based on the official legal documentation for **Dreamjourney AI** at **`dreamjourneyai.com`**, the product is directly provided under the brand/entity name **Dreamjourney AI** (or **DreamjourneyAI**), with no separate parent or registered corporate entity specified",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5N68zuRf9gqYTLrgsLNpwOpYERPBf9z2swZKAegmqg9tGHJeelvLVu_g3THqSKGlYHtAS5EMYGg0lSTgyfG45affP0salxZPX6p7EQl_Z2bDA42LxflwT0JKKXq8BpuSQMIOV9g==",
+          "title": "dreamjourneyai.com"
+        },
+        {
+          "id": 1,
+          "text": "Based on the official legal documentation for **Dreamjourney AI** at **`dreamjourneyai.com`**, the product is directly provided under the brand/entity name **Dreamjourney AI** (or **DreamjourneyAI**), with no separate parent or registered corporate entity specified",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHptpgw2q7Lhwjxq3ntOUPWxT8Q8JKiSvFQ5jd6gg9rffikmRMR8-bW2FB_hJhu-DQk_4IiZZNXw8CzHy1UfwFEMHiP4jzZeXwp6PZFEVPgDhrJLkP2qlvIwvMM-l4z",
+          "title": "dreamjourneyai.com"
+        },
+        {
+          "id": 2,
+          "text": "**Terms of Service:** *\"These Terms of Service (\"Terms\") govern your access to and use of the App and constitute a binding legal agreement between you and DreamjourneyAI.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5N68zuRf9gqYTLrgsLNpwOpYERPBf9z2swZKAegmqg9tGHJeelvLVu_g3THqSKGlYHtAS5EMYGg0lSTgyfG45affP0salxZPX6p7EQl_Z2bDA42LxflwT0JKKXq8BpuSQMIOV9g==",
+          "title": "dreamjourneyai.com"
+        },
+        {
+          "id": 3,
+          "text": "This Privacy Policy document contains types of information that is collected and recorded by DreamjourneyAI and how we use it.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHptpgw2q7Lhwjxq3ntOUPWxT8Q8JKiSvFQ5jd6gg9rffikmRMR8-bW2FB_hJhu-DQk_4IiZZNXw8CzHy1UfwFEMHiP4jzZeXwp6PZFEVPgDhrJLkP2qlvIwvMM-l4z",
+          "title": "dreamjourneyai.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "DreamjourneyAI",
+        "evidence": "According to the Terms of Service, the Terms govern access to and use of the App and constitute a binding legal agreement between the user and DreamjourneyAI.",
+        "source": {
+          "id": 2,
+          "text": "**Terms of Service:** *\"These Terms of Service (\"Terms\") govern your access to and use of the App and constitute a binding legal agreement between you and DreamjourneyAI.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5N68zuRf9gqYTLrgsLNpwOpYERPBf9z2swZKAegmqg9tGHJeelvLVu_g3THqSKGlYHtAS5EMYGg0lSTgyfG45affP0salxZPX6p7EQl_Z2bDA42LxflwT0JKKXq8BpuSQMIOV9g==",
+          "title": "dreamjourneyai.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Dreamjourney AI",
+    "domain": "dreamjourneyai.com",
+    "description": "Ai roleplay, character chat and rpg platform with long-term memory and advanced ai."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "DreamjourneyAI",
+  "evidence": "According to the Terms of Service, the Terms govern access to and use of the App and constitute a binding legal agreement between the user and DreamjourneyAI.",
+  "source": {
+    "id": 2,
+    "text": "**Terms of Service:** *\"These Terms of Service (\"Terms\") govern your access to and use of the App and constitute a binding legal agreement between you and DreamjourneyAI.\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5N68zuRf9gqYTLrgsLNpwOpYERPBf9z2swZKAegmqg9tGHJeelvLVu_g3THqSKGlYHtAS5EMYGg0lSTgyfG45affP0salxZPX6p7EQl_Z2bDA42LxflwT0JKKXq8BpuSQMIOV9g==",
+    "title": "dreamjourneyai.com"
+  },
+  "checked_at": "2026-11-05T05:54:54.948501+00:00"
+}

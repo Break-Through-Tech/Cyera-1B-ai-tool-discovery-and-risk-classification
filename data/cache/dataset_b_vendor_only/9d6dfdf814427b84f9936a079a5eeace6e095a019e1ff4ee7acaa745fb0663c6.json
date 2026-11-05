@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Ticket Tailor** at **tickettailor.com** is **Zimma Ltd** (trading as **Ticket Tailor**).\n\n### Supporting Evidence\nAccording to the Ticket Tailor *Terms and Conditions* and *Website Terms of Use* at `tickettailor.com`:\n> *\"Tickettailor.com and buytickets.at and any of their sub-domains is a site operated by Ticket Tailor, which is the trading name of Zimma Ltd ('we', 'our', 'us'). We are registered in England and Wales under company number 07583551...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Ticket Tailor** at **tickettailor.com** is **Zimma Ltd** (trading as **Ticket Tailor**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHhVfDViOfo1lx_r8Bd62qLdSVy6j3RALrxcvR_M_vncJMHHMcCa5tfJVweMItFBS1SmsbWTSRlXn6-3vD5SZIeJfpLyDxP2die2wD1TnXPf3RSRP6H4z4AZSdYGlVNN1KgSXLBNQrvMrBLX2I1u400rUr",
+          "title": "tickettailor.com"
+        },
+        {
+          "id": 1,
+          "text": "We are registered in England and Wales under company number 07583551...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHhVfDViOfo1lx_r8Bd62qLdSVy6j3RALrxcvR_M_vncJMHHMcCa5tfJVweMItFBS1SmsbWTSRlXn6-3vD5SZIeJfpLyDxP2die2wD1TnXPf3RSRP6H4z4AZSdYGlVNN1KgSXLBNQrvMrBLX2I1u400rUr",
+          "title": "tickettailor.com"
+        },
+        {
+          "id": 2,
+          "text": "We are registered in England and Wales under company number 07583551...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4LAZsrrG_Oxc5Gqag1Wsw7QK-ZqTZg32YknWg-cm6ezSrPqQ0PkrC5lQVg-dl9LDXE7ed9S3Nor2rI7mGZfbpv-xcjn4cyib4E7NSehuJSciF_eBowy70KwQsbvtPihr5GgTbNnRSLRq36g==",
+          "title": "tickettailor.com"
+        },
+        {
+          "id": 3,
+          "text": "Tickettailor.com and buytickets.at and any of their sub-domains is a site operated by Ticket Tailor, which is the trading name of Zimma Ltd ('we', 'our', 'us'). We are registered in England and Wales under company number 0758",
+          "url": "https://www.tickettailor.com/legal/terms-and-conditions",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Zimma Ltd",
+        "evidence": "Tickettailor.com is operated by Ticket Tailor, which is the trading name of Zimma Ltd.",
+        "source": {
+          "id": 3,
+          "text": "Tickettailor.com and buytickets.at and any of their sub-domains is a site operated by Ticket Tailor, which is the trading name of Zimma Ltd ('we', 'our', 'us'). We are registered in England and Wales under company number 0758",
+          "url": "https://www.tickettailor.com/legal/terms-and-conditions",
+          "title": ""
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Ticket Tailor",
+    "domain": "tickettailor.com",
+    "description": "Ticket Tailor is an online platform designed for selling tickets without incurring per-ticket fees, catering to event organizers globally. The platform offers a user-friendly experience with numerous features and integrations, including payment processing via Stripe and PayPal, as well as social media promotional tools through Facebook. Users can sign up for free and explore various pricing plans tailored to their needs."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Zimma Ltd",
+  "evidence": "Tickettailor.com is operated by Ticket Tailor, which is the trading name of Zimma Ltd.",
+  "source": {
+    "id": 3,
+    "text": "Tickettailor.com and buytickets.at and any of their sub-domains is a site operated by Ticket Tailor, which is the trading name of Zimma Ltd ('we', 'our', 'us'). We are registered in England and Wales under company number 0758",
+    "url": "https://www.tickettailor.com/legal/terms-and-conditions",
+    "title": ""
+  },
+  "checked_at": "2026-11-05T08:58:08.632309+00:00"
+}

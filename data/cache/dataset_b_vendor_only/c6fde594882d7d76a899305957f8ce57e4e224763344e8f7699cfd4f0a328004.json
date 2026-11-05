@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the customer data platform software at **segment.com** is **Twilio Inc.** (operating with regional affiliates such as Twilio Ireland Limited for customers in Europe and other regions).\n\n### Evidence & Provider Statements\n* **Merger & Direct Provider Transition:** Twilio's legal change log confirms that the original operating company, Segment.io, Inc., was merged directly into Twilio:\n  > *\"Twilio Segment Customer Data Platform: Updated these terms to reflect that Twilio Inc. or one of its affiliates will provide the Segment Services instead of Segment.io, Inc., which has been merged into Twilio Inc.\"*\n* **Governing Terms:** In Twilio’s Service Level Agreements and Customer Data Platform Requirements:\n  > *“‘Segment Services’ means any services and application programming interfaces branded as ‘Segment’, ‘Twilio Segment’, or ‘Twilio Engage’.”*\n  > *“Segment Documentation means Twilio's standard technical documentation for the Segment Services, the current version of which is available at https://www.segment.com/docs.”*\n  > *\"Copyright © Twilio Inc.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the customer data platform software at **segment.com** is **Twilio Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2ilLVvaNbWasWndfaQPpfNofPk-Pbj2iam_E8s2mx7ryfBSu4kA-faBEqqiuYBn7qzL98-dDDU_ucUtStw2lNKlx-1_mxe0DAKq88AutMQJEMtZzmwtJ89oa6LzN5nLjez3k0-b_2sLEGTFtaqkDDBWUcfCGD5IP23I6dUbKD4jq8",
+          "title": "twilio.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the customer data platform software at **segment.com** is **Twilio Inc.** (operating with regional affiliates such as Twilio Ireland Limited for customers in Europe and other regions)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEha1viiul-oIkJyfkMS3OOX4npUrao3qoreTUNdMSZvwuhY-UnXLeKOKF-Wl9zawJ1rwGhFkv93jV9mQSMXHvMIU7VRqugM9P3TESvDG1GYIyvli6TK-li6Fb4eQ==",
+          "title": "twilio.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"Twilio Segment Customer Data Platform: Updated these terms to reflect that Twilio Inc. or one of its affiliates will provide the Segment Services instead of Segment.io, Inc., which has been merged into Twilio Inc.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2ilLVvaNbWasWndfaQPpfNofPk-Pbj2iam_E8s2mx7ryfBSu4kA-faBEqqiuYBn7qzL98-dDDU_ucUtStw2lNKlx-1_mxe0DAKq88AutMQJEMtZzmwtJ89oa6LzN5nLjez3k0-b_2sLEGTFtaqkDDBWUcfCGD5IP23I6dUbKD4jq8",
+          "title": "twilio.com"
+        },
+        {
+          "id": 3,
+          "text": "‘Segment Services’ means any services and application programming interfaces branded as ‘Segment’, ‘Twilio Segment’, or ‘Twilio Engage’.”*\n  > *“Segment Documen",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfb9T6JOlJ7Jy0MRddPM03qhhB5DHj-rTJDh_6NJukN6hc-2cM0gAmLdcUnLb_IVN1j_DYT6yAp6ITbKqTzzhQvlDR4WnW6sDnFQLv_DdvP-3OONMdNwXZKcDQtNfL7Tc76r4qoN-nYlIXbjMa6KtSx6p3Zvzb7D3qESfxuP6nXStShpwLGGpsVvbC",
+          "title": "twilio.com"
+        },
+        {
+          "id": 4,
+          "text": "n means Twilio's standard technical documentation for the Segment Services, the current version of which is available at https://www.segment.com/docs.”*\n  > *\"Copyright © Twilio ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfb9T6JOlJ7Jy0MRddPM03qhhB5DHj-rTJDh_6NJukN6hc-2cM0gAmLdcUnLb_IVN1j_DYT6yAp6ITbKqTzzhQvlDR4WnW6sDnFQLv_DdvP-3OONMdNwXZKcDQtNfL7Tc76r4qoN-nYlIXbjMa6KtSx6p3Zvzb7D3qESfxuP6nXStShpwLGGpsVvbC",
+          "title": "twilio.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Twilio Inc.",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing the customer data platform software at segment.com is Twilio Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the customer data platform software at **segment.com** is **Twilio Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2ilLVvaNbWasWndfaQPpfNofPk-Pbj2iam_E8s2mx7ryfBSu4kA-faBEqqiuYBn7qzL98-dDDU_ucUtStw2lNKlx-1_mxe0DAKq88AutMQJEMtZzmwtJ89oa6LzN5nLjez3k0-b_2sLEGTFtaqkDDBWUcfCGD5IP23I6dUbKD4jq8",
+          "title": "twilio.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Segment",
+    "domain": "segment.com",
+    "description": "Segment is a customer data platform based in San Francisco that enables companies to consolidate and manage first-party customer data efficiently. The platform empowers organizations to standardize data collection, unify user records, and integrate customer information across various systems, fostering data-driven decision-making and enhancing user experiences. Trusted by over 20,000 companies, including notable brands like Intuit and Instacart, Segment facilitates real-time insights and growth acceleration."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Twilio Inc.",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing the customer data platform software at segment.com is Twilio Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the customer data platform software at **segment.com** is **Twilio Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2ilLVvaNbWasWndfaQPpfNofPk-Pbj2iam_E8s2mx7ryfBSu4kA-faBEqqiuYBn7qzL98-dDDU_ucUtStw2lNKlx-1_mxe0DAKq88AutMQJEMtZzmwtJ89oa6LzN5nLjez3k0-b_2sLEGTFtaqkDDBWUcfCGD5IP23I6dUbKD4jq8",
+    "title": "twilio.com"
+  },
+  "checked_at": "2026-11-05T09:42:52.808098+00:00"
+}

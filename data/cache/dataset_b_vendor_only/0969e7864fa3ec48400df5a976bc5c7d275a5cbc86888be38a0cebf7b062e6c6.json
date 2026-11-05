@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Lucidchart** at **lucidchart.com** is **Lucid Software Inc.**\n\n### Supporting Evidence and Citation\n* **Lucid Software Inc. Terms of Service & Privacy Policy:**\n  * Lucid’s legal policies state: *\"This Privacy Policy ('Policy') describes how Lucid Software Inc. ('Lucid', 'we', or 'us') collects, uses and discloses your personal information. This Policy applies to information we collect when you use our websites, mobile applications and other online products and services...\"* listing **Lucidchart** among its core software products.\n  * The governing terms specify that users enter into an agreement with *\"Lucid Software Inc. ('Lucid')\"* governing access to and use of Lucid's services and websites.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Lucidchart** at **lucidchart.com** is **Lucid Software Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsjmX8hlUf84Pbj1U66P0_92y6Isd5PPE6Smd7ElZgHpScTQ6KUfKfshosGQkI_4epaji1BFMlQvldbT9XmE-KnxpExgaZfV_HbpB9rg==",
+          "title": "lucid.co"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Lucidchart** at **lucidchart.com** is **Lucid Software Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJs6b4tvlfXHUgUucwkrloP1DOesWFSVcT6b9bwxec7HR3BEPgi7Uz7xjqZmMv5L9Hz0q2rVYGHhUJKzx21VBfpTcLNyJUvQ-Y6P4=",
+          "title": "lucid.co"
+        },
+        {
+          "id": 2,
+          "text": "is Policy applies to information we collect when you use our websites, mobile applications and other online products and services...\"* listing **Lucidchart** among its core software products.\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsjmX8hlUf84Pbj1U66P0_92y6Isd5PPE6Smd7ElZgHpScTQ6KUfKfshosGQkI_4epaji1BFMlQvldbT9XmE-KnxpExgaZfV_HbpB9rg==",
+          "title": "lucid.co"
+        },
+        {
+          "id": 3,
+          "text": "is Policy applies to information we collect when you use our websites, mobile applications and other online products and services...\"* listing **Lucidchart** among its core software products.\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJs6b4tvlfXHUgUucwkrloP1DOesWFSVcT6b9bwxec7HR3BEPgi7Uz7xjqZmMv5L9Hz0q2rVYGHhUJKzx21VBfpTcLNyJUvQ-Y6P4=",
+          "title": "lucid.co"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Lucid Software Inc.",
+        "evidence": "Passage 0 states directly that the vendor providing Lucidchart at lucidchart.com is Lucid Software Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Lucidchart** at **lucidchart.com** is **Lucid Software Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsjmX8hlUf84Pbj1U66P0_92y6Isd5PPE6Smd7ElZgHpScTQ6KUfKfshosGQkI_4epaji1BFMlQvldbT9XmE-KnxpExgaZfV_HbpB9rg==",
+          "title": "lucid.co"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Lucidchart",
+    "domain": "lucidchart.com",
+    "description": "Lucidchart is a cloud-based visual workspace that offers diagramming and data visualization tools, facilitating team collaboration. Since its inception in 2010, it has gained 30 million users across 180 countries, including 99% of Fortune 500 companies. As a product of Lucid Software, it aims to empower teams globally to enhance their collaborative efforts and innovate more efficiently."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Lucid Software Inc.",
+  "evidence": "Passage 0 states directly that the vendor providing Lucidchart at lucidchart.com is Lucid Software Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Lucidchart** at **lucidchart.com** is **Lucid Software Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsjmX8hlUf84Pbj1U66P0_92y6Isd5PPE6Smd7ElZgHpScTQ6KUfKfshosGQkI_4epaji1BFMlQvldbT9XmE-KnxpExgaZfV_HbpB9rg==",
+    "title": "lucid.co"
+  },
+  "checked_at": "2026-11-05T09:46:33.043781+00:00"
+}

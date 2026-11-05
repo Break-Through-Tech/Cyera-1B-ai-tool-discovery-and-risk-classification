@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Alter** at **alterhq.com** is **DEVX**.\n\nAccording to the official Alter Privacy Policy page on `alterhq.com`:\n> **Company Information:**  \n> **Name:** DEVX  \n> **SIRET:** 80026170300014  \n> **DUNS:** 265862688  \n> **Mail:** DEVX, 2 avenue du Président Pierre Angot, 64000 PAU, FRANCE",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Alter** at **alterhq.com** is **DEVX**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLQAfu8pHLBbY-KxpZeAehKgHg0U7TR2RpNyIZzj7t17XUeoo5xlAx6whk2HDYy7RJ_a1Rar48-fkG4vZs69Rfihlq14WR7IXpfG5To1vJB793hh9AdgU=",
+          "title": "alterhq.com"
+        },
+        {
+          "id": 1,
+          "text": "According to the official Alter Privacy Policy page on `alterhq.com`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLQAfu8pHLBbY-KxpZeAehKgHg0U7TR2RpNyIZzj7t17XUeoo5xlAx6whk2HDYy7RJ_a1Rar48-fkG4vZs69Rfihlq14WR7IXpfG5To1vJB793hh9AdgU=",
+          "title": "alterhq.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "DEVX",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing Alter at alterhq.com is DEVX.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Alter** at **alterhq.com** is **DEVX**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLQAfu8pHLBbY-KxpZeAehKgHg0U7TR2RpNyIZzj7t17XUeoo5xlAx6whk2HDYy7RJ_a1Rar48-fkG4vZs69Rfihlq14WR7IXpfG5To1vJB793hh9AdgU=",
+          "title": "alterhq.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Alter",
+    "domain": "alterhq.com",
+    "description": "AI, Built for Mac: Skip Copy/Paste, Lengthy Explanations & Context-Switching."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "DEVX",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing Alter at alterhq.com is DEVX.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Alter** at **alterhq.com** is **DEVX**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLQAfu8pHLBbY-KxpZeAehKgHg0U7TR2RpNyIZzj7t17XUeoo5xlAx6whk2HDYy7RJ_a1Rar48-fkG4vZs69Rfihlq14WR7IXpfG5To1vJB793hh9AdgU=",
+    "title": "alterhq.com"
+  },
+  "checked_at": "2026-11-05T05:33:39.163073+00:00"
+}

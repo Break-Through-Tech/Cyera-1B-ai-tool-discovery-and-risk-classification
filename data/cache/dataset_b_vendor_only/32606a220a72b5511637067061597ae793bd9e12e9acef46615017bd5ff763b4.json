@@ -1,0 +1,43 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **DocSend** at **docsend.com** is directly provided by **Dropbox, Inc.** (for customers located in North America) and **Dropbox International Unlimited Company** (for customers located outside North America).\n\n### Evidence\nAccording to the DocSend **Terms of Service** (`docsend.com/terms`):\n> *\"These Terms of Service (“Terms”) constitute an agreement between Dropbox, Inc., if you are based in the United States, its territories and possessions, Canada, or Mexico (“North America“) or Dropbox International Unlimited Company if you are based outside North America (each, for the purpose of these Terms, “DocSend,” “us,” “we” or “our”) and the party agreeing to these terms (“Customer,” “you,” or “your”). These Terms govern your access to and use of the Services.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **DocSend** at **docsend.com** is directly provided by **Dropbox, Inc.** (for customers located in North America) and **Dropbox International Unlimited Company** (for customers located outside North America)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZQdv2jLcCx72iXvJCP8jiDdPvxMGd1oCQ26gm6T6UxPYDyRzZgyyVmlS1AHE3H71vzajGSNUAICMkU1V3IYzUL4EoZd3M7h8K8KQAqMMxDqyNJ5g4Uzm4ggt4QE3W_A==",
+          "title": "docsend.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Dropbox, Inc.",
+        "evidence": "Passage 0 states that the software product DocSend at docsend.com is directly provided by Dropbox, Inc. (for customers located in North America) and Dropbox International Unlimited Company (for customers located outside North America).",
+        "source": {
+          "id": 0,
+          "text": "The software product **DocSend** at **docsend.com** is directly provided by **Dropbox, Inc.** (for customers located in North America) and **Dropbox International Unlimited Company** (for customers located outside North America)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZQdv2jLcCx72iXvJCP8jiDdPvxMGd1oCQ26gm6T6UxPYDyRzZgyyVmlS1AHE3H71vzajGSNUAICMkU1V3IYzUL4EoZd3M7h8K8KQAqMMxDqyNJ5g4Uzm4ggt4QE3W_A==",
+          "title": "docsend.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "DocSend",
+    "domain": "docsend.com",
+    "description": "DocSend provides a secure platform for sharing business-critical documents, enabling users to control access and view analytics to understand document engagement. The service is designed to enhance the sharing experience of sensitive files while ensuring confidentiality and offering insights into viewer interactions. Located in San Francisco, California, DocSend focuses on facilitating effective communication for businesses around the globe."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Dropbox, Inc.",
+  "evidence": "Passage 0 states that the software product DocSend at docsend.com is directly provided by Dropbox, Inc. (for customers located in North America) and Dropbox International Unlimited Company (for customers located outside North America).",
+  "source": {
+    "id": 0,
+    "text": "The software product **DocSend** at **docsend.com** is directly provided by **Dropbox, Inc.** (for customers located in North America) and **Dropbox International Unlimited Company** (for customers located outside North America)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZQdv2jLcCx72iXvJCP8jiDdPvxMGd1oCQ26gm6T6UxPYDyRzZgyyVmlS1AHE3H71vzajGSNUAICMkU1V3IYzUL4EoZd3M7h8K8KQAqMMxDqyNJ5g4Uzm4ggt4QE3W_A==",
+    "title": "docsend.com"
+  },
+  "checked_at": "2026-11-05T09:33:46.053960+00:00"
+}

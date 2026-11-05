@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "For the software product **ReelBuzz** hosted at **reelbuzz.ai**, the vendor directly providing the service is identified as **ReelBuzz**.\n\n### Supporting Evidence & Provider Statement\nThe official Terms of Service page for `reelbuzz.ai` explicitly identifies the provider under its **Legal Agreement** clause:\n> *\"These terms constitute a legally binding agreement between:  \n> You (the user);  \n> ReelBuzz (the service provider).\"*\n\nThe terms and privacy policy further reference **reelbuzz.ai** as the operating service and provide contact details via `support@reelbuzz.ai` without naming a separate registered parent corporation.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "For the software product **ReelBuzz** hosted at **reelbuzz.ai**, the vendor directly providing the service is identified as **ReelBuzz**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEz5aFg1KJ2EKuFiuQE1QQZMnoR11BVM4GdxBiW0YxYEq4x6QhwWpH3OPHAfV5FBBJruQeC15mq5nl6eR7jqlQsNcPA2i5uKm_x1Z7_Uscs5R-RDYGRLXi1B2g=",
+          "title": "reelbuzz.ai"
+        },
+        {
+          "id": 1,
+          "text": "ReelBuzz (the service provider).\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEz5aFg1KJ2EKuFiuQE1QQZMnoR11BVM4GdxBiW0YxYEq4x6QhwWpH3OPHAfV5FBBJruQeC15mq5nl6eR7jqlQsNcPA2i5uKm_x1Z7_Uscs5R-RDYGRLXi1B2g=",
+          "title": "reelbuzz.ai"
+        },
+        {
+          "id": 2,
+          "text": "The terms and privacy policy further reference **reelbuzz.ai** as the operating service and provide contact details via `support@reelbuzz.ai` without naming a separate registered parent corporation",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwuu3bupmvu3zPHSN_SLwsxzc-DpH-J85hNkKIx7QokwqymD4S3uXComkOrct3Gzy7HyxjLCa3ei1D79zrnMtShefT2SM3O5tnciIvE3j9phB0HAC-ly76",
+          "title": "reelbuzz.ai"
+        },
+        {
+          "id": 3,
+          "text": "The terms and privacy policy further reference **reelbuzz.ai** as the operating service and provide contact details via `support@reelbuzz.ai` without naming a separate registered parent corporation",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEz5aFg1KJ2EKuFiuQE1QQZMnoR11BVM4GdxBiW0YxYEq4x6QhwWpH3OPHAfV5FBBJruQeC15mq5nl6eR7jqlQsNcPA2i5uKm_x1Z7_Uscs5R-RDYGRLXi1B2g=",
+          "title": "reelbuzz.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "ReelBuzz",
+        "evidence": "Passage 1 explicitly designates ReelBuzz as 'the service provider'.",
+        "source": {
+          "id": 1,
+          "text": "ReelBuzz (the service provider).\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEz5aFg1KJ2EKuFiuQE1QQZMnoR11BVM4GdxBiW0YxYEq4x6QhwWpH3OPHAfV5FBBJruQeC15mq5nl6eR7jqlQsNcPA2i5uKm_x1Z7_Uscs5R-RDYGRLXi1B2g=",
+          "title": "reelbuzz.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "ReelBuzz",
+    "domain": "reelbuzz.ai",
+    "description": "Gen&Edit AI images with reference image & prompt templates & natural language editing."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "ReelBuzz",
+  "evidence": "Passage 1 explicitly designates ReelBuzz as 'the service provider'.",
+  "source": {
+    "id": 1,
+    "text": "ReelBuzz (the service provider).\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEz5aFg1KJ2EKuFiuQE1QQZMnoR11BVM4GdxBiW0YxYEq4x6QhwWpH3OPHAfV5FBBJruQeC15mq5nl6eR7jqlQsNcPA2i5uKm_x1Z7_Uscs5R-RDYGRLXi1B2g=",
+    "title": "reelbuzz.ai"
+  },
+  "checked_at": "2026-11-05T06:01:21.852051+00:00"
+}

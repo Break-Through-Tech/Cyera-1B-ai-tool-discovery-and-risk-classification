@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **Git** at **git-scm.com** is provided and maintained by the **Git Project** (the Git community), with administrative, legal, and financial sponsorship provided by the **Software Freedom Conservancy**.\n\n### Official Provider Statements\n* **Git Project / Community:** According to the site's About page, the software and documentation are developed collaboratively by the project community: *\"The reference manual is imported from the Git project... Bugs in the Git software itself should similarly go to the Git community\"*.\n* **Software Freedom Conservancy:** As stated across the site and on its Conservancy page, *\"Git is a member project of Software Freedom Conservancy. Conservancy is a not-for-profit organization that provides financial and administrative assistance to open source projects\"*, and the project's legal/trademark contact is registered as *\"Git Project c/o Software Freedom Conservancy\"*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **Git** at **git-scm.com** is provided and maintained by the **Git Project** (the Git community), with administrative, legal, and financial sponsorship provided by the **Software Freedom Conservancy**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHETV0hEr_XfRiTuYGt6flaUAtlAF6L7LvK-CFwHm8MV7nBFDQ2gIX8aDx_iWHmoLZiADcTq87Ya22QLOI1lRdydF31lbIPrmdVnEf9G6I=",
+          "title": "git-scm.com"
+        },
+        {
+          "id": 1,
+          "text": "The software product **Git** at **git-scm.com** is provided and maintained by the **Git Project** (the Git community), with administrative, legal, and financial sponsorship provided by the **Software Freedom Conservancy**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZNp9xN0K5ICzLAcWc3JBOSYhAtnsTRddmpz7OmfSgyVBU03AOMbkkR_8O9jv1mFLCQk6VtOqqhqnXsapkPjEAh_aIlRFbhfQsqKeGQLpgUp_EAGEN-o8OAA==",
+          "title": "git-scm.com"
+        },
+        {
+          "id": 2,
+          "text": "The software product **Git** at **git-scm.com** is provided and maintained by the **Git Project** (the Git community), with administrative, legal, and financial sponsorship provided by the **Software Freedom Conservancy**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErCnmUP_4WOXDXBjKrrUHy1Remwm1q1JgBbae7p3BTfUMz4e4cNG2ogLnAgmdCIWcvytsQHcPE6Y0qu_sPik2z-7aKtB5EdaZi5AWBe7U=",
+          "title": "git-scm.com"
+        },
+        {
+          "id": 3,
+          "text": "Bugs in the Git software itself should similarly go to the Git community\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHETV0hEr_XfRiTuYGt6flaUAtlAF6L7LvK-CFwHm8MV7nBFDQ2gIX8aDx_iWHmoLZiADcTq87Ya22QLOI1lRdydF31lbIPrmdVnEf9G6I=",
+          "title": "git-scm.com"
+        },
+        {
+          "id": 4,
+          "text": "Conservancy is a not-for-profit organization that provides financial and administrative assistance to open source projects\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErCnmUP_4WOXDXBjKrrUHy1Remwm1q1JgBbae7p3BTfUMz4e4cNG2ogLnAgmdCIWcvytsQHcPE6Y0qu_sPik2z-7aKtB5EdaZi5AWBe7U=",
+          "title": "git-scm.com"
+        },
+        {
+          "id": 5,
+          "text": "Conservancy is a not-for-profit organization that provides financial and administrative assistance to open source projects\"*, and the project's legal/trademark contact is registered as *\"Git Project c/o Software Freedom Conservancy\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZNp9xN0K5ICzLAcWc3JBOSYhAtnsTRddmpz7OmfSgyVBU03AOMbkkR_8O9jv1mFLCQk6VtOqqhqnXsapkPjEAh_aIlRFbhfQsqKeGQLpgUp_EAGEN-o8OAA==",
+          "title": "git-scm.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Git Project",
+        "evidence": "The software product Git at git-scm.com is provided and maintained by the Git Project (the Git community), with administrative, legal, and financial sponsorship provided by the Software Freedom Conservancy.",
+        "source": {
+          "id": 0,
+          "text": "The software product **Git** at **git-scm.com** is provided and maintained by the **Git Project** (the Git community), with administrative, legal, and financial sponsorship provided by the **Software Freedom Conservancy**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHETV0hEr_XfRiTuYGt6flaUAtlAF6L7LvK-CFwHm8MV7nBFDQ2gIX8aDx_iWHmoLZiADcTq87Ya22QLOI1lRdydF31lbIPrmdVnEf9G6I=",
+          "title": "git-scm.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Git",
+    "domain": "git-scm.com",
+    "description": "Git SCM is a version control system that allows for efficient management of source code changes. It is designed to be easy to learn, with a small footprint and high-speed performance. Git offers advanced features such as local branching, staging areas, and support for multiple workflows, making it a powerful alternative to traditional software configuration management tools."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Git Project",
+  "evidence": "The software product Git at git-scm.com is provided and maintained by the Git Project (the Git community), with administrative, legal, and financial sponsorship provided by the Software Freedom Conservancy.",
+  "source": {
+    "id": 0,
+    "text": "The software product **Git** at **git-scm.com** is provided and maintained by the **Git Project** (the Git community), with administrative, legal, and financial sponsorship provided by the **Software Freedom Conservancy**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHETV0hEr_XfRiTuYGt6flaUAtlAF6L7LvK-CFwHm8MV7nBFDQ2gIX8aDx_iWHmoLZiADcTq87Ya22QLOI1lRdydF31lbIPrmdVnEf9G6I=",
+    "title": "git-scm.com"
+  },
+  "checked_at": "2026-11-05T08:59:57.332453+00:00"
+}

@@ -1,0 +1,79 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on official documentation and developer records for **ITRS Uptrends** at **uptrends.com**:\n\n* **Direct Vendor / Operating Company:** **Uptrends B.V.** (a subsidiary of **ITRS Group Ltd**)\n* **Provider Statement / Evidence:** \n  * On `uptrends.com` (under client security and certificate documentation), the company states: *\"If you review the TLS certificate for this site, you'll notice that this website is owned by Uptrends B.V.\"* and identifies the digital software signer as *\"Uptrends B.V.\"*\n  * Official store listings for the product suite (such as the *ITRS Uptrends Transaction Recorder* on the Chrome Web Store and the mobile applications on Apple's App Store and Google Play) publish the developer and provider as **Uptrends B.V.**",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**Direct Vendor / Operating Company:** **Uptrends B.V.** (a subsidiary of **ITRS Group Ltd**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyogiQVJIZwQAcrX620dDP7uiBmTap7ozZL3uhz6hll7qKA_7H-B_9LMXPAgFeMem0r23peEdapl7PzuN5yd_kcMVwPzvUB8RpsMbaGweNPavFr2tM-WEbxY9V7KvX-KLDI2UrST98cnHkh3aFB00tPzn2wH1UWXo1xtKgWmHyjPvBX2AR21GPxLoJaag2RPHl-9v0Z31i22qULUyjo_qsZfzOEYUxqPpvgQgWw1OedFNzUpLZj8N8b16NK0c1qMC4FI0E5HSUoN7QJWLJ07gtHOI=",
+          "title": "uptrends.com"
+        },
+        {
+          "id": 1,
+          "text": "**Direct Vendor / Operating Company:** **Uptrends B.V.** (a subsidiary of **ITRS Group Ltd**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYVL7DdJPsPnZSr9hJKLmEJkyyTOLHApFcnpwJNgGhUkG6j_RVP2jEm6yJ6Gk0kVwq1ooVCQkj_Z4srKZAcM9-VbXXC9Ei2W7AysXXXu9lEFoABjXhdgoVX9j5dXm91U_U",
+          "title": "itrsgroup.com"
+        },
+        {
+          "id": 2,
+          "text": "On `uptrends.com` (under client security and certificate documentation), the company states: *\"If you review the TLS certificate for this site, you'll notice that this website is owned by Uptrends B.V.\"* and identifies the digital software signer as *\"Uptrends B.V.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyogiQVJIZwQAcrX620dDP7uiBmTap7ozZL3uhz6hll7qKA_7H-B_9LMXPAgFeMem0r23peEdapl7PzuN5yd_kcMVwPzvUB8RpsMbaGweNPavFr2tM-WEbxY9V7KvX-KLDI2UrST98cnHkh3aFB00tPzn2wH1UWXo1xtKgWmHyjPvBX2AR21GPxLoJaag2RPHl-9v0Z31i22qULUyjo_qsZfzOEYUxqPpvgQgWw1OedFNzUpLZj8N8b16NK0c1qMC4FI0E5HSUoN7QJWLJ07gtHOI=",
+          "title": "uptrends.com"
+        },
+        {
+          "id": 3,
+          "text": "On `uptrends.com` (under client security and certificate documentation), the company states: *\"If you review the TLS certificate for this site, you'll notice that this website is owned by Uptrends B.V.\"* and identifies the digital software signer as *\"Uptrends B.V.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7hw43dY8nx0rOT3m0SPg4Wd0sRyD0_9d-B9vE6HLgRxQOKx4YLGSB__QVINTD2pPNc4fV8ZRO8MDoparZLMQ06l6hdIn6Oph4Di4NQS59gjNqBovjHWZkMX86LlqtrZ1vzUazfCCl5trPwYG4r957k0-0t60dRtcfobB_vK6SHRX6p1Vr0ldOEXwm",
+          "title": "uptrends.com"
+        },
+        {
+          "id": 4,
+          "text": "Official store listings for the product suite (such as the *ITRS Uptrends Transaction Recorder* on the Chrome Web Store and the mobile applications on Apple's App Store and Google Play) publish the developer and provider as **Uptrends B.V.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPKS93UFXjb1VGDKAn-LBRnzec93dH06aT898f0RPmKro_pAuIQn_WgrET4X1q-U_WxtJg8g8KeKxnL5korIydB1m57SCoFsLQ_1kstuUbfL1Lb0ocEqndF0akMGxvsOE1vY2-DuLkO-Y=",
+          "title": "apple.com"
+        },
+        {
+          "id": 5,
+          "text": "Official store listings for the product suite (such as the *ITRS Uptrends Transaction Recorder* on the Chrome Web Store and the mobile applications on Apple's App Store and Google Play) publish the developer and provider as **Uptrends B.V.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRbs3wxi7KZ8O7lKwVtfp4MrJ-kj25fKbyT6VpkSfGQh050LTR7gnC1uJZbJh4VdRDRuAitkQvgw7zRB01Q-VamPumZq_NtHbU7QuoETbzNUiA7vPzAsNTXkkFzu6cWBqat_KmMu4wOU9GOf-HAHouoCBAI2MiusK7z52xTEPaOQ==",
+          "title": "google.com"
+        },
+        {
+          "id": 6,
+          "text": "Official store listings for the product suite (such as the *ITRS Uptrends Transaction Recorder* on the Chrome Web Store and the mobile applications on Apple's App Store and Google Play) publish the developer and provider as **Uptrends B.V.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXcU87Z9o_G_FKrnRRSw8XWpgrDvCCG8Rlk1my06w2Np8nWXQ2X82QKePLMDyk6R-9QNP6w6IfZ6AqLaDwK4231qD87f0aBDGimavgTpPzccVD86UXpf02V-madcCMHBua5QwPLM_pGAVrlY-0tIZkaVBtzSH1tWTo5TidbKMtH3N0e8N7jUiGy5XyU9BK6xRPcqvWAw-G76c=",
+          "title": "google.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Uptrends B.V.",
+        "evidence": "Documentation on uptrends.com states that the website is owned by Uptrends B.V. and identifies the digital software signer as Uptrends B.V.",
+        "source": {
+          "id": 2,
+          "text": "On `uptrends.com` (under client security and certificate documentation), the company states: *\"If you review the TLS certificate for this site, you'll notice that this website is owned by Uptrends B.V.\"* and identifies the digital software signer as *\"Uptrends B.V.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyogiQVJIZwQAcrX620dDP7uiBmTap7ozZL3uhz6hll7qKA_7H-B_9LMXPAgFeMem0r23peEdapl7PzuN5yd_kcMVwPzvUB8RpsMbaGweNPavFr2tM-WEbxY9V7KvX-KLDI2UrST98cnHkh3aFB00tPzn2wH1UWXo1xtKgWmHyjPvBX2AR21GPxLoJaag2RPHl-9v0Z31i22qULUyjo_qsZfzOEYUxqPpvgQgWw1OedFNzUpLZj8N8b16NK0c1qMC4FI0E5HSUoN7QJWLJ07gtHOI=",
+          "title": "uptrends.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "ITRS Uptrends",
+    "domain": "uptrends.com",
+    "description": "ITRS Uptrends is a leading monitoring solution that specializes in tracking the uptime, performance, and functionality of websites, APIs, and servers. Established in 2007, Uptrends has built a reputation as a reliable standard in the field of website performance monitoring."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Uptrends B.V.",
+  "evidence": "Documentation on uptrends.com states that the website is owned by Uptrends B.V. and identifies the digital software signer as Uptrends B.V.",
+  "source": {
+    "id": 2,
+    "text": "On `uptrends.com` (under client security and certificate documentation), the company states: *\"If you review the TLS certificate for this site, you'll notice that this website is owned by Uptrends B.V.\"* and identifies the digital software signer as *\"Uptrends B.V.\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyogiQVJIZwQAcrX620dDP7uiBmTap7ozZL3uhz6hll7qKA_7H-B_9LMXPAgFeMem0r23peEdapl7PzuN5yd_kcMVwPzvUB8RpsMbaGweNPavFr2tM-WEbxY9V7KvX-KLDI2UrST98cnHkh3aFB00tPzn2wH1UWXo1xtKgWmHyjPvBX2AR21GPxLoJaag2RPHl-9v0Z31i22qULUyjo_qsZfzOEYUxqPpvgQgWw1OedFNzUpLZj8N8b16NK0c1qMC4FI0E5HSUoN7QJWLJ07gtHOI=",
+    "title": "uptrends.com"
+  },
+  "checked_at": "2026-11-05T08:30:12.801909+00:00"
+}

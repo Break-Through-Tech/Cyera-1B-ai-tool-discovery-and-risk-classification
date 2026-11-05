@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Jivo** (also known as **JivoChat**) at **jivochat.com** is **LLC Tecnology Distribution Ltda**.\n\n### Evidence and Citations:\n* **Terms of Service (`jivochat.com/terms/`):**  \n  > *\"Effective as of April 11, 2023, LLC Tecnology Distribution Ltda ('JivoChat,' 'we,' or 'us'), has updated Terms of Service. JivoChat software enables the Subscribers ('Subscriber' or 'you') to communicate with their customers... By downloading and installing the JivoChat software or by accessing, registering and/or using the JivoChat Service, you agree to these Terms of Service...\"*\n* **Privacy Policy (`jivochat.com/privacy/`):**  \n  > *\"WHO WE ARE? LLC TECNOLOGY DISTRIBUTION LTDA, (collectively, the 'Company' or 'we' or 'us') the Rua. Neves Armond, 140, Sala 301, Praia Do Suá. Vitória, ES/Brazil, is committed to protecting privacy of your Personal Data...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Jivo** (also known as **JivoChat**) at **jivochat.com** is **LLC Tecnology Distribution Ltda**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMkmLYJQkSPGMAd4UYPHFRoepDo5V-tiqzpjs6oz-c2Noncxr67gKoM_wDez9yaWo1wb6ajlCqnWBWdtJDth5dQIceUQQp7zWE3gT5RyZI84KeB1Be",
+          "title": "jivochat.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Jivo** (also known as **JivoChat**) at **jivochat.com** is **LLC Tecnology Distribution Ltda**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvoIco7aUojEc7FEYtzZy4NHGAQpHGBBZnFCr163-B9HR3tbQ9pB154ke1cBIZ04ESM6B2CC7E_aqsNUUQTcF2l7KZjLdvP00n8nIi4ApXBtDAigLtn_YZPkxBjdgTMuyNjZEM7sZ5",
+          "title": "jivochat.com"
+        },
+        {
+          "id": 2,
+          "text": "By downloading and installing the JivoChat software or by accessing, registering and/or using the JivoChat Service, you agree to these Terms of Service...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMkmLYJQkSPGMAd4UYPHFRoepDo5V-tiqzpjs6oz-c2Noncxr67gKoM_wDez9yaWo1wb6ajlCqnWBWdtJDth5dQIceUQQp7zWE3gT5RyZI84KeB1Be",
+          "title": "jivochat.com"
+        },
+        {
+          "id": 3,
+          "text": "By downloading and installing the JivoChat software or by accessing, registering and/or using the JivoChat Service, you agree to these Terms of Service...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvoIco7aUojEc7FEYtzZy4NHGAQpHGBBZnFCr163-B9HR3tbQ9pB154ke1cBIZ04ESM6B2CC7E_aqsNUUQTcF2l7KZjLdvP00n8nIi4ApXBtDAigLtn_YZPkxBjdgTMuyNjZEM7sZ5",
+          "title": "jivochat.com"
+        },
+        {
+          "id": 4,
+          "text": "Effective as of April 11, 2023, LLC Tecnology Distribution Ltda ('JivoChat,' 'we,' or 'us'), has updated Terms of Service. JivoChat software enables the Subscribers ('Subscriber' or 'you') to communicate with their customers",
+          "url": "https://www.jivochat.com/terms/",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "LLC Tecnology Distribution Ltda",
+        "evidence": "Passage 4 states that LLC Tecnology Distribution Ltda ('JivoChat', 'we', or 'us') provides the JivoChat software and service according to its Terms of Service on jivochat.com.",
+        "source": {
+          "id": 4,
+          "text": "Effective as of April 11, 2023, LLC Tecnology Distribution Ltda ('JivoChat,' 'we,' or 'us'), has updated Terms of Service. JivoChat software enables the Subscribers ('Subscriber' or 'you') to communicate with their customers",
+          "url": "https://www.jivochat.com/terms/",
+          "title": ""
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Jivo",
+    "domain": "jivochat.com",
+    "description": "Jivo is a leading provider of all-in-one business messaging solutions designed to enhance customer communication through websites, social media, and telephony. Established in 2012, Jivo boasts over 180,000 active users worldwide, focusing on empowering online businesses to boost sales and customer retention. Their commitment to innovation drives the continuous development of tools to convert visitors into customers."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "LLC Tecnology Distribution Ltda",
+  "evidence": "Passage 4 states that LLC Tecnology Distribution Ltda ('JivoChat', 'we', or 'us') provides the JivoChat software and service according to its Terms of Service on jivochat.com.",
+  "source": {
+    "id": 4,
+    "text": "Effective as of April 11, 2023, LLC Tecnology Distribution Ltda ('JivoChat,' 'we,' or 'us'), has updated Terms of Service. JivoChat software enables the Subscribers ('Subscriber' or 'you') to communicate with their customers",
+    "url": "https://www.jivochat.com/terms/",
+    "title": ""
+  },
+  "checked_at": "2026-11-05T09:57:26.881837+00:00"
+}

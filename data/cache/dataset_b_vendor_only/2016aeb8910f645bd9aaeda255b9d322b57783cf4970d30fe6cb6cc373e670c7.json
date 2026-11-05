@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on records from **labworks.ai** for the product **Sage AI** (an AI assistant for personal health):\n\n* **Vendor / Provider:** **LabWorks AI** (also identified as **Labworks** / **Labworks.ai**)\n* **Evidence:** The website at `labworks.ai` identifies the operating entity via its footer notice: *\"Copyright © 2026 LabWorks AI - All Rights Reserved\"*. Associated service documentation and software index entries confirm the provider, describing the tool as *\"Labworks' Sage\"* / noting that *\"Labworks.ai offers an AI-driven personal health assistant named Sage\"*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**Vendor / Provider:** **LabWorks AI** (also identified as **Labworks** / **Labworks.ai**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnqB-69nGl7VlRCUOLUg3leDhEsUhsxNnNoikPgGKtigfY_D0XdDgA47tKICCqadWt0S_CnjlfEOJP42FG5Ge-kh45nwjWJmengL8GJg==",
+          "title": "labworksai.com"
+        },
+        {
+          "id": 1,
+          "text": "**Vendor / Provider:** **LabWorks AI** (also identified as **Labworks** / **Labworks.ai**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEr0GEiiFfAyV6pkvjFcjl5ar3BwmGByDVrftFAKGYfvwO4-pNr5Dk2-RvwXq13uUBno2qVXpZ8A-keDbRaWWdPDUz5tcBfM58zHvcS3XHmRMBdHM14byvMr9mN_KBpkYUNL0Eurw==",
+          "title": "redcubedigital.in"
+        },
+        {
+          "id": 2,
+          "text": "**Vendor / Provider:** **LabWorks AI** (also identified as **Labworks** / **Labworks.ai**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWNxrLMqyequHhTP9jw0t39WRploXDUbHzC3Vb6mXurq91cy0gozA5FmsVW5F-T06AmQ7O2up-uBfxxHfGmSIsrxt8yx5cM0Y-n9Y8_iNIbu2lx1zIxqwWA3JIjJA56cafstkwJNKb6l7P8cwmzhiZzqzU7H4sP1kT",
+          "title": "dang.ai"
+        },
+        {
+          "id": 3,
+          "text": "**Evidence:** The website at `labworks.ai` identifies the operating entity via its footer notice: *\"Copyright © 2026 LabWorks AI - All Rights Reserved\"*.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnqB-69nGl7VlRCUOLUg3leDhEsUhsxNnNoikPgGKtigfY_D0XdDgA47tKICCqadWt0S_CnjlfEOJP42FG5Ge-kh45nwjWJmengL8GJg==",
+          "title": "labworksai.com"
+        },
+        {
+          "id": 4,
+          "text": "ssociated service documentation and software index entries confirm the provider, describing the tool as *\"Labworks' Sage\"* / noting that *\"Labworks.ai offers an AI-driven personal health assistant named Sage\"*.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEr0GEiiFfAyV6pkvjFcjl5ar3BwmGByDVrftFAKGYfvwO4-pNr5Dk2-RvwXq13uUBno2qVXpZ8A-keDbRaWWdPDUz5tcBfM58zHvcS3XHmRMBdHM14byvMr9mN_KBpkYUNL0Eurw==",
+          "title": "redcubedigital.in"
+        },
+        {
+          "id": 5,
+          "text": "ssociated service documentation and software index entries confirm the provider, describing the tool as *\"Labworks' Sage\"* / noting that *\"Labworks.ai offers an AI-driven personal health assistant named Sage\"*.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWNxrLMqyequHhTP9jw0t39WRploXDUbHzC3Vb6mXurq91cy0gozA5FmsVW5F-T06AmQ7O2up-uBfxxHfGmSIsrxt8yx5cM0Y-n9Y8_iNIbu2lx1zIxqwWA3JIjJA56cafstkwJNKb6l7P8cwmzhiZzqzU7H4sP1kT",
+          "title": "dang.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Labworks.ai",
+        "evidence": "Associated service documentation and software index entries describe the tool as 'Labworks\\' Sage' and note that 'Labworks.ai offers an AI-driven personal health assistant named Sage'.",
+        "source": {
+          "id": 4,
+          "text": "ssociated service documentation and software index entries confirm the provider, describing the tool as *\"Labworks' Sage\"* / noting that *\"Labworks.ai offers an AI-driven personal health assistant named Sage\"*.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEr0GEiiFfAyV6pkvjFcjl5ar3BwmGByDVrftFAKGYfvwO4-pNr5Dk2-RvwXq13uUBno2qVXpZ8A-keDbRaWWdPDUz5tcBfM58zHvcS3XHmRMBdHM14byvMr9mN_KBpkYUNL0Eurw==",
+          "title": "redcubedigital.in"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Sage AI",
+    "domain": "labworks.ai",
+    "description": "AI Assistant for Personal Health"
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Labworks.ai",
+  "evidence": "Associated service documentation and software index entries describe the tool as 'Labworks\\' Sage' and note that 'Labworks.ai offers an AI-driven personal health assistant named Sage'.",
+  "source": {
+    "id": 4,
+    "text": "ssociated service documentation and software index entries confirm the provider, describing the tool as *\"Labworks' Sage\"* / noting that *\"Labworks.ai offers an AI-driven personal health assistant named Sage\"*.",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEr0GEiiFfAyV6pkvjFcjl5ar3BwmGByDVrftFAKGYfvwO4-pNr5Dk2-RvwXq13uUBno2qVXpZ8A-keDbRaWWdPDUz5tcBfM58zHvcS3XHmRMBdHM14byvMr9mN_KBpkYUNL0Eurw==",
+    "title": "redcubedigital.in"
+  },
+  "checked_at": "2026-11-05T06:23:34.235715+00:00"
+}

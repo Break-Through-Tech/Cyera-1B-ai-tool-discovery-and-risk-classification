@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **Help Scout** platform at **helpscout.com** is **Help Scout PBC**.\n\n### Supporting Evidence\n* **Terms of Service:** \n  > *\"These Terms of Service (these “Terms”) govern all use of the Platform and Services (defined below) and are agreed to between you as an individual or... Entity... and Help Scout PBC, a Delaware public benefit corporation (“Help Scout”).\"*\n* **Privacy Policy:** \n  > *\"This Privacy Policy describes the privacy practices of Help Scout PBC and its affiliates and subsidiaries (collectively, “Help Scout”, “we”, “us”, or “our”) and how we handle personal information in connection with our website (www.helpscout.com), our platform...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **Help Scout** platform at **helpscout.com** is **Help Scout PBC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoydlcf5jXTLgQ1T7Cvs2l5hLQRlhaqLNwQn979RHqTpJRNwZ5YzvOsxleOHeoKLyiPPPdKFaLVLHNUr_wTEbASJog7fm-4yKVoFnSNj95_vuST9jZ2naynvdoh62vj3cdr2ID320=",
+          "title": "helpscout.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the **Help Scout** platform at **helpscout.com** is **Help Scout PBC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE80ElTym0fI9T9ERVdiU2r-InweYm_tuJ8ZSpzEKDYIq4YbLRsd8cQJ3lTMMPadDoQRUmfqTNgMQKeEvpw02QYTRJ05DP5up-WByrscK0MGNSsIUGvkYclviweCI6HI6SvV1vb1S376qeijm8WMDM=",
+          "title": "helpscout.com"
+        },
+        {
+          "id": 2,
+          "text": "ty... and Help Scout PBC, a Delaware public benefit corporation (“Help Scout”).\"*\n* **Pri",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE80ElTym0fI9T9ERVdiU2r-InweYm_tuJ8ZSpzEKDYIq4YbLRsd8cQJ3lTMMPadDoQRUmfqTNgMQKeEvpw02QYTRJ05DP5up-WByrscK0MGNSsIUGvkYclviweCI6HI6SvV1vb1S376qeijm8WMDM=",
+          "title": "helpscout.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Help Scout PBC",
+        "evidence": "Passage 0 directly states that the vendor providing the Help Scout platform at helpscout.com is Help Scout PBC.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the **Help Scout** platform at **helpscout.com** is **Help Scout PBC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoydlcf5jXTLgQ1T7Cvs2l5hLQRlhaqLNwQn979RHqTpJRNwZ5YzvOsxleOHeoKLyiPPPdKFaLVLHNUr_wTEbASJog7fm-4yKVoFnSNj95_vuST9jZ2naynvdoh62vj3cdr2ID320=",
+          "title": "helpscout.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Help Scout",
+    "domain": "helpscout.com",
+    "description": "Help Scout offers a scalable help desk solution that simplifies customer support by allowing users to engage without needing accounts or ticket numbers, mirroring the familiar email experience. Its platform supports customer service teams with comprehensive features such as advanced reporting, an integrated knowledge base, numerous integrations, and a robust API, enabling efficient and personalized customer interactions. Help Scout is utilized by over 8,000 clients worldwide, including prominent companies like Basecamp and GrubHub."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Help Scout PBC",
+  "evidence": "Passage 0 directly states that the vendor providing the Help Scout platform at helpscout.com is Help Scout PBC.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the **Help Scout** platform at **helpscout.com** is **Help Scout PBC**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoydlcf5jXTLgQ1T7Cvs2l5hLQRlhaqLNwQn979RHqTpJRNwZ5YzvOsxleOHeoKLyiPPPdKFaLVLHNUr_wTEbASJog7fm-4yKVoFnSNj95_vuST9jZ2naynvdoh62vj3cdr2ID320=",
+    "title": "helpscout.com"
+  },
+  "checked_at": "2026-11-05T09:17:11.312172+00:00"
+}

@@ -1,0 +1,43 @@
+{
+  "attempts": [
+    {
+      "answer": "The operating vendor directly providing **Patreon** at **patreon.com** is **Patreon, Inc.**\n\n### Provider Statement\nAccording to the official **Terms of Use** on **patreon.com**:\n> *\"These are Patreon's Terms of Use (“Terms”), and they apply to all users of the Patreon platform. “We,” “our,” and “us” refer to Patreon, Inc. ... “Patreon” refers to this platform and the services offered by us, including the Patreon iOS app, the Patreon Android app, Patreon APIs, Patreon embeds, Patreon RSS feeds, www.patreon.com, and Patreon's other websites...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The operating vendor directly providing **Patreon** at **patreon.com** is **Patreon, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF10-33o08i5_zuOqJ195DOVp_sm6-hhym1SGsq_mxZYuNPNch4mAdxBukjosLI4hxP11XaJzJavmhN4aevcZ_3ORG0eOf3tzBZBcaqRSK40vcd-bbAbk1Th8w=",
+          "title": "patreon.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Patreon, Inc.",
+        "evidence": "The operating vendor directly providing Patreon at patreon.com is Patreon, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The operating vendor directly providing **Patreon** at **patreon.com** is **Patreon, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF10-33o08i5_zuOqJ195DOVp_sm6-hhym1SGsq_mxZYuNPNch4mAdxBukjosLI4hxP11XaJzJavmhN4aevcZ_3ORG0eOf3tzBZBcaqRSK40vcd-bbAbk1Th8w=",
+          "title": "patreon.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Patreon",
+    "domain": "patreon.com",
+    "description": "Patreon is a membership platform that allows creators such as video producers, podcasters, musicians, and writers to establish a direct relationship with their fans. By offering exclusive content and experiences, creators can monetize their work and build a supportive community. Based in the United States, Patreon empowers hundreds of thousands of creators to achieve financial independence through fan support, aiming to create a sustainable environment for artistic endeavors."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Patreon, Inc.",
+  "evidence": "The operating vendor directly providing Patreon at patreon.com is Patreon, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The operating vendor directly providing **Patreon** at **patreon.com** is **Patreon, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF10-33o08i5_zuOqJ195DOVp_sm6-hhym1SGsq_mxZYuNPNch4mAdxBukjosLI4hxP11XaJzJavmhN4aevcZ_3ORG0eOf3tzBZBcaqRSK40vcd-bbAbk1Th8w=",
+    "title": "patreon.com"
+  },
+  "checked_at": "2026-11-05T08:13:09.896223+00:00"
+}

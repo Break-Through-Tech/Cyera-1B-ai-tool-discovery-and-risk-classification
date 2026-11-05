@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **GetResponse** at **getresponse.com** is **GetResponse S.A.** (globally) and its subsidiary/affiliate **GetResponse Inc.** (for customers in the United States and Canada).\n\n### Official Provider Statements:\n* **Global / General Terms of Service:**\n  > *\"GetResponse S.A. (Polish joint-stock company) incorporated under the laws of the Republic of Poland, with its registered office at Grunwaldzka 413, 80-309, Gdansk, Poland, entered in the National Court Register kept by the District Court Gdansk – North in Gdansk under number (KRS) 0000942075... (“GetResponse”, “we”, “us”) is the provider of certain online marketing and related services known as the GetResponse Service (the “Service”).\"*\n* **US / Canada Terms of Service:**\n  > *\"GetResponse Inc., a Delaware corporation with principal office at 3 Germay Dr Ste, 5 PMB 15672, Wilmington, DE 19804 (“GetResponse”, “we”, “us”) is the provider of certain online marketing and related services known as the GetResponse Service (the “Service”) on the US site https://www.getresponse.com/; and their related marketing channels (the “Site”).\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **GetResponse** at **getresponse.com** is **GetResponse S.A.** (globally) and its subsidiary/affiliate **GetResponse Inc.** (for customers in the United States and Canada)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXs8dgLEbFs997M9AJL84HoAtoT-nEa7MooCA76KPYZ4AQ4395RcbYuJE8UStMugRCHkH9yVQjiWW0rOcpyXU3fNMi6Mv33BQS993RG3ppE-WPmMRcQZaq2lVsR0UIYso=",
+          "title": "getresponse.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **GetResponse** at **getresponse.com** is **GetResponse S.A.** (globally) and its subsidiary/affiliate **GetResponse Inc.** (for customers in the United States and Canada)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKZfivPwXpXbZdoeiPiXSfzlCOTddin9ugSNEwHYcW4ks8zJZKZRSZZQ5Z1wp3dNsxZC3L7PiyhL_FLxWUFEiJEOcory4KCk7MBUiw3zTLJFBn-ojLRA==",
+          "title": "getresponse.com"
+        },
+        {
+          "id": 2,
+          "text": "GetResponse”, “we”, “us”) is the provider of certain online marketing and related services known as the GetResponse Service (the “Service”).\"*\n* **US / Canada T",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKZfivPwXpXbZdoeiPiXSfzlCOTddin9ugSNEwHYcW4ks8zJZKZRSZZQ5Z1wp3dNsxZC3L7PiyhL_FLxWUFEiJEOcory4KCk7MBUiw3zTLJFBn-ojLRA==",
+          "title": "getresponse.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "GetResponse S.A.",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing GetResponse at getresponse.com is GetResponse S.A. globally and its subsidiary/affiliate GetResponse Inc. for customers in the United States and Canada.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **GetResponse** at **getresponse.com** is **GetResponse S.A.** (globally) and its subsidiary/affiliate **GetResponse Inc.** (for customers in the United States and Canada)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXs8dgLEbFs997M9AJL84HoAtoT-nEa7MooCA76KPYZ4AQ4395RcbYuJE8UStMugRCHkH9yVQjiWW0rOcpyXU3fNMi6Mv33BQS993RG3ppE-WPmMRcQZaq2lVsR0UIYso=",
+          "title": "getresponse.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "GetResponse",
+    "domain": "getresponse.com",
+    "description": "GetResponse is an all-in-one marketing software company that specializes in providing affordable and user-friendly tools for email marketing, marketing automation, and content monetization. Founded over 25 years ago, it serves marketers, solopreneurs, coaches, creators, and small business owners, helping them grow their audiences, create and sell online courses, and effectively monetize their ideas. GetResponse is recognized for its comprehensive solutions that support personal branding and community engagement."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "GetResponse S.A.",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing GetResponse at getresponse.com is GetResponse S.A. globally and its subsidiary/affiliate GetResponse Inc. for customers in the United States and Canada.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **GetResponse** at **getresponse.com** is **GetResponse S.A.** (globally) and its subsidiary/affiliate **GetResponse Inc.** (for customers in the United States and Canada)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXs8dgLEbFs997M9AJL84HoAtoT-nEa7MooCA76KPYZ4AQ4395RcbYuJE8UStMugRCHkH9yVQjiWW0rOcpyXU3fNMi6Mv33BQS993RG3ppE-WPmMRcQZaq2lVsR0UIYso=",
+    "title": "getresponse.com"
+  },
+  "checked_at": "2026-11-05T08:35:33.772650+00:00"
+}

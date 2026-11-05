@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the online learning platform **Skillshare** at **skillshare.com** is **Skillshare, Inc.**\n\n### Provider Statement\nFrom the official **Skillshare Terms of Service** (governing `skillshare.com`):\n> *\"These Terms constitute a legally binding agreement between you and Skillshare, Inc., a Delaware corporation, and its subsidiaries, representatives, affiliates, officers, and directors, including its operating brand, Superpeer (collectively, “Skillshare,” “we,” “us,” or “our”) governing your use of Skillshare's website and service, or services directly related to Skillshare's website and service, including (without limitation) all websites, mobile applications, and other interactive properties through which such services are delivered...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the online learning platform **Skillshare** at **skillshare.com** is **Skillshare, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSvhYUP-hD7v3-r0pSEzGWj-NLfAZRb-mdq5iCHYnwPMzonMh9B2YLdRn4X9o74h5in1kMpfLHYg7HGcYTf7U0-mRUaPXct0thV5yzs_cFniQbGFO3ea87-0o9Zk-OTUTmvsiSYPf6s4vzgWtlp4PZ8qxKDTEg12CMtLaAoSvDiAiy",
+          "title": "skillshare.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the online learning platform **Skillshare** at **skillshare.com** is **Skillshare, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEyhk3qrRzXOcd7DJLxHrphV-IEal9fipg1yHIDPb9LblcnwCnBdkVX69NO96D6Ce3AiWktGDuqkHtQFiMYampKkqpPI3ly3neSJrKhk6OKxjrxDrVvHlG_diV9QCyTmFsBrzAvmO2E3EK0hsouvPRDnI0rM5dxlnhFYkM4DOfSPKHXllfcTZUNk6wNfSmMPA==",
+          "title": "skillshare.com"
+        },
+        {
+          "id": 2,
+          "text": "These Terms constitute a legally binding agreement between you and Skillshare, Inc., a Delaware corporation, and its subsidiaries, representatives, affiliates, officers, and directors, including its operating brand, Superpeer (collectively, “Skillshare,” “we,” “us,” or “our”) governing your use of Skillshare's website and service, or services directly related to Skillshare's website and service, including (without limitation) all websites, mobile applications, and other interactive properties thr",
+          "url": "https://legal.skillshare.com/hc/en-us/articles/27194932901645-Skillshare-Terms-of-Service",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Skillshare, Inc.",
+        "evidence": "Skillshare's Terms of Service state that the agreement governing the use of Skillshare's website and service is between the user and Skillshare, Inc.",
+        "source": {
+          "id": 2,
+          "text": "These Terms constitute a legally binding agreement between you and Skillshare, Inc., a Delaware corporation, and its subsidiaries, representatives, affiliates, officers, and directors, including its operating brand, Superpeer (collectively, “Skillshare,” “we,” “us,” or “our”) governing your use of Skillshare's website and service, or services directly related to Skillshare's website and service, including (without limitation) all websites, mobile applications, and other interactive properties thr",
+          "url": "https://legal.skillshare.com/hc/en-us/articles/27194932901645-Skillshare-Terms-of-Service",
+          "title": ""
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Skillshare",
+    "domain": "skillshare.com",
+    "description": "Skillshare is an educational technology platform that offers online courses and learning resources for individuals and organizations. The platform specializes in creative skills, including design, business, technology, and other subjects, making it accessible to a global audience seeking professional and personal development."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Skillshare, Inc.",
+  "evidence": "Skillshare's Terms of Service state that the agreement governing the use of Skillshare's website and service is between the user and Skillshare, Inc.",
+  "source": {
+    "id": 2,
+    "text": "These Terms constitute a legally binding agreement between you and Skillshare, Inc., a Delaware corporation, and its subsidiaries, representatives, affiliates, officers, and directors, including its operating brand, Superpeer (collectively, “Skillshare,” “we,” “us,” or “our”) governing your use of Skillshare's website and service, or services directly related to Skillshare's website and service, including (without limitation) all websites, mobile applications, and other interactive properties thr",
+    "url": "https://legal.skillshare.com/hc/en-us/articles/27194932901645-Skillshare-Terms-of-Service",
+    "title": ""
+  },
+  "checked_at": "2026-11-05T08:21:40.264929+00:00"
+}

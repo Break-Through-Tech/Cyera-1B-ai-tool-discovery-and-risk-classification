@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Brisk Write** (at **briskwrite.com**) is **Aimero Ltd**.\n\n### Supporting Evidence\n* **Terms & Conditions (`briskwrite.com`):** \n  > *\"Briskwrite operated by Aimero Ltd. Aimero Ltd offers Briskwrite and related services to you, a user, under the condition that you accept all of our set terms... This Agreement is between Aimero Ltd and the entity or person agreeing to these terms (Customer), governing Customer access and use of the Services.\"*\n* **Privacy Policy (`briskwrite.com`):**\n  > *\"This Privacy Policy outlines how Aimero Ltd ('we', 'our', or 'us') collects, uses, shares, and safeguards personal information through our SaaS Framework and related services (the 'Services').\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Brisk Write** (at **briskwrite.com**) is **Aimero Ltd**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnyApqJdNcc8JFLQKqtia4W7Hl3_axno4CMJbZUdM5V4m0LK7wuEUHAkegP8hnp4iHknOlu5JrxbWM8PJpk1Z7wQu1zUq3Yn4FHrRqTXu46UAukL5wEHtvICTnCKPRfuQd",
+          "title": "briskwrite.com"
+        },
+        {
+          "id": 1,
+          "text": "This Agreement is between Aimero Ltd and the entity or person agreeing to these terms (Customer), governing Customer access and use of the Services.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnyApqJdNcc8JFLQKqtia4W7Hl3_axno4CMJbZUdM5V4m0LK7wuEUHAkegP8hnp4iHknOlu5JrxbWM8PJpk1Z7wQu1zUq3Yn4FHrRqTXu46UAukL5wEHtvICTnCKPRfuQd",
+          "title": "briskwrite.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"This Privacy Policy outlines how Aimero Ltd ('we', 'our', or 'us') collects, uses, shares, and safeguards personal information through our SaaS Framework and related services (the 'Services').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqHFy8MTmpDAybJipw40lRvzXa2ErRrSqa35L4zy4-jH7OZGTMzaKfN1jG1mMynI8_QV7RS-tnD7HkeTWn7gwjl2RPhQbrsqeW-oLMi8wF3wLdh7uFVPZod5Nn_IeWeQ==",
+          "title": "briskwrite.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Aimero Ltd",
+        "evidence": "Passage 0 directly states that the vendor providing Brisk Write at briskwrite.com is Aimero Ltd.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Brisk Write** (at **briskwrite.com**) is **Aimero Ltd**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnyApqJdNcc8JFLQKqtia4W7Hl3_axno4CMJbZUdM5V4m0LK7wuEUHAkegP8hnp4iHknOlu5JrxbWM8PJpk1Z7wQu1zUq3Yn4FHrRqTXu46UAukL5wEHtvICTnCKPRfuQd",
+          "title": "briskwrite.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Brisk Write",
+    "domain": "briskwrite.com",
+    "description": "Write quicker with the power of A.I."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Aimero Ltd",
+  "evidence": "Passage 0 directly states that the vendor providing Brisk Write at briskwrite.com is Aimero Ltd.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Brisk Write** (at **briskwrite.com**) is **Aimero Ltd**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnyApqJdNcc8JFLQKqtia4W7Hl3_axno4CMJbZUdM5V4m0LK7wuEUHAkegP8hnp4iHknOlu5JrxbWM8PJpk1Z7wQu1zUq3Yn4FHrRqTXu46UAukL5wEHtvICTnCKPRfuQd",
+    "title": "briskwrite.com"
+  },
+  "checked_at": "2026-11-05T07:06:26.326994+00:00"
+}

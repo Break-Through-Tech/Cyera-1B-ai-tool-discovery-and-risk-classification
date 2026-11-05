@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product and service suite at **labnol.org** is directly provided by **Digital Inspiration**, founded and operated by developer **Amit Agarwal**.\n\n### Evidence and Citations\n* **Privacy Policy (`labnol.org/privacy`)**:  \n  > *\"Digital Inspiration (“us”, “we”, or “our”) operates the www.labnol.org website (the “Service”).\"*\n* **Terms of Service**:  \n  > *\"In no event shall Digital Inspiration be liable for any damages... arising out of the use or inability to use our software and services.\"*\n* **Developer / Founder Statement**:  \n  > *\"Amit Agarwal @labnol. Founder, Digital Inspiration. Since 2004, Google Developer Expert Amit Agarwal has helped millions of people get more out of Google apps and productivity tools. ... Our popular Google Apps Script solutions save you time and make you more productive.\"*\n* **Marketplace Publisher**:  \n  The Google Workspace / G Suite add-ons and automation tools developed on the platform are published and maintained directly under the developer name **Digital Inspiration**.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product and service suite at **labnol.org** is directly provided by **Digital Inspiration**, founded and operated by developer **Amit Agarwal**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiylXoQzkbKRIrYRlTphTpU2uqD901J6ibba-bY6iJY4q32N9yFyzM3k7TBIB54Gj4sYmFtDTuZCBAO-9kFO6uDHrXpT1QKsEjLhAf2g==",
+          "title": "labnol.org"
+        },
+        {
+          "id": 1,
+          "text": "The software product and service suite at **labnol.org** is directly provided by **Digital Inspiration**, founded and operated by developer **Amit Agarwal**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQET51j5Y-b9m8rZRE71q60bl4WebVdFBEIvbUn_A8rbyS8tt0iu59hy392EzfhiB_4UTOswjZFZQ6P5lY2QMsb4i4GWRnwH0ib_CFR-hU6uDIHXvJTHZL38r2tSAj32vTx0k3FibWs2rGQ=",
+          "title": "stackoverflow.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"Digital Inspiration (“us”, “we”, or “our”) operates the www.labnol.org website (the “Service”).\"*\n* **Terms of Se",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFp35oytk11-oM_zG_dMJ452odpV79oW1xEv4JI12-6wIByBz9cuu_bikTEz0xCgI6ML9rXy06sSmKs7kUGhflTiXpc-F0mnfQXVrcyBOEOzy6cBn4=",
+          "title": "labnol.org"
+        },
+        {
+          "id": 3,
+          "text": "all Digital Inspiration be liable for any damages... arising out of the use or inability to use our software and services.\"*\n* **Developer /",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8pnazoUg-MtAEGR14u8GBf3p5lpIutCFB2F0v2G8vPc6l28bZtSkFEpFbePcf-LScCQskV29fFQSMjZXbfXu3MWDiM3J1Mrw0B1qtfLcQEGzUza1xvUua2r5MffHlDYY0RI92TyeT9eLVWeSdVibHthsS20vPu53eQdulag==",
+          "title": "digitalinspiration.com"
+        },
+        {
+          "id": 4,
+          "text": "le Apps Script solutions save you time and make you more productive.\"*\n* **Marketplace",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiylXoQzkbKRIrYRlTphTpU2uqD901J6ibba-bY6iJY4q32N9yFyzM3k7TBIB54Gj4sYmFtDTuZCBAO-9kFO6uDHrXpT1QKsEjLhAf2g==",
+          "title": "labnol.org"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Digital Inspiration",
+        "evidence": "Passage 2 states that Digital Inspiration operates the www.labnol.org website.",
+        "source": {
+          "id": 2,
+          "text": "*\"Digital Inspiration (“us”, “we”, or “our”) operates the www.labnol.org website (the “Service”).\"*\n* **Terms of Se",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFp35oytk11-oM_zG_dMJ452odpV79oW1xEv4JI12-6wIByBz9cuu_bikTEz0xCgI6ML9rXy06sSmKs7kUGhflTiXpc-F0mnfQXVrcyBOEOzy6cBn4=",
+          "title": "labnol.org"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Digital Inspiration",
+    "domain": "labnol.org",
+    "description": "Digital Inspiration specializes in creating customized G Suite solutions that leverage Google Apps Script to automate business processes and enhance productivity. They focus on providing tailored services to improve operational efficiency for their clients."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Digital Inspiration",
+  "evidence": "Passage 2 states that Digital Inspiration operates the www.labnol.org website.",
+  "source": {
+    "id": 2,
+    "text": "*\"Digital Inspiration (“us”, “we”, or “our”) operates the www.labnol.org website (the “Service”).\"*\n* **Terms of Se",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFp35oytk11-oM_zG_dMJ452odpV79oW1xEv4JI12-6wIByBz9cuu_bikTEz0xCgI6ML9rXy06sSmKs7kUGhflTiXpc-F0mnfQXVrcyBOEOzy6cBn4=",
+    "title": "labnol.org"
+  },
+  "checked_at": "2026-11-05T09:53:12.645964+00:00"
+}

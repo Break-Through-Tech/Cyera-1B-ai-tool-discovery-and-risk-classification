@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Salesforce Sales Cloud** at **salesforce.com** is **Salesforce, Inc.** (formerly salesforce.com, inc.).\n\n### Supporting Evidence\nAccording to the official legal terms and agreements hosted on `salesforce.com`:\n* **Terms of Service:** *\"Please read these Terms carefully because they are a binding agreement between You and Salesforce, Inc. (“Salesforce” or “We”).\"*\n* **Legal Agreements:** Identifies the contracting entity as *\"Salesforce, Inc. (f/k/a salesforce.com, inc.), a Delaware corporation, Salesforce Tower, 415 Mission Street, 3rd Floor, San Francisco, California, 94105, U.S.A.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Salesforce Sales Cloud** at **salesforce.com** is **Salesforce, Inc.** (formerly salesforce.com, inc.)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzZc4KfmbpWjmdgxfVldXjPDqj3koFAL4z01KS85tnZrpWRsVdlI1Gu1k4KGCiVCC4eFtODRwQG485s0QSLsKzdJaq18IfeA3Kj_JmXuTjGJpKLtyrnbSDxVvfbOrWwNqrX-CvLXIl0KbcyjL8vccY_145Slu3JNEBdpBHUp6c1EdYLxl316Z2vQ60-ONar7C3IDWUUDVhe_ueJe4Bydf_4HxXlPRVneLr",
+          "title": "salesforce.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Salesforce Sales Cloud** at **salesforce.com** is **Salesforce, Inc.** (formerly salesforce.com, inc.)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMiBCGtUrumuJ-uIxljFCWMLAMlhepV31noggvvJCU8ykcnBlp8h7MdZj0upEJ6RmiVP_0WGJlhTYTlp_WX4MKTx6DT3ixEfLrJjTh1sRZwV6vB3WxWZ1nTTf-6ijDskBfAgn-OpU7H9vQAErKptmT",
+          "title": "salesforce.com"
+        },
+        {
+          "id": 2,
+          "text": "**Terms of Service:** *\"Please read these Terms carefully because they are a binding agreement between You and Salesforce, Inc. (“Salesforce” or “We”).\"*\n* **Leg",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYsIpiIbt9AE_giUURQe4kO2qw737-xLI5bw3LG8qCBLT4b7-g21XlSwg2DZ5g_yQtBggBToshrmn2f8pf8mTtAwplxheBPxxOBFAvFjsClkQ7ThAKWM0y13PDts3NQd9Iv0_ITiSpNU7gpG95lq2Ln5hPkdVUHl1jClwK",
+          "title": "salesforce.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Salesforce, Inc.",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing Salesforce Sales Cloud at salesforce.com is Salesforce, Inc. (formerly salesforce.com, inc.).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Salesforce Sales Cloud** at **salesforce.com** is **Salesforce, Inc.** (formerly salesforce.com, inc.)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzZc4KfmbpWjmdgxfVldXjPDqj3koFAL4z01KS85tnZrpWRsVdlI1Gu1k4KGCiVCC4eFtODRwQG485s0QSLsKzdJaq18IfeA3Kj_JmXuTjGJpKLtyrnbSDxVvfbOrWwNqrX-CvLXIl0KbcyjL8vccY_145Slu3JNEBdpBHUp6c1EdYLxl316Z2vQ60-ONar7C3IDWUUDVhe_ueJe4Bydf_4HxXlPRVneLr",
+          "title": "salesforce.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Salesforce Sales Cloud",
+    "domain": "salesforce.com",
+    "description": "A cloud-based CRM platform for managing leads, opportunities, accounts, and sales forecasting."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Salesforce, Inc.",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing Salesforce Sales Cloud at salesforce.com is Salesforce, Inc. (formerly salesforce.com, inc.).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Salesforce Sales Cloud** at **salesforce.com** is **Salesforce, Inc.** (formerly salesforce.com, inc.)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzZc4KfmbpWjmdgxfVldXjPDqj3koFAL4z01KS85tnZrpWRsVdlI1Gu1k4KGCiVCC4eFtODRwQG485s0QSLsKzdJaq18IfeA3Kj_JmXuTjGJpKLtyrnbSDxVvfbOrWwNqrX-CvLXIl0KbcyjL8vccY_145Slu3JNEBdpBHUp6c1EdYLxl316Z2vQ60-ONar7C3IDWUUDVhe_ueJe4Bydf_4HxXlPRVneLr",
+    "title": "salesforce.com"
+  },
+  "checked_at": "2026-11-05T07:57:34.647319+00:00"
+}

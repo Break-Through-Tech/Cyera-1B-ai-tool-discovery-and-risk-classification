@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **Podbean** platform at **podbean.com** is **Podbean Inc.** (doing business as Podbean).\n\n### Supporting Evidence\n* **Privacy Policy (`podbean.com`):** Identifies the operating entity as *\"Podbean Inc. (doing business as Podbean) ('we,' 'us,' or 'our'), a company incorporated in the State of Nevada, with a registered address at 5940 S Rainbow Blvd Ste 400 #56077, Las Vegas, NV, 89118\"*.\n* **Podbean Podcaster Agreement Master Terms (`podbean.com`):** Affirms that *\"The Podbean Podcaster Agreement ('Agreement') is between Podbean Inc. ('Podbean') and the entity that opens a podcaster account... This Agreement governs Podcaster's use of the Podbean podcasting platform, website and apps\"*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **Podbean** platform at **podbean.com** is **Podbean Inc.** (doing business as Podbean)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHm91xcq9kXt5ubDWz1IKXxry8M_Qr6Q-eaztDg_cW-8myXFS6EQrvTy3SPMHPSPTvWV0a6Ycb4jx0zfZmAAVCMHP9WmNwQGVZyoYQ7LIiBl91673CD",
+          "title": "podbean.com"
+        },
+        {
+          "id": 1,
+          "text": "**Privacy Policy (`podbean.com`):** Identifies the operating entity as *\"Podbean Inc. (doing business as Podbean) ('we,' 'us,' or 'our'), a company incorporated in the State of Nevada, with a registered address at 5940 S Rainbow Blvd Ste 400 #56077, Las Vegas, NV, 89118\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHm91xcq9kXt5ubDWz1IKXxry8M_Qr6Q-eaztDg_cW-8myXFS6EQrvTy3SPMHPSPTvWV0a6Ycb4jx0zfZmAAVCMHP9WmNwQGVZyoYQ7LIiBl91673CD",
+          "title": "podbean.com"
+        },
+        {
+          "id": 2,
+          "text": "This Agreement governs Podcaster's use of the Podbean podcasting platform, website and apps\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEL2NEaaMbIDSX5Cbqvq9LBT0p-PAth3Dle4Fv3akpY53efrwH-Ed3zARyoOw9e0Ozl5NKo_sJVGtB6qNcZasNDDzTFISY2SkNy94DCRDMye3qEjZ4zJIa3UnR0srIpQ6FNOwHNdw==",
+          "title": "podbean.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Podbean Inc.",
+        "evidence": "Podbean's Privacy Policy on podbean.com identifies the operating entity as Podbean Inc. (doing business as Podbean).",
+        "source": {
+          "id": 1,
+          "text": "**Privacy Policy (`podbean.com`):** Identifies the operating entity as *\"Podbean Inc. (doing business as Podbean) ('we,' 'us,' or 'our'), a company incorporated in the State of Nevada, with a registered address at 5940 S Rainbow Blvd Ste 400 #56077, Las Vegas, NV, 89118\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHm91xcq9kXt5ubDWz1IKXxry8M_Qr6Q-eaztDg_cW-8myXFS6EQrvTy3SPMHPSPTvWV0a6Ycb4jx0zfZmAAVCMHP9WmNwQGVZyoYQ7LIiBl91673CD",
+          "title": "podbean.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Podbean",
+    "domain": "podbean.com",
+    "description": "Podbean is a comprehensive podcast publishing platform that offers unlimited bandwidth and storage for podcasters. With a user-friendly mobile app, it enables users to record and publish podcasts directly from their phones. The platform provides various monetization tools such as dynamic ad insertion, an ad marketplace, and options for premium sales. Additionally, Podbean caters to enterprise-level clients by offering solutions that include advanced security and white-label apps for private podcasting needs."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Podbean Inc.",
+  "evidence": "Podbean's Privacy Policy on podbean.com identifies the operating entity as Podbean Inc. (doing business as Podbean).",
+  "source": {
+    "id": 1,
+    "text": "**Privacy Policy (`podbean.com`):** Identifies the operating entity as *\"Podbean Inc. (doing business as Podbean) ('we,' 'us,' or 'our'), a company incorporated in the State of Nevada, with a registered address at 5940 S Rainbow Blvd Ste 400 #56077, Las Vegas, NV, 89118\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHm91xcq9kXt5ubDWz1IKXxry8M_Qr6Q-eaztDg_cW-8myXFS6EQrvTy3SPMHPSPTvWV0a6Ycb4jx0zfZmAAVCMHP9WmNwQGVZyoYQ7LIiBl91673CD",
+    "title": "podbean.com"
+  },
+  "checked_at": "2026-11-05T08:43:20.494324+00:00"
+}

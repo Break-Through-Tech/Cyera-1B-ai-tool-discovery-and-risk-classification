@@ -1,0 +1,79 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **Bange** at **bange.io** is provided by **Dopeworm** (registered as **Dopeworm LLC**), operating under the brand **Bange.io**.\n\n### Evidence:\n* **Operating Company / Vendor Listing:** Software vendor indexes and comparison directories (such as Slashdot and SourceForge) list the company directly providing `bange.io` as **Dopeworm**:\n  > *\"Vendor Details: Company Name: Dopeworm. Founded: 2020. Country: United States. Website: bange.io.\"*\n* **WHOIS Data:** Domain WHOIS registration records for `bange.io` identify the registrant organization as **Dopeworm**.\n* **Official Website Branding / Copyright:** On **bange.io**, the platform is directly supported and copyrighted under its brand name:\n  > *\"© 2026 Bange.io. All rights reserved.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **Bange** at **bange.io** is provided by **Dopeworm** (registered as **Dopeworm LLC**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvrfSOnXXEdlruxT0CB0fzbjYXBuRD2HO6u0XUPDxTDPnidGioQZ4AicfaTpZykyHYskl_gsrFTJXl4tOVWjcg7-q27dEx22BMDnrZGV2oXF_MLVkkW29_ce5SsEP7Wf_W3m1UfdcDiycpP4nqweBEgNSvomtXGL6NRMGqP7g=",
+          "title": "slashdot.org"
+        },
+        {
+          "id": 1,
+          "text": "The software product **Bange** at **bange.io** is provided by **Dopeworm** (registered as **Dopeworm LLC**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9zrPuUxFiJzSesJQaW7mOhreRvzIknXjD3B5PV-nDOncMYkf1R39nqXmGr9gqDhzJaQD4MELWR3WD7JJ6cUBJkhoa_OV6Zmv-jg38-k8uwxArFKAuZcFS3GqNEvjt65cJHHtPXtLtQC2HWI4XieSiRf0kiIxFfOA4fhuNq3AMQ4LCWTmUveIcgPijr0cV6ka_Rwj0D8q9nFP2g-PvtZMIct40sO5jAaCno3GbN3yHql-AuCBYPdbkFdoRLe8deg24Kb1mM4BZtsb4Xe7yozpp",
+          "title": "wyo.gov"
+        },
+        {
+          "id": 2,
+          "text": "The software product **Bange** at **bange.io** is provided by **Dopeworm** (registered as **Dopeworm LLC**), operating under the brand **Bange.io**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmFzqsJE2yQTupMGQ1kkXYDWmKO4G5OqspeZDktFeRrHDA3dyvbmS5DWDMvdLn2A57fbHSi_OXfb2oNQk7f_JwAzybq8x2fGnxMowyHe4bNh7cCODEzQw=",
+          "title": "bange.io"
+        },
+        {
+          "id": 3,
+          "text": "**Operating Company / Vendor Listing:** Software vendor indexes and comparison directories (such as Slashdot and SourceForge) list the company directly providing `bange.io` as **Dopeworm**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvrfSOnXXEdlruxT0CB0fzbjYXBuRD2HO6u0XUPDxTDPnidGioQZ4AicfaTpZykyHYskl_gsrFTJXl4tOVWjcg7-q27dEx22BMDnrZGV2oXF_MLVkkW29_ce5SsEP7Wf_W3m1UfdcDiycpP4nqweBEgNSvomtXGL6NRMGqP7g=",
+          "title": "slashdot.org"
+        },
+        {
+          "id": 4,
+          "text": "**Operating Company / Vendor Listing:** Software vendor indexes and comparison directories (such as Slashdot and SourceForge) list the company directly providing `bange.io` as **Dopeworm**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4eMVKvSK3pMpqCcjjrrQ5luuHAOwXGHezg4bKmJ4v7vlhoiYSA9p-qdp6z9B2Fyo0qPlqr8_VfINZB6uGmEZzyoRQDMCyp0w0DIcKaRQRLcp8dHoJS4iuFKIpZBD02y575ZggxNFEt0RQuvfgRAcHFJbz3Gr9hhdd-u56PQ==",
+          "title": "slashdot.org"
+        },
+        {
+          "id": 5,
+          "text": "Website: bange.io.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvrfSOnXXEdlruxT0CB0fzbjYXBuRD2HO6u0XUPDxTDPnidGioQZ4AicfaTpZykyHYskl_gsrFTJXl4tOVWjcg7-q27dEx22BMDnrZGV2oXF_MLVkkW29_ce5SsEP7Wf_W3m1UfdcDiycpP4nqweBEgNSvomtXGL6NRMGqP7g=",
+          "title": "slashdot.org"
+        },
+        {
+          "id": 6,
+          "text": "**WHOIS Data:** Domain WHOIS registration records for `bange.io` identify the registrant organization as **Dopeworm**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGhqwtrSCK5oBDsHvtfxZMM-9euzJsYruDfCJT6NBG38owrGK3hd5kX49L9ZDFHTGdR-igB5Mer5-eMWU4rtKQI5W88yY1cgHuX98clSmGeVvXLQfZimMjFxnRZycvaNes3LQ=",
+          "title": "ip2whois.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Dopeworm",
+        "evidence": "Passage 0 states that the software product Bange at bange.io is provided by Dopeworm (registered as Dopeworm LLC).",
+        "source": {
+          "id": 0,
+          "text": "The software product **Bange** at **bange.io** is provided by **Dopeworm** (registered as **Dopeworm LLC**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvrfSOnXXEdlruxT0CB0fzbjYXBuRD2HO6u0XUPDxTDPnidGioQZ4AicfaTpZykyHYskl_gsrFTJXl4tOVWjcg7-q27dEx22BMDnrZGV2oXF_MLVkkW29_ce5SsEP7Wf_W3m1UfdcDiycpP4nqweBEgNSvomtXGL6NRMGqP7g=",
+          "title": "slashdot.org"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Bange",
+    "domain": "bange.io",
+    "description": "Transform Your Career: AI-Powered Resumes, Cover Letters, and Mock Interviews with Bange.io"
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Dopeworm",
+  "evidence": "Passage 0 states that the software product Bange at bange.io is provided by Dopeworm (registered as Dopeworm LLC).",
+  "source": {
+    "id": 0,
+    "text": "The software product **Bange** at **bange.io** is provided by **Dopeworm** (registered as **Dopeworm LLC**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvrfSOnXXEdlruxT0CB0fzbjYXBuRD2HO6u0XUPDxTDPnidGioQZ4AicfaTpZykyHYskl_gsrFTJXl4tOVWjcg7-q27dEx22BMDnrZGV2oXF_MLVkkW29_ce5SsEP7Wf_W3m1UfdcDiycpP4nqweBEgNSvomtXGL6NRMGqP7g=",
+    "title": "slashdot.org"
+  },
+  "checked_at": "2026-11-05T07:22:43.235310+00:00"
+}

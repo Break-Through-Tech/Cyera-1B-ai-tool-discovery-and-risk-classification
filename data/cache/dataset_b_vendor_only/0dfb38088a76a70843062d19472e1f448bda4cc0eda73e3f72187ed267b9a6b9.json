@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **3CX** at the domain **3cx.com** is directly provided by **3CX** (operating as **3CX Group** through primary legal entities **3CX Limited**, **3CX USA Corp.**, and **3CX Software FZCO**).\n\n### Evidence & Provider Statements\n* **Terms and Conditions:**\n  > *\"3CX Ltd (under Cyprus legal jurisdiction), 3CX USA Corp. (under USA legal jurisdiction) and 3CX Software FZCO (under UAE legal jurisdiction) or any other related company or affiliate of 3CX Group (“Company”) is following the below listed Terms and Conditions.\"*\n* **Refund, Terms & Delivery Policy / Contracting Entities:**\n  > *\"These services are provided by 3CX through one of the following legal entities (each a “Contracting Entity”): 3CX Limited, Cyprus; 3CX Software FZCO, Dubai, UAE; 3CX USA Corp, United States. The applicable Contracting Entity will depend on your location or the entity processing your payment...\"*\n* **Data Processing Addendum (DPA):**\n  > Sets the default entity and main headquarters as *3CX Ltd* (4, Markou Drakou, Engomi, 2409 Nicosia, Cyprus).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **3CX** at the domain **3cx.com** is directly provided by **3CX** (operating as **3CX Group** through primary legal entities **3CX Limited**, **3CX USA Corp.**, and **3CX Software FZCO**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3jvM7437ofS2ynAOMLRivrCIjpQwCsdb-t_NYhs1Ch2MhYEJDU6cGBpK9fBONxv9R7xmqjeuEfDts0_YgMI5WeOSU_atv8cbqSx9oG1EzvOdfgXOdn1kuB-UfilryhjxAk7DcPQIf",
+          "title": "3cx.com"
+        },
+        {
+          "id": 1,
+          "text": "The software product **3CX** at the domain **3cx.com** is directly provided by **3CX** (operating as **3CX Group** through primary legal entities **3CX Limited**, **3CX USA Corp.**, and **3CX Software FZCO**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9Z1nWL-X0I4VR_uI5aF-IkY0Mv3xEqTp9mTBKoLxiBlfYLrANcDlp4pSxTlJYgDxGIXAxaaWJ3BfAd7uHOJugDjrqkyFdTn7wuNyHPPVImste6NJMtESJqdMz2MOObK9OQnHiKNkTqW5a_XRa",
+          "title": "3cx.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"3CX Ltd (under Cyprus legal jurisdiction), 3CX USA Corp. (under USA legal jurisdiction) and 3CX Software FZCO (under UAE legal jurisdiction) or any other related company or affiliate of 3CX Group (“Company”) is following the below listed Terms and Conditions.\"*\n* *",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3jvM7437ofS2ynAOMLRivrCIjpQwCsdb-t_NYhs1Ch2MhYEJDU6cGBpK9fBONxv9R7xmqjeuEfDts0_YgMI5WeOSU_atv8cbqSx9oG1EzvOdfgXOdn1kuB-UfilryhjxAk7DcPQIf",
+          "title": "3cx.com"
+        },
+        {
+          "id": 3,
+          "text": "icable Contracting Entity will depend on your location or the entity processing your payment...\"*\n* **Dat",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9Z1nWL-X0I4VR_uI5aF-IkY0Mv3xEqTp9mTBKoLxiBlfYLrANcDlp4pSxTlJYgDxGIXAxaaWJ3BfAd7uHOJugDjrqkyFdTn7wuNyHPPVImste6NJMtESJqdMz2MOObK9OQnHiKNkTqW5a_XRa",
+          "title": "3cx.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "3CX",
+        "evidence": "Passage 0 states that the software product 3CX at the domain 3cx.com is directly provided by 3CX (operating as 3CX Group through primary legal entities 3CX Limited, 3CX USA Corp., and 3CX Software FZCO).",
+        "source": {
+          "id": 0,
+          "text": "The software product **3CX** at the domain **3cx.com** is directly provided by **3CX** (operating as **3CX Group** through primary legal entities **3CX Limited**, **3CX USA Corp.**, and **3CX Software FZCO**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3jvM7437ofS2ynAOMLRivrCIjpQwCsdb-t_NYhs1Ch2MhYEJDU6cGBpK9fBONxv9R7xmqjeuEfDts0_YgMI5WeOSU_atv8cbqSx9oG1EzvOdfgXOdn1kuB-UfilryhjxAk7DcPQIf",
+          "title": "3cx.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "3CX",
+    "domain": "3cx.com",
+    "description": "3CX provides an open standards communications solution designed to enhance business connectivity and collaboration by replacing traditional proprietary PBXs. Their award-winning software enables businesses to reduce telecommunications costs, improve employee productivity, and elevate customer experience. Featuring integrated video conferencing, mobile applications, website live chat, and messaging services such as SMS and WhatsApp, 3CX delivers a comprehensive communications package for organizations of all sizes."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "3CX",
+  "evidence": "Passage 0 states that the software product 3CX at the domain 3cx.com is directly provided by 3CX (operating as 3CX Group through primary legal entities 3CX Limited, 3CX USA Corp., and 3CX Software FZCO).",
+  "source": {
+    "id": 0,
+    "text": "The software product **3CX** at the domain **3cx.com** is directly provided by **3CX** (operating as **3CX Group** through primary legal entities **3CX Limited**, **3CX USA Corp.**, and **3CX Software FZCO**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3jvM7437ofS2ynAOMLRivrCIjpQwCsdb-t_NYhs1Ch2MhYEJDU6cGBpK9fBONxv9R7xmqjeuEfDts0_YgMI5WeOSU_atv8cbqSx9oG1EzvOdfgXOdn1kuB-UfilryhjxAk7DcPQIf",
+    "title": "3cx.com"
+  },
+  "checked_at": "2026-11-05T10:10:10.224561+00:00"
+}

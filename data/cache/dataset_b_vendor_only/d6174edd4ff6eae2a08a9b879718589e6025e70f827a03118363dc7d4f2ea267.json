@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The software and platform at **boundaryml.com** (Boundary AI / BAML) is provided and operated by **Gloo Chat, Inc.** (doing business as **Boundary**).\n\n### Evidence\n* **Terms of Service:** \n  > *\"By accessing or using the BAML platform and services provided by Gloo Chat, Inc. ('Boundary,' 'we,' 'us,' or 'our'), you agree to be bound by these Terms of Service...\"*\n  > *Contact: \"Gloo Chat, Inc., Seattle, WA. For legal inquiries, please contact us at legal@boundaryml.com\"*\n* **Privacy Policy:**\n  > *\"Gloo Chat, Inc. ('Boundary,' 'we,' 'us,' or 'our') is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our BAML platform, website, and services.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software and platform at **boundaryml.com** (Boundary AI / BAML) is provided and operated by **Gloo Chat, Inc.** (doing business as **Boundary**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBJ2y2JSVQNVTSmYa8Gn1Ly-KMseLTcbNFfHLv_V_vtVW87M0m153tY-Doybl-hBneIRORa1AUpAenp5UZ10FBsBViQh9RSdm900i_O2TyAQ==",
+          "title": "boundaryml.com"
+        },
+        {
+          "id": 1,
+          "text": "The software and platform at **boundaryml.com** (Boundary AI / BAML) is provided and operated by **Gloo Chat, Inc.** (doing business as **Boundary**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcQFf1lgTqted74GCUyt7BrKw0E7hQhI0nyoSgBa-6a1EROImEjPasiTC1CBhJlGwbQAtukJJHPzYPYtR9F-nQpxvZ9m--E-bxK4i_rJn_YbKOF_P6xs3yEw==",
+          "title": "boundaryml.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"By accessing or using the BAML platform and services provided by Gloo Chat, Inc. ('Boundary,' 'we,' 'us,' or 'our'), you agree to be bound by these Terms of Service...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBJ2y2JSVQNVTSmYa8Gn1Ly-KMseLTcbNFfHLv_V_vtVW87M0m153tY-Doybl-hBneIRORa1AUpAenp5UZ10FBsBViQh9RSdm900i_O2TyAQ==",
+          "title": "boundaryml.com"
+        },
+        {
+          "id": 3,
+          "text": "For legal inquiries, please contact us at legal@boundaryml.com\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBJ2y2JSVQNVTSmYa8Gn1Ly-KMseLTcbNFfHLv_V_vtVW87M0m153tY-Doybl-hBneIRORa1AUpAenp5UZ10FBsBViQh9RSdm900i_O2TyAQ==",
+          "title": "boundaryml.com"
+        },
+        {
+          "id": 4,
+          "text": "This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our BAML platform, website, and services.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvKSiZh5xo_w3Hd1oHE3JR4c1RtkVPOYyBgIsuak3guYYZzNMHwc4B2oezlkxbTLZU9LEqosxcrZcAy1VYzFH5rtqoP7b-w6dQ9RCCQjmN_kZ4rIjugUf69FhV",
+          "title": "boundaryml.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Gloo Chat, Inc.",
+        "evidence": "The software and platform at boundaryml.com (Boundary AI / BAML) is provided and operated by Gloo Chat, Inc. (doing business as Boundary).",
+        "source": {
+          "id": 0,
+          "text": "The software and platform at **boundaryml.com** (Boundary AI / BAML) is provided and operated by **Gloo Chat, Inc.** (doing business as **Boundary**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBJ2y2JSVQNVTSmYa8Gn1Ly-KMseLTcbNFfHLv_V_vtVW87M0m153tY-Doybl-hBneIRORa1AUpAenp5UZ10FBsBViQh9RSdm900i_O2TyAQ==",
+          "title": "boundaryml.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Boundary AI",
+    "domain": "boundaryml.com",
+    "description": "Build, test, observe and improve your AI apps with ease."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Gloo Chat, Inc.",
+  "evidence": "The software and platform at boundaryml.com (Boundary AI / BAML) is provided and operated by Gloo Chat, Inc. (doing business as Boundary).",
+  "source": {
+    "id": 0,
+    "text": "The software and platform at **boundaryml.com** (Boundary AI / BAML) is provided and operated by **Gloo Chat, Inc.** (doing business as **Boundary**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBJ2y2JSVQNVTSmYa8Gn1Ly-KMseLTcbNFfHLv_V_vtVW87M0m153tY-Doybl-hBneIRORa1AUpAenp5UZ10FBsBViQh9RSdm900i_O2TyAQ==",
+    "title": "boundaryml.com"
+  },
+  "checked_at": "2026-11-05T07:49:15.375987+00:00"
+}

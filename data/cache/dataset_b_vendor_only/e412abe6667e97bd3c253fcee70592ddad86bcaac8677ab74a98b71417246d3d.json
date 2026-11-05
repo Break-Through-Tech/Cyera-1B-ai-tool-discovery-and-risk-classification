@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on the official Terms of Service and Privacy Policy for **Sutro** at **withsutro.com**, the operating company directly providing the software is **Sutro Software Inc**. \n\n* **Provider Statement:** Under the Contact sections of its legal policies, the company specifies:  \n  > *\"Sutro Software Inc, 66 Franklin Street, Suite 300, Oakland, CA 94607, support@withsutro.com\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "Based on the official Terms of Service and Privacy Policy for **Sutro** at **withsutro.com**, the operating company directly providing the software is **Sutro Software Inc**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeWuEauJaFQ4u29h8oEfZp6YlbyouO0blHTquzwR7InrPSCWUMvLgl9mi-frD3uQDgPWdb82uec9dL6r4j8H6Spi_1PDOAir31OGygvnw-tqoH",
+          "title": "withsutro.com"
+        },
+        {
+          "id": 1,
+          "text": "Based on the official Terms of Service and Privacy Policy for **Sutro** at **withsutro.com**, the operating company directly providing the software is **Sutro Software Inc**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvPGUVh9FN4IfEkyvuhHxE3lQxawFxbsMzdl4jiGNxszWtFyy5hn-aLsDVT702RKKJ8GBRifYeUrLZ8YOd7HNuqeF-Y6M_cdgm777jJK38Gg==",
+          "title": "withsutro.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"Sutro Software Inc, 66 Franklin Street, Suite 300, Oakland, CA 94607, support@withsutro.com\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeWuEauJaFQ4u29h8oEfZp6YlbyouO0blHTquzwR7InrPSCWUMvLgl9mi-frD3uQDgPWdb82uec9dL6r4j8H6Spi_1PDOAir31OGygvnw-tqoH",
+          "title": "withsutro.com"
+        },
+        {
+          "id": 3,
+          "text": "*\"Sutro Software Inc, 66 Franklin Street, Suite 300, Oakland, CA 94607, support@withsutro.com\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvPGUVh9FN4IfEkyvuhHxE3lQxawFxbsMzdl4jiGNxszWtFyy5hn-aLsDVT702RKKJ8GBRifYeUrLZ8YOd7HNuqeF-Y6M_cdgm777jJK38Gg==",
+          "title": "withsutro.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Sutro Software Inc",
+        "evidence": "Passage 0 specifies that based on the official Terms of Service and Privacy Policy for Sutro at withsutro.com, the operating company directly providing the software is Sutro Software Inc.",
+        "source": {
+          "id": 0,
+          "text": "Based on the official Terms of Service and Privacy Policy for **Sutro** at **withsutro.com**, the operating company directly providing the software is **Sutro Software Inc**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeWuEauJaFQ4u29h8oEfZp6YlbyouO0blHTquzwR7InrPSCWUMvLgl9mi-frD3uQDgPWdb82uec9dL6r4j8H6Spi_1PDOAir31OGygvnw-tqoH",
+          "title": "withsutro.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Sutro",
+    "domain": "withsutro.com",
+    "description": "Build and ship your own app in 5 minutes."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Sutro Software Inc",
+  "evidence": "Passage 0 specifies that based on the official Terms of Service and Privacy Policy for Sutro at withsutro.com, the operating company directly providing the software is Sutro Software Inc.",
+  "source": {
+    "id": 0,
+    "text": "Based on the official Terms of Service and Privacy Policy for **Sutro** at **withsutro.com**, the operating company directly providing the software is **Sutro Software Inc**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeWuEauJaFQ4u29h8oEfZp6YlbyouO0blHTquzwR7InrPSCWUMvLgl9mi-frD3uQDgPWdb82uec9dL6r4j8H6Spi_1PDOAir31OGygvnw-tqoH",
+    "title": "withsutro.com"
+  },
+  "checked_at": "2026-11-05T07:46:06.953739+00:00"
+}

@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on the official legal and privacy documentation on the domain, the vendor directly operating and providing the standards, tools, and specifications at **fidoalliance.org** is **FIDO Alliance, Inc.**\n\n### Provider Statement & Evidence\n* **Product & Domain:** FIDO Alliance (`fidoalliance.org`)\n* **Privacy Policy (`fidoalliance.org/privacy-policy/`):**\n  > \"If you have any questions about this Privacy Policy or our treatment of the information you provide us, please contact as at:  \n  > **FIDO Alliance, Inc.**  \n  > 3855 SW 153rd Drive  \n  > Beaverton, OR 97003.\"\n* **Metadata Usage Terms (`fidoalliance.org`):**\n  > \"© 2015-2018 FIDO Alliance, Inc.; All rights reserved.\"",
+      "passages": [
+        {
+          "id": 0,
+          "text": "Based on the official legal and privacy documentation on the domain, the vendor directly operating and providing the standards, tools, and specifications at **fidoalliance.org** is **FIDO Alliance, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGo7GqJuxJqm9jYBoluOBXST2MyHwnDSAHQhKkDAq510vI3APCKAXtjMFfnig0r08zhNBMQpygKU2tea-ltufLH3byqMG0Rb-Sn9y3frLpiFSow5F37qm4T2lBxI4Jy_L1FyH149d1XRXaJ8HbaI7Is6HAw055y_EDJuTCCLA==",
+          "title": "fidoalliance.org"
+        },
+        {
+          "id": 1,
+          "text": "Based on the official legal and privacy documentation on the domain, the vendor directly operating and providing the standards, tools, and specifications at **fidoalliance.org** is **FIDO Alliance, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQ_MX46I9rL1F5t6L07YohQLxMpyj4_WQrbFqOzCmv8-V9t0yj5h_gyrF9UYxoYCLY9rW9tVg5BQFGqN59YB9kNZUB6TwDrO1i65cFMl7hJKzq6TNgZe1xQky94OM=",
+          "title": "fidoalliance.org"
+        },
+        {
+          "id": 2,
+          "text": "**Product & Domain:** FIDO Alliance (`fidoalliance.org`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQ_MX46I9rL1F5t6L07YohQLxMpyj4_WQrbFqOzCmv8-V9t0yj5h_gyrF9UYxoYCLY9rW9tVg5BQFGqN59YB9kNZUB6TwDrO1i65cFMl7hJKzq6TNgZe1xQky94OM=",
+          "title": "fidoalliance.org"
+        },
+        {
+          "id": 3,
+          "text": "Beaverton, OR 97003.\"",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQ_MX46I9rL1F5t6L07YohQLxMpyj4_WQrbFqOzCmv8-V9t0yj5h_gyrF9UYxoYCLY9rW9tVg5BQFGqN59YB9kNZUB6TwDrO1i65cFMl7hJKzq6TNgZe1xQky94OM=",
+          "title": "fidoalliance.org"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "FIDO Alliance, Inc.",
+        "evidence": "Passage 0 explicitly notes that the vendor directly operating and providing the standards, tools, and specifications at fidoalliance.org is FIDO Alliance, Inc.",
+        "source": {
+          "id": 0,
+          "text": "Based on the official legal and privacy documentation on the domain, the vendor directly operating and providing the standards, tools, and specifications at **fidoalliance.org** is **FIDO Alliance, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGo7GqJuxJqm9jYBoluOBXST2MyHwnDSAHQhKkDAq510vI3APCKAXtjMFfnig0r08zhNBMQpygKU2tea-ltufLH3byqMG0Rb-Sn9y3frLpiFSow5F37qm4T2lBxI4Jy_L1FyH149d1XRXaJ8HbaI7Is6HAw055y_EDJuTCCLA==",
+          "title": "fidoalliance.org"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "FIDO Alliance",
+    "domain": "fidoalliance.org",
+    "description": "The FIDO Alliance is dedicated to enhancing online security by developing open standards for authentication. It focuses on creating phishing-resistant sign-ins using passkeys, making login processes more secure and user-friendly for both consumers and employees. Additionally, the Alliance establishes standards for secure device onboarding to promote security in cloud and IoT ecosystems, facilitating easier deployment and management for service providers."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "FIDO Alliance, Inc.",
+  "evidence": "Passage 0 explicitly notes that the vendor directly operating and providing the standards, tools, and specifications at fidoalliance.org is FIDO Alliance, Inc.",
+  "source": {
+    "id": 0,
+    "text": "Based on the official legal and privacy documentation on the domain, the vendor directly operating and providing the standards, tools, and specifications at **fidoalliance.org** is **FIDO Alliance, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGo7GqJuxJqm9jYBoluOBXST2MyHwnDSAHQhKkDAq510vI3APCKAXtjMFfnig0r08zhNBMQpygKU2tea-ltufLH3byqMG0Rb-Sn9y3frLpiFSow5F37qm4T2lBxI4Jy_L1FyH149d1XRXaJ8HbaI7Is6HAw055y_EDJuTCCLA==",
+    "title": "fidoalliance.org"
+  },
+  "checked_at": "2026-11-05T10:07:26.051263+00:00"
+}

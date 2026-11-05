@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The software platform and services at **crisp.chat** (Crisp / Crisp Instant Messaging) are directly provided and operated by **Crisp IM SAS**.\n\n### Provider Statements\n* **General Terms of Service:**  \n  > *\"The provider of the Crisp Platform and Services, is CRISP IM SAS, registered at 2 boulevard de Launay in Nantes (44100), and hereinafter referred to as 'Crisp'.\"*\n\n* **Privacy Policy:**  \n  > *\"Crisp is operated by Crisp IM SAS, a French limited company, identified as: ID / SIREN: 833085806; Address: 2 Boulevard de Launay, 44100 Nantes, France... Website: https://crisp.chat/.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software platform and services at **crisp.chat** (Crisp / Crisp Instant Messaging) are directly provided and operated by **Crisp IM SAS**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTiz6K_jvLuZ0ybyhN7w1n7laE0xVn7o_fdH6CrS4gyy-1OAmyomjsBQmPe1Cav3dLtrGMXA-3Hx9bCctPLGDEFnbRU5iLZRzTTD1qmDvT6a2K-qc=",
+          "title": "crisp.chat"
+        },
+        {
+          "id": 1,
+          "text": "The software platform and services at **crisp.chat** (Crisp / Crisp Instant Messaging) are directly provided and operated by **Crisp IM SAS**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDueDXwk-Ep-LHvzQHIDzfnafEL8gvYW12mWuklzm10SeIYgCBaT7UPQ4K86HIoYfG1DHfMJgFvD0lM6pJWrWHikdeySDwQ5vcwHyvN37UnYQY",
+          "title": "crisp.chat"
+        },
+        {
+          "id": 2,
+          "text": "*\"The provider of the Crisp Platform and Services, is CRISP IM SAS, registered at 2 boulevard de Launay in Nantes (44100), and hereinafter referred to as 'Crisp'.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDueDXwk-Ep-LHvzQHIDzfnafEL8gvYW12mWuklzm10SeIYgCBaT7UPQ4K86HIoYfG1DHfMJgFvD0lM6pJWrWHikdeySDwQ5vcwHyvN37UnYQY",
+          "title": "crisp.chat"
+        },
+        {
+          "id": 3,
+          "text": "Website: https://crisp.chat/.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTiz6K_jvLuZ0ybyhN7w1n7laE0xVn7o_fdH6CrS4gyy-1OAmyomjsBQmPe1Cav3dLtrGMXA-3Hx9bCctPLGDEFnbRU5iLZRzTTD1qmDvT6a2K-qc=",
+          "title": "crisp.chat"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "CRISP IM SAS",
+        "evidence": "Passage 2 directly quotes the terms stating that 'The provider of the Crisp Platform and Services, is CRISP IM SAS'.",
+        "source": {
+          "id": 2,
+          "text": "*\"The provider of the Crisp Platform and Services, is CRISP IM SAS, registered at 2 boulevard de Launay in Nantes (44100), and hereinafter referred to as 'Crisp'.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDueDXwk-Ep-LHvzQHIDzfnafEL8gvYW12mWuklzm10SeIYgCBaT7UPQ4K86HIoYfG1DHfMJgFvD0lM6pJWrWHikdeySDwQ5vcwHyvN37UnYQY",
+          "title": "crisp.chat"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Crisp Instant Messaging",
+    "domain": "crisp.chat",
+    "description": "Crisp IM is a customer interaction platform that simplifies communication for businesses through a unified interface. It enables teams to engage with customers across various channels, including chat and email, facilitating both sales and customer support. The platform prioritizes ease of use and streamlined workflows, allowing businesses to manage communications effectively from a single location."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "CRISP IM SAS",
+  "evidence": "Passage 2 directly quotes the terms stating that 'The provider of the Crisp Platform and Services, is CRISP IM SAS'.",
+  "source": {
+    "id": 2,
+    "text": "*\"The provider of the Crisp Platform and Services, is CRISP IM SAS, registered at 2 boulevard de Launay in Nantes (44100), and hereinafter referred to as 'Crisp'.\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDueDXwk-Ep-LHvzQHIDzfnafEL8gvYW12mWuklzm10SeIYgCBaT7UPQ4K86HIoYfG1DHfMJgFvD0lM6pJWrWHikdeySDwQ5vcwHyvN37UnYQY",
+    "title": "crisp.chat"
+  },
+  "checked_at": "2026-11-05T08:59:22.089511+00:00"
+}

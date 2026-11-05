@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Files.fm** at **files.fm** is **SIA \"Files.fm\"**.\n\n### Evidence\nAccording to the official *Terms of use of the Failiem.lv / Files.fm platform* on files.fm:\n> *\"Service provider: SIA “Files.fm”, registration No. 40003962231, VAT payer No. LV40003962231, Stabu Street 119, Riga, LV-1009, Latvia.\"*\n> \n> *\"These terms apply to the Failiem.lv and Files.fm websites, accounts, mobile and desktop applications, APIs, sharing tools...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Files.fm** at **files.fm** is **SIA \"Files.fm\"**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTgDZSLvjR9rxQBT8n8h5uVppZ6t0elbGuZkdZtnqQWDOU25gnufKTixEBl_CswjF16a0SuAFvQc6XZd0bJZ2YFtrEG-0y_V-SAKxA",
+          "title": "files.fm"
+        },
+        {
+          "id": 1,
+          "text": "According to the official *Terms of use of the Failiem.lv / Files.fm platform* on files.fm",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTgDZSLvjR9rxQBT8n8h5uVppZ6t0elbGuZkdZtnqQWDOU25gnufKTixEBl_CswjF16a0SuAFvQc6XZd0bJZ2YFtrEG-0y_V-SAKxA",
+          "title": "files.fm"
+        },
+        {
+          "id": 2,
+          "text": "*\"Service provider: SIA “Files.fm”, registration No. 40003962231, VAT payer No. LV40003962231, Stabu Street 119, Riga, LV-1009, Latvia.\"*\n> \n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTgDZSLvjR9rxQBT8n8h5uVppZ6t0elbGuZkdZtnqQWDOU25gnufKTixEBl_CswjF16a0SuAFvQc6XZd0bJZ2YFtrEG-0y_V-SAKxA",
+          "title": "files.fm"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "SIA \"Files.fm\"",
+        "evidence": "Passage 2 identifies the service provider as SIA “Files.fm”, registration No. 40003962231, Stabu Street 119, Riga, LV-1009, Latvia.",
+        "source": {
+          "id": 2,
+          "text": "*\"Service provider: SIA “Files.fm”, registration No. 40003962231, VAT payer No. LV40003962231, Stabu Street 119, Riga, LV-1009, Latvia.\"*\n> \n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTgDZSLvjR9rxQBT8n8h5uVppZ6t0elbGuZkdZtnqQWDOU25gnufKTixEBl_CswjF16a0SuAFvQc6XZd0bJZ2YFtrEG-0y_V-SAKxA",
+          "title": "files.fm"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Files.fm",
+    "domain": "files.fm",
+    "description": "Files.fm offers a reliable platform for storing and sharing digital content efficiently. Catering to both individuals and businesses, it focuses on simplifying the management of large volumes of files. With an intuitive interface, users can easily upload, access, and distribute their content securely."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "SIA \"Files.fm\"",
+  "evidence": "Passage 2 identifies the service provider as SIA “Files.fm”, registration No. 40003962231, Stabu Street 119, Riga, LV-1009, Latvia.",
+  "source": {
+    "id": 2,
+    "text": "*\"Service provider: SIA “Files.fm”, registration No. 40003962231, VAT payer No. LV40003962231, Stabu Street 119, Riga, LV-1009, Latvia.\"*\n> \n",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTgDZSLvjR9rxQBT8n8h5uVppZ6t0elbGuZkdZtnqQWDOU25gnufKTixEBl_CswjF16a0SuAFvQc6XZd0bJZ2YFtrEG-0y_V-SAKxA",
+    "title": "files.fm"
+  },
+  "checked_at": "2026-11-05T08:28:45.861909+00:00"
+}

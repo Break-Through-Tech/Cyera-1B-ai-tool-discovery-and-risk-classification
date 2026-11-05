@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "### Operating Vendor\nThe vendor directly providing the digital marketing platform **Sendinblue** at the domain **sendinblue.com** (which rebranded to Brevo) is **Sendinblue SAS** (now officially operating as **Brevo SAS**, with **Sendinblue Inc.** serving customers in the United States, Canada, Australia, and New Zealand).\n\n### Evidence and Provider Statement\nThe official Terms of Service state:\n> *\"Sendinblue, a simplified joint-stock company registered with the Paris Trade and Companies Register under number 498 019 298 with its registered office at 106 boulevard Haussmann 75008 Paris (hereafter “Brevo“) operates a solution relating to marketing and/or transactional email and/or SMS...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the digital marketing platform **Sendinblue** at the domain **sendinblue.com** (which rebranded to Brevo) is **Sendinblue SAS** (now officially operating as **Brevo SAS**, with **Sendinblue Inc.** serving customers in the United States, Canada, Australia, and New Zealand)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLe6Fom4rw5dqLAyM1x7x_3aFLbEp8fvKVBYFjnBNJd-EeJvZDI2-XopqbCMbJ3OqkWVWB8mjUXMHdOBuuX5sUdTRgpLzgBqao2MBwn7U-fd4sxgts5pQ6rAfnd9YhXPDb70w-ybjZbHYZui88",
+          "title": "sendblue.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the digital marketing platform **Sendinblue** at the domain **sendinblue.com** (which rebranded to Brevo) is **Sendinblue SAS** (now officially operating as **Brevo SAS**, with **Sendinblue Inc.** serving customers in the United States, Canada, Australia, and New Zealand)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOWzhFet5Wyk6odAcRkoWgQI8APGI0DouMAoG9niSVf4b40J05ugr-VXvSSD_qcTHxruZ5wVSq_uCJwdd0QxbUG4DFCfABjHR47u9Dii9k8rLkdSpLtpG5IaYvdpknI3XR2PN7SQao8Jw=",
+          "title": "brevo.com"
+        },
+        {
+          "id": 2,
+          "text": "The official Terms of Service state",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOWzhFet5Wyk6odAcRkoWgQI8APGI0DouMAoG9niSVf4b40J05ugr-VXvSSD_qcTHxruZ5wVSq_uCJwdd0QxbUG4DFCfABjHR47u9Dii9k8rLkdSpLtpG5IaYvdpknI3XR2PN7SQao8Jw=",
+          "title": "brevo.com"
+        },
+        {
+          "id": 3,
+          "text": "Sendinblue, a simplified joint-stock company registered with the Paris Trade and Companies Register under number 498 019 298 with its registered office at 106 boulevard Haussmann 75008 Paris (hereafter “Brevo“) operates a solution relating to marketing and/or transactional email and",
+          "url": "https://www.brevo.com/legal/termsofuse/",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Sendinblue SAS",
+        "evidence": "Passage 0 states that the vendor directly providing the digital marketing platform Sendinblue at the domain sendinblue.com is Sendinblue SAS (now officially operating as Brevo SAS).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the digital marketing platform **Sendinblue** at the domain **sendinblue.com** (which rebranded to Brevo) is **Sendinblue SAS** (now officially operating as **Brevo SAS**, with **Sendinblue Inc.** serving customers in the United States, Canada, Australia, and New Zealand)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLe6Fom4rw5dqLAyM1x7x_3aFLbEp8fvKVBYFjnBNJd-EeJvZDI2-XopqbCMbJ3OqkWVWB8mjUXMHdOBuuX5sUdTRgpLzgBqao2MBwn7U-fd4sxgts5pQ6rAfnd9YhXPDb70w-ybjZbHYZui88",
+          "title": "sendblue.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Sendinblue",
+    "domain": "sendinblue.com",
+    "description": "Sendinblue is a digital marketing platform that enables businesses to enhance customer relationships through various channels such as email campaigns, transactional emails, and SMS messaging. Known for its user-friendly interface, Sendinblue offers a comprehensive suite of services including marketing automation, responsive design tools, and powerful contact management. Serving over 50,000 customers globally, the company is committed to delivering excellent customer service and competitive pricing, making it a popular choice in the digital marketing industry."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Sendinblue SAS",
+  "evidence": "Passage 0 states that the vendor directly providing the digital marketing platform Sendinblue at the domain sendinblue.com is Sendinblue SAS (now officially operating as Brevo SAS).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the digital marketing platform **Sendinblue** at the domain **sendinblue.com** (which rebranded to Brevo) is **Sendinblue SAS** (now officially operating as **Brevo SAS**, with **Sendinblue Inc.** serving customers in the United States, Canada, Australia, and New Zealand)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLe6Fom4rw5dqLAyM1x7x_3aFLbEp8fvKVBYFjnBNJd-EeJvZDI2-XopqbCMbJ3OqkWVWB8mjUXMHdOBuuX5sUdTRgpLzgBqao2MBwn7U-fd4sxgts5pQ6rAfnd9YhXPDb70w-ybjZbHYZui88",
+    "title": "sendblue.com"
+  },
+  "checked_at": "2026-11-05T08:34:51.660908+00:00"
+}

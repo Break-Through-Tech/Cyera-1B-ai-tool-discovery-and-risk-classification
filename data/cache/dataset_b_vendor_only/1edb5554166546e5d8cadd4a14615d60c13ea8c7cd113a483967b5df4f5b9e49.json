@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Redis** at **redis.io** is **Redis Ltd.** (operating in the United States and the Americas through its subsidiary, **Redis Inc.**).\n\n### Evidence:\n* **Privacy Policy (`redis.io/legal/privacy`):** \n  > *\"Redis Ltd. and/or their applicable affiliates (“Redis”, “us”, or “we”) are committed to protecting your privacy... such as when you: (i) visit www.redis.io... and (ii) trial, purchase download and/or subscribe to our cloud services or software (the “Services” or “Software”, respectively).\"*\n* **Licenses (`redis.io/legal/licenses`):**\n  > *\"Redis Ltd. is the company that stands behind Redis. Our main mission as a company is focused on furthering Redis for the benefit of the Redis community.\"*\n* **Software Agreement (`redis.io/legal/software-agreement`):** Identifies contracting entities as **Redis Inc.** (a Delaware corporation located at 303 2nd St., North Tower, Suite 525, San Francisco, CA) for customers domiciled in the Americas, Asia, and Pacific, and parent company **Redis Ltd.** (located in Tel-Aviv, Israel).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXVrTztxXunyrHTEjpNHylSJA-inSV42t10d5PTbGqdbETy7oy2zCrT6GenEyOIUlP7hwBs7CL6qf5a2Rs4gm727qw_BqndqIZ9zAzypGqDGEb15wGQe6OLXj2HPbDmg==",
+          "title": "redis.io"
+        },
+        {
+          "id": 1,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNH4SnGLsZU65ReRPdYSe0XJRz1N8SarMAZBYWw2l_L0x6tA1Fuf5AwUIYm2zLJBe-kxCe-vu79WU6VkL82Q_FSmrXa81mmq0BFOZea61LiGeVcPSZENRKx5LqI_UT7Gg_bagc7mkhn7lh5hjw2NxedoHCN8PeXhlq",
+          "title": "redis.io"
+        },
+        {
+          "id": 2,
+          "text": "*\"Redis Ltd. and/or their applicable affiliates (“Redis”, “us”, or “we”) are committed to protecting your privacy... such as when you: (i) visit www.redis.io... and (ii) trial, purchase download and/or subscribe to our cloud services or software (the “Services” or “Software”, respectively).\"*\n* **Licenses (`redi",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHajmtLf_MlcC5OYsH-RsiBP3JSz2pNZswYGx187a4Fsv30EfBPEQcMZlby_iHTMvIDOq0huTUysg3REiYUIpfRAR76ip0oohHz-Bj7yNp4HYsJXVL6DNB_eiOQ",
+          "title": "redis.io"
+        },
+        {
+          "id": 3,
+          "text": "a company is focused on furthering Redis for the benefit of the Redis community.\"*\n* **Software Agreem",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMRN-N6KvU5OLDOrTA0Eha2FlGkFLKJlTmrxyz8TGUEZekLgnt_kmS00DtBM_A9ibuEpIf4N8TpbzHQ-iIkBXiYJP0yd86GKCVzbh8TK2QW0WMkVEIxw==",
+          "title": "redis.io"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Redis Ltd.",
+        "evidence": "Passage 2 shows that Redis Ltd. and/or their applicable affiliates operate and provide services for www.redis.io, stating that 'Redis Ltd. and/or their applicable affiliates (“Redis”, “us”, or “we”) are committed to protecting your privacy... such as when you: (i) visit www.redis.io... and (ii) trial, purchase download and/or subscribe to our cloud services or software'.",
+        "source": {
+          "id": 2,
+          "text": "*\"Redis Ltd. and/or their applicable affiliates (“Redis”, “us”, or “we”) are committed to protecting your privacy... such as when you: (i) visit www.redis.io... and (ii) trial, purchase download and/or subscribe to our cloud services or software (the “Services” or “Software”, respectively).\"*\n* **Licenses (`redi",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHajmtLf_MlcC5OYsH-RsiBP3JSz2pNZswYGx187a4Fsv30EfBPEQcMZlby_iHTMvIDOq0huTUysg3REiYUIpfRAR76ip0oohHz-Bj7yNp4HYsJXVL6DNB_eiOQ",
+          "title": "redis.io"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Redis",
+    "domain": "redis.io",
+    "description": "Redis is an open-source key-value store known as a data structure server, offering advanced features such as the ability for keys to contain various data types like strings, hashes, lists, and sets. It serves developers and enterprises looking for robust data storage solutions and operates globally."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Redis Ltd.",
+  "evidence": "Passage 2 shows that Redis Ltd. and/or their applicable affiliates operate and provide services for www.redis.io, stating that 'Redis Ltd. and/or their applicable affiliates (“Redis”, “us”, or “we”) are committed to protecting your privacy... such as when you: (i) visit www.redis.io... and (ii) trial, purchase download and/or subscribe to our cloud services or software'.",
+  "source": {
+    "id": 2,
+    "text": "*\"Redis Ltd. and/or their applicable affiliates (“Redis”, “us”, or “we”) are committed to protecting your privacy... such as when you: (i) visit www.redis.io... and (ii) trial, purchase download and/or subscribe to our cloud services or software (the “Services” or “Software”, respectively).\"*\n* **Licenses (`redi",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHajmtLf_MlcC5OYsH-RsiBP3JSz2pNZswYGx187a4Fsv30EfBPEQcMZlby_iHTMvIDOq0huTUysg3REiYUIpfRAR76ip0oohHz-Bj7yNp4HYsJXVL6DNB_eiOQ",
+    "title": "redis.io"
+  },
+  "checked_at": "2026-11-05T09:51:14.740864+00:00"
+}

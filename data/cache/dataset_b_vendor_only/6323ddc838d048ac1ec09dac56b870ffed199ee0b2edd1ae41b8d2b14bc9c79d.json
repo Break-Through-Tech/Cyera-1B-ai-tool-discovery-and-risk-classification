@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "For the tool **Rephrase.info** at **rephrase.info**, the product is provided and developed by **Softo Tech** and published developer **Ahmad Sattar**:\n\n* **Developer / Publisher:** On official app distribution platforms (such as the Apple App Store listing for the product's official app *Rephraser*), the developer is explicitly listed as **Ahmad Sattar**, with the description directly identifying the product and domain: *\"Rephrase.info is a great online free paraphrasing tool that assists in rewriting or paraphrasing sentences, paragraphs, articles, blogs, thesis, assignments, journals...\"*.\n* **Operating Company / Organization:** Android software catalog records and developer listings for the *rephrase.info* tool describe the software as developed by **Softo Tech** (*\"developed by Softo Tech... Why do many consider rephrase.info to be among the top paraphrasing applications for writers?\"*), which operates alongside developer Ahmad Sattar.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "For the tool **Rephrase.info** at **rephrase.info**, the product is provided and developed by **Softo Tech** and published developer **Ahmad Sattar**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1NpMWfyh85dx6f-IPo3ULGJY44daBzlDgmLiA-gKAO4YLzb-bjR94wt41uxylwpR6IUNuCyK0g-y6-52JBUmMBkVL-37aw8emmT36dFJ_kzGJXsSsZ89Eq4K0jDbKDbtf5cXtn_RDGwAA",
+          "title": "apple.com"
+        },
+        {
+          "id": 1,
+          "text": "For the tool **Rephrase.info** at **rephrase.info**, the product is provided and developed by **Softo Tech** and published developer **Ahmad Sattar**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHa4G6T5tnJirs61PqZvBwVyRWEK8WGFLOyZuKQM8OZaOb5vc91I-CDAEFeLijvlbeEecghdvi5M5GoNfQObH_jS3d7ttKXflFAvQ87CHWu-amjroLp0sWm",
+          "title": "updatestar.com"
+        },
+        {
+          "id": 2,
+          "text": "**Developer / Publisher:** On official app distribution platforms (such as the Apple App Store listing for the product's official app *Rephraser*), the developer is explicitly listed as **Ahmad Sattar**, with the description directly identifying the product and domain: *\"Rephrase.info is a great online free paraphrasing tool that assists in rewriting or paraphrasing sentences, paragraphs, articles, blogs, thesis, assignments, journals...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1NpMWfyh85dx6f-IPo3ULGJY44daBzlDgmLiA-gKAO4YLzb-bjR94wt41uxylwpR6IUNuCyK0g-y6-52JBUmMBkVL-37aw8emmT36dFJ_kzGJXsSsZ89Eq4K0jDbKDbtf5cXtn_RDGwAA",
+          "title": "apple.com"
+        },
+        {
+          "id": 3,
+          "text": "**Developer / Publisher:** On official app distribution platforms (such as the Apple App Store listing for the product's official app *Rephraser*), the developer is explicitly listed as **Ahmad Sattar**, with the description directly identifying the product and domain: *\"Rephrase.info is a great online free paraphrasing tool that assists in rewriting or paraphrasing sentences, paragraphs, articles, blogs, thesis, assignments, journals...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1NpMWfyh85dx6f-IPo3ULGJY44daBzlDgmLiA-gKAO4YLzb-bjR94wt41uxylwpR6IUNuCyK0g-y6-52JBUmMBkVL-37aw8emmT36dFJ_kzGJXsSsZ89Eq4K0jDbKDbtf5cXtn_RDGwAA",
+          "title": "apple.com"
+        },
+        {
+          "id": 4,
+          "text": "*), which operates alongside developer Ahmad Sattar",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHukUBk5V1J35sWWWP3X-A_wTnkMVb18vHBpNy-o0NzmDwPeJBvgeMwZcl8CR6-aHdjo30FM-kNusBCwSG3TSO6drCNT9wN-UpKDNGQBwmB5SOnGliwoqDZhmsBX_mSBBbh-nncodgPuLrtjZ-FUHVbvo7xWKZ1LYAkoxVCWGiTGA==",
+          "title": "google.com"
+        },
+        {
+          "id": 5,
+          "text": "*), which operates alongside developer Ahmad Sattar",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHa4G6T5tnJirs61PqZvBwVyRWEK8WGFLOyZuKQM8OZaOb5vc91I-CDAEFeLijvlbeEecghdvi5M5GoNfQObH_jS3d7ttKXflFAvQ87CHWu-amjroLp0sWm",
+          "title": "updatestar.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Softo Tech",
+        "evidence": "Passage 0 states that for the tool Rephrase.info at rephrase.info, the product is provided and developed by Softo Tech.",
+        "source": {
+          "id": 0,
+          "text": "For the tool **Rephrase.info** at **rephrase.info**, the product is provided and developed by **Softo Tech** and published developer **Ahmad Sattar**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1NpMWfyh85dx6f-IPo3ULGJY44daBzlDgmLiA-gKAO4YLzb-bjR94wt41uxylwpR6IUNuCyK0g-y6-52JBUmMBkVL-37aw8emmT36dFJ_kzGJXsSsZ89Eq4K0jDbKDbtf5cXtn_RDGwAA",
+          "title": "apple.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Rephrase.info",
+    "domain": "rephrase.info",
+    "description": "Rephrase.info is an AI-powered online tool offering multiple paraphrasing modes to rewrite text, enhance clarity, and avoid plagiarism. It also includes grammar, plagiarism, and summarization features for comprehensive content refinement."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Softo Tech",
+  "evidence": "Passage 0 states that for the tool Rephrase.info at rephrase.info, the product is provided and developed by Softo Tech.",
+  "source": {
+    "id": 0,
+    "text": "For the tool **Rephrase.info** at **rephrase.info**, the product is provided and developed by **Softo Tech** and published developer **Ahmad Sattar**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1NpMWfyh85dx6f-IPo3ULGJY44daBzlDgmLiA-gKAO4YLzb-bjR94wt41uxylwpR6IUNuCyK0g-y6-52JBUmMBkVL-37aw8emmT36dFJ_kzGJXsSsZ89Eq4K0jDbKDbtf5cXtn_RDGwAA",
+    "title": "apple.com"
+  },
+  "checked_at": "2026-11-05T05:35:21.237909+00:00"
+}

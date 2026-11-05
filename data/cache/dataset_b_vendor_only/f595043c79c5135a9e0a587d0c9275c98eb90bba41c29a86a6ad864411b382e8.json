@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Graph Maker** at **`graphmaker.ai`** is **GraphMaker** (developed in connection with Dominic Whyte / Fillout).\n\n### Provider Statement & Evidence:\n* According to the official **Terms of Service** for `graphmaker.ai`:\n  > *\"These Terms of Service constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and GraphMaker (\"Company\", “we”, “us”, or “our”), concerning your access to and use of the graphmaker.ai website... We are registered in North Carolina, United States and have our registered office at 209 Bluefield Rd, Chapel Hill, NC 27517.\"*\n* The **Privacy Policy** reiterates:\n  > *\"We/Us/Our means GraphMaker, whose registered address is 209 Bluefield Rd, Chapel Hill, NC 27517, USA\"*, listing contact email `privacy@fillout.com`.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Graph Maker** at **`graphmaker.ai`** is **GraphMaker**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXJl2nbmG48_HmgI0U-RM2GvmGOfF2rAKdBDUvrathnN5V1K187MmcWMb6gK_vPeYe-tdC1Ur6_Lvq22qzJm5YhHtZEfX95XURuJyRpKTjnxwkzjJsl7PIW8uB",
+          "title": "graphmaker.ai"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Graph Maker** at **`graphmaker.ai`** is **GraphMaker**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5IXG4tSpoIvU7b0Xo7TYtB42tn6EZUQYNC-jGa0vTe0yOQLckW8oyU56UIEy7-OaVDbBUAiS5QkLoc-PTmucvFwgjK6lKZ3rgDSuSUqn6Y5v1HQq3JrJr2nY=",
+          "title": "graphmaker.ai"
+        },
+        {
+          "id": 2,
+          "text": "The vendor directly providing **Graph Maker** at **`graphmaker.ai`** is **GraphMaker** (developed in connection with Dominic Whyte / Fillout)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEX0x0USCIYJZkVCs_Tk0oOoUcJsKLh8G0vPh_rNv4AAGApLVrkb_sWLf5LNJGIjQKDdOoFeZ1BxtVCOM6hkbrvdoKjWi0fYL7o8AL_kVyqvQjZXL4tAbIyEDY8GBpLDxUfV_TpdBFj6RdUQnRKCOApGU7D4T7KdTXMd-v_kn2du77b286gz5PMHvgLeOVTe9I2jDyAK2ImfWWo3hU_H1_qARaAUGHh3A==",
+          "title": "reddit.com"
+        },
+        {
+          "id": 3,
+          "text": "The vendor directly providing **Graph Maker** at **`graphmaker.ai`** is **GraphMaker** (developed in connection with Dominic Whyte / Fillout)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXJl2nbmG48_HmgI0U-RM2GvmGOfF2rAKdBDUvrathnN5V1K187MmcWMb6gK_vPeYe-tdC1Ur6_Lvq22qzJm5YhHtZEfX95XURuJyRpKTjnxwkzjJsl7PIW8uB",
+          "title": "graphmaker.ai"
+        },
+        {
+          "id": 4,
+          "text": "The vendor directly providing **Graph Maker** at **`graphmaker.ai`** is **GraphMaker** (developed in connection with Dominic Whyte / Fillout)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpwhChi8WtLgMciq6W8sBxmKsViwCqDhQbaa48LAPWdXWcGm96bPcPjCk-Q6qpXs4SVj2JF-m3L71xPgpXTgwlapV4FooV5GbVHDcGtkXxg03vJcOtP9YqH3zcrmSM8nQ=",
+          "title": "fillout.com"
+        },
+        {
+          "id": 5,
+          "text": "d in North Carolina, United States and have our registered office at 209 Bluefield Rd, Chapel Hill, NC 27517.\"*\n* The **Privacy",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5IXG4tSpoIvU7b0Xo7TYtB42tn6EZUQYNC-jGa0vTe0yOQLckW8oyU56UIEy7-OaVDbBUAiS5QkLoc-PTmucvFwgjK6lKZ3rgDSuSUqn6Y5v1HQq3JrJr2nY=",
+          "title": "graphmaker.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "GraphMaker",
+        "evidence": "Passage 0 confirms that the vendor directly providing Graph Maker at graphmaker.ai is GraphMaker.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Graph Maker** at **`graphmaker.ai`** is **GraphMaker**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXJl2nbmG48_HmgI0U-RM2GvmGOfF2rAKdBDUvrathnN5V1K187MmcWMb6gK_vPeYe-tdC1Ur6_Lvq22qzJm5YhHtZEfX95XURuJyRpKTjnxwkzjJsl7PIW8uB",
+          "title": "graphmaker.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Graph Maker",
+    "domain": "graphmaker.ai",
+    "description": "Make a graph instantly with AI."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "GraphMaker",
+  "evidence": "Passage 0 confirms that the vendor directly providing Graph Maker at graphmaker.ai is GraphMaker.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Graph Maker** at **`graphmaker.ai`** is **GraphMaker**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXJl2nbmG48_HmgI0U-RM2GvmGOfF2rAKdBDUvrathnN5V1K187MmcWMb6gK_vPeYe-tdC1Ur6_Lvq22qzJm5YhHtZEfX95XURuJyRpKTjnxwkzjJsl7PIW8uB",
+    "title": "graphmaker.ai"
+  },
+  "checked_at": "2026-11-05T06:58:23.760122+00:00"
+}

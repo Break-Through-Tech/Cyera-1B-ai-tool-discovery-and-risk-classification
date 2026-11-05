@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "For **Template Prompts** at **templateprompts.com**, no separate legal operating company name or individual developer is disclosed on the service's website. The product is directly offered and operated under its own brand name, **Templates Prompts** (also referred to as **Template Prompts**).\n\n* **Provider Statement / Evidence:** Across the pages of `templateprompts.com` (including the homepage and the motivation page), the official footer specifies: \n  > *\"© Templates Prompts 2025. Terms and Conditions.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "For **Template Prompts** at **templateprompts.com**, no separate legal operating company name or individual developer is disclosed on the service's website",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCllwD2k4nmpLDz5kHjp5unYK21t5OMUbErywTWH0k7bdDUPO4tMkucF_TFqLGkWGiLFENULbvN17uOndWf6iM_jtqOnkMnzSmVkaZihPzsfMW",
+          "title": "templateprompts.com"
+        },
+        {
+          "id": 1,
+          "text": "For **Template Prompts** at **templateprompts.com**, no separate legal operating company name or individual developer is disclosed on the service's website",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHi2DilJvg73fwI_BHoYRQFixneOFvKQ-Q4__0VdMEjGPQWRsProS6xyoZr-WF3LbtS0jQRE128gmad27OW13rEcvWnDCODqFAKKYa7v-Q5QWhSYgZKsOnDzYnufqJaS1iFbpRx",
+          "title": "templateprompts.com"
+        },
+        {
+          "id": 2,
+          "text": "The product is directly offered and operated under its own brand name, **Templates Prompts** (also referred to as **Template Prompts**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCllwD2k4nmpLDz5kHjp5unYK21t5OMUbErywTWH0k7bdDUPO4tMkucF_TFqLGkWGiLFENULbvN17uOndWf6iM_jtqOnkMnzSmVkaZihPzsfMW",
+          "title": "templateprompts.com"
+        },
+        {
+          "id": 3,
+          "text": "The product is directly offered and operated under its own brand name, **Templates Prompts** (also referred to as **Template Prompts**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYJaFIyTjD4ZYLxUbZCHTHndl3Kfte29hCL4SGYepozmmIDacChGIpn1j_nFYHvhrFshc0rIfnEDoo6pUIdcBSPemy11g5fQwEqq4m26bucSoI",
+          "title": "templateprompts.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Templates Prompts",
+        "evidence": "The product is directly offered and operated under its own brand name, Templates Prompts (also referred to as Template Prompts).",
+        "source": {
+          "id": 2,
+          "text": "The product is directly offered and operated under its own brand name, **Templates Prompts** (also referred to as **Template Prompts**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCllwD2k4nmpLDz5kHjp5unYK21t5OMUbErywTWH0k7bdDUPO4tMkucF_TFqLGkWGiLFENULbvN17uOndWf6iM_jtqOnkMnzSmVkaZihPzsfMW",
+          "title": "templateprompts.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Template Prompts",
+    "domain": "templateprompts.com",
+    "description": "Your personal AI prompts generator"
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Templates Prompts",
+  "evidence": "The product is directly offered and operated under its own brand name, Templates Prompts (also referred to as Template Prompts).",
+  "source": {
+    "id": 2,
+    "text": "The product is directly offered and operated under its own brand name, **Templates Prompts** (also referred to as **Template Prompts**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCllwD2k4nmpLDz5kHjp5unYK21t5OMUbErywTWH0k7bdDUPO4tMkucF_TFqLGkWGiLFENULbvN17uOndWf6iM_jtqOnkMnzSmVkaZihPzsfMW",
+    "title": "templateprompts.com"
+  },
+  "checked_at": "2026-11-05T07:39:36.751722+00:00"
+}

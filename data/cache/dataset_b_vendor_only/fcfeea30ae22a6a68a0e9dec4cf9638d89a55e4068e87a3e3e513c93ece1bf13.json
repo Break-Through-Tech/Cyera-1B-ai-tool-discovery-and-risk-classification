@@ -1,0 +1,91 @@
+{
+  "attempts": [
+    {
+      "answer": "For the software product **AskLegal.bot** at the domain **asklegal.bot**:\n\n* **Operating Company:** No separate registered corporate entity (e.g., Inc. or LLC) is publicly identified in the product's terms or domain records.\n* **Published Developer / Provider Brand:** The software is directly provided by the developer/brand **asklegal** (also identified as **AskLegal.bot**).\n  * **Softonic App Specs:** Lists the developer as **`asklegal`** (*\"App specs. Developer. asklegal.\"*).\n  * **CNET Download:** Attributes the web application to **`asklegal`** (*\"AskLegal.bot for Web Apps · By asklegal\"*).\n  * **G2:** Lists the vendor/provider directly as **`AskLegal.bot`** (*\"Asklegal. By AskLegal.bot\"*).\n  * **DevHunt:** Identifies the maker/developer who launched AskLegal.bot as **Gary** (`@Gary_c14`).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**Operating Company:** No separate registered corporate entity (e.g., Inc. or LLC) is publicly identified in the product's terms or domain records",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-0Yftjz6moeVwapVwwUtnO8eFJkJ_UvXfR2STTnBwKN5aK-rpTSzc9vqHA1zsqOjieMB0D2KYNzEyGUQni8kFoTRXO3ihJEL1aEETzQ2s9sJZFwnhkFMCQvZzdz9Rt4QVItOHYR4K5hk-psgMYqk=",
+          "title": "saashub.com"
+        },
+        {
+          "id": 1,
+          "text": "**Operating Company:** No separate registered corporate entity (e.g., Inc. or LLC) is publicly identified in the product's terms or domain records",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0LaEityMDx0X2p45MjkMbp5A2lfGGchVIoZO21TKDw6TE1DohfZgftilbvvsenc4nvFpAKerlImYLtBrCyjLmeXhUoZrE187YSzZYxSJ16jlVlEvd",
+          "title": "arxiv.org"
+        },
+        {
+          "id": 2,
+          "text": "**Published Developer / Provider Brand:** The software is directly provided by the developer/brand **asklegal** (also identified as **AskLegal.bot**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFulxqw6N7zAEZzFyi2oI2YF7hVBjB64UnfbnD4hYtgTPW60PNXm5qWb6mQg4QZXbolYB67yu1HA3vFnjNLYChxaLKLQ2VMUpSd-onDMo5MaPipSqQZORkttvW3LIQ-kaE1a38=",
+          "title": "softonic.com"
+        },
+        {
+          "id": 3,
+          "text": "**Published Developer / Provider Brand:** The software is directly provided by the developer/brand **asklegal** (also identified as **AskLegal.bot**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGv8ziZXZrBZAICy0k1GM_KOB0thZel7hIeTn_xwCL7nPXzatBx7fn1YMHDib5cJif3nShfu__rXXMI9VzwyYuTilHYpThuXsDkEU_-93Usp0Ze-lXZoh8l21sZCQ2r9zw8I4tX3VSVljQ2OhpzEGuvzr3VK-1JJ8ixZNW5",
+          "title": "cnet.com"
+        },
+        {
+          "id": 4,
+          "text": "**Published Developer / Provider Brand:** The software is directly provided by the developer/brand **asklegal** (also identified as **AskLegal.bot**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2d8Gpe4yHbjHNDFBQxBZiGeHJqSumKPWQWe06V2IQml0kkBlfpyFq2JakwJd6YSS8rBYHZdNN6Uf8UcKzjy7SZNHY48la0xFA0LptXhl3NtpvynBmFayvCxgcwFWBwX-hO5_k2oF6ijH7D4hrwAo6Oa45__s=",
+          "title": "g2.com"
+        },
+        {
+          "id": 5,
+          "text": "*)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFulxqw6N7zAEZzFyi2oI2YF7hVBjB64UnfbnD4hYtgTPW60PNXm5qWb6mQg4QZXbolYB67yu1HA3vFnjNLYChxaLKLQ2VMUpSd-onDMo5MaPipSqQZORkttvW3LIQ-kaE1a38=",
+          "title": "softonic.com"
+        },
+        {
+          "id": 6,
+          "text": "**CNET Download:** Attributes the web application to **`asklegal`** (*\"AskLegal.bot for Web Apps · By asklegal\"*).",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGv8ziZXZrBZAICy0k1GM_KOB0thZel7hIeTn_xwCL7nPXzatBx7fn1YMHDib5cJif3nShfu__rXXMI9VzwyYuTilHYpThuXsDkEU_-93Usp0Ze-lXZoh8l21sZCQ2r9zw8I4tX3VSVljQ2OhpzEGuvzr3VK-1JJ8ixZNW5",
+          "title": "cnet.com"
+        },
+        {
+          "id": 7,
+          "text": "y AskLegal.bot\"*).",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2d8Gpe4yHbjHNDFBQxBZiGeHJqSumKPWQWe06V2IQml0kkBlfpyFq2JakwJd6YSS8rBYHZdNN6Uf8UcKzjy7SZNHY48la0xFA0LptXhl3NtpvynBmFayvCxgcwFWBwX-hO5_k2oF6ijH7D4hrwAo6Oa45__s=",
+          "title": "g2.com"
+        },
+        {
+          "id": 8,
+          "text": "*DevHunt:** Identifies the maker/developer who launched AskLegal.bot as **Gary** (`@Gary_c14`).",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGc9RRCCNkAGRRWLV8rjahhfB0Eyu6Mghn7q6AGS5MOkU6vnwcKtlCWsCQVDOAePZZZM35PuTCwajyI1gRUk3PYbCcyKPcAdZJiB9XqbhUYd5Q3b_e_sN16pw==",
+          "title": "devhunt.org"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "asklegal",
+        "evidence": "CNET Download attributes the web application AskLegal.bot to asklegal ('AskLegal.bot for Web Apps · By asklegal').",
+        "source": {
+          "id": 6,
+          "text": "**CNET Download:** Attributes the web application to **`asklegal`** (*\"AskLegal.bot for Web Apps · By asklegal\"*).",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGv8ziZXZrBZAICy0k1GM_KOB0thZel7hIeTn_xwCL7nPXzatBx7fn1YMHDib5cJif3nShfu__rXXMI9VzwyYuTilHYpThuXsDkEU_-93Usp0Ze-lXZoh8l21sZCQ2r9zw8I4tX3VSVljQ2OhpzEGuvzr3VK-1JJ8ixZNW5",
+          "title": "cnet.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "AskLegal.bot",
+    "domain": "asklegal.bot",
+    "description": "Get your legal questions answered in seconds for free with our AI."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "asklegal",
+  "evidence": "CNET Download attributes the web application AskLegal.bot to asklegal ('AskLegal.bot for Web Apps · By asklegal').",
+  "source": {
+    "id": 6,
+    "text": "**CNET Download:** Attributes the web application to **`asklegal`** (*\"AskLegal.bot for Web Apps · By asklegal\"*).",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGv8ziZXZrBZAICy0k1GM_KOB0thZel7hIeTn_xwCL7nPXzatBx7fn1YMHDib5cJif3nShfu__rXXMI9VzwyYuTilHYpThuXsDkEU_-93Usp0Ze-lXZoh8l21sZCQ2r9zw8I4tX3VSVljQ2OhpzEGuvzr3VK-1JJ8ixZNW5",
+    "title": "cnet.com"
+  },
+  "checked_at": "2026-11-05T06:25:28.616247+00:00"
+}

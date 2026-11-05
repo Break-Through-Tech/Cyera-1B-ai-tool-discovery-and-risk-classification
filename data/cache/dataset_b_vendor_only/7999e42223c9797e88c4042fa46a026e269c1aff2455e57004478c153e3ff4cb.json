@@ -1,0 +1,91 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on the official website and legal policies for **AI Essay Checker** at **`essaycheck.ai`**:\n\n* **Vendor/Provider:** **EssayCheck** (operating as **EssayCheck.ai**).\n* **Evidence:** No distinct corporate entity or independent developer is identified on the site. Instead, the service directly presents itself under the brand **EssayCheck.ai** / **EssayCheck**. \n  * The site's **Terms of Use** state: *\"Using the site. EssayCheck.ai is free and does not require an account. By using it you agree to these terms... Contact. Questions go to support@essaycheck.ai\"*.\n  * The **Privacy Policy** states: *\"Questions about any of this go to privacy@essaycheck.ai\"*.\n  * The site footer identifies the brand and copyright as *\"EssayCheck\"* and *\"© EssayCheck.ai\"*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**Vendor/Provider:** **EssayCheck** (operating as **EssayCheck.ai**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElthriVC90C4oSWaPZfj0wNzJs8zhXt9N2MTdqRs8Jbdg4u3l676pllTz7Y6FWnB5EAVc0EbjlicxDw8Q7XPJI8k-jh4-WYqBREhTx",
+          "title": "essaycheck.ai"
+        },
+        {
+          "id": 1,
+          "text": "**Vendor/Provider:** **EssayCheck** (operating as **EssayCheck.ai**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfZQdNEBImYxzMk1UonkMvomqp_0cV6mfJl5ZTt6V9QziQsNKiv-aOKGtNH7wmU8eSL3AyR16gL82QAH92oluShCxpcJZhGaO9FuVZXvyomDs=",
+          "title": "essaycheck.ai"
+        },
+        {
+          "id": 2,
+          "text": "Instead, the service directly presents itself under the brand **EssayCheck.ai** / **EssayCheck**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEx8beC4S-fZneLS6SeVNIRBf4XZaagrfsvD8ErCnW4nSQegh2m5uoa4ifNZWNKEUFPHTTCk6SDtZZsYKgJF18NAb7NF7Pch0B-jPV0F73flcqrJw==",
+          "title": "essaycheck.ai"
+        },
+        {
+          "id": 3,
+          "text": "Instead, the service directly presents itself under the brand **EssayCheck.ai** / **EssayCheck**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElthriVC90C4oSWaPZfj0wNzJs8zhXt9N2MTdqRs8Jbdg4u3l676pllTz7Y6FWnB5EAVc0EbjlicxDw8Q7XPJI8k-jh4-WYqBREhTx",
+          "title": "essaycheck.ai"
+        },
+        {
+          "id": 4,
+          "text": "Questions go to support@essaycheck.ai\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfZQdNEBImYxzMk1UonkMvomqp_0cV6mfJl5ZTt6V9QziQsNKiv-aOKGtNH7wmU8eSL3AyR16gL82QAH92oluShCxpcJZhGaO9FuVZXvyomDs=",
+          "title": "essaycheck.ai"
+        },
+        {
+          "id": 5,
+          "text": "Questions go to support@essaycheck.ai\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfZQdNEBImYxzMk1UonkMvomqp_0cV6mfJl5ZTt6V9QziQsNKiv-aOKGtNH7wmU8eSL3AyR16gL82QAH92oluShCxpcJZhGaO9FuVZXvyomDs=",
+          "title": "essaycheck.ai"
+        },
+        {
+          "id": 6,
+          "text": "The **Privacy Policy** states: *\"Questions about any of this go to privacy@essaycheck.ai\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEx8beC4S-fZneLS6SeVNIRBf4XZaagrfsvD8ErCnW4nSQegh2m5uoa4ifNZWNKEUFPHTTCk6SDtZZsYKgJF18NAb7NF7Pch0B-jPV0F73flcqrJw==",
+          "title": "essaycheck.ai"
+        },
+        {
+          "id": 7,
+          "text": "The site footer identifies the brand and copyright as *\"EssayCheck\"* and *\"© EssayCheck.ai\"*.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEx8beC4S-fZneLS6SeVNIRBf4XZaagrfsvD8ErCnW4nSQegh2m5uoa4ifNZWNKEUFPHTTCk6SDtZZsYKgJF18NAb7NF7Pch0B-jPV0F73flcqrJw==",
+          "title": "essaycheck.ai"
+        },
+        {
+          "id": 8,
+          "text": "The site footer identifies the brand and copyright as *\"EssayCheck\"* and *\"© EssayCheck.ai\"*.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElthriVC90C4oSWaPZfj0wNzJs8zhXt9N2MTdqRs8Jbdg4u3l676pllTz7Y6FWnB5EAVc0EbjlicxDw8Q7XPJI8k-jh4-WYqBREhTx",
+          "title": "essaycheck.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "EssayCheck",
+        "evidence": "Passage 0 explicitly identifies the vendor/provider as EssayCheck (operating as EssayCheck.ai).",
+        "source": {
+          "id": 0,
+          "text": "**Vendor/Provider:** **EssayCheck** (operating as **EssayCheck.ai**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElthriVC90C4oSWaPZfj0wNzJs8zhXt9N2MTdqRs8Jbdg4u3l676pllTz7Y6FWnB5EAVc0EbjlicxDw8Q7XPJI8k-jh4-WYqBREhTx",
+          "title": "essaycheck.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "AI Essay Checker",
+    "domain": "essaycheck.ai",
+    "description": "AI Essay Checker is a free online tool that analyzes essays for AI-generated content, grammar errors, and plagiarism. It provides instant feedback, scores, and detailed reports to help students and writers improve their work and ensure originality."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "EssayCheck",
+  "evidence": "Passage 0 explicitly identifies the vendor/provider as EssayCheck (operating as EssayCheck.ai).",
+  "source": {
+    "id": 0,
+    "text": "**Vendor/Provider:** **EssayCheck** (operating as **EssayCheck.ai**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElthriVC90C4oSWaPZfj0wNzJs8zhXt9N2MTdqRs8Jbdg4u3l676pllTz7Y6FWnB5EAVc0EbjlicxDw8Q7XPJI8k-jh4-WYqBREhTx",
+    "title": "essaycheck.ai"
+  },
+  "checked_at": "2026-11-05T05:31:59.905838+00:00"
+}

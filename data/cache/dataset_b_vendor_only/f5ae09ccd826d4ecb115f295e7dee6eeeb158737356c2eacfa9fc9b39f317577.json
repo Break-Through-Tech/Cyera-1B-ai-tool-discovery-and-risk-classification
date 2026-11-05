@@ -1,0 +1,85 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **GetWebsite.Report** at **getwebsite.report** is provided directly under the brand/entity **GetWebsite.Report**, built and operated by founder and developer **Sankeerth Julapally**.\n\n### Evidence:\n* The official website footer states: *\"© 2025 GetWebsite.Report. All rights reserved\"* with direct contact at `support@getwebsite.report`.\n* Developer disclosures and software directory registries identify Sankeerth Julapally as the creator and operator: *\"I built https://getwebsite.report\"* (Peerlist / Reddit) and *\"GetWebsite.Report was submitted by Sankeerth Julapally from GetWebsite.Report\"* (Crozdesk).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **GetWebsite.Report** at **getwebsite.report** is provided directly under the brand/entity **GetWebsite.Report**, built and operated by founder and developer **Sankeerth Julapally**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVcAKfAaC2DBAhHDiAjd7z8HEBRtgdTre7LhI7cOwDtHR4oqASwco1N4T17itl-giIhrYibRhr1ZhrYY_AVxujtgfGYkb0PDWBvHc69v_3tcldZw3Ow1UNGpLq6EfMXZ82",
+          "title": "inc42.com"
+        },
+        {
+          "id": 1,
+          "text": "The software product **GetWebsite.Report** at **getwebsite.report** is provided directly under the brand/entity **GetWebsite.Report**, built and operated by founder and developer **Sankeerth Julapally**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHeYOJKPx3PrFTtA81Ied0sGvE35ndh7mgZPEzouLkqk8tq570ZXZwl3rcdafkLdGaCDOBrEiYolIxY3dysPC_8onnbA_ql6jm8RjLp2RV6",
+          "title": "getwebsite.report"
+        },
+        {
+          "id": 2,
+          "text": "The software product **GetWebsite.Report** at **getwebsite.report** is provided directly under the brand/entity **GetWebsite.Report**, built and operated by founder and developer **Sankeerth Julapally**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeOQgmPTnhbFL-T_zmIsvKRtTYgiA5W5Q_zJ4kwm0hXSJye0Kt96N1Ufnx7Pb8SBRD-4nIqqfc-TfBGbHV3DHDw0TGl1YruXbtcXA5Wr_CCxwthmxPyh-bsraMGS8A",
+          "title": "peerlist.io"
+        },
+        {
+          "id": 3,
+          "text": "ll rights reserved\"* ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHeYOJKPx3PrFTtA81Ied0sGvE35ndh7mgZPEzouLkqk8tq570ZXZwl3rcdafkLdGaCDOBrEiYolIxY3dysPC_8onnbA_ql6jm8RjLp2RV6",
+          "title": "getwebsite.report"
+        },
+        {
+          "id": 4,
+          "text": "ll rights reserved\"* with direct contact at `support@getwebsite.report`.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHn3h-JIWzTGhlPdomiEaGBMobZnD4Kz0fLQeePFib2G4RiEO_GSjR8Ak4CWmtTfMc7PPBeHmL727Wt9ErloZrViCnuUrtgGTt0mOtjWcEcHQ==",
+          "title": "getwebsite.report"
+        },
+        {
+          "id": 5,
+          "text": "eveloper disclosures and software directory registries identify Sankeerth Julapally as the creator and operator: *\"I built https://getwebsite.report\"* (Peerlist / Reddit) ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1CTo5ZcoDmgCjDGQo0x4W4rFSjLq8mwVb18-XFc_P2Z0JV7bNfnjRT50bUwsidB4ewj0nApnkIo9eGk8LL5eUbfPdvRNM07VI167zDpq1NZgno-PodujbEl0H4mAuh9JIe78kcqxX8DwNIHU_4b915PPYD9J0z9LBhF_28kQu9YfIJfONWQh_czfUIFUpL89dFXUviaQeEP6NEPWZew==",
+          "title": "reddit.com"
+        },
+        {
+          "id": 6,
+          "text": "eveloper disclosures and software directory registries identify Sankeerth Julapally as the creator and operator: *\"I built https://getwebsite.report\"* (Peerlist / Reddit) ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeOQgmPTnhbFL-T_zmIsvKRtTYgiA5W5Q_zJ4kwm0hXSJye0Kt96N1Ufnx7Pb8SBRD-4nIqqfc-TfBGbHV3DHDw0TGl1YruXbtcXA5Wr_CCxwthmxPyh-bsraMGS8A",
+          "title": "peerlist.io"
+        },
+        {
+          "id": 7,
+          "text": "eveloper disclosures and software directory registries identify Sankeerth Julapally as the creator and operator: *\"I built https://getwebsite.report\"* (Peerlist / Reddit) and *\"GetWebsite.Report was submitted by Sankeerth Julapally from GetWebsite.Report\"* (Crozdesk).",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7gVP166HhGR_pTvd_zxRH-h3U10g7uZ_5tGzOhradx1lCEaEbfwiamFwaIiraZ8YiZPKNA12hroPK_Ge9SogIQmZThUdT2Dn354DiyzVN1SRETfEq1lRgcES7Sd6etP2tkbjsiw==",
+          "title": "crozdesk.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "GetWebsite.Report",
+        "evidence": "GetWebsite.Report at getwebsite.report is provided directly under the brand/entity GetWebsite.Report, built and operated by founder and developer Sankeerth Julapally.",
+        "source": {
+          "id": 1,
+          "text": "The software product **GetWebsite.Report** at **getwebsite.report** is provided directly under the brand/entity **GetWebsite.Report**, built and operated by founder and developer **Sankeerth Julapally**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHeYOJKPx3PrFTtA81Ied0sGvE35ndh7mgZPEzouLkqk8tq570ZXZwl3rcdafkLdGaCDOBrEiYolIxY3dysPC_8onnbA_ql6jm8RjLp2RV6",
+          "title": "getwebsite.report"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "GetWebsite.Report",
+    "domain": "getwebsite.report",
+    "description": "Convert your website traffic into paying customers with AI-driven insights."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "GetWebsite.Report",
+  "evidence": "GetWebsite.Report at getwebsite.report is provided directly under the brand/entity GetWebsite.Report, built and operated by founder and developer Sankeerth Julapally.",
+  "source": {
+    "id": 1,
+    "text": "The software product **GetWebsite.Report** at **getwebsite.report** is provided directly under the brand/entity **GetWebsite.Report**, built and operated by founder and developer **Sankeerth Julapally**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHeYOJKPx3PrFTtA81Ied0sGvE35ndh7mgZPEzouLkqk8tq570ZXZwl3rcdafkLdGaCDOBrEiYolIxY3dysPC_8onnbA_ql6jm8RjLp2RV6",
+    "title": "getwebsite.report"
+  },
+  "checked_at": "2026-11-05T06:28:02.211428+00:00"
+}

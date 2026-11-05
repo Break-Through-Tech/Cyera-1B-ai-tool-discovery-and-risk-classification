@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **Tripwire** provided at **tripwire.com** is directly provided by **Tripwire, Inc.** (operating as part of **Fortra, LLC**).\n\n### Evidence & Provider Statement\n* According to the **Tripwire End-User License Agreement**:\n  > *\"Clicking 'accept' or installing and/or using the Software (defined below) establishes a binding agreement between Tripwire, Inc. ('Tripwire') and you as the person or entity licensing the Software ('Customer').\"*\n* The site's About and legal notices further identify the brand and operating portfolio as **Tripwire by Fortra** (*\"Tripwire is proud to be part of Fortra's comprehensive cybersecurity portfolio\"*; *\"Copyright © Fortra, LLC and its group of companies\"*).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **Tripwire** provided at **tripwire.com** is directly provided by **Tripwire, Inc.** (operating as part of **Fortra, LLC**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKQDSjKIQB0nkY3dSDCMo6GQU0m_w7O0G_5z9lgcoeQM67BI-xnBbH4iM-XoUxT-yAxLiae5qKdQP9EIx7tmwLzcCfoufwht1uHAtYeJwEOLr-5pDLbQ==",
+          "title": "tripwire.com"
+        },
+        {
+          "id": 1,
+          "text": "The software product **Tripwire** provided at **tripwire.com** is directly provided by **Tripwire, Inc.** (operating as part of **Fortra, LLC**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoC7ySSvZbYahYVbtwQludN2nJ4LhcRH8KMNKCrR0Jd6rcJ0i1acJ7Kqf9d9ikXoGKRRkcfAUQOpBa8QSdqAACe7ikUVFvRCgrCfpZmkHWcaWu7E7pNQ9nJ8UHVXnsH3-rpoOC20Y=",
+          "title": "wikipedia.org"
+        },
+        {
+          "id": 2,
+          "text": "The software product **Tripwire** provided at **tripwire.com** is directly provided by **Tripwire, Inc.** (operating as part of **Fortra, LLC**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtbsW_1OJhtgk1sMpZBVgtfiCgGkKNdPrhUKUs73jLtFZuSPmkwGQiwdIEYFHy4daUkGqglEk0GNzt_evrJbMExeRd0ArExX0NIRBpXSVYW7Vp5OTEK_3swOpcd3AokemnHRC-_mYPsyCejqzUYMCh6n_Z1kjnAQ==",
+          "title": "tripwire.com"
+        },
+        {
+          "id": 3,
+          "text": "*\"Clicking 'accept' or installing and/or using the Software (defined below) establishes a binding agreement between Tripwire, Inc. ('Tripwire') and you as the person or entity licensing the Software ('Customer').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtbsW_1OJhtgk1sMpZBVgtfiCgGkKNdPrhUKUs73jLtFZuSPmkwGQiwdIEYFHy4daUkGqglEk0GNzt_evrJbMExeRd0ArExX0NIRBpXSVYW7Vp5OTEK_3swOpcd3AokemnHRC-_mYPsyCejqzUYMCh6n_Z1kjnAQ==",
+          "title": "tripwire.com"
+        },
+        {
+          "id": 4,
+          "text": "The site's About and legal notices further identify the brand and operating portfolio as **Tripwire by Fortra** (*\"Tripwire is proud to be part of Fortra's comprehensive cybersecurity portfolio\"*; *\"Copyright © Fortra, LLC and its group of companies\"*).",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKQDSjKIQB0nkY3dSDCMo6GQU0m_w7O0G_5z9lgcoeQM67BI-xnBbH4iM-XoUxT-yAxLiae5qKdQP9EIx7tmwLzcCfoufwht1uHAtYeJwEOLr-5pDLbQ==",
+          "title": "tripwire.com"
+        },
+        {
+          "id": 5,
+          "text": "The site's About and legal notices further identify the brand and operating portfolio as **Tripwire by Fortra** (*\"Tripwire is proud to be part of Fortra's comprehensive cybersecurity portfolio\"*; *\"Copyright © Fortra, LLC and its group of companies\"*).",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbUomM9hD1iU9RJviYo9xJ3VpseKU26tan2MxrS72eYGtEKT2pPjY5tpbXNFNp4GqJ_r73qhAgagl43AE8-G-Exj0DdNDmf6PZR-3t3on0E6KRYUw=",
+          "title": "tripwire.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Tripwire, Inc.",
+        "evidence": "Passage 0 explicitly states that the software product Tripwire provided at tripwire.com is directly provided by Tripwire, Inc. (operating as part of Fortra, LLC).",
+        "source": {
+          "id": 0,
+          "text": "The software product **Tripwire** provided at **tripwire.com** is directly provided by **Tripwire, Inc.** (operating as part of **Fortra, LLC**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKQDSjKIQB0nkY3dSDCMo6GQU0m_w7O0G_5z9lgcoeQM67BI-xnBbH4iM-XoUxT-yAxLiae5qKdQP9EIx7tmwLzcCfoufwht1uHAtYeJwEOLr-5pDLbQ==",
+          "title": "tripwire.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Tripwire",
+    "domain": "tripwire.com",
+    "description": "Tripwire is a cybersecurity company with over 20 years of experience, dedicated to protecting leading organizations from cyber threats. Operating both on-site and in the cloud, they offer a wide range of solutions designed to find, monitor, and mitigate risks to digital infrastructures without disrupting daily operations. Tripwire leverages its extensive portfolio, including more than 40 patents, to uphold the highest cybersecurity standards and continually innovate in threat detection and system protection."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Tripwire, Inc.",
+  "evidence": "Passage 0 explicitly states that the software product Tripwire provided at tripwire.com is directly provided by Tripwire, Inc. (operating as part of Fortra, LLC).",
+  "source": {
+    "id": 0,
+    "text": "The software product **Tripwire** provided at **tripwire.com** is directly provided by **Tripwire, Inc.** (operating as part of **Fortra, LLC**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKQDSjKIQB0nkY3dSDCMo6GQU0m_w7O0G_5z9lgcoeQM67BI-xnBbH4iM-XoUxT-yAxLiae5qKdQP9EIx7tmwLzcCfoufwht1uHAtYeJwEOLr-5pDLbQ==",
+    "title": "tripwire.com"
+  },
+  "checked_at": "2026-11-05T08:06:00.182520+00:00"
+}

@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the Ghost software platform and hosted services at **ghost.org** is **Ghost Foundation Ltd** (operating as **Ghost Foundation**).\n\n**Provider Statement:**\nAccording to the official [Ghost.org Terms of Service](https://ghost.org/terms/):\n> *\"The following terms and conditions govern all use of the Ghost.org website (the “Website”) and all content, services and products available at or through the Website, including, but not limited to, the Ghost software (\"Software\") and the Ghost.org hosted service (\"Hosted Service\"), (collectively, the “Services”). The Services are owned and operated by the Ghost Foundation (“Ghost Foundation”, \"we\", \"us\" or \"our\").\"*\n\nThe [Ghost.org Privacy Policy](https://ghost.org/privacy/) similarly defines the operating entity:\n> *\"This privacy policy (“Privacy Policy”) describes how Ghost Foundation Ltd (“Ghost Foundation”, \"we\", \"us\" or \"our\") collects, uses, and discloses, transfers, and otherwise processes and handles (collectively, “Processes”) your personal data.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the Ghost software platform and hosted services at **ghost.org** is **Ghost Foundation Ltd** (operating as **Ghost Foundation**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcNgSwdqlLuG31fcF1d5WLlb5hPUoufQn1mGF_i599Rz4ljk2LqBDXjA-Lf645tQ0lppMEGtj6wBW5jbaSUh8Z95XdpRivJf6rA-mT8wx1VQ==",
+          "title": "ghost.org"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the Ghost software platform and hosted services at **ghost.org** is **Ghost Foundation Ltd** (operating as **Ghost Foundation**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcEHJjzQjmDqBoV3D3ip6MWCB1OJtTOeiUmt0SfRazeABfUpJrZcs735UqcUdqGIwhJ3kS-V_7vCsA-r4j81RKskmTMVcp0v37eMMtEtc=",
+          "title": "ghost.org"
+        },
+        {
+          "id": 2,
+          "text": "ices are owned and operated by the Ghost Foundation (“Ghost Foundation”, \"we\", \"us\" or \"our\").\"*\n\nThe [Ghost",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcEHJjzQjmDqBoV3D3ip6MWCB1OJtTOeiUmt0SfRazeABfUpJrZcs735UqcUdqGIwhJ3kS-V_7vCsA-r4j81RKskmTMVcp0v37eMMtEtc=",
+          "title": "ghost.org"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Ghost Foundation Ltd",
+        "evidence": "Passage 0 states that the vendor directly providing the Ghost software platform and hosted services at ghost.org is Ghost Foundation Ltd (operating as Ghost Foundation).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the Ghost software platform and hosted services at **ghost.org** is **Ghost Foundation Ltd** (operating as **Ghost Foundation**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcNgSwdqlLuG31fcF1d5WLlb5hPUoufQn1mGF_i599Rz4ljk2LqBDXjA-Lf645tQ0lppMEGtj6wBW5jbaSUh8Z95XdpRivJf6rA-mT8wx1VQ==",
+          "title": "ghost.org"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Ghost",
+    "domain": "ghost.org",
+    "description": "Ghost is a not-for-profit organization committed to developing an open-source blogging platform that is both customizable and user-friendly. It focuses on providing tools that make writing and publishing blogs enjoyable and efficient, allowing users to dedicate more time to content creation rather than technical configurations."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Ghost Foundation Ltd",
+  "evidence": "Passage 0 states that the vendor directly providing the Ghost software platform and hosted services at ghost.org is Ghost Foundation Ltd (operating as Ghost Foundation).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the Ghost software platform and hosted services at **ghost.org** is **Ghost Foundation Ltd** (operating as **Ghost Foundation**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcNgSwdqlLuG31fcF1d5WLlb5hPUoufQn1mGF_i599Rz4ljk2LqBDXjA-Lf645tQ0lppMEGtj6wBW5jbaSUh8Z95XdpRivJf6rA-mT8wx1VQ==",
+    "title": "ghost.org"
+  },
+  "checked_at": "2026-11-05T09:20:18.909222+00:00"
+}

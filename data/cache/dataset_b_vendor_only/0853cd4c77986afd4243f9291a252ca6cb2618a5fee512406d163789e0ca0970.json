@@ -1,0 +1,43 @@
+{
+  "attempts": [
+    {
+      "answer": "The operating vendor directly providing **FreshBooks** at **freshbooks.com** is **2NDSITE Inc.**\n\n### Provider Statement\nAccording to the official **Terms of Service** on freshbooks.com:\n> *\"2NDSITE Inc. (“FreshBooks”, “we”, “us” and terms of similar meaning) provides this web site [www.FreshBooks.com] and the services provided by or through this web site to you subject to these Terms of Service, the Privacy Policy (the “Privacy Policy”) and all policies and guidelines incorporated by reference in these Terms of Service...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The operating vendor directly providing **FreshBooks** at **freshbooks.com** is **2NDSITE Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEN6X38vWxQQq9NgTM5VTij0_Vsfm2sj5M-DtgeY62mRLZs8kEGDwuqQCJHPGdd7C0yS9faEKCHvrtXjhci6NqMlT3rScwcvxYKw9ZYyAGHj7TJYOOlzXU5DFs4YGPFLTwPGBeEK_c1hWE=",
+          "title": "freshbooks.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "2NDSITE Inc.",
+        "evidence": "Passage 0 explicitly confirms that the operating vendor directly providing FreshBooks at freshbooks.com is 2NDSITE Inc.",
+        "source": {
+          "id": 0,
+          "text": "The operating vendor directly providing **FreshBooks** at **freshbooks.com** is **2NDSITE Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEN6X38vWxQQq9NgTM5VTij0_Vsfm2sj5M-DtgeY62mRLZs8kEGDwuqQCJHPGdd7C0yS9faEKCHvrtXjhci6NqMlT3rScwcvxYKw9ZYyAGHj7TJYOOlzXU5DFs4YGPFLTwPGBeEK_c1hWE=",
+          "title": "freshbooks.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "FreshBooks",
+    "domain": "freshbooks.com",
+    "description": "FreshBooks is a cloud-based accounting platform headquartered in Canada, providing businesses with tools for online invoicing, expense management, billing, and time tracking. It aims to simplify financial tasks for small business owners and freelancers."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "2NDSITE Inc.",
+  "evidence": "Passage 0 explicitly confirms that the operating vendor directly providing FreshBooks at freshbooks.com is 2NDSITE Inc.",
+  "source": {
+    "id": 0,
+    "text": "The operating vendor directly providing **FreshBooks** at **freshbooks.com** is **2NDSITE Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEN6X38vWxQQq9NgTM5VTij0_Vsfm2sj5M-DtgeY62mRLZs8kEGDwuqQCJHPGdd7C0yS9faEKCHvrtXjhci6NqMlT3rScwcvxYKw9ZYyAGHj7TJYOOlzXU5DFs4YGPFLTwPGBeEK_c1hWE=",
+    "title": "freshbooks.com"
+  },
+  "checked_at": "2026-11-05T09:52:01.206285+00:00"
+}

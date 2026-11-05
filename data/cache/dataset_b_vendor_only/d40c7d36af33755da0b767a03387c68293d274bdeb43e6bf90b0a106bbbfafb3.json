@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Basecamp** at **basecamp.com** is **37signals LLC**.\n\n### Supporting Evidence & Citation\nAccording to the official **Terms of Service** governing `basecamp.com`:\n> *“‘Company’, ‘we’, ‘our’, or ‘us’ in any of our policies or terms, refers to **37signals LLC**. ‘Services’ refers to our websites, including basecamp.com, hey.com, and 37signals.com, and any product created and maintained by 37signals LLC. That includes Basecamp (all versions)...”*\n\nAdditionally, the company's \"Where we came from\" page on `basecamp.com` states:\n> *“I've been running 37signals — the business that makes Basecamp...”*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Basecamp** at **basecamp.com** is **37signals LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSBROXkSFeDUMzTCuDVijHfx4YBKppmVwy2Zd_RvfdHcNJT2fkh9QfbHNhNabGAuF_wo8j4SToVTwdI6mTyZwcJNZkSX3sPYNpUGd7QvN5wHbSs1AmEE06QIQ=",
+          "title": "37signals.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Basecamp** at **basecamp.com** is **37signals LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhVzaof37oU6oCfs-qtWpG6egM-c6aocH-jGP-YuHviLEvX53-tSGqB5gyVxRhOOmYAOpJZzcpiR9TeCNYMHvd_j5YJxUZPiRFGO8zKYFpJQ==",
+          "title": "basecamp.com"
+        },
+        {
+          "id": 2,
+          "text": " (all versions)...”*\n\nAdditionally, the comp",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSBROXkSFeDUMzTCuDVijHfx4YBKppmVwy2Zd_RvfdHcNJT2fkh9QfbHNhNabGAuF_wo8j4SToVTwdI6mTyZwcJNZkSX3sPYNpUGd7QvN5wHbSs1AmEE06QIQ=",
+          "title": "37signals.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "37signals LLC",
+        "evidence": "Passage 1 explicitly states that the vendor directly providing Basecamp at basecamp.com is 37signals LLC.",
+        "source": {
+          "id": 1,
+          "text": "The vendor directly providing **Basecamp** at **basecamp.com** is **37signals LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhVzaof37oU6oCfs-qtWpG6egM-c6aocH-jGP-YuHviLEvX53-tSGqB5gyVxRhOOmYAOpJZzcpiR9TeCNYMHvd_j5YJxUZPiRFGO8zKYFpJQ==",
+          "title": "basecamp.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Basecamp",
+    "domain": "basecamp.com",
+    "description": "Basecamp is a project management and team communication tool designed to help businesses effectively organize and manage projects. It provides a centralized platform for collaboration, decision-making, and information sharing, aimed at improving work-life balance and reducing time wastage. Available across multiple platforms, including web and mobile, it supports teams in staying organized and aligned on their objectives."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "37signals LLC",
+  "evidence": "Passage 1 explicitly states that the vendor directly providing Basecamp at basecamp.com is 37signals LLC.",
+  "source": {
+    "id": 1,
+    "text": "The vendor directly providing **Basecamp** at **basecamp.com** is **37signals LLC**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhVzaof37oU6oCfs-qtWpG6egM-c6aocH-jGP-YuHviLEvX53-tSGqB5gyVxRhOOmYAOpJZzcpiR9TeCNYMHvd_j5YJxUZPiRFGO8zKYFpJQ==",
+    "title": "basecamp.com"
+  },
+  "checked_at": "2026-11-05T09:04:07.928950+00:00"
+}

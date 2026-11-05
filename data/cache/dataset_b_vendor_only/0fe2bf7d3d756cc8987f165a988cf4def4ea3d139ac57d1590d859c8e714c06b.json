@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "**Vendor / Operating Entity:** **Open Source Matters, Inc.** (on behalf of / governing **The Joomla! Project**)\n\n### Evidence & Citations\nThis evidence directly concerns the CMS software **Joomla** provided at **joomla.org**:\n\n* **Website Operation & Legal Entity:** According to the official [Joomla! Privacy Policy](https://www.joomla.org/privacy-policy.html):\n  > *\"This Privacy Policy applies to the following Websites: joomla.org... These Websites are operated by Open Source Matters, Inc.\"*\n* **Governance & Software Ownership:** According to the [About the Joomla Project](https://www.joomla.org/about.html) page:\n  > *\"The Joomla! Project is governed by the Board of Directors of Open Source Matters, Inc., a not-for-profit created to provide organization, legal, and financial support to the Joomla! Project... The Joomla! software and default templates are copyright 2005-now Open Source Matters, Inc.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**Vendor / Operating Entity:** **Open Source Matters, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvohHBuivqvSL-28hnzpD9sKFW_syE_7dgGyEJb5AIrCKpuvDWwyISXQ2gnWIUKoVZxX4GmdrTndETol-uaAI2JLmPx1t3ictS3b76soudC41NOZb7-lpEslU5YAr3rF0=",
+          "title": "joomla.org"
+        },
+        {
+          "id": 1,
+          "text": "**Vendor / Operating Entity:** **Open Source Matters, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUEuOTcjKu3fsZdDMNgjo6D4V3pY8LFZ2sUtPmw4jTdEzLQYm-R-I6c8_myBtty-XA5qR7kIF9xrOYL2g-pX4fEWFk2OelvGUcoWHJ9Ad0qIOTf3EPFTfwZsI1Y_ZHsffgZUoqPvy26NQS",
+          "title": "joomla.org"
+        },
+        {
+          "id": 2,
+          "text": "Project**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkv1tErB3sFgr2YnOgySKw5d_sOpquOms6-bmOXBpzwYhus6urCEVWelszKOPvhDhvdAaeWvcg70C3PdDYL8ebZCPyM4a8keJq2CtZracAMGLPAnkbKUpYTNjK-g==",
+          "title": "joomla.org"
+        },
+        {
+          "id": 3,
+          "text": "Project**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUEuOTcjKu3fsZdDMNgjo6D4V3pY8LFZ2sUtPmw4jTdEzLQYm-R-I6c8_myBtty-XA5qR7kIF9xrOYL2g-pX4fEWFk2OelvGUcoWHJ9Ad0qIOTf3EPFTfwZsI1Y_ZHsffgZUoqPvy26NQS",
+          "title": "joomla.org"
+        },
+        {
+          "id": 4,
+          "text": "These Websites are operated by Open Source Matters, Inc.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvohHBuivqvSL-28hnzpD9sKFW_syE_7dgGyEJb5AIrCKpuvDWwyISXQ2gnWIUKoVZxX4GmdrTndETol-uaAI2JLmPx1t3ictS3b76soudC41NOZb7-lpEslU5YAr3rF0=",
+          "title": "joomla.org"
+        },
+        {
+          "id": 5,
+          "text": "software and default templates are copyright 2005-now Open Source Matters, Inc.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUEuOTcjKu3fsZdDMNgjo6D4V3pY8LFZ2sUtPmw4jTdEzLQYm-R-I6c8_myBtty-XA5qR7kIF9xrOYL2g-pX4fEWFk2OelvGUcoWHJ9Ad0qIOTf3EPFTfwZsI1Y_ZHsffgZUoqPvy26NQS",
+          "title": "joomla.org"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Open Source Matters, Inc.",
+        "evidence": "Passage 4 states that the websites are operated by Open Source Matters, Inc.",
+        "source": {
+          "id": 4,
+          "text": "These Websites are operated by Open Source Matters, Inc.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvohHBuivqvSL-28hnzpD9sKFW_syE_7dgGyEJb5AIrCKpuvDWwyISXQ2gnWIUKoVZxX4GmdrTndETol-uaAI2JLmPx1t3ictS3b76soudC41NOZb7-lpEslU5YAr3rF0=",
+          "title": "joomla.org"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Joomla",
+    "domain": "joomla.org",
+    "description": "Joomla is an award-winning open-source content management system (CMS) that allows users to create websites and robust online applications with ease. Known for its mobile readiness and user-friendly interface, Joomla provides a vast array of features and design options to suit various web development needs. As a freely available platform, it aims to facilitate digital publishing and collaboration for users around the globe."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Open Source Matters, Inc.",
+  "evidence": "Passage 4 states that the websites are operated by Open Source Matters, Inc.",
+  "source": {
+    "id": 4,
+    "text": "These Websites are operated by Open Source Matters, Inc.\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvohHBuivqvSL-28hnzpD9sKFW_syE_7dgGyEJb5AIrCKpuvDWwyISXQ2gnWIUKoVZxX4GmdrTndETol-uaAI2JLmPx1t3ictS3b76soudC41NOZb7-lpEslU5YAr3rF0=",
+    "title": "joomla.org"
+  },
+  "checked_at": "2026-11-05T09:44:52.862593+00:00"
+}

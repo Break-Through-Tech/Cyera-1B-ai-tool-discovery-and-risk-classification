@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **Pipedrive** hosted at **pipedrive.com** is directly provided and operated by **Pipedrive Inc.** (with European operations contracted through its affiliate **Pipedrive OÜ**).\n\n### Evidence and Provider Statement\n* According to Section 14.1 (*Pipedrive Contracting Entity*) of the **Pipedrive Terms of Service**:\n  > *\"The Pipedrive entity with whom Client is contracting under these Terms depends on the domicile of the Client... By accepting these Terms or using the Pipedrive Services, the Client is contracting with the Pipedrive entity listed opposite such Client's domicile in the following table:*  \n  > *• USA and the Territories...: **Pipedrive Inc.** (Address: 530 5th Avenue, Suite 802, New York, NY 10036)*  \n  > *• The European Union and associated territories, the European Economic Area...: **Pipedrive OÜ** (Address: Mustamae tee 3a, Tallinn, 10615 Estonia).\"*\n* The **Pipedrive Privacy Notice** for `pipedrive.com` states:\n  > *\"Welcome, and thank you for your interest in Pipedrive ('Pipedrive,' 'we,' or 'us'), our website at https://www.pipedrive.com and all related websites (the 'Website'), the Pipedrive Services and Platform... The addresses of our offices, where Pipedrive, Inc. and our affiliates are located, can be found here: https://www.pipedrive.com/about.\"*\n* Pipedrive's corporate agreements further define the entity as *\"Pipedrive Inc., a company established and existing under the laws of the State of Delaware and maintaining its principal place of business at 530 Fifth Avenue... New York, NY 10036\"*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **Pipedrive** hosted at **pipedrive.com** is directly provided and operated by **Pipedrive Inc.** (with European operations contracted through its affiliate **Pipedrive OÜ**).",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHUOgO9p9SuYj_dmbKINJwWxmhGIllW34HkPeORyLISDIEvwqioBTmifuIcipgLhCNex0iWTWHmcgpWt_odlLntUU8ow9kqS6K-WbUOTL5ArDUA0uue7ypiRA=",
+          "title": "pipedrive.com"
+        },
+        {
+          "id": 1,
+          "text": "The software product **Pipedrive** hosted at **pipedrive.com** is directly provided and operated by **Pipedrive Inc.** (with European operations contracted through its affiliate **Pipedrive OÜ**).",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbUQJysilvFxgBCogt6Prr4nSt2ymgqud3SYCYYLhc4AXo4Nj2ybNFItHOI0EVRVHgEd2lth8foHsxZnOXv8WSOcj_28cJCBv8Qa9f5t7RPRvdfZ2s2lqoUzu2PrUzASbTMI4=",
+          "title": "pipedrive.com"
+        },
+        {
+          "id": 2,
+          "text": "The software product **Pipedrive** hosted at **pipedrive.com** is directly provided and operated by **Pipedrive Inc.** (with European operations contracted through its affiliate **Pipedrive OÜ**).",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4ppzG5Cq1WbGym-_X6_XVetzzdCmbucR5iUOu5DREejMeagP_hOX10kV4PtJAAWCA06IAMP2pb9o6HSoRI2RimvJWOIdknLsmgV3C0OdEU8dbOogABH8U",
+          "title": "pipedrive.com"
+        },
+        {
+          "id": 3,
+          "text": "ccording to Section 14.1 (*Pipedrive Contracting Entity*) of the **Pipedrive Terms of Service**:",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbUQJysilvFxgBCogt6Prr4nSt2ymgqud3SYCYYLhc4AXo4Nj2ybNFItHOI0EVRVHgEd2lth8foHsxZnOXv8WSOcj_28cJCBv8Qa9f5t7RPRvdfZ2s2lqoUzu2PrUzASbTMI4=",
+          "title": "pipedrive.com"
+        },
+        {
+          "id": 4,
+          "text": "The European Union and associated territories, the European Economic Area...: **Pipedrive OÜ** (Address: Mustamae tee 3a, Tallinn, 10615 Estonia).\"*\n* The",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbUQJysilvFxgBCogt6Prr4nSt2ymgqud3SYCYYLhc4AXo4Nj2ybNFItHOI0EVRVHgEd2lth8foHsxZnOXv8WSOcj_28cJCBv8Qa9f5t7RPRvdfZ2s2lqoUzu2PrUzASbTMI4=",
+          "title": "pipedrive.com"
+        },
+        {
+          "id": 5,
+          "text": "dresses of our offices, where Pipedrive, Inc. and our affiliates are located, can be found here: https://www.pipedrive.com/about.\"*\n* Pip",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHUOgO9p9SuYj_dmbKINJwWxmhGIllW34HkPeORyLISDIEvwqioBTmifuIcipgLhCNex0iWTWHmcgpWt_odlLntUU8ow9kqS6K-WbUOTL5ArDUA0uue7ypiRA=",
+          "title": "pipedrive.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Pipedrive Inc.",
+        "evidence": "Passage 0 explicitly states that the software product Pipedrive hosted at pipedrive.com is directly provided and operated by Pipedrive Inc.",
+        "source": {
+          "id": 0,
+          "text": "The software product **Pipedrive** hosted at **pipedrive.com** is directly provided and operated by **Pipedrive Inc.** (with European operations contracted through its affiliate **Pipedrive OÜ**).",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHUOgO9p9SuYj_dmbKINJwWxmhGIllW34HkPeORyLISDIEvwqioBTmifuIcipgLhCNex0iWTWHmcgpWt_odlLntUU8ow9kqS6K-WbUOTL5ArDUA0uue7ypiRA=",
+          "title": "pipedrive.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Pipedrive",
+    "domain": "pipedrive.com",
+    "description": "Founded in 2010 and headquartered in New York, Pipedrive is a user-friendly sales CRM designed to facilitate small business growth. With a global footprint, the platform is utilized by revenue teams in over 100,000 companies worldwide, making it a popular choice among sales professionals. The company benefits from the support of prominent investors including Vista Equity Partners and Bessemer Venture Partners."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Pipedrive Inc.",
+  "evidence": "Passage 0 explicitly states that the software product Pipedrive hosted at pipedrive.com is directly provided and operated by Pipedrive Inc.",
+  "source": {
+    "id": 0,
+    "text": "The software product **Pipedrive** hosted at **pipedrive.com** is directly provided and operated by **Pipedrive Inc.** (with European operations contracted through its affiliate **Pipedrive OÜ**).",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHUOgO9p9SuYj_dmbKINJwWxmhGIllW34HkPeORyLISDIEvwqioBTmifuIcipgLhCNex0iWTWHmcgpWt_odlLntUU8ow9kqS6K-WbUOTL5ArDUA0uue7ypiRA=",
+    "title": "pipedrive.com"
+  },
+  "checked_at": "2026-11-05T08:52:52.084422+00:00"
+}

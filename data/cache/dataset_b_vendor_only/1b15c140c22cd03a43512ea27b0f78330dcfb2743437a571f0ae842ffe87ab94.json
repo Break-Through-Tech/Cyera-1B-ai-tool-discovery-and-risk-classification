@@ -1,0 +1,85 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **Jotform** at the domain **jotform.com** is provided by **Jotform Inc.** (along with affiliated regional contracting entities such as Jotform Ltd, Jotform Pty Ltd, and Jotform Canada Inc.).\n\n### Supporting Evidence and Citations\n* **Privacy Policy (`jotform.com/privacy/`)**: \n  > *\"This privacy policy explains how Jotform handles your personal information and data, and applies to all of the products, services and websites offered by Jotform Inc., Jotform Ltd, Jotform Pty Ltd, Jotform Canada Inc., and their affiliates (collectively, 'Jotform')... Unless otherwise noted, all services are provided by Jotform Inc., which is based in the United States.\"*\n\n* **Terms of Use (`jotform.com/terms/`)**: \n  > *\"If you are located in the United States or American Samoa, Guam, Northern Mariana Islands, Puerto Rico, or the US Virgin Islands, the contracting Jotform entity is Jotform Inc., located at 4 Embarcadero Center, Suite 780, San Francisco, CA 94111, USA...\"* (with Jotform Ltd designated for users outside specified territories).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **Jotform** at the domain **jotform.com** is provided by **Jotform Inc.** (along with affiliated regional contracting entities such as Jotform Ltd, Jotform Pty Ltd, and Jotform Canada Inc.)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwwWizBCUmbIqnyAeWxLaZK96-P91NJwlFkfrV4VyfWVO1ky2jvAdQkQYz5g41m7gmk9I3XKCVfCkr-KNgEm1q07-LGVZoO-B-0dIhCfvpbi_Hxoo=",
+          "title": "jotform.com"
+        },
+        {
+          "id": 1,
+          "text": "The software product **Jotform** at the domain **jotform.com** is provided by **Jotform Inc.** (along with affiliated regional contracting entities such as Jotform Ltd, Jotform Pty Ltd, and Jotform Canada Inc.)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwwWizBCUmbIqnyAeWxLaZK96-P91NJwlFkfrV4VyfWVO1ky2jvAdQkQYz5g41m7gmk9I3XKCVfCkr-KNgEm1q07-LGVZoO-B-0dIhCfvpbi_Hxoo=",
+          "title": "jotform.com"
+        },
+        {
+          "id": 2,
+          "text": "The software product **Jotform** at the domain **jotform.com** is provided by **Jotform Inc.** (along with affiliated regional contracting entities such as Jotform Ltd, Jotform Pty Ltd, and Jotform Canada Inc.)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnHqehCeCJse5R_xbQujglyUstl_soEAMcn29yS5PPbfVsvOa8uY0fxMD-o_v8LJgn-srvCX4zStenPD5QincQCeMt_PeO1QuyKmsqHcg4jngdaALmNg==",
+          "title": "jotform.com"
+        },
+        {
+          "id": 3,
+          "text": "Unless otherwise noted, all services are provided by Jotform Inc., which is based in the United States.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnHqehCeCJse5R_xbQujglyUstl_soEAMcn29yS5PPbfVsvOa8uY0fxMD-o_v8LJgn-srvCX4zStenPD5QincQCeMt_PeO1QuyKmsqHcg4jngdaALmNg==",
+          "title": "jotform.com"
+        },
+        {
+          "id": 4,
+          "text": "*\"If you are located in the United States or American Samoa, Guam, Northern Mariana Islands, Puerto Rico, or the US Virgin Islands, the contracting Jotform entity is Jotform Inc., located at 4 Embarcadero Center, Suite 780, San Francisco, CA 94111, USA...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwwWizBCUmbIqnyAeWxLaZK96-P91NJwlFkfrV4VyfWVO1ky2jvAdQkQYz5g41m7gmk9I3XKCVfCkr-KNgEm1q07-LGVZoO-B-0dIhCfvpbi_Hxoo=",
+          "title": "jotform.com"
+        },
+        {
+          "id": 5,
+          "text": "*\"If you are located in the United States or American Samoa, Guam, Northern Mariana Islands, Puerto Rico, or the US Virgin Islands, the contracting Jotform entity is Jotform Inc., located at 4 Embarcadero Center, Suite 780, San Francisco, CA 94111, USA...\"* (with Jotform Ltd designated for users outside specified territories)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwwWizBCUmbIqnyAeWxLaZK96-P91NJwlFkfrV4VyfWVO1ky2jvAdQkQYz5g41m7gmk9I3XKCVfCkr-KNgEm1q07-LGVZoO-B-0dIhCfvpbi_Hxoo=",
+          "title": "jotform.com"
+        },
+        {
+          "id": 6,
+          "text": "This privacy policy explains how Jotform handles your personal information and data, and applies to all of the products, services and websites offered by Jotform Inc., Jotform Ltd, Jotform Pty Ltd, Jotform Canada Inc., and their affiliates (collectively, 'Jotform",
+          "url": "https://www.jotform.com/privacy/",
+          "title": ""
+        },
+        {
+          "id": 7,
+          "text": "located in the United States or American Samoa, Guam, Northern Mariana Islands, Puerto Rico, or the US Virgin Islands, the contracting Jotform entity is Jotform Inc., located at 4 Embarcadero Center, Suite 780, San Francisco, CA 94111, U",
+          "url": "https://www.bannockcounty.us/wp-content/uploads/2024/08/20240829-BOCC-Work-Session-Information-Packet.pdf",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Jotform Inc.",
+        "evidence": "Passage 0 directly states that the software product Jotform at the domain jotform.com is provided by Jotform Inc.",
+        "source": {
+          "id": 0,
+          "text": "The software product **Jotform** at the domain **jotform.com** is provided by **Jotform Inc.** (along with affiliated regional contracting entities such as Jotform Ltd, Jotform Pty Ltd, and Jotform Canada Inc.)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwwWizBCUmbIqnyAeWxLaZK96-P91NJwlFkfrV4VyfWVO1ky2jvAdQkQYz5g41m7gmk9I3XKCVfCkr-KNgEm1q07-LGVZoO-B-0dIhCfvpbi_Hxoo=",
+          "title": "jotform.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Jotform",
+    "domain": "jotform.com",
+    "description": "Jotform is a versatile no-code form builder platform that caters to over 25 million users globally, ranging from small businesses to large enterprises. The platform offers tools for creating customizable forms with features such as conditional logic, payment integration, automated workflows, and detailed reporting. With an extensive library of 10,000 templates, hundreds of integrations, and nearly 400 widgets, Jotform empowers organizations to enhance efficiency and streamline their processes."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Jotform Inc.",
+  "evidence": "Passage 0 directly states that the software product Jotform at the domain jotform.com is provided by Jotform Inc.",
+  "source": {
+    "id": 0,
+    "text": "The software product **Jotform** at the domain **jotform.com** is provided by **Jotform Inc.** (along with affiliated regional contracting entities such as Jotform Ltd, Jotform Pty Ltd, and Jotform Canada Inc.)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwwWizBCUmbIqnyAeWxLaZK96-P91NJwlFkfrV4VyfWVO1ky2jvAdQkQYz5g41m7gmk9I3XKCVfCkr-KNgEm1q07-LGVZoO-B-0dIhCfvpbi_Hxoo=",
+    "title": "jotform.com"
+  },
+  "checked_at": "2026-11-05T09:07:58.439605+00:00"
+}

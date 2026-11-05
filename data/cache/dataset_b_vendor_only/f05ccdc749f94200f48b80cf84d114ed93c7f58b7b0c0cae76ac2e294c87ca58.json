@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Genmo** at the domain **alpha.genmo.ai** (and main domain `genmo.ai`) is **Genmo Inc.**.\n\n### Supporting Evidence\n* **Terms of Service:** *\"Please read these Terms of Service (\"Terms\") between you and Genmo Inc. (\"Genmo,\" \"we,\" \"us\") carefully. By using the websites accessible at genmo.ai and/or genmo.ai (collectively, the \"Site\") or any content, tools, features, or functionality available through the Site (collectively with the Site, \"Services\"), you are agreeing to be bound by these Terms.\"*\n* **Privacy Notice:** *\"This privacy notice for Genmo Inc. (\"Company,\" \"we,\" \"us,\" or \"our\"), describes how and why we might collect, store, use, and/or share (\"process\") your information when you use our services...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Genmo** at the domain **alpha.genmo.ai** (and main domain `genmo.ai`) is **Genmo Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBAyN62hldUoebkUJ6Hm3P-UwFhMxk-mwk90cUax86ARSEnpF9Ub65hw7Rim_cbhLLeYTCtAGCp8zBiIQoofnXP5i9hGtfr1DrvQ==",
+          "title": "genmo.ai"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Genmo** at the domain **alpha.genmo.ai** (and main domain `genmo.ai`) is **Genmo Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFwQai8QSfgPiWCgG9VbvYjhexEbzu7Tq1gBorUK_oKZMvROivG1RPycwpiYw4Awa2HP1SaUbp9CN0O55aw3PdYLJZd5x5kmXKoqnWPocK5Lggx94eymrVRmk=",
+          "title": "genmo.ai"
+        },
+        {
+          "id": 2,
+          "text": "By using the websites accessible at genmo.ai and/or genmo.ai (collectively, the \"Site\") or any content, tools, features, or functionality available through the Site (collectively with the Site, \"Services\"), you are agreeing to be bound by these Terms.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFwQai8QSfgPiWCgG9VbvYjhexEbzu7Tq1gBorUK_oKZMvROivG1RPycwpiYw4Awa2HP1SaUbp9CN0O55aw3PdYLJZd5x5kmXKoqnWPocK5Lggx94eymrVRmk=",
+          "title": "genmo.ai"
+        },
+        {
+          "id": 3,
+          "text": "**Privacy Notice:** *\"This privacy notice for Genmo Inc. (\"Company,\" \"we,\" \"us,\" or \"our\"), describes how and why we might collect, store, use, and/or share (\"process\") your information when you use our services...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAwJXSstJZxic6fwPfA28eoajEXprxJY44N49pX5NceciJxYUfj2GFH8cyUbAYWT07miIkLlZMH5_3bbOdhKN8MXNgjnH0zXx64PtH8uj-N9IdDumqg-wK",
+          "title": "genmo.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Genmo Inc.",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing Genmo at the domain alpha.genmo.ai is Genmo Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Genmo** at the domain **alpha.genmo.ai** (and main domain `genmo.ai`) is **Genmo Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBAyN62hldUoebkUJ6Hm3P-UwFhMxk-mwk90cUax86ARSEnpF9Ub65hw7Rim_cbhLLeYTCtAGCp8zBiIQoofnXP5i9hGtfr1DrvQ==",
+          "title": "genmo.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Genmo",
+    "domain": "alpha.genmo.ai",
+    "description": "Go beyond 2D, create videos from text with AI."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Genmo Inc.",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing Genmo at the domain alpha.genmo.ai is Genmo Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Genmo** at the domain **alpha.genmo.ai** (and main domain `genmo.ai`) is **Genmo Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBAyN62hldUoebkUJ6Hm3P-UwFhMxk-mwk90cUax86ARSEnpF9Ub65hw7Rim_cbhLLeYTCtAGCp8zBiIQoofnXP5i9hGtfr1DrvQ==",
+    "title": "genmo.ai"
+  },
+  "checked_at": "2026-11-05T06:37:59.276869+00:00"
+}

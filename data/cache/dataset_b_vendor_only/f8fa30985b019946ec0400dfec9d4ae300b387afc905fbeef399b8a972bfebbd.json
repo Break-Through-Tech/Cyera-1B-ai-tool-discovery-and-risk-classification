@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **Tableau** platform and website at **`tableau.com`** is **Salesforce, Inc.** (via **Tableau Software, LLC**).\n\n### Supporting Evidence\nAccording to the official **Tableau Website Terms of Service** hosted on `tableau.com`:\n> *\"TABLEAU SOFTWARE, LLC. WEBSITE TERMS OF SERVICE. Salesforce, Inc. ('Salesforce') provides use of its www.tableau.com and other related websites, its free Tableau online service currently known as Tableau Public, its online marketplace currently known as Tableau Exchange and other related online services (collectively, 'Service(s)') to you subject to the following Terms of Service ('TOS'). ... THIS AGREEMENT IS A LEGAL AGREEMENT BETWEEN YOU AND SALESFORCE AND GOVERNS YOUR USE OF THE SERVICES...\"*\n\nFurthermore, the legal terms note that purchases of Tableau products are subject to agreements executed with Salesforce (SFDC).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **Tableau** platform and website at **`tableau.com`** is **Salesforce, Inc.** (via **Tableau Software, LLC**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMsgO-EV6EglASdRtWAmlqj9kMKclAan2hov2tG63YoVG8HQUxKSy7ozhdb3JWPQc9JP0IMVqsIMgr7E_32jUCJZxizyBtDBtQlqRVPYQBs4E=",
+          "title": "tableau.com"
+        },
+        {
+          "id": 1,
+          "text": "THIS AGREEMENT IS A LEGAL AGREEMENT BETWEEN YOU AND SALESFORCE AND GOVERNS YOUR USE OF THE SERVICES...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMsgO-EV6EglASdRtWAmlqj9kMKclAan2hov2tG63YoVG8HQUxKSy7ozhdb3JWPQc9JP0IMVqsIMgr7E_32jUCJZxizyBtDBtQlqRVPYQBs4E=",
+          "title": "tableau.com"
+        },
+        {
+          "id": 2,
+          "text": "Furthermore, the legal terms note that purchases of Tableau products are subject to agreements executed with Salesforce (SFDC)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGoYnXrgxRsqvtDRO9E9ecDzJcIvTOCOFEwfWr_6XRdUSRzkZV3ZJ0xu_n5g7GQu7dIPclcul3Fctyeng-QxBES-9RVuWksTWiBfImPwnoT91chYZKIVDG",
+          "title": "tableau.com"
+        },
+        {
+          "id": 3,
+          "text": "Salesforce, Inc. ('Salesforce') provides use of its www.tableau.com and other related websites, its free Tableau online service currently known as Tableau Public, its online marketplace currently known as Tableau Exchange and other related online services (collectively, 'Service(s)') to you subject to the following Terms of Servi",
+          "url": "https://www.tableau.com/tos",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Salesforce, Inc.",
+        "evidence": "Passage 3 states that Salesforce, Inc. provides use of www.tableau.com and its related Tableau online services.",
+        "source": {
+          "id": 3,
+          "text": "Salesforce, Inc. ('Salesforce') provides use of its www.tableau.com and other related websites, its free Tableau online service currently known as Tableau Public, its online marketplace currently known as Tableau Exchange and other related online services (collectively, 'Service(s)') to you subject to the following Terms of Servi",
+          "url": "https://www.tableau.com/tos",
+          "title": ""
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Tableau",
+    "domain": "tableau.com",
+    "description": "Tableau is a leading data visualization software company that empowers users to analyze and interpret data effectively. The company's platform facilitates intuitive visual analytics, enabling businesses and individuals to make data-driven decisions. Tableau operates globally, helping clients across various sectors to transform raw data into actionable insights."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Salesforce, Inc.",
+  "evidence": "Passage 3 states that Salesforce, Inc. provides use of www.tableau.com and its related Tableau online services.",
+  "source": {
+    "id": 3,
+    "text": "Salesforce, Inc. ('Salesforce') provides use of its www.tableau.com and other related websites, its free Tableau online service currently known as Tableau Public, its online marketplace currently known as Tableau Exchange and other related online services (collectively, 'Service(s)') to you subject to the following Terms of Servi",
+    "url": "https://www.tableau.com/tos",
+    "title": ""
+  },
+  "checked_at": "2026-11-05T09:50:37.968582+00:00"
+}

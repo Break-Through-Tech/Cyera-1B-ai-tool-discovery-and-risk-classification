@@ -1,0 +1,43 @@
+{
+  "attempts": [
+    {
+      "answer": "The operating company and vendor directly providing the **CoSchedule** software product at **coschedule.com** is **CoSchedule, LLC**.\n\n### Supporting Evidence\nAccording to Section 1 (*Acceptance Of The Terms Of Service*) of the official Terms of Service on **coschedule.com**:\n> *\"The following terms and conditions govern all use of CoSchedule.com and all subsidiary webpages (the “Site”), owned and operated by CoSchedule, LLC (“CoSchedule,” “Us,” “We,” or similar terms).\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The operating company and vendor directly providing the **CoSchedule** software product at **coschedule.com** is **CoSchedule, LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiBAgEcau3eWW7mgnMgeFIJlkqK25I9csjeM_lauFR0QWBFfIqwYA8BSbisXGu0wJVtxPaBz1mulXuKvKRKAfVdXeMpziQLdUz9yGAM-_kjCTn",
+          "title": "coschedule.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "CoSchedule, LLC",
+        "evidence": "Passage 0 states that the operating company and vendor directly providing the CoSchedule software product at coschedule.com is CoSchedule, LLC.",
+        "source": {
+          "id": 0,
+          "text": "The operating company and vendor directly providing the **CoSchedule** software product at **coschedule.com** is **CoSchedule, LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiBAgEcau3eWW7mgnMgeFIJlkqK25I9csjeM_lauFR0QWBFfIqwYA8BSbisXGu0wJVtxPaBz1mulXuKvKRKAfVdXeMpziQLdUz9yGAM-_kjCTn",
+          "title": "coschedule.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "CoSchedule",
+    "domain": "coschedule.com",
+    "description": "CoSchedule is a prominent provider of marketing management solutions, offering tools for content calendars, content optimization, and marketing education. It caters to over 50,000 marketers globally, enabling them to streamline their work processes and enhance productivity. Recognized by industry accolades, CoSchedule is highly regarded for helping marketing teams demonstrate their value through efficient project delivery and high-quality outputs."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "CoSchedule, LLC",
+  "evidence": "Passage 0 states that the operating company and vendor directly providing the CoSchedule software product at coschedule.com is CoSchedule, LLC.",
+  "source": {
+    "id": 0,
+    "text": "The operating company and vendor directly providing the **CoSchedule** software product at **coschedule.com** is **CoSchedule, LLC**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiBAgEcau3eWW7mgnMgeFIJlkqK25I9csjeM_lauFR0QWBFfIqwYA8BSbisXGu0wJVtxPaBz1mulXuKvKRKAfVdXeMpziQLdUz9yGAM-_kjCTn",
+    "title": "coschedule.com"
+  },
+  "checked_at": "2026-11-05T08:34:27.724206+00:00"
+}

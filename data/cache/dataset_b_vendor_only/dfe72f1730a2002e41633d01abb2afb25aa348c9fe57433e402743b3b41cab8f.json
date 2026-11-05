@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on official pages from **applypro.ai** for the product **ApplyPro**:\n\n* **Operating Company / Provider:** **ApplyPro**\n* **Published Developer:** **Hold My Beer CO**\n\n### Provider Evidence\n* **Terms of Service (Intellectual Property):** *\"ApplyPro, including its software, design, and proprietary content, is owned by ApplyPro or its licensors.\"*\n* **Site Footer (across `applypro.ai`):** *\"© 2026 ApplyPro. All rights reserved. Based in Boulder, CO, USA. Designed & built by Hold My Beer CO.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**Operating Company / Provider:** **ApplyPro**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrWl8_UgvbovRUgnG2NcXVdftEy0MKLmdLxPzlOqfYwbgEOx9AG53PJSLELi05fYVfCK9GdcyJEhE5xn790igIT7zZDHqvS3-MCpsQqdL3GPM=",
+          "title": "applypro.ai"
+        },
+        {
+          "id": 1,
+          "text": "**Operating Company / Provider:** **ApplyPro**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRK2QmF-e0YqcudD0y8iM7flQTGKtKurgTNqbBZ4Uv3mSddcTQWatvGM5RoJEN_70AapwdI41umkdSJdkHg0y4h0b91SOFI-ueIwI9S2TdhW1CG3Kheq69A3I=",
+          "title": "applypro.ai"
+        },
+        {
+          "id": 2,
+          "text": "**Published Developer:** **Hold My Beer CO**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrWl8_UgvbovRUgnG2NcXVdftEy0MKLmdLxPzlOqfYwbgEOx9AG53PJSLELi05fYVfCK9GdcyJEhE5xn790igIT7zZDHqvS3-MCpsQqdL3GPM=",
+          "title": "applypro.ai"
+        },
+        {
+          "id": 3,
+          "text": "**Terms of Service (Intellectual Property):** *\"ApplyPro, including its software, design, and proprietary content, is owned by ApplyPro or its licensors.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRK2QmF-e0YqcudD0y8iM7flQTGKtKurgTNqbBZ4Uv3mSddcTQWatvGM5RoJEN_70AapwdI41umkdSJdkHg0y4h0b91SOFI-ueIwI9S2TdhW1CG3Kheq69A3I=",
+          "title": "applypro.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "ApplyPro",
+        "evidence": "According to the Terms of Service, ApplyPro, including its software, design, and proprietary content, is owned by ApplyPro or its licensors.",
+        "source": {
+          "id": 3,
+          "text": "**Terms of Service (Intellectual Property):** *\"ApplyPro, including its software, design, and proprietary content, is owned by ApplyPro or its licensors.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRK2QmF-e0YqcudD0y8iM7flQTGKtKurgTNqbBZ4Uv3mSddcTQWatvGM5RoJEN_70AapwdI41umkdSJdkHg0y4h0b91SOFI-ueIwI9S2TdhW1CG3Kheq69A3I=",
+          "title": "applypro.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "ApplyPro",
+    "domain": "applypro.ai",
+    "description": "ApplyPro uses AI to help you craft compelling job applications, optimizing your resume and cover letter for each job posting. It analyzes job descriptions and suggests improvements to maximize your chances of getting hired."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "ApplyPro",
+  "evidence": "According to the Terms of Service, ApplyPro, including its software, design, and proprietary content, is owned by ApplyPro or its licensors.",
+  "source": {
+    "id": 3,
+    "text": "**Terms of Service (Intellectual Property):** *\"ApplyPro, including its software, design, and proprietary content, is owned by ApplyPro or its licensors.\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRK2QmF-e0YqcudD0y8iM7flQTGKtKurgTNqbBZ4Uv3mSddcTQWatvGM5RoJEN_70AapwdI41umkdSJdkHg0y4h0b91SOFI-ueIwI9S2TdhW1CG3Kheq69A3I=",
+    "title": "applypro.ai"
+  },
+  "checked_at": "2026-11-05T07:25:44.801092+00:00"
+}

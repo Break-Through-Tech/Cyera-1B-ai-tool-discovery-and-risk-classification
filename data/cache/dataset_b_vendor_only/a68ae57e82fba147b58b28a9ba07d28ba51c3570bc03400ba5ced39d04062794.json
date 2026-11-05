@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "For **Upscayl** at **upscayl.org**:\n\n* **Operating Provider / Brand:** **Upscayl**  \n  The official Terms of Service define the entity directly operating the site and service as:  \n  > *\"Welcome to Upscayl (“Company”, “we”, “our”, “us”). We provide an online AI Image upscaling and enhancement platform. These Terms and Conditions ('Terms') govern your use of our website, services, and software...\"*\n  The footer also registers: *\"Copyright © ... - Upscayl\"*.\n\n* **Published Developers:** **Nayam Amarshe** and **TGS963**  \n  The official project repository and application metadata linked from upscayl.org credit the developers directly:  \n  > *\"Made by Nayam Amarshe and TGS963\"* / *\"Copyright © ... - Upscayl By Nayam Amarshe and TGS963\"*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "Conditions ('Terms') govern your use of our website, services, and software...\"*\n  The footer al",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYz2xPP7cQgGG3XPGfgmiWUyfNYVzeA3jRD8HuK1dALLX-9GC1pLdOUx-YnJ8rMX77FESL0IeGwHdiZfMAcQlBfHO4W3JtfmH9wI-CpvE_",
+          "title": "upscayl.org"
+        },
+        {
+          "id": 1,
+          "text": "registers: *\"Copyright © ... - Upscayl\"*.\n\n* **Published ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXLSOfIDPGXkxmDUEtDTgLBxA-ssA8eoD5lMC5cvKxTRi2EGqijoQyuBe02YSIHJjKiE10bImi8GntoHrM2w-LGSQL0haLBw9B",
+          "title": "upscayl.org"
+        },
+        {
+          "id": 2,
+          "text": "registers: *\"Copyright © ... - Upscayl\"*.\n\n* **Published ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGE_rig5L99c2dISgr4GtPEMdAzyMn-fVfRb4_6ueURLGE4F86wDyNmvrTGBDdkAFuQazaLhgGerA-g3AWD-VP9Ukf6KNd9aMUMuZbheKk=",
+          "title": "upscayl.org"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Upscayl",
+        "evidence": "Passage 1 states 'Copyright © ... - Upscayl', establishing Upscayl as the operating brand and copyright holder for the product.",
+        "source": {
+          "id": 1,
+          "text": "registers: *\"Copyright © ... - Upscayl\"*.\n\n* **Published ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXLSOfIDPGXkxmDUEtDTgLBxA-ssA8eoD5lMC5cvKxTRi2EGqijoQyuBe02YSIHJjKiE10bImi8GntoHrM2w-LGSQL0haLBw9B",
+          "title": "upscayl.org"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Upscayl",
+    "domain": "upscayl.org",
+    "description": "Preserves details when upscaling images."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Upscayl",
+  "evidence": "Passage 1 states 'Copyright © ... - Upscayl', establishing Upscayl as the operating brand and copyright holder for the product.",
+  "source": {
+    "id": 1,
+    "text": "registers: *\"Copyright © ... - Upscayl\"*.\n\n* **Published ",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXLSOfIDPGXkxmDUEtDTgLBxA-ssA8eoD5lMC5cvKxTRi2EGqijoQyuBe02YSIHJjKiE10bImi8GntoHrM2w-LGSQL0haLBw9B",
+    "title": "upscayl.org"
+  },
+  "checked_at": "2026-11-05T07:03:19.471190+00:00"
+}

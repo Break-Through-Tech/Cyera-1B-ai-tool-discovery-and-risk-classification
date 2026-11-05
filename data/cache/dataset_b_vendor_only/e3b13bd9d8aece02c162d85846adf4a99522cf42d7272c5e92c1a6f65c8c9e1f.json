@@ -1,0 +1,95 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Deep Image** at **deep-image.ai** is **Deep-Image.AI Sp. z o.o.** (also styled as **DEEP-IMAGE.AI sp. z o.o.**).\n\n### Supporting Evidence:\n* According to the official Privacy and Cookies Policy for the website (`https://deep-image.ai/`) and the application:\n  > *\"DEEP-IMAGE – picture quality enhancing application developed by the Controller available through website https://deep-image.ai/.\"*  \n  > *\"Controller of your personal data is Deep-Image.AI Sp. z o.o. Address: Cyfrowa st. 6/317, 71-441. Szczecin, POLAND email: support@deep-image.ai.\"*\n* The website footer across `deep-image.ai` also identifies the operating entity: *\"DEEP-IMAGE.AI sp. z o.o.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpwKdxBuuO5OtmFC2yHK0cIyHO2ZAF1Bzp5oIxE3i8fRkO5_9qhyyFFqErziw7LF_Bdqq8N0VsbCpIxRIn4mL16Neg5JxCBLD_RbWzPr6GOHqjJXw84xepGIVjTmybzlVRoZJqZqGwtGUx4iU7YCo6hKdYTao_nRuiGKeK7iLqHrZhU2C7ej_pCtYyfph6J99okArnAdhuHw==",
+          "title": "deep-image.ai"
+        },
+        {
+          "id": 1,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH23jw76Puqrg6vpzDPHI05jEw56pkFP-JUe_5wJcqz8cM3tLLJbMi_1O7vt8DII3g2FUk08dcE596Hd0N57zKlfPA_iszWKXtaxrKbOR7xkTEvzDqSQoOqSWIrJBZINuBmFVFL",
+          "title": "deep-image.ai"
+        },
+        {
+          "id": 2,
+          "text": "According to the official Privacy and Cookies Policy for the website (`https://deep-image.ai/`) and the application",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH23jw76Puqrg6vpzDPHI05jEw56pkFP-JUe_5wJcqz8cM3tLLJbMi_1O7vt8DII3g2FUk08dcE596Hd0N57zKlfPA_iszWKXtaxrKbOR7xkTEvzDqSQoOqSWIrJBZINuBmFVFL",
+          "title": "deep-image.ai"
+        },
+        {
+          "id": 3,
+          "text": "*\"DEEP-IMAGE – picture quality enhancing application developed by the Controller available through website https://deep-image.ai/.\"*  ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH23jw76Puqrg6vpzDPHI05jEw56pkFP-JUe_5wJcqz8cM3tLLJbMi_1O7vt8DII3g2FUk08dcE596Hd0N57zKlfPA_iszWKXtaxrKbOR7xkTEvzDqSQoOqSWIrJBZINuBmFVFL",
+          "title": "deep-image.ai"
+        },
+        {
+          "id": 4,
+          "text": "czecin, POLAND email: support@deep-image.ai.\"*\n*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH23jw76Puqrg6vpzDPHI05jEw56pkFP-JUe_5wJcqz8cM3tLLJbMi_1O7vt8DII3g2FUk08dcE596Hd0N57zKlfPA_iszWKXtaxrKbOR7xkTEvzDqSQoOqSWIrJBZINuBmFVFL",
+          "title": "deep-image.ai"
+        }
+      ],
+      "result": {
+        "status": "unknown",
+        "vendor": "UNKNOWN",
+        "evidence": "The provided passages do not mention the name of the vendor, developer, or operating company for Deep Image (deep-image.ai), only referring vaguely to 'the Controller'."
+      }
+    },
+    {
+      "answer": "The vendor directly providing **Deep Image** at **deep-image.ai** is **DEEP-IMAGE.AI sp. z o.o.**.\n\n### Evidence:\n* **Terms and Conditions** (`deep-image.ai/terms`):\n  > *\"These Terms and Conditions (Terms) govern the Deep-Image.ai website, online tools, API and Deep-Image mobile applications (together, the Service)... Service provider: DEEP-IMAGE.AI sp. z o.o., ul. Cyfrowa 6/B317, 71-441 Szczecin, Poland; registered in the Register of Entrepreneurs of the National Court Register... KRS 0000862988; NIP 8513252805...\"*\n* **Privacy Policy** (`deep-image.ai/privacy-policy`):\n  > *\"The data controller for the operation of the Service, accounts, purchases, customer support, security and other processing described in this Policy is DEEP-IMAGE.AI sp. z o.o., ul. Cyfrowa 6/B317, 71-441 Szczecin, Poland...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Deep Image** at **deep-image.ai** is **DEEP-IMAGE.AI sp. z o.o.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSnM1FX7I3brQ_cdLgE_1LHSs1kWgehZktvly61_Q6-XZ5ZPN5ZfPMgK1u9HBQEA64Gy2xLkdgVHMuNIZkM23Toj1cuTkcvJ7dVS0Ezd9J_ztCTVqP62l8ywVy6DUgEJLAUGv4aA==",
+          "title": "deep-image.ai"
+        },
+        {
+          "id": 1,
+          "text": "KRS 0000862988; NIP 8513252805...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSnM1FX7I3brQ_cdLgE_1LHSs1kWgehZktvly61_Q6-XZ5ZPN5ZfPMgK1u9HBQEA64Gy2xLkdgVHMuNIZkM23Toj1cuTkcvJ7dVS0Ezd9J_ztCTVqP62l8ywVy6DUgEJLAUGv4aA==",
+          "title": "deep-image.ai"
+        },
+        {
+          "id": 2,
+          "text": "Cyfrowa 6/B317, 71-441 Szczecin, Poland...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcplMgqYUJoS9-YH9E9j1I136FWuTGq141UXxu_a91M43_Wdmn3F93nd89bkWB3ibV0baUZ_9TcXQuwjWGPARGoAVd5zxrdmSrJrAvlGRjmIa-D_gDpyxuf5N0GsvU3Q==",
+          "title": "deep-image.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "DEEP-IMAGE.AI sp. z o.o.",
+        "evidence": "Passage 0 directly states that the vendor directly providing Deep Image at deep-image.ai is DEEP-IMAGE.AI sp. z o.o.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Deep Image** at **deep-image.ai** is **DEEP-IMAGE.AI sp. z o.o.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSnM1FX7I3brQ_cdLgE_1LHSs1kWgehZktvly61_Q6-XZ5ZPN5ZfPMgK1u9HBQEA64Gy2xLkdgVHMuNIZkM23Toj1cuTkcvJ7dVS0Ezd9J_ztCTVqP62l8ywVy6DUgEJLAUGv4aA==",
+          "title": "deep-image.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Deep Image",
+    "domain": "deep-image.ai",
+    "description": "Enhance photos with advanced editing features."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "DEEP-IMAGE.AI sp. z o.o.",
+  "evidence": "Passage 0 directly states that the vendor directly providing Deep Image at deep-image.ai is DEEP-IMAGE.AI sp. z o.o.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Deep Image** at **deep-image.ai** is **DEEP-IMAGE.AI sp. z o.o.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSnM1FX7I3brQ_cdLgE_1LHSs1kWgehZktvly61_Q6-XZ5ZPN5ZfPMgK1u9HBQEA64Gy2xLkdgVHMuNIZkM23Toj1cuTkcvJ7dVS0Ezd9J_ztCTVqP62l8ywVy6DUgEJLAUGv4aA==",
+    "title": "deep-image.ai"
+  },
+  "checked_at": "2026-11-05T06:39:56.191939+00:00"
+}

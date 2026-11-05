@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **Nubee** provided at **nubeeai.xyz** (and its subdomains such as `pay.nubeeai.xyz` and `support.nubeeai.xyz`) is operated by **Neptunia RT LTD**.\n\n### Evidence:\n* The official Terms of Use and website footers for **Nubee** at **nubeeai.xyz** identify the administrator/operating company as:\n  > *\"Neptunia RT LTD (Achaion, 35, 5th floor, Flat/Office 17, Agios Andreas, 1101, Nicosia, Cyprus) as an administrator of the Website...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **Nubee** provided at **nubeeai.xyz** (and its subdomains such as `pay.nubeeai.xyz` and `support.nubeeai.xyz`) is operated by **Neptunia RT LTD**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpTJzgXg89tGdJQ3wlqUGXivf3meOMd_BJ5hc7Nm9A7tjHvKyyZSKz6kbNUGqx-HP32exzjCS8XHpWGohRXcTfngXVvcWdVTPvmxBihZg=",
+          "title": "nubeeai.xyz"
+        },
+        {
+          "id": 1,
+          "text": "The software product **Nubee** provided at **nubeeai.xyz** (and its subdomains such as `pay.nubeeai.xyz` and `support.nubeeai.xyz`) is operated by **Neptunia RT LTD**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFspS8hjMLaqzUaKfYj7XYA3SEnVH2NU1Ohtx0ri0A7LlKgs-X1dTqvikjGPiVuDKUbjKgnA_NBhBdg5HcYku0t5KvEjekxW1D_0nuBCCwMreI=",
+          "title": "nubeeai.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"Neptunia RT LTD (Achaion, 35, 5th floor, Flat/Office 17, Agios Andreas, 1101, Nicosia, Cyprus) as an administrator of the Website...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMPXbmUAJYdd2ou0Zg4mige35Blnqdm1EnYkxcKDvBxDRVHp7HXSPFqgRN4Fwc_lOF1i9F99QS04H7_8W3XgjZH_89jYb6uzH-SOMyUiYCagt6mGU0BSZMMKirgBlCgovsDw==",
+          "title": "scribd.com"
+        },
+        {
+          "id": 3,
+          "text": "*\"Neptunia RT LTD (Achaion, 35, 5th floor, Flat/Office 17, Agios Andreas, 1101, Nicosia, Cyprus) as an administrator of the Website...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMPXbmUAJYdd2ou0Zg4mige35Blnqdm1EnYkxcKDvBxDRVHp7HXSPFqgRN4Fwc_lOF1i9F99QS04H7_8W3XgjZH_89jYb6uzH-SOMyUiYCagt6mGU0BSZMMKirgBlCgovsDw==",
+          "title": "scribd.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Neptunia RT LTD",
+        "evidence": "Passage 0 states that the software product Nubee provided at nubeeai.xyz is operated by Neptunia RT LTD.",
+        "source": {
+          "id": 0,
+          "text": "The software product **Nubee** provided at **nubeeai.xyz** (and its subdomains such as `pay.nubeeai.xyz` and `support.nubeeai.xyz`) is operated by **Neptunia RT LTD**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpTJzgXg89tGdJQ3wlqUGXivf3meOMd_BJ5hc7Nm9A7tjHvKyyZSKz6kbNUGqx-HP32exzjCS8XHpWGohRXcTfngXVvcWdVTPvmxBihZg=",
+          "title": "nubeeai.xyz"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Nubee",
+    "domain": "nubeeai.xyz",
+    "description": "Transform ordinary into extraordinary: AI Image Enhancement for truly natural beauty."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Neptunia RT LTD",
+  "evidence": "Passage 0 states that the software product Nubee provided at nubeeai.xyz is operated by Neptunia RT LTD.",
+  "source": {
+    "id": 0,
+    "text": "The software product **Nubee** provided at **nubeeai.xyz** (and its subdomains such as `pay.nubeeai.xyz` and `support.nubeeai.xyz`) is operated by **Neptunia RT LTD**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpTJzgXg89tGdJQ3wlqUGXivf3meOMd_BJ5hc7Nm9A7tjHvKyyZSKz6kbNUGqx-HP32exzjCS8XHpWGohRXcTfngXVvcWdVTPvmxBihZg=",
+    "title": "nubeeai.xyz"
+  },
+  "checked_at": "2026-11-05T06:54:28.233612+00:00"
+}

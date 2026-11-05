@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software platform **Webflow** at the domain **webflow.com** is **Webflow, Inc.**\n\n### Provider Evidence\nAccording to Webflow's official [Terms of Service](https://webflow.com/legal/terms) (Section 1.3, \"Who is Who\"):\n> *\"The Sites and the Platform are provided by Webflow, Inc., a Delaware corporation located at 398 11th Street, Floor 2, San Francisco, CA 94103 (inclusive of our Affiliates (defined below), collectively referred to as 'Webflow', 'we', 'us', or 'our').\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software platform **Webflow** at the domain **webflow.com** is **Webflow, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmV2M3uwHjYTUj1dt8tFHg4M0FTpuj_p0OOXhP8z3yjwwnTtbGra7iPmsftrAuSU6r6u36eajcHTkXSFCyj-lQuX7wJnoWyAKu8UAHRa2wRARk_tTl",
+          "title": "webflow.com"
+        },
+        {
+          "id": 1,
+          "text": "*\"The Sites and the Platform are provided by Webflow, Inc., a Delaware corporation located at 398 11th Street, Floor 2, San Francisco, CA 94103 (inclusive of our Affiliates (defined below), collectively referred to as 'Webflow', 'we', 'us', or 'our').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmV2M3uwHjYTUj1dt8tFHg4M0FTpuj_p0OOXhP8z3yjwwnTtbGra7iPmsftrAuSU6r6u36eajcHTkXSFCyj-lQuX7wJnoWyAKu8UAHRa2wRARk_tTl",
+          "title": "webflow.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Webflow, Inc.",
+        "evidence": "Webflow's terms state that 'The Sites and the Platform are provided by Webflow, Inc., a Delaware corporation located at 398 11th Street, Floor 2, San Francisco, CA 94103'.",
+        "source": {
+          "id": 1,
+          "text": "*\"The Sites and the Platform are provided by Webflow, Inc., a Delaware corporation located at 398 11th Street, Floor 2, San Francisco, CA 94103 (inclusive of our Affiliates (defined below), collectively referred to as 'Webflow', 'we', 'us', or 'our').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmV2M3uwHjYTUj1dt8tFHg4M0FTpuj_p0OOXhP8z3yjwwnTtbGra7iPmsftrAuSU6r6u36eajcHTkXSFCyj-lQuX7wJnoWyAKu8UAHRa2wRARk_tTl",
+          "title": "webflow.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Webflow",
+    "domain": "webflow.com",
+    "description": "Webflow is a web design and development platform that enables users to create and launch websites visually without needing to write code. It provides a user-friendly interface for designing responsive websites, making it especially useful for designers and businesses looking to develop a strong online presence efficiently."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Webflow, Inc.",
+  "evidence": "Webflow's terms state that 'The Sites and the Platform are provided by Webflow, Inc., a Delaware corporation located at 398 11th Street, Floor 2, San Francisco, CA 94103'.",
+  "source": {
+    "id": 1,
+    "text": "*\"The Sites and the Platform are provided by Webflow, Inc., a Delaware corporation located at 398 11th Street, Floor 2, San Francisco, CA 94103 (inclusive of our Affiliates (defined below), collectively referred to as 'Webflow', 'we', 'us', or 'our').\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmV2M3uwHjYTUj1dt8tFHg4M0FTpuj_p0OOXhP8z3yjwwnTtbGra7iPmsftrAuSU6r6u36eajcHTkXSFCyj-lQuX7wJnoWyAKu8UAHRa2wRARk_tTl",
+    "title": "webflow.com"
+  },
+  "checked_at": "2026-11-05T09:03:41.414977+00:00"
+}

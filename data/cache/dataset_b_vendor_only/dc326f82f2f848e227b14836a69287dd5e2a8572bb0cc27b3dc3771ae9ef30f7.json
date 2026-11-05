@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Lovefield** at the domain **google.github.io** (specifically hosted at `google.github.io/lovefield`) is **Google, Inc.** (Google).\n\n### Evidence & Provider Statement\n* On the official project landing page hosted at `google.github.io/lovefield`, the footer copyright and attribution statement explicitly credits:  \n  > *\"Google, Inc.\"*\n* The software is developed and published under Google's official open-source organization repository (`google/lovefield`).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Lovefield** at the domain **google.github.io** (specifically hosted at `google.github.io/lovefield`) is **Google, Inc.** (Google)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8BKV8W3NtlvZKlnhXGqRc9M0rtz1Kl2kGsurAD63iVjTCfb_bjeimakODhmpV-i1BnujCr6Oh8O8PZMc1to5nCrwTd_6KwZAZoC5tmHYN2TqZPFREiArq",
+          "title": "github.io"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Lovefield** at the domain **google.github.io** (specifically hosted at `google.github.io/lovefield`) is **Google, Inc.** (Google)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4SW8aS28vOHadciz03sZOI3CWEOGYxEbcr6r3AAECtTbOC3oFzuWx3LXm28IcSocJeEK_5Fe5SkjQuLlT472H6-gWP1QtV0oar-WCRj_r4iUgrS6rbizDdUjx6rQ=",
+          "title": "dbdb.io"
+        },
+        {
+          "id": 2,
+          "text": "*\"Google, Inc.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8BKV8W3NtlvZKlnhXGqRc9M0rtz1Kl2kGsurAD63iVjTCfb_bjeimakODhmpV-i1BnujCr6Oh8O8PZMc1to5nCrwTd_6KwZAZoC5tmHYN2TqZPFREiArq",
+          "title": "github.io"
+        },
+        {
+          "id": 3,
+          "text": "The software is developed and published under Google's official open-source organization repository (`google/lovefield`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQET_DuKyn2LaQnetaGePp-fyYryJLg2Vf6abxw7HNCCPTdhMasrUhLLsA42Wa7U4FrlXSbEcsbO2gWJsB2lSF1cWKVL4UzUQRcLT3wcNrOzx7GnUgpR1Xew",
+          "title": "github.com"
+        },
+        {
+          "id": 4,
+          "text": "The software is developed and published under Google's official open-source organization repository (`google/lovefield`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQET_DuKyn2LaQnetaGePp-fyYryJLg2Vf6abxw7HNCCPTdhMasrUhLLsA42Wa7U4FrlXSbEcsbO2gWJsB2lSF1cWKVL4UzUQRcLT3wcNrOzx7GnUgpR1Xew",
+          "title": "github.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Google, Inc.",
+        "evidence": "Passage 0 states that the vendor directly providing Lovefield at the domain google.github.io is Google, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Lovefield** at the domain **google.github.io** (specifically hosted at `google.github.io/lovefield`) is **Google, Inc.** (Google)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8BKV8W3NtlvZKlnhXGqRc9M0rtz1Kl2kGsurAD63iVjTCfb_bjeimakODhmpV-i1BnujCr6Oh8O8PZMc1to5nCrwTd_6KwZAZoC5tmHYN2TqZPFREiArq",
+          "title": "github.io"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Lovefield",
+    "domain": "google.github.io",
+    "description": "Lovefield is an open-source relational database designed specifically for web applications, optimizing data management and manipulation for browsers. Developed by Google, it allows developers to efficiently store and query data in a structured format, enhancing application performance and reliability."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Google, Inc.",
+  "evidence": "Passage 0 states that the vendor directly providing Lovefield at the domain google.github.io is Google, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Lovefield** at the domain **google.github.io** (specifically hosted at `google.github.io/lovefield`) is **Google, Inc.** (Google)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8BKV8W3NtlvZKlnhXGqRc9M0rtz1Kl2kGsurAD63iVjTCfb_bjeimakODhmpV-i1BnujCr6Oh8O8PZMc1to5nCrwTd_6KwZAZoC5tmHYN2TqZPFREiArq",
+    "title": "github.io"
+  },
+  "checked_at": "2026-11-05T09:11:29.252021+00:00"
+}

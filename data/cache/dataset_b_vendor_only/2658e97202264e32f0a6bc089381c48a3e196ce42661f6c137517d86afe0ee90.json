@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Sivi** at **sivi.ai** is **HelloSivi Software Labs Private Limited**.\n\n### Evidence\n* The official website footer across **sivi.ai** states: \n  > *\"© 2019-2026 HelloSivi Software Labs Private Limited. All rights reserved. SIVI® is a registered trademark of HelloSivi Software Labs Private Limited (USPTO Reg. Nos. 8106308 - Class 9, and 8106294 - Class 42).\"*\n* App marketplace listings (such as the Salesforce AppExchange / AgentExchange entry for the product) also list the provider directly as **HelloSivi Software Labs Private Limited**.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Sivi** at **sivi.ai** is **HelloSivi Software Labs Private Limited**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYufnNp68b36xjQmnJ7phCqBVH2BEumuQV2ZSoJ5wNLDa8GxS0ENXSJq1W4oZAfLuabbaXYCiNHhO4RQ8JewaJIaXs4iGsSZ__9j5pZQcwvKb46S0LeKskW13pd1G1fqh4gXo=",
+          "title": "sivi.ai"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Sivi** at **sivi.ai** is **HelloSivi Software Labs Private Limited**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfn-eNyfEiTRLtGjtYBbCtI_pJ72jIhBfoPBeTQRV98gVYFuec4zBeOcElQGiM6bNJkXMfudAp1sAvCwsMkofbgjRdQwKuT2syAG7Dv7j20jA3SzFPv9zlz3ZlYtkuBLx-974hNm0WfcfE-I5pryLIdO24dw7asOU5bD_x9HokX7QKQK3Jy2fhkwE8DJ0N8kTUB7gvmNe3Yw==",
+          "title": "salesforce.com"
+        },
+        {
+          "id": 2,
+          "text": "s. 8106308 - Class 9, and 8106294 - Class 42).\"*\n*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYufnNp68b36xjQmnJ7phCqBVH2BEumuQV2ZSoJ5wNLDa8GxS0ENXSJq1W4oZAfLuabbaXYCiNHhO4RQ8JewaJIaXs4iGsSZ__9j5pZQcwvKb46S0LeKskW13pd1G1fqh4gXo=",
+          "title": "sivi.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "HelloSivi Software Labs Private Limited",
+        "evidence": "Passage 0 explicitly confirms that the vendor directly providing Sivi at sivi.ai is HelloSivi Software Labs Private Limited.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Sivi** at **sivi.ai** is **HelloSivi Software Labs Private Limited**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYufnNp68b36xjQmnJ7phCqBVH2BEumuQV2ZSoJ5wNLDa8GxS0ENXSJq1W4oZAfLuabbaXYCiNHhO4RQ8JewaJIaXs4iGsSZ__9j5pZQcwvKb46S0LeKskW13pd1G1fqh4gXo=",
+          "title": "sivi.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Sivi",
+    "domain": "sivi.ai",
+    "description": "Create strong visual social, web, and ad designs."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "HelloSivi Software Labs Private Limited",
+  "evidence": "Passage 0 explicitly confirms that the vendor directly providing Sivi at sivi.ai is HelloSivi Software Labs Private Limited.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Sivi** at **sivi.ai** is **HelloSivi Software Labs Private Limited**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYufnNp68b36xjQmnJ7phCqBVH2BEumuQV2ZSoJ5wNLDa8GxS0ENXSJq1W4oZAfLuabbaXYCiNHhO4RQ8JewaJIaXs4iGsSZ__9j5pZQcwvKb46S0LeKskW13pd1G1fqh4gXo=",
+    "title": "sivi.ai"
+  },
+  "checked_at": "2026-11-05T06:09:22.572527+00:00"
+}

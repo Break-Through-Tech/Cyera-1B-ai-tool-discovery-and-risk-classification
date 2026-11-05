@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The provider and published developer of **Hermeso** (`hermeso.app`) is **Amitay Cohen**.\n\n### Evidence:\n* **Developer / Founder:** Tracxn identifies **Amitay Cohen** as the founder of Hermeso (website: `hermeso.app`), describing the entity as a developer of an AI platform providing personalized travel recommendations. \n* **App Listings & Profiles:** Associated iOS app and maker profiles list **Amitay Cohen** directly as the developer/maker of the *Hermeso* AI travel guide.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The provider and published developer of **Hermeso** (`hermeso.app`) is **Amitay Cohen**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-Ixc3IkPQ3xnriFUwVIYAtmYB8M2mluWaihhaIAaSg7erLHOEncKeBGSjCv2e2g7un1lNeVKKT82kHKS36qbKYAkVYV0eMXp3NOuAPeQ_-wT2RIvvvvIsdjDzlkQbdhv08tFnw-nY2YukwBUnky9wW_rsbStuibrvVcwllyoFJY7LuvrJ9vqIUQ==",
+          "title": "tracxn.com"
+        },
+        {
+          "id": 1,
+          "text": "The provider and published developer of **Hermeso** (`hermeso.app`) is **Amitay Cohen**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKQ3gePHjijBytMWc25Xh-6u5jXyY94Q3NhEhVE4yqKa_vgWL8a_mB48T4-XlevYV-c76JvnAatk-momaZ304EGiFLtJeYntAQBvwC2iLz1md13mYMTU0mLzGS8l0k3B36mVs-",
+          "title": "updatestar.com"
+        },
+        {
+          "id": 2,
+          "text": "**Developer / Founder:** Tracxn identifies **Amitay Cohen** as the founder of Hermeso (website: `hermeso.app`), describing the entity as a developer of an AI platform providing personalized travel recommendations",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-Ixc3IkPQ3xnriFUwVIYAtmYB8M2mluWaihhaIAaSg7erLHOEncKeBGSjCv2e2g7un1lNeVKKT82kHKS36qbKYAkVYV0eMXp3NOuAPeQ_-wT2RIvvvvIsdjDzlkQbdhv08tFnw-nY2YukwBUnky9wW_rsbStuibrvVcwllyoFJY7LuvrJ9vqIUQ==",
+          "title": "tracxn.com"
+        },
+        {
+          "id": 3,
+          "text": "**App Listings & Profiles:** Associated iOS app and maker profiles list **Amitay Cohen** directly as the developer/maker of the *Hermeso* AI travel guide",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFh-gMZ4NiKSq2OlBFyvX7R76y2OCFdBPQMEBAyr7IAmmpj4YppuZO5mpEIpHURwEINT7ErrNJh6HFU47M4YouaDHcF13Lka68Mh_UsnL22BRnX8gGE318nG4GfQfqvAqY=",
+          "title": "vibecrowd.fund"
+        },
+        {
+          "id": 4,
+          "text": "**App Listings & Profiles:** Associated iOS app and maker profiles list **Amitay Cohen** directly as the developer/maker of the *Hermeso* AI travel guide",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKQ3gePHjijBytMWc25Xh-6u5jXyY94Q3NhEhVE4yqKa_vgWL8a_mB48T4-XlevYV-c76JvnAatk-momaZ304EGiFLtJeYntAQBvwC2iLz1md13mYMTU0mLzGS8l0k3B36mVs-",
+          "title": "updatestar.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Amitay Cohen",
+        "evidence": "The provider and published developer of Hermeso (hermeso.app) is Amitay Cohen",
+        "source": {
+          "id": 0,
+          "text": "The provider and published developer of **Hermeso** (`hermeso.app`) is **Amitay Cohen**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-Ixc3IkPQ3xnriFUwVIYAtmYB8M2mluWaihhaIAaSg7erLHOEncKeBGSjCv2e2g7un1lNeVKKT82kHKS36qbKYAkVYV0eMXp3NOuAPeQ_-wT2RIvvvvIsdjDzlkQbdhv08tFnw-nY2YukwBUnky9wW_rsbStuibrvVcwllyoFJY7LuvrJ9vqIUQ==",
+          "title": "tracxn.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Hermeso",
+    "domain": "hermeso.app",
+    "description": "Your AI Travel Guide, personalized exploration just for you."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Amitay Cohen",
+  "evidence": "The provider and published developer of Hermeso (hermeso.app) is Amitay Cohen",
+  "source": {
+    "id": 0,
+    "text": "The provider and published developer of **Hermeso** (`hermeso.app`) is **Amitay Cohen**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-Ixc3IkPQ3xnriFUwVIYAtmYB8M2mluWaihhaIAaSg7erLHOEncKeBGSjCv2e2g7un1lNeVKKT82kHKS36qbKYAkVYV0eMXp3NOuAPeQ_-wT2RIvvvvIsdjDzlkQbdhv08tFnw-nY2YukwBUnky9wW_rsbStuibrvVcwllyoFJY7LuvrJ9vqIUQ==",
+    "title": "tracxn.com"
+  },
+  "checked_at": "2026-11-05T07:22:09.983359+00:00"
+}

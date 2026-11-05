@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on the official legal and company documentation for **AI-signals** (associated with **ai-signals.com** / **aisignals.com**):\n\n* **Operating Company / Vendor:** **AI Signals LLC** (operating as a subsidiary of **Otonomii Limited (BVI)**).\n\n### Supporting Statements\n* **Terms and Conditions:** \n  > *\"Company (referred to as either 'the Company', 'We', 'Us' or 'Our' in this Agreement) refers to AI Signals LLC.\"*\n* **Privacy Policy:** \n  > *\"Company (referred to as either 'the Company', 'We', 'Us' or 'Our' in this Agreement) refers to AI Signals LLC.\"*\n* **About Page:** \n  > *\"AI Signals is a subsidiary of Otonomii Limited (BVI). The platform represents a focused application of Otonomii's broader autonomous AI infrastructure for financial markets.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**Operating Company / Vendor:** **AI Signals LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFp5069Yrptf9d35bCiQYYQ1n0QNIRJPGvVWTFb5-mn81AgVQE4iUIp2c0UYNIoMfWjifXUCCXarrRKLd8DpuuX4-mg71h9wPxnUZp1HTcL--bskDq1",
+          "title": "aisignals.com"
+        },
+        {
+          "id": 1,
+          "text": "**Operating Company / Vendor:** **AI Signals LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH30K5nVk-5rDpKLi6DHPJfhyjdViVEuk_FPqWJ6A_17VNoKDrKI7riu025mMHYKzzN1nkZSRXNWN12EMYahjU77yam04cHtoZutcpiAwFzmI-qew==",
+          "title": "aisignals.com"
+        },
+        {
+          "id": 2,
+          "text": "**Operating Company / Vendor:** **AI Signals LLC** (operating as a subsidiary of **Otonomii Limited (BVI)**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECdHeGH0pMa913FWm6tPPf-YSV2kBhknpE8nkLi43X8FzplBx9KB-c5dVdvDZBVQYhNf8OrbP0LYpU1UMAWhQLwemNrWZD1jOnJLtUIELXxNyRww==",
+          "title": "aisignals.com"
+        },
+        {
+          "id": 3,
+          "text": "*\"Company (referred to as either 'the Company', 'We', 'Us' or 'Our' in this Agreement) refers to AI Signals LLC.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFp5069Yrptf9d35bCiQYYQ1n0QNIRJPGvVWTFb5-mn81AgVQE4iUIp2c0UYNIoMfWjifXUCCXarrRKLd8DpuuX4-mg71h9wPxnUZp1HTcL--bskDq1",
+          "title": "aisignals.com"
+        },
+        {
+          "id": 4,
+          "text": "*\"Company (referred to as either 'the Company', 'We', 'Us' or 'Our' in this Agreement) refers to AI Signals LLC.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH30K5nVk-5rDpKLi6DHPJfhyjdViVEuk_FPqWJ6A_17VNoKDrKI7riu025mMHYKzzN1nkZSRXNWN12EMYahjU77yam04cHtoZutcpiAwFzmI-qew==",
+          "title": "aisignals.com"
+        },
+        {
+          "id": 5,
+          "text": "The platform represents a focused application of Otonomii's broader autonomous AI infrastructure for financial markets.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECdHeGH0pMa913FWm6tPPf-YSV2kBhknpE8nkLi43X8FzplBx9KB-c5dVdvDZBVQYhNf8OrbP0LYpU1UMAWhQLwemNrWZD1jOnJLtUIELXxNyRww==",
+          "title": "aisignals.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "AI Signals LLC",
+        "evidence": "Passage 3 quotes the legal agreement stating that 'Company' refers to AI Signals LLC.",
+        "source": {
+          "id": 3,
+          "text": "*\"Company (referred to as either 'the Company', 'We', 'Us' or 'Our' in this Agreement) refers to AI Signals LLC.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFp5069Yrptf9d35bCiQYYQ1n0QNIRJPGvVWTFb5-mn81AgVQE4iUIp2c0UYNIoMfWjifXUCCXarrRKLd8DpuuX4-mg71h9wPxnUZp1HTcL--bskDq1",
+          "title": "aisignals.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "AI-signals",
+    "domain": "ai-signals.com",
+    "description": "Trade signals for stocks, forex, and crypto."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "AI Signals LLC",
+  "evidence": "Passage 3 quotes the legal agreement stating that 'Company' refers to AI Signals LLC.",
+  "source": {
+    "id": 3,
+    "text": "*\"Company (referred to as either 'the Company', 'We', 'Us' or 'Our' in this Agreement) refers to AI Signals LLC.\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFp5069Yrptf9d35bCiQYYQ1n0QNIRJPGvVWTFb5-mn81AgVQE4iUIp2c0UYNIoMfWjifXUCCXarrRKLd8DpuuX4-mg71h9wPxnUZp1HTcL--bskDq1",
+    "title": "aisignals.com"
+  },
+  "checked_at": "2026-11-05T05:46:38.593930+00:00"
+}

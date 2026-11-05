@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product at **tray.io** is **Tray.ai, Inc.** (formerly **Tray.io, Inc.**).\n\n### Supporting Evidence:\n* **Privacy Policy (`tray.io/privacy`):** \n  > *\"We are Tray.ai, Inc. (“we”, “us” or “our”) and we provide a platform that allows you to easily automate complex processes in your organization (“Services”).\"*\n* **Master Subscription Agreement (`tray.io/terms`):** \n  > *\"This Tray.ai Master Subscription Agreement (“Agreement”) is a legal agreement between Tray.ai, Inc. (“Tray”) and you or the entity that you represent...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYGlrlaqHdseK7UKeGc212Gck146bQ70XwY8VInDmslVb6Mh7kWp02DCKZUvANVJTXeAvH4eLjL_nRo_kSB9xYwfLz4y53bvaYF7XqQyVnjF8_u9hjf_v8CltdrGohYPE-B-Dbh0EnUoHeuxPJQKb1WW5e4X3hWT3SJN06BEFkYKIyYcDIazt7mkKOoqw=",
+          "title": "tray.ai"
+        },
+        {
+          "id": 1,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrKAyLGSkHF56JUmwhGUMtbqd6YTN-1VHSIcO6Ra9KlL4P9Th6cSGatJDPu2IFvPOyRL5P2DZ7U0l0lIfVGWr2rmb6YoG6eUxJXQ9TN77HJM5ASEbKjaGsxH2p",
+          "title": "tray.ai"
+        },
+        {
+          "id": 2,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGe-YqtXiE6hpdSWHp0_Dj8rsRaC0tcpeGkALVeS4BAqczUjFwOasdNuLS6eN4OwZXGQdvaM_da7Po6dZ-OwdU4GaCIgXVZ_vdSBdfNp462M4lAIOKj8mUXiIx5Ts3TeUrZyTWo5L1EesNvxHMlM9x_8IC4zHrcKhOzcEuz",
+          "title": "canada.ca"
+        },
+        {
+          "id": 3,
+          "text": "*\"We are Tray.ai, Inc. (“we”, “us” or “our”) and we provide a platform that allows you to easily automate complex processes in your organization (“Services”).\"*\n* **Master Subs",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrKAyLGSkHF56JUmwhGUMtbqd6YTN-1VHSIcO6Ra9KlL4P9Th6cSGatJDPu2IFvPOyRL5P2DZ7U0l0lIfVGWr2rmb6YoG6eUxJXQ9TN77HJM5ASEbKjaGsxH2p",
+          "title": "tray.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Tray.ai, Inc.",
+        "evidence": "Passage 3 states, 'We are Tray.ai, Inc. (“we”, “us” or “our”) and we provide a platform that allows you to easily automate complex processes in your organization (“Services”).'",
+        "source": {
+          "id": 3,
+          "text": "*\"We are Tray.ai, Inc. (“we”, “us” or “our”) and we provide a platform that allows you to easily automate complex processes in your organization (“Services”).\"*\n* **Master Subs",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrKAyLGSkHF56JUmwhGUMtbqd6YTN-1VHSIcO6Ra9KlL4P9Th6cSGatJDPu2IFvPOyRL5P2DZ7U0l0lIfVGWr2rmb6YoG6eUxJXQ9TN77HJM5ASEbKjaGsxH2p",
+          "title": "tray.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Tray.io",
+    "domain": "tray.io",
+    "description": "Automate business processes with AI-powered iPaaS."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Tray.ai, Inc.",
+  "evidence": "Passage 3 states, 'We are Tray.ai, Inc. (“we”, “us” or “our”) and we provide a platform that allows you to easily automate complex processes in your organization (“Services”).'",
+  "source": {
+    "id": 3,
+    "text": "*\"We are Tray.ai, Inc. (“we”, “us” or “our”) and we provide a platform that allows you to easily automate complex processes in your organization (“Services”).\"*\n* **Master Subs",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrKAyLGSkHF56JUmwhGUMtbqd6YTN-1VHSIcO6Ra9KlL4P9Th6cSGatJDPu2IFvPOyRL5P2DZ7U0l0lIfVGWr2rmb6YoG6eUxJXQ9TN77HJM5ASEbKjaGsxH2p",
+    "title": "tray.ai"
+  },
+  "checked_at": "2026-11-05T05:42:51.126010+00:00"
+}

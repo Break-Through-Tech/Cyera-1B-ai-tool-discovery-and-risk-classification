@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **Zoom** video conferencing platform and services at **zoom.us** is **Zoom Communications, Inc.** (historically known as **Zoom Video Communications, Inc.**).\n\n### Provider Statements\n* **Zoom Terms of Service:**  \n  > *\"This Agreement is between you and Zoom Communications, Inc. and its affiliates (“Zoom,” “we,” “us,” or “our”) and governs your access to and use of our Services and Software... We may provide the Services and Software through Zoom Communications, Inc., our affiliate(s), or both.\"*\n\n* **Zoom Privacy Statement:**  \n  > *\"This Privacy Statement describes the personal data we collect and/or process... to provide products and services offered directly by Zoom Communications, Inc. (“Zoom”), including Zoom's websites, its meetings, webinars, and messaging platform, related collaborative features, and Zoom App Marketplace...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuCrD8M1EkkZo00iuonPLdN5g_iHgh4SPFJs8ILklrO31Jm6n2iHUN6F3XSMWF_72dVeT6PiwebgxSiPP2c4-kKPGmjKfFmIhJhxXtHD0oCvqJIR8AS15IhBllVzWojFoC03nFt7e5eiYMjdHLQ5Fc8XpS1BlAssEqAkrxKXNRsA8=",
+          "title": "zoom.us"
+        },
+        {
+          "id": 1,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESiE09WlPLYv9TzQXiSPXW1_22bk7QFMVyoCQEYj5ZoNpml7E2TiiitIifG07qeEOtftYidFwgcvHxU4hSMy5gaCeN7ybIjcZZiopxFBVw0dN2HaQ3wRA=",
+          "title": "zoom.us"
+        },
+        {
+          "id": 2,
+          "text": "he Services and Software through Zoom Communications, Inc., our affiliate(s), or both.\"*\n\n* **Zoom Priva",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESiE09WlPLYv9TzQXiSPXW1_22bk7QFMVyoCQEYj5ZoNpml7E2TiiitIifG07qeEOtftYidFwgcvHxU4hSMy5gaCeN7ybIjcZZiopxFBVw0dN2HaQ3wRA=",
+          "title": "zoom.us"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Zoom Communications, Inc.",
+        "evidence": "Passage 2 states that the Services and Software are provided through Zoom Communications, Inc.",
+        "source": {
+          "id": 2,
+          "text": "he Services and Software through Zoom Communications, Inc., our affiliate(s), or both.\"*\n\n* **Zoom Priva",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESiE09WlPLYv9TzQXiSPXW1_22bk7QFMVyoCQEYj5ZoNpml7E2TiiitIifG07qeEOtftYidFwgcvHxU4hSMy5gaCeN7ybIjcZZiopxFBVw0dN2HaQ3wRA=",
+          "title": "zoom.us"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Zoom",
+    "domain": "zoom.us",
+    "description": "A video conferencing platform offering meetings, webinars, chat, and phone services."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Zoom Communications, Inc.",
+  "evidence": "Passage 2 states that the Services and Software are provided through Zoom Communications, Inc.",
+  "source": {
+    "id": 2,
+    "text": "he Services and Software through Zoom Communications, Inc., our affiliate(s), or both.\"*\n\n* **Zoom Priva",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESiE09WlPLYv9TzQXiSPXW1_22bk7QFMVyoCQEYj5ZoNpml7E2TiiitIifG07qeEOtftYidFwgcvHxU4hSMy5gaCeN7ybIjcZZiopxFBVw0dN2HaQ3wRA=",
+    "title": "zoom.us"
+  },
+  "checked_at": "2026-11-05T07:58:10.945043+00:00"
+}

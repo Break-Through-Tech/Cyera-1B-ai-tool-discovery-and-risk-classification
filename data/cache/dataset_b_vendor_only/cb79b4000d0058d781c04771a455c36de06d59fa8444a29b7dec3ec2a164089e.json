@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Concur Expense** at **concur.com** is **Concur Technologies, Inc.** (operating under the brand **SAP Concur**, an affiliate of SAP SE).\n\n### Provider Evidence\nAccording to the legal and privacy notices on **concur.com**:\n* **SAP Concur Terms of Use:** *\"Concur Technologies, Inc., established under the laws of Delaware, with business address at 601 108th Ave NE, Suite 1000, Bellevue, Washington, is an Affiliate of SAP SE for purposes of the SAP Website Terms, and references to SAP Website or SAP Materials shall be deemed to mean SAP Concur Website and SAP Concur Materials.\"*\n* **Concur Processor Privacy Statement:** *\"This privacy statement provides an overview of how Concur Technologies, Inc. and its related corporate affiliates collect, use, store and otherwise process information about you, as well as your choices, as you use Concur business applications like Concur Travel, Expense, or Invoice ('Concur Services')...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Concur Expense** at **concur.com** is **Concur Technologies, Inc.** (operating under the brand **SAP Concur**, an affiliate of SAP SE)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-XHrqRCoIicVWvU3OmrJRZiuLpZ47vo75iCzWVsFuUeFVxadyXusistPjOwOHOYR2HeY8OsqB-ScHSHoUwidT9e-3iBKlmCVpVEPKYBvE5k6SImSUgKKHvZ04atE=",
+          "title": "concur.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Concur Expense** at **concur.com** is **Concur Technologies, Inc.** (operating under the brand **SAP Concur**, an affiliate of SAP SE)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeHj0G2Rchmx5wypUwpWkxIYaTqGftOX-goiB1IZloxAdfyAnfmoz4ijL_nY-7dbFusbciZLCEySG61zcx-jbjLWdAuRHtL2hgqCOENDdywR3jtbs3X51KdL91fcQGPYM2",
+          "title": "concur.com"
+        },
+        {
+          "id": 2,
+          "text": "**SAP Concur Terms of Use:** *\"Concur Technologies, Inc., established under the laws of Delaware, with business address at 601 108th Ave NE, Suite 1000, Bellevue, Washington, is an Affiliate of SAP SE for purposes of the SAP Website Terms, and references to SAP Website or SAP Materials shall be deemed to mean SAP Concur Website and SAP Concur Materials.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-XHrqRCoIicVWvU3OmrJRZiuLpZ47vo75iCzWVsFuUeFVxadyXusistPjOwOHOYR2HeY8OsqB-ScHSHoUwidT9e-3iBKlmCVpVEPKYBvE5k6SImSUgKKHvZ04atE=",
+          "title": "concur.com"
+        },
+        {
+          "id": 3,
+          "text": "**Concur Processor Privacy Statement:** *\"This privacy statement provides an overview of how Concur Technologies, Inc. and its related corporate affiliates collect, use, store and otherwise process information about you, as well as your choices, as you use Concur business applications like Concur Travel, Expense, or Invoice ('Concur Services')...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgBFXBjnM8X7O88ECyR4WXkFeuXspU1aPS0ic_eO0P7JLHWb52GZ-Jmzzt0BXo2FBj6h8h2-y4AQ0bliwytBazxyVj3lotxNzCUbSfT98KDmKXf2hy-8kdpl-2Nb0OqEfTm00QoTqSSqa0PXu1Fw==",
+          "title": "concur.com"
+        },
+        {
+          "id": 4,
+          "text": "This privacy statement provides an overview of how Concur Technologies, Inc. and its related corporate affiliates collect, use, store and otherwise process information about you, as well as your choices, as you use Concur business applications like Concur Travel, Expense, or Invoice ('Concur Service",
+          "url": "https://www.concur.com/en-us/processor-privacy-statement",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Concur Technologies, Inc.",
+        "evidence": "Passage 0 directly states that the vendor providing Concur Expense at concur.com is Concur Technologies, Inc., operating under the brand SAP Concur.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Concur Expense** at **concur.com** is **Concur Technologies, Inc.** (operating under the brand **SAP Concur**, an affiliate of SAP SE)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-XHrqRCoIicVWvU3OmrJRZiuLpZ47vo75iCzWVsFuUeFVxadyXusistPjOwOHOYR2HeY8OsqB-ScHSHoUwidT9e-3iBKlmCVpVEPKYBvE5k6SImSUgKKHvZ04atE=",
+          "title": "concur.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Concur Expense",
+    "domain": "concur.com",
+    "description": "A travel and expense management system for submitting, approving, and reimbursing employee expenses."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Concur Technologies, Inc.",
+  "evidence": "Passage 0 directly states that the vendor providing Concur Expense at concur.com is Concur Technologies, Inc., operating under the brand SAP Concur.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Concur Expense** at **concur.com** is **Concur Technologies, Inc.** (operating under the brand **SAP Concur**, an affiliate of SAP SE)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-XHrqRCoIicVWvU3OmrJRZiuLpZ47vo75iCzWVsFuUeFVxadyXusistPjOwOHOYR2HeY8OsqB-ScHSHoUwidT9e-3iBKlmCVpVEPKYBvE5k6SImSUgKKHvZ04atE=",
+    "title": "concur.com"
+  },
+  "checked_at": "2026-11-05T07:59:01.898721+00:00"
+}

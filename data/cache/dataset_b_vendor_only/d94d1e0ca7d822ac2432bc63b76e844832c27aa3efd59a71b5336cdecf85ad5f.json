@@ -1,0 +1,83 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **Kahoot!** software product at **kahoot.com** is **Kahoot! AS**.\n\n### Provider Statement & Evidence\n* **Kahoot! Master Service Agreement:**  \n  > *“‘Kahoot!’ means Kahoot! AS acting as the provider of the Services and Resources under this Agreement.”*\n* **Kahoot! Privacy Notice (Definitions & Controllers):**  \n  > *“‘Kahoot!’ means Kahoot! AS, organization number 997 770 234, located at Kronprinsesse Märthas plass 1, 0160 Oslo, Norway, and its affiliates.”*\n* **Legal Entities (Kahoot! Trust Center):**  \n  Kahoot! AS is listed as the parent operating entity (Norway Reg. no. 997 770 234) providing the platform and core services.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "AS**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPO9LzDgyL5MyyzktsLSnNqyfxPmv6scdj1mPM5HnEq3JGCXCPQgJtAbK3kE9dtbno4BzDkgUCWeqAISOWv5ai3pRBtEu5wkkLgIq-WyvOXtAvcXT5-VMLl8HE_TEz",
+          "title": "kahoot.com"
+        },
+        {
+          "id": 1,
+          "text": "AS**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGY8mR_0KD_T_Eof9m0RPSDlIRtfz2z6kOGo1Oh5rm70VPQN-7N7ROZ0pWbGssYK2KyMqGaaX1TFZH6k3Zk3-c2cbpY8R9QndZsy-g9RaLqIAv8JSrE-u4dWNzRlxTyUmGtecePBWFdcAADaYj1OCU=",
+          "title": "kahoot.com"
+        },
+        {
+          "id": 2,
+          "text": "ing as the provider of the Services and Resources under this Agreement.”*\n* **Kah",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGY8mR_0KD_T_Eof9m0RPSDlIRtfz2z6kOGo1Oh5rm70VPQN-7N7ROZ0pWbGssYK2KyMqGaaX1TFZH6k3Zk3-c2cbpY8R9QndZsy-g9RaLqIAv8JSrE-u4dWNzRlxTyUmGtecePBWFdcAADaYj1OCU=",
+          "title": "kahoot.com"
+        },
+        {
+          "id": 3,
+          "text": "on number 997 770 234, located at Kronprinsesse Märthas plass 1, 0160 Oslo, Norway, and its affiliates.”*\n* **Legal Entiti",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXsU61KtRv0bLm929Qkwhvraq0QxHa7JvYQBj91mnJxn9Eeo079lZvSOEgbN8Myi5jcheFl3TpBueSzKOPlfo6KngkuSgI79v3-0pdBCmdSMh4Wou7T07FmI0rJ3Rw",
+          "title": "kahoot.com"
+        }
+      ],
+      "result": {
+        "status": "unknown",
+        "vendor": "UNKNOWN",
+        "evidence": "The provided passages contain only fragmented text snippets and do not state or establish a provider entity for Kahoot!."
+      }
+    },
+    {
+      "answer": "The vendor directly providing **Kahoot!** at **kahoot.com** is **Kahoot! AS**.\n\n### Supporting Evidence\n* **Terms and Conditions:** Defines the provider: *“‘Kahoot!’ means Kahoot! AS.”*\n* **Privacy Notice:** Explicitly identifies the operating entity: *“‘Kahoot!’ means Kahoot! AS, organization number 997 770 234, located at Kronprinsesse Märthas plass 1, 0160 Oslo, Norway, and its affiliates.”*\n* **Legal Entities / Acceptable Use Policy:** Confirms Norwegian corporate registration number `997 770 234` and registered address at Kronprinsesse Märthas plass 1, 0160 Oslo, Norway.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "AS**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-jZdjku1hqALiyiTQ2KMGqwI5ueXpOYT00IlC8tuZr_HLBj0kbaN_Am73oP3SmPvlLYdEhytqfPwTYZcS5l9BzULSGW7hTY8wpLQcWd7euFLQKim_63o21sjfTf-K",
+          "title": "kahoot.com"
+        },
+        {
+          "id": 1,
+          "text": "AS**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFOSiSTMp1w31vcis-FQExh7DjBITsVJqIF_7KIY34jmWIKOg9KHN290lWItFQEMhq7IZKF5N2SbkZblrPSUe1fuYdPTnRONa_p-UVkJ0maLz6gJV2I6XRLH2-21ebblAdRQpJ",
+          "title": "kahoot.com"
+        },
+        {
+          "id": 2,
+          "text": "* **Pri",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFOSiSTMp1w31vcis-FQExh7DjBITsVJqIF_7KIY34jmWIKOg9KHN290lWItFQEMhq7IZKF5N2SbkZblrPSUe1fuYdPTnRONa_p-UVkJ0maLz6gJV2I6XRLH2-21ebblAdRQpJ",
+          "title": "kahoot.com"
+        },
+        {
+          "id": 3,
+          "text": "on number 997 770 234, located at Kronprinsesse Märthas plass 1, 0160 Oslo, Norway, and its affiliates.”*\n* **Legal Entiti",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG63eJ0nR3GGI3aeyvF6HdaQAXaQcS9DpNWdTnMiGuKCO1DMlJA9ojQYzPJGRiMUom4mQyOW_n0B7M3KcsxORlZi8s0Evi_8MtgSpboupyUR3VDwsxbxgChoAEJzNwI",
+          "title": "kahoot.com"
+        }
+      ],
+      "result": {
+        "status": "unknown",
+        "vendor": "UNKNOWN",
+        "evidence": "The provided search passages are fragmented text snippets that do not mention the full vendor name or establish the provider relationship for Kahoot!."
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Kahoot!",
+    "domain": "kahoot.com",
+    "description": "Kahoot! is an innovative platform designed to enhance presentations and training through engaging game-based learning. It allows users to create and host interactive quizzes and assignments for live or remote sessions, making it popular among executives, HR, and training professionals. Equipped with comprehensive reports and analytics, Kahoot! helps improve learning outcomes while keeping participants actively involved. Trusted by a majority of Fortune 500 companies, Kahoot! operates globally in more than 200 countries, aiming to energize learning experiences across various sectors."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "unknown",
+  "vendor": "UNKNOWN",
+  "evidence": "The provided search passages are fragmented text snippets that do not mention the full vendor name or establish the provider relationship for Kahoot!.",
+  "checked_at": "2026-11-05T08:23:49.341503+00:00"
+}

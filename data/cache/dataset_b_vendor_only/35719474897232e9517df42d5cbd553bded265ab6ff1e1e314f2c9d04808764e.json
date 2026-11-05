@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The operating vendor directly providing the product at **edx.org** is **edX LLC**.\n\n### Evidence\nAccording to the official **edX Terms of Service** (for the edX platform and website at `www.edx.org`):\n> *\"Welcome, and thank you for your interest in edX LLC (a 2U, LLC company, also 'edX,' 'we,' or 'us'). These Terms of Service apply to our website at www.edX.org, along with our related websites, hosted applications, mobile or other downloadable applications (collectively, the 'edX Site'), and other services provided by us (collectively with the edX Site, the 'Service').\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The operating vendor directly providing the product at **edx.org** is **edX LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7qPA7kjp8y48Sv5O2KpuV04HndlzHSffRBnqOkxfC8R3RPo39NRdxgFcGfzRvE2Hrgelx-yNpqk-nbzgq1wYbtjIAfhEQhtHZK_O7_OCExCwDP7Zp3Frlw8Iq",
+          "title": "edx.org"
+        },
+        {
+          "id": 1,
+          "text": "These Terms of Service apply to our website at www.edX.org, along with our related websites, hosted applications, mobile or other downloadable applications (collectively, the 'edX Site'), and other services provided by us (collectively with the edX Site, the 'Service').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7qPA7kjp8y48Sv5O2KpuV04HndlzHSffRBnqOkxfC8R3RPo39NRdxgFcGfzRvE2Hrgelx-yNpqk-nbzgq1wYbtjIAfhEQhtHZK_O7_OCExCwDP7Zp3Frlw8Iq",
+          "title": "edx.org"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "edX LLC",
+        "evidence": "Passage 0 states that the operating vendor directly providing the product at edx.org is edX LLC.",
+        "source": {
+          "id": 0,
+          "text": "The operating vendor directly providing the product at **edx.org** is **edX LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7qPA7kjp8y48Sv5O2KpuV04HndlzHSffRBnqOkxfC8R3RPo39NRdxgFcGfzRvE2Hrgelx-yNpqk-nbzgq1wYbtjIAfhEQhtHZK_O7_OCExCwDP7Zp3Frlw8Iq",
+          "title": "edx.org"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "edX",
+    "domain": "edx.org",
+    "description": "edX is an open-source e-learning platform based in Massachusetts that provides free online degree programs across various disciplines including arts, engineering, and business management. It aims to enhance educational access and is known for its collaboration with top universities and organizations."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "edX LLC",
+  "evidence": "Passage 0 states that the operating vendor directly providing the product at edx.org is edX LLC.",
+  "source": {
+    "id": 0,
+    "text": "The operating vendor directly providing the product at **edx.org** is **edX LLC**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7qPA7kjp8y48Sv5O2KpuV04HndlzHSffRBnqOkxfC8R3RPo39NRdxgFcGfzRvE2Hrgelx-yNpqk-nbzgq1wYbtjIAfhEQhtHZK_O7_OCExCwDP7Zp3Frlw8Iq",
+    "title": "edx.org"
+  },
+  "checked_at": "2026-11-05T08:19:34.199235+00:00"
+}

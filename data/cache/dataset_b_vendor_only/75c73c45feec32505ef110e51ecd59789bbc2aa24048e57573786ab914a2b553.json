@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Microsoft Teams** at **microsoft.com** is **Microsoft Corporation**.\n\n### Provider Evidence\n* According to the **Microsoft Software License Terms - Microsoft Teams Mobile** and related Microsoft Teams legal agreements, the terms are established as:  \n  > *\"These license terms are an agreement between you and Microsoft Corporation (or one of its affiliates)\"* and specify services *\"provided by Microsoft Corporation ('Microsoft' or 'we')\"*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Microsoft Teams** at **microsoft.com** is **Microsoft Corporation**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuGLEA0TIfaE8CtLcer5TBP80tRvdDZ8OqW6SB5FsaYFUJP-IxNRB5AKy4cPCB5DynzvryTtjJD3XwOIN-ZICsM55ynitopaKQu-bANioZ4YZGDyUojGBHZHJtLZHTCMqJEOQdrC7GAV-l2mRrMyey1OxZDG0xcuedLP93tLq-75wePG0fgcYLI1DYkpK5hKSMIAuM1mnTvp7bJugAgjEXHA==",
+          "title": "microsoft.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Microsoft Teams** at **microsoft.com** is **Microsoft Corporation**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyOi9Cgo6hXegcUxqN-GsVMKLI512UjGO-dAn3E85MneaMKTfyxzh69WvJjeaIVc_7qC8RAMnlCpGvaJx2dledTtOqSwI_mVC3sMg7_G8t2EAjY5QF6CgYokTqEoW2JnS9ga3Z-MC1nyuCqSin6vxtopZnStLosUqDbjuDNKYdyyhabaBI3Iw-adjLkYimmPqhHmQ1B8B2b13EsZjXolZc",
+          "title": "microsoft.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"These license terms are an agreement between you and Microsoft Corporation (or one of its affiliates)\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyOi9Cgo6hXegcUxqN-GsVMKLI512UjGO-dAn3E85MneaMKTfyxzh69WvJjeaIVc_7qC8RAMnlCpGvaJx2dledTtOqSwI_mVC3sMg7_G8t2EAjY5QF6CgYokTqEoW2JnS9ga3Z-MC1nyuCqSin6vxtopZnStLosUqDbjuDNKYdyyhabaBI3Iw-adjLkYimmPqhHmQ1B8B2b13EsZjXolZc",
+          "title": "microsoft.com"
+        },
+        {
+          "id": 3,
+          "text": "*\"These license terms are an agreement between you and Microsoft Corporation (or one of its affiliates)\"* and specify services *\"provided by Microsoft Corporation ('Microsoft' or 'we')\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuGLEA0TIfaE8CtLcer5TBP80tRvdDZ8OqW6SB5FsaYFUJP-IxNRB5AKy4cPCB5DynzvryTtjJD3XwOIN-ZICsM55ynitopaKQu-bANioZ4YZGDyUojGBHZHJtLZHTCMqJEOQdrC7GAV-l2mRrMyey1OxZDG0xcuedLP93tLq-75wePG0fgcYLI1DYkpK5hKSMIAuM1mnTvp7bJugAgjEXHA==",
+          "title": "microsoft.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Microsoft Corporation",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing Microsoft Teams at microsoft.com is Microsoft Corporation.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Microsoft Teams** at **microsoft.com** is **Microsoft Corporation**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuGLEA0TIfaE8CtLcer5TBP80tRvdDZ8OqW6SB5FsaYFUJP-IxNRB5AKy4cPCB5DynzvryTtjJD3XwOIN-ZICsM55ynitopaKQu-bANioZ4YZGDyUojGBHZHJtLZHTCMqJEOQdrC7GAV-l2mRrMyey1OxZDG0xcuedLP93tLq-75wePG0fgcYLI1DYkpK5hKSMIAuM1mnTvp7bJugAgjEXHA==",
+          "title": "microsoft.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Microsoft Teams",
+    "domain": "microsoft.com",
+    "description": "A collaboration hub combining chat, video meetings, file storage, and app integration."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Microsoft Corporation",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing Microsoft Teams at microsoft.com is Microsoft Corporation.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Microsoft Teams** at **microsoft.com** is **Microsoft Corporation**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuGLEA0TIfaE8CtLcer5TBP80tRvdDZ8OqW6SB5FsaYFUJP-IxNRB5AKy4cPCB5DynzvryTtjJD3XwOIN-ZICsM55ynitopaKQu-bANioZ4YZGDyUojGBHZHJtLZHTCMqJEOQdrC7GAV-l2mRrMyey1OxZDG0xcuedLP93tLq-75wePG0fgcYLI1DYkpK5hKSMIAuM1mnTvp7bJugAgjEXHA==",
+    "title": "microsoft.com"
+  },
+  "checked_at": "2026-11-05T07:57:47.392319+00:00"
+}

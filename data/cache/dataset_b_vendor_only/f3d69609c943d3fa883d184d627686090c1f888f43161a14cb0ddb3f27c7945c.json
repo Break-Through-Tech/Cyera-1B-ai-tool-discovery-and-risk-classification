@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly operating and providing **Exolyt** at **exolyt.com** is **The Extravagant Company Oy Ltd**.\n\n### Evidence\nAccording to the official **Terms of Service** for Exolyt at `exolyt.com`:\n> *\"These Terms of Service (\"Terms\", \"Terms of Service\") govern your use of our service Exolyt located at www.exolyt.com and app.exolyt.com (together or individually \"Service\") operated by The Extravagant Company Oy Ltd.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly operating and providing **Exolyt** at **exolyt.com** is **The Extravagant Company Oy Ltd**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9AQs61y2F6jlcpVUQ3cVaIXeNlnWc4LF5cjhT6v8vfTmQUtxxnUr9_rOv8bz6Ebi_MeLaYvmJ3mKAGho1hfRXrZxSEMXh4d3QjXrYvL8=",
+          "title": "exolyt.com"
+        },
+        {
+          "id": 1,
+          "text": "*\"These Terms of Service (\"Terms\", \"Terms of Service\") govern your use of our service Exolyt located at www.exolyt.com and app.exolyt.com (together or individually \"Service\") operated by The Extravagant Company Oy Ltd.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9AQs61y2F6jlcpVUQ3cVaIXeNlnWc4LF5cjhT6v8vfTmQUtxxnUr9_rOv8bz6Ebi_MeLaYvmJ3mKAGho1hfRXrZxSEMXh4d3QjXrYvL8=",
+          "title": "exolyt.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "The Extravagant Company Oy Ltd",
+        "evidence": "Passage 1 states from the Terms of Service that the service Exolyt located at www.exolyt.com is operated by The Extravagant Company Oy Ltd.",
+        "source": {
+          "id": 1,
+          "text": "*\"These Terms of Service (\"Terms\", \"Terms of Service\") govern your use of our service Exolyt located at www.exolyt.com and app.exolyt.com (together or individually \"Service\") operated by The Extravagant Company Oy Ltd.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9AQs61y2F6jlcpVUQ3cVaIXeNlnWc4LF5cjhT6v8vfTmQUtxxnUr9_rOv8bz6Ebi_MeLaYvmJ3mKAGho1hfRXrZxSEMXh4d3QjXrYvL8=",
+          "title": "exolyt.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Exolyt",
+    "domain": "exolyt.com",
+    "description": "Dominate TikTok with data-driven analytics, growth marketing, and AI-powered content idea generation for businesses and creators."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "The Extravagant Company Oy Ltd",
+  "evidence": "Passage 1 states from the Terms of Service that the service Exolyt located at www.exolyt.com is operated by The Extravagant Company Oy Ltd.",
+  "source": {
+    "id": 1,
+    "text": "*\"These Terms of Service (\"Terms\", \"Terms of Service\") govern your use of our service Exolyt located at www.exolyt.com and app.exolyt.com (together or individually \"Service\") operated by The Extravagant Company Oy Ltd.\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9AQs61y2F6jlcpVUQ3cVaIXeNlnWc4LF5cjhT6v8vfTmQUtxxnUr9_rOv8bz6Ebi_MeLaYvmJ3mKAGho1hfRXrZxSEMXh4d3QjXrYvL8=",
+    "title": "exolyt.com"
+  },
+  "checked_at": "2026-11-05T06:29:50.850058+00:00"
+}

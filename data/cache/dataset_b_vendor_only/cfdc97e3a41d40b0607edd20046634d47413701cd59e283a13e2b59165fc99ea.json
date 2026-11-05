@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "For **Sass** at **sass-lang.com**, there is no single operating corporate entity providing the software; it is directly provided and maintained as an open-source project by **the Sass team** (the Sass Core Team) and its community of contributors.\n\n### Provider Statements & Evidence\n* **Copyright Notice:** Across the pages of `sass-lang.com`, the footer states:  \n  > *\"Sass © 2006–2026 the Sass team, and numerous contributors. It is available for use and modification under the MIT License.\"*\n* **Development & Support:** The homepage specifies that Sass *\"has been actively supported since 2006 by its loving Core Team\"* and *\"is actively supported and developed by a consortium of several tech companies and hundreds of developers.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "For **Sass** at **sass-lang.com**, there is no single operating corporate entity providing the software; it is directly provided and maintained as an open-source project by **the Sass team** (the Sass Core Team) and its community of contributors",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtOHl1Zf2aHza9lBLQiMt3AuaWJSipddxB7nNmpxNxHihHc_VOETuFM0_tYduts1aMe0oPsx36NgVN8ufsj3nOe25ubHsxRUrMyJXen5FMy1ibhpxeQg==",
+          "title": "sass-lang.com"
+        },
+        {
+          "id": 1,
+          "text": "For **Sass** at **sass-lang.com**, there is no single operating corporate entity providing the software; it is directly provided and maintained as an open-source project by **the Sass team** (the Sass Core Team) and its community of contributors",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1xu36eDgUER59tGzXTxEeR7qU-M56qYibuaPmP0LKo968a_6xKqzobiYxqOMDfGBKHhfjivLPry_xcGQ78aD_CSNqqy0YsVWSahOH",
+          "title": "sass-lang.com"
+        },
+        {
+          "id": 2,
+          "text": "is available for use and modification under the MIT License.\"*\n* ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1xu36eDgUER59tGzXTxEeR7qU-M56qYibuaPmP0LKo968a_6xKqzobiYxqOMDfGBKHhfjivLPry_xcGQ78aD_CSNqqy0YsVWSahOH",
+          "title": "sass-lang.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "the Sass team",
+        "evidence": "For Sass at sass-lang.com, there is no single operating corporate entity providing the software; it is directly provided and maintained as an open-source project by the Sass team (the Sass Core Team) and its community of contributors.",
+        "source": {
+          "id": 0,
+          "text": "For **Sass** at **sass-lang.com**, there is no single operating corporate entity providing the software; it is directly provided and maintained as an open-source project by **the Sass team** (the Sass Core Team) and its community of contributors",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtOHl1Zf2aHza9lBLQiMt3AuaWJSipddxB7nNmpxNxHihHc_VOETuFM0_tYduts1aMe0oPsx36NgVN8ufsj3nOe25ubHsxRUrMyJXen5FMy1ibhpxeQg==",
+          "title": "sass-lang.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Sass",
+    "domain": "sass-lang.com",
+    "description": "Sass is a preprocessor scripting language that is interpreted into Cascading Style Sheets (CSS). It adds functionalities like variables, nested rules, and mixins, making it easier for developers to write and maintain CSS for web applications. Being widely used in web development, Sass helps streamline the styling process, allowing for more organized and manageable code. The Sass community is active and continually improving the language, providing resources for developers worldwide."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "the Sass team",
+  "evidence": "For Sass at sass-lang.com, there is no single operating corporate entity providing the software; it is directly provided and maintained as an open-source project by the Sass team (the Sass Core Team) and its community of contributors.",
+  "source": {
+    "id": 0,
+    "text": "For **Sass** at **sass-lang.com**, there is no single operating corporate entity providing the software; it is directly provided and maintained as an open-source project by **the Sass team** (the Sass Core Team) and its community of contributors",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtOHl1Zf2aHza9lBLQiMt3AuaWJSipddxB7nNmpxNxHihHc_VOETuFM0_tYduts1aMe0oPsx36NgVN8ufsj3nOe25ubHsxRUrMyJXen5FMy1ibhpxeQg==",
+    "title": "sass-lang.com"
+  },
+  "checked_at": "2026-11-05T09:35:21.755948+00:00"
+}

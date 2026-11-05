@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software and services at **npmjs.com** (product: **Npm**) is **npm, Inc.**\n\n### Provider Statement & Evidence\nAccording to the official **npm Open-Source Terms** (governing access to and use of `https://www.npmjs.com` and the npm Public Registry at `https://registry.npmjs.org`):\n> *\"These npm Open Source terms of use (these Terms) govern access to and use of https://www.npmjs.com (the Website) as well as the 'npm Public Registry' at https://registry.npmjs.org (the Public Registry). npm, Inc. (npm) operates each of those services.\"*\n\nSimilarly, the **npm Paid Services Terms** confirm that services at `https://www.npmjs.com` are offered and contracted by **npm, Inc.**",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software and services at **npmjs.com** (product: **Npm**) is **npm, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnCWpIqMRUZJqDKsai5BVFyz2JSTQC7BcKLWCpjyTqctq353eGA9Qyme5tQ0FF3zh7lO0Ot1E7d1xxCezkpM__NZtBunYKW00rilNT8qLJQFjg91RZ9A_0_FEo-QJWjb5AhjNTDoE=",
+          "title": "npmjs.com"
+        },
+        {
+          "id": 1,
+          "text": "*\"These npm Open Source terms of use (these Terms) govern access to and use of https://www.npmjs.com (the Website) as well as the 'npm Public Registry' at https://registry.npmjs.org (the Public Registry). npm, Inc. (npm) operates each of those services.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnCWpIqMRUZJqDKsai5BVFyz2JSTQC7BcKLWCpjyTqctq353eGA9Qyme5tQ0FF3zh7lO0Ot1E7d1xxCezkpM__NZtBunYKW00rilNT8qLJQFjg91RZ9A_0_FEo-QJWjb5AhjNTDoE=",
+          "title": "npmjs.com"
+        },
+        {
+          "id": 2,
+          "text": "Similarly, the **npm Paid Services Terms** confirm that services at `https://www.npmjs.com` are offered and contracted by **npm, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEoGbwiQxTKvA4AsoLxY6V0G5vnbU8fzMLBIQ3I2XVqAbwSe_TFVxWjqF2U89tEtdBajv0aQMnTTxr6cCC6-BwToYvyJkDs2fgO_b9KnLAT036ViCRyUdfJKLRL8Poh6bkHQsRz",
+          "title": "npmjs.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "npm, Inc.",
+        "evidence": "Passage 1 quotes the npm Open Source terms of use governing access to and use of https://www.npmjs.com, directly stating that 'npm, Inc. (npm) operates each of those services.'",
+        "source": {
+          "id": 1,
+          "text": "*\"These npm Open Source terms of use (these Terms) govern access to and use of https://www.npmjs.com (the Website) as well as the 'npm Public Registry' at https://registry.npmjs.org (the Public Registry). npm, Inc. (npm) operates each of those services.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnCWpIqMRUZJqDKsai5BVFyz2JSTQC7BcKLWCpjyTqctq353eGA9Qyme5tQ0FF3zh7lO0Ot1E7d1xxCezkpM__NZtBunYKW00rilNT8qLJQFjg91RZ9A_0_FEo-QJWjb5AhjNTDoE=",
+          "title": "npmjs.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Npm",
+    "domain": "npmjs.com",
+    "description": "npm, Inc. operates a widely used open source software and web registry, enabling over 10 million developers to discover, share, and reuse code packages. With more than 800,000 packages available and weekly downloads exceeding 7 billion, npm has seen significant growth in usage. Its paid services help teams and organizations manage code integration, testing, and security, making it a valuable resource for over 150,000 companies including BBC, Coinbase, and eBay."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "npm, Inc.",
+  "evidence": "Passage 1 quotes the npm Open Source terms of use governing access to and use of https://www.npmjs.com, directly stating that 'npm, Inc. (npm) operates each of those services.'",
+  "source": {
+    "id": 1,
+    "text": "*\"These npm Open Source terms of use (these Terms) govern access to and use of https://www.npmjs.com (the Website) as well as the 'npm Public Registry' at https://registry.npmjs.org (the Public Registry). npm, Inc. (npm) operates each of those services.\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnCWpIqMRUZJqDKsai5BVFyz2JSTQC7BcKLWCpjyTqctq353eGA9Qyme5tQ0FF3zh7lO0Ot1E7d1xxCezkpM__NZtBunYKW00rilNT8qLJQFjg91RZ9A_0_FEo-QJWjb5AhjNTDoE=",
+    "title": "npmjs.com"
+  },
+  "checked_at": "2026-11-05T09:09:57.970524+00:00"
+}

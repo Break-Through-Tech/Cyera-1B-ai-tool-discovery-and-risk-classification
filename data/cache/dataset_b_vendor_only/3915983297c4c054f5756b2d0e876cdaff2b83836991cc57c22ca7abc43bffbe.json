@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **DocumentCloud** at **documentcloud.org** is the **MuckRock Foundation**.\n\n### Evidence:\n* According to the platform's official documentation and FAQ hosted for DocumentCloud (`documentcloud.org`): \n  > *\"DocumentCloud is a part of the MuckRock Foundation, 501(c)3 nonprofit organization committed to trust and transparency.\"*\n  > *\"DocumentCloud was founded in 2009 with a grant from the Knight News Challenge... before merging with the MuckRock Foundation the next year.\"*\n  > *\"The current Terms of Service for DocumentCloud and MuckRock are viewable on MuckRock's TOS page.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **DocumentCloud** at **documentcloud.org** is the **MuckRock Foundation**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFll7otdor4x6RcaZUDSD2CJMn8e4BP3H9fMOpCODRDD520v1BxPURLApjJoDK4eAaDcJpGDm_Ofor23-z6SeWlCJsLDCvDk6VYBdF1AfznDcpHNbqKSixfp87jioTbtegFb087CDx95MxTYExAamCDBrFaeAXntLfsFocoC00qbNwre3b23yq2wyX1",
+          "title": "muckrock.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **DocumentCloud** at **documentcloud.org** is the **MuckRock Foundation**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHE2q1nI1fq4K0vdDHdqEBkMXPrT8EwbMX5o8dS_CH3cQoyaAYJ5X-Duk7gQh1Rb9SxLtcBTiwnWB1ZLF7r-jt6dly5BLQK-o7oFgHtcik=",
+          "title": "muckrock.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"DocumentCloud is a part of the MuckRock Foundation, 501(c)3 nonprofit organization committed to trust and transparency.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFll7otdor4x6RcaZUDSD2CJMn8e4BP3H9fMOpCODRDD520v1BxPURLApjJoDK4eAaDcJpGDm_Ofor23-z6SeWlCJsLDCvDk6VYBdF1AfznDcpHNbqKSixfp87jioTbtegFb087CDx95MxTYExAamCDBrFaeAXntLfsFocoC00qbNwre3b23yq2wyX1",
+          "title": "muckrock.com"
+        },
+        {
+          "id": 3,
+          "text": "*\"DocumentCloud was founded in 2009 with a grant from the Knight News Challenge... before merging with the MuckRock Foundation the next year.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFll7otdor4x6RcaZUDSD2CJMn8e4BP3H9fMOpCODRDD520v1BxPURLApjJoDK4eAaDcJpGDm_Ofor23-z6SeWlCJsLDCvDk6VYBdF1AfznDcpHNbqKSixfp87jioTbtegFb087CDx95MxTYExAamCDBrFaeAXntLfsFocoC00qbNwre3b23yq2wyX1",
+          "title": "muckrock.com"
+        },
+        {
+          "id": 4,
+          "text": "*\"The current Terms of Service for DocumentCloud and MuckRock are viewable on MuckRock's TOS page.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFll7otdor4x6RcaZUDSD2CJMn8e4BP3H9fMOpCODRDD520v1BxPURLApjJoDK4eAaDcJpGDm_Ofor23-z6SeWlCJsLDCvDk6VYBdF1AfznDcpHNbqKSixfp87jioTbtegFb087CDx95MxTYExAamCDBrFaeAXntLfsFocoC00qbNwre3b23yq2wyX1",
+          "title": "muckrock.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "MuckRock Foundation",
+        "evidence": "Passage 0 states that the vendor directly providing DocumentCloud at documentcloud.org is the MuckRock Foundation.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **DocumentCloud** at **documentcloud.org** is the **MuckRock Foundation**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFll7otdor4x6RcaZUDSD2CJMn8e4BP3H9fMOpCODRDD520v1BxPURLApjJoDK4eAaDcJpGDm_Ofor23-z6SeWlCJsLDCvDk6VYBdF1AfznDcpHNbqKSixfp87jioTbtegFb087CDx95MxTYExAamCDBrFaeAXntLfsFocoC00qbNwre3b23yq2wyX1",
+          "title": "muckrock.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "DocumentCloud",
+    "domain": "documentcloud.org",
+    "description": "DocumentCloud is an online platform that serves as an index for primary source documents, enabling journalists, researchers, and archivists to annotate, organize, and publish these documents. Users can upload, share, and conduct in-depth analyses on documents through structured searches centered on extracted entities such as people, places, and organizations. The platform also provides tools for embedding documents on websites, promoting collaborative document-driven investigations."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "MuckRock Foundation",
+  "evidence": "Passage 0 states that the vendor directly providing DocumentCloud at documentcloud.org is the MuckRock Foundation.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **DocumentCloud** at **documentcloud.org** is the **MuckRock Foundation**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFll7otdor4x6RcaZUDSD2CJMn8e4BP3H9fMOpCODRDD520v1BxPURLApjJoDK4eAaDcJpGDm_Ofor23-z6SeWlCJsLDCvDk6VYBdF1AfznDcpHNbqKSixfp87jioTbtegFb087CDx95MxTYExAamCDBrFaeAXntLfsFocoC00qbNwre3b23yq2wyX1",
+    "title": "muckrock.com"
+  },
+  "checked_at": "2026-11-05T08:29:28.611339+00:00"
+}

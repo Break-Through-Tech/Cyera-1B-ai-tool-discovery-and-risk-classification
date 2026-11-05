@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on project documentation and software directory listings for **Dolly AI** at **dollyai.app**:\n\n* **Operating Company:** No registered legal entity or corporate operating company is identified for the domain.\n* **Developer / Provider:** The application was developed and provided by independent developer **David Hauser** (GitHub: `kinggongzilla`). The official repository for the tool (`kinggongzilla/whatsapp-ai-clone` / `ai-clone-whatsapp`) lists the service directly as: *\"Hosted application: https://dollyai.app\"*. In software directory profiles, the creator is similarly cited as **David** and published under the developer moniker **dollyai**.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**Developer / Provider:** The application was developed and provided by independent developer **David Hauser** (GitHub: `kinggongzilla`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEolmJHPFz3zrPPBEojhVA64dHpy6uUqBGN6EkO4kayarjdk2mNW3VzsS1WB8C16izZdmxUIswuYznMcXdxDu-sIsmqy579l4vRjIN1Q1fpe3et-WtbMg==",
+          "title": "github.com"
+        },
+        {
+          "id": 1,
+          "text": "**Developer / Provider:** The application was developed and provided by independent developer **David Hauser** (GitHub: `kinggongzilla`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHppCV2O3cTA6H40hlKVjpBjCCNamkneT4WAluyKDErnMBZVzqp2nk4MeC27sCc3BzopNYcrfeVhibw-ZVuMLcp4MDLIdeNo_H15q8xjG0gqxXCxTo0J4AEJDoJIJJnSLiR1IMeORVVMgewhRct_218Uo4n8pu1gsIO--WchorK3VVgx1U-hMU1TuPYIFwXYF4wOFMNOYpOtHTSJoS8xegq4ZLT49A=",
+          "title": "huggingface.co"
+        },
+        {
+          "id": 2,
+          "text": "The official repository for the tool (`kinggongzilla/whatsapp-ai-clone` / `ai-clone-whatsapp`) lists the service directly as: *\"Hosted application: https://dollyai.app\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSyiJsVOK3tg3EOC8_jhUQ15Lo1lfDEP42gmzldupK_cZDrMxElyH4ejD3Wvk-ubL-xlKAVhZ4NG0WAGzm0ESR8b1wwY9gzVy7x8ECBaaK5OqeXW0tSMUD1cKeCOcDqXeh",
+          "title": "github.com"
+        },
+        {
+          "id": 3,
+          "text": "The official repository for the tool (`kinggongzilla/whatsapp-ai-clone` / `ai-clone-whatsapp`) lists the service directly as: *\"Hosted application: https://dollyai.app\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFy3VMpqzz_NRvwnGNqFCZh8erLQ5f56TjVQ76vA7i98jdEFYetzfBbk0feHe9VY3GxiM5Dienh3CmcRWl97KF0DBiE4I8BIuffyLwFR0sN3OYUBKhwDXKgCh7qAvQvC1finMU2elAOiQ==",
+          "title": "github.com"
+        },
+        {
+          "id": 4,
+          "text": "In software directory profiles, the creator is similarly cited as **David**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPnkopBZoE6S5P8aHOU15PxyW5A2YW7LVuEov2Zp_P-K1RIcQ932hk0MFZl3JNia66AWeuSANnFDf-FnLPgtNJqwan6cD_ritOGtSklFn0FC4UV7bUKoM=",
+          "title": "listmyai.net"
+        },
+        {
+          "id": 5,
+          "text": "In software directory profiles, the creator is similarly cited as **David** and published under the developer moniker **dollyai**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGq-t1YK6e07VYA6vXz3DRKC8DsaLBR8BLSScOsT91TZCXtA1HVjcLFSncebNXFBrCTBL6LM3CdypaQ7vkRperT8vXeEIcBJJPcL1_VYkppD5n068A9s6VK3wPsG8J8",
+          "title": "softonic.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "David Hauser",
+        "evidence": "Passage 0 states that the application was developed and provided by independent developer David Hauser.",
+        "source": {
+          "id": 0,
+          "text": "**Developer / Provider:** The application was developed and provided by independent developer **David Hauser** (GitHub: `kinggongzilla`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEolmJHPFz3zrPPBEojhVA64dHpy6uUqBGN6EkO4kayarjdk2mNW3VzsS1WB8C16izZdmxUIswuYznMcXdxDu-sIsmqy579l4vRjIN1Q1fpe3et-WtbMg==",
+          "title": "github.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Dolly AI",
+    "domain": "dollyai.app",
+    "description": "Create an AI clone of yourself from your messages."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "David Hauser",
+  "evidence": "Passage 0 states that the application was developed and provided by independent developer David Hauser.",
+  "source": {
+    "id": 0,
+    "text": "**Developer / Provider:** The application was developed and provided by independent developer **David Hauser** (GitHub: `kinggongzilla`)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEolmJHPFz3zrPPBEojhVA64dHpy6uUqBGN6EkO4kayarjdk2mNW3VzsS1WB8C16izZdmxUIswuYznMcXdxDu-sIsmqy579l4vRjIN1Q1fpe3et-WtbMg==",
+    "title": "github.com"
+  },
+  "checked_at": "2026-11-05T05:31:18.862134+00:00"
+}

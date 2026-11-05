@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Solo AI** at **soloist.ai** is **Mozilla Corporation**.\n\n### Evidence\nAccording to the official Terms of Service and Privacy Policy for **soloist.ai**:\n> *\"The Services are owned, licensed, and operated by Mozilla Corporation (referred to herein as 'we,' 'us,' 'our,' or 'Mozilla').\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Solo AI** at **soloist.ai** is **Mozilla Corporation**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiZkXPduF_DtHBTdHESUyeBwqYUwSPHPQj1ALvDPomBW_73_XjlWmIg0pyeyJ8wy-5788fBXy1hGZOExYeVJYDUPJ-l6elBjEGZMzPzJeTYMTTLpu6aZbd5N0EJxD7kmZRdQ==",
+          "title": "soloist.ai"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Solo AI** at **soloist.ai** is **Mozilla Corporation**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCLTvOTz4HZyHb0RO0xYrBzqkMFT3xo-n3SJ7dJaqT3sO4KMpC55gOV1TPw89_AJStbNJHwpi1uL2vaQAbKY1p6Os1fWMfwKpC99xP-NQCPtmDmB2fmNyJjTHzah_uQ_J1QE8r",
+          "title": "soloist.ai"
+        },
+        {
+          "id": 2,
+          "text": "*\"The Services are owned, licensed, and operated by Mozilla Corporation (referred to herein as 'we,' 'us,' 'our,' or 'Mozilla').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCLTvOTz4HZyHb0RO0xYrBzqkMFT3xo-n3SJ7dJaqT3sO4KMpC55gOV1TPw89_AJStbNJHwpi1uL2vaQAbKY1p6Os1fWMfwKpC99xP-NQCPtmDmB2fmNyJjTHzah_uQ_J1QE8r",
+          "title": "soloist.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Mozilla Corporation",
+        "evidence": "The soloist.ai terms state that the services are owned, licensed, and operated by Mozilla Corporation.",
+        "source": {
+          "id": 2,
+          "text": "*\"The Services are owned, licensed, and operated by Mozilla Corporation (referred to herein as 'we,' 'us,' 'our,' or 'Mozilla').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCLTvOTz4HZyHb0RO0xYrBzqkMFT3xo-n3SJ7dJaqT3sO4KMpC55gOV1TPw89_AJStbNJHwpi1uL2vaQAbKY1p6Os1fWMfwKpC99xP-NQCPtmDmB2fmNyJjTHzah_uQ_J1QE8r",
+          "title": "soloist.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Solo AI",
+    "domain": "soloist.ai",
+    "description": "Instantly compose a beautiful website for your business with AI."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Mozilla Corporation",
+  "evidence": "The soloist.ai terms state that the services are owned, licensed, and operated by Mozilla Corporation.",
+  "source": {
+    "id": 2,
+    "text": "*\"The Services are owned, licensed, and operated by Mozilla Corporation (referred to herein as 'we,' 'us,' 'our,' or 'Mozilla').\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCLTvOTz4HZyHb0RO0xYrBzqkMFT3xo-n3SJ7dJaqT3sO4KMpC55gOV1TPw89_AJStbNJHwpi1uL2vaQAbKY1p6Os1fWMfwKpC99xP-NQCPtmDmB2fmNyJjTHzah_uQ_J1QE8r",
+    "title": "soloist.ai"
+  },
+  "checked_at": "2026-11-05T07:51:10.613717+00:00"
+}

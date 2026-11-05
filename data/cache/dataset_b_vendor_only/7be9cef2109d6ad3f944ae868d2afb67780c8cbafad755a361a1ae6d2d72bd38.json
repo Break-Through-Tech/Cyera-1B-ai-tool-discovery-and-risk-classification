@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Autoblocks** at **autoblocks.ai** is **Autoblocks, Inc.**\n\n### Provider Statement\nAccording to the official Autoblocks Terms and Conditions of Use hosted on `autoblocks.ai`:\n> *\"Welcome, and thank you for your interest in Autoblocks, Inc. ('Autoblocks') and our service and tools for monitoring and debugging certain AI features (collectively, the 'Service').\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Autoblocks** at **autoblocks.ai** is **Autoblocks, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhZlJm188CWx5US7ZGa25IVTEid67-IkjviHlXUlhQUTBAXNKh-SpoLNsDFdEyEtNYuzg1XD9h2rLKsTuATTtKOK8A3bxsHziHFSFtbNtYSD65lrYt",
+          "title": "autoblocks.ai"
+        },
+        {
+          "id": 1,
+          "text": "*\"Welcome, and thank you for your interest in Autoblocks, Inc. ('Autoblocks') and our service and tools for monitoring and debugging certain AI features (collectively, the 'Service').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhZlJm188CWx5US7ZGa25IVTEid67-IkjviHlXUlhQUTBAXNKh-SpoLNsDFdEyEtNYuzg1XD9h2rLKsTuATTtKOK8A3bxsHziHFSFtbNtYSD65lrYt",
+          "title": "autoblocks.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Autoblocks, Inc.",
+        "evidence": "Autoblocks, Inc. identifies itself as the provider of the service and tools for monitoring and debugging AI features on autoblocks.ai.",
+        "source": {
+          "id": 1,
+          "text": "*\"Welcome, and thank you for your interest in Autoblocks, Inc. ('Autoblocks') and our service and tools for monitoring and debugging certain AI features (collectively, the 'Service').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhZlJm188CWx5US7ZGa25IVTEid67-IkjviHlXUlhQUTBAXNKh-SpoLNsDFdEyEtNYuzg1XD9h2rLKsTuATTtKOK8A3bxsHziHFSFtbNtYSD65lrYt",
+          "title": "autoblocks.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Autoblocks",
+    "domain": "autoblocks.ai",
+    "description": "Monitored, debugged, and tested product development."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Autoblocks, Inc.",
+  "evidence": "Autoblocks, Inc. identifies itself as the provider of the service and tools for monitoring and debugging AI features on autoblocks.ai.",
+  "source": {
+    "id": 1,
+    "text": "*\"Welcome, and thank you for your interest in Autoblocks, Inc. ('Autoblocks') and our service and tools for monitoring and debugging certain AI features (collectively, the 'Service').\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhZlJm188CWx5US7ZGa25IVTEid67-IkjviHlXUlhQUTBAXNKh-SpoLNsDFdEyEtNYuzg1XD9h2rLKsTuATTtKOK8A3bxsHziHFSFtbNtYSD65lrYt",
+    "title": "autoblocks.ai"
+  },
+  "checked_at": "2026-11-05T07:53:09.292050+00:00"
+}

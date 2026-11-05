@@ -1,0 +1,43 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **Duolingo** platform at **duolingo.com** is **Duolingo, Inc.**.\n\n### Supporting Evidence\nAccording to Duolingo's official [Terms and Conditions of Service](https://www.duolingo.com/terms):\n> *\"Duolingo websites (“Websites”), mobile applications (“Apps”), and related services (together with the Websites and Apps, the “Service”) are operated by Duolingo, Inc. (“Duolingo,” “us,” or “we”).\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **Duolingo** platform at **duolingo.com** is **Duolingo, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdEbF5hyDbEdnP7jTF7-88X0N9uqs7VwCvfslnvHBVQK1d8ABVju0OOuG2TV9GzZ-UrWiUc83Z7gtU71sAAh67fVE0MCGy3ueNrUq4mbuVt8X1ZyI=",
+          "title": "duolingo.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Duolingo, Inc.",
+        "evidence": "Passage 0 directly states that the vendor providing the Duolingo platform at duolingo.com is Duolingo, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the **Duolingo** platform at **duolingo.com** is **Duolingo, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdEbF5hyDbEdnP7jTF7-88X0N9uqs7VwCvfslnvHBVQK1d8ABVju0OOuG2TV9GzZ-UrWiUc83Z7gtU71sAAh67fVE0MCGy3ueNrUq4mbuVt8X1ZyI=",
+          "title": "duolingo.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Duolingo",
+    "domain": "duolingo.com",
+    "description": "Duolingo is a leading educational technology company that offers a free language-learning platform through its app, characterized by gamified, bite-sized lessons that enhance student engagement and motivation. As the most downloaded education app globally and a top-grossing app in its category, Duolingo is focused on making high-quality language education accessible to everyone, regardless of their financial means. Headquartered in Pittsburgh, Pennsylvania, Duolingo continues to innovate in the field of language acquisition, recognized with accolades such as Fast Company's Most Innovative Education Company."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Duolingo, Inc.",
+  "evidence": "Passage 0 directly states that the vendor providing the Duolingo platform at duolingo.com is Duolingo, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the **Duolingo** platform at **duolingo.com** is **Duolingo, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdEbF5hyDbEdnP7jTF7-88X0N9uqs7VwCvfslnvHBVQK1d8ABVju0OOuG2TV9GzZ-UrWiUc83Z7gtU71sAAh67fVE0MCGy3ueNrUq4mbuVt8X1ZyI=",
+    "title": "duolingo.com"
+  },
+  "checked_at": "2026-11-05T08:20:50.495649+00:00"
+}

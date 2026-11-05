@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The operating company directly providing **Vimeo** at **vimeo.com** is **Vimeo.com, Inc.**\n\n### Evidence & Provider Statement\n* According to the **Vimeo Terms of Service Agreement** governing **vimeo.com** and its associated services:\n  > *\"This Vimeo Terms of Service Agreement (the “Agreement” or “Terms of Service”) is made between Vimeo.com, Inc. (“Vimeo,” “we,” “us,” or “our”) and you, our customer (“you” or “your”). This Agreement governs your use of Vimeo owned-and-operated websites, applications, and embeddable video players (collectively, the “Services”).\"*\n* Official website footer notices and mobile application listings similarly identify the operating entity and developer as **Vimeo.com, Inc.** (e.g., *\"TM + © 2025 Vimeo.com, Inc. All rights reserved.\"*).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The operating company directly providing **Vimeo** at **vimeo.com** is **Vimeo.com, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0APbHmE6qXO1o2WBqyBhbra2t74FEOJ_x9wZobzNQ6ORvvMOxU3vBYsB5UtEk_1zjV3odET7BTGT714YXDZGybMbYezZPOO3gzLEBh3RD2dwcICX4RMRXycQl5_mYSvb0PoEiJBpYDO39rf-EJ0xRhUYX_Bdx1CVutIycFhFAQ6oUnC3ke1gmW3gBzH7fhdJMMpapf8LG",
+          "title": "ny.gov"
+        },
+        {
+          "id": 1,
+          "text": "The operating company directly providing **Vimeo** at **vimeo.com** is **Vimeo.com, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuvb-1BfnFP0k5JSKhXMCE9kthZbSNSO_prkmuj0BNtHN_3blzVifOJl72XR5CNKNlvTsaPrBkmFgUwfhNDplG9CYrVlzWWsR0xkJkl8v2vByOui47yJJ1E75lDaTFzM_kamV145ImCMgXC5WNBQtU6wxM1zJNT9U2Prs4IlLelymrbwwfnAwip_Ji3DLr7CO5UN9WCA==",
+          "title": "vimeo.com"
+        },
+        {
+          "id": 2,
+          "text": "of Vimeo owned-and-operated websites, applications, and embeddable video players (collectively, the “Services”).\"*\n* Official website footer notices a",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0APbHmE6qXO1o2WBqyBhbra2t74FEOJ_x9wZobzNQ6ORvvMOxU3vBYsB5UtEk_1zjV3odET7BTGT714YXDZGybMbYezZPOO3gzLEBh3RD2dwcICX4RMRXycQl5_mYSvb0PoEiJBpYDO39rf-EJ0xRhUYX_Bdx1CVutIycFhFAQ6oUnC3ke1gmW3gBzH7fhdJMMpapf8LG",
+          "title": "ny.gov"
+        },
+        {
+          "id": 3,
+          "text": "This Vimeo Terms of Service Agreement (the “Agreement” or “Terms of Service”) is made between Vimeo.com, Inc. (“Vimeo,” “we,” “us,” or “our”) and you, our customer (“you” or “your”). This Agreement governs your use of Vimeo owned-and-operated websites, applications, and embeddable video players (collectively, the “Service",
+          "url": "http://hitechnolabs.com",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Vimeo.com, Inc.",
+        "evidence": "Passage 1 explicitly states that the operating company directly providing Vimeo at vimeo.com is Vimeo.com, Inc.",
+        "source": {
+          "id": 1,
+          "text": "The operating company directly providing **Vimeo** at **vimeo.com** is **Vimeo.com, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuvb-1BfnFP0k5JSKhXMCE9kthZbSNSO_prkmuj0BNtHN_3blzVifOJl72XR5CNKNlvTsaPrBkmFgUwfhNDplG9CYrVlzWWsR0xkJkl8v2vByOui47yJJ1E75lDaTFzM_kamV145ImCMgXC5WNBQtU6wxM1zJNT9U2Prs4IlLelymrbwwfnAwip_Ji3DLr7CO5UN9WCA==",
+          "title": "vimeo.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Vimeo",
+    "domain": "vimeo.com",
+    "description": "Vimeo is a leading video experience platform that empowers users to create and share high-quality videos. Catering to a diverse community including creative professionals and large enterprises, Vimeo facilitates engaging video content that connects ideas and audiences. With millions of users and billions of monthly views, it stands out as an innovative solution for video sharing and collaboration."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Vimeo.com, Inc.",
+  "evidence": "Passage 1 explicitly states that the operating company directly providing Vimeo at vimeo.com is Vimeo.com, Inc.",
+  "source": {
+    "id": 1,
+    "text": "The operating company directly providing **Vimeo** at **vimeo.com** is **Vimeo.com, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuvb-1BfnFP0k5JSKhXMCE9kthZbSNSO_prkmuj0BNtHN_3blzVifOJl72XR5CNKNlvTsaPrBkmFgUwfhNDplG9CYrVlzWWsR0xkJkl8v2vByOui47yJJ1E75lDaTFzM_kamV145ImCMgXC5WNBQtU6wxM1zJNT9U2Prs4IlLelymrbwwfnAwip_Ji3DLr7CO5UN9WCA==",
+    "title": "vimeo.com"
+  },
+  "checked_at": "2026-11-05T08:39:08.330474+00:00"
+}

@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The operating company directly providing **ChatSpot** at **chatspot.ai** is **HubSpot, Inc.**\n\n### Evidence:\n* The official FAQ on **chatspot.ai** states: *\"Your use of ChatSpot.ai is subject to HubSpot's Beta Terms\"* and references customer data access within a user's HubSpot account.\n* **HubSpot, Inc.** announced and launched ChatSpot.ai as an AI-powered conversational CRM assistant integrated with HubSpot tools and OpenAI models.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The operating company directly providing **ChatSpot** at **chatspot.ai** is **HubSpot, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5KKi7gtE5Yoyy4mIukz6TMZVKdASZf2dwo-GJMbEOqLnokfAlGHF3q6Uh7zpXj3qQq5YQ7jo3-_MGXl1QUHWsmQ5uJ6BD1NL1AqmhNzE7cibYPFAZaE579YT21zzSZyxmg4fcnvh0",
+          "title": "tolky.to"
+        },
+        {
+          "id": 1,
+          "text": "The operating company directly providing **ChatSpot** at **chatspot.ai** is **HubSpot, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESAPPH6xW9SGWIBa-rsOEQEiVXgcBEMmsxUVethPiy2xD3N8As34AeEL1rpqBkoUIbvTrWD-z37qcf3JVaKpScbvIgIDneH5f-XBo5Vw2J3vgFjW7CjFzMAdZKrjM2ziKG8iZbrswelNPvEGVSwtMshJhqsmFNXZP17EeOi13MVUPoeT2opvdOABKl5qWwswix0jTEGgQw3s5Pwyb1BDZDqY7NSwFILvvrDg==",
+          "title": "businesswire.com"
+        },
+        {
+          "id": 2,
+          "text": "The official FAQ on **chatspot.ai** states: *\"Your use of ChatSpot.ai is subject to HubSpot's Beta Terms\"* and references customer data access within a user's HubSpot account",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLue2lMeb7akVR26Nq2VciZnsFUWwnbcUODQWODPIfddnH3HWTa4h3i1pvCKO4Q53xACW1aJr7luxOkApk3XJSfipomBVl8F1G5GF5gOPq9_I=",
+          "title": "chatspot.ai"
+        },
+        {
+          "id": 3,
+          "text": "**HubSpot, Inc.** announced and launched ChatSpot.ai as an AI-powered conversational CRM assistant integrated with HubSpot tools and OpenAI models",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHS2FeD6aUvwkOtbHWfhx_nScZW6v3BHXwIkNGxFFe4Zh1-YsWF5ETbsvfTvbF2crbw0YbGeX8KY2JcptYRmPuXBqYvoGKsx-f2I7m-kkQsef0uPvRtil0_8-ifPpe1CbCxIxS-6A==",
+          "title": "hubspot.com"
+        },
+        {
+          "id": 4,
+          "text": "**HubSpot, Inc.** announced and launched ChatSpot.ai as an AI-powered conversational CRM assistant integrated with HubSpot tools and OpenAI models",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESAPPH6xW9SGWIBa-rsOEQEiVXgcBEMmsxUVethPiy2xD3N8As34AeEL1rpqBkoUIbvTrWD-z37qcf3JVaKpScbvIgIDneH5f-XBo5Vw2J3vgFjW7CjFzMAdZKrjM2ziKG8iZbrswelNPvEGVSwtMshJhqsmFNXZP17EeOi13MVUPoeT2opvdOABKl5qWwswix0jTEGgQw3s5Pwyb1BDZDqY7NSwFILvvrDg==",
+          "title": "businesswire.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "HubSpot, Inc.",
+        "evidence": "Passage 1 states directly that the operating company providing ChatSpot at chatspot.ai is HubSpot, Inc.",
+        "source": {
+          "id": 1,
+          "text": "The operating company directly providing **ChatSpot** at **chatspot.ai** is **HubSpot, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESAPPH6xW9SGWIBa-rsOEQEiVXgcBEMmsxUVethPiy2xD3N8As34AeEL1rpqBkoUIbvTrWD-z37qcf3JVaKpScbvIgIDneH5f-XBo5Vw2J3vgFjW7CjFzMAdZKrjM2ziKG8iZbrswelNPvEGVSwtMshJhqsmFNXZP17EeOi13MVUPoeT2opvdOABKl5qWwswix0jTEGgQw3s5Pwyb1BDZDqY7NSwFILvvrDg==",
+          "title": "businesswire.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "ChatSpot",
+    "domain": "chatspot.ai",
+    "description": "Chat smarter with ChatSpot, your AI-powered assistant."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "HubSpot, Inc.",
+  "evidence": "Passage 1 states directly that the operating company providing ChatSpot at chatspot.ai is HubSpot, Inc.",
+  "source": {
+    "id": 1,
+    "text": "The operating company directly providing **ChatSpot** at **chatspot.ai** is **HubSpot, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESAPPH6xW9SGWIBa-rsOEQEiVXgcBEMmsxUVethPiy2xD3N8As34AeEL1rpqBkoUIbvTrWD-z37qcf3JVaKpScbvIgIDneH5f-XBo5Vw2J3vgFjW7CjFzMAdZKrjM2ziKG8iZbrswelNPvEGVSwtMshJhqsmFNXZP17EeOi13MVUPoeT2opvdOABKl5qWwswix0jTEGgQw3s5Pwyb1BDZDqY7NSwFILvvrDg==",
+    "title": "businesswire.com"
+  },
+  "checked_at": "2026-11-05T05:49:35.148527+00:00"
+}

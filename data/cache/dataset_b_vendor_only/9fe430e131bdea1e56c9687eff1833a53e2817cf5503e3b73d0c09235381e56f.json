@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **Yoast** software and services at **yoast.com** is **Yoast B.V.** (or **Yoast BV**).\n\n### Provider Statement & Evidence\n* **Yoast Terms & Conditions:** *\"These terms & conditions apply to the update and support services provided by Yoast BV of the Netherlands to you as a licensee of any GPL-licensed software provided by Yoast...\"*\n* **Yoast Shopify Terms & Conditions:** *“As used in these Yoast Shopify Terms & Conditions, ‘we’, ‘us’ and ‘Yoast’ mean Yoast B.V., a company incorporated in the Netherlands and registered under number 55044367.”*\n* **Yoast Rights & Trademark Notice:** *“Yoast is a trademark owned by Yoast BV, a Dutch limited liability company.”*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **Yoast** software and services at **yoast.com** is **Yoast B.V.** (or **Yoast BV**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeQufOPAkWibvATsKhMBbq7ECD24_WuUzpktWk_szTUtaSG7TIOTYFTPDi3WDl48wZVV5tjvT7g8QdQ9C1-uHUpOAS7LAzAsOJqeeOGc3iSx0laCb2VllN",
+          "title": "yoast.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the **Yoast** software and services at **yoast.com** is **Yoast B.V.** (or **Yoast BV**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFY45tWXZSbkZ7bg0-kcp-RN7yympW5bWifswrNs4Iofe7fp9OjNfyeCcdID5kGOTdE51uOrLtW5x3dWa7OL-6XZ9MiPDYlw1wxqKQZIpJ2pQSF06FXbE0rFpqMfLqoK7WiHxA9SmeOkFr6Lg==",
+          "title": "yoast.com"
+        },
+        {
+          "id": 2,
+          "text": "**Yoast Terms & Conditions:** *\"These terms & conditions apply to the update and support services provided by Yoast BV of the Netherlands to you as a licensee of any GPL-licensed software provided by Yoast...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGszTmz6MTT0Ty8EiWC4RBwhc5JMoflJawagTFUwl7BJk0uD-gWAcZOmRLodYcDSYESzVxE2ZbZ6cMJFo-7Cr1cItr5hCFoLT9Tk4d-s1a4wu6jZTke6ISBNUaBmctBu_-RojhdPGbWHuHPQ09hCqKdlZRT1Jmx",
+          "title": "yoast.com"
+        },
+        {
+          "id": 3,
+          "text": "**Yoast Shopify Terms & Conditions:** *“As used in these Yoast Shopify Terms & Conditions, ‘we’, ‘us’ and ‘Yoast’ mean Yoast B.V., a company incorporated in the Netherlands and registered under number 55044367.”*\n* **Yoast Right",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFY45tWXZSbkZ7bg0-kcp-RN7yympW5bWifswrNs4Iofe7fp9OjNfyeCcdID5kGOTdE51uOrLtW5x3dWa7OL-6XZ9MiPDYlw1wxqKQZIpJ2pQSF06FXbE0rFpqMfLqoK7WiHxA9SmeOkFr6Lg==",
+          "title": "yoast.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Yoast BV",
+        "evidence": "Yoast Terms & Conditions state that update and support services for GPL-licensed software provided by Yoast are provided by Yoast BV of the Netherlands.",
+        "source": {
+          "id": 2,
+          "text": "**Yoast Terms & Conditions:** *\"These terms & conditions apply to the update and support services provided by Yoast BV of the Netherlands to you as a licensee of any GPL-licensed software provided by Yoast...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGszTmz6MTT0Ty8EiWC4RBwhc5JMoflJawagTFUwl7BJk0uD-gWAcZOmRLodYcDSYESzVxE2ZbZ6cMJFo-7Cr1cItr5hCFoLT9Tk4d-s1a4wu6jZTke6ISBNUaBmctBu_-RojhdPGbWHuHPQ09hCqKdlZRT1Jmx",
+          "title": "yoast.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Yoast",
+    "domain": "yoast.com",
+    "description": "Yoast is a digital marketing company focused on making SEO accessible to everyone. They develop user-friendly SEO plugins and provide educational resources, including blog posts and online courses, to help businesses of all sizes improve their search engine rankings and drive traffic. Based in the Netherlands, Yoast aims to empower both large enterprises and small websites in optimizing their online presence."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Yoast BV",
+  "evidence": "Yoast Terms & Conditions state that update and support services for GPL-licensed software provided by Yoast are provided by Yoast BV of the Netherlands.",
+  "source": {
+    "id": 2,
+    "text": "**Yoast Terms & Conditions:** *\"These terms & conditions apply to the update and support services provided by Yoast BV of the Netherlands to you as a licensee of any GPL-licensed software provided by Yoast...\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGszTmz6MTT0Ty8EiWC4RBwhc5JMoflJawagTFUwl7BJk0uD-gWAcZOmRLodYcDSYESzVxE2ZbZ6cMJFo-7Cr1cItr5hCFoLT9Tk4d-s1a4wu6jZTke6ISBNUaBmctBu_-RojhdPGbWHuHPQ09hCqKdlZRT1Jmx",
+    "title": "yoast.com"
+  },
+  "checked_at": "2026-11-05T08:11:46.332082+00:00"
+}

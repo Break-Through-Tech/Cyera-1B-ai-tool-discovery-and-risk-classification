@@ -1,0 +1,77 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on the official legal documents published on **grsai.com**:\n\n* **Grsai, LLC** is identified as the operating company in the platform's Terms of Service:\n  > *“'Grsai' refers to the Website and related services operated by Grsai, LLC. By accessing or using Grsai, whether through free or paid versions, you agree to be bound by these Terms of Service.”*\n\n* **Daka (Guangzhou) Technology Co., Ltd. (打卡（广州）科技有限公司)** is identified as the operating entity in the platform's Privacy Policy:\n  > *“本《隐私政策》适用于由打卡（广州）科技有限公司（‘我们’或‘运营方’）提供的Grsai 及相关网站、控制台、文档、SDK 与技术支持（统称‘产品和服务’）。”* (*\"This Privacy Policy applies to Grsai and related websites, consoles, documentation, SDKs, and technical support... provided by Daka (Guangzhou) Technology Co., Ltd. ('we' or 'Operator').\"*)",
+      "passages": [
+        {
+          "id": 0,
+          "text": " accessing or using Grsai, whether through free or paid versions, you agree to be bound by these Terms of Service.”*\n\n* ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkCmmHHBz-QZoOgW9OYdqDmvjYa5QRVXjhSjfXM88JMlgwRjpJf6_rRfdaMxQk2zouN2ql9WvF1SLh5r-cwdKvHMMbzrSBAZOJaYZ-qsg_iqe058y2rgk=",
+          "title": "grsai.com"
+        }
+      ],
+      "result": {
+        "status": "unknown",
+        "vendor": "UNKNOWN",
+        "evidence": "Passage 0 does not state or identify any company, developer, or operating entity for Grsai AI."
+      }
+    },
+    {
+      "answer": "The vendor directly providing **Grsai AI** at **grsai.com** is identified in its official legal documents as:\n\n* **Grsai, LLC** (in its English Terms of Service):  \n  > *\"This Terms of Service Agreement ('Agreement') governs your use of the Grsai website and services, accessible at https://grsai.com (the 'Website'). 'Grsai' refers to the Website and related services operated by Grsai, LLC.\"*\n* **打卡（广州）科技有限公司** (Daka (Guangzhou) Technology Co., Ltd., in its Chinese Privacy Policy):  \n  > *\"本《隐私政策》适用于由打卡（广州）科技有限公司（“我们”或“运营方”）提供的Grsai 及相关网站、控制台、文档、SDK 与技术支持（统称“产品和服务”）\"* (Translation: *\"This Privacy Policy applies to Grsai and related websites, consoles, documentation, SDKs, and technical support... provided by Daka (Guangzhou) Technology Co., Ltd. ('we' or 'operator')\")*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**Grsai, LLC** (in its English Terms of Service)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGw_1Wp4K8ryY4UFBX51El4IHVq54LXmcrSDSC6ett02Xx8ymroPhvO6lyn348QggsfKpL6-Z4VeIz8Y8ZEuT8FWR-1gTDVsUb3VQUIeW2iZCCABXBsJwOS",
+          "title": "grsai.com"
+        },
+        {
+          "id": 1,
+          "text": "'Grsai' refers to the Website and related services operated by Grsai, LLC.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGw_1Wp4K8ryY4UFBX51El4IHVq54LXmcrSDSC6ett02Xx8ymroPhvO6lyn348QggsfKpL6-Z4VeIz8Y8ZEuT8FWR-1gTDVsUb3VQUIeW2iZCCABXBsJwOS",
+          "title": "grsai.com"
+        },
+        {
+          "id": 2,
+          "text": "**打卡（广州）科技有限公司** (Daka (Guangzhou) Technology Co., Ltd., in its Chinese Privacy Policy):  \n  > *\"本《隐私政策》适用于由打卡（",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsl3AbPmzlAZ8XQsInayCEnyD9JfbOkdl5DV0Pc3SqRCmSDT0UaNRvOgBLDeo1cEKdpY1nH6p_64PhxY7Zy2s2ylvjfpXx4vMgLp-f_2jMUTjyoEhvtg==",
+          "title": "grsai.com"
+        },
+        {
+          "id": 3,
+          "text": "司（“我们”或“运营方”）提供的Grsai 及相关网站、控制台、文档、SDK 与技术支持（统称“产品和服务”）\"* (Translation: *\"This Privacy Policy applies to Grsai and related websites, consoles, documentation, SDKs, and technical support... provided by Daka (Guangzho",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsl3AbPmzlAZ8XQsInayCEnyD9JfbOkdl5DV0Pc3SqRCmSDT0UaNRvOgBLDeo1cEKdpY1nH6p_64PhxY7Zy2s2ylvjfpXx4vMgLp-f_2jMUTjyoEhvtg==",
+          "title": "grsai.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Grsai, LLC",
+        "evidence": "Passage 1 explicitly states that 'Grsai' refers to the Website and related services operated by Grsai, LLC.",
+        "source": {
+          "id": 1,
+          "text": "'Grsai' refers to the Website and related services operated by Grsai, LLC.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGw_1Wp4K8ryY4UFBX51El4IHVq54LXmcrSDSC6ett02Xx8ymroPhvO6lyn348QggsfKpL6-Z4VeIz8Y8ZEuT8FWR-1gTDVsUb3VQUIeW2iZCCABXBsJwOS",
+          "title": "grsai.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Grsai AI",
+    "domain": "grsai.com",
+    "description": "Grsai aggregates various mainstream image and video generation large models, reducing your usage costs by several times lower than the official price!"
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Grsai, LLC",
+  "evidence": "Passage 1 explicitly states that 'Grsai' refers to the Website and related services operated by Grsai, LLC.",
+  "source": {
+    "id": 1,
+    "text": "'Grsai' refers to the Website and related services operated by Grsai, LLC.\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGw_1Wp4K8ryY4UFBX51El4IHVq54LXmcrSDSC6ett02Xx8ymroPhvO6lyn348QggsfKpL6-Z4VeIz8Y8ZEuT8FWR-1gTDVsUb3VQUIeW2iZCCABXBsJwOS",
+    "title": "grsai.com"
+  },
+  "checked_at": "2026-11-05T07:48:05.807239+00:00"
+}

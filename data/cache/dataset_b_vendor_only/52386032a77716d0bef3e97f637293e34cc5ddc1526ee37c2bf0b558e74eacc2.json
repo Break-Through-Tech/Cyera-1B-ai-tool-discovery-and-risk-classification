@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on the official legal pages for **MatchPhotos** at **matchphotos.io**:\n\n* **Direct Provider / Brand:** **MatchPhotos** (operating as **MatchPhotos.io**)\n* **Provider Statement:** The official Terms of Service state: \n  > *\"These Terms and Conditions ('Terms') govern your use of our website at https://matchphotos.io/ ('Site') and the services provided by MatchPhotos ('we', 'us', or 'our').\"*\n* **Additional Details:** The site identifies its contact entity as **MatchPhotos.io** (`contact@matchphotos.io`), asserts copyright as *\"© Copyright 2026 MatchPhotos. All rights reserved,\"* and does not name a separate incorporated parent entity.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**Direct Provider / Brand:** **MatchPhotos** (operating as **MatchPhotos.io**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHO8tCZ65IhO1ElhDFBeMsf5TcJqcdx5oFiQ2EZCteL4dX3nuX27xAEHteF6Bxx1Itytn7VNjGhIEzyG0yE7u7qxflxuHF3tsK_FyUAmIunuMEQBt4pEw==",
+          "title": "kitio.ai"
+        },
+        {
+          "id": 1,
+          "text": "**Direct Provider / Brand:** **MatchPhotos** (operating as **MatchPhotos.io**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEI4DyeTDAuzlldwtkaYFlh6zQEg77D2GxM1don3-V-ZwQumOrvEHGL2skCMgu-DYcS5Kukzdz70EkqcLjjDG6L1DYVD5Ss50AA-Uq_PyssdxgB",
+          "title": "matchphotos.io"
+        },
+        {
+          "id": 2,
+          "text": "*\"These Terms and Conditions ('Terms') govern your use of our website at https://matchphotos.io/ ('Site') and the services provided by MatchPhotos ('we', 'us', or 'our').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEI4DyeTDAuzlldwtkaYFlh6zQEg77D2GxM1don3-V-ZwQumOrvEHGL2skCMgu-DYcS5Kukzdz70EkqcLjjDG6L1DYVD5Ss50AA-Uq_PyssdxgB",
+          "title": "matchphotos.io"
+        },
+        {
+          "id": 3,
+          "text": "**Additional Details:** The site identifies its contact entity as **MatchPhotos.io** (`contact@matchphotos.io`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpGOv7mBTW6q3z7iEH_o4wz8lhuhxelk2f8iSAHeXi91De2tGssYkhOMesNw5LqR7ZD4OCJ765QmcPhiQPIIsolGJc_dFtTY8Ei_yhIS1zaHzXXFM=",
+          "title": "matchphotos.io"
+        },
+        {
+          "id": 4,
+          "text": "ll rights reserved,\"* ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTgIGq9gmq1V2cPr48r_jC473TmgcRuTAexbbupl6u2R1bwSyc7F-Qgr3qR6e8ehnZlEcySbKvpVceomklgu83QCA30JW3q2P87mTLix5esOFAZXVNxX9IulI3FmvSXEc_",
+          "title": "matchphotos.io"
+        },
+        {
+          "id": 5,
+          "text": "ll rights reserved,\"* and does not name a separate incorporated parent entity.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIon_NmxFKgQ1LQV2X4A7Z3bLCMktp-mRxNMPt030T5YIIDV71p-yhl0AtUvwz9430z8aXkQb1DYc5dIh4wBVSvox5J3zoPsxADq0uu6h_JlE=",
+          "title": "matchphotos.io"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "MatchPhotos",
+        "evidence": "Passage 2 states that the Terms and Conditions govern the use of the website at https://matchphotos.io/ and the services provided by MatchPhotos ('we', 'us', or 'our').",
+        "source": {
+          "id": 2,
+          "text": "*\"These Terms and Conditions ('Terms') govern your use of our website at https://matchphotos.io/ ('Site') and the services provided by MatchPhotos ('we', 'us', or 'our').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEI4DyeTDAuzlldwtkaYFlh6zQEg77D2GxM1don3-V-ZwQumOrvEHGL2skCMgu-DYcS5Kukzdz70EkqcLjjDG6L1DYVD5Ss50AA-Uq_PyssdxgB",
+          "title": "matchphotos.io"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "MatchPhotos",
+    "domain": "matchphotos.io",
+    "description": "MatchPhotos is an AI-powered image matching tool that helps users find visually similar images across different datasets. It leverages advanced algorithms to identify near-duplicate and visually similar images quickly and efficiently."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "MatchPhotos",
+  "evidence": "Passage 2 states that the Terms and Conditions govern the use of the website at https://matchphotos.io/ and the services provided by MatchPhotos ('we', 'us', or 'our').",
+  "source": {
+    "id": 2,
+    "text": "*\"These Terms and Conditions ('Terms') govern your use of our website at https://matchphotos.io/ ('Site') and the services provided by MatchPhotos ('we', 'us', or 'our').\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEI4DyeTDAuzlldwtkaYFlh6zQEg77D2GxM1don3-V-ZwQumOrvEHGL2skCMgu-DYcS5Kukzdz70EkqcLjjDG6L1DYVD5Ss50AA-Uq_PyssdxgB",
+    "title": "matchphotos.io"
+  },
+  "checked_at": "2026-11-05T06:38:46.410871+00:00"
+}

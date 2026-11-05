@@ -1,0 +1,77 @@
+{
+  "attempts": [
+    {
+      "answer": "For the product **AI Music Generator** at the domain **`aimusicgenerator.dev`**, no vendor, operating company, published developer, or supported provider brand can be established. \n\n### Reason:\n* **No Published Legal/Developer Information:** There are no accessible or indexed Terms of Service, Privacy Policy, Impressum, or \"About Us\" pages identifying a corporate entity, team, or individual creator behind `aimusicgenerator.dev`.\n* **Directory Data is Blank or Unclaimed:** Software registries and tracking databases that list the domain (such as SaaSHub) list the operating company as blank (`—`), while platforms like WebCatalog show an unverified, unclaimed developer profile (*\"Are you the developer of this app? Verify ownership to manage this listing.\"*).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "For the product **AI Music Generator** at the domain **`aimusicgenerator.dev`**, no vendor, operating company, published developer, or supported provider brand can be established",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhIvxgWXNDQd7Iufi4kwJNPA5BFIkRRG6pQBtt4LAn6Tg3u8zDd-jyxPSPtB_KKV3rcf0ZGI9U_qOxVvgQQB8U9FmHKUnd8oLz7ycpU9esBmFyZRCXS_VHRuEx4ECyUHssaC0OVzxCuIEB",
+          "title": "webcatalog.io"
+        },
+        {
+          "id": 1,
+          "text": "For the product **AI Music Generator** at the domain **`aimusicgenerator.dev`**, no vendor, operating company, published developer, or supported provider brand can be established",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFO_Fh4AbtD1zEiNGyumI5vbrm3gB3ie8fvgAhyibS08vD28GKHUD96nbIHupJ_Zv1WUd7iBCl-QwxX43JxsOqShM4isCo9SqxBFJnQQgI0Ybf-6Hbh75CI9WqKKmxTpEUQx_7dfgUaroc-Bh6csNPX1dFt2ShOnGvzhw==",
+          "title": "saashub.com"
+        },
+        {
+          "id": 2,
+          "text": "**No Published Legal/Developer Information:** There are no accessible or indexed Terms of Service, Privacy Policy, Impressum, or \"About Us\" pages identifying a corporate entity, team, or individual creator behind `aimusicgenerator.dev`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhIvxgWXNDQd7Iufi4kwJNPA5BFIkRRG6pQBtt4LAn6Tg3u8zDd-jyxPSPtB_KKV3rcf0ZGI9U_qOxVvgQQB8U9FmHKUnd8oLz7ycpU9esBmFyZRCXS_VHRuEx4ECyUHssaC0OVzxCuIEB",
+          "title": "webcatalog.io"
+        },
+        {
+          "id": 3,
+          "text": "**No Published Legal/Developer Information:** There are no accessible or indexed Terms of Service, Privacy Policy, Impressum, or \"About Us\" pages identifying a corporate entity, team, or individual creator behind `aimusicgenerator.dev`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFO_Fh4AbtD1zEiNGyumI5vbrm3gB3ie8fvgAhyibS08vD28GKHUD96nbIHupJ_Zv1WUd7iBCl-QwxX43JxsOqShM4isCo9SqxBFJnQQgI0Ybf-6Hbh75CI9WqKKmxTpEUQx_7dfgUaroc-Bh6csNPX1dFt2ShOnGvzhw==",
+          "title": "saashub.com"
+        }
+      ],
+      "result": {
+        "status": "unknown",
+        "vendor": "UNKNOWN",
+        "evidence": "The provided evidence states that no vendor, operating company, published developer, or supported provider brand can be established for aimusicgenerator.dev."
+      }
+    },
+    {
+      "answer": "No vendor, operating company, published developer, or supported provider brand can be established for **Ai Music Generator** at **`aimusicgenerator.dev`**.\n\n### Findings & Reason:\n* **No Disclosed Company or Developer:** Public listings, index summaries, and directory profiles (such as WebCatalog, SaaSHub, and EliteAI.tools) for `aimusicgenerator.dev` list the operating company as empty/unspecified (`—`).\n* **Unclaimed Ownership:** WebCatalog’s listing for `aimusicgenerator.dev` marks the developer ownership as unverified and unclaimed (\"*Are you the developer of this app? Verify ownership to manage this listing*\"). \n* **Lack of Attribution:** No formal terms of service, privacy policy, copyright statement, or developer credits attributing the domain to a specific legal entity or individual developer are publicly available or documented.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**No Disclosed Company or Developer:** Public listings, index summaries, and directory profiles (such as WebCatalog, SaaSHub, and EliteAI.tools) for `aimusicgenerator.dev` list the operating company as empty/unspecified (`—`).\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLvDw-DDmzu0TzI3vzphJ97teQdYXi4FN3DKEPdyFHNNfZ_UwF_pKgVqykuvmAcv39jjImEKgdHVk1xf4iFal1763pejA2GuYEmhBNY8JeZDhl8PRJbzzRe22IAlUnV2KMfw8ywM-E6pwsYYehgKhCktHFVw==",
+          "title": "saashub.com"
+        },
+        {
+          "id": 1,
+          "text": "**No Disclosed Company or Developer:** Public listings, index summaries, and directory profiles (such as WebCatalog, SaaSHub, and EliteAI.tools) for `aimusicgenerator.dev` list the operating company as empty/unspecified (`—`).\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZ1CHo68L27pYI1wXXQTXivbHoyljZnISdMZFoDnDnr4Q7E3T0IwnVjDIpCCC4vKbZ_Gcsv-dXIYGyk7-CciaYh1gRddMnb5nDxn7ieVI1sWvM5Nflh9OF0iN65GSK4UVqaYxk7benjAprxru5Y9E1Ict5Osk=",
+          "title": "saashub.com"
+        },
+        {
+          "id": 2,
+          "text": "fy ownership to manage this listing*\"). \n*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGazys0uLjAEcwNGUQSb402I3eBu3NrKfEbj6Hc8hTK87vyvp-BflCXu7wEOcW0Agla5PvVPsQdJbxtEtIU5WnE3f93-jHjtZJLcAH91hZjpMXgV71CkjYGUKrMduhvOI_ph0T35n6heCc=",
+          "title": "webcatalog.io"
+        }
+      ],
+      "result": {
+        "status": "unknown",
+        "vendor": "UNKNOWN",
+        "evidence": "Public listings and index summaries list the operating company as empty or unspecified, and no developer or provider brand is identified in the provided evidence."
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Ai Music Generator",
+    "domain": "aimusicgenerator.dev",
+    "description": "Create professional music and songs instantly with our free AI Music Generator."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "unknown",
+  "vendor": "UNKNOWN",
+  "evidence": "Public listings and index summaries list the operating company as empty or unspecified, and no developer or provider brand is identified in the provided evidence.",
+  "checked_at": "2026-11-05T06:35:45.837402+00:00"
+}

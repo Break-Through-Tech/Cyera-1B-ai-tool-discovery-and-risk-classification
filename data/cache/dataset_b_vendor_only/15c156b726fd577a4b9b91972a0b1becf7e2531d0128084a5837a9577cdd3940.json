@@ -1,0 +1,97 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Diigo** at **diigo.com** is **Diigo, Inc.**\n\n### Supporting Evidence:\n* **Product / Domain:** Diigo (`diigo.com`).\n* **Developer and Operating Entity:** The official applications and extensions associated with `diigo.com` (such as the Diigo browser and mobile applications) are published and copyrighted by **Diigo Inc.** (listing support at `care@diigo.com`). Third-party privacy disclosures and company registries similarly designate Diigo as operated by **Diigo, Inc.**.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Diigo** at **diigo.com** is **Diigo, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcUEQCH8uzLIjRYv2Rl5cWXzt2PFOB2q-NyllMTBG8L3MDVPhH0-Vfy6fWiE6e356ackCKSuqPv9oaq8Aix7rH9c68BAhrCnn1gJiL26SYEVZb5QaipKHZkjkVbeGeXoiMG0_mwI-T6dInfri83K2U4v1Wud4=",
+          "title": "apple.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Diigo** at **diigo.com** is **Diigo, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEn6odDvDdxVE7zilqm18hNQFKNJoK1GuTLiSHafNxxFJ2a34VIkdjxt2pY1YARgdKsYKfVPka67mfEtxR_gXLt3m5qyjTHJR_RaMNYvOH5efa1mZvjeNdQlmUX6hpY2Q==",
+          "title": "blog2social.com"
+        },
+        {
+          "id": 2,
+          "text": "**Product / Domain:** Diigo (`diigo.com`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcUEQCH8uzLIjRYv2Rl5cWXzt2PFOB2q-NyllMTBG8L3MDVPhH0-Vfy6fWiE6e356ackCKSuqPv9oaq8Aix7rH9c68BAhrCnn1gJiL26SYEVZb5QaipKHZkjkVbeGeXoiMG0_mwI-T6dInfri83K2U4v1Wud4=",
+          "title": "apple.com"
+        },
+        {
+          "id": 3,
+          "text": "**Product / Domain:** Diigo (`diigo.com`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEn6odDvDdxVE7zilqm18hNQFKNJoK1GuTLiSHafNxxFJ2a34VIkdjxt2pY1YARgdKsYKfVPka67mfEtxR_gXLt3m5qyjTHJR_RaMNYvOH5efa1mZvjeNdQlmUX6hpY2Q==",
+          "title": "blog2social.com"
+        },
+        {
+          "id": 4,
+          "text": "**Product / Domain:** Diigo (`diigo.com`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPuVV_K-w7nAykPBJzCGXGSi2GKmxdWKGDEAW3JW5JEO-rCkOj1SL2EpU5H-4P0o0IGO6yHNhVhJdvZXKgIBp3xd_nRzEgFpT867t2h1Ncvkr9ulsIQPTnKO5rnWP6vYOZCGWrsg0wr6U1tYxu",
+          "title": "apple.com"
+        },
+        {
+          "id": 5,
+          "text": "**Developer and Operating Entity:** The official applications and extensions associated with `diigo.com` (such as the Diigo browser and mobile applications) are published and copyrighted by **Diigo Inc.** (listing support at `care@diigo.com`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcUEQCH8uzLIjRYv2Rl5cWXzt2PFOB2q-NyllMTBG8L3MDVPhH0-Vfy6fWiE6e356ackCKSuqPv9oaq8Aix7rH9c68BAhrCnn1gJiL26SYEVZb5QaipKHZkjkVbeGeXoiMG0_mwI-T6dInfri83K2U4v1Wud4=",
+          "title": "apple.com"
+        },
+        {
+          "id": 6,
+          "text": "**Developer and Operating Entity:** The official applications and extensions associated with `diigo.com` (such as the Diigo browser and mobile applications) are published and copyrighted by **Diigo Inc.** (listing support at `care@diigo.com`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPuVV_K-w7nAykPBJzCGXGSi2GKmxdWKGDEAW3JW5JEO-rCkOj1SL2EpU5H-4P0o0IGO6yHNhVhJdvZXKgIBp3xd_nRzEgFpT867t2h1Ncvkr9ulsIQPTnKO5rnWP6vYOZCGWrsg0wr6U1tYxu",
+          "title": "apple.com"
+        },
+        {
+          "id": 7,
+          "text": "Third-party privacy disclosures and company registries similarly designate Diigo as operated by **Diigo, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEn6odDvDdxVE7zilqm18hNQFKNJoK1GuTLiSHafNxxFJ2a34VIkdjxt2pY1YARgdKsYKfVPka67mfEtxR_gXLt3m5qyjTHJR_RaMNYvOH5efa1mZvjeNdQlmUX6hpY2Q==",
+          "title": "blog2social.com"
+        },
+        {
+          "id": 8,
+          "text": "Third-party privacy disclosures and company registries similarly designate Diigo as operated by **Diigo, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZRYEMfnPIsxT2GDbD7HPLtpmhLk8e7Mwkrf4i4MChWNi1DF_O9nYZJu6p_93oa5BMrSE8pdZ_5EyWkAOMgL1KNGPmUR252VegGWY0R43BTTIqOTeJgDAVuNCTHrw6kAxdtMGIY74=",
+          "title": "ed.gov"
+        },
+        {
+          "id": 9,
+          "text": "Third-party privacy disclosures and company registries similarly designate Diigo as operated by **Diigo, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaVbnjSaQl2NdpJbgnEfg9ALVdoPOJVQMXUmNSnDpcHORzy-1fwAo8y0vuvpWCdrjFhdqkiJlFVDmrh4RF4s8_17k2Hp61BX0x4KNS6zvB8Df7b8ITjfz03g==",
+          "title": "wikipedia.org"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Diigo, Inc.",
+        "evidence": "The vendor directly providing Diigo at diigo.com is Diigo, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Diigo** at **diigo.com** is **Diigo, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcUEQCH8uzLIjRYv2Rl5cWXzt2PFOB2q-NyllMTBG8L3MDVPhH0-Vfy6fWiE6e356ackCKSuqPv9oaq8Aix7rH9c68BAhrCnn1gJiL26SYEVZb5QaipKHZkjkVbeGeXoiMG0_mwI-T6dInfri83K2U4v1Wud4=",
+          "title": "apple.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Diigo",
+    "domain": "diigo.com",
+    "description": "Diigo is a leading online platform that offers tools for annotating, bookmarking, archiving, and sharing web pages. Accessible via web applications, browser extensions, and mobile apps for iPhone, iPad, and Android, Diigo facilitates easy collection and organization of online content, supports collaboration, and allows users to access their saved materials from anywhere."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Diigo, Inc.",
+  "evidence": "The vendor directly providing Diigo at diigo.com is Diigo, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Diigo** at **diigo.com** is **Diigo, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcUEQCH8uzLIjRYv2Rl5cWXzt2PFOB2q-NyllMTBG8L3MDVPhH0-Vfy6fWiE6e356ackCKSuqPv9oaq8Aix7rH9c68BAhrCnn1gJiL26SYEVZb5QaipKHZkjkVbeGeXoiMG0_mwI-T6dInfri83K2U4v1Wud4=",
+    "title": "apple.com"
+  },
+  "checked_at": "2026-11-05T08:29:10.937563+00:00"
+}

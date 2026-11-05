@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **Iubenda** at **iubenda.com** is directly provided by **iubenda s.r.l.**\n\n### Evidence\nAccording to the official **Terms and Conditions of www.iubenda.com**:\n> *\"This Website is provided by:  \n> **iubenda s.r.l.**  \n> Via Aosta 4, 20155 Milan (Italy)  \n> Milan Chamber of Commerce EU VAT No: IT07347120961 ... Company subject to the direction and coordination of team.blue NV.\"*\n\nFurthermore, the site's Legal & Privacy Hub states:\n> *\"iubenda s.r.l. is based in Milan, Italy, and is part of the team.blue group.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **Iubenda** at **iubenda.com** is directly provided by **iubenda s.r.l.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFa82TsA1EH1ntgSCAiAS9vU9X7A0SnWEIIZmEVQzIhoEgxOsveMM5aloLry3QexuK_w78WkjJAWerdxgs3ZmlG-ryL9wdDeaZy0G2Npncng1w_otM6Q2qW4NjAKs7lXNW9OA==",
+          "title": "iubenda.com"
+        },
+        {
+          "id": 1,
+          "text": "The software product **Iubenda** at **iubenda.com** is directly provided by **iubenda s.r.l.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqhiilth4DFIh5dZamFlMWcPgs7vL502xWeVuTOWop7eBWjm4hgTKDApfQ2tX9og4bvu6zPtu-bRvv8DqavPRe6CyVN23V7doGvzS4jXzfUlUZppLvTPfrSPzxFvtnYpQOMQ==",
+          "title": "iubenda.com"
+        },
+        {
+          "id": 2,
+          "text": "Company subject to the direction and coordination of team.blue NV.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqhiilth4DFIh5dZamFlMWcPgs7vL502xWeVuTOWop7eBWjm4hgTKDApfQ2tX9og4bvu6zPtu-bRvv8DqavPRe6CyVN23V7doGvzS4jXzfUlUZppLvTPfrSPzxFvtnYpQOMQ==",
+          "title": "iubenda.com"
+        },
+        {
+          "id": 3,
+          "text": "*\"iubenda s.r.l. is based in Milan, Italy, and is part of the team.blue group.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFa82TsA1EH1ntgSCAiAS9vU9X7A0SnWEIIZmEVQzIhoEgxOsveMM5aloLry3QexuK_w78WkjJAWerdxgs3ZmlG-ryL9wdDeaZy0G2Npncng1w_otM6Q2qW4NjAKs7lXNW9OA==",
+          "title": "iubenda.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "iubenda s.r.l.",
+        "evidence": "Passage 0 explicitly states that the software product Iubenda at iubenda.com is directly provided by iubenda s.r.l.",
+        "source": {
+          "id": 0,
+          "text": "The software product **Iubenda** at **iubenda.com** is directly provided by **iubenda s.r.l.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFa82TsA1EH1ntgSCAiAS9vU9X7A0SnWEIIZmEVQzIhoEgxOsveMM5aloLry3QexuK_w78WkjJAWerdxgs3ZmlG-ryL9wdDeaZy0G2Npncng1w_otM6Q2qW4NjAKs7lXNW9OA==",
+          "title": "iubenda.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Iubenda",
+    "domain": "iubenda.com",
+    "description": "Iubenda provides comprehensive solutions for data law compliance, serving over 80,000 clients globally. Their offerings include a Privacy Policy Generator, Cookie Compliance solutions, Terms and Conditions Generator, and Internal Privacy Management tools, all tailored to comply with major regulations such as GDPR, CCPA, and LGPD. Iubenda's solutions are customizable, monitored by legal experts, and available in nine languages, ensuring clients can remain compliant in an ever-evolving legal landscape."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "iubenda s.r.l.",
+  "evidence": "Passage 0 explicitly states that the software product Iubenda at iubenda.com is directly provided by iubenda s.r.l.",
+  "source": {
+    "id": 0,
+    "text": "The software product **Iubenda** at **iubenda.com** is directly provided by **iubenda s.r.l.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFa82TsA1EH1ntgSCAiAS9vU9X7A0SnWEIIZmEVQzIhoEgxOsveMM5aloLry3QexuK_w78WkjJAWerdxgs3ZmlG-ryL9wdDeaZy0G2Npncng1w_otM6Q2qW4NjAKs7lXNW9OA==",
+    "title": "iubenda.com"
+  },
+  "checked_at": "2026-11-05T08:32:58.847484+00:00"
+}

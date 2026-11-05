@@ -1,0 +1,85 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Confluence** at **atlassian.com** is **Atlassian Pty Ltd**.\n\n### Evidence & Provider Statement\nAccording to the official **Atlassian Product-Specific Terms** (supplementing the *Atlassian Customer Agreement*) at `atlassian.com/legal/product-terms`:\n\n> *\"The table below specifies the applicable Atlassian contracting entity and Product-Specific Terms for each listed Product, Product feature or offering. The Atlassian contracting entity is “Atlassian” for purposes of such terms, the Agreement and any associated Orders.\"*\n\nIn the table:\n* **Product(s) or offering(s):** *\"All Products not named elsewhere in this table, including Confluence and Jira.\"*\n* **Atlassian Contracting Entity:** **Atlassian Pty Ltd**",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Confluence** at **atlassian.com** is **Atlassian Pty Ltd**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-JzjWW5ZkmDjM9O0KhzfvQwqZXc71VPO5e4WcuqGac_npGcPy2hGyQWYp7wdcfM5jVb-S1IJbWNA_TllOWmNq09iMgh7r7Jmf73wHuhxZphOzC8e9mEEPo2k_G4IJlHFNvYY=",
+          "title": "atlassian.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Confluence** at **atlassian.com** is **Atlassian Pty Ltd**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGB6qnWyMLfNkfRy917aoU9PAqScRAXVu7AG-PyWjcfeh8knbDgBNafgB7e-PG-wT9xwLylcNQqZZFyU47PKmba-VAKrCEF85xYIoX6EM9cweiJDAjwYGwp2SxBX2OKwZ9xTrU=",
+          "title": "atlassian.com"
+        },
+        {
+          "id": 2,
+          "text": "According to the official **Atlassian Product-Specific Terms** (supplementing the *Atlassian Customer Agreement*) at `atlassian.com/legal/product-terms`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZT8tA3U_q-iNS-xYL3OyS517aBPucu15GWnZakLa7NJ4WnT8C-18kXS5F8VkBzSxIAajhk5mmoiH-hBJLRA2NUY6x9TZbgjzYmauCwjLugQCJJ5Pi-krnxlOSsELOnZjoPqTKXTiQfwQwRFmdgq2oQag=",
+          "title": "atlassian.com"
+        },
+        {
+          "id": 3,
+          "text": "According to the official **Atlassian Product-Specific Terms** (supplementing the *Atlassian Customer Agreement*) at `atlassian.com/legal/product-terms`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-JzjWW5ZkmDjM9O0KhzfvQwqZXc71VPO5e4WcuqGac_npGcPy2hGyQWYp7wdcfM5jVb-S1IJbWNA_TllOWmNq09iMgh7r7Jmf73wHuhxZphOzC8e9mEEPo2k_G4IJlHFNvYY=",
+          "title": "atlassian.com"
+        },
+        {
+          "id": 4,
+          "text": "The Atlassian contracting entity is “Atlassian” for purposes of such terms, the Agreement and any associated Orders.\"*\n\nIn",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-JzjWW5ZkmDjM9O0KhzfvQwqZXc71VPO5e4WcuqGac_npGcPy2hGyQWYp7wdcfM5jVb-S1IJbWNA_TllOWmNq09iMgh7r7Jmf73wHuhxZphOzC8e9mEEPo2k_G4IJlHFNvYY=",
+          "title": "atlassian.com"
+        },
+        {
+          "id": 5,
+          "text": "The Atlassian contracting entity is “Atlassian” for purposes of such terms, the Agreement and any associated Orders.\"*\n\nIn",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGB6qnWyMLfNkfRy917aoU9PAqScRAXVu7AG-PyWjcfeh8knbDgBNafgB7e-PG-wT9xwLylcNQqZZFyU47PKmba-VAKrCEF85xYIoX6EM9cweiJDAjwYGwp2SxBX2OKwZ9xTrU=",
+          "title": "atlassian.com"
+        },
+        {
+          "id": 6,
+          "text": "oduct(s) or offering(s):** *\"All Products not named elsewhere in this table, including Confluence and Jira.\"*\n* *",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-JzjWW5ZkmDjM9O0KhzfvQwqZXc71VPO5e4WcuqGac_npGcPy2hGyQWYp7wdcfM5jVb-S1IJbWNA_TllOWmNq09iMgh7r7Jmf73wHuhxZphOzC8e9mEEPo2k_G4IJlHFNvYY=",
+          "title": "atlassian.com"
+        },
+        {
+          "id": 7,
+          "text": "oduct(s) or offering(s):** *\"All Products not named elsewhere in this table, including Confluence and Jira.\"*\n* *",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGB6qnWyMLfNkfRy917aoU9PAqScRAXVu7AG-PyWjcfeh8knbDgBNafgB7e-PG-wT9xwLylcNQqZZFyU47PKmba-VAKrCEF85xYIoX6EM9cweiJDAjwYGwp2SxBX2OKwZ9xTrU=",
+          "title": "atlassian.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Atlassian Pty Ltd",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing Confluence at atlassian.com is Atlassian Pty Ltd.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Confluence** at **atlassian.com** is **Atlassian Pty Ltd**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-JzjWW5ZkmDjM9O0KhzfvQwqZXc71VPO5e4WcuqGac_npGcPy2hGyQWYp7wdcfM5jVb-S1IJbWNA_TllOWmNq09iMgh7r7Jmf73wHuhxZphOzC8e9mEEPo2k_G4IJlHFNvYY=",
+          "title": "atlassian.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Confluence",
+    "domain": "atlassian.com",
+    "description": "A team workspace for creating, organizing, and sharing documentation and knowledge."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Atlassian Pty Ltd",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing Confluence at atlassian.com is Atlassian Pty Ltd.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Confluence** at **atlassian.com** is **Atlassian Pty Ltd**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-JzjWW5ZkmDjM9O0KhzfvQwqZXc71VPO5e4WcuqGac_npGcPy2hGyQWYp7wdcfM5jVb-S1IJbWNA_TllOWmNq09iMgh7r7Jmf73wHuhxZphOzC8e9mEEPo2k_G4IJlHFNvYY=",
+    "title": "atlassian.com"
+  },
+  "checked_at": "2026-11-05T08:00:29.048839+00:00"
+}

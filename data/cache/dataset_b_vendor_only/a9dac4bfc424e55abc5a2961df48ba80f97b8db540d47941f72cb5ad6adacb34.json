@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "For the software product **PicMonkey** at **picmonkey.com**, the service is directly provided and operated by **Shutterstock, Inc.** (for users in the United States) and **Shutterstock Ireland Limited** (for users outside the United States).\n\nAccording to the official PicMonkey *Terms of Use* (`picmonkey.com`):\n> *\"With respect to users of the Websites or PicMonkey Services in the U.S., our Websites and PicMonkey Services are operated by Shutterstock, Inc. . With respect to all other users of the Websites or PicMonkey Services, our Websites and PicMonkey Services are operated by Shutterstock Ireland Limited (together with its affiliates and Shutterstock, Inc. 'PicMonkey', 'us', 'our', 'we').\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "For the software product **PicMonkey** at **picmonkey.com**, the service is directly provided and operated by **Shutterstock, Inc.** (for users in the United States) and **Shutterstock Ireland Limited** (for users outside the United States)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHy397NVnMd64PqMpGZxTf1dijU8FRRZ3TFzzlT3CXC-XFeSm6R1JSJCBVogcah5zaNvtnnWfAuJkkxIbOHlSYuJL2aIYvK4qINkNAqNHtsOPmpNqn3VxJM6Q==",
+          "title": "picmonkey.com"
+        },
+        {
+          "id": 1,
+          "text": "'PicMonkey', 'us', 'our', 'we').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHy397NVnMd64PqMpGZxTf1dijU8FRRZ3TFzzlT3CXC-XFeSm6R1JSJCBVogcah5zaNvtnnWfAuJkkxIbOHlSYuJL2aIYvK4qINkNAqNHtsOPmpNqn3VxJM6Q==",
+          "title": "picmonkey.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Shutterstock, Inc.",
+        "evidence": "Passage 0 states that for the software product PicMonkey at picmonkey.com, the service is directly provided and operated by Shutterstock, Inc. (for users in the United States) and Shutterstock Ireland Limited (for users outside the United States).",
+        "source": {
+          "id": 0,
+          "text": "For the software product **PicMonkey** at **picmonkey.com**, the service is directly provided and operated by **Shutterstock, Inc.** (for users in the United States) and **Shutterstock Ireland Limited** (for users outside the United States)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHy397NVnMd64PqMpGZxTf1dijU8FRRZ3TFzzlT3CXC-XFeSm6R1JSJCBVogcah5zaNvtnnWfAuJkkxIbOHlSYuJL2aIYvK4qINkNAqNHtsOPmpNqn3VxJM6Q==",
+          "title": "picmonkey.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "PicMonkey",
+    "domain": "picmonkey.com",
+    "description": "PicMonkey is an online graphic design platform that empowers users to create visually striking images for various purposes, including social media posts, marketing materials, web content, and personal projects. With a comprehensive library of templates, stock photos, and intuitive editing tools, PicMonkey facilitates an engaging and inspiring creative process for individuals and businesses alike."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Shutterstock, Inc.",
+  "evidence": "Passage 0 states that for the software product PicMonkey at picmonkey.com, the service is directly provided and operated by Shutterstock, Inc. (for users in the United States) and Shutterstock Ireland Limited (for users outside the United States).",
+  "source": {
+    "id": 0,
+    "text": "For the software product **PicMonkey** at **picmonkey.com**, the service is directly provided and operated by **Shutterstock, Inc.** (for users in the United States) and **Shutterstock Ireland Limited** (for users outside the United States)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHy397NVnMd64PqMpGZxTf1dijU8FRRZ3TFzzlT3CXC-XFeSm6R1JSJCBVogcah5zaNvtnnWfAuJkkxIbOHlSYuJL2aIYvK4qINkNAqNHtsOPmpNqn3VxJM6Q==",
+    "title": "picmonkey.com"
+  },
+  "checked_at": "2026-11-05T08:27:05.820990+00:00"
+}

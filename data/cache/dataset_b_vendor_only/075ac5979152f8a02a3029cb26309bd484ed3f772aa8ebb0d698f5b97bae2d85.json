@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **HumanizerPro** at **humanizerpro.ai** is **KamranAli Limited** (founded by Kamran Khan).\n\n### Evidence & Provider Statements\nAccording to the official Privacy Policy and site notices on **humanizerpro.ai**:\n* **Contact & Legal Address:**  \n  > *\"Address: KamranAli Limited, International House, 12 Constance Street, London E16 2DQ, England. Website: https://Humanizerpro.ai.\"*\n* **Copyright Notice:**  \n  > *\"© 2026 HumanizerPRO, KamranAli Limited. All rights reserved.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **HumanizerPro** at **humanizerpro.ai** is **KamranAli Limited**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGd_hzADQ0eeAoyLzc64JaQjqEC-Y0lnHNLC4SgZ5lCyaJ3nur6x3GMuyt15IA3x-EZlO6o6JnhwLEG0QJdH4xGlhADtDF8fLvtoaH5LJkr4Hcu9ag=",
+          "title": "humanizerpro.ai"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **HumanizerPro** at **humanizerpro.ai** is **KamranAli Limited**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFS1jweBp-oz504VdHaTnTdxN6N_7ABErcmXm6mCnEELq0laOgPoui49zw_sppiLhiNDSZEXY1rjlJTbxz_S0IJbh4c7ekiHbHcq31Yy4Lhsdi56qjh4uOQV_CUcfV_V9GOwJUS",
+          "title": "detectiondrama.com"
+        },
+        {
+          "id": 2,
+          "text": "The vendor directly providing **HumanizerPro** at **humanizerpro.ai** is **KamranAli Limited** (founded by Kamran Khan)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-ghxAb_ij4DEZSmJGaGHrVH2a1WF-pOIP4_tp9pB_ttaC6FVtxOB1Q588Nr92p-ReuOqiI8H_mKSFOEhcb1VXC2pENTWehzrK4IN-_qWec5GHlhxZux5WloVXeM6HnkE1w8pcbvC4Pw==",
+          "title": "humanizerpro.ai"
+        },
+        {
+          "id": 3,
+          "text": "The vendor directly providing **HumanizerPro** at **humanizerpro.ai** is **KamranAli Limited** (founded by Kamran Khan)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFS1jweBp-oz504VdHaTnTdxN6N_7ABErcmXm6mCnEELq0laOgPoui49zw_sppiLhiNDSZEXY1rjlJTbxz_S0IJbh4c7ekiHbHcq31Yy4Lhsdi56qjh4uOQV_CUcfV_V9GOwJUS",
+          "title": "detectiondrama.com"
+        },
+        {
+          "id": 4,
+          "text": "Website: https://Humanizerpro.ai.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGd_hzADQ0eeAoyLzc64JaQjqEC-Y0lnHNLC4SgZ5lCyaJ3nur6x3GMuyt15IA3x-EZlO6o6JnhwLEG0QJdH4xGlhADtDF8fLvtoaH5LJkr4Hcu9ag=",
+          "title": "humanizerpro.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "KamranAli Limited",
+        "evidence": "Passage 0 states directly that the vendor providing HumanizerPro at humanizerpro.ai is KamranAli Limited.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **HumanizerPro** at **humanizerpro.ai** is **KamranAli Limited**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGd_hzADQ0eeAoyLzc64JaQjqEC-Y0lnHNLC4SgZ5lCyaJ3nur6x3GMuyt15IA3x-EZlO6o6JnhwLEG0QJdH4xGlhADtDF8fLvtoaH5LJkr4Hcu9ag=",
+          "title": "humanizerpro.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "HumanizerPro",
+    "domain": "humanizerpro.ai",
+    "description": "HumanizerPro is an AI tool that enhances text by making it sound more natural and human-like, improving readability and engagement. It's ideal for content creators, marketers, and anyone needing to refine their writing."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "KamranAli Limited",
+  "evidence": "Passage 0 states directly that the vendor providing HumanizerPro at humanizerpro.ai is KamranAli Limited.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **HumanizerPro** at **humanizerpro.ai** is **KamranAli Limited**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGd_hzADQ0eeAoyLzc64JaQjqEC-Y0lnHNLC4SgZ5lCyaJ3nur6x3GMuyt15IA3x-EZlO6o6JnhwLEG0QJdH4xGlhADtDF8fLvtoaH5LJkr4Hcu9ag=",
+    "title": "humanizerpro.ai"
+  },
+  "checked_at": "2026-11-05T06:42:31.576195+00:00"
+}

@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The operating vendor directly providing the **Postman** API platform at **postman.com** is **Postman, Inc.**.\n\n### Provider Statement\nAccording to the official [Postman Terms of Service](https://www.postman.com/legal/terms/):\n> *\"These Terms of Service, and incorporated terms and policies below, (together the \"Terms\") are an agreement between **Postman, Inc.**, a Delaware corporation located at 1 Market Plaza, Ste 0800, Steuart Tower, San Francisco, CA 94105, USA, on behalf of itself and its Affiliates (\"Postman,\" \"we,\" or \"us\") and you (\"Customer,\" \"you,\" or \"your\") for the use of the Postman Services...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The operating vendor directly providing the **Postman** API platform at **postman.com** is **Postman, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9SE86aWlPEHpOREFpD5mgK50cpts6DaQdUkAwYmUVSe36a-YvXQ_2o8M_j6UJmkxIYIyUyLB88y2C2L5pI6HUm7OA2B89LHll--GEzTvhobLUN46ibkgqZQ0=",
+          "title": "postman.com"
+        },
+        {
+          "id": 1,
+          "text": "*\"These Terms of Service, and incorporated terms and policies below, (together the \"Terms\") are an agreement between **Postman, Inc.**, a Delaware corporation located at 1 Market Plaza, Ste 0800, Steuart Tower, San Francisco, CA 94105, USA, on behalf of itself and its Affiliates (\"Postman,\" \"we,\" or \"us\") and you (\"Customer,\" \"you,\" or \"your\") for the use of the Postman Services...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9SE86aWlPEHpOREFpD5mgK50cpts6DaQdUkAwYmUVSe36a-YvXQ_2o8M_j6UJmkxIYIyUyLB88y2C2L5pI6HUm7OA2B89LHll--GEzTvhobLUN46ibkgqZQ0=",
+          "title": "postman.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Postman, Inc.",
+        "evidence": "Passage 0 directly states that the operating vendor providing the Postman API platform at postman.com is Postman, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The operating vendor directly providing the **Postman** API platform at **postman.com** is **Postman, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9SE86aWlPEHpOREFpD5mgK50cpts6DaQdUkAwYmUVSe36a-YvXQ_2o8M_j6UJmkxIYIyUyLB88y2C2L5pI6HUm7OA2B89LHll--GEzTvhobLUN46ibkgqZQ0=",
+          "title": "postman.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Postman",
+    "domain": "postman.com",
+    "description": "Postman is a leading API platform that simplifies the process of building and collaborating on APIs. With over 30 million developers and 500,000 organizations globally utilizing its features, Postman aims to enhance API development speed and efficiency. The company continues to grow rapidly as users leverage its product for innovative solutions."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Postman, Inc.",
+  "evidence": "Passage 0 directly states that the operating vendor providing the Postman API platform at postman.com is Postman, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The operating vendor directly providing the **Postman** API platform at **postman.com** is **Postman, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9SE86aWlPEHpOREFpD5mgK50cpts6DaQdUkAwYmUVSe36a-YvXQ_2o8M_j6UJmkxIYIyUyLB88y2C2L5pI6HUm7OA2B89LHll--GEzTvhobLUN46ibkgqZQ0=",
+    "title": "postman.com"
+  },
+  "checked_at": "2026-11-05T09:36:34.293170+00:00"
+}

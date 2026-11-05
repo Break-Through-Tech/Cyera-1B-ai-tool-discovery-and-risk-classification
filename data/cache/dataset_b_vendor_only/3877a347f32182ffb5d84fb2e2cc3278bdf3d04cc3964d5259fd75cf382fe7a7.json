@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Jetpack** at **jetpack.com** is **Automattic Inc.** (Automattic).\n\n### Evidence & Provider Statements\n* **Jetpack Privacy Center (`jetpack.com`):** *\"Automattic owns and operates the Jetpack plugin\"* and references the *Automattic Privacy Notice* and *Automattic Terms of Service*.\n* **Jetpack Agreements & Legal Pages (`jetpack.com`):** The *Jetpack Agency Platform Agreement* defines the provider as *\"Automattic, Inc. ('Automattic')\"*, and the site copyright states: *\"© Automattic Inc. All rights reserved. Made with care by Automattic.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Jetpack** at **jetpack.com** is **Automattic Inc.** (Automattic)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHP_xNTM4vPQKTCpyV6dcFBKKlroBY3lURWgklCOlxcx8zcVk0J5TuLLB9pdzM-14S8vgaKc6FnIjCCp-_gyKpMVBH7fHDLh7ZKrYGZvVZ3iJr30SLtmBfTa_q6wf85oxGStlVTVEtbpcE=",
+          "title": "jetpack.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Jetpack** at **jetpack.com** is **Automattic Inc.** (Automattic)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaOcs4H9lXWIdsiy39Cvlpr2N-GK-dyJJdXYz81ozVosN_z9SbujjObIUoBx3em4LmbGvcOPgEfizYl2c34FspRBTeksr3Ajc9jmhpGhDmDmDPI7rUXpVHjQ==",
+          "title": "jetpack.com"
+        },
+        {
+          "id": 2,
+          "text": "The vendor directly providing **Jetpack** at **jetpack.com** is **Automattic Inc.** (Automattic)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjnpCvZNhe-n5llNiX0diiSV2RFN1Xrg8IeWzB3rfcOPXRpSPv_3snt1D5k_pbXVtTqBYqiuqwIPUw-wj-8C9hVlTmGNDb1tXxSQ-0Y7vraDSJZzY4Z2ROFZB2v5M=",
+          "title": "jetpack.com"
+        },
+        {
+          "id": 3,
+          "text": "**Jetpack Privacy Center (`jetpack.com`):** *\"Automattic owns and operates the Jetpack plugin\"* and references the *Automattic Privacy Notice* and *Automattic Terms of Service*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaOcs4H9lXWIdsiy39Cvlpr2N-GK-dyJJdXYz81ozVosN_z9SbujjObIUoBx3em4LmbGvcOPgEfizYl2c34FspRBTeksr3Ajc9jmhpGhDmDmDPI7rUXpVHjQ==",
+          "title": "jetpack.com"
+        },
+        {
+          "id": 4,
+          "text": "**Jetpack Privacy Center (`jetpack.com`):** *\"Automattic owns and operates the Jetpack plugin\"* and references the *Automattic Privacy Notice* and *Automattic Terms of Service*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBb4ROd302uUQCqwrLhwAMSwUP4zODiQnBMcTNS2I6_pZV8ffBbfOBrLyIkpGci7i4W5hb1cSXM6WhDJ-qf0-aJH3QZcf5WC-r7gEln89_uSxt1SwqyUSG_pIv9dtMkrH7OMFdnhaaKiht4IqiSA==",
+          "title": "jetpack.com"
+        },
+        {
+          "id": 5,
+          "text": "**Jetpack Agreements & Legal Pages (`jetpack.com`):** The *Jetpack Agency Platform Agreement* defines the provider as *\"Automattic, Inc. ('Automattic')\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjnpCvZNhe-n5llNiX0diiSV2RFN1Xrg8IeWzB3rfcOPXRpSPv_3snt1D5k_pbXVtTqBYqiuqwIPUw-wj-8C9hVlTmGNDb1tXxSQ-0Y7vraDSJZzY4Z2ROFZB2v5M=",
+          "title": "jetpack.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Automattic",
+        "evidence": "According to the Jetpack Privacy Center on jetpack.com, Automattic owns and operates the Jetpack plugin.",
+        "source": {
+          "id": 3,
+          "text": "**Jetpack Privacy Center (`jetpack.com`):** *\"Automattic owns and operates the Jetpack plugin\"* and references the *Automattic Privacy Notice* and *Automattic Terms of Service*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaOcs4H9lXWIdsiy39Cvlpr2N-GK-dyJJdXYz81ozVosN_z9SbujjObIUoBx3em4LmbGvcOPgEfizYl2c34FspRBTeksr3Ajc9jmhpGhDmDmDPI7rUXpVHjQ==",
+          "title": "jetpack.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Jetpack",
+    "domain": "jetpack.com",
+    "description": "Jetpack is a comprehensive toolkit for WordPress, providing essential features to enhance website security, design, and traffic growth. It offers secure login, protection against attacks, customizable themes, image tools, and tools for automatic social sharing, all aimed at creating a stronger and more effective online presence."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Automattic",
+  "evidence": "According to the Jetpack Privacy Center on jetpack.com, Automattic owns and operates the Jetpack plugin.",
+  "source": {
+    "id": 3,
+    "text": "**Jetpack Privacy Center (`jetpack.com`):** *\"Automattic owns and operates the Jetpack plugin\"* and references the *Automattic Privacy Notice* and *Automattic Terms of Service*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaOcs4H9lXWIdsiy39Cvlpr2N-GK-dyJJdXYz81ozVosN_z9SbujjObIUoBx3em4LmbGvcOPgEfizYl2c34FspRBTeksr3Ajc9jmhpGhDmDmDPI7rUXpVHjQ==",
+    "title": "jetpack.com"
+  },
+  "checked_at": "2026-11-05T09:42:27.379861+00:00"
+}

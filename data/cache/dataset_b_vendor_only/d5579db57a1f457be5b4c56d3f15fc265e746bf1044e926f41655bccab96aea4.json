@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product at **blockadelabs.com** is **Blockade Games, Inc.** (operating / doing business as **Blockade Labs**).\n\n### Evidence:\n* **Privacy Policy:** \n  > *\"The Blockadelabs.com site (the “Website”) is part of an overall service (the “Service” or “Services”) operated by Blockade Games Inc., doing business as Blockade Labs. The Service (including the Blockade Labs Website and its associated Skybox AI (skybox.blockadelabs.com) web application provides individual users... with features and services that include generation of artwork via artificial intelligence...\"*\n\n* **Terms of Service:**\n  > *\"This Agreement is entered into by Blockade Games, Inc., a Delaware corporation (“Blockade” or “We”) and the entity or person agreeing to these terms... and govern the Customer's access to and use of the Services [Skybox AI and/or Blendbox AI platforms].\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product at **blockadelabs.com** is **Blockade Games, Inc.** (operating / doing business as **Blockade Labs**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyDBuBRNCTPbFo7hFnO4kelpf0thiGpOrngH2cR5H21XCYNfaom0LQGrV-vD6Dh9Yr472rbnbmzzrBsCN6SwV7TzjNR8fRIyC7YoUJCP_iT_DHUoidma1hm3pkcNTP2OS1lBs=",
+          "title": "blockadelabs.com"
+        },
+        {
+          "id": 1,
+          "text": "(including the Blockade Labs Website and its associated Skybox AI (skybox.blockadelabs.com) web application provides individual users... with features and services that include generation of artwork via artificial intelligence...\"*\n\n* **Terms ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyDBuBRNCTPbFo7hFnO4kelpf0thiGpOrngH2cR5H21XCYNfaom0LQGrV-vD6Dh9Yr472rbnbmzzrBsCN6SwV7TzjNR8fRIyC7YoUJCP_iT_DHUoidma1hm3pkcNTP2OS1lBs=",
+          "title": "blockadelabs.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Blockade Games, Inc.",
+        "evidence": "Passage 0 explicitly identifies Blockade Games, Inc. (operating / doing business as Blockade Labs) as the vendor directly providing the software product at blockadelabs.com.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the software product at **blockadelabs.com** is **Blockade Games, Inc.** (operating / doing business as **Blockade Labs**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyDBuBRNCTPbFo7hFnO4kelpf0thiGpOrngH2cR5H21XCYNfaom0LQGrV-vD6Dh9Yr472rbnbmzzrBsCN6SwV7TzjNR8fRIyC7YoUJCP_iT_DHUoidma1hm3pkcNTP2OS1lBs=",
+          "title": "blockadelabs.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Blockadelabs",
+    "domain": "blockadelabs.com",
+    "description": "Generated 360° skybox for virtual projects."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Blockade Games, Inc.",
+  "evidence": "Passage 0 explicitly identifies Blockade Games, Inc. (operating / doing business as Blockade Labs) as the vendor directly providing the software product at blockadelabs.com.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the software product at **blockadelabs.com** is **Blockade Games, Inc.** (operating / doing business as **Blockade Labs**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyDBuBRNCTPbFo7hFnO4kelpf0thiGpOrngH2cR5H21XCYNfaom0LQGrV-vD6Dh9Yr472rbnbmzzrBsCN6SwV7TzjNR8fRIyC7YoUJCP_iT_DHUoidma1hm3pkcNTP2OS1lBs=",
+    "title": "blockadelabs.com"
+  },
+  "checked_at": "2026-11-05T06:55:02.188742+00:00"
+}

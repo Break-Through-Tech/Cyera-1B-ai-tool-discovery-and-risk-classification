@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Padlet** at **padlet.com** is **Wallwisher, Inc.** (doing business as **Padlet**).\n\n### Evidence & Provider Statements\n* **Padlet Legal Terms of Service:**  \n  > *\"Please read these Terms of Service, our Privacy Policy, and our Content Policy (collectively, the “Agreement”) carefully before using Padlet.com (the “Site”) and/or the other domains, products, services, and/or content provided by Wallwisher, Inc. (all of those collectively with the Site, the “Services”) (Wallwisher, Inc., a Delaware corporation... “Padlet,” “we,”...)\"*\n\n* **Padlet Legal Privacy Policy:**  \n  > *\"This Privacy Policy (“Policy”) applies to all products, services, and content offered by Wallwisher, Inc. DBA Padlet (“Padlet,” “we,” “us,” “our”)... in relation to access and use of padlet.com (the “Site”), our mobile and desktop applications (the “App”), browser extensions, blog, and related products and services (collectively, the “Service”).\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Padlet** at **padlet.com** is **Wallwisher, Inc.** (doing business as **Padlet**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7OR3HW6mYnHs6JCpQOwWqhBYWsH9XRDN_cS6-aCD5j3yE2_m-P_lRCEYfOV01atuJkDWaDt2MiHvF4Of51ULR3yryMxGJQYpk5IYC-rd3irOO6uN1qg==",
+          "title": "padlet.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Padlet** at **padlet.com** is **Wallwisher, Inc.** (doing business as **Padlet**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4ZhzdvaqN7Tiyq_8WlZZIabdGGdBnRpoumNfVhnb0_TB2UbQi9DU5RK_NcDTGasnMWCN5iSo9PiKVTQpCSBPlSgnbK44TYJSH9WjX-RSKuIORvoI=",
+          "title": "padlet.com"
+        },
+        {
+          "id": 2,
+          "text": "e,”...)\"*\n\n* **Padlet Legal P",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4ZhzdvaqN7Tiyq_8WlZZIabdGGdBnRpoumNfVhnb0_TB2UbQi9DU5RK_NcDTGasnMWCN5iSo9PiKVTQpCSBPlSgnbK44TYJSH9WjX-RSKuIORvoI=",
+          "title": "padlet.com"
+        },
+        {
+          "id": 3,
+          "text": "Please read these Terms of Service, our Privacy Policy, and our Content Policy (collectively, the “Agreement”) carefully before using Padlet.com (the “Site”) and/or the other domains, products, services, and/or content provided by Wallwisher, Inc. (all of those collectively with the Site, the “Services”) (Wallwisher, Inc., a Delaware corpor",
+          "url": "https://legal.padlet.com/terms",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Wallwisher, Inc.",
+        "evidence": "According to the Terms of Service for Padlet.com, the site and its services and products are provided by Wallwisher, Inc.",
+        "source": {
+          "id": 3,
+          "text": "Please read these Terms of Service, our Privacy Policy, and our Content Policy (collectively, the “Agreement”) carefully before using Padlet.com (the “Site”) and/or the other domains, products, services, and/or content provided by Wallwisher, Inc. (all of those collectively with the Site, the “Services”) (Wallwisher, Inc., a Delaware corpor",
+          "url": "https://legal.padlet.com/terms",
+          "title": ""
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Padlet",
+    "domain": "padlet.com",
+    "description": "Padlet is a software company that focuses on creating user-friendly and visually appealing digital collaboration tools. Their platform allows users to create interactive boards for brainstorming, organizing ideas, and sharing information seamlessly. Based in the digital innovation space, Padlet aims to enhance productivity and creativity in various environments, including education and business."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Wallwisher, Inc.",
+  "evidence": "According to the Terms of Service for Padlet.com, the site and its services and products are provided by Wallwisher, Inc.",
+  "source": {
+    "id": 3,
+    "text": "Please read these Terms of Service, our Privacy Policy, and our Content Policy (collectively, the “Agreement”) carefully before using Padlet.com (the “Site”) and/or the other domains, products, services, and/or content provided by Wallwisher, Inc. (all of those collectively with the Site, the “Services”) (Wallwisher, Inc., a Delaware corpor",
+    "url": "https://legal.padlet.com/terms",
+    "title": ""
+  },
+  "checked_at": "2026-11-05T09:20:32.769411+00:00"
+}

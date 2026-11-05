@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Pet Portrait AI** at **petportrait.ai** is **PetPortrait.AI**.\n\n### Evidence\n* **Terms of Service (`petportrait.ai/policies/terms-of-service`)**:\n  > *\"OVERVIEW This website is operated by PetPortrait.AI. Throughout the site, the terms “we”, “us” and “our” refer to PetPortrait.AI. PetPortrait.AI offers this website, including all information, tools and Services available from this site to you, the user...\"*\n* **Data Policy (`petportrait.ai/pages/data-policy`)**:\n  > *\"To the extent allowed by law and as between you and Pet Portrait AI, you own your image uploads, and you agree that Pet Portrait AI owns all Generations...\"*\n\nNo separate registered corporate entity is published on the domain (the site notes it is hosted via the e-commerce platform Shopify Inc.); the service is directly provided and operated under the brand name **PetPortrait.AI** (contact: `hello@petportrait.ai`).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Pet Portrait AI** at **petportrait.ai** is **PetPortrait.AI**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPkPifPUL_tpGE6pkSFvTuadMwsStEN6vqTf4Xkz5EhglX0rJkE3Xda2xGms9u6IPmm17lTN6nKcpM8s9dCpCwoO-6GJ8BQ0I_QPwv_NtC6ihNApRSUwobSymKPG184rW1T_RS1A==",
+          "title": "petportrait.ai"
+        },
+        {
+          "id": 1,
+          "text": "AI offers this website, including all information, tools and Services available from this site to you, the user...\"*\n* **Data Po",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPkPifPUL_tpGE6pkSFvTuadMwsStEN6vqTf4Xkz5EhglX0rJkE3Xda2xGms9u6IPmm17lTN6nKcpM8s9dCpCwoO-6GJ8BQ0I_QPwv_NtC6ihNApRSUwobSymKPG184rW1T_RS1A==",
+          "title": "petportrait.ai"
+        },
+        {
+          "id": 2,
+          "text": "ent allowed by law and as between you and Pet Portrait AI, you own your image uploads, and you agree that Pet Portrait AI owns all Generations...\"*\n\nNo separat",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEolABWU9Sc4s5k3sIAv5-u8FLwbV_55r-FWi_4lPy-nsrkrAcJEh4TjLfgP8ZO3rleAe3wp04CEOhlrAa_RG_fPfgz8jynR0SFEw5GrUdmmp93SlUsoKL4TK4GlfY=",
+          "title": "petportrait.ai"
+        },
+        {
+          "id": 3,
+          "text": "registered corporate entity is published on the domain (the site notes it is hosted via the e-commerce platform Shopify Inc.); the servi",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPkPifPUL_tpGE6pkSFvTuadMwsStEN6vqTf4Xkz5EhglX0rJkE3Xda2xGms9u6IPmm17lTN6nKcpM8s9dCpCwoO-6GJ8BQ0I_QPwv_NtC6ihNApRSUwobSymKPG184rW1T_RS1A==",
+          "title": "petportrait.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "PetPortrait.AI",
+        "evidence": "Passage 0 directly states that the vendor providing Pet Portrait AI at petportrait.ai is PetPortrait.AI.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Pet Portrait AI** at **petportrait.ai** is **PetPortrait.AI**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPkPifPUL_tpGE6pkSFvTuadMwsStEN6vqTf4Xkz5EhglX0rJkE3Xda2xGms9u6IPmm17lTN6nKcpM8s9dCpCwoO-6GJ8BQ0I_QPwv_NtC6ihNApRSUwobSymKPG184rW1T_RS1A==",
+          "title": "petportrait.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Pet Portrait AI",
+    "domain": "petportrait.ai",
+    "description": "Generates unique, custom-made pet portraits."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "PetPortrait.AI",
+  "evidence": "Passage 0 directly states that the vendor providing Pet Portrait AI at petportrait.ai is PetPortrait.AI.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Pet Portrait AI** at **petportrait.ai** is **PetPortrait.AI**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPkPifPUL_tpGE6pkSFvTuadMwsStEN6vqTf4Xkz5EhglX0rJkE3Xda2xGms9u6IPmm17lTN6nKcpM8s9dCpCwoO-6GJ8BQ0I_QPwv_NtC6ihNApRSUwobSymKPG184rW1T_RS1A==",
+    "title": "petportrait.ai"
+  },
+  "checked_at": "2026-11-05T07:11:04.835180+00:00"
+}

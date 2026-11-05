@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Oberlo** at **oberlo.com** is **Shopify Lithuania, UAB** (formerly known as Oberlo, UAB).\n\n* **Provider Statement:** Under the site's official Legal / Contact section on `oberlo.com`, the operating legal entity is identified as:  \n  > *\"Legal. Contact information. Shopify Lithuania, UAB Švitrigailos g. 11A, LT-03228 Vilnius, Lithuania billing@oberlo.com (for invoice requests only, other inquiries will be disregarded).\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Oberlo** at **oberlo.com** is **Shopify Lithuania, UAB** (formerly known as Oberlo, UAB)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE__ILibmHdH_bJHLgNvXzxSKrC5MCd5nqMrznntoNH8mPvvVS3lGBil2X9pkSnfqw-oueNsNUFITTFuYj7jRwS7uTeCGnDD0mSxVx5CedWXcs=",
+          "title": "oberlo.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Oberlo** at **oberlo.com** is **Shopify Lithuania, UAB** (formerly known as Oberlo, UAB)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF54rrooRz3aNdSO0XAk-CkLKB00vH0gdzV2EXL3cF3DVwVAtNKcUVETXwUR-IAEg3qX4L7ZczuGxVP7KNcj1NRcW-ut93FFSqNZNpvYHJabK2IQDF8mxUOhu0rdavp2OXU7A==",
+          "title": "vz.lt"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Shopify Lithuania, UAB",
+        "evidence": "Passage 0 confirms that the vendor directly providing Oberlo at oberlo.com is Shopify Lithuania, UAB.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Oberlo** at **oberlo.com** is **Shopify Lithuania, UAB** (formerly known as Oberlo, UAB)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE__ILibmHdH_bJHLgNvXzxSKrC5MCd5nqMrznntoNH8mPvvVS3lGBil2X9pkSnfqw-oueNsNUFITTFuYj7jRwS7uTeCGnDD0mSxVx5CedWXcs=",
+          "title": "oberlo.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Oberlo",
+    "domain": "oberlo.com",
+    "description": "Oberlo is a platform that facilitates dropshipping by connecting Shopify merchants with suppliers who ship products directly to consumers. It simplifies the process for entrepreneurs to import products into their Shopify stores and manage order fulfillment with minimal effort. With its operations centered in Vilnius, Berlin, and Shenzhen, Oberlo empowers entrepreneurs to launch and run their online businesses efficiently."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Shopify Lithuania, UAB",
+  "evidence": "Passage 0 confirms that the vendor directly providing Oberlo at oberlo.com is Shopify Lithuania, UAB.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Oberlo** at **oberlo.com** is **Shopify Lithuania, UAB** (formerly known as Oberlo, UAB)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE__ILibmHdH_bJHLgNvXzxSKrC5MCd5nqMrznntoNH8mPvvVS3lGBil2X9pkSnfqw-oueNsNUFITTFuYj7jRwS7uTeCGnDD0mSxVx5CedWXcs=",
+    "title": "oberlo.com"
+  },
+  "checked_at": "2026-11-05T08:15:37.007567+00:00"
+}

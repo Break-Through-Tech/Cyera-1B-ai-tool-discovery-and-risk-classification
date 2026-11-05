@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Microsoft Office** at **office.com** is **Microsoft Corporation**. \n\nAccording to the official **Microsoft Software License Terms** and **Microsoft Terms of Use / Services Agreement** for Office software and services accessed through `office.com`:\n> *\"Depending on how you obtained the Office software, this is a license agreement between (i) you and the device manufacturer or software installer that distributes the software with your device; or (ii) you and Microsoft Corporation (or, based on where you live or, if a business, where your principal place of business is located, one of its affiliates) if you acquired the software from a retailer. Microsoft is the device manufacturer for devices produced by Microsoft or one of its affiliates, and Microsoft is the retailer if you acquired the software directly from Microsoft.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Microsoft Office** at **office.com** is **Microsoft Corporation**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWH2iCj3aNp1AF6a20beU-M-F8-fnFdO2IbnuH3qtLMbQsDztJbmd5dOrdamEuH3_cvBEA3dYSUKZe24fFndh3AKtxL2cEEOv0zPZoZLaG9mnshdmHkahOiHHztyc-E51OnUjZFD_b_djPGhU5BdLsQvFsviOk7EwQQ9Q1dvSzpK_B7PebF-ziMmV6bA_OCzPJ35_cVKoVQNlcc095DmPLd9pWGa9MyXbMP0Ot8uwVUIkLhR2HMkE4uhn1CJoiLlk=",
+          "title": "microsoft.com"
+        },
+        {
+          "id": 1,
+          "text": "According to the official **Microsoft Software License Terms** and **Microsoft Terms of Use / Services Agreement** for Office software and services accessed through `office.com`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4eVljjaApuSipQT84orS6iXnqMIahLeymBvViktAoEjEAbu6bLme3Gb9nAWWGVEa3KijbvHN4-v4DQa_mWNLL5_P1btPDHaAuBzT0Ac6QS8xG55UmIHmRAA4HV0u6c9ue0vOatFg=",
+          "title": "microsoft.com"
+        },
+        {
+          "id": 2,
+          "text": "According to the official **Microsoft Software License Terms** and **Microsoft Terms of Use / Services Agreement** for Office software and services accessed through `office.com`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWH2iCj3aNp1AF6a20beU-M-F8-fnFdO2IbnuH3qtLMbQsDztJbmd5dOrdamEuH3_cvBEA3dYSUKZe24fFndh3AKtxL2cEEOv0zPZoZLaG9mnshdmHkahOiHHztyc-E51OnUjZFD_b_djPGhU5BdLsQvFsviOk7EwQQ9Q1dvSzpK_B7PebF-ziMmV6bA_OCzPJ35_cVKoVQNlcc095DmPLd9pWGa9MyXbMP0Ot8uwVUIkLhR2HMkE4uhn1CJoiLlk=",
+          "title": "microsoft.com"
+        },
+        {
+          "id": 3,
+          "text": "Microsoft is the device manufacturer for devices produced by Microsoft or one of its affiliates, and Microsoft is the retailer if you acquired the software directly from Microsoft.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWH2iCj3aNp1AF6a20beU-M-F8-fnFdO2IbnuH3qtLMbQsDztJbmd5dOrdamEuH3_cvBEA3dYSUKZe24fFndh3AKtxL2cEEOv0zPZoZLaG9mnshdmHkahOiHHztyc-E51OnUjZFD_b_djPGhU5BdLsQvFsviOk7EwQQ9Q1dvSzpK_B7PebF-ziMmV6bA_OCzPJ35_cVKoVQNlcc095DmPLd9pWGa9MyXbMP0Ot8uwVUIkLhR2HMkE4uhn1CJoiLlk=",
+          "title": "microsoft.com"
+        },
+        {
+          "id": 4,
+          "text": "between (i) you and the device manufacturer or software installer that distributes the software with your device; or (ii) you and Microsoft Corporation (or, based on where you live or, if a business, where your principal place of business is l",
+          "url": "https://www.microsoft.com/en-us/UseTerms/OEM/WindowsServer2022/2022Essentials/UseTerms_OEM_WindowsServer2022_2022Essentials_English.htm",
+          "title": ""
+        },
+        {
+          "id": 5,
+          "text": "place of business is located, one of its affiliates) if you acquired the software from a retailer. Microsoft is the device manufacturer for devices produced by Microsoft or one of its affiliates, and Microsoft is the retailer if you acquired the software directly from Microsoft",
+          "url": "https://www.microsoft.com/en-us/UseTerms/Retail/Office/OfficeHomeandStudent2021/UseTerms_Retail_Office_OfficeHomeStudent2021_English.htm",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Microsoft Corporation",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing Microsoft Office at office.com is Microsoft Corporation.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Microsoft Office** at **office.com** is **Microsoft Corporation**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWH2iCj3aNp1AF6a20beU-M-F8-fnFdO2IbnuH3qtLMbQsDztJbmd5dOrdamEuH3_cvBEA3dYSUKZe24fFndh3AKtxL2cEEOv0zPZoZLaG9mnshdmHkahOiHHztyc-E51OnUjZFD_b_djPGhU5BdLsQvFsviOk7EwQQ9Q1dvSzpK_B7PebF-ziMmV6bA_OCzPJ35_cVKoVQNlcc095DmPLd9pWGa9MyXbMP0Ot8uwVUIkLhR2HMkE4uhn1CJoiLlk=",
+          "title": "microsoft.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Microsoft Office",
+    "domain": "office.com",
+    "description": "Microsoft Office, through its Office 365 platform, develops and provides a suite of productivity software tailored for both individual users and businesses. Its applications include word processing, spreadsheet management, and presentation tools, enhancing daily operational efficiency across various sectors."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Microsoft Corporation",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing Microsoft Office at office.com is Microsoft Corporation.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Microsoft Office** at **office.com** is **Microsoft Corporation**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWH2iCj3aNp1AF6a20beU-M-F8-fnFdO2IbnuH3qtLMbQsDztJbmd5dOrdamEuH3_cvBEA3dYSUKZe24fFndh3AKtxL2cEEOv0zPZoZLaG9mnshdmHkahOiHHztyc-E51OnUjZFD_b_djPGhU5BdLsQvFsviOk7EwQQ9Q1dvSzpK_B7PebF-ziMmV6bA_OCzPJ35_cVKoVQNlcc095DmPLd9pWGa9MyXbMP0Ot8uwVUIkLhR2HMkE4uhn1CJoiLlk=",
+    "title": "microsoft.com"
+  },
+  "checked_at": "2026-11-05T09:20:53.973981+00:00"
+}

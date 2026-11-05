@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on the official policies and company statements on **write.as**, the vendor directly providing the software product **Write.as** at the domain **write.as** is **Musing Studio, LLC**.\n\n### Provider Evidence\n* **Privacy Policy (`write.as/privacy`):**\n  > *\"Write.as (and specifically, Musing Studio, LLC) operates several websites including write.as, snap.as, submit.as, and remark.as. This policy applies to these and all other products.\"*\n\n* **Company Announcements (`write.as/blog`):**\n  > *\"We've since re-incorporated as Musing Studio LLC in New York state, from our previously Florida-based LLC. Going forward, you'll start to see all our tools under this new banner, instead of revolving so much around Write.as.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "Based on the official policies and company statements on **write.as**, the vendor directly providing the software product **Write.as** at the domain **write.as** is **Musing Studio, LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFARDyTvIqGX_TzGNQJZ0BlXOLKPBwT5plLujFtEEzMh8-wZck3D3HioCnunkssSbLcD1FPw_ASynQaABSMYz5uvLUQeh2xR_VvXhPUqY0=",
+          "title": "write.as"
+        },
+        {
+          "id": 1,
+          "text": "Based on the official policies and company statements on **write.as**, the vendor directly providing the software product **Write.as** at the domain **write.as** is **Musing Studio, LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEDDKz3cxt7e4wssk0AHTv3neuh1BWV-8QRR9YbFJ4pri5A50iXGWa1QP6fjaQ-40L6JXdKYQW--5CPW_TxL6O9cp2DAlm6nWzS5hvy_L3es6wxCoJNrmE9eMm3iPY",
+          "title": "write.as"
+        },
+        {
+          "id": 2,
+          "text": "This policy applies to these and all other products.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFARDyTvIqGX_TzGNQJZ0BlXOLKPBwT5plLujFtEEzMh8-wZck3D3HioCnunkssSbLcD1FPw_ASynQaABSMYz5uvLUQeh2xR_VvXhPUqY0=",
+          "title": "write.as"
+        },
+        {
+          "id": 3,
+          "text": "Going forward, you'll start to see all our tools under this new banner, instead of revolving so much around Write.as.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEDDKz3cxt7e4wssk0AHTv3neuh1BWV-8QRR9YbFJ4pri5A50iXGWa1QP6fjaQ-40L6JXdKYQW--5CPW_TxL6O9cp2DAlm6nWzS5hvy_L3es6wxCoJNrmE9eMm3iPY",
+          "title": "write.as"
+        },
+        {
+          "id": 4,
+          "text": "We've since re-incorporated as Musing Studio LLC in New York state, from our previously Florida-based LLC. Going forward, you'll start to see all our tools under this new banner, instead of revolving so much around Writ",
+          "url": "https://write.as/blog/a-calm-summer-2022",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Musing Studio, LLC",
+        "evidence": "Passage 0 explicitly states that based on the official policies and company statements on write.as, the vendor directly providing the software product Write.as at write.as is Musing Studio, LLC.",
+        "source": {
+          "id": 0,
+          "text": "Based on the official policies and company statements on **write.as**, the vendor directly providing the software product **Write.as** at the domain **write.as** is **Musing Studio, LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFARDyTvIqGX_TzGNQJZ0BlXOLKPBwT5plLujFtEEzMh8-wZck3D3HioCnunkssSbLcD1FPw_ASynQaABSMYz5uvLUQeh2xR_VvXhPUqY0=",
+          "title": "write.as"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Write.as",
+    "domain": "write.as",
+    "description": "Write.as is an independent digital writing and publishing tool designed for users to create and share their thoughts in a distraction-free environment. Prioritizing user privacy, Write.as allows users to write without mandatory sign-ups, ensuring that their identity remains secure unless they choose to publish. The platform is tailored for both personal and professional writing, offering users the ability to manage multiple blogs under pen names, fostering an inclusive space for expression. Located online, Write.as aims to set a standard for respectful and user-focused web services."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Musing Studio, LLC",
+  "evidence": "Passage 0 explicitly states that based on the official policies and company statements on write.as, the vendor directly providing the software product Write.as at write.as is Musing Studio, LLC.",
+  "source": {
+    "id": 0,
+    "text": "Based on the official policies and company statements on **write.as**, the vendor directly providing the software product **Write.as** at the domain **write.as** is **Musing Studio, LLC**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFARDyTvIqGX_TzGNQJZ0BlXOLKPBwT5plLujFtEEzMh8-wZck3D3HioCnunkssSbLcD1FPw_ASynQaABSMYz5uvLUQeh2xR_VvXhPUqY0=",
+    "title": "write.as"
+  },
+  "checked_at": "2026-11-05T09:35:39.183061+00:00"
+}

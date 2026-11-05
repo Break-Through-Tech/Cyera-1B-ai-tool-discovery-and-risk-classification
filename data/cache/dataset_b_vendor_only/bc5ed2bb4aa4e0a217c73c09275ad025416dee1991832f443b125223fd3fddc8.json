@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **Web2Chat** at **web2chat.ai** is provided by **web2chat.ai, inc.**, developed and published by **Khushhal Gupta**.\n\n### Evidence:\n* **Official Website & Terms:** The official website and Terms of Use page on `web2chat.ai` state in the copyright notice:  \n  * *\"© Copyright 2025 web2chat.ai, inc. All Rights Reserved.\"*\n* **App Store & Developer Profile:** The official Web2Chat application listing on the Apple App Store names **Khushhal Gupta** as the seller and developer, with copyright attributed to *© Web2Chat.ai*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **Web2Chat** at **web2chat.ai** is provided by **web2chat.ai, inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4chwcoFzUGhxC8vGsR5zPiXeMM-LpvFLk0ntSM1GolLGUuNgQHDZtfJbAqfAYj2Off3ASuhJIaGgSLj7eeSjReL5ipOf4bmGNJ4bkT4m3FM-Z0KAydFI=",
+          "title": "web2chat.ai"
+        },
+        {
+          "id": 1,
+          "text": "The software product **Web2Chat** at **web2chat.ai** is provided by **web2chat.ai, inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH31AS5S1IfXUovatCjyxsYjARtfPYvD8pCJTeB56FJjeLPMqetPb4gl647lf4UvauabpHM_WitVO-bF0oX8hPkmkGiRMKnNj5jMFOrgHTZsDnc-Nd6H8tv6A==",
+          "title": "web2chat.ai"
+        },
+        {
+          "id": 2,
+          "text": "The software product **Web2Chat** at **web2chat.ai** is provided by **web2chat.ai, inc.**, developed and published by **Khushhal Gupta**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEALHcATZW9xucMakI0eU6QRHBI9vqYUegZ_N2DII5CGVrdrnp-w8nhcwNLtBEj-JcLUWcMebXISAknKWDt16ciyMoNfLRELdT1LKUTiDSe4ErbuvtJsZjx4VZ4Z-MQAd9c6sTKKP5XL2k=",
+          "title": "apple.com"
+        },
+        {
+          "id": 3,
+          "text": "The software product **Web2Chat** at **web2chat.ai** is provided by **web2chat.ai, inc.**, developed and published by **Khushhal Gupta**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1H5bcV8jW7SKNwcHNuJqunmsiQLzFMlLAreocwaXjsoEh17c93LjZ6VijyalsMSPuRyoJioxYeFTPgXBpR9uG39-p5D5p7woU7DgKgJgNwKw7oxHrDvBAq0KlgrCdZgDJ8izfr-M=",
+          "title": "upwork.com"
+        },
+        {
+          "id": 4,
+          "text": "ll Rights Reserved.\"*\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4chwcoFzUGhxC8vGsR5zPiXeMM-LpvFLk0ntSM1GolLGUuNgQHDZtfJbAqfAYj2Off3ASuhJIaGgSLj7eeSjReL5ipOf4bmGNJ4bkT4m3FM-Z0KAydFI=",
+          "title": "web2chat.ai"
+        },
+        {
+          "id": 5,
+          "text": "ll Rights Reserved.\"*\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH31AS5S1IfXUovatCjyxsYjARtfPYvD8pCJTeB56FJjeLPMqetPb4gl647lf4UvauabpHM_WitVO-bF0oX8hPkmkGiRMKnNj5jMFOrgHTZsDnc-Nd6H8tv6A==",
+          "title": "web2chat.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "web2chat.ai, inc.",
+        "evidence": "Passage 0 explicitly states that the software product Web2Chat at web2chat.ai is provided by web2chat.ai, inc.",
+        "source": {
+          "id": 0,
+          "text": "The software product **Web2Chat** at **web2chat.ai** is provided by **web2chat.ai, inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4chwcoFzUGhxC8vGsR5zPiXeMM-LpvFLk0ntSM1GolLGUuNgQHDZtfJbAqfAYj2Off3ASuhJIaGgSLj7eeSjReL5ipOf4bmGNJ4bkT4m3FM-Z0KAydFI=",
+          "title": "web2chat.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Web2Chat",
+    "domain": "web2chat.ai",
+    "description": "Experience instant customer engagement with an AI chatbot tailored to your website."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "web2chat.ai, inc.",
+  "evidence": "Passage 0 explicitly states that the software product Web2Chat at web2chat.ai is provided by web2chat.ai, inc.",
+  "source": {
+    "id": 0,
+    "text": "The software product **Web2Chat** at **web2chat.ai** is provided by **web2chat.ai, inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4chwcoFzUGhxC8vGsR5zPiXeMM-LpvFLk0ntSM1GolLGUuNgQHDZtfJbAqfAYj2Off3ASuhJIaGgSLj7eeSjReL5ipOf4bmGNJ4bkT4m3FM-Z0KAydFI=",
+    "title": "web2chat.ai"
+  },
+  "checked_at": "2026-11-05T05:57:15.078349+00:00"
+}

@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the product **iAsk** at **iask.ai** is **Ai Search Inc.**\n\n### Evidence:\n* **Terms of Use (`iask.ai`):** *\"Ai Search Inc. (‘we’ or ‘us’ or ‘our’) operates the iAsk.Ai website service (‘Service’).\"*\n* **Privacy Policy (`iask.ai`):** *\"Ai Search Inc. (‘we’ or ‘us’ or ‘our’) respects the privacy of our users (‘user’ or ‘you’). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website iAsk.Ai...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the product **iAsk** at **iask.ai** is **Ai Search Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfI-zKdpkHEm4vutE1T31aNiCPWV7QDcj_Ohrz_keeykcGCNTpbNrtVDsApj4VVXZ8aOGnpWdTOQtGwgvlp3IOqmHH2qPICbOOOfcOT8gVnJo=",
+          "title": "iask.ai"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the product **iAsk** at **iask.ai** is **Ai Search Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWbIniQ0i50lQO3ZvfEjwPJMfcnzjqrO5F8qjLmFdamwwb3TyW6k-7jUbPQTTzSyNamBv0RsH0RH0h39jr1x2nVrWAv1V1vN8n_fGZ6XG30Mz4BX_iMyrQRW7i02No3vALYiTzJWXfOrt5sBWniJNfZ2z7EhjxoBHIS6j4IfvhgqeWIxwqoifyvXolmb4SDgpe",
+          "title": "morningstar.com"
+        },
+        {
+          "id": 2,
+          "text": "**Terms of Use (`iask.ai`):** *\"Ai Search Inc. (‘we’ or ‘us’ or ‘our’) operates the iAsk.Ai website service (‘Service’).\"*\n* **Privacy Pol",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfI-zKdpkHEm4vutE1T31aNiCPWV7QDcj_Ohrz_keeykcGCNTpbNrtVDsApj4VVXZ8aOGnpWdTOQtGwgvlp3IOqmHH2qPICbOOOfcOT8gVnJo=",
+          "title": "iask.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Ai Search Inc.",
+        "evidence": "According to the Terms of Use on iask.ai, Ai Search Inc. operates the iAsk.Ai website service.",
+        "source": {
+          "id": 2,
+          "text": "**Terms of Use (`iask.ai`):** *\"Ai Search Inc. (‘we’ or ‘us’ or ‘our’) operates the iAsk.Ai website service (‘Service’).\"*\n* **Privacy Pol",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfI-zKdpkHEm4vutE1T31aNiCPWV7QDcj_Ohrz_keeykcGCNTpbNrtVDsApj4VVXZ8aOGnpWdTOQtGwgvlp3IOqmHH2qPICbOOOfcOT8gVnJo=",
+          "title": "iask.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "IAsk",
+    "domain": "iask.ai",
+    "description": "Answering natural language questions with accuracy."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Ai Search Inc.",
+  "evidence": "According to the Terms of Use on iask.ai, Ai Search Inc. operates the iAsk.Ai website service.",
+  "source": {
+    "id": 2,
+    "text": "**Terms of Use (`iask.ai`):** *\"Ai Search Inc. (‘we’ or ‘us’ or ‘our’) operates the iAsk.Ai website service (‘Service’).\"*\n* **Privacy Pol",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfI-zKdpkHEm4vutE1T31aNiCPWV7QDcj_Ohrz_keeykcGCNTpbNrtVDsApj4VVXZ8aOGnpWdTOQtGwgvlp3IOqmHH2qPICbOOOfcOT8gVnJo=",
+    "title": "iask.ai"
+  },
+  "checked_at": "2026-11-05T07:45:13.982933+00:00"
+}

@@ -1,0 +1,43 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **DataCamp** at **datacamp.com** is **DataCamp, Inc.**.\n\n### Supporting Citation\nFrom the official **DataCamp Terms of Use** (`datacamp.com/terms-of-use`):\n> *\"DataCamp, Inc. (together with our affiliates, “DataCamp”, “we”, or “us”) provides an online education service on the DataCamp website located at https://www.datacamp.com/ and a mobile application (collectively, the “Site”, and the Site, together with any products and services provided by DataCamp, the “Service”).\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **DataCamp** at **datacamp.com** is **DataCamp, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0EjuF68qgCyZd8KPVqpoGdx6bIanFXpfxX0Em3c9mmlD5pRFV06sDdOGP-carVDTou6-Y1mijnfbvZSOJlJo_kstGpSBcZnV_BTts6Lqm8bPDUsfb6ule883V",
+          "title": "datacamp.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "DataCamp, Inc.",
+        "evidence": "Passage 0 explicitly identifies the vendor directly providing DataCamp at datacamp.com as DataCamp, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **DataCamp** at **datacamp.com** is **DataCamp, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0EjuF68qgCyZd8KPVqpoGdx6bIanFXpfxX0Em3c9mmlD5pRFV06sDdOGP-carVDTou6-Y1mijnfbvZSOJlJo_kstGpSBcZnV_BTts6Lqm8bPDUsfb6ule883V",
+          "title": "datacamp.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "DataCamp",
+    "domain": "datacamp.com",
+    "description": "DataCamp is an interactive online learning platform focused on data science education, offering over 100 courses in programming languages such as R, Python, SQL, and Spark. Users can engage in high-quality video tutorials and practice coding directly in their browser, enhanced with gamification techniques. The platform caters to both individuals and businesses, with a specific service, DataCamp for Business, designed to equip teams with essential data science skills. It enables managers to assign tasks, monitor progress, and evaluate team performance. DataCamp has a vast user base, including notable clients like eBay and Harvard, and aims to help millions enhance their data expertise."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "DataCamp, Inc.",
+  "evidence": "Passage 0 explicitly identifies the vendor directly providing DataCamp at datacamp.com as DataCamp, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **DataCamp** at **datacamp.com** is **DataCamp, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0EjuF68qgCyZd8KPVqpoGdx6bIanFXpfxX0Em3c9mmlD5pRFV06sDdOGP-carVDTou6-Y1mijnfbvZSOJlJo_kstGpSBcZnV_BTts6Lqm8bPDUsfb6ule883V",
+    "title": "datacamp.com"
+  },
+  "checked_at": "2026-11-05T08:21:02.308506+00:00"
+}

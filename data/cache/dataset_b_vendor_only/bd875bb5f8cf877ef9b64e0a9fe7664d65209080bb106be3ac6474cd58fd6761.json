@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "**Product & Domain:** Power BI (`powerbi.microsoft.com`)\n\n**Direct Vendor:** **Microsoft Corporation**\n\n**Provider Statement:** \nOfficial terms governing the product establish that the agreement is directly between the user and *\"Microsoft Corporation, (‘Microsoft, ‘we,’ ‘us’ or ‘our’)\"* governing *\"your access and use of the Microsoft services\"* under the Microsoft Services Agreement, Product Terms, and Microsoft Privacy Statement.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**Product & Domain:** Power BI (`powerbi.microsoft.com`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzCTPcPvy_7FnGZagkucGH_Gj051zij4n16MqmZlSjZG0RJMN01f0iL4OOWD_i-BjjS0YEejeoijSZGRGca9MEwPVWPLucBKKHHZLTf52ragZ2lBlOBcdlOe7pzrt0TM_x9OqSHEYwyh-MxY2W36q0-owCR_p59DveEOQ=",
+          "title": "microsoft.com"
+        },
+        {
+          "id": 1,
+          "text": "**Product & Domain:** Power BI (`powerbi.microsoft.com`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5PPrMWMnZSS9tUE8zOGpnUX2FizuTmAFbjIQ6pUWWeJjja3A_zDq-RJUbQbgG2JPlWW0dQyz2fAJ0JAhpj83vOOFd2d8RvOjPw_YTkas=",
+          "title": "powerbi.com"
+        },
+        {
+          "id": 2,
+          "text": "**Direct Vendor:** **Microsoft Corporation**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzCTPcPvy_7FnGZagkucGH_Gj051zij4n16MqmZlSjZG0RJMN01f0iL4OOWD_i-BjjS0YEejeoijSZGRGca9MEwPVWPLucBKKHHZLTf52ragZ2lBlOBcdlOe7pzrt0TM_x9OqSHEYwyh-MxY2W36q0-owCR_p59DveEOQ=",
+          "title": "microsoft.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Microsoft Corporation",
+        "evidence": "Passage 2 directly states that the Direct Vendor is Microsoft Corporation.",
+        "source": {
+          "id": 2,
+          "text": "**Direct Vendor:** **Microsoft Corporation**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzCTPcPvy_7FnGZagkucGH_Gj051zij4n16MqmZlSjZG0RJMN01f0iL4OOWD_i-BjjS0YEejeoijSZGRGca9MEwPVWPLucBKKHHZLTf52ragZ2lBlOBcdlOe7pzrt0TM_x9OqSHEYwyh-MxY2W36q0-owCR_p59DveEOQ=",
+          "title": "microsoft.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Power BI",
+    "domain": "powerbi.microsoft.com",
+    "description": "A business analytics service for creating reports and dashboards from multiple data sources."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Microsoft Corporation",
+  "evidence": "Passage 2 directly states that the Direct Vendor is Microsoft Corporation.",
+  "source": {
+    "id": 2,
+    "text": "**Direct Vendor:** **Microsoft Corporation**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzCTPcPvy_7FnGZagkucGH_Gj051zij4n16MqmZlSjZG0RJMN01f0iL4OOWD_i-BjjS0YEejeoijSZGRGca9MEwPVWPLucBKKHHZLTf52ragZ2lBlOBcdlOe7pzrt0TM_x9OqSHEYwyh-MxY2W36q0-owCR_p59DveEOQ=",
+    "title": "microsoft.com"
+  },
+  "checked_at": "2026-11-05T07:57:18.960567+00:00"
+}

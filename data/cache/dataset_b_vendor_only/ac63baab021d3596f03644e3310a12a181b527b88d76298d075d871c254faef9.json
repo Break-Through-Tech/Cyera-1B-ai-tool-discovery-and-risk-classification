@@ -1,0 +1,43 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **VSCO** at **vsco.co** is **Visual Supply Company**.\n\n### Evidence\nAccording to the official **Terms of Use** on `vsco.co`:\n> *\"These Terms of Use (“Terms” or “Agreement”) between you and Visual Supply Company (“VSCO”), apply to your use of any of our websites, mobile apps, products, or services, including VSCO Capture, VSCO Hub, VSCO Galleries, VSCO Workspace, The Freelance Photographer (“TFP”), and our AI Services (our “Services”).\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **VSCO** at **vsco.co** is **Visual Supply Company**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8TP8xUltKcVc1At5Q5fpjHB-FHWuT9ZIklh061fhKzu-6PjqasP10qerbWQy3egz2h_13hW0FIpvfoUzYAaK1830PWsfG7mFAJ7MpQZjfzok4fLsIZNSBpF5nIw==",
+          "title": "vsco.co"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Visual Supply Company",
+        "evidence": "Passage 0 directly states that the vendor providing VSCO at vsco.co is Visual Supply Company.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **VSCO** at **vsco.co** is **Visual Supply Company**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8TP8xUltKcVc1At5Q5fpjHB-FHWuT9ZIklh061fhKzu-6PjqasP10qerbWQy3egz2h_13hW0FIpvfoUzYAaK1830PWsfG7mFAJ7MpQZjfzok4fLsIZNSBpF5nIw==",
+          "title": "vsco.co"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "VSCO",
+    "domain": "vsco.co",
+    "description": "VSCO is a community-oriented platform designed for photographers, offering creative tools and networking opportunities. It aims to assist users in enhancing their artistry and connecting with other creatives and businesses, thus enabling photographers to express and share their unique visions effectively."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Visual Supply Company",
+  "evidence": "Passage 0 directly states that the vendor providing VSCO at vsco.co is Visual Supply Company.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **VSCO** at **vsco.co** is **Visual Supply Company**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8TP8xUltKcVc1At5Q5fpjHB-FHWuT9ZIklh061fhKzu-6PjqasP10qerbWQy3egz2h_13hW0FIpvfoUzYAaK1830PWsfG7mFAJ7MpQZjfzok4fLsIZNSBpF5nIw==",
+    "title": "vsco.co"
+  },
+  "checked_at": "2026-11-05T08:43:03.368205+00:00"
+}

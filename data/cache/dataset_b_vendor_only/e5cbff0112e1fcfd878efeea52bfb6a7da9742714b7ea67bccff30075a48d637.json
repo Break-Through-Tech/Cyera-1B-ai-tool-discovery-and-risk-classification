@@ -1,0 +1,91 @@
+{
+  "attempts": [
+    {
+      "answer": "The direct provider and developer of **MacGaiver** at **macgaiver.app** is individual developer **Ralf Elfving** (`@ralfelfving`). \n\n### Evidence & Provider Statement\n* Official pages across **macgaiver.app** (including the account sign-in, registration, download, and FAQ pages) credit the creator in the website footer:\n  > *\"Built with ❤️ by @ralfelfving using Gadget.\"*\n* The developer is identified as **Ralf Elfving** (associated with social profile `@ralfelfving` / GitHub `elfvingralf`). No separate legal operating company is listed on the domain.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The direct provider and developer of **MacGaiver** at **macgaiver.app** is individual developer **Ralf Elfving** (`@ralfelfving`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGN5I8KjSPyg3ryaJ6QPFr11GxqAqGa8Yo72BhK-SLPLdhMSH08OInDIV0mX0STke8peboLVwc90c-bYAOBA8na92c_-LZEM1vZDrdgO_0pQ-xg",
+          "title": "macgaiver.app"
+        },
+        {
+          "id": 1,
+          "text": "The direct provider and developer of **MacGaiver** at **macgaiver.app** is individual developer **Ralf Elfving** (`@ralfelfving`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENR1CIhpZB6Tzzu4tfISjIZXV5Q3ZVgXhHrElNO-Uhzskl_xxqGqI5M8N7kHcwnCgi3K1cocsx8ytWI7IF6XfwbiZXnvMzcmTw8V7ANfyyP51LzAKywtQ20yLiIZA=",
+          "title": "informer.com"
+        },
+        {
+          "id": 2,
+          "text": "The direct provider and developer of **MacGaiver** at **macgaiver.app** is individual developer **Ralf Elfving** (`@ralfelfving`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9cVpY9jFgEA-z3tM14tn386SQ13pwTAoViwoetH-cdE_lIAc4GexF0EB5bBbvsNVGRQJ6NXt-eircSC_525md1SRPs3_Fo7VW8SPpituARDPsmMM=",
+          "title": "github.com"
+        },
+        {
+          "id": 3,
+          "text": "Official pages across **macgaiver.app** (including the account sign-in, registration, download, and FAQ pages) credit the creator in the website footer",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGN5I8KjSPyg3ryaJ6QPFr11GxqAqGa8Yo72BhK-SLPLdhMSH08OInDIV0mX0STke8peboLVwc90c-bYAOBA8na92c_-LZEM1vZDrdgO_0pQ-xg",
+          "title": "macgaiver.app"
+        },
+        {
+          "id": 4,
+          "text": "Official pages across **macgaiver.app** (including the account sign-in, registration, download, and FAQ pages) credit the creator in the website footer",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsjl-umr4KluWYZ41dSM4tQl0cKd0egb5wc6NUW93bUjbUJv4nLdb4T7MfgDYM4ki_uh6EqBAs51l-xzyQ_VrzPOxWEUAYO-rFT6BXNQtkWHSngTDjjkCEkpI=",
+          "title": "macgaiver.app"
+        },
+        {
+          "id": 5,
+          "text": "Official pages across **macgaiver.app** (including the account sign-in, registration, download, and FAQ pages) credit the creator in the website footer",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZrnu2GczDYZnEsHbsXd-cpWqt4_26HYqFqEjCD0DsXK9efeZE4YFq-8QVzuZQO1qi8uCpvNpgooKyi6K1aUq7wl-78ZrkO0IH_dN1pvRzUzt3",
+          "title": "macgaiver.app"
+        },
+        {
+          "id": 6,
+          "text": "*\"Built with ❤️ by @ralfelfving using Gadget.\"*\n* T",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGN5I8KjSPyg3ryaJ6QPFr11GxqAqGa8Yo72BhK-SLPLdhMSH08OInDIV0mX0STke8peboLVwc90c-bYAOBA8na92c_-LZEM1vZDrdgO_0pQ-xg",
+          "title": "macgaiver.app"
+        },
+        {
+          "id": 7,
+          "text": "developer is identified as **Ralf Elfving** (associated with social profile `@ralfelfving` / GitHub `elfvingralf`). No",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENR1CIhpZB6Tzzu4tfISjIZXV5Q3ZVgXhHrElNO-Uhzskl_xxqGqI5M8N7kHcwnCgi3K1cocsx8ytWI7IF6XfwbiZXnvMzcmTw8V7ANfyyP51LzAKywtQ20yLiIZA=",
+          "title": "informer.com"
+        },
+        {
+          "id": 8,
+          "text": "developer is identified as **Ralf Elfving** (associated with social profile `@ralfelfving` / GitHub `elfvingralf`). No",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9cVpY9jFgEA-z3tM14tn386SQ13pwTAoViwoetH-cdE_lIAc4GexF0EB5bBbvsNVGRQJ6NXt-eircSC_525md1SRPs3_Fo7VW8SPpituARDPsmMM=",
+          "title": "github.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Ralf Elfving",
+        "evidence": "The direct provider and developer of MacGaiver at macgaiver.app is individual developer Ralf Elfving (@ralfelfving).",
+        "source": {
+          "id": 0,
+          "text": "The direct provider and developer of **MacGaiver** at **macgaiver.app** is individual developer **Ralf Elfving** (`@ralfelfving`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGN5I8KjSPyg3ryaJ6QPFr11GxqAqGa8Yo72BhK-SLPLdhMSH08OInDIV0mX0STke8peboLVwc90c-bYAOBA8na92c_-LZEM1vZDrdgO_0pQ-xg",
+          "title": "macgaiver.app"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "MacGaiver",
+    "domain": "macgaiver.app",
+    "description": "Your personal AI-powered MacOS assistant, just a shortcut away."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Ralf Elfving",
+  "evidence": "The direct provider and developer of MacGaiver at macgaiver.app is individual developer Ralf Elfving (@ralfelfving).",
+  "source": {
+    "id": 0,
+    "text": "The direct provider and developer of **MacGaiver** at **macgaiver.app** is individual developer **Ralf Elfving** (`@ralfelfving`)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGN5I8KjSPyg3ryaJ6QPFr11GxqAqGa8Yo72BhK-SLPLdhMSH08OInDIV0mX0STke8peboLVwc90c-bYAOBA8na92c_-LZEM1vZDrdgO_0pQ-xg",
+    "title": "macgaiver.app"
+  },
+  "checked_at": "2026-11-05T05:55:23.153795+00:00"
+}

@@ -1,0 +1,79 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Zstandard** at the domain **`facebook.github.io`** (specifically via its documentation and project site at `facebook.github.io/zstd`) is **Meta Platforms, Inc.** (formerly **Facebook, Inc.**).\n\n### Evidence:\n* **Copyright & Legal Notice**: The official source repository and distributed project files designate ownership and licensing under:  \n  > *\"Copyright (c) Meta Platforms, Inc. and affiliates. All rights reserved.\"*  \n  Earlier distribution terms defined:  \n  > *\"Software means the Zstandard software distributed by Facebook, Inc.\"*\n* **Published Site & Documentation**: The project manual and pages hosted at `facebook.github.io/zstd` are provided as part of **Meta Open Source** (formerly Facebook Open Source).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvXjW-v0Nk1-sRWIvRo4FF_ZNx5ZPDTdrjSr6JmZs0wxYTHXNNZ0LjqLAAIhyKBCpkvQritwUJUJICnAwd9bXQeyquBW43Wk1MHswg3aIC5F5GJFZFC0k-Xyx0guMv9CEvCcWqYI9bG9PbWq60MBIR",
+          "title": "github.io"
+        },
+        {
+          "id": 1,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAoWSg4TXHF7-62yw2JOZNU61HYN_66MLPo8cAXXJaXIK8oWAD8WGOJSHj3sU2oxjS_3Ql7IJrMGvvcDaM8mkQTadGoQboAvc95-vht8LzzjCTr5E8-vJhGwFXG4a8vR1t",
+          "title": "github.com"
+        },
+        {
+          "id": 2,
+          "text": "All rights reserved.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHY-Hh58KS5W7PJI4pxDM6KZLR514zMGv2cYQERDurVzWPJo5D-Ue29-KmxhsE7Ib0OvECqjGvxsGyqY2KnDXytiw5gA646Cbaohfcqur8F2r0nFYmVdd24RDdZFbPQsgxklwHxFl6iyvv7kuhTKNTPFlpJBHMRVeuEbSENKUBdlUn4",
+          "title": "github.com"
+        },
+        {
+          "id": 3,
+          "text": "All rights reserved.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFA2ikP0Qix1TuVLcPJ4AUgQtDZnnZW5IEwbDfYrPZoALTaitvmi5a6wXI4_wZKr0O5XcTXipyIQFBazrF24JW5nOHaoiUn2zWgFQsAulTRuBztfzQ5srkKnoQJUfQpvIXWowtBNJZWaH_7",
+          "title": "github.com"
+        },
+        {
+          "id": 4,
+          "text": "*\"Software means the Zstandard software distributed by Facebook, Inc.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAoWSg4TXHF7-62yw2JOZNU61HYN_66MLPo8cAXXJaXIK8oWAD8WGOJSHj3sU2oxjS_3Ql7IJrMGvvcDaM8mkQTadGoQboAvc95-vht8LzzjCTr5E8-vJhGwFXG4a8vR1t",
+          "title": "github.com"
+        },
+        {
+          "id": 5,
+          "text": "**Published Site & Documentation**: The project manual and pages hosted at `facebook.github.io/zstd` are provided as part of **Meta Open Source** (formerly Facebook Open Source)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvXjW-v0Nk1-sRWIvRo4FF_ZNx5ZPDTdrjSr6JmZs0wxYTHXNNZ0LjqLAAIhyKBCpkvQritwUJUJICnAwd9bXQeyquBW43Wk1MHswg3aIC5F5GJFZFC0k-Xyx0guMv9CEvCcWqYI9bG9PbWq60MBIR",
+          "title": "github.io"
+        },
+        {
+          "id": 6,
+          "text": "**Published Site & Documentation**: The project manual and pages hosted at `facebook.github.io/zstd` are provided as part of **Meta Open Source** (formerly Facebook Open Source)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHO1dQUvnQy3VHXqCnX283HCo122-PZo3eWDD5ZeiMJ9K1fEEhK8qRCPETUzqlJEPvh7GI1lWcVog3SIajc46AtNs-cUqtedzvV04iBvS_xP4Xm-gU6rbKXTSqaL1Q2JyWh-RvSavEu8juu87nu4hDljRXB_Yiov-o0BjSCAeNU4MjmFcN1aAwwV64p0Pod2B2baUjj1_N0iw-5",
+          "title": "facebook.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Meta Open Source",
+        "evidence": "The project manual and pages hosted at facebook.github.io/zstd are provided as part of Meta Open Source (formerly Facebook Open Source).",
+        "source": {
+          "id": 5,
+          "text": "**Published Site & Documentation**: The project manual and pages hosted at `facebook.github.io/zstd` are provided as part of **Meta Open Source** (formerly Facebook Open Source)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvXjW-v0Nk1-sRWIvRo4FF_ZNx5ZPDTdrjSr6JmZs0wxYTHXNNZ0LjqLAAIhyKBCpkvQritwUJUJICnAwd9bXQeyquBW43Wk1MHswg3aIC5F5GJFZFC0k-Xyx0guMv9CEvCcWqYI9bG9PbWq60MBIR",
+          "title": "github.io"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Zstandard",
+    "domain": "facebook.github.io",
+    "description": "Zstandard is a compression algorithm developed by Facebook that offers fast data compression and decompression. It is designed for real-time compression scenarios while maintaining high compression ratios and speeds. Zstandard is widely utilized in various applications, particularly those requiring efficient data storage and quick retrieval, making it popular in both consumer and enterprise software solutions."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Meta Open Source",
+  "evidence": "The project manual and pages hosted at facebook.github.io/zstd are provided as part of Meta Open Source (formerly Facebook Open Source).",
+  "source": {
+    "id": 5,
+    "text": "**Published Site & Documentation**: The project manual and pages hosted at `facebook.github.io/zstd` are provided as part of **Meta Open Source** (formerly Facebook Open Source)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvXjW-v0Nk1-sRWIvRo4FF_ZNx5ZPDTdrjSr6JmZs0wxYTHXNNZ0LjqLAAIhyKBCpkvQritwUJUJICnAwd9bXQeyquBW43Wk1MHswg3aIC5F5GJFZFC0k-Xyx0guMv9CEvCcWqYI9bG9PbWq60MBIR",
+    "title": "github.io"
+  },
+  "checked_at": "2026-11-05T09:27:27.705177+00:00"
+}

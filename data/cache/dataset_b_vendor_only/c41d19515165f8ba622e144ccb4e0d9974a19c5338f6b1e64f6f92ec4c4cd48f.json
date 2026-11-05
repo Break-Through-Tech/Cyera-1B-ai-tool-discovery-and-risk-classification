@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **ForEva** (also known as **Eva AI** / **Foreva AI**) at **foreva.ai** is **Delightful Inc.** (operating under the brand **Foreva AI**).\n\n### Evidence:\n* **Square App Marketplace Listing:** Identifies the product listing as *\"Foreva.AI by Delightful Inc.\"* with developer support directed to `foreva.ai`.\n* **Apple App Store:** The official companion application (*Eva - Restaurants*) lists the developer copyright as *\"© Delightful Inc.\"*.\n* **Official Website:** The website footer at `foreva.ai` lists the operational provider brand copyright as *\"© Foreva AI. All rights reserved.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **ForEva** (also known as **Eva AI** / **Foreva AI**) at **foreva.ai** is **Delightful Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3_UzFypMbK9FxKvObjLkhJJfehRUgCVi8pQyYWJa1ovmWNtkn15vlEiUBXfP1smU116FNyv26AxqFOffYVzZjV5np8YDC2O1qTeXBkO6SYmuRCY0TexMwUodIRlqDH2dMiGJXDxZxSRBX6YwZLA==",
+          "title": "squareup.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **ForEva** (also known as **Eva AI** / **Foreva AI**) at **foreva.ai** is **Delightful Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExDY_CWuhKIrreupRi6DR7DR1Mcye9eBDfhqMnkcXFIPqGi8MXaVEIhivvLogL4fM6cp823oUUmAF0EztZ-3a7uozHHrfgOIeGHZYECRrI4-A6sne0vA8_YUQcDmccJafFPSAIBtoEl1r3JuUgMdo=",
+          "title": "apple.com"
+        },
+        {
+          "id": 2,
+          "text": "The vendor directly providing **ForEva** (also known as **Eva AI** / **Foreva AI**) at **foreva.ai** is **Delightful Inc.** (operating under the brand **Foreva AI**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpYYEt7XZqUgC7888IsUdKJi1gRDNgwWT9iD7p56b7qAXqvmxe6qPbXHVHwr1J_ZcQBPvpIqNDjnFoSNX2WYW1-VJ_E_yCtTVmPUV05GNufg==",
+          "title": "foreva.ai"
+        },
+        {
+          "id": 3,
+          "text": "**Square App Marketplace Listing:** Identifies the product listing as *\"Foreva.AI by Delightful Inc.\"* with developer support directed to `foreva.ai`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFX9hTn5drxpoc6HxedG61bPcvCOsHl8Sv_6bDSae7Vnrl9RWrtslKIXphE7xUwt1XzQLaVN4tKsVNe54OxIdsu4Ale3woPVYp_j09HaVlq4zS5olWSASn0_nFKRug1lhFd0d51aBpz2HPy17tlmQ==",
+          "title": "squareup.com"
+        },
+        {
+          "id": 4,
+          "text": "**Square App Marketplace Listing:** Identifies the product listing as *\"Foreva.AI by Delightful Inc.\"* with developer support directed to `foreva.ai`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3_UzFypMbK9FxKvObjLkhJJfehRUgCVi8pQyYWJa1ovmWNtkn15vlEiUBXfP1smU116FNyv26AxqFOffYVzZjV5np8YDC2O1qTeXBkO6SYmuRCY0TexMwUodIRlqDH2dMiGJXDxZxSRBX6YwZLA==",
+          "title": "squareup.com"
+        },
+        {
+          "id": 5,
+          "text": "**Apple App Store:** The official companion application (*Eva - Restaurants*) lists the developer copyright as *\"© Delightful Inc.\"*.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExDY_CWuhKIrreupRi6DR7DR1Mcye9eBDfhqMnkcXFIPqGi8MXaVEIhivvLogL4fM6cp823oUUmAF0EztZ-3a7uozHHrfgOIeGHZYECRrI4-A6sne0vA8_YUQcDmccJafFPSAIBtoEl1r3JuUgMdo=",
+          "title": "apple.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Delightful Inc.",
+        "evidence": "Square App Marketplace listing identifies the product listing as 'Foreva.AI by Delightful Inc.' with developer support directed to foreva.ai.",
+        "source": {
+          "id": 3,
+          "text": "**Square App Marketplace Listing:** Identifies the product listing as *\"Foreva.AI by Delightful Inc.\"* with developer support directed to `foreva.ai`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFX9hTn5drxpoc6HxedG61bPcvCOsHl8Sv_6bDSae7Vnrl9RWrtslKIXphE7xUwt1XzQLaVN4tKsVNe54OxIdsu4Ale3woPVYp_j09HaVlq4zS5olWSASn0_nFKRug1lhFd0d51aBpz2HPy17tlmQ==",
+          "title": "squareup.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "ForEva",
+    "domain": "foreva.ai",
+    "description": "Personalized food ordering assistant"
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Delightful Inc.",
+  "evidence": "Square App Marketplace listing identifies the product listing as 'Foreva.AI by Delightful Inc.' with developer support directed to foreva.ai.",
+  "source": {
+    "id": 3,
+    "text": "**Square App Marketplace Listing:** Identifies the product listing as *\"Foreva.AI by Delightful Inc.\"* with developer support directed to `foreva.ai`",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFX9hTn5drxpoc6HxedG61bPcvCOsHl8Sv_6bDSae7Vnrl9RWrtslKIXphE7xUwt1XzQLaVN4tKsVNe54OxIdsu4Ale3woPVYp_j09HaVlq4zS5olWSASn0_nFKRug1lhFd0d51aBpz2HPy17tlmQ==",
+    "title": "squareup.com"
+  },
+  "checked_at": "2026-11-05T07:12:49.838930+00:00"
+}

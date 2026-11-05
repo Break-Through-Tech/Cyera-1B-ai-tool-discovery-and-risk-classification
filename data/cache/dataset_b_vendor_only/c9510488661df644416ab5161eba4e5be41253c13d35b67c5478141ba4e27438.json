@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product **CourseAI** at **courseai.com** is **CourseAI**.\n\n### Evidence\nAccording to the official **Terms of Service** on `courseai.com`:\n> *\"CourseAI is owned and operated by CourseAI with its registered office at 3236 Forum Blvd #1074 Fort Myers, FL 33905 United States.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product **CourseAI** at **courseai.com** is **CourseAI**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4dwwm8amp64WChstR4IA9U8pkUmVUV7XiMgSCTjk1rxy_q5KHa4bG_iAeJMlFymPjpa2lbBjwB1Z49dpsL_6uaoD0d_3dW6xDqvFl1iLM_BEySpAAeg==",
+          "title": "courseai.com"
+        },
+        {
+          "id": 1,
+          "text": "*\"CourseAI is owned and operated by CourseAI with its registered office at 3236 Forum Blvd #1074 Fort Myers, FL 33905 United States.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4dwwm8amp64WChstR4IA9U8pkUmVUV7XiMgSCTjk1rxy_q5KHa4bG_iAeJMlFymPjpa2lbBjwB1Z49dpsL_6uaoD0d_3dW6xDqvFl1iLM_BEySpAAeg==",
+          "title": "courseai.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "CourseAI",
+        "evidence": "CourseAI is owned and operated by CourseAI with its registered office at 3236 Forum Blvd #1074 Fort Myers, FL 33905 United States.",
+        "source": {
+          "id": 1,
+          "text": "*\"CourseAI is owned and operated by CourseAI with its registered office at 3236 Forum Blvd #1074 Fort Myers, FL 33905 United States.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4dwwm8amp64WChstR4IA9U8pkUmVUV7XiMgSCTjk1rxy_q5KHa4bG_iAeJMlFymPjpa2lbBjwB1Z49dpsL_6uaoD0d_3dW6xDqvFl1iLM_BEySpAAeg==",
+          "title": "courseai.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "CourseAI",
+    "domain": "courseai.com",
+    "description": "Online course creation and management made easy."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "CourseAI",
+  "evidence": "CourseAI is owned and operated by CourseAI with its registered office at 3236 Forum Blvd #1074 Fort Myers, FL 33905 United States.",
+  "source": {
+    "id": 1,
+    "text": "*\"CourseAI is owned and operated by CourseAI with its registered office at 3236 Forum Blvd #1074 Fort Myers, FL 33905 United States.\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4dwwm8amp64WChstR4IA9U8pkUmVUV7XiMgSCTjk1rxy_q5KHa4bG_iAeJMlFymPjpa2lbBjwB1Z49dpsL_6uaoD0d_3dW6xDqvFl1iLM_BEySpAAeg==",
+    "title": "courseai.com"
+  },
+  "checked_at": "2026-11-05T07:51:40.691786+00:00"
+}

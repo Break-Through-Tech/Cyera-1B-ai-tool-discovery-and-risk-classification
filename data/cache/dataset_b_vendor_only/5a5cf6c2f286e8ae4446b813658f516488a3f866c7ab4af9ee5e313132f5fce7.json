@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product at the domain **telex.automattic.ai** (originally launched as **Telex**, an AI WordPress block and code generator developed following Automattic's integration of CodeWP technology) is **Automattic Inc.**.\n\n### Evidence & Provider Statement\n* **Domain & Product:** `telex.automattic.ai` (Telex).\n* **Automattic Terms of Service:**\n  > *\"We (the folks at Automattic)... These Terms govern your access to and use of the software, applications, extensions, and other products and services we provide through or for WordPress.com, WooCommcerce.com, WooPay, Jetpack.com, Gravatar.com, VaultPress.com, Happy.Tools, Jetpack CRM, MailPoet, WPScan.com, Studio, WordPress.com Courses, BlazePro.com, QuickForget.com, Beeper, and **Telex** (our 'Services').\"*\n* **Copyright Notice:** © Automattic Inc.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product at the domain **telex.automattic.ai** (originally launched as **Telex**, an AI WordPress block and code generator developed following Automattic's integration of CodeWP technology) is **Automattic Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRj-ev_jzRDGPVYOHR7RDC2Hhel-VlnNjus1wn1rYzWKuEc9dZhDUh5aa1iEi6iUbiFqoSNkr9PfC8qdmseO8mKraK2Y3f-oueYKVtwT8=",
+          "title": "wpmet.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the software product at the domain **telex.automattic.ai** (originally launched as **Telex**, an AI WordPress block and code generator developed following Automattic's integration of CodeWP technology) is **Automattic Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFc3agmq-FqBMKeEoUk2JA3E3vPg5po2Lw8LK3LoczovopMwsKff-sJksK4nfOMG2vrGL3BGoiVM6tSz0OBczwVK4Wje9Z-k0N_tpo0H9clwDBc-sr9Bg==",
+          "title": "checkthat.ai"
+        },
+        {
+          "id": 2,
+          "text": "The vendor directly providing the software product at the domain **telex.automattic.ai** (originally launched as **Telex**, an AI WordPress block and code generator developed following Automattic's integration of CodeWP technology) is **Automattic Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0AYmdZCUAXCcMRHcUPqe7MemhjJt7o4t4y1ANXo4sfxTMSokS4otRFi5o2ToxO4OoIt4AokM9-H9y6cnQSktTXxFIHCveOSZ13P68KhRPPjKMc0xyqwQt5HwcM3ns8l2y8pZpZSSwxejP9Jnfh6yZ766IiPG_fe9ywWVvZKK_vKC82L4G_ciVDHbo6Bwb_GGJ5ZKVTf2qOgv-WNOhJ4f84BgQsw==",
+          "title": "github.com"
+        },
+        {
+          "id": 3,
+          "text": "**Domain & Product:** `telex.automattic.ai` (Telex)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRj-ev_jzRDGPVYOHR7RDC2Hhel-VlnNjus1wn1rYzWKuEc9dZhDUh5aa1iEi6iUbiFqoSNkr9PfC8qdmseO8mKraK2Y3f-oueYKVtwT8=",
+          "title": "wpmet.com"
+        },
+        {
+          "id": 4,
+          "text": "**Domain & Product:** `telex.automattic.ai` (Telex)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0AYmdZCUAXCcMRHcUPqe7MemhjJt7o4t4y1ANXo4sfxTMSokS4otRFi5o2ToxO4OoIt4AokM9-H9y6cnQSktTXxFIHCveOSZ13P68KhRPPjKMc0xyqwQt5HwcM3ns8l2y8pZpZSSwxejP9Jnfh6yZ766IiPG_fe9ywWVvZKK_vKC82L4G_ciVDHbo6Bwb_GGJ5ZKVTf2qOgv-WNOhJ4f84BgQsw==",
+          "title": "github.com"
+        },
+        {
+          "id": 5,
+          "text": "These Terms govern your access to and use of the software, applications, extensions, and other products and services we provide through or for WordPress.com, WooCommcerce.com, WooPay, Jetpack.com, Gravatar.com, VaultPress.com, Happy.Tools, Jetpack CRM, MailPoet, WPScan.com, Studio, WordPress.com Courses, BlazePro.com, QuickForget.com, Beeper, and **Telex** (our 'Services').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0AYmdZCUAXCcMRHcUPqe7MemhjJt7o4t4y1ANXo4sfxTMSokS4otRFi5o2ToxO4OoIt4AokM9-H9y6cnQSktTXxFIHCveOSZ13P68KhRPPjKMc0xyqwQt5HwcM3ns8l2y8pZpZSSwxejP9Jnfh6yZ766IiPG_fe9ywWVvZKK_vKC82L4G_ciVDHbo6Bwb_GGJ5ZKVTf2qOgv-WNOhJ4f84BgQsw==",
+          "title": "github.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Automattic Inc.",
+        "evidence": "Passage 0 states that the vendor directly providing the software product at the domain telex.automattic.ai (originally launched as Telex, an AI WordPress block and code generator developed following Automattic's integration of CodeWP technology) is Automattic Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the software product at the domain **telex.automattic.ai** (originally launched as **Telex**, an AI WordPress block and code generator developed following Automattic's integration of CodeWP technology) is **Automattic Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRj-ev_jzRDGPVYOHR7RDC2Hhel-VlnNjus1wn1rYzWKuEc9dZhDUh5aa1iEi6iUbiFqoSNkr9PfC8qdmseO8mKraK2Y3f-oueYKVtwT8=",
+          "title": "wpmet.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "CodewpAI",
+    "domain": "telex.automattic.ai",
+    "description": "Generate WordPress code faster and smarter with our AI-powered tool. Boost your workflow with an AI WordPress code generator."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Automattic Inc.",
+  "evidence": "Passage 0 states that the vendor directly providing the software product at the domain telex.automattic.ai (originally launched as Telex, an AI WordPress block and code generator developed following Automattic's integration of CodeWP technology) is Automattic Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the software product at the domain **telex.automattic.ai** (originally launched as **Telex**, an AI WordPress block and code generator developed following Automattic's integration of CodeWP technology) is **Automattic Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRj-ev_jzRDGPVYOHR7RDC2Hhel-VlnNjus1wn1rYzWKuEc9dZhDUh5aa1iEi6iUbiFqoSNkr9PfC8qdmseO8mKraK2Y3f-oueYKVtwT8=",
+    "title": "wpmet.com"
+  },
+  "checked_at": "2026-11-05T07:55:22.849476+00:00"
+}

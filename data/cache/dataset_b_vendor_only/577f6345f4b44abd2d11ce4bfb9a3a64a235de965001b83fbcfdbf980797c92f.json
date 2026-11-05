@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **Mindbody** software product and platform at **mindbodyonline.com** is **Mindbody, Inc.**\n\n### Provider Statement & Evidence\n* **Mindbody Consumer Agreement:**  \n  > *\"This Mindbody Consumer Agreement (the 'Agreement') is a legal agreement between you... and **Mindbody, Inc.** and its parents, subsidiaries, and affiliated companies (collectively, 'Mindbody,' 'we,' 'our' or 'us'). This Agreement governs your access to and use of any Mindbody products and services directed at or made available for use by consumers (collectively, the 'Mindbody Products'), including: Mindbody's consumer web-based applications and/or mobile applications and/or consumer-facing websites (including https://www.mindbodyonline.com/explore)...\"*\n\n* **Mindbody Privacy Policy:**  \n  > *\"At **MINDBODY, Inc.** and our Mindbody subsidiaries ('Mindbody'), we respect your privacy and are committed to maintaining your trust. This privacy policy ('Privacy Policy') applies to visitors to our Mindbody sites and users of the Mindbody Services... our consumer-facing websites, currently located at https://www.mindbodyonline.com/explore... our online business management software products ('Software Service')...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **Mindbody** software product and platform at **mindbodyonline.com** is **Mindbody, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFP6CT44wbcU8cmU4uzO6YHZDSJ3Ua1TYmX5z1AYsAlgFvxhcCA8ji1-yyHnGD-VHVx0lQs595oOfC3wmpqkQlJxXWOjjfEM2A1G-t5RWrOHAb6mbSquxXy33Be0O6Kp0NoFQoDWudVM9hMLSoRWfV5Lm-rx9U=",
+          "title": "mindbodyonline.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the **Mindbody** software product and platform at **mindbodyonline.com** is **Mindbody, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhRxJhge3nhatQC6o55h7u2Wu1HNq56_dlSwlAik_7gkFNldw5fHYSl5TJ5lp41kMk5aTpk8zfsd5Dq-w0N3G0jav78VaIWBlpeCfk7XtVGiAoi61uW0SHVrmKFZz31-VrBxhhGE8-9lZuIEZoSpE3Kg==",
+          "title": "mindbodyonline.com"
+        },
+        {
+          "id": 2,
+          "text": "This Agreement governs your access to and use of any Mindbody products and services directed at or made available for use by consumers (collectively, the 'Mindbody Products'), including: Mindbody's consumer web-based applications and/or mobile applications and/or consumer-facing websites (including https://www.mindbodyonline.com/explore)...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFP6CT44wbcU8cmU4uzO6YHZDSJ3Ua1TYmX5z1AYsAlgFvxhcCA8ji1-yyHnGD-VHVx0lQs595oOfC3wmpqkQlJxXWOjjfEM2A1G-t5RWrOHAb6mbSquxXy33Be0O6Kp0NoFQoDWudVM9hMLSoRWfV5Lm-rx9U=",
+          "title": "mindbodyonline.com"
+        },
+        {
+          "id": 3,
+          "text": "This privacy policy ('Privacy Policy') applies to visitors to our Mindbody sites and users of the Mindbody Services... our consumer-facing websites, currently located at https://www.mindbodyonline.com/explore... our online business management software products ('Software Service')...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhRxJhge3nhatQC6o55h7u2Wu1HNq56_dlSwlAik_7gkFNldw5fHYSl5TJ5lp41kMk5aTpk8zfsd5Dq-w0N3G0jav78VaIWBlpeCfk7XtVGiAoi61uW0SHVrmKFZz31-VrBxhhGE8-9lZuIEZoSpE3Kg==",
+          "title": "mindbodyonline.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Mindbody, Inc.",
+        "evidence": "The vendor directly providing the Mindbody software product and platform at mindbodyonline.com is Mindbody, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the **Mindbody** software product and platform at **mindbodyonline.com** is **Mindbody, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFP6CT44wbcU8cmU4uzO6YHZDSJ3Ua1TYmX5z1AYsAlgFvxhcCA8ji1-yyHnGD-VHVx0lQs595oOfC3wmpqkQlJxXWOjjfEM2A1G-t5RWrOHAb6mbSquxXy33Be0O6Kp0NoFQoDWudVM9hMLSoRWfV5Lm-rx9U=",
+          "title": "mindbodyonline.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Mindbody",
+    "domain": "mindbodyonline.com",
+    "description": "Mindbody is a leading technology platform that empowers fitness and wellness businesses by providing them with software solutions to manage their operations more efficiently. The platform connects these businesses with consumers, facilitating access to wellness services and classes. Headquartered in San Luis Obispo, California, Mindbody serves a global market, enhancing the experience for both service providers and clients in the wellness industry."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Mindbody, Inc.",
+  "evidence": "The vendor directly providing the Mindbody software product and platform at mindbodyonline.com is Mindbody, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the **Mindbody** software product and platform at **mindbodyonline.com** is **Mindbody, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFP6CT44wbcU8cmU4uzO6YHZDSJ3Ua1TYmX5z1AYsAlgFvxhcCA8ji1-yyHnGD-VHVx0lQs595oOfC3wmpqkQlJxXWOjjfEM2A1G-t5RWrOHAb6mbSquxXy33Be0O6Kp0NoFQoDWudVM9hMLSoRWfV5Lm-rx9U=",
+    "title": "mindbodyonline.com"
+  },
+  "checked_at": "2026-11-05T09:15:22.067288+00:00"
+}

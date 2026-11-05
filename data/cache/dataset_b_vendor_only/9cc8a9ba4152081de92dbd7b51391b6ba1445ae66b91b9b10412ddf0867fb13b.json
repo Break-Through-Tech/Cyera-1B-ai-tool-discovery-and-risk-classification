@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **Dust** platform at **dust.tt** is **Permutation Labs** (legally incorporated in France as **Permutation Labs SAS**).\n\n### Evidence & Provider Statement\nAccording to the official **Dust Platform Privacy Policy** (`dust.tt/home/platform-privacy`):\n> *\"Permutation Labs, 86 avenue de Wagram, 75017 Paris, France (\"Dust\", \"we\", \"our\", or \"us\"), develops and provides a platform to build LLM apps and AI assistants with access to your company's knowledge that allows you to get more done, faster, leveraging composable tools to retrieve and share internal information effectively.\"*\n\nPermutation Labs is also listed as the publisher and developer for Dust extensions and marketplace integrations associated with `dust.tt`.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **Dust** platform at **dust.tt** is **Permutation Labs** (legally incorporated in France as **Permutation Labs SAS**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8rGhejxfFDWjGqdaMoV9dF5x8g66IvoImoP3jHSZSm6OlMb9ro0F1VaASDW4mbpXJ3A-wBRnSB3lCGncnNiw2xrbaHXNqiWYCg0qMFVi5Cu0cTVoorWpxnTh1",
+          "title": "dust.tt"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the **Dust** platform at **dust.tt** is **Permutation Labs** (legally incorporated in France as **Permutation Labs SAS**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-QRF-VX-y1BScJaVGJhjyL4XJBPrGpzY3_ZZOefTrYim-sk5Guyp2L287irkqCyJNXLAP5qP1lVc9MSgkedNR91M-TxRMRcLC54z_3Avu76EBuX1aE23y5lE=",
+          "title": "standout.work"
+        },
+        {
+          "id": 2,
+          "text": "*\"Permutation Labs, 86 avenue de Wagram, 75017 Paris, France (\"Dust\", \"we\", \"our\", or \"us\"), develops and provides a platform to build LLM apps and AI assistants with access to your company's knowledge that allows you to get more done, faster, leveraging composable tools to retrieve and share internal information effectively.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8rGhejxfFDWjGqdaMoV9dF5x8g66IvoImoP3jHSZSm6OlMb9ro0F1VaASDW4mbpXJ3A-wBRnSB3lCGncnNiw2xrbaHXNqiWYCg0qMFVi5Cu0cTVoorWpxnTh1",
+          "title": "dust.tt"
+        },
+        {
+          "id": 3,
+          "text": "Permutation Labs is also listed as the publisher and developer for Dust extensions and marketplace integrations associated with `dust.tt`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkbx2lzhxp1nRb_xQP6C3FPidwoMHjGZTeyLewfKfeGhL3CAhR1t4etKfx9mhlHSm-wRx5ayEeZQJ5xjlvrIqqqCcgp_IZgOVtEAqq5eUTBnIueF1dgcugM3tPIPpcELJNsFrkXwAHxJCuPIojilEPd3leugLDQ_tiepuhXnA3m6lorRJNtyw0TQSPXxoXR6FREfZh",
+          "title": "google.com"
+        },
+        {
+          "id": 4,
+          "text": "Permutation Labs is also listed as the publisher and developer for Dust extensions and marketplace integrations associated with `dust.tt`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWOK0OGKPBLtQcqfKwGlzaIw76bCbVCB45aoLOGWYCXPRZ-_DHSRgnALwWuw2xE6YyBy5b5oSr-t9A0vh7nM1pfxo6MhRcJwHTZpT9q5QHo00b0lhqaglly5x-I8Op4pdPFbHij3zFm9JBx2x0cIh_4FyuSA==",
+          "title": "google.com"
+        },
+        {
+          "id": 5,
+          "text": "develops and provides a platform to build LLM apps and AI assistants with access to your company's knowledge that allows you to get more done, faster, leveraging composable tools to retrieve and share internal information effective",
+          "url": "https://github.com/dust-tt/dust",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Permutation Labs",
+        "evidence": "Permutation Labs is directly identified as the vendor providing the Dust platform at dust.tt (legally incorporated as Permutation Labs SAS).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the **Dust** platform at **dust.tt** is **Permutation Labs** (legally incorporated in France as **Permutation Labs SAS**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8rGhejxfFDWjGqdaMoV9dF5x8g66IvoImoP3jHSZSm6OlMb9ro0F1VaASDW4mbpXJ3A-wBRnSB3lCGncnNiw2xrbaHXNqiWYCg0qMFVi5Cu0cTVoorWpxnTh1",
+          "title": "dust.tt"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Dust",
+    "domain": "dust.tt",
+    "description": "Engineer & deploy large language models faster & smarter."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Permutation Labs",
+  "evidence": "Permutation Labs is directly identified as the vendor providing the Dust platform at dust.tt (legally incorporated as Permutation Labs SAS).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the **Dust** platform at **dust.tt** is **Permutation Labs** (legally incorporated in France as **Permutation Labs SAS**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8rGhejxfFDWjGqdaMoV9dF5x8g66IvoImoP3jHSZSm6OlMb9ro0F1VaASDW4mbpXJ3A-wBRnSB3lCGncnNiw2xrbaHXNqiWYCg0qMFVi5Cu0cTVoorWpxnTh1",
+    "title": "dust.tt"
+  },
+  "checked_at": "2026-11-05T07:52:01.934639+00:00"
+}
