@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00178",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides business management and client scheduling software solutions for fitness and wellness businesses.",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Mindbody is a standard business management platform for wellness and fitness providers."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:21.318356+00:00"
+}

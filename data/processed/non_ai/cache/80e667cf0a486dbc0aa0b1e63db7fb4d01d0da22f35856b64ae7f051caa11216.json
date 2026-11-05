@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00181",
+    "description_usable": true,
+    "identity_consistent": false,
+    "function": "Access and edit royalty-free icons and manage design systems across platforms.",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": true,
+    "reason": "Description conflates Noun Project with Lingo design system manager; identity lacks consistency."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:10:35.224268+00:00"
+}

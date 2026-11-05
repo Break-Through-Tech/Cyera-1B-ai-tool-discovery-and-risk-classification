@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00186",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides educational technology tools and study aids to enhance the studying experience for students and teachers.",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Standard educational study platform and mobile apps; no AI components are specified."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:11:12.882078+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00477",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides a privacy-focused, distraction-free digital writing and blogging environment.",
+    "category": "Content Generation",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Minimalist digital writing editor and blog publishing tool."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:15:09.570315+00:00"
+}

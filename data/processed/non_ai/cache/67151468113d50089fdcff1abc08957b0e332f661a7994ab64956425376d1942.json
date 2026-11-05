@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00443",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Transforms URLs into rich multimedia embeds, video players, and link previews via tools and APIs.",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "API and developer tooling service for embedding rich media and link previews."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:11:31.661244+00:00"
+}

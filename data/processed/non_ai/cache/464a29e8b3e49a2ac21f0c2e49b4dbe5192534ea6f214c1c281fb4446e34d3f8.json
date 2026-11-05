@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00414",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides computational technology tools and the Wolfram Language for scientific and technical development",
+    "category": "Coding / Developer Tools",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "High-level company overview of computational tools; insufficient specific product evidence to determine AI centrality."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:52.301190+00:00"
+}

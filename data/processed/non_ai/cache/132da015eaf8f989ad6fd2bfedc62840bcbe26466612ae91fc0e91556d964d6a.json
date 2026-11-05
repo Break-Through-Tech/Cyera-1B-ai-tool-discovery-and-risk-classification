@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00284",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Automates audio post-production tasks including loudness adjustment, noise reduction, and encoding using audio algorithms.",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Audio post-production service utilizing signal processing and audio algorithms; no AI indicated."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:09:35.267167+00:00"
+}

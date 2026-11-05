@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00165",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides encrypted cloud storage and secure file sharing for individuals and businesses.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "MEGA is a cloud storage and file-sharing service."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:16:44.378596+00:00"
+}

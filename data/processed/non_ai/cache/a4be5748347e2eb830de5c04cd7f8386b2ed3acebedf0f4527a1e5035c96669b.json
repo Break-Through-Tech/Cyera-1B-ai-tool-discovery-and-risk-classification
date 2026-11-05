@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00155",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Stores and manages structured relational data for web-based and embedded applications.",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "MySQL is a standard relational database management system."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:21.311734+00:00"
+}

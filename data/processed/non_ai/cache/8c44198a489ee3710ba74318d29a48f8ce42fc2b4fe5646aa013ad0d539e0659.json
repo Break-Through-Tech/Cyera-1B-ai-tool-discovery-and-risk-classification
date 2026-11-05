@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00033",
+    "description_usable": true,
+    "identity_consistent": false,
+    "function": "Provides a comprehensive suite of business applications covering sales, marketing, finance, and customer support",
+    "category": "Productivity",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Record describes an entire company portfolio of 55+ apps rather than a specific product, creating identity inconsistency."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:16:04.117617+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00441",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Manage operations, scheduling, and invoicing specifically for home service businesses.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Standard business operations and invoicing management software for home service contractors."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:13:43.676639+00:00"
+}

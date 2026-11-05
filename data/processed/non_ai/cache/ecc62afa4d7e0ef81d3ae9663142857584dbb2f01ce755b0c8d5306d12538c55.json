@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00139",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Integrates computer telephony with Microsoft Dynamics 365 and Unified Service Desk to streamline communications.",
+    "category": "Customer Support",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Computer Telephony Integration (CTI) software for CRM and service desks."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:38.793525+00:00"
+}

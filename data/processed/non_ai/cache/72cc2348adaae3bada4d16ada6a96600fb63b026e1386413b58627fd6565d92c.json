@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00011",
+    "description_usable": false,
+    "identity_consistent": false,
+    "function": "Offers software, operating systems, cloud computing, and online web search services.",
+    "category": "Research / Search",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "The record conflates the corporation Microsoft with the Bing search domain/product, describing broad company activities rather than a single tool."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:16:44.375612+00:00"
+}

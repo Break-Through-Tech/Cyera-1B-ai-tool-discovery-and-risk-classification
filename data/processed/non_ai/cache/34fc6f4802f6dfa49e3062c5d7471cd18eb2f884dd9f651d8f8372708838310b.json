@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00412",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides structured online courses and tools to help users learn and practice practical foreign language skills.",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Conventional language learning platform with no AI functionality mentioned in the text."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:11:12.884447+00:00"
+}

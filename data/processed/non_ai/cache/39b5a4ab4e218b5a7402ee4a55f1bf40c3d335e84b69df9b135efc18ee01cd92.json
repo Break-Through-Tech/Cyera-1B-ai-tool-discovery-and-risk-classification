@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00201",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provide indexed document archives and research workflow tools for academic and community learning.",
+    "category": "Research / Search",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "It provides curated research document databases and information access tools without AI noted."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:10:53.454806+00:00"
+}

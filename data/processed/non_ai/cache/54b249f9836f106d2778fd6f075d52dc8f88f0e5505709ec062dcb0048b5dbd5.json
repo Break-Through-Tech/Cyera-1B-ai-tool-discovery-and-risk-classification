@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00098",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Simplifies HTML manipulation, event handling, animations, and Ajax interactions in web development.",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Open-source JavaScript software library."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:38.797177+00:00"
+}

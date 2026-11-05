@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00374",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Design and automate tasks, workflows, applications, and system integrations using a visual interface.",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Visual workflow automation and app integration tool."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:13:43.679522+00:00"
+}

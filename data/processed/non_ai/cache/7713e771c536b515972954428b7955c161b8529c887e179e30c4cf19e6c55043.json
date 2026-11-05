@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00082",
+    "description_usable": true,
+    "identity_consistent": false,
+    "function": "Provides music marketing tools, smart links, fan CRM, and audience analytics for artists and record labels.",
+    "category": "Sales / Marketing",
+    "ai_status": "non_ai",
+    "needs_review": true,
+    "reason": "Identity conflict between tool name 'Side Hustle Records' and domain 'orcd.co' (The Orchard link shortener platform)."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:12:29.851747+00:00"
+}

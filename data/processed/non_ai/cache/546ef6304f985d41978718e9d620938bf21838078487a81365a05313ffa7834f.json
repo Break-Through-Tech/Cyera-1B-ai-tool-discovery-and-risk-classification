@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "claude_00025",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Submits, approves, and reimburses employee travel and operational business expenses.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Described as a conventional travel and expense management application."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:09:15.041536+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00365",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides cloud-based software testing across real mobile devices and desktop browsers for developers and QA teams.",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Cloud-based automated and manual browser/device testing platform with no AI mentioned."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:12:49.787667+00:00"
+}

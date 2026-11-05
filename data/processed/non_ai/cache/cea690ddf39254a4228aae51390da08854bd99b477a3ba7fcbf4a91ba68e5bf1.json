@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00293",
+    "description_usable": true,
+    "identity_consistent": false,
+    "function": "Track time spent across projects, analyze work habits, and manage project workflows and team progress.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": true,
+    "reason": "Describes multiple distinct products (Toggl Track and Toggl Plan) from the vendor portfolio."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:02.328836+00:00"
+}

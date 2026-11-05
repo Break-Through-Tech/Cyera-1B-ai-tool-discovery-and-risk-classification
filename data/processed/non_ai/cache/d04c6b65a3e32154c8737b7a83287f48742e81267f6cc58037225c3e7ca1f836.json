@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00481",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Supplies frontend cloud infrastructure for developing, scaling, and securing web applications.",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Vercel provides developer infrastructure and hosting for frontend web applications."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:16:44.383649+00:00"
+}

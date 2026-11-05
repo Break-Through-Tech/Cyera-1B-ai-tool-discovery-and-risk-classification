@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00187",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provide relationship and email marketing solutions to drive customer acquisition, engagement, and loyalty.",
+    "category": "Sales / Marketing",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Standard relationship/email marketing software; no central AI capabilities described."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:12:09.880308+00:00"
+}

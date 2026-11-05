@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00367",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Transcompiles scripts written in CoffeeScript syntax into standard JavaScript for web development.",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "CoffeeScript is a programming language transcompiler without AI functionality."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:21.310906+00:00"
+}

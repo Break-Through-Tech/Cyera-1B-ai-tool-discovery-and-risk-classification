@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00492",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides IT operations management software covering networks, servers, applications, and security.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": true,
+    "reason": "The record describes a suite of over 60 IT management products rather than a single specific software tool."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:21.324380+00:00"
+}

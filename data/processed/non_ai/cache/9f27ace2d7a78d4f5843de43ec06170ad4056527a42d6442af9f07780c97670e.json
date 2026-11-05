@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00295",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides cloud-native threat detection, automated protection, threat hunting, and vulnerability visibility using AI and threat intelligence.",
+    "category": "Other",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Explicitly highlights AI and threat intelligence as central mechanisms of its Falcon security platform."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:09:54.262228+00:00"
+}

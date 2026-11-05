@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00355",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Manage social media, schedule content, and run influencer marketing solutions to optimize audience engagement.",
+    "category": "Sales / Marketing",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Standard social media management and scheduling software; no AI features indicated."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:12:09.877314+00:00"
+}

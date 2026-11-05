@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00359",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provide cloud enterprise applications for finance, HR, planning, spend management, and analytics with integrated AI and ML.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Enterprise ERP/HR/finance platform integrating AI/ML features into a broad conventional suite."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:13:43.667909+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00448",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Enables design teams to create, prototype, collaborate on, and hand off digital user interfaces.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Conventional digital UI/UX design and prototyping tool."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:15:45.726994+00:00"
+}

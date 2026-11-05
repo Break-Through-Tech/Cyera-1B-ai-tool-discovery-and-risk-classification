@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00211",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides a library of icons, photos, vectors, and graphic design resources for designers and projects.",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Standard design resource library offering stock icons, vectors, and design assets."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:11:31.647402+00:00"
+}

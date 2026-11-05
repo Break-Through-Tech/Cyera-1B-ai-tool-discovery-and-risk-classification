@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00148",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Manages passwords, logins, documents, and identity access securely across teams and integrations.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "1Password is a standard credential and access management tool."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:21.314703+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00195",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides an online suite of tools to merge, split, compress, convert, and modify PDF files.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Offers standard document manipulation utilities for PDF processing without AI mentioned."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:15:09.553860+00:00"
+}

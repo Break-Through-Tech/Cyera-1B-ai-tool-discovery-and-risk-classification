@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00016",
+    "description_usable": false,
+    "identity_consistent": false,
+    "function": "Provide enterprise IT infrastructure, cloud solutions, operational management, and database software.",
+    "category": "Other",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Broad multinational technology corporation and portfolio rather than a single distinct software product."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:17:02.587417+00:00"
+}

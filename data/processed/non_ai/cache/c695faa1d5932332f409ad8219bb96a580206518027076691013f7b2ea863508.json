@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00091",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides AI-powered online photo editing and graphic design tools to create visual content",
+    "category": "Image / Video Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Explicitly stated as an AI-powered online photo editing and graphic design platform."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:13:07.416034+00:00"
+}

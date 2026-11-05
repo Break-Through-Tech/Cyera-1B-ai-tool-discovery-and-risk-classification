@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00392",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Analyzes first-party data to engage customers via targeted email, SMS, and push notifications",
+    "category": "Sales / Marketing",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Conventional marketing automation and customer messaging SaaS."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:16:04.123085+00:00"
+}

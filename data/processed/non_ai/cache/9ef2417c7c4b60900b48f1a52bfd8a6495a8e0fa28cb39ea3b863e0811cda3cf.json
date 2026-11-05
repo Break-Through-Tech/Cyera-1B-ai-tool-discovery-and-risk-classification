@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00452",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Manages software and website localization workflows using an online editor supporting standard translation formats",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Localization and translation management platform without mention of machine learning or AI models."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:52.295321+00:00"
+}

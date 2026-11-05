@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00482",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Analyze real-time advertising data using machine learning to run and optimize web ads, social ads, and email campaigns.",
+    "category": "Sales / Marketing",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Explicitly utilizes machine learning and automation at its core to optimize marketing and ad delivery."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:12:09.883566+00:00"
+}

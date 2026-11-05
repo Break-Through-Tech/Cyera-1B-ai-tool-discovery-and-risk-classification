@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00430",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Binds data to web DOM elements to create dynamic, interactive data visualizations using SVG, HTML, and CSS.",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Client-side JavaScript visualization library manipulating web standards."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:13:26.058238+00:00"
+}

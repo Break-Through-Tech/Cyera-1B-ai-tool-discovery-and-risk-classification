@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00023",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Creates online surveys and gathers user feedback with real-time AI-powered analytics.",
+    "category": "Data Analytics",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Description explicitly highlights real-time AI-powered analytics to deliver feedback."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:21.321479+00:00"
+}

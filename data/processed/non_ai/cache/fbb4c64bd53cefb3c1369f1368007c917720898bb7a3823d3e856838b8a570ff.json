@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00204",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Manage, align, and automate enterprise workflows and processes across departments.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Enterprise work execution and process management platform."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:15:27.645698+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00401",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides an open-source home automation platform focused on local control and privacy.",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Home Assistant is an open-source home automation system without central AI features mentioned."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:16:44.374668+00:00"
+}

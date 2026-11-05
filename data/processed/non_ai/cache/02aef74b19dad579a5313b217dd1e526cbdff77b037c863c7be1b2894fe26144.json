@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00265",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Facilitates building websites and online applications through an open-source content management system.",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Traditional open-source content management system."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:15:45.726240+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00472",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Enables architects to search, evaluate, and share building products.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "It is an architecture building product search and evaluation platform with no AI capabilities mentioned."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:09:35.263491+00:00"
+}

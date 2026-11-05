@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00202",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Tracks real-time user events and visualizes customer interactions to analyze conversion and retention behaviors.",
+    "category": "Data Analytics",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Described as a conventional event tracking and user behavior analytics platform."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:09:15.051384+00:00"
+}

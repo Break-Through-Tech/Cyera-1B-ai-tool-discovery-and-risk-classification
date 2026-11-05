@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00436",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Delivers intelligence solutions across media, social, consumer, and sales data to empower competitive brand advantage.",
+    "category": "Sales / Marketing",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Media monitoring, consumer insights, and sales intelligence platform with conventional analytics."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:09:35.267999+00:00"
+}

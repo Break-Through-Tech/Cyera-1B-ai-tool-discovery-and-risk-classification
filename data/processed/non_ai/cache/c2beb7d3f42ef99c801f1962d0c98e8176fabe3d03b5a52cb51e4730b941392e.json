@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00312",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Generates legal policies such as Privacy Policies and Terms and Conditions and manages user consent.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "TermsFeed is a compliance documentation generator and consent management platform."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:21.326597+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00434",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Simplify the process of building, testing, and collaborating on APIs for software developers.",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Developer platform for building and collaborating on APIs without AI components mentioned."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:15:27.628817+00:00"
+}

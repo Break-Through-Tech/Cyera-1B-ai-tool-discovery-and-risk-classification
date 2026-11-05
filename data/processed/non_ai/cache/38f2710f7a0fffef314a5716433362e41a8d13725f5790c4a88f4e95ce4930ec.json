@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00260",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides a cloud workspace for team diagramming, visual collaboration, and data visualization.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Cloud-based visual workspace and diagramming tool."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:15:45.733139+00:00"
+}

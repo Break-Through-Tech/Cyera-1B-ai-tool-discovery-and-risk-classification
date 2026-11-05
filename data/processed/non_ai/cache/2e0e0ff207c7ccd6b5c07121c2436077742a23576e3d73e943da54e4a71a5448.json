@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00384",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Manage multiple customizable online stores and e-commerce plugins from a single interface.",
+    "category": "Sales / Marketing",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "It is open-source store management software with conventional e-commerce functionality."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:10:53.444392+00:00"
+}

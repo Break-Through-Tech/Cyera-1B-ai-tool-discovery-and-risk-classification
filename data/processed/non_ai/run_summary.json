@@ -1,0 +1,10 @@
+{
+  "api_calls": 25,
+  "errors": [],
+  "status_counts": {
+    "accepted": 392,
+    "rejected": 68,
+    "needs_review": 54
+  },
+  "note": "Accepted means model-accepted, not human-verified. Governance fields unchanged."
+}

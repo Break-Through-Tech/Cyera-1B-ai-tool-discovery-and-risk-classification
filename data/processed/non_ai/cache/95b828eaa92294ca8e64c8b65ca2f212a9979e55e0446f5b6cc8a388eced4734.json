@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00199",
+    "description_usable": false,
+    "identity_consistent": false,
+    "function": "Provides authentication and access management solutions to safeguard digital environments against online threats.",
+    "category": "Other",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Describes the company Duo Security at a high level rather than specifying a concrete tool."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:09:54.273388+00:00"
+}

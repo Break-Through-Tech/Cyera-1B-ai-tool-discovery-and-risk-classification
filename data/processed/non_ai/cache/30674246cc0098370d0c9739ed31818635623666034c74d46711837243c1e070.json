@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00256",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Enables multi-channel business messaging and customer communication across websites, social media, and telephony.",
+    "category": "Customer Support",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Jivo is an all-in-one business messaging and live chat platform with no central AI features mentioned."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:16:44.367632+00:00"
+}

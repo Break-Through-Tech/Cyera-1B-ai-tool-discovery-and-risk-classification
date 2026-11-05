@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00404",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides identity resolution and real-time consumer data management for customer journey enhancement.",
+    "category": "Data Analytics",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Identity resolution and customer data management SaaS."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:15:09.563221+00:00"
+}

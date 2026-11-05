@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00433",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Enables users to build and deploy web, mobile, and AI-powered applications without traditional coding.",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "No-code application development platform; AI features are optional capabilities within app building."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:17:16.835451+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00244",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides cloud software solutions for grant management, fundraising, and operational efficiency for non-profits and healthcare.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Traditional SaaS solutions for fundraising and grant management."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:12:49.791112+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00411",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Offers email marketing tools and campaign management features to engage audiences and build customer relationships.",
+    "category": "Sales / Marketing",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Conventional email campaign management software; 'intelligent tools' in description is marketing fluff."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:11:51.386346+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00493",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides developer tools and framework infrastructure for prototyping and deploying applications powered by large language models.",
+    "category": "AI Infrastructure / Model Platforms",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Core function is building and deploying applications powered by large language models (LLMs)."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:09:15.049922+00:00"
+}

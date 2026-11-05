@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00330",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Captures, transcribes, and summarizes meeting conversations in real time using AI-powered assistance",
+    "category": "Meeting / Transcription Tools",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Core functionality relies heavily on AI for transcription, chat, and meeting summaries."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:16:04.127759+00:00"
+}

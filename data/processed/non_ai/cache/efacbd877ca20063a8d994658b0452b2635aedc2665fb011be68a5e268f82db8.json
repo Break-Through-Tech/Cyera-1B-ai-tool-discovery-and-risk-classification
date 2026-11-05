@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00060",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Connect organizational goals with task execution, project management, tracking, and capacity planning.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Enterprise work and project management software platform."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:15:27.641461+00:00"
+}

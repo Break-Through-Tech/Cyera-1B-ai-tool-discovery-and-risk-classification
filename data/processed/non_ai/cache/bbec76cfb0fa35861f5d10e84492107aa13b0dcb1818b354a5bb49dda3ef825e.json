@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00360",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides weather forecasting data and visualizations across multiple devices for outdoor enthusiasts and professionals.",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Conventional weather forecasting application with no AI involvement mentioned."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:16:24.719862+00:00"
+}

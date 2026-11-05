@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00232",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides distributed version control to track source code changes with local branching and staging capabilities.",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Standard distributed version control system."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:13:26.058912+00:00"
+}

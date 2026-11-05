@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00280",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Offers live streaming software tools for audience engagement, monetization, and broadcasting across multiple video platforms.",
+    "category": "Image / Video Generation",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Conventional broadcast and stream management toolset for live content creators."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:13:26.054717+00:00"
+}

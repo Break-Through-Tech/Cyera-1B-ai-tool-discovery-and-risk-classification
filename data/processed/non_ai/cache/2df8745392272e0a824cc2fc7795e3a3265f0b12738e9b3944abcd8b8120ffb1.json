@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00191",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Create, customize, and collaborate on animations using design tools and deploy them across web, mobile, and social media platforms.",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Platform for creating, collaborating, and deploying lightweight animations across digital channels."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:17:02.578261+00:00"
+}

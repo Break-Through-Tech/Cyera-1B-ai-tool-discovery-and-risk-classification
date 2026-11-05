@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00338",
+    "description_usable": true,
+    "identity_consistent": false,
+    "function": "Creates custom online forms with payment collection, form logic, calculations, and response gathering",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": true,
+    "reason": "Name mismatch: Tool name is JobPotato while domain is tally.so and description describes Tally form builder."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:52.298045+00:00"
+}

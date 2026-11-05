@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00380",
+    "description_usable": false,
+    "identity_consistent": false,
+    "function": "Delivers breach detection and prevention solutions to secure networks, applications, and enterprise data.",
+    "category": "Other",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Describes a company with multiple security offerings rather than a single tool, without evidence regarding AI status."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:09:54.265589+00:00"
+}

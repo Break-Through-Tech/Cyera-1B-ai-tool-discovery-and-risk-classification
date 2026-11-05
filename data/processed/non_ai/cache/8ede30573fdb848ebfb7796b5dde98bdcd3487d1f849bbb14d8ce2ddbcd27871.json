@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00249",
+    "description_usable": true,
+    "identity_consistent": false,
+    "function": "Enables multiplatform software development and code sharing via the concise Kotlin programming language",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": true,
+    "reason": "Name 'Kotlin Kolkata' conflicts with official domain 'kotlinlang.org', suggesting a local community or corrupted title."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:52.304485+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00120",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provide AI-driven writing assistance, grammar correction, and text improvement across applications and websites.",
+    "category": "Content Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Explicitly defined as an AI writing assistance service for grammar and text improvements."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:15:27.638854+00:00"
+}

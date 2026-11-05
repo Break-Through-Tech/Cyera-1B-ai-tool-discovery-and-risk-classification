@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00398",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides security information and event management (SIEM) and risk management to monitor networks, applications, and logs.",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Traditional SIEM and risk management platform; no AI specified in description."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:12:49.782617+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00108",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides a collaborative workspace integrating AI to facilitate team brainstorming, design, and idea development",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Description explicitly notes integration of AI to enhance creativity and streamline team workflows."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:52.310045+00:00"
+}

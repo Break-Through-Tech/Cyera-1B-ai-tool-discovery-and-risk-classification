@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00157",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Engages users in conversational dialogue for customer support, content creation, and interactive learning via NLP.",
+    "category": "General AI Assistants",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "ChatGPT is explicitly described as an advanced conversational AI platform powered by NLP and machine learning."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:16:44.381657+00:00"
+}

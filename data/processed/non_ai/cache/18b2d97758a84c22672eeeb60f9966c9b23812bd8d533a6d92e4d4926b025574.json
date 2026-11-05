@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00248",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Secures internet connections and preserves online privacy through virtual private network server routing.",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "NordVPN is a conventional VPN and network privacy service without AI involvement."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:09:35.275472+00:00"
+}

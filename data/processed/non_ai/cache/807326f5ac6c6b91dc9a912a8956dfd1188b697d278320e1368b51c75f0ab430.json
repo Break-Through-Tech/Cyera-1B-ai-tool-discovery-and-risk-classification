@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00314",
+    "description_usable": true,
+    "identity_consistent": false,
+    "function": "Captures and shares screenshots, GIFs, and video replays across desktop platforms.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": true,
+    "reason": "Identity conflict between tool name 'Wesselgården Brygghus' and domain gyazo.com (Gyazo screenshot software)."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:21.319961+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00015",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Create presentations, documents, websites, and social media graphics using drag-and-drop templates and stock media.",
+    "category": "Content Generation",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Visual communication and design tool described around templates and stock assets without AI features specified."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:10:35.223351+00:00"
+}

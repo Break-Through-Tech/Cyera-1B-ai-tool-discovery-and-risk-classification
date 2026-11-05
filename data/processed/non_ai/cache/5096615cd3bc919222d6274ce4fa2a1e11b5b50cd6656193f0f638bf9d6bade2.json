@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00236",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides automated customer service, ticketing, and analytics tools to manage visitor engagement and support.",
+    "category": "Customer Support",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Mentions automated customer support but evidence is insufficient to distinguish rule-based automation from AI models."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:13:26.060274+00:00"
+}

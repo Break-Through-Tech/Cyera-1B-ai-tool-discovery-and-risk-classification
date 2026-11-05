@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00379",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides a modular JavaScript framework for writing cross-browser web development code.",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Conventional open-source JavaScript client-side library/framework."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:15:45.731439+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00319",
+    "description_usable": true,
+    "identity_consistent": false,
+    "function": "Provides learning management solutions and online educational platforms to enhance remote learning experiences.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": true,
+    "reason": "Tool name is Moodle and domain is moodle.org, but description introduces 'MBDLE is a company based in Saudi Arabia', creating identity inconsistency."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:11:12.889081+00:00"
+}

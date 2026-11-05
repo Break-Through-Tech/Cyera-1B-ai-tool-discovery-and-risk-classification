@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00234",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Remotely access, control, manage, monitor, and repair devices and industrial machinery.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Core functionality is conventional remote desktop and device management software."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:17:02.589594+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00395",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Develop open artificial intelligence tools and models to enhance collective intelligence.",
+    "category": "AI Infrastructure / Model Platforms",
+    "ai_status": "ai",
+    "needs_review": true,
+    "reason": "Core business is developing open AI models, but description is generic about specific product offerings."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:17:02.594564+00:00"
+}

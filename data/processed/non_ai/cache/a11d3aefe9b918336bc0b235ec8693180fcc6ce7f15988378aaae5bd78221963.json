@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00435",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Collects and manages user-generated content, including ratings, reviews, and social engagement, to enhance customer trust.",
+    "category": "Sales / Marketing",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Marketing platform focused on user-generated customer reviews and ratings."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:11:51.384259+00:00"
+}

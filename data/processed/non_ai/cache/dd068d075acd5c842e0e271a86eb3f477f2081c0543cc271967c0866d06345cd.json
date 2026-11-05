@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00213",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides a unified security and observability platform for monitoring, analyzing, and securing organizational data",
+    "category": "Data Analytics",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Clear security and data observability platform description without prominent AI or model capabilities."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:13:07.408111+00:00"
+}

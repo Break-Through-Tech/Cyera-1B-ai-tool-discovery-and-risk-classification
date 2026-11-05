@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00344",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Store and query structured relational data inside web browser applications.",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Client-side relational database library for web apps, fully conventional software."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:02.340667+00:00"
+}

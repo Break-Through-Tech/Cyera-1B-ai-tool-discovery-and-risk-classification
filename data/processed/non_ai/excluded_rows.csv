@@ -1,0 +1,17 @@
+﻿tool_id,tool_name,exclusion_reason
+saas_00002,Google,known_identity_mismatch
+saas_00043,Magneto Empleos,shortener_url
+saas_00119,Simple App,shortener_url
+claude_00001,Slack,duplicate_product_identity
+claude_00004,Workday,duplicate_product_identity
+claude_00012,Asana,duplicate_product_identity
+claude_00013,Trello,duplicate_product_identity
+claude_00014,Box,duplicate_product_identity
+claude_00015,Dropbox,duplicate_product_identity
+claude_00016,DocuSign,duplicate_product_identity
+claude_00017,Okta,duplicate_product_identity
+claude_00019,GitLab,duplicate_product_identity
+claude_00022,Tableau,duplicate_product_identity
+claude_00028,Zendesk,duplicate_product_identity
+claude_00029,Mailchimp,duplicate_product_identity
+claude_00030,Smartsheet,duplicate_product_identity

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00012",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Create and manage online retail stores, handle payment processing, and facilitate online sales.",
+    "category": "Sales / Marketing",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "It is a conventional e-commerce platform for online retail store creation and management."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:10:53.445640+00:00"
+}

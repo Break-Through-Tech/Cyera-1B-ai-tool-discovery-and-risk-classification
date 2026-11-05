@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00299",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Create 3D models, documentation, and virtual reality views for architecture, interior design, and construction projects.",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Traditional CAD and 3D modeling design tool, fitting outside other primary categories into Other."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:15:27.634976+00:00"
+}

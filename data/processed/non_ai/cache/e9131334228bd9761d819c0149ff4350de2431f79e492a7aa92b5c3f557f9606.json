@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00134",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides identity and access management featuring passwordless authentication, identity-bound biometrics, and multi-factor authentication.",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Identity and access management software platform focusing on biometric authentication and access control."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:11:31.659105+00:00"
+}

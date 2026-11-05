@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00366",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides automated cloud backup and storage solutions for personal computers and business data management.",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Backblaze is a conventional cloud storage and backup utility."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:09:35.270296+00:00"
+}

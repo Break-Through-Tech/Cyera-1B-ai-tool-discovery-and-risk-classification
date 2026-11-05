@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00320",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Enables users to create and publish interactive multimedia digital publications such as magazines, brochures, and reports.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Conventional digital publishing platform for interactive documents and magazines."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:12:49.780221+00:00"
+}

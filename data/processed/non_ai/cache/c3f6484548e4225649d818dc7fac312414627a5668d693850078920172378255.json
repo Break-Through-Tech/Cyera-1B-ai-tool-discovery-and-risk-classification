@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00229",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Enhances JavaScript with static typing to detect coding errors early and compiles to plain JavaScript",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "TypeScript is an established programming language and developer tool, strictly non-AI."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:16:04.116476+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00304",
+    "description_usable": false,
+    "identity_consistent": false,
+    "function": "Develops conversational, ambient, and generative AI solutions, primarily for enterprise and healthcare sectors.",
+    "category": "AI Infrastructure / Model Platforms",
+    "ai_status": "ai",
+    "needs_review": true,
+    "reason": "The description characterizes Nuance as an entire corporate entity offering a wide range of AI solutions rather than detailing a specific software product."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:16:44.385466+00:00"
+}

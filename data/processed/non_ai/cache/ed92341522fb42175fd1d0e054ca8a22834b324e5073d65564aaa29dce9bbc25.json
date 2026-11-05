@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00172",
+    "description_usable": true,
+    "identity_consistent": false,
+    "function": "Provides fundraising, donation management, membership, and ticketing tools for French non-profit associations.",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": true,
+    "reason": "Tool name 'Mordus d'Entreprendre' mismatches the domain 'helloasso.com' and the description describing HelloAsso."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:12:29.853589+00:00"
+}

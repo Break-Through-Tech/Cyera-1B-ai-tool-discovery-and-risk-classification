@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00129",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Develops 2D and 3D CAD software and vertical applications for engineering, architecture, and industrial design.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": true,
+    "reason": "Describes a company portfolio rather than a single specific product."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:21.312641+00:00"
+}

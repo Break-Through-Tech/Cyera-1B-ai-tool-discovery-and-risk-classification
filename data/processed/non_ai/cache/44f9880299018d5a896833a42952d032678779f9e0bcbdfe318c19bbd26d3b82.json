@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00269",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Tracks and analyzes website traffic data while prioritizing user privacy and data ownership.",
+    "category": "Data Analytics",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Matomo is an open-source web analytics tool with no AI functionality mentioned."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:21.319175+00:00"
+}

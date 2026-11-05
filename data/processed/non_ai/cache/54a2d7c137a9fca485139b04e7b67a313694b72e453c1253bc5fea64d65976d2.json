@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00112",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides website hosting and drag-and-drop template-based builders to create websites and e-commerce stores.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Standard website and online store creation tool; no AI mentioned."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:16:24.730690+00:00"
+}

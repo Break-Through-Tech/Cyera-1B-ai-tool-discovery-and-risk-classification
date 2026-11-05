@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00335",
+    "description_usable": true,
+    "identity_consistent": false,
+    "function": "Analyzes and investigates digital media files for workflow integration.",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": true,
+    "reason": "Description is an overview of the company MediaArea and multiple products (MediaInfo, MediaConch) rather than one tool."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:38.798895+00:00"
+}

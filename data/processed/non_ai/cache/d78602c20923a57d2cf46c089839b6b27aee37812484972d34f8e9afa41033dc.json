@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00416",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Manages customer support emails, knowledge bases, and reporting through an email-like help desk interface.",
+    "category": "Customer Support",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Help Scout is a traditional customer support and help desk platform."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:21.325126+00:00"
+}

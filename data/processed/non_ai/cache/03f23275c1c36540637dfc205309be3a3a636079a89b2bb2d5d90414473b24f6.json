@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00309",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Parses, validates, manipulates, and formats dates and times in JavaScript applications across time zones and locales.",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Standard JavaScript utility library for date and time handling."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:13:26.048525+00:00"
+}

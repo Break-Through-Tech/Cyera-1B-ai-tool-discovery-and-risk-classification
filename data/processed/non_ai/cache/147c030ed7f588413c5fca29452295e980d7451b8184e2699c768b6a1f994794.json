@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00032",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Facilitates workplace communication, collaboration, and no-code automation for teams.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Team collaboration and chat platform with workflow automation."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:15:09.558866+00:00"
+}

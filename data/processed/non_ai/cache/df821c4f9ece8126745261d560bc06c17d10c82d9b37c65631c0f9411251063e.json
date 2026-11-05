@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "claude_00011",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Automates marketing activities including email campaigns, landing pages, lead nurturing, and analytics.",
+    "category": "Sales / Marketing",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Described as a standard marketing automation platform."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:09:15.046697+00:00"
+}

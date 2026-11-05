@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00475",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Integrates IT management and security functions to automate operations and support modern work environments.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Platform provides IT management, security, and rule-based automation with no AI capabilities stated."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:16:24.720510+00:00"
+}

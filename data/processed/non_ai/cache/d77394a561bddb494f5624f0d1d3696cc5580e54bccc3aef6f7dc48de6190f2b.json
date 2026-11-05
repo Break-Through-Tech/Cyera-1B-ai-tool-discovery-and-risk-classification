@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00324",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provide customizable, code-free website apps and widgets to generate leads and improve conversions.",
+    "category": "Sales / Marketing",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Suite of website plugins and widgets for marketing, lead generation, and conversions."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:13:43.682504+00:00"
+}

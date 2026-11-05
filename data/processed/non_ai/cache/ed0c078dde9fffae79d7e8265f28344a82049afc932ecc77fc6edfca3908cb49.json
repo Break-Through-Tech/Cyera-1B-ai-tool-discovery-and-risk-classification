@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00261",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Creates online forms including contact, subscription, and payment forms via a drag-and-drop WordPress builder.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Standard drag-and-drop WordPress form-building plugin."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:38.786596+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00130",
+    "description_usable": true,
+    "identity_consistent": false,
+    "function": "Develops meteorological, agricultural, and climate science applications to assess environmental changes and agricultural forecasting.",
+    "category": "Research / Search",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "The description identifies a software development company offering a portfolio of various software tools rather than a single specific product."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:15:45.717956+00:00"
+}

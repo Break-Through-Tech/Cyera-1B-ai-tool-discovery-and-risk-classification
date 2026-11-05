@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00323",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Build online communities and social networking sites to facilitate team collaboration and group interactions.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Open-source community and social networking software platform."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:13:43.675491+00:00"
+}

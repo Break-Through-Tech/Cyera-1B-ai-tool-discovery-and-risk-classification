@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00117",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Automates personalized marketing, email marketing, and CRM interactions to support customer engagement and business growth",
+    "category": "Sales / Marketing",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Marketing automation and CRM platform; described capabilities are conventional automation without central AI."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:13:07.413164+00:00"
+}

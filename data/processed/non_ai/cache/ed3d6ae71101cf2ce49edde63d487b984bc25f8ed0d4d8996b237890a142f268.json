@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00071",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Automates workflows and data transfer by integrating various web applications and services",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Workflow automation and app integration tool described via rule-based automation with no AI mentioned."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:52.309387+00:00"
+}

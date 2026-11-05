@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00469",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Scans networks to identify open ports, active services, and potential vulnerabilities across multiple operating systems.",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Nmap is an established open-source network scanner and security auditing tool operating via conventional networking mechanisms without AI."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:09:54.257844+00:00"
+}

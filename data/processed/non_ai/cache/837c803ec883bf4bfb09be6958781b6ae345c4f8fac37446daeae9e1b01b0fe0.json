@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00026",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides a drag-and-drop website development platform featuring templates, design tools, and an open SDK for web creation.",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Traditional website builder and design platform."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:17:16.839368+00:00"
+}

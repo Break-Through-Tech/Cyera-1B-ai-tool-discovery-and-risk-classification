@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00334",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Secures workforce, customers, and partners through identity and access management and authentication solutions",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Enterprise identity and access management (IAM) security software."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:16:04.125478+00:00"
+}

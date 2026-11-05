@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00419",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides open-source software for creating and hosting decentralized, privacy-focused social networking servers known as pods.",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Open-source decentralized social network platform without AI components."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:12:49.784131+00:00"
+}

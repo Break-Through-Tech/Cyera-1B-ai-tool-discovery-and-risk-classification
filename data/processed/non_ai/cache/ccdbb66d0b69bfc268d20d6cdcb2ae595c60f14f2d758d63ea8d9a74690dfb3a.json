@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00225",
+    "description_usable": false,
+    "identity_consistent": false,
+    "function": "Provides AI-driven software solutions for managing customer interactions and employee workplace productivity",
+    "category": "Customer Support",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Entity represents a company suite rather than a single distinct software tool."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:16:04.123869+00:00"
+}

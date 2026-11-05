@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00150",
+    "description_usable": true,
+    "identity_consistent": false,
+    "function": "Modernizes applications and multi-cloud infrastructure operations to streamline application development and deployment",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": true,
+    "reason": "Name is Pivotal Software, domain is vmware.com, and description discusses VMware Tanzu portfolio."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:13:07.412401+00:00"
+}

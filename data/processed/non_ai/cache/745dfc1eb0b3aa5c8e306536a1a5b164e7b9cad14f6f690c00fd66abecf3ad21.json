@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00133",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Offers downloadable video production elements including original visual effects, music, and post-production resources for video creators.",
+    "category": "Image / Video Generation",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "It is a conventional digital asset and stock VFX/music library for video post-production."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:12:29.850256+00:00"
+}

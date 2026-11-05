@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00455",
+    "description_usable": false,
+    "identity_consistent": false,
+    "function": "Develop digital image editing, management, and technical illustration software.",
+    "category": "Other",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Record represents a vendor company (ACD Systems) and its portfolio of software products, not a single application."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:02.337649+00:00"
+}

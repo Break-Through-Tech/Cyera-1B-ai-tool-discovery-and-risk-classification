@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00275",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides UI components, widgets, interactions, and themes for web applications built with jQuery",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Traditional open-source front-end UI component library."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:16:04.118521+00:00"
+}

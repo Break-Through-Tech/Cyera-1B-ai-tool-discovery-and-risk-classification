@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00239",
+    "description_usable": true,
+    "identity_consistent": false,
+    "function": "Provides financial and business management solutions including tax preparation, accounting, credit monitoring, and email marketing.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": true,
+    "reason": "Identifies a company portfolio of multiple distinct products (TurboTax, QuickBooks, Credit Karma, Mailchimp) rather than a single specific product."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:11:12.893718+00:00"
+}

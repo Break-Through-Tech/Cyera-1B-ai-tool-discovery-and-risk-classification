@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00321",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides remote access and device connectivity solutions for enterprise organizations using the VNC protocol.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "RealVNC provides remote desktop and access software without AI features."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:21.313710+00:00"
+}

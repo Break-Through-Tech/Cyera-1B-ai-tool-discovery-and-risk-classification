@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00485",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides VPN applications across devices for private internet browsing and unrestricted web access.",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Conventional VPN and network privacy service without AI involvement."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:11:51.376746+00:00"
+}

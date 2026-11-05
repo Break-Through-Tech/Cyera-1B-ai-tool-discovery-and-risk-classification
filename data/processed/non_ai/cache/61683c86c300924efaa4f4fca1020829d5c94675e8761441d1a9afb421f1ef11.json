@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00462",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Helps outdoor enthusiasts discover, plan, and share outdoor adventures and routes using community recommendations",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Route planning and navigation application for outdoor activities based on community recommendations."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:13:07.410818+00:00"
+}

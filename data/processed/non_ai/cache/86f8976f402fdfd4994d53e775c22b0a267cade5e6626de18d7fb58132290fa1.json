@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00152",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides geographic information system (GIS) software and location intelligence solutions for geospatial analytics.",
+    "category": "Data Analytics",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Specialized geographic information systems and spatial analytics platform."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:15:09.555851+00:00"
+}

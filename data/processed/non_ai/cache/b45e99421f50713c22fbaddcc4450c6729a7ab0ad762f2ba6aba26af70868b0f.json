@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00031",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Facilitates decentralized and secure real-time messaging, voice, and video communication across devices.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Open-source communication protocol/platform for decentralized chat and calls, with no AI involved."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:09:35.271862+00:00"
+}

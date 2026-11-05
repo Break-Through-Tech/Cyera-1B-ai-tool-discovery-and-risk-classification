@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00167",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides a secure, open-source code hosting, collaboration, and version control platform for developers",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Non-profit code repository and collaboration platform for free and open-source software."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:13:07.419638+00:00"
+}

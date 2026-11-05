@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00383",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Enables writing and publishing blogs through an open-source content management platform.",
+    "category": "Content Generation",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Open-source blogging and CMS platform for manual content publishing."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:38.788706+00:00"
+}

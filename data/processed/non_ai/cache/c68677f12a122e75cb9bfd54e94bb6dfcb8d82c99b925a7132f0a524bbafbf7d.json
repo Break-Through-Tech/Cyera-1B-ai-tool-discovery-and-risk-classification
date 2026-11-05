@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00449",
+    "description_usable": false,
+    "identity_consistent": false,
+    "function": "Protects critical applications, APIs, and data across edge, application, and data environments.",
+    "category": "Other",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Corporate description of an entire security provider rather than a concrete software product."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:09:54.268302+00:00"
+}

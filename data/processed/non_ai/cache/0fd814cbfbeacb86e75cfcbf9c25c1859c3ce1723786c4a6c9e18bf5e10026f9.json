@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00315",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Automate digital product sales, reselling, and affiliate marketing processes for online businesses.",
+    "category": "Sales / Marketing",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "It is an affiliate marketing and digital product reseller platform with workflow automation."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:10:53.446651+00:00"
+}

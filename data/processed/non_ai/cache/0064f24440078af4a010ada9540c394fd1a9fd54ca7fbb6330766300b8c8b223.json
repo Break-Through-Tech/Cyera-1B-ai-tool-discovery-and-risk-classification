@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00238",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Automate content research and curation using artificial intelligence to publish and share content online.",
+    "category": "Content Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Explicitly utilizes artificial intelligence to automate content research and curation."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:12:09.882834+00:00"
+}

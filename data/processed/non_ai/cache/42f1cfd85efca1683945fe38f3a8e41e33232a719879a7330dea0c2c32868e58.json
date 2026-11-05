@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00054",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Enables users to build relational database applications and collaborative workflows using a spreadsheet-like interface.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Airtable is a low-code database and spreadsheet hybrid platform; no AI features are described."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:21.320723+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00180",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Enables website and app visitors to share content across various social media and sharing networks.",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "AddToAny is a conventional social sharing widget and integration tool."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:16:44.377549+00:00"
+}

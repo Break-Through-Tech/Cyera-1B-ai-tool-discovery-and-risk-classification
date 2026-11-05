@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00153",
+    "description_usable": false,
+    "identity_consistent": false,
+    "function": "Delivers network and enterprise security solutions to safeguard people, devices, and data during digital transformation.",
+    "category": "Other",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "General corporate overview covering a broad suite of cybersecurity products rather than a specific software product."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:09:54.260036+00:00"
+}

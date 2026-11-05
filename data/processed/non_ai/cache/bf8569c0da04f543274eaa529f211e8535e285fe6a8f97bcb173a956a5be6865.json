@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00464",
+    "description_usable": false,
+    "identity_consistent": false,
+    "function": "Provides a suite of multimedia software programs for editing and enhancing video, music, and photos.",
+    "category": "Image / Video Generation",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Company-level description representing multiple multimedia editing products rather than a concrete individual product."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:15:45.729231+00:00"
+}

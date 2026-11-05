@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00106",
+    "description_usable": true,
+    "identity_consistent": false,
+    "function": "Provides open-source software powering online community platforms like DEV and CodeNewbie.",
+    "category": "Other",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Domain dev.to conflicts with product/organization name Forem (forem.com)."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:13:26.053244+00:00"
+}

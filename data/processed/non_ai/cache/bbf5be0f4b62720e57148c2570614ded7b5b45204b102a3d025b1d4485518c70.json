@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "claude_00009",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Handles cloud-based accounting, inventory, order processing, and corporate financial reporting.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Described as a conventional cloud ERP and accounting system."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:09:15.040763+00:00"
+}

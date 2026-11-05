@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00372",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Detect, display, and block hidden online web trackers to protect user privacy.",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Conventional browser-based privacy and tracker-blocking tool."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:02.338277+00:00"
+}

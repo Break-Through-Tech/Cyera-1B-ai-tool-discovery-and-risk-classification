@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00466",
+    "description_usable": false,
+    "identity_consistent": false,
+    "function": "Develops, implements, and supports enterprise management software solutions for business operations",
+    "category": "Other",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Domain direct.me does not align with company identity; description is a generic company profile lacking specific product details."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:13:07.421143+00:00"
+}

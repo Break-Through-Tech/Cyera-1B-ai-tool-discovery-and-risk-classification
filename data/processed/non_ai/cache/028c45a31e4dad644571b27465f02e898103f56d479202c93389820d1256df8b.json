@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00287",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Develops multimedia creation and playback software alongside deep learning facial recognition solutions",
+    "category": "Image / Video Generation",
+    "ai_status": "ai",
+    "needs_review": true,
+    "reason": "Encompasses both multimedia editing and a deep learning FaceMe AI engine across an entire company portfolio."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:52.298799+00:00"
+}

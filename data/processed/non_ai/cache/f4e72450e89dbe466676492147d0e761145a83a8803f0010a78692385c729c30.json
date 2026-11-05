@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "claude_00008",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Manages enterprise resource planning across finance, supply chain operations, manufacturing, and procurement.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Standard enterprise resource planning (ERP) suite."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:09:15.039734+00:00"
+}

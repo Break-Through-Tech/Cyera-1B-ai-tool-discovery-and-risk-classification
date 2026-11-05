@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00074",
+    "description_usable": true,
+    "identity_consistent": false,
+    "function": "Provides applications and financing services facilitating home co-ownership arrangements between pension funds and homeowners",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": true,
+    "reason": "Domain speakerdeck.com does not match tool name Wigwamm, indicating domain-identity mismatch."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:16:04.128537+00:00"
+}

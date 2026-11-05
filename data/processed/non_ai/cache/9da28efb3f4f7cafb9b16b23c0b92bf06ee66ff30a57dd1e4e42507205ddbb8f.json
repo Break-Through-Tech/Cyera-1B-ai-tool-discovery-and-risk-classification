@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00373",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Analyzes demand trends and presents reporting data to assist e-commerce decision-making.",
+    "category": "Data Analytics",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Demand Sage is described as an e-commerce reporting and data analytics platform."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:16:44.369430+00:00"
+}

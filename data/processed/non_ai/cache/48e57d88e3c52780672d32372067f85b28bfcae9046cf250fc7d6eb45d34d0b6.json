@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00456",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Optimizes website SEO via automated ALT tags, link management, and keyword ranking evaluation.",
+    "category": "Sales / Marketing",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Search engine optimization plugin and tool utilizing automated rules."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:15:09.567028+00:00"
+}

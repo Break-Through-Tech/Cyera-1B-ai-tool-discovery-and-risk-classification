@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00362",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides access to an extensive legal reference database, regional legislation, judicial practices, and contract builder tools.",
+    "category": "Research / Search",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Legal reference database and document search system."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:11:51.382911+00:00"
+}

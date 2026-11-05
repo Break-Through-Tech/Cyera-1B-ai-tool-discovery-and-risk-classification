@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00166",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Edits photos, designs visual content, and generates AI-created graphics across multiple platforms",
+    "category": "Image / Video Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Explicitly includes AI-generated content features and automated photo editing/design tools."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:52.294354+00:00"
+}

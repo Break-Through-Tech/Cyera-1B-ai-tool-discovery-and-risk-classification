@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00208",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides cloud-based software for event planning, online registration, venue selection, mobile apps, and marketing.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Enterprise event management and planning suite with conventional software capabilities."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:11:12.891446+00:00"
+}

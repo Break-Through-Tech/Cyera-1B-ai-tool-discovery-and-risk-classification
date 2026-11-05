@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00096",
+    "description_usable": false,
+    "identity_consistent": false,
+    "function": "Provides interior design and styling services.",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": true,
+    "reason": "Tool name and domain (Squarespace) conflict directly with description describing Velvet + Green, an interior design company."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:11:51.370285+00:00"
+}

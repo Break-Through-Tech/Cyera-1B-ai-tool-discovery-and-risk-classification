@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00131",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Tracks behavioral analytics and captures user feedback to analyze website interactions and support usability testing.",
+    "category": "Data Analytics",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Behavioral analytics and customer feedback SaaS product."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:13:26.056112+00:00"
+}

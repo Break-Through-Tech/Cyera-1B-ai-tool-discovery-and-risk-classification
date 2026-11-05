@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00364",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Deliver online educational courses and skill development across diverse disciplines like IT and law.",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "It is an online learning platform providing educational coursework."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:10:53.455570+00:00"
+}

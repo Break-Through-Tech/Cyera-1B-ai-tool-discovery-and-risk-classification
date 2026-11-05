@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00421",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Process media, orchestrate video workflows, capture live video, and assure video streaming quality.",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Conventional video processing, broadcast infrastructure, and workflow orchestration software."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:12:09.890482+00:00"
+}

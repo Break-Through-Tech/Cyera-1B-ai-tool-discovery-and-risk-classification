@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00476",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Enables secure business document sharing with access controls and viewer engagement analytics.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Secure document sharing service with tracking analytics."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:15:09.566283+00:00"
+}

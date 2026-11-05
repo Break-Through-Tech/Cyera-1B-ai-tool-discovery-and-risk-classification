@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00079",
+    "description_usable": false,
+    "identity_consistent": false,
+    "function": "Delivers enterprise security and compliance services covering email protection, threat intelligence, and data loss prevention.",
+    "category": "Other",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "The domain urldefense.com conflicts with Proofpoint's corporate identity description, and the text describes a full company portfolio."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:09:54.269595+00:00"
+}

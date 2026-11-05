@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00264",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides a sales CRM platform designed to track leads and manage sales pipelines for small businesses",
+    "category": "Sales / Marketing",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Standard sales customer relationship management (CRM) software."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:13:07.415321+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "claude_00026",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Manages employee records, onboarding processes, time off tracking, and performance reviews.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Described as a standard human resources management software suite."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:09:15.042344+00:00"
+}

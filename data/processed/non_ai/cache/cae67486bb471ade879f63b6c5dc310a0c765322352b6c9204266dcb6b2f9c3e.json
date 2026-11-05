@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00277",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Encrypt and sign data and communications with key management and public key directory access modules.",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Traditional cryptographic key management and digital encryption software tool."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:13:43.683188+00:00"
+}

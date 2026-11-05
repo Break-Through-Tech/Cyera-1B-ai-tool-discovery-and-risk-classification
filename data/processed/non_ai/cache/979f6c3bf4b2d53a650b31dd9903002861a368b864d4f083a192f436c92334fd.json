@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00052",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Hosts comments and provides discussion and user-engagement solutions for integration into websites and online communities.",
+    "category": "Customer Support",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Comment hosting and discussion platform without AI capabilities described."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:17:16.825929+00:00"
+}

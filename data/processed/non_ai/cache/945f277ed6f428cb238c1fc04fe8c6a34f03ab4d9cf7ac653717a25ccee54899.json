@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00271",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Issue and verify digital credentials and skills to connect individuals with career opportunities.",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Digital credentialing and skills verification platform for education and HR with no AI reported."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:10:53.453203+00:00"
+}

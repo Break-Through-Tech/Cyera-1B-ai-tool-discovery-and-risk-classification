@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00348",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides real-time contact data, sales intelligence, and marketing information to discover and grow customer bases.",
+    "category": "Sales / Marketing",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "B2B database and sales intelligence platform operating via traditional business data aggregation."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:15:09.560448+00:00"
+}

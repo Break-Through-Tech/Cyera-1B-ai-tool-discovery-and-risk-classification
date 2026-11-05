@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00478",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Protects web assets from automated threats and bots while preserving user privacy and regulatory compliance.",
+    "category": "Other",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Bot mitigation and fraud detection platform; description does not explicitly state whether AI/ML is central to detection."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:11:31.657639+00:00"
+}

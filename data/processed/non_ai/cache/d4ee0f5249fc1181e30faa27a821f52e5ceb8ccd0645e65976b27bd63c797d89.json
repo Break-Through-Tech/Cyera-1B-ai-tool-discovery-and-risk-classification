@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00038",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides cloud-based source code management and repository collaboration using Git and Mercurial.",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Standard code hosting and version control repository service."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:15:09.559726+00:00"
+}

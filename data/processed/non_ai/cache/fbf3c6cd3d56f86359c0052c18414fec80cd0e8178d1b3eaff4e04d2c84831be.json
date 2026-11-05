@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00039",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides livestreaming and video production tools including cloud-based overlays, alerts, chatbots, monetization, and sponsorship connections.",
+    "category": "Content Generation",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Livestream production and engagement suite without AI features mentioned."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:17:16.831658+00:00"
+}

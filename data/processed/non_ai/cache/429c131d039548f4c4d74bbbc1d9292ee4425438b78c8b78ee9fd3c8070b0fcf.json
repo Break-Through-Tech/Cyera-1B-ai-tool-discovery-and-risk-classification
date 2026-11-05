@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00156",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides audio content and tools for sleep, meditation, and stress management for individuals and businesses.",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Mental wellness and meditation application providing recorded audio content without core AI capabilities mentioned."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:11:31.650539+00:00"
+}

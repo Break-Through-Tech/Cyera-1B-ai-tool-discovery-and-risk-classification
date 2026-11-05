@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00196",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Computes answers to factual questions using curated systematic knowledge and computational algorithms.",
+    "category": "Research / Search",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Wolfram|Alpha is a computational knowledge engine based on algorithmic computation and curated knowledge, rather than generative/inferential AI models as defined."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:16:44.373686+00:00"
+}

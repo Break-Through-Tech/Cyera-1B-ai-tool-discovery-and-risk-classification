@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00417",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides photography business tools including website building, client galleries, proofing, online bookings, and print sales.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "SaaS business management and portfolio suite for photographers."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:12:29.861065+00:00"
+}

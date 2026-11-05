@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00297",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Hosts, protects, shares, and sells photos online for professional and amateur photographers.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Photo hosting, portfolio, and digital commerce platform."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:12:29.861740+00:00"
+}

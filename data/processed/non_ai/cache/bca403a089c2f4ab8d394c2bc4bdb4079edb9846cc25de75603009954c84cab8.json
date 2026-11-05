@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00426",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Creates and hosts interactive game-based quizzes, presentations, and training sessions with performance reports and analytics.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Gamified presentation and quiz platform; no AI generation or inference mentioned."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:11:12.888388+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00307",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Maintains and supports the open, decentralized Matrix communication standard and protocol for secure messaging.",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Organization supporting an open-source decentralized communication standard, completely non-AI."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:09:35.272542+00:00"
+}

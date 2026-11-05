@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00337",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides digital marketing learning resources, planning templates, guides, and e-learning courses to enhance marketing skills and strategies.",
+    "category": "Sales / Marketing",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "It is an educational resource and template platform for marketing without any AI capabilities mentioned."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:11:12.878892+00:00"
+}

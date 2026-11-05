@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00163",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Enables teams to collaboratively create, share, and manage structured Markdown notes, slides, and charts",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Standard collaborative note-taking and documentation platform with no AI capabilities cited."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:16:04.119510+00:00"
+}

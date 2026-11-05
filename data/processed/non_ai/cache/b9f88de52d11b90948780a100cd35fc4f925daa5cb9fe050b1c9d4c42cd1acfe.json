@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "claude_00002",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Manages sales leads, opportunities, customer accounts, and sales forecasting within a cloud CRM platform.",
+    "category": "Sales / Marketing",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Described as a traditional CRM platform for sales pipeline and account management."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:09:15.036913+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00221",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Builds, publishes, and manages registration forms, payment forms, and surveys without coding.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Standard no-code web form builder."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:38.796210+00:00"
+}

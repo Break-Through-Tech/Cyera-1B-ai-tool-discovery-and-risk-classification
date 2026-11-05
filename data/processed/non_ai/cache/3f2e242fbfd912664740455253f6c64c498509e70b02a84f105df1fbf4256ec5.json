@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00313",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Structure web applications using models, collections, and views with key-value binding and RESTful JSON API integration.",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Standard JavaScript web development framework."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:13:43.667008+00:00"
+}

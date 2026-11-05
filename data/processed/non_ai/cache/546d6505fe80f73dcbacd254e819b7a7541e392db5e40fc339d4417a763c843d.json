@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00253",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Hosts live webinars and virtual conferences with interactive Q&A, live polling, and attendee analytics.",
+    "category": "Meeting / Transcription Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Crowdcast is a live-streaming and webinar platform with standard engagement and analytical tools."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:16:44.382814+00:00"
+}

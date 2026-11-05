@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00207",
+    "description_usable": true,
+    "identity_consistent": false,
+    "function": "Provides Java programming tools, tutorials, and developer resources to enhance coding skills",
+    "category": "Coding / Developer Tools",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Identity mismatch: Tool name 'SSK Technologies' does not align cleanly with the official java.com domain, warranting review."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:52.296208+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00089",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Streamlines application development, containerization workflows, and distribution via Docker Desktop and Docker Hub",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Standard containerization and developer deployment platform without AI centrality."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:52.305946+00:00"
+}

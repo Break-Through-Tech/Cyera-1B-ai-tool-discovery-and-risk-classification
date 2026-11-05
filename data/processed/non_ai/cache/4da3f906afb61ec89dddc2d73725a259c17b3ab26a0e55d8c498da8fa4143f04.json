@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00160",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Analyze website visitor behavior and optimize conversion rates using A/B testing, heatmaps, and analytics.",
+    "category": "Data Analytics",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Website optimization and user behavior analytics platform using conventional methods."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:10:35.227987+00:00"
+}

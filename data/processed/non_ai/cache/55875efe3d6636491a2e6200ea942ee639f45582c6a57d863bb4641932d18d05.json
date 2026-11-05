@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00317",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Track and analyze website user behavior, drop-offs, and cart abandonment to optimize site performance.",
+    "category": "Data Analytics",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Behavioral analytics and conversion tracking tool using standard web session data."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:02.342220+00:00"
+}

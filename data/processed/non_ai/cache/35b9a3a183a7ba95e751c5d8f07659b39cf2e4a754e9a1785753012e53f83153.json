@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "claude_00023",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides business analytics services for building reports and dashboards across multiple data sources.",
+    "category": "Data Analytics",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Described as a conventional business analytics and dashboarding platform without AI being primary."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:09:15.035727+00:00"
+}

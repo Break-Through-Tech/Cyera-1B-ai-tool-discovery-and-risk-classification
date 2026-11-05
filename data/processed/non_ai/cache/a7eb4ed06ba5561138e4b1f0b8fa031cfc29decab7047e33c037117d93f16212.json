@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00230",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Creates, plays back, and shares sheet music notation using open-source software and community tools",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Conventional open-source music notation and composition software with audio playback."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:52.303567+00:00"
+}

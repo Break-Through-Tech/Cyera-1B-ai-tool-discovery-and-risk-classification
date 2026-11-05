@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00003",
+    "description_usable": false,
+    "identity_consistent": false,
+    "function": "Provides diverse Internet services including search, online advertising, and cloud computing infrastructure.",
+    "category": "Other",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "The record covers the parent company Google broadly while pairing it with googletagmanager.com; it describes a company portfolio rather than a single specific product."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:16:44.366821+00:00"
+}

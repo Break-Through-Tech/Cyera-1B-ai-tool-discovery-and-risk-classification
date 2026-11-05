@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00276",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Develops, promotes, and maintains OpenID internet identity layers and API protection standards.",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Standards foundation for internet identity and authentication."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:12:29.857148+00:00"
+}

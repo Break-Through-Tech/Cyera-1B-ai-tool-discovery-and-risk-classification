@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00326",
+    "description_usable": true,
+    "identity_consistent": false,
+    "function": "Facilitates online mind mapping and collaborative task management for creative workflows.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": true,
+    "reason": "Tool name is MindMeister, but description describes MeisterLabs and covers both MindMeister and MeisterTask."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:38.791906+00:00"
+}

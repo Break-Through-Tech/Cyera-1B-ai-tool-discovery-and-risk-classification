@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00336",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Compress, convert, edit, sign, and secure PDF documents across multiple devices.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Standard document management utility focusing on PDF manipulation."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:15:27.640654+00:00"
+}

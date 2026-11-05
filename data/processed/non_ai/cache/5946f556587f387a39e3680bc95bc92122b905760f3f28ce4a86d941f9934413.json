@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00036",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Consolidate product roadmaps, company wikis, meeting notes, and team documentation into a customizable workspace.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Workspace and documentation tool; text does not indicate central AI functionality."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:02.339925+00:00"
+}

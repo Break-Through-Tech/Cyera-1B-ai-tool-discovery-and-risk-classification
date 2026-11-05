@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00285",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Combines geometry, algebra, graphing, and calculus into an interactive STEM learning platform",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Interactive educational mathematics software with no AI capabilities cited."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:52.306723+00:00"
+}

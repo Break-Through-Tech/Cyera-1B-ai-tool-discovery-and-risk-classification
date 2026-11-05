@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00029",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Organize notes, manage tasks, and maintain personal or team information through digital note-taking tools.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Conventional productivity and note-taking application; no AI features mentioned in the description."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:15:27.629663+00:00"
+}

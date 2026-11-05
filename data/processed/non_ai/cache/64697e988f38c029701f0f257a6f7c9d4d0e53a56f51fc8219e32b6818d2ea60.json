@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00035",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Facilitate customer service communication across channels like chat, email, and social media to manage customer interactions.",
+    "category": "Customer Support",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Customer support suite; description details conventional communication and ticketing tools without AI as a central capability."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:15:27.627590+00:00"
+}

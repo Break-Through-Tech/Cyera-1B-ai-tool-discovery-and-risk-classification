@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00473",
+    "description_usable": true,
+    "identity_consistent": false,
+    "function": "Facilitates development and standardization of technology frameworks such as cybersecurity, cloud computing, and IoT.",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": true,
+    "reason": "OASIS is an open standards organization, not a discrete software product."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:16:24.725889+00:00"
+}

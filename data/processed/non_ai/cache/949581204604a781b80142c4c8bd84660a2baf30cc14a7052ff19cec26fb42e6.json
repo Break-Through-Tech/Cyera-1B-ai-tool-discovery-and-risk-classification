@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00246",
+    "description_usable": true,
+    "identity_consistent": false,
+    "function": "Provides business management software and services covering payroll, human resources, and finance operations.",
+    "category": "Other",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Record represents a large vendor with a suite of enterprise products rather than a single tool."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:13:26.053997+00:00"
+}

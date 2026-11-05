@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00034",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Manages customer relationships, marketing automation, sales tracking, and meeting scheduling.",
+    "category": "Sales / Marketing",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Broad CRM and marketing automation platform described with standard business software functions."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:38.787524+00:00"
+}

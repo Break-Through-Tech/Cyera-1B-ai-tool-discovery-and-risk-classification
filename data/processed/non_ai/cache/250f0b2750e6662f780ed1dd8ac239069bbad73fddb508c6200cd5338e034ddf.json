@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00159",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Enables uploading, annotating, searching extracted entities, and publishing primary source documents for research and investigations.",
+    "category": "Research / Search",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Document analysis and indexing service for journalists utilizing entity extraction and search tools."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:11:31.656976+00:00"
+}

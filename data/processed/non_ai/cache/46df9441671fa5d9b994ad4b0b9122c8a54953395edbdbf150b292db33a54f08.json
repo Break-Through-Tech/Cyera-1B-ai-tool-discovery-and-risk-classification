@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "claude_00024",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Manages business spending, enterprise procurement, vendor invoicing, and operational expenses.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Conventional business spend and procurement management tool."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:09:15.048125+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00126",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Safeguards personal data, identity, and devices against cyber threats via security software.",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Avast provides traditional antivirus, privacy, and cybersecurity software."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:09:35.277953+00:00"
+}

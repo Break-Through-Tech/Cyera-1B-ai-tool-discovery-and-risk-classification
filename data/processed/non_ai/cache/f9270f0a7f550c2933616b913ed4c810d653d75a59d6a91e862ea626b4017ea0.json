@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00095",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Enables athletes to track, record, and improve their physical performance through a global community platform",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Athletic activity tracking and social fitness platform."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:16:04.120292+00:00"
+}

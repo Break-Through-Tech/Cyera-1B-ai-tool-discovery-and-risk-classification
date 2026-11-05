@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00322",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Delivers open-source relational cloud database infrastructure designed for scalable and automated workloads.",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Relational database management system."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:15:09.567894+00:00"
+}

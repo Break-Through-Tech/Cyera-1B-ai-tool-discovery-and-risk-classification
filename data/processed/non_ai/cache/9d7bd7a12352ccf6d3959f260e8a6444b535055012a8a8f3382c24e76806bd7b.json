@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00114",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Create, host, distribute, stream live, and analyze podcasts across platforms.",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Podcast creation, distribution, and hosting platform without AI capabilities described."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:12:09.889683+00:00"
+}

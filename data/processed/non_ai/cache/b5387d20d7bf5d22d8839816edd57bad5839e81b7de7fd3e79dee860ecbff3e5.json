@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00298",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Transfers files securely over the internet using FTP client and server software across multiple platforms.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "FileZilla is a conventional FTP client and server tool with no AI capabilities described."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:21.309962+00:00"
+}

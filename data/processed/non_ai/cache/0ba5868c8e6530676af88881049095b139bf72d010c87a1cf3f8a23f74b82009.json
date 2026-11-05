@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00397",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Offers a business communications solution featuring IP PBX replacement, video conferencing, live chat, and messaging.",
+    "category": "Customer Support",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Telecommunications and business PBX software without AI capabilities described."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:17:16.838590+00:00"
+}
