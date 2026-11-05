@@ -2,3 +2,7 @@
 .env
 .env.*
 !.env.example
+
+# Local downloaded encoder and derived full-catalog vectors
+/artifacts/embedding_cache/
+**/__pycache__/
