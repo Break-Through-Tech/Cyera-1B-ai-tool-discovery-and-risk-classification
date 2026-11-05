@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **DocuWriter.ai** at the domain **docuwriter.ai** is provided by **DocuWriter, Inc.** (also operating under the brand name **DocuWriter.ai**).\n\n### Evidence\n* **Company / Legal Entity:** The official website footer across `docuwriter.ai` pages establishes the operating legal entity:  \n  > *\"© 2026 DocuWriter, Inc.\"*\n* **Terms of Service:** The official Terms of Service document states:  \n  > *\"These Terms of Service govern your use of the website located at https://www.docuwriter.ai/ and the DocuWriter.ai AI-powered documentation platform and related services provided by DocuWriter.ai.\"*\n* **Privacy Policy:** The official Privacy Policy page further identifies the provider brand:  \n  > *\"It is DocuWriter.ai's policy to respect your privacy and comply with any applicable law and regulation regarding any personal information we may collect about you, including across our website, https://www.docuwriter.ai/...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **DocuWriter.ai** at the domain **docuwriter.ai** is provided by **DocuWriter, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkozRuCMed9VbPO1wd7APoAIH1i0GsB1IYO8R8N4RL6-eIDzlu4dsSjjqqgyN2Y0i2moLfPHyIM96jvnf6XxjYVLKLaiODVMy38dQi7PBQng==",
+          "title": "docuwriter.ai"
+        },
+        {
+          "id": 1,
+          "text": "The software product **DocuWriter.ai** at the domain **docuwriter.ai** is provided by **DocuWriter, Inc.** (also operating under the brand name **DocuWriter.ai**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaqkGF93v3BGJoxUgdUnFpqpQEHpujSa1ngxw83Xqj-Wrvu_bh9CpDz9Fpf1jnbC1mqxdJ9ztfJQaUTe9POlHqtzN8v0A5CrS1Be3awzYj8Z1BtJJPWiVcddB4Sszs",
+          "title": "docuwriter.ai"
+        },
+        {
+          "id": 2,
+          "text": "The software product **DocuWriter.ai** at the domain **docuwriter.ai** is provided by **DocuWriter, Inc.** (also operating under the brand name **DocuWriter.ai**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9fDgdAQI7BImAGnOIwVHuqbxmQJlJQDrzuv0BD9T7wInobA03J_fR19-DLz5hVL1P3jmEW5OWwHMgaSVQGYVevazK-eBjLwunUHqrOFVbYFDzseOooT33VtGBk6SOiJk=",
+          "title": "docuwriter.ai"
+        },
+        {
+          "id": 3,
+          "text": "*\"© 2026 DocuWriter, Inc.\"*\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkozRuCMed9VbPO1wd7APoAIH1i0GsB1IYO8R8N4RL6-eIDzlu4dsSjjqqgyN2Y0i2moLfPHyIM96jvnf6XxjYVLKLaiODVMy38dQi7PBQng==",
+          "title": "docuwriter.ai"
+        },
+        {
+          "id": 4,
+          "text": "*\"© 2026 DocuWriter, Inc.\"*\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGs5s_ef4Kh3IklRfakd_QUjTnwlXm6R_sjAP1zvqRaKgxMO9r3osBckne_KMyptLcvqrvfkbcaeUFfmBtMwUv5dDg4lMwyLHkQu9GAShALoNHmb9UdUppKSlSDN0SD7TH8DomSHN_jEHsS_G2iZ7gIgqQ=",
+          "title": "docuwriter.ai"
+        },
+        {
+          "id": 5,
+          "text": "\"These Terms of Service govern your use of the website located at https://www.docuwriter.ai/ and the DocuWriter.ai AI-powered documentation platform and related services provided by DocuWriter.ai.\"*\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9fDgdAQI7BImAGnOIwVHuqbxmQJlJQDrzuv0BD9T7wInobA03J_fR19-DLz5hVL1P3jmEW5OWwHMgaSVQGYVevazK-eBjLwunUHqrOFVbYFDzseOooT33VtGBk6SOiJk=",
+          "title": "docuwriter.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "DocuWriter, Inc.",
+        "evidence": "Passage 0 states that the software product DocuWriter.ai at the domain docuwriter.ai is provided by DocuWriter, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The software product **DocuWriter.ai** at the domain **docuwriter.ai** is provided by **DocuWriter, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkozRuCMed9VbPO1wd7APoAIH1i0GsB1IYO8R8N4RL6-eIDzlu4dsSjjqqgyN2Y0i2moLfPHyIM96jvnf6XxjYVLKLaiODVMy38dQi7PBQng==",
+          "title": "docuwriter.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "DocuWriter.ai",
+    "domain": "docuwriter.ai",
+    "description": "AI-powered tools for Developers"
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "DocuWriter, Inc.",
+  "evidence": "Passage 0 states that the software product DocuWriter.ai at the domain docuwriter.ai is provided by DocuWriter, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The software product **DocuWriter.ai** at the domain **docuwriter.ai** is provided by **DocuWriter, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkozRuCMed9VbPO1wd7APoAIH1i0GsB1IYO8R8N4RL6-eIDzlu4dsSjjqqgyN2Y0i2moLfPHyIM96jvnf6XxjYVLKLaiODVMy38dQi7PBQng==",
+    "title": "docuwriter.ai"
+  },
+  "checked_at": "2026-11-05T06:49:25.077558+00:00"
+}

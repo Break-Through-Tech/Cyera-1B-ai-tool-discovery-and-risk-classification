@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "For the software product **BekiAI** (associated with the domain **beki.io**):\n\n* **Developer / Provider:** Created and founded by **Nedim (Ned) Mehić** under the brand/entity **Beki AI** (subsequently acquired by **Cuppa AI**).\n* **Provider Evidence / Citations:**\n  * Software directory G2 explicitly lists the seller as **Beki AI**, authored and managed by *\"Ned Mehic (SEO SaaS Founder & Technical SEO Expert)\"*.\n  * Public professional biographies for Ned Mehić state: *\"Previously built Beki AI— acquired by Cuppa.ai\"* and identify him as *\"the founder of Beki AI, an internal linking software\"*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**Developer / Provider:** Created and founded by **Nedim (Ned) Mehić** under the brand/entity **Beki AI** ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFa8Be1Ozke-ugZnhfQh-qdOWhIOzPMSYZtml-iR62LKuPV8gZimj36fIeolsmRABdHMt0Mp2VPuaeH5QiB9EJn7efHyWtTJJRK6uKMi_EI9R9gt2FBKKSqC_VQybceNHkJ",
+          "title": "g2.com"
+        },
+        {
+          "id": 1,
+          "text": "**Developer / Provider:** Created and founded by **Nedim (Ned) Mehić** under the brand/entity **Beki AI** ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfx5aJ26SQIBPQJLO0-CS2n5xmioNSa62cK1CqldBnuVnPYWbxuh2M2xjpNUSURk2WhEQYMu5DTssSPaIXMhN_8JsYfbXS5v0vf8wJ3jXuYhlnbkOnG1mbL5rkRGWANOHCj20sqNadWfaz0B8Xpp-oU3UBEvGO9QlNNeAWwAm7",
+          "title": "amimentioned.com.au"
+        },
+        {
+          "id": 2,
+          "text": "**Developer / Provider:** Created and founded by **Nedim (Ned) Mehić** under the brand/entity **Beki AI** (subsequently acquired by **Cuppa AI**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbnG2tLLRhb9tpuVM6owMWVZwgZTW0cPjQxmeaqis-9TRC8rcwTD1wt1UxePlkUdas_PO6A2pllLmF2vJ3xB5elD4Qemz0DEM5uqyafxrd0DDQ",
+          "title": "amimentioned.com.au"
+        },
+        {
+          "id": 3,
+          "text": "oftware directory G2 explicitly lists the seller as **Beki AI**, authored and managed by *\"Ned Mehic (SEO SaaS Founder & Technical SEO Expert)\"*.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFa8Be1Ozke-ugZnhfQh-qdOWhIOzPMSYZtml-iR62LKuPV8gZimj36fIeolsmRABdHMt0Mp2VPuaeH5QiB9EJn7efHyWtTJJRK6uKMi_EI9R9gt2FBKKSqC_VQybceNHkJ",
+          "title": "g2.com"
+        },
+        {
+          "id": 4,
+          "text": "ublic professional biographies for Ned Mehić state: *\"Previously built Beki AI— acquired by Cuppa.ai\"* and",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbnG2tLLRhb9tpuVM6owMWVZwgZTW0cPjQxmeaqis-9TRC8rcwTD1wt1UxePlkUdas_PO6A2pllLmF2vJ3xB5elD4Qemz0DEM5uqyafxrd0DDQ",
+          "title": "amimentioned.com.au"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Cuppa AI",
+        "evidence": "Passage 2 states that Beki AI was created and founded under the brand/entity Beki AI and subsequently acquired by Cuppa AI.",
+        "source": {
+          "id": 2,
+          "text": "**Developer / Provider:** Created and founded by **Nedim (Ned) Mehić** under the brand/entity **Beki AI** (subsequently acquired by **Cuppa AI**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbnG2tLLRhb9tpuVM6owMWVZwgZTW0cPjQxmeaqis-9TRC8rcwTD1wt1UxePlkUdas_PO6A2pllLmF2vJ3xB5elD4Qemz0DEM5uqyafxrd0DDQ",
+          "title": "amimentioned.com.au"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "BekiAI",
+    "domain": "beki.io",
+    "description": "Internal linking made easy with AI."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Cuppa AI",
+  "evidence": "Passage 2 states that Beki AI was created and founded under the brand/entity Beki AI and subsequently acquired by Cuppa AI.",
+  "source": {
+    "id": 2,
+    "text": "**Developer / Provider:** Created and founded by **Nedim (Ned) Mehić** under the brand/entity **Beki AI** (subsequently acquired by **Cuppa AI**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbnG2tLLRhb9tpuVM6owMWVZwgZTW0cPjQxmeaqis-9TRC8rcwTD1wt1UxePlkUdas_PO6A2pllLmF2vJ3xB5elD4Qemz0DEM5uqyafxrd0DDQ",
+    "title": "amimentioned.com.au"
+  },
+  "checked_at": "2026-11-05T06:32:53.873517+00:00"
+}

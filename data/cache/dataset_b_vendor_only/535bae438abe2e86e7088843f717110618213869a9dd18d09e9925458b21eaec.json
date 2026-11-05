@@ -1,0 +1,79 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Smallpdf** at **smallpdf.com** is **Smallpdf AG** (also referenced as **Smallpdf Ltd.**).\n\n### Evidence and Citations\n* **Official Website & Imprint**: The official website footer states: *“© Smallpdf AG — Made with [love] for the people of the internet”*. Official imprint details identify the operating entity as:\n  > *“Smallpdf AG, Steinstrasse 21, 8003 Zürich, Switzerland”* (Handelsregister des Kantons Zürich UID: CHE-461.243.982).\n* **Developer & Corporate Confirmations**: Official store listings (e.g., Google Play Store) list the developer directly as **Smallpdf AG**, and corporate releases identify the entity as *“Smallpdf AG, the Swiss company behind sign.com and smallpdf.com”*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Smallpdf** at **smallpdf.com** is **Smallpdf AG**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTW9X3nR3J78t2x918H_J6-Ex2kfBavY1SOhQBlSn5ralYMN83wR0Wo3NjL0VHwW86V6xSWHLW2l8Dcri2sltYkHhM6okh5pZQdvUiYYk1QfE=",
+          "title": "smallpdf.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Smallpdf** at **smallpdf.com** is **Smallpdf AG**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGasj4j2y2FgvolSROGacBzPWpg63ABmgSh86CCgG0qLOoM6QJnmqQumPbnNYvwlgPZDF_mPRBj7WqPRMV_33TWrx9f-zyNYAZO-6YbzaPoRI5iPB9CEY8obe18MLQx3yPExebqDkPY7-ea5aeA-ctRbMLlhYh6toUzF6LLDtxnXaZRdlnv3D8dXIdYG1fNedcjylWc3pARJ9fICzPvAIgHNcQwEst49k3EpuJZuTU0JUfCqiPKbWHuJz66Ghr5szUK22LYDOA=",
+          "title": "prweb.com"
+        },
+        {
+          "id": 2,
+          "text": "The vendor directly providing **Smallpdf** at **smallpdf.com** is **Smallpdf AG** (also referenced as **Smallpdf Ltd.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGffvipiGDs7mkD8fcgrTnrCXXLxIJkBroYdxnv_kZGQ01lNihJ9t55Rdnf53cTOwst0PbJoal3NzX2KxYvQjAu14hvZDx_OVoy9vT6cNGqlOfdOQ==",
+          "title": "sign.com"
+        },
+        {
+          "id": 3,
+          "text": "**Official Website & Imprint**: The official website footer states: *“© Smallpdf AG — Made with [love] for the people of the internet”*. Offic",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTW9X3nR3J78t2x918H_J6-Ex2kfBavY1SOhQBlSn5ralYMN83wR0Wo3NjL0VHwW86V6xSWHLW2l8Dcri2sltYkHhM6okh5pZQdvUiYYk1QfE=",
+          "title": "smallpdf.com"
+        },
+        {
+          "id": 4,
+          "text": "**Official Website & Imprint**: The official website footer states: *“© Smallpdf AG — Made with [love] for the people of the internet”*. Offic",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5ixeVDcCkxyCKsm0dOTV0gkFnxAyVd0Ua2lPIb-WcjsxwbRbhX0PVkLWwCpoaQbkM_Gv4rHdjXw_vnTKkBsL0tsU7kLUU8sWDH4GUSGjiJW8=",
+          "title": "smallpdf.com"
+        },
+        {
+          "id": 5,
+          "text": "pdf AG, Steinstrasse 21, 8003 Zürich, Switzerland”* (Handelsregister des Kantons Zürich UID: CHE-461.243.982).\n* **Develop",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGffvipiGDs7mkD8fcgrTnrCXXLxIJkBroYdxnv_kZGQ01lNihJ9t55Rdnf53cTOwst0PbJoal3NzX2KxYvQjAu14hvZDx_OVoy9vT6cNGqlOfdOQ==",
+          "title": "sign.com"
+        },
+        {
+          "id": 6,
+          "text": " Corporate Confirmations**: Official store listings (e.g., Google Play Store) list the developer directly as **Smallpdf AG**, and corpora",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZWrSnvttA_mvrsGQb28LmS7Ph_Cxf6NNtFeqWvKRB9n_1823PguMVwL1bAJ_MvbpbjRRRdOyUXbzyLO-ONMELUrMT1dEPSHJ7nxMHOm6q_fUSJbCPKrXjtWZl6rPS",
+          "title": "smallpdf.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Smallpdf AG",
+        "evidence": "Passage 0 directly confirms that the vendor providing Smallpdf at smallpdf.com is Smallpdf AG.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Smallpdf** at **smallpdf.com** is **Smallpdf AG**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTW9X3nR3J78t2x918H_J6-Ex2kfBavY1SOhQBlSn5ralYMN83wR0Wo3NjL0VHwW86V6xSWHLW2l8Dcri2sltYkHhM6okh5pZQdvUiYYk1QfE=",
+          "title": "smallpdf.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Smallpdf",
+    "domain": "smallpdf.com",
+    "description": "Smallpdf, based in Switzerland, is an award-winning company that provides a comprehensive suite of document management tools specifically designed for handling PDF files. Founded in 2013, Smallpdf focuses on user experience, offering a variety of features such as compression, conversion, editing, signing, protection, and unlocking of PDF documents. The platform is accessible to both individual users and businesses, with a Pro subscription model that offers additional capabilities. With over 500 million users globally, Smallpdf aims to simplify document management for everyone, making it affordable and device-agnostic."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Smallpdf AG",
+  "evidence": "Passage 0 directly confirms that the vendor providing Smallpdf at smallpdf.com is Smallpdf AG.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Smallpdf** at **smallpdf.com** is **Smallpdf AG**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTW9X3nR3J78t2x918H_J6-Ex2kfBavY1SOhQBlSn5ralYMN83wR0Wo3NjL0VHwW86V6xSWHLW2l8Dcri2sltYkHhM6okh5pZQdvUiYYk1QfE=",
+    "title": "smallpdf.com"
+  },
+  "checked_at": "2026-11-05T09:40:24.791762+00:00"
+}

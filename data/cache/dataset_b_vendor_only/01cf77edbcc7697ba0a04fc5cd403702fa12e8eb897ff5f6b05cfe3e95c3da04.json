@@ -1,0 +1,79 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor and developer directly providing **Sayfli** at **sayfli.com** is **Sayfli**.\n\n### Evidence & Supporting Statements:\n* **Product & Domain:** Sayfli (`sayfli.com`), an AI conversation partner designed for safe and confidential conversations.\n* **Published Developer / Provider:** In software application listings (such as Softonic's specifications for the web application), the developer is published directly as **sayfli** (*\"App specs. Developer. sayfli\"*).\n* **Operating Entity:** The platform is operated directly under the proprietary brand **Sayfli** by its independent creator without a separate corporate parent or distinct legal entity disclosed.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor and developer directly providing **Sayfli** at **sayfli.com** is **Sayfli**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSa5Bpmi7Wi1D6AofkvllWlUE2BfYDXbTOGoLqsHF6zZoWI78DZy5c93pv6pQAY8vdn4JIZGIEZ5KCC4-Tjeudc2FBFWcu_PJWrS2t4POMPiph8YMObk9boqzNycRtF9nMCd70h_MY3M4lWdBmSSYnQMVm0FFjOMCTvmmYWMxGnzLhjixjqVC9-2rEz61Zsony-bxGglTFjdQkzPgtZA==",
+          "title": "reddit.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor and developer directly providing **Sayfli** at **sayfli.com** is **Sayfli**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6vAYsoHY5jkKMFhCxSvgzuAvljte64x2_rnjpJmhCsLUMVnX2eiLp1N5cawrmP0eXrSx9XvtP37lAk4A1A3tH4_Eqfw4kJRTPez0WfUBePSILRQpOZgPnYKMcFgE=",
+          "title": "softonic.com"
+        },
+        {
+          "id": 2,
+          "text": "**Product & Domain:** Sayfli (`sayfli.com`), an AI conversation partner designed for safe and confidential conversations",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvb5co5A75pik2Mq_MpOx1sv0e9QFyTJ8O37SajUTtKClBoMuA3bAJQF9ru2Bi-VTiXvYxpFerpIL_Qu1o8lXnyjJ3rMmJEvIzuIKuymz2jG2eaFU=",
+          "title": "tenereteam.com"
+        },
+        {
+          "id": 3,
+          "text": "**Product & Domain:** Sayfli (`sayfli.com`), an AI conversation partner designed for safe and confidential conversations",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSa5Bpmi7Wi1D6AofkvllWlUE2BfYDXbTOGoLqsHF6zZoWI78DZy5c93pv6pQAY8vdn4JIZGIEZ5KCC4-Tjeudc2FBFWcu_PJWrS2t4POMPiph8YMObk9boqzNycRtF9nMCd70h_MY3M4lWdBmSSYnQMVm0FFjOMCTvmmYWMxGnzLhjixjqVC9-2rEz61Zsony-bxGglTFjdQkzPgtZA==",
+          "title": "reddit.com"
+        },
+        {
+          "id": 4,
+          "text": "Developer. sayfli\"*)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6vAYsoHY5jkKMFhCxSvgzuAvljte64x2_rnjpJmhCsLUMVnX2eiLp1N5cawrmP0eXrSx9XvtP37lAk4A1A3tH4_Eqfw4kJRTPez0WfUBePSILRQpOZgPnYKMcFgE=",
+          "title": "softonic.com"
+        },
+        {
+          "id": 5,
+          "text": "**Operating Entity:** The platform is operated directly under the proprietary brand **Sayfli** by its independent creator without a separate corporate parent or distinct legal entity disclosed",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSa5Bpmi7Wi1D6AofkvllWlUE2BfYDXbTOGoLqsHF6zZoWI78DZy5c93pv6pQAY8vdn4JIZGIEZ5KCC4-Tjeudc2FBFWcu_PJWrS2t4POMPiph8YMObk9boqzNycRtF9nMCd70h_MY3M4lWdBmSSYnQMVm0FFjOMCTvmmYWMxGnzLhjixjqVC9-2rEz61Zsony-bxGglTFjdQkzPgtZA==",
+          "title": "reddit.com"
+        },
+        {
+          "id": 6,
+          "text": "**Operating Entity:** The platform is operated directly under the proprietary brand **Sayfli** by its independent creator without a separate corporate parent or distinct legal entity disclosed",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6vAYsoHY5jkKMFhCxSvgzuAvljte64x2_rnjpJmhCsLUMVnX2eiLp1N5cawrmP0eXrSx9XvtP37lAk4A1A3tH4_Eqfw4kJRTPez0WfUBePSILRQpOZgPnYKMcFgE=",
+          "title": "softonic.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Sayfli",
+        "evidence": "Passage 1 explicitly confirms that the vendor and developer directly providing Sayfli at sayfli.com is Sayfli.",
+        "source": {
+          "id": 1,
+          "text": "The vendor and developer directly providing **Sayfli** at **sayfli.com** is **Sayfli**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6vAYsoHY5jkKMFhCxSvgzuAvljte64x2_rnjpJmhCsLUMVnX2eiLp1N5cawrmP0eXrSx9XvtP37lAk4A1A3tH4_Eqfw4kJRTPez0WfUBePSILRQpOZgPnYKMcFgE=",
+          "title": "softonic.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Sayfli",
+    "domain": "sayfli.com",
+    "description": "Your AI conversation partner for a safe and open talk."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Sayfli",
+  "evidence": "Passage 1 explicitly confirms that the vendor and developer directly providing Sayfli at sayfli.com is Sayfli.",
+  "source": {
+    "id": 1,
+    "text": "The vendor and developer directly providing **Sayfli** at **sayfli.com** is **Sayfli**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6vAYsoHY5jkKMFhCxSvgzuAvljte64x2_rnjpJmhCsLUMVnX2eiLp1N5cawrmP0eXrSx9XvtP37lAk4A1A3tH4_Eqfw4kJRTPez0WfUBePSILRQpOZgPnYKMcFgE=",
+    "title": "softonic.com"
+  },
+  "checked_at": "2026-11-05T07:28:40.731401+00:00"
+}

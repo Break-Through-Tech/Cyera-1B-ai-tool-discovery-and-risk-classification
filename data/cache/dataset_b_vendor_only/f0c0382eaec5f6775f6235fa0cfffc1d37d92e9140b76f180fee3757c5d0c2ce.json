@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Plausible Analytics** at **plausible.io** is **Plausible Insights OÜ**.\n\n### Evidence and Provider Statement\n* **Vendor & Purchasing Documentation:** According to Plausible's official purchasing and vendor documentation, *\"Plausible Analytics is developed and operated by Plausible Insights OÜ, a company registered in Estonia. Subscriptions are sold through Paddle, our authorized reseller and merchant of record... Plausible provides the analytics service and product support. Software provider, product support and service security: Plausible Insights OÜ\"*.\n* **Imprint & Privacy Policy:** The legal notice and privacy documentation at `plausible.io` list the entity as **Plausible Insights OÜ** (Registration number: 14709274, registered in Tartu, Estonia).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Plausible Analytics** at **plausible.io** is **Plausible Insights OÜ**.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTS_xQx9tPOYSyoJTHyGASdDpAo6bwUVGmY5TrBuNr_sqTcBzVgp-b0Wn1aobsevm8b4GhLWh0cnXxz8oTpIeA3dfRSeZWl6Cw8tU3K56Fm2r4",
+          "title": "plausible.io"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Plausible Analytics** at **plausible.io** is **Plausible Insights OÜ**.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuLX9I0a_jw80sYCavs7qvxfciOrkgujgm_QhZVp06oskfYatgYwR7EPS6DGrZk1snZUIB5DXqeKhFMZ8CYxQgLEBLmZjNU3FW28jdyyu4XApjq61skA==",
+          "title": "plausible.io"
+        },
+        {
+          "id": 2,
+          "text": "ftware provider, product support and service security: Plausible Insights OÜ\"*.\n*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuLX9I0a_jw80sYCavs7qvxfciOrkgujgm_QhZVp06oskfYatgYwR7EPS6DGrZk1snZUIB5DXqeKhFMZ8CYxQgLEBLmZjNU3FW28jdyyu4XApjq61skA==",
+          "title": "plausible.io"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Plausible Insights OÜ",
+        "evidence": "Passage 0 directly states that the vendor providing Plausible Analytics at plausible.io is Plausible Insights OÜ.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Plausible Analytics** at **plausible.io** is **Plausible Insights OÜ**.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTS_xQx9tPOYSyoJTHyGASdDpAo6bwUVGmY5TrBuNr_sqTcBzVgp-b0Wn1aobsevm8b4GhLWh0cnXxz8oTpIeA3dfRSeZWl6Cw8tU3K56Fm2r4",
+          "title": "plausible.io"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Plausible Analytics",
+    "domain": "plausible.io",
+    "description": "Plausible Analytics is an open source web analytics platform that provides a lightweight and privacy-focused alternative to traditional analytics tools like Google Analytics. With a file size of less than 1 KB, it is designed for simplicity and speed, offering insights to users while ensuring privacy. It is used by thousands of subscribers looking for reliable website analytics without compromising user data."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Plausible Insights OÜ",
+  "evidence": "Passage 0 directly states that the vendor providing Plausible Analytics at plausible.io is Plausible Insights OÜ.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Plausible Analytics** at **plausible.io** is **Plausible Insights OÜ**.",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTS_xQx9tPOYSyoJTHyGASdDpAo6bwUVGmY5TrBuNr_sqTcBzVgp-b0Wn1aobsevm8b4GhLWh0cnXxz8oTpIeA3dfRSeZWl6Cw8tU3K56Fm2r4",
+    "title": "plausible.io"
+  },
+  "checked_at": "2026-11-05T08:02:04.321172+00:00"
+}

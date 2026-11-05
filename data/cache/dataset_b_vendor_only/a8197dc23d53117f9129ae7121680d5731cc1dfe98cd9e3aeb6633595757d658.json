@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **ClickFunnels** at **clickfunnels.com** is **Etison LLC** (doing business as **ClickFunnels**).\n\n### Evidence:\n* **Privacy Policy Notice:** *\"Thank you for visiting the online and mobile resources published by Etison LLC.\"*\n* **Terms of Service:** *\"Copyright [...] - Etison LLC dba ClickFunnels - All Rights Reserved.\"*\n* **ClickFunnels Marketplace Terms:** *\"'Us,' 'We,' and 'Etison' means Etison, LLC, the company that created Click Funnels and that owns and operates the Marketplace.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **ClickFunnels** at **clickfunnels.com** is **Etison LLC** (doing business as **ClickFunnels**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzn1wh3QCCQXflR0-QFD7PphN8Kj__vez831sNriiEqH1C4mTCX3D-fEN13Pm_1Iorfb-Csx8BEk-CFa3AX-X3FJx7Nqiq8GjDc4GJgPmj98PdBsDiCqShERP0ZgJ8v1nw",
+          "title": "clickfunnels.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **ClickFunnels** at **clickfunnels.com** is **Etison LLC** (doing business as **ClickFunnels**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFuBGrO5nYzfdeoBREYH6Kc_HPSUvi70C1F9x88pqHiKug8Dgr-RGNaIxmLSUGP19ydT9fVV99QyiLSF_Eu8HINHPtKr5u6BszWVXGrEZfWuu09oamurLt",
+          "title": "clickfunnels.com"
+        },
+        {
+          "id": 2,
+          "text": "**Privacy Policy Notice:** *\"Thank you for visiting the online and mobile resources published by Etison LLC.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjs4OakwAtTFdP-UDttjIEZrFLpnbJid3Uuk91sSEb_qfo3G38UJDEmnPB-0m2eqT9v8hIy5Lo5R1T0yKLahdFs6jGlpNFt4Bcht1OVXhmlOv2TVZ5EY7boVUjewJzdrQm7324",
+          "title": "clickfunnels.com"
+        },
+        {
+          "id": 3,
+          "text": "**Terms of Service:** *\"Copyright [...] - Etison LLC dba ClickFunnels - All Rights Reserved.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFuBGrO5nYzfdeoBREYH6Kc_HPSUvi70C1F9x88pqHiKug8Dgr-RGNaIxmLSUGP19ydT9fVV99QyiLSF_Eu8HINHPtKr5u6BszWVXGrEZfWuu09oamurLt",
+          "title": "clickfunnels.com"
+        },
+        {
+          "id": 4,
+          "text": "**ClickFunnels Marketplace Terms:** *\"'Us,' 'We,' and 'Etison' means Etison, LLC, the company that created Click Funnels and that owns and operates the Marketplace.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzn1wh3QCCQXflR0-QFD7PphN8Kj__vez831sNriiEqH1C4mTCX3D-fEN13Pm_1Iorfb-Csx8BEk-CFa3AX-X3FJx7Nqiq8GjDc4GJgPmj98PdBsDiCqShERP0ZgJ8v1nw",
+          "title": "clickfunnels.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Etison LLC",
+        "evidence": "Passage 0 directly states that the vendor providing ClickFunnels at clickfunnels.com is Etison LLC (doing business as ClickFunnels).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **ClickFunnels** at **clickfunnels.com** is **Etison LLC** (doing business as **ClickFunnels**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzn1wh3QCCQXflR0-QFD7PphN8Kj__vez831sNriiEqH1C4mTCX3D-fEN13Pm_1Iorfb-Csx8BEk-CFa3AX-X3FJx7Nqiq8GjDc4GJgPmj98PdBsDiCqShERP0ZgJ8v1nw",
+          "title": "clickfunnels.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "ClickFunnels",
+    "domain": "clickfunnels.com",
+    "description": "ClickFunnels is a web-based platform that enables businesses to create and manage marketing funnels to optimize customer conversion rates. The platform provides users with a variety of tools for building websites, landing pages, and sales funnels, making the process easy and efficient. Located in the digital marketing sector, ClickFunnels serves customers across different industries seeking to enhance their online marketing efforts."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Etison LLC",
+  "evidence": "Passage 0 directly states that the vendor providing ClickFunnels at clickfunnels.com is Etison LLC (doing business as ClickFunnels).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **ClickFunnels** at **clickfunnels.com** is **Etison LLC** (doing business as **ClickFunnels**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzn1wh3QCCQXflR0-QFD7PphN8Kj__vez831sNriiEqH1C4mTCX3D-fEN13Pm_1Iorfb-Csx8BEk-CFa3AX-X3FJx7Nqiq8GjDc4GJgPmj98PdBsDiCqShERP0ZgJ8v1nw",
+    "title": "clickfunnels.com"
+  },
+  "checked_at": "2026-11-05T08:11:02.399290+00:00"
+}

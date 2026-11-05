@@ -1,0 +1,79 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **TestSprite** at **testsprite.com** is **TestSprite Inc.** (operating as **TestSprite**).\n\n### Evidence\n* **Terms of Service (`testsprite.com`):**\n  > *\"These Terms of Use constitute a legally binding agreement made between you, whether personally or on behalf of an entity ('you') and (TestSprite, 'we', 'us', or 'our'), concerning your access to and use of the website... We are registered in Washington, United States and have our registered office at 1525 11th Ave, Seattle, WA 98122.\"*\n* **Privacy Notice (`testsprite.com`):**\n  > *\"The TestSprite is an AI-powered autonomous end-to-end software testing company... TestSprite is headquartered in Seattle...\"*\n* **Corporate Filings & Disclosures:** The registered operating corporation behind the platform and domain is **TestSprite Inc.**.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **TestSprite** at **testsprite.com** is **TestSprite Inc.** (operating as **TestSprite**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsPzUCbOkcdBCWwZd5b95ZU4UDVUuhSdbdFzg5ZDsoPSGMDOqwcbRXg1tnCiURd6CmKiIUb4HpVTnOa-JlmPRk3yvawo4VJabtfW5KG5IY3OAnCyBTHtj0",
+          "title": "testsprite.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **TestSprite** at **testsprite.com** is **TestSprite Inc.** (operating as **TestSprite**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcQZmbuNZog8IUqxzleece1aSQdLUGcsJMiMrllZOY3y9RMQFLxv3I0TJptAOGwm_4pb7pTMtz7C8oEEOmuzcc7oMJrWh8KsEFKDF7nbGrHJgcg65KV601jDGTYHe0AchJJxC1-id8unuFC0sCRMNA1frYZZNtKpFNEVqoYkZL7ffu3MLqXKUmJr19Nmmz67c55c6PYuVQiA==",
+          "title": "polsinelli.com"
+        },
+        {
+          "id": 2,
+          "text": "We are registered in Washington, United States and have our registered office at 1525 11th Ave, Seattle, WA 98122.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEl5GsJtTg2iy5XLMwmpcGKmpqcRbR06kudQSjGdK9RpOQ9rnxHUX3uL0gxfZAkCnyiZxnkwYgRgdrHyK2T0JZ2KPYjt_0FPgGu0SMObJqm7mwZqrNEHA==",
+          "title": "testsprite.com"
+        },
+        {
+          "id": 3,
+          "text": "TestSprite is headquartered in Seattle...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsPzUCbOkcdBCWwZd5b95ZU4UDVUuhSdbdFzg5ZDsoPSGMDOqwcbRXg1tnCiURd6CmKiIUb4HpVTnOa-JlmPRk3yvawo4VJabtfW5KG5IY3OAnCyBTHtj0",
+          "title": "testsprite.com"
+        },
+        {
+          "id": 4,
+          "text": "TestSprite is headquartered in Seattle...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsPzUCbOkcdBCWwZd5b95ZU4UDVUuhSdbdFzg5ZDsoPSGMDOqwcbRXg1tnCiURd6CmKiIUb4HpVTnOa-JlmPRk3yvawo4VJabtfW5KG5IY3OAnCyBTHtj0",
+          "title": "testsprite.com"
+        },
+        {
+          "id": 5,
+          "text": "**Corporate Filings & Disclosures:** The registered operating corporation behind the platform and domain is **TestSprite Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJvuXTbAIt47LPox2-fH7B2NQg6yqROxXGXF3HEM-AYjv3ApQPW0gtSpLv57Q6jdOMTl2hk_nkBoOFSgRhQSxEbQL0T3vjMrqMqp83-VzpmgPuXt2TpV90PAmKSfL86_QgspGWKA==",
+          "title": "globaldealflow.com"
+        },
+        {
+          "id": 6,
+          "text": "**Corporate Filings & Disclosures:** The registered operating corporation behind the platform and domain is **TestSprite Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG82nu2Hp9INFJaR1JCgwH90IkamJ8UM8X3t6w_aVVNFHzsZOzwo2t8mOONsdUBZxOxZJI8WucM0lHYQmmdz2fyAucdQB2ZRiFDWoyjUAESqMfdRV_5lwWVmIJlA==",
+          "title": "seattleflow.org"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "TestSprite Inc.",
+        "evidence": "Passage 0 confirms that the vendor directly providing TestSprite at testsprite.com is TestSprite Inc. (operating as TestSprite).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **TestSprite** at **testsprite.com** is **TestSprite Inc.** (operating as **TestSprite**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsPzUCbOkcdBCWwZd5b95ZU4UDVUuhSdbdFzg5ZDsoPSGMDOqwcbRXg1tnCiURd6CmKiIUb4HpVTnOa-JlmPRk3yvawo4VJabtfW5KG5IY3OAnCyBTHtj0",
+          "title": "testsprite.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "TestSprite",
+    "domain": "testsprite.com",
+    "description": "TestSprite is a no-code AI-powered test automation platform designed to simplify and accelerate software testing for web applications. It uses AI to generate test cases and automate the testing process, reducing manual effort and improving efficiency."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "TestSprite Inc.",
+  "evidence": "Passage 0 confirms that the vendor directly providing TestSprite at testsprite.com is TestSprite Inc. (operating as TestSprite).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **TestSprite** at **testsprite.com** is **TestSprite Inc.** (operating as **TestSprite**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsPzUCbOkcdBCWwZd5b95ZU4UDVUuhSdbdFzg5ZDsoPSGMDOqwcbRXg1tnCiURd6CmKiIUb4HpVTnOa-JlmPRk3yvawo4VJabtfW5KG5IY3OAnCyBTHtj0",
+    "title": "testsprite.com"
+  },
+  "checked_at": "2026-11-05T07:55:40.208805+00:00"
+}

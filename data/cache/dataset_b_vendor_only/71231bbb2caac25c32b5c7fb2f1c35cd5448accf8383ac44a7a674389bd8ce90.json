@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "For the software product **Zizoto** at **zizoto.com**, the identified published developer is **Brendan Khoury**.\n\n* **Evidence & Provider Statement:** App-store and software repository listings record that Zizoto is *\"developed by Brendan Khoury\"* / *Publisher: Brendan Khoury*. Business and software directories (such as Slashdot and SourceForge) also list the provider entity under the self-branded company name **Zizoto** (domain: `zizoto.com`).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "For the software product **Zizoto** at **zizoto.com**, the identified published developer is **Brendan Khoury**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnXxDVR5Kc4xtGPTuko5ziBhZ_EuQ1HvtYzYFZOMP3SL_9t79rY2oX7GZxKl5oysiU4TDEwmi-WcpOEeJ0VhqerdVURs8FcYel4QPR6mdHxN2XGA==",
+          "title": "updatestar.com"
+        },
+        {
+          "id": 1,
+          "text": "For the software product **Zizoto** at **zizoto.com**, the identified published developer is **Brendan Khoury**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEctXyjmoorVJdC29l8cNB-L3RGKxZo4iSnUufSbfs29dDsBfVXtngwl-L1fLXV2mO9m-B6shw4DwQ4SCxKfJ2aBo2HY9uetFiBh8DlFTdqXnin-lDgOY9vydLEMFqmP8YOTRYbL_slJOKKSbIEjCuk",
+          "title": "soft112.com"
+        },
+        {
+          "id": 2,
+          "text": "**Evidence & Provider Statement:** App-store and software repository listings record that Zizoto is *\"developed by Brendan Khoury\"* / *Publisher: Brendan Khoury*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnXxDVR5Kc4xtGPTuko5ziBhZ_EuQ1HvtYzYFZOMP3SL_9t79rY2oX7GZxKl5oysiU4TDEwmi-WcpOEeJ0VhqerdVURs8FcYel4QPR6mdHxN2XGA==",
+          "title": "updatestar.com"
+        },
+        {
+          "id": 3,
+          "text": "**Evidence & Provider Statement:** App-store and software repository listings record that Zizoto is *\"developed by Brendan Khoury\"* / *Publisher: Brendan Khoury*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGp4By7DvsGKyA_Efvs0DChuL2HNgpU8rg98T1cOn3QEkWUzQbDyOM0Iv2r82WC02J1Vs_LmBWBV3l9GFTU1qVr2Rpoe7hX-RmZBdt1CDoBgJ2EKmKYzIo7M6lV",
+          "title": "updatestar.com"
+        },
+        {
+          "id": 4,
+          "text": "Business and software directories (such as Slashdot and SourceForge) also list the provider entity under the self-branded company name **Zizoto** (domain: `zizoto.com`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9Vo9t2mvshrYLMRPDOOkFKs23rQGREQwjOFmQ0_9-Y9qPH36z6Ll_VWZBUPAh34vzgte3zubDjrloEbsNAfIcrog9nLUIIaHX_s1NhnMKPhACjXI8mkIRG735idpM8tc8d1U1GAwpVqmxNy6ymBNUJJI=",
+          "title": "sourceforge.net"
+        },
+        {
+          "id": 5,
+          "text": "Business and software directories (such as Slashdot and SourceForge) also list the provider entity under the self-branded company name **Zizoto** (domain: `zizoto.com`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6v9f29JzYuXA1PzIfoUFXbdDaqY2X8W3EmiB7ivh3CE5rpmSXwObT1GrHYtxchcX0U-wzJvpVX5Zp8hwZM2ZIMdyBUH2Rp6i9zWw7ktdPAZPIIqQG7Ld2Mi5H1lyQ3AO7TPlGhvKhuQwGa7WLOPVWC0XG",
+          "title": "slashdot.org"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Zizoto",
+        "evidence": "Business and software directories (such as Slashdot and SourceForge) list the provider entity under the self-branded company name Zizoto (domain: zizoto.com).",
+        "source": {
+          "id": 4,
+          "text": "Business and software directories (such as Slashdot and SourceForge) also list the provider entity under the self-branded company name **Zizoto** (domain: `zizoto.com`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9Vo9t2mvshrYLMRPDOOkFKs23rQGREQwjOFmQ0_9-Y9qPH36z6Ll_VWZBUPAh34vzgte3zubDjrloEbsNAfIcrog9nLUIIaHX_s1NhnMKPhACjXI8mkIRG735idpM8tc8d1U1GAwpVqmxNy6ymBNUJJI=",
+          "title": "sourceforge.net"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Zizoto",
+    "domain": "zizoto.com",
+    "description": "Created images collaboratively with SDXL model."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Zizoto",
+  "evidence": "Business and software directories (such as Slashdot and SourceForge) list the provider entity under the self-branded company name Zizoto (domain: zizoto.com).",
+  "source": {
+    "id": 4,
+    "text": "Business and software directories (such as Slashdot and SourceForge) also list the provider entity under the self-branded company name **Zizoto** (domain: `zizoto.com`)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9Vo9t2mvshrYLMRPDOOkFKs23rQGREQwjOFmQ0_9-Y9qPH36z6Ll_VWZBUPAh34vzgte3zubDjrloEbsNAfIcrog9nLUIIaHX_s1NhnMKPhACjXI8mkIRG735idpM8tc8d1U1GAwpVqmxNy6ymBNUJJI=",
+    "title": "sourceforge.net"
+  },
+  "checked_at": "2026-11-05T07:04:19.957979+00:00"
+}

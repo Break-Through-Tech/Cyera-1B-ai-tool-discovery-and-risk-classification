@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **Trinka AI** at **trinka.ai** is directly provided by **Crimson AI Pvt. Ltd.** (also referred to as **Crimson AI LLP** / **Crimson AI**).\n\n### Supporting Evidence:\n* **Privacy Policy (`trinka.ai/privacy-policy`):**\n  > *\"Trinka.ai is a fully owned product of Crimson AI Pvt. Ltd. Crimson AI Pvt. Ltd and its subsidiary and affiliate companies (collectively hereafter, 'Crimson AI,' 'we,' 'us,' or 'our') recognize the importance of protecting the personal information collected from users in the operation of our website, products, content, and services...\"*\n* **Terms of Service (`trinka.ai/terms-of-service`):**\n  > *\"Your use of the service, and Crimson AI's provision of the service to you, constitutes an agreement by Crimson AI and by you to be bound by these Terms.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **Trinka AI** at **trinka.ai** is directly provided by **Crimson AI Pvt. Ltd.** (also referred to as **Crimson AI LLP** / **Crimson AI**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFf6kvJmedBenWELsdDa_jDoTYrPrvzNzqCAPRcA_kB2dsa4KzIMCxHpgR7xz0YejNJVR0_faOk_aOD0nMBwh9DyZBe2sNAl07mIw_S7dd1c15M9DEDb84Xz4s=",
+          "title": "trinka.ai"
+        },
+        {
+          "id": 1,
+          "text": "The software product **Trinka AI** at **trinka.ai** is directly provided by **Crimson AI Pvt. Ltd.** (also referred to as **Crimson AI LLP** / **Crimson AI**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH66G6ATLgtS_ENMvkVL0i9jC1_6nY4CZsLaYtMI6fGDe_A3JqYNEy2kVBTU8qXkrBU3NcN6A5DMLQHQQODftbuIGDPeD3pO_CwxbLEmKfa822MpUN6Ku6U",
+          "title": "trinka.ai"
+        },
+        {
+          "id": 2,
+          "text": "The software product **Trinka AI** at **trinka.ai** is directly provided by **Crimson AI Pvt. Ltd.** (also referred to as **Crimson AI LLP** / **Crimson AI**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBT4yGcvakO5F9IJjfNN0UfQVPvfMBlsKp7cnD3Kwwt2rhG33wmubOSPOhueRlPg7W4_wHbLrTFIdM9om8TjWMZGyA8bNO3EaAKbettVW2AfTQ53rDtEqj1MOV",
+          "title": "trinka.ai"
+        },
+        {
+          "id": 3,
+          "text": "Crimson AI Pvt. Ltd and its subsidiary and affiliate companies (collectively hereafter, 'Crimson AI,' 'we,' 'us,' or 'our') recognize the importance of protecting the personal information collected from users in the operation of our website, products, content, and services...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH66G6ATLgtS_ENMvkVL0i9jC1_6nY4CZsLaYtMI6fGDe_A3JqYNEy2kVBTU8qXkrBU3NcN6A5DMLQHQQODftbuIGDPeD3pO_CwxbLEmKfa822MpUN6Ku6U",
+          "title": "trinka.ai"
+        },
+        {
+          "id": 4,
+          "text": "*\"Your use of the service, and Crimson AI's provision of the service to you, constitutes an agreement by Crimson AI and by you to be bound by these Terms.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFf6kvJmedBenWELsdDa_jDoTYrPrvzNzqCAPRcA_kB2dsa4KzIMCxHpgR7xz0YejNJVR0_faOk_aOD0nMBwh9DyZBe2sNAl07mIw_S7dd1c15M9DEDb84Xz4s=",
+          "title": "trinka.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Crimson AI Pvt. Ltd.",
+        "evidence": "Passage 0 explicitly states that the software product Trinka AI at trinka.ai is directly provided by Crimson AI Pvt. Ltd.",
+        "source": {
+          "id": 0,
+          "text": "The software product **Trinka AI** at **trinka.ai** is directly provided by **Crimson AI Pvt. Ltd.** (also referred to as **Crimson AI LLP** / **Crimson AI**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFf6kvJmedBenWELsdDa_jDoTYrPrvzNzqCAPRcA_kB2dsa4KzIMCxHpgR7xz0YejNJVR0_faOk_aOD0nMBwh9DyZBe2sNAl07mIw_S7dd1c15M9DEDb84Xz4s=",
+          "title": "trinka.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Trinka AI",
+    "domain": "trinka.ai",
+    "description": "AI Grammar Checker"
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Crimson AI Pvt. Ltd.",
+  "evidence": "Passage 0 explicitly states that the software product Trinka AI at trinka.ai is directly provided by Crimson AI Pvt. Ltd.",
+  "source": {
+    "id": 0,
+    "text": "The software product **Trinka AI** at **trinka.ai** is directly provided by **Crimson AI Pvt. Ltd.** (also referred to as **Crimson AI LLP** / **Crimson AI**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFf6kvJmedBenWELsdDa_jDoTYrPrvzNzqCAPRcA_kB2dsa4KzIMCxHpgR7xz0YejNJVR0_faOk_aOD0nMBwh9DyZBe2sNAl07mIw_S7dd1c15M9DEDb84Xz4s=",
+    "title": "trinka.ai"
+  },
+  "checked_at": "2026-11-05T07:31:40.632989+00:00"
+}

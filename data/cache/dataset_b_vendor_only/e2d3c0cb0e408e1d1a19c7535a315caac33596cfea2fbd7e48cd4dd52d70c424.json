@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product **Suki** at **suki.ai** is **Suki AI, Inc.**\n\n### Provider Evidence\nAccording to the official **Terms of Service** on `suki.ai`:\n> *\"These Terms of Service (this “Agreement”) are entered into by and between Suki AI, Inc., a Delaware corporation (“Suki”), and the entity or person accessing or using the Suki Platform (“Customer”).\"*\n\nThe site footer also states:\n> *\"© Copyright 2026. Suki AI, Inc. All rights reserved. The Suki name and logo are trademarks of Suki AI, Inc.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product **Suki** at **suki.ai** is **Suki AI, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2xKwRpbOyfKLQVkjPJi-R0HTfzt46pnI6zLE3X_W-0StTDwYbyXVR3jJKnPYQkaoqpjB9mrYJiG-RN8H3f1DewT7XqNnCcKvh7D5wS-ocFSH1n-TWLExmR9qN",
+          "title": "suki.ai"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the software product **Suki** at **suki.ai** is **Suki AI, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2xKwRpbOyfKLQVkjPJi-R0HTfzt46pnI6zLE3X_W-0StTDwYbyXVR3jJKnPYQkaoqpjB9mrYJiG-RN8H3f1DewT7XqNnCcKvh7D5wS-ocFSH1n-TWLExmR9qN",
+          "title": "suki.ai"
+        },
+        {
+          "id": 2,
+          "text": "*\"These Terms of Service (this “Agreement”) are entered into by and between Suki AI, Inc., a Delaware corporation (“Suki”), and the entity or person accessing or using the Suki Platform (“Customer”).\"*\n\nThe site f",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2xKwRpbOyfKLQVkjPJi-R0HTfzt46pnI6zLE3X_W-0StTDwYbyXVR3jJKnPYQkaoqpjB9mrYJiG-RN8H3f1DewT7XqNnCcKvh7D5wS-ocFSH1n-TWLExmR9qN",
+          "title": "suki.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Suki AI, Inc.",
+        "evidence": "The Terms of Service define the agreement for accessing or using the Suki Platform as being entered into by and between Suki AI, Inc. and the customer.",
+        "source": {
+          "id": 2,
+          "text": "*\"These Terms of Service (this “Agreement”) are entered into by and between Suki AI, Inc., a Delaware corporation (“Suki”), and the entity or person accessing or using the Suki Platform (“Customer”).\"*\n\nThe site f",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2xKwRpbOyfKLQVkjPJi-R0HTfzt46pnI6zLE3X_W-0StTDwYbyXVR3jJKnPYQkaoqpjB9mrYJiG-RN8H3f1DewT7XqNnCcKvh7D5wS-ocFSH1n-TWLExmR9qN",
+          "title": "suki.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Suki",
+    "domain": "suki.ai",
+    "description": "Suki is a virtual assistant for healthcare professionals, automating administrative tasks like charting, scheduling, and communication to free up clinicians' time."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Suki AI, Inc.",
+  "evidence": "The Terms of Service define the agreement for accessing or using the Suki Platform as being entered into by and between Suki AI, Inc. and the customer.",
+  "source": {
+    "id": 2,
+    "text": "*\"These Terms of Service (this “Agreement”) are entered into by and between Suki AI, Inc., a Delaware corporation (“Suki”), and the entity or person accessing or using the Suki Platform (“Customer”).\"*\n\nThe site f",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2xKwRpbOyfKLQVkjPJi-R0HTfzt46pnI6zLE3X_W-0StTDwYbyXVR3jJKnPYQkaoqpjB9mrYJiG-RN8H3f1DewT7XqNnCcKvh7D5wS-ocFSH1n-TWLExmR9qN",
+    "title": "suki.ai"
+  },
+  "checked_at": "2026-11-05T07:45:27.041146+00:00"
+}

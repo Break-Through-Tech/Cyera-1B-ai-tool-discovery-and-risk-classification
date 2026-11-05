@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **Bitly** software platform and services at **bitly.com** is **Bitly, Inc.**\n\n### Evidence\n* **Terms of Service:** The official Bitly Terms of Service state:  \n  > *\"Bitly, Inc. and its affiliates (collectively “Bitly,” “we” or “our”) provide URL shortening, custom-branded link, link management, link-in-bio, QR code and analytics products and services to our users (collectively, the “Bitly Services”). Please read these Terms of Service (the “Agreement”) carefully, as they govern your access to and use of the Bitly Services and constitute a binding legal agreement between you and Bitly.\"*\n* **Cookie Policy:** It also notes that *\"Bitly Inc. (“Bitly”, “we” or “us”) use cookies and similar technologies on our website (https://bitly.com, the “Site”) or the services, features, content or applications offered by Bitly through the Site...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **Bitly** software platform and services at **bitly.com** is **Bitly, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZrmCKN5vU6Z6q2KETdDLGqlXTf-yP1yh_BlHFYALQ6su0OF6-lG1YJpDoNLyEPl2CEVINkEE0atLqIoXplArNdxDxP6hC7t1RdXPjf0rq_POTPxscrU6oqnRlbu-6IQ==",
+          "title": "bitly.com"
+        },
+        {
+          "id": 1,
+          "text": "e Terms of Service (the “Agreement”) carefully, as they govern your access to and use of the Bitly Services and constitute a binding legal agreement between you and Bitly.\"*\n* **Cookie Policy:*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZrmCKN5vU6Z6q2KETdDLGqlXTf-yP1yh_BlHFYALQ6su0OF6-lG1YJpDoNLyEPl2CEVINkEE0atLqIoXplArNdxDxP6hC7t1RdXPjf0rq_POTPxscrU6oqnRlbu-6IQ==",
+          "title": "bitly.com"
+        },
+        {
+          "id": 2,
+          "text": "Bitly, Inc. and its affiliates (collectively “Bitly,” “we” or “our”) provide URL shortening, custom-branded link, link management, link-in-bio, QR code and analytics products and services to our users (collectively, the “Bitly Services”). Please read these Terms of Service (the “Agreement”) carefully, as they govern your access to and use of the Bitly Services and constitute a binding legal agreement between you and Bitly.\"*\n* **",
+          "url": "https://bitly.com/pages/terms-of-service",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Bitly, Inc.",
+        "evidence": "According to the Terms of Service, Bitly, Inc. and its affiliates provide the Bitly Services, including URL shortening, link management, QR code, and analytics products.",
+        "source": {
+          "id": 2,
+          "text": "Bitly, Inc. and its affiliates (collectively “Bitly,” “we” or “our”) provide URL shortening, custom-branded link, link management, link-in-bio, QR code and analytics products and services to our users (collectively, the “Bitly Services”). Please read these Terms of Service (the “Agreement”) carefully, as they govern your access to and use of the Bitly Services and constitute a binding legal agreement between you and Bitly.\"*\n* **",
+          "url": "https://bitly.com/pages/terms-of-service",
+          "title": ""
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Bitly",
+    "domain": "bitly.com",
+    "description": "Bitly is a comprehensive connections platform that provides services including short links, QR codes, and Link-in-Bio functionalities, all supported by detailed analytics. It caters to a diverse clientele such as brands, businesses, digital marketers, creators, educators, and non-profits, helping them engage more effectively with their audiences. With various pricing packages available, Bitly emphasizes insights and analytics to enhance user connections."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Bitly, Inc.",
+  "evidence": "According to the Terms of Service, Bitly, Inc. and its affiliates provide the Bitly Services, including URL shortening, link management, QR code, and analytics products.",
+  "source": {
+    "id": 2,
+    "text": "Bitly, Inc. and its affiliates (collectively “Bitly,” “we” or “our”) provide URL shortening, custom-branded link, link management, link-in-bio, QR code and analytics products and services to our users (collectively, the “Bitly Services”). Please read these Terms of Service (the “Agreement”) carefully, as they govern your access to and use of the Bitly Services and constitute a binding legal agreement between you and Bitly.\"*\n* **",
+    "url": "https://bitly.com/pages/terms-of-service",
+    "title": ""
+  },
+  "checked_at": "2026-11-05T08:38:04.970156+00:00"
+}

@@ -1,0 +1,79 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **POWR** suite of website plugins and applications at **powr.io** is **POWR Inc.** (operating under the brand **POWR** / **POWR.io**).\n\n### Supporting Evidence and Statements:\n* **Terms of Use (powr.io):** POWR's terms state: *\"Thanks for joing POWR Inc's (“POWR”) Affiliate Program... The phrase 'provided by POWR Inc' or 'POWR Inc-provided' shall, when used in relation to tools, services, resources or other offerings, encompass the provision thereof by POWR Inc or POWR Inc Related Parties.\"*\n* **Company Profiles & Corporate Disclosures:** Official company releases specify: *\"POWR Inc. [https://www.powr.io/] is a leading provider of no-code website applications that help businesses optimize their online presence and drive conversions. Founded in 2014... POWR apps live on more than 12 million websites globally.\"*\n* **About Page & App Marketplace Listings:** The About page identifies the business as **POWR** (located at 4460 Redwood Hwy, Suite 16-659, San Rafael, CA), and official platform marketplace developer listings list the developer and service provider as **POWR.io** / **POWR Inc.**.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **POWR** suite of website plugins and applications at **powr.io** is **POWR Inc.** (operating under the brand **POWR** / **POWR.io**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2zEc1RXtofjHmDnoxBUj7C4aqY4ekrMyCDjOHzTK1-dlGYtg6EtD_1eK1BXBaiCLFxawDCHZJ6CLcx2XBz26TMy6aGUFeC92Y4Aa58eibheAy7c6_Cx0=",
+          "title": "shopify.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the **POWR** suite of website plugins and applications at **powr.io** is **POWR Inc.** (operating under the brand **POWR** / **POWR.io**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxK_G8fNFU5nwvVYN0ko15bF4nnfcu4dRA1uZYdON9W478Jr8P1H_VUT2yv2SLIh6kI4Nv1N0Na8sfJ55IfjqNXkZuyk0dcLbbXK-QgE9dEfkSZXIrbLuTmw==",
+          "title": "powr.io"
+        },
+        {
+          "id": 2,
+          "text": "The vendor directly providing the **POWR** suite of website plugins and applications at **powr.io** is **POWR Inc.** (operating under the brand **POWR** / **POWR.io**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESvhiG3ANrC-aZPWU8M_6oNxdrvb-RAT3lGAWNI_yAXN02aeIaNDIgaK-x984KhyZyoCkDW6YPK6Vnckm7HuzXtAs2_npW9teLMD94QRwl2hOJ-Yc4XalW-r-x9rWTvxnWBPGIIM8XOHz9c3bPVEZ4D_Qzx8wnWUH8vMAfOvTRhLyhcbE_1z-m81T32Mo_z6dh8ih0vuGossc=",
+          "title": "openpr.com"
+        },
+        {
+          "id": 3,
+          "text": "phrase 'provided by POWR Inc' or 'POWR Inc-provided' shall, when used in relation to tools, services, resources or other offerings, encompass the provision thereof by POWR Inc or POWR Inc Related Parties.\"*\n* *",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxK_G8fNFU5nwvVYN0ko15bF4nnfcu4dRA1uZYdON9W478Jr8P1H_VUT2yv2SLIh6kI4Nv1N0Na8sfJ55IfjqNXkZuyk0dcLbbXK-QgE9dEfkSZXIrbLuTmw==",
+          "title": "powr.io"
+        },
+        {
+          "id": 4,
+          "text": "phrase 'provided by POWR Inc' or 'POWR Inc-provided' shall, when used in relation to tools, services, resources or other offerings, encompass the provision thereof by POWR Inc or POWR Inc Related Parties.\"*\n* *",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYZL3135X26PtmTR7c0-QCVyELLpBN9ASbenAuHFj2Bx_r_HGSXz_y0QxNnIddGyPLZqjYYQ_UHIouxrvlRF3QAjjqSLKwnV90hpd3Qlw-zBLVmmUVAcbCXg==",
+          "title": "powr.io"
+        },
+        {
+          "id": 5,
+          "text": " apps live on more than 12 million websites globally.\"*\n* *",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESvhiG3ANrC-aZPWU8M_6oNxdrvb-RAT3lGAWNI_yAXN02aeIaNDIgaK-x984KhyZyoCkDW6YPK6Vnckm7HuzXtAs2_npW9teLMD94QRwl2hOJ-Yc4XalW-r-x9rWTvxnWBPGIIM8XOHz9c3bPVEZ4D_Qzx8wnWUH8vMAfOvTRhLyhcbE_1z-m81T32Mo_z6dh8ih0vuGossc=",
+          "title": "openpr.com"
+        },
+        {
+          "id": 6,
+          "text": "out Page & App Marketplace Listings:** The About page identifies the business as **POWR** (located at 4460 Redwood Hwy, Suite 16-659, San Rafael, CA), an",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFue82hB4FBODWRSB8zu02qty5Da42Kbd5MQg6I92M1pr3F1S0JzV4E4RSh0i6WnnZ2HAWNwRh2u3QGUpeP-8ozCDN8fvNGjlieai1ZdE8a",
+          "title": "powr.io"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "POWR Inc.",
+        "evidence": "Passage 1 confirms that the vendor directly providing the POWR suite of website plugins and applications at powr.io is POWR Inc.",
+        "source": {
+          "id": 1,
+          "text": "The vendor directly providing the **POWR** suite of website plugins and applications at **powr.io** is **POWR Inc.** (operating under the brand **POWR** / **POWR.io**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxK_G8fNFU5nwvVYN0ko15bF4nnfcu4dRA1uZYdON9W478Jr8P1H_VUT2yv2SLIh6kI4Nv1N0Na8sfJ55IfjqNXkZuyk0dcLbbXK-QgE9dEfkSZXIrbLuTmw==",
+          "title": "powr.io"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "POWR",
+    "domain": "powr.io",
+    "description": "POWR is a San Francisco-based company that offers a suite of customizable and user-friendly website apps to assist businesses in enhancing their online presence. With over 60 app options, POWR integrates seamlessly with more than 70 platforms, enabling code-free installation. Their solutions have been adopted by over 12 million websites globally, including major brands like Allbirds and Estée Lauder, to generate leads and improve conversions."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "POWR Inc.",
+  "evidence": "Passage 1 confirms that the vendor directly providing the POWR suite of website plugins and applications at powr.io is POWR Inc.",
+  "source": {
+    "id": 1,
+    "text": "The vendor directly providing the **POWR** suite of website plugins and applications at **powr.io** is **POWR Inc.** (operating under the brand **POWR** / **POWR.io**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxK_G8fNFU5nwvVYN0ko15bF4nnfcu4dRA1uZYdON9W478Jr8P1H_VUT2yv2SLIh6kI4Nv1N0Na8sfJ55IfjqNXkZuyk0dcLbbXK-QgE9dEfkSZXIrbLuTmw==",
+    "title": "powr.io"
+  },
+  "checked_at": "2026-11-05T09:06:43.246333+00:00"
+}

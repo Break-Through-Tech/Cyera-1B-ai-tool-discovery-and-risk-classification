@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product at **pandatron.ai** (referring to the **Pandatron AI Platform / Pandatron AICoach**) is **Pandatron Oy**.\n\n### Evidence\n* **Privacy Policy (`pandatron.ai`):** *\"Pandatron AI Platform is run by Pandatron Oy (support@pandatron.ai), a corporation headquartered in Finland.\"*\n* **Terms of Service (`pandatron.ai`):** *\"These End User Terms of Service ('Terms') govern your access to and use of the Service provided by Pandatron Oy ('Pandatron,' 'we,' 'us,' or 'our').\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product at **pandatron.ai** (referring to the **Pandatron AI Platform / Pandatron AICoach**) is **Pandatron Oy**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqkJ_XvSea19RS9DTcyRLe3ab6O6cMSDIQ8Z5uSIT-lm4kd1sXzVS8zzMgc4Ztwy8EoWadXUnnC5CYbR4VAzOBXYey7L3RG91LLrwtYLmdYreI",
+          "title": "pandatron.ai"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the software product at **pandatron.ai** (referring to the **Pandatron AI Platform / Pandatron AICoach**) is **Pandatron Oy**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVhVhGQI8ZYkV6f-j_I9Sb5dK0xjzbf8LWhDXvx-Z9PzZOgaKk_Ak2C57K0_hN-zqEE1Tvc0E_7ZpnJXMUfHJg-ceq-sGJUTPehmA5JphH3M95t_SyKIktDqSL",
+          "title": "pandatron.ai"
+        },
+        {
+          "id": 2,
+          "text": "**Privacy Policy (`pandatron.ai`):** *\"Pandatron AI Platform is run by Pandatron Oy (support@pandatron.ai), a corporation headquartered in Finland.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqkJ_XvSea19RS9DTcyRLe3ab6O6cMSDIQ8Z5uSIT-lm4kd1sXzVS8zzMgc4Ztwy8EoWadXUnnC5CYbR4VAzOBXYey7L3RG91LLrwtYLmdYreI",
+          "title": "pandatron.ai"
+        },
+        {
+          "id": 3,
+          "text": "**Terms of Service (`pandatron.ai`):** *\"These End User Terms of Service ('Terms') govern your access to and use of the Service provided by Pandatron Oy ('Pandatron,' 'we,' 'us,' or 'our').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVhVhGQI8ZYkV6f-j_I9Sb5dK0xjzbf8LWhDXvx-Z9PzZOgaKk_Ak2C57K0_hN-zqEE1Tvc0E_7ZpnJXMUfHJg-ceq-sGJUTPehmA5JphH3M95t_SyKIktDqSL",
+          "title": "pandatron.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Pandatron Oy",
+        "evidence": "Passage 0 states that the vendor directly providing the software product at pandatron.ai (referring to the Pandatron AI Platform / Pandatron AICoach) is Pandatron Oy.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the software product at **pandatron.ai** (referring to the **Pandatron AI Platform / Pandatron AICoach**) is **Pandatron Oy**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqkJ_XvSea19RS9DTcyRLe3ab6O6cMSDIQ8Z5uSIT-lm4kd1sXzVS8zzMgc4Ztwy8EoWadXUnnC5CYbR4VAzOBXYey7L3RG91LLrwtYLmdYreI",
+          "title": "pandatron.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Pandatron AICoach",
+    "domain": "pandatron.ai",
+    "description": "Revolutionize change management with Pandatron AI Coach - an AI change management coaching tool."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Pandatron Oy",
+  "evidence": "Passage 0 states that the vendor directly providing the software product at pandatron.ai (referring to the Pandatron AI Platform / Pandatron AICoach) is Pandatron Oy.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the software product at **pandatron.ai** (referring to the **Pandatron AI Platform / Pandatron AICoach**) is **Pandatron Oy**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqkJ_XvSea19RS9DTcyRLe3ab6O6cMSDIQ8Z5uSIT-lm4kd1sXzVS8zzMgc4Ztwy8EoWadXUnnC5CYbR4VAzOBXYey7L3RG91LLrwtYLmdYreI",
+    "title": "pandatron.ai"
+  },
+  "checked_at": "2026-11-05T06:22:10.194727+00:00"
+}

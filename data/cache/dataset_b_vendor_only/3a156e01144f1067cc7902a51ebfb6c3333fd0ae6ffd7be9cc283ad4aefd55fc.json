@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Wordfence** at **wordfence.com** is **Defiant, Inc.**\n\n### Evidence\n* According to the **Wordfence Terms of Service** (wordfence.com):\n  > \"These Terms of Service (“Terms”) are a legal agreement between you and **Defiant, Inc.**, a Delaware corporation (“Company,” “we,” “us,” “our”) that governs your access to and use of www.wordfence.com (the “Site”), and the Wordfence services specified in these Terms or where applicable in Service Specific Terms, including all media, document, updates, and support services associated with the Site and the Wordfence services...\"\n* The **Wordfence Privacy Policy** similarly specifies:\n  > \"**Defiant, Inc.** (“Defiant,” “the Company,” “we,” “us,” or “our”) is committed to privacy and data protection. This Privacy Policy applies to personal information Defiant collects from you, through our interactions with you, through www.defiant.com, www.wordfence.com... and the Wordfence services (such as the Wordfence Site Cleaning Service and the Wordfence Security Plugin)...\"",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Wordfence** at **wordfence.com** is **Defiant, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0j_c7ioCfTvdN8FSpfH683Lg8LAS7Se6tmeH-4WHK7n9zj5T5eiKWfuvxJT024dZFASFDkFs9QZr0iZlQG-oR3UjViNiW2BEklCS5CF3ECML341alVSIT4YRF8i5Yz-I3",
+          "title": "wordfence.com"
+        },
+        {
+          "id": 1,
+          "text": "\"These Terms of Service (“Terms”) are a legal agreement between you and **Defiant, Inc.**, a Delaware corporation (“Company,” “we,” “us,” “our”) that governs your access to and use of www.wordfence.com (the “Site”), and the Wordfence services specified in these Terms or where applicable in Service Specific Terms, including all media, document, updates, and support services associated with the Site and the Wordfence services...\"\n* The **Wordfence Priva",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0j_c7ioCfTvdN8FSpfH683Lg8LAS7Se6tmeH-4WHK7n9zj5T5eiKWfuvxJT024dZFASFDkFs9QZr0iZlQG-oR3UjViNiW2BEklCS5CF3ECML341alVSIT4YRF8i5Yz-I3",
+          "title": "wordfence.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Defiant, Inc.",
+        "evidence": "Wordfence's Terms of Service state that Defiant, Inc. is the company that governs access to and use of www.wordfence.com and the Wordfence services.",
+        "source": {
+          "id": 1,
+          "text": "\"These Terms of Service (“Terms”) are a legal agreement between you and **Defiant, Inc.**, a Delaware corporation (“Company,” “we,” “us,” “our”) that governs your access to and use of www.wordfence.com (the “Site”), and the Wordfence services specified in these Terms or where applicable in Service Specific Terms, including all media, document, updates, and support services associated with the Site and the Wordfence services...\"\n* The **Wordfence Priva",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0j_c7ioCfTvdN8FSpfH683Lg8LAS7Se6tmeH-4WHK7n9zj5T5eiKWfuvxJT024dZFASFDkFs9QZr0iZlQG-oR3UjViNiW2BEklCS5CF3ECML341alVSIT4YRF8i5Yz-I3",
+          "title": "wordfence.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Wordfence",
+    "domain": "wordfence.com",
+    "description": "Wordfence is a cybersecurity company specializing in WordPress security solutions. They provide a powerful plugin that offers robust protection for websites against hacks and malware, ensuring that WordPress sites remain secure. With a focus on security features suitable for both individual users and enterprises, Wordfence is known for its comprehensive security strategies and tools designed specifically for the WordPress platform."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Defiant, Inc.",
+  "evidence": "Wordfence's Terms of Service state that Defiant, Inc. is the company that governs access to and use of www.wordfence.com and the Wordfence services.",
+  "source": {
+    "id": 1,
+    "text": "\"These Terms of Service (“Terms”) are a legal agreement between you and **Defiant, Inc.**, a Delaware corporation (“Company,” “we,” “us,” “our”) that governs your access to and use of www.wordfence.com (the “Site”), and the Wordfence services specified in these Terms or where applicable in Service Specific Terms, including all media, document, updates, and support services associated with the Site and the Wordfence services...\"\n* The **Wordfence Priva",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0j_c7ioCfTvdN8FSpfH683Lg8LAS7Se6tmeH-4WHK7n9zj5T5eiKWfuvxJT024dZFASFDkFs9QZr0iZlQG-oR3UjViNiW2BEklCS5CF3ECML341alVSIT4YRF8i5Yz-I3",
+    "title": "wordfence.com"
+  },
+  "checked_at": "2026-11-05T09:41:40.275399+00:00"
+}

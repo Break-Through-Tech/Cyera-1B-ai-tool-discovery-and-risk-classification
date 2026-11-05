@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the contract management software **Zefort** at **zefort.com** is **Zefort Oy** (also referred to as **Zefort Ltd**).\n\n### Supporting Evidence\n* **General Terms and Conditions for Zefort's Services:** Clause 1.1 states: *\"These general terms and conditions (the “Terms”) apply to the Agreement between Zefort Oy (“Zefort”) and the Customer regarding...\"*.\n* **Data Privacy Statement:** Defines the provider as: *\"This privacy statement is prepared by Zefort Oy (“Zefort“ or “us”)...\"*.\n* **Contact & Company Details:** Listed on the website as **Zefort Ltd** / **Zefort Oy** (Business ID: `FI28557572`), headquartered in Kaarina, Finland.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the contract management software **Zefort** at **zefort.com** is **Zefort Oy** (also referred to as **Zefort Ltd**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLbuUmQ1Wt1x73qe75vUFFwjr3BmSgGTNVOw5dG47uvVqk81DBD7zAysR6XVL3gGxTi5nKoGmr4ri6kkYNH4nu9RcFFMTduPfKLXzRl8CaK5iN7BHC0R7j",
+          "title": "zefort.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the contract management software **Zefort** at **zefort.com** is **Zefort Oy** (also referred to as **Zefort Ltd**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGA6RZQxUlyrCvwBrKk-Y9WoRBIYz0coIpEPY2EFDIrjAw-In09a6ULZSJKUj2FrOmSvj1fj4qyRTXHoGYshEExOSPQK_d-6GDNxBAExM3sS0S8QEE=",
+          "title": "zefort.com"
+        },
+        {
+          "id": 2,
+          "text": "**General Terms and Conditions for Zefort's Services:** Clause 1.1 states: *\"These general terms and conditions (the “Terms”) apply to the Agreement between Zefort Oy (“Zefort”) and the Customer regarding...\"*.\n* **Da",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkvtOC82ITLl_OuSZDOYTfgutX9pR2UMY3kY-C46IV3gQmzO0VAd1IT2MqhmOPCqxrJQPxVhx3m1wgiKp8_nUrLXWM3pB3HB_S-KZFmQ9gRta-Jf3X_Udrnia6_lvO9STqNFEiO1LhLR3RVi2c",
+          "title": "zefort.com"
+        },
+        {
+          "id": 3,
+          "text": "rivacy Statement:** Defines the provider as: *\"This privacy statement is prepared by Zefort Oy (“Zefort“ or “us”)...\"*.\n* **Contact & ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLbuUmQ1Wt1x73qe75vUFFwjr3BmSgGTNVOw5dG47uvVqk81DBD7zAysR6XVL3gGxTi5nKoGmr4ri6kkYNH4nu9RcFFMTduPfKLXzRl8CaK5iN7BHC0R7j",
+          "title": "zefort.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Zefort Oy",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing the contract management software Zefort at zefort.com is Zefort Oy (also referred to as Zefort Ltd).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the contract management software **Zefort** at **zefort.com** is **Zefort Oy** (also referred to as **Zefort Ltd**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLbuUmQ1Wt1x73qe75vUFFwjr3BmSgGTNVOw5dG47uvVqk81DBD7zAysR6XVL3gGxTi5nKoGmr4ri6kkYNH4nu9RcFFMTduPfKLXzRl8CaK5iN7BHC0R7j",
+          "title": "zefort.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Zefort",
+    "domain": "zefort.com",
+    "description": "Effortless contract management and organization"
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Zefort Oy",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing the contract management software Zefort at zefort.com is Zefort Oy (also referred to as Zefort Ltd).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the contract management software **Zefort** at **zefort.com** is **Zefort Oy** (also referred to as **Zefort Ltd**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLbuUmQ1Wt1x73qe75vUFFwjr3BmSgGTNVOw5dG47uvVqk81DBD7zAysR6XVL3gGxTi5nKoGmr4ri6kkYNH4nu9RcFFMTduPfKLXzRl8CaK5iN7BHC0R7j",
+    "title": "zefort.com"
+  },
+  "checked_at": "2026-11-05T05:42:27.628915+00:00"
+}

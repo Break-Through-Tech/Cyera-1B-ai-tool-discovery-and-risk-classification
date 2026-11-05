@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Wedspeech.AI** at **wedspeech.ai** is **KudoMetrics LLC** (or **Kudometrics LLC**).\n\n### Evidence:\n* **Terms of Service (`wedspeech.ai/terms-of-service`)**: Section 5 explicitly states: *\"The WedSpeech.ai website, including its text, graphics, logos, and software, is the property of Kudometrics LLC and is protected by copyright and other intellectual property laws.\"*\n* **Website Footer (`wedspeech.ai`)**: Confirms: *\"© 2021 - 2026 WedSpeech.ai. All rights reserved. • A Part of KudoMetrics LLC\"*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Wedspeech.AI** at **wedspeech.ai** is **KudoMetrics LLC** (or **Kudometrics LLC**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4Fp5Dm7HawM501zYyR3RwbGaVHIFD-4Wi7DZpSLMYGj7n9TED12OLOfbsnr296LPIvx9nGhU3nia0ys3NP69mzkcuH6gGbE1VunkyDQN26Q==",
+          "title": "wedspeech.ai"
+        },
+        {
+          "id": 1,
+          "text": "**Terms of Service (`wedspeech.ai/terms-of-service`)**: Section 5 explicitly states: *\"The WedSpeech.ai website, including its text, graphics, logos, and software, is the property of Kudometrics LLC and is protected by copyright and other intellectual property laws.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4Fp5Dm7HawM501zYyR3RwbGaVHIFD-4Wi7DZpSLMYGj7n9TED12OLOfbsnr296LPIvx9nGhU3nia0ys3NP69mzkcuH6gGbE1VunkyDQN26Q==",
+          "title": "wedspeech.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Kudometrics LLC",
+        "evidence": "According to Section 5 of the Terms of Service on wedspeech.ai/terms-of-service, the WedSpeech.ai website, including its text, graphics, logos, and software, is the property of Kudometrics LLC.",
+        "source": {
+          "id": 1,
+          "text": "**Terms of Service (`wedspeech.ai/terms-of-service`)**: Section 5 explicitly states: *\"The WedSpeech.ai website, including its text, graphics, logos, and software, is the property of Kudometrics LLC and is protected by copyright and other intellectual property laws.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4Fp5Dm7HawM501zYyR3RwbGaVHIFD-4Wi7DZpSLMYGj7n9TED12OLOfbsnr296LPIvx9nGhU3nia0ys3NP69mzkcuH6gGbE1VunkyDQN26Q==",
+          "title": "wedspeech.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Wedspeech.AI",
+    "domain": "wedspeech.ai",
+    "description": "Wedspeech.AI helps create personalized and memorable wedding speeches, offering various templates and styles to suit different relationships and preferences."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Kudometrics LLC",
+  "evidence": "According to Section 5 of the Terms of Service on wedspeech.ai/terms-of-service, the WedSpeech.ai website, including its text, graphics, logos, and software, is the property of Kudometrics LLC.",
+  "source": {
+    "id": 1,
+    "text": "**Terms of Service (`wedspeech.ai/terms-of-service`)**: Section 5 explicitly states: *\"The WedSpeech.ai website, including its text, graphics, logos, and software, is the property of Kudometrics LLC and is protected by copyright and other intellectual property laws.\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4Fp5Dm7HawM501zYyR3RwbGaVHIFD-4Wi7DZpSLMYGj7n9TED12OLOfbsnr296LPIvx9nGhU3nia0ys3NP69mzkcuH6gGbE1VunkyDQN26Q==",
+    "title": "wedspeech.ai"
+  },
+  "checked_at": "2026-11-05T05:56:29.166147+00:00"
+}

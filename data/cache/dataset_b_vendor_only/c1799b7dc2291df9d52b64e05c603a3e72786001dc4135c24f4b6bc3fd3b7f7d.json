@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Evernote** at **evernote.com** is **Bending Spoons Operations S.p.A.** (operating as part of **Bending Spoons**).\n\n### Evidence\n* According to the **Evernote Terms of Service** (under *\"What is the Evernote Service?\"* and *\"If this is a contract, who are the parties?\"*): \n  > *\"The Evernote Software and other Evernote products, services, and websites made available to you by Bending Spoons... are collectively referred to in these Terms as the 'Evernote Service.'... Bending Spoons is the provider of the Evernote Service and is a party to this contract.\"*\n* The official **Evernote Legal Glossary** explicitly defines the operating entity:\n  > *\"Bending Spoons or we or us means Bending Spoons Operations S.p.A., a sole shareholder company subject to the management and coordination of Bending Spoons S.p.A., Via Nino Bonnet 10, 20154 Milan, Italy...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Evernote** at **evernote.com** is **Bending Spoons Operations S.p.A.** (operating as part of **Bending Spoons**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEclgsi7gPLN02A7-9VgwAFqdzuFLmqoBFeLvMHyX1BRUaN8nEykD5OAoZKk3YZHhIbRoElEzATSwboO6xtrtZxSc-riCuFpiegQzCPMMA44J40wbRdPTQsLg==",
+          "title": "evernote.com"
+        },
+        {
+          "id": 1,
+          "text": "Bending Spoons is the provider of the Evernote Service and is a party to this contract.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZ6voCbBUznOch9DE1s-P8lKGAIlqiLmky3hFCuaD-dExYaVaK6VTD90ew9FK7H5ZfrzRWmLYWFnh0t0tEdbPQxX2p_Z1HLnBH8ufQdy9Pil8CKj83VgIAfr1bIhaJMBM-",
+          "title": "evernote.com"
+        },
+        {
+          "id": 2,
+          "text": "Bending Spoons is the provider of the Evernote Service and is a party to this contract.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZ6voCbBUznOch9DE1s-P8lKGAIlqiLmky3hFCuaD-dExYaVaK6VTD90ew9FK7H5ZfrzRWmLYWFnh0t0tEdbPQxX2p_Z1HLnBH8ufQdy9Pil8CKj83VgIAfr1bIhaJMBM-",
+          "title": "evernote.com"
+        },
+        {
+          "id": 3,
+          "text": "*\"Bending Spoons or we or us means Bending Spoons Operations S.p.A., a sole shareholder company subject to the management and coordination of Bending Spoons S.p.A., Via Nino Bonnet 10, 20154 Milan, Italy...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEclgsi7gPLN02A7-9VgwAFqdzuFLmqoBFeLvMHyX1BRUaN8nEykD5OAoZKk3YZHhIbRoElEzATSwboO6xtrtZxSc-riCuFpiegQzCPMMA44J40wbRdPTQsLg==",
+          "title": "evernote.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Bending Spoons Operations S.p.A.",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing Evernote at evernote.com is Bending Spoons Operations S.p.A. (operating as part of Bending Spoons).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Evernote** at **evernote.com** is **Bending Spoons Operations S.p.A.** (operating as part of **Bending Spoons**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEclgsi7gPLN02A7-9VgwAFqdzuFLmqoBFeLvMHyX1BRUaN8nEykD5OAoZKk3YZHhIbRoElEzATSwboO6xtrtZxSc-riCuFpiegQzCPMMA44J40wbRdPTQsLg==",
+          "title": "evernote.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Evernote",
+    "domain": "evernote.com",
+    "description": "Evernote is a productivity software company that provides users with tools to organize notes, manage tasks, and keep essential information easily accessible. Based in the United States, Evernote focuses on enhancing personal and professional organization through digital note-taking and collaboration features, allowing users to streamline their daily activities and prioritize effectively."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Bending Spoons Operations S.p.A.",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing Evernote at evernote.com is Bending Spoons Operations S.p.A. (operating as part of Bending Spoons).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Evernote** at **evernote.com** is **Bending Spoons Operations S.p.A.** (operating as part of **Bending Spoons**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEclgsi7gPLN02A7-9VgwAFqdzuFLmqoBFeLvMHyX1BRUaN8nEykD5OAoZKk3YZHhIbRoElEzATSwboO6xtrtZxSc-riCuFpiegQzCPMMA44J40wbRdPTQsLg==",
+    "title": "evernote.com"
+  },
+  "checked_at": "2026-11-05T09:36:51.216750+00:00"
+}

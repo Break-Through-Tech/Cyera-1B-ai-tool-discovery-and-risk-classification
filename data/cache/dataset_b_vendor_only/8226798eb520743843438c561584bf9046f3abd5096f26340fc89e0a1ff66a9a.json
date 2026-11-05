@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Mindgrasp** at **mindgrasp.ai** is **Mindgrasp, Inc.**.\n\n### Evidence\n* **Privacy Policy (`mindgrasp.ai/privacy-policy`):**\n  > *\"Mindgrasp, Inc. Policy: Privacy and Information Use. This Policy concerning Privacy and Information Use describes how Mindgrasp collects, uses, and shares (when necessary) your personal information.\"*\n* **Website Footer (`mindgrasp.ai`):**\n  > *\"© Copyright Mindgrasp, Inc. All Rights Reserved.\"*\n* **Apple App Store Listing:** Confirms the developer and provider of the Mindgrasp app is **Mindgrasp, Inc.**.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Mindgrasp** at **mindgrasp.ai** is **Mindgrasp, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjL_t_zC8TH4UVVeY4eMC5bd8f0oujF1pP-oxLqEQt5YqRALspIS5qjA2ES3NWDxYgibFi6OCDm7r8w5LqXH2Tv-qKoUsNSwDQ6Dxb0FxHRZT0tv0766vna-EoAUE=",
+          "title": "mindgrasp.ai"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Mindgrasp** at **mindgrasp.ai** is **Mindgrasp, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_yAr92WsIhKmcHmvb_EPl4gwm1L5gRkKepxTaA-bchbQwV-KQygHNFd1iKhEw6wXmysGt-C08Nb08-LSuf0gw_h8iyWoJJUBSpwGLlfRuYoTinS4i1rqSRxwmSGxFczgPaQ==",
+          "title": "mindgrasp.ai"
+        },
+        {
+          "id": 2,
+          "text": "This Policy concerning Privacy and Information Use describes how Mindgrasp collects, uses, and shares (when necessary) your personal information.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjL_t_zC8TH4UVVeY4eMC5bd8f0oujF1pP-oxLqEQt5YqRALspIS5qjA2ES3NWDxYgibFi6OCDm7r8w5LqXH2Tv-qKoUsNSwDQ6Dxb0FxHRZT0tv0766vna-EoAUE=",
+          "title": "mindgrasp.ai"
+        },
+        {
+          "id": 3,
+          "text": "ll Rights Reserved.\"*\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_yAr92WsIhKmcHmvb_EPl4gwm1L5gRkKepxTaA-bchbQwV-KQygHNFd1iKhEw6wXmysGt-C08Nb08-LSuf0gw_h8iyWoJJUBSpwGLlfRuYoTinS4i1rqSRxwmSGxFczgPaQ==",
+          "title": "mindgrasp.ai"
+        },
+        {
+          "id": 4,
+          "text": "*Apple App Store Listing:** Confirms the developer and provider of the Mindgrasp app is **Mindgrasp, Inc.**.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErqhfQrbkOnjytQ64EQuXDgNkVP_lBdNcR_nlC5mzDWJ6SeN8KjovJib3-r6-23-mkv9DsmK8X5HiAo4UzeCO3Lrxo_kkaCKFDT38ky3PSpzNjqy1tHhGi3v96YWBLHBmZnO9oEjX9kbD_cQnu-oiSxMQiyR-339Xw",
+          "title": "apple.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Mindgrasp, Inc.",
+        "evidence": "Passage 0 directly states that the vendor directly providing Mindgrasp at mindgrasp.ai is Mindgrasp, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Mindgrasp** at **mindgrasp.ai** is **Mindgrasp, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjL_t_zC8TH4UVVeY4eMC5bd8f0oujF1pP-oxLqEQt5YqRALspIS5qjA2ES3NWDxYgibFi6OCDm7r8w5LqXH2Tv-qKoUsNSwDQ6Dxb0FxHRZT0tv0766vna-EoAUE=",
+          "title": "mindgrasp.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Mindgrasp",
+    "domain": "mindgrasp.ai",
+    "description": "Document summarization and answering assistant."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Mindgrasp, Inc.",
+  "evidence": "Passage 0 directly states that the vendor directly providing Mindgrasp at mindgrasp.ai is Mindgrasp, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Mindgrasp** at **mindgrasp.ai** is **Mindgrasp, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjL_t_zC8TH4UVVeY4eMC5bd8f0oujF1pP-oxLqEQt5YqRALspIS5qjA2ES3NWDxYgibFi6OCDm7r8w5LqXH2Tv-qKoUsNSwDQ6Dxb0FxHRZT0tv0766vna-EoAUE=",
+    "title": "mindgrasp.ai"
+  },
+  "checked_at": "2026-11-05T06:50:01.660290+00:00"
+}

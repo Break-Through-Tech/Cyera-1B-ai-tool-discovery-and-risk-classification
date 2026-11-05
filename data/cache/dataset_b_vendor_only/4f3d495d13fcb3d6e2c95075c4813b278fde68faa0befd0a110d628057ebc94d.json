@@ -1,0 +1,125 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product **Cclarity** at the domain **cclarity.io** (and its subdomain **get.cclarity.io**) is **Cclarity Pte. Ltd.** (founded/developed by Keith Teo in Singapore).\n\n### Supporting Evidence:\n* **Terms of Service:** \n  > *\"Cclarity ('we', 'us', 'our') is a product operated by Cclarity Pte. Ltd., registered in Singapore. The product is the Cclarity Connector, an MCP server that exposes your LinkedIn signals to AI clients. Our website is cclarity.io...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "Ltd.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBMVhooqQrsoum_4xZZgxDebVOyBch49fwGF_6awo1YFxIAqvCqruSgK8qYYaN3eayzhDjIKDfvvLiAyAm9p5vPXI8L_kJO4foeLC5DEwN3AlRd-srl8VQ1AO4J18gSsUoETXsGCCdGxQaCwizGvBh32vu9979OAZFF5b5Up4iRB_Zn3_NUqsFTK42KEaHx9DFILTv",
+          "title": "google.com"
+        },
+        {
+          "id": 1,
+          "text": "Ltd.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5KeG1_DP1YSFY3AkEyUHVF63yT4tsly70ObjPRe5DeY3cJ1n9lvnBLIXD2_MIAWkaAtgzHMDKsZqe6wBLm_ULD0QzZA0-iohxh01wnTqjLBzK7Uho",
+          "title": "github.com"
+        },
+        {
+          "id": 2,
+          "text": "Ltd.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcB0_EP1m0EavGHoGoKPAkgdYHeHUEaO-npozfmD4YBQ1wRujXACrWjZ4ZWqITm97Zd-IkiItMoRDAkkkc3Oj55-Farya5Pnp-yOG8Zjw5",
+          "title": "cclarity.io"
+        },
+        {
+          "id": 3,
+          "text": "Ltd.** (founded/developed by Keith Teo in Singapore)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF--ywcMBE6CWd1CCV5LwXx6QWqSgOWEwLkUKt9SzYDkUlPJFnZKnIwXRvbX4GwQYAPNkaurKu04nZupSe7mDIgI9STRPjE1E2Arpw5bNRd",
+          "title": "cclarity.io"
+        },
+        {
+          "id": 4,
+          "text": "Our website is cclarity.io...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcB0_EP1m0EavGHoGoKPAkgdYHeHUEaO-npozfmD4YBQ1wRujXACrWjZ4ZWqITm97Zd-IkiItMoRDAkkkc3Oj55-Farya5Pnp-yOG8Zjw5",
+          "title": "cclarity.io"
+        }
+      ],
+      "result": {
+        "status": "unknown",
+        "vendor": "UNKNOWN",
+        "evidence": "The provided passages contain only truncated text fragments (such as 'Ltd.**' and partial phrases) and do not contain the vendor name or sufficient context to establish the provider of Cclarity."
+      }
+    },
+    {
+      "answer": "The software product **Cclarity** at **get.cclarity.io** (and its main domain **cclarity.io**) is directly provided and operated by **CClarity Pte. Ltd.**, founded and developed by **Keith Teo**.\n\n### Evidence & Citations\n* **Operating Company / Publisher:** On the official Chrome Web Store listing for the tool linking directly to `cclarity.io`, the developer and publisher is registered as **CClarity Pte Ltd** (contact: `keith@cclarity.io`, D-U-N-S: 599377174). \n* **Corporate Registration:** Singapore corporate registry records (ACRA) confirm **CCLARITY PTE. LTD.** (UEN: 202230787K) as an active Singapore software and applications development entity.\n* **Developer / Founder Statement:** Official site documentation and terms for Cclarity (`cclarity.io` / `get.cclarity.io`) identify Keith Teo as the founder and lead developer responsible for building and operating the service.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "Ltd.**, founded and developed by **Keith Teo**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXjFR89XtZyK-LRSqUnN96yLWZAtQpOPw68SpGc6_PZfG9E9BrDDh6E43_9G2L-04-baY9WxfUOJUwsQeRwDC5wAaafXYEHhuxwPutg-E5znu9xWbBCgzQJ_P6Jw==",
+          "title": "keithteo.ai"
+        },
+        {
+          "id": 1,
+          "text": "Ltd.**, founded and developed by **Keith Teo**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELVHMXWsAl_2ublm1VntQ_oS6r8YV6qVrUka4TFmNianbF2G83mmXgfPtZxUdyn2wL1x-vfYsn7D1g5d0RhbTmlIVs71Ywd-CQVQk6flLunWztC566Yg3Y8CHlFNfpC-BdgnDx9M904NedCInJUjNrrBaA9hsdaDmqvYtcZ0wyWoY9FpNNZ01B",
+          "title": "google.com"
+        },
+        {
+          "id": 2,
+          "text": "**Operating Company / Publisher:** On the official Chrome Web Store listing for the tool linking directly to `cclarity.io`, the developer and publisher is registered as **CClarity Pte Ltd** (contact: `keith@cclarity.io`, D-U-N-S: 599377174)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG--AD9Vf4RY9e25Tu15Q21UJp_NT8J9ldHgsS7D6af4xblnjAP6PoJsr6YiRlmhKyui6LJoBqu5rzeFNDcLFISvPjNcejCixDezUT3UNfB0ehh6MgSX7haQ69_I6HZLNKgMNBSfyBGrQxPwYcVa2dIWkUe9tX7W7o64kCgGEFswrhvtphgjEAVD0sBCMfm7V3bgu4r",
+          "title": "google.com"
+        },
+        {
+          "id": 3,
+          "text": "**Operating Company / Publisher:** On the official Chrome Web Store listing for the tool linking directly to `cclarity.io`, the developer and publisher is registered as **CClarity Pte Ltd** (contact: `keith@cclarity.io`, D-U-N-S: 599377174)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELVHMXWsAl_2ublm1VntQ_oS6r8YV6qVrUka4TFmNianbF2G83mmXgfPtZxUdyn2wL1x-vfYsn7D1g5d0RhbTmlIVs71Ywd-CQVQk6flLunWztC566Yg3Y8CHlFNfpC-BdgnDx9M904NedCInJUjNrrBaA9hsdaDmqvYtcZ0wyWoY9FpNNZ01B",
+          "title": "google.com"
+        },
+        {
+          "id": 4,
+          "text": "(UEN: 202230787K) as an active Singapore software and applications development entity",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCcjkD0l0anDJ_dlo9IVAnuPpYt8AWYNGji4ba2bh_Hdmq4i9632RXupwE1oTmxzmuyJVe7rVPiM2qw842UgQvVhwQWbpkCTZbi6fHreeFOfYPuzmZDYkAWi5oqg==",
+          "title": "996co.com"
+        },
+        {
+          "id": 5,
+          "text": "(UEN: 202230787K) as an active Singapore software and applications development entity",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgrOdL0B5XzvpFGxxnanxUCHmlDXqavdheQdbxvvFSK9ekWJGy05usbE886GSjWGmDFAWvzY4O5lQLL2RdDrcK7ZcKByk1qMn--6FHrGubGnllarw4pyVK3KY9MHxqQDRCv_k=",
+          "title": "recordowl.com"
+        },
+        {
+          "id": 6,
+          "text": "**Developer / Founder Statement:** Official site documentation and terms for Cclarity (`cclarity.io` / `get.cclarity.io`) identify Keith Teo as the founder and lead developer responsible for building and operating the service",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXjFR89XtZyK-LRSqUnN96yLWZAtQpOPw68SpGc6_PZfG9E9BrDDh6E43_9G2L-04-baY9WxfUOJUwsQeRwDC5wAaafXYEHhuxwPutg-E5znu9xWbBCgzQJ_P6Jw==",
+          "title": "keithteo.ai"
+        },
+        {
+          "id": 7,
+          "text": "**Developer / Founder Statement:** Official site documentation and terms for Cclarity (`cclarity.io` / `get.cclarity.io`) identify Keith Teo as the founder and lead developer responsible for building and operating the service",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEz-qH7N-7K7grGk6NaIAYGrSgfCWTcyYtIp54D921yrSIqOV6LGGhBFjEUYnQ0dkawSOxsuDBdUMfNhfVcgdO1EW0efPRe3C9lTPerUPP-AXo=",
+          "title": "cclarity.io"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "CClarity Pte Ltd",
+        "evidence": "According to the Chrome Web Store listing for the tool linking directly to cclarity.io, the developer and publisher is registered as CClarity Pte Ltd.",
+        "source": {
+          "id": 2,
+          "text": "**Operating Company / Publisher:** On the official Chrome Web Store listing for the tool linking directly to `cclarity.io`, the developer and publisher is registered as **CClarity Pte Ltd** (contact: `keith@cclarity.io`, D-U-N-S: 599377174)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG--AD9Vf4RY9e25Tu15Q21UJp_NT8J9ldHgsS7D6af4xblnjAP6PoJsr6YiRlmhKyui6LJoBqu5rzeFNDcLFISvPjNcejCixDezUT3UNfB0ehh6MgSX7haQ69_I6HZLNKgMNBSfyBGrQxPwYcVa2dIWkUe9tX7W7o64kCgGEFswrhvtphgjEAVD0sBCMfm7V3bgu4r",
+          "title": "google.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Cclarity",
+    "domain": "get.cclarity.io",
+    "description": "Cclarity helps you create high-performing LinkedIn posts by analyzing your audience and suggesting optimal content strategies. It offers AI-powered insights to boost engagement and reach."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "CClarity Pte Ltd",
+  "evidence": "According to the Chrome Web Store listing for the tool linking directly to cclarity.io, the developer and publisher is registered as CClarity Pte Ltd.",
+  "source": {
+    "id": 2,
+    "text": "**Operating Company / Publisher:** On the official Chrome Web Store listing for the tool linking directly to `cclarity.io`, the developer and publisher is registered as **CClarity Pte Ltd** (contact: `keith@cclarity.io`, D-U-N-S: 599377174)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG--AD9Vf4RY9e25Tu15Q21UJp_NT8J9ldHgsS7D6af4xblnjAP6PoJsr6YiRlmhKyui6LJoBqu5rzeFNDcLFISvPjNcejCixDezUT3UNfB0ehh6MgSX7haQ69_I6HZLNKgMNBSfyBGrQxPwYcVa2dIWkUe9tX7W7o64kCgGEFswrhvtphgjEAVD0sBCMfm7V3bgu4r",
+    "title": "google.com"
+  },
+  "checked_at": "2026-11-05T06:34:07.486727+00:00"
+}

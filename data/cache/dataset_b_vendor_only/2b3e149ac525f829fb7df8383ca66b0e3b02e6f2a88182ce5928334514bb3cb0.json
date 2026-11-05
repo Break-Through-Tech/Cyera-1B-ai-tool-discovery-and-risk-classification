@@ -1,0 +1,43 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software platform **Buffer** at **buffer.com** is **Buffer, Inc.**.\n\n### Evidence\nAccording to the official **Buffer Terms of Use** at `buffer.com/legal`:\n> *\"Welcome, and thank you for your interest in Buffer, Inc. (“Buffer,” “we,” or “us”) and our website at buffer.com, along with our related websites, networks, hosted applications, mobile or other downloadable applications, API and other services provided by us (collectively, the “Service”). These Terms of Use are a legally binding contract between you and Buffer regarding your use of the Service.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software platform **Buffer** at **buffer.com** is **Buffer, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTrPX97nEUqeGxPVqYQnMBi_5T6iLeSV8gX5kECf5bUnaz50kTPk8L_Yf_jrH3OfRDLJgacS8bCUKdOq5nQLH0D4m5gV8n3zTlB1ugizc=",
+          "title": "buffer.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Buffer, Inc.",
+        "evidence": "Passage 0 states that the vendor directly providing the software platform Buffer at buffer.com is Buffer, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the software platform **Buffer** at **buffer.com** is **Buffer, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTrPX97nEUqeGxPVqYQnMBi_5T6iLeSV8gX5kECf5bUnaz50kTPk8L_Yf_jrH3OfRDLJgacS8bCUKdOq5nQLH0D4m5gV8n3zTlB1ugizc=",
+          "title": "buffer.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Buffer",
+    "domain": "buffer.com",
+    "description": "Buffer is a social media management platform that helps brands, businesses, and individuals enhance engagement and results through a range of tools for publishing, analytics, and team collaboration. With a focus on user experience, Buffer enables social media marketers to operate more efficiently and effectively, providing the support needed to succeed in their social media endeavors."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Buffer, Inc.",
+  "evidence": "Passage 0 states that the vendor directly providing the software platform Buffer at buffer.com is Buffer, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the software platform **Buffer** at **buffer.com** is **Buffer, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTrPX97nEUqeGxPVqYQnMBi_5T6iLeSV8gX5kECf5bUnaz50kTPk8L_Yf_jrH3OfRDLJgacS8bCUKdOq5nQLH0D4m5gV8n3zTlB1ugizc=",
+    "title": "buffer.com"
+  },
+  "checked_at": "2026-11-05T08:56:33.958034+00:00"
+}

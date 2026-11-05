@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The operating vendor directly providing the software product **GTmetrix** at **gtmetrix.com** is **WP Media SAS** (WP MEDIA).\n\n### Official Provider Statements:\n* **VAT Information (`gtmetrix.com/vat`):** \n  > *\"GTmetrix is operated by WP Media SAS, a French company registered for VAT in various countries to comply with local tax regulations.\"*\n* **Legal Notice (`gtmetrix.com/legal`):** \n  > *\"Individuals and organizations involved in the creation and maintenance of GTmetrix. The website is accessed via the following address: https://gtmetrix.com. Publishing: WP MEDIA. French simplified stock corporation ('Société par actions simplifiée'). 4 rue de la République 69001 Lyon France.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The operating vendor directly providing the software product **GTmetrix** at **gtmetrix.com** is **WP Media SAS** (WP MEDIA)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2cWbi3_UgZT62kPsQsNQKI5fK2ANiL3XuqG7KF2RiNA-hMslRDLWwQQUbuIqSk_O6adN1W55EEoUnTci0ff7PSVhBYMCDyF0DBVmjFcuFoG50Fg9H",
+          "title": "gtmetrix.com"
+        },
+        {
+          "id": 1,
+          "text": "The operating vendor directly providing the software product **GTmetrix** at **gtmetrix.com** is **WP Media SAS** (WP MEDIA)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMEGftk49K2j43EznUh4vr1sWsFRobwBoi6dYbbtkdQLILgf-1ZgamI2TTkxGfIlu_8yS3-J0-yFEC8aL8UqNz8P65d6hPEF1fBaHaT9JG",
+          "title": "gtmetrix.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"GTmetrix is operated by WP Media SAS, a French company registered for VAT in various countries to comply with local tax regulations.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMEGftk49K2j43EznUh4vr1sWsFRobwBoi6dYbbtkdQLILgf-1ZgamI2TTkxGfIlu_8yS3-J0-yFEC8aL8UqNz8P65d6hPEF1fBaHaT9JG",
+          "title": "gtmetrix.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "WP Media SAS",
+        "evidence": "Passage 2 explicitly states that GTmetrix is operated by WP Media SAS.",
+        "source": {
+          "id": 2,
+          "text": "*\"GTmetrix is operated by WP Media SAS, a French company registered for VAT in various countries to comply with local tax regulations.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMEGftk49K2j43EznUh4vr1sWsFRobwBoi6dYbbtkdQLILgf-1ZgamI2TTkxGfIlu_8yS3-J0-yFEC8aL8UqNz8P65d6hPEF1fBaHaT9JG",
+          "title": "gtmetrix.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "GTmetrix",
+    "domain": "gtmetrix.com",
+    "description": "GTmetrix is a web performance analysis tool that provides insights into website speed and load times. By leveraging technologies like Google Page Speed and Yahoo! YSlow, it helps users optimize their websites to achieve improved performance, reduced bounce rates, and enhanced user engagement. The platform offers actionable recommendations for improving site efficiency, making it a valuable resource for developers and website owners looking to enhance user experience."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "WP Media SAS",
+  "evidence": "Passage 2 explicitly states that GTmetrix is operated by WP Media SAS.",
+  "source": {
+    "id": 2,
+    "text": "*\"GTmetrix is operated by WP Media SAS, a French company registered for VAT in various countries to comply with local tax regulations.\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMEGftk49K2j43EznUh4vr1sWsFRobwBoi6dYbbtkdQLILgf-1ZgamI2TTkxGfIlu_8yS3-J0-yFEC8aL8UqNz8P65d6hPEF1fBaHaT9JG",
+    "title": "gtmetrix.com"
+  },
+  "checked_at": "2026-11-05T09:44:23.546156+00:00"
+}

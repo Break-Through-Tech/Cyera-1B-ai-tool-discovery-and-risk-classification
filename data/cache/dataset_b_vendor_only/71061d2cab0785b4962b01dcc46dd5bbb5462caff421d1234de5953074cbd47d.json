@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **OptinMonster** at **optinmonster.com** is **Retyp, LLC** (doing business as OptinMonster).\n\n### Evidence\n* **Terms of Service:** *\"These Terms of Service (the “Agreement”) set forth the terms and conditions that apply to your access and use of the internet website owned and operated by Retyp, LLC d/b/a OptinMonster (“Retyp”) and located at optinmonster, app.optinmonster.com and \\*.optinmonster.com (the “Site”) ... and access and use of the services available thereon...\"*\n* **Privacy Policy:** *\"Retyp LLC (“Retyp”) operates several websites including optinmonster.com.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **OptinMonster** at **optinmonster.com** is **Retyp, LLC** (doing business as OptinMonster)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0fScauFzx2t364h-cZoNoeTNLYcl5wSo-B-ErRAzIXcKXCAqDA5L0RyhKHjw58YEVfWTdaEd1gGIjs0hD7i2RA2EGg6eSWQwEoHe3v4m-oK89Y00b",
+          "title": "optinmonster.com"
+        },
+        {
+          "id": 1,
+          "text": "**Terms of Service:** *\"These Terms of Service (the “Agreement”) set forth the terms and conditions that apply to your access and use of the internet website owned and operated by Retyp, LLC d/b/a OptinMonster (“Retyp”) and located at optinmonster, app.optinmonster.com and \\*.optinmonster.com (the “Site”) ... and access and use of the services available thereon...\"*\n* **Privacy",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0fScauFzx2t364h-cZoNoeTNLYcl5wSo-B-ErRAzIXcKXCAqDA5L0RyhKHjw58YEVfWTdaEd1gGIjs0hD7i2RA2EGg6eSWQwEoHe3v4m-oK89Y00b",
+          "title": "optinmonster.com"
+        },
+        {
+          "id": 2,
+          "text": "set forth the terms and conditions that apply to your access and use of the internet website owned and operated by Retyp, LLC d/b/a OptinMonster (“Retyp”) and located at optinmonster, app.optinmonster.com and \\*.optinmonster.com (the",
+          "url": "https://optinmonster.com/terms/",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Retyp, LLC",
+        "evidence": "The Terms of Service state that the website located at optinmonster.com and its subdomains is owned and operated by Retyp, LLC d/b/a OptinMonster.",
+        "source": {
+          "id": 2,
+          "text": "set forth the terms and conditions that apply to your access and use of the internet website owned and operated by Retyp, LLC d/b/a OptinMonster (“Retyp”) and located at optinmonster, app.optinmonster.com and \\*.optinmonster.com (the",
+          "url": "https://optinmonster.com/terms/",
+          "title": ""
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "OptinMonster",
+    "domain": "optinmonster.com",
+    "description": "OptinMonster is a leading customer acquisition and lead-generation software designed to enhance marketing efforts by converting website visitors into subscribers and customers. Utilizing a range of features such as customizable opt-in forms, exit-intent technology, A/B testing, and detailed conversion analytics, OptinMonster empowers businesses to effectively engage users and build segmented email lists. With its easy integration with popular email marketing platforms, it offers solutions for marketers looking to maximize visitor retention and improve conversion rates."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Retyp, LLC",
+  "evidence": "The Terms of Service state that the website located at optinmonster.com and its subdomains is owned and operated by Retyp, LLC d/b/a OptinMonster.",
+  "source": {
+    "id": 2,
+    "text": "set forth the terms and conditions that apply to your access and use of the internet website owned and operated by Retyp, LLC d/b/a OptinMonster (“Retyp”) and located at optinmonster, app.optinmonster.com and \\*.optinmonster.com (the",
+    "url": "https://optinmonster.com/terms/",
+    "title": ""
+  },
+  "checked_at": "2026-11-05T08:58:39.903507+00:00"
+}

@@ -1,0 +1,85 @@
+{
+  "attempts": [
+    {
+      "answer": "For the software product **Vue.js** at **vuejs.org**, the direct provider and published developer is **Evan You** (together with the **Vue.js organization** / core team). There is no standalone operating company called \"Vue Technology\".\n\n### Evidence from `vuejs.org`:\n* **Copyright Notice:** The official footer across `vuejs.org` states: *\"Released under the MIT License. Copyright © 2014-present Evan You.\"*\n* **Privacy Policy:** Identifies the operating entity as: *\"the Vue.js organization ('Vue', 'we', 'us' or 'our') practices for handling your information in connection with this website (https://vuejs.org)...\"*\n* **Project Governance & FAQ:** States: *\"It was created by Evan You in 2014 as a personal side project. Today, Vue is actively maintained by a team of both full-time and volunteer members from all around the world, where Evan serves as the project lead.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "For the software product **Vue.js** at **vuejs.org**, the direct provider and published developer is **Evan You** (together with the **Vue.js organization** / core team)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6xwcIRv4G1fHWk_k-AsfHhWQjh0QR__7afyVVL9mtjrlMYoh2mfZdave3IxzRC0KyOSLEkrtMgdC_Zv4g4goopRfQ1vGssdWsG0UzMoX5w6JaYPY=",
+          "title": "vuejs.org"
+        },
+        {
+          "id": 1,
+          "text": "For the software product **Vue.js** at **vuejs.org**, the direct provider and published developer is **Evan You** (together with the **Vue.js organization** / core team)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbCozA1fQ0E59yUHNvVhyZppx5EI6zaMQk-4ZuWvVm0WypaCcQHVTibcFJtLHf500FP-PJTJ1mvCmT5-o-kvijehnbuI75yoZB4SAh8JuBWQ==",
+          "title": "vuejs.org"
+        },
+        {
+          "id": 2,
+          "text": "There is no standalone operating company called \"Vue Technology\"",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6xwcIRv4G1fHWk_k-AsfHhWQjh0QR__7afyVVL9mtjrlMYoh2mfZdave3IxzRC0KyOSLEkrtMgdC_Zv4g4goopRfQ1vGssdWsG0UzMoX5w6JaYPY=",
+          "title": "vuejs.org"
+        },
+        {
+          "id": 3,
+          "text": "There is no standalone operating company called \"Vue Technology\"",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbCozA1fQ0E59yUHNvVhyZppx5EI6zaMQk-4ZuWvVm0WypaCcQHVTibcFJtLHf500FP-PJTJ1mvCmT5-o-kvijehnbuI75yoZB4SAh8JuBWQ==",
+          "title": "vuejs.org"
+        },
+        {
+          "id": 4,
+          "text": "Copyright © 2014-present Evan You.\"*\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG6DeazqMmRMzsNomttAmcEgJWoZV8qayQr-flvmEQmLM9ULJ6Zh2pqgtPT6zwBBPhEUatwRpLz8RN3qJlOkugQXp9TwV2uw==",
+          "title": "vuejs.org"
+        },
+        {
+          "id": 5,
+          "text": "Copyright © 2014-present Evan You.\"*\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxedhZ-HXYsyJca1MPU7d6HulxMXh3D4Lp4fOn1xBAmr-vMZ1kxtZEBcSDeP5eMRbX9mqvm0NbSTUtInVE4z_R9Xf5APMCuYku2EAq-pqYOw==",
+          "title": "vuejs.org"
+        },
+        {
+          "id": 6,
+          "text": "*Privacy Policy:** Identifies the operating entity as: *\"the Vue.js organization ('Vue', 'we', 'us' or 'our') practices for handling your information in connection with this website (https://vuejs.org)...\"*\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6xwcIRv4G1fHWk_k-AsfHhWQjh0QR__7afyVVL9mtjrlMYoh2mfZdave3IxzRC0KyOSLEkrtMgdC_Zv4g4goopRfQ1vGssdWsG0UzMoX5w6JaYPY=",
+          "title": "vuejs.org"
+        },
+        {
+          "id": 7,
+          "text": "It was created by Evan You in 2014 as a personal side project. Today, Vue is actively maintained by a team of both full-time and volunteer members from all around the world, where Evan serves as the project ",
+          "url": "https://www.vuecompanies.com/companies",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Evan You",
+        "evidence": "Passage 0 states that for the software product Vue.js at vuejs.org, the direct provider and published developer is Evan You.",
+        "source": {
+          "id": 0,
+          "text": "For the software product **Vue.js** at **vuejs.org**, the direct provider and published developer is **Evan You** (together with the **Vue.js organization** / core team)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6xwcIRv4G1fHWk_k-AsfHhWQjh0QR__7afyVVL9mtjrlMYoh2mfZdave3IxzRC0KyOSLEkrtMgdC_Zv4g4goopRfQ1vGssdWsG0UzMoX5w6JaYPY=",
+          "title": "vuejs.org"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Vue Technology",
+    "domain": "vuejs.org",
+    "description": "Vue Technology is the developer of Vue.js, a progressive JavaScript framework designed for building user interfaces and single-page applications. It features an adaptable architecture that can easily scale between a library and a full-fledged framework, allowing developers to create dynamic and responsive web applications. The framework is widely used in the tech community for its simplicity and performance."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Evan You",
+  "evidence": "Passage 0 states that for the software product Vue.js at vuejs.org, the direct provider and published developer is Evan You.",
+  "source": {
+    "id": 0,
+    "text": "For the software product **Vue.js** at **vuejs.org**, the direct provider and published developer is **Evan You** (together with the **Vue.js organization** / core team)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6xwcIRv4G1fHWk_k-AsfHhWQjh0QR__7afyVVL9mtjrlMYoh2mfZdave3IxzRC0KyOSLEkrtMgdC_Zv4g4goopRfQ1vGssdWsG0UzMoX5w6JaYPY=",
+    "title": "vuejs.org"
+  },
+  "checked_at": "2026-11-05T09:07:20.887412+00:00"
+}

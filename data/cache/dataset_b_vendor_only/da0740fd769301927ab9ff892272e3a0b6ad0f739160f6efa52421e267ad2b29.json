@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Venngage** at **venngage.com** is **Venngage Inc.**\n\n### Evidence\nAccording to the platform's official *Terms of Service*:\n> *\"This Agreement is an agreement between you (the 'User') and Venngage Inc., (legal address: 128a Sterling Rd Toronto, Suite 300, ON, M6R 2B7, CANADA) a company established and operating under the laws of Ontario, Canada ('Venngage', 'we', or 'us').\"*\n\nAdditionally, the *Privacy Policy* notes:\n> *\"At Venngage Inc., we value your privacy. As a company registered and operating under the laws of Canada, we are committed to protecting your personal information...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Venngage** at **venngage.com** is **Venngage Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElryX8YyvVDgZYQlurcit-9p4yHP38qaO3ymI2gk9nPjikrMv41eCbrQfxl-alk1JLa39my-NRBt4jzqiK5-C-RXe5aXXGo9pypWZ6eHwAGYIbww==",
+          "title": "venngage.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Venngage** at **venngage.com** is **Venngage Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_g9kcLMk1Kw1SW6-t1v4eFaJreOFbmHCQlU6Uj5COMAfbM3WXzwq6_rEtIngI-VHJrQKgpDiM0HpQ5knlYtk1HJSv2YPoQKUE-V33JYOkM8m_q6eKvUfP6klmnl1IgvlCQ4D9-pvjPm4rAwIav5brRcs5adX9ClxK7fHW01FiRLgeZc0b",
+          "title": "venngage.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"This Agreement is an agreement between you (the 'User') and Venngage Inc., (legal address: 128a Sterling Rd Toronto, Suite 300, ON, M6R 2B7, CANADA) a company established and operating under the laws of Ontario, Canada ('Venngage', 'we', or 'us').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_g9kcLMk1Kw1SW6-t1v4eFaJreOFbmHCQlU6Uj5COMAfbM3WXzwq6_rEtIngI-VHJrQKgpDiM0HpQ5knlYtk1HJSv2YPoQKUE-V33JYOkM8m_q6eKvUfP6klmnl1IgvlCQ4D9-pvjPm4rAwIav5brRcs5adX9ClxK7fHW01FiRLgeZc0b",
+          "title": "venngage.com"
+        },
+        {
+          "id": 3,
+          "text": "As a company registered and operating under the laws of Canada, we are committed to protecting your personal information...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzDqzduuqUlrOBi1VU8T7R-n1enCv4tqSMClCBFb6Fl-3PkAa8dNwUeOB1ziiS6vhJlSUxvx4dQQ1EKLBZ2GwooSV36vig9rZydlub3Nh8oU6mfh3Gj1SARFoBMcXrfN0LeECbC8M5KbR5lt72MirQpvM0hnYcXEkliXxjbH7btdzaQw==",
+          "title": "venngage.com"
+        },
+        {
+          "id": 4,
+          "text": "This Agreement is an agreement between you (the 'User') and Venngage Inc., (legal address: 128a Sterling Rd Toronto, Suite 300, ON, M6R 2B7, CANADA) a company established and operating under the laws of Ontario, Canada ('Venngage', 'we', or '",
+          "url": "https://help.venngage.com/hc/en-us/articles/11017601872781-Terms-of-Service-2-4",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Venngage Inc.",
+        "evidence": "Passage 0 directly states that the vendor providing Venngage at venngage.com is Venngage Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Venngage** at **venngage.com** is **Venngage Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElryX8YyvVDgZYQlurcit-9p4yHP38qaO3ymI2gk9nPjikrMv41eCbrQfxl-alk1JLa39my-NRBt4jzqiK5-C-RXe5aXXGo9pypWZ6eHwAGYIbww==",
+          "title": "venngage.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Venngage",
+    "domain": "venngage.com",
+    "description": "Venngage is an online infographics tool designed to help users create visually appealing infographics, reports, and data visualizations quickly and easily. With a wide selection of templates and customizable elements, both beginners and advanced users can drag and drop charts, icons, and images to produce professional-quality visuals. Venngage simplifies the process of publishing and sharing content on social media or downloading it for future use."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Venngage Inc.",
+  "evidence": "Passage 0 directly states that the vendor providing Venngage at venngage.com is Venngage Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Venngage** at **venngage.com** is **Venngage Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElryX8YyvVDgZYQlurcit-9p4yHP38qaO3ymI2gk9nPjikrMv41eCbrQfxl-alk1JLa39my-NRBt4jzqiK5-C-RXe5aXXGo9pypWZ6eHwAGYIbww==",
+    "title": "venngage.com"
+  },
+  "checked_at": "2026-11-05T08:10:13.343071+00:00"
+}

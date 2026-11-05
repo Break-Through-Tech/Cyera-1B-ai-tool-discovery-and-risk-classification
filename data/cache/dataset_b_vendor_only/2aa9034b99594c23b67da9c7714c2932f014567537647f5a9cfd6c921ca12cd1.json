@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The operating company directly providing the software and services at **blackbaud.com** is **Blackbaud, Inc.**\n\n### Provider Statement & Evidence:\n* **Terms of Use (`blackbaud.com/terms-of-use`):**\n  > *\"This website, located at www.blackbaud.com (“Website”), is owned and operated by Blackbaud, Inc. (“Blackbaud”). Blackbaud is the leading global provider of nonprofit software and services.\"*\n* **Blackbaud Solutions Agreement:** Identifies the contracting entity providing the software and services as **Blackbaud, Inc.** (headquartered in Charleston, South Carolina).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The operating company directly providing the software and services at **blackbaud.com** is **Blackbaud, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjwntUxrTGLvyc3NtYVnbMfq9y2VFs03JoqlTGrpCorWKU2SyiewxZxXtQ8Lhyyg2LTjuoQ90AJiQn5M7kDvr9RMNU0NfFMoDBczXf-rgWktePpzeJzkxRk3kPZ09CGAmmf6g=",
+          "title": "blackbaud.com"
+        },
+        {
+          "id": 1,
+          "text": "d is the leading global provider of nonprofit software and services.\"*\n* **Bla",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjwntUxrTGLvyc3NtYVnbMfq9y2VFs03JoqlTGrpCorWKU2SyiewxZxXtQ8Lhyyg2LTjuoQ90AJiQn5M7kDvr9RMNU0NfFMoDBczXf-rgWktePpzeJzkxRk3kPZ09CGAmmf6g=",
+          "title": "blackbaud.com"
+        },
+        {
+          "id": 2,
+          "text": "aud Solutions Agreement:** Identifies the contracting entity providing the software and services as **Blackbaud, Inc.** (headqu",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWxTI3hXV68S07fw2tgKvQXD4bUoU6lSaYivM7GYXNiR0ptog-Xv5pNQqXOywl03J1cAUzRfFcB-1NzPlswmfQQMyz104RDoLSzq2IQZARTWlT8btJyYL-riP4wIn0ln0EGUWd3IZ73HbAm6T42PTzIHwHtI0zU-ij8XoZz9nrLcWRLLAK-ur0_Cu3MNRY_qGYuMtWb2YzRlqUoauG7ukE8gifHLNG2X8Wf_h1tf8NfFQ8_sWj2mTpvXgnLP0jBQ-BKY-THfU3Ses=",
+          "title": "service.gov.uk"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Blackbaud, Inc.",
+        "evidence": "Passage 0 explicitly identifies Blackbaud, Inc. as the operating company directly providing the software and services at blackbaud.com.",
+        "source": {
+          "id": 0,
+          "text": "The operating company directly providing the software and services at **blackbaud.com** is **Blackbaud, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjwntUxrTGLvyc3NtYVnbMfq9y2VFs03JoqlTGrpCorWKU2SyiewxZxXtQ8Lhyyg2LTjuoQ90AJiQn5M7kDvr9RMNU0NfFMoDBczXf-rgWktePpzeJzkxRk3kPZ09CGAmmf6g=",
+          "title": "blackbaud.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Blackbaud",
+    "domain": "blackbaud.com",
+    "description": "Blackbaud is a South Carolina-based software as a service (SaaS) company specializing in solutions for grant management and fundraising. The company primarily serves non-profit organizations and healthcare sectors, providing tools to enhance operational efficiency and support various philanthropic efforts."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Blackbaud, Inc.",
+  "evidence": "Passage 0 explicitly identifies Blackbaud, Inc. as the operating company directly providing the software and services at blackbaud.com.",
+  "source": {
+    "id": 0,
+    "text": "The operating company directly providing the software and services at **blackbaud.com** is **Blackbaud, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjwntUxrTGLvyc3NtYVnbMfq9y2VFs03JoqlTGrpCorWKU2SyiewxZxXtQ8Lhyyg2LTjuoQ90AJiQn5M7kDvr9RMNU0NfFMoDBczXf-rgWktePpzeJzkxRk3kPZ09CGAmmf6g=",
+    "title": "blackbaud.com"
+  },
+  "checked_at": "2026-11-05T08:50:10.415439+00:00"
+}

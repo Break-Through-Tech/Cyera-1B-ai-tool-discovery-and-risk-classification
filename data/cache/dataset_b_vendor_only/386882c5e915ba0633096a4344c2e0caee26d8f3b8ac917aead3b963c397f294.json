@@ -1,0 +1,113 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **ClassPoint AI** (hosted at `ai.classpoint.io` / `classpoint.io`) is **Inknoe Pte. Ltd.** (operating under the brand **Inknoe**).\n\n### Supporting Evidence and Provider Statements\n* **Terms of Service:** ClassPoint's legal terms specify that the service and website are operated by:\n  > *\"Inknoe Pte. Ltd., 11 Woodlands Close, #10-33, Singapore 737853\"* and govern the service *\"operated by Inknoe Pte. Ltd. ('us', 'we', or 'our')\"*.\n* **Privacy Policy:** The policy explicitly states:\n  > *\"ClassPoint is developed by Inknoe Pte. Ltd.\"* and *\"'Inknoe', 'we' or 'Company' [refers to] Inknoe Pte. Ltd. with registered office at 11 Woodlands Close, Woodlands 11, Singapore. ClassPoint is a product of Inknoe Pte. Ltd.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "Ltd.** (operating under the brand **Inknoe**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6lvbAcjQhqvrvexqEUqN1DNwc8wK6SrqkdJ2rqHYeHThsDVsf9Oy7YjVApr2NgNOFQS32z82BDa_Q5eFUEXtnHerwfJqGfCsa_qBfvfGz8BGRExaP7eeW7Ay7dw4=",
+          "title": "classpoint.io"
+        },
+        {
+          "id": 1,
+          "text": "Ltd.** (operating under the brand **Inknoe**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1duNgOPge3B6lHnADlanW7Z4Qudeae7pN_zVptgV2GmKy2teo11g2FHKDKr-W-3cDEO0rVJu9rEAv8KSKOX7fSdV5lgcVxej4sZB9qfCdY2PBcCjS6ES5zuD8YqZcgt0=",
+          "title": "classpoint.io"
+        },
+        {
+          "id": 2,
+          "text": "Ltd., 11 Woodlands Close, #10-33, Singapore 737853\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGB8NMhsPtI7xWPXOlk_10RjcjPyNOYRqEGTfrgWUuZJc4nOccuQcFY1nILWZW9wmmLD_Ebv2zmsNfbYv_NMkCqr2mQmdZzvTAEjaTab-w9UNo5At7sSRUGvuCyIyov2w==",
+          "title": "classpoint.io"
+        },
+        {
+          "id": 3,
+          "text": "Ltd. ('us', 'we', or 'our')\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1duNgOPge3B6lHnADlanW7Z4Qudeae7pN_zVptgV2GmKy2teo11g2FHKDKr-W-3cDEO0rVJu9rEAv8KSKOX7fSdV5lgcVxej4sZB9qfCdY2PBcCjS6ES5zuD8YqZcgt0=",
+          "title": "classpoint.io"
+        },
+        {
+          "id": 4,
+          "text": "Ltd.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6lvbAcjQhqvrvexqEUqN1DNwc8wK6SrqkdJ2rqHYeHThsDVsf9Oy7YjVApr2NgNOFQS32z82BDa_Q5eFUEXtnHerwfJqGfCsa_qBfvfGz8BGRExaP7eeW7Ay7dw4=",
+          "title": "classpoint.io"
+        }
+      ],
+      "result": {
+        "status": "unknown",
+        "vendor": "UNKNOWN",
+        "evidence": "The provided passages contain only truncated text fragments and do not mention ClassPoint AI or establish a clear provider relationship."
+      }
+    },
+    {
+      "answer": "The vendor directly providing **ClassPoint AI** at **ai.classpoint.io** (subdomain of `classpoint.io`) is **Inknoe Pte. Ltd.** (operating under the brand **Inknoe**).\n\n### Supporting Evidence & Provider Statement\n* **Terms of Service & Privacy Policy:** \n  * *\"These Terms of Service ('Terms', 'Terms of Service') govern your relationship with https://www.classpoint.io website (the 'Service') operated by Inknoe Pte. Ltd.\"*\n  * *\"ClassPoint is developed by Inknoe Pte. Ltd.\"* and *\"ClassPoint is a product of Inknoe Pte. Ltd.\"*\n* **About Page:** \n  * *\"Designed by Inknoe, a Singapore-born education technology company, ClassPoint aims to help educators transform their teaching and learning...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "Ltd.** (operating under the brand **Inknoe**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPh83zZWap6Hu_5-nX3-K9wRDeo1PAy88zMW07kn0FB5yQxVM76OqbF8aew-BWcDtBtGY-AIQRRxiRdoNcJzs2W2A-8moV2Q5OGXuYg-ogxw5h5kOam2gafPeY5Ko=",
+          "title": "classpoint.io"
+        },
+        {
+          "id": 1,
+          "text": "Ltd.** (operating under the brand **Inknoe**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQftJlnv6M6W_uE_05YAiTgyG5e8px-Ocn_0QzFBiWepoCidyRiaOE_8fgHBNKNYYj_zkaBiFFbP2U58q1VsV5EA85k2Wam-8K1rkRw97s0ztwjMUYrA39i6NpjqKRNoQ=",
+          "title": "classpoint.io"
+        },
+        {
+          "id": 2,
+          "text": "Ltd.** (operating under the brand **Inknoe**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDYLZu0MXQSweaPOp1-EbKRJWsCPjwOsIPZuY2adVafm2aQRy9UN9JEQLW2tN3OLqooBoDwWKXHD8WC-QhoP2DZrQzQio-b1GIAGOvwH7XtqcEni82",
+          "title": "classpoint.io"
+        },
+        {
+          "id": 3,
+          "text": "Ltd.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQftJlnv6M6W_uE_05YAiTgyG5e8px-Ocn_0QzFBiWepoCidyRiaOE_8fgHBNKNYYj_zkaBiFFbP2U58q1VsV5EA85k2Wam-8K1rkRw97s0ztwjMUYrA39i6NpjqKRNoQ=",
+          "title": "classpoint.io"
+        },
+        {
+          "id": 4,
+          "text": "Ltd.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPh83zZWap6Hu_5-nX3-K9wRDeo1PAy88zMW07kn0FB5yQxVM76OqbF8aew-BWcDtBtGY-AIQRRxiRdoNcJzs2W2A-8moV2Q5OGXuYg-ogxw5h5kOam2gafPeY5Ko=",
+          "title": "classpoint.io"
+        },
+        {
+          "id": 5,
+          "text": "*\"Designed by Inknoe, a Singapore-born education technology company, ClassPoint aims to help educators transform their teaching and learning...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDYLZu0MXQSweaPOp1-EbKRJWsCPjwOsIPZuY2adVafm2aQRy9UN9JEQLW2tN3OLqooBoDwWKXHD8WC-QhoP2DZrQzQio-b1GIAGOvwH7XtqcEni82",
+          "title": "classpoint.io"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Inknoe",
+        "evidence": "Designed by Inknoe, a Singapore-born education technology company, ClassPoint aims to help educators transform their teaching and learning...",
+        "source": {
+          "id": 5,
+          "text": "*\"Designed by Inknoe, a Singapore-born education technology company, ClassPoint aims to help educators transform their teaching and learning...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDYLZu0MXQSweaPOp1-EbKRJWsCPjwOsIPZuY2adVafm2aQRy9UN9JEQLW2tN3OLqooBoDwWKXHD8WC-QhoP2DZrQzQio-b1GIAGOvwH7XtqcEni82",
+          "title": "classpoint.io"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "ClassPoint AI",
+    "domain": "ai.classpoint.io",
+    "description": "Generated quiz questions on PowerPoint slides."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Inknoe",
+  "evidence": "Designed by Inknoe, a Singapore-born education technology company, ClassPoint aims to help educators transform their teaching and learning...",
+  "source": {
+    "id": 5,
+    "text": "*\"Designed by Inknoe, a Singapore-born education technology company, ClassPoint aims to help educators transform their teaching and learning...\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDYLZu0MXQSweaPOp1-EbKRJWsCPjwOsIPZuY2adVafm2aQRy9UN9JEQLW2tN3OLqooBoDwWKXHD8WC-QhoP2DZrQzQio-b1GIAGOvwH7XtqcEni82",
+    "title": "classpoint.io"
+  },
+  "checked_at": "2026-11-05T06:27:16.511407+00:00"
+}

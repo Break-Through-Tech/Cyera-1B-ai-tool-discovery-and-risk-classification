@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **Voyager** hosted at **voyager.minedojo.org** is directly provided by the **MineDojo** research project team. \n\n* **Published Developers / Research Team:** The project team listed on `voyager.minedojo.org` consists of **Guanzhi Wang, Yuqi Xie, Yunfan Jiang, Ajay Mandlekar, Chaowei Xiao, Yuke Zhu, Linxi \"Jim\" Fan, and Anima Anandkumar** (a multi-institutional collaboration across NVIDIA, Caltech, UT Austin, Stanford, and ASU/UW-Madison).\n* **Provider Statement / Status:** There is no commercial operating company providing the product. The official GitHub repository (`MineDojo/Voyager`) specifies: *\"Disclaimer: This project is strictly for research purposes, and not an official product from NVIDIA\"*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **Voyager** hosted at **voyager.minedojo.org** is directly provided by the **MineDojo** research project team",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4HhjeAzfcfCBMqJz2TLuMwBXdShxfs19oovYo6O1GLguUNAsEmFRbqJWXVfFJgjHsiOlrMyjkqcrjbL6TbnkhfGjt710J91AjYgPjbXdfvKVoXw==",
+          "title": "minedojo.org"
+        },
+        {
+          "id": 1,
+          "text": "The software product **Voyager** hosted at **voyager.minedojo.org** is directly provided by the **MineDojo** research project team",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGUWU1HfQSChvthzg3jUTLCEG2Mc3fihWSKhgT4mChQ-lySlfkH8zeHaMg0VuvvNtacJfMpErSX2VVzHD7DpMnJlZUEw8q_tgvIeQW7qnkWQ0Isw==",
+          "title": "minedojo.org"
+        },
+        {
+          "id": 2,
+          "text": "**Published Developers / Research Team:** The project team listed on `voyager.minedojo.org` consists of **Guanzhi Wang, Yuqi Xie, Yunfan Jiang, Ajay Mandlekar, Chaowei Xiao, Yuke Zhu, Linxi \"Jim\" Fan, and Anima Anandkumar** (a multi-institutional collaboration across NVIDIA, Caltech, UT Austin, Stanford, and ASU/UW-Madison)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGUWU1HfQSChvthzg3jUTLCEG2Mc3fihWSKhgT4mChQ-lySlfkH8zeHaMg0VuvvNtacJfMpErSX2VVzHD7DpMnJlZUEw8q_tgvIeQW7qnkWQ0Isw==",
+          "title": "minedojo.org"
+        },
+        {
+          "id": 3,
+          "text": "**Published Developers / Research Team:** The project team listed on `voyager.minedojo.org` consists of **Guanzhi Wang, Yuqi Xie, Yunfan Jiang, Ajay Mandlekar, Chaowei Xiao, Yuke Zhu, Linxi \"Jim\" Fan, and Anima Anandkumar** (a multi-institutional collaboration across NVIDIA, Caltech, UT Austin, Stanford, and ASU/UW-Madison)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHl3ZAOxM0HBCyVWSrk58EYXh1MjC8eE360CHmM6I0DwN8U9akXxVwfzOHsL-dhS94y0IzJLKHir3npSYofrqKeBCQfmmVpIWTDimrtr_r0C9qAX8vUbjux4jt7l8o=",
+          "title": "alphaxiv.org"
+        },
+        {
+          "id": 4,
+          "text": "The official GitHub repository (`MineDojo/Voyager`) specifies: *\"Disclaimer: This project is strictly for research purposes, and not an official product from NVIDIA\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAMzgfNIStCW1EONRP8LbQHJRytr-O0q44wjdypUF7pQptbRxySWTbJ1hXBtzh4Er9GsX6cEcGLWwUcaNIX3kW6pEaS_zQdg9YUvH2alt4Uw8_VXIzhhqS9w==",
+          "title": "github.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "MineDojo",
+        "evidence": "The software product Voyager hosted at voyager.minedojo.org is directly provided by the MineDojo research project team",
+        "source": {
+          "id": 0,
+          "text": "The software product **Voyager** hosted at **voyager.minedojo.org** is directly provided by the **MineDojo** research project team",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4HhjeAzfcfCBMqJz2TLuMwBXdShxfs19oovYo6O1GLguUNAsEmFRbqJWXVfFJgjHsiOlrMyjkqcrjbL6TbnkhfGjt710J91AjYgPjbXdfvKVoXw==",
+          "title": "minedojo.org"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Voyager minedojo",
+    "domain": "voyager.minedojo.org",
+    "description": "Open-ended embodied agent powered by large language models."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "MineDojo",
+  "evidence": "The software product Voyager hosted at voyager.minedojo.org is directly provided by the MineDojo research project team",
+  "source": {
+    "id": 0,
+    "text": "The software product **Voyager** hosted at **voyager.minedojo.org** is directly provided by the **MineDojo** research project team",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4HhjeAzfcfCBMqJz2TLuMwBXdShxfs19oovYo6O1GLguUNAsEmFRbqJWXVfFJgjHsiOlrMyjkqcrjbL6TbnkhfGjt710J91AjYgPjbXdfvKVoXw==",
+    "title": "minedojo.org"
+  },
+  "checked_at": "2026-11-05T05:52:39.546983+00:00"
+}

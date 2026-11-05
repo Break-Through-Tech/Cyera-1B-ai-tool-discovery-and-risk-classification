@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **CompliantChatGPT** (at **compliantchatgpt.com**) is **Light-it Inc.** (or **Light-it**).\n\n### Supporting Evidence\n* **Official Website / Platform:** The footer and documentation for CompliantChatGPT state: *\"Copyright © Light-it Inc. All rights reserved.\"*\n* **Developer / Publisher:** Light-it identifies the product as created by its internal Innovation Lab: *\"CompliantChatGPT, conceived initially at Light-it's Innovation Lab as a secure medical AI chatbot, has evolved into a comprehensive medical copilot explicitly designed for healthcare teams\"*, and terms note that HIPAA Business Associate Agreements (BAAs) for the service are executed directly with Light-it.\n* **App Marketplace:** On app platforms such as the Zoom App Marketplace, the publisher and developer for the CompliantChatGPT integration is listed as **Light-it**.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **CompliantChatGPT** (at **compliantchatgpt.com**) is **Light-it Inc.** (or **Light-it**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4B3yFgcOP5CFM-FD2OvnHZTMfKbIUpJj6oErN8EXy5LYjQHw5Nni2UjciX2wDTBRMqYRQkcT4P40yTssLOhgXYnrLqHc08NvEpgRHeDKWX5m3sGoIy0yVjZA50B6O",
+          "title": "tenereteam.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **CompliantChatGPT** (at **compliantchatgpt.com**) is **Light-it Inc.** (or **Light-it**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4C24UeEMvm4qfl1fzwQS68kbG6AAqGh_ayJYfPF4MVpAvlVJoUDCm8nG1JNsCxz74_osP9DLqV8FT0bdP8WPcYoRVG7FClX56VPdrdvFdgfFDFt_VfLqpgA==",
+          "title": "compliantchatgpt.com"
+        },
+        {
+          "id": 2,
+          "text": "ll rights reserved.\"*\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4C24UeEMvm4qfl1fzwQS68kbG6AAqGh_ayJYfPF4MVpAvlVJoUDCm8nG1JNsCxz74_osP9DLqV8FT0bdP8WPcYoRVG7FClX56VPdrdvFdgfFDFt_VfLqpgA==",
+          "title": "compliantchatgpt.com"
+        },
+        {
+          "id": 3,
+          "text": "*Developer / Publisher:** Light-it identifies the product as created by its internal Innovation Lab: *\"CompliantChatGPT, conceived initially at Light-it's Innovation Lab as a secure medical AI chatbot, has evolved into a comprehensive medical copilot explicitly designed for healthcare teams\"*,",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdshGTAAtoAaHD-PUbVQM11Ygv5rhQdNpIUiumfYbIqvmzwhJxbcA8dC_Qy7JbR2ds9L-YQiBks9td6ywakBV02whaATq5jPGN9KrKwGpE46tsTjykaisQ_aU5J1jVhGXZqRIFaakFM-9gTRLB6OSK0Wu-izh76CPPlKRt1F5i9b0DEHuzTsHhdbXI",
+          "title": "lightit.io"
+        },
+        {
+          "id": 4,
+          "text": "*Developer / Publisher:** Light-it identifies the product as created by its internal Innovation Lab: *\"CompliantChatGPT, conceived initially at Light-it's Innovation Lab as a secure medical AI chatbot, has evolved into a comprehensive medical copilot explicitly designed for healthcare teams\"*, and terms note that HIPAA Business Associate Agreements (BAAs) for the service are executed directly with Light-it.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyegmcReZszolYCB6o6g1lhlUCR7NOtg8DJju3oMno3toOtLkjGV0rNcwcvjm8wVQFlr8_dBlaKhVd2bTqiDx6BLAHBcMpJdqzOx3V06nV7PkI4yRQ13Xm1jj64qUr80xkFVMLsOJ0yZo=",
+          "title": "aivendorbaacheck.com"
+        },
+        {
+          "id": 5,
+          "text": "*App Marketplace:** On app platforms such as the Zoom App Marketplace, the publisher and developer for the CompliantChatGPT integration is listed as **Light-it**.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvkPGxN9OWMcAgsrsI7sHw_lNmylcl9K_znZRvcFSl87xXGt8Vk5w25fbWhNkUS9kUrSE9ghvOPef1OkhWf6iUdLFoTt6QNeE0rw0go8fuwvJi3zPlDvZxUqNzlJvdRLUQLketOSVnbXiWp5RY",
+          "title": "zoom.us"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Light-it Inc.",
+        "evidence": "Passage 1 from compliantchatgpt.com directly states that the vendor directly providing CompliantChatGPT (at compliantchatgpt.com) is Light-it Inc. (or Light-it).",
+        "source": {
+          "id": 1,
+          "text": "The vendor directly providing **CompliantChatGPT** (at **compliantchatgpt.com**) is **Light-it Inc.** (or **Light-it**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4C24UeEMvm4qfl1fzwQS68kbG6AAqGh_ayJYfPF4MVpAvlVJoUDCm8nG1JNsCxz74_osP9DLqV8FT0bdP8WPcYoRVG7FClX56VPdrdvFdgfFDFt_VfLqpgA==",
+          "title": "compliantchatgpt.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "CompliantChatGPT",
+    "domain": "compliantchatgpt.com",
+    "description": "Assisting healthcare with secure, HIPAA-compliant AI."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Light-it Inc.",
+  "evidence": "Passage 1 from compliantchatgpt.com directly states that the vendor directly providing CompliantChatGPT (at compliantchatgpt.com) is Light-it Inc. (or Light-it).",
+  "source": {
+    "id": 1,
+    "text": "The vendor directly providing **CompliantChatGPT** (at **compliantchatgpt.com**) is **Light-it Inc.** (or **Light-it**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4C24UeEMvm4qfl1fzwQS68kbG6AAqGh_ayJYfPF4MVpAvlVJoUDCm8nG1JNsCxz74_osP9DLqV8FT0bdP8WPcYoRVG7FClX56VPdrdvFdgfFDFt_VfLqpgA==",
+    "title": "compliantchatgpt.com"
+  },
+  "checked_at": "2026-11-05T07:45:53.639156+00:00"
+}

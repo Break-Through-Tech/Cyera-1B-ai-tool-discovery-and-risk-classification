@@ -1,0 +1,79 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **OpenLayers** at the domain **`openlayers.org`** is provided under the governance of the **Open Source Geospatial Foundation (OSGeo)** and developed by the **OpenLayers Contributors / OpenLayers Project Steering Committee (PSC)**.\n\n### Evidence & Provider Statements:\n* **Operating Organization / Foundation:** \n  > *\"OpenLayers is a project of the Open Source Geospatial Foundation.\"*\n  > *\"Funds will be held by the OSGeo Foundation for disposition on behalf of the project, and disbursed at the discretion of the OpenLayers PSC.\"*\n* **Developer / Steering Committee:**\n  > *\"OpenLayers is a recognized OSGeo project, managed by a steering committee with contributors worldwide.\"*\n  > *\"Copyright 2005-present, OpenLayers Contributors All rights reserved.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **OpenLayers** at the domain **`openlayers.org`** is provided under the governance of the **Open Source Geospatial Foundation (OSGeo)** and developed by the **OpenLayers Contributors / OpenLayers Project Steering Committee (PSC)**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFcSD1omlSAnXQXLLTVjdV3wq3zmtjvrgRJVVI2f1aRm2U7qLVKimxRyrDvGjAabIexdn-hwmDP22Rx4fFmwfy7BzmxkjlTrbnxgqx6I6jHN4glRXvP-VO8Awzkew=",
+          "title": "openlayers.org"
+        },
+        {
+          "id": 1,
+          "text": "The software product **OpenLayers** at the domain **`openlayers.org`** is provided under the governance of the **Open Source Geospatial Foundation (OSGeo)** and developed by the **OpenLayers Contributors / OpenLayers Project Steering Committee (PSC)**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfGg1D9CR2QnRrP6hTj4rkJOYNdiYcZdmF3MLmleVNLhTtU_mAyhv6TQ50LA0zDb1Ee1rOIn0h2P6NeM2Mcl63opFqSXCPj1ggx2KSW9U8rRNw4BG6ILHUJHAOC2HlMx5NO1VGuW8TmK5runo7e6LSq7Vw",
+          "title": "github.com"
+        },
+        {
+          "id": 2,
+          "text": "The software product **OpenLayers** at the domain **`openlayers.org`** is provided under the governance of the **Open Source Geospatial Foundation (OSGeo)** and developed by the **OpenLayers Contributors / OpenLayers Project Steering Committee (PSC)**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqp-xpHUepv3cX40qgZnzOJw2Pd9sgBzJL84-4qwfZgVlkMqljIEvC4NQc8x2ocSrAwo5L9RvAp8VTbMpoe_9qUG0DWtg3ZKj2grbVSOGarukuEu57UNh4l9RhD_CGg8f3SWA-alLtIOUXv49IpNw19Vz_meVMBXuYbThKzuOKzoA2PaSdYU8J9T-oVmw=",
+          "title": "github.com"
+        },
+        {
+          "id": 3,
+          "text": "*\"OpenLayers is a project of the Open Source Geospatial Foundation.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEP1pe_847M19DdIkNs9a58BTm5Bqu4_YOY3l2a6Q9nbhNmirF_By2qOqH7mDPoQ9sq_K6_W-v04X6ecqBTcgYXIlvKJnohRpKyz0fRBziPqjI=",
+          "title": "openlayers.org"
+        },
+        {
+          "id": 4,
+          "text": "*\"Funds will be held by the OSGeo Foundation for disposition on behalf of the project, and disbursed at the discretion of the OpenLayers PSC.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFcSD1omlSAnXQXLLTVjdV3wq3zmtjvrgRJVVI2f1aRm2U7qLVKimxRyrDvGjAabIexdn-hwmDP22Rx4fFmwfy7BzmxkjlTrbnxgqx6I6jHN4glRXvP-VO8Awzkew=",
+          "title": "openlayers.org"
+        },
+        {
+          "id": 5,
+          "text": "*\"OpenLayers is a recognized OSGeo project, managed by a steering committee with contributors worldwide.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqp-xpHUepv3cX40qgZnzOJw2Pd9sgBzJL84-4qwfZgVlkMqljIEvC4NQc8x2ocSrAwo5L9RvAp8VTbMpoe_9qUG0DWtg3ZKj2grbVSOGarukuEu57UNh4l9RhD_CGg8f3SWA-alLtIOUXv49IpNw19Vz_meVMBXuYbThKzuOKzoA2PaSdYU8J9T-oVmw=",
+          "title": "github.com"
+        },
+        {
+          "id": 6,
+          "text": "*\"Copyright 2005-present, OpenLayers Contributors All rights reserved.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfGg1D9CR2QnRrP6hTj4rkJOYNdiYcZdmF3MLmleVNLhTtU_mAyhv6TQ50LA0zDb1Ee1rOIn0h2P6NeM2Mcl63opFqSXCPj1ggx2KSW9U8rRNw4BG6ILHUJHAOC2HlMx5NO1VGuW8TmK5runo7e6LSq7Vw",
+          "title": "github.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Open Source Geospatial Foundation",
+        "evidence": "OpenLayers is a project of the Open Source Geospatial Foundation.",
+        "source": {
+          "id": 3,
+          "text": "*\"OpenLayers is a project of the Open Source Geospatial Foundation.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEP1pe_847M19DdIkNs9a58BTm5Bqu4_YOY3l2a6Q9nbhNmirF_By2qOqH7mDPoQ9sq_K6_W-v04X6ecqBTcgYXIlvKJnohRpKyz0fRBziPqjI=",
+          "title": "openlayers.org"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "OpenLayers",
+    "domain": "openlayers.org",
+    "description": "OpenLayers is a web-based mapping library that enables developers to integrate dynamic maps into any website. It supports the display of map tiles, vector data, and interactive markers sourced from various geospatial data services. With its versatile functionalities, OpenLayers facilitates enhanced geographic visualizations for users across diverse applications."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Open Source Geospatial Foundation",
+  "evidence": "OpenLayers is a project of the Open Source Geospatial Foundation.",
+  "source": {
+    "id": 3,
+    "text": "*\"OpenLayers is a project of the Open Source Geospatial Foundation.\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEP1pe_847M19DdIkNs9a58BTm5Bqu4_YOY3l2a6Q9nbhNmirF_By2qOqH7mDPoQ9sq_K6_W-v04X6ecqBTcgYXIlvKJnohRpKyz0fRBziPqjI=",
+    "title": "openlayers.org"
+  },
+  "checked_at": "2026-11-05T09:25:24.411629+00:00"
+}

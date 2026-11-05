@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **CodePen** at the domain **codepen.io** is **CodePen, Inc.** (operating as **CodePen**).\n\n### Evidence & Provider Statement\nAccording to the official CodePen Terms of Service:\n> *\"These Terms of Service (the “Terms of Service”) are a contract between you, the user, and CodePen, a Delaware corporation with its principal place of business at 919 NW Bond St, Suite 203, Bend OR 97702 USA (“CodePen”). CodePen operates CodePen.io (the “CodePen Site”) and the Pen creation service therein.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **CodePen** at the domain **codepen.io** is **CodePen, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEzTvxQ3Ab1uXJRr13gLSTs3JkYipr2dene-yz4Y9TtjxGY794ytX78NakBVcOvdJPMzWjTzME6pN8PIwl5U0dH546IvlWm5g6ZBMbfGxnsAa-bATUL1i1wQzGY-QkyChm9t4Aiy1KILtrkaj4hc6R2bUpynWjNxuIMmrH2D8hQtlNCE1Q_J_uAQ==",
+          "title": "tracxn.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **CodePen** at the domain **codepen.io** is **CodePen, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJ0_vjpcRhTLBuf-f4oqsAFJ60w33RdDx-7Xim7Rkvma0im7eBzkPF8pGpsOQgeroQGi1qW4GxoTNo_wJUcpEznoSEx0EZxuAStemUvD_daLs7VrWl0Uusy5ioqABJyksA1t3Yd7leFmTQG1Xs9BH1bGjX6RNsXBD_HffhUwBapC2UMb1SRnaSglY=",
+          "title": "tracxn.com"
+        },
+        {
+          "id": 2,
+          "text": "The vendor directly providing **CodePen** at the domain **codepen.io** is **CodePen, Inc.** (operating as **CodePen**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFG1oSqbKOlYo9TFF6DrpnC7qLSUuOKyIeb7KEIwETl_N9d7IS5QW2ofMCcL1aEhKKv5miJ1WVlPIFrIoZg1b9sPRG0MczvcnkGwZkgoLPy-eKCKJQjABcwDPky6abMDMHPFo=",
+          "title": "codepen.io"
+        },
+        {
+          "id": 3,
+          "text": "The vendor directly providing **CodePen** at the domain **codepen.io** is **CodePen, Inc.** (operating as **CodePen**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFN6ox4zrWJ83a8opUMUW9Qez8dRiA5-41QXxbzEwm67DMlrSxtsZ01-uNjEvWlCiuGDo6vZokgiBQV3V1qWrz-0Xd9Sf-O5NtbHIeYJ27-58wCeBMvQiwy7xWKq5YeD3k0BOg21g==",
+          "title": "codepen.io"
+        },
+        {
+          "id": 4,
+          "text": "These Terms of Service (the “Terms of Service”) are a contract between you, the user, and CodePen, a Delaware corporation with its principal place of business at 919 NW Bond St, Suite 203, Bend OR 97702 USA (“CodePen”). CodePen operates CodePen.io (the “CodePen Site”) and the Pen creation service therein",
+          "url": "https://blog.codepen.io/documentation/terms-of-service/",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "CodePen",
+        "evidence": "Passage 4 states that CodePen, a Delaware corporation, operates CodePen.io (the 'CodePen Site') and the Pen creation service therein.",
+        "source": {
+          "id": 4,
+          "text": "These Terms of Service (the “Terms of Service”) are a contract between you, the user, and CodePen, a Delaware corporation with its principal place of business at 919 NW Bond St, Suite 203, Bend OR 97702 USA (“CodePen”). CodePen operates CodePen.io (the “CodePen Site”) and the Pen creation service therein",
+          "url": "https://blog.codepen.io/documentation/terms-of-service/",
+          "title": ""
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "CodePen",
+    "domain": "codepen.io",
+    "description": "CodePen is an online platform that serves as a code editor and learning environment for front-end web development. It allows users to write and showcase HTML, CSS, and JavaScript code snippets and projects, fostering a community for developers to collaborate and share their work."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "CodePen",
+  "evidence": "Passage 4 states that CodePen, a Delaware corporation, operates CodePen.io (the 'CodePen Site') and the Pen creation service therein.",
+  "source": {
+    "id": 4,
+    "text": "These Terms of Service (the “Terms of Service”) are a contract between you, the user, and CodePen, a Delaware corporation with its principal place of business at 919 NW Bond St, Suite 203, Bend OR 97702 USA (“CodePen”). CodePen operates CodePen.io (the “CodePen Site”) and the Pen creation service therein",
+    "url": "https://blog.codepen.io/documentation/terms-of-service/",
+    "title": ""
+  },
+  "checked_at": "2026-11-05T08:49:45.627508+00:00"
+}

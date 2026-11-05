@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **GitLab** platform at **gitlab.com** is **GitLab Inc.** (operating internationally alongside its subsidiary **GitLab B.V.**).\n\n### Evidence & Provider Statements\n* **GitLab Privacy Statement (gitlab.com):**\n  > *\"This privacy statement ('Privacy Statement') will explain how GitLab B.V. and GitLab Inc. ('GitLab', 'we', 'our', 'us') handle your personal data... This Privacy Statement applies to the GitLab websites ('Websites'), GitLab.com and GitLab Dedicated ('SaaS'), Self-managed ('Self-managed'), and additional software products and services; collectively 'Services.'\"*\n\n* **GitLab Subscription Terms / API Terms (gitlab.com):**\n  > *\"Customer's continued use of the software or any licensed materials provided by GitLab, Inc. (or one of its affiliates and/or subsidiaries...) ('GitLab') shall also constitute assent to the terms of this Agreement.\"*\n  > *\"'We', 'our' and 'us' refers to GitLab Inc.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **GitLab** platform at **gitlab.com** is **GitLab Inc.** (operating internationally alongside its subsidiary **GitLab B.V.**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzt8lU1rhqTy8g4AJ0IA2jD7yVpbltVwXu1NFbwW_cy1BiqwkjdZpcjqCugG82KPUCn3xb9ezC2BZglDkYEBLSAnLczFLUgap1OhDRjsMyx9dxxJM1PxE=",
+          "title": "gitlab.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the **GitLab** platform at **gitlab.com** is **GitLab Inc.** (operating internationally alongside its subsidiary **GitLab B.V.**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGj81LhuZqH3MATPXkJ-Aw3iqOm9BZs8Y7KXrFDixs5F3eyh03-wfF77pDLJxpgv2Hw_CN3vvaLeOWFU6AEh0Z5h7WmeTqAq4AC0cY9ZW1l-UfznwAPj_qk52FTX7CGeA==",
+          "title": "gitlab.com"
+        },
+        {
+          "id": 2,
+          "text": "This Privacy Statement applies to the GitLab websites ('Websites'), GitLab.com and GitLab Dedicated ('SaaS'), Self-managed ('Self-managed'), and additional software products and services; collectively 'Services.'\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzt8lU1rhqTy8g4AJ0IA2jD7yVpbltVwXu1NFbwW_cy1BiqwkjdZpcjqCugG82KPUCn3xb9ezC2BZglDkYEBLSAnLczFLUgap1OhDRjsMyx9dxxJM1PxE=",
+          "title": "gitlab.com"
+        },
+        {
+          "id": 3,
+          "text": "('GitLab') shall also constitute assent to the terms of this Agreement.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGj81LhuZqH3MATPXkJ-Aw3iqOm9BZs8Y7KXrFDixs5F3eyh03-wfF77pDLJxpgv2Hw_CN3vvaLeOWFU6AEh0Z5h7WmeTqAq4AC0cY9ZW1l-UfznwAPj_qk52FTX7CGeA==",
+          "title": "gitlab.com"
+        },
+        {
+          "id": 4,
+          "text": "*\"'We', 'our' and 'us' refers to GitLab Inc.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8scGYjHxlGYV_xbTLv771YnhPZmpVoxjiW8kAOEs8Z5-T8UXKywGLWn7tTevpixAye3nii9i0NErm0X2C0xoSbs6zttD480vdKqCXqVQsda-MuUKPwPoRJf7XHQg74Lh5nQ_qOKD0-WTghA==",
+          "title": "gitlab.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "GitLab Inc.",
+        "evidence": "Passage 0 explicitly identifies GitLab Inc. (operating internationally alongside its subsidiary GitLab B.V.) as the vendor directly providing the GitLab platform at gitlab.com.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the **GitLab** platform at **gitlab.com** is **GitLab Inc.** (operating internationally alongside its subsidiary **GitLab B.V.**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzt8lU1rhqTy8g4AJ0IA2jD7yVpbltVwXu1NFbwW_cy1BiqwkjdZpcjqCugG82KPUCn3xb9ezC2BZglDkYEBLSAnLczFLUgap1OhDRjsMyx9dxxJM1PxE=",
+          "title": "gitlab.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "GitLab",
+    "domain": "gitlab.com",
+    "description": "GitLab is an all-encompassing DevOps platform that streamlines collaboration among Development, Security, and Operations teams to enhance software development processes. By integrating various stages from idea to production, GitLab significantly reduces cycle times and development costs, thereby boosting overall productivity for software teams. Operating as a fully remote company, GitLab boasts team members from over 65 countries, offering flexibility for employees to work from anywhere with reliable internet access."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "GitLab Inc.",
+  "evidence": "Passage 0 explicitly identifies GitLab Inc. (operating internationally alongside its subsidiary GitLab B.V.) as the vendor directly providing the GitLab platform at gitlab.com.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the **GitLab** platform at **gitlab.com** is **GitLab Inc.** (operating internationally alongside its subsidiary **GitLab B.V.**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzt8lU1rhqTy8g4AJ0IA2jD7yVpbltVwXu1NFbwW_cy1BiqwkjdZpcjqCugG82KPUCn3xb9ezC2BZglDkYEBLSAnLczFLUgap1OhDRjsMyx9dxxJM1PxE=",
+    "title": "gitlab.com"
+  },
+  "checked_at": "2026-11-05T09:08:30.075787+00:00"
+}

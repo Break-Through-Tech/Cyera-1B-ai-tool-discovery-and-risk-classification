@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **Xero** at the domain **xero.com** is provided directly by **Xero Limited** (operating globally and through its regional entities, such as **Xero, Inc.** in the United States and **Xero Australia Pty Limited** in Australia).\n\n### Supporting Evidence & Provider Statement\nAccording to the official **Xero Terms of Use** (Sections 1 and 79) on `xero.com`:\n* *\"When we say Xero, we, our or us, we're talking about the Xero entity you contract with and pay fees to based on the edition of the Xero product you're using. Section 79 shows which Xero entity you contract with.\"*\n* *\"Xero entities are the companies controlled by or under common control with Xero Limited (a New Zealand company with registration number 1830488).\"*\n\nAdditionally, Xero's Developer Terms state:\n* *\"When we say Xero, we, our or us, we're talking about Xero Limited (a New Zealand company with registration number 1830488).\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **Xero** at the domain **xero.com** is provided directly by **Xero Limited** (operating globally and through its regional entities, such as **Xero, Inc.** in the United States and **Xero Australia Pty Limited** in Australia)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHN_9-nsK4zRVFGescsXTL__bu2h9dHIqjVN3cjdBsRlrLA_xNLCfbLepAD9rutK2yNRQIf3Cw1lUtC4lr6IvSwMPF1CEzGXN9KQ0H-YUyGCjXGaH4UvndFx64=",
+          "title": "xero.com"
+        },
+        {
+          "id": 1,
+          "text": "The software product **Xero** at the domain **xero.com** is provided directly by **Xero Limited** (operating globally and through its regional entities, such as **Xero, Inc.** in the United States and **Xero Australia Pty Limited** in Australia)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuttRF-69TG-KX2PCg7YB5vnWPryaRpQ9ber0yBIuUrZ2akdkdmfGZ3UlRIXey8ftDyhJS2SPFqDOaWVYmfCsE37a0cKMGGpv2FMZL_ALxATkFSM3D86dxgfw=",
+          "title": "xero.com"
+        },
+        {
+          "id": 2,
+          "text": "Section 79 shows which Xero entity you contract with.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZqnIRx03-OBpN3V8UkmYybrnYZxsC45idBq5k7csMKpjZEIGsjEhcVO12ExhhHZc-gdFGoIVfkesNJlhfqJyQ8r0d6zl4C15vLgjU3wtIQPHG70u8eZbF6g==",
+          "title": "xero.com"
+        },
+        {
+          "id": 3,
+          "text": "*\"Xero entities are the companies controlled by or under common control with Xero Limited (a New Zealand company with registration number 1830488).\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZ67fhQunZwSwpZmirJV1yDthSZW21UdgbpUJCqnXa0-QEL6b-Zwi3RKWmUIpX4C5MNLqRhu8Oc6hzZ-oEY79ZN5aIxqqsvGEvY-klpiY70x7afenfQNkVSbylbTdB1xGCIpRfdw==",
+          "title": "xero.com"
+        },
+        {
+          "id": 4,
+          "text": "*\"Xero entities are the companies controlled by or under common control with Xero Limited (a New Zealand company with registration number 1830488).\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHN_9-nsK4zRVFGescsXTL__bu2h9dHIqjVN3cjdBsRlrLA_xNLCfbLepAD9rutK2yNRQIf3Cw1lUtC4lr6IvSwMPF1CEzGXN9KQ0H-YUyGCjXGaH4UvndFx64=",
+          "title": "xero.com"
+        },
+        {
+          "id": 5,
+          "text": "*\"When we say Xero, we, our or us, we're talking about Xero Limited (a New Zealand company with registration number 1830488).\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYKvobIpLvb59Tpg3NbQAro1u6Iyp_KPiUFM2pFYdPlOaaRFUCNOW7ZNHDloHRLZFcxmpkSoVvsUbH32gPpvsn7qe5cjyGosHGu1UUL6aomktKql3xgBg-Z15xxrHQzqxjD6KnPW53IQv9kY9I3_nPsrnlSvz0jZP1",
+          "title": "xero.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Xero Limited",
+        "evidence": "Passage 0 directly states that the software product Xero at the domain xero.com is provided directly by Xero Limited.",
+        "source": {
+          "id": 0,
+          "text": "The software product **Xero** at the domain **xero.com** is provided directly by **Xero Limited** (operating globally and through its regional entities, such as **Xero, Inc.** in the United States and **Xero Australia Pty Limited** in Australia)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHN_9-nsK4zRVFGescsXTL__bu2h9dHIqjVN3cjdBsRlrLA_xNLCfbLepAD9rutK2yNRQIf3Cw1lUtC4lr6IvSwMPF1CEzGXN9KQ0H-YUyGCjXGaH4UvndFx64=",
+          "title": "xero.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Xero",
+    "domain": "xero.com",
+    "description": "Xero is a global platform designed for small businesses, offering solutions such as accounting, payroll, workforce management, and project tracking. With over 3.5 million subscribers, Xero connects users to a variety of apps and financial institutions to streamline business management and finance. The company is committed to sustainability and gender equality, being recognized in the Bloomberg Gender-Equality Index and the Dow Jones Sustainability Index."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Xero Limited",
+  "evidence": "Passage 0 directly states that the software product Xero at the domain xero.com is provided directly by Xero Limited.",
+  "source": {
+    "id": 0,
+    "text": "The software product **Xero** at the domain **xero.com** is provided directly by **Xero Limited** (operating globally and through its regional entities, such as **Xero, Inc.** in the United States and **Xero Australia Pty Limited** in Australia)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHN_9-nsK4zRVFGescsXTL__bu2h9dHIqjVN3cjdBsRlrLA_xNLCfbLepAD9rutK2yNRQIf3Cw1lUtC4lr6IvSwMPF1CEzGXN9KQ0H-YUyGCjXGaH4UvndFx64=",
+    "title": "xero.com"
+  },
+  "checked_at": "2026-11-05T08:25:28.513992+00:00"
+}

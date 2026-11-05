@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "**Vendor:** **The Open University** (via its **Knowledge Media Institute (KMi)**)\n\n### Evidence & Product Details\n* **Product & Domain:** CORE (COnnecting REpositories) at `core.ac.uk`.\n* **Provider Statements:** \n  * The official about page states: *\"CORE is a service provided by the Knowledge Media Institute, based at The Open University, United Kingdom.\"*\n  * Additional organizational announcements confirm: *\"It is a not-for-profit service operated by The Open University\"* and *\"From this time onwards CORE will be operated by The Open University...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**Vendor:** **The Open University** (via its **Knowledge Media Institute (KMi)**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4_5rRb8yZrLdwiip3wlibLdn5s6FseFL923tqilP2oubKyk45Wq1hpmXJGRXDvXhbPmX1p4u6rBEM66AWFwIK-ARn6RGFP8XqcMxlTw==",
+          "title": "core.ac.uk"
+        },
+        {
+          "id": 1,
+          "text": "**Vendor:** **The Open University** (via its **Knowledge Media Institute (KMi)**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAwsnnYkjzoerZQDD2-o1HHHCNEU89-ysbPrQ-6MgvM6zQGThd9agbo993o5hfvPwHqI9qvzDYzTCL7f7t7mhOoyd5NxF7f79-3hnQ2EbhEnlISMHeD1f37k1djW2pecJxTMKFQCY4SM3fIsiKuTyO2EO0wXaPzEiLNuTKbcmrmWm2IvVZBAftaeWwhMNfBn-HPI3GR4VMPxi-orWLzq0VqmDlrIGQGIPCf9vBPVScDyC672U=",
+          "title": "core.ac.uk"
+        },
+        {
+          "id": 2,
+          "text": "**Product & Domain:** CORE (COnnecting REpositories) at `core.ac.uk`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHg245krm-wWW7gD2_sc3q_Rbvyq6UYNjXedpy0H_yNUSomUviNv0unWdJBYZ-Mt7FPxdFWOO8N26rMqtJ5Hin7pv1u81WVfd_2wbRpI0edwOEcwu7X70jFSp814a2z",
+          "title": "core.ac.uk"
+        },
+        {
+          "id": 3,
+          "text": "The official about page states: *\"CORE is a service provided by the Knowledge Media Institute, based at The Open University, United Kingdom.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4_5rRb8yZrLdwiip3wlibLdn5s6FseFL923tqilP2oubKyk45Wq1hpmXJGRXDvXhbPmX1p4u6rBEM66AWFwIK-ARn6RGFP8XqcMxlTw==",
+          "title": "core.ac.uk"
+        },
+        {
+          "id": 4,
+          "text": "Additional organizational announcements confirm: *\"It is a not-for-profit service operated by The Open University\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAwsnnYkjzoerZQDD2-o1HHHCNEU89-ysbPrQ-6MgvM6zQGThd9agbo993o5hfvPwHqI9qvzDYzTCL7f7t7mhOoyd5NxF7f79-3hnQ2EbhEnlISMHeD1f37k1djW2pecJxTMKFQCY4SM3fIsiKuTyO2EO0wXaPzEiLNuTKbcmrmWm2IvVZBAftaeWwhMNfBn-HPI3GR4VMPxi-orWLzq0VqmDlrIGQGIPCf9vBPVScDyC672U=",
+          "title": "core.ac.uk"
+        },
+        {
+          "id": 5,
+          "text": "Additional organizational announcements confirm: *\"It is a not-for-profit service operated by The Open University\"* and *\"From this time onwards CORE will be operated by The Open University...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHg245krm-wWW7gD2_sc3q_Rbvyq6UYNjXedpy0H_yNUSomUviNv0unWdJBYZ-Mt7FPxdFWOO8N26rMqtJ5Hin7pv1u81WVfd_2wbRpI0edwOEcwu7X70jFSp814a2z",
+          "title": "core.ac.uk"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "The Open University",
+        "evidence": "Organizational announcements confirm that CORE is a not-for-profit service operated by The Open University.",
+        "source": {
+          "id": 5,
+          "text": "Additional organizational announcements confirm: *\"It is a not-for-profit service operated by The Open University\"* and *\"From this time onwards CORE will be operated by The Open University...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHg245krm-wWW7gD2_sc3q_Rbvyq6UYNjXedpy0H_yNUSomUviNv0unWdJBYZ-Mt7FPxdFWOO8N26rMqtJ5Hin7pv1u81WVfd_2wbRpI0edwOEcwu7X70jFSp814a2z",
+          "title": "core.ac.uk"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Core - Connecting Repositories",
+    "domain": "core.ac.uk",
+    "description": "CORE (COnnecting REpositories) is a global platform that enhances the discoverability of research outputs from repositories and journals. It provides unique identifiers for metadata records and fosters good practices in metadata validation and content management. By facilitating machine access to open research data, CORE supports a wide audience, including researchers, academic institutions, and tech companies, in accessing a comprehensive collection of scientific content."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "The Open University",
+  "evidence": "Organizational announcements confirm that CORE is a not-for-profit service operated by The Open University.",
+  "source": {
+    "id": 5,
+    "text": "Additional organizational announcements confirm: *\"It is a not-for-profit service operated by The Open University\"* and *\"From this time onwards CORE will be operated by The Open University...\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHg245krm-wWW7gD2_sc3q_Rbvyq6UYNjXedpy0H_yNUSomUviNv0unWdJBYZ-Mt7FPxdFWOO8N26rMqtJ5Hin7pv1u81WVfd_2wbRpI0edwOEcwu7X70jFSp814a2z",
+    "title": "core.ac.uk"
+  },
+  "checked_at": "2026-11-05T08:44:09.948742+00:00"
+}

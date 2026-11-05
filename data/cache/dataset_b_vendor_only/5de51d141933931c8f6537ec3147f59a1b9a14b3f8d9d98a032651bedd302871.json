@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product **Plesk** at **plesk.com** is **WebPros International GmbH**.\n\n### Supporting Evidence & Provider Statement\n* According to the **Plesk.com Terms of Use**:\n  > *\"The services that WebPros International GmbH and its affiliated companies ('WebPros') provide to you are subject to these Terms of Use ('Terms'). Please read the Terms carefully before you accept these Terms by: (a) placing an order through the Plesk online store and/or (b) use the plesk.com website ('Website') in any other manner.\"*\n* The **Plesk Legal / End-User License Agreement** further states:\n  > *\"You may contact WebPros for more information about the Software, other WebPros products and services at WebPros International GmbH, Vordergasse 59, Schaffhausen, Switzerland, or by visiting our website: www.Plesk.com.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product **Plesk** at **plesk.com** is **WebPros International GmbH**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHaj6o1LBqsxEbNItFakDBLXScmyT4DxHFDum1BoEmVSneD3muEHtVz0MvrStLWucmXv0OKCoFQb1xdYv1djxKLkk4lmS-qCkDC-BQ05ejJWic=",
+          "title": "plesk.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the software product **Plesk** at **plesk.com** is **WebPros International GmbH**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOnp_lWeSzYbgruvuk4N-64EpTxMWM6uiEAD_fQiGtie9WW9mRoGA-OpD-CYhi4HpHvCjHHy547ztYoQW40cxv4FkJ0wvQmdwd8pK9gnZPRYnjnaX1EEzR6qM=",
+          "title": "plesk.com"
+        },
+        {
+          "id": 2,
+          "text": "Please read the Terms carefully before you accept these Terms by: (a) placing an order through the Plesk online store and/or (b) use the plesk.com website ('Website') in any other manner.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOnp_lWeSzYbgruvuk4N-64EpTxMWM6uiEAD_fQiGtie9WW9mRoGA-OpD-CYhi4HpHvCjHHy547ztYoQW40cxv4FkJ0wvQmdwd8pK9gnZPRYnjnaX1EEzR6qM=",
+          "title": "plesk.com"
+        },
+        {
+          "id": 3,
+          "text": "*\"You may contact WebPros for more information about the Software, other WebPros products and services at WebPros International GmbH, Vordergasse 59, Schaffhausen, Switzerland, or by visiting our website: www.Plesk.com.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHaj6o1LBqsxEbNItFakDBLXScmyT4DxHFDum1BoEmVSneD3muEHtVz0MvrStLWucmXv0OKCoFQb1xdYv1djxKLkk4lmS-qCkDC-BQ05ejJWic=",
+          "title": "plesk.com"
+        },
+        {
+          "id": 4,
+          "text": "these Terms of Use ('Terms'). Please read the Terms carefully before you accept these Terms by: (a) placing an order through the Plesk online store and/or (b) use the plesk.com website ('Website') in any other manne",
+          "url": "https://www.plesk.com/legal/",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "WebPros International GmbH",
+        "evidence": "Passage 0 states that the vendor directly providing the software product Plesk at plesk.com is WebPros International GmbH.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the software product **Plesk** at **plesk.com** is **WebPros International GmbH**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHaj6o1LBqsxEbNItFakDBLXScmyT4DxHFDum1BoEmVSneD3muEHtVz0MvrStLWucmXv0OKCoFQb1xdYv1djxKLkk4lmS-qCkDC-BQ05ejJWic=",
+          "title": "plesk.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Plesk",
+    "domain": "plesk.com",
+    "description": "Plesk is a leading WebOps hosting platform founded in 2017 under the WebPros umbrella, which also includes brands like cPanel and WHMCS. It operates globally, powering over 11 million websites and 15 million mailboxes across more than 384,000 servers in 140 countries. Plesk provides a user-friendly, OS-agnostic solution designed for application developers, system administrators, and small to medium businesses, facilitating the management and automation of web hosting services. The company is committed to enhancing the digital experience for its users while supporting partnerships with top service providers across the globe."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "WebPros International GmbH",
+  "evidence": "Passage 0 states that the vendor directly providing the software product Plesk at plesk.com is WebPros International GmbH.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the software product **Plesk** at **plesk.com** is **WebPros International GmbH**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHaj6o1LBqsxEbNItFakDBLXScmyT4DxHFDum1BoEmVSneD3muEHtVz0MvrStLWucmXv0OKCoFQb1xdYv1djxKLkk4lmS-qCkDC-BQ05ejJWic=",
+    "title": "plesk.com"
+  },
+  "checked_at": "2026-11-05T09:11:43.330289+00:00"
+}

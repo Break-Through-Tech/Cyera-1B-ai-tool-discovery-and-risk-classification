@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **Sketch** design platform at **sketch.com** is **Sketch B.V.**\n\n### Evidence & Provider Statements\n* **Terms of Service (`sketch.com/terms`):** \n  > *\"Sketch B.V. (also “Sketch”) provides a software platform for digital design. The Sketch Platform is supported by a cloud persistency service where customers can store design artifacts and documents, share them with other members of their design operations, and manage Sketch User privileges.\"*\n* **Privacy Statement (`sketch.com/privacy`):**\n  > *\"Who we are. We are the Dutch company, Sketch B.V. (“we” or “us”), with a place of business at Flight Forum 40, Ground floor, 5657 DB Eindhoven, the Netherlands, with a chamber of commerce registration number 60360461 and VAT number NL8538.75.273.B01. We are the controller responsible for the processing of personal data through our website and Sketch Platform.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **Sketch** design platform at **sketch.com** is **Sketch B.V.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFi6WpdQAaOb-VGopntGNFuusIuDKgpEb9RznjPmYBLBvUbW6PhbGueM8zcJ6FBxKNTwEunqD19utCYYl3fIF5T4ywikq-2JpEQ64W4ZGvevQKYipU8",
+          "title": "sketch.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the **Sketch** design platform at **sketch.com** is **Sketch B.V.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGn0VBTYuCDBy_KwMh3mbpplDBzPspU0KwW5_7Jb6GWneSLIgYQfNOHaIFwGQNez9gE6JgMxoTxNXJzEJyUMacVB0t8UA6qDv_7ITUlrHhRrrw=",
+          "title": "sketch.com"
+        },
+        {
+          "id": 2,
+          "text": "Sketch Platform is supported by a cloud persistency service where customers can store design artifacts and documents, share them with other members of their design operations, and manage Sketch User privileges.\"*\n* *",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGn0VBTYuCDBy_KwMh3mbpplDBzPspU0KwW5_7Jb6GWneSLIgYQfNOHaIFwGQNez9gE6JgMxoTxNXJzEJyUMacVB0t8UA6qDv_7ITUlrHhRrrw=",
+          "title": "sketch.com"
+        },
+        {
+          "id": 3,
+          "text": "Sketch B.V. (also “Sketch”) provides a software platform for digital design. The Sketch Platform is supported by a cloud persistency service where customers can store design artifacts and documents, share them with other members of their design operations, and manage Sketch User privilege",
+          "url": "https://www.sketch.com/tos/",
+          "title": ""
+        },
+        {
+          "id": 4,
+          "text": "We are the Dutch company, Sketch B.V. (“we” or “us”), with a place of business at Flight Forum 40, Ground floor, 5657 DB Eindhoven, the Netherlands, with a chamber of commerce registration number 60360461 and VAT number NL8538.75.273.B01. We are the controller responsible fo",
+          "url": "https://www.sketch.com/privacy/",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Sketch B.V.",
+        "evidence": "Sketch B.V. (also “Sketch”) provides a software platform for digital design.",
+        "source": {
+          "id": 3,
+          "text": "Sketch B.V. (also “Sketch”) provides a software platform for digital design. The Sketch Platform is supported by a cloud persistency service where customers can store design artifacts and documents, share them with other members of their design operations, and manage Sketch User privilege",
+          "url": "https://www.sketch.com/tos/",
+          "title": ""
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Sketch",
+    "domain": "sketch.com",
+    "description": "Sketch is a design platform that enables users to create, collaborate on, prototype, and hand off digital designs seamlessly. It is widely used by professionals in the design field for its robust tools tailored for user interface design, offering features that bolster teamwork and productivity in the design process. Sketch is based in the Netherlands and serves a global clientele of designers and teams looking to enhance their workflow and creativity."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Sketch B.V.",
+  "evidence": "Sketch B.V. (also “Sketch”) provides a software platform for digital design.",
+  "source": {
+    "id": 3,
+    "text": "Sketch B.V. (also “Sketch”) provides a software platform for digital design. The Sketch Platform is supported by a cloud persistency service where customers can store design artifacts and documents, share them with other members of their design operations, and manage Sketch User privilege",
+    "url": "https://www.sketch.com/tos/",
+    "title": ""
+  },
+  "checked_at": "2026-11-05T09:45:07.033655+00:00"
+}

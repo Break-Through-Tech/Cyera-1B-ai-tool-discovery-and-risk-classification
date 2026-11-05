@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on available records for the AI travel planning tool **Pop-Plan** at **pop-plan.com**:\n\n* **Direct Provider / Brand:** **Pop-Plan**\n* **Operating Company / Developer Status:** No distinct legal corporate entity, registered company name, founder, or individual developer is disclosed or published on the platform or in its documentation. \n* **Evidence:** Platform catalog and verification profiles specifically assessing `pop-plan.com` identify the provider brand as **Pop-Plan** (\"Operated by Pop-Plan\", \"Built by Pop-Plan\"), while explicitly noting that \"[n]o company name, founder, or country is listed anywhere on the site\".",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**Direct Provider / Brand:** **Pop-Plan**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmTF8KuLLTFjjXSHklu1najE51arLbExOeA7TKZLKw0pas3an5QO5DsJ-nQ-Tf39O3aNOQove9mRiNlPQ5WDf4wwT9O3MOer-TZHrRs-PMot_aNJaVe9k=",
+          "title": "effecthub.net"
+        },
+        {
+          "id": 1,
+          "text": "**Direct Provider / Brand:** **Pop-Plan**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE53rR74ligxFPYiSzzOwUZ6GPtCZ9AkQxDvibQ955l7KZT0GVvkzbkYqLVS58RtGMnU4yx4zYekOuWAvujp3ra3lobDoMW6oNuhLnJ_l2TJMLABd-yBUw=",
+          "title": "effecthub.net"
+        },
+        {
+          "id": 2,
+          "text": "**Operating Company / Developer Status:** No distinct legal corporate entity, registered company name, founder, or individual developer is disclosed or published on the platform or in its documentation",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmTF8KuLLTFjjXSHklu1najE51arLbExOeA7TKZLKw0pas3an5QO5DsJ-nQ-Tf39O3aNOQove9mRiNlPQ5WDf4wwT9O3MOer-TZHrRs-PMot_aNJaVe9k=",
+          "title": "effecthub.net"
+        },
+        {
+          "id": 3,
+          "text": "**Evidence:** Platform catalog and verification profiles specifically assessing `pop-plan.com` identify the provider brand as **Pop-Plan** (\"Operated by Pop-Plan\", \"Built by Pop-Plan\"), while explicitly noting that \"[n]o company name, founder, or country is listed anywhere on the site\"",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmTF8KuLLTFjjXSHklu1najE51arLbExOeA7TKZLKw0pas3an5QO5DsJ-nQ-Tf39O3aNOQove9mRiNlPQ5WDf4wwT9O3MOer-TZHrRs-PMot_aNJaVe9k=",
+          "title": "effecthub.net"
+        },
+        {
+          "id": 4,
+          "text": "**Evidence:** Platform catalog and verification profiles specifically assessing `pop-plan.com` identify the provider brand as **Pop-Plan** (\"Operated by Pop-Plan\", \"Built by Pop-Plan\"), while explicitly noting that \"[n]o company name, founder, or country is listed anywhere on the site\"",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE53rR74ligxFPYiSzzOwUZ6GPtCZ9AkQxDvibQ955l7KZT0GVvkzbkYqLVS58RtGMnU4yx4zYekOuWAvujp3ra3lobDoMW6oNuhLnJ_l2TJMLABd-yBUw=",
+          "title": "effecthub.net"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Pop-Plan",
+        "evidence": "Platform catalog and verification profiles specifically assessing pop-plan.com identify the provider brand as Pop-Plan (\"Operated by Pop-Plan\", \"Built by Pop-Plan\").",
+        "source": {
+          "id": 3,
+          "text": "**Evidence:** Platform catalog and verification profiles specifically assessing `pop-plan.com` identify the provider brand as **Pop-Plan** (\"Operated by Pop-Plan\", \"Built by Pop-Plan\"), while explicitly noting that \"[n]o company name, founder, or country is listed anywhere on the site\"",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmTF8KuLLTFjjXSHklu1najE51arLbExOeA7TKZLKw0pas3an5QO5DsJ-nQ-Tf39O3aNOQove9mRiNlPQ5WDf4wwT9O3MOer-TZHrRs-PMot_aNJaVe9k=",
+          "title": "effecthub.net"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Pop-Plan",
+    "domain": "pop-plan.com",
+    "description": "Pop-Plan is an AI-powered travel planning tool that helps users create personalized itineraries based on their preferences and budget. It suggests activities, accommodations, and transportation options, optimizing the travel experience."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Pop-Plan",
+  "evidence": "Platform catalog and verification profiles specifically assessing pop-plan.com identify the provider brand as Pop-Plan (\"Operated by Pop-Plan\", \"Built by Pop-Plan\").",
+  "source": {
+    "id": 3,
+    "text": "**Evidence:** Platform catalog and verification profiles specifically assessing `pop-plan.com` identify the provider brand as **Pop-Plan** (\"Operated by Pop-Plan\", \"Built by Pop-Plan\"), while explicitly noting that \"[n]o company name, founder, or country is listed anywhere on the site\"",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmTF8KuLLTFjjXSHklu1najE51arLbExOeA7TKZLKw0pas3an5QO5DsJ-nQ-Tf39O3aNOQove9mRiNlPQ5WDf4wwT9O3MOer-TZHrRs-PMot_aNJaVe9k=",
+    "title": "effecthub.net"
+  },
+  "checked_at": "2026-11-05T05:40:36.031709+00:00"
+}

@@ -1,0 +1,79 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on official app-store listings and company records, the vendor and developer directly providing the **SpiritMe** software product (**spiritme.tech**) is **SpiritMe Inc.** (operating under the brand **SpiritMe**).\n\n* **Apple App Store:** The official publisher and developer of the companion mobile app for generating digital avatars is listed as **SpiritMe Inc.**\n* **Company Profiles & Operations:** Registered at Wilmington, Delaware (919 North Market Street) and led by CEO/co-founder Nikita Bogdanov, **SpiritMe Inc.** developed and operated the digital avatar video production platform at `spiritme.tech`.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "Based on official app-store listings and company records, the vendor and developer directly providing the **SpiritMe** software product (**spiritme.tech**) is **SpiritMe Inc.** (operating under the brand **SpiritMe**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1Kmn7iKhRmEs23Bj4zdxAilPOI57n5yb-XM7ycZNnr1kPyqBZC21VwsMXZl6IqED4c5bYVxZmjS8-8MyofB0v-eIM-1LfUaR9yzcQOOXWu9pvVpzEVxEg9c59DOLjLCQ37kP0Zw==",
+          "title": "trustpilot.com"
+        },
+        {
+          "id": 1,
+          "text": "Based on official app-store listings and company records, the vendor and developer directly providing the **SpiritMe** software product (**spiritme.tech**) is **SpiritMe Inc.** (operating under the brand **SpiritMe**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIYVlW9eBLsI-gDlAshDtYXn1HrmwicyotO2IgXONwykppQDP3KK8I0fSnnoYrSxhWIe_noL4ZbSbbK9Gfhnk1tWhAlddMfFZfkcP4mCj5OQ0SwIrznWP1iWM=",
+          "title": "rxaigc.com"
+        },
+        {
+          "id": 2,
+          "text": "Based on official app-store listings and company records, the vendor and developer directly providing the **SpiritMe** software product (**spiritme.tech**) is **SpiritMe Inc.** (operating under the brand **SpiritMe**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYI8WhoDCgrcMmKiaDBHWT3UoxN9o13VoWhG730shq8aYyEpBbm0CtZ7Z_U332wvuqgvE5MpIXmszxex_hhavHX72Qd6tvj2iyTHBlGxfesUBSHshTX9JxXGXUQmz7CbhfOwYhtAKi2VWtDYpfxzTvmFc=",
+          "title": "apple.com"
+        },
+        {
+          "id": 3,
+          "text": "**Apple App Store:** The official publisher and developer of the companion mobile app for generating digital avatars is listed as **SpiritMe Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYI8WhoDCgrcMmKiaDBHWT3UoxN9o13VoWhG730shq8aYyEpBbm0CtZ7Z_U332wvuqgvE5MpIXmszxex_hhavHX72Qd6tvj2iyTHBlGxfesUBSHshTX9JxXGXUQmz7CbhfOwYhtAKi2VWtDYpfxzTvmFc=",
+          "title": "apple.com"
+        },
+        {
+          "id": 4,
+          "text": "**Company Profiles & Operations:** Registered at Wilmington, Delaware (919 North Market Street) and led by CEO/co-founder Nikita Bogdanov, **SpiritMe Inc.** developed and operated the digital avatar video production platform at `spiritme.tech`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1Kmn7iKhRmEs23Bj4zdxAilPOI57n5yb-XM7ycZNnr1kPyqBZC21VwsMXZl6IqED4c5bYVxZmjS8-8MyofB0v-eIM-1LfUaR9yzcQOOXWu9pvVpzEVxEg9c59DOLjLCQ37kP0Zw==",
+          "title": "trustpilot.com"
+        },
+        {
+          "id": 5,
+          "text": "**Company Profiles & Operations:** Registered at Wilmington, Delaware (919 North Market Street) and led by CEO/co-founder Nikita Bogdanov, **SpiritMe Inc.** developed and operated the digital avatar video production platform at `spiritme.tech`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGS4m69YS61Uc1BSXRVrkZqM51sNktxYE6KjpgxMSmwOYa0crjVtj4ra025603tMBJC4IU3x0nUfoRm7odfSke1wpRXWL1h3pK23VCNZ8qB9Yf8",
+          "title": "hse.ru"
+        },
+        {
+          "id": 6,
+          "text": "**Company Profiles & Operations:** Registered at Wilmington, Delaware (919 North Market Street) and led by CEO/co-founder Nikita Bogdanov, **SpiritMe Inc.** developed and operated the digital avatar video production platform at `spiritme.tech`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIYVlW9eBLsI-gDlAshDtYXn1HrmwicyotO2IgXONwykppQDP3KK8I0fSnnoYrSxhWIe_noL4ZbSbbK9Gfhnk1tWhAlddMfFZfkcP4mCj5OQ0SwIrznWP1iWM=",
+          "title": "rxaigc.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "SpiritMe Inc.",
+        "evidence": "Passage 0 explicitly identifies SpiritMe Inc. as the vendor and developer directly providing the SpiritMe software product at spiritme.tech.",
+        "source": {
+          "id": 0,
+          "text": "Based on official app-store listings and company records, the vendor and developer directly providing the **SpiritMe** software product (**spiritme.tech**) is **SpiritMe Inc.** (operating under the brand **SpiritMe**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1Kmn7iKhRmEs23Bj4zdxAilPOI57n5yb-XM7ycZNnr1kPyqBZC21VwsMXZl6IqED4c5bYVxZmjS8-8MyofB0v-eIM-1LfUaR9yzcQOOXWu9pvVpzEVxEg9c59DOLjLCQ37kP0Zw==",
+          "title": "trustpilot.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "SpiritMe",
+    "domain": "spiritme.tech",
+    "description": "Production of videos using digital avatars."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "SpiritMe Inc.",
+  "evidence": "Passage 0 explicitly identifies SpiritMe Inc. as the vendor and developer directly providing the SpiritMe software product at spiritme.tech.",
+  "source": {
+    "id": 0,
+    "text": "Based on official app-store listings and company records, the vendor and developer directly providing the **SpiritMe** software product (**spiritme.tech**) is **SpiritMe Inc.** (operating under the brand **SpiritMe**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1Kmn7iKhRmEs23Bj4zdxAilPOI57n5yb-XM7ycZNnr1kPyqBZC21VwsMXZl6IqED4c5bYVxZmjS8-8MyofB0v-eIM-1LfUaR9yzcQOOXWu9pvVpzEVxEg9c59DOLjLCQ37kP0Zw==",
+    "title": "trustpilot.com"
+  },
+  "checked_at": "2026-11-05T06:49:11.765910+00:00"
+}

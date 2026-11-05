@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on the official legal agreements for **CCleaner** at **ccleaner.com**:\n\n* **Operating Company / Developer:** **Piriform Software Limited** directly operates the website and provides CCleaner products and services.\n  * *Provider Statement (Terms of Use):* *\"We are Piriform Software Limited, a company incorporated in England under company number 8235567. Our registered office is at: 100 New Bridge Street, London, EC4V 6JA, United Kingdom.\"*\n  * *Provider Statement (Consent Policy):* *\"This Consent Policy applies to the products and services of Piriform Software Ltd (known as CCleaner)...\"*\n\n* **Software Licensing Entities:** Under CCleaner's global *End User License Agreement* (EULA), the designated software \"Vendor\" is handled regionally across parent group **Gen Digital Inc.** entities: **Gen Digital Inc.** (Americas), **NortonLifeLock Ireland Limited** (UK, Ireland, Benelux), **Avast Software s.r.o.** (rest of Europe, Middle East, and Africa), **NortonLifeLock Singapore Pte Ltd** (Asia-Pacific/Australia), and **NortonLifeLock Japan KK** (Japan).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**Operating Company / Developer:** **Piriform Software Limited** directly operates the website and provides CCleaner products and services",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHr2f137W5ROmqv-7uEWVtspkh0KGv6se1Vlo24a_EiQ9sBHuc0cC3JmkIQ9zHJJ4_pB8v9_IC4vzf-_UCuzsEeGyN-ANh5p4po17TTKZiiRVR2goYtYYUfwXc10tnR1UtAWQk=",
+          "title": "ccleaner.com"
+        },
+        {
+          "id": 1,
+          "text": "**Operating Company / Developer:** **Piriform Software Limited** directly operates the website and provides CCleaner products and services",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0ujOr79T6pjMNJeEe_RHzB4wayuo2WSq_6NEbIMjFwI3JhQzxW9Xs5rtazBN4q_AoE7-l6vqJxbmixCTDdSO9XXQ1P3JTf3Rq-UufsK1cG554fNhz9lM5we52QHpGDIlu",
+          "title": "ccleaner.com"
+        },
+        {
+          "id": 2,
+          "text": "Our registered office is at: 100 New Bridge Street, London, EC4V 6JA, United Kingdom.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0ujOr79T6pjMNJeEe_RHzB4wayuo2WSq_6NEbIMjFwI3JhQzxW9Xs5rtazBN4q_AoE7-l6vqJxbmixCTDdSO9XXQ1P3JTf3Rq-UufsK1cG554fNhz9lM5we52QHpGDIlu",
+          "title": "ccleaner.com"
+        },
+        {
+          "id": 3,
+          "text": "*Provider Statement (Consent Policy):* *\"This Consent Policy applies to the products and services of Piriform Software Ltd (known as CCleaner)...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHr2f137W5ROmqv-7uEWVtspkh0KGv6se1Vlo24a_EiQ9sBHuc0cC3JmkIQ9zHJJ4_pB8v9_IC4vzf-_UCuzsEeGyN-ANh5p4po17TTKZiiRVR2goYtYYUfwXc10tnR1UtAWQk=",
+          "title": "ccleaner.com"
+        },
+        {
+          "id": 4,
+          "text": "(rest of Europe, Middle East, and Africa), **NortonLifeLock Singapore Pte Ltd** (Asia-Pacific/Australia), and **NortonLifeLock Japan KK** (Japan)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGr4WZe-6J3SHK6h5LrPv4OdjXgBEZHiXZQb3_K9Bf-0eWDnBsbGRRv8UciO2dKDU7jsFBgT0IRK71qX3mxUvs2wMR5d_y85de2CeZZoAD3ZAmK8UjBU9tv-28VQMuslQzIrfR0Mi5b8NPDG1TX-P0=",
+          "title": "ccleaner.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Piriform Software Limited",
+        "evidence": "Piriform Software Limited directly operates the website and provides CCleaner products and services.",
+        "source": {
+          "id": 0,
+          "text": "**Operating Company / Developer:** **Piriform Software Limited** directly operates the website and provides CCleaner products and services",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHr2f137W5ROmqv-7uEWVtspkh0KGv6se1Vlo24a_EiQ9sBHuc0cC3JmkIQ9zHJJ4_pB8v9_IC4vzf-_UCuzsEeGyN-ANh5p4po17TTKZiiRVR2goYtYYUfwXc10tnR1UtAWQk=",
+          "title": "ccleaner.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "CCleaner",
+    "domain": "ccleaner.com",
+    "description": "CCleaner offers optimization and maintenance tools for PCs, Macs, and Android devices, aimed at enhancing performance and ensuring user security. Their product range includes applications for system cleaning, privacy protection, and a secure browser for fast, private web browsing. Additionally, they provide specialized solutions such as CCleaner Cloud for business customers to streamline IT support and enhance computer longevity."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Piriform Software Limited",
+  "evidence": "Piriform Software Limited directly operates the website and provides CCleaner products and services.",
+  "source": {
+    "id": 0,
+    "text": "**Operating Company / Developer:** **Piriform Software Limited** directly operates the website and provides CCleaner products and services",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHr2f137W5ROmqv-7uEWVtspkh0KGv6se1Vlo24a_EiQ9sBHuc0cC3JmkIQ9zHJJ4_pB8v9_IC4vzf-_UCuzsEeGyN-ANh5p4po17TTKZiiRVR2goYtYYUfwXc10tnR1UtAWQk=",
+    "title": "ccleaner.com"
+  },
+  "checked_at": "2026-11-05T09:24:37.776119+00:00"
+}

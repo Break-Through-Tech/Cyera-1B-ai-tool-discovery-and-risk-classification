@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **Pizi AI** software platform at **pizi.ai** (described as an AI assistant to chat with multiple PDFs, translate documents, and solve math problems) is **1to3, Inc.**.\n\n### Supporting Evidence & Provider Statement\n* **Company Entity:** Product profiles and company registries record that *\"Pizi, legally known as 1to3, Inc., is a technology company founded in 2023 and headquartered in Newark, Delaware\"* (with registered address at 651 N Broad St, Middletown, DE).\n* **Brand/Developer:** The service and its associated software releases operate under the brand **Pizi** / **Pizi AI** and are digitally signed by **1To3, Inc.** (One to Three).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **Pizi AI** software platform at **pizi.ai** (described as an AI assistant to chat with multiple PDFs, translate documents, and solve math problems) is **1to3, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjdd7okwUElkryjlYBLGK3Orq_rY-l0l1LTZ5FDNMCER_nC5GnUCTuGw9ORBLsnt-GIzTievaN3op1D5HywHsewgljLyUPXSlImS665ONlnJseMSczl-urPtLf0tbfCyar7GI_",
+          "title": "technicalqa.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the **Pizi AI** software platform at **pizi.ai** (described as an AI assistant to chat with multiple PDFs, translate documents, and solve math problems) is **1to3, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhRkiN9MHSZ530OGrXjDIX10MyDidTW6dkg3dxqHn-qegtBYUenxeFdkIzQCGkPM6zk1E-LIOZ3afvicP3uHNWbmxGW6diL5l1r51f",
+          "title": "tyy.ai"
+        },
+        {
+          "id": 2,
+          "text": "**Company Entity:** Product profiles and company registries record that *\"Pizi, legally known as 1to3, Inc., is a technology company founded in 2023 and headquartered in Newark, Delaware\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjdd7okwUElkryjlYBLGK3Orq_rY-l0l1LTZ5FDNMCER_nC5GnUCTuGw9ORBLsnt-GIzTievaN3op1D5HywHsewgljLyUPXSlImS665ONlnJseMSczl-urPtLf0tbfCyar7GI_",
+          "title": "technicalqa.com"
+        },
+        {
+          "id": 3,
+          "text": "**Company Entity:** Product profiles and company registries record that *\"Pizi, legally known as 1to3, Inc., is a technology company founded in 2023 and headquartered in Newark, Delaware\"* (with registered address at 651 N Broad St, Middletown, DE)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhRkiN9MHSZ530OGrXjDIX10MyDidTW6dkg3dxqHn-qegtBYUenxeFdkIzQCGkPM6zk1E-LIOZ3afvicP3uHNWbmxGW6diL5l1r51f",
+          "title": "tyy.ai"
+        },
+        {
+          "id": 4,
+          "text": "**Brand/Developer:** The service and its associated software releases operate under the brand **Pizi** / **Pizi AI** and are digitally signed by **1To3, Inc.** (One to Three)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1uWH6sdMcdj7gC4k8pWAqxLgyT0tN-JrS-CxVFKgr8WqgMlNgVcUecukHNQSHgOA5iMQBxzQ1MshdwI6nKaxFvHNBAL5rVNad00WCrDAqoHxp6O15WzG5HmjizLsr",
+          "title": "softonic.com"
+        },
+        {
+          "id": 5,
+          "text": "**Brand/Developer:** The service and its associated software releases operate under the brand **Pizi** / **Pizi AI** and are digitally signed by **1To3, Inc.** (One to Three)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFapuh0UEtBOP2bZGhUIY4I-LbJOvcvITJNJEED7v7-sX6EvMU3HR23ZDAv1Sn-Wn2BdaNEF8JUIg9Z8Rt93qsaGmD4wQhuMl-LSxITSw==",
+          "title": "pizi.co"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "1to3, Inc.",
+        "evidence": "Passage 0 directly states that the vendor providing the Pizi AI software platform at pizi.ai is 1to3, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the **Pizi AI** software platform at **pizi.ai** (described as an AI assistant to chat with multiple PDFs, translate documents, and solve math problems) is **1to3, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjdd7okwUElkryjlYBLGK3Orq_rY-l0l1LTZ5FDNMCER_nC5GnUCTuGw9ORBLsnt-GIzTievaN3op1D5HywHsewgljLyUPXSlImS665ONlnJseMSczl-urPtLf0tbfCyar7GI_",
+          "title": "technicalqa.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Pizi AI",
+    "domain": "pizi.ai",
+    "description": "Chat with multiple PDFs and solve math problems with Pizi AI."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "1to3, Inc.",
+  "evidence": "Passage 0 directly states that the vendor providing the Pizi AI software platform at pizi.ai is 1to3, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the **Pizi AI** software platform at **pizi.ai** (described as an AI assistant to chat with multiple PDFs, translate documents, and solve math problems) is **1to3, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjdd7okwUElkryjlYBLGK3Orq_rY-l0l1LTZ5FDNMCER_nC5GnUCTuGw9ORBLsnt-GIzTievaN3op1D5HywHsewgljLyUPXSlImS665ONlnJseMSczl-urPtLf0tbfCyar7GI_",
+    "title": "technicalqa.com"
+  },
+  "checked_at": "2026-11-05T06:13:34.175598+00:00"
+}

@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Optimizely** via **optimizely.com** is **Optimizely** (operating legally as **Optimizely North America Inc.** in the United States, alongside **Optimizely AB** and **Optimizely, Inc.**).\n\n### Official Provider Statements & Evidence:\n* **Website Terms of Use (`optimizely.com`)**: Identifies the operator and legal contact for the websites (`optimizely.com` and its sub-sites) as:  \n  > *\"Send your notification to Optimizely North America Inc., Attn: General Counsel, 119 Fifth Avenue, 7th Floor, New York, NY 10003, USA.\"*\n* **Privacy Notice (`optimizely.com`)**: Defines the provider entities:  \n  > *\"When we say 'Optimizely', 'Optimizely Group', 'we', 'us', or 'our' in this Privacy Notice - we are referring to Optimizely North America Inc. and Optimizely AB and their respective affiliates.\"*\n* **Subscription / Terms of Service Agreements (`optimizely.com`)**:  \n  > *\"Thank you for signing up for a subscription with Optimizely, Inc. ('Optimizely', 'we' or 'us').\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYJsx25EyGVkOqpFRQt-bWoYcdhUV5_Y6oy2FKDcXhK_iiEZDZ_A9okAUAsC3yQAM8a77LN8Bp-0on6mlWAQ3LXBB7oO0BciNgTiLB1m5E_o1jcYM=",
+          "title": "optimizely.com"
+        },
+        {
+          "id": 1,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnZSAg5GLjypSTqYPa7TX7X9slgsv86kg3LmTkCc73PgPbZE_TwBnfvAB5-ESnp7EggLnXx-DF7KOUrv4eqrzsEgaiJSfpS1n0g7zIUo-GBZLEImq90GSPc_386qb1NRSYYhMx",
+          "title": "optimizely.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"Send your notification to Optimizely North America Inc., Attn: General Counsel, 119 Fifth Avenue, 7th Floor, New York, NY 10003, USA.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEISSnwPIYi1Q-bOmp2s7XUHHc-aWt9j75qM4xJZ4TcLnTeMs0AvfXfB4yknSGBNgjJ-Bo-Nb3_vwJ4e3dXsVyW6XSLpz_jut-RIx5T_kDPRmq-KBF-J84AkdJntpPy-z6n772fIRX_Uxhi",
+          "title": "optimizely.com"
+        },
+        {
+          "id": 3,
+          "text": "*\"When we say 'Optimizely', 'Optimizely Group', 'we', 'us', or 'our' in this Privacy Notice - we are referring to Optimizely North America Inc. and Optimizely AB and their respective affiliates.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnZSAg5GLjypSTqYPa7TX7X9slgsv86kg3LmTkCc73PgPbZE_TwBnfvAB5-ESnp7EggLnXx-DF7KOUrv4eqrzsEgaiJSfpS1n0g7zIUo-GBZLEImq90GSPc_386qb1NRSYYhMx",
+          "title": "optimizely.com"
+        },
+        {
+          "id": 4,
+          "text": "*\"Thank you for signing up for a subscription with Optimizely, Inc. ('Optimizely', 'we' or 'us').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDIJQxrE6pAmInabjOgCKbtZ8Dls6OA5LOuKb9WdAn8z5CghcpB4fhyb1J4ZRRjIseWrgPasvq8xEixpSGwdmz5rcOvGZrfxP4xBGfPOQpe445HOTFl0tTPO5SPq-lGDN6kvH-pkCb61r6Kc8tvYv72w==",
+          "title": "optimizely.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Optimizely, Inc.",
+        "evidence": "Passage 4 establishes Optimizely, Inc. as the provider, stating: 'Thank you for signing up for a subscription with Optimizely, Inc. ('Optimizely', 'we' or 'us').'",
+        "source": {
+          "id": 4,
+          "text": "*\"Thank you for signing up for a subscription with Optimizely, Inc. ('Optimizely', 'we' or 'us').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDIJQxrE6pAmInabjOgCKbtZ8Dls6OA5LOuKb9WdAn8z5CghcpB4fhyb1J4ZRRjIseWrgPasvq8xEixpSGwdmz5rcOvGZrfxP4xBGfPOQpe445HOTFl0tTPO5SPq-lGDN6kvH-pkCb61r6Kc8tvYv72w==",
+          "title": "optimizely.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Optimizely",
+    "domain": "optimizely.com",
+    "description": "Optimizely is a technology company focused on enhancing marketing efforts through its flagship platform, Optimizely One. This comprehensive operating system integrates content management, marketing experimentation, commerce, and personalization, facilitating a seamless workflow for marketing teams. The company supports global brands including H&M, Salesforce, Zoom, and Toyota in creating high-quality content and optimizing their marketing strategies."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Optimizely, Inc.",
+  "evidence": "Passage 4 establishes Optimizely, Inc. as the provider, stating: 'Thank you for signing up for a subscription with Optimizely, Inc. ('Optimizely', 'we' or 'us').'",
+  "source": {
+    "id": 4,
+    "text": "*\"Thank you for signing up for a subscription with Optimizely, Inc. ('Optimizely', 'we' or 'us').\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDIJQxrE6pAmInabjOgCKbtZ8Dls6OA5LOuKb9WdAn8z5CghcpB4fhyb1J4ZRRjIseWrgPasvq8xEixpSGwdmz5rcOvGZrfxP4xBGfPOQpe445HOTFl0tTPO5SPq-lGDN6kvH-pkCb61r6Kc8tvYv72w==",
+    "title": "optimizely.com"
+  },
+  "checked_at": "2026-11-05T09:22:49.751630+00:00"
+}

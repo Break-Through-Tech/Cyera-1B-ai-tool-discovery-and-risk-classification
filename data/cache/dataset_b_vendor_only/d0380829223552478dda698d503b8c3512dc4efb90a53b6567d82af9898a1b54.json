@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Netlify** at **netlify.com** is **Netlify, Inc.**.\n\n### Supporting Evidence:\n* According to the **Netlify Self-Serve Subscription Agreement**, the agreement *\"is between Netlify, Inc., a Delaware corporation ('Netlify'), and the individual or entity that accepts it ('Customer'), and governs the use of Netlify's software, solutions, and services ('Services') to build, deploy, host, and manage web projects\"*.\n* The **Enterprise Master Subscription Agreement** similarly establishes the contract between *\"Netlify, Inc., a Delaware Corporation having its principal place of business at 101 2nd Street San Francisco, CA 94105 ('Netlify')\"* and the customer for cloud infrastructure, applications, and tools (*\"the Netlify Services\"*).\n* The **Netlify Privacy Statement** also specifies that it *\"applies to Netlify, Inc. and/or its affiliated entities ('Netlify', 'we', or 'us') ... when you subscribe online to the services provided by Netlify (the 'Netlify Services')\"* and *\"when you interact with the Netlify.com website\"*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Netlify** at **netlify.com** is **Netlify, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEd4qivUnCiE2RGALzrvUuHyuuiF5xwI_2ixNjqwNQ2sVbxQ58j2xjnjzLb4bhbP9nxny7z-T4HnAsz82B0LUmSX8syaCwAZHvra2MIXVpkGlcJ-uMl",
+          "title": "netlify.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Netlify** at **netlify.com** is **Netlify, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIp0oiQ0Gqeh9_cEiH12-2WDj0m1DDDWdWTn1RiA05wk1N2emzPcKmHVzYFg-SXgkBtRgjou2QZ-PrwAe2HLmO63cB_50etwlM17ks8981LgY-DfR3sPpd4BH9tocdSQbysmTuozYYghkmKchWIUvZc2j6KFe0zAcYi3N0",
+          "title": "netlify.com"
+        },
+        {
+          "id": 2,
+          "text": "According to the **Netlify Self-Serve Subscription Agreement**, the agreement *\"is between Netlify, Inc., a Delaware corporation ('Netlify'), and the individual or entity that accepts it ('Customer'), and governs the use of Netlify's software, solutions, and services ('Services') to build, deploy, host, and manage web projects\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8WaSAotUzM5AjTHwBmXixbab1xPHNTcX3qQjQVUBsPkO1JDtEBrHdU6wxR9_OiohDp5GAWiyyDmV3qFlas2VXJMTpcjjqyy9oAB479EAWnJKKPZRyA5A5AutPs0DkAy3JX2VdR_6tgiIO1dbX9zTUQUtOplMA",
+          "title": "netlify.com"
+        },
+        {
+          "id": 3,
+          "text": "The **Enterprise Master Subscription Agreement** similarly establishes the contract between *\"Netlify, Inc., a Delaware Corporation having its principal place of business at 101 2nd Street San Francisco, CA 94105 ('Netlify')\"* and the customer for cloud infrastructure, applications, and tools (*\"the Netlify Services\"*)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIp0oiQ0Gqeh9_cEiH12-2WDj0m1DDDWdWTn1RiA05wk1N2emzPcKmHVzYFg-SXgkBtRgjou2QZ-PrwAe2HLmO63cB_50etwlM17ks8981LgY-DfR3sPpd4BH9tocdSQbysmTuozYYghkmKchWIUvZc2j6KFe0zAcYi3N0",
+          "title": "netlify.com"
+        },
+        {
+          "id": 4,
+          "text": "The **Netlify Privacy Statement** also specifies that it *\"applies to Netlify, Inc. and/or its affiliated entities ('Netlify', 'we', or 'us') ... when you subscribe online to the services provided by Netlify (the 'Netlify Services')\"* and *\"when you interact with the Netlify.com website\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEd4qivUnCiE2RGALzrvUuHyuuiF5xwI_2ixNjqwNQ2sVbxQ58j2xjnjzLb4bhbP9nxny7z-T4HnAsz82B0LUmSX8syaCwAZHvra2MIXVpkGlcJ-uMl",
+          "title": "netlify.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Netlify, Inc.",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing Netlify at netlify.com is Netlify, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Netlify** at **netlify.com** is **Netlify, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEd4qivUnCiE2RGALzrvUuHyuuiF5xwI_2ixNjqwNQ2sVbxQ58j2xjnjzLb4bhbP9nxny7z-T4HnAsz82B0LUmSX8syaCwAZHvra2MIXVpkGlcJ-uMl",
+          "title": "netlify.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Netlify",
+    "domain": "netlify.com",
+    "description": "Netlify is a leading platform designed for developers to create high-performance websites, e-commerce stores, and applications efficiently. By integrating various technologies and services into a cohesive workflow, it enhances team productivity and reduces costs. As a pioneer of the Jamstack movement, Netlify supports modern web frameworks, serverless functions, and edge computing, facilitating superior user experiences. Its user base includes diverse clients ranging from Fortune 500 companies to innovative tech businesses."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Netlify, Inc.",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing Netlify at netlify.com is Netlify, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Netlify** at **netlify.com** is **Netlify, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEd4qivUnCiE2RGALzrvUuHyuuiF5xwI_2ixNjqwNQ2sVbxQ58j2xjnjzLb4bhbP9nxny7z-T4HnAsz82B0LUmSX8syaCwAZHvra2MIXVpkGlcJ-uMl",
+    "title": "netlify.com"
+  },
+  "checked_at": "2026-11-05T08:52:13.302781+00:00"
+}

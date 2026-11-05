@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "For the software product **Trendhopper** at **trendhopper.ai**:\n\n* **Provider / Vendor:** **Trendhopper** (also styled as **TrendHopper**) operates directly as the provider brand.\n* **Evidence & Provider Statement:** \n  * The official Terms of Service at `trendhopper.ai/terms` states: \n    > *\"These Terms of Service (\"Terms\") are an agreement between you and [COMPANY LEGAL NAME], [REGISTERED ADDRESS](\"Trendhopper\", \"we\", \"us\").\"*\n  * The site leaves the legal entity placeholder unpopulated and operates under the brand name **Trendhopper**, with official notices stating *\"© 2026 Trendhopper. All rights reserved.\"* and support handled via `support@trendhopper.ai`.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**Provider / Vendor:** **Trendhopper** (also styled as **TrendHopper**) operates directly as the provider brand",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQcTywK428s7GRNe53xFHMDgnORVK9seJ0fq-jeJzyA0YkDRg6bDG4L7kE3MdQyuRQTA6XVvY2vUeNKy5jS3yVoBq0k2FVyjuN-Z5wdm5In1xE0iO3hw==",
+          "title": "trendhopper.ai"
+        },
+        {
+          "id": 1,
+          "text": "**Provider / Vendor:** **Trendhopper** (also styled as **TrendHopper**) operates directly as the provider brand",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEs9-jb93PrJbrwvJoWe_Ih-NMQElfnHoTDxCw8gmeCdUA5Q-u_EIl_TmrxGV1gsJV1CIMrhqn1okmIDdV12jC-jB4BNtsLIWvYtIwlY6BQQXb1LuO_Xw==",
+          "title": "trendhopper.ai"
+        },
+        {
+          "id": 2,
+          "text": "*\"These Terms of Service (\"Terms\") are an agreement between you and [COMPANY LEGAL NAME], [REGISTERED ADDRESS](\"Trendhopper\", \"we\", \"us\").\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEs9-jb93PrJbrwvJoWe_Ih-NMQElfnHoTDxCw8gmeCdUA5Q-u_EIl_TmrxGV1gsJV1CIMrhqn1okmIDdV12jC-jB4BNtsLIWvYtIwlY6BQQXb1LuO_Xw==",
+          "title": "trendhopper.ai"
+        },
+        {
+          "id": 3,
+          "text": "ll rights reserved.\"* and support handled via `support@trendhopper.ai`.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEs9-jb93PrJbrwvJoWe_Ih-NMQElfnHoTDxCw8gmeCdUA5Q-u_EIl_TmrxGV1gsJV1CIMrhqn1okmIDdV12jC-jB4BNtsLIWvYtIwlY6BQQXb1LuO_Xw==",
+          "title": "trendhopper.ai"
+        },
+        {
+          "id": 4,
+          "text": "ll rights reserved.\"* and support handled via `support@trendhopper.ai`.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFX3XP82sZosi0eGK1BqVLR4MVJmzs4gRuHhlciHard1IXTfpcEn4XaBOp2Ubdp8rdgC-U_89WoXMCuYFHhi3E2K5AmI7J6Al9LhCTvdnoEiuLVyQmOU8SDTminczv3BnllcK4bygoMVTRvooKH_zdkWDwWF_EDQiHbtRudnnX7asoRywdfO3Mp3SroCgfnd3oaTTSpQn2EWz-1Hh0RaP27eGOQGBDf",
+          "title": "trendhopper.ai"
+        },
+        {
+          "id": 5,
+          "text": "ll rights reserved.\"* and support handled via `support@trendhopper.ai`.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLoIZOwbreyiNd4QlFhih3Wpi1VwCRdcNO0w1qjpRn5A0x6ywmQrAtSiXQx3k2F7q0mADwQxXN5ELGSCNXu75FQdpR_Io0-5MPnoDG2vB-SA==",
+          "title": "trendhopper.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Trendhopper",
+        "evidence": "Passage 0 specifies that Trendhopper operates directly as the provider brand for the product.",
+        "source": {
+          "id": 0,
+          "text": "**Provider / Vendor:** **Trendhopper** (also styled as **TrendHopper**) operates directly as the provider brand",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQcTywK428s7GRNe53xFHMDgnORVK9seJ0fq-jeJzyA0YkDRg6bDG4L7kE3MdQyuRQTA6XVvY2vUeNKy5jS3yVoBq0k2FVyjuN-Z5wdm5In1xE0iO3hw==",
+          "title": "trendhopper.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Trendhopper",
+    "domain": "trendhopper.ai",
+    "description": "Trendhopper is an AI-powered trend forecasting tool that helps businesses identify emerging trends and opportunities."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Trendhopper",
+  "evidence": "Passage 0 specifies that Trendhopper operates directly as the provider brand for the product.",
+  "source": {
+    "id": 0,
+    "text": "**Provider / Vendor:** **Trendhopper** (also styled as **TrendHopper**) operates directly as the provider brand",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQcTywK428s7GRNe53xFHMDgnORVK9seJ0fq-jeJzyA0YkDRg6bDG4L7kE3MdQyuRQTA6XVvY2vUeNKy5jS3yVoBq0k2FVyjuN-Z5wdm5In1xE0iO3hw==",
+    "title": "trendhopper.ai"
+  },
+  "checked_at": "2026-11-05T06:34:31.094151+00:00"
+}

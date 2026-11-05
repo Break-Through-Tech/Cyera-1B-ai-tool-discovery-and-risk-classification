@@ -1,0 +1,79 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product at **courseai.co** (associated with **LearningStudioAI** / **CourseAI**) is provided and operated directly by **ScormHero, Inc.**.\n\n### Evidence & Provider Statement\nOfficial footer notices on `courseai.co` state:\n> *\"CourseAI. Create online courses in seconds, powered by AI. ScormHero, Inc. 2810 N Church St PMB 51797. Wilmington Delaware 19802-4447 US.\"*\n\nLegal documentation and platform information confirm that **ScormHero, Inc.** is the operating company and developer behind the platform.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product at **courseai.co** (associated with **LearningStudioAI** / **CourseAI**) is provided and operated directly by **ScormHero, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFvBNmqLZNnTXQC0sLjKofS7I7jxy37IkKCI6VFYASyQVsXn_p1EPyo9xUmaVTZJK1vocqtar2MnEuZJZ-xOKHLaWFCKznHu4wtiqvT8-7EyNhYf7ODcdGUd6v",
+          "title": "courseai.co"
+        },
+        {
+          "id": 1,
+          "text": "The software product at **courseai.co** (associated with **LearningStudioAI** / **CourseAI**) is provided and operated directly by **ScormHero, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcE-PncRFf5rizuxkPrFSQp909wW9DPVqm6erwuYuIiU69GJM-sZBV0a9boXJ_dckxiOKShgtgig48C9j-Gz8tyYJBgD7fIQWxMqJ3qovMtWq9mcA2WkpWMfnMAaDb",
+          "title": "courseai.co"
+        },
+        {
+          "id": 2,
+          "text": "The software product at **courseai.co** (associated with **LearningStudioAI** / **CourseAI**) is provided and operated directly by **ScormHero, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQluG9YL354ir4u0iBiwnsD-_fvvq7PWENF5DyD9Qp3ZHlY_5JeQbHZrLl7uD7OUxXQ2kJbJ6eLqPXZH52x66oWZSj-tWWmnIjzJcrPWn3cNSQuNFy9PMf9gbX22wYDuUbjgFeKgKpuBZa1bbU1kzPupAfnNJsSCV8N0XLZKPrClkXNw==",
+          "title": "guidde.com"
+        },
+        {
+          "id": 3,
+          "text": "Official footer notices on `courseai.co` state",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFvBNmqLZNnTXQC0sLjKofS7I7jxy37IkKCI6VFYASyQVsXn_p1EPyo9xUmaVTZJK1vocqtar2MnEuZJZ-xOKHLaWFCKznHu4wtiqvT8-7EyNhYf7ODcdGUd6v",
+          "title": "courseai.co"
+        },
+        {
+          "id": 4,
+          "text": "Official footer notices on `courseai.co` state",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcE-PncRFf5rizuxkPrFSQp909wW9DPVqm6erwuYuIiU69GJM-sZBV0a9boXJ_dckxiOKShgtgig48C9j-Gz8tyYJBgD7fIQWxMqJ3qovMtWq9mcA2WkpWMfnMAaDb",
+          "title": "courseai.co"
+        },
+        {
+          "id": 5,
+          "text": "Legal documentation and platform information confirm that **ScormHero, Inc.** is the operating company and developer behind the platform",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFu-xmE97n7mVrGXaowW-U2aohIIHtqLprtSOd_SMn-nRyAmSsUAT7tRR6LQGH6A9hXqdo2N31e34YEoFF5dLv1DHctODdAnOhTMafixABgsQwEzZkA0vjQLZsLPjTr2XrZ7vao5jzpHg4D6FB9VAgYbyzsmAyTow==",
+          "title": "scribd.com"
+        },
+        {
+          "id": 6,
+          "text": "Legal documentation and platform information confirm that **ScormHero, Inc.** is the operating company and developer behind the platform",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQluG9YL354ir4u0iBiwnsD-_fvvq7PWENF5DyD9Qp3ZHlY_5JeQbHZrLl7uD7OUxXQ2kJbJ6eLqPXZH52x66oWZSj-tWWmnIjzJcrPWn3cNSQuNFy9PMf9gbX22wYDuUbjgFeKgKpuBZa1bbU1kzPupAfnNJsSCV8N0XLZKPrClkXNw==",
+          "title": "guidde.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "ScormHero, Inc.",
+        "evidence": "The software product at courseai.co (associated with LearningStudioAI / CourseAI) is provided and operated directly by ScormHero, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The software product at **courseai.co** (associated with **LearningStudioAI** / **CourseAI**) is provided and operated directly by **ScormHero, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFvBNmqLZNnTXQC0sLjKofS7I7jxy37IkKCI6VFYASyQVsXn_p1EPyo9xUmaVTZJK1vocqtar2MnEuZJZ-xOKHLaWFCKznHu4wtiqvT8-7EyNhYf7ODcdGUd6v",
+          "title": "courseai.co"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "LearningStudioAI",
+    "domain": "courseai.co",
+    "description": "Transform any subject into a stunning online course with CourseAI."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "ScormHero, Inc.",
+  "evidence": "The software product at courseai.co (associated with LearningStudioAI / CourseAI) is provided and operated directly by ScormHero, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The software product at **courseai.co** (associated with **LearningStudioAI** / **CourseAI**) is provided and operated directly by **ScormHero, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFvBNmqLZNnTXQC0sLjKofS7I7jxy37IkKCI6VFYASyQVsXn_p1EPyo9xUmaVTZJK1vocqtar2MnEuZJZ-xOKHLaWFCKznHu4wtiqvT8-7EyNhYf7ODcdGUd6v",
+    "title": "courseai.co"
+  },
+  "checked_at": "2026-11-05T07:54:52.866800+00:00"
+}

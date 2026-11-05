@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Crowdcast** at **crowdcast.io** is **Crowdcast, Inc.**\n\n### Evidence\nAccording to the official **Terms of Service** governing `crowdcast.io`:\n> *\"Please read these Terms of Service (the “Terms”) and our Privacy Policy (“Privacy Policy”) carefully because they govern your use of the website located at https://crowdcast.io/ (the “Site”) and our live video platform services accessible via the Site and corresponding mobile application (“App”) offered by Crowdcast, Inc. (“Crowdcast”).\"*\n\nThis is additionally corroborated by the **Privacy Policy** at `crowdcast.io`:\n> *\"Crowdcast, Inc. (“Crowdcast”, “we”, “us” or “our”) provides a live streaming platform that allows users to host live, online events.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Crowdcast** at **crowdcast.io** is **Crowdcast, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWTVPNJqS5X8eovZYVopBgGrOc-ky7UeA2TlSLwlVoSqLMXn11ptlwwNzok6bL7hWE_UPfoO83hldB0LtJ-J9n4b67k50vRCms4mkRfIplF6zBFvrVTjv9fxxIyuXgfQ==",
+          "title": "crowdcast.io"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Crowdcast** at **crowdcast.io** is **Crowdcast, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeqFURYLwdQ_Q9aPngDrnrhukFMI2Ps4p6RCQc2tsTYk7Ne1C2LZuOlHYoae02sy1FeDJcUsnHGXtAWjO4SMDsShU0OqQuy1SN4uc3zbp6BYqs-akF15k-XTF_288=",
+          "title": "crowdcast.io"
+        },
+        {
+          "id": 2,
+          "text": "According to the official **Terms of Service** governing `crowdcast.io`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWTVPNJqS5X8eovZYVopBgGrOc-ky7UeA2TlSLwlVoSqLMXn11ptlwwNzok6bL7hWE_UPfoO83hldB0LtJ-J9n4b67k50vRCms4mkRfIplF6zBFvrVTjv9fxxIyuXgfQ==",
+          "title": "crowdcast.io"
+        },
+        {
+          "id": 3,
+          "text": "*\"Please read these Terms of Service (the “Terms”) and our Privacy Policy (“Privacy Policy”) carefully because they govern your use of the website located at https://crowdcast.io/ (the “Site”) and our live video platform services accessible via the Site and corresponding mobile application (“App”) offered by Crowdcast, Inc. (“Crowdcast”).\"*\n\nThis is additional",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWTVPNJqS5X8eovZYVopBgGrOc-ky7UeA2TlSLwlVoSqLMXn11ptlwwNzok6bL7hWE_UPfoO83hldB0LtJ-J9n4b67k50vRCms4mkRfIplF6zBFvrVTjv9fxxIyuXgfQ==",
+          "title": "crowdcast.io"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Crowdcast, Inc.",
+        "evidence": "According to the Terms of Service governing https://crowdcast.io/, the website and live video platform services are offered by Crowdcast, Inc.",
+        "source": {
+          "id": 3,
+          "text": "*\"Please read these Terms of Service (the “Terms”) and our Privacy Policy (“Privacy Policy”) carefully because they govern your use of the website located at https://crowdcast.io/ (the “Site”) and our live video platform services accessible via the Site and corresponding mobile application (“App”) offered by Crowdcast, Inc. (“Crowdcast”).\"*\n\nThis is additional",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWTVPNJqS5X8eovZYVopBgGrOc-ky7UeA2TlSLwlVoSqLMXn11ptlwwNzok6bL7hWE_UPfoO83hldB0LtJ-J9n4b67k50vRCms4mkRfIplF6zBFvrVTjv9fxxIyuXgfQ==",
+          "title": "crowdcast.io"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Crowdcast",
+    "domain": "crowdcast.io",
+    "description": "Crowdcast is a live-streaming platform that revolutionizes webinars and virtual conferences by emphasizing user engagement and analytics. It provides a seamless experience for hosting events with features like interactive Q&A, live polling, and instant video replies. Participants can engage actively during sessions, while organizers benefit from detailed analytics including participant data and event insights. Known for facilitating large-scale events, Crowdcast aims to enhance the overall quality and effectiveness of online gatherings for businesses."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Crowdcast, Inc.",
+  "evidence": "According to the Terms of Service governing https://crowdcast.io/, the website and live video platform services are offered by Crowdcast, Inc.",
+  "source": {
+    "id": 3,
+    "text": "*\"Please read these Terms of Service (the “Terms”) and our Privacy Policy (“Privacy Policy”) carefully because they govern your use of the website located at https://crowdcast.io/ (the “Site”) and our live video platform services accessible via the Site and corresponding mobile application (“App”) offered by Crowdcast, Inc. (“Crowdcast”).\"*\n\nThis is additional",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWTVPNJqS5X8eovZYVopBgGrOc-ky7UeA2TlSLwlVoSqLMXn11ptlwwNzok6bL7hWE_UPfoO83hldB0LtJ-J9n4b67k50vRCms4mkRfIplF6zBFvrVTjv9fxxIyuXgfQ==",
+    "title": "crowdcast.io"
+  },
+  "checked_at": "2026-11-05T10:01:29.942169+00:00"
+}

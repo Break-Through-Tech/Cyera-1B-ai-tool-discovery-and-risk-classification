@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **Bubble** software platform at **bubble.io** is **Bubble Group, Inc.**\n\n### Evidence:\n* **Bubble Agency Addendum to Terms of Service:** Identifies the Agreement as being entered into *\"by and between Bubble Group, Inc. ('Bubble') and the Party identified as Agency...\"*\n* **Bubble Privacy Policy:** Lists the operating corporate entity as *\"Bubble Group, Inc., 22 W 21st Street 2nd Floor, New York, NY 10010\"*.\n* **Bubble Documentation & Legal Notices:** States payment and service provisions are handled by *\"Bubble Group, Inc.\"* with site-wide copyright attributed to *\"Bubble Group, Inc.\"*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **Bubble** software platform at **bubble.io** is **Bubble Group, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_BLhDFJj99WEFX3X0Gs2Ed3BSUhxtIzVOowRM2jCnH6X8X6NG7Cor0JMrN8FDq-W8B6L_dWvrWVHwMSp4FIqUdJKyVTMF29aNvNiGhZ2S",
+          "title": "bubble.io"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the **Bubble** software platform at **bubble.io** is **Bubble Group, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBAkWm5IRs-ys5rmM46CVvymXofTGr69sih3DoJfiMOEW4gikDI2aSTpxpG_Cvfr8mvqSB5znU_rQcZPPJvE-4bdT5ayzFZXbdoRUzh8905fHLVLXpYKE=",
+          "title": "bubble.io"
+        },
+        {
+          "id": 2,
+          "text": "**Bubble Agency Addendum to Terms of Service:** Identifies the Agreement as being entered into *\"by and between Bubble Group, Inc. ('Bubble') and the Party identified as Agency...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBAkWm5IRs-ys5rmM46CVvymXofTGr69sih3DoJfiMOEW4gikDI2aSTpxpG_Cvfr8mvqSB5znU_rQcZPPJvE-4bdT5ayzFZXbdoRUzh8905fHLVLXpYKE=",
+          "title": "bubble.io"
+        },
+        {
+          "id": 3,
+          "text": "**Bubble Privacy Policy:** Lists the operating corporate entity as *\"Bubble Group, Inc., 22 W 21st Street 2nd Floor, New York, NY 10010\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_BLhDFJj99WEFX3X0Gs2Ed3BSUhxtIzVOowRM2jCnH6X8X6NG7Cor0JMrN8FDq-W8B6L_dWvrWVHwMSp4FIqUdJKyVTMF29aNvNiGhZ2S",
+          "title": "bubble.io"
+        },
+        {
+          "id": 4,
+          "text": "**Bubble Documentation & Legal Notices:** States payment and service provisions are handled by *\"Bubble Group, Inc.\"* with site-wide copyright attributed to *\"Bubble Group, Inc.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJchLKcuLOXkjlFxuLdxlstIkPmciS6UpryNisro-IsRrMXtsoQ7kWsKvCzE2okcU8gPruN_lfvAtbDqmffONykMxcgaTWmosmKY6ysYNih7XhgfCN7oKjkQI6vbs=",
+          "title": "bubble.io"
+        },
+        {
+          "id": 5,
+          "text": "**Bubble Documentation & Legal Notices:** States payment and service provisions are handled by *\"Bubble Group, Inc.\"* with site-wide copyright attributed to *\"Bubble Group, Inc.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQES__2KxXvxrpTfMngQM-s4dwxWY4xIbR18pFD4PM-RemhT0AAkdFa6BZ48Ly8CRWG_I4f7Ajt_Z_W7YuXthTCoqodvjwmoqIzMTVm-qVQiHfAB33tZ3kO1tkzxT2xiGmBaRxXBg7zmB_jAJAW0CKw2oCHpXxENqIuVRA-fNeptNH-tEJDdxQnvry4D_dbhvrf3KTgEytgBNEav",
+          "title": "bubble.io"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Bubble Group, Inc.",
+        "evidence": "Passage 0 explicitly identifies Bubble Group, Inc. as the vendor directly providing the Bubble software platform at bubble.io.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the **Bubble** software platform at **bubble.io** is **Bubble Group, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_BLhDFJj99WEFX3X0Gs2Ed3BSUhxtIzVOowRM2jCnH6X8X6NG7Cor0JMrN8FDq-W8B6L_dWvrWVHwMSp4FIqUdJKyVTMF29aNvNiGhZ2S",
+          "title": "bubble.io"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Bubble",
+    "domain": "bubble.io",
+    "description": "Bubble is a leading no-code platform that empowers users to create web, mobile, and AI-powered applications without the need for traditional coding skills. It enables businesses and individuals to develop functional applications efficiently, streamlining the app development process. Based in the tech industry, Bubble serves a global audience seeking innovative solutions in application development."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Bubble Group, Inc.",
+  "evidence": "Passage 0 explicitly identifies Bubble Group, Inc. as the vendor directly providing the Bubble software platform at bubble.io.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the **Bubble** software platform at **bubble.io** is **Bubble Group, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_BLhDFJj99WEFX3X0Gs2Ed3BSUhxtIzVOowRM2jCnH6X8X6NG7Cor0JMrN8FDq-W8B6L_dWvrWVHwMSp4FIqUdJKyVTMF29aNvNiGhZ2S",
+    "title": "bubble.io"
+  },
+  "checked_at": "2026-11-05T10:09:03.000610+00:00"
+}

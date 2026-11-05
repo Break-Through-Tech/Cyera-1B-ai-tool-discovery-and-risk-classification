@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The open-source framework and platform **AMP - Accelerated Mobile Pages** at **`amp.dev`** is provided and hosted by the **OpenJS Foundation** alongside **AMP Project contributors** (originally created and backed by Google, and later transitioned to open governance under the OpenJS Foundation).\n\n### Evidence & Citations\nFrom the official site footer across **`amp.dev`**:\n* **Provider / Copyright Statement:**  \n  > *\"© OpenJS Foundation and AMP Project contributors. All rights reserved. The OpenJS Foundation has registered trademarks and uses trademarks.\"*\n* **Related Services Notice:**  \n  > *\"The services available at cdn.ampproject.org are provided by Google and the respective privacy policy applies.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The open-source framework and platform **AMP - Accelerated Mobile Pages** at **`amp.dev`** is provided and hosted by the **OpenJS Foundation** alongside **AMP Project contributors** (originally created and backed by Google, and later transitioned to open governance under the OpenJS Foundation)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRyWb0Jh0HuKdioaKM2NCNH-nPEQz0o_Y5dnomRWJ-CQfKN71n9GzCyTP7mMCHnvwbuqvOUhfOSXlHQZ8vyNSRMo7p7PfJiTdAjSLuUGbmTKw2MZF1jEcP0ZeYGlcQ7D9NEpunZIojzSVkNfd7DOCjQ7MhCDsD7MsO66EPJ3Jxw1tAibGS6m33tCiyvdvvj8FHwzP71qk4BSlJZrBlKVKJ",
+          "title": "openjsf.org"
+        },
+        {
+          "id": 1,
+          "text": "The open-source framework and platform **AMP - Accelerated Mobile Pages** at **`amp.dev`** is provided and hosted by the **OpenJS Foundation** alongside **AMP Project contributors** (originally created and backed by Google, and later transitioned to open governance under the OpenJS Foundation)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvSziyC1udnOKAF3c8gwHdKzE4Hhr3mFpnw5MbX_RjzAtaMJwIfCJtT_HNX2pUJpe_ZJWYVYY9ZzfOorvTOxg9mVRLWRg57vcpzMl5i-C_YmQ=",
+          "title": "amp.dev"
+        },
+        {
+          "id": 2,
+          "text": "The open-source framework and platform **AMP - Accelerated Mobile Pages** at **`amp.dev`** is provided and hosted by the **OpenJS Foundation** alongside **AMP Project contributors** (originally created and backed by Google, and later transitioned to open governance under the OpenJS Foundation)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYELMYB36J-D6X9ymv0MpEDoJgVcM7axZNQ8-NRRqde3TX3ddUG0MwSIV5OWWqRpql-HyKqlyb5l3b3d_lrJ8vX294JpzLEkOPQJ5uuIva2iGc5T56Yx0ZsVyEgTSOeTWYqLHIt_extPtNw9s=",
+          "title": "wikipedia.org"
+        },
+        {
+          "id": 3,
+          "text": "From the official site footer across **`amp.dev`**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvSziyC1udnOKAF3c8gwHdKzE4Hhr3mFpnw5MbX_RjzAtaMJwIfCJtT_HNX2pUJpe_ZJWYVYY9ZzfOorvTOxg9mVRLWRg57vcpzMl5i-C_YmQ=",
+          "title": "amp.dev"
+        },
+        {
+          "id": 4,
+          "text": "he OpenJS Foundation has registered trademarks and uses trademarks.\"*\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvSziyC1udnOKAF3c8gwHdKzE4Hhr3mFpnw5MbX_RjzAtaMJwIfCJtT_HNX2pUJpe_ZJWYVYY9ZzfOorvTOxg9mVRLWRg57vcpzMl5i-C_YmQ=",
+          "title": "amp.dev"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "OpenJS Foundation",
+        "evidence": "The open-source framework and platform AMP - Accelerated Mobile Pages at amp.dev is provided and hosted by the OpenJS Foundation alongside AMP Project contributors.",
+        "source": {
+          "id": 1,
+          "text": "The open-source framework and platform **AMP - Accelerated Mobile Pages** at **`amp.dev`** is provided and hosted by the **OpenJS Foundation** alongside **AMP Project contributors** (originally created and backed by Google, and later transitioned to open governance under the OpenJS Foundation)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvSziyC1udnOKAF3c8gwHdKzE4Hhr3mFpnw5MbX_RjzAtaMJwIfCJtT_HNX2pUJpe_ZJWYVYY9ZzfOorvTOxg9mVRLWRg57vcpzMl5i-C_YmQ=",
+          "title": "amp.dev"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "AMP - Accelerated Mobile Pages",
+    "domain": "amp.dev",
+    "description": "AMP is a platform designed for publishers, e-commerce businesses, storytellers, advertisers, and email marketers, aimed at creating fast and engaging web experiences. It simplifies the development of websites, interactive stories, digital ads, and effective email campaigns."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "OpenJS Foundation",
+  "evidence": "The open-source framework and platform AMP - Accelerated Mobile Pages at amp.dev is provided and hosted by the OpenJS Foundation alongside AMP Project contributors.",
+  "source": {
+    "id": 1,
+    "text": "The open-source framework and platform **AMP - Accelerated Mobile Pages** at **`amp.dev`** is provided and hosted by the **OpenJS Foundation** alongside **AMP Project contributors** (originally created and backed by Google, and later transitioned to open governance under the OpenJS Foundation)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvSziyC1udnOKAF3c8gwHdKzE4Hhr3mFpnw5MbX_RjzAtaMJwIfCJtT_HNX2pUJpe_ZJWYVYY9ZzfOorvTOxg9mVRLWRg57vcpzMl5i-C_YmQ=",
+    "title": "amp.dev"
+  },
+  "checked_at": "2026-11-05T10:02:53.775740+00:00"
+}

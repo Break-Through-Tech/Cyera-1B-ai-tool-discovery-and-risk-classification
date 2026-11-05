@@ -1,0 +1,97 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Auth0** at **auth0.com** is **Okta, Inc.** (operating Auth0 through its wholly owned subsidiary **Auth0, LLC**).\n\n### Evidence and Provider Statements:\n* **Legal Agreements & Service Terms:** Under Okta's legal documentation covering the Auth0 platform (e.g., the *Okta, Inc. Auth0 Product Specific Schedule for Self Service Plans* and *Master Subscription Agreement*), subscriptions and services for the Auth0 platform at `auth0.com` are contracted with and provided directly by Okta:\n  > *\"This Self Service PSS is subject to the terms of the Okta Master Subscription Agreement ('Agreement')... solely with respect to a Customer's use of the Auth0 Platform... Customer agrees to pay Okta all fees set forth in Customer's Auth0 Platform dashboard located at https://manage.auth0.com/dashboard... executed by Customer and Okta.\"*\n* **Service Definition:** Okta's security and privacy documentation specifies that the service consists of *\"the Okta online services branded as Auth0 (collectively, the 'Service')\"* governed by Okta's Master Subscription Agreement.\n* **Privacy & Company Structure:** The official privacy and site notices across `auth0.com` confirm:\n  > *\"Auth0 (a product unit within Okta)\"* and *\"Auth0, LLC is wholly owned by Okta. Any references to Customer Identity Cloud are inclusive of Auth0 by Okta.\"*\n  All website pages and legal notices on `auth0.com` are copyrighted by **Okta, Inc.**.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Auth0** at **auth0.com** is **Okta, Inc.** (operating Auth0 through its wholly owned subsidiary **Auth0, LLC**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3J25qDJGHLNACU-P5_-1VFYSSSWaq_79q8aGCFT_4L0QXamVZ9uYSDyaBbbKaQSBJuijIylSidQrXyWmknzHEDeu2FZlHznMEM3VeWcgC",
+          "title": "auth0.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Auth0** at **auth0.com** is **Okta, Inc.** (operating Auth0 through its wholly owned subsidiary **Auth0, LLC**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDRHUhjtNe4k_JEsY4jYot_JeQYTIIIDfEPR6ddMPCDJfFUHILPg-SoL64TQgaSscUioRji8iS2-oevZ9oiP4QfC923ZOq0O4JKXd5cCQ6lJBL2w4s76dR4ax0QcmmSU-trqthcdmRTeM2QFUQQrfs3NUzD2aHTLqvfaRVLbvsUAKIMO-SJGcEdOwM1m-YbGDd",
+          "title": "okta.com"
+        },
+        {
+          "id": 2,
+          "text": "Customer agrees to pay Okta all fees set forth in Customer's Auth0 Platform dashboard located at https://manage.auth0.com/dashboard... executed by Customer and Okta.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5UiIMfDM68AOYK6hUWxn6KGPsa9G-Heh5ErDBDdqK4aguWhJ0X9g5SvN9d2lc6EglplJeYTga0tXuTD7AJvWJt8-8eVqwoBOSY94WYlo4UT48mwCZQRK7avHizHI_E7yL7lzn0EKIBhpnSneFSjJ3x7DbjU0TLUPHqWm4M1FAqzRU9uMhrvmFKa7lm06c",
+          "title": "okta.com"
+        },
+        {
+          "id": 3,
+          "text": "Customer agrees to pay Okta all fees set forth in Customer's Auth0 Platform dashboard located at https://manage.auth0.com/dashboard... executed by Customer and Okta.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDRHUhjtNe4k_JEsY4jYot_JeQYTIIIDfEPR6ddMPCDJfFUHILPg-SoL64TQgaSscUioRji8iS2-oevZ9oiP4QfC923ZOq0O4JKXd5cCQ6lJBL2w4s76dR4ax0QcmmSU-trqthcdmRTeM2QFUQQrfs3NUzD2aHTLqvfaRVLbvsUAKIMO-SJGcEdOwM1m-YbGDd",
+          "title": "okta.com"
+        },
+        {
+          "id": 4,
+          "text": "**Service Definition:** Okta's security and privacy documentation specifies that the service consists of *\"the Okta online services branded as Auth0 (collectively, the 'Service')\"* governed by Okta's Master Subscription Agreement",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECeD4x5Wn_Jo-iUPDP6YjU8AdYNxs0CEJNFDo7lw-9jCmbKi-hervAcoRyAVfEjf4FGpTV9SO4P-OhK47Q3LUPLnYsFYP4z6_bfk_1iWbC4haGBFmfDGmj9CSx0WrinSayxa1WXqOkNtlUabo4MRVWPi9G6ubAm0Gh32kqX0cpnOZqOXu7mvtggaqV",
+          "title": "okta.com"
+        },
+        {
+          "id": 5,
+          "text": "*\"Auth0 (a product unit within Okta)\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3y1PHu9K4NzbXETyXJgzLgWjgMLUzgmz1pQrVk5wiP_gHP4SSVXlIK0E9npxiOKcWSPvC43eSRzVGNpwWAFRomty54X5d5ir8Vq8KeJ68MHt6",
+          "title": "auth0.com"
+        },
+        {
+          "id": 6,
+          "text": "Any references to Customer Identity Cloud are inclusive of Auth0 by Okta.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3J25qDJGHLNACU-P5_-1VFYSSSWaq_79q8aGCFT_4L0QXamVZ9uYSDyaBbbKaQSBJuijIylSidQrXyWmknzHEDeu2FZlHznMEM3VeWcgC",
+          "title": "auth0.com"
+        },
+        {
+          "id": 7,
+          "text": "All website pages and legal notices on `auth0.com` are copyrighted by **Okta, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGR9V7NMaV-omh7qneLYW2ZqAtbFhMz_Y_i5MMw094dS_Nf9exCgtd7Xq9v8w3HJ2Vsq2z7NvMg5t9qwARyAcKCsNGL9O3vTEJA2cgxAq3ZQEyOt0Wyw6vB_ZA319nuSLd_w7CM2YV1avtkxZN7gPglK5MWt1KCsTVLZu2UeiVajsFh7sRsHsvFI4nCyqvF66-BGpiiFqogZMBM-CYjquuj5YgEyD2lh6Qr",
+          "title": "auth0.com"
+        },
+        {
+          "id": 8,
+          "text": "All website pages and legal notices on `auth0.com` are copyrighted by **Okta, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUmTa3OA7oJy1ASmd479rg6jy9hJWEU5VwHeZopaIBXFVR1qmV-ym41FkGJsv4W5QwSs9_dDzN6RpCihp4P628VzYjeODKzedxfHxbE5kdY9HVgAJvYHOEG42KfOw58UR6Rt369gdyxc1w3FLT",
+          "title": "auth0.com"
+        },
+        {
+          "id": 9,
+          "text": "All website pages and legal notices on `auth0.com` are copyrighted by **Okta, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYgAzZU8w9yIO2mXPwTyX5-80jcNxwePlXeV33XKNj4_txLkLdYP2uJ82mh1cC7SehZqd5zqDAzRp2bOgwJXJHKC4aoU99EBsELHmmwbJDDm4nGRzTCffgBlJqRXGG3DNA8k76817pHcdKdXbO",
+          "title": "auth0.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Okta, Inc.",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing Auth0 at auth0.com is Okta, Inc. (operating Auth0 through its wholly owned subsidiary Auth0, LLC).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Auth0** at **auth0.com** is **Okta, Inc.** (operating Auth0 through its wholly owned subsidiary **Auth0, LLC**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3J25qDJGHLNACU-P5_-1VFYSSSWaq_79q8aGCFT_4L0QXamVZ9uYSDyaBbbKaQSBJuijIylSidQrXyWmknzHEDeu2FZlHznMEM3VeWcgC",
+          "title": "auth0.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Auth0",
+    "domain": "auth0.com",
+    "description": "Auth0, a subsidiary of Okta, offers a comprehensive identity platform that helps organizations provide secure access to applications for users. It caters to the needs of development teams by being both simple and highly customizable. Handling billions of login transactions monthly, Auth0 emphasizes convenience, privacy, and security, allowing customers to prioritize innovation without compromising on user safety."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Okta, Inc.",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing Auth0 at auth0.com is Okta, Inc. (operating Auth0 through its wholly owned subsidiary Auth0, LLC).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Auth0** at **auth0.com** is **Okta, Inc.** (operating Auth0 through its wholly owned subsidiary **Auth0, LLC**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3J25qDJGHLNACU-P5_-1VFYSSSWaq_79q8aGCFT_4L0QXamVZ9uYSDyaBbbKaQSBJuijIylSidQrXyWmknzHEDeu2FZlHznMEM3VeWcgC",
+    "title": "auth0.com"
+  },
+  "checked_at": "2026-11-05T09:43:30.284863+00:00"
+}

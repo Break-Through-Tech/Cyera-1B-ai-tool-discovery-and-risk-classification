@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **Harvest** at the domain **getharvest.com** is directly provided and operated by **Bending Spoons Operations S.p.A.** (with its U.S. operating affiliate **Bending Spoons US Inc.**), following its acquisition from original developer **Iridesco LLC** (d/b/a Harvest).\n\n### Official Provider Statements:\n* **Terms of Service (`getharvest.com/terms`):** \n  * *“‘We,’ ‘our,’ or ‘us’ means Bending Spoons Operations S.p.A., with offices at Via Nino Bonnet 10, 20154 Milan, Italy... Bending Spoons Operations S.p.A. is a sole shareholder company subject to the management and coordination of Bending Spoons S.p.A.”*\n  * *“‘We,’ ‘our,’ or ‘us,’ means Bending Spoons US Inc., a Delaware corporation, our Affiliates, and subsidiaries.”*\n* **Website Footer (`getharvest.com`):** \n  * *“© Bending Spoons Operations S.p.A.”*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5zswYwXmn67xWuwXC-tGPBt6mR_-U8zenZp3-f59cFV1LdArNT1hl-PsSei7yVmDwjXX4ey_Ku9Dlqopj4BV1seHa_mwgUpPMf7-L9locf0vPrBpNGgHruucWm5-ad5dP",
+          "title": "getharvest.com"
+        },
+        {
+          "id": 1,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDfYNUvcz-1jja2dZXSU5E3YBbSJW0ch4j1MUq8vK8gF3EY20hBgDH79gjgzcc3rg_RB8L_1tAnKbxPMemsNOd5WJC4FBsYL4_fRFTOHFfLg6i9_nhFp04WZYWme0Zk0GdphS2CJTQkSrmo8I=",
+          "title": "getharvest.com"
+        },
+        {
+          "id": 2,
+          "text": "The software product **Harvest** at the domain **getharvest.com** is directly provided and operated by **Bending Spoons Operations S.p.A.** (with its U.S. operating affiliate **Bending Spoons US Inc.**), following its acquisition from original developer **Iridesco LLC** (d/b/a Harvest)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6zHweAq5xHYFySwBxax3GgOmDOX3Ke1WSGOgcKtvlq32VIzVB_WUfd0UwoxQfzL4z3e4fnu_ffoaf6YePELblKPVNAR96r9AbGabj1v_73NR26y3ofckPuJAYQaFnYeTy4fQY3LyXKRfNceg=",
+          "title": "getharvest.com"
+        },
+        {
+          "id": 3,
+          "text": "The software product **Harvest** at the domain **getharvest.com** is directly provided and operated by **Bending Spoons Operations S.p.A.** (with its U.S. operating affiliate **Bending Spoons US Inc.**), following its acquisition from original developer **Iridesco LLC** (d/b/a Harvest)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJrGXC2Qm7RugPIURM1QcCCYaP4Mhk1so0QN4uqYITd5Xmqe1_13PabGL5GoL-xNiobplpyRIrftIhbmrWNNJWn1cozV2nqXFbYZSCkxAt6Ip9CXCTsFqzIGMfWWuXcONv9M0EWaQ=",
+          "title": "wikipedia.org"
+        },
+        {
+          "id": 4,
+          "text": " Operations S.p.A. is a sole shareholder company subject to the management and coordination of Bending Spoons S.p.A.”*\n  * *“‘We,’ ‘ou",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5zswYwXmn67xWuwXC-tGPBt6mR_-U8zenZp3-f59cFV1LdArNT1hl-PsSei7yVmDwjXX4ey_Ku9Dlqopj4BV1seHa_mwgUpPMf7-L9locf0vPrBpNGgHruucWm5-ad5dP",
+          "title": "getharvest.com"
+        },
+        {
+          "id": 5,
+          "text": "r ‘us,’ means Bending Spoons US Inc., a Delaware corporation, our Affiliates, and subsidiaries.”*\n* **Website Footer (`getharvest",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDfYNUvcz-1jja2dZXSU5E3YBbSJW0ch4j1MUq8vK8gF3EY20hBgDH79gjgzcc3rg_RB8L_1tAnKbxPMemsNOd5WJC4FBsYL4_fRFTOHFfLg6i9_nhFp04WZYWme0Zk0GdphS2CJTQkSrmo8I=",
+          "title": "getharvest.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Bending Spoons Operations S.p.A.",
+        "evidence": "Passage 2 directly states that the software product Harvest at the domain getharvest.com is directly provided and operated by Bending Spoons Operations S.p.A.",
+        "source": {
+          "id": 2,
+          "text": "The software product **Harvest** at the domain **getharvest.com** is directly provided and operated by **Bending Spoons Operations S.p.A.** (with its U.S. operating affiliate **Bending Spoons US Inc.**), following its acquisition from original developer **Iridesco LLC** (d/b/a Harvest)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6zHweAq5xHYFySwBxax3GgOmDOX3Ke1WSGOgcKtvlq32VIzVB_WUfd0UwoxQfzL4z3e4fnu_ffoaf6YePELblKPVNAR96r9AbGabj1v_73NR26y3ofckPuJAYQaFnYeTy4fQY3LyXKRfNceg=",
+          "title": "getharvest.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Harvest",
+    "domain": "getharvest.com",
+    "description": "Harvest is a leading software company that provides tools designed to help businesses effectively manage their time. Founded in 2006 by two small business owners in New York City, Harvest has transformed from a solution for their own web design agency into a platform embraced by numerous professional services firms globally. The company values customer-centric practices, operating independently without external investors, prioritizing excellence, and collaboration among its diverse workforce spread across nine countries. Harvest's software supports businesses in planning, tracking, and understanding team productivity."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Bending Spoons Operations S.p.A.",
+  "evidence": "Passage 2 directly states that the software product Harvest at the domain getharvest.com is directly provided and operated by Bending Spoons Operations S.p.A.",
+  "source": {
+    "id": 2,
+    "text": "The software product **Harvest** at the domain **getharvest.com** is directly provided and operated by **Bending Spoons Operations S.p.A.** (with its U.S. operating affiliate **Bending Spoons US Inc.**), following its acquisition from original developer **Iridesco LLC** (d/b/a Harvest)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6zHweAq5xHYFySwBxax3GgOmDOX3Ke1WSGOgcKtvlq32VIzVB_WUfd0UwoxQfzL4z3e4fnu_ffoaf6YePELblKPVNAR96r9AbGabj1v_73NR26y3ofckPuJAYQaFnYeTy4fQY3LyXKRfNceg=",
+    "title": "getharvest.com"
+  },
+  "checked_at": "2026-11-05T09:28:22.567654+00:00"
+}

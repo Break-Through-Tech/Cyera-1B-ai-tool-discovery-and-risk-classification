@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor providing **Octocom** at **octocom.ai** is **Octocom LTD** (doing business as **Octocom**).\n\n### Provider Statement\nAccording to the Terms of Service for `octocom.ai`:\n> *\"We are Octocom LTD, doing business as Octocom ('Company,' 'we,' 'us,' 'our'). We operate the website https://octocom.ai (the 'Site'), as well as any other related products and services that refer or link to these legal terms...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor providing **Octocom** at **octocom.ai** is **Octocom LTD** (doing business as **Octocom**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGprrGcZB8VXiPJvZ14bWVuipCGeh6UxVppR2WOMYQgHLUP1LTcZeVfHtFBZIVTJMlE0lnpvF07T4hcPhygwUImSbFS1-yJc3toWb8iZ3MdLspI",
+          "title": "octocom.ai"
+        },
+        {
+          "id": 1,
+          "text": "The vendor providing **Octocom** at **octocom.ai** is **Octocom LTD** (doing business as **Octocom**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGG8Ux5I5ccmRnpmf9LcVPWJQid8C8coOCuPzIyxB5COTp_JmvyFNxQjXQYkKM9qPdYWq9UgnHTZIO9Otw79M-wQg_O15pphTEvkuy9gIDwBB7NrBk=",
+          "title": "octocom.ai"
+        },
+        {
+          "id": 2,
+          "text": "We operate the website https://octocom.ai (the 'Site'), as well as any other related products and services that refer or link to these legal terms...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGprrGcZB8VXiPJvZ14bWVuipCGeh6UxVppR2WOMYQgHLUP1LTcZeVfHtFBZIVTJMlE0lnpvF07T4hcPhygwUImSbFS1-yJc3toWb8iZ3MdLspI",
+          "title": "octocom.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Octocom LTD",
+        "evidence": "Passage 0 directly states that the vendor providing Octocom at octocom.ai is Octocom LTD (doing business as Octocom).",
+        "source": {
+          "id": 0,
+          "text": "The vendor providing **Octocom** at **octocom.ai** is **Octocom LTD** (doing business as **Octocom**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGprrGcZB8VXiPJvZ14bWVuipCGeh6UxVppR2WOMYQgHLUP1LTcZeVfHtFBZIVTJMlE0lnpvF07T4hcPhygwUImSbFS1-yJc3toWb8iZ3MdLspI",
+          "title": "octocom.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Octocom",
+    "domain": "octocom.ai",
+    "description": "Boost conversion rates with GPT-powered chatbots optimized for eCommerce."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Octocom LTD",
+  "evidence": "Passage 0 directly states that the vendor providing Octocom at octocom.ai is Octocom LTD (doing business as Octocom).",
+  "source": {
+    "id": 0,
+    "text": "The vendor providing **Octocom** at **octocom.ai** is **Octocom LTD** (doing business as **Octocom**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGprrGcZB8VXiPJvZ14bWVuipCGeh6UxVppR2WOMYQgHLUP1LTcZeVfHtFBZIVTJMlE0lnpvF07T4hcPhygwUImSbFS1-yJc3toWb8iZ3MdLspI",
+    "title": "octocom.ai"
+  },
+  "checked_at": "2026-11-05T05:41:01.007351+00:00"
+}

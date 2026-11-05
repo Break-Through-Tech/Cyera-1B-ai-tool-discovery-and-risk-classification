@@ -1,0 +1,85 @@
+{
+  "attempts": [
+    {
+      "answer": "For the software product **Atticus** at **askatticus.ai**, the product was directly created and provided by developer/founder **Darlin Alberto** (operating under the project/provider brand **Atticus AI**):\n\n* **Product & Domain:** Atticus / Atticus AI at `askatticus.ai` (contract analysis and negotiation tool).\n* **Developer/Provider Evidence:**\n  * In the official product launch announcement on Hacker News, creator Darlin Alberto stated: *\"My name is Darlin and along with @controtie we've been working on an app to make contract negotiations easier for consultants, freelancers and other individuals... At Atticus AI, we're on a mission to make legal understanding more [accessible]\"*.\n  * The Vercel AI Accelerator directory identifies the builder directly: *\"Darlin Alberto – Building Atticus, LLMs to help everyday people increase their understanding of legal contracts\"*.\n  * Professional bios and his presentation (*\"Startup Lessons from Building an AI Legal Assistant | Darlin Alberto\"*) document Alberto as the builder and co-founder of Atticus AI.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "For the software product **Atticus** at **askatticus.ai**, the product was directly created and provided by developer/founder **Darlin Alberto** (operating under the project/provider brand **Atticus AI**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpOOohXhLR2xN6Ar3O3Bw7bb4aY2aU1AkFNOeugwMpm5cI2ydAQHn3Wc3Bx2DdjzuV8u8y0UcAi5TUgyPIKYBz1F1e5qRnfUl-FApGRVFCvttGdgMv0ddumjDW6fZTF7A5SA==",
+          "title": "ycombinator.com"
+        },
+        {
+          "id": 1,
+          "text": "For the software product **Atticus** at **askatticus.ai**, the product was directly created and provided by developer/founder **Darlin Alberto** (operating under the project/provider brand **Atticus AI**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxIkf7Fx711YN9VYEFPCLQuNZ7Ca0M02S-2JSQn8A2fbY1JkHWFzSMT3FQ0WsUvP9VXvjcO09-JXbS0cRkUhSiEWA2CI-khkAUmaHSIgIU6SV4dKhNEpNwuh4oEyvuXdL8Dw==",
+          "title": "ycombinator.com"
+        },
+        {
+          "id": 2,
+          "text": "For the software product **Atticus** at **askatticus.ai**, the product was directly created and provided by developer/founder **Darlin Alberto** (operating under the project/provider brand **Atticus AI**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0tCrr2Aev9tItEEqk6msjmAD0SZbl4wO_4h2vW4XvAxI1EDeXzfNpso65yLVtBHf2wrKRXVZ1NNe7UJLXnIuqCrpNfVllT5DEAri7-w==",
+          "title": "vibeshift.camp"
+        },
+        {
+          "id": 3,
+          "text": "**Product & Domain:** Atticus / Atticus AI at `askatticus.ai` (contract analysis and negotiation tool)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxIkf7Fx711YN9VYEFPCLQuNZ7Ca0M02S-2JSQn8A2fbY1JkHWFzSMT3FQ0WsUvP9VXvjcO09-JXbS0cRkUhSiEWA2CI-khkAUmaHSIgIU6SV4dKhNEpNwuh4oEyvuXdL8Dw==",
+          "title": "ycombinator.com"
+        },
+        {
+          "id": 4,
+          "text": "**Product & Domain:** Atticus / Atticus AI at `askatticus.ai` (contract analysis and negotiation tool)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0tCrr2Aev9tItEEqk6msjmAD0SZbl4wO_4h2vW4XvAxI1EDeXzfNpso65yLVtBHf2wrKRXVZ1NNe7UJLXnIuqCrpNfVllT5DEAri7-w==",
+          "title": "vibeshift.camp"
+        },
+        {
+          "id": 5,
+          "text": "At Atticus AI, we're on a mission to make legal understanding more [accessible]\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpOOohXhLR2xN6Ar3O3Bw7bb4aY2aU1AkFNOeugwMpm5cI2ydAQHn3Wc3Bx2DdjzuV8u8y0UcAi5TUgyPIKYBz1F1e5qRnfUl-FApGRVFCvttGdgMv0ddumjDW6fZTF7A5SA==",
+          "title": "ycombinator.com"
+        },
+        {
+          "id": 6,
+          "text": "At Atticus AI, we're on a mission to make legal understanding more [accessible]\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxIkf7Fx711YN9VYEFPCLQuNZ7Ca0M02S-2JSQn8A2fbY1JkHWFzSMT3FQ0WsUvP9VXvjcO09-JXbS0cRkUhSiEWA2CI-khkAUmaHSIgIU6SV4dKhNEpNwuh4oEyvuXdL8Dw==",
+          "title": "ycombinator.com"
+        },
+        {
+          "id": 7,
+          "text": "The Vercel AI Accelerator directory identifies the builder directly: *\"Darlin Alberto – Building Atticus, LLMs to help everyday people increase their understanding of legal contracts\"*.\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUx4z8gjU0asqwSvBsQqwPtEVHC1Ho4P3Rw_6UXxryhGgnFf5i01O_mCXvvRg4WEO7zrH_sU5-Z8t4E88NTewHo2DivYSRVQVQonEncbTg5QkQJLj1w1a844vdPLxOTrrMceUm5cxrmdM=",
+          "title": "vercel.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Darlin Alberto",
+        "evidence": "Passage 0 states that the software product Atticus at askatticus.ai was directly created and provided by developer/founder Darlin Alberto operating under the project/provider brand Atticus AI.",
+        "source": {
+          "id": 0,
+          "text": "For the software product **Atticus** at **askatticus.ai**, the product was directly created and provided by developer/founder **Darlin Alberto** (operating under the project/provider brand **Atticus AI**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpOOohXhLR2xN6Ar3O3Bw7bb4aY2aU1AkFNOeugwMpm5cI2ydAQHn3Wc3Bx2DdjzuV8u8y0UcAi5TUgyPIKYBz1F1e5qRnfUl-FApGRVFCvttGdgMv0ddumjDW6fZTF7A5SA==",
+          "title": "ycombinator.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Atticus",
+    "domain": "askatticus.ai",
+    "description": "Contract analysis w/ feedback & negotiation suggestions."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Darlin Alberto",
+  "evidence": "Passage 0 states that the software product Atticus at askatticus.ai was directly created and provided by developer/founder Darlin Alberto operating under the project/provider brand Atticus AI.",
+  "source": {
+    "id": 0,
+    "text": "For the software product **Atticus** at **askatticus.ai**, the product was directly created and provided by developer/founder **Darlin Alberto** (operating under the project/provider brand **Atticus AI**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpOOohXhLR2xN6Ar3O3Bw7bb4aY2aU1AkFNOeugwMpm5cI2ydAQHn3Wc3Bx2DdjzuV8u8y0UcAi5TUgyPIKYBz1F1e5qRnfUl-FApGRVFCvttGdgMv0ddumjDW6fZTF7A5SA==",
+    "title": "ycombinator.com"
+  },
+  "checked_at": "2026-11-05T05:43:57.757896+00:00"
+}

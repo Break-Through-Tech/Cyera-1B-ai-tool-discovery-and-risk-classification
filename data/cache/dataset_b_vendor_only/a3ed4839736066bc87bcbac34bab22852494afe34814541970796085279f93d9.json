@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **OpenCart** at **opencart.com** is **OpenCart Limited** (founded and led by developer **Daniel Kerr**).\n\n### Evidence & Provider Statements:\n* **Operating Company:** On the official contact page for `opencart.com`, the office is listed under the legal company name:  \n  > *\"OpenCart Limited, Unit G 2/F Tower 2 Avignon, 1 Kwun Chui Road, So Kwan Wat, Tuen Mun, Hong Kong.\"*\n* **Company History:** The official Company page notes under June 2012: *\"Registered OpenCart as an business in Hong Kong,\"* with Daniel Kerr listed as creator/lead of the team.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **OpenCart** at **opencart.com** is **OpenCart Limited**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4SsokfduqZM4-aij7dASCfdLmRZ4xuf2bHPwrMBL8PoSSF5txj3NQ854SFN1g_D7p-i8Mv_TQwTADBISu9F-g_FPwcZpkAldowF7XanxrQ8NLqCIltITGCkO6ToyPo5IPredOfUQhkHB4P1B6RA==",
+          "title": "opencart.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **OpenCart** at **opencart.com** is **OpenCart Limited** (founded and led by developer **Daniel Kerr**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdkAczeMgsVyg0xbdTkpvXvdnVpBJL7fmBh1k7063Mrr_IHXik9zzzKSjCS2aus4iyNOepkLUDAwnweox24UVviY1Z7W55Dd13_9-2x3CgPd_p33JahJoSae1Y5PY2a0M4GaCBzbUpb17F",
+          "title": "opencart.com"
+        },
+        {
+          "id": 2,
+          "text": "The vendor directly providing **OpenCart** at **opencart.com** is **OpenCart Limited** (founded and led by developer **Daniel Kerr**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhj5ZZmUrhz5j3e_51Lnuzpcymr9uUk7M_yKTHdnB11x7-H7yFsauI379WK3RuktyTl4_LpwZJdJO0hB31BNlwm-O__TbHa0EdNo9oDQVKtoJMR5UXWVkvC2Kk4QNirNmdQIcUnTbTdIw=",
+          "title": "get.store"
+        },
+        {
+          "id": 3,
+          "text": "*\"OpenCart Limited, Unit G 2/F Tower 2 Avignon, 1 Kwun Chui Road, So Kwan Wat, Tuen Mun, Hong Kong.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4SsokfduqZM4-aij7dASCfdLmRZ4xuf2bHPwrMBL8PoSSF5txj3NQ854SFN1g_D7p-i8Mv_TQwTADBISu9F-g_FPwcZpkAldowF7XanxrQ8NLqCIltITGCkO6ToyPo5IPredOfUQhkHB4P1B6RA==",
+          "title": "opencart.com"
+        },
+        {
+          "id": 4,
+          "text": "**Company History:** The official Company page notes under June 2012: *\"Registered OpenCart as an business in Hong Kong,\"* with Daniel Kerr listed as creator/lead of the team",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdkAczeMgsVyg0xbdTkpvXvdnVpBJL7fmBh1k7063Mrr_IHXik9zzzKSjCS2aus4iyNOepkLUDAwnweox24UVviY1Z7W55Dd13_9-2x3CgPd_p33JahJoSae1Y5PY2a0M4GaCBzbUpb17F",
+          "title": "opencart.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "OpenCart Limited",
+        "evidence": "The vendor directly providing OpenCart at opencart.com is OpenCart Limited.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **OpenCart** at **opencart.com** is **OpenCart Limited**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4SsokfduqZM4-aij7dASCfdLmRZ4xuf2bHPwrMBL8PoSSF5txj3NQ854SFN1g_D7p-i8Mv_TQwTADBISu9F-g_FPwcZpkAldowF7XanxrQ8NLqCIltITGCkO6ToyPo5IPredOfUQhkHB4P1B6RA==",
+          "title": "opencart.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "OpenCart",
+    "domain": "opencart.com",
+    "description": "OpenCart is a powerful online store management software that enables users to manage multiple online stores from a single interface. Catering to a diverse range of users, from web developers to first-time online entrepreneurs, OpenCart offers extensive customization options and tools to optimize the performance of online shops. With over 900,000 active websites in 138 countries contributing to more than $1 billion in economic activity, OpenCart continues to grow, providing thousands of plugins to enhance online business capabilities."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "OpenCart Limited",
+  "evidence": "The vendor directly providing OpenCart at opencart.com is OpenCart Limited.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **OpenCart** at **opencart.com** is **OpenCart Limited**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4SsokfduqZM4-aij7dASCfdLmRZ4xuf2bHPwrMBL8PoSSF5txj3NQ854SFN1g_D7p-i8Mv_TQwTADBISu9F-g_FPwcZpkAldowF7XanxrQ8NLqCIltITGCkO6ToyPo5IPredOfUQhkHB4P1B6RA==",
+    "title": "opencart.com"
+  },
+  "checked_at": "2026-11-05T08:15:56.371285+00:00"
+}

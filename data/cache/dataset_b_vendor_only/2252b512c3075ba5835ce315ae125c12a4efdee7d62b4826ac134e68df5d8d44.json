@@ -1,0 +1,103 @@
+{
+  "attempts": [
+    {
+      "answer": "### Direct Provider and Vendor\n\n* **Operating Company:** **UglyRobot, LLC**\n* **Published Developer / Founder:** **Aaron Edwards**\n* **Provider Brand:** **Imajinn AI**\n\n---\n\n### Evidence & Provider Statements\n\n* **Target Product & Domain:** **Imajinn.ai** (`imajinn.ai`), including its suite of visualization tools such as the AI Couple Portrait Canvas (`imajinn.ai/couples`), AI Photobooth, and Product Visualizer.\n* **Company & Developer Attributions:**\n  * Software developer and founder Aaron Edwards lists **Imajinn AI** (`imajinn.ai`) under his software company and personal portfolio (**UglyRobot** / `uglyrobot.dev`), explicitly identifying his role as Founder/CEO.\n  * Legal and network disclosures across UglyRobot's web properties list **Imajinn AI** and its tools (including *\"Printed AI Couples Portraits\"*, *\"AI Photobooth\"*, and *\"Product Photo Visualizer\"*) as products of the company under the copyright statement:  \n    > *\"© UglyRobot, LLC. All rights reserved.\"*\n  * Directly on `imajinn.ai` and its product pages (such as the Couple Portrait Canvas page), the footer displays the brand copyright notice:  \n    > *\"Copyright © 2026 Imajinn AI. All rights reserved.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**Operating Company:** **UglyRobot, LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEORNT0i2ppuBH9_J59rdgG5u7Y-fGB-_llF1CiGIWH3o59tiYtw2ywGn_uWHb0-soAbD_N4dncgf8pro32yhJO5QGTXbSD15k8d4eMilsZacPdRAvHILKmQZz7tOhOYC02GDIXudxQ_6xuNQlfGAQUgbbil-Ag59EjHjJPqnZvLVqlmfZhnSJDXhUUBvNXF57Z4w==",
+          "title": "wptavern.com"
+        },
+        {
+          "id": 1,
+          "text": "**Operating Company:** **UglyRobot, LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzTV7iybVL3JfPEFkmyGMPc0f6qyL9cbVG7lhOG-VHIbaricS9xAS56mGta0h-vkW8hZBuLMLVKBSL_amJCQloYcwk6i65kSTI",
+          "title": "wpdocs.chat"
+        },
+        {
+          "id": 2,
+          "text": "**Published Developer / Founder:** **Aaron Edwards**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3pPrK2Nx15GK3wx7DhhSVYbeiGTWpNoh56tZ_61TRXUMpIes8pbxnl1yMfmbxpyGlt3akgsIyHQvkAHn9_DOgcNV-SGgN0ObFxalM",
+          "title": "uglyrobot.dev"
+        },
+        {
+          "id": 3,
+          "text": "**Published Developer / Founder:** **Aaron Edwards**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEORNT0i2ppuBH9_J59rdgG5u7Y-fGB-_llF1CiGIWH3o59tiYtw2ywGn_uWHb0-soAbD_N4dncgf8pro32yhJO5QGTXbSD15k8d4eMilsZacPdRAvHILKmQZz7tOhOYC02GDIXudxQ_6xuNQlfGAQUgbbil-Ag59EjHjJPqnZvLVqlmfZhnSJDXhUUBvNXF57Z4w==",
+          "title": "wptavern.com"
+        },
+        {
+          "id": 4,
+          "text": "**Provider Brand:** **Imajinn AI**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHK7YkoK02xEyXXW31YsKih03HXdsoomE4ff40seln_nNVzj_Kufkrhi-0AMb59YDXNozQVQfA1fVHnfdyjEW1w69jCjaGcv-lJ",
+          "title": "imajinn.ai"
+        },
+        {
+          "id": 5,
+          "text": "**Provider Brand:** **Imajinn AI**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3pPrK2Nx15GK3wx7DhhSVYbeiGTWpNoh56tZ_61TRXUMpIes8pbxnl1yMfmbxpyGlt3akgsIyHQvkAHn9_DOgcNV-SGgN0ObFxalM",
+          "title": "uglyrobot.dev"
+        },
+        {
+          "id": 6,
+          "text": "**Target Product & Domain:** **Imajinn.ai** (`imajinn.ai`), including its suite of visualization tools such as the AI Couple Portrait Canvas (`imajinn.ai/couples`), AI Photobooth, and Product Visualizer",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmdcj9CyGWVNF-UiL99kauP43OA2PrsSbo8T56nx1AHimiwBo-pcNtAxxHjdW_iYTnM206aNG63R-BVqq7WX7Ld9Bkt8DQ_WfMFh5cKxjpNP0=",
+          "title": "imajinn.ai"
+        },
+        {
+          "id": 7,
+          "text": "Software developer and founder Aaron Edwards lists **Imajinn AI** (`imajinn.ai`) under his software company and personal portfolio (**UglyRobot** / `uglyrobot.dev`), explicitly identifying his role as Founder/CEO",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3pPrK2Nx15GK3wx7DhhSVYbeiGTWpNoh56tZ_61TRXUMpIes8pbxnl1yMfmbxpyGlt3akgsIyHQvkAHn9_DOgcNV-SGgN0ObFxalM",
+          "title": "uglyrobot.dev"
+        },
+        {
+          "id": 8,
+          "text": "Software developer and founder Aaron Edwards lists **Imajinn AI** (`imajinn.ai`) under his software company and personal portfolio (**UglyRobot** / `uglyrobot.dev`), explicitly identifying his role as Founder/CEO",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAGTDiaEGe6NabsXBj1ZkCxudlLpQiGgNAC1jBGPU-ekQu60lL2rrfNKmkK7y7-puS-A9teQOzKbqnga2sPxFNQQYrhcspCNgRRYLYdM3z8iE=",
+          "title": "uglyrobot.dev"
+        },
+        {
+          "id": 9,
+          "text": "ll rights reserved.\"*\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGBdjCI1WzUEShllWmrGOuggIGsSz01MotrVKt4bnISoa0Ezd-jk7Ayn_drhL2JbPPtCJ_e7_8bfL5V73MyPQzkJgD3j1hBLw=",
+          "title": "docsbot.ai"
+        },
+        {
+          "id": 10,
+          "text": "ll rights reserved.\"*\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzTV7iybVL3JfPEFkmyGMPc0f6qyL9cbVG7lhOG-VHIbaricS9xAS56mGta0h-vkW8hZBuLMLVKBSL_amJCQloYcwk6i65kSTI",
+          "title": "wpdocs.chat"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "UglyRobot",
+        "evidence": "Passage 7 confirms that founder and software developer Aaron Edwards lists Imajinn AI (imajinn.ai) under his software company and personal portfolio, UglyRobot.",
+        "source": {
+          "id": 7,
+          "text": "Software developer and founder Aaron Edwards lists **Imajinn AI** (`imajinn.ai`) under his software company and personal portfolio (**UglyRobot** / `uglyrobot.dev`), explicitly identifying his role as Founder/CEO",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3pPrK2Nx15GK3wx7DhhSVYbeiGTWpNoh56tZ_61TRXUMpIes8pbxnl1yMfmbxpyGlt3akgsIyHQvkAHn9_DOgcNV-SGgN0ObFxalM",
+          "title": "uglyrobot.dev"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Imajinn.ai",
+    "domain": "imajinn.ai",
+    "description": "Imajinn AIP's AI Couple Portrait Canvas is a one-of-a-kind and romantic way to immortalize your love."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "UglyRobot",
+  "evidence": "Passage 7 confirms that founder and software developer Aaron Edwards lists Imajinn AI (imajinn.ai) under his software company and personal portfolio, UglyRobot.",
+  "source": {
+    "id": 7,
+    "text": "Software developer and founder Aaron Edwards lists **Imajinn AI** (`imajinn.ai`) under his software company and personal portfolio (**UglyRobot** / `uglyrobot.dev`), explicitly identifying his role as Founder/CEO",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3pPrK2Nx15GK3wx7DhhSVYbeiGTWpNoh56tZ_61TRXUMpIes8pbxnl1yMfmbxpyGlt3akgsIyHQvkAHn9_DOgcNV-SGgN0ObFxalM",
+    "title": "uglyrobot.dev"
+  },
+  "checked_at": "2026-11-05T07:30:36.951273+00:00"
+}

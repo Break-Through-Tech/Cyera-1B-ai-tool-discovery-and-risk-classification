@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **Double** software product at **usedouble.com** is **Double Technologies, Inc.**.\n\n### Evidence:\n* The official website footer for **Double** at **usedouble.com** directly states the operating entity: \n  > *\"© Double Technologies, Inc.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **Double** software product at **usedouble.com** is **Double Technologies, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlYA_i9wlnQutQVqG6siyH3YXEfIiB2pxsdHnJpForL2vqHP8GAYwz9dF9U2z1RJgxI_fhRh-yrPmjb681NV2InH2gVMsGU_3bS65W7Qj4",
+          "title": "usedouble.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the **Double** software product at **usedouble.com** is **Double Technologies, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLtl-dx3fQwIlXqzupXmhs-Jw9DaoxCPhy001aFJhvik0TBiDyq00ENnw_V7KAoIGh62TqZgVRRiHGALC9qE5_SdPMsE1OCx4hQ8o9laPf5A==",
+          "title": "usedouble.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Double Technologies, Inc.",
+        "evidence": "Passage 0 directly states that the vendor providing the Double software product at usedouble.com is Double Technologies, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the **Double** software product at **usedouble.com** is **Double Technologies, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlYA_i9wlnQutQVqG6siyH3YXEfIiB2pxsdHnJpForL2vqHP8GAYwz9dF9U2z1RJgxI_fhRh-yrPmjb681NV2InH2gVMsGU_3bS65W7Qj4",
+          "title": "usedouble.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Double",
+    "domain": "usedouble.com",
+    "description": "Find and convert leads with hyper-targeted messages using AI"
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Double Technologies, Inc.",
+  "evidence": "Passage 0 directly states that the vendor providing the Double software product at usedouble.com is Double Technologies, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the **Double** software product at **usedouble.com** is **Double Technologies, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlYA_i9wlnQutQVqG6siyH3YXEfIiB2pxsdHnJpForL2vqHP8GAYwz9dF9U2z1RJgxI_fhRh-yrPmjb681NV2InH2gVMsGU_3bS65W7Qj4",
+    "title": "usedouble.com"
+  },
+  "checked_at": "2026-11-05T06:26:29.523861+00:00"
+}

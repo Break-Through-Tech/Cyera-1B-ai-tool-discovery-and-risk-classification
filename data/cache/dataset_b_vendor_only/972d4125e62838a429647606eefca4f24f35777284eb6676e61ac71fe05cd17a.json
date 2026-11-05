@@ -1,0 +1,43 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Litmus** at **litmus.com** is **Litmus Software, Inc.**\n\n### Supporting Evidence\nAccording to the official **Terms of Service** on **litmus.com**:\n> *\"Thank you for choosing to use the services of Litmus Software, Inc. (“Litmus,” “We,” “Us,” or “Our”). ... By indicating acceptance of these Terms of Service, or by otherwise accessing or using http://www.litmus.com (the “Website”) or any other linked pages, features, content, or application services offered from time to time by Litmus on or through the Website and/or Litmus extensions, apps or software applications (collectively, the “Services”), You acknowledge, and agree to be bound by, these Terms of Service...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Litmus** at **litmus.com** is **Litmus Software, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6kk4WRMr6tzavwq9rDyYyMUroXXy9-qH61oRoFjWg5UBXjveS20GXeSrLyVKX-NvzW0m536tP5t5feRi9Ewq1qD7gd5ceh-yJoSyEL728w-2l",
+          "title": "litmus.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Litmus Software, Inc.",
+        "evidence": "Passage 0 explicitly identifies Litmus Software, Inc. as the vendor directly providing Litmus at litmus.com.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Litmus** at **litmus.com** is **Litmus Software, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6kk4WRMr6tzavwq9rDyYyMUroXXy9-qH61oRoFjWg5UBXjveS20GXeSrLyVKX-NvzW0m536tP5t5feRi9Ewq1qD7gd5ceh-yJoSyEL728w-2l",
+          "title": "litmus.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Litmus",
+    "domain": "litmus.com",
+    "description": "Litmus is a leading email marketing solutions provider that offers innovative tools for marketers worldwide to streamline their email creation and testing processes. The platform is designed to enhance workflow efficiency and deliver valuable insights that enhance the effectiveness of marketing channels. Trusted by major global brands across various industries, including top e-commerce and technology companies, Litmus centralizes email production to improve visibility and collaboration among teams."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Litmus Software, Inc.",
+  "evidence": "Passage 0 explicitly identifies Litmus Software, Inc. as the vendor directly providing Litmus at litmus.com.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Litmus** at **litmus.com** is **Litmus Software, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6kk4WRMr6tzavwq9rDyYyMUroXXy9-qH61oRoFjWg5UBXjveS20GXeSrLyVKX-NvzW0m536tP5t5feRi9Ewq1qD7gd5ceh-yJoSyEL728w-2l",
+    "title": "litmus.com"
+  },
+  "checked_at": "2026-11-05T08:35:47.155991+00:00"
+}

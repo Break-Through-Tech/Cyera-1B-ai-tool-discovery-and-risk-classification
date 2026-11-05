@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Crazy Egg** at **crazyegg.com** is **Crazy Egg, Inc.**\n\n### Evidence\nAccording to the official **Crazy Egg Terms of Use** and **Privacy Policy** at `crazyegg.com`:\n* *\"Crazy Egg's Terms of Use describes the main practices of Crazy Egg, Inc. on our website, located at https://www.crazyegg.com, as well as other websites or mobile applications that we own or operate collectively.\"*\n* *\"Our Privacy Policy is part of Crazy Egg's Terms of Use and describes the privacy practices of Crazy Egg, Inc. on our websites, located at https://www.crazyegg.com...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Crazy Egg** at **crazyegg.com** is **Crazy Egg, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_vxcUIfby5L08R7bE_icDLw-2BZjOgGSjAAXi0ZRNgeHG3Dq19iyttPzsIZnYVvljchU5h02cWuedjeJQO-5o3Kw8Ap7hdHyOJ9_uRfA9A8haCjQW",
+          "title": "crazyegg.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Crazy Egg** at **crazyegg.com** is **Crazy Egg, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHENpGkiKi1MM4Ibt78-8UKAIGtOOfX1d1lRVQtk28ZQHEyHKxMoxA3_w0-7m7vUYXC35MLowzdx0UeW0lLcrppq3kPXFqUOjZ_w75_kd53f2s1EQ==",
+          "title": "crazyegg.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"Crazy Egg's Terms of Use describes the main practices of Crazy Egg, Inc. on our website, located at https://www.crazyegg.com, as well as other websites or mobile applications that we own or operate collectively.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHENpGkiKi1MM4Ibt78-8UKAIGtOOfX1d1lRVQtk28ZQHEyHKxMoxA3_w0-7m7vUYXC35MLowzdx0UeW0lLcrppq3kPXFqUOjZ_w75_kd53f2s1EQ==",
+          "title": "crazyegg.com"
+        },
+        {
+          "id": 3,
+          "text": "*\"Our Privacy Policy is part of Crazy Egg's Terms of Use and describes the privacy practices of Crazy Egg, Inc. on our websites, located at https://www.crazyegg.com...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_vxcUIfby5L08R7bE_icDLw-2BZjOgGSjAAXi0ZRNgeHG3Dq19iyttPzsIZnYVvljchU5h02cWuedjeJQO-5o3Kw8Ap7hdHyOJ9_uRfA9A8haCjQW",
+          "title": "crazyegg.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Crazy Egg, Inc.",
+        "evidence": "Crazy Egg's Terms of Use states that Crazy Egg, Inc. operates and owns the website located at https://www.crazyegg.com.",
+        "source": {
+          "id": 2,
+          "text": "*\"Crazy Egg's Terms of Use describes the main practices of Crazy Egg, Inc. on our website, located at https://www.crazyegg.com, as well as other websites or mobile applications that we own or operate collectively.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHENpGkiKi1MM4Ibt78-8UKAIGtOOfX1d1lRVQtk28ZQHEyHKxMoxA3_w0-7m7vUYXC35MLowzdx0UeW0lLcrppq3kPXFqUOjZ_w75_kd53f2s1EQ==",
+          "title": "crazyegg.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Crazy Egg",
+    "domain": "crazyegg.com",
+    "description": "Crazy Egg is a digital marketing company specializing in website optimization tools designed to enhance online user experiences. Based in the USA, Crazy Egg offers a suite of services including A/B testing, heatmaps, and in-depth analytics to help businesses understand visitor behavior and improve conversion rates. Their user-friendly platform caters to both novices and experts, making data-driven strategies accessible for all businesses looking to thrive in the digital landscape."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Crazy Egg, Inc.",
+  "evidence": "Crazy Egg's Terms of Use states that Crazy Egg, Inc. operates and owns the website located at https://www.crazyegg.com.",
+  "source": {
+    "id": 2,
+    "text": "*\"Crazy Egg's Terms of Use describes the main practices of Crazy Egg, Inc. on our website, located at https://www.crazyegg.com, as well as other websites or mobile applications that we own or operate collectively.\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHENpGkiKi1MM4Ibt78-8UKAIGtOOfX1d1lRVQtk28ZQHEyHKxMoxA3_w0-7m7vUYXC35MLowzdx0UeW0lLcrppq3kPXFqUOjZ_w75_kd53f2s1EQ==",
+    "title": "crazyegg.com"
+  },
+  "checked_at": "2026-11-05T08:10:43.370252+00:00"
+}

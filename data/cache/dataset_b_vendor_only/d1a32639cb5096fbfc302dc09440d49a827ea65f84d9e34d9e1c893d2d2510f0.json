@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The evidence concerns the software platform **Ocelot** at the domain **ocelotbot.com**.\n\n### Vendor / Operating Company\nThe vendor directly providing Ocelot is **CareerAmerica, LLC** (operating as **Ocelot**).\n\n### Provider Statement\nAccording to the Terms of Use hosted on `ocelotbot.com`:\n> *\"OCELOT is a service of CareerAmerica, LLC. The purpose of this website is to describe the products and services offered by OCELOT. The terms and conditions set forth herein (the “Terms of Use”) constitute a legally binding agreement between OCELOT and you regarding the terms on which OCELOT offers you access to its Website.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The evidence concerns the software platform **Ocelot** at the domain **ocelotbot.com**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEukZswzIqodpa0PSHYvHohFLxew0v5fiavuf4zDHVYh40aihq0H_v0NRJRSuhOddBswT_Bhqz6kvCWRSeWHWvIFIWLZ_Jh8KcozK6169mxxRpXyO9yQS50KQ==",
+          "title": "ocelotbot.com"
+        },
+        {
+          "id": 1,
+          "text": "The evidence concerns the software platform **Ocelot** at the domain **ocelotbot.com**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEukZswzIqodpa0PSHYvHohFLxew0v5fiavuf4zDHVYh40aihq0H_v0NRJRSuhOddBswT_Bhqz6kvCWRSeWHWvIFIWLZ_Jh8KcozK6169mxxRpXyO9yQS50KQ==",
+          "title": "ocelotbot.com"
+        },
+        {
+          "id": 2,
+          "text": "The vendor directly providing Ocelot is **CareerAmerica, LLC** (operating as **Ocelot**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEukZswzIqodpa0PSHYvHohFLxew0v5fiavuf4zDHVYh40aihq0H_v0NRJRSuhOddBswT_Bhqz6kvCWRSeWHWvIFIWLZ_Jh8KcozK6169mxxRpXyO9yQS50KQ==",
+          "title": "ocelotbot.com"
+        },
+        {
+          "id": 3,
+          "text": "OCELOT is a service of CareerAmerica, LLC. The purpose of this website is to describe the products and services offered by OCELOT. The terms and conditions set forth herein (the “Terms of Use”) constitute a legally binding agreement between OCELOT and you regarding the terms on which OCELOT offers you access to i",
+          "url": "https://ocelotbot.com/terms-of-use/",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "CareerAmerica, LLC",
+        "evidence": "Passage 3 states that OCELOT is a service of CareerAmerica, LLC, which offers the website and its products and services.",
+        "source": {
+          "id": 3,
+          "text": "OCELOT is a service of CareerAmerica, LLC. The purpose of this website is to describe the products and services offered by OCELOT. The terms and conditions set forth herein (the “Terms of Use”) constitute a legally binding agreement between OCELOT and you regarding the terms on which OCELOT offers you access to i",
+          "url": "https://ocelotbot.com/terms-of-use/",
+          "title": ""
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Ocelot",
+    "domain": "ocelotbot.com",
+    "description": "Streamlining student engagement with AI-driven communication."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "CareerAmerica, LLC",
+  "evidence": "Passage 3 states that OCELOT is a service of CareerAmerica, LLC, which offers the website and its products and services.",
+  "source": {
+    "id": 3,
+    "text": "OCELOT is a service of CareerAmerica, LLC. The purpose of this website is to describe the products and services offered by OCELOT. The terms and conditions set forth herein (the “Terms of Use”) constitute a legally binding agreement between OCELOT and you regarding the terms on which OCELOT offers you access to i",
+    "url": "https://ocelotbot.com/terms-of-use/",
+    "title": ""
+  },
+  "checked_at": "2026-11-05T07:35:50.636315+00:00"
+}

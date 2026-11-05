@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **Meltwater** intelligence platform and services at **meltwater.com** is **Meltwater**, operating legally through **Meltwater B.V.** (and parent holding **MW Investment B.V.**) globally, and **Meltwater News US Inc.** in the United States and the Americas.\n\n### Evidence and Citations\n* **DMCA Notice & Website Services:** meltwater.com states:  \n  > *\"Meltwater News US Inc. (“Meltwater”) respects the intellectual property of others... Meltwater will terminate service and/or access to the Meltwater website (located at www.meltwater.com) and the services offered on and through the Meltwater website (the “Meltwater Services”) to users who repeatedly use the Meltwater Services to infringe third parties' copyrights.\"*\n* **Privacy & Legal Notices:**  \n  > *\"By 'Meltwater', 'Meltwater Group', 'we', 'us', or 'our' we mean any of Meltwater The Netherlands B.V and its affiliates, in their capacity as an independent or joint controller of your personal data...\"*  \n  Furthermore, Meltwater designates **Meltwater the Netherlands B.V.** as its main EU establishment and **Meltwater News US Inc.** as its controller for the Americas.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **Meltwater** intelligence platform and services at **meltwater.com** is **Meltwater**, operating legally through **Meltwater B.V.** (and parent holding **MW Investment B.V.**) globally, and **Meltwater News US Inc.** in the United States and the Americas",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFX-No4IVobrkJS1cQBhyD1_UUXPVH13fYRzD3HYHypvBMi77Mi1ZDDxRR5VPZZ5DR6xX9oQ-MRJfEoQPG3WIHuRWp6WUqpPn9QNN32xuyB61rwB9xoghzMbCOGDNBjYBf-rzQtTzAhUw==",
+          "title": "meltwater.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the **Meltwater** intelligence platform and services at **meltwater.com** is **Meltwater**, operating legally through **Meltwater B.V.** (and parent holding **MW Investment B.V.**) globally, and **Meltwater News US Inc.** in the United States and the Americas",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFet5K5eulliXOd7_va3jX_erVjo4qlwO9H1FM3EPgaVQndV2SPcrG-hN5mMlzCHaSRpu8rz6fF1X7oAobu4_xqtwk4RuWHxqa8sA4bAa0fPwqFSCHFEPPm1IM=",
+          "title": "meltwater.com"
+        },
+        {
+          "id": 2,
+          "text": "The vendor directly providing the **Meltwater** intelligence platform and services at **meltwater.com** is **Meltwater**, operating legally through **Meltwater B.V.** (and parent holding **MW Investment B.V.**) globally, and **Meltwater News US Inc.** in the United States and the Americas",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHLWsQfuTHvL3Y3r-Lh7TnAmZ89YJUFduETTCcbi63QMpwX8N-M6xQ2nn78JXhLSWZkv3KLUwiIv0aAHi67ALetSb7ubb2hvSXUZdeRmmxPefCENCS3mVEGvWM7A==",
+          "title": "meltwater.com"
+        },
+        {
+          "id": 3,
+          "text": "water will terminate service and/or access to the Meltwater website (located at www.meltwater.com) and the services offered on and through the Meltwater website (the “Meltwater Services”) to users who repeatedly use the Meltwater Services to infringe third parties' copyrights.\"*\n* **Pri",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGudhFo-_0PlqXPaZhzJHvqHBB-Fdo61-lJoMXLWilD7c2CnqlnWC7p9w0UBBWvNVZcccGIC3DrQtRMyuyXH-iPvZD8jP8v2v6lgQeQZ_iC6-9UrRLp9gnsY_qZPA==",
+          "title": "meltwater.com"
+        },
+        {
+          "id": 4,
+          "text": "ltwater', 'Meltwater Group', 'we', 'us', or 'our' we mean any of Meltwater The Netherlands B.V and its affiliates, in their capacity as an independent or joint controller of your personal data...\"*  \n  Fur",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZ1ME3D9er1vh0pyTk8Hi9bLbB9-mkGtDv4p-Apr2IQSIBHNC9tZaCa4T7QibG0Q2vXU8UGInt3_CUrsKG6W53686Rl0tMdcUP1c_RrWMZ5tFcGe1CLMMv2341efucD9jYMTN6asvCOFBMry0=",
+          "title": "meltwater.com"
+        },
+        {
+          "id": 5,
+          "text": "Meltwater will terminate service and/or access to the Meltwater website (located at www.meltwater.com) and the services offered on and through the Meltwater website (the “Meltwater Services”) to users who repeatedly use the Meltwater Services to infringe third parties' co",
+          "url": "https://www.meltwater.com/en/copyright",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Meltwater",
+        "evidence": "Passage 0 directly states that the vendor providing the Meltwater intelligence platform and services at meltwater.com is Meltwater, operating legally through Meltwater B.V. globally and Meltwater News US Inc. in the United States and the Americas.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the **Meltwater** intelligence platform and services at **meltwater.com** is **Meltwater**, operating legally through **Meltwater B.V.** (and parent holding **MW Investment B.V.**) globally, and **Meltwater News US Inc.** in the United States and the Americas",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFX-No4IVobrkJS1cQBhyD1_UUXPVH13fYRzD3HYHypvBMi77Mi1ZDDxRR5VPZZ5DR6xX9oQ-MRJfEoQPG3WIHuRWp6WUqpPn9QNN32xuyB61rwB9xoghzMbCOGDNBjYBf-rzQtTzAhUw==",
+          "title": "meltwater.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Meltwater",
+    "domain": "meltwater.com",
+    "description": "Meltwater offers a comprehensive suite of intelligence solutions in media, social, consumer, and sales, helping companies leverage insights from approximately one billion content pieces daily. With a global footprint that includes 50 offices and a client base of 27,000 businesses, Meltwater is a leader in providing essential tools that empower brands to enhance their competitive advantage and achieve impactful results."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Meltwater",
+  "evidence": "Passage 0 directly states that the vendor providing the Meltwater intelligence platform and services at meltwater.com is Meltwater, operating legally through Meltwater B.V. globally and Meltwater News US Inc. in the United States and the Americas.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the **Meltwater** intelligence platform and services at **meltwater.com** is **Meltwater**, operating legally through **Meltwater B.V.** (and parent holding **MW Investment B.V.**) globally, and **Meltwater News US Inc.** in the United States and the Americas",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFX-No4IVobrkJS1cQBhyD1_UUXPVH13fYRzD3HYHypvBMi77Mi1ZDDxRR5VPZZ5DR6xX9oQ-MRJfEoQPG3WIHuRWp6WUqpPn9QNN32xuyB61rwB9xoghzMbCOGDNBjYBf-rzQtTzAhUw==",
+    "title": "meltwater.com"
+  },
+  "checked_at": "2026-11-05T08:03:50.487644+00:00"
+}

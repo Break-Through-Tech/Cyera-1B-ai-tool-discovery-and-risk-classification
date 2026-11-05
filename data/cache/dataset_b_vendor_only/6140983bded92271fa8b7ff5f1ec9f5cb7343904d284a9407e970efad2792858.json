@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the financial infrastructure platform and software services for **Stripe** at **stripe.com** is **Stripe, LLC** (alongside regional operating entities such as **Stripe Technology Company, Limited** and **Stripe Payments Europe, Limited** for users outside the Americas). \n\n### Supporting Evidence & Citations:\n* **Website Legal Notices & Copyright:** The official website footer states: *“© [Year] Stripe, LLC.”*\n* **Stripe Services Agreement (General Terms):** Defines the primary contracting entity in the United States as *“Stripe, LLC”* (with regulated payment transmission services supported via affiliate *Stripe Payments Company*).\n* **Stripe Data Privacy Framework Policy & Privacy Center:** States that *“Stripe, LLC (‘Stripe’, ‘we’, ‘our’ or ‘us’) complies with the EU-U.S. Data Privacy Framework...”* and notes across sub-processor updates that references to former entity *Stripe, Inc.* were removed in favor of *Stripe, LLC*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the financial infrastructure platform and software services for **Stripe** at **stripe.com** is **Stripe, LLC** (alongside regional operating entities such as **Stripe Technology Company, Limited** and **Stripe Payments Europe, Limited** for users outside the Americas)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGSGbjCWMmfhhKbKP7Vs3H82AnF8SJLaoX5qxUxqaxcjq_R5KOOSTiu8XVJ2a2dYq2PFFnHXT3H8BtXpVhULKmnqNHrJYFppZGg7924xY=",
+          "title": "stripe.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the financial infrastructure platform and software services for **Stripe** at **stripe.com** is **Stripe, LLC** (alongside regional operating entities such as **Stripe Technology Company, Limited** and **Stripe Payments Europe, Limited** for users outside the Americas)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgKtepAflMEhL5KyhA3g2SFB-Qwrhdw-a8kCpRc6SSRcdmpSgr1gUegINYQ-A1B_DamhFqFo2rsWu3iccnkrdMjd8kScU5MWcWR0ZhWG5PyvZ4",
+          "title": "stripe.com"
+        },
+        {
+          "id": 2,
+          "text": "The vendor directly providing the financial infrastructure platform and software services for **Stripe** at **stripe.com** is **Stripe, LLC** (alongside regional operating entities such as **Stripe Technology Company, Limited** and **Stripe Payments Europe, Limited** for users outside the Americas)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERRpEMqiXvKq_SMIFVKroYhAmbjdJ2_k7Zai42qPro4NGVUkxaGArBRo4oFuyVtQhYXugiCMsZUUnuqZzUgqyrKkUSnglv8DPZVds4edaK39EphrNZRrjmj6kB-7Y=",
+          "title": "stripe.com"
+        },
+        {
+          "id": 3,
+          "text": "**Website Legal Notices & Copyright:** The official website footer states: *“© [Year] Stripe, LLC.”*\n* **",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGSGbjCWMmfhhKbKP7Vs3H82AnF8SJLaoX5qxUxqaxcjq_R5KOOSTiu8XVJ2a2dYq2PFFnHXT3H8BtXpVhULKmnqNHrJYFppZGg7924xY=",
+          "title": "stripe.com"
+        },
+        {
+          "id": 4,
+          "text": "**Website Legal Notices & Copyright:** The official website footer states: *“© [Year] Stripe, LLC.”*\n* **",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGK0LravnqYghwxKBXPO9_dNmPVnn_ErL0tYLmCRSJPJsKAh4Df45dAjOGjDtp7QA4B_qnOUo4zsqHnHaZKVdtz9-2gOsc-mM4vdXj04N8=",
+          "title": "stripe.com"
+        },
+        {
+          "id": 5,
+          "text": "ipe Services Agreement (General Terms):** Defines the primary contracting entity in the United States as *“Stripe, LLC”* (with regulated payment transmission services supported via affiliate *Stripe Payments Company*).\n* **Str",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgKtepAflMEhL5KyhA3g2SFB-Qwrhdw-a8kCpRc6SSRcdmpSgr1gUegINYQ-A1B_DamhFqFo2rsWu3iccnkrdMjd8kScU5MWcWR0ZhWG5PyvZ4",
+          "title": "stripe.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Stripe, LLC",
+        "evidence": "Passage 0 directly states that the vendor providing the financial infrastructure platform and software services for Stripe at stripe.com is Stripe, LLC.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the financial infrastructure platform and software services for **Stripe** at **stripe.com** is **Stripe, LLC** (alongside regional operating entities such as **Stripe Technology Company, Limited** and **Stripe Payments Europe, Limited** for users outside the Americas)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGSGbjCWMmfhhKbKP7Vs3H82AnF8SJLaoX5qxUxqaxcjq_R5KOOSTiu8XVJ2a2dYq2PFFnHXT3H8BtXpVhULKmnqNHrJYFppZGg7924xY=",
+          "title": "stripe.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Stripe",
+    "domain": "stripe.com",
+    "description": "Stripe is a financial infrastructure platform based in San Francisco and Dublin that enables businesses to accept payments, enhance revenue, and explore new business opportunities. Their services cater to a diverse clientele, including both large enterprises and innovative startups, with a mission to boost the global digital economy."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Stripe, LLC",
+  "evidence": "Passage 0 directly states that the vendor providing the financial infrastructure platform and software services for Stripe at stripe.com is Stripe, LLC.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the financial infrastructure platform and software services for **Stripe** at **stripe.com** is **Stripe, LLC** (alongside regional operating entities such as **Stripe Technology Company, Limited** and **Stripe Payments Europe, Limited** for users outside the Americas)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGSGbjCWMmfhhKbKP7Vs3H82AnF8SJLaoX5qxUxqaxcjq_R5KOOSTiu8XVJ2a2dYq2PFFnHXT3H8BtXpVhULKmnqNHrJYFppZGg7924xY=",
+    "title": "stripe.com"
+  },
+  "checked_at": "2026-11-05T08:25:48.267447+00:00"
+}

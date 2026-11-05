@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **ZoomInfo** platform at **zoominfo.com** is **ZoomInfo Technologies Inc.** (operating through its principal operating subsidiary, **ZoomInfo Technologies LLC**).\n\n### Provider Statements & Evidence:\n* **Privacy Policy / Data Privacy Framework Notice:** ZoomInfo's official privacy documentation covering the platform at `zoominfo.com/legal/privacy-policy` states:\n  > *\"This Privacy Policy covers ZoomInfo Technologies Inc. and its subsidiaries and affiliates' practices (collectively, 'ZoomInfo') relevant to data processing generally, as well as processing specific to the ZoomInfo website and ZoomInfo products and services.\"*\n* **SEC Disclosures:** In its SEC registration and annual filings, the company specifies:\n  > *\"ZoomInfo Technologies Inc. ... We maintain a website at www.zoominfo.com.\"*\n* **TRUSTe Enterprise Privacy Certification:** TRUSTe identifies the certified operator covering `https://www.zoominfo.com` and its associated platform suites (ZoomInfo Sales, Marketing, Operations, Talent, etc.) as **ZoomInfo Technologies LLC**.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **ZoomInfo** platform at **zoominfo.com** is **ZoomInfo Technologies Inc.** (operating through its principal operating subsidiary, **ZoomInfo Technologies LLC**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoFcniez-_Z2xcLP9H9VT1hYYm-OcotzNeuHoMzHd1pkcs6-uFwXbvf_P9D4myqrtwo2pY_0_QxvfRoc51Oa18jmwu0DFYvgK-vu0SsvEAMVxXwQBjgIg40Z7_MRF3gXupIVI92l8bJMvZrJ2DWcEqRhlzgI-pQgt8ms4zRkiUhNZjW-xsd5D1S0uekB4-C6UMD8s=",
+          "title": "trustarc.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the **ZoomInfo** platform at **zoominfo.com** is **ZoomInfo Technologies Inc.** (operating through its principal operating subsidiary, **ZoomInfo Technologies LLC**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVtjoF_AyKn_JWq0T81RwSHE8sUbbS5LfttmkEHfsGWJH04miABZeusM4x44rX-mBKmUO-G7sAGWQmYAxcCTevZUUyuym_6hMBFEOkXCA-AoP-R7_-EWe3b2diRkCOhAQZ9BtThAj0L_45VA==",
+          "title": "dataprivacyframework.gov"
+        },
+        {
+          "id": 2,
+          "text": "The vendor directly providing the **ZoomInfo** platform at **zoominfo.com** is **ZoomInfo Technologies Inc.** (operating through its principal operating subsidiary, **ZoomInfo Technologies LLC**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiJSkvgdZcwHg8LYHFQWYEQQGfQ0_t65hsbitrNgACW-fKrH3xaNeVgfstILPf5nYc0MqCJAzADobGduDNeehJuytj-9XdLt-iJwYfo17FQiBJ3ZpI2WpOuIJsoBHukxypDB_XsHFSyKGMEUwKPmCihHXHpY8qZai-S6MOjU-329Sn0lR8EPZ7",
+          "title": "sec.gov"
+        },
+        {
+          "id": 3,
+          "text": "*\"This Privacy Policy covers ZoomInfo Technologies Inc. and its subsidiaries and affiliates' practices (collectively, 'ZoomInfo') relevant to data processing generally, as well as processing specific to the ZoomInfo website and ZoomInfo products and services.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVtjoF_AyKn_JWq0T81RwSHE8sUbbS5LfttmkEHfsGWJH04miABZeusM4x44rX-mBKmUO-G7sAGWQmYAxcCTevZUUyuym_6hMBFEOkXCA-AoP-R7_-EWe3b2diRkCOhAQZ9BtThAj0L_45VA==",
+          "title": "dataprivacyframework.gov"
+        },
+        {
+          "id": 4,
+          "text": "We maintain a website at www.zoominfo.com.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkYfxr9jLjoBFc5-QHmhNx6OCozrTK4WFKLIVIyaztcRs8qdLBZ8yFfIUHR6YH27AUeeYl-NS9T1jFTom9OQJBg0lX7ozPaDZH1NPAywrHjz2J8z6uBcsuY7KAVbfcuPsix2FJqi75P8srwFmYVPk6-_Ww-JzS3G0fFg5mzlzgyyyURZ1QOgMq",
+          "title": "sec.gov"
+        },
+        {
+          "id": 5,
+          "text": "**TRUSTe Enterprise Privacy Certification:** TRUSTe identifies the certified operator covering `https://www.zoominfo.com` and its associated platform suites (ZoomInfo Sales, Marketing, Operations, Talent, etc.) as **ZoomInfo Technologies LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoFcniez-_Z2xcLP9H9VT1hYYm-OcotzNeuHoMzHd1pkcs6-uFwXbvf_P9D4myqrtwo2pY_0_QxvfRoc51Oa18jmwu0DFYvgK-vu0SsvEAMVxXwQBjgIg40Z7_MRF3gXupIVI92l8bJMvZrJ2DWcEqRhlzgI-pQgt8ms4zRkiUhNZjW-xsd5D1S0uekB4-C6UMD8s=",
+          "title": "trustarc.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "ZoomInfo Technologies Inc.",
+        "evidence": "Passage 0 confirms that the vendor directly providing the ZoomInfo platform at zoominfo.com is ZoomInfo Technologies Inc. (operating through its principal operating subsidiary, ZoomInfo Technologies LLC).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the **ZoomInfo** platform at **zoominfo.com** is **ZoomInfo Technologies Inc.** (operating through its principal operating subsidiary, **ZoomInfo Technologies LLC**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoFcniez-_Z2xcLP9H9VT1hYYm-OcotzNeuHoMzHd1pkcs6-uFwXbvf_P9D4myqrtwo2pY_0_QxvfRoc51Oa18jmwu0DFYvgK-vu0SsvEAMVxXwQBjgIg40Z7_MRF3gXupIVI92l8bJMvZrJ2DWcEqRhlzgI-pQgt8ms4zRkiUhNZjW-xsd5D1S0uekB4-C6UMD8s=",
+          "title": "trustarc.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "ZoomInfo",
+    "domain": "zoominfo.com",
+    "description": "ZoomInfo is a leading go-to-market platform based in the United States, providing businesses with real-time data, insights, and technology solutions to find, acquire, and grow their customer base. Serving over 35,000 companies globally, ZoomInfo enhances operational efficiency, aligns sales and marketing efforts, and consolidates technology infrastructures. With a strong emphasis on data privacy, it ensures compliance with GDPR and CCPA, backed by various security certifications. The platform specializes in sales intelligence, contact data, marketing intelligence, lead generation, and business information."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "ZoomInfo Technologies Inc.",
+  "evidence": "Passage 0 confirms that the vendor directly providing the ZoomInfo platform at zoominfo.com is ZoomInfo Technologies Inc. (operating through its principal operating subsidiary, ZoomInfo Technologies LLC).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the **ZoomInfo** platform at **zoominfo.com** is **ZoomInfo Technologies Inc.** (operating through its principal operating subsidiary, **ZoomInfo Technologies LLC**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoFcniez-_Z2xcLP9H9VT1hYYm-OcotzNeuHoMzHd1pkcs6-uFwXbvf_P9D4myqrtwo2pY_0_QxvfRoc51Oa18jmwu0DFYvgK-vu0SsvEAMVxXwQBjgIg40Z7_MRF3gXupIVI92l8bJMvZrJ2DWcEqRhlzgI-pQgt8ms4zRkiUhNZjW-xsd5D1S0uekB4-C6UMD8s=",
+    "title": "trustarc.com"
+  },
+  "checked_at": "2026-11-05T09:32:13.749614+00:00"
+}

@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **NotesOllama** provided via **smallest.app** (`smallest.app/notesollama`) is developed and directly provided by independent software developer **Anders Rex**.\n\n### Evidence:\n* The official project repository (`andersrex/notesollama`), which points to `smallest.app/notesollama`, cites the MIT License: *\"Copyright (c) 2024 Anders Rex\"*.\n* The official *Privacy Policy, EULA & Terms of Service* for **smallest.app** designates Anders Rex as the governing entity: *\"In no event shall Anders Rex or his employees, partners, agents, suppliers, or affiliates, be liable...\"* and states *\"Copyright © 2024 Anders Rex • smallest.app\"*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **NotesOllama** provided via **smallest.app** (`smallest.app/notesollama`) is developed and directly provided by independent software developer **Anders Rex**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEevNbUsHnHlLpdDfujKTOkc7sncbGtW1EDsz1kP7vBS8YnqwSsLa8bfmpuBj-MVruTT0nuv1QTSvgfU20pUuwGaC-iclQ3LdecxyXnB2G8PxK9C0mZy8WOLNnrY0iV",
+          "title": "github.com"
+        },
+        {
+          "id": 1,
+          "text": "The software product **NotesOllama** provided via **smallest.app** (`smallest.app/notesollama`) is developed and directly provided by independent software developer **Anders Rex**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFL0rV58abfnUFJceKGV6fYZF6dcHWpH3CQIlGZoQhKNVthf-kXUFV9ozJT-KF_XA8PHJK9AUsQdOIfzB4nHF3hf2TPEh4kDl6bbY-H4sfykQY=",
+          "title": "smallest.app"
+        },
+        {
+          "id": 2,
+          "text": "The official project repository (`andersrex/notesollama`), which points to `smallest.app/notesollama`, cites the MIT License: *\"Copyright (c) 2024 Anders Rex\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEevNbUsHnHlLpdDfujKTOkc7sncbGtW1EDsz1kP7vBS8YnqwSsLa8bfmpuBj-MVruTT0nuv1QTSvgfU20pUuwGaC-iclQ3LdecxyXnB2G8PxK9C0mZy8WOLNnrY0iV",
+          "title": "github.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Anders Rex",
+        "evidence": "Passage 1 explicitly states that the software product NotesOllama provided via smallest.app is developed and directly provided by independent software developer Anders Rex.",
+        "source": {
+          "id": 1,
+          "text": "The software product **NotesOllama** provided via **smallest.app** (`smallest.app/notesollama`) is developed and directly provided by independent software developer **Anders Rex**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFL0rV58abfnUFJceKGV6fYZF6dcHWpH3CQIlGZoQhKNVthf-kXUFV9ozJT-KF_XA8PHJK9AUsQdOIfzB4nHF3hf2TPEh4kDl6bbY-H4sfykQY=",
+          "title": "smallest.app"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "NotesOllama",
+    "domain": "smallest.app",
+    "description": "Interact with local LLMs in Apple Notes."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Anders Rex",
+  "evidence": "Passage 1 explicitly states that the software product NotesOllama provided via smallest.app is developed and directly provided by independent software developer Anders Rex.",
+  "source": {
+    "id": 1,
+    "text": "The software product **NotesOllama** provided via **smallest.app** (`smallest.app/notesollama`) is developed and directly provided by independent software developer **Anders Rex**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFL0rV58abfnUFJceKGV6fYZF6dcHWpH3CQIlGZoQhKNVthf-kXUFV9ozJT-KF_XA8PHJK9AUsQdOIfzB4nHF3hf2TPEh4kDl6bbY-H4sfykQY=",
+    "title": "smallest.app"
+  },
+  "checked_at": "2026-11-05T05:36:09.640978+00:00"
+}

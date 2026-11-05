@@ -1,0 +1,97 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **OneLogin** provided at **onelogin.com** is directly provided and operated by **One Identity LLC** (a business unit of Quest Software), originally developed and operated by **OneLogin, Inc.** prior to its acquisition by One Identity.\n\n### Evidence & Provider Statements\n* **Website Legal Notices & Copyright (`onelogin.com`):** The footer across `onelogin.com` designates the operating entity: \n  > *\"© One Identity LLC. ALL RIGHTS RESERVED. Legal | Terms of Use | Privacy Policy\"*\n* **Terms of Use:** \n  > *\"The following terms and conditions of use (these “Terms of Use”) are terms of a legal agreement between you and One Identity LLC (“One Identity”) and govern the terms and conditions of your use of and access to One Identity's websites and online information.\"*\n* **Service Offerings & Trademarks:** One Identity LLC's legal documentation explicitly includes OneLogin offerings under products and services purchased from *\"One Identity LLC. or a subsidiary of One Identity LLC\"*, and lists OneLogin as a registered trademark owned by One Identity LLC.\n* **Developer Agreement / Operating Predecessor:** Legacy developer terms on `developers.onelogin.com` identified the original developer/operating entity as **OneLogin, Inc.** (*\"These Terms of Service shall apply to your use of the web-based single sign-on services provided by OneLogin, Inc.\"*).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **OneLogin** provided at **onelogin.com** is directly provided and operated by **One Identity LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrOSOZjOYFDAKe620uGBMNf_ZhR-uiOqlo-5K4ZmV4G7r0FH15hv-QHg1yZIGC6jT6MTe8xcXmhywj2OpCmW6SHpLAdO3dVeeOhOSOh0A=",
+          "title": "onelogin.com"
+        },
+        {
+          "id": 1,
+          "text": "The software product **OneLogin** provided at **onelogin.com** is directly provided and operated by **One Identity LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiFP-IM9ytdgjl2Fy-QtLWGU5puJkgeYaYU-vj0-hTRJis5LvTBKF28G33HQ2cke71Pphbd149COLpMjTLXMfqQDCxxcZ8hxKXrBJOCp5YfJg1fFVGaBISxXJGynQ-XtYUEmG0pq3VKxbwlao_HVBTD0CenAduoq5Fw4lajTH1ZHFwBBRheC434yDr61FApif-wwTaGdiG5g==",
+          "title": "siliconangle.com"
+        },
+        {
+          "id": 2,
+          "text": "The software product **OneLogin** provided at **onelogin.com** is directly provided and operated by **One Identity LLC** (a business unit of Quest Software",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiFP-IM9ytdgjl2Fy-QtLWGU5puJkgeYaYU-vj0-hTRJis5LvTBKF28G33HQ2cke71Pphbd149COLpMjTLXMfqQDCxxcZ8hxKXrBJOCp5YfJg1fFVGaBISxXJGynQ-XtYUEmG0pq3VKxbwlao_HVBTD0CenAduoq5Fw4lajTH1ZHFwBBRheC434yDr61FApif-wwTaGdiG5g==",
+          "title": "siliconangle.com"
+        },
+        {
+          "id": 3,
+          "text": "The software product **OneLogin** provided at **onelogin.com** is directly provided and operated by **One Identity LLC** (a business unit of Quest Software), originally developed and operated by **OneLogin, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAPhfx490ppn5MjHbhVapPXdOYHLdE2qWbb--HyXYotYrFSTkxESwNJcHBhJ0p8cgJ_l8rSgABtH_cANxh-V_D99WVuotZ2Jbly86ajW_EguJbTmnMRrC7Ungd",
+          "title": "onelogin.com"
+        },
+        {
+          "id": 4,
+          "text": "The software product **OneLogin** provided at **onelogin.com** is directly provided and operated by **One Identity LLC** (a business unit of Quest Software), originally developed and operated by **OneLogin, Inc.** prior to its acquisition by One Identity",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiFP-IM9ytdgjl2Fy-QtLWGU5puJkgeYaYU-vj0-hTRJis5LvTBKF28G33HQ2cke71Pphbd149COLpMjTLXMfqQDCxxcZ8hxKXrBJOCp5YfJg1fFVGaBISxXJGynQ-XtYUEmG0pq3VKxbwlao_HVBTD0CenAduoq5Fw4lajTH1ZHFwBBRheC434yDr61FApif-wwTaGdiG5g==",
+          "title": "siliconangle.com"
+        },
+        {
+          "id": 5,
+          "text": "egal | Terms of Use | Privacy Policy\"*\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrOSOZjOYFDAKe620uGBMNf_ZhR-uiOqlo-5K4ZmV4G7r0FH15hv-QHg1yZIGC6jT6MTe8xcXmhywj2OpCmW6SHpLAdO3dVeeOhOSOh0A=",
+          "title": "onelogin.com"
+        },
+        {
+          "id": 6,
+          "text": "\"The following terms and conditions of use (these “Terms of Use”) are terms of a legal agreement between you and One Identity LLC (“One Identity”) and govern the terms and conditions of your use of and access to One Identity's websites and online information.\"*\n* **Serv",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHt2BczbS515jRSvfXgGS1PXtGoxSJd_Vh-qAqVcEDop0CTrjEciYQM0z67WvuXQ7O1s1Zui18iStbIbcuvrY3kQVQS8gUEHEfQG8N5UdPuyo3oyec4xGQ=",
+          "title": "oneidentity.com"
+        },
+        {
+          "id": 7,
+          "text": " Offerings & Trademarks:** One Identity LLC's legal documentation explicitly includes OneLogin offerings under products and services purchased from *\"One Identity LLC. or a subsidiary of One Identity LLC\"*, and lis",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGviRThMfPWKkaPLXvJuJrG3srGNr4ztdO68_0c5rrJ7STv1-3e1_HK9eoWCd4r6t-j-kNl6p7EsEfrNEsBmppnYz1jUMllDl2DeGXowZ-rnJFewHmY2DTpyYpzn0KVfdBNXmV1wJhQ9uPqfugxiEm1IamvqNM=",
+          "title": "oneidentity.com"
+        },
+        {
+          "id": 8,
+          "text": " Offerings & Trademarks:** One Identity LLC's legal documentation explicitly includes OneLogin offerings under products and services purchased from *\"One Identity LLC. or a subsidiary of One Identity LLC\"*, and lists OneLogin as a registered trademark owned by One Identity LLC.\n* **Dev",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlu5Qg9M3CiT6oKIJvJ-LYnFMw6DFO-uBWcVTFGzsHxSqdsX3PiyXKIXiPnKCZ_srEQGZcgDsVkj4liz0iIHCBm5KzIvN4pnxy6Qmg251X3iOEzPegHy8KfKLrZAE8y2NlTJ4fmHTit7frQx70sbkXbw==",
+          "title": "oneidentity.com"
+        },
+        {
+          "id": 9,
+          "text": "The following terms and conditions of use (these “Terms of Use”) are terms of a legal agreement between you and One Identity LLC (“One Identity”) and govern the terms and conditions of your use of and access to",
+          "url": "http://www.onelogin.com",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "One Identity LLC",
+        "evidence": "OneLogin provided at onelogin.com is directly provided and operated by One Identity LLC.",
+        "source": {
+          "id": 0,
+          "text": "The software product **OneLogin** provided at **onelogin.com** is directly provided and operated by **One Identity LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrOSOZjOYFDAKe620uGBMNf_ZhR-uiOqlo-5K4ZmV4G7r0FH15hv-QHg1yZIGC6jT6MTe8xcXmhywj2OpCmW6SHpLAdO3dVeeOhOSOh0A=",
+          "title": "onelogin.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "OneLogin",
+    "domain": "onelogin.com",
+    "description": "OneLogin, a subsidiary of Quest Software, specializes in Identity and Access Management (IAM), offering comprehensive solutions to secure workforce, customers, and partners. With a customer base exceeding 5,000 globally, OneLogin provides a robust platform designed to meet the identity needs of organizations across various sectors."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "One Identity LLC",
+  "evidence": "OneLogin provided at onelogin.com is directly provided and operated by One Identity LLC.",
+  "source": {
+    "id": 0,
+    "text": "The software product **OneLogin** provided at **onelogin.com** is directly provided and operated by **One Identity LLC**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrOSOZjOYFDAKe620uGBMNf_ZhR-uiOqlo-5K4ZmV4G7r0FH15hv-QHg1yZIGC6jT6MTe8xcXmhywj2OpCmW6SHpLAdO3dVeeOhOSOh0A=",
+    "title": "onelogin.com"
+  },
+  "checked_at": "2026-11-05T09:49:39.061186+00:00"
+}

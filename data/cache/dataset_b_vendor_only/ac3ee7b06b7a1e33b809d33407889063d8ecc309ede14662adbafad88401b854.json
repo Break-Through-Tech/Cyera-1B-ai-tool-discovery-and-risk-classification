@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The operating vendor directly providing **SendGrid** at **sendgrid.com** is **Twilio Inc.** (branded as **Twilio SendGrid**).\n\n### Supporting Evidence:\n* **Twilio Legal Terms & Service Definitions:** Twilio defines the service as: \n  > *\"‘SendGrid Services’ means the services and any application programming interface branded as ‘SendGrid’, ‘Twilio SendGrid’, or ‘Email API’, enabling companies to develop, transmit, analyze, and manage email communications and other related digital communications and tools through the website at https://www.sendgrid.com...\"*\n* **Operating Entity Statement:** Twilio's Terms of Service state that the contracting operating entity for US and global operations outside specified regions is *\"Twilio Inc., a Delaware corporation, with a place of business at 101 Spear Street, 5th Floor, San Francisco, California, 94105, United States of America\"*.\n* **Website Notices:** The website and documentation pages across `sendgrid.com` incorporate Twilio's Terms of Service, Privacy Notice, and declare *\"Copyright © Twilio Inc. All rights reserved.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The operating vendor directly providing **SendGrid** at **sendgrid.com** is **Twilio Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdv3N8VgFOi3RfbqEuBiDiofCUfQgI9mHN-ebOsiMj6YS2i3dw8ZzUXaHQxvWEjwCLcHjX6rFiuLS8y9_SMY2dQz8e1APPEk_VJL1jgSs3x5ORSfhqIC4rGIPOuZlol6e9vrHg75BKaM9gSRFuU6D_Wm7WnKGZ3RzoEnctJew=",
+          "title": "escribemeetings.com"
+        },
+        {
+          "id": 1,
+          "text": "The operating vendor directly providing **SendGrid** at **sendgrid.com** is **Twilio Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1BlGQt0QbKO7Hjyc9eTz_cEVgP_FgRPtRzcJocEV__dPbfbzWdTY9PVgmycQy19WuhzIRE6MXzaGHQLoEyWxi_pNAeWIzQI4N54mw6gWKU7rlBF8STMEZRqy5sg==",
+          "title": "twilio.com"
+        },
+        {
+          "id": 2,
+          "text": "The operating vendor directly providing **SendGrid** at **sendgrid.com** is **Twilio Inc.** (branded as **Twilio SendGrid**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpgx6F34MfQKigdtWUXNMlD5ZbF9OHsN0HXQ_W3nhLDPVVX-6G9KuCJpq14J0g5cx7dzDx57uOkUuXfqu41KWX5eAaFmNW6NcjMqSel4DpS-Ezocc56PM9fYMlUZ-nyZv6mlSEyZDYAnj_62ixd3LKr3cveBzxre17lLRZWcmzwQy4W8C-MNCyBhxDQwu8vBzaVNN6xK5K",
+          "title": "sendgrid.com"
+        },
+        {
+          "id": 3,
+          "text": "*\"‘SendGrid Services’ means the services and any application programming interface branded as ‘SendGrid’, ‘Twilio SendGrid’, or ‘Email API’, enabling companies to develop, transmit, analyze, and manage email communications and other related digital communications and tools through the website at https://www.sendgrid.com...\"*\n* **Operating E",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdv3N8VgFOi3RfbqEuBiDiofCUfQgI9mHN-ebOsiMj6YS2i3dw8ZzUXaHQxvWEjwCLcHjX6rFiuLS8y9_SMY2dQz8e1APPEk_VJL1jgSs3x5ORSfhqIC4rGIPOuZlol6e9vrHg75BKaM9gSRFuU6D_Wm7WnKGZ3RzoEnctJew=",
+          "title": "escribemeetings.com"
+        },
+        {
+          "id": 4,
+          "text": "ty Statement:** Twilio's Terms of Service state that the contracting operating entity for US and global operations outside specified regions is *\"Twilio Inc., a Delaware corporation, with a place of business at 101 Spear Street, 5th Floor, San Francisco, California, 94105, United States of America\"*.\n* **Website No",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1BlGQt0QbKO7Hjyc9eTz_cEVgP_FgRPtRzcJocEV__dPbfbzWdTY9PVgmycQy19WuhzIRE6MXzaGHQLoEyWxi_pNAeWIzQI4N54mw6gWKU7rlBF8STMEZRqy5sg==",
+          "title": "twilio.com"
+        },
+        {
+          "id": 5,
+          "text": "means the services and any application programming interface branded as ‘SendGrid’, ‘Twilio SendGrid’, or ‘Email API’, enabling companies to develop, transmit, analyze, and manage email communications and other related digital communications and tools through the website ",
+          "url": "https://www.twilio.com/legal/data-protection-addendum/data-protection-addendum-augsept-2021",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Twilio Inc.",
+        "evidence": "Passage 2 explicitly confirms that the operating vendor directly providing SendGrid at sendgrid.com is Twilio Inc. (branded as Twilio SendGrid).",
+        "source": {
+          "id": 2,
+          "text": "The operating vendor directly providing **SendGrid** at **sendgrid.com** is **Twilio Inc.** (branded as **Twilio SendGrid**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpgx6F34MfQKigdtWUXNMlD5ZbF9OHsN0HXQ_W3nhLDPVVX-6G9KuCJpq14J0g5cx7dzDx57uOkUuXfqu41KWX5eAaFmNW6NcjMqSel4DpS-Ezocc56PM9fYMlUZ-nyZv6mlSEyZDYAnj_62ixd3LKr3cveBzxre17lLRZWcmzwQy4W8C-MNCyBhxDQwu8vBzaVNN6xK5K",
+          "title": "sendgrid.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "SendGrid",
+    "domain": "sendgrid.com",
+    "description": "SendGrid is a cloud-based customer communication platform that specializes in email delivery, handling over 45 billion emails monthly for a diverse range of clients including tech-focused companies like Airbnb and Spotify, as well as traditional businesses such as Taco Bell and Costco. Based in the United States, SendGrid offers solutions to ensure reliable email communication for internet and mobile clients."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Twilio Inc.",
+  "evidence": "Passage 2 explicitly confirms that the operating vendor directly providing SendGrid at sendgrid.com is Twilio Inc. (branded as Twilio SendGrid).",
+  "source": {
+    "id": 2,
+    "text": "The operating vendor directly providing **SendGrid** at **sendgrid.com** is **Twilio Inc.** (branded as **Twilio SendGrid**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpgx6F34MfQKigdtWUXNMlD5ZbF9OHsN0HXQ_W3nhLDPVVX-6G9KuCJpq14J0g5cx7dzDx57uOkUuXfqu41KWX5eAaFmNW6NcjMqSel4DpS-Ezocc56PM9fYMlUZ-nyZv6mlSEyZDYAnj_62ixd3LKr3cveBzxre17lLRZWcmzwQy4W8C-MNCyBhxDQwu8vBzaVNN6xK5K",
+    "title": "sendgrid.com"
+  },
+  "checked_at": "2026-11-05T08:32:01.352837+00:00"
+}

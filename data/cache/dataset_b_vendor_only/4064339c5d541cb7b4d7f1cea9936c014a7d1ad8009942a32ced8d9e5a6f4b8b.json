@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Linktree** at the domain **linktr.ee** is **Linktree Pty Ltd**.\n\n### Supporting Evidence & Provider Statement\nAccording to the official **Linktree Terms and Conditions**:\n> *\"These Terms & Conditions, along with the linked policies ('Terms'), govern your use of our services which include Linktree (https://linktr.ee/), tr.ee (https://tr.ee/links) and Plann (https://www.plannthat.com/), their apps and related software or features (collectively referred to as the 'Platform' or 'Linktree'). When we use terms like 'we,' 'our,' or 'us' in these Terms, we're talking about Linktree Pty Ltd (ABN 68 608 721 562), Plann and our group companies.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Linktree** at the domain **linktr.ee** is **Linktree Pty Ltd**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgPBgttwnpFMQZ3z6J3_pCKeym6gGAJKrWagRwGVej4XjfpJ7JLMbTN-RtLp5fPAXhMArL-hvsdKJZ3eH_ug-Libjbh9VmE-Xyfzi5kJaj",
+          "title": "linktr.ee"
+        },
+        {
+          "id": 1,
+          "text": "According to the official **Linktree Terms and Conditions**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgPBgttwnpFMQZ3z6J3_pCKeym6gGAJKrWagRwGVej4XjfpJ7JLMbTN-RtLp5fPAXhMArL-hvsdKJZ3eH_ug-Libjbh9VmE-Xyfzi5kJaj",
+          "title": "linktr.ee"
+        },
+        {
+          "id": 2,
+          "text": "When we use terms like 'we,' 'our,' or 'us' in these Terms, we're talking about Linktree Pty Ltd (ABN 68 608 721 562), Plann and our group companies.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgPBgttwnpFMQZ3z6J3_pCKeym6gGAJKrWagRwGVej4XjfpJ7JLMbTN-RtLp5fPAXhMArL-hvsdKJZ3eH_ug-Libjbh9VmE-Xyfzi5kJaj",
+          "title": "linktr.ee"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Linktree Pty Ltd",
+        "evidence": "Passage 0 directly confirms that the vendor providing Linktree at the domain linktr.ee is Linktree Pty Ltd.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Linktree** at the domain **linktr.ee** is **Linktree Pty Ltd**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgPBgttwnpFMQZ3z6J3_pCKeym6gGAJKrWagRwGVej4XjfpJ7JLMbTN-RtLp5fPAXhMArL-hvsdKJZ3eH_ug-Libjbh9VmE-Xyfzi5kJaj",
+          "title": "linktr.ee"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Linktree",
+    "domain": "linktr.ee",
+    "description": "Linktree is a digital platform that offers users an easy way to connect audiences to their entire online ecosystem, including all social channels and websites, through a simple link. It is popular among influencers, businesses, and content creators looking to optimize their digital presence. Founded in 2016, Linktree has grown rapidly and serves millions of users worldwide from its bases in Melbourne, Australia, and Los Angeles, USA."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Linktree Pty Ltd",
+  "evidence": "Passage 0 directly confirms that the vendor providing Linktree at the domain linktr.ee is Linktree Pty Ltd.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Linktree** at the domain **linktr.ee** is **Linktree Pty Ltd**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgPBgttwnpFMQZ3z6J3_pCKeym6gGAJKrWagRwGVej4XjfpJ7JLMbTN-RtLp5fPAXhMArL-hvsdKJZ3eH_ug-Libjbh9VmE-Xyfzi5kJaj",
+    "title": "linktr.ee"
+  },
+  "checked_at": "2026-11-05T09:56:03.304411+00:00"
+}

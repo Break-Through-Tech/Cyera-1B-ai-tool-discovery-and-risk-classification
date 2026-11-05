@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **LogoMate** at **ailogogenerator.sh** is **SOYEE INC**.\n\n### Evidence\n* According to the official Privacy Policy on `ailogogenerator.sh`: *\"Logomate, operated by SOYEE INC (\"we,\" \"us,\" or \"our\"), is committed to protecting your privacy. This Privacy Policy outlines how we collect, use, disclose, and safeguard your personal data when you use our AI-powered logo generation services available at https://www.ailogogenerator.sh/ (the 'Service').\"*\n* The site footer further confirms: *\"© 2025 LogoMate. Operated by SOYEE INC. All rights reserved. 1500 N GRANT ST STE R, DENVER, CO 80203.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **LogoMate** at **ailogogenerator.sh** is **SOYEE INC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFb1GcoQuy7kVfvDZB6oX0XECiazXpnmghFdHvEiIf5rQyaoIv43RjqM-m7Lpv5zvx1NOeou7rtAuFHUVNrkGsu1tMizyQYL6i4y-Uw_-HAGxisT3tkwKNYz1ZV",
+          "title": "ailogogenerator.sh"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **LogoMate** at **ailogogenerator.sh** is **SOYEE INC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAAPnyequh0yjKGLzQyzYogQ3jbJKC_OqVmZAYXpks0y-vgVeKF3atMC7aXDOD8Uwdzcz04HjghJayr-gkGsaixsd3gSXJJseiT9S11nyxsBhhkKRK",
+          "title": "ailogogenerator.sh"
+        },
+        {
+          "id": 2,
+          "text": "This Privacy Policy outlines how we collect, use, disclose, and safeguard your personal data when you use our AI-powered logo generation services available at https://www.ailogogenerator.sh/ (the 'Service').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFb1GcoQuy7kVfvDZB6oX0XECiazXpnmghFdHvEiIf5rQyaoIv43RjqM-m7Lpv5zvx1NOeou7rtAuFHUVNrkGsu1tMizyQYL6i4y-Uw_-HAGxisT3tkwKNYz1ZV",
+          "title": "ailogogenerator.sh"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "SOYEE INC",
+        "evidence": "Passage 0 states that the vendor directly providing LogoMate at ailogogenerator.sh is SOYEE INC.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **LogoMate** at **ailogogenerator.sh** is **SOYEE INC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFb1GcoQuy7kVfvDZB6oX0XECiazXpnmghFdHvEiIf5rQyaoIv43RjqM-m7Lpv5zvx1NOeou7rtAuFHUVNrkGsu1tMizyQYL6i4y-Uw_-HAGxisT3tkwKNYz1ZV",
+          "title": "ailogogenerator.sh"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "LogoMate",
+    "domain": "ailogogenerator.sh",
+    "description": "Create professional logos effortlessly with Logomate, an AI-powered tool that generates customizable logo."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "SOYEE INC",
+  "evidence": "Passage 0 states that the vendor directly providing LogoMate at ailogogenerator.sh is SOYEE INC.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **LogoMate** at **ailogogenerator.sh** is **SOYEE INC**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFb1GcoQuy7kVfvDZB6oX0XECiazXpnmghFdHvEiIf5rQyaoIv43RjqM-m7Lpv5zvx1NOeou7rtAuFHUVNrkGsu1tMizyQYL6i4y-Uw_-HAGxisT3tkwKNYz1ZV",
+    "title": "ailogogenerator.sh"
+  },
+  "checked_at": "2026-11-05T06:11:02.819009+00:00"
+}

@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor providing **Moment.js** at **momentjs.com** is the **OpenJS Foundation** (in collaboration with the Moment.js contributors).\n\n### Supporting Evidence\nOn the official product site and documentation pages across [momentjs.com](https://momentjs.com), the footer and legal notices state:\n> *\"Moment.js is an OpenJS Foundation project and is freely distributable under the terms of the MIT license. Copyright OpenJS Foundation and Moment.js contributors. All rights reserved.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor providing **Moment.js** at **momentjs.com** is the **OpenJS Foundation** (in collaboration with the Moment.js contributors)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF69xry_J0yKP93FZiMT0XTVe1cUwNXCJe77ru8wWMFT6JiMJKyfYqli0S69FI5QueAH650KmQTDtfwz0EMH1ZMZOVkJAidZoTSGIpPkISkMQ==",
+          "title": "momentjs.com"
+        },
+        {
+          "id": 1,
+          "text": "All rights reserved.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF69xry_J0yKP93FZiMT0XTVe1cUwNXCJe77ru8wWMFT6JiMJKyfYqli0S69FI5QueAH650KmQTDtfwz0EMH1ZMZOVkJAidZoTSGIpPkISkMQ==",
+          "title": "momentjs.com"
+        },
+        {
+          "id": 2,
+          "text": "All rights reserved.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5Qym0u-9uZk_ZuUtR7gKjx83fLKgec5oEzdR74DycHZ69wc_fn2MNw-iFVcAcMPbE9FJmzq4GCZaJyW04lboDG9REz7EzoABaQxI=",
+          "title": "momentjs.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "OpenJS Foundation",
+        "evidence": "Passage 0 explicitly identifies that the vendor providing Moment.js at momentjs.com is the OpenJS Foundation (in collaboration with the Moment.js contributors).",
+        "source": {
+          "id": 0,
+          "text": "The vendor providing **Moment.js** at **momentjs.com** is the **OpenJS Foundation** (in collaboration with the Moment.js contributors)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF69xry_J0yKP93FZiMT0XTVe1cUwNXCJe77ru8wWMFT6JiMJKyfYqli0S69FI5QueAH650KmQTDtfwz0EMH1ZMZOVkJAidZoTSGIpPkISkMQ==",
+          "title": "momentjs.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Moment.js",
+    "domain": "momentjs.com",
+    "description": "Moment.js is a popular JavaScript library designed for parsing, validating, manipulating, and displaying dates and times. It simplifies date handling for developers by providing a comprehensive API to work with date and time functions, making it easier to manage time zones, formats, and locale-sensitive operations. Based in the software development sector, Moment.js is widely used in web and application development."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "OpenJS Foundation",
+  "evidence": "Passage 0 explicitly identifies that the vendor providing Moment.js at momentjs.com is the OpenJS Foundation (in collaboration with the Moment.js contributors).",
+  "source": {
+    "id": 0,
+    "text": "The vendor providing **Moment.js** at **momentjs.com** is the **OpenJS Foundation** (in collaboration with the Moment.js contributors)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF69xry_J0yKP93FZiMT0XTVe1cUwNXCJe77ru8wWMFT6JiMJKyfYqli0S69FI5QueAH650KmQTDtfwz0EMH1ZMZOVkJAidZoTSGIpPkISkMQ==",
+    "title": "momentjs.com"
+  },
+  "checked_at": "2026-11-05T08:57:01.503406+00:00"
+}

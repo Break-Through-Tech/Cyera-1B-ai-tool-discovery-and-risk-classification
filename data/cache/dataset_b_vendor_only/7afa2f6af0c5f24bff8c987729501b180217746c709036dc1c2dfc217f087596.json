@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product **Intelli-CTi** at **intellicti.com** is **QWARE Limited**.\n\n### Supporting Evidence:\n* **Terms & Conditions and Policies:** On [intellicti.com/terms-conditions](https://www.intellicti.com/terms-conditions), the terms governing the service are published by **QWARE** (e.g., *QWARE Subscription Agreement*, *QWARE Master Services Agreement*, and *QWARE Acceptable Use Policy*), specifying: *\"QWARE believes that sharing information about the way we operate and securing your data is the way to earn and maintain your trust\"*.\n* **Contact & Ownership Information:** The Contact and legal notices across the site state: *\"© QWARE Limited. All Rights Reserved\"* and provide contact details for *\"QWARE Limited Headquarters UK & Rest of the World\"*. Product collateral also identifies: *\"intelli-CTi™ is a trademark of QWARE Limited\"*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product **Intelli-CTi** at **intellicti.com** is **QWARE Limited**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEyH2124a7g1GQkUgriyG4JoGg7gtowCSqUJUW4Vg0xtncK3ld1qudoubDLT05hDd2cNvkq7UOULrV8W6fG2anJgjoFMWDMLYFzSlo8MTosu_H5FkxEkrMRTW7W",
+          "title": "intellicti.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the software product **Intelli-CTi** at **intellicti.com** is **QWARE Limited**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfzG6pXDkHfBPGqRQ0DH12p-qMbQ56PGz6IXfbkZ7y064pt7OGOfP_8mnBn-wNhFi-0AOhpa9SSYv_sIQUXzNKikL_U4nMJe1Jmpln7RMmzD6S_CwpLvldYVEto8qfJHlnNkIwDwPwkUnf-uLzHnNFiooYbCJ4vitB5XlJKxc05GxiB0qQaAZZra23JHYrk2pSviEPrw==",
+          "title": "intellicti.com"
+        },
+        {
+          "id": 2,
+          "text": "**Terms & Conditions and Policies:** On [intellicti.com/terms-conditions](https://www.intellicti.com/terms-conditions), the terms governing the service are published by **QWARE** (e.g., *QWARE Subscription Agreement*, *QWARE Master Services Agreement*, and *QWARE Acceptable Use Policy*), specifying: *\"QWARE believes that sharing information about the way we operate and securing your data is the way to earn and maintain your trust\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnOq002aujFtQ6wTDFb4yyb5L0q-6dWylJ3xXRZaMLqEPr2nCfxhcHage5JjVmZVIz0jCOdTSTKkhBchLkmXXvzXShW-iCEju0RSGYRm3eVVuxLKTGv1Y6NgLksE0rBz0ckL2QwHJQO38GSu04VgBb",
+          "title": "intellicti.com"
+        },
+        {
+          "id": 3,
+          "text": "ll Rights Reserved\"* and provide contact details for *\"QWARE Limited Headquarters UK & Rest of the World\"*.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwPgWF3D3fMetP-OBgrSA345DDkfFEh1q5MdTGtm3sJVfsGisqhGVbNQnY38XbJ9qwx6srLoLWdqkQbC6mh0dALxTBNyP-jOx6aze1NhjExA3U16Y45kjrc28y",
+          "title": "intellicti.com"
+        },
+        {
+          "id": 4,
+          "text": "ll Rights Reserved\"* and provide contact details for *\"QWARE Limited Headquarters UK & Rest of the World\"*.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHI3A9VtsU3BgAtUoe6nTwBQXa2cvuGbsGAFkvos_-7FY2qvkTE31AbAHNQ3sJI1lqqg0IXvLc-TbdSHhQJHky2H5vDErK2BrlrXwZZ9Tu0eBmb3AnkXXEF9iZvYA==",
+          "title": "intellicti.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "QWARE Limited",
+        "evidence": "Passage 0 directly states that the vendor providing the software product Intelli-CTi at intellicti.com is QWARE Limited.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the software product **Intelli-CTi** at **intellicti.com** is **QWARE Limited**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEyH2124a7g1GQkUgriyG4JoGg7gtowCSqUJUW4Vg0xtncK3ld1qudoubDLT05hDd2cNvkq7UOULrV8W6fG2anJgjoFMWDMLYFzSlo8MTosu_H5FkxEkrMRTW7W",
+          "title": "intellicti.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Intelli-CTi",
+    "domain": "intellicti.com",
+    "description": "Intelli-CTi provides advanced Computer Telephony Integration (CTI) solutions specifically designed for Microsoft Dynamics 365 and Unified Service Desk (USD). Their offerings enhance user experience and streamline communication processes within the software ecosystem. The company focuses on delivering innovative technology solutions to improve customer engagement and operational efficiency."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "QWARE Limited",
+  "evidence": "Passage 0 directly states that the vendor providing the software product Intelli-CTi at intellicti.com is QWARE Limited.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the software product **Intelli-CTi** at **intellicti.com** is **QWARE Limited**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEyH2124a7g1GQkUgriyG4JoGg7gtowCSqUJUW4Vg0xtncK3ld1qudoubDLT05hDd2cNvkq7UOULrV8W6fG2anJgjoFMWDMLYFzSlo8MTosu_H5FkxEkrMRTW7W",
+    "title": "intellicti.com"
+  },
+  "checked_at": "2026-11-05T09:21:42.174016+00:00"
+}

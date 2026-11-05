@@ -1,0 +1,91 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **SmugMug** at **smugmug.com** is **SmugMug, Inc.** (also operating under parent/corporate name **Awes.me, Inc.**).\n\n### Evidence\n* **Copyright and Legal Notices:** The official SmugMug Support legal and copyright documentation designates:\n  > *\"SmugMug takes the rights of intellectual property owners seriously and complies, as a service provider, with all applicable provisions of the Digital Millennium Copyright Act (DMCA)... Copyright Agent. SmugMug, Inc. 548 Market St., STE 32047, San Francisco, California 94104-5401 US.\"*\n* **Platform Terms and Policies:** The official website and support pages state:\n  > *\"Terms Privacy ©2002-2025 SmugMug, Inc.\"*\n* **App Store Listings:** The official SmugMug mobile applications list **SmugMug Inc.** / **Awes.me, Inc.** as the developer/seller.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **SmugMug** at **smugmug.com** is **SmugMug, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXJ2HMeMSv7lw78NayJdN1qMasZ5BRulGwST0sXmt9jYrr2dq28pmja7K6GuFEQ-SPwXiYtOPfFBz2HvLxif15a_5suYUgSS-HM2yBOVdEGI0U3dIGCLpeRZ8d",
+          "title": "wikipedia.org"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **SmugMug** at **smugmug.com** is **SmugMug, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGQfMffiEsIrH3FKz6iFFtISmU6yxll6aZzWqmxwSwVh2jELscbLwax9B_F1e5x7zuDBamU8JryuhxUnmDRsOKwacWrCz3VpcrM6BCPpvwDqHjTkk1JYQuV10Hc_He7hrUxCzF-stbkwYuhdXua_xvMSgPGXwsl9zIjAQsWaNG2O5ucnjM3aaRQpOZw_E-zVo6VGDLIOs=",
+          "title": "smugmughelp.com"
+        },
+        {
+          "id": 2,
+          "text": "The vendor directly providing **SmugMug** at **smugmug.com** is **SmugMug, Inc.** (also operating under parent/corporate name **Awes.me, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXJ2HMeMSv7lw78NayJdN1qMasZ5BRulGwST0sXmt9jYrr2dq28pmja7K6GuFEQ-SPwXiYtOPfFBz2HvLxif15a_5suYUgSS-HM2yBOVdEGI0U3dIGCLpeRZ8d",
+          "title": "wikipedia.org"
+        },
+        {
+          "id": 3,
+          "text": "The vendor directly providing **SmugMug** at **smugmug.com** is **SmugMug, Inc.** (also operating under parent/corporate name **Awes.me, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXJ2HMeMSv7lw78NayJdN1qMasZ5BRulGwST0sXmt9jYrr2dq28pmja7K6GuFEQ-SPwXiYtOPfFBz2HvLxif15a_5suYUgSS-HM2yBOVdEGI0U3dIGCLpeRZ8d",
+          "title": "wikipedia.org"
+        },
+        {
+          "id": 4,
+          "text": "548 Market St., STE 32047, San Francisco, California 94104-5401 US.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGQfMffiEsIrH3FKz6iFFtISmU6yxll6aZzWqmxwSwVh2jELscbLwax9B_F1e5x7zuDBamU8JryuhxUnmDRsOKwacWrCz3VpcrM6BCPpvwDqHjTkk1JYQuV10Hc_He7hrUxCzF-stbkwYuhdXua_xvMSgPGXwsl9zIjAQsWaNG2O5ucnjM3aaRQpOZw_E-zVo6VGDLIOs=",
+          "title": "smugmughelp.com"
+        },
+        {
+          "id": 5,
+          "text": "*\"Terms Privacy ©2002-2025 SmugMug, Inc.\"*\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHv0j-yWlROgGkfgiVkHY_07RC4mBeDu34bJlaulMgRygCFEhJB_zMKPpKiL5dEIM0H1DWMXxQ2bLA85IsSyoizvb5pjYBeAPbhO0HVLvzRWBGsBvAbDX0eNTIglQ==",
+          "title": "smugmug.com"
+        },
+        {
+          "id": 6,
+          "text": " **Awes.me, Inc.** as the developer/seller.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVHjKs5pfwTfmGFIRrEydDekzr-d7HE8IPbyB7Kbi2wODFBJTZ1a5L3ClszCxd54i452Kn3jBUsBPkbrcsQO37UjJf30pewSe0M0c1t4i3ovoS65sgHJJMQR1S6h39FtrdwV6zPYXpauwbJf52RtMPY6tuIE9jRs2OzMiqv9y6vm9Udg==",
+          "title": "google.com"
+        },
+        {
+          "id": 7,
+          "text": " **Awes.me, Inc.** as the developer/seller.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVHjKs5pfwTfmGFIRrEydDekzr-d7HE8IPbyB7Kbi2wODFBJTZ1a5L3ClszCxd54i452Kn3jBUsBPkbrcsQO37UjJf30pewSe0M0c1t4i3ovoS65sgHJJMQR1S6h39FtrdwV6zPYXpauwbJf52RtMPY6tuIE9jRs2OzMiqv9y6vm9Udg==",
+          "title": "google.com"
+        },
+        {
+          "id": 8,
+          "text": " **Awes.me, Inc.** as the developer/seller.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsy1dORisXZC6hSufGRVRxKPZFwQ-iI8n_T16S9xupMNCCF2vyHWZrWXGVY_H9PgplINIJrA93p8FrKnqvXcrjJIpDAMKJT9ZzTtpSpBu11aZ61oF6wdpyDbvcorSi",
+          "title": "smugmug.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "SmugMug, Inc.",
+        "evidence": "Passage 1 directly confirms that the vendor providing SmugMug at smugmug.com is SmugMug, Inc.",
+        "source": {
+          "id": 1,
+          "text": "The vendor directly providing **SmugMug** at **smugmug.com** is **SmugMug, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGQfMffiEsIrH3FKz6iFFtISmU6yxll6aZzWqmxwSwVh2jELscbLwax9B_F1e5x7zuDBamU8JryuhxUnmDRsOKwacWrCz3VpcrM6BCPpvwDqHjTkk1JYQuV10Hc_He7hrUxCzF-stbkwYuhdXua_xvMSgPGXwsl9zIjAQsWaNG2O5ucnjM3aaRQpOZw_E-zVo6VGDLIOs=",
+          "title": "smugmughelp.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "SmugMug",
+    "domain": "smugmug.com",
+    "description": "SmugMug is a leading global photography platform based in the United States, dedicated to empowering photographers by providing tools for protecting, sharing, and selling their photos. The platform focuses on enhancing the photography business by offering resources for skill development, audience engagement, and profit maximization."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "SmugMug, Inc.",
+  "evidence": "Passage 1 directly confirms that the vendor providing SmugMug at smugmug.com is SmugMug, Inc.",
+  "source": {
+    "id": 1,
+    "text": "The vendor directly providing **SmugMug** at **smugmug.com** is **SmugMug, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGQfMffiEsIrH3FKz6iFFtISmU6yxll6aZzWqmxwSwVh2jELscbLwax9B_F1e5x7zuDBamU8JryuhxUnmDRsOKwacWrCz3VpcrM6BCPpvwDqHjTkk1JYQuV10Hc_He7hrUxCzF-stbkwYuhdXua_xvMSgPGXwsl9zIjAQsWaNG2O5ucnjM3aaRQpOZw_E-zVo6VGDLIOs=",
+    "title": "smugmughelp.com"
+  },
+  "checked_at": "2026-11-05T08:42:45.745587+00:00"
+}

@@ -1,0 +1,89 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product **FocalML** (also branded as **Focal**) at **focalml.com** is **Fluorescent Labs** (legally **Fluorescent Labs, Inc.**).\n\n* **Provider Statement:** According to the official *Terms and Conditions of focalml.com*, under the Application provider disclosure: \n  > *\"This Application is provided by: Fluorescent Labs - 2136 California St, Unit 17, San Francisco, CA, 94115. Owner contact email: machines@focalml.com.\"*\n  \n  The website footer additionally carries the legal notice: *\"© Fluorescent Labs, Inc. All rights reserved.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjWMYjESRMpGtAucBlLt3zO2PTVY9wqY_-lG0s7bLJoQsCWNL_uSVlPAhojgyF26-Y0QEZ3cRG_BL9aOiYRG_QUe1ga10M-yJLOwwZaTKpJcwnRLHZuX8=",
+          "title": "focalml.com"
+        },
+        {
+          "id": 1,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcsbuWfQ_cytppQwdrxYIpPUq4GTOxW3aS-Ls50a59VfJaqea8kwiu4oKojP0mBChuPr9A0GlRm2oAi3TYm0rJF9sMVXGZdM-clGM3GA==",
+          "title": "focalml.com"
+        },
+        {
+          "id": 2,
+          "text": "Owner contact email: machines@focalml.com.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhJmrk-l40IMWQjmmPeRtW-zSJKUUQT3uCtZl1pMOw-70YpoyVkT2u-oXfd65QYeaNa6xIS3liQnsUVLtR8Hai-2buj2QrEqYC6JzPMM8_Ria9CoF-jDzqKQ==",
+          "title": "focalml.com"
+        }
+      ],
+      "result": {
+        "status": "unknown",
+        "vendor": "UNKNOWN",
+        "evidence": "The provided passages do not contain any information establishing the vendor, developer, or operating company for FocalML. Passage 2 only contains an owner contact email address snippet without naming an entity."
+      }
+    },
+    {
+      "answer": "The vendor directly providing the software product **FocalML** (also branded as **Focal**) at **focalml.com** is **Fluorescent Labs, Inc.** (operating as **Fluorescent Labs**).\n\n### Evidence:\n* **Terms and Conditions** (`focalml.com`):  \n  > *\"This Application is provided by: Fluorescent Labs - 2136 California St, Unit 17, San Francisco, CA, 94115. Owner contact email: machines@focalml.com.\"*\n* **Privacy Policy** (`focalml.com`):  \n  > *\"Owner and Data Controller: Fluorescent Labs - 2136 California St, Unit 17, San Francisco, CA, 94115.\"*\n* **Website Footer** (`focalml.com`):  \n  > *\"© 2026 Fluorescent Labs, Inc. All rights reserved.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product **FocalML** (also branded as **Focal**) at **focalml.com** is **Fluorescent Labs, Inc.** (operating as **Fluorescent Labs**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRzHVEZjKuQrNqPQHWq7uLa_Ti01_dPYk4FsGi73Cfq7vi003xxvfr-ubxIQ9T7wqIP9m67LF4aMNsHn3dBsqrX69p0IbDUMsI0J47lEeZhovW1wxznQ==",
+          "title": "aitrustlist.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the software product **FocalML** (also branded as **Focal**) at **focalml.com** is **Fluorescent Labs, Inc.** (operating as **Fluorescent Labs**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgzt0c_1GHWXJ2nt7fAsmmedY_ce0iahKbtF2WrurcKt-5YX77OMDonH2pMCZ9M_5_HK1kIjR6iVxfsDraBdcqhTdR_CxrmuK9xXavFod_Xl0wvZke_pFZTEE=",
+          "title": "focalml.com"
+        },
+        {
+          "id": 2,
+          "text": "Owner contact email: machines@focalml.com.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgzt0c_1GHWXJ2nt7fAsmmedY_ce0iahKbtF2WrurcKt-5YX77OMDonH2pMCZ9M_5_HK1kIjR6iVxfsDraBdcqhTdR_CxrmuK9xXavFod_Xl0wvZke_pFZTEE=",
+          "title": "focalml.com"
+        },
+        {
+          "id": 3,
+          "text": "*\"Owner and Data Controller: Fluorescent Labs - 2136 California St, Unit 17, San Francisco, CA, 94115.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAJcoDSSlId_iZWnOJUCoaj2m-07XxWd4XYRUAStrePNad-riT_WOnB75eiPd4uDVqyNmem_9QAxTyfxPEcm1wohY4oX740TSWRi3FUYJyKuaPaBBska2B",
+          "title": "focalml.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Fluorescent Labs, Inc.",
+        "evidence": "Passage 1 states that the vendor directly providing the software product FocalML at focalml.com is Fluorescent Labs, Inc. (operating as Fluorescent Labs).",
+        "source": {
+          "id": 1,
+          "text": "The vendor directly providing the software product **FocalML** (also branded as **Focal**) at **focalml.com** is **Fluorescent Labs, Inc.** (operating as **Fluorescent Labs**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgzt0c_1GHWXJ2nt7fAsmmedY_ce0iahKbtF2WrurcKt-5YX77OMDonH2pMCZ9M_5_HK1kIjR6iVxfsDraBdcqhTdR_CxrmuK9xXavFod_Xl0wvZke_pFZTEE=",
+          "title": "focalml.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "FocalML",
+    "domain": "focalml.com",
+    "description": "Create your own TV shows and movies."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Fluorescent Labs, Inc.",
+  "evidence": "Passage 1 states that the vendor directly providing the software product FocalML at focalml.com is Fluorescent Labs, Inc. (operating as Fluorescent Labs).",
+  "source": {
+    "id": 1,
+    "text": "The vendor directly providing the software product **FocalML** (also branded as **Focal**) at **focalml.com** is **Fluorescent Labs, Inc.** (operating as **Fluorescent Labs**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgzt0c_1GHWXJ2nt7fAsmmedY_ce0iahKbtF2WrurcKt-5YX77OMDonH2pMCZ9M_5_HK1kIjR6iVxfsDraBdcqhTdR_CxrmuK9xXavFod_Xl0wvZke_pFZTEE=",
+    "title": "focalml.com"
+  },
+  "checked_at": "2026-11-05T06:57:29.209856+00:00"
+}

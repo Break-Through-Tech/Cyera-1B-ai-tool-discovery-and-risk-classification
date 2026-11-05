@@ -1,0 +1,83 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **KlearStack** at **klearstack.com** is **Mavenick Consulting Private Limited** (operating alongside its US affiliate, **KlearStack, Inc.**).\n\n### Evidence\nAccording to the official **Terms and Conditions** on `klearstack.com`:\n> *\"These terms and conditions (“Terms and Conditions” ) constitute an agreement between Mavenick Consulting Private Limited (“Company”, “we”, “us” or “our” ) and you or the entity you represent... The Terms and Conditions govern your access to and use of the Company's website at https://www.klearstack.com/ (the “Site”) and utilization of the KlearStack product ( “Product”) and the services of the Company...\"*\n\nAdditionally, the site notes that the company is based in Pune, India, with an affiliate office in New Jersey, USA (**KlearStack, Inc.**).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVN0-kMSPi02-TeZNiDo9dudHprxPqfD9Usf6b8EqbSKQ9CDUNCDJDAfuDfY8tnwDnL1EeF28AJV4ev5Reo0x5jlTTeyzXgkPJTvAuhdrogHXY8lh00TKE4ezNDDa21NbMNQ==",
+          "title": "klearstack.com"
+        },
+        {
+          "id": 1,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEk_D3IIJ4vPDDBHE3Id3HgQ8GnAgabHfkIjYtzaJucPKhgmXD-O5B5TdbAFLH7jSZ4A51MSi4pmw3AmUrzDYVWNTvswE6209YMxGEehugu0JPSRy--kTsxwTkZvDiXRDE=",
+          "title": "klearstack.com"
+        },
+        {
+          "id": 2,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEk_D3IIJ4vPDDBHE3Id3HgQ8GnAgabHfkIjYtzaJucPKhgmXD-O5B5TdbAFLH7jSZ4A51MSi4pmw3AmUrzDYVWNTvswE6209YMxGEehugu0JPSRy--kTsxwTkZvDiXRDE=",
+          "title": "klearstack.com"
+        },
+        {
+          "id": 3,
+          "text": "ions govern your access to and use of the Company's website at https://www.klearstack.com/ (the “Site”) and utilization of the KlearStack product ( “Product”) and the services of the Company...\"*\n\nAdditionally, the site not",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEk_D3IIJ4vPDDBHE3Id3HgQ8GnAgabHfkIjYtzaJucPKhgmXD-O5B5TdbAFLH7jSZ4A51MSi4pmw3AmUrzDYVWNTvswE6209YMxGEehugu0JPSRy--kTsxwTkZvDiXRDE=",
+          "title": "klearstack.com"
+        }
+      ],
+      "result": {
+        "status": "unknown",
+        "vendor": "UNKNOWN",
+        "evidence": "The provided passages do not contain the name of the vendor or company behind KlearStack; Passage 3 only references 'the Company' without specifying its legal or brand name."
+      }
+    },
+    {
+      "answer": "The vendor directly providing the software product **KlearStack** at **klearstack.com** is **Mavenick Consulting Private Limited** (operating in the United States as **KlearStack, Inc.**).\n\n### Provider Statements & Evidence:\n* **Terms and Conditions (`klearstack.com`)**:\n  > *\"These terms and conditions (“Terms and Conditions”) constitute an agreement between Mavenick Consulting Private Limited (“Company”, “we”, “us” or “our”) and you or the entity you represent (“you” or “your”). The Terms and Conditions govern your access to and use of the Company's website at https://www.klearstack.com/ (the “Site”) and utilization of the KlearStack product (“Product”) and the services of the Company...\"*\n* **Data Processing Addendum (`klearstack.com`)**:\n  > *\"This Data Processing Addendum... forms a part of the Technology Partner Agreement... between Mavenick Consulting Private Limited, a company registered in India (“Processor”), and the Customer... which governs services provided by Processor to Controller (including cloud software-as-a-service).\"*\n* **Company & Contact Information (`klearstack.com`)**:\n  > Lists **KlearStack, Inc.** (371 Hoes Lane, Suite 200, Piscataway, NJ 08854, USA) and KlearStack India (City Tower, 17 Boat Club Road, Pune, India), with Ashutosh Saitwal as CEO & Founder.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOx8cq8WxFN6gAo7id88IeufnyOhAuVVHcfo0NNlJnHkSZdFCfH3oJnKK3yrMCwss0BGcILOMSLRudbb0aFgUaXjvUr-zNkt8vgiEcthjR011MKou0haiiDo9V",
+          "title": "klearstack.com"
+        },
+        {
+          "id": 1,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0XDXf0krTQmrKX5YmUGJtnYWDJNNu-Uf8jnwB5xm8D8DKvKCAWiUvE5hsvynJkROPAkN6VwpyoobPlkdkYzmMOke4wDvOL3YJptSK3WSZVGm7EFlGq-ZeVqT5GNqPrKEt",
+          "title": "klearstack.com"
+        },
+        {
+          "id": 2,
+          "text": "ern your access to and use of the Company's website at https://www.klearstack.com/ (the “Site”) and utilization of the KlearStack product (“Product”) and the services of the Company...\"*\n* **Data Processing Addendum (`klea",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0XDXf0krTQmrKX5YmUGJtnYWDJNNu-Uf8jnwB5xm8D8DKvKCAWiUvE5hsvynJkROPAkN6VwpyoobPlkdkYzmMOke4wDvOL3YJptSK3WSZVGm7EFlGq-ZeVqT5GNqPrKEt",
+          "title": "klearstack.com"
+        },
+        {
+          "id": 3,
+          "text": "orms a part of the Technology Partner Agreement... between Mavenick Consulting Private Limited, a company registered in India (“Processor”), and the Customer... which governs services provided by Processor to Controller (including cloud software-as-a-service).\"*\n* **Company & Contact Information (`kle",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfs2kaoo0PzvZF_4R2gUkTo4XLoY_vP8GlrfaFeAPRAn7vwRd_LJesfHulYzBfEqmSOLanQc7Qfh3Jd849gyEn08owJbxq03R2WBLZT0UAKzqEwB-6F_THVCcyy-o2QvC2Mc2SyQ==",
+          "title": "klearstack.com"
+        }
+      ],
+      "result": {
+        "status": "unknown",
+        "vendor": "UNKNOWN",
+        "evidence": "The available passages are fragmented: passage 2 mentions the KlearStack product and website but truncates the company name, while passage 3 mentions Mavenick Consulting Private Limited without mentioning the product name KlearStack. Thus, no single passage establishes the provider relationship."
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "KlearStack",
+    "domain": "klearstack.com",
+    "description": "Process documents with 99% accuracy, save 80% cost."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "unknown",
+  "vendor": "UNKNOWN",
+  "evidence": "The available passages are fragmented: passage 2 mentions the KlearStack product and website but truncates the company name, while passage 3 mentions Mavenick Consulting Private Limited without mentioning the product name KlearStack. Thus, no single passage establishes the provider relationship.",
+  "checked_at": "2026-11-05T06:19:09.480932+00:00"
+}

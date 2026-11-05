@@ -1,0 +1,79 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Bahia AI** at the domain **bahia.ai** is **Bahia AI Inc.** (subsequently renamed to **Caddie AI Inc.**).\n\n### Evidence and Provider Statement\n* **Corporate Entity:** Canadian corporate records (Corporation Number 1615275-9) document the operating company as **Bahia AI Inc.** (later amended to **Caddie AI Inc.**) with co-founders Danika Chilibeck and Delaney Thompson.\n* **Domain & Brand Association:** Official company profiles, founder disclosures, and interviews (such as *The Innovators & Investors Podcast*) verify that Danika Chilibeck founded and led Bahia AI directly operating via `https://www.bahia.ai/`.\n* **Product Record:** Directory listings for the specified description identify **Bahia AI** operating at `bahia.ai`.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUYB5s67zaJ8Ry-xNEZBIpIwMLWbL8rsP4AG5cktLX6Vby04W5k6emzO88nNCJ4FrGoSZT9sx4_Qt0MbSgG80-BalXwxEbUDOc39SqNADW_YkX_bsaYlnzS72liHo82EMmFd4tJ9I09iDlDUy0HU61ZjUczgemFnRayr6ACg0x3wwUa87r9mBDjKstEgjffCHUEL5nJNO64eLRUv4CZw1GJukU",
+          "title": "bradfordtoday.ca"
+        },
+        {
+          "id": 1,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-1rPW7i4bxcdFANrxjp6zxBQLSbStXyotXlKj_9VqZv7RyqCs73axgfEEZipCAl7TcdD3JK9MlleZfIWZ_5SlyS7GLkHw9ri8dfNkfGXTa-XCgqqsODRWY63_ZaOmkKUxwF8LWAdbL18iQoAOJzZzXMa-klDP6ZX0c0uiWhaJn4GVoA47h2QJ8O0=",
+          "title": "infoproff.com"
+        },
+        {
+          "id": 2,
+          "text": "**Corporate Entity:** Canadian corporate records (Corporation Number 1615275-9) document the operating company as **Bahia AI Inc.** (later amended to **Caddie AI Inc.**) with co-founders Danika Chilibeck and Delaney Thompson",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKcsfvrtxp7LnnZ0HZANHqRqzbsCsjtZ5uPTbcnY7s59lXUQ6eyPcERD1ugRkyOBe2TMyrLzX5YHDVPaL1Ld3t-9fqUExpEOegX6GoFGsB3MPYii54ssfmcyhJuzrImz5GPI4LB3iukYlh5ICuHZaicIH_I32J3sVFK953yNK_0E-iSh_QSn4i8g==",
+          "title": "infoproff.com"
+        },
+        {
+          "id": 3,
+          "text": "**Corporate Entity:** Canadian corporate records (Corporation Number 1615275-9) document the operating company as **Bahia AI Inc.** (later amended to **Caddie AI Inc.**) with co-founders Danika Chilibeck and Delaney Thompson",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-1rPW7i4bxcdFANrxjp6zxBQLSbStXyotXlKj_9VqZv7RyqCs73axgfEEZipCAl7TcdD3JK9MlleZfIWZ_5SlyS7GLkHw9ri8dfNkfGXTa-XCgqqsODRWY63_ZaOmkKUxwF8LWAdbL18iQoAOJzZzXMa-klDP6ZX0c0uiWhaJn4GVoA47h2QJ8O0=",
+          "title": "infoproff.com"
+        },
+        {
+          "id": 4,
+          "text": "**Domain & Brand Association:** Official company profiles, founder disclosures, and interviews (such as *The Innovators & Investors Podcast*) verify that Danika Chilibeck founded and led Bahia AI directly operating via `https://www.bahia.ai/`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbetSTeTXicTFy7roOxzFoTFhyDI_Js6D6UNUByiVXRXv9HDNG82Z0EXy5AxBwMOooWTP9uTnDueaz8wOdGlJSjizlTfQICdPytW7IjJCxpzdliTkWd3WpOPOATX-NMXE=",
+          "title": "youtube.com"
+        },
+        {
+          "id": 5,
+          "text": "**Domain & Brand Association:** Official company profiles, founder disclosures, and interviews (such as *The Innovators & Investors Podcast*) verify that Danika Chilibeck founded and led Bahia AI directly operating via `https://www.bahia.ai/`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbetSTeTXicTFy7roOxzFoTFhyDI_Js6D6UNUByiVXRXv9HDNG82Z0EXy5AxBwMOooWTP9uTnDueaz8wOdGlJSjizlTfQICdPytW7IjJCxpzdliTkWd3WpOPOATX-NMXE=",
+          "title": "youtube.com"
+        },
+        {
+          "id": 6,
+          "text": "**Product Record:** Directory listings for the specified description identify **Bahia AI** operating at `bahia.ai`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLdmOWGJoH-8GJ_w6iZzKALQaskIn9--xB0Iq3VFHNagVzjCDl31TNGBuIsHV3XVkwMszLrutHMcoAExSIczDqbORdwHvXfhl4pnL9EtO0LB3yJq-3",
+          "title": "moyanai.app"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Bahia AI Inc.",
+        "evidence": "Canadian corporate records (Corporation Number 1615275-9) document the operating company as Bahia AI Inc. (later amended to Caddie AI Inc.).",
+        "source": {
+          "id": 2,
+          "text": "**Corporate Entity:** Canadian corporate records (Corporation Number 1615275-9) document the operating company as **Bahia AI Inc.** (later amended to **Caddie AI Inc.**) with co-founders Danika Chilibeck and Delaney Thompson",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKcsfvrtxp7LnnZ0HZANHqRqzbsCsjtZ5uPTbcnY7s59lXUQ6eyPcERD1ugRkyOBe2TMyrLzX5YHDVPaL1Ld3t-9fqUExpEOegX6GoFGsB3MPYii54ssfmcyhJuzrImz5GPI4LB3iukYlh5ICuHZaicIH_I32J3sVFK953yNK_0E-iSh_QSn4i8g==",
+          "title": "infoproff.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Bahia AI",
+    "domain": "bahia.ai",
+    "description": "Bahia AI is an AI-powered research assistant designed to streamline academic and professional research. It offers intelligent data analysis, automated literature reviews, and personalized insights to help users efficiently process information and uncover key findings."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Bahia AI Inc.",
+  "evidence": "Canadian corporate records (Corporation Number 1615275-9) document the operating company as Bahia AI Inc. (later amended to Caddie AI Inc.).",
+  "source": {
+    "id": 2,
+    "text": "**Corporate Entity:** Canadian corporate records (Corporation Number 1615275-9) document the operating company as **Bahia AI Inc.** (later amended to **Caddie AI Inc.**) with co-founders Danika Chilibeck and Delaney Thompson",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKcsfvrtxp7LnnZ0HZANHqRqzbsCsjtZ5uPTbcnY7s59lXUQ6eyPcERD1ugRkyOBe2TMyrLzX5YHDVPaL1Ld3t-9fqUExpEOegX6GoFGsB3MPYii54ssfmcyhJuzrImz5GPI4LB3iukYlh5ICuHZaicIH_I32J3sVFK953yNK_0E-iSh_QSn4i8g==",
+    "title": "infoproff.com"
+  },
+  "checked_at": "2026-11-05T07:26:27.821634+00:00"
+}

@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "For **Underscore** at **underscorejs.org**, the software is directly provided and maintained by published developers **Jeremy Ashkenas** and **Julian Gonggrijp**, alongside **DocumentCloud** and **Investigative Reporters & Editors**.\n\n### Provider Statements & Evidence\n* **Component relationship:** The official homepage states:\n  > *\"Underscore is an open-source component of DocumentCloud.\"*\n* **Copyright & authorship notice:** The distributed source code and documentation at the domain state:\n  > *\"Underscore.js 1.13.8 https://underscorejs.org (c) 2009-2026 Jeremy Ashkenas, Julian Gonggrijp, and DocumentCloud and Investigative Reporters & Editors Underscore may be freely distributed under the MIT license.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "For **Underscore** at **underscorejs.org**, the software is directly provided and maintained by published developers **Jeremy Ashkenas** and **Julian Gonggrijp**, alongside **DocumentCloud** and **Investigative Reporters & Editors**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKm2J_uCpBosSDHj8P8Eqskr6Hcamkoopp_1P7Y7qITA3ulSLYwji1_A71ivDk087wT9tCSumy-LuHmN6ez_9wPNR-Ml8-L17WWZQwrNyQz78LrIzg5IfYjXApDZDaDhFyfqBG-Q==",
+          "title": "underscorejs.org"
+        },
+        {
+          "id": 1,
+          "text": "For **Underscore** at **underscorejs.org**, the software is directly provided and maintained by published developers **Jeremy Ashkenas** and **Julian Gonggrijp**, alongside **DocumentCloud** and **Investigative Reporters & Editors**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcneQ9kRtkXT3qOvUpwxBqNzju9TwKydE9qFO7hAjtrSeP4mUI3DTZL45yS8gVFf-g0oUpwF7qgQoI1Dgk6j7ZwNcOTwOca2k70ZVKSlA=",
+          "title": "underscorejs.org"
+        },
+        {
+          "id": 2,
+          "text": "*\"Underscore is an open-source component of DocumentCloud.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcneQ9kRtkXT3qOvUpwxBqNzju9TwKydE9qFO7hAjtrSeP4mUI3DTZL45yS8gVFf-g0oUpwF7qgQoI1Dgk6j7ZwNcOTwOca2k70ZVKSlA=",
+          "title": "underscorejs.org"
+        },
+        {
+          "id": 3,
+          "text": "*\"Underscore.js 1.13.8 https://underscorejs.org (c) 2009-2026 Jeremy Ashkenas, Julian Gonggrijp, and DocumentCloud and Investigative Reporters & Editors Underscore may be freely distributed under the MIT license.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKm2J_uCpBosSDHj8P8Eqskr6Hcamkoopp_1P7Y7qITA3ulSLYwji1_A71ivDk087wT9tCSumy-LuHmN6ez_9wPNR-Ml8-L17WWZQwrNyQz78LrIzg5IfYjXApDZDaDhFyfqBG-Q==",
+          "title": "underscorejs.org"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Jeremy Ashkenas and Julian Gonggrijp, alongside DocumentCloud and Investigative Reporters & Editors",
+        "evidence": "Passage 0 directly states that for Underscore at underscorejs.org, the software is provided and maintained by published developers Jeremy Ashkenas and Julian Gonggrijp, alongside DocumentCloud and Investigative Reporters & Editors.",
+        "source": {
+          "id": 0,
+          "text": "For **Underscore** at **underscorejs.org**, the software is directly provided and maintained by published developers **Jeremy Ashkenas** and **Julian Gonggrijp**, alongside **DocumentCloud** and **Investigative Reporters & Editors**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKm2J_uCpBosSDHj8P8Eqskr6Hcamkoopp_1P7Y7qITA3ulSLYwji1_A71ivDk087wT9tCSumy-LuHmN6ez_9wPNR-Ml8-L17WWZQwrNyQz78LrIzg5IfYjXApDZDaDhFyfqBG-Q==",
+          "title": "underscorejs.org"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Underscore",
+    "domain": "underscorejs.org",
+    "description": "Underscore.js is a JavaScript library that provides a variety of functional programming helper functions. It enhances JavaScript's capabilities by offering utility functions for common programming tasks such as data manipulation, object handling, and array processing. This library is widely used for enhancing web application development by simplifying coding practices and improving code readability."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Jeremy Ashkenas and Julian Gonggrijp, alongside DocumentCloud and Investigative Reporters & Editors",
+  "evidence": "Passage 0 directly states that for Underscore at underscorejs.org, the software is provided and maintained by published developers Jeremy Ashkenas and Julian Gonggrijp, alongside DocumentCloud and Investigative Reporters & Editors.",
+  "source": {
+    "id": 0,
+    "text": "For **Underscore** at **underscorejs.org**, the software is directly provided and maintained by published developers **Jeremy Ashkenas** and **Julian Gonggrijp**, alongside **DocumentCloud** and **Investigative Reporters & Editors**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKm2J_uCpBosSDHj8P8Eqskr6Hcamkoopp_1P7Y7qITA3ulSLYwji1_A71ivDk087wT9tCSumy-LuHmN6ez_9wPNR-Ml8-L17WWZQwrNyQz78LrIzg5IfYjXApDZDaDhFyfqBG-Q==",
+    "title": "underscorejs.org"
+  },
+  "checked_at": "2026-11-05T09:38:15.166674+00:00"
+}

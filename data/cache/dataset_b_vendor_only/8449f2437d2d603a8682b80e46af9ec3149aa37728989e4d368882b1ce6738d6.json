@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the standards, software, and services for **Unicode Consortium** at **unicode.org** is **Unicode, Inc.** (operating as **The Unicode Consortium**).\n\n### Supporting Evidence\n* **About / Corporate Entity:** According to the official Unicode Consortium description page, *\"Unicode, Inc. is incorporated in the State of California, doing business as 'The Unicode Consortium'. The Unicode Consortium is a nonprofit public benefit corporation and has the status of a 501(c)(3) charitable organization.\"*\n* **Copyright, Terms of Use, and Trademarks:** The official Terms of Use page confirms: *“The Unicode Consortium” and “Unicode, Inc.” are trade names of Unicode, Inc.* and licenses/copyright notices are held under *“Unicode, Inc.”*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the standards, software, and services for **Unicode Consortium** at **unicode.org** is **Unicode, Inc.** (operating as **The Unicode Consortium**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGC9b1ptEeZogIcIiquqq-imusK7u7V-qI_R9YLUlWPNASY8IE3ckPajylPR_0DUr6wMBT2tZnSLhw-9fl1j-6NUAdq_u9UrvJGipxhuWoV2dDT5xR364yJKcUBy3o-KA==",
+          "title": "unicode.org"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the standards, software, and services for **Unicode Consortium** at **unicode.org** is **Unicode, Inc.** (operating as **The Unicode Consortium**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfCyhikW3vU9OBksKDs-12RNbdNUG9EBBj-7dUmxQwBqIxTVfgK2F2q2AgEIXBZsGlXOl2cR0CKyb5ZQhTjJBzNgAxNNRkzLqWczAsq6VssoXDCUIaxP2iGg==",
+          "title": "unicode.org"
+        },
+        {
+          "id": 2,
+          "text": "The Unicode Consortium is a nonprofit public benefit corporation and has the status of a 501(c)(3) charitable organization.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfCyhikW3vU9OBksKDs-12RNbdNUG9EBBj-7dUmxQwBqIxTVfgK2F2q2AgEIXBZsGlXOl2cR0CKyb5ZQhTjJBzNgAxNNRkzLqWczAsq6VssoXDCUIaxP2iGg==",
+          "title": "unicode.org"
+        },
+        {
+          "id": 3,
+          "text": "Unicode, Inc. is incorporated in the State of California, doing business as 'The Unicode Consortium'. The Unicode Consortium is a nonprofit public benefit corporation and has the status of a 501(c)(3) charitable organization",
+          "url": "https://www.unicode.org/consortium/",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Unicode, Inc.",
+        "evidence": "Passage 0 directly states that the vendor providing the standards, software, and services for Unicode Consortium at unicode.org is Unicode, Inc. (operating as The Unicode Consortium).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the standards, software, and services for **Unicode Consortium** at **unicode.org** is **Unicode, Inc.** (operating as **The Unicode Consortium**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGC9b1ptEeZogIcIiquqq-imusK7u7V-qI_R9YLUlWPNASY8IE3ckPajylPR_0DUr6wMBT2tZnSLhw-9fl1j-6NUAdq_u9UrvJGipxhuWoV2dDT5xR364yJKcUBy3o-KA==",
+          "title": "unicode.org"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Unicode Consortium",
+    "domain": "unicode.org",
+    "description": "The Unicode Consortium is a non-profit organization established in 1988, dedicated to developing and promoting international standards for text representation, enabling software and services to operate in multiple languages seamlessly. It empowers global communication by ensuring that computer systems can represent and handle dates, times, numbers, and emojis across diverse languages and cultures. By coordinating a worldwide network of volunteer developers and linguists, the Consortium plays a crucial role in maintaining a universally accepted set of standards that supports the global economy and enhances interoperability across different platforms and devices."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Unicode, Inc.",
+  "evidence": "Passage 0 directly states that the vendor providing the standards, software, and services for Unicode Consortium at unicode.org is Unicode, Inc. (operating as The Unicode Consortium).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the standards, software, and services for **Unicode Consortium** at **unicode.org** is **Unicode, Inc.** (operating as **The Unicode Consortium**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGC9b1ptEeZogIcIiquqq-imusK7u7V-qI_R9YLUlWPNASY8IE3ckPajylPR_0DUr6wMBT2tZnSLhw-9fl1j-6NUAdq_u9UrvJGipxhuWoV2dDT5xR364yJKcUBy3o-KA==",
+    "title": "unicode.org"
+  },
+  "checked_at": "2026-11-05T08:40:39.028154+00:00"
+}

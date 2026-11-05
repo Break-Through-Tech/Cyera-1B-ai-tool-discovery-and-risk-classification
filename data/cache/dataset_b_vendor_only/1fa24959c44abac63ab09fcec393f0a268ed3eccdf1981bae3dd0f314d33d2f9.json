@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "For the product **Aivia** at **aivia.ai** (AI collaboration and task management platform), the direct operating vendor is **Aivia Platforms Inc.** (also operating under the brand/trade name **Aivia Technologies**).\n\n* **Provider Statement:** The official Privacy Policy for the platform at `aivia.ai` explicitly states:  \n  > *\"Aivia Platforms Inc. (“us”, “we”, or “our”) operates the Aivia Platform (hereinafter referred to as the “Service”).\"*  \n  Furthermore, official site copyright and legal footers designate:  \n  > *\"© Aivia.ai. Aivia Technologies. ... The services are provided to you by Aivia.ai.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "For the product **Aivia** at **aivia.ai** (AI collaboration and task management platform), the direct operating vendor is **Aivia Platforms Inc.** (also operating under the brand/trade name **Aivia Technologies**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXu_wA0fLICYFNN-UucQF7xOb4zE0Je1QxC6-iJqUUmULoQdmGttmP9Qt8xHMe4WX-67Qo9MVWqDB0V6yXovVewJPyVFtpue_gQabgEHISeb8NflbiZE99zkgQ34kW1Pht-RQ=",
+          "title": "aichief.com"
+        },
+        {
+          "id": 1,
+          "text": "For the product **Aivia** at **aivia.ai** (AI collaboration and task management platform), the direct operating vendor is **Aivia Platforms Inc.** (also operating under the brand/trade name **Aivia Technologies**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEowbTlK9xA44mvbxcfGrYb26i9GxTVgsh-056cgnJx7MDw16-GkJhyAN8I8Ge-I8UyODdFanAhTqKSwflCp4eBV2XczBUXTPq6a2afNnL5rpBeyKcYcVJOTQ==",
+          "title": "aivia.ai"
+        },
+        {
+          "id": 2,
+          "text": "*\"Aivia Platforms Inc. (“us”, “we”, or “our”) operates the Aivia Platform (hereinafter referred to as the “Service”).\"*  \n  Furthermore",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEowbTlK9xA44mvbxcfGrYb26i9GxTVgsh-056cgnJx7MDw16-GkJhyAN8I8Ge-I8UyODdFanAhTqKSwflCp4eBV2XczBUXTPq6a2afNnL5rpBeyKcYcVJOTQ==",
+          "title": "aivia.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Aivia Platforms Inc.",
+        "evidence": "Passage 1 explicitly states that for the product Aivia at aivia.ai, the direct operating vendor is Aivia Platforms Inc.",
+        "source": {
+          "id": 1,
+          "text": "For the product **Aivia** at **aivia.ai** (AI collaboration and task management platform), the direct operating vendor is **Aivia Platforms Inc.** (also operating under the brand/trade name **Aivia Technologies**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEowbTlK9xA44mvbxcfGrYb26i9GxTVgsh-056cgnJx7MDw16-GkJhyAN8I8Ge-I8UyODdFanAhTqKSwflCp4eBV2XczBUXTPq6a2afNnL5rpBeyKcYcVJOTQ==",
+          "title": "aivia.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Aivia",
+    "domain": "aivia.ai",
+    "description": "Automated collaboration for task management."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Aivia Platforms Inc.",
+  "evidence": "Passage 1 explicitly states that for the product Aivia at aivia.ai, the direct operating vendor is Aivia Platforms Inc.",
+  "source": {
+    "id": 1,
+    "text": "For the product **Aivia** at **aivia.ai** (AI collaboration and task management platform), the direct operating vendor is **Aivia Platforms Inc.** (also operating under the brand/trade name **Aivia Technologies**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEowbTlK9xA44mvbxcfGrYb26i9GxTVgsh-056cgnJx7MDw16-GkJhyAN8I8Ge-I8UyODdFanAhTqKSwflCp4eBV2XczBUXTPq6a2afNnL5rpBeyKcYcVJOTQ==",
+    "title": "aivia.ai"
+  },
+  "checked_at": "2026-11-05T05:47:06.578668+00:00"
+}

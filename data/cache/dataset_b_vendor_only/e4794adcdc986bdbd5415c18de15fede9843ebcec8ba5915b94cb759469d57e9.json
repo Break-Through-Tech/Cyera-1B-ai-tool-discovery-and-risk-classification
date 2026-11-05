@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **TiramAi** at the domain **tiram.ai** is **zpqv, Inc.** (or **zpqv, inc.**).\n\n### Evidence:\n* **Privacy Policy (`tiram.ai`):**\n  > \"Company (referred to as either 'the Company', 'We', 'Us' or 'Our' in this Agreement) refers to zpqv, inc., 1606 Headway Cir STE 9354, Austin, TX-78754.\"\n* **Website Footer (`tiram.ai`):**\n  > \"© 2025 zpqv Inc. All rights reserved.\"\n* **Google Play Store:**\n  The official mobile app (*TiramAi Control Panel*) is published under the developer name **ZPQV, INC.**",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6KEgdX2egbOYU54tv_WpBsMH4onIlijRGZTYruB1-qA-w08vBqmKkRIHLbf9R5XP_f-VX_wmt4-Cv84hU9xp6OaBx25yVASiUSYSMmC1V1OHpTUBdhDs4TnIEYD4o",
+          "title": "tiram.ai"
+        },
+        {
+          "id": 1,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzQMPKmzypzE0VMztBj0qPeZXNjClBXaIa7gqG7Tf5ubgKSq-bsbWselrS8-Fgg8v9kdu2TqziNgdeO5K7YYeBvSGMgcoTLbaKwlk=",
+          "title": "tiram.ai"
+        },
+        {
+          "id": 2,
+          "text": "\"Company (referred to as either 'the Company', 'We', 'Us' or 'Our' in this Agreement) refers to zpqv, inc., 1606 Headway Cir STE 9354, Austin, TX-78754.\"",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6KEgdX2egbOYU54tv_WpBsMH4onIlijRGZTYruB1-qA-w08vBqmKkRIHLbf9R5XP_f-VX_wmt4-Cv84hU9xp6OaBx25yVASiUSYSMmC1V1OHpTUBdhDs4TnIEYD4o",
+          "title": "tiram.ai"
+        },
+        {
+          "id": 3,
+          "text": "ll rights reserved.\"\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzQMPKmzypzE0VMztBj0qPeZXNjClBXaIa7gqG7Tf5ubgKSq-bsbWselrS8-Fgg8v9kdu2TqziNgdeO5K7YYeBvSGMgcoTLbaKwlk=",
+          "title": "tiram.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "zpqv, inc.",
+        "evidence": "Passage 2 from tiram.ai defines the Company as 'zpqv, inc., 1606 Headway Cir STE 9354, Austin, TX-78754'.",
+        "source": {
+          "id": 2,
+          "text": "\"Company (referred to as either 'the Company', 'We', 'Us' or 'Our' in this Agreement) refers to zpqv, inc., 1606 Headway Cir STE 9354, Austin, TX-78754.\"",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6KEgdX2egbOYU54tv_WpBsMH4onIlijRGZTYruB1-qA-w08vBqmKkRIHLbf9R5XP_f-VX_wmt4-Cv84hU9xp6OaBx25yVASiUSYSMmC1V1OHpTUBdhDs4TnIEYD4o",
+          "title": "tiram.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "TiramAi",
+    "domain": "tiram.ai",
+    "description": "TiramAi empowers developers to build and deploy AI-powered applications quickly and easily, leveraging its no-code/low-code platform for various use cases."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "zpqv, inc.",
+  "evidence": "Passage 2 from tiram.ai defines the Company as 'zpqv, inc., 1606 Headway Cir STE 9354, Austin, TX-78754'.",
+  "source": {
+    "id": 2,
+    "text": "\"Company (referred to as either 'the Company', 'We', 'Us' or 'Our' in this Agreement) refers to zpqv, inc., 1606 Headway Cir STE 9354, Austin, TX-78754.\"",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6KEgdX2egbOYU54tv_WpBsMH4onIlijRGZTYruB1-qA-w08vBqmKkRIHLbf9R5XP_f-VX_wmt4-Cv84hU9xp6OaBx25yVASiUSYSMmC1V1OHpTUBdhDs4TnIEYD4o",
+    "title": "tiram.ai"
+  },
+  "checked_at": "2026-11-05T07:54:08.132598+00:00"
+}

@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Airtable** at **airtable.com** is **Formagrid Inc.** (doing business as **Airtable**).\n\n### Provider Statement\nAccording to the official [Terms of Service](https://www.airtable.com/tos) on airtable.com:\n> *\"These Terms of Service (these “Terms”) of Formagrid Inc, dba Airtable (“we,” “our,” or “us”), are an agreement that describes your and our rights, obligations, and responsibilities. More specifically, these Terms govern how you may access and use: (i) airtable.com, its subdomains, and any other website where these Terms are posted; (ii) our online hosted services; and (iii) our 'Software'...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Airtable** at **airtable.com** is **Formagrid Inc.** (doing business as **Airtable**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOKkxUEWQ0BfhUEUku5M8wapTSbwqH_msyJGAHScfgKoe1JODAyM8kvPYsQNAuAX1fCb5ARITgQkaCfUeVEYLqqteo-uENdtcD15nNUKvdnupFaW5N0EI44Ug=",
+          "title": "airtable.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Airtable** at **airtable.com** is **Formagrid Inc.** (doing business as **Airtable**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH34ttyyCLTJkdo6jvMXIO1rUZjT3AXJKplkJ07uGQhlmq1GDE7B6QJ736u8ZLC4uraIvVVVfQ9hEc0rX9McC813ZSmRWY6QNfj0zkkmyrwuzhEh4uyFwJ1sYk=",
+          "title": "airtable.com"
+        },
+        {
+          "id": 2,
+          "text": "are an agreement that describes your and our rights, obligations, and responsibilities. More specifically, these Terms govern how you may access and use: (i) airtable.com, its subdomains, and any other website where these Terms are posted; (ii) our online hosted services; and (iii) our",
+          "url": "https://www.airtable.com/company/tos",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Formagrid Inc.",
+        "evidence": "Passage 0 explicitly identifies Formagrid Inc. (doing business as Airtable) as the vendor directly providing Airtable at airtable.com.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Airtable** at **airtable.com** is **Formagrid Inc.** (doing business as **Airtable**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOKkxUEWQ0BfhUEUku5M8wapTSbwqH_msyJGAHScfgKoe1JODAyM8kvPYsQNAuAX1fCb5ARITgQkaCfUeVEYLqqteo-uENdtcD15nNUKvdnupFaW5N0EI44Ug=",
+          "title": "airtable.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Airtable",
+    "domain": "airtable.com",
+    "description": "Airtable is a California-based low-code platform that empowers businesses to create and collaborate on applications with ease. By combining the simplicity of a spreadsheet with the power of a database, Airtable provides users with tools to design tailored workflows and enhance team productivity."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Formagrid Inc.",
+  "evidence": "Passage 0 explicitly identifies Formagrid Inc. (doing business as Airtable) as the vendor directly providing Airtable at airtable.com.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Airtable** at **airtable.com** is **Formagrid Inc.** (doing business as **Airtable**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOKkxUEWQ0BfhUEUku5M8wapTSbwqH_msyJGAHScfgKoe1JODAyM8kvPYsQNAuAX1fCb5ARITgQkaCfUeVEYLqqteo-uENdtcD15nNUKvdnupFaW5N0EI44Ug=",
+    "title": "airtable.com"
+  },
+  "checked_at": "2026-11-05T09:15:49.702358+00:00"
+}

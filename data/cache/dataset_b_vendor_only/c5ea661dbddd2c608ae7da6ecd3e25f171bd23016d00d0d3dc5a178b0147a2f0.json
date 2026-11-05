@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "For **PicAI** at the domain **picai.so**:\n\n* **Vendor / Published Developer:** **Morgan** (operating directly under the product brand **PicAI**).\n* **Evidence / Provider Statement:** The footer of the official website at `picai.so` states:\n  > *\"Made with [❤️] by Morgan · Terms of Service · Privacy Policy\"*  \n  and promotes the tool as *\"Create photorealistic images of people with PicAI\"*. \n\nNo separate registered corporate entity or operating company is identified on the site's pages.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**Vendor / Published Developer:** **Morgan** (operating directly under the product brand **PicAI**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFR0sJQYyTl_VghwrNSLSiF1saOPQfvLMtoP3yOD6y5mF8yasi27CYuC4p9Yz7Ik3sEdBwNvqOVXBmqBc-MmRV-UWDMEFOr6W8vlw==",
+          "title": "picai.so"
+        },
+        {
+          "id": 1,
+          "text": "*\"Made with [❤️] by Morgan · Terms of Service · Privacy Policy\"*  \n  a",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFR0sJQYyTl_VghwrNSLSiF1saOPQfvLMtoP3yOD6y5mF8yasi27CYuC4p9Yz7Ik3sEdBwNvqOVXBmqBc-MmRV-UWDMEFOr6W8vlw==",
+          "title": "picai.so"
+        },
+        {
+          "id": 2,
+          "text": "omotes the tool as *\"Create photorealistic images of people with PicAI\"*. \n\nNo",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFR0sJQYyTl_VghwrNSLSiF1saOPQfvLMtoP3yOD6y5mF8yasi27CYuC4p9Yz7Ik3sEdBwNvqOVXBmqBc-MmRV-UWDMEFOr6W8vlw==",
+          "title": "picai.so"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Morgan",
+        "evidence": "Passage 0 identifies Morgan as the published developer operating directly under the product brand PicAI.",
+        "source": {
+          "id": 0,
+          "text": "**Vendor / Published Developer:** **Morgan** (operating directly under the product brand **PicAI**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFR0sJQYyTl_VghwrNSLSiF1saOPQfvLMtoP3yOD6y5mF8yasi27CYuC4p9Yz7Ik3sEdBwNvqOVXBmqBc-MmRV-UWDMEFOr6W8vlw==",
+          "title": "picai.so"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "PicAI",
+    "domain": "picai.so",
+    "description": "Transform selfies into stunning AI-generated images"
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Morgan",
+  "evidence": "Passage 0 identifies Morgan as the published developer operating directly under the product brand PicAI.",
+  "source": {
+    "id": 0,
+    "text": "**Vendor / Published Developer:** **Morgan** (operating directly under the product brand **PicAI**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFR0sJQYyTl_VghwrNSLSiF1saOPQfvLMtoP3yOD6y5mF8yasi27CYuC4p9Yz7Ik3sEdBwNvqOVXBmqBc-MmRV-UWDMEFOr6W8vlw==",
+    "title": "picai.so"
+  },
+  "checked_at": "2026-11-05T06:05:58.750520+00:00"
+}

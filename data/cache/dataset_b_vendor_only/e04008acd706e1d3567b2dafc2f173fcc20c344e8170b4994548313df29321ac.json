@@ -1,0 +1,79 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software platform **Crowdin** at **crowdin.com** is **Crowdin OÜ**.\n\n### Supporting Evidence & Provider Statement\n* **Terms of Service**: Defines the supplier and provider as:  \n  > *\"Crowdin OÜ, a private limited company established under the laws of the Republic of Estonia, having its principal place of business at Liivalaia 36, Kesklinna linnaosa, Tallinn, Harju maakond, 10132, Republic of Estonia, Register under code 14479905.\"*  \n  The terms also note: *\"Supplier, as the context requires, Crowdin OÜ\"* providing the *\"Crowdin Services, the Web Site, System, Content, Platform, and all content, services and/or products available on or through the Platform...\"*\n* **Privacy Policy & Docs**: Reaffirms that the operating entity is **Crowdin OÜ** (Registry Code: 14479905).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software platform **Crowdin** at **crowdin.com** is **Crowdin OÜ**.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVpLodm8SQ9P5vcd_7bWD0kWSeToysk3nRIznBUKyuUtSi79d54uJRykeCY_nubbuKk06Nvoa7hx4u0Nzrk29P6cwJQHQDjO7Hz_8FlJf-gnn0M35UeXU=",
+          "title": "crowdin.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the software platform **Crowdin** at **crowdin.com** is **Crowdin OÜ**.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVpLodm8SQ9P5vcd_7bWD0kWSeToysk3nRIznBUKyuUtSi79d54uJRykeCY_nubbuKk06Nvoa7hx4u0Nzrk29P6cwJQHQDjO7Hz_8FlJf-gnn0M35UeXU=",
+          "title": "crowdin.com"
+        },
+        {
+          "id": 2,
+          "text": "\"Crowdin OÜ, a private limited company established under the laws of the Republic of Estonia, having its principal place of business at Liivalaia 36, Kesklinna linnaosa, Tallinn, Harju maakond, 10132, Republic of Estonia, Register under code 14479905.\"*  ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVpLodm8SQ9P5vcd_7bWD0kWSeToysk3nRIznBUKyuUtSi79d54uJRykeCY_nubbuKk06Nvoa7hx4u0Nzrk29P6cwJQHQDjO7Hz_8FlJf-gnn0M35UeXU=",
+          "title": "crowdin.com"
+        },
+        {
+          "id": 3,
+          "text": "\"Crowdin OÜ, a private limited company established under the laws of the Republic of Estonia, having its principal place of business at Liivalaia 36, Kesklinna linnaosa, Tallinn, Harju maakond, 10132, Republic of Estonia, Register under code 14479905.\"*  ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVpLodm8SQ9P5vcd_7bWD0kWSeToysk3nRIznBUKyuUtSi79d54uJRykeCY_nubbuKk06Nvoa7hx4u0Nzrk29P6cwJQHQDjO7Hz_8FlJf-gnn0M35UeXU=",
+          "title": "crowdin.com"
+        },
+        {
+          "id": 4,
+          "text": "e terms also note: *\"Supplier, as the context requires, Crowdin OÜ\"* pr",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnw7qyVvzmRPCq3PEDLWNhs0UUfye4IGyLrDpjUQndWnHw1KFWdJFsVCqFV54p7w8ku1q7rwNAHuQ26brGikxJlKKiio6eJ_aH5f4DascZbTWpUzgetZZu",
+          "title": "crowdin.com"
+        },
+        {
+          "id": 5,
+          "text": "e terms also note: *\"Supplier, as the context requires, Crowdin OÜ\"* providing the *\"Crowdin Services, the Web Site, System, Content, Platform, and all content, services and/or products available on or through the Platform...\"*\n* ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVpLodm8SQ9P5vcd_7bWD0kWSeToysk3nRIznBUKyuUtSi79d54uJRykeCY_nubbuKk06Nvoa7hx4u0Nzrk29P6cwJQHQDjO7Hz_8FlJf-gnn0M35UeXU=",
+          "title": "crowdin.com"
+        },
+        {
+          "id": 6,
+          "text": "e terms also note: *\"Supplier, as the context requires, Crowdin OÜ\"* providing the *\"Crowdin Services, the Web Site, System, Content, Platform, and all content, services and/or products available on or through the Platform...\"*\n* ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVpLodm8SQ9P5vcd_7bWD0kWSeToysk3nRIznBUKyuUtSi79d54uJRykeCY_nubbuKk06Nvoa7hx4u0Nzrk29P6cwJQHQDjO7Hz_8FlJf-gnn0M35UeXU=",
+          "title": "crowdin.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Crowdin OÜ",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing the software platform Crowdin at crowdin.com is Crowdin OÜ.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the software platform **Crowdin** at **crowdin.com** is **Crowdin OÜ**.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVpLodm8SQ9P5vcd_7bWD0kWSeToysk3nRIznBUKyuUtSi79d54uJRykeCY_nubbuKk06Nvoa7hx4u0Nzrk29P6cwJQHQDjO7Hz_8FlJf-gnn0M35UeXU=",
+          "title": "crowdin.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Crowdin",
+    "domain": "crowdin.com",
+    "description": "Crowdin is a comprehensive localization platform that enables businesses to make their websites and software globally accessible through effective translation. The platform features an advanced online editor that streamlines the translation process and supports various industry-standard localization formats such as Android, iOS, .NET, Gettext, and XLIFF. Crowdin also accommodates both online and offline translation workflows, offering flexibility and efficiency for translation teams."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Crowdin OÜ",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing the software platform Crowdin at crowdin.com is Crowdin OÜ.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the software platform **Crowdin** at **crowdin.com** is **Crowdin OÜ**.",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVpLodm8SQ9P5vcd_7bWD0kWSeToysk3nRIznBUKyuUtSi79d54uJRykeCY_nubbuKk06Nvoa7hx4u0Nzrk29P6cwJQHQDjO7Hz_8FlJf-gnn0M35UeXU=",
+    "title": "crowdin.com"
+  },
+  "checked_at": "2026-11-05T09:25:01.938915+00:00"
+}

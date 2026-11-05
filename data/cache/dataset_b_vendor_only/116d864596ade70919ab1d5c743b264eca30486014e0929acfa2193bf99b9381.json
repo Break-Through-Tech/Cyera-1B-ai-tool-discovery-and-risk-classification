@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product **Mentalyc** at **mentalyc.com** is **Mentalyc Inc.** (a Delaware corporation).\n\n### Provider Statement\nAccording to the Mentalyc *Terms of Use*:\n> *\"These Terms of Use will govern your use of the Mentalyc Inc. web application (the “Application”, “App”, or “Licensed Application”), the mentalyc.com website (the “Website), and all other services provided by Mentalyc Inc. (Collectively the “Services”).\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product **Mentalyc** at **mentalyc.com** is **Mentalyc Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFky2uNhWJpt9feH6wV_o7gUbI4mXiGy2xFJs2geoWXk7H0_MrBxpZ8uADojxekDVBQDK-OW9IrcyVTf_xMXbY7FNRTC1AZO-tGiGUFzv-2mafp5yb_vvqydD73",
+          "title": "mentalyc.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the software product **Mentalyc** at **mentalyc.com** is **Mentalyc Inc.** (a Delaware corporation)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMP7Q-9TceQ4UbQET9Rbdp3ZTg52VS_I7XB7QXcsqsKvZDsAIuxv_yy-qPc82kVSMGmCWhqeplbPFXddVULCyvZVpMazjk5c-PBvYv4tfYPQW5-jGPAuqwq1Tr3ve-OwqBHn_xluDm9SZ-IQ==",
+          "title": "mentalyc.com"
+        },
+        {
+          "id": 2,
+          "text": "These Terms of Use will govern your use of the Mentalyc Inc. web application (the “Application”, “App”, or “Licensed Application”), the mentalyc.com website (the “Website), and all other services provided by Mentalyc Inc. (Collectively the “Servic",
+          "url": "https://www.mentalyc.com/terms-of-use",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Mentalyc Inc.",
+        "evidence": "Passage 2 notes from the Terms of Use that the mentalyc.com website, web application, and related services are provided by Mentalyc Inc.",
+        "source": {
+          "id": 2,
+          "text": "These Terms of Use will govern your use of the Mentalyc Inc. web application (the “Application”, “App”, or “Licensed Application”), the mentalyc.com website (the “Website), and all other services provided by Mentalyc Inc. (Collectively the “Servic",
+          "url": "https://www.mentalyc.com/terms-of-use",
+          "title": ""
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Mentalyc",
+    "domain": "mentalyc.com",
+    "description": "Effortless Automated Notes for Mental Health Providers"
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Mentalyc Inc.",
+  "evidence": "Passage 2 notes from the Terms of Use that the mentalyc.com website, web application, and related services are provided by Mentalyc Inc.",
+  "source": {
+    "id": 2,
+    "text": "These Terms of Use will govern your use of the Mentalyc Inc. web application (the “Application”, “App”, or “Licensed Application”), the mentalyc.com website (the “Website), and all other services provided by Mentalyc Inc. (Collectively the “Servic",
+    "url": "https://www.mentalyc.com/terms-of-use",
+    "title": ""
+  },
+  "checked_at": "2026-11-05T05:58:07.728054+00:00"
+}

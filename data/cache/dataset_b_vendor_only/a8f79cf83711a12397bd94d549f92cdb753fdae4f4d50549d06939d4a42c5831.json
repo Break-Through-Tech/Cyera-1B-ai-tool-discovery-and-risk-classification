@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **jQuery** at **jquery.com** is the **OpenJS Foundation** (in conjunction with the jQuery contributor community).\n\n### Evidence\n* **Copyright and Legal Terms:** The official site footer across `jquery.com` states:  \n  > *\"Copyright ... OpenJS Foundation and jQuery contributors. All rights reserved. See jQuery License for more information. ... OpenJS Foundation Terms of Use, Privacy, Code of Conduct, and Cookie Policies also apply.\"*\n* **License & Project Governance:** The `jquery.com/license/` documentation notes that:  \n  > *\"the term 'Project' will refer to any OpenJS Foundation project using the MIT license AND referencing this document in the header of the distributed Project code or Project website source code.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **jQuery** at **jquery.com** is the **OpenJS Foundation**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBg8g3Fy-3nkDncApd6W2-7BJ3YZ4I6Ip1rPwZ-tStonebAaBK7vv11vRlUgrAVYlVW4mjkSn0apuu131qrv7DnSSN8zg1GvEoSQL-RweN9Lo=",
+          "title": "jquery.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **jQuery** at **jquery.com** is the **OpenJS Foundation**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBSd-uaFnrC7npifb1ebWxLx8pJquOFk2vYikJIV-NWTre2PMinCexB1zqpmGmP1HC4GOdgaQnHFYplO0eX8ZUbPrR7SKahPjv6vktRfCp-S2Ff3hDhY0=",
+          "title": "jquery.com"
+        },
+        {
+          "id": 2,
+          "text": "The vendor directly providing **jQuery** at **jquery.com** is the **OpenJS Foundation** (in conjunction with the jQuery contributor community)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4Rgim9x0yDQT1oC9bFgDZfcrICRZIVyKWiSqzMAIgTuS2exqrEdrLovI0wnJQCh7LrIV7ujfQeu_cx5OLfVGlO_NnPcMNQuaR",
+          "title": "jquery.com"
+        },
+        {
+          "id": 3,
+          "text": "OpenJS Foundation Terms of Use, Privacy, Code of Conduct, and Cookie Policies also apply.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4Rgim9x0yDQT1oC9bFgDZfcrICRZIVyKWiSqzMAIgTuS2exqrEdrLovI0wnJQCh7LrIV7ujfQeu_cx5OLfVGlO_NnPcMNQuaR",
+          "title": "jquery.com"
+        },
+        {
+          "id": 4,
+          "text": "*\"the term 'Project' will refer to any OpenJS Foundation project using the MIT license AND referencing this document in the header of the distributed Project code or Project website source code.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBg8g3Fy-3nkDncApd6W2-7BJ3YZ4I6Ip1rPwZ-tStonebAaBK7vv11vRlUgrAVYlVW4mjkSn0apuu131qrv7DnSSN8zg1GvEoSQL-RweN9Lo=",
+          "title": "jquery.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "OpenJS Foundation",
+        "evidence": "Passage 0 directly states that the vendor providing jQuery at jquery.com is the OpenJS Foundation.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **jQuery** at **jquery.com** is the **OpenJS Foundation**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBg8g3Fy-3nkDncApd6W2-7BJ3YZ4I6Ip1rPwZ-tStonebAaBK7vv11vRlUgrAVYlVW4mjkSn0apuu131qrv7DnSSN8zg1GvEoSQL-RweN9Lo=",
+          "title": "jquery.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "jQuery",
+    "domain": "jquery.com",
+    "description": "jQuery is a lightweight and efficient JavaScript library that enhances web development by simplifying tasks such as HTML document manipulation, event handling, animations, and Ajax interactions. Originally created by John Resig and launched in 2006, jQuery has become a fundamental tool widely adopted across approximately 20% of websites, facilitating streamlined JavaScript coding for developers."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "OpenJS Foundation",
+  "evidence": "Passage 0 directly states that the vendor providing jQuery at jquery.com is the OpenJS Foundation.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **jQuery** at **jquery.com** is the **OpenJS Foundation**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBg8g3Fy-3nkDncApd6W2-7BJ3YZ4I6Ip1rPwZ-tStonebAaBK7vv11vRlUgrAVYlVW4mjkSn0apuu131qrv7DnSSN8zg1GvEoSQL-RweN9Lo=",
+    "title": "jquery.com"
+  },
+  "checked_at": "2026-11-05T09:22:23.440075+00:00"
+}

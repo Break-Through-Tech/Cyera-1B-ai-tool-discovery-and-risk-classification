@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product **Huxli** at **huxli.ai** is **Huxli LLC**.\n\n### Evidence\nAccording to the official Terms of Use hosted at `huxli.ai`:\n> *\"We are Huxli LLC (\"Company,\" \"we,\" \"us,\" \"our\"), a company registered in California, United States at 4451 Pinyon Tree Ln, Irvine, CA 92612. We operate the website https://huxli.ai (the \"Site\"), as well as any other related products and services that refer or link to these legal terms...\"*\n\nThis is additionally corroborated by the Privacy Policy at `huxli.ai`:\n> *\"This privacy notice for Huxli LLC (\"Company,\" \"we,\" \"us,\" or \"our\"), describes how and why we might collect, store, use, and/or share (\"process\") your information when you use our services (\"Services\"), such as when you: Visit our website at huxli.ai...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product **Huxli** at **huxli.ai** is **Huxli LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdLmSIqsjpgNXtTvIryKymrGpZ_IjbNYCrLvhXCiYmXt7L8Rv9mZal2XQGnKBCWf3DF4smQ2CfPwTY6Y40aiUiXIOahzHoaJmlc2cgkf5oCg==",
+          "title": "huxli.ai"
+        },
+        {
+          "id": 1,
+          "text": "We operate the website https://huxli.ai (the \"Site\"), as well as any other related products and services that refer or link to these legal terms...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdLmSIqsjpgNXtTvIryKymrGpZ_IjbNYCrLvhXCiYmXt7L8Rv9mZal2XQGnKBCWf3DF4smQ2CfPwTY6Y40aiUiXIOahzHoaJmlc2cgkf5oCg==",
+          "title": "huxli.ai"
+        },
+        {
+          "id": 2,
+          "text": "*\"This privacy notice for Huxli LLC (\"Company,\" \"we,\" \"us,\" or \"our\"), describes how and why we might collect, store, use, and/or share (\"process\") your information when you use our services (\"Services\"), such as when you: Visit our website at huxli.ai...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHl2mQRBtFhCDmWqazdnbCHiW8mb7s4iYMHzLSj9iQ_qf-tnZ-BqBcw0F73_8DlMebukBkm9cwZjCCnSoSLXEkDhyA3_9OkVvuLX6lfY9JleyYV",
+          "title": "huxli.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Huxli LLC",
+        "evidence": "Passage 2 states that the privacy notice for Huxli LLC applies when users visit the website at huxli.ai and use its services.",
+        "source": {
+          "id": 2,
+          "text": "*\"This privacy notice for Huxli LLC (\"Company,\" \"we,\" \"us,\" or \"our\"), describes how and why we might collect, store, use, and/or share (\"process\") your information when you use our services (\"Services\"), such as when you: Visit our website at huxli.ai...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHl2mQRBtFhCDmWqazdnbCHiW8mb7s4iYMHzLSj9iQ_qf-tnZ-BqBcw0F73_8DlMebukBkm9cwZjCCnSoSLXEkDhyA3_9OkVvuLX6lfY9JleyYV",
+          "title": "huxli.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Huxli",
+    "domain": "huxli.ai",
+    "description": "Improved student writing with specialized utilities."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Huxli LLC",
+  "evidence": "Passage 2 states that the privacy notice for Huxli LLC applies when users visit the website at huxli.ai and use its services.",
+  "source": {
+    "id": 2,
+    "text": "*\"This privacy notice for Huxli LLC (\"Company,\" \"we,\" \"us,\" or \"our\"), describes how and why we might collect, store, use, and/or share (\"process\") your information when you use our services (\"Services\"), such as when you: Visit our website at huxli.ai...\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHl2mQRBtFhCDmWqazdnbCHiW8mb7s4iYMHzLSj9iQ_qf-tnZ-BqBcw0F73_8DlMebukBkm9cwZjCCnSoSLXEkDhyA3_9OkVvuLX6lfY9JleyYV",
+    "title": "huxli.ai"
+  },
+  "checked_at": "2026-11-05T07:07:22.943530+00:00"
+}

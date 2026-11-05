@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **Veeqo** at **veeqo.com** is directly provided by **Veeqo Limited** (also referred to as **Veeqo Ltd**, a subsidiary of Amazon).\n\n* **Provider Statement:** The official Terms of Service on veeqo.com state: *\"Veeqo is a multi-channel software application ('Service') provided by Veeqo Limited and its affiliates ('Veeqo', 'us', 'our' or 'we') to you or the business you represent...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **Veeqo** at **veeqo.com** is directly provided by **Veeqo Limited** (also referred to as **Veeqo Ltd**, a subsidiary of Amazon)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEq18VhFATt6MBSDq7-OvZmEz6CJ3u8_wpw_Rn6ByAA_uUGD1NuqpAlyOSpVlGfJr4ymQfh1KUpblXa6DCrfI1E4P2FhPWHbFrU3YfC2F1F-r5tWUMsi0__JlVK",
+          "title": "veeqo.com"
+        },
+        {
+          "id": 1,
+          "text": "The software product **Veeqo** at **veeqo.com** is directly provided by **Veeqo Limited** (also referred to as **Veeqo Ltd**, a subsidiary of Amazon)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaBngdsgz_nOnYssZYEslpAto9mA8ZXi5PTkGC-Hw12t0MJ43pZTVZH2J1MkGtbtzxth4yBhPr3UYqp_pETF2Oh18Kq7KhIA_jqdggRUNA6IusWy-r0jlPUAym1X_iHaqsdE4=",
+          "title": "veeqo.com"
+        },
+        {
+          "id": 2,
+          "text": "**Provider Statement:** The official Terms of Service on veeqo.com state: *\"Veeqo is a multi-channel software application ('Service') provided by Veeqo Limited and its affiliates ('Veeqo', 'us', 'our' or 'we') to you or the business you represent...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEq18VhFATt6MBSDq7-OvZmEz6CJ3u8_wpw_Rn6ByAA_uUGD1NuqpAlyOSpVlGfJr4ymQfh1KUpblXa6DCrfI1E4P2FhPWHbFrU3YfC2F1F-r5tWUMsi0__JlVK",
+          "title": "veeqo.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Veeqo Limited",
+        "evidence": "The official Terms of Service on veeqo.com explicitly state that Veeqo is a multi-channel software application provided by Veeqo Limited and its affiliates.",
+        "source": {
+          "id": 2,
+          "text": "**Provider Statement:** The official Terms of Service on veeqo.com state: *\"Veeqo is a multi-channel software application ('Service') provided by Veeqo Limited and its affiliates ('Veeqo', 'us', 'our' or 'we') to you or the business you represent...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEq18VhFATt6MBSDq7-OvZmEz6CJ3u8_wpw_Rn6ByAA_uUGD1NuqpAlyOSpVlGfJr4ymQfh1KUpblXa6DCrfI1E4P2FhPWHbFrU3YfC2F1F-r5tWUMsi0__JlVK",
+          "title": "veeqo.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Veeqo",
+    "domain": "veeqo.com",
+    "description": "Veeqo is a shipping management software designed to streamline the fulfillment process for e-commerce businesses. It offers features such as automatic rate selection, bulk shipping capabilities, and automated shipping rules, ensuring users can quickly fulfill orders while minimizing costs. Veeqo provides immediate access to discounted shipping rates from major carriers like USPS, UPS, DHL, and FedEx without the need for negotiation. In addition to shipping management, Veeqo also includes inventory control and sales tracking functionalities to help merchants manage their operations effectively. As a Shopify Plus Certified App and part of the Amazon ecosystem, Veeqo delivers trusted data security and reliable performance for online retailers."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Veeqo Limited",
+  "evidence": "The official Terms of Service on veeqo.com explicitly state that Veeqo is a multi-channel software application provided by Veeqo Limited and its affiliates.",
+  "source": {
+    "id": 2,
+    "text": "**Provider Statement:** The official Terms of Service on veeqo.com state: *\"Veeqo is a multi-channel software application ('Service') provided by Veeqo Limited and its affiliates ('Veeqo', 'us', 'our' or 'we') to you or the business you represent...\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEq18VhFATt6MBSDq7-OvZmEz6CJ3u8_wpw_Rn6ByAA_uUGD1NuqpAlyOSpVlGfJr4ymQfh1KUpblXa6DCrfI1E4P2FhPWHbFrU3YfC2F1F-r5tWUMsi0__JlVK",
+    "title": "veeqo.com"
+  },
+  "checked_at": "2026-11-05T09:46:47.311307+00:00"
+}

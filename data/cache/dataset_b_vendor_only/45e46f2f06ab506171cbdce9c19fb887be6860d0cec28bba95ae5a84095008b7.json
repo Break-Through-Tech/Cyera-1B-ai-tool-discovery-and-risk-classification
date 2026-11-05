@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **Headspace** platform at **headspace.com** is **Headspace, Inc.**\n\n### Provider Statement\nAccording to the official **Headspace Terms & Conditions** on `headspace.com`:\n> *\"Headspace, Inc. and its subsidiaries and affiliates (“Headspace,” “us” or “we”) provides content and products via: www.headspace.com (the “Website”), our applications (the “Apps”), or other delivery methods (the Website, the Apps and such content and products are collectively the “Product”).\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **Headspace** platform at **headspace.com** is **Headspace, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHO7RH6NF1arFAJrou8UdNqRcA1qRomW213dYI9SpswLbn_SIt1jtVqrovqza3D9Nj1za0mVvK8FlhDlyYP554qm2VDDIC-C8uN5IsflUF3MldKT8IW013UHlotDEz0MKL7Z1Jo",
+          "title": "headspace.com"
+        },
+        {
+          "id": 1,
+          "text": "headspace.com`:\n> *\"Headspace, Inc. and its subsidiaries and affiliates (“Headspace,” “us” or “we”) provides content and products via: www.headspace.com (the “Website”), our applications (the “Apps”), or other delivery methods (the Website, the Apps and such content and products are collectively the “",
+          "url": "https://www.headspace.com/terms-and-conditions",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Headspace, Inc.",
+        "evidence": "According to the terms and conditions on headspace.com, Headspace, Inc. and its subsidiaries and affiliates provide content and products via www.headspace.com.",
+        "source": {
+          "id": 1,
+          "text": "headspace.com`:\n> *\"Headspace, Inc. and its subsidiaries and affiliates (“Headspace,” “us” or “we”) provides content and products via: www.headspace.com (the “Website”), our applications (the “Apps”), or other delivery methods (the Website, the Apps and such content and products are collectively the “",
+          "url": "https://www.headspace.com/terms-and-conditions",
+          "title": ""
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Headspace",
+    "domain": "headspace.com",
+    "description": "Headspace is a mental health platform that offers accessible support through its app, which features a variety of tools including guided meditations, sleepcasts, and mindfulness exercises. Catering to both individuals and enterprises, Headspace enhances well-being with mental health coaching and integrated services like Employee Assistance Programs (EAP), therapy, and psychiatry. With a diverse team of experts, the company aims to improve mental health for millions globally."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Headspace, Inc.",
+  "evidence": "According to the terms and conditions on headspace.com, Headspace, Inc. and its subsidiaries and affiliates provide content and products via www.headspace.com.",
+  "source": {
+    "id": 1,
+    "text": "headspace.com`:\n> *\"Headspace, Inc. and its subsidiaries and affiliates (“Headspace,” “us” or “we”) provides content and products via: www.headspace.com (the “Website”), our applications (the “Apps”), or other delivery methods (the Website, the Apps and such content and products are collectively the “",
+    "url": "https://www.headspace.com/terms-and-conditions",
+    "title": ""
+  },
+  "checked_at": "2026-11-05T08:27:58.360222+00:00"
+}

@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Todoist** at **todoist.com** is **Todoist Inc.** (also operating under the brand/company name **Doist**).\n\n### Evidence\n* **Todoist Terms of Service** (`todoist.com/terms`):\n  > *\"Welcome, and thank you for your interest in Todoist Inc. (“Todoist,” “we,” “our,” or “us”) and our website at https://www.todoist.com, along with our related websites, networks, applications, mobile applications, and other services provided by us, including, Todoist, Todoist Pro, Todoist Business, Todoist for teams...\"*\n\n* **Todoist Privacy Policy** (`todoist.com/privacy`):\n  > *\"In this Policy, 'Todoist,' 'we,' 'our' or 'us' refers to Todoist Inc., a company registered in Delaware with its registered address located at 251 Little Falls Drive, Wilmington, DE 19808.\"*\n\n* **App Store Listings**: Both the Apple App Store and Google Play Store officially list the provider and developer of the Todoist application as **Todoist Inc.**",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Todoist** at **todoist.com** is **Todoist Inc.** (also operating under the brand/company name **Doist**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGP3bjzZ8_Ili0HfnT4W9lkdw-RJ4lR4M6yTACmipmtKwzZrS5K5RdI7y4rXg0v2dhn3fn5k7wiX_ep9ayt5CentDNvXNwZ6rEJBILVMdIbAGaKlNvaeJavlLRpYjU=",
+          "title": "todoist.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Todoist** at **todoist.com** is **Todoist Inc.** (also operating under the brand/company name **Doist**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEl1aUoLnaMk4nzLA6JKHu4XuKg7l6gIEgbjBb59FH0y5GviEmXUvybvRe1rdOanol6B2a8fW0vJBCh0iI_919a5drnTPIjxFTw7kY7ASmmow8-oJy2kk8O8zGdEx5Lr-0zIGg93m5AFDnxKImtq_6-bldtV1KdaA==",
+          "title": "google.com"
+        },
+        {
+          "id": 2,
+          "text": "The vendor directly providing **Todoist** at **todoist.com** is **Todoist Inc.** (also operating under the brand/company name **Doist**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqCiWANJ40M0emLL8-OHZyZY3dqZtCh2qyayijXPHIp0FtrpPGs-Ywho-HeHuGBScM6wVTnfhxPAiLKQAjycRXzwS43XNpb6MMFr5Hua22QIpcWBnyo2T0GDuHaXwIkgIMKvUsKMuTuc3oCSBWIQ3HPd-BEALVw2sG-zEAAgcIyCbsSN3VyPBHNsRAuw==",
+          "title": "todoist.com"
+        },
+        {
+          "id": 3,
+          "text": "*\"Welcome, and thank you for your interest in Todoist Inc. (“Todoist,” “we,” “our,” or “us”) and our website at https://www.todoist.com, along with our related websites, networks, applications, mobile applications, and other services provided by us, including, Todoist, Todoist Pro, Todoist Business, Todoist for teams...\"*\n\n* **Todoist Pr",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGP3bjzZ8_Ili0HfnT4W9lkdw-RJ4lR4M6yTACmipmtKwzZrS5K5RdI7y4rXg0v2dhn3fn5k7wiX_ep9ayt5CentDNvXNwZ6rEJBILVMdIbAGaKlNvaeJavlLRpYjU=",
+          "title": "todoist.com"
+        },
+        {
+          "id": 4,
+          "text": ", 'Todoist,' 'we,' 'our' or 'us' refers to Todoist Inc., a company registered in Delaware with its registered address located at 251 Little Falls Drive, Wilmington, DE 19808.\"*\n\n* **App Store ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYyEBbv9xYuUFYLu-niprtg88-g-rLhY_ckhk9fwkyWS-fx-NLF6e7t5wQMjZQUYqpJH4mMb3Ke5o-UVjOr9Ada3QLhE5MEBieF3CsbOAQqbdKB0k=",
+          "title": "todoist.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Todoist Inc.",
+        "evidence": "Todoist Inc. identifies itself as the entity operating the website https://www.todoist.com and providing services including Todoist.",
+        "source": {
+          "id": 3,
+          "text": "*\"Welcome, and thank you for your interest in Todoist Inc. (“Todoist,” “we,” “our,” or “us”) and our website at https://www.todoist.com, along with our related websites, networks, applications, mobile applications, and other services provided by us, including, Todoist, Todoist Pro, Todoist Business, Todoist for teams...\"*\n\n* **Todoist Pr",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGP3bjzZ8_Ili0HfnT4W9lkdw-RJ4lR4M6yTACmipmtKwzZrS5K5RdI7y4rXg0v2dhn3fn5k7wiX_ep9ayt5CentDNvXNwZ6rEJBILVMdIbAGaKlNvaeJavlLRpYjU=",
+          "title": "todoist.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Todoist",
+    "domain": "todoist.com",
+    "description": "Todoist is a web-based task management application designed to help users organize and prioritize their tasks. Available on smartphones, tablets, and computers, it enables seamless management of to-do lists and projects across various devices, making productivity more accessible and efficient."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Todoist Inc.",
+  "evidence": "Todoist Inc. identifies itself as the entity operating the website https://www.todoist.com and providing services including Todoist.",
+  "source": {
+    "id": 3,
+    "text": "*\"Welcome, and thank you for your interest in Todoist Inc. (“Todoist,” “we,” “our,” or “us”) and our website at https://www.todoist.com, along with our related websites, networks, applications, mobile applications, and other services provided by us, including, Todoist, Todoist Pro, Todoist Business, Todoist for teams...\"*\n\n* **Todoist Pr",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGP3bjzZ8_Ili0HfnT4W9lkdw-RJ4lR4M6yTACmipmtKwzZrS5K5RdI7y4rXg0v2dhn3fn5k7wiX_ep9ayt5CentDNvXNwZ6rEJBILVMdIbAGaKlNvaeJavlLRpYjU=",
+    "title": "todoist.com"
+  },
+  "checked_at": "2026-11-05T09:23:24.819735+00:00"
+}

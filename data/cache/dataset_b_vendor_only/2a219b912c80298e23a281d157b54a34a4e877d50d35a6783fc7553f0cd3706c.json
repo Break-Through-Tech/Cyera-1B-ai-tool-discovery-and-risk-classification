@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product at **teamup.com** (**Teamup Calendar**) is **Teamup Solutions AG**.\n\n### Evidence\n* **Terms of Service** (`teamup.com/terms-of-service/`):\n  > *\"These Terms of Service (“Terms”) apply to the use of the Teamup Calendar service (“Service”) by you (“you” or “Customer”). The Service is provided by Teamup Solutions AG, Kreuzstrasse 42, 8008 Zurich, Switzerland (“Teamup”).\"*\n* **About Us** (`teamup.com/about-us/`):\n  > *\"Teamup Calendar is a cloud-based group calendar application developed by Teamup Solutions AG in Zurich, Switzerland.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product at **teamup.com** (**Teamup Calendar**) is **Teamup Solutions AG**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFR7zOwBYVfgm3Lo0W1_EqWruguVVjRAeUXAEjSECcMmy74ulTNVKdaItOY0rDSaMiD_Io4tfgJx2nWw9ND_kT5nWG4HhqvYwerqnrGsYa2pE-cq2PwaA==",
+          "title": "teamup.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the software product at **teamup.com** (**Teamup Calendar**) is **Teamup Solutions AG**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5O4bCYlxVC_tWqBY4Gu-r_FjrchRpH50bWmKttGNgGfGWDfPGEyepvrEBA4No4KSQQ_gr5Y0hJ0nm9CpzpaQSEQ3RHOfYHxm8AlwI8FzSic8q_Rmo31F01Td-gyRE",
+          "title": "teamup.com"
+        },
+        {
+          "id": 2,
+          "text": "rovided by Teamup Solutions AG, Kreuzstrasse 42, 8008 Zurich, Switzerland (“Teamup”).\"*\n* **About Us** (`te",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5O4bCYlxVC_tWqBY4Gu-r_FjrchRpH50bWmKttGNgGfGWDfPGEyepvrEBA4No4KSQQ_gr5Y0hJ0nm9CpzpaQSEQ3RHOfYHxm8AlwI8FzSic8q_Rmo31F01Td-gyRE",
+          "title": "teamup.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Teamup Solutions AG",
+        "evidence": "Passage 0 directly states that the vendor directly providing the software product at teamup.com (Teamup Calendar) is Teamup Solutions AG.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the software product at **teamup.com** (**Teamup Calendar**) is **Teamup Solutions AG**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFR7zOwBYVfgm3Lo0W1_EqWruguVVjRAeUXAEjSECcMmy74ulTNVKdaItOY0rDSaMiD_Io4tfgJx2nWw9ND_kT5nWG4HhqvYwerqnrGsYa2pE-cq2PwaA==",
+          "title": "teamup.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Teamup Solutions",
+    "domain": "teamup.com",
+    "description": "Teamup Solutions AG offers a cloud-based calendaring application designed for teams and businesses. Their solution facilitates collaborative scheduling and helps organizations manage their events and resources efficiently."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Teamup Solutions AG",
+  "evidence": "Passage 0 directly states that the vendor directly providing the software product at teamup.com (Teamup Calendar) is Teamup Solutions AG.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the software product at **teamup.com** (**Teamup Calendar**) is **Teamup Solutions AG**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFR7zOwBYVfgm3Lo0W1_EqWruguVVjRAeUXAEjSECcMmy74ulTNVKdaItOY0rDSaMiD_Io4tfgJx2nWw9ND_kT5nWG4HhqvYwerqnrGsYa2pE-cq2PwaA==",
+    "title": "teamup.com"
+  },
+  "checked_at": "2026-11-05T08:56:46.095661+00:00"
+}

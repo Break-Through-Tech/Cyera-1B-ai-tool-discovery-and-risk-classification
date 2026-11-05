@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product **Calaméo** at **calameo.com** is **CALAMEO SAS** (or **Calaméo SAS**).\n\n### Evidence\n* **Terms of Use (`calameo.com`):** \n  > *\"BETWEEN CALAMEO SAS, a company with a registered capital of 200,772 euros, headquartered at 25, rue de Ponthieu – 75008 PARIS, FRANCE, email: contact@calameo.com, website: https://www.calameo.com/ registered in the PARIS Trade and Companies Register under number 503 780 439, represented by its manager, (hereinafter referred to as the Company)... AND You, user of the CALAMEO service...\"*\n* **Privacy Policy (`calameo.com`):** \n  > *\"Calaméo SAS, a company with a registered capital of €200,772, with head offices at 25, rue de Ponthieu – 75008 Paris, France, represented by its CEO, is responsible for your personal data in its capacity as a 'data controller.'\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product **Calaméo** at **calameo.com** is **CALAMEO SAS** (or **Calaméo SAS**).\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFW86M3pbCTQgarIwKmsjqLcjR5gJ1YanPNn-kidj0pGwFXhRmNC6wyc1vjaFC1RprtKGNEHw1DmvjD5ZX5D57tVuC8we7t1Gnk83ZGtlzGr9MTXfXZg==",
+          "title": "calameo.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the software product **Calaméo** at **calameo.com** is **CALAMEO SAS** (or **Calaméo SAS**).\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFooHfe_jkEFeSjyM7Cmn6yjzr1PmZnr5XETQ__lAoi-9RmrU23Higr6ozeXwO3doGsVANSc4emjbEf0a1R2a-coGu6pARX8TSYlxyF05YoraONwtoX",
+          "title": "calameo.com"
+        },
+        {
+          "id": 2,
+          "text": "You, user of the CALAMEO service...\"*\n* *",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFW86M3pbCTQgarIwKmsjqLcjR5gJ1YanPNn-kidj0pGwFXhRmNC6wyc1vjaFC1RprtKGNEHw1DmvjD5ZX5D57tVuC8we7t1Gnk83ZGtlzGr9MTXfXZg==",
+          "title": "calameo.com"
+        },
+        {
+          "id": 3,
+          "text": "Calaméo SAS, a company with a registered capital of €200,772, with head offices at 25, rue de Ponthieu – 75008 Paris, France, represented by its CEO, is responsible for your personal data in its capacity as a 'data contr",
+          "url": "https://www.calameo.com/privacy",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "CALAMEO SAS",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing the software product Calaméo at calameo.com is CALAMEO SAS (or Calaméo SAS).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the software product **Calaméo** at **calameo.com** is **CALAMEO SAS** (or **Calaméo SAS**).\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFW86M3pbCTQgarIwKmsjqLcjR5gJ1YanPNn-kidj0pGwFXhRmNC6wyc1vjaFC1RprtKGNEHw1DmvjD5ZX5D57tVuC8we7t1Gnk83ZGtlzGr9MTXfXZg==",
+          "title": "calameo.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Calaméo",
+    "domain": "calameo.com",
+    "description": "Calaméo is a leading multilingual digital publishing platform that empowers users to instantly create and share interactive multimedia content such as magazines, brochures, reports, and presentations. With a global community of five million users, Calaméo caters to both private individuals and professional organizations, allowing for seamless publishing on any device."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "CALAMEO SAS",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing the software product Calaméo at calameo.com is CALAMEO SAS (or Calaméo SAS).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the software product **Calaméo** at **calameo.com** is **CALAMEO SAS** (or **Calaméo SAS**).\n",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFW86M3pbCTQgarIwKmsjqLcjR5gJ1YanPNn-kidj0pGwFXhRmNC6wyc1vjaFC1RprtKGNEHw1DmvjD5ZX5D57tVuC8we7t1Gnk83ZGtlzGr9MTXfXZg==",
+    "title": "calameo.com"
+  },
+  "checked_at": "2026-11-05T08:44:37.875677+00:00"
+}

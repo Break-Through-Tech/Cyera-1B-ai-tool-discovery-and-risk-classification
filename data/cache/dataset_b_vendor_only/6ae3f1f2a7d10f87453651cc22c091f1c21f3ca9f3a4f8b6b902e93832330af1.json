@@ -1,0 +1,101 @@
+{
+  "attempts": [
+    {
+      "answer": "No vendor, operating company, or published developer can be established for **Deleo** at the domain **`deleo.io`**. \n\nThe website at `deleo.io` does not provide an accessible or indexed About, Terms of Service, or Privacy Policy page, and third-party AI tool directories (such as Toolify and Toolbox AI) list the tool and domain without identifying any underlying legal entity, developer, or verified provider brand.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "No vendor, operating company, or published developer can be established for **Deleo** at the domain **`deleo.io`**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjheBvEbOZouf7rEr6XeXRXhy66_T4YIGb2jtB8l5QPfygE4_kT5MvUxPT7xesq54nbMAPOTaZCtTYVZIKYM3rX9LIB0aOOHw32iY6dM6H_1lAjHcJwdFl59CzCR02rD1jgnDTFrwwSMYM37C4",
+          "title": "artaitools.com"
+        },
+        {
+          "id": 1,
+          "text": "No vendor, operating company, or published developer can be established for **Deleo** at the domain **`deleo.io`**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdnWJZOxIZh_h5A0AdBETqRCAZygFzCGgfIXJFVXytYbN3H1c-2I3VyuX42yjnEi2tgO1QgnNQlY9wZQJ2TP1EVavdN50AMt5u3lcFPrc-Hm914nDYX7MMKGxWIVb9alOfhlqcSlk1j44b0QrNVbNaQTxv9WX8aWjR",
+          "title": "toolify.ai"
+        },
+        {
+          "id": 2,
+          "text": "The website at `deleo.io` does not provide an accessible or indexed About, Terms of Service, or Privacy Policy page, and third-party AI tool directories (such as Toolify and Toolbox AI) list the tool and domain without identifying any underlying legal entity, developer, or verified provider brand",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdnWJZOxIZh_h5A0AdBETqRCAZygFzCGgfIXJFVXytYbN3H1c-2I3VyuX42yjnEi2tgO1QgnNQlY9wZQJ2TP1EVavdN50AMt5u3lcFPrc-Hm914nDYX7MMKGxWIVb9alOfhlqcSlk1j44b0QrNVbNaQTxv9WX8aWjR",
+          "title": "toolify.ai"
+        },
+        {
+          "id": 3,
+          "text": "The website at `deleo.io` does not provide an accessible or indexed About, Terms of Service, or Privacy Policy page, and third-party AI tool directories (such as Toolify and Toolbox AI) list the tool and domain without identifying any underlying legal entity, developer, or verified provider brand",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFY0czhJYFeH92_tsqm3LE-8EL4XkLLSjZLZXJXhMIhXpz7X3GsyR5hFtjd312SK6KUdcLx7RhyZ5rjiQPXMZJHLUQoAY0PeAfmQvteVmBcV68GG5_HWieucGlNIbc5P0N7h0vL",
+          "title": "modeltheme.com"
+        }
+      ],
+      "result": {
+        "status": "unknown",
+        "vendor": "UNKNOWN",
+        "evidence": "The provided evidence states that no vendor, operating company, or published developer can be established for Deleo at deleo.io, as the website lacks accessible About, Terms, or Privacy pages, and directories list it without identifying any entity or developer."
+      }
+    },
+    {
+      "answer": "For the software product **Deleo** (also known as **Deleo AI** or **Deleo IO**) associated with the domain **`deleo.io`**:\n\n* **Operating Company / Developer:** No distinct registered legal entity (such as an LLC, Inc., or Ltd.) or named individual developer is disclosed in public records, Terms of Service, or WHOIS data. \n* **Provider Brand:** AI software index listings identify the operating provider brand as **Deleo IO** (cited by directory records as *\"Deleo IO Company name: Deleo IO\"* and citing support at `support@deleo.io`). \n\nIf third-party directory designations are set aside for lack of an independent, primary corporate disclosure page on `deleo.io`, a formal vendor cannot be definitively established.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**Operating Company / Developer:** No distinct registered legal entity (such as an LLC, Inc., or Ltd.) or named individual developer is disclosed in public records, Terms of Service, or WHOIS data",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHq4-Sk0pxCgbXd0tiWrb-erhRG3F-mlbbpKoaHP0Ooz88u0rWy09L3cE89nK3WZ8twERbWdheZydU1tXrptPN8m_3keB9Eu9um8cHfmCngkJaIUySdImR6S7w=",
+          "title": "aizhan.com"
+        },
+        {
+          "id": 1,
+          "text": "**Operating Company / Developer:** No distinct registered legal entity (such as an LLC, Inc., or Ltd.) or named individual developer is disclosed in public records, Terms of Service, or WHOIS data",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDTHWwQRXW9dwh5vF3VRe0tTRs7rx6gQum8VFbnHPdbxMNF3NpmjwhTHvMS0Uq3gAFQnswQ1JjFXrGJI2yQoEjzWf9yv0P0gYE1XEGHkxnNmf4waSL80GMZgU0bsE=",
+          "title": "informer.com"
+        },
+        {
+          "id": 2,
+          "text": "**Provider Brand:** AI software index listings identify the operating provider brand as **Deleo IO** (cited by directory records as *\"Deleo IO Company name: Deleo IO\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_aGvD1Bk2w4rOdVmNDM8VmkjFwUZPc1DmUQ-c3dcnZR2Ldue8g3w4qncOrQ4N7xh7YKRc_G9IyiVHS5AsP114uzpN9Y7K5WnvNlFJDA9z_CY=",
+          "title": "tyy.ai"
+        },
+        {
+          "id": 3,
+          "text": "**Provider Brand:** AI software index listings identify the operating provider brand as **Deleo IO** (cited by directory records as *\"Deleo IO Company name: Deleo IO\"* and citing support at `support@deleo.io`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEly5_C658ieJkQzhgpt14OvFra89ou9dI6pwPulPKwIs0TVF0jQAIRCLfnh1hgP6JktM4PHfXSs36B2V-BvzirQ4Yem4a2BUwPc5jgKxCgxM6_Mkp10811Ig-jOphiOvaUCZRRkuMoViXkdQ8OscQ=",
+          "title": "xix.ai"
+        },
+        {
+          "id": 4,
+          "text": "If third-party directory designations are set aside for lack of an independent, primary corporate disclosure page on `deleo.io`, a formal vendor cannot be definitively established",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHq4-Sk0pxCgbXd0tiWrb-erhRG3F-mlbbpKoaHP0Ooz88u0rWy09L3cE89nK3WZ8twERbWdheZydU1tXrptPN8m_3keB9Eu9um8cHfmCngkJaIUySdImR6S7w=",
+          "title": "aizhan.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Deleo IO",
+        "evidence": "AI software index listings identify the operating provider brand as Deleo IO, citing directory records indicating 'Deleo IO Company name: Deleo IO' and support at support@deleo.io.",
+        "source": {
+          "id": 3,
+          "text": "**Provider Brand:** AI software index listings identify the operating provider brand as **Deleo IO** (cited by directory records as *\"Deleo IO Company name: Deleo IO\"* and citing support at `support@deleo.io`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEly5_C658ieJkQzhgpt14OvFra89ou9dI6pwPulPKwIs0TVF0jQAIRCLfnh1hgP6JktM4PHfXSs36B2V-BvzirQ4Yem4a2BUwPc5jgKxCgxM6_Mkp10811Ig-jOphiOvaUCZRRkuMoViXkdQ8OscQ=",
+          "title": "xix.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Deleo",
+    "domain": "deleo.io",
+    "description": "Deleo.io: Unleash Creativity with AI-Powered Art from Text"
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Deleo IO",
+  "evidence": "AI software index listings identify the operating provider brand as Deleo IO, citing directory records indicating 'Deleo IO Company name: Deleo IO' and support at support@deleo.io.",
+  "source": {
+    "id": 3,
+    "text": "**Provider Brand:** AI software index listings identify the operating provider brand as **Deleo IO** (cited by directory records as *\"Deleo IO Company name: Deleo IO\"* and citing support at `support@deleo.io`",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEly5_C658ieJkQzhgpt14OvFra89ou9dI6pwPulPKwIs0TVF0jQAIRCLfnh1hgP6JktM4PHfXSs36B2V-BvzirQ4Yem4a2BUwPc5jgKxCgxM6_Mkp10811Ig-jOphiOvaUCZRRkuMoViXkdQ8OscQ=",
+    "title": "xix.ai"
+  },
+  "checked_at": "2026-11-05T07:02:58.969825+00:00"
+}

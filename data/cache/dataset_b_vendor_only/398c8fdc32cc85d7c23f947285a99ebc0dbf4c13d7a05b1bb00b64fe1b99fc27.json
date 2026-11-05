@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Figshare** at **figshare.com** is **Figshare LLP** (a Digital Science company).\n\n### Provider Statements\n* **Figshare Terms and Conditions (`figshare.com/terms`):** \n  > *\"The Service is operated by Figshare LLP (“Figshare”), a limited liability partnership registered in England & Wales (No.OC378473). Figshare is part of Digital Science.\"*\n\n* **Figshare Privacy Policy (`figshare.com/privacy`):** \n  > *\"This Notice applies to the websites at figshare.com and related services (“figshare”). figshare is operated by figshare LLP, with registered address at 6 Briset Street, Farringdon, London, EC1M 5NR, UK or its affiliate, Digital Science & Research Solutions Inc. in the case of sales-related resources and as may be specified...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Figshare** at **figshare.com** is **Figshare LLP**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwujVH1qwZ7JOYoJTE9gkN8DcylZtfrWCa4C6bE0j_6QMn7lnMo5vs5D4W-WdIj7FWHAiRsFHhl2vm_4slAx01nc193M9RThKysdW5Rw3zugt8tPUl2gtEss3kZg3kCQ==",
+          "title": "figshare.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Figshare** at **figshare.com** is **Figshare LLP**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1sT2gGgLx2BpTBbPlr0gyZffoAJUR2yv5hGarSjdIm_XZqtMFyjJisPio0T5XxBlseMSdUU2ZnzNibkoh7XfFA4AFNANg8cyYNhEdNMfLxQ==",
+          "title": "figshare.com"
+        },
+        {
+          "id": 2,
+          "text": "The vendor directly providing **Figshare** at **figshare.com** is **Figshare LLP** (a Digital Science company)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwujVH1qwZ7JOYoJTE9gkN8DcylZtfrWCa4C6bE0j_6QMn7lnMo5vs5D4W-WdIj7FWHAiRsFHhl2vm_4slAx01nc193M9RThKysdW5Rw3zugt8tPUl2gtEss3kZg3kCQ==",
+          "title": "figshare.com"
+        },
+        {
+          "id": 3,
+          "text": "The vendor directly providing **Figshare** at **figshare.com** is **Figshare LLP** (a Digital Science company)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHc6Ap9bM5sz2DFTGyF67cb77Kkxnx4gFdh0kmDA73S-bzqFm9oJ8_i8w7dMP44HT9DaFClUxfld091faE_AdhCabhroTpUQnZwwwV7ji-x-hkHBgHH",
+          "title": "figshare.com"
+        },
+        {
+          "id": 4,
+          "text": "hare is part of Digital Science.\"*\n\n* ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1sT2gGgLx2BpTBbPlr0gyZffoAJUR2yv5hGarSjdIm_XZqtMFyjJisPio0T5XxBlseMSdUU2ZnzNibkoh7XfFA4AFNANg8cyYNhEdNMfLxQ==",
+          "title": "figshare.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Figshare LLP",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing Figshare at figshare.com is Figshare LLP.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Figshare** at **figshare.com** is **Figshare LLP**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwujVH1qwZ7JOYoJTE9gkN8DcylZtfrWCa4C6bE0j_6QMn7lnMo5vs5D4W-WdIj7FWHAiRsFHhl2vm_4slAx01nc193M9RThKysdW5Rw3zugt8tPUl2gtEss3kZg3kCQ==",
+          "title": "figshare.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Figshare",
+    "domain": "figshare.com",
+    "description": "Figshare is an innovative platform designed to streamline scientific publishing by allowing researchers to share their datasets, negative results, and unpublished figures. This open-access repository enables collaboration and transparency in research, thereby minimizing duplication of effort among global research groups. By using Figshare, researchers can enhance the visibility of their work and receive feedback, fostering a more efficient scientific community."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Figshare LLP",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing Figshare at figshare.com is Figshare LLP.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Figshare** at **figshare.com** is **Figshare LLP**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwujVH1qwZ7JOYoJTE9gkN8DcylZtfrWCa4C6bE0j_6QMn7lnMo5vs5D4W-WdIj7FWHAiRsFHhl2vm_4slAx01nc193M9RThKysdW5Rw3zugt8tPUl2gtEss3kZg3kCQ==",
+    "title": "figshare.com"
+  },
+  "checked_at": "2026-11-05T08:45:29.906314+00:00"
+}

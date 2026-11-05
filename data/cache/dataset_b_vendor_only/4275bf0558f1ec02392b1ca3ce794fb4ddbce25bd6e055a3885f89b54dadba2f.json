@@ -1,0 +1,83 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Websheet AI** at **websheet.cc** is **Websheet Sp. z o.o.** (Websheet spółka z ograniczoną odpowiedzialnością).\n\n### Evidence\nAccording to the official Privacy Policy for the Websheet AI software on `websheet.cc`:\n> *\"The controller of your personal data is **Websheet spółka z ograniczoną odpowiedzialnością** with its registered seat in Skarbimierzyce 1, 72-002 Dołuje, Poland, entered into the register of entrepreneurs under the KRS no.: 0001052489, REGON: 526092621, NIP: 8513297937 (the 'Controller', 'we', 'us', 'our').\"* \n\nThe policy further specifies its role in *\"Operating and maintaining the https://www.websheet.cc/ website (the 'Platform')\"* and *\"Offering the Websheet AI software (the 'Software') and managing the provision of services to users.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "(Websheet spółka z ograniczoną odpowiedzialnością).\n\n##",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbqO7qyZbGiymU3zx1weQ8SIvJ1uB0Bc6MamvGdi0K39J5TYqzMOdU2e3GWN9d-OXbVh38Ge6lV5KpxKY4Jc7ejs2OcoOqTMhSp43vRUQv0scaV6ztuYEaDQ_UavXKDgAxETbcb2nYev1Wa84AmRdr_5Ir3HaQdmyFHiMfd0pUf3-Hro-gYCQdP5s_",
+          "title": "tracxn.com"
+        },
+        {
+          "id": 1,
+          "text": "(Websheet spółka z ograniczoną odpowiedzialnością).\n\n##",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxXCvg2uf34GSYeUNWn-sbGap0ipOMaFEswN0Wd6Z5kzPcR7PcJlMYBZgGtrbIdWn62reNMuhV-_Fa47GX2FpkL8RudukUBjQxp9MRAJA2TAq--n0GuObRHYsO-INZcQ==",
+          "title": "crozdesk.com"
+        },
+        {
+          "id": 2,
+          "text": "(Websheet spółka z ograniczoną odpowiedzialnością).\n\n##",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHez1jH0r0E2qQ5T4Og8rK8fM67GKsgV-HhpkRX7GiCl_rVOKDTM-qrDnGB1qtMo55sXW97qKc1-FCLCEkfrTsXRxiyttSIsnnYGJjJk17gA8GjgFMGAg==",
+          "title": "websheet.cc"
+        },
+        {
+          "id": 3,
+          "text": "ding to the official Privacy Policy for the Websheet AI software on `websheet.cc`:\n> *",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHez1jH0r0E2qQ5T4Og8rK8fM67GKsgV-HhpkRX7GiCl_rVOKDTM-qrDnGB1qtMo55sXW97qKc1-FCLCEkfrTsXRxiyttSIsnnYGJjJk17gA8GjgFMGAg==",
+          "title": "websheet.cc"
+        }
+      ],
+      "result": {
+        "status": "unknown",
+        "vendor": "UNKNOWN",
+        "evidence": "The provided passages contain truncated fragments that do not establish a relationship between Websheet spółka z ograniczoną odpowiedzialnością and Websheet AI or websheet.cc."
+      }
+    },
+    {
+      "answer": "The operating vendor providing **Websheet AI** at **websheet.cc** is **Websheet spółka z ograniczoną odpowiedzialnością** (Websheet Sp. z o.o.).\n\n### Evidence:\nAccording to the official Privacy Policy on `websheet.cc`:\n> *\"The controller of your personal data is Websheet spółka z ograniczoną odpowiedzialnością with its registered seat in Skarbimierzyce 1, 72-002 Dołuje, Poland, entered into the register of entrepreneurs under the KRS no.: 0001052489, REGON: 526092621, NIP: 8513297937 (the “Controller”, “we”, “us”, “our”).\"* For the purpose of: *\"Operating and maintaining the https://www.websheet.cc/ website (the “Platform”)...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The operating vendor providing **Websheet AI** at **websheet.cc** is **Websheet spółka z ograniczoną odpowiedzialnością** (Websheet Sp. z o.o.).\n\n##",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHaCmRdyNwWWxmY5o1UYDrPcdlu_2EGdecX_UBO38YKm2Iqn82ZXNJkccJvXPCQKosojvt4SywyYr8DpfyuqvXSHuw3Po21sWSatUIRBGcyNJwmVK0PE56pJ9B3mx-tjywW0conZVupGrzg_esT3CFwQ3GS30iydJ-XIb_mhJvpwcHU7Q3gTPiHVijB",
+          "title": "tracxn.com"
+        },
+        {
+          "id": 1,
+          "text": "The operating vendor providing **Websheet AI** at **websheet.cc** is **Websheet spółka z ograniczoną odpowiedzialnością** (Websheet Sp. z o.o.).\n\n##",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUgBprZldk1UrL-um58PSwL6fMyJjZCnu4c_aejdRR4IGDRwQP8lFqPNq6P2knnNfrzj_Vj0uuZS2mrM2ZpQk3pCEQjrGNBUanmfoGst8ydKJYmC4Qrw==",
+          "title": "websheet.cc"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Websheet spółka z ograniczoną odpowiedzialnością",
+        "evidence": "Passage 1 directly identifies Websheet spółka z ograniczoną odpowiedzialnością (Websheet Sp. z o.o.) as the operating vendor providing Websheet AI at websheet.cc.",
+        "source": {
+          "id": 1,
+          "text": "The operating vendor providing **Websheet AI** at **websheet.cc** is **Websheet spółka z ograniczoną odpowiedzialnością** (Websheet Sp. z o.o.).\n\n##",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUgBprZldk1UrL-um58PSwL6fMyJjZCnu4c_aejdRR4IGDRwQP8lFqPNq6P2knnNfrzj_Vj0uuZS2mrM2ZpQk3pCEQjrGNBUanmfoGst8ydKJYmC4Qrw==",
+          "title": "websheet.cc"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Websheet AI",
+    "domain": "websheet.cc",
+    "description": "Websheet AI is an AI-powered spreadsheet tool designed to automate data analysis, reporting, and visualization tasks, streamlining workflows for businesses and individuals."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Websheet spółka z ograniczoną odpowiedzialnością",
+  "evidence": "Passage 1 directly identifies Websheet spółka z ograniczoną odpowiedzialnością (Websheet Sp. z o.o.) as the operating vendor providing Websheet AI at websheet.cc.",
+  "source": {
+    "id": 1,
+    "text": "The operating vendor providing **Websheet AI** at **websheet.cc** is **Websheet spółka z ograniczoną odpowiedzialnością** (Websheet Sp. z o.o.).\n\n##",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUgBprZldk1UrL-um58PSwL6fMyJjZCnu4c_aejdRR4IGDRwQP8lFqPNq6P2knnNfrzj_Vj0uuZS2mrM2ZpQk3pCEQjrGNBUanmfoGst8ydKJYmC4Qrw==",
+    "title": "websheet.cc"
+  },
+  "checked_at": "2026-11-05T06:14:22.968385+00:00"
+}

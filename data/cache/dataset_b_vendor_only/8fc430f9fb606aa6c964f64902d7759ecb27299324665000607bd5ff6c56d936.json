@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly operating and providing **Snipfeed** at **snipfeed.co** is **Planogram, LLC** (doing business as **Planoly**).\n\n### Provider Statement\nAccording to the governing Terms of Use and Privacy Policy covering `https://snipfeed.co/`:\n> *\"These Terms of Use are entered into by and between you and Planogram, LLC, d/b/a “Planoly” (“Planoly”, “Company”, “we”, “our”, or “us”). These Terms of Use govern your access to and use of www.planoly.com and https://snipfeed.co/ (the “Websites”)... and any content, functionality, and services offered on or through the Websites...\"*\n\n> *\"Planogram, LLC, d/b/a “Planoly” (“Planoly”, “Company”, “we”, “our”, or “us”), owns and operates the web properties located at www.planoly.com and https://snipfeed.co/ (the “Websites”)...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly operating and providing **Snipfeed** at **snipfeed.co** is **Planogram, LLC** (doing business as **Planoly**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9Fq12-7efl5YAx6cplQc_cSbihFgTm-3Cu-eNYRqrlezzNfkJ8YJ8dWwWqYr-iyuie6gFpk-X78_hfkUhPJDtcTiSRavDlBv-LFUdAY2eFcCrEZf9Rdf4xpk=",
+          "title": "planoly.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly operating and providing **Snipfeed** at **snipfeed.co** is **Planogram, LLC** (doing business as **Planoly**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGW2ZBH8mqdHnTJORAle6oZSxfNLPQ4KHG44nUdopN8_UqUCrV8WxT2N6KJWZU4xW7j4jA6j-6l9Mj-QgVLvjlN9FUbOi-gygkLOVSomOGqOeHn2PgxW32S9dU2gg==",
+          "title": "planoly.com"
+        },
+        {
+          "id": 2,
+          "text": "n your access to and use of www.planoly.com and https://snipfeed.co/ (the “Websites”)... and any content, functionality, and services offered on or through the Websites...\"*\n\n> *\"Planogram, LLC, d/b/a ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9Fq12-7efl5YAx6cplQc_cSbihFgTm-3Cu-eNYRqrlezzNfkJ8YJ8dWwWqYr-iyuie6gFpk-X78_hfkUhPJDtcTiSRavDlBv-LFUdAY2eFcCrEZf9Rdf4xpk=",
+          "title": "planoly.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Planogram, LLC",
+        "evidence": "Passage 0 explicitly states that the vendor directly operating and providing Snipfeed at snipfeed.co is Planogram, LLC (doing business as Planoly).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly operating and providing **Snipfeed** at **snipfeed.co** is **Planogram, LLC** (doing business as **Planoly**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9Fq12-7efl5YAx6cplQc_cSbihFgTm-3Cu-eNYRqrlezzNfkJ8YJ8dWwWqYr-iyuie6gFpk-X78_hfkUhPJDtcTiSRavDlBv-LFUdAY2eFcCrEZf9Rdf4xpk=",
+          "title": "planoly.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Snipfeed",
+    "domain": "snipfeed.co",
+    "description": "Snipfeed is a versatile monetization platform designed for creators to sell digital content and services through a customizable bio link. By integrating Snipfeed into their social media, creators can transform their profiles into storefronts, facilitating direct sales and enhancing engagement with their audience."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Planogram, LLC",
+  "evidence": "Passage 0 explicitly states that the vendor directly operating and providing Snipfeed at snipfeed.co is Planogram, LLC (doing business as Planoly).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly operating and providing **Snipfeed** at **snipfeed.co** is **Planogram, LLC** (doing business as **Planoly**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9Fq12-7efl5YAx6cplQc_cSbihFgTm-3Cu-eNYRqrlezzNfkJ8YJ8dWwWqYr-iyuie6gFpk-X78_hfkUhPJDtcTiSRavDlBv-LFUdAY2eFcCrEZf9Rdf4xpk=",
+    "title": "planoly.com"
+  },
+  "checked_at": "2026-11-05T08:17:14.484763+00:00"
+}

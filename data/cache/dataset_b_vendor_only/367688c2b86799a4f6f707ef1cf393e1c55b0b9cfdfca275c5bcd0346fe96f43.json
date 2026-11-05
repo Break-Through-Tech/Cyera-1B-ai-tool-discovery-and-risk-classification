@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **Rank Math** at **rankmath.com** is directly provided and operated by **ONE.COM INDIA PRIVATE LIMITED**.\n\nAccording to the official Terms and Conditions on `rankmath.com`:\n> *\"This Website is provided by: Company Name: ONE.COM INDIA PRIVATE LIMITED Office Address: Office No. 2, Floor 5, Tower A, Building. 9 DLF Cyber City Complex, Phase III, Haryana, Gurgaon, India, Pin: 122002. Owner contact email: admin@rankmath.com\"*\n\n(Where \"This Website\" is defined to include the website, APIs, services, and any software/applications included as part of the service).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **Rank Math** at **rankmath.com** is directly provided and operated by **ONE.COM INDIA PRIVATE LIMITED**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEr3CuHyag_tbABRzpvLSNGV_sAJWkQkM4VEDYlyjKTNm-3nrqZC1_4x0951FlG4nlRdte8gGylEl2M7iap0g09D6upBjCKzruagvJjy6vy95D89GV7i3AJErR8_qQxYp0=",
+          "title": "rankmath.com"
+        },
+        {
+          "id": 1,
+          "text": "Owner contact email: admin@rankmath.com\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEr3CuHyag_tbABRzpvLSNGV_sAJWkQkM4VEDYlyjKTNm-3nrqZC1_4x0951FlG4nlRdte8gGylEl2M7iap0g09D6upBjCKzruagvJjy6vy95D89GV7i3AJErR8_qQxYp0=",
+          "title": "rankmath.com"
+        },
+        {
+          "id": 2,
+          "text": "(Where \"This Website\" is defined to include the website, APIs, services, and any software/applications included as part of the service)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEr3CuHyag_tbABRzpvLSNGV_sAJWkQkM4VEDYlyjKTNm-3nrqZC1_4x0951FlG4nlRdte8gGylEl2M7iap0g09D6upBjCKzruagvJjy6vy95D89GV7i3AJErR8_qQxYp0=",
+          "title": "rankmath.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "ONE.COM INDIA PRIVATE LIMITED",
+        "evidence": "Passage 0 states that the software product Rank Math at rankmath.com is directly provided and operated by ONE.COM INDIA PRIVATE LIMITED.",
+        "source": {
+          "id": 0,
+          "text": "The software product **Rank Math** at **rankmath.com** is directly provided and operated by **ONE.COM INDIA PRIVATE LIMITED**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEr3CuHyag_tbABRzpvLSNGV_sAJWkQkM4VEDYlyjKTNm-3nrqZC1_4x0951FlG4nlRdte8gGylEl2M7iap0g09D6upBjCKzruagvJjy6vy95D89GV7i3AJErR8_qQxYp0=",
+          "title": "rankmath.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Rank Math",
+    "domain": "rankmath.com",
+    "description": "Rank Math is an advanced SEO tool designed to enhance website optimization by integrating multiple SEO functions into a single platform. It provides features such as automatic ALT tag generation for images, efficient management of external links, and the ability to create internal links across numerous posts. Rank Math helps users evaluate their site’s SEO performance, offering insights into keyword rankings and overall optimization for both search engines and users, making it a comprehensive solution for webmasters and businesses seeking to improve their online visibility."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "ONE.COM INDIA PRIVATE LIMITED",
+  "evidence": "Passage 0 states that the software product Rank Math at rankmath.com is directly provided and operated by ONE.COM INDIA PRIVATE LIMITED.",
+  "source": {
+    "id": 0,
+    "text": "The software product **Rank Math** at **rankmath.com** is directly provided and operated by **ONE.COM INDIA PRIVATE LIMITED**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEr3CuHyag_tbABRzpvLSNGV_sAJWkQkM4VEDYlyjKTNm-3nrqZC1_4x0951FlG4nlRdte8gGylEl2M7iap0g09D6upBjCKzruagvJjy6vy95D89GV7i3AJErR8_qQxYp0=",
+    "title": "rankmath.com"
+  },
+  "checked_at": "2026-11-05T09:34:17.679015+00:00"
+}

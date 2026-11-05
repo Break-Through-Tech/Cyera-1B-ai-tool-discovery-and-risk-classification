@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly operating and providing the service and website at **musescore.com** is **MuseScore Limited** (also referenced as **MuseScore Ltd**).\n\n### Supporting Evidence & Provider Statement\n* **Terms of Service** (`musescore.com`):\n  > *\"THIS TERMS OF SERVICE AGREEMENT («AGREEMENT») IS A LEGAL AND BINDING AGREEMENT BETWEEN YOU («YOU,» «YOUR» OR «YOURSELF») AND MUSESCORE LIMITED («OUR,» «US,» «WE» OR «MUSESCORE»), WHICH GOVERNS YOUR USE OF THE MUSECORE WEBSITE, APPS, APIs AND WIDGETS, TOGETHER WITH ALL INFORMATION, CONTENT, PRODUCTS, MATERIALS AND SERVICES MADE AVAILABLE TO YOU THROUGH THE SAME BY US (COLLECTIVELY, «THE SERVICE»).\"*\n\n* **Privacy Policy** (`musescore.com`):\n  > *\"For the purposes of this Notice, MuseScore Ltd with registered office at Spyrou Kyprianou, 84, 4004, Limassol, Cyprus (\\\"MuseScore\\\", \\\"us\\\", \\\"we\\\", or \\\"our\\\") acts as the data controller for the Personal Data that is collected via the Website and the App and through the Service.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly operating and providing the service and website at **musescore.com** is **MuseScore Limited** (also referenced as **MuseScore Ltd**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwNRpGTgPDmlreUtgZCaUeI2uGlRLrs18jPVcZLc1lIcmX-U6Fs_SeJV9dNtZHCe75NsxgPhBG7HvIHe_PqsYGfKpDjFjR65ANQSpUfdb0rr0x9SQMhD0=",
+          "title": "musescore.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly operating and providing the service and website at **musescore.com** is **MuseScore Limited** (also referenced as **MuseScore Ltd**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOcaZfsnOS_7D-sxF3a_CDuqZ1bcyD-LvNyPREMULeI_dzAX_ZT6KPCe4ALpIpZ8QhoCU7V5a4NwTFiywLLramauXsVwWXpPN-2ujMr9n6rKq9v_MokCnb3Q==",
+          "title": "musescore.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"THIS TERMS OF SERVICE AGREEMENT («AGREEMENT») IS A LEGAL AND BINDING AGREEMENT BETWEEN YOU («YOU,» «YOUR» OR «YOURSELF») AND MUSESCORE LIMITED («OUR,» «US,» «WE» OR «MUSESCORE»), WHICH GOVERNS YOUR USE OF THE MUSECORE WEBSITE, APPS, APIs AND WIDGETS, TOGETHER WITH ALL INFORMATION, CONTENT, PRODUCTS, MATERIALS AND SERVICES MADE AVAILABLE TO YOU THROUGH THE SAME BY US (COLLECTIVELY, «THE SERVICE»).\"*\n\n* **Privacy Poli",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwNRpGTgPDmlreUtgZCaUeI2uGlRLrs18jPVcZLc1lIcmX-U6Fs_SeJV9dNtZHCe75NsxgPhBG7HvIHe_PqsYGfKpDjFjR65ANQSpUfdb0rr0x9SQMhD0=",
+          "title": "musescore.com"
+        },
+        {
+          "id": 3,
+          "text": "THIS TERMS OF SERVICE AGREEMENT («AGREEMENT») IS A LEGAL AND BINDING AGREEMENT BETWEEN YOU («YOU,» «YOUR» OR «YOURSELF») AND MUSESCORE LIMITED («OUR,» «US,» «WE» OR «MUSESCORE»), WHICH GOVERNS YOUR USE OF THE MUSECORE WEBSITE, APPS, APIs AND WIDGETS, TOGETHER WITH ALL INFORMATION, CONTENT, PRODUCTS, MATERIALS AND SERVICES MADE AVAILABLE TO YOU THROUGH THE SAME BY US (COLLECTIVELY, «THE SERV",
+          "url": "https://musescore.com/legal/terms",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "MuseScore Limited",
+        "evidence": "Passage 3's Terms of Service explicitly states that the agreement governing use of the MuseScore website, apps, APIs, widgets, and services is between the user and MuseScore Limited.",
+        "source": {
+          "id": 3,
+          "text": "THIS TERMS OF SERVICE AGREEMENT («AGREEMENT») IS A LEGAL AND BINDING AGREEMENT BETWEEN YOU («YOU,» «YOUR» OR «YOURSELF») AND MUSESCORE LIMITED («OUR,» «US,» «WE» OR «MUSESCORE»), WHICH GOVERNS YOUR USE OF THE MUSECORE WEBSITE, APPS, APIs AND WIDGETS, TOGETHER WITH ALL INFORMATION, CONTENT, PRODUCTS, MATERIALS AND SERVICES MADE AVAILABLE TO YOU THROUGH THE SAME BY US (COLLECTIVELY, «THE SERV",
+          "url": "https://musescore.com/legal/terms",
+          "title": ""
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "MuseScore",
+    "domain": "musescore.com",
+    "description": "MuseScore is dedicated to supporting musicians by providing free and user-friendly music notation software that enables users to create high-quality sheet music complete with audio playback. The company fosters an active online community where musicians can share their compositions and engage with one another, utilizing various sharing options including downloads and embeddable tools. Additionally, MuseScore's software is open source, complemented by an API for third-party development, making it a versatile resource for music creators."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "MuseScore Limited",
+  "evidence": "Passage 3's Terms of Service explicitly states that the agreement governing use of the MuseScore website, apps, APIs, widgets, and services is between the user and MuseScore Limited.",
+  "source": {
+    "id": 3,
+    "text": "THIS TERMS OF SERVICE AGREEMENT («AGREEMENT») IS A LEGAL AND BINDING AGREEMENT BETWEEN YOU («YOU,» «YOUR» OR «YOURSELF») AND MUSESCORE LIMITED («OUR,» «US,» «WE» OR «MUSESCORE»), WHICH GOVERNS YOUR USE OF THE MUSECORE WEBSITE, APPS, APIs AND WIDGETS, TOGETHER WITH ALL INFORMATION, CONTENT, PRODUCTS, MATERIALS AND SERVICES MADE AVAILABLE TO YOU THROUGH THE SAME BY US (COLLECTIVELY, «THE SERV",
+    "url": "https://musescore.com/legal/terms",
+    "title": ""
+  },
+  "checked_at": "2026-11-05T09:25:56.002717+00:00"
+}

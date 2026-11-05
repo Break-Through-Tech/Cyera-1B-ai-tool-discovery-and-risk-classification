@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on the available evidence for the software product **BabelOn** at **`babelontrip.com`**:\n\n* **Vendor / Provider:** **BabelOn** (also published under the developer name **babelontrip**).\n* **Evidence:**\n  * The official service at `babelontrip.com` operates under the brand **BabelOn** (*\"ia Your AI Trip Planner... Plan a trip; Explore... BabelOn AI\"*).\n  * The startup showcase for SXSW 2024 lists the operating startup entity directly as **BabelOn** (United States, website: `https://babelontrip.com/`): *\"BabelOn is an AI Trip Planner helping you plan your perfect trip in under 60 seconds. Plan every aspect of your trip... all with the power of AI!\"*.\n  * Software catalog specifications (e.g., Softonic) explicitly list the publisher/developer as **babelontrip** (*\"BabelOn for Web Apps · By babelontrip\"* / *\"Developer: babelontrip\"*).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**Vendor / Provider:** **BabelOn** (also published under the developer name **babelontrip**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFK9qhGRK1w--SQFsvyJtd6UR9sWvtgG0chy8F7Go5rv7XMhp3ZiZUk9867RJCzmmfcMrqLDUbxHUOr-Njo5aCVVCPhRt_WyddJB3b640E5zriUq-HEsrXxsdlvRmzaDzY4IuQmFx6aENVsEw_9EI4y9Jg=",
+          "title": "cnet.com"
+        },
+        {
+          "id": 1,
+          "text": "**Vendor / Provider:** **BabelOn** (also published under the developer name **babelontrip**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEx5KxLt1zXSb_4mYRNG6MXaeVbQhXQjRYjymy4NYiqu7hY96LLKvt7mkGQ615Ozm1YA61-hYD7fi2LvXx45mGXiQ8B5YDZ8uzHE8GEIPQ5pMz7YKk3PY=",
+          "title": "fundedhouse.com"
+        },
+        {
+          "id": 2,
+          "text": "BabelOn AI\"*)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpYlg1YH9jpagg4L8dAGChjrBK-npGePQRTrEYHY6ACzBhN4zFY0ri4aUDR0wPKHzYkfoGD0fLADOvQtZnNqS54afm2Pa-EM9xka54bhQ=",
+          "title": "babelontrip.com"
+        },
+        {
+          "id": 3,
+          "text": "Plan every aspect of your trip... all with the power of AI!\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEx5KxLt1zXSb_4mYRNG6MXaeVbQhXQjRYjymy4NYiqu7hY96LLKvt7mkGQ615Ozm1YA61-hYD7fi2LvXx45mGXiQ8B5YDZ8uzHE8GEIPQ5pMz7YKk3PY=",
+          "title": "fundedhouse.com"
+        },
+        {
+          "id": 4,
+          "text": "Software catalog specifications (e.g., Softonic) explicitly list the publisher/developer as **babelontrip** (*\"BabelOn for Web Apps · By babelontrip\"* / *\"Developer: babelontrip\"*).",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFK9qhGRK1w--SQFsvyJtd6UR9sWvtgG0chy8F7Go5rv7XMhp3ZiZUk9867RJCzmmfcMrqLDUbxHUOr-Njo5aCVVCPhRt_WyddJB3b640E5zriUq-HEsrXxsdlvRmzaDzY4IuQmFx6aENVsEw_9EI4y9Jg=",
+          "title": "cnet.com"
+        },
+        {
+          "id": 5,
+          "text": "Software catalog specifications (e.g., Softonic) explicitly list the publisher/developer as **babelontrip** (*\"BabelOn for Web Apps · By babelontrip\"* / *\"Developer: babelontrip\"*).",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxdS-7hysB5Aesc2anS1nO5H7gyeP9wp6CiItbyLCPlGUhLvKWzYaTm1tCLUhNmVbsP8zD9Xk-8QZBuk0WB1i3JOpqiiGb6XYuiXFOTkr381dHi1J6Ssa4x0ZN_tdm",
+          "title": "softonic.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "BabelOn",
+        "evidence": "Passage 0 explicitly identifies the Vendor / Provider as BabelOn (also published under the developer name babelontrip).",
+        "source": {
+          "id": 0,
+          "text": "**Vendor / Provider:** **BabelOn** (also published under the developer name **babelontrip**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFK9qhGRK1w--SQFsvyJtd6UR9sWvtgG0chy8F7Go5rv7XMhp3ZiZUk9867RJCzmmfcMrqLDUbxHUOr-Njo5aCVVCPhRt_WyddJB3b640E5zriUq-HEsrXxsdlvRmzaDzY4IuQmFx6aENVsEw_9EI4y9Jg=",
+          "title": "cnet.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "BabelOn",
+    "domain": "babelontrip.com",
+    "description": "BabelOn crafts personalized travel itineraries based on your preferences, ensuring a seamless and unforgettable trip."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "BabelOn",
+  "evidence": "Passage 0 explicitly identifies the Vendor / Provider as BabelOn (also published under the developer name babelontrip).",
+  "source": {
+    "id": 0,
+    "text": "**Vendor / Provider:** **BabelOn** (also published under the developer name **babelontrip**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFK9qhGRK1w--SQFsvyJtd6UR9sWvtgG0chy8F7Go5rv7XMhp3ZiZUk9867RJCzmmfcMrqLDUbxHUOr-Njo5aCVVCPhRt_WyddJB3b640E5zriUq-HEsrXxsdlvRmzaDzY4IuQmFx6aENVsEw_9EI4y9Jg=",
+    "title": "cnet.com"
+  },
+  "checked_at": "2026-11-05T07:13:21.227012+00:00"
+}

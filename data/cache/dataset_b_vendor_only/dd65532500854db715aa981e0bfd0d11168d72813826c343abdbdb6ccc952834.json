@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Renovate AI** at **renovateai.app** is **Trial and Error, Inc.**\n\n### Evidence\n* **Terms of Service** (`renovateai.app`):  \n  > *\"These Terms of Service constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and Trial and Error, Inc (\"Company\", “we”, “us”, or “our”), concerning your access to and use of the renovateai.app website as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto (collectively, the “Site”).\"*\n* **Website Notices / Press Releases**:  \n  Website footers credit `\"Trial and Error, Inc | Copyright© 2024\"`, and official announcements confirm the product's release under Trial and Error, Inc. (also referenced in its privacy policy notice as *Trial and Erorr, Inc*).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Renovate AI** at **renovateai.app** is **Trial and Error, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFIxVkl5sf76AHLCM7XXIP0b9wFvtmgOkiDHPnMNzePlXAO6FplJvLT6cRGPrUgnmEgfsApBIJURmn-Z9KPDF-JA6OA6hmDR_D6h0WHhizcFe7BgVgcNllMVwgHY4=",
+          "title": "renovateai.app"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Renovate AI** at **renovateai.app** is **Trial and Error, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQESXFbXIpBT-6HXp2r-IVJmQqrpmjdOgLO_i3CGnbEVPEIAMZHGm8fWUg3iFyDUNdhK_HXYU4ZvDF46cXWAWbDX5vl34nCBZAK26069eEq5O8L2sALXIw0MA7d-cyY_PRfHCF8mZ6suPJLv74k5Bc9FTc_S-pis04AGiFbakDdqupnYr8yXMTteMpzvc23dw6OtmamgcMVuV2qmxoLFiplaeH1Doq83-e81Dn5v1QvgurPkJrhsYV9UoYEWIkwH2SLMo=",
+          "title": "einpresswire.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"These Terms of Service constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and Trial and Error, Inc (\"Company\", “we”, “us”, or “our”), concerning your access to and use of the renovateai.app website as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto (collectively, the “Site”).\"*\n* **Website Notices",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFIxVkl5sf76AHLCM7XXIP0b9wFvtmgOkiDHPnMNzePlXAO6FplJvLT6cRGPrUgnmEgfsApBIJURmn-Z9KPDF-JA6OA6hmDR_D6h0WHhizcFe7BgVgcNllMVwgHY4=",
+          "title": "renovateai.app"
+        },
+        {
+          "id": 3,
+          "text": "it `\"Trial and Error, Inc | Copyright© 2024\"`, and official announ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErVtefL0Cw8Di21LoDnViqJKZg4zCw4jy-uicpI5dLrWZDeuYMbOScAgQj8miARuC7Eo6tBMyNebYO_gzJIQJt8_KZJ0I_HLZOmIQHMlwINzfDmGA=",
+          "title": "renovateai.app"
+        },
+        {
+          "id": 4,
+          "text": "it `\"Trial and Error, Inc | Copyright© 2024\"`, and official announ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeQNeMThwPryo0RXqjNCYFY7bT-Dh4ywb5n3iV6CZ4f8z9FEdO9_odvS_K6MnWKG4XY4FKqX3rxbpEvKAhwa6G1vWJt1S88aTEQRLbHw_Fua8=",
+          "title": "renovateai.app"
+        },
+        {
+          "id": 5,
+          "text": "it `\"Trial and Error, Inc | Copyright© 2024\"`, and official announcements confirm the product's release under Trial and Error, Inc. (also referenced in ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQESXFbXIpBT-6HXp2r-IVJmQqrpmjdOgLO_i3CGnbEVPEIAMZHGm8fWUg3iFyDUNdhK_HXYU4ZvDF46cXWAWbDX5vl34nCBZAK26069eEq5O8L2sALXIw0MA7d-cyY_PRfHCF8mZ6suPJLv74k5Bc9FTc_S-pis04AGiFbakDdqupnYr8yXMTteMpzvc23dw6OtmamgcMVuV2qmxoLFiplaeH1Doq83-e81Dn5v1QvgurPkJrhsYV9UoYEWIkwH2SLMo=",
+          "title": "einpresswire.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Trial and Error, Inc.",
+        "evidence": "The Terms of Service for renovateai.app state that they constitute a legally binding agreement between the user and Trial and Error, Inc concerning access to and use of the renovateai.app website.",
+        "source": {
+          "id": 2,
+          "text": "*\"These Terms of Service constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and Trial and Error, Inc (\"Company\", “we”, “us”, or “our”), concerning your access to and use of the renovateai.app website as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto (collectively, the “Site”).\"*\n* **Website Notices",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFIxVkl5sf76AHLCM7XXIP0b9wFvtmgOkiDHPnMNzePlXAO6FplJvLT6cRGPrUgnmEgfsApBIJURmn-Z9KPDF-JA6OA6hmDR_D6h0WHhizcFe7BgVgcNllMVwgHY4=",
+          "title": "renovateai.app"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Renovate AI",
+    "domain": "renovateai.app",
+    "description": "Renovate and remodel your home with AI-powered design."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Trial and Error, Inc.",
+  "evidence": "The Terms of Service for renovateai.app state that they constitute a legally binding agreement between the user and Trial and Error, Inc concerning access to and use of the renovateai.app website.",
+  "source": {
+    "id": 2,
+    "text": "*\"These Terms of Service constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and Trial and Error, Inc (\"Company\", “we”, “us”, or “our”), concerning your access to and use of the renovateai.app website as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto (collectively, the “Site”).\"*\n* **Website Notices",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFIxVkl5sf76AHLCM7XXIP0b9wFvtmgOkiDHPnMNzePlXAO6FplJvLT6cRGPrUgnmEgfsApBIJURmn-Z9KPDF-JA6OA6hmDR_D6h0WHhizcFe7BgVgcNllMVwgHY4=",
+    "title": "renovateai.app"
+  },
+  "checked_at": "2026-11-05T07:23:00.308944+00:00"
+}

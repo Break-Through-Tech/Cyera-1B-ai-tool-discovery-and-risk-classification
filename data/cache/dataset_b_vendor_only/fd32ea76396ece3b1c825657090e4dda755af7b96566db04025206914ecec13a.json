@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on published developer and launch records for **Verbeloquence** at **`verbeloquence.ai`**:\n\n* **Provider / Developer:** **Mike Brewer**\n* **Evidence:** In the official demonstration video for the product, the creator introduces himself stating: *\"my name is Mike and I'm the developer of verbeloquence.ai which is an app created with the sole intent of helping you become a better Communicator\"*. Furthermore, the official product listing on MicroLaunch identifies the maker/developer as **Mike Brewer**. No separate incorporated entity is registered for the service.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**Provider / Developer:** **Mike Brewer**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXpkzhkQBgNJO6pB-gKDIrUFfyCxCmxw2umrM7DdEv8lDRkivOCm9r72GA4PAeOTExo4UOfxs6X4XYim5vA7ASVwVOsy0ebW6rbY1rON-MxBjkeT98z3jZ2tlKcwKRb1Me",
+          "title": "youtube.com"
+        },
+        {
+          "id": 1,
+          "text": "**Provider / Developer:** **Mike Brewer**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBzF5IhFZE6B5wVzHgfSyDW1Msp-RDKrYhrMmBPQIq0wfayz6p10yEWaEogy1Dh1CZET923TX8q7Vhk1EI43QaBFUajutUbZBwS2sC1bBSxm-EqgixBEVC2s9tX4AP3Q==",
+          "title": "microlaunch.net"
+        },
+        {
+          "id": 2,
+          "text": "**Evidence:** In the official demonstration video for the product, the creator introduces himself stating: *\"my name is Mike and I'm the developer of verbeloquence.ai which is an app created with the sole intent of helping you become a better Communicator\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXpkzhkQBgNJO6pB-gKDIrUFfyCxCmxw2umrM7DdEv8lDRkivOCm9r72GA4PAeOTExo4UOfxs6X4XYim5vA7ASVwVOsy0ebW6rbY1rON-MxBjkeT98z3jZ2tlKcwKRb1Me",
+          "title": "youtube.com"
+        },
+        {
+          "id": 3,
+          "text": "Furthermore, the official product listing on MicroLaunch identifies the maker/developer as **Mike Brewer**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBzF5IhFZE6B5wVzHgfSyDW1Msp-RDKrYhrMmBPQIq0wfayz6p10yEWaEogy1Dh1CZET923TX8q7Vhk1EI43QaBFUajutUbZBwS2sC1bBSxm-EqgixBEVC2s9tX4AP3Q==",
+          "title": "microlaunch.net"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Mike Brewer",
+        "evidence": "The official product listing on MicroLaunch identifies Mike Brewer as the maker and developer of the product.",
+        "source": {
+          "id": 3,
+          "text": "Furthermore, the official product listing on MicroLaunch identifies the maker/developer as **Mike Brewer**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBzF5IhFZE6B5wVzHgfSyDW1Msp-RDKrYhrMmBPQIq0wfayz6p10yEWaEogy1Dh1CZET923TX8q7Vhk1EI43QaBFUajutUbZBwS2sC1bBSxm-EqgixBEVC2s9tX4AP3Q==",
+          "title": "microlaunch.net"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Verbeloquence",
+    "domain": "verbeloquence.ai",
+    "description": "Verbeloquence is an AI-powered communication enhancement tool that helps users improve their writing and speaking skills through personalized feedback and suggestions. It analyzes text and speech to identify areas for improvement in clarity, conciseness, and style."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Mike Brewer",
+  "evidence": "The official product listing on MicroLaunch identifies Mike Brewer as the maker and developer of the product.",
+  "source": {
+    "id": 3,
+    "text": "Furthermore, the official product listing on MicroLaunch identifies the maker/developer as **Mike Brewer**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBzF5IhFZE6B5wVzHgfSyDW1Msp-RDKrYhrMmBPQIq0wfayz6p10yEWaEogy1Dh1CZET923TX8q7Vhk1EI43QaBFUajutUbZBwS2sC1bBSxm-EqgixBEVC2s9tX4AP3Q==",
+    "title": "microlaunch.net"
+  },
+  "checked_at": "2026-11-05T05:48:47.813874+00:00"
+}

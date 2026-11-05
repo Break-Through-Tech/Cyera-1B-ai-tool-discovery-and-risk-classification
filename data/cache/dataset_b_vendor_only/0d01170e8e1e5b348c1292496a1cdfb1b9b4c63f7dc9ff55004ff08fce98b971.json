@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Dashlane** at **dashlane.com** is **Dashlane, Inc.** (operating through its entities **Dashlane USA, Inc.** and **Dashlane SAS**).\n\n### Provider Statement & Evidence\nAccording to the official **Dashlane Terms of Service** (Section 1(a), *Introduction*) at `dashlane.com`:\n> *\"Dashlane, Inc. and its affiliates (“Dashlane”, or “we” and its derivatives) operate www.dashlane.com (together with any subdomains, the “Site”) and provide our users (each user, “you”) with mobile and web applications and web extensions... The Services are provided by either Dashlane USA, Inc. a Delaware corporation with offices at 44 West 18th Street, New York, NY 10011 USA, or Dashlane SAS, a French company with offices at 21 Rue Pierre Picard, 75018 Paris, as indicated on the payment record for your subscription.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Dashlane** at **dashlane.com** is **Dashlane, Inc.** (operating through its entities **Dashlane USA, Inc.** and **Dashlane SAS**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGJ8u3vroLbvDo2sjQ_8Nh3spU87Vot-1jBLAJg8hScN4HUWrcSBQZJX-rUmFZxj8CvvgR_6jOnKo6WDW_3W1NJvQAKI8itvcRSSDQZ-InQoXypNk=",
+          "title": "dashlane.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Dashlane** at **dashlane.com** is **Dashlane, Inc.** (operating through its entities **Dashlane USA, Inc.** and **Dashlane SAS**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuROj2PJAYDLz5HFJMg5w1Vr2XBn-NZr9ptX7nH7d58m7lpFGldcQUGc__0x7epuJTZRnxr-x2qifHr76ZVOKw1yhLYGgfEOyshZqnbI_cJUg68D2t7CpWHarvouc=",
+          "title": "dashlane.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Dashlane, Inc.",
+        "evidence": "Passage 0 states that the vendor directly providing Dashlane at dashlane.com is Dashlane, Inc. (operating through its entities Dashlane USA, Inc. and Dashlane SAS).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Dashlane** at **dashlane.com** is **Dashlane, Inc.** (operating through its entities **Dashlane USA, Inc.** and **Dashlane SAS**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGJ8u3vroLbvDo2sjQ_8Nh3spU87Vot-1jBLAJg8hScN4HUWrcSBQZJX-rUmFZxj8CvvgR_6jOnKo6WDW_3W1NJvQAKI8itvcRSSDQZ-InQoXypNk=",
+          "title": "dashlane.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Dashlane",
+    "domain": "dashlane.com",
+    "description": "Dashlane is a password management solution available through web and mobile applications, designed to enhance security for individuals and businesses alike. With operations in Paris, New York, and Lisbon, the company serves over 15 million users and 20,000 businesses across 180 countries. Dashlane focuses on simplifying secure access to accounts, championing digital safety and easy user experiences."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Dashlane, Inc.",
+  "evidence": "Passage 0 states that the vendor directly providing Dashlane at dashlane.com is Dashlane, Inc. (operating through its entities Dashlane USA, Inc. and Dashlane SAS).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Dashlane** at **dashlane.com** is **Dashlane, Inc.** (operating through its entities **Dashlane USA, Inc.** and **Dashlane SAS**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGJ8u3vroLbvDo2sjQ_8Nh3spU87Vot-1jBLAJg8hScN4HUWrcSBQZJX-rUmFZxj8CvvgR_6jOnKo6WDW_3W1NJvQAKI8itvcRSSDQZ-InQoXypNk=",
+    "title": "dashlane.com"
+  },
+  "checked_at": "2026-11-05T09:14:46.326605+00:00"
+}

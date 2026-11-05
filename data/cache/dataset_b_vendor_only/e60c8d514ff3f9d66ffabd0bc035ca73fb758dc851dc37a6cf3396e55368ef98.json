@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product **Wistia** at **wistia.com** is **Wistia, Inc.**.\n\n### Supporting Evidence\nAccording to the official **Wistia - Terms of Service** (wistia.com):\n> *\"The following Terms of Service ('Terms' or 'Agreement') constitute a legal agreement between you or the entity or company that you represent ('Customer' or 'You') and **Wistia, Inc.** ('Wistia'), which governs Customer's use of the Services.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product **Wistia** at **wistia.com** is **Wistia, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuUzjKFa-824KJU0sHCSvCgOCskgTeAC_gqZtzpx7Do1LYx7ihIceiVA6wXdqEnmtVP_D9nwe39V41ByfRfXr0ZUA8SoeKZ8zvknkWmLM=",
+          "title": "wistia.com"
+        },
+        {
+          "id": 1,
+          "text": "*\"The following Terms of Service ('Terms' or 'Agreement') constitute a legal agreement between you or the entity or company that you represent ('Customer' or 'You') and **Wistia, Inc.** ('Wistia'), which governs Customer's use of the Services.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuUzjKFa-824KJU0sHCSvCgOCskgTeAC_gqZtzpx7Do1LYx7ihIceiVA6wXdqEnmtVP_D9nwe39V41ByfRfXr0ZUA8SoeKZ8zvknkWmLM=",
+          "title": "wistia.com"
+        },
+        {
+          "id": 2,
+          "text": "The following Terms of Service ('Terms' or 'Agreement') constitute a legal agreement between you or the entity or company that you represent ('Customer' or 'You') and **Wistia, Inc.** ('Wistia'), which governs Customer's use of the Servi",
+          "url": "https://wistia.com/terms",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Wistia, Inc.",
+        "evidence": "According to Wistia's Terms of Service in Passage 1, the legal agreement governing the customer's use of the Services is with Wistia, Inc.",
+        "source": {
+          "id": 1,
+          "text": "*\"The following Terms of Service ('Terms' or 'Agreement') constitute a legal agreement between you or the entity or company that you represent ('Customer' or 'You') and **Wistia, Inc.** ('Wistia'), which governs Customer's use of the Services.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuUzjKFa-824KJU0sHCSvCgOCskgTeAC_gqZtzpx7Do1LYx7ihIceiVA6wXdqEnmtVP_D9nwe39V41ByfRfXr0ZUA8SoeKZ8zvknkWmLM=",
+          "title": "wistia.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Wistia",
+    "domain": "wistia.com",
+    "description": "Wistia is a video marketing platform designed to empower businesses in creating, hosting, marketing, and analyzing video content to enhance their marketing strategies. It offers tools for customizable video players, real-time marketing data, and expert guidance to help teams engage their audience effectively. Wistia focuses on improving brand consistency and user experience while providing supportive resources to ensure success in video marketing."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Wistia, Inc.",
+  "evidence": "According to Wistia's Terms of Service in Passage 1, the legal agreement governing the customer's use of the Services is with Wistia, Inc.",
+  "source": {
+    "id": 1,
+    "text": "*\"The following Terms of Service ('Terms' or 'Agreement') constitute a legal agreement between you or the entity or company that you represent ('Customer' or 'You') and **Wistia, Inc.** ('Wistia'), which governs Customer's use of the Services.\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuUzjKFa-824KJU0sHCSvCgOCskgTeAC_gqZtzpx7Do1LYx7ihIceiVA6wXdqEnmtVP_D9nwe39V41ByfRfXr0ZUA8SoeKZ8zvknkWmLM=",
+    "title": "wistia.com"
+  },
+  "checked_at": "2026-11-05T10:03:52.100560+00:00"
+}

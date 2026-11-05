@@ -1,0 +1,101 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Gitee** at the domain **gitee.com** is **Beijing Aosi Yangong Intelligent Technology Co., Ltd.** (北京奥思研工智能科技有限公司; formerly Shenzhen OSC Network Technology Co., Ltd. / 深圳市奥思网络科技有限公司).\n\n### Provider Statements & Evidence\n* **Website Terms of Use (*网站使用条款*) on gitee.com**:\n  > *\"感谢您访问gitee.com（以下简称“本网站”）。 本网站由北京奥思研工智能科技有限公司（以下简称“北京奥思研工”）运行维护。本网站向公众开放，提供基于git 的代码托管和项目管理服务。\"*  \n  *(“Thank you for visiting gitee.com (hereinafter referred to as 'this website'). This website is operated and maintained by Beijing Aosi Yangong Intelligent Technology Co., Ltd. It is open to the public and provides Git-based code hosting and project management services.”)*\n\n* **Enterprise Terms of Service on gitee.com**:\n  > *\"本服务条款是北京奥思研工智能科技有限公司(以下简称“北京奥思研工”)与您就Git 代码托管和项目管理服务的相关事项所订立的有效合约。\"*\n\n* The site footer across **gitee.com** likewise confirms copyright and operation under:\n  > *\"北京奥思研工智能科技有限公司版权所有\"* (*Copyright © Beijing Aosi Yangong Intelligent Technology Co., Ltd.*).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "der Statements & Evidence\n* **Website Term",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELqfXSZtkhHyWZmgNLqJCcdj2LYMYbB-lN-Ll7Q8R45TlXN-qn2CRlqgJpTlpEletdGO4EjuZytlpmyLhiQAnvzlDTt3fdZeoJ_Cs_BA==",
+          "title": "gitee.com"
+        },
+        {
+          "id": 1,
+          "text": "der Statements & Evidence\n* **Website Term",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXyTlsKwq0DQNfQYF75B02yyw9eq3lzRddEfld1zZ5Jpr_Uu3IOb_9qoHYSXo9Jm0rByfoyHiJmlLtyO2u7Voexks1G1iXsLb2CJsfDUI2_Hyn-0EWbvSBpaoYC28F-Q69Bn45DfQMLX65L0frr1rxuy4v8RGVH-vZ9Sjg6gDJXy7PEjMYaTko1ZqC2fUkNgT9DnLWGNcRKpo=",
+          "title": "gitee.com"
+        },
+        {
+          "id": 2,
+          "text": "der Statements & Evidence\n* **Website Term",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5qtoWluWn-d0KkMK7Lh58OCZP4uiCGDUWQ01o6a4maFpmtYa7STTaQPJmLrZ6vAqwUa9YUfd2qm_2lpOtZVA648h-BKoWXJ7cPlNiiA6dS8e2ZfqIsZNR2hj6YkHfkN8fc2XIpf30tZJYUa1Jp-EigWQ=",
+          "title": "qcc.com"
+        },
+        {
+          "id": 3,
+          "text": "Yangong Intelligent Technology Co., Ltd. It is open to the public and provides Git-b",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELqfXSZtkhHyWZmgNLqJCcdj2LYMYbB-lN-Ll7Q8R45TlXN-qn2CRlqgJpTlpEletdGO4EjuZytlpmyLhiQAnvzlDTt3fdZeoJ_Cs_BA==",
+          "title": "gitee.com"
+        }
+      ],
+      "result": {
+        "status": "unknown",
+        "vendor": "UNKNOWN",
+        "evidence": "The provided passages do not contain sufficient evidence to establish the provider of Gitee. None of the passages mention the product Gitee or link it to an operating company or developer, and Passage 3 is a truncated fragment that neither names the product nor establishes a clear provider relationship."
+      }
+    },
+    {
+      "answer": "The vendor directly providing the software product **Gitee** at **gitee.com** is **Beijing Aosi Yangong Intelligent Technology Co., Ltd.** (北京奥思研工智能科技有限公司), operating under the brand **OSCHINA** (formerly known as Shenzhen Aosi Network Technology Co., Ltd. / 深圳市奥思网络科技有限公司).\n\n### Evidence\n* According to the official Terms of Use (`gitee.com/terms`) and the About Us page on **gitee.com**:\n  > *\"本服务条款是北京奥思研工智能科技有限公司(以下简称“北京奥思研工”)与您就Git 代码托管和项目管理服务的相关事项所订立的有效合约。\"* (These Terms of Service are a binding contract entered into between Beijing Aosi Yangong Intelligent Technology Co., Ltd. and you regarding Git code hosting and project management services.)\n  > *\"北京奥思研工智能科技有限公司（ OSCHINA ），通过社区、 Gitee 和模力方舟等产品支持开源生态环境。其中... Gitee（gitee.com）为代码托管·协作开发平台...\"*\n* The site footer and copyright across `gitee.com` designate: *\"北京奥思研工智能科技有限公司版权所有\"* (All rights reserved by Beijing Aosi Yangong Intelligent Technology Co., Ltd.).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product **Gitee** at **gitee.com** is **Beijing Aosi Yangong Intelligent Technology Co., Ltd.** (北京奥思研工智能科技有限公司), operating under the brand **OSCHINA** (formerly known as Shenzhen",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGu3SuuhH9oCcicqtg_yzz3-2jwpDWFLSeXJuEwzHMlKfkWrWBPcsAcwft9t9cA7xhUOLRRGITbydozFNIHr9HcRr6jhDN7bL9kBxTm",
+          "title": "gitee.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the software product **Gitee** at **gitee.com** is **Beijing Aosi Yangong Intelligent Technology Co., Ltd.** (北京奥思研工智能科技有限公司), operating under the brand **OSCHINA** (formerly known as Shenzhen",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEUuOB6qNB_cdkUledhgIJcD4DrJjYRoPIRsVf6Q7l4ZdsQIkHMZ7LcSjjJQQe7muInN7EfwNzUI9v-tUvN_RWys4I0qGX3pYVv9I0qQFQ4SXxcFHOlkgmS5dV4qfigh1DxzoJ-x-mPDxYKGi7rzo4jng=",
+          "title": "qcc.com"
+        },
+        {
+          "id": 2,
+          "text": "nce\n* According to the official Terms of U",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEUuOB6qNB_cdkUledhgIJcD4DrJjYRoPIRsVf6Q7l4ZdsQIkHMZ7LcSjjJQQe7muInN7EfwNzUI9v-tUvN_RWys4I0qGX3pYVv9I0qQFQ4SXxcFHOlkgmS5dV4qfigh1DxzoJ-x-mPDxYKGi7rzo4jng=",
+          "title": "qcc.com"
+        },
+        {
+          "id": 3,
+          "text": "nce\n* According to the official Terms of U",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVTbpAUUXNTklPnPxnzlYO-Ic6qB_MlNZaawuOB6SWDkdARZemty0V6B8jvi9eUXPELyuJKoJpHhL7BfHXM5JWtrdmm_wBOhX3FOeQm1zOZye2ZGTwp4Fw6QANTZjfAl3dQ00=",
+          "title": "tianyancha.com"
+        },
+        {
+          "id": 4,
+          "text": "ement services.)\n  > *\"北京奥思研工智能科技有限公司（ OSCHINA ），通过社区、 Gitee 和模力方舟等产品支持开源生态环境。其中... Gitee（gitee.com）为代码托管·协作开发平台...\"*\n* The site footer and copyright across `gitee.com` designate: *\"北京奥思研工智能",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFc2WEO3TxWqjXUE1mFaqTP1hxigh6wgXMK7OKHrbA0SQGShHx6Fl6Nrb0EZFGasX8RONo6zWpaEEPxV6cXFk7EAeRYX5ub4F0I_QtkPpaGyIyIcKD9BYQ=",
+          "title": "gitee.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Beijing Aosi Yangong Intelligent Technology Co., Ltd.",
+        "evidence": "Passage 0 states that Beijing Aosi Yangong Intelligent Technology Co., Ltd. (operating under the brand OSCHINA) is the vendor directly providing the software product Gitee at gitee.com.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the software product **Gitee** at **gitee.com** is **Beijing Aosi Yangong Intelligent Technology Co., Ltd.** (北京奥思研工智能科技有限公司), operating under the brand **OSCHINA** (formerly known as Shenzhen",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGu3SuuhH9oCcicqtg_yzz3-2jwpDWFLSeXJuEwzHMlKfkWrWBPcsAcwft9t9cA7xhUOLRRGITbydozFNIHr9HcRr6jhDN7bL9kBxTm",
+          "title": "gitee.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Gitee",
+    "domain": "gitee.com",
+    "description": "Gitee is a code hosting platform launched by OSCHINA.NET, supporting Git and SVN. It offers free private repository hosting and has attracted over 5 million developers, making it a popular choice among software developers in China."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Beijing Aosi Yangong Intelligent Technology Co., Ltd.",
+  "evidence": "Passage 0 states that Beijing Aosi Yangong Intelligent Technology Co., Ltd. (operating under the brand OSCHINA) is the vendor directly providing the software product Gitee at gitee.com.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the software product **Gitee** at **gitee.com** is **Beijing Aosi Yangong Intelligent Technology Co., Ltd.** (北京奥思研工智能科技有限公司), operating under the brand **OSCHINA** (formerly known as Shenzhen",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGu3SuuhH9oCcicqtg_yzz3-2jwpDWFLSeXJuEwzHMlKfkWrWBPcsAcwft9t9cA7xhUOLRRGITbydozFNIHr9HcRr6jhDN7bL9kBxTm",
+    "title": "gitee.com"
+  },
+  "checked_at": "2026-11-05T08:56:19.722358+00:00"
+}

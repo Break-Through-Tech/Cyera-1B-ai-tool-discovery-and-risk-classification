@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Smore** at **smore.com** is **Fireplace, Inc.** (doing business as **Smore**).\n\n### Evidence\n* **Terms of Service:** The Smore Terms of Service state:  \n  > *\"These general terms of service (“Terms” or “Terms of Service”) are entered into by and between Fireplace, Inc., d.b.a. Smore (“Fireplace,” “Smore,” “we/our”) and the party using the Fireplace Website and/or Services... Our Website and Services are owned and operated by Fireplace.\"*\n* **Privacy Policy:** The Smore Privacy Policy confirms:  \n  > *\"This Privacy Statement provides information on how Fireplace, Inc., dba www.smore.com (“Smore”) collects, uses, and protects personal information. When we refer to 'us,' 'we,' 'our,' or 'Smore' in this Privacy Statement, we are referring to Fireplace, Inc., dba Smore and its affiliates.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Smore** at **smore.com** is **Fireplace, Inc.** (doing business as **Smore**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3L4Er-RuzGTZHUDOPBirJxfFmSab8_Rz6Pvk1T1G7ZAfcE_VexMttHoN9UfiRAAVZH-Y2B95GmEzHLZ9CYnlxoGksf5khRngfSNViZVH-vSM=",
+          "title": "smore.com"
+        },
+        {
+          "id": 1,
+          "text": "ices are owned and operated by Fireplace.\"*\n* **Privacy Policy:",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3L4Er-RuzGTZHUDOPBirJxfFmSab8_Rz6Pvk1T1G7ZAfcE_VexMttHoN9UfiRAAVZH-Y2B95GmEzHLZ9CYnlxoGksf5khRngfSNViZVH-vSM=",
+          "title": "smore.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Fireplace, Inc.",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing Smore at smore.com is Fireplace, Inc. (doing business as Smore).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Smore** at **smore.com** is **Fireplace, Inc.** (doing business as **Smore**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3L4Er-RuzGTZHUDOPBirJxfFmSab8_Rz6Pvk1T1G7ZAfcE_VexMttHoN9UfiRAAVZH-Y2B95GmEzHLZ9CYnlxoGksf5khRngfSNViZVH-vSM=",
+          "title": "smore.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Smore",
+    "domain": "smore.com",
+    "description": "Smore is a communication platform designed for K-12 educators, schools, and districts, facilitating family engagement through interactive newsletters. It offers features such as email engagement data, language translation, collaborative tools, and the ability to create district-wide templates. With over 4 million users, Smore aims to simplify online communication for schools nationwide."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Fireplace, Inc.",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing Smore at smore.com is Fireplace, Inc. (doing business as Smore).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Smore** at **smore.com** is **Fireplace, Inc.** (doing business as **Smore**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3L4Er-RuzGTZHUDOPBirJxfFmSab8_Rz6Pvk1T1G7ZAfcE_VexMttHoN9UfiRAAVZH-Y2B95GmEzHLZ9CYnlxoGksf5khRngfSNViZVH-vSM=",
+    "title": "smore.com"
+  },
+  "checked_at": "2026-11-05T08:20:16.948599+00:00"
+}

@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Sentry** at **sentry.io** is **Functional Software, Inc.** (doing business as **Sentry**).\n\n### Evidence:\n* **Terms of Service:**\n  > *\"These Sentry Terms of Service (“Agreement”) are entered into by and between Functional Software, Inc. d/b/a Sentry (“Sentry” or “we”) and the entity or person placing an order for or accessing the Service (“Customer” or “you”).\"*\n* **Privacy Policy:**\n  > *\"The data controller of your personal information is Functional Software, Inc. d/b/a Sentry.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Sentry** at **sentry.io** is **Functional Software, Inc.** (doing business as **Sentry**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8t5qfLljsZtEFL9dW4fVq3pHWLnd3HlEccLzAHs2_JFKI7EWQfWPXysmnR0UbUVT8ZbCUq6_UHZ7WTPnWs55_btohqR-f6YlqMhvQUvh3xTCIZe1fTxDDL59LjOswHY3tDfSFLiQBqrn4dQ==",
+          "title": "dataprivacyframework.gov"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Sentry** at **sentry.io** is **Functional Software, Inc.** (doing business as **Sentry**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqRxTfdhb90mDqau9dnoy6iK8FBi2vGuQtDm88LWrSgzdoPNshKEJKp9CPdopcR8CjhdEZY2awMCHjvjwlFzwUkr6bQGzEtpBRTieOIzQ=",
+          "title": "sentry.io"
+        },
+        {
+          "id": 2,
+          "text": "*\"These Sentry Terms of Service (“Agreement”) are entered into by and between Functional Software, Inc. d/b/a Sentry (“Sentry” or “we”) and the entity or person placing an order for or accessing the Service (“Customer” or “you”).\"*\n* **Privacy Policy:",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqRxTfdhb90mDqau9dnoy6iK8FBi2vGuQtDm88LWrSgzdoPNshKEJKp9CPdopcR8CjhdEZY2awMCHjvjwlFzwUkr6bQGzEtpBRTieOIzQ=",
+          "title": "sentry.io"
+        },
+        {
+          "id": 3,
+          "text": "These Sentry Terms of Service (“Agreement”) are entered into by and between Functional Software, Inc. d/b/a Sentry (“Sentry” or “we”) and the entity or person placing an order for or accessing the Service (“Customer” o",
+          "url": "https://github.com/Android-group-repositories/TOS-Analyst",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Functional Software, Inc.",
+        "evidence": "Passage 1 states that the vendor directly providing Sentry at sentry.io is Functional Software, Inc. (doing business as Sentry).",
+        "source": {
+          "id": 1,
+          "text": "The vendor directly providing **Sentry** at **sentry.io** is **Functional Software, Inc.** (doing business as **Sentry**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqRxTfdhb90mDqau9dnoy6iK8FBi2vGuQtDm88LWrSgzdoPNshKEJKp9CPdopcR8CjhdEZY2awMCHjvjwlFzwUkr6bQGzEtpBRTieOIzQ=",
+          "title": "sentry.io"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Sentry",
+    "domain": "sentry.io",
+    "description": "Sentry is an application monitoring software that assists developers in tracking and fixing issues within their applications. With a user base of over 4 million developers, it provides essential tools for error tracking and performance monitoring to enhance application reliability and user experience."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Functional Software, Inc.",
+  "evidence": "Passage 1 states that the vendor directly providing Sentry at sentry.io is Functional Software, Inc. (doing business as Sentry).",
+  "source": {
+    "id": 1,
+    "text": "The vendor directly providing **Sentry** at **sentry.io** is **Functional Software, Inc.** (doing business as **Sentry**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqRxTfdhb90mDqau9dnoy6iK8FBi2vGuQtDm88LWrSgzdoPNshKEJKp9CPdopcR8CjhdEZY2awMCHjvjwlFzwUkr6bQGzEtpBRTieOIzQ=",
+    "title": "sentry.io"
+  },
+  "checked_at": "2026-11-05T09:37:11.479085+00:00"
+}

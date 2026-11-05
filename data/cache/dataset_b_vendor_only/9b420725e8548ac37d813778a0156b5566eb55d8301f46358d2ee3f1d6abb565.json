@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Notion** at the domain **notion.so** is **Notion Labs, Inc.**\n\n### Provider Statement\nAccording to Notion's official Privacy Policy (governing `notion.so` and the platform):\n> *\"Notion Labs, Inc., and our relevant affiliates are referred to as “Notion,” “we,” “us,” and “our.” Our public websites, including www.notion.so, are referred to as the “Website.” Our online software-as-service platform including any related APIs provided by Notion, together with all related mobile and desktop applications are collectively referred to as the “Services.”\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Notion** at the domain **notion.so** is **Notion Labs, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHOJn2uVF8Isrbs17b4CLasNkIC6tRI5JHZ1afa3fSxTvpUfOyeM2K9vQs5nv0uQ_LRMj81oNvfCLeyqraJzGLIoZs0RnDsHsKK9GR_Opvzbq241mb3zaYplwu2Uhf",
+          "title": "notion.so"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Notion** at the domain **notion.so** is **Notion Labs, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtqu-sW1a5WqFbjbqrhtG0KQYHgzijrJCpoV8kTxQc4vR1drdLQTQ-eZz7PoHY2sakU48D0UtS4Q4gWxnVHajGO70VrfcfeB6rX3TaVVMEz-7vgg922sdjhVyS4QfE3qmy",
+          "title": "notion.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Notion Labs, Inc.",
+        "evidence": "Passage 0 directly states that the vendor directly providing Notion at the domain notion.so is Notion Labs, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Notion** at the domain **notion.so** is **Notion Labs, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHOJn2uVF8Isrbs17b4CLasNkIC6tRI5JHZ1afa3fSxTvpUfOyeM2K9vQs5nv0uQ_LRMj81oNvfCLeyqraJzGLIoZs0RnDsHsKK9GR_Opvzbq241mb3zaYplwu2Uhf",
+          "title": "notion.so"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Notion",
+    "domain": "notion.so",
+    "description": "Notion is a customizable all-in-one workspace that integrates various everyday work tools such as product roadmaps, company wikis, and meeting notes into a single platform. Designed for teams and organizations, Notion empowers users to tailor their workflows according to their unique needs. The company is dedicated to providing an adaptable software environment that allows everyone to create and modify the tools that enhance their productivity."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Notion Labs, Inc.",
+  "evidence": "Passage 0 directly states that the vendor directly providing Notion at the domain notion.so is Notion Labs, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Notion** at the domain **notion.so** is **Notion Labs, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHOJn2uVF8Isrbs17b4CLasNkIC6tRI5JHZ1afa3fSxTvpUfOyeM2K9vQs5nv0uQ_LRMj81oNvfCLeyqraJzGLIoZs0RnDsHsKK9GR_Opvzbq241mb3zaYplwu2Uhf",
+    "title": "notion.so"
+  },
+  "checked_at": "2026-11-05T09:11:15.311091+00:00"
+}

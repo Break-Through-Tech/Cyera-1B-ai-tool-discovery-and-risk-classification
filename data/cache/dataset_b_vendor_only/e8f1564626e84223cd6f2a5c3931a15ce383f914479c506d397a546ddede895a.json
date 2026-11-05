@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **4oImageAPI.io** at **4oimageapi.io** is **4oImageApi.io, Inc.** (operating under the provider brand **4oimageapi.io**).\n\n* **Provider Statement / Evidence:** The official documentation and API pages for the product at `4oimageapi.io` display the copyright notice: \n  > *\"Copyright © 2025 4oImageApi.io, Inc. Built with Docusaurus.\"* \n\nIt also designates technical support contact as `support@4oimageapi.io` and is listed across software registries as provided by **4oimageapi.io**.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **4oImageAPI.io** at **4oimageapi.io** is **4oImageApi.io, Inc.** (operating under the provider brand **4oimageapi.io**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCVynNo6BKN_a7Ga3LPiTMXM7CaJG4lQJ4WEhEtgLBCsJzREtfByJJuQO6JlaOiDMsb9QVgLIdGB5afVTnvwm1R09eAb4e0bXdGL95GfeRm1K0T1p_9KcyshewsuY9TkQ-pF_Qbl94bhmqFVw95We5sWPIE8AA5PSVsTNc2Wc7SZw9AOJhklqc7HxzvLk=",
+          "title": "g2.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **4oImageAPI.io** at **4oimageapi.io** is **4oImageApi.io, Inc.** (operating under the provider brand **4oimageapi.io**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQwjA3vrI5LduspGPDoNaIj5qBa1e9KTlZvc8H6eHzLyqRNfB6KQBGr6iUTMn0RgEkI1P1gmKGxqeSYAXMbx_NU_xbv1j6APmSg6GruI_y1FCBmnIFnCpDHJv3Eu3uvQZRR86cwrVZQM8FbQ==",
+          "title": "4oimageapi.io"
+        },
+        {
+          "id": 2,
+          "text": "uilt with Docusaurus.\"* ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQwjA3vrI5LduspGPDoNaIj5qBa1e9KTlZvc8H6eHzLyqRNfB6KQBGr6iUTMn0RgEkI1P1gmKGxqeSYAXMbx_NU_xbv1j6APmSg6GruI_y1FCBmnIFnCpDHJv3Eu3uvQZRR86cwrVZQM8FbQ==",
+          "title": "4oimageapi.io"
+        },
+        {
+          "id": 3,
+          "text": "t also designates technical support contact as `support@4oimageapi.io` and is listed across software registries as provided by **4oimageapi.io**.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCVynNo6BKN_a7Ga3LPiTMXM7CaJG4lQJ4WEhEtgLBCsJzREtfByJJuQO6JlaOiDMsb9QVgLIdGB5afVTnvwm1R09eAb4e0bXdGL95GfeRm1K0T1p_9KcyshewsuY9TkQ-pF_Qbl94bhmqFVw95We5sWPIE8AA5PSVsTNc2Wc7SZw9AOJhklqc7HxzvLk=",
+          "title": "g2.com"
+        },
+        {
+          "id": 4,
+          "text": "t also designates technical support contact as `support@4oimageapi.io` and is listed across software registries as provided by **4oimageapi.io**.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQwjA3vrI5LduspGPDoNaIj5qBa1e9KTlZvc8H6eHzLyqRNfB6KQBGr6iUTMn0RgEkI1P1gmKGxqeSYAXMbx_NU_xbv1j6APmSg6GruI_y1FCBmnIFnCpDHJv3Eu3uvQZRR86cwrVZQM8FbQ==",
+          "title": "4oimageapi.io"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "4oImageApi.io, Inc.",
+        "evidence": "Passage 1 states directly that the vendor providing 4oImageAPI.io at 4oimageapi.io is 4oImageApi.io, Inc. (operating under the provider brand 4oimageapi.io).",
+        "source": {
+          "id": 1,
+          "text": "The vendor directly providing **4oImageAPI.io** at **4oimageapi.io** is **4oImageApi.io, Inc.** (operating under the provider brand **4oimageapi.io**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQwjA3vrI5LduspGPDoNaIj5qBa1e9KTlZvc8H6eHzLyqRNfB6KQBGr6iUTMn0RgEkI1P1gmKGxqeSYAXMbx_NU_xbv1j6APmSg6GruI_y1FCBmnIFnCpDHJv3Eu3uvQZRR86cwrVZQM8FbQ==",
+          "title": "4oimageapi.io"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "4oImageAPI.io",
+    "domain": "4oimageapi.io",
+    "description": "Generate high-quality, versatile images with text and picture using the affordable 4o Image API from 4oimageapi.io."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "4oImageApi.io, Inc.",
+  "evidence": "Passage 1 states directly that the vendor providing 4oImageAPI.io at 4oimageapi.io is 4oImageApi.io, Inc. (operating under the provider brand 4oimageapi.io).",
+  "source": {
+    "id": 1,
+    "text": "The vendor directly providing **4oImageAPI.io** at **4oimageapi.io** is **4oImageApi.io, Inc.** (operating under the provider brand **4oimageapi.io**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQwjA3vrI5LduspGPDoNaIj5qBa1e9KTlZvc8H6eHzLyqRNfB6KQBGr6iUTMn0RgEkI1P1gmKGxqeSYAXMbx_NU_xbv1j6APmSg6GruI_y1FCBmnIFnCpDHJv3Eu3uvQZRR86cwrVZQM8FbQ==",
+    "title": "4oimageapi.io"
+  },
+  "checked_at": "2026-11-05T06:41:22.181757+00:00"
+}

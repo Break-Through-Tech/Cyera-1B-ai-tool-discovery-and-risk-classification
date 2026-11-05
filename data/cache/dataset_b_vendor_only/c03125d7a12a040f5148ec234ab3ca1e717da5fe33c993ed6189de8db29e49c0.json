@@ -1,0 +1,43 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on the official website for **Paper Pilot** at **paperpilot.xyz**, the software product is directly provided under the brand name **Paper Pilot**. \n\nNo separate operating company or individual developer is listed on the domain or its blog; the site identifies the provider brand via its official footer notice:\n> *\"© 2024 Paper Pilot. All rights reserved.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "Based on the official website for **Paper Pilot** at **paperpilot.xyz**, the software product is directly provided under the brand name **Paper Pilot**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoLcZQc2FuRtYM8AEbSUykyPpJbS1oOUL-wvoKTb7wyj8cIkOu9XEs6-COm7pnkGlfFeEahDaPg-_zs6lxjwMRunD5jZmCJrpHknVYSvsFZcE=",
+          "title": "paperpilot.xyz"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Paper Pilot",
+        "evidence": "Passage 0 states that the software product is directly provided under the brand name Paper Pilot on paperpilot.xyz.",
+        "source": {
+          "id": 0,
+          "text": "Based on the official website for **Paper Pilot** at **paperpilot.xyz**, the software product is directly provided under the brand name **Paper Pilot**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoLcZQc2FuRtYM8AEbSUykyPpJbS1oOUL-wvoKTb7wyj8cIkOu9XEs6-COm7pnkGlfFeEahDaPg-_zs6lxjwMRunD5jZmCJrpHknVYSvsFZcE=",
+          "title": "paperpilot.xyz"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Paper Pilot",
+    "domain": "paperpilot.xyz",
+    "description": "Paper Pilot is an AI research assistant that helps users quickly understand academic papers. It allows uploading PDFs to summarize, explain complex concepts, answer specific questions, and extract key information, significantly streamlining the research process for students and professionals."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Paper Pilot",
+  "evidence": "Passage 0 states that the software product is directly provided under the brand name Paper Pilot on paperpilot.xyz.",
+  "source": {
+    "id": 0,
+    "text": "Based on the official website for **Paper Pilot** at **paperpilot.xyz**, the software product is directly provided under the brand name **Paper Pilot**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoLcZQc2FuRtYM8AEbSUykyPpJbS1oOUL-wvoKTb7wyj8cIkOu9XEs6-COm7pnkGlfFeEahDaPg-_zs6lxjwMRunD5jZmCJrpHknVYSvsFZcE=",
+    "title": "paperpilot.xyz"
+  },
+  "checked_at": "2026-11-05T07:05:06.587457+00:00"
+}

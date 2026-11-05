@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **AdGuard** at **adguard.com** is **ADGUARD SOFTWARE LIMITED**.\n\n### Evidence\n* According to the **AdGuard End User License Agreement (EULA)** at `adguard.com`:\n  > *\"“Rightholder” (“we”, “us”, “our”) is ADGUARD SOFTWARE LIMITED, an entity organized and existing under the laws of the Republic of Cyprus. The Rightholder is the owner of all rights, exclusive or otherwise, to the Software. 'Software' is the ADGUARD software program, such as AdGuard Ad Blocker, AdGuard Browser Assistant, and any third party software programs contained therein, in each case supplied by the Rightholder herewith...\"*\n* The **AdGuard Privacy Policy** at `adguard.com` confirms:\n  > *\"ADGUARD SOFTWARE LIMITED (“We”, “Our” or “Us”) collects and processes your data in accordance with this Privacy Policy... ADGUARD SOFTWARE LIMITED is a company registered in Limassol, Cyprus, at Anexartisias and Athinon 79, Nora Court Flat/Office 203–205, 3040.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **AdGuard** at **adguard.com** is **ADGUARD SOFTWARE LIMITED**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMjXtzZPSoxmM-fUBUrXDXr-i4Op4iWQE12PbgShnMspilIb89P2I6ytMGpjSAMJ2HHw96i5BU_MZUQGILgMwlJrsIljyAayNN8vbeE4s-Be0sXd1W6Cnc",
+          "title": "adguard.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **AdGuard** at **adguard.com** is **ADGUARD SOFTWARE LIMITED**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9qvsJx89zD3uW969m1aAEnN0NZEVFJyUN0cmbkk_rrD0oTsOiHn_WZ2E6HxX_OwScVKbhSyznji3lWHFw2uV233nqU3J1mFBFQzk8v7G6f1yCUb_d",
+          "title": "adguard.com"
+        },
+        {
+          "id": 2,
+          "text": "e ADGUARD software program, such as AdGuard Ad Blocker, AdGuard Browser Assistant, and any third party software programs contained therein, in each case supplied by the Rightholder herewith...\"*\n* The **AdGuard",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9qvsJx89zD3uW969m1aAEnN0NZEVFJyUN0cmbkk_rrD0oTsOiHn_WZ2E6HxX_OwScVKbhSyznji3lWHFw2uV233nqU3J1mFBFQzk8v7G6f1yCUb_d",
+          "title": "adguard.com"
+        },
+        {
+          "id": 3,
+          "text": "Rightholder” (“we”, “us”, “our”) is ADGUARD SOFTWARE LIMITED, an entity organized and existing under the laws of the Republic of Cyprus. The Rightholder is the owner of all rights, exclusive or otherwise, to the Softwa",
+          "url": "https://adguard.com/en/eula.html",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "ADGUARD SOFTWARE LIMITED",
+        "evidence": "According to the AdGuard EULA on adguard.com, ADGUARD SOFTWARE LIMITED is the Rightholder and owner of all rights to the software.",
+        "source": {
+          "id": 3,
+          "text": "Rightholder” (“we”, “us”, “our”) is ADGUARD SOFTWARE LIMITED, an entity organized and existing under the laws of the Republic of Cyprus. The Rightholder is the owner of all rights, exclusive or otherwise, to the Softwa",
+          "url": "https://adguard.com/en/eula.html",
+          "title": ""
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "AdGuard",
+    "domain": "adguard.com",
+    "description": "AdGuard is a software company specializing in ad-blocking and online privacy solutions. They provide tools that eliminate ads, prevent online tracking, and protect users from malware, enhancing web browsing speed and security. AdGuard operates globally, offering its services through various platforms including Windows, macOS, Android, and iOS."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "ADGUARD SOFTWARE LIMITED",
+  "evidence": "According to the AdGuard EULA on adguard.com, ADGUARD SOFTWARE LIMITED is the Rightholder and owner of all rights to the software.",
+  "source": {
+    "id": 3,
+    "text": "Rightholder” (“we”, “us”, “our”) is ADGUARD SOFTWARE LIMITED, an entity organized and existing under the laws of the Republic of Cyprus. The Rightholder is the owner of all rights, exclusive or otherwise, to the Softwa",
+    "url": "https://adguard.com/en/eula.html",
+    "title": ""
+  },
+  "checked_at": "2026-11-05T09:40:02.512934+00:00"
+}

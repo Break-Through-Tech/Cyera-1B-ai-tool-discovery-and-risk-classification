@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product **Make Illustrations** (originally hosted at **makeillustrations.com**, which rebranded and transitioned to **Brushless AI** at **brushless.ai**) is **604BDD Innovations Inc.** (doing business as **Brushless AI**).\n\n### Supporting Evidence\n* **Rebranding confirmation:** Brushless AI's official product updates state: *\"MakeIllustrations.com is now Brushless.ai\"*.\n* **Company / Terms statement:** The official Terms and Conditions specify: *\"'Company' refers to 604BDD Innovations Inc., d/b/a Brushless AI, a Delaware corporation with its principal place of business at 8 The Green, Dover, Delaware, US 19901.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product **Make Illustrations** (originally hosted at **makeillustrations.com**, which rebranded and transitioned to **Brushless AI** at **brushless.ai**) is **604BDD Innovations Inc.** (doing business as **Brushless AI**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzVJol_2y1ClN698sByhwiCobpgbyVNICvwV1-9ruTA8K6Z70CwhQAG4DAEZsJnDoE66AYsh_ELlpMGDgr5yuMpTWEOQmSq2zMeVdADmFNqMTkK_hfL1ZKuqeE4SCnJyjxKWq-FJk08ovVxlcrSIiV7v78nJ275_fojg0xqw==",
+          "title": "brushless.ai"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the software product **Make Illustrations** (originally hosted at **makeillustrations.com**, which rebranded and transitioned to **Brushless AI** at **brushless.ai**) is **604BDD Innovations Inc.** (doing business as **Brushless AI**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsV20u7-JXYaiksSQ6i8kyCLJWcVbieA3oMvpj_1ComDmQlic-IYUI96o_Q5FE-EtDRuelqYYKb-ehN4B1LWEI6MMJdpHjKUIaUkD7s3872Duhz-eYXea2BLY-Eupb",
+          "title": "brushless.ai"
+        },
+        {
+          "id": 2,
+          "text": "**Rebranding confirmation:** Brushless AI's official product updates state: *\"MakeIllustrations.com is now Brushless.ai\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzVJol_2y1ClN698sByhwiCobpgbyVNICvwV1-9ruTA8K6Z70CwhQAG4DAEZsJnDoE66AYsh_ELlpMGDgr5yuMpTWEOQmSq2zMeVdADmFNqMTkK_hfL1ZKuqeE4SCnJyjxKWq-FJk08ovVxlcrSIiV7v78nJ275_fojg0xqw==",
+          "title": "brushless.ai"
+        },
+        {
+          "id": 3,
+          "text": "**Company / Terms statement:** The official Terms and Conditions specify: *\"'Company' refers to 604BDD Innovations Inc., d/b/a Brushless AI, a Delaware corporation with its principal place of business at 8 The Green, Dover, Delaware, US 19901.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsV20u7-JXYaiksSQ6i8kyCLJWcVbieA3oMvpj_1ComDmQlic-IYUI96o_Q5FE-EtDRuelqYYKb-ehN4B1LWEI6MMJdpHjKUIaUkD7s3872Duhz-eYXea2BLY-Eupb",
+          "title": "brushless.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "604BDD Innovations Inc.",
+        "evidence": "Passage 0 directly states that the vendor providing the software product Make Illustrations (originally hosted at makeillustrations.com, which rebranded to Brushless AI) is 604BDD Innovations Inc. (doing business as Brushless AI).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the software product **Make Illustrations** (originally hosted at **makeillustrations.com**, which rebranded and transitioned to **Brushless AI** at **brushless.ai**) is **604BDD Innovations Inc.** (doing business as **Brushless AI**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzVJol_2y1ClN698sByhwiCobpgbyVNICvwV1-9ruTA8K6Z70CwhQAG4DAEZsJnDoE66AYsh_ELlpMGDgr5yuMpTWEOQmSq2zMeVdADmFNqMTkK_hfL1ZKuqeE4SCnJyjxKWq-FJk08ovVxlcrSIiV7v78nJ275_fojg0xqw==",
+          "title": "brushless.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Make Illustrations",
+    "domain": "makeillustrations.com",
+    "description": "Generate consistent and editable AI Vector Illustrations."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "604BDD Innovations Inc.",
+  "evidence": "Passage 0 directly states that the vendor providing the software product Make Illustrations (originally hosted at makeillustrations.com, which rebranded to Brushless AI) is 604BDD Innovations Inc. (doing business as Brushless AI).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the software product **Make Illustrations** (originally hosted at **makeillustrations.com**, which rebranded and transitioned to **Brushless AI** at **brushless.ai**) is **604BDD Innovations Inc.** (doing business as **Brushless AI**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzVJol_2y1ClN698sByhwiCobpgbyVNICvwV1-9ruTA8K6Z70CwhQAG4DAEZsJnDoE66AYsh_ELlpMGDgr5yuMpTWEOQmSq2zMeVdADmFNqMTkK_hfL1ZKuqeE4SCnJyjxKWq-FJk08ovVxlcrSIiV7v78nJ275_fojg0xqw==",
+    "title": "brushless.ai"
+  },
+  "checked_at": "2026-11-05T07:01:03.403317+00:00"
+}

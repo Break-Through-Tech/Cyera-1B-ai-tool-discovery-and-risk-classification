@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Pitch** at **pitch.com** is **Pitch Software GmbH**.\n\n### Supporting Evidence\nAccording to the official **Terms of Use** on pitch.com:\n> *\"These Terms of Use (hereinafter referred to as 'ToU') apply to the provision and use of Pitch's cross-platform Software-as-a-Service (SaaS) for collaboratively creating, editing, and sharing presentations... by Pitch Software GmbH, Joachimstraße 7, 10119 Berlin (hereinafter referred to as 'Pitch').\"*\n\nThis is further confirmed by the site's **Legal Notice**, which lists the operating entity as **Pitch Software GmbH** (Joachimstraße 7, 10119 Berlin, Germany; Commercial Register: Charlottenburg HRB 193605 B).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Pitch** at **pitch.com** is **Pitch Software GmbH**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGk4__qgd76p_7_a5xijelTHwVu3FAleUAbFOwV4vDXGS1dL_yJ7cPuCuVjOYO8MELa3iW07LP2rC7b-kqcN3LayLanMsCzWypX__J-Gs-1GmUJag8=",
+          "title": "pitch.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Pitch** at **pitch.com** is **Pitch Software GmbH**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoTLmgvITMGbvcGdZfzcqpM6ICgq4SUlCzzlaClXbhKnBpoJgD3GFa4c_tgCFXIE7Zd8GV4w_vziIzeDk5xem-wnyYS46dPvuzIIWvb1ZKLxcRJHQ=",
+          "title": "pitch.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"These Terms of Use (hereinafter referred to as 'ToU') apply to the provision and use of Pitch's cross-platform Software-as-a-Service (SaaS) for collaboratively creating, editing, and sharing presentations... by Pitch Software GmbH, Joachimstraße 7, 10119 Berlin (hereinafter referred to as 'Pitch').\"*\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoTLmgvITMGbvcGdZfzcqpM6ICgq4SUlCzzlaClXbhKnBpoJgD3GFa4c_tgCFXIE7Zd8GV4w_vziIzeDk5xem-wnyYS46dPvuzIIWvb1ZKLxcRJHQ=",
+          "title": "pitch.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Pitch Software GmbH",
+        "evidence": "According to the Terms of Use, Pitch's cross-platform Software-as-a-Service for creating, editing, and sharing presentations is provided by Pitch Software GmbH.",
+        "source": {
+          "id": 2,
+          "text": "*\"These Terms of Use (hereinafter referred to as 'ToU') apply to the provision and use of Pitch's cross-platform Software-as-a-Service (SaaS) for collaboratively creating, editing, and sharing presentations... by Pitch Software GmbH, Joachimstraße 7, 10119 Berlin (hereinafter referred to as 'Pitch').\"*\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoTLmgvITMGbvcGdZfzcqpM6ICgq4SUlCzzlaClXbhKnBpoJgD3GFa4c_tgCFXIE7Zd8GV4w_vziIzeDk5xem-wnyYS46dPvuzIIWvb1ZKLxcRJHQ=",
+          "title": "pitch.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Pitch",
+    "domain": "pitch.com",
+    "description": "Pitch is a Berlin-based software company that provides a platform for creating and sharing visually appealing presentations. Launched in 2018 by the creators of Wunderlist, Pitch emphasizes real-time collaboration, user-friendly workflows, and design, catering to over one million teams seeking effective tools for decision-making and business growth."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Pitch Software GmbH",
+  "evidence": "According to the Terms of Use, Pitch's cross-platform Software-as-a-Service for creating, editing, and sharing presentations is provided by Pitch Software GmbH.",
+  "source": {
+    "id": 2,
+    "text": "*\"These Terms of Use (hereinafter referred to as 'ToU') apply to the provision and use of Pitch's cross-platform Software-as-a-Service (SaaS) for collaboratively creating, editing, and sharing presentations... by Pitch Software GmbH, Joachimstraße 7, 10119 Berlin (hereinafter referred to as 'Pitch').\"*\n",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoTLmgvITMGbvcGdZfzcqpM6ICgq4SUlCzzlaClXbhKnBpoJgD3GFa4c_tgCFXIE7Zd8GV4w_vziIzeDk5xem-wnyYS46dPvuzIIWvb1ZKLxcRJHQ=",
+    "title": "pitch.com"
+  },
+  "checked_at": "2026-11-05T09:05:38.636210+00:00"
+}

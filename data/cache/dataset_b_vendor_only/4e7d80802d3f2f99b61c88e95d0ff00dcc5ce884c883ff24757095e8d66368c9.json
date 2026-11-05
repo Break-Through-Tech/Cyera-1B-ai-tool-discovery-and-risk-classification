@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the product at **architizer.com** is **Architizer, Inc.**\n\n### Provider Statement\nAccording to the platform's official **Terms of Use**:\n> *\"This Terms of Service Agreement (the “Agreement”) governs the websites, mobile applications (“Applications”) and related services (collectively, the “Services”) offered or provided by Architizer, Inc. and its corporate affiliates (collectively, “Architizer”, “us”, “our”, and “we”).\"*\n\nThis is also corroborated by the **Privacy Policy**:\n> *\"This Privacy Policy provides a comprehensive description of how Architizer, Inc. (“Architizer,” “we,” “our,” or “us”) collects, uses, and discloses information about you...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the product at **architizer.com** is **Architizer, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGRRhc3ymlQ7f5elY0qomrXGAU1hsuqeFI-PGiiwDWaMyHg_ltRZVlfP-EsBVo2gyumAb_sHQ7kyKZfpMmljrBu8grcch-08x_ryGr1S6NKHnL-0-jsLxNMg==",
+          "title": "architizer.com"
+        },
+        {
+          "id": 1,
+          "text": "*\"This Terms of Service Agreement (the “Agreement”) governs the websites, mobile applications (“Applications”) and related services (collectively, the “Services”) offered or provided by Architizer, Inc. and its corporate affiliates (collectively, “Architizer”, “us”, “our”, and “we”).\"*\n\nThis is also corroborated ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGRRhc3ymlQ7f5elY0qomrXGAU1hsuqeFI-PGiiwDWaMyHg_ltRZVlfP-EsBVo2gyumAb_sHQ7kyKZfpMmljrBu8grcch-08x_ryGr1S6NKHnL-0-jsLxNMg==",
+          "title": "architizer.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Architizer, Inc.",
+        "evidence": "The Terms of Service Agreement establishes that websites, applications, and related services are offered or provided by Architizer, Inc.",
+        "source": {
+          "id": 1,
+          "text": "*\"This Terms of Service Agreement (the “Agreement”) governs the websites, mobile applications (“Applications”) and related services (collectively, the “Services”) offered or provided by Architizer, Inc. and its corporate affiliates (collectively, “Architizer”, “us”, “our”, and “we”).\"*\n\nThis is also corroborated ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGRRhc3ymlQ7f5elY0qomrXGAU1hsuqeFI-PGiiwDWaMyHg_ltRZVlfP-EsBVo2gyumAb_sHQ7kyKZfpMmljrBu8grcch-08x_ryGr1S6NKHnL-0-jsLxNMg==",
+          "title": "architizer.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Architizer",
+    "domain": "architizer.com",
+    "description": "Architizer is a platform designed for architects to search, evaluate, and share building products efficiently. Established in 2009, the company aims to empower architects through access to valuable information, ultimately contributing to the creation of improved buildings, enhanced urban landscapes, and a better world."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Architizer, Inc.",
+  "evidence": "The Terms of Service Agreement establishes that websites, applications, and related services are offered or provided by Architizer, Inc.",
+  "source": {
+    "id": 1,
+    "text": "*\"This Terms of Service Agreement (the “Agreement”) governs the websites, mobile applications (“Applications”) and related services (collectively, the “Services”) offered or provided by Architizer, Inc. and its corporate affiliates (collectively, “Architizer”, “us”, “our”, and “we”).\"*\n\nThis is also corroborated ",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGRRhc3ymlQ7f5elY0qomrXGAU1hsuqeFI-PGiiwDWaMyHg_ltRZVlfP-EsBVo2gyumAb_sHQ7kyKZfpMmljrBu8grcch-08x_ryGr1S6NKHnL-0-jsLxNMg==",
+    "title": "architizer.com"
+  },
+  "checked_at": "2026-11-05T08:02:57.406974+00:00"
+}

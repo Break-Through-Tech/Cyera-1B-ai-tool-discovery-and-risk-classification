@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on the legal notices and terms on **teamviewer.com** for the software product **TeamViewer**:\n\n* **Operating Vendor / Provider:** **TeamViewer Germany GmbH** (subsidiary of **TeamViewer SE**, headquartered in Göppingen, Germany)\n* **Provider Statement:** The site's official Imprint (*Impressum*) designates the direct service provider: \n  > *\"Diensteanbieter für das Angebot unter www.teamviewer.com, mit Ausnahme der Seite „Investor Relations“, ist die TeamViewer Germany GmbH. Bahnhofsplatz 2 73033 Göppingen Deutschland.\"*\n\nFurthermore, the site's General Privacy Notice confirms that *\"TeamViewer Germany GmbH, Bahnhofsplatz 2, 73033 Göppingen, Germany, is controller for www.teamviewer.com\"*, and the End User License Agreement (EULA) lists **TeamViewer Germany GmbH** as the primary contracting entity for software licenses ordered via the web shop as well as free/trial versions.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**Operating Vendor / Provider:** **TeamViewer Germany GmbH** (subsidiary of **TeamViewer SE**, headquartered in Göppingen, Germany)\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJVMMqaVOUkNaCscSPLfPTeh6S99hK6dz-SuKn5UF4y5MmQzD-aLr6sQNvnaRC56kADk2zFO66xAUNyoE03gw7PAmbpKReb1ut5BnRe-ZdnFHlAxodNGe22RHXGhnz7pY_",
+          "title": "teamviewer.com"
+        },
+        {
+          "id": 1,
+          "text": "fsplatz 2 73033 Göppingen Deutschland.\"*\n\nFurth",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJVMMqaVOUkNaCscSPLfPTeh6S99hK6dz-SuKn5UF4y5MmQzD-aLr6sQNvnaRC56kADk2zFO66xAUNyoE03gw7PAmbpKReb1ut5BnRe-ZdnFHlAxodNGe22RHXGhnz7pY_",
+          "title": "teamviewer.com"
+        },
+        {
+          "id": 2,
+          "text": "more, the site's General Privacy Notice confirms that *\"TeamViewer Germany GmbH, Bahnhofsplatz 2, 73033 Göppingen, Germany, is controller for www.teamviewer.com\"*, and th",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvcM6xoL6QZCYJBv86W_GfXcKYfcGBKCteNI1toKbolOi7Kxc7wT27XCJmVj4Vmzh8YGvN5YgZg3C2y1dweWHHLdsYrmVQBFChtd0eJmwzqqK_g9FjhTl3fa_0-lU3qPsBBHUzmpg7ZarWE2rjnw==",
+          "title": "teamviewer.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "TeamViewer Germany GmbH",
+        "evidence": "Passage 0 explicitly identifies TeamViewer Germany GmbH as the Operating Vendor / Provider for TeamViewer.",
+        "source": {
+          "id": 0,
+          "text": "**Operating Vendor / Provider:** **TeamViewer Germany GmbH** (subsidiary of **TeamViewer SE**, headquartered in Göppingen, Germany)\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJVMMqaVOUkNaCscSPLfPTeh6S99hK6dz-SuKn5UF4y5MmQzD-aLr6sQNvnaRC56kADk2zFO66xAUNyoE03gw7PAmbpKReb1ut5BnRe-ZdnFHlAxodNGe22RHXGhnz7pY_",
+          "title": "teamviewer.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "TeamViewer",
+    "domain": "teamviewer.com",
+    "description": "TeamViewer is a prominent technology company based in Göppingen, Germany, specializing in connectivity solutions for remote access, control, management, monitoring, and repair of various devices, including laptops, mobile phones, and industrial machinery. Founded in 2005, the company supports digital transformation across diverse industries with innovative applications in Augmented Reality, Internet of Things, and Artificial Intelligence. Free for personal use, TeamViewer boasts approximately 640,000 subscribers and has had its software installed on over 2.5 billion devices worldwide, with a significant revenue of EUR 627 million in 2023."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "TeamViewer Germany GmbH",
+  "evidence": "Passage 0 explicitly identifies TeamViewer Germany GmbH as the Operating Vendor / Provider for TeamViewer.",
+  "source": {
+    "id": 0,
+    "text": "**Operating Vendor / Provider:** **TeamViewer Germany GmbH** (subsidiary of **TeamViewer SE**, headquartered in Göppingen, Germany)\n",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJVMMqaVOUkNaCscSPLfPTeh6S99hK6dz-SuKn5UF4y5MmQzD-aLr6sQNvnaRC56kADk2zFO66xAUNyoE03gw7PAmbpKReb1ut5BnRe-ZdnFHlAxodNGe22RHXGhnz7pY_",
+    "title": "teamviewer.com"
+  },
+  "checked_at": "2026-11-05T10:05:03.839789+00:00"
+}

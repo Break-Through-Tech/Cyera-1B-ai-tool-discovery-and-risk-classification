@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **SubEasy.ai** (hosted at `subeasy.ai`) is directly provided and operated by **Bikgo Network Ltd.**.\n\n### Supporting Evidence:\n* **Privacy Policy:** *\"This policy applies to all products and services built, operated, and maintained by Bikgo Network Ltd., including SubEasy.ai.\"*\n* **Terms of Service:** *\"'Company,' 'we,' 'our,' or 'us' in any of our policies or terms refers to Bikgo Network Ltd.\"*\n* **Website Footer:** *\"Copyright© Bikgo Network Ltd. (Hong Kong).\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **SubEasy.ai** (hosted at `subeasy.ai`) is directly provided and operated by **Bikgo Network Ltd.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgrAdkhmvpH4AUkTUoMUZmSgPdRyoFgkcxUipQRIklefznbyC2rRj0XPzG-w7iRmPzmEuUXAVYXwLVcxFz2MxVVKXETqDzo4pUZvyOeT_nfftMNEZRFpZW84sC",
+          "title": "subeasy.ai"
+        },
+        {
+          "id": 1,
+          "text": "The software product **SubEasy.ai** (hosted at `subeasy.ai`) is directly provided and operated by **Bikgo Network Ltd.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHsWMHPDY3LZ3_a-l6FbNcZVDiUPyxVta8HVBHYDXCUEkLvAQMBh1CFC9Tf-rcNABhxsFw1Yk5Z-eDdqobF0eUIgXL7BT3gWlawgWMMrmzUyc5UXhyg7yH0ik17ck=",
+          "title": "subeasy.ai"
+        },
+        {
+          "id": 2,
+          "text": "**Privacy Policy:** *\"This policy applies to all products and services built, operated, and maintained by Bikgo Network Ltd., including SubEasy.ai.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgrAdkhmvpH4AUkTUoMUZmSgPdRyoFgkcxUipQRIklefznbyC2rRj0XPzG-w7iRmPzmEuUXAVYXwLVcxFz2MxVVKXETqDzo4pUZvyOeT_nfftMNEZRFpZW84sC",
+          "title": "subeasy.ai"
+        },
+        {
+          "id": 3,
+          "text": "**Terms of Service:** *\"'Company,' 'we,' 'our,' or 'us' in any of our policies or terms refers to Bikgo Network Ltd.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHsWMHPDY3LZ3_a-l6FbNcZVDiUPyxVta8HVBHYDXCUEkLvAQMBh1CFC9Tf-rcNABhxsFw1Yk5Z-eDdqobF0eUIgXL7BT3gWlawgWMMrmzUyc5UXhyg7yH0ik17ck=",
+          "title": "subeasy.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Bikgo Network Ltd.",
+        "evidence": "SubEasy.ai's privacy policy states that it applies to all products and services built, operated, and maintained by Bikgo Network Ltd., including SubEasy.ai.",
+        "source": {
+          "id": 2,
+          "text": "**Privacy Policy:** *\"This policy applies to all products and services built, operated, and maintained by Bikgo Network Ltd., including SubEasy.ai.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgrAdkhmvpH4AUkTUoMUZmSgPdRyoFgkcxUipQRIklefznbyC2rRj0XPzG-w7iRmPzmEuUXAVYXwLVcxFz2MxVVKXETqDzo4pUZvyOeT_nfftMNEZRFpZW84sC",
+          "title": "subeasy.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "SubEasy.ai",
+    "domain": "subeasy.ai",
+    "description": "AI-powered transcription and translation services with unparalleled accuracy."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Bikgo Network Ltd.",
+  "evidence": "SubEasy.ai's privacy policy states that it applies to all products and services built, operated, and maintained by Bikgo Network Ltd., including SubEasy.ai.",
+  "source": {
+    "id": 2,
+    "text": "**Privacy Policy:** *\"This policy applies to all products and services built, operated, and maintained by Bikgo Network Ltd., including SubEasy.ai.\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgrAdkhmvpH4AUkTUoMUZmSgPdRyoFgkcxUipQRIklefznbyC2rRj0XPzG-w7iRmPzmEuUXAVYXwLVcxFz2MxVVKXETqDzo4pUZvyOeT_nfftMNEZRFpZW84sC",
+    "title": "subeasy.ai"
+  },
+  "checked_at": "2026-11-05T05:49:59.870362+00:00"
+}

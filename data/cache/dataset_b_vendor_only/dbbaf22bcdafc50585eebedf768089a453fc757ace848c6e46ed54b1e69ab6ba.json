@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product at **brightcove.com** is **Brightcove Inc.**\n\n### Evidence\n* **Privacy Policy (`brightcove.com/en/legal/privacy`):** \n  > \"The Brightcove Privacy Policies ('Privacy Policies') describe Brightcove Inc., and its affiliates' ('Brightcove' or 'we') practices regarding information collected by our products and services (collectively, 'Brightcove Services'). Any use of Brightcove Services, including the Studio and sign-up pages accessible through Brightcove domains (including www.brightcove.com)... is covered by these Privacy Policies.\"\n* **Terms & Conditions (`brightcove.com`):** \n  > Identifies the service as being provided by \"...Brightcove, Inc. and, from time to time, its subsidiary and affiliate corporations, successors, and assigns (collectively referred to as 'Brightcove').\"",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product at **brightcove.com** is **Brightcove Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcwylHTkOSI3aLNT039yai42PCXLArYfMHh1VrK-z6JcawvJJyt535P3DBFNNz_7hyw-EMsGTesEwU2sp-MkPhPWqaGHcg4d7FbI3DwDCEfOH-nLNWF8IXJzVGXwBuhvjK1VwQ-w==",
+          "title": "brightcove.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the software product at **brightcove.com** is **Brightcove Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcbQzs38W14PWlrdQnve7nXmm1Fvs6foAosLLZ15QSI2Aq4p-56kC41Jfr8QNICmIN1fZo-lo8FEPIejTdVqHFoE5sFxSllvben336xqXoZXalPEyF0gDrsy8qQiIboplRDRmAAr_9Q6mY0Q==",
+          "title": "brightcove.com"
+        },
+        {
+          "id": 2,
+          "text": "Any use of Brightcove Services, including the Studio and sign-up pages accessible through Brightcove domains (including www.brightcove.com)... is covered by these Privacy Policies.\"",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcwylHTkOSI3aLNT039yai42PCXLArYfMHh1VrK-z6JcawvJJyt535P3DBFNNz_7hyw-EMsGTesEwU2sp-MkPhPWqaGHcg4d7FbI3DwDCEfOH-nLNWF8IXJzVGXwBuhvjK1VwQ-w==",
+          "title": "brightcove.com"
+        },
+        {
+          "id": 3,
+          "text": "Brightcove, Inc. and, from time to time, its subsidiary and affiliate corporations, successors, and assigns (collectively referred to as 'Brightcove').\"",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcbQzs38W14PWlrdQnve7nXmm1Fvs6foAosLLZ15QSI2Aq4p-56kC41Jfr8QNICmIN1fZo-lo8FEPIejTdVqHFoE5sFxSllvben336xqXoZXalPEyF0gDrsy8qQiIboplRDRmAAr_9Q6mY0Q==",
+          "title": "brightcove.com"
+        },
+        {
+          "id": 4,
+          "text": "The Brightcove Privacy Policies ('Privacy Policies') describe Brightcove Inc., and its affiliates' ('Brightcove' or 'we') practices regarding information collected by our products and services (collectively, 'Brightcove Services'). Any use of Brightcove Services, including the Studio and sign-up pages accessib",
+          "url": "https://www.brightcove.com/wp-content/uploads/2025/02/Privacy-Policy-Update_FULL.pdf",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Brightcove Inc.",
+        "evidence": "Passage 0 directly states that the vendor providing the software product at brightcove.com is Brightcove Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the software product at **brightcove.com** is **Brightcove Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcwylHTkOSI3aLNT039yai42PCXLArYfMHh1VrK-z6JcawvJJyt535P3DBFNNz_7hyw-EMsGTesEwU2sp-MkPhPWqaGHcg4d7FbI3DwDCEfOH-nLNWF8IXJzVGXwBuhvjK1VwQ-w==",
+          "title": "brightcove.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Brightcove",
+    "domain": "brightcove.com",
+    "description": "Brightcove Inc. is a global leader in providing cloud solutions for video delivery and monetization across various connected devices. With a diverse suite of products designed to simplify the publishing, distribution, measurement, and monetization of multi-screen video, the company serves over 5,500 clients in more than 70 countries. Brightcove’s solutions help businesses enhance their video experiences and drive profitability."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Brightcove Inc.",
+  "evidence": "Passage 0 directly states that the vendor providing the software product at brightcove.com is Brightcove Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the software product at **brightcove.com** is **Brightcove Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcwylHTkOSI3aLNT039yai42PCXLArYfMHh1VrK-z6JcawvJJyt535P3DBFNNz_7hyw-EMsGTesEwU2sp-MkPhPWqaGHcg4d7FbI3DwDCEfOH-nLNWF8IXJzVGXwBuhvjK1VwQ-w==",
+    "title": "brightcove.com"
+  },
+  "checked_at": "2026-11-05T09:57:54.142231+00:00"
+}

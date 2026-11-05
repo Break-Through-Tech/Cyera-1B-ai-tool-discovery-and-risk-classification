@@ -1,0 +1,79 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the product at **deepbrain.io** (DeepBrain AI) is **DeepBrain AI Inc.** (also operating as **DeepBrain AI, Inc.**).\n\n### Supporting Evidence\n* **Terms of Use Agreement:** Stated as a legally binding agreement between the user and *\"DeepBrain AI Inc. (the 'Company'), in connection with your access to and use of the Company's AI Studios Platform, the website located at https://www.aistudios.com and other websites... related or connected to said website\"*. \n* **Copyright & Terms Notice:** Official terms and website tool notices specifically state: *\"All Site's design, graphics, text selections, arrangements, and all software are Copyright © 2026, DeepBrain AI Inc.\"* and *\"By uploading your file, you are agreeing to the DeepBrain AI, Inc. Terms of Service and Privacy Policy\"*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the product at **deepbrain.io** (DeepBrain AI) is **DeepBrain AI Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGS2QEK1UskSYBFql_jD7S2PHmbD5gw07KNeMFwRwfIlmP3UGN6IULynxsGcIccWkCvk9G7DRgHsWVKadw_Mfd595n4Gh1J9cn2x_znnkQ9be2mgIPLqh00-nmblA==",
+          "title": "aistudios.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the product at **deepbrain.io** (DeepBrain AI) is **DeepBrain AI Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETBiejFLtL8zSj3WFZDljcWaRH6plhazFvkQMQCpp5L13C-YaFYzMPCkYkKCVg8Sl9jyAcVLSNRhQDHBwIZQWBFs_i6LLHWouAmrOOIKzdg4mJYe6Id96_BSrDzdSgAXcoZ7Wlc_sxKTFRSlE6ncZh-VXzVd0w64I=",
+          "title": "deepbrain.io"
+        },
+        {
+          "id": 2,
+          "text": "The vendor directly providing the product at **deepbrain.io** (DeepBrain AI) is **DeepBrain AI Inc.** (also operating as **DeepBrain AI, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEN2UJgRn-fXAOWySyQ1FfjvVX7yJ4hqtmRpNehfYLuK5karBjn25OXC3pKsWOFFHHQWCWdt2WLE3mNLa5gmhIzne514bO6_afvtxJAsFai4-txF3wfzNtYddr72nhFRoBhzQSrBFPg",
+          "title": "aistudios.com"
+        },
+        {
+          "id": 3,
+          "text": "The vendor directly providing the product at **deepbrain.io** (DeepBrain AI) is **DeepBrain AI Inc.** (also operating as **DeepBrain AI, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_ZEWOay9P9kgTXZGQB8eLRp527ZXwTgl4LC-a_HJf_TfKvGFBsBsbdnoVBkJvBqtoe7UcpED-OR5kuBOjq63FNBpKNa_JYjRKvLyCxTdsMuYgw5uaYsjRqeJmeQ6SWOJHBNC16BLN",
+          "title": "aistudios.com"
+        },
+        {
+          "id": 4,
+          "text": "**Terms of Use Agreement:** Stated as a legally binding agreement between the user and *\"DeepBrain AI Inc. (the 'Company'), in connection with your access to and use of the Company's AI Studios Platform, the website located at https://www.aistudios.com and other websites... related or connected to said website\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGS2QEK1UskSYBFql_jD7S2PHmbD5gw07KNeMFwRwfIlmP3UGN6IULynxsGcIccWkCvk9G7DRgHsWVKadw_Mfd595n4Gh1J9cn2x_znnkQ9be2mgIPLqh00-nmblA==",
+          "title": "aistudios.com"
+        },
+        {
+          "id": 5,
+          "text": "**Copyright & Terms Notice:** Official terms and website tool notices specifically state: *\"All Site's design, graphics, text selections, arrangements, and all software are Copyright © 2026, DeepBrain AI Inc.\"* ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGS2QEK1UskSYBFql_jD7S2PHmbD5gw07KNeMFwRwfIlmP3UGN6IULynxsGcIccWkCvk9G7DRgHsWVKadw_Mfd595n4Gh1J9cn2x_znnkQ9be2mgIPLqh00-nmblA==",
+          "title": "aistudios.com"
+        },
+        {
+          "id": 6,
+          "text": "erms of Service and Privacy Policy\"*.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETBiejFLtL8zSj3WFZDljcWaRH6plhazFvkQMQCpp5L13C-YaFYzMPCkYkKCVg8Sl9jyAcVLSNRhQDHBwIZQWBFs_i6LLHWouAmrOOIKzdg4mJYe6Id96_BSrDzdSgAXcoZ7Wlc_sxKTFRSlE6ncZh-VXzVd0w64I=",
+          "title": "deepbrain.io"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "DeepBrain AI Inc.",
+        "evidence": "Passage 1 confirms that the vendor directly providing the product at deepbrain.io (DeepBrain AI) is DeepBrain AI Inc.",
+        "source": {
+          "id": 1,
+          "text": "The vendor directly providing the product at **deepbrain.io** (DeepBrain AI) is **DeepBrain AI Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETBiejFLtL8zSj3WFZDljcWaRH6plhazFvkQMQCpp5L13C-YaFYzMPCkYkKCVg8Sl9jyAcVLSNRhQDHBwIZQWBFs_i6LLHWouAmrOOIKzdg4mJYe6Id96_BSrDzdSgAXcoZ7Wlc_sxKTFRSlE6ncZh-VXzVd0w64I=",
+          "title": "deepbrain.io"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Deepbrain AI",
+    "domain": "deepbrain.io",
+    "description": "Innovate HR Process with AI Interview"
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "DeepBrain AI Inc.",
+  "evidence": "Passage 1 confirms that the vendor directly providing the product at deepbrain.io (DeepBrain AI) is DeepBrain AI Inc.",
+  "source": {
+    "id": 1,
+    "text": "The vendor directly providing the product at **deepbrain.io** (DeepBrain AI) is **DeepBrain AI Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETBiejFLtL8zSj3WFZDljcWaRH6plhazFvkQMQCpp5L13C-YaFYzMPCkYkKCVg8Sl9jyAcVLSNRhQDHBwIZQWBFs_i6LLHWouAmrOOIKzdg4mJYe6Id96_BSrDzdSgAXcoZ7Wlc_sxKTFRSlE6ncZh-VXzVd0w64I=",
+    "title": "deepbrain.io"
+  },
+  "checked_at": "2026-11-05T07:19:43.525872+00:00"
+}

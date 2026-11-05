@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The operating company and vendor directly providing the product at **smartinsights.com** is **Smart Insights (Marketing Intelligence) Limited** (trading as **Smart Insights**).\n\n### Evidence\n* **Privacy Policy (`smartinsights.com/privacy-policy/`):** *\"The data controller responsible in respect of the information processed on this website is Smart Insights (Marketing Intelligence) Limited.\"*\n* **Contact Us & Terms Pages (`smartinsights.com/contact-us/`, `smartinsights.com/terms/`):** List the operating entity as *Smart Insights (Marketing Intelligence) Limited* (Company No. 07161735, registered in England and Wales).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The operating company and vendor directly providing the product at **smartinsights.com** is **Smart Insights (Marketing Intelligence) Limited** (trading as **Smart Insights**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSk-21CkLgaaY2E_rMVhNG0CJhecXyYlCNY6LNsJ-KE9SjKDSEVVEc1aaCTtbuJDNZAabwEr5ybB8jMEhfXihYwfd0H3R55GIrli2MlNGJRYmLELjkgj-yfiyxxYDe41mWUqmLTDzMXQZ0D5aUNzCWO87SieOLidGM72X33WAPhtgHkMnkgL0nvg==",
+          "title": "smartinsights.com"
+        },
+        {
+          "id": 1,
+          "text": "**Privacy Policy (`smartinsights.com/privacy-policy/`):** *\"The data controller responsible in respect of the information processed on this website is Smart Insights (Marketing Intelligence) Limited.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJTP506zoA07BrtQLFOZmwKhG7zs02VgP0r8JDNsCvwJXn5UHy4OatwKp-LvCiI3FwoKTpO4tRLaFKYGzve5W6lx-S8zj5npnaquK_2RXio4LkKY2dmeDQkhbcBA==",
+          "title": "smartinsights.com"
+        },
+        {
+          "id": 2,
+          "text": "**Contact Us & Terms Pages (`smartinsights.com/contact-us/`, `smartinsights.com/terms/`):** List the operating entity as *Smart Insights (Marketing Intelligence) Limited* (Company No. 07161735, registered in England and Wales)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZYUPwWyI7Uh4NgUZhafAE8xL9oT5uOn05EpEWcI5TugnKdVJA68E2dgrtjeJuYVGNFVbL8QGwW_Z6_7AxJ2UWztKYqSnnnOouKXlSm_Qh1vV0DbgZUf99wrw=",
+          "title": "smartinsights.com"
+        },
+        {
+          "id": 3,
+          "text": "**Contact Us & Terms Pages (`smartinsights.com/contact-us/`, `smartinsights.com/terms/`):** List the operating entity as *Smart Insights (Marketing Intelligence) Limited* (Company No. 07161735, registered in England and Wales)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-o4gpLqjTmhTg3XKpmysnUXG4vZMslMS59PiOSr15ERdZKRFN6b3Jvkbs8LbwNkocT3x2gbOTZ0czdRqxHDCjcKCEGKg-S2MyLQVWOAUti0v2w_C_mYlZF-rArogFDg==",
+          "title": "smartinsights.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Smart Insights (Marketing Intelligence) Limited",
+        "evidence": "Passage 0 explicitly identifies Smart Insights (Marketing Intelligence) Limited (trading as Smart Insights) as the operating company and vendor directly providing the product at smartinsights.com.",
+        "source": {
+          "id": 0,
+          "text": "The operating company and vendor directly providing the product at **smartinsights.com** is **Smart Insights (Marketing Intelligence) Limited** (trading as **Smart Insights**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSk-21CkLgaaY2E_rMVhNG0CJhecXyYlCNY6LNsJ-KE9SjKDSEVVEc1aaCTtbuJDNZAabwEr5ybB8jMEhfXihYwfd0H3R55GIrli2MlNGJRYmLELjkgj-yfiyxxYDe41mWUqmLTDzMXQZ0D5aUNzCWO87SieOLidGM72X33WAPhtgHkMnkgL0nvg==",
+          "title": "smartinsights.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Smart Insights",
+    "domain": "smartinsights.com",
+    "description": "Smart Insights is a global digital marketing resource platform dedicated to helping individuals and businesses enhance their marketing skills and strategies. By providing a variety of learning resources, including planning templates, guides, e-learning courses, and access to best practice advice, Smart Insights empowers its 150,000 free members and thousands of premium members across 100+ countries to optimize their digital marketing efforts."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Smart Insights (Marketing Intelligence) Limited",
+  "evidence": "Passage 0 explicitly identifies Smart Insights (Marketing Intelligence) Limited (trading as Smart Insights) as the operating company and vendor directly providing the product at smartinsights.com.",
+  "source": {
+    "id": 0,
+    "text": "The operating company and vendor directly providing the product at **smartinsights.com** is **Smart Insights (Marketing Intelligence) Limited** (trading as **Smart Insights**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSk-21CkLgaaY2E_rMVhNG0CJhecXyYlCNY6LNsJ-KE9SjKDSEVVEc1aaCTtbuJDNZAabwEr5ybB8jMEhfXihYwfd0H3R55GIrli2MlNGJRYmLELjkgj-yfiyxxYDe41mWUqmLTDzMXQZ0D5aUNzCWO87SieOLidGM72X33WAPhtgHkMnkgL0nvg==",
+    "title": "smartinsights.com"
+  },
+  "checked_at": "2026-11-05T08:20:40.275923+00:00"
+}

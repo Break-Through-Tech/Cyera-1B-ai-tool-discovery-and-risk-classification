@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The operating vendor directly providing the software product **Keywords Everywhere** (at **keywordseverywhere.com**) is **Axeman Technology Solutions LLP**.\n\n### Evidence and Provider Statement\nAccording to the official legal and security documentation on `keywordseverywhere.com`:\n* **Security Overview:** *\"Keywords Everywhere is a keyword research and SEO analytics service operated by Axeman Technology Solutions LLP, a limited liability partnership registered in India.\"*\n* **Data Processing Agreement (DPA):** Identifies the operating entity as *\"Axeman Technology Solutions LLP, a limited liability partnership registered in India with its address at 502 B Anisha Apartments, Yari Road, Versova, Mumbai 400061, Maharashtra, India, operating the Keywords Everywhere service (the 'Processor').\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The operating vendor directly providing the software product **Keywords Everywhere** (at **keywordseverywhere.com**) is **Axeman Technology Solutions LLP**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7vBmkDHVaEagr2qvPPr8HgsvB8k_VWV37C2KYf_QT6FOaZm2KcT3LAsPizmWTsqg1H8n_wJO_s0S6bFJk5L7C_3MP5luKM_oEgdqu6WJcnZVYNLHuFFbd6WwnEQV3rF7Spw==",
+          "title": "keywordseverywhere.com"
+        },
+        {
+          "id": 1,
+          "text": "**Security Overview:** *\"Keywords Everywhere is a keyword research and SEO analytics service operated by Axeman Technology Solutions LLP, a limited liability partnership registered in India.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7vBmkDHVaEagr2qvPPr8HgsvB8k_VWV37C2KYf_QT6FOaZm2KcT3LAsPizmWTsqg1H8n_wJO_s0S6bFJk5L7C_3MP5luKM_oEgdqu6WJcnZVYNLHuFFbd6WwnEQV3rF7Spw==",
+          "title": "keywordseverywhere.com"
+        },
+        {
+          "id": 2,
+          "text": "**Data Processing Agreement (DPA):** Identifies the operating entity as *\"Axeman Technology Solutions LLP, a limited liability partnership registered in India with its address at 502 B Anisha Apartments, Yari Road, Versova, Mumbai 400061, Maharashtra, India, operating the Keywords Everywhere service (the 'Processor').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEigrJZAG8O10o8GJghIOE6-roPY5DITtSIKTlxv7XVdW-WSTWFOtPbMOYkwi_iANdN9aS8rhyqNxD1sRCsWr4B15ToQ1dlWMe6q2RojTPs2adAKqk9Kc_lsetY0AY=",
+          "title": "keywordseverywhere.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Axeman Technology Solutions LLP",
+        "evidence": "According to the Security Overview quoted in passage 1, Keywords Everywhere is operated by Axeman Technology Solutions LLP.",
+        "source": {
+          "id": 1,
+          "text": "**Security Overview:** *\"Keywords Everywhere is a keyword research and SEO analytics service operated by Axeman Technology Solutions LLP, a limited liability partnership registered in India.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7vBmkDHVaEagr2qvPPr8HgsvB8k_VWV37C2KYf_QT6FOaZm2KcT3LAsPizmWTsqg1H8n_wJO_s0S6bFJk5L7C_3MP5luKM_oEgdqu6WJcnZVYNLHuFFbd6WwnEQV3rF7Spw==",
+          "title": "keywordseverywhere.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Keywords Everwhere",
+    "domain": "keywordseverywhere.com",
+    "description": "Keyword Research and ChatGPT prompts browser extension"
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Axeman Technology Solutions LLP",
+  "evidence": "According to the Security Overview quoted in passage 1, Keywords Everywhere is operated by Axeman Technology Solutions LLP.",
+  "source": {
+    "id": 1,
+    "text": "**Security Overview:** *\"Keywords Everywhere is a keyword research and SEO analytics service operated by Axeman Technology Solutions LLP, a limited liability partnership registered in India.\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7vBmkDHVaEagr2qvPPr8HgsvB8k_VWV37C2KYf_QT6FOaZm2KcT3LAsPizmWTsqg1H8n_wJO_s0S6bFJk5L7C_3MP5luKM_oEgdqu6WJcnZVYNLHuFFbd6WwnEQV3rF7Spw==",
+    "title": "keywordseverywhere.com"
+  },
+  "checked_at": "2026-11-05T07:55:52.504867+00:00"
+}

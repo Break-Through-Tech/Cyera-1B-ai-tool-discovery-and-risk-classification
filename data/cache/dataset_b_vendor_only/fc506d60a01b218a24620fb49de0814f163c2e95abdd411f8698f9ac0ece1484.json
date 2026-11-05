@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Dropbox** at **dropbox.com** is **Dropbox, Inc.** (for users residing in North America) and **Dropbox International Unlimited Company** (for users residing outside North America).\n\n### Official Provider Statement\nAccording to the official **Dropbox Terms of Service** (at `dropbox.com/terms`):\n> *\"These terms of service (“Terms”) cover your use and access to our services, client software and websites (\"Services\"). If you reside outside of the United States of America, Canada and Mexico (“North America”) your agreement is with Dropbox International Unlimited Company. If you reside in North America your agreement is with Dropbox, Inc.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Dropbox** at **dropbox.com** is **Dropbox, Inc.** (for users residing in North America) and **Dropbox International Unlimited Company** (for users residing outside North America)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTYTP-PZ0F_Q84tocAK2ZSXL2b2OeisU0H4XWMUr5GhVtkW3HCl6A5psbkwCRlZZhvQyhx__L51gWK25oZMSblzzx0Sk-FWG27gQiYo5_ZRLcgHQ==",
+          "title": "dropbox.com"
+        },
+        {
+          "id": 1,
+          "text": "According to the official **Dropbox Terms of Service** (at `dropbox.com/terms`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTYTP-PZ0F_Q84tocAK2ZSXL2b2OeisU0H4XWMUr5GhVtkW3HCl6A5psbkwCRlZZhvQyhx__L51gWK25oZMSblzzx0Sk-FWG27gQiYo5_ZRLcgHQ==",
+          "title": "dropbox.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Dropbox, Inc.",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing Dropbox at dropbox.com is Dropbox, Inc. for users residing in North America and Dropbox International Unlimited Company for users residing outside North America.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Dropbox** at **dropbox.com** is **Dropbox, Inc.** (for users residing in North America) and **Dropbox International Unlimited Company** (for users residing outside North America)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTYTP-PZ0F_Q84tocAK2ZSXL2b2OeisU0H4XWMUr5GhVtkW3HCl6A5psbkwCRlZZhvQyhx__L51gWK25oZMSblzzx0Sk-FWG27gQiYo5_ZRLcgHQ==",
+          "title": "dropbox.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Dropbox",
+    "domain": "dropbox.com",
+    "description": "Dropbox is a cloud-based file storage and collaboration platform that serves over 700 million users globally, with a strong user base across 180 countries. Based in San Francisco, CA, Dropbox aims to create a more efficient and organized work environment, facilitating remote work and team collaboration. The company provides tools for file sharing, project management, and data synchronization, making it a favored solution for both individuals and businesses."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Dropbox, Inc.",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing Dropbox at dropbox.com is Dropbox, Inc. for users residing in North America and Dropbox International Unlimited Company for users residing outside North America.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Dropbox** at **dropbox.com** is **Dropbox, Inc.** (for users residing in North America) and **Dropbox International Unlimited Company** (for users residing outside North America)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTYTP-PZ0F_Q84tocAK2ZSXL2b2OeisU0H4XWMUr5GhVtkW3HCl6A5psbkwCRlZZhvQyhx__L51gWK25oZMSblzzx0Sk-FWG27gQiYo5_ZRLcgHQ==",
+    "title": "dropbox.com"
+  },
+  "checked_at": "2026-11-05T10:06:17.243105+00:00"
+}

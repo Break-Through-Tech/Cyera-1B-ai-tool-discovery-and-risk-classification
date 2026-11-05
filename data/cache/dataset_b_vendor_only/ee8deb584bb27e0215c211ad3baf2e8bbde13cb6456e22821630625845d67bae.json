@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **ClickUp** at **clickup.com** is directly provided by **Mango Technologies, Inc.** (doing business as **ClickUp**). \n\n### Evidence\nAccording to the official **ClickUp Terms of Service**:\n> *\"These Terms of Service (“Terms”) and all Policies listed on clickup.com/terms govern and apply to your use of the free and paid services, software and websites (the “Service(s)”) provided by Mango Technologies, Inc. DBA ClickUp (“ClickUp”, “we”, “our”, etc.)[...]\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **ClickUp** at **clickup.com** is directly provided by **Mango Technologies, Inc.** (doing business as **ClickUp**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEokzU24gbRrabnwE2_txVq_4mGp7anZK6CTAk6NlAsE85w9WL-PxuBESeIUIBGP-Hqd8cHwkiJqZbT5X5Nca4JQ5Dook_9AW9b7FlEfs0X",
+          "title": "clickup.com"
+        },
+        {
+          "id": 1,
+          "text": "According to the official **ClickUp Terms of Service**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEokzU24gbRrabnwE2_txVq_4mGp7anZK6CTAk6NlAsE85w9WL-PxuBESeIUIBGP-Hqd8cHwkiJqZbT5X5Nca4JQ5Dook_9AW9b7FlEfs0X",
+          "title": "clickup.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Mango Technologies, Inc.",
+        "evidence": "The software product ClickUp at clickup.com is directly provided by Mango Technologies, Inc. (doing business as ClickUp)",
+        "source": {
+          "id": 0,
+          "text": "The software product **ClickUp** at **clickup.com** is directly provided by **Mango Technologies, Inc.** (doing business as **ClickUp**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEokzU24gbRrabnwE2_txVq_4mGp7anZK6CTAk6NlAsE85w9WL-PxuBESeIUIBGP-Hqd8cHwkiJqZbT5X5Nca4JQ5Dook_9AW9b7FlEfs0X",
+          "title": "clickup.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "ClickUp",
+    "domain": "clickup.com",
+    "description": "ClickUp is an all-in-one productivity platform designed to accommodate various work styles by consolidating multiple productivity tools into a single solution. Launched in 2017 and headquartered in San Diego, the platform offers features such as project management, document collaboration, AI capabilities, and more. With over 10 million users and 2 million teams, ClickUp aims to enhance productivity and efficiency in both personal and professional settings."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Mango Technologies, Inc.",
+  "evidence": "The software product ClickUp at clickup.com is directly provided by Mango Technologies, Inc. (doing business as ClickUp)",
+  "source": {
+    "id": 0,
+    "text": "The software product **ClickUp** at **clickup.com** is directly provided by **Mango Technologies, Inc.** (doing business as **ClickUp**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEokzU24gbRrabnwE2_txVq_4mGp7anZK6CTAk6NlAsE85w9WL-PxuBESeIUIBGP-Hqd8cHwkiJqZbT5X5Nca4JQ5Dook_9AW9b7FlEfs0X",
+    "title": "clickup.com"
+  },
+  "checked_at": "2026-11-05T09:52:44.504582+00:00"
+}

@@ -1,0 +1,85 @@
+{
+  "attempts": [
+    {
+      "answer": "For **phpMyAdmin** at **phpmyadmin.net**:\n\n* **Developer / Project Provider:** **The phpMyAdmin Project** (or **The phpMyAdmin development team**). Official documentation and site pages state: *\"The phpMyAdmin development team is responsible for the development of phpMyAdmin\"* and list the copyright as held by *\"The phpMyAdmin devel team\"*.\n* **Operating Legal Organization / Fiscal Sponsor:** **Software Freedom Conservancy, Inc.**, which acts as the project's non-profit corporate home. The official site notes that *\"phpMyAdmin is a member of the Software Freedom Conservancy\"*, which *\"handles all of our legal matters, including contracts with some of our developers\"* and collects donations and holds assets on its behalf.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**Developer / Project Provider:** **The phpMyAdmin Project** (or **The phpMyAdmin development team**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGXcelduww89NRyb30OUTGNdvX2UsgDOTEJlR8lwNYsPbKFHIsKbR-CX1b5oxURE564bKhcXPD27lJ6zTij0grXqmhj6alvXmxwL0r5mBL55F2Vku2_Q==",
+          "title": "phpmyadmin.net"
+        },
+        {
+          "id": 1,
+          "text": "**Developer / Project Provider:** **The phpMyAdmin Project** (or **The phpMyAdmin development team**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvGlVcPwYqGypUq9aim6qSTZdqH0i69WyKgjPJ1-twT_u0uorSVu8s_OX0VFXvgtHI5g1UULGjoNb8v0l6t4az7bBOXbpSvqHllc38sXfS5l7HAZDWrMo_gAjUwBLL",
+          "title": "wikipedia.org"
+        },
+        {
+          "id": 2,
+          "text": "Official documentation and site pages state: *\"The phpMyAdmin development team is responsible for the development of phpMyAdmin\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGXcelduww89NRyb30OUTGNdvX2UsgDOTEJlR8lwNYsPbKFHIsKbR-CX1b5oxURE564bKhcXPD27lJ6zTij0grXqmhj6alvXmxwL0r5mBL55F2Vku2_Q==",
+          "title": "phpmyadmin.net"
+        },
+        {
+          "id": 3,
+          "text": "Official documentation and site pages state: *\"The phpMyAdmin development team is responsible for the development of phpMyAdmin\"* and list the copyright as held by *\"The phpMyAdmin devel team\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBXlQw-SB42_iZznNLLM9SeD-QYC8Iw-9haJvCAu2wh-xRRwOi-t-txUX6QAejiuZ9DOqsJzELSnO8SKR0P8oGBLAT2OD_6oq46578wDrb4VOpPgDV7kq0cAphWjflXzNYwO6hOJrbtRs8",
+          "title": "phpmyadmin.net"
+        },
+        {
+          "id": 4,
+          "text": "**Operating Legal Organization / Fiscal Sponsor:** **Software Freedom Conservancy, Inc.**, which acts as the project's non-profit corporate home",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHykCwShuJcHBopTsLRAIWm7jTNA-aiE_990wYQafLG2tC7A1oHJcU7v0XCfILqaEY6uOw5iZneLXCGGx9VlncSQz-ufnLi_NOcbXOfbaIbusc0gnyYBdlDXuhnqMEhIfZ4iCsynooZ4XBcwZ27HYEecKE=",
+          "title": "sfconservancy.org"
+        },
+        {
+          "id": 5,
+          "text": "The official site notes that *\"phpMyAdmin is a member of the Software Freedom Conservancy\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQirCCU7De47oPTu_A7syljPWVWqqR8NYL9WsTtbjvd-NS0G5SbvOpySDyLDXsELMbgZJXKegUjqMP0CuGQM0qVVLXgki-7Uhd3Z7aWsIJJTI=",
+          "title": "phpmyadmin.net"
+        },
+        {
+          "id": 6,
+          "text": "The official site notes that *\"phpMyAdmin is a member of the Software Freedom Conservancy\"*, which *\"handles all of our legal matters, including contracts with some of our developers\"* and collects donations and holds assets on its behalf",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHykCwShuJcHBopTsLRAIWm7jTNA-aiE_990wYQafLG2tC7A1oHJcU7v0XCfILqaEY6uOw5iZneLXCGGx9VlncSQz-ufnLi_NOcbXOfbaIbusc0gnyYBdlDXuhnqMEhIfZ4iCsynooZ4XBcwZ27HYEecKE=",
+          "title": "sfconservancy.org"
+        },
+        {
+          "id": 7,
+          "text": "The official site notes that *\"phpMyAdmin is a member of the Software Freedom Conservancy\"*, which *\"handles all of our legal matters, including contracts with some of our developers\"* and collects donations and holds assets on its behalf",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgDkrhSu__5ZmTJe_3EUeAx5Kobp8R8l6MZMinhTJrw4rrQE9nE1URourbWfUygPVopXR0k-jU5fj6RxaB0WKFkriocRZsaDaB9cV-7XE91OveZqVPnPjsInUQYYXhPQyWBiWBpYaRksW1NVaofEsqiCTeMJ4wJyzDBYQEtUNn9t62xN_sdCHHr6x3zg9duSp-mQ==",
+          "title": "phpmyadmin.net"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Software Freedom Conservancy, Inc.",
+        "evidence": "Software Freedom Conservancy, Inc. acts as phpMyAdmin's operating legal organization, fiscal sponsor, and non-profit corporate home.",
+        "source": {
+          "id": 4,
+          "text": "**Operating Legal Organization / Fiscal Sponsor:** **Software Freedom Conservancy, Inc.**, which acts as the project's non-profit corporate home",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHykCwShuJcHBopTsLRAIWm7jTNA-aiE_990wYQafLG2tC7A1oHJcU7v0XCfILqaEY6uOw5iZneLXCGGx9VlncSQz-ufnLi_NOcbXOfbaIbusc0gnyYBdlDXuhnqMEhIfZ4iCsynooZ4XBcwZ27HYEecKE=",
+          "title": "sfconservancy.org"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "phpMyAdmin",
+    "domain": "phpmyadmin.net",
+    "description": "phpMyAdmin is a free software application designed for the management and administration of MySQL databases via a web interface, developed in PHP. It allows users to perform various database operations conveniently over the internet."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Software Freedom Conservancy, Inc.",
+  "evidence": "Software Freedom Conservancy, Inc. acts as phpMyAdmin's operating legal organization, fiscal sponsor, and non-profit corporate home.",
+  "source": {
+    "id": 4,
+    "text": "**Operating Legal Organization / Fiscal Sponsor:** **Software Freedom Conservancy, Inc.**, which acts as the project's non-profit corporate home",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHykCwShuJcHBopTsLRAIWm7jTNA-aiE_990wYQafLG2tC7A1oHJcU7v0XCfILqaEY6uOw5iZneLXCGGx9VlncSQz-ufnLi_NOcbXOfbaIbusc0gnyYBdlDXuhnqMEhIfZ4iCsynooZ4XBcwZ27HYEecKE=",
+    "title": "sfconservancy.org"
+  },
+  "checked_at": "2026-11-05T08:51:07.810800+00:00"
+}

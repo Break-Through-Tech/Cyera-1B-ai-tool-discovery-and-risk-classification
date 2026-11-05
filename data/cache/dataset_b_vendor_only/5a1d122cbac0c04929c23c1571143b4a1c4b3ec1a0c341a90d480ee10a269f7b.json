@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Akuma** at **akuma.ai** is **Kinkaku, Inc.** (**Kinkaku株式会社**).\n\n### Provider Statement & Evidence\n* **Product and Domain:** The evidence specifically concerns **Akuma** / **akuma.ai** (an anime-style image generation platform featuring a real-time AI canvas).\n* **Company Statements:**\n  * In official release announcements for the platform, the operating entity states:  \n    > *\"Kinkaku株式会社（本社：東京都渋谷区、代表取締役：福山裕介）はこのたび、画像生成クラウドAIサービス「Akuma.ai」正式版の提供を開始いたしました。\"* (Kinkaku, Inc. launched and operates the image generation cloud AI service `Akuma.ai`).\n  * When releasing the real-time AI canvas feature for `akuma.ai`, Kinkaku announced:  \n    > *\"生成AIスタートアップKinkaku、リアルタイム画像生成ツール「AIキャンバス」をリリース\"* (Generative AI startup Kinkaku releases real-time image generation tool \"AI Canvas\" at `akuma.ai`).\n  * Kinkaku's corporate site confirms:  \n    > *\"現在、AIロールプレイアプリ「Anirole」（旧Akuma.ai）を開発・運営しています。\"* (Currently developing and operating Anirole, formerly Akuma.ai).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Akuma** at **akuma.ai** is **Kinkaku, Inc.** (**Kinkaku株式会社**).\n\n### P",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsFIQYH9QApcBDM1RA6VB0kHul9Uxp8BbO9tkAbGbLoCquLjZw7yUQbYWCzjUK-Da7JN7qoxSC-U-VekXNk7jvMfcogfbXk1R_iQ3b7fgloYg7b5x7637BwzL_lrSvBN-MnR4ONszfA80iN2xhHDk=",
+          "title": "prtimes.jp"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Akuma** at **akuma.ai** is **Kinkaku, Inc.** (**Kinkaku株式会社**).\n\n### P",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGIcF6LJQCnc2i8jOF5anCDsi0eB6uqdmHKhAG6LcRltlqSeQXrQcZuW4XfaROFnvruf5NAWEWiCNKzuxPj4LXaA9q_44ZwQs2vqOqew9ADaeHZx6FgDVq",
+          "title": "sungrove.co.jp"
+        },
+        {
+          "id": 2,
+          "text": "t and Domain:** The evidence specifically concerns **Akuma** / **akuma.ai** (an anime-style image generation platform featuring a real-time AI canvas).\n* **Co",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSQbKSgNCnU5bxYJ4WfFpVaWvEsZJa9QFcL0EAOqG1sVfPlFRNKRwfQvSiDvxyLA8lcHAXMLQUWVgW4hQsWEmsI7cSeAI52Jru4dES_g==",
+          "title": "kinkaku.com"
+        },
+        {
+          "id": 3,
+          "text": "t and Domain:** The evidence specifically concerns **Akuma** / **akuma.ai** (an anime-style image generation platform featuring a real-time AI canvas).\n* **Co",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEj15wGrg3PxUi7DDc3e7O0umsA2f0NTRlpif3WeNnd7Dc7l1MaHS6SU93rtBqvu1yTAZkuHnRy7O_ncONbNlgxsmKDqKGcQJJdQAyV8fvevLn7YTLdyocl6_VOQb8ltP8=",
+          "title": "note.com"
+        },
+        {
+          "id": 4,
+          "text": "t and Domain:** The evidence specifically concerns **Akuma** / **akuma.ai** (an anime-style image generation platform featuring a real-time AI canvas).\n* **Co",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNZu3fjdhL1aMVeceK11bNldek54xZowEgGH4y2IRpd7KLjlwXVlq-7FaHwp5iuLr76aHfPjjFl7FaUSHa7zHzo9Znm_SjgdF2WWYfOx5qu5FB7zRXF3KDnlcqWnE5HUbejyqVl-FiEKz5q5_9pNI=",
+          "title": "prtimes.jp"
+        },
+        {
+          "id": 5,
+          "text": "eature for `akuma.ai`, Kinkaku announced:  \n    > *\"生成AIスタートアップKinkaku、リアルタイム画像生成ツール「A",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsFIQYH9QApcBDM1RA6VB0kHul9Uxp8BbO9tkAbGbLoCquLjZw7yUQbYWCzjUK-Da7JN7qoxSC-U-VekXNk7jvMfcogfbXk1R_iQ3b7fgloYg7b5x7637BwzL_lrSvBN-MnR4ONszfA80iN2xhHDk=",
+          "title": "prtimes.jp"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Kinkaku, Inc.",
+        "evidence": "Passage 0 explicitly identifies Kinkaku, Inc. (Kinkaku株式会社) as the vendor directly providing Akuma at akuma.ai.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Akuma** at **akuma.ai** is **Kinkaku, Inc.** (**Kinkaku株式会社**).\n\n### P",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsFIQYH9QApcBDM1RA6VB0kHul9Uxp8BbO9tkAbGbLoCquLjZw7yUQbYWCzjUK-Da7JN7qoxSC-U-VekXNk7jvMfcogfbXk1R_iQ3b7fgloYg7b5x7637BwzL_lrSvBN-MnR4ONszfA80iN2xhHDk=",
+          "title": "prtimes.jp"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Akuma",
+    "domain": "akuma.ai",
+    "description": "Create anime art in seconds with realtime AI canvas"
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Kinkaku, Inc.",
+  "evidence": "Passage 0 explicitly identifies Kinkaku, Inc. (Kinkaku株式会社) as the vendor directly providing Akuma at akuma.ai.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Akuma** at **akuma.ai** is **Kinkaku, Inc.** (**Kinkaku株式会社**).\n\n### P",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsFIQYH9QApcBDM1RA6VB0kHul9Uxp8BbO9tkAbGbLoCquLjZw7yUQbYWCzjUK-Da7JN7qoxSC-U-VekXNk7jvMfcogfbXk1R_iQ3b7fgloYg7b5x7637BwzL_lrSvBN-MnR4ONszfA80iN2xhHDk=",
+    "title": "prtimes.jp"
+  },
+  "checked_at": "2026-11-05T06:49:46.459640+00:00"
+}

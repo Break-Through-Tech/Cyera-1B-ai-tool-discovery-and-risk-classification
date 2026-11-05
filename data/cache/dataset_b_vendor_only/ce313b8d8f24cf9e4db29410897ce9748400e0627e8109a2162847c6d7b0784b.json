@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor and published developer directly providing the software product **Bomml** (at **bomml.ai**) is **Maximilian-Markus Lampe**.\n\n### Evidence and Provider Statement\n* **Developer/Publisher Listings:** Official app directory and software catalog listings (such as Softonic and CNET Download) for the web application *Bomml* explicitly publish:\n  * *\"Developer: Maximilian-Markus Lampe\"*\n  * *\"Bomml for Web Apps · By Maximilian-Markus Lampe\"*\n* **Founder & Platform Developer Statement:** The creator documents the development and technical release of BOMML:\n  * *\"Maximilian-Markus Lampe entwickelte Produktkonzept, Webauftritt und technische Infrastruktur einer KI- und Automatisierungsplattform und begleitete den späteren IP-Exit.\"* (*\"Als Gründer verantwortete ich Konzeption, Produktaufbau, Webauftritt und technische Infrastruktur.\"*)",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor and published developer directly providing the software product **Bomml** (at **bomml.ai**) is **Maximilian-Markus Lampe**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdXvDDJoTEuAZM_dWtQepKdMobvM9XGsLPAx3Z-JTrocb9iZePh_cT9mjzYa65e12Nnxj6LWgDMxqSPXirlqkrVc8zkxU3tJWBEKDcCoQUBEzUtva4WCWI3Q_Ngg==",
+          "title": "softonic.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor and published developer directly providing the software product **Bomml** (at **bomml.ai**) is **Maximilian-Markus Lampe**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQh_R02el-Plr8cyommMIj4fII1rgNoZvZgN6jgrQ9ksKVhQfV3nOMQ2vGYztDLvzawKyhMhMwqu1G0gYSjcEBNfjXpoxmWmi4QWQDQAt2jongcLbN_HmxZVr5h4oCsCY=",
+          "title": "alpenformat.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"Developer: Maximilian-Markus Lampe\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdXvDDJoTEuAZM_dWtQepKdMobvM9XGsLPAx3Z-JTrocb9iZePh_cT9mjzYa65e12Nnxj6LWgDMxqSPXirlqkrVc8zkxU3tJWBEKDcCoQUBEzUtva4WCWI3Q_Ngg==",
+          "title": "softonic.com"
+        },
+        {
+          "id": 3,
+          "text": "*\"Bomml for Web Apps · By Maximilian-Markus Lampe\"*\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwt1DRV2r3cRSgy2OXphlXxhk4TSCoG2K3eL8Daof8d2EjtMLWHyq8x8gjQmQXPtWX0QUSoysO7NibSOLI_4HygqnGBZ-X3VlNLdhCrr5_PsLuwgssjxYBSSl-Wo178VFl5Xc4PB0mF3_q8wuiEw==",
+          "title": "cnet.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Maximilian-Markus Lampe",
+        "evidence": "Passage 0 explicitly identifies Maximilian-Markus Lampe as the vendor and published developer directly providing the software product Bomml at bomml.ai.",
+        "source": {
+          "id": 0,
+          "text": "The vendor and published developer directly providing the software product **Bomml** (at **bomml.ai**) is **Maximilian-Markus Lampe**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdXvDDJoTEuAZM_dWtQepKdMobvM9XGsLPAx3Z-JTrocb9iZePh_cT9mjzYa65e12Nnxj6LWgDMxqSPXirlqkrVc8zkxU3tJWBEKDcCoQUBEzUtva4WCWI3Q_Ngg==",
+          "title": "softonic.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Bomml",
+    "domain": "bomml.ai",
+    "description": "On-demand models for tasks and scenarios."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Maximilian-Markus Lampe",
+  "evidence": "Passage 0 explicitly identifies Maximilian-Markus Lampe as the vendor and published developer directly providing the software product Bomml at bomml.ai.",
+  "source": {
+    "id": 0,
+    "text": "The vendor and published developer directly providing the software product **Bomml** (at **bomml.ai**) is **Maximilian-Markus Lampe**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdXvDDJoTEuAZM_dWtQepKdMobvM9XGsLPAx3Z-JTrocb9iZePh_cT9mjzYa65e12Nnxj6LWgDMxqSPXirlqkrVc8zkxU3tJWBEKDcCoQUBEzUtva4WCWI3Q_Ngg==",
+    "title": "softonic.com"
+  },
+  "checked_at": "2026-11-05T05:34:23.631446+00:00"
+}

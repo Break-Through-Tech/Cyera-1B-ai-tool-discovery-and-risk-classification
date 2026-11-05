@@ -1,0 +1,91 @@
+{
+  "attempts": [
+    {
+      "answer": "The operating vendor directly providing the software product **KnowNotes** (domain: **knownotes.ai**) is **Teen Talent, LLC** (developed and founded by **Theo Tarr**).\n\n### Evidence and Citation:\n* **Product & Domain:** KnowNotes (`knownotes.ai`), also published as the mobile app *KnowNotes - AI Note Taker*.\n* **Official Provider Statement:** The official Apple App Store listing for *KnowNotes - AI Note Taker* (which explicitly directs to `https://knownotes.ai/terms` for its Terms of Service) specifies:\n  * **Provider / Developer:** `Teen Talent, LLC`\n  * **Trader / Contact:** `Teen Talent, LLC`, with contact email `theo@knownotes.ai`.\n* On the web application (`knownotes.ai`), the service operates under the brand **KnowNotes** (with copyright listed as `© KnowNotes`).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The operating vendor directly providing the software product **KnowNotes** (domain: **knownotes.ai**) is **Teen Talent, LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpyvKSbQQvbBRBpB7zogEn5CS6BYS7-Vh2ec238FS058vSa5HCplfSk5F2sccKziBEbdXCDhFAOuFLxqJVm958HpMQnpJm1B2wn_QwPciiVMe5d30f6lyDvI_gHAuXHncA11FT5Z8jMVvZWh9Q6gON9n4NC8LeeQ==",
+          "title": "apple.com"
+        },
+        {
+          "id": 1,
+          "text": "The operating vendor directly providing the software product **KnowNotes** (domain: **knownotes.ai**) is **Teen Talent, LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzgg6SxG8KZs0JrZ0JM9-zhdM6trlD5FbwH1O_OE9hFGCvoUhYikCDHs-Og3_EQok1PSvix6tdKvO9rIcngNs2R8PL7HB47XZv2xAlUjRU07TonQjC-plPLqfED65t-SxOF6CxeBTbN-niWEbryAQPeOY4qPorqzZt35Ko3R4hgd6Ve49-v2xDlp6tpeDE",
+          "title": "apple.com"
+        },
+        {
+          "id": 2,
+          "text": "The operating vendor directly providing the software product **KnowNotes** (domain: **knownotes.ai**) is **Teen Talent, LLC** (developed and founded by **Theo Tarr**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1GMI7SJ8ZE6o8AuHVR29snatGb3THwNn4OoOCHlRhbXze4d1bro2FbpClksFPuR9JtwhNoA2J2h6qN0eGgudVsYS7hY_3v8Qt6A==",
+          "title": "theotarr.com"
+        },
+        {
+          "id": 3,
+          "text": "The operating vendor directly providing the software product **KnowNotes** (domain: **knownotes.ai**) is **Teen Talent, LLC** (developed and founded by **Theo Tarr**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2gjPKrgHMOL8rlxcgrP9ITte52XM8e0vLhUHjc0p88XCfoqNhgO6pSOwTqgSl513514ZYevoNb4fTq2BLuBgdpcq5EEEMTdwtV8aIJysofFA=",
+          "title": "github.com"
+        },
+        {
+          "id": 4,
+          "text": "**Product & Domain:** KnowNotes (`knownotes.ai`), also published as the mobile app *KnowNotes - AI Note Taker*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpyvKSbQQvbBRBpB7zogEn5CS6BYS7-Vh2ec238FS058vSa5HCplfSk5F2sccKziBEbdXCDhFAOuFLxqJVm958HpMQnpJm1B2wn_QwPciiVMe5d30f6lyDvI_gHAuXHncA11FT5Z8jMVvZWh9Q6gON9n4NC8LeeQ==",
+          "title": "apple.com"
+        },
+        {
+          "id": 5,
+          "text": "**Product & Domain:** KnowNotes (`knownotes.ai`), also published as the mobile app *KnowNotes - AI Note Taker*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpyvKSbQQvbBRBpB7zogEn5CS6BYS7-Vh2ec238FS058vSa5HCplfSk5F2sccKziBEbdXCDhFAOuFLxqJVm958HpMQnpJm1B2wn_QwPciiVMe5d30f6lyDvI_gHAuXHncA11FT5Z8jMVvZWh9Q6gON9n4NC8LeeQ==",
+          "title": "apple.com"
+        },
+        {
+          "id": 6,
+          "text": "**Provider / Developer:** `Teen Talent, LLC`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpyvKSbQQvbBRBpB7zogEn5CS6BYS7-Vh2ec238FS058vSa5HCplfSk5F2sccKziBEbdXCDhFAOuFLxqJVm958HpMQnpJm1B2wn_QwPciiVMe5d30f6lyDvI_gHAuXHncA11FT5Z8jMVvZWh9Q6gON9n4NC8LeeQ==",
+          "title": "apple.com"
+        },
+        {
+          "id": 7,
+          "text": "**Trader / Contact:** `Teen Talent, LLC`, with contact email `theo@knownotes.ai`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzgg6SxG8KZs0JrZ0JM9-zhdM6trlD5FbwH1O_OE9hFGCvoUhYikCDHs-Og3_EQok1PSvix6tdKvO9rIcngNs2R8PL7HB47XZv2xAlUjRU07TonQjC-plPLqfED65t-SxOF6CxeBTbN-niWEbryAQPeOY4qPorqzZt35Ko3R4hgd6Ve49-v2xDlp6tpeDE",
+          "title": "apple.com"
+        },
+        {
+          "id": 8,
+          "text": "On the web application (`knownotes.ai`), the service operates under the brand **KnowNotes** (with copyright listed as `© KnowNotes`).",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEus8XEv9L7VMUVgI63Ayah3Ko-IlGKRVRVJ4PrnrNCs322TiIkuHbXdQHFPEoka2pTMIJhpXfqaAPBukh9TSV5fZrtVDongCx9-g7FDVSf",
+          "title": "knownotes.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Teen Talent, LLC",
+        "evidence": "The operating vendor directly providing the software product **KnowNotes** (domain: **knownotes.ai**) is **Teen Talent, LLC**",
+        "source": {
+          "id": 0,
+          "text": "The operating vendor directly providing the software product **KnowNotes** (domain: **knownotes.ai**) is **Teen Talent, LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpyvKSbQQvbBRBpB7zogEn5CS6BYS7-Vh2ec238FS058vSa5HCplfSk5F2sccKziBEbdXCDhFAOuFLxqJVm958HpMQnpJm1B2wn_QwPciiVMe5d30f6lyDvI_gHAuXHncA11FT5Z8jMVvZWh9Q6gON9n4NC8LeeQ==",
+          "title": "apple.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "KnowNotes",
+    "domain": "knownotes.ai",
+    "description": "Automatically take notes, transcribe lectures, and get personalized tutoring."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Teen Talent, LLC",
+  "evidence": "The operating vendor directly providing the software product **KnowNotes** (domain: **knownotes.ai**) is **Teen Talent, LLC**",
+  "source": {
+    "id": 0,
+    "text": "The operating vendor directly providing the software product **KnowNotes** (domain: **knownotes.ai**) is **Teen Talent, LLC**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpyvKSbQQvbBRBpB7zogEn5CS6BYS7-Vh2ec238FS058vSa5HCplfSk5F2sccKziBEbdXCDhFAOuFLxqJVm958HpMQnpJm1B2wn_QwPciiVMe5d30f6lyDvI_gHAuXHncA11FT5Z8jMVvZWh9Q6gON9n4NC8LeeQ==",
+    "title": "apple.com"
+  },
+  "checked_at": "2026-11-05T07:42:03.656635+00:00"
+}

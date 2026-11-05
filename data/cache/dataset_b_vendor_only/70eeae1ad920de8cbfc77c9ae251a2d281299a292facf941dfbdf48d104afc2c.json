@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on the official website and vendor records for **Growtake AI Ads** at **`growtake.com`**:\n\n* **Direct Provider / Vendor:** **Growtake** (founded and led by **Subhajit Baidya**).\n* **Provider Statement / Evidence:** \n  * The footer and legal notices on `growtake.com` identify the provider brand with the copyright notice: *\"© 2025 Growtake. All rights reserved.\"* along with the product statement: *\"Growtake helps Businesses create ADs. in less than 60 seconds.\"*\n  * Official vendor profiles and founder listings confirm **Subhajit Baidya** as the founder/CEO operating the SaaS provider **Growtake** for the advertising automation platform hosted at `growtake.com`.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**Direct Provider / Vendor:** **Growtake** (founded and led by **Subhajit Baidya**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlzsF5TC7neb5SShrOFTYFTtbzw8fsMtj9P-rqV3hcq747gpK2iXFxWsRWq3ejIlQkqKTxOzKR126KE_ujaqBQohjSkuknFeeoaOsMhRFHEKN-qS3U",
+          "title": "growtake.com"
+        },
+        {
+          "id": 1,
+          "text": "**Direct Provider / Vendor:** **Growtake** (founded and led by **Subhajit Baidya**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcXVGxSfCQNv1kt_bsL3EnuRJI1CfC6y-AJT-BgwsV_9Z01snaFIlkFrPmJf5en_BqtT02_YxJwnVCKLJQkHfLZodh2JkLnUvE480b9azRVepwb7f5yWyw0KbLJ2aFhrkiCmHk2fF2GpF8v3CCYjFrRw==",
+          "title": "jvzoo.com"
+        },
+        {
+          "id": 2,
+          "text": "ll rights reserved.\"* along with the product statement: *\"Growtake helps Businesses create ADs. in less than 60 seconds.\"*\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlzsF5TC7neb5SShrOFTYFTtbzw8fsMtj9P-rqV3hcq747gpK2iXFxWsRWq3ejIlQkqKTxOzKR126KE_ujaqBQohjSkuknFeeoaOsMhRFHEKN-qS3U",
+          "title": "growtake.com"
+        },
+        {
+          "id": 3,
+          "text": "fficial vendor profiles and founder listings confirm **Subhajit Baidya** as the founder/CEO operating the SaaS provider **Growtake** for the advertising automation platform hosted at `growtake.com`.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGljXuajbv_dQn9tY2GsMesg5wMxZNRDPkocbccJJnYJaENihklF3KWSy9aCviIcNaVlU6C97lcgAbYS2JYrlYVxqFUVn2EZ3xOH5bU_H9jVNBaqv8hMzVUCmpSdCXKctW",
+          "title": "getlatka.com"
+        },
+        {
+          "id": 4,
+          "text": "fficial vendor profiles and founder listings confirm **Subhajit Baidya** as the founder/CEO operating the SaaS provider **Growtake** for the advertising automation platform hosted at `growtake.com`.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcXVGxSfCQNv1kt_bsL3EnuRJI1CfC6y-AJT-BgwsV_9Z01snaFIlkFrPmJf5en_BqtT02_YxJwnVCKLJQkHfLZodh2JkLnUvE480b9azRVepwb7f5yWyw0KbLJ2aFhrkiCmHk2fF2GpF8v3CCYjFrRw==",
+          "title": "jvzoo.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Growtake",
+        "evidence": "Official vendor profiles and founder listings confirm Subhajit Baidya as the founder/CEO operating the SaaS provider Growtake for the advertising automation platform hosted at growtake.com.",
+        "source": {
+          "id": 3,
+          "text": "fficial vendor profiles and founder listings confirm **Subhajit Baidya** as the founder/CEO operating the SaaS provider **Growtake** for the advertising automation platform hosted at `growtake.com`.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGljXuajbv_dQn9tY2GsMesg5wMxZNRDPkocbccJJnYJaENihklF3KWSy9aCviIcNaVlU6C97lcgAbYS2JYrlYVxqFUVn2EZ3xOH5bU_H9jVNBaqv8hMzVUCmpSdCXKctW",
+          "title": "getlatka.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Growtake AI Ads",
+    "domain": "growtake.com",
+    "description": "Growtake AI Ads is an AI-powered tool that generates high-converting ad creatives and compelling copy for various social media and search platforms in seconds, streamlining the ad creation process for businesses and marketers."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Growtake",
+  "evidence": "Official vendor profiles and founder listings confirm Subhajit Baidya as the founder/CEO operating the SaaS provider Growtake for the advertising automation platform hosted at growtake.com.",
+  "source": {
+    "id": 3,
+    "text": "fficial vendor profiles and founder listings confirm **Subhajit Baidya** as the founder/CEO operating the SaaS provider **Growtake** for the advertising automation platform hosted at `growtake.com`.",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGljXuajbv_dQn9tY2GsMesg5wMxZNRDPkocbccJJnYJaENihklF3KWSy9aCviIcNaVlU6C97lcgAbYS2JYrlYVxqFUVn2EZ3xOH5bU_H9jVNBaqv8hMzVUCmpSdCXKctW",
+    "title": "getlatka.com"
+  },
+  "checked_at": "2026-11-05T06:59:09.517391+00:00"
+}

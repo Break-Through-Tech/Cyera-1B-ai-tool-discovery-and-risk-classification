@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **RollSummary** at **rollsummary.com** is **RollSummary Inc.**.\n\n### Supporting Evidence & Provider Statements\n* **Terms of Service** (`rollsummary.com/terms`): \n  > *\"These Terms of Service (the Terms) govern your access to and use of RollSummary (the Service), operated by RollSummary Inc. (we, us, or our) at rollsummary.com.\"*\n\n* **Privacy Policy** (`rollsummary.com/privacy`): \n  > *\"This Privacy Policy explains what information RollSummary Inc. (RollSummary, we, us, or our) collects when you use the service at rollsummary.com (the Service)...\"* (listing contact details as *RollSummary Inc., 7014 Dunrobin Way, Mississauga, ON L5N 6Y4, Canada*).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **RollSummary** at **rollsummary.com** is **RollSummary Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEy7JhaH6553EkJ2dX82mnI_J66FHc6kE0DLRp-eewlMxWN8-Xd4OuESWMZQMH-PotfxVB8xEKGipTWbkxE650X0mO6pcFOyumw0sYlzMw4EBy1cwfQL3PH6kScrico",
+          "title": "rollsummary.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **RollSummary** at **rollsummary.com** is **RollSummary Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGbNdJ229Pq54FAglEqLBlC8-iRVqJtkFFShEPbsRph0NKIGvTJYpVei9ARtozv__VFEvLKEeL_k0Yz7zQMTUFEXPgqwqnpjlva8iduHKX6IXRPuiLjcgT2Mx9MA==",
+          "title": "rollsummary.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"These Terms of Service (the Terms) govern your access to and use of RollSummary (the Service), operated by RollSummary Inc. (we, us, or our) at rollsummary.com.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEy7JhaH6553EkJ2dX82mnI_J66FHc6kE0DLRp-eewlMxWN8-Xd4OuESWMZQMH-PotfxVB8xEKGipTWbkxE650X0mO6pcFOyumw0sYlzMw4EBy1cwfQL3PH6kScrico",
+          "title": "rollsummary.com"
+        },
+        {
+          "id": 3,
+          "text": "*\"This Privacy Policy explains what information RollSummary Inc. (RollSummary, we, us, or our) collects when you use the service at rollsummary.com (the Service)...\"* (listing contact details as *RollSummary Inc., 7014 Dunrobin Way, Mississauga, ON L5N 6Y4, Canada*)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGbNdJ229Pq54FAglEqLBlC8-iRVqJtkFFShEPbsRph0NKIGvTJYpVei9ARtozv__VFEvLKEeL_k0Yz7zQMTUFEXPgqwqnpjlva8iduHKX6IXRPuiLjcgT2Mx9MA==",
+          "title": "rollsummary.com"
+        },
+        {
+          "id": 4,
+          "text": "*\"This Privacy Policy explains what information RollSummary Inc. (RollSummary, we, us, or our) collects when you use the service at rollsummary.com (the Service)...\"* (listing contact details as *RollSummary Inc., 7014 Dunrobin Way, Mississauga, ON L5N 6Y4, Canada*)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGbNdJ229Pq54FAglEqLBlC8-iRVqJtkFFShEPbsRph0NKIGvTJYpVei9ARtozv__VFEvLKEeL_k0Yz7zQMTUFEXPgqwqnpjlva8iduHKX6IXRPuiLjcgT2Mx9MA==",
+          "title": "rollsummary.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "RollSummary Inc.",
+        "evidence": "Passage 2 states that RollSummary (the Service) at rollsummary.com is operated by RollSummary Inc.",
+        "source": {
+          "id": 2,
+          "text": "*\"These Terms of Service (the Terms) govern your access to and use of RollSummary (the Service), operated by RollSummary Inc. (we, us, or our) at rollsummary.com.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEy7JhaH6553EkJ2dX82mnI_J66FHc6kE0DLRp-eewlMxWN8-Xd4OuESWMZQMH-PotfxVB8xEKGipTWbkxE650X0mO6pcFOyumw0sYlzMw4EBy1cwfQL3PH6kScrico",
+          "title": "rollsummary.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "RollSummary",
+    "domain": "rollsummary.com",
+    "description": "RollSummary is an AI-powered tool that condenses long articles, documents, and web pages into concise summaries. It helps users quickly grasp key information and save time by extracting the most important points from any text content."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "RollSummary Inc.",
+  "evidence": "Passage 2 states that RollSummary (the Service) at rollsummary.com is operated by RollSummary Inc.",
+  "source": {
+    "id": 2,
+    "text": "*\"These Terms of Service (the Terms) govern your access to and use of RollSummary (the Service), operated by RollSummary Inc. (we, us, or our) at rollsummary.com.\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEy7JhaH6553EkJ2dX82mnI_J66FHc6kE0DLRp-eewlMxWN8-Xd4OuESWMZQMH-PotfxVB8xEKGipTWbkxE650X0mO6pcFOyumw0sYlzMw4EBy1cwfQL3PH6kScrico",
+    "title": "rollsummary.com"
+  },
+  "checked_at": "2026-11-05T07:38:04.172986+00:00"
+}

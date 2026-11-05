@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **HackMD** at **hackmd.io** is **HackMD, Inc.**\n\n### Supporting Evidence & Provider Statement\nFrom the official HackMD Terms of Service:\n> *\"By approving these Terms of Service (“Terms of Service”) or, alternatively, by (i) using the HackMD website, (ii) using any HackMD tool, service, or platform... or (iii) subscribing to any HackMD free or paid subscriptions or plans, the customer (“Customer” or “You”) agree to be bound by the Terms of Service of **HackMD, Inc.** (“HackMD” or “We”) set forth herein.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **HackMD** at **hackmd.io** is **HackMD, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLNxsTq7t6ZPDfh2f6Qpvq_Dcb9rTwfc4VVFPsJY4nXyxMZ4uZ4f7YV0xdLGVTjAf6pHOwnXHu66sxYivYDdvMFTu07mFxF-lZnI4wMVjaiCYsUXvajou91AbXOw==",
+          "title": "wikidata.org"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **HackMD** at **hackmd.io** is **HackMD, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEJKDcSt_x-1V3cJJ9JFa-aqIwT5moVgbzseIkMgCjHedZHV5xbMLL1KLo3k_cLHadU4D-zCihPJcoJ4ZDGQldLKcxr-R44m60kTDVxrGgng==",
+          "title": "twcc.ai"
+        },
+        {
+          "id": 2,
+          "text": "From the official HackMD Terms of Service",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEJKDcSt_x-1V3cJJ9JFa-aqIwT5moVgbzseIkMgCjHedZHV5xbMLL1KLo3k_cLHadU4D-zCihPJcoJ4ZDGQldLKcxr-R44m60kTDVxrGgng==",
+          "title": "twcc.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "HackMD, Inc.",
+        "evidence": "Passage 0 directly states that the vendor providing HackMD at hackmd.io is HackMD, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **HackMD** at **hackmd.io** is **HackMD, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLNxsTq7t6ZPDfh2f6Qpvq_Dcb9rTwfc4VVFPsJY4nXyxMZ4uZ4f7YV0xdLGVTjAf6pHOwnXHu66sxYivYDdvMFTu07mFxF-lZnI4wMVjaiCYsUXvajou91AbXOw==",
+          "title": "wikidata.org"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "HackMD",
+    "domain": "hackmd.io",
+    "description": "HackMD is a collaborative platform that allows teams to create and share notes in Markdown format. Users can write structured content, including source code, slides, and charts, while managing permissions to control access to their notes. With over 3,000,000 notes created and 13,000 teams using the service, it serves as a versatile tool for both short-term and long-term memory management, fostering effective communication among teams and communities."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "HackMD, Inc.",
+  "evidence": "Passage 0 directly states that the vendor providing HackMD at hackmd.io is HackMD, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **HackMD** at **hackmd.io** is **HackMD, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLNxsTq7t6ZPDfh2f6Qpvq_Dcb9rTwfc4VVFPsJY4nXyxMZ4uZ4f7YV0xdLGVTjAf6pHOwnXHu66sxYivYDdvMFTu07mFxF-lZnI4wMVjaiCYsUXvajou91AbXOw==",
+    "title": "wikidata.org"
+  },
+  "checked_at": "2026-11-05T09:48:17.927954+00:00"
+}

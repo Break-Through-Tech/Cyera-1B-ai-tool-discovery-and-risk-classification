@@ -1,0 +1,79 @@
+{
+  "attempts": [
+    {
+      "answer": "For the tool **AI Outpainting Image** at **ai-outpainting.com**:\n\n* **Vendor / Developer:** Independent developer **欧阳葵** (GitHub: **yaakua**).\n* **Provider Evidence:** \n  * No separate operating legal corporation is listed on the website; the site footer carries the copyright notice: `© 2024 AI-Outpainting.com All rights reserved.`\n  * The tool was created and operated by independent developer 欧阳葵 (yaakua), who publicly identified and open-sourced the platform's codebase under the repository `yaakua/ai-outpainting-com`, stating: *\"基于nextjs 14 和tailwindcss3 开发的AI扩图网站，网站地址：https://www.ai-outpainting.com/\"* and *\"我的一个AI工具站：https://www.ai-outpainting.com\"*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "For the tool **AI Outpainting Image** at **ai-outpainting.com**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFA8zvfzPh5qeV6kPAPsQKI-qh4UUBZa9k8nWe3Ov0Ceq8YvSOcSSLEz7oOygZjYrkSRmFU9oqLGdYUt5M5RE_CRX7Gfe8E_dQjIcFm4erB68R7auxk",
+          "title": "ai-outpainting.com"
+        },
+        {
+          "id": 1,
+          "text": "For the tool **AI Outpainting Image** at **ai-outpainting.com**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmIvvP66Fx99yK3PI6GuwgZe-U4NA1h2suQ4lue2FSVD7JmO4CMPnphWcgfUcumMOldVCt-GIe3QSPTMUa-l1MAc4v0dxpqRijrsjhBQZi3mZug-2wRMZXZruuagnTrj8D57TQpg==",
+          "title": "aitest123.com"
+        },
+        {
+          "id": 2,
+          "text": "**Vendor / Developer:** Independent developer **欧阳葵** (GitHub: **yaakua**).\n* **",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuucE1VFw2Q0L31JCfVk5UXnIeFdSjHvKMYi_M09aSqquCkFHdLr0r3UKc6wvmv9gvU5e2uhS1wuf_ozsVQp6lQW27ZVnixSljsDshEJ3MWYM8IMPSj1i-ZkN59kQqc4JCaBaMzJg7p5VOr8WhhHuIbLdraws=",
+          "title": "okjike.com"
+        },
+        {
+          "id": 3,
+          "text": "**Vendor / Developer:** Independent developer **欧阳葵** (GitHub: **yaakua**).\n* **",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-0_5UgCGhLs74w48RxBxHvkSqu3vhlfm3fDLV_b4voPfmcw-LOC-4vbP98YY63-_kyslCJ9QhSsJIjmUTCSiNmn3x2H9hQcdVlF-5XnFpVQGUZTe9m1IgO80ntjvT0eJn1w==",
+          "title": "github.com"
+        },
+        {
+          "id": 4,
+          "text": "**Vendor / Developer:** Independent developer **欧阳葵** (GitHub: **yaakua**).\n* **",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5tduGBRGbYcNOOClWuoCw4mwKZlxcOSji0zb-0n1Dyf-tkbaAaTYT3z3tg6veA_uZe-bQ5MVf7T_-jTpltoLDEqF2XqN1MNUtErK4M7feC542LtTOoz_33EDK8MNwEHaRE6aRxOU83-8=",
+          "title": "github.com"
+        },
+        {
+          "id": 5,
+          "text": "arate operating legal corporation is listed on the website; the site footer carries the copyright notice: `© 2024 AI-Outpainting.com All rights reserved.`\n  * Th",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFA8zvfzPh5qeV6kPAPsQKI-qh4UUBZa9k8nWe3Ov0Ceq8YvSOcSSLEz7oOygZjYrkSRmFU9oqLGdYUt5M5RE_CRX7Gfe8E_dQjIcFm4erB68R7auxk",
+          "title": "ai-outpainting.com"
+        },
+        {
+          "id": 6,
+          "text": "l was created and operated by independent developer 欧阳葵 (yaakua), who publicly identified and open-sourced the platform's codebase under the repository `yaakua/ai-outpainting-com`, stating: *\"基于nextjs 14 和tailwindcss3 开发的AI扩图网站，网站地址：https://www.ai-outpainting.com/\"* and *\"我的一个AI工具站：https://www.ai-outpainting.c",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-0_5UgCGhLs74w48RxBxHvkSqu3vhlfm3fDLV_b4voPfmcw-LOC-4vbP98YY63-_kyslCJ9QhSsJIjmUTCSiNmn3x2H9hQcdVlF-5XnFpVQGUZTe9m1IgO80ntjvT0eJn1w==",
+          "title": "github.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "欧阳葵",
+        "evidence": "Passage 6 explicitly confirms that the platform at https://www.ai-outpainting.com/ was created and operated by independent developer 欧阳葵 (yaakua), who open-sourced the codebase under repository yaakua/ai-outpainting-com.",
+        "source": {
+          "id": 6,
+          "text": "l was created and operated by independent developer 欧阳葵 (yaakua), who publicly identified and open-sourced the platform's codebase under the repository `yaakua/ai-outpainting-com`, stating: *\"基于nextjs 14 和tailwindcss3 开发的AI扩图网站，网站地址：https://www.ai-outpainting.com/\"* and *\"我的一个AI工具站：https://www.ai-outpainting.c",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-0_5UgCGhLs74w48RxBxHvkSqu3vhlfm3fDLV_b4voPfmcw-LOC-4vbP98YY63-_kyslCJ9QhSsJIjmUTCSiNmn3x2H9hQcdVlF-5XnFpVQGUZTe9m1IgO80ntjvT0eJn1w==",
+          "title": "github.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "AI Outpainting Image",
+    "domain": "ai-outpainting.com",
+    "description": "Seamlessly expand your photos using advanced generative AI."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "欧阳葵",
+  "evidence": "Passage 6 explicitly confirms that the platform at https://www.ai-outpainting.com/ was created and operated by independent developer 欧阳葵 (yaakua), who open-sourced the codebase under repository yaakua/ai-outpainting-com.",
+  "source": {
+    "id": 6,
+    "text": "l was created and operated by independent developer 欧阳葵 (yaakua), who publicly identified and open-sourced the platform's codebase under the repository `yaakua/ai-outpainting-com`, stating: *\"基于nextjs 14 和tailwindcss3 开发的AI扩图网站，网站地址：https://www.ai-outpainting.com/\"* and *\"我的一个AI工具站：https://www.ai-outpainting.c",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-0_5UgCGhLs74w48RxBxHvkSqu3vhlfm3fDLV_b4voPfmcw-LOC-4vbP98YY63-_kyslCJ9QhSsJIjmUTCSiNmn3x2H9hQcdVlF-5XnFpVQGUZTe9m1IgO80ntjvT0eJn1w==",
+    "title": "github.com"
+  },
+  "checked_at": "2026-11-05T06:56:35.291271+00:00"
+}

@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **ChatwithpdfAI** (domain: **`chatwithpdf.ai`**) is **Keevs Health Inc**.\n\n### Evidence and Provider Statement\n* **Product Rebrand & Domain Continuation:** The conversational PDF tool **ChatWithPDF** (`chatwithpdf.ai`) officially rebranded and evolved into **Paperguide**, with `chatwithpdf.ai` redirecting to Paperguide. The team announced:\n  > *\"ChatWithPDF began as a simple, versatile tool for comprehending large PDFs... we're excited to announce that ChatWithPDF is evolving into PaperGuide... In the coming weeks, we'll be transitioning to a new brand and domain that aligns with our PaperGuide identity.\"*\n* **Operating Entity:** According to the official About Us and Contact pages for Paperguide:\n  > *\"Paperguide® is owned and operated by Keevs Health Inc, a Delaware corporation headquartered in Alpharetta, Georgia.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **ChatwithpdfAI** (domain: **`chatwithpdf.ai`**) is **Keevs Health Inc**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmhnLLp04toSNcSVzFlrHjchyKK6uYJrlJTfQqPBGYWP4V9hhFyK2IUFsTHWSUldT7c5Z6uDaow6gvBZ0HtuuA_LDqhrsqaRDWO5z8nhR0HK-0Qg==",
+          "title": "chatwithpdf.ai"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **ChatwithpdfAI** (domain: **`chatwithpdf.ai`**) is **Keevs Health Inc**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2M6fqll_9kYgoiEmbY6YF1L66fZ5WbQAlrSl_b-vCfiuRF4LOcezeY7JtHyGMKY5NmXKHfmR7wKc5XA_xDIY9M0HPYdYzJXxtYvauqfW7fKctwLNsZ7jlzKT9iy6lU_3WuoxHbdalsLaxAI1PpgY=",
+          "title": "wondershare.com"
+        },
+        {
+          "id": 2,
+          "text": "**Product Rebrand & Domain Continuation:** The conversational PDF tool **ChatWithPDF** (`chatwithpdf.ai`) officially rebranded and evolved into **Paperguide**, with `chatwithpdf.ai` redirecting to Paperguide",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3kOztG8xLPBpU-GlgNWNPM4zbipcYPPUA1TlyG8b1-WNzVLBSs54imU1vRQCTZEGC0PDHGAqbg2SCSZ2Rq3FiaQZgBbdp6xk2WuqDfLnBq_b_wQqQrxhwO9iSIzsA4_edfgViBd1WcLq2ReMHcaA=",
+          "title": "wondershare.com"
+        },
+        {
+          "id": 3,
+          "text": "**Product Rebrand & Domain Continuation:** The conversational PDF tool **ChatWithPDF** (`chatwithpdf.ai`) officially rebranded and evolved into **Paperguide**, with `chatwithpdf.ai` redirecting to Paperguide",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqcdMLiImvDH1kiJLElNZ7TT9d2aZHtCPXh2MN4ErPYqvTUN0YLDUAz_ss3Tl6RO9shhizfMgAaqzjgPTdsuNyQzELYsnmy9YF7OIkx3K55j-bLtrZ5F8=",
+          "title": "paperguide.ai"
+        },
+        {
+          "id": 4,
+          "text": "In the coming weeks, we'll be transitioning to a new brand and domain that aligns with our PaperGuide identity.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqcdMLiImvDH1kiJLElNZ7TT9d2aZHtCPXh2MN4ErPYqvTUN0YLDUAz_ss3Tl6RO9shhizfMgAaqzjgPTdsuNyQzELYsnmy9YF7OIkx3K55j-bLtrZ5F8=",
+          "title": "paperguide.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Keevs Health Inc",
+        "evidence": "Passage 0 directly states that the vendor providing ChatwithpdfAI (chatwithpdf.ai) is Keevs Health Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **ChatwithpdfAI** (domain: **`chatwithpdf.ai`**) is **Keevs Health Inc**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmhnLLp04toSNcSVzFlrHjchyKK6uYJrlJTfQqPBGYWP4V9hhFyK2IUFsTHWSUldT7c5Z6uDaow6gvBZ0HtuuA_LDqhrsqaRDWO5z8nhR0HK-0Qg==",
+          "title": "chatwithpdf.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "ChatwithpdfAI",
+    "domain": "chatwithpdf.ai",
+    "description": "Conversational PDF viewer"
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Keevs Health Inc",
+  "evidence": "Passage 0 directly states that the vendor providing ChatwithpdfAI (chatwithpdf.ai) is Keevs Health Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **ChatwithpdfAI** (domain: **`chatwithpdf.ai`**) is **Keevs Health Inc**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmhnLLp04toSNcSVzFlrHjchyKK6uYJrlJTfQqPBGYWP4V9hhFyK2IUFsTHWSUldT7c5Z6uDaow6gvBZ0HtuuA_LDqhrsqaRDWO5z8nhR0HK-0Qg==",
+    "title": "chatwithpdf.ai"
+  },
+  "checked_at": "2026-11-05T06:11:50.599121+00:00"
+}

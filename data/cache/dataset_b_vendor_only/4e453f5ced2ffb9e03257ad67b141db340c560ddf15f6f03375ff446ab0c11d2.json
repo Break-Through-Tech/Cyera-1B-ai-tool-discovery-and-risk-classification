@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on company profiles and software distribution records for the exact product and domain **CareerPen** (`careerpen.org`):\n\n* **Vendor / Operating Company:** **CareerPen** (also identified as the developer **careerpen**).\n* **Evidence & Provider Statement:**\n  * **Tracxn Company Directory:** Identifies **CareerPen** as a company founded in 2023 and based in Helsinki, Finland, stating: *\"CareerPen is an unfunded company based in Helsinki (Finland), founded in 2023. It operates as an AI powered platform to generate personalized cover letters. Website: careerpen.org.\"*\n  * **Softonic App Listing:** Lists the application specifications for the browser/web tool as `Developer: careerpen`.\n\n*(Note: Disambiguated from the unrelated recruitment firm Careerpen Consultants LLP in India).*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**Vendor / Operating Company:** **CareerPen**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0Yb2o_VJBfrk8yjzySQhghevVmP5zt0XAeSxYD88I6s0FiQMPJkuB1kV_0dheuc9pJspYT7x9Nyy-FqRpqvJ1M1-DBjU-os65g-ZqsQVGlNXpWgXsiFeWyn3c-Pp9LDYvoubJ9OS0vQhMfR3PDd4TlXklj4YrcGy96UdL1yNj7xPBwBT9l7OdZl_PCA==",
+          "title": "tracxn.com"
+        },
+        {
+          "id": 1,
+          "text": "**Vendor / Operating Company:** **CareerPen**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0Yb2o_VJBfrk8yjzySQhghevVmP5zt0XAeSxYD88I6s0FiQMPJkuB1kV_0dheuc9pJspYT7x9Nyy-FqRpqvJ1M1-DBjU-os65g-ZqsQVGlNXpWgXsiFeWyn3c-Pp9LDYvoubJ9OS0vQhMfR3PDd4TlXklj4YrcGy96UdL1yNj7xPBwBT9l7OdZl_PCA==",
+          "title": "tracxn.com"
+        },
+        {
+          "id": 2,
+          "text": "**Vendor / Operating Company:** **CareerPen** (also identified as the developer **careerpen**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEku96LGn8viWok-1RyNNRvMgMS1XpcU8uj7f8C53_AzSXYvejNy3MOz01Ou_aQ7gpMGvwSclbqBsHEKwgdVjSRGtHMKls5CTAJ8dyHo7EoFYhTDuAP3Y9L1h8hVriFfww=",
+          "title": "softonic.com"
+        },
+        {
+          "id": 3,
+          "text": "Website: careerpen.org.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0Yb2o_VJBfrk8yjzySQhghevVmP5zt0XAeSxYD88I6s0FiQMPJkuB1kV_0dheuc9pJspYT7x9Nyy-FqRpqvJ1M1-DBjU-os65g-ZqsQVGlNXpWgXsiFeWyn3c-Pp9LDYvoubJ9OS0vQhMfR3PDd4TlXklj4YrcGy96UdL1yNj7xPBwBT9l7OdZl_PCA==",
+          "title": "tracxn.com"
+        },
+        {
+          "id": 4,
+          "text": "Website: careerpen.org.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0Yb2o_VJBfrk8yjzySQhghevVmP5zt0XAeSxYD88I6s0FiQMPJkuB1kV_0dheuc9pJspYT7x9Nyy-FqRpqvJ1M1-DBjU-os65g-ZqsQVGlNXpWgXsiFeWyn3c-Pp9LDYvoubJ9OS0vQhMfR3PDd4TlXklj4YrcGy96UdL1yNj7xPBwBT9l7OdZl_PCA==",
+          "title": "tracxn.com"
+        },
+        {
+          "id": 5,
+          "text": "**Softonic App Listing:** Lists the application specifications for the browser/web tool as `Developer: careerpen`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEku96LGn8viWok-1RyNNRvMgMS1XpcU8uj7f8C53_AzSXYvejNy3MOz01Ou_aQ7gpMGvwSclbqBsHEKwgdVjSRGtHMKls5CTAJ8dyHo7EoFYhTDuAP3Y9L1h8hVriFfww=",
+          "title": "softonic.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "CareerPen",
+        "evidence": "Passage 0 identifies CareerPen as the vendor and operating company.",
+        "source": {
+          "id": 0,
+          "text": "**Vendor / Operating Company:** **CareerPen**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0Yb2o_VJBfrk8yjzySQhghevVmP5zt0XAeSxYD88I6s0FiQMPJkuB1kV_0dheuc9pJspYT7x9Nyy-FqRpqvJ1M1-DBjU-os65g-ZqsQVGlNXpWgXsiFeWyn3c-Pp9LDYvoubJ9OS0vQhMfR3PDd4TlXklj4YrcGy96UdL1yNj7xPBwBT9l7OdZl_PCA==",
+          "title": "tracxn.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "CareerPen",
+    "domain": "careerpen.org",
+    "description": "Let AI write personalized cover letters for you."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "CareerPen",
+  "evidence": "Passage 0 identifies CareerPen as the vendor and operating company.",
+  "source": {
+    "id": 0,
+    "text": "**Vendor / Operating Company:** **CareerPen**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0Yb2o_VJBfrk8yjzySQhghevVmP5zt0XAeSxYD88I6s0FiQMPJkuB1kV_0dheuc9pJspYT7x9Nyy-FqRpqvJ1M1-DBjU-os65g-ZqsQVGlNXpWgXsiFeWyn3c-Pp9LDYvoubJ9OS0vQhMfR3PDd4TlXklj4YrcGy96UdL1yNj7xPBwBT9l7OdZl_PCA==",
+    "title": "tracxn.com"
+  },
+  "checked_at": "2026-11-05T07:17:56.174979+00:00"
+}

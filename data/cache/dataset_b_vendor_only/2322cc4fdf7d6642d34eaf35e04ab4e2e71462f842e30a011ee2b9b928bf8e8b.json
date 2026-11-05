@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the product at **buzzi.ai** is **Cynere Infotech Private Limited** (operating as **Buzzi.ai**).\n\n### Evidence\n* **Provider statement:** The contact page on the official website states: \n  > *\"Buzzi.ai — An AI initiative by Cynere Infotech Private Limited.\"*\n* **Company background:** The About page on `buzzi.ai` further specifies:\n  > *\"Buzzi.ai is a specialized AI development company that designs, builds, and deploys intelligent AI agents and automation solutions for businesses worldwide. We combine deep AI expertise with two decades of enterprise software development experience through our parent company, Cynere Infotech.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the product at **buzzi.ai** is **Cynere Infotech Private Limited** (operating as **Buzzi.ai**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHo42BEhC8YRdqRj9ClfNGyNtniC4RYiVkujDcj8VGQ0UXrNMLc_esSVVYTD-znujAmuhX7bVvpUcqZ04lrt9QQpwE3UD4V8o5Sna1_Rx8=",
+          "title": "buzzi.ai"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the product at **buzzi.ai** is **Cynere Infotech Private Limited** (operating as **Buzzi.ai**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzX0wqXjtS3nFXsw41WXGQWZ9by8tqEfkwaLTm1Eo0XDcKrVM0acWwlaYWRBYhicqr2Q71suBtrXNTys2sGgBHutfVekMKJXn9xQM_9dBz4X9BtPaH",
+          "title": "buzzi.ai"
+        },
+        {
+          "id": 2,
+          "text": "*\"Buzzi.ai — An AI initiative by Cynere Infotech Private Limited.\"*\n*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHo42BEhC8YRdqRj9ClfNGyNtniC4RYiVkujDcj8VGQ0UXrNMLc_esSVVYTD-znujAmuhX7bVvpUcqZ04lrt9QQpwE3UD4V8o5Sna1_Rx8=",
+          "title": "buzzi.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Cynere Infotech Private Limited",
+        "evidence": "Passage 2 indicates that Buzzi.ai is an AI initiative by Cynere Infotech Private Limited.",
+        "source": {
+          "id": 2,
+          "text": "*\"Buzzi.ai — An AI initiative by Cynere Infotech Private Limited.\"*\n*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHo42BEhC8YRdqRj9ClfNGyNtniC4RYiVkujDcj8VGQ0UXrNMLc_esSVVYTD-znujAmuhX7bVvpUcqZ04lrt9QQpwE3UD4V8o5Sna1_Rx8=",
+          "title": "buzzi.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Buzzi.ai",
+    "domain": "buzzi.ai",
+    "description": "Buzzi.ai is an AI-powered social media content creation tool that helps businesses generate engaging content, schedule posts, and analyze performance across various platforms."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Cynere Infotech Private Limited",
+  "evidence": "Passage 2 indicates that Buzzi.ai is an AI initiative by Cynere Infotech Private Limited.",
+  "source": {
+    "id": 2,
+    "text": "*\"Buzzi.ai — An AI initiative by Cynere Infotech Private Limited.\"*\n*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHo42BEhC8YRdqRj9ClfNGyNtniC4RYiVkujDcj8VGQ0UXrNMLc_esSVVYTD-znujAmuhX7bVvpUcqZ04lrt9QQpwE3UD4V8o5Sna1_Rx8=",
+    "title": "buzzi.ai"
+  },
+  "checked_at": "2026-11-05T06:33:13.508490+00:00"
+}

@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product at **codefundi.app** is **Code Fundi**.\n\n### Supporting Evidence\n* **Terms of Service (`codefundi.app/terms`)**: \n  > *\"These Terms of Service ('Terms') govern your access to and use of Code Fundi's websites, applications, APIs, and related services (collectively, the 'Services') operated by Code Fundi ('we', 'us', or 'our').\"*\n* **End User License Agreement (`codefundi.app/eula`)**:\n  > *\"This End User License Agreement ('EULA') is a legal agreement between you and Code Fundi for any Code Fundi software we make available for installation on your devices ('Software')... Code Fundi and its licensors retain all right, title, and interest in the Software.\"*\n* **Privacy Policy (`codefundi.app/privacy`)**:\n  > *\"This Privacy Policy explains how Code Fundi ('we', 'us') collects, uses, discloses, and protects information when you use our websites, applications, APIs, and related services (the 'Services').\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product at **codefundi.app** is **Code Fundi**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_9el-hEQq_CEAhlt3cEgEmHm26OaSBiSJchKuJlvdsY2G928kLlQ3BY2lXKs_jEW7fXAFNPJGoPrfiQpAnL4cV-wgpVuoP-nmcrAYxTjsQP7NpS5RXA==",
+          "title": "codefundi.app"
+        },
+        {
+          "id": 1,
+          "text": "*\"These Terms of Service ('Terms') govern your access to and use of Code Fundi's websites, applications, APIs, and related services (collectively, the 'Services') operated by Code Fundi ('we', 'us', or 'our').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_9el-hEQq_CEAhlt3cEgEmHm26OaSBiSJchKuJlvdsY2G928kLlQ3BY2lXKs_jEW7fXAFNPJGoPrfiQpAnL4cV-wgpVuoP-nmcrAYxTjsQP7NpS5RXA==",
+          "title": "codefundi.app"
+        },
+        {
+          "id": 2,
+          "text": "Code Fundi and its licensors retain all right, title, and interest in the Software.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxAIPsTJK3nLVe2bBvZdm7IpO32C8xaNdvtp1lWmmL3aQ_RwGxIlIPN6RVtxVU0_gkPgfomoxXbMqmNrb4_yYg3nyvKiPsO3cuAkbWFo4SYiaXCfqT",
+          "title": "codefundi.app"
+        },
+        {
+          "id": 3,
+          "text": "Code Fundi and its licensors retain all right, title, and interest in the Software.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWeCe6taSoiQoVX6sYfRLKW1B5LP3hye1aLhYAR81mZRIg9RpD1-IwLuk1NP0jy3KHdcSRF7OiXNeTLVJe-n70n1emplfCSZXoGL0Me540dfXfMQPu",
+          "title": "codefundi.app"
+        },
+        {
+          "id": 4,
+          "text": "*\"This Privacy Policy explains how Code Fundi ('we', 'us') collects, uses, discloses, and protects information when you use our websites, applications, APIs, and related services (the 'Services').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcMu4ErWJLybEGXnk0bBN5yesnJCbCPHvsVOQnGWa6xXOc3NMNiMqoDXErt-zO53TaYMJqlzuinGXbRDHBCUWCf76G_aSHLTwxXiQgzAGbJoogfHiedrbU",
+          "title": "codefundi.app"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Code Fundi",
+        "evidence": "The Terms of Service state that the websites, applications, APIs, and related services are operated by Code Fundi.",
+        "source": {
+          "id": 1,
+          "text": "*\"These Terms of Service ('Terms') govern your access to and use of Code Fundi's websites, applications, APIs, and related services (collectively, the 'Services') operated by Code Fundi ('we', 'us', or 'our').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_9el-hEQq_CEAhlt3cEgEmHm26OaSBiSJchKuJlvdsY2G928kLlQ3BY2lXKs_jEW7fXAFNPJGoPrfiQpAnL4cV-wgpVuoP-nmcrAYxTjsQP7NpS5RXA==",
+          "title": "codefundi.app"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Code Fundi",
+    "domain": "codefundi.app",
+    "description": "Faster, improved code with debugging and explanations."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Code Fundi",
+  "evidence": "The Terms of Service state that the websites, applications, APIs, and related services are operated by Code Fundi.",
+  "source": {
+    "id": 1,
+    "text": "*\"These Terms of Service ('Terms') govern your access to and use of Code Fundi's websites, applications, APIs, and related services (collectively, the 'Services') operated by Code Fundi ('we', 'us', or 'our').\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_9el-hEQq_CEAhlt3cEgEmHm26OaSBiSJchKuJlvdsY2G928kLlQ3BY2lXKs_jEW7fXAFNPJGoPrfiQpAnL4cV-wgpVuoP-nmcrAYxTjsQP7NpS5RXA==",
+    "title": "codefundi.app"
+  },
+  "checked_at": "2026-11-05T07:48:38.501382+00:00"
+}

@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The software products and platform services provided at **claris.com** (including Claris Studio, Claris Connect, and the Claris suite) are directly operated and provided by **Claris International Inc.**\n\n### Provider Evidence:\n* According to the **Claris Privacy Policy** at claris.com:  \n  > *\"Your privacy is important to Claris International Inc. and Claris International (UK) (“Claris,” “we,” or “our”).\"*\n* According to the official **Claris Terms of Service**:  \n  > *\"THIS LEGAL AGREEMENT... BETWEEN YOUR COMPANY OR ORGANIZATION... ON THE ONE HAND AND CLARIS INTERNATIONAL INC. AND /OR CLARIS INTERNATIONAL (COLLECTIVELY REFERRED TO AS “CLARIS”) ON THE OTHER HAND... Claris is the provider of the Service and compatible Claris offerings...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software products and platform services provided at **claris.com** (including Claris Studio, Claris Connect, and the Claris suite) are directly operated and provided by **Claris International Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZm5xjkE_zKzr0qbnO8TggXYtDuFF8QiipmAAjkAF4aMZ371iEejsHviodNUgY80kRgcI49qL7Tft2s61qxtMYYWUZaEFsbpu6kQB1eiRQJT3bRibaoC6vNGblj2lic1yRSXAKt_Tv1Wb6p_3aousdFPP7hfPZEUwy14b0augPtfjhPgV4Zv8=",
+          "title": "claris.com"
+        },
+        {
+          "id": 1,
+          "text": "The software products and platform services provided at **claris.com** (including Claris Studio, Claris Connect, and the Claris suite) are directly operated and provided by **Claris International Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGqR89aKA3Py6GoCX0BOQQejqbYIrzSzCTjZCLhJl2D7nTTvjmV7aSAdAJ2luj_FmhU7tkFtZrCdAIXwdu46qk8z4ToCCdwiaqOwdya3Yv_S_P0tzUfNS5W-JH9yDnfomcy-NCsQDfOfKAOudrUrou_yv4XNTPc9rgDkRwXpwtVmlQ08iW0Ui9kILa0kw==",
+          "title": "claris.com"
+        },
+        {
+          "id": 2,
+          "text": "The software products and platform services provided at **claris.com** (including Claris Studio, Claris Connect, and the Claris suite) are directly operated and provided by **Claris International Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhJD5prILFNPrPhrLFTaotjoaM3ERzAcIo_5cELewEmzxUlXdloTA3RafZTi3Samp5ZiwJGw4VXldiwulLDIMv-CJVfjO6zxsm_Esk5ciTDb2uOUAUlKvn4S0085p8PEal5A==",
+          "title": "claris.com"
+        },
+        {
+          "id": 3,
+          "text": "*\"Your privacy is important to Claris International Inc. and Claris International (UK) (“Claris,” “we,” or “our”).\"*\n* According",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhJD5prILFNPrPhrLFTaotjoaM3ERzAcIo_5cELewEmzxUlXdloTA3RafZTi3Samp5ZiwJGw4VXldiwulLDIMv-CJVfjO6zxsm_Esk5ciTDb2uOUAUlKvn4S0085p8PEal5A==",
+          "title": "claris.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Claris International Inc.",
+        "evidence": "Claris International Inc. directly operates and provides the software products and platform services provided at claris.com.",
+        "source": {
+          "id": 0,
+          "text": "The software products and platform services provided at **claris.com** (including Claris Studio, Claris Connect, and the Claris suite) are directly operated and provided by **Claris International Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZm5xjkE_zKzr0qbnO8TggXYtDuFF8QiipmAAjkAF4aMZ371iEejsHviodNUgY80kRgcI49qL7Tft2s61qxtMYYWUZaEFsbpu6kQB1eiRQJT3bRibaoC6vNGblj2lic1yRSXAKt_Tv1Wb6p_3aousdFPP7hfPZEUwy14b0augPtfjhPgV4Zv8=",
+          "title": "claris.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Claris",
+    "domain": "claris.com",
+    "description": "Claris provides a comprehensive suite of tools and services designed for teams in various business environments to create, share, and integrate custom applications, enhancing work efficiency and collaboration. Located in the tech industry, Claris focuses on empowering users to solve business problems through innovative app solutions."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Claris International Inc.",
+  "evidence": "Claris International Inc. directly operates and provides the software products and platform services provided at claris.com.",
+  "source": {
+    "id": 0,
+    "text": "The software products and platform services provided at **claris.com** (including Claris Studio, Claris Connect, and the Claris suite) are directly operated and provided by **Claris International Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZm5xjkE_zKzr0qbnO8TggXYtDuFF8QiipmAAjkAF4aMZ371iEejsHviodNUgY80kRgcI49qL7Tft2s61qxtMYYWUZaEFsbpu6kQB1eiRQJT3bRibaoC6vNGblj2lic1yRSXAKt_Tv1Wb6p_3aousdFPP7hfPZEUwy14b0augPtfjhPgV4Zv8=",
+    "title": "claris.com"
+  },
+  "checked_at": "2026-11-05T09:03:54.364490+00:00"
+}

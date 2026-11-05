@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software platform **TradingView** at **tradingview.com** is **TradingView Inc.**\n\n### Supporting Evidence\nAccording to the official **TradingView Terms of Use** at `tradingview.com`:\n> *\"TradingView is the property of TradingView Inc. ('us,' 'we,' or 'our').\"*\n\nFurthermore, the **Privacy Policy** states:\n> *\"We are TradingView Inc. ('TradingView,' 'we' or 'us')... TradingView is the data controller responsible for your personal data and is the sole owner of the TradingView.com website ('Website'), TradingView mobile and desktop applications, TradingView services (each, a 'Service').\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software platform **TradingView** at **tradingview.com** is **TradingView Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiDcYYhBFRnxyLBJu8jblLwuxZ3jRF7ZVUK31YqhLAa464jfHsi2b-8qIEtDsU9LqLxXw4yawRhEeyJoxMURNrb521L8kbKbDZiubSbSGkwwpmQ5SQRm8O6N2E",
+          "title": "tradingview.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the software platform **TradingView** at **tradingview.com** is **TradingView Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEv0hjtFwRG31mixHCEqe6FqAtp53-GhdN8zYjKiUKPzniMfVnTQ5F0eyQAZvGC-UCtvznNaqBVKV4V6akOXqeQ9SvbZUv2OEpZ5vCP6ob4e8N53eYlfU7RNmGAJ9LzHnKl",
+          "title": "tradingview.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"TradingView is the property of TradingView Inc. ('us,' 'we,' or 'our').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiDcYYhBFRnxyLBJu8jblLwuxZ3jRF7ZVUK31YqhLAa464jfHsi2b-8qIEtDsU9LqLxXw4yawRhEeyJoxMURNrb521L8kbKbDZiubSbSGkwwpmQ5SQRm8O6N2E",
+          "title": "tradingview.com"
+        },
+        {
+          "id": 3,
+          "text": "TradingView is the data controller responsible for your personal data and is the sole owner of the TradingView.com website ('Website'), TradingView mobile and desktop applications, TradingView services (each, a 'Service').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEv0hjtFwRG31mixHCEqe6FqAtp53-GhdN8zYjKiUKPzniMfVnTQ5F0eyQAZvGC-UCtvznNaqBVKV4V6akOXqeQ9SvbZUv2OEpZ5vCP6ob4e8N53eYlfU7RNmGAJ9LzHnKl",
+          "title": "tradingview.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "TradingView Inc.",
+        "evidence": "According to the passage from tradingview.com, \"TradingView is the property of TradingView Inc. ('us,' 'we,' or 'our').\"",
+        "source": {
+          "id": 2,
+          "text": "*\"TradingView is the property of TradingView Inc. ('us,' 'we,' or 'our').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiDcYYhBFRnxyLBJu8jblLwuxZ3jRF7ZVUK31YqhLAa464jfHsi2b-8qIEtDsU9LqLxXw4yawRhEeyJoxMURNrb521L8kbKbDZiubSbSGkwwpmQ5SQRm8O6N2E",
+          "title": "tradingview.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "TradingView",
+    "domain": "tradingview.com",
+    "description": "TradingView is a leading charting and data platform, serving as a social network for investors with over 70 million users globally. Established in 2011, the company has offices in London and New York and offers real-time and historical financial data to both professional and retail investors. Their services are utilized by major financial institutions, including asset managers and banks, and feature open source charts and commercial libraries that power numerous financial products around the world."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "TradingView Inc.",
+  "evidence": "According to the passage from tradingview.com, \"TradingView is the property of TradingView Inc. ('us,' 'we,' or 'our').\"",
+  "source": {
+    "id": 2,
+    "text": "*\"TradingView is the property of TradingView Inc. ('us,' 'we,' or 'our').\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiDcYYhBFRnxyLBJu8jblLwuxZ3jRF7ZVUK31YqhLAa464jfHsi2b-8qIEtDsU9LqLxXw4yawRhEeyJoxMURNrb521L8kbKbDZiubSbSGkwwpmQ5SQRm8O6N2E",
+    "title": "tradingview.com"
+  },
+  "checked_at": "2026-11-05T08:25:01.643786+00:00"
+}

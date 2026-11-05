@@ -1,0 +1,89 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **Photify AI** hosted at **photify.ai** is directly provided by **Ex-Human Inc.** (also styled as **Ex-human, Inc.**).\n\n### Supporting Evidence:\n* The official website pages across **photify.ai** state in their footer:\n  > *“© 2026 Ex-Human Inc. Terms and Conditions Privacy Policy Contact us.”*\n* Mobile application listings and legal filings similarly identify **Ex-human, Inc.** as the operating developer and company behind the Photify AI application.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTsqW7DIMJL_MwgbugUG-J-uXo4xm-NdVLyj5Eqv7UQSpaM4SONx-KAyo2uETLbVUeQeUhoKZqTe8sbkyyYq-oKoQINGcSwi_O",
+          "title": "photify.ai"
+        },
+        {
+          "id": 1,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVBt4kiVt0jEt1Fk703zuxghI080z6-xSAiH5uGtP4XAMcIXHS_oSuBSc5-E2Yjq2L52yfdsP0Cg1qirnJEGkH5ok0icmdej-Nu1r8EMazHbTyVTVYT5YPeVSjyekZcdEjVUjm3Zv0Hw==",
+          "title": "soft112.com"
+        },
+        {
+          "id": 2,
+          "text": "The official website pages across **photify.ai** state in their footer",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTsqW7DIMJL_MwgbugUG-J-uXo4xm-NdVLyj5Eqv7UQSpaM4SONx-KAyo2uETLbVUeQeUhoKZqTe8sbkyyYq-oKoQINGcSwi_O",
+          "title": "photify.ai"
+        },
+        {
+          "id": 3,
+          "text": "The official website pages across **photify.ai** state in their footer",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpKiI7_x4RPjbv71Y7oehGkgFg9Y2IlieZhgoKdOOESLOJ5y_hHRYiK-WlfUV9BkzlRtujq6_YGdvCxlLfhdJG5UWTwXgCUaEMQzQcCHk=",
+          "title": "photify.ai"
+        }
+      ],
+      "result": {
+        "status": "unknown",
+        "vendor": "UNKNOWN",
+        "evidence": "None of the provided passages contain text identifying the vendor, developer, or operating company behind Photify AI."
+      }
+    },
+    {
+      "answer": "The vendor directly providing **Photify AI** at **photify.ai** is **Ex-Human, Inc.** (Ex-Human).\n\n### Supporting Evidence:\n* The official website footer on **photify.ai** displays the copyright notice: `© 2026 Ex-Human Inc. Terms and Conditions Privacy Policy Contact us.`\n* Official mobile app store listings and distributor records for the product (package `ai.photify.app`) identify the developer and publisher as **Ex-human, Inc.**",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Photify AI** at **photify.ai** is **Ex-Human, Inc.** (Ex-Human)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHApJy4OJSSPVIXEt_mFVJCJ51BPRgt5TQ1FpR-QBClfGqf-GgTA1PNEMTyeUOBQU2O1ZBVswqqBrI_vhhpYlD-r8Oz0dfX9X_n09taLMQUr-3PA1JNDEgwHxM4Tr8VeQK1Kf5b-ULERo_TGFczGFRIDTrqPw0bh5TYQyS1R_neP1zhMR3Lw96BehFUZk-g_09FexXgPBSd-WNv_bm8p_g=",
+          "title": "9to5mac.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Photify AI** at **photify.ai** is **Ex-Human, Inc.** (Ex-Human)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDtz0OC5LawswMvoVHNpI3PSaY2Klgt0yYw9HBeEAAw0sCbozqFtSWL2GpLfbuKGwE3YD3Gw-St_3-lhb7thlhS3EvcONOPrY=",
+          "title": "photify.ai"
+        },
+        {
+          "id": 2,
+          "text": "The official website footer on **photify.ai** displays the copyright notice: `© 2026 Ex-Human Inc. Terms and Conditions Privacy Policy Contact us.`\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDtz0OC5LawswMvoVHNpI3PSaY2Klgt0yYw9HBeEAAw0sCbozqFtSWL2GpLfbuKGwE3YD3Gw-St_3-lhb7thlhS3EvcONOPrY=",
+          "title": "photify.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Ex-Human, Inc.",
+        "evidence": "Passage 1 directly confirms that the vendor providing Photify AI at photify.ai is Ex-Human, Inc.",
+        "source": {
+          "id": 1,
+          "text": "The vendor directly providing **Photify AI** at **photify.ai** is **Ex-Human, Inc.** (Ex-Human)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDtz0OC5LawswMvoVHNpI3PSaY2Klgt0yYw9HBeEAAw0sCbozqFtSWL2GpLfbuKGwE3YD3Gw-St_3-lhb7thlhS3EvcONOPrY=",
+          "title": "photify.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Photify AI",
+    "domain": "photify.ai",
+    "description": "Transform your selfies into a myriad of captivating looks."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Ex-Human, Inc.",
+  "evidence": "Passage 1 directly confirms that the vendor providing Photify AI at photify.ai is Ex-Human, Inc.",
+  "source": {
+    "id": 1,
+    "text": "The vendor directly providing **Photify AI** at **photify.ai** is **Ex-Human, Inc.** (Ex-Human)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDtz0OC5LawswMvoVHNpI3PSaY2Klgt0yYw9HBeEAAw0sCbozqFtSWL2GpLfbuKGwE3YD3Gw-St_3-lhb7thlhS3EvcONOPrY=",
+    "title": "photify.ai"
+  },
+  "checked_at": "2026-11-05T06:07:45.833720+00:00"
+}

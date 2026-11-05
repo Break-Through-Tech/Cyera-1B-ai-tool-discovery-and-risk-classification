@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The direct provider for the software product **TweetyAI** at **tweetyai.com** is **TweetyAI** (an independent software project originating in Ljubljana, Slovenia). \n\n### Evidence & Provider Statements\n* **Domain & Product:** `tweetyai.com` / **TweetyAI**.\n* **Terms & Copyright Statement:** The official website and terms identify the provider under the copyright notice:  \n  > *“© 2021-2026 TweetyAI. All rights reserved.”*\n* **Legal / Terms of Use Statement:** The *Terms and Conditions* page at `tweetyai.com` specifies that:\n  > *“All information, graphics and software elements in the broadest sense (texts, sketches, photographs, video content, etc.) contained on the tweetyai.com website are the work of the author and therefore... subject to copyright protection or other forms of intellectual property protection... under the Copyright and Related Rights Act of the Republic of Slovenia.”*\n* No separate incorporated company name is published; the software is provided and operated directly under the proprietary brand **TweetyAI**.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The direct provider for the software product **TweetyAI** at **tweetyai.com** is **TweetyAI**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGY4Jyz6x6KgKhhW6SkSH00tmOsi_G4X2FBPVQIYIWgrQnoLYZK1HW60vSbETIno8oUapQd_DcWBvOFag_L4LGPDNNncPtzGdQ2PYQ8cmd7vUc=",
+          "title": "tweetyai.com"
+        },
+        {
+          "id": 1,
+          "text": "The direct provider for the software product **TweetyAI** at **tweetyai.com** is **TweetyAI** (an independent software project originating in Ljubljana, Slovenia",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkiFn83psGzXhLeieb8eh55kvAZCnLhQn3R3n_OZoKnTrweoI25XRHXgOPBlmbsZgtXLAymrLXS1ZTZc8jzAFZFZ_HcYZ_7dwbLLd7HQQ6jkm-b6rq9hqt8QFz6TGzDNPXsf0Tko1QPJlt9-Swi-9KYVUSpujNUfDyQZxr5DCizu71W6xtM_1DhfAlpPm5UwrhXH51PAJ9_w==",
+          "title": "reddit.com"
+        },
+        {
+          "id": 2,
+          "text": "**Domain & Product:** `tweetyai.com` / **TweetyAI**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEijpDi1-HcGAFN1uHX48Y620S8eyNL-nU0phgB77f0FpnDOpG5cdyyjqGScyltR3WDsJDMguNpyoQCXXfeqFZgGFWCn48zH4KkCjv1PdkNIRI6xwTDqshXIeRvZcbDGQ==",
+          "title": "tweetyai.com"
+        },
+        {
+          "id": 3,
+          "text": "**Domain & Product:** `tweetyai.com` / **TweetyAI**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGY4Jyz6x6KgKhhW6SkSH00tmOsi_G4X2FBPVQIYIWgrQnoLYZK1HW60vSbETIno8oUapQd_DcWBvOFag_L4LGPDNNncPtzGdQ2PYQ8cmd7vUc=",
+          "title": "tweetyai.com"
+        },
+        {
+          "id": 4,
+          "text": " rights reserved.”*\n* **",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGY4Jyz6x6KgKhhW6SkSH00tmOsi_G4X2FBPVQIYIWgrQnoLYZK1HW60vSbETIno8oUapQd_DcWBvOFag_L4LGPDNNncPtzGdQ2PYQ8cmd7vUc=",
+          "title": "tweetyai.com"
+        },
+        {
+          "id": 5,
+          "text": " information, graphics and software elements in the broadest sense (texts, sketches, photographs, video content, etc.) contained on the tweetyai.com website are the work of the author and therefore... subject to copyright protection or other forms of intellectual property protection... under the Copyright and Related Rights Act of the Republic of Slovenia.”*\n* No sep",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEijpDi1-HcGAFN1uHX48Y620S8eyNL-nU0phgB77f0FpnDOpG5cdyyjqGScyltR3WDsJDMguNpyoQCXXfeqFZgGFWCn48zH4KkCjv1PdkNIRI6xwTDqshXIeRvZcbDGQ==",
+          "title": "tweetyai.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "TweetyAI",
+        "evidence": "Passage 0 directly states that the direct provider for the software product TweetyAI at tweetyai.com is TweetyAI.",
+        "source": {
+          "id": 0,
+          "text": "The direct provider for the software product **TweetyAI** at **tweetyai.com** is **TweetyAI**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGY4Jyz6x6KgKhhW6SkSH00tmOsi_G4X2FBPVQIYIWgrQnoLYZK1HW60vSbETIno8oUapQd_DcWBvOFag_L4LGPDNNncPtzGdQ2PYQ8cmd7vUc=",
+          "title": "tweetyai.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "TweetyAI",
+    "domain": "tweetyai.com",
+    "description": "TweetyAI helps you create engaging Twitter content, including tweets, threads, and captions, using AI-powered suggestions and templates. Boost your Twitter engagement and save time with its intuitive interface."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "TweetyAI",
+  "evidence": "Passage 0 directly states that the direct provider for the software product TweetyAI at tweetyai.com is TweetyAI.",
+  "source": {
+    "id": 0,
+    "text": "The direct provider for the software product **TweetyAI** at **tweetyai.com** is **TweetyAI**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGY4Jyz6x6KgKhhW6SkSH00tmOsi_G4X2FBPVQIYIWgrQnoLYZK1HW60vSbETIno8oUapQd_DcWBvOFag_L4LGPDNNncPtzGdQ2PYQ8cmd7vUc=",
+    "title": "tweetyai.com"
+  },
+  "checked_at": "2026-11-05T06:30:24.642111+00:00"
+}

@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **Niah AI** hosted at **askniah.com** is provided and developed by **Kevin Oduor**, operating under the project/brand entity **Niah AI**.\n\n### Evidence and Citations\n* **Developer:** Developer listings and profiles identify software builder **Kevin Oduor** as the creator of the tool, cataloged on StackShare under his profile (`kevinoooduor`) for the tech stack of **Niah AI**, as well as in reporting on Kenyan startup founders noting *\"AskNiah by Kevin Oduor\"*.\n* **Entity / Brand:** VC4A directories register the Nairobi, Kenya-based health-tech venture as **Niah AI** (*\"Niah AI - Your healthcare companion\"*), and directory listings similarly cite the operating name as *\"Niah AI Company name: Niah AI\"* linked to Kenyan contact channels (`+254...`).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **Niah AI** hosted at **askniah.com** is provided and developed by **Kevin Oduor**, operating under the project/brand entity **Niah AI**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHp8WNPUiVx3nWlG4jQUiESragqUsJzC_3FsWnIxdpfdTdccRXrMETHo4RdSmm8NjJ2gn-nDwsG7W10deIBzWcXnv9v9QVitKA2hoE66B2u-EZItpuYI-vt9sQpkHj9bJM=",
+          "title": "stackshare.io"
+        },
+        {
+          "id": 1,
+          "text": "The software product **Niah AI** hosted at **askniah.com** is provided and developed by **Kevin Oduor**, operating under the project/brand entity **Niah AI**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKZ_AIHJWZU1xXRsSTj_1VOPssfAoef8b944veIQ73GFIpqiT2sFpGEeu3bg75_Ybqd3d4gVKtf63VzM7i0Es_7fPNB_UK4SjrHdJ15GZ2Pi9i6uOUBiGiBBb3z617MUDq800tpCeW_z1kihQZTq46ILQpMw_yWGD_Jn2HZCRqi05JMgibQbt8NO7gstv0hh003_wTyZ4HjqZRomuIs6FrtjmfzNp2BWX3udmb",
+          "title": "medium.com"
+        },
+        {
+          "id": 2,
+          "text": "**Developer:** Developer listings and profiles identify software builder **Kevin Oduor** as the creator of the tool, cataloged on StackShare under his profile (`kevinoooduor`) for the tech stack of **Niah AI**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHp8WNPUiVx3nWlG4jQUiESragqUsJzC_3FsWnIxdpfdTdccRXrMETHo4RdSmm8NjJ2gn-nDwsG7W10deIBzWcXnv9v9QVitKA2hoE66B2u-EZItpuYI-vt9sQpkHj9bJM=",
+          "title": "stackshare.io"
+        },
+        {
+          "id": 3,
+          "text": "**Developer:** Developer listings and profiles identify software builder **Kevin Oduor** as the creator of the tool, cataloged on StackShare under his profile (`kevinoooduor`) for the tech stack of **Niah AI**, as well as in reporting on Kenyan startup founders noting *\"AskNiah by Kevin Oduor\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKZ_AIHJWZU1xXRsSTj_1VOPssfAoef8b944veIQ73GFIpqiT2sFpGEeu3bg75_Ybqd3d4gVKtf63VzM7i0Es_7fPNB_UK4SjrHdJ15GZ2Pi9i6uOUBiGiBBb3z617MUDq800tpCeW_z1kihQZTq46ILQpMw_yWGD_Jn2HZCRqi05JMgibQbt8NO7gstv0hh003_wTyZ4HjqZRomuIs6FrtjmfzNp2BWX3udmb",
+          "title": "medium.com"
+        },
+        {
+          "id": 4,
+          "text": "**Entity / Brand:** VC4A directories register the Nairobi, Kenya-based health-tech venture as **Niah AI** (*\"Niah AI - Your healthcare companion\"*)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGB0OKuLgLcEGmoIwD9nFgFQl4ecR5PRDyoGX8u6SFQVwJws9hULrwV2FAr_46Sj2vJFOR8XKNoa2eky2ualHZ9558iNXrXhHzFxpj2dv_LLWzTkptb2uhC",
+          "title": "vc4a.com"
+        },
+        {
+          "id": 5,
+          "text": "**Entity / Brand:** VC4A directories register the Nairobi, Kenya-based health-tech venture as **Niah AI** (*\"Niah AI - Your healthcare companion\"*), and directory listings similarly cite the operating name as *\"Niah AI Company name: Niah AI\"* linked to Kenyan contact channels (`+254...`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWWsZ2P_oxPLLK0v1ZGcvXPdA39WgFGMH-L32PzQoBUQ9Ngkp9C4TyeKVvPHpJHCBQvQbl0yA7pLHn9tePwc6z5dI5P5qgaCjq-DX2q8GSgt6XccPR",
+          "title": "tyy.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Niah AI",
+        "evidence": "Niah AI hosted at askniah.com is provided and developed by Kevin Oduor, operating under the project/brand entity Niah AI.",
+        "source": {
+          "id": 0,
+          "text": "The software product **Niah AI** hosted at **askniah.com** is provided and developed by **Kevin Oduor**, operating under the project/brand entity **Niah AI**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHp8WNPUiVx3nWlG4jQUiESragqUsJzC_3FsWnIxdpfdTdccRXrMETHo4RdSmm8NjJ2gn-nDwsG7W10deIBzWcXnv9v9QVitKA2hoE66B2u-EZItpuYI-vt9sQpkHj9bJM=",
+          "title": "stackshare.io"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Niah AI",
+    "domain": "askniah.com",
+    "description": "Get immediate health guidance with Niah AI chat."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Niah AI",
+  "evidence": "Niah AI hosted at askniah.com is provided and developed by Kevin Oduor, operating under the project/brand entity Niah AI.",
+  "source": {
+    "id": 0,
+    "text": "The software product **Niah AI** hosted at **askniah.com** is provided and developed by **Kevin Oduor**, operating under the project/brand entity **Niah AI**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHp8WNPUiVx3nWlG4jQUiESragqUsJzC_3FsWnIxdpfdTdccRXrMETHo4RdSmm8NjJ2gn-nDwsG7W10deIBzWcXnv9v9QVitKA2hoE66B2u-EZItpuYI-vt9sQpkHj9bJM=",
+    "title": "stackshare.io"
+  },
+  "checked_at": "2026-11-05T07:37:51.918840+00:00"
+}

@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing SQLite at **sqlite.org** is **Hipp, Wyrick & Company, Inc.** (commonly known as **Hwaci**). \n\n### Evidence & Provider Statements\n* **SQLite Consortium Agreement** (`sqlite.org`):  \n  > *\"Hipp, Wyrick & Company, Inc., a Georgia Corporation with headquarters at 6200 Maple Cove Lane, Charlotte, NC ('Hwaci'). WHEREAS, Hwaci is the developer of a serverless, embeddable, public domain SQL database engine available at http://www.sqlite.org/ ('SQLite')... The 'SQLite Developers' are the employees or contractors of Hwaci engaged in the development of SQLite, including without limitation the SQLite Architect.\"*\n* **SQLite Pro Support** (`sqlite.org/prosupport.html`):  \n  > *\"Paid support options and products are provided by Hipp, Wyrick & Company, Inc., (Hwaci), a Georgia corporation with headquarters in Charlotte, North Carolina and has been in business since 1992.\"*\n* **SQLite Consortium** (`sqlite.org/consortium.html`):  \n  > *\"Membership in the SQLite Consortium is via contract with Hipp, Wyrick & Company, Inc..\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing SQLite at **sqlite.org** is **Hipp, Wyrick & Company, Inc.** (commonly known as **Hwaci**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFetF070ukY57N-ZbjV4V3QjNiB14LMgJ8GaiXlmE0ubHPRubXFtI6MMTVks6y3vCQMmHwVwn6Gs1C6SaesEZZk8qoWPHiapR_4g1awR3xnw-b6iFwjSiJVnemhvDW3hl7QyS6MZbxpgx-BQw==",
+          "title": "sqlite.org"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing SQLite at **sqlite.org** is **Hipp, Wyrick & Company, Inc.** (commonly known as **Hwaci**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzxPYgtU3_4_XNstY03w5fRt4-YcvDehiyBl-gQ8IpwbNJA3kf6nYN4O4Ukf_Yd9GYpHS62vPLnkU-gDgnz0qiI1M77MrhVSmht4SH0H6g3WMUWCN5TK-yXUWD7w==",
+          "title": "sqlite.org"
+        },
+        {
+          "id": 2,
+          "text": "The 'SQLite Developers' are the employees or contractors of Hwaci engaged in the development of SQLite, including without limitation the SQLite Architect.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFetF070ukY57N-ZbjV4V3QjNiB14LMgJ8GaiXlmE0ubHPRubXFtI6MMTVks6y3vCQMmHwVwn6Gs1C6SaesEZZk8qoWPHiapR_4g1awR3xnw-b6iFwjSiJVnemhvDW3hl7QyS6MZbxpgx-BQw==",
+          "title": "sqlite.org"
+        },
+        {
+          "id": 3,
+          "text": "*\"Paid support options and products are provided by Hipp, Wyrick & Company, Inc., (Hwaci), a Georgia corporation with headquarters in Charlotte, North Carolina and has been in business since 1992.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzxPYgtU3_4_XNstY03w5fRt4-YcvDehiyBl-gQ8IpwbNJA3kf6nYN4O4Ukf_Yd9GYpHS62vPLnkU-gDgnz0qiI1M77MrhVSmht4SH0H6g3WMUWCN5TK-yXUWD7w==",
+          "title": "sqlite.org"
+        },
+        {
+          "id": 4,
+          "text": "*\"Membership in the SQLite Consortium is via contract with Hipp, Wyrick & Company, Inc..\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLy8TwpSNICm8oAPttRYgiIF1f7TxqqkKYheYOVEkRCnxKREDfFABnWZagtHUitPp7L1v0GWIln6_yFoRxSE5Qs-500-UkI5jqjWt2cloDyyqyGt3-Bt0_",
+          "title": "sqlite.org"
+        },
+        {
+          "id": 5,
+          "text": "Hipp, Wyrick & Company, Inc., a Georgia Corporation with headquarters at 6200 Maple Cove Lane, Charlotte, NC ('Hwaci'). WHEREAS, Hwaci is the developer of a serverless, embeddable, public domain SQL database engine available",
+          "url": "https://sqlite.org/consortium_agreement-20071201.html",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Hipp, Wyrick & Company, Inc.",
+        "evidence": "Passage 5 states that Hipp, Wyrick & Company, Inc. ('Hwaci') is the developer of the serverless, embeddable, public domain SQL database engine.",
+        "source": {
+          "id": 5,
+          "text": "Hipp, Wyrick & Company, Inc., a Georgia Corporation with headquarters at 6200 Maple Cove Lane, Charlotte, NC ('Hwaci'). WHEREAS, Hwaci is the developer of a serverless, embeddable, public domain SQL database engine available",
+          "url": "https://sqlite.org/consortium_agreement-20071201.html",
+          "title": ""
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "SQLite",
+    "domain": "sqlite.org",
+    "description": "SQLite, Inc. develops a self-contained and serverless database library that is designed for simplicity and ease of use. Their flagship product, SQLite, is an ACID-compliant SQL database engine that requires no additional setup or configuration, making it ideal for applications, embedded systems, and development environments. The company is based in the United States and serves a global market with its innovative database solutions."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Hipp, Wyrick & Company, Inc.",
+  "evidence": "Passage 5 states that Hipp, Wyrick & Company, Inc. ('Hwaci') is the developer of the serverless, embeddable, public domain SQL database engine.",
+  "source": {
+    "id": 5,
+    "text": "Hipp, Wyrick & Company, Inc., a Georgia Corporation with headquarters at 6200 Maple Cove Lane, Charlotte, NC ('Hwaci'). WHEREAS, Hwaci is the developer of a serverless, embeddable, public domain SQL database engine available",
+    "url": "https://sqlite.org/consortium_agreement-20071201.html",
+    "title": ""
+  },
+  "checked_at": "2026-11-05T08:55:15.279725+00:00"
+}

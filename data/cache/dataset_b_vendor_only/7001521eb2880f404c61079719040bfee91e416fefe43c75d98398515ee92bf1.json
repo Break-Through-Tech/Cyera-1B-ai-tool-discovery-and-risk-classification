@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on official site data and software vendor listings for **JobSynergy** at **jobsynergy.ai**:\n\n* **Direct Provider / Vendor:** **JobSynergy**\n* **Evidence & Provider Statements:**\n  * The official website footer at `jobsynergy.ai` states: *“© 2024 JobSynergy”* alongside links to its official Terms of Use and Privacy Policy.\n  * Vendor profiles (including Gartner Peer Insights and software developer specifications for `https://www.jobsynergy.ai/`) identify the operating company and developer as **JobSynergy** (*“At JobSynergy, we're dedicated to making the hiring process easier and more efficient... That's why we've developed an AI-powered platform...”*).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**Direct Provider / Vendor:** **JobSynergy**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNfIBG4Ys_agAMVjGReitcbxi1YXvPhB5kHfsNLcNpKeJnlb4s2eUgGA1JfuxXtSkbybBf8NNC-rP0g0LK7LyLow0nenPL8F8hHYZsXCPcQXE96GhCkSbMryi4rfWjLF_HDAmOhhDy",
+          "title": "gartner.com"
+        },
+        {
+          "id": 1,
+          "text": "**Direct Provider / Vendor:** **JobSynergy**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvAZvcSy3NBtWiDAR9GPqH4cB4runF2utuRTN-HHPYUAbR_dyiBn7SMiAqAPjKhHq_qsR6SBWJdo9-n8jtitoQsB5SsqUtAjITH3R4c5DS03lpuoK6_HFzoBGc",
+          "title": "pages.dev"
+        },
+        {
+          "id": 2,
+          "text": "The official website footer at `jobsynergy.ai` states: *“© 2024 JobSynergy”* alongside links to its official Terms of Use and Privacy Policy.\n  *",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvAZvcSy3NBtWiDAR9GPqH4cB4runF2utuRTN-HHPYUAbR_dyiBn7SMiAqAPjKhHq_qsR6SBWJdo9-n8jtitoQsB5SsqUtAjITH3R4c5DS03lpuoK6_HFzoBGc",
+          "title": "pages.dev"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "JobSynergy",
+        "evidence": "Passage 0 explicitly identifies JobSynergy as the direct provider and vendor.",
+        "source": {
+          "id": 0,
+          "text": "**Direct Provider / Vendor:** **JobSynergy**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNfIBG4Ys_agAMVjGReitcbxi1YXvPhB5kHfsNLcNpKeJnlb4s2eUgGA1JfuxXtSkbybBf8NNC-rP0g0LK7LyLow0nenPL8F8hHYZsXCPcQXE96GhCkSbMryi4rfWjLF_HDAmOhhDy",
+          "title": "gartner.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "JobSynergy",
+    "domain": "jobsynergy.ai",
+    "description": "JobSynergy is an AI-powered platform that acts as a job search co-pilot, streamlining the process by generating tailored resumes and cover letters, providing interview preparation, and offering networking strategies to help users land their dream job."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "JobSynergy",
+  "evidence": "Passage 0 explicitly identifies JobSynergy as the direct provider and vendor.",
+  "source": {
+    "id": 0,
+    "text": "**Direct Provider / Vendor:** **JobSynergy**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNfIBG4Ys_agAMVjGReitcbxi1YXvPhB5kHfsNLcNpKeJnlb4s2eUgGA1JfuxXtSkbybBf8NNC-rP0g0LK7LyLow0nenPL8F8hHYZsXCPcQXE96GhCkSbMryi4rfWjLF_HDAmOhhDy",
+    "title": "gartner.com"
+  },
+  "checked_at": "2026-11-05T05:50:16.871100+00:00"
+}

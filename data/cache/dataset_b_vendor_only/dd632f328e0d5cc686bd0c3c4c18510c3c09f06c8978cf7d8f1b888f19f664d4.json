@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **Eightfold** software platform at **eightfold.ai** is **Eightfold AI Inc.**\n\n### Evidence:\nAccording to the official **Master Subscription Agreement** and **Trial Terms of Service** hosted on `eightfold.ai`:\n> *\"THIS MASTER SUBSCRIPTION AGREEMENT (“AGREEMENT”) SETS FORTH THE TERMS AND CONDITIONS UPON WHICH EIGHTFOLD AI INC., A DELAWARE CORPORATION WITH OFFICES AT 2625 AUGUSTINE DRIVE, SUITE 601, SANTA CLARA, CA 95054 (“EIGHTFOLD”) SHALL PROVIDE, AND YOU (THE “CUSTOMER”) SHALL OBTAIN THE USE OF THE SERVICES. ... Eightfold provides a Software-As-A-Service (“SaaS”) platform that transforms how organizations hire and retain best talent.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **Eightfold** software platform at **eightfold.ai** is **Eightfold AI Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTJ1hhhJo2VLMd3RWR6s0g-o-ZdsYju83Qg3Vf1P3V6r96H3gDEKC55pXY0y_rKn-uc8pEv5zYn6rZG073LNqoltJH6Ev-cmG32pHzQoWowiJuCENhe4WC7ycm3XSbydIj9Q==",
+          "title": "eightfold.ai"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the **Eightfold** software platform at **eightfold.ai** is **Eightfold AI Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYScguOhShY7fEcdEnZjpRGny3OE4XP9y3M8QECtNyTP50jQQxx-wz1uw9ZvWt1jJC49C6Nt4vgqhNKyrLqzXP29-8WNqIXy9oAtwapkOq",
+          "title": "eightfold.ai"
+        },
+        {
+          "id": 2,
+          "text": "THIS MASTER SUBSCRIPTION AGREEMENT (“AGREEMENT”) SETS FORTH THE TERMS AND CONDITIONS UPON WHICH EIGHTFOLD AI INC., A DELAWARE CORPORATION WITH OFFICES AT 2625 AUGUSTINE DRIVE, SUITE 601, SANTA CLARA, CA 95054 (“EIGHTFOLD”) SHALL PROVIDE, AND YOU (THE “CUSTOMER”) SHALL OBTAIN THE USE OF THE ",
+          "url": "https://eightfold.ai/msa/",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Eightfold AI Inc.",
+        "evidence": "According to the Master Subscription Agreement hosted on eightfold.ai, Eightfold AI Inc. is the entity that provides the services to the customer.",
+        "source": {
+          "id": 2,
+          "text": "THIS MASTER SUBSCRIPTION AGREEMENT (“AGREEMENT”) SETS FORTH THE TERMS AND CONDITIONS UPON WHICH EIGHTFOLD AI INC., A DELAWARE CORPORATION WITH OFFICES AT 2625 AUGUSTINE DRIVE, SUITE 601, SANTA CLARA, CA 95054 (“EIGHTFOLD”) SHALL PROVIDE, AND YOU (THE “CUSTOMER”) SHALL OBTAIN THE USE OF THE ",
+          "url": "https://eightfold.ai/msa/",
+          "title": ""
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Eightfold",
+    "domain": "eightfold.ai",
+    "description": "Talent management and recruitment solution"
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Eightfold AI Inc.",
+  "evidence": "According to the Master Subscription Agreement hosted on eightfold.ai, Eightfold AI Inc. is the entity that provides the services to the customer.",
+  "source": {
+    "id": 2,
+    "text": "THIS MASTER SUBSCRIPTION AGREEMENT (“AGREEMENT”) SETS FORTH THE TERMS AND CONDITIONS UPON WHICH EIGHTFOLD AI INC., A DELAWARE CORPORATION WITH OFFICES AT 2625 AUGUSTINE DRIVE, SUITE 601, SANTA CLARA, CA 95054 (“EIGHTFOLD”) SHALL PROVIDE, AND YOU (THE “CUSTOMER”) SHALL OBTAIN THE USE OF THE ",
+    "url": "https://eightfold.ai/msa/",
+    "title": ""
+  },
+  "checked_at": "2026-11-05T07:17:08.453041+00:00"
+}

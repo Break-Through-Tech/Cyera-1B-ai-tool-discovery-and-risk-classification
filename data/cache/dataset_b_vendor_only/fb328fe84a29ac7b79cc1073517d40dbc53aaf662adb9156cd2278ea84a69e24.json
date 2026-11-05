@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software platform at **yotpo.com** is **Yotpo Ltd.** (operating with affiliates including **Yotpo Inc.**).\n\n### Supporting Evidence:\n* **Terms of Service (`yotpo.com/terms-of-service/`)**: Defines the provider and product as: \n  > *“‘YOTPO’ MEANS YOTPO LTD. AND ITS AFFILIATES... Yotpo's platform is a unique, proprietary consumer engagement platform (‘Platform’) that offers solutions for customer reviews, visual marketing, SMS/MMS engagement programs, and loyalty and referral programs...”*\n* **Terms of Use (`yotpo.com/terms-of-use/`)**:\n  > *“Welcome to https://www.yotpo.com/ (together with any related websites, the ‘Site’). The Site is owned and operated by Yotpo Ltd. and its affiliates (‘Yotpo’).”*\n* **Privacy Policy (`yotpo.com/privacy-policy/`)**:\n  > *“This Privacy Policy describes how Yotpo Ltd. (together with its affiliated companies – ‘Yotpo’, ‘we’, ‘our’ or ‘us’) collects, stores, uses, and discloses your personal data when you interact with us, including when you: register for and/or use the Yotpo services, including the Yotpo eCommerce marketing platform, products and applications (collectively, ‘Platform’)...”*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8hRMQ7QqgbNe24WecIUdaj13Xv7QvImgPb3a5mj8ESfCYhssIxxfZsGmgXjQEToFiy5Lsqg72UE--oisthb8kdjmv0XpFT1P796PFytATq5BXE2YZriitBA==",
+          "title": "yotpo.com"
+        },
+        {
+          "id": 1,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjr2z0V0QqF-rNm3CFgCwqvVPM392t1vSjI7yMeWMqnWYfzbVde_A1fCX2gEzn-EZ6YU9woh8addsuV-eRA-U4xcecLn26KklPUwO3UGWBuxVHAEaiRwm8UA7QoYI=",
+          "title": "yotpo.com"
+        },
+        {
+          "id": 2,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHui8jOS531Ccc1Cws6VKnquxYtZXIOrDHUE1UmKBOitD-4o9uOQFv_E8mvjrqYZvyiP6K3V-ELyGbAhmA4NEk0g1nzXu-FqyT6O_c1S46dWjDh2N2lwJFpqIU=",
+          "title": "yotpo.com"
+        },
+        {
+          "id": 3,
+          "text": "s platform is a unique, proprietary consumer engagement platform (‘Platform’) that offers solutions for customer reviews, visual marketing, SMS/MMS engagement programs, and loyalty and referral programs...”*\n* **Terms o",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjr2z0V0QqF-rNm3CFgCwqvVPM392t1vSjI7yMeWMqnWYfzbVde_A1fCX2gEzn-EZ6YU9woh8addsuV-eRA-U4xcecLn26KklPUwO3UGWBuxVHAEaiRwm8UA7QoYI=",
+          "title": "yotpo.com"
+        },
+        {
+          "id": 4,
+          "text": "and operated by Yotpo Ltd. and its affiliates (‘Yotpo’).”*\n* **Privacy Policy (`yo",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8hRMQ7QqgbNe24WecIUdaj13Xv7QvImgPb3a5mj8ESfCYhssIxxfZsGmgXjQEToFiy5Lsqg72UE--oisthb8kdjmv0XpFT1P796PFytATq5BXE2YZriitBA==",
+          "title": "yotpo.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Yotpo Ltd.",
+        "evidence": "Passage 4 establishes that the site is owned and operated by Yotpo Ltd. and its affiliates.",
+        "source": {
+          "id": 4,
+          "text": "and operated by Yotpo Ltd. and its affiliates (‘Yotpo’).”*\n* **Privacy Policy (`yo",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8hRMQ7QqgbNe24WecIUdaj13Xv7QvImgPb3a5mj8ESfCYhssIxxfZsGmgXjQEToFiy5Lsqg72UE--oisthb8kdjmv0XpFT1P796PFytATq5BXE2YZriitBA==",
+          "title": "yotpo.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Yotpo",
+    "domain": "yotpo.com",
+    "description": "Yotpo is a leading eCommerce retention marketing platform based in New York, with additional offices in London, Sydney, and Tel Aviv. The company provides data-driven solutions for customer reviews, visual user-generated content, loyalty programs, referrals, and marketing through SMS and email, helping brands like Steve Madden and Brooklinen enhance customer retention and lifetime value. Yotpo integrates seamlessly with popular online tools and platforms, aiming to empower brands to improve their direct-to-consumer business through engaging customer experiences."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Yotpo Ltd.",
+  "evidence": "Passage 4 establishes that the site is owned and operated by Yotpo Ltd. and its affiliates.",
+  "source": {
+    "id": 4,
+    "text": "and operated by Yotpo Ltd. and its affiliates (‘Yotpo’).”*\n* **Privacy Policy (`yo",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8hRMQ7QqgbNe24WecIUdaj13Xv7QvImgPb3a5mj8ESfCYhssIxxfZsGmgXjQEToFiy5Lsqg72UE--oisthb8kdjmv0XpFT1P796PFytATq5BXE2YZriitBA==",
+    "title": "yotpo.com"
+  },
+  "checked_at": "2026-11-05T08:36:03.751627+00:00"
+}

@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software platform at **twilio.com** is **Twilio Inc.** (contracting through regional affiliates such as **Twilio Ireland Limited** for users in the EEA, UK, and Switzerland).\n\n### Evidence\n* According to the **Twilio Terms of Service** (`twilio.com/legal/tos`), the contracting entity entering into the agreement for customers outside Europe is:\n  > *\"Twilio Inc., a Delaware corporation, with a place of business at 101 Spear Street, 5th Floor, San Francisco, California, 94105, United States of America\"* (and *\"Twilio Ireland Limited, a company registered in the Republic of Ireland\"* for customers in the EEA, UK, Switzerland, etc.).\n* Twilio's **Website Privacy Notice** (`twilio.com/legal/privacy`) and site footer similarly identify the operating entity:\n  > *\"mandating how Twilio Inc. and its group companies (“Twilio”, “we”, or “our”) process personal data wherever we operate\"* and *\"Copyright © Twilio Inc. All rights reserved.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software platform at **twilio.com** is **Twilio Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvaREZ2bWkL0qH8RXg-4QSS-EU-TV6xRQooVvJz3voB0-_mgwCeUzkNcMMzB6RHIEB-7UKJJAYgXSYHlDren2EDppiUImHqFBZDkBLh6znOrqsqi_3YK-t4Wg=",
+          "title": "twilio.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the software platform at **twilio.com** is **Twilio Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-u9UNSdc01CJJTI-N_K5lNL0HOheHwnsOCs7V82tpQAOl3C7vzyCoh6EEm3WT6uNsXmY9jegn6YoeJ-yR_N5NNUaXRluWuLJk3fKGF8-GmHruvwMz5vsZSnAQ",
+          "title": "twilio.com"
+        },
+        {
+          "id": 2,
+          "text": "The vendor directly providing the software platform at **twilio.com** is **Twilio Inc.** (contracting through regional affiliates such as **Twilio Ireland Limited** for users in the EEA, UK, and Switzerland)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-u9UNSdc01CJJTI-N_K5lNL0HOheHwnsOCs7V82tpQAOl3C7vzyCoh6EEm3WT6uNsXmY9jegn6YoeJ-yR_N5NNUaXRluWuLJk3fKGF8-GmHruvwMz5vsZSnAQ",
+          "title": "twilio.com"
+        },
+        {
+          "id": 3,
+          "text": "*\"Twilio Inc., a Delaware corporation, with a place of business at 101 Spear Street, 5th Floor, San Francisco, California, 94105, United States of America\"* (and *\"Twilio Ireland Limited, a company registered in the Republic of Ireland\"* for customers in the EEA, UK, Switzerland, etc.)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-u9UNSdc01CJJTI-N_K5lNL0HOheHwnsOCs7V82tpQAOl3C7vzyCoh6EEm3WT6uNsXmY9jegn6YoeJ-yR_N5NNUaXRluWuLJk3fKGF8-GmHruvwMz5vsZSnAQ",
+          "title": "twilio.com"
+        },
+        {
+          "id": 4,
+          "text": "*\"mandating how Twilio Inc. and its group companies (“Twilio”, “we”, or “our”) process personal data wherever we operate\"* and *\"Copyr",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdGAiI81DPPdD1yV7ORmPWRRmwtXC8KwncKc-IYcikUkuPO78rSL4gpLqbxrGO6JFp03M0_wlBEGhpdl5a2uYtgtCOaF1se1n-3O1VistxCo_AsqH8NLkqzLTf4qP37g==",
+          "title": "twilio.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Twilio Inc.",
+        "evidence": "Passage 0 explicitly identifies that the vendor directly providing the software platform at twilio.com is Twilio Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the software platform at **twilio.com** is **Twilio Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvaREZ2bWkL0qH8RXg-4QSS-EU-TV6xRQooVvJz3voB0-_mgwCeUzkNcMMzB6RHIEB-7UKJJAYgXSYHlDren2EDppiUImHqFBZDkBLh6znOrqsqi_3YK-t4Wg=",
+          "title": "twilio.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Twilio",
+    "domain": "twilio.com",
+    "description": "Twilio is a global leader in customer engagement solutions, providing a flexible platform that enables businesses to build personalized and intelligent communication strategies. Trusted by companies worldwide, Twilio's services span various applications including sales, marketing, customer service, and engagement across 180 countries. It empowers developers and businesses to enhance customer experiences through innovative communication technologies."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Twilio Inc.",
+  "evidence": "Passage 0 explicitly identifies that the vendor directly providing the software platform at twilio.com is Twilio Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the software platform at **twilio.com** is **Twilio Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvaREZ2bWkL0qH8RXg-4QSS-EU-TV6xRQooVvJz3voB0-_mgwCeUzkNcMMzB6RHIEB-7UKJJAYgXSYHlDren2EDppiUImHqFBZDkBLh6znOrqsqi_3YK-t4Wg=",
+    "title": "twilio.com"
+  },
+  "checked_at": "2026-11-05T08:53:52.265034+00:00"
+}

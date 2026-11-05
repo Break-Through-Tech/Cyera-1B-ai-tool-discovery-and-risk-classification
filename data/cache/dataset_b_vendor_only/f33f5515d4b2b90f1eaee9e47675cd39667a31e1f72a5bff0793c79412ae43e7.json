@@ -1,0 +1,79 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor and provider directly operating the software product at **micmonster.com** is **MicMonster** (founded and developed by **Harinderpreet Singh**).\n\n### Evidence:\n* **Terms of Service:** States that *\"The Terms of Service establish a contract between MicMonster and you\"*.\n* **Privacy Policy:** Identifies the operating entity as *\"d/b/a MicMonster (“MicMonster” “we,” “our,” “us”) on the website at www.MicMonster.com\"*.\n* **Founder / Contact Details:** The site identifies founder **Harinderpreet Singh** and lists an operating address at *76 Ventura Way NE, Calgary, Alberta T2E8G5, Canada*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor and provider directly operating the software product at **micmonster.com** is **MicMonster**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-J1P2Qtcu3s_hnBOUMMhc-g7q6v2yF_QJe31anMvoRpBAdS_2ef_1Pd9wZUm7Sbw5A1-mbVstL3weV03RYrQwZ0MBB3jDPxPywd7JaK-Xrjc=",
+          "title": "micmonster.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor and provider directly operating the software product at **micmonster.com** is **MicMonster** (founded and developed by **Harinderpreet Singh**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsJWy5qvJ0eBQvo_KBw7xwesulhfYKdPna__qWOttdKSjLPc61uGbrL9dvZXOuuPaiB-UN1EiX80DO7qmbo59KjgwZAlkXiQP9M2Za0JjueJ_-GaA-t4NQRvuWeizYhQzkJjRdZ4iFMagQPKzF4XfAOQ9_DOlwgepWyakwlRF4-n4=",
+          "title": "apple.com"
+        },
+        {
+          "id": 2,
+          "text": "The vendor and provider directly operating the software product at **micmonster.com** is **MicMonster** (founded and developed by **Harinderpreet Singh**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcaW4ji1Uc6t3orMgg902-P5YfgKT8m5UVzjBMohTBOyfiFXtYBRvAcKmF2KYrV21tvU6ZgG_or-BOdCz2IhiruNC5RZ5fjDyKO4bafcR3VgwRwrRywYhQ516u4nff6Ar0pcDkhyJollLeBAkFSg==",
+          "title": "acquire.com"
+        },
+        {
+          "id": 3,
+          "text": "**Terms of Service:** States that *\"The Terms of Service establish a contract between MicMonster and you\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-J1P2Qtcu3s_hnBOUMMhc-g7q6v2yF_QJe31anMvoRpBAdS_2ef_1Pd9wZUm7Sbw5A1-mbVstL3weV03RYrQwZ0MBB3jDPxPywd7JaK-Xrjc=",
+          "title": "micmonster.com"
+        },
+        {
+          "id": 4,
+          "text": "**Privacy Policy:** Identifies the operating entity as *\"d/b/a MicMonster (“MicMonster” “we,” “our,” “us”) on the website at www.MicMonster.com\"*.\n* **Founder / ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDXwiwcBVngJPKKiBypXHUKk06JNkZt6l_FjIHm95BrGSj4jFQqxV1GKADYwP_2oMBcqrj7XP6a7HkAqom-K-8VqDMHZX6ghuTocxQs0dh-oZtInRTL8Lm8o5dcQ==",
+          "title": "micmonster.com"
+        },
+        {
+          "id": 5,
+          "text": "act Details:** The site identifies founder **Harinderpreet Singh** and lists an op",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsJWy5qvJ0eBQvo_KBw7xwesulhfYKdPna__qWOttdKSjLPc61uGbrL9dvZXOuuPaiB-UN1EiX80DO7qmbo59KjgwZAlkXiQP9M2Za0JjueJ_-GaA-t4NQRvuWeizYhQzkJjRdZ4iFMagQPKzF4XfAOQ9_DOlwgepWyakwlRF4-n4=",
+          "title": "apple.com"
+        },
+        {
+          "id": 6,
+          "text": "act Details:** The site identifies founder **Harinderpreet Singh** and lists an op",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcaW4ji1Uc6t3orMgg902-P5YfgKT8m5UVzjBMohTBOyfiFXtYBRvAcKmF2KYrV21tvU6ZgG_or-BOdCz2IhiruNC5RZ5fjDyKO4bafcR3VgwRwrRywYhQ516u4nff6Ar0pcDkhyJollLeBAkFSg==",
+          "title": "acquire.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "MicMonster",
+        "evidence": "Passage 0 explicitly identifies MicMonster as the vendor and provider directly operating the software product at micmonster.com.",
+        "source": {
+          "id": 0,
+          "text": "The vendor and provider directly operating the software product at **micmonster.com** is **MicMonster**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-J1P2Qtcu3s_hnBOUMMhc-g7q6v2yF_QJe31anMvoRpBAdS_2ef_1Pd9wZUm7Sbw5A1-mbVstL3weV03RYrQwZ0MBB3jDPxPywd7JaK-Xrjc=",
+          "title": "micmonster.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "MicMonster",
+    "domain": "micmonster.com",
+    "description": "Voice-over production AI tool with over 500 versatile voice styles, over 140 languages, and compatibility with any video software. A cloud-based service offering quality audio that you can use in video and audio content to engage and convert audiences."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "MicMonster",
+  "evidence": "Passage 0 explicitly identifies MicMonster as the vendor and provider directly operating the software product at micmonster.com.",
+  "source": {
+    "id": 0,
+    "text": "The vendor and provider directly operating the software product at **micmonster.com** is **MicMonster**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-J1P2Qtcu3s_hnBOUMMhc-g7q6v2yF_QJe31anMvoRpBAdS_2ef_1Pd9wZUm7Sbw5A1-mbVstL3weV03RYrQwZ0MBB3jDPxPywd7JaK-Xrjc=",
+    "title": "micmonster.com"
+  },
+  "checked_at": "2026-11-05T06:42:53.789443+00:00"
+}

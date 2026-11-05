@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **MGAI** (Message Game AI) at **agmi.co** is **AGMI Inc.** (developed/created in collaboration with dating author **Ice White**).\n\n* **Provider Statement:** The official website at `agmi.co` states: *\"AGMI Inc. is at the forefront of conversational AI, offering innovative chatbot solutions designed to enhance engagement and streamline communication for our partners,\"* showcasing **Message Game AI** as one of its featured chatbots.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **MGAI** (Message Game AI) at **agmi.co** is **AGMI Inc.** (developed/created in collaboration with dating author **Ice White**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG44y9DbndwncyLUK6l0rGBDzDsgmhAzmVyOSzxupOqi7Pbp71A_rn2PM_wN3mdJYBm68Hym-m5YV_bTUqzCm_jQSpKxGiO",
+          "title": "agmi.co"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **MGAI** (Message Game AI) at **agmi.co** is **AGMI Inc.** (developed/created in collaboration with dating author **Ice White**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFKdj_8RvDOTUMvaqUaZ-qunzkSzz3HVUClIHLq6riToeujL1bYvcrhhY7xLrJliSp8-7mnzXn-C19_641sJeW32XvWFX1zEh_MS4X0xq9ABTAES5adiQpt58hcaqr5pnU6hRPFZI=",
+          "title": "techshark.io"
+        },
+        {
+          "id": 2,
+          "text": "The vendor directly providing **MGAI** (Message Game AI) at **agmi.co** is **AGMI Inc.** (developed/created in collaboration with dating author **Ice White**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEO0o7ldwjNvfUX7hxqMxRICMt-lCzSEanoQTEO8DsrgWnkpSzHb_8SrckQzp5CGgL8VDY3gor_BXxonjBX_yM2hv2m5StM",
+          "title": "agmi.co"
+        },
+        {
+          "id": 3,
+          "text": "The vendor directly providing **MGAI** (Message Game AI) at **agmi.co** is **AGMI Inc.** (developed/created in collaboration with dating author **Ice White**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEb2eXE92y6DxA16cBTpLTgByqxWTsDzaOdHY_9jqJ_L4585zB25FaDpoNBYGR5ti3D6-L-kBZGjD7ITaWC7cHOmTvuYETKqStrkwNOjR80Uclefuk8Os0bxzYRks8=",
+          "title": "monkeyaitools.com"
+        },
+        {
+          "id": 4,
+          "text": "**Provider Statement:** The official website at `agmi.co` states: *\"AGMI Inc. is at the forefront of conversational AI, offering innovative chatbot solutions designed to enhance engagement and streamline communication for our partners,\"* showcasing **Message Game AI** as one of its featured chatbots",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG44y9DbndwncyLUK6l0rGBDzDsgmhAzmVyOSzxupOqi7Pbp71A_rn2PM_wN3mdJYBm68Hym-m5YV_bTUqzCm_jQSpKxGiO",
+          "title": "agmi.co"
+        },
+        {
+          "id": 5,
+          "text": "**Provider Statement:** The official website at `agmi.co` states: *\"AGMI Inc. is at the forefront of conversational AI, offering innovative chatbot solutions designed to enhance engagement and streamline communication for our partners,\"* showcasing **Message Game AI** as one of its featured chatbots",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEO0o7ldwjNvfUX7hxqMxRICMt-lCzSEanoQTEO8DsrgWnkpSzHb_8SrckQzp5CGgL8VDY3gor_BXxonjBX_yM2hv2m5StM",
+          "title": "agmi.co"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "AGMI Inc.",
+        "evidence": "Passage 0 directly states that the vendor directly providing MGAI (Message Game AI) at agmi.co is AGMI Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **MGAI** (Message Game AI) at **agmi.co** is **AGMI Inc.** (developed/created in collaboration with dating author **Ice White**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG44y9DbndwncyLUK6l0rGBDzDsgmhAzmVyOSzxupOqi7Pbp71A_rn2PM_wN3mdJYBm68Hym-m5YV_bTUqzCm_jQSpKxGiO",
+          "title": "agmi.co"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "MGAI",
+    "domain": "agmi.co",
+    "description": "AI wingman for messaging women on Tinder, Instagram and other messaging platforms."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "AGMI Inc.",
+  "evidence": "Passage 0 directly states that the vendor directly providing MGAI (Message Game AI) at agmi.co is AGMI Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **MGAI** (Message Game AI) at **agmi.co** is **AGMI Inc.** (developed/created in collaboration with dating author **Ice White**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG44y9DbndwncyLUK6l0rGBDzDsgmhAzmVyOSzxupOqi7Pbp71A_rn2PM_wN3mdJYBm68Hym-m5YV_bTUqzCm_jQSpKxGiO",
+    "title": "agmi.co"
+  },
+  "checked_at": "2026-11-05T07:29:44.019443+00:00"
+}

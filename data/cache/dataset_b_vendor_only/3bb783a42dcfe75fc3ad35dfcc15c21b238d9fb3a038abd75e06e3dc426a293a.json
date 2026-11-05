@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Listen2.AI - Smart News** (associated with the domain **listen2.ai**) is **Forma Cloud Inc.** (also listed as **Forma Cloud**).\n\n### Evidence and Provider Statement\n* Official mobile app store profiles and developer specifications for the Listen2.AI application (package `ai.listen2` / support contact `info@listen2.ai` / website `listen2.ai`) identify the operating developer as **Forma Cloud Inc.** (\"About the developer: Forma Cloud Inc.\", located at 2426 Sharon Oaks Dr, Menlo Park, CA 94025).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "AI - Smart News** (associated with the domain **listen2.ai**) is **Forma Cloud Inc.** (also listed as **Forma Cloud**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHF0U0AdwjW3CLhfaXDYd6z_x5AxIT3OvwN9Awe4Gv4IYuYaVgji_FvEYoJuEa066DUj5bADDjS6a0z-2X4THbCmO77PYoI7cTm7eElOYxUQwaBBqIyHWd8ABymIqDpaWg5qCXKEf0F9l1LXiyVCBSxbdOgSpwl1Q==",
+          "title": "google.com"
+        },
+        {
+          "id": 1,
+          "text": "AI - Smart News** (associated with the domain **listen2.ai**) is **Forma Cloud Inc.** (also listed as **Forma Cloud**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbkP0bHggjlHMFXhLvKzH4fM_4pdIRUKOW6O9bnGPfvg6DiuJia_wJcOtEFbrbRTz5NERhPGqDZc3dpH_WmkfYhdkzDo2hsh6TuApT42wk4FmQHReXM0FEgGH2UyeZKQ==",
+          "title": "softonic.com"
+        },
+        {
+          "id": 2,
+          "text": "AI application (package `ai.listen2` / support contact `info@listen2.ai` / website `listen2.ai`) identify the operating developer as **Forma Cloud Inc.** (\"About the developer: Forma Cloud Inc.\", located at 2426 Sharon Oaks Dr, Menlo Park, CA 94025)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHF0U0AdwjW3CLhfaXDYd6z_x5AxIT3OvwN9Awe4Gv4IYuYaVgji_FvEYoJuEa066DUj5bADDjS6a0z-2X4THbCmO77PYoI7cTm7eElOYxUQwaBBqIyHWd8ABymIqDpaWg5qCXKEf0F9l1LXiyVCBSxbdOgSpwl1Q==",
+          "title": "google.com"
+        },
+        {
+          "id": 3,
+          "text": "AI application (package `ai.listen2` / support contact `info@listen2.ai` / website `listen2.ai`) identify the operating developer as **Forma Cloud Inc.** (\"About the developer: Forma Cloud Inc.\", located at 2426 Sharon Oaks Dr, Menlo Park, CA 94025)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbR5FxpiqhlfC1noXS2Btk_KEz8MwYQv_ShtV13rUwdNCtgNxmPep_b7G-tHajDDtttNBUMp-j6q2b7NWZUYmGURoGq26YoTbktOvlltvi_u-LZ5RjTQHKwEUUsLTKntuYt1cBGg1_NrOGIP66sw==",
+          "title": "softonic.com"
+        },
+        {
+          "id": 4,
+          "text": "AI application (package `ai.listen2` / support contact `info@listen2.ai` / website `listen2.ai`) identify the operating developer as **Forma Cloud Inc.** (\"About the developer: Forma Cloud Inc.\", located at 2426 Sharon Oaks Dr, Menlo Park, CA 94025)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfLV91F3TQM02gl8Oqfkj-5Vnuiij_-HZdf1XE80lxHb_yzpx7SzYsyfyj3FrHEpCazvdn0hawwC39OF8VCb8anfLs6noW84CwRsct75aqUBW2z0RgcLWRLUNnGzvNlNzBXtyOGTJAKOk=",
+          "title": "apkdog.com.ua"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Forma Cloud Inc.",
+        "evidence": "Passage 2 states that developer specifications for the application with website listen2.ai identify the operating developer as Forma Cloud Inc.",
+        "source": {
+          "id": 2,
+          "text": "AI application (package `ai.listen2` / support contact `info@listen2.ai` / website `listen2.ai`) identify the operating developer as **Forma Cloud Inc.** (\"About the developer: Forma Cloud Inc.\", located at 2426 Sharon Oaks Dr, Menlo Park, CA 94025)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHF0U0AdwjW3CLhfaXDYd6z_x5AxIT3OvwN9Awe4Gv4IYuYaVgji_FvEYoJuEa066DUj5bADDjS6a0z-2X4THbCmO77PYoI7cTm7eElOYxUQwaBBqIyHWd8ABymIqDpaWg5qCXKEf0F9l1LXiyVCBSxbdOgSpwl1Q==",
+          "title": "google.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Listen2.AI - Smart News",
+    "domain": "listen2.ai",
+    "description": "Discover news, podcasts, and AI-driven insights with Listen2!"
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Forma Cloud Inc.",
+  "evidence": "Passage 2 states that developer specifications for the application with website listen2.ai identify the operating developer as Forma Cloud Inc.",
+  "source": {
+    "id": 2,
+    "text": "AI application (package `ai.listen2` / support contact `info@listen2.ai` / website `listen2.ai`) identify the operating developer as **Forma Cloud Inc.** (\"About the developer: Forma Cloud Inc.\", located at 2426 Sharon Oaks Dr, Menlo Park, CA 94025)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHF0U0AdwjW3CLhfaXDYd6z_x5AxIT3OvwN9Awe4Gv4IYuYaVgji_FvEYoJuEa066DUj5bADDjS6a0z-2X4THbCmO77PYoI7cTm7eElOYxUQwaBBqIyHWd8ABymIqDpaWg5qCXKEf0F9l1LXiyVCBSxbdOgSpwl1Q==",
+    "title": "google.com"
+  },
+  "checked_at": "2026-11-05T06:44:07.768620+00:00"
+}

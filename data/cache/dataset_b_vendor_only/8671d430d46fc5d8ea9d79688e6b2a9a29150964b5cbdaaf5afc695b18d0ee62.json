@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The operating vendor directly providing **GitHub Enterprise** at **github.com** is **GitHub, Inc.**.\n\n### Provider Statement\nAccording to the GitHub Corporate Terms of Service and GitHub Customer Agreements:\n> *“‘GitHub’ means GitHub, Inc., its Affiliates, and its Representatives.”*  \n> *“This GitHub Data Protection Agreement forms part of the GitHub Customer Agreement between Customer (‘You’) and GitHub, Inc., (‘GitHub’) covering Your legal entity's use of the Online Services.”*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The operating vendor directly providing **GitHub Enterprise** at **github.com** is **GitHub, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjRLfV-7r6CLPVatW3L6Hff238oNRanmSCPXU9AEfvalFK14lM8n0is2kuAiKZN0A5q0WTbyGR8X6qDZCtqFzCGKPzIqdBRAS_nBSQZPucNYS-8MuAVEAuFV8Zrxp73NnJ9txWX3PLMiu662jrevaW0ckhxBIoh1spjxtouVxp8SNk6eHw2MHMAKK8",
+          "title": "github.com"
+        },
+        {
+          "id": 1,
+          "text": "The operating vendor directly providing **GitHub Enterprise** at **github.com** is **GitHub, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhZcBKYRdH6pNCb0vPckqGurmczNJFgfFFSfqy8tKhYke89xmwvn5I6ghqwKK-HgZfxtS94-jhwUKaMVqOj-1zMA13QqhjKrK1rz-QatOvwv0--sFvg68ub3uhHtFBjnnndVwsuO9Rh9qnBF-Xzxnl6dv496p2_Tj1Jj7838M9pFX5hqdI7CGvOMYR-9BwdXG3",
+          "title": "github.com"
+        },
+        {
+          "id": 2,
+          "text": "*“‘GitHub’ means GitHub, Inc., its Affiliates, and its Representatives.”*  \n> *“T",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjRLfV-7r6CLPVatW3L6Hff238oNRanmSCPXU9AEfvalFK14lM8n0is2kuAiKZN0A5q0WTbyGR8X6qDZCtqFzCGKPzIqdBRAS_nBSQZPucNYS-8MuAVEAuFV8Zrxp73NnJ9txWX3PLMiu662jrevaW0ckhxBIoh1spjxtouVxp8SNk6eHw2MHMAKK8",
+          "title": "github.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "GitHub, Inc.",
+        "evidence": "Passage 0 explicitly states that the operating vendor directly providing GitHub Enterprise at github.com is GitHub, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The operating vendor directly providing **GitHub Enterprise** at **github.com** is **GitHub, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjRLfV-7r6CLPVatW3L6Hff238oNRanmSCPXU9AEfvalFK14lM8n0is2kuAiKZN0A5q0WTbyGR8X6qDZCtqFzCGKPzIqdBRAS_nBSQZPucNYS-8MuAVEAuFV8Zrxp73NnJ9txWX3PLMiu662jrevaW0ckhxBIoh1spjxtouVxp8SNk6eHw2MHMAKK8",
+          "title": "github.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "GitHub Enterprise",
+    "domain": "github.com",
+    "description": "A source code hosting and version control platform with pull requests, CI/CD, and code review."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "GitHub, Inc.",
+  "evidence": "Passage 0 explicitly states that the operating vendor directly providing GitHub Enterprise at github.com is GitHub, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The operating vendor directly providing **GitHub Enterprise** at **github.com** is **GitHub, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjRLfV-7r6CLPVatW3L6Hff238oNRanmSCPXU9AEfvalFK14lM8n0is2kuAiKZN0A5q0WTbyGR8X6qDZCtqFzCGKPzIqdBRAS_nBSQZPucNYS-8MuAVEAuFV8Zrxp73NnJ9txWX3PLMiu662jrevaW0ckhxBIoh1spjxtouVxp8SNk6eHw2MHMAKK8",
+    "title": "github.com"
+  },
+  "checked_at": "2026-11-05T08:01:47.943886+00:00"
+}

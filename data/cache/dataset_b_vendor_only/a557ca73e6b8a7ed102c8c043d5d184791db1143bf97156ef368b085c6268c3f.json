@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **Streamlabs** software product and related services at **streamlabs.com** is **Logitech Services S.A.**.\n\nAccording to the official Streamlabs Terms of Service:\n> *\"When we say 'Streamlabs,' 'we,' 'us,' and 'our' in these terms, we mean Logitech Services S.A.. When we say 'Services' in these terms, we mean Streamlabs' services, apps, websites, and all other products.\"*\n\nThe website and service footers across `streamlabs.com` likewise identify the operating entity:\n> *\"© Logitech Services S.A. All Rights Reserved.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **Streamlabs** software product and related services at **streamlabs.com** is **Logitech Services S.A.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJTVIzl8BP4AU2OcpzbbDc-FIl5kW1_kvlr9EfOV1jB2jbqr1OiAubSTi4nNcDuENYdo_t37WZRf5I6kxZrRH6RQiYVEujGGzyb6kB1ieWlzP6",
+          "title": "streamlabs.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the **Streamlabs** software product and related services at **streamlabs.com** is **Logitech Services S.A.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDDNjEIyNmB0RWf59PTc1Ma3GfLEdI9c4E2Xqh4vOvtET4BBb5jlt4im4x1NH95_aKYzjqg32MZ3_YUzu1AMyGEeExJB9iA2eY4BbvYZcKeXhrXV_Br0BWvi-g",
+          "title": "streamlabs.com"
+        },
+        {
+          "id": 2,
+          "text": "When we say 'Services' in these terms, we mean Streamlabs' services, apps, websites, and all other products.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDDNjEIyNmB0RWf59PTc1Ma3GfLEdI9c4E2Xqh4vOvtET4BBb5jlt4im4x1NH95_aKYzjqg32MZ3_YUzu1AMyGEeExJB9iA2eY4BbvYZcKeXhrXV_Br0BWvi-g",
+          "title": "streamlabs.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Logitech Services S.A.",
+        "evidence": "Passage 0 directly states that the vendor providing the Streamlabs software product and related services at streamlabs.com is Logitech Services S.A.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the **Streamlabs** software product and related services at **streamlabs.com** is **Logitech Services S.A.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJTVIzl8BP4AU2OcpzbbDc-FIl5kW1_kvlr9EfOV1jB2jbqr1OiAubSTi4nNcDuENYdo_t37WZRf5I6kxZrRH6RQiYVEujGGzyb6kB1ieWlzP6",
+          "title": "streamlabs.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Streamlabs",
+    "domain": "streamlabs.com",
+    "description": "Streamlabs, a subsidiary of Logitech, is a dynamic technology company that offers software solutions designed for live streamers. Operating across platforms such as Twitch, YouTube Live, Facebook Live, and TikTok, the company provides tools for audience engagement, monetization, and channel growth. Streamlabs is positioned in a rapidly expanding industry, capitalizing on a subscription-based revenue model as it serves a global community of content creators."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Logitech Services S.A.",
+  "evidence": "Passage 0 directly states that the vendor providing the Streamlabs software product and related services at streamlabs.com is Logitech Services S.A.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the **Streamlabs** software product and related services at **streamlabs.com** is **Logitech Services S.A.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJTVIzl8BP4AU2OcpzbbDc-FIl5kW1_kvlr9EfOV1jB2jbqr1OiAubSTi4nNcDuENYdo_t37WZRf5I6kxZrRH6RQiYVEujGGzyb6kB1ieWlzP6",
+    "title": "streamlabs.com"
+  },
+  "checked_at": "2026-11-05T08:58:26.015736+00:00"
+}

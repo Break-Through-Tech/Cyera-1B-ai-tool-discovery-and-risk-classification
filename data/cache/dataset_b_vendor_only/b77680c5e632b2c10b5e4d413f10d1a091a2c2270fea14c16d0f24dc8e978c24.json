@@ -1,0 +1,79 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the product and web property at **securityintelligence.com** is **IBM** (International Business Machines Corporation). \n\n### Supporting Evidence:\n* Across the site and in IBM's official legal notices (Terms of Use, Privacy, and Cookie Policies), **securityintelligence.com** is explicitly identified as an official IBM web domain governed by IBM policies and branding.\n* IBM's policy disclosures state: *\"IBM web domains. ibm.com, ibm.org, ... securityintelligence.com ...\"* with site governance directed to *\"Contact IBM Privacy Terms of use\"*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the product and web property at **securityintelligence.com** is **IBM** (International Business Machines Corporation)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDDa851vwVRaEjIQ2Q30P9b4s-3PvMCbJdJzjvyGW26GxsqCyCQowhc79LP1Wq4-c0q8katZLs-HvZ5CTsCZSc6UXsDmKqs4RI7ARwkgNPmYxUXTJEIXEDlJk7_Nqhd30ULwUxzvQw8gIgP4JrVYM9IpEAMcXRBrAawqomMpWK57ctE_6bLLrZ",
+          "title": "securityintelligence.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the product and web property at **securityintelligence.com** is **IBM** (International Business Machines Corporation)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2howS1Wn_0cGNh67tMfoLwHOa75sVB-C5i2gXgTqlqWRKr2HWba5CoB9p6Cy0ZWNfEInA9WHid69go6_rD9ODD44v_TAM6k0iJLx5OWjgPAx3_oUDQzw=",
+          "title": "ibm.com"
+        },
+        {
+          "id": 2,
+          "text": "Across the site and in IBM's official legal notices (Terms of Use, Privacy, and Cookie Policies), **securityintelligence.com** is explicitly identified as an official IBM web domain governed by IBM policies and branding",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDDa851vwVRaEjIQ2Q30P9b4s-3PvMCbJdJzjvyGW26GxsqCyCQowhc79LP1Wq4-c0q8katZLs-HvZ5CTsCZSc6UXsDmKqs4RI7ARwkgNPmYxUXTJEIXEDlJk7_Nqhd30ULwUxzvQw8gIgP4JrVYM9IpEAMcXRBrAawqomMpWK57ctE_6bLLrZ",
+          "title": "securityintelligence.com"
+        },
+        {
+          "id": 3,
+          "text": "Across the site and in IBM's official legal notices (Terms of Use, Privacy, and Cookie Policies), **securityintelligence.com** is explicitly identified as an official IBM web domain governed by IBM policies and branding",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2howS1Wn_0cGNh67tMfoLwHOa75sVB-C5i2gXgTqlqWRKr2HWba5CoB9p6Cy0ZWNfEInA9WHid69go6_rD9ODD44v_TAM6k0iJLx5OWjgPAx3_oUDQzw=",
+          "title": "ibm.com"
+        },
+        {
+          "id": 4,
+          "text": "Across the site and in IBM's official legal notices (Terms of Use, Privacy, and Cookie Policies), **securityintelligence.com** is explicitly identified as an official IBM web domain governed by IBM policies and branding",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFz5Zlswb6VXzI1a9mikFKTDluyjc3BVgU9fR3aZ8ZP_8timMblpzRyVXPgfc5OzkiEXraGIpEuEFvCiZqI3ZsAYNO_McRQfbeO5BWolagtUCsfYO2h",
+          "title": "ibm.com"
+        },
+        {
+          "id": 5,
+          "text": "IBM's policy disclosures state: *\"IBM web domains. ibm.com, ibm.org, ... securityintelligence.com ...\"* with site governance directed to *\"Contact IBM Privacy Terms of use\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDDa851vwVRaEjIQ2Q30P9b4s-3PvMCbJdJzjvyGW26GxsqCyCQowhc79LP1Wq4-c0q8katZLs-HvZ5CTsCZSc6UXsDmKqs4RI7ARwkgNPmYxUXTJEIXEDlJk7_Nqhd30ULwUxzvQw8gIgP4JrVYM9IpEAMcXRBrAawqomMpWK57ctE_6bLLrZ",
+          "title": "securityintelligence.com"
+        },
+        {
+          "id": 6,
+          "text": "IBM's policy disclosures state: *\"IBM web domains. ibm.com, ibm.org, ... securityintelligence.com ...\"* with site governance directed to *\"Contact IBM Privacy Terms of use\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2howS1Wn_0cGNh67tMfoLwHOa75sVB-C5i2gXgTqlqWRKr2HWba5CoB9p6Cy0ZWNfEInA9WHid69go6_rD9ODD44v_TAM6k0iJLx5OWjgPAx3_oUDQzw=",
+          "title": "ibm.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "IBM",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing the product and web property at securityintelligence.com is IBM (International Business Machines Corporation).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the product and web property at **securityintelligence.com** is **IBM** (International Business Machines Corporation)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDDa851vwVRaEjIQ2Q30P9b4s-3PvMCbJdJzjvyGW26GxsqCyCQowhc79LP1Wq4-c0q8katZLs-HvZ5CTsCZSc6UXsDmKqs4RI7ARwkgNPmYxUXTJEIXEDlJk7_Nqhd30ULwUxzvQw8gIgP4JrVYM9IpEAMcXRBrAawqomMpWK57ctE_6bLLrZ",
+          "title": "securityintelligence.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Q1 Labs",
+    "domain": "securityintelligence.com",
+    "description": "Q1 Labs, founded in 2001 and acquired by IBM in 2011, is a US-based provider of risk management and security information and event management (SIEM) solutions. Headquartered in Waltham, MA, with additional sales and support offices across North America and Europe, Q1 Labs offers the QRadar Security Intelligence Platform, designed to enhance security management and compliance in both physical and virtual environments. The company emphasizes user-friendly products while supporting a wide range of monitoring needs for networks, applications, and logs."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "IBM",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing the product and web property at securityintelligence.com is IBM (International Business Machines Corporation).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the product and web property at **securityintelligence.com** is **IBM** (International Business Machines Corporation)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDDa851vwVRaEjIQ2Q30P9b4s-3PvMCbJdJzjvyGW26GxsqCyCQowhc79LP1Wq4-c0q8katZLs-HvZ5CTsCZSc6UXsDmKqs4RI7ARwkgNPmYxUXTJEIXEDlJk7_Nqhd30ULwUxzvQw8gIgP4JrVYM9IpEAMcXRBrAawqomMpWK57ctE_6bLLrZ",
+    "title": "securityintelligence.com"
+  },
+  "checked_at": "2026-11-05T08:45:56.650537+00:00"
+}

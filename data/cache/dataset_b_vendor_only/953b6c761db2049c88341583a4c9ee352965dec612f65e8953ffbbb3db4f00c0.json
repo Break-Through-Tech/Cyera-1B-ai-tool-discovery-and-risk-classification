@@ -1,0 +1,103 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **AISEO Art** at the domain **art.aiseo.ai** is **AISEO, Inc.** (operating under the brand **AISEO**).\n\n### Evidence:\n* **Product & Domain:** **AISEO Art** (`art.aiseo.ai`), an AI artwork and image generator tool hosted as part of the AISEO suite. The website displays the copyright notice: *\"© AISEO Officials. All rights reserved.\"* and directs customer support inquiries to `support@aiseo.ai`.\n* **Company / Legal Entity:** The official Terms & Conditions governing the platform define the operating entity: *\"This includes emails, support tickets, and any other form of interaction with AISEO, Inc.\"* and state that *\"AISEO.ai and its original content, features, and functionality are and will remain the exclusive property of AISEO and its licensors\"*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **AISEO Art** at the domain **art.aiseo.ai** is **AISEO, Inc.** (operating under the brand **AISEO**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8yHT0iRJfAdYAY5maP-1a45uk6qn9OswRg15vYksr3rPQ30My2aRgNLkLqS1z6bpnigM3YTUEDvdAfXShYs-_P5jAg6BasO38UNzBPgdRTtiz",
+          "title": "aiseo.ai"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **AISEO Art** at the domain **art.aiseo.ai** is **AISEO, Inc.** (operating under the brand **AISEO**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2myjY-fobgQJ0T_DErinI_3xjjapMB28vx4yqol3BPUeDrFVS-GAoKsvp9CjGAusWtyYI-HTQXggepctFNT1wVXkKFONGikkabxeU",
+          "title": "aiseo.ai"
+        },
+        {
+          "id": 2,
+          "text": "The vendor directly providing **AISEO Art** at the domain **art.aiseo.ai** is **AISEO, Inc.** (operating under the brand **AISEO**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEeg5zhTiLq0oGSv24eWUnvBPOp9O0gIYOVMDXtysTwcA1ZsQdgD8TwB5W9W7LXO7bB-bQUey3F8dlyUK1uOmaKWRGkVDaEsazjHQ=",
+          "title": "aiseo.ai"
+        },
+        {
+          "id": 3,
+          "text": "The vendor directly providing **AISEO Art** at the domain **art.aiseo.ai** is **AISEO, Inc.** (operating under the brand **AISEO**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnyi0bK7g1didGuLYDSG1dGeG-8hav4aRC3PbYEt2beV6bWy_TqueF78p2uRhGw9RwlAxYHqu29ehO_0-VH41IMCGSWKli4kHhpxVm",
+          "title": "aiseo.ai"
+        },
+        {
+          "id": 4,
+          "text": "**Product & Domain:** **AISEO Art** (`art.aiseo.ai`), an AI artwork and image generator tool hosted as part of the AISEO suite",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHR09ThI-cwgxqjLrkAeka82Mk_knXgl9pIFyTE8CQVvS2SVfapGjBfiMKU6H2hKpX66y4uV9_GOG_403btnXytkXkEjTnA2GHmV4M8VUn94CBwbVf5SBXo9RXOQMoQYQO-iz_7TR2NIQ-F2HmgtWz7KnkGRdDtrGCT2g==",
+          "title": "aiseo.ai"
+        },
+        {
+          "id": 5,
+          "text": "**Product & Domain:** **AISEO Art** (`art.aiseo.ai`), an AI artwork and image generator tool hosted as part of the AISEO suite",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVVJDA1YJd5-cofHL64LrvNbR3V5wnZe9yUJI_XKCvIxaONnOkoNDEcsdKSqyYXk7YXOwRAmrYwG0v7nAKaD_uvFYhS3aFymjMP47QOsAz2MUMVLk_3dmPfXXktwsTorho3-_mOgjEy1AtsCLfP0g=",
+          "title": "aiseo.ai"
+        },
+        {
+          "id": 6,
+          "text": "**Product & Domain:** **AISEO Art** (`art.aiseo.ai`), an AI artwork and image generator tool hosted as part of the AISEO suite",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeiIJb2knzi3_x7Mt3TAs7ukwdSHn4DnxLBvNikZIjwWCL3axNNJRO79CPKtBA5PCzIv_FKkWMttJmW-YZC017FsC0Z-QWiaPgouEUNHaW53Y4eJRyuhG2O2rSIe2eulhJHAi4Lsl2ndBr5xfIV78=",
+          "title": "aiseo.ai"
+        },
+        {
+          "id": 7,
+          "text": "ll rights reserved.\"* and directs customer support inquiries to `support@aiseo.ai`.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8yHT0iRJfAdYAY5maP-1a45uk6qn9OswRg15vYksr3rPQ30My2aRgNLkLqS1z6bpnigM3YTUEDvdAfXShYs-_P5jAg6BasO38UNzBPgdRTtiz",
+          "title": "aiseo.ai"
+        },
+        {
+          "id": 8,
+          "text": "ll rights reserved.\"* and directs customer support inquiries to `support@aiseo.ai`.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8yHT0iRJfAdYAY5maP-1a45uk6qn9OswRg15vYksr3rPQ30My2aRgNLkLqS1z6bpnigM3YTUEDvdAfXShYs-_P5jAg6BasO38UNzBPgdRTtiz",
+          "title": "aiseo.ai"
+        },
+        {
+          "id": 9,
+          "text": "*Company / Legal Entity:** The official Terms & Conditions governing the platform define the operating entity: *\"This includes emails, support tickets, and any other form of interaction with AISEO, Inc.\"* and state that *\"AISEO.ai and its original content, features, and functionality are and will remain the exclusive property of AISEO and its licensors\"*.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEeg5zhTiLq0oGSv24eWUnvBPOp9O0gIYOVMDXtysTwcA1ZsQdgD8TwB5W9W7LXO7bB-bQUey3F8dlyUK1uOmaKWRGkVDaEsazjHQ=",
+          "title": "aiseo.ai"
+        },
+        {
+          "id": 10,
+          "text": "*Company / Legal Entity:** The official Terms & Conditions governing the platform define the operating entity: *\"This includes emails, support tickets, and any other form of interaction with AISEO, Inc.\"* and state that *\"AISEO.ai and its original content, features, and functionality are and will remain the exclusive property of AISEO and its licensors\"*.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnyi0bK7g1didGuLYDSG1dGeG-8hav4aRC3PbYEt2beV6bWy_TqueF78p2uRhGw9RwlAxYHqu29ehO_0-VH41IMCGSWKli4kHhpxVm",
+          "title": "aiseo.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "AISEO, Inc.",
+        "evidence": "Passage 0 directly states that the vendor directly providing AISEO Art at the domain art.aiseo.ai is AISEO, Inc. (operating under the brand AISEO).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **AISEO Art** at the domain **art.aiseo.ai** is **AISEO, Inc.** (operating under the brand **AISEO**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8yHT0iRJfAdYAY5maP-1a45uk6qn9OswRg15vYksr3rPQ30My2aRgNLkLqS1z6bpnigM3YTUEDvdAfXShYs-_P5jAg6BasO38UNzBPgdRTtiz",
+          "title": "aiseo.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "AISEO Art",
+    "domain": "art.aiseo.ai",
+    "description": "Generated artwork for artists and designers"
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "AISEO, Inc.",
+  "evidence": "Passage 0 directly states that the vendor directly providing AISEO Art at the domain art.aiseo.ai is AISEO, Inc. (operating under the brand AISEO).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **AISEO Art** at the domain **art.aiseo.ai** is **AISEO, Inc.** (operating under the brand **AISEO**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8yHT0iRJfAdYAY5maP-1a45uk6qn9OswRg15vYksr3rPQ30My2aRgNLkLqS1z6bpnigM3YTUEDvdAfXShYs-_P5jAg6BasO38UNzBPgdRTtiz",
+    "title": "aiseo.ai"
+  },
+  "checked_at": "2026-11-05T06:45:05.018561+00:00"
+}

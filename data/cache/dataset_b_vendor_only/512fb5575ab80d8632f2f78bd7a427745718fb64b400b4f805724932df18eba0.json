@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the product at **swantide.com** (including its **Swantide AI Assistant** / Salesforce AI agents) is **Swantide, Inc.**\n\n* **Provider Statement / Evidence:** Across the official pages of the `swantide.com` domain (such as the home, product, security, and about pages), the operating entity is identified in the legal copyright notice: *“© 2026 Swantide, Inc. All rights reserved.”*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the product at **swantide.com** (including its **Swantide AI Assistant** / Salesforce AI agents) is **Swantide, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4frkU4JJ6MrHHBKSrNX8rTm2iXygIkcq7ql8GHH98RPIqgY2rzxCUrnWhotPgIwOPEe5QbGSWoJCcnCvUip25vAaF59x_uyJytU-t2FZdhUoC",
+          "title": "swantide.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the product at **swantide.com** (including its **Swantide AI Assistant** / Salesforce AI agents) is **Swantide, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH446-1gPyEEgZHfgEXK4m33J2BcmxPbSDZ21I1FOXgnHMj303uTdJ411hqP1lBOS3NhA8vB7Hm5AxlEmUGcupewQqsNq6-qvdFBOJJopXyIQ==",
+          "title": "swantide.com"
+        },
+        {
+          "id": 2,
+          "text": "The vendor directly providing the product at **swantide.com** (including its **Swantide AI Assistant** / Salesforce AI agents) is **Swantide, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoS8gfw4N2_YHkUkcGpR5q6dU6DtYK6-BXKrXzZ-NbnsmlWiDRczvgeeWBwgGEmT8i4_NXU8h8OszZKYv8eUwtDMrkTChQv2yWmcUJ3CosjdjnRNBAxPU8LpHIXFlEz9ANFjj4Qsgmtyla4CZwEvhG3LIP8ygm1aohTq-GHX8aypVKeIalsuv0Ejm2UWkgk9Q8vh7Sr5BZvQ==",
+          "title": "sec.gov"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Swantide, Inc.",
+        "evidence": "Passage 0 states that the vendor directly providing the product at swantide.com (including its Swantide AI Assistant) is Swantide, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the product at **swantide.com** (including its **Swantide AI Assistant** / Salesforce AI agents) is **Swantide, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4frkU4JJ6MrHHBKSrNX8rTm2iXygIkcq7ql8GHH98RPIqgY2rzxCUrnWhotPgIwOPEe5QbGSWoJCcnCvUip25vAaF59x_uyJytU-t2FZdhUoC",
+          "title": "swantide.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Swantide AI Assistant",
+    "domain": "swantide.com",
+    "description": "Swantide AI Assistant is an AI-powered tool designed for RevOps teams. It automates tasks, provides data insights, and answers questions about revenue operations using natural language, integrating with existing tech stacks."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Swantide, Inc.",
+  "evidence": "Passage 0 states that the vendor directly providing the product at swantide.com (including its Swantide AI Assistant) is Swantide, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the product at **swantide.com** (including its **Swantide AI Assistant** / Salesforce AI agents) is **Swantide, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4frkU4JJ6MrHHBKSrNX8rTm2iXygIkcq7ql8GHH98RPIqgY2rzxCUrnWhotPgIwOPEe5QbGSWoJCcnCvUip25vAaF59x_uyJytU-t2FZdhUoC",
+    "title": "swantide.com"
+  },
+  "checked_at": "2026-11-05T06:32:16.509191+00:00"
+}

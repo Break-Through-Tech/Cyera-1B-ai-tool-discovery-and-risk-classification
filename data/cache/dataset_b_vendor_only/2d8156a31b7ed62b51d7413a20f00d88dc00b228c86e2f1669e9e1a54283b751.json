@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Splunk Enterprise** at **splunk.com** is **Splunk LLC** (formerly Splunk Inc., operating as a Cisco subsidiary).\n\n### Evidence and Provider Statement\n* **Splunk Software License Agreement** (governing the download, licensing, and installation of Splunk software, including Splunk Enterprise):\n  > *\"As used in this Agreement, “Splunk,” refers to Splunk LLC, a Delaware corporation, with its principal place of business at 3098 Olsen Drive, San Jose, California 95128, U.S.A.\"*\n\n* **Splunk Websites Terms and Conditions of Use**:\n  > *\"Splunk LLC, a Delaware corporation with an office at 3098 Olsen Drive, San Jose, California 95128, and its affiliates and subsidiaries (collectively, “Splunk”) makes information, products, and services available on this website (the “Site”)...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Splunk Enterprise** at **splunk.com** is **Splunk LLC** (formerly Splunk Inc., operating as a Cisco subsidiary)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0UWXJzw8IAeSfKqyIv3RaPyDjzA1n-_HzXqYV6K3o-g6UqiqpfL_0voIaVnOYABBsTOok89OVuh2eogWv6TYyWUxavTQY_U9_8JNFeXRXBUsKhEcrOfUYtauxMEBR0jtUoqiStn9V_7_aavTziYUmlxN-VrVq93o7J2z9OA79X87MyU1x64Wp2yZ36tof31Qu9wI5uZMuSvoX8UWVno8osh1S",
+          "title": "splunk.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Splunk Enterprise** at **splunk.com** is **Splunk LLC** (formerly Splunk Inc., operating as a Cisco subsidiary)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH38_r17JvHeaZeEt67Bv-rlLxMjW6tpRsu2_e92-zpzdywHfhM0OW--J69Fav0CHL33uTFXjHSClUsq_PZRMj-ps9KhEKwzcR_GrRqSPd691QXXw2pvpEpA02TOliO5xKMFF6SnCHgqQwQHDuQNDr5szV653o2nRY_XEI9UC0RLs-0",
+          "title": "splunk.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"As used in this Agreement, “Splunk,” refers to Splunk LLC, a Delaware corporation, with its principal place of business at 3098 Olsen Drive, San Jose, California 95128, U.S.A.\"*\n\n* ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH38_r17JvHeaZeEt67Bv-rlLxMjW6tpRsu2_e92-zpzdywHfhM0OW--J69Fav0CHL33uTFXjHSClUsq_PZRMj-ps9KhEKwzcR_GrRqSPd691QXXw2pvpEpA02TOliO5xKMFF6SnCHgqQwQHDuQNDr5szV653o2nRY_XEI9UC0RLs-0",
+          "title": "splunk.com"
+        },
+        {
+          "id": 3,
+          "text": "*\"As used in this Agreement, “Splunk,” refers to Splunk LLC, a Delaware corporation, with its principal place of business at 3098 Olsen Drive, San Jose, California 95128, U.S.A.\"*\n\n* ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEokO1UmdzugayVfVT5ZmzlZ5m1WdrI6VDH0iupdGrtqfuBWX9vY998fd122Py5pHkZW-S9CxNLyezJoeGluWYjfBy5-C7jhM_Wje9meuH68zv01r8jXhcPteErqWgLRxLzyhnpPHOgePlFnI6m55YiDiUovmJDZd_JIlSj9J5-lkbdWQ==",
+          "title": "splunk.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Splunk LLC",
+        "evidence": "Passage 0 directly states that the vendor providing Splunk Enterprise at splunk.com is Splunk LLC.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Splunk Enterprise** at **splunk.com** is **Splunk LLC** (formerly Splunk Inc., operating as a Cisco subsidiary)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0UWXJzw8IAeSfKqyIv3RaPyDjzA1n-_HzXqYV6K3o-g6UqiqpfL_0voIaVnOYABBsTOok89OVuh2eogWv6TYyWUxavTQY_U9_8JNFeXRXBUsKhEcrOfUYtauxMEBR0jtUoqiStn9V_7_aavTziYUmlxN-VrVq93o7J2z9OA79X87MyU1x64Wp2yZ36tof31Qu9wI5uZMuSvoX8UWVno8osh1S",
+          "title": "splunk.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Splunk Enterprise",
+    "domain": "splunk.com",
+    "description": "A platform for searching, monitoring, and analyzing machine-generated log and operational data."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Splunk LLC",
+  "evidence": "Passage 0 directly states that the vendor providing Splunk Enterprise at splunk.com is Splunk LLC.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Splunk Enterprise** at **splunk.com** is **Splunk LLC** (formerly Splunk Inc., operating as a Cisco subsidiary)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0UWXJzw8IAeSfKqyIv3RaPyDjzA1n-_HzXqYV6K3o-g6UqiqpfL_0voIaVnOYABBsTOok89OVuh2eogWv6TYyWUxavTQY_U9_8JNFeXRXBUsKhEcrOfUYtauxMEBR0jtUoqiStn9V_7_aavTziYUmlxN-VrVq93o7J2z9OA79X87MyU1x64Wp2yZ36tof31Qu9wI5uZMuSvoX8UWVno8osh1S",
+    "title": "splunk.com"
+  },
+  "checked_at": "2026-11-05T08:01:02.494300+00:00"
+}

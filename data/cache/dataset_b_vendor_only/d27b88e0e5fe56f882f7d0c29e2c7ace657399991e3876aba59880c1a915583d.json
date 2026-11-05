@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The exact software product **Prompteasy** at the domain **prompteasy.ai** (described as a tool to \"Fine-tune GPT in less than 10 minutes\" by creating datasets through AI chat) was created and provided by independent developer **Marius Manolachi**. \n\n### Evidence\n* On Product Hunt, Marius Manolachi is credited as the maker/developer of `prompteasy.ai`, stating: *\"I made prompteasy to streamline LLM fine-tuning... We take care of building the dataset ready for fine-tuning. You just chat with the AI, download the dataset, and fine-tune gpt.\"*\n* His developer portfolio lists **PromptEasy** as his project (\"A platform revolutionizing AI dataset creation\") linked to its launch on Product Hunt.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The exact software product **Prompteasy** at the domain **prompteasy.ai** (described as a tool to \"Fine-tune GPT in less than 10 minutes\" by creating datasets through AI chat) was created and provided by independent developer **Marius Manolachi**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsgtDwKdjI20WfhExF697aBhAFtc-oCfLo7SBJCqgK3E0Ec6BjjbUW6jll39kZjBSj60ecC1PJFvyT8o1HXnUPutJpAgY4Kvpu1LxQZ6U5VqyQUWBNX2KC91mCHfws9tUNo7bNSa7lbA==",
+          "title": "producthunt.com"
+        },
+        {
+          "id": 1,
+          "text": "The exact software product **Prompteasy** at the domain **prompteasy.ai** (described as a tool to \"Fine-tune GPT in less than 10 minutes\" by creating datasets through AI chat) was created and provided by independent developer **Marius Manolachi**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrqiNZDliLYxTyCjDgW4-Sd3KGtY8yrlAV8braokSge5b8jTmxRu7LxbkAU9NblipubcGvg-_G0WkiTq_i_74YF30otr92bvWgrLDbJgEW3h6Jugq6XPn_Thxg_CaqVMoLaneaBHY=",
+          "title": "toolify.ai"
+        },
+        {
+          "id": 2,
+          "text": "You just chat with the AI, download the dataset, and fine-tune gpt.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsgtDwKdjI20WfhExF697aBhAFtc-oCfLo7SBJCqgK3E0Ec6BjjbUW6jll39kZjBSj60ecC1PJFvyT8o1HXnUPutJpAgY4Kvpu1LxQZ6U5VqyQUWBNX2KC91mCHfws9tUNo7bNSa7lbA==",
+          "title": "producthunt.com"
+        },
+        {
+          "id": 3,
+          "text": "His developer portfolio lists **PromptEasy** as his project (\"A platform revolutionizing AI dataset creation\") linked to its launch on Product Hunt",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFobuQo91mL-hHhpU1orjj1uJMC4AfPsYf-u1XJIyekXkRlpnRP9rGAXlrRreCYjKucSJ_c-nb5UnZYUPuSD96iy3QPNx19HfiC7XnFWv_C8a7wL7tSpPzjW1MAgg6L",
+          "title": "mariusmanolachi.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Marius Manolachi",
+        "evidence": "Passage 0 explicitly states that the software product Prompteasy at prompteasy.ai was created and provided by independent developer Marius Manolachi.",
+        "source": {
+          "id": 0,
+          "text": "The exact software product **Prompteasy** at the domain **prompteasy.ai** (described as a tool to \"Fine-tune GPT in less than 10 minutes\" by creating datasets through AI chat) was created and provided by independent developer **Marius Manolachi**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsgtDwKdjI20WfhExF697aBhAFtc-oCfLo7SBJCqgK3E0Ec6BjjbUW6jll39kZjBSj60ecC1PJFvyT8o1HXnUPutJpAgY4Kvpu1LxQZ6U5VqyQUWBNX2KC91mCHfws9tUNo7bNSa7lbA==",
+          "title": "producthunt.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Prompteasy",
+    "domain": "prompteasy.ai",
+    "description": "Fine-tune GPT in less than 10 minutes."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Marius Manolachi",
+  "evidence": "Passage 0 explicitly states that the software product Prompteasy at prompteasy.ai was created and provided by independent developer Marius Manolachi.",
+  "source": {
+    "id": 0,
+    "text": "The exact software product **Prompteasy** at the domain **prompteasy.ai** (described as a tool to \"Fine-tune GPT in less than 10 minutes\" by creating datasets through AI chat) was created and provided by independent developer **Marius Manolachi**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsgtDwKdjI20WfhExF697aBhAFtc-oCfLo7SBJCqgK3E0Ec6BjjbUW6jll39kZjBSj60ecC1PJFvyT8o1HXnUPutJpAgY4Kvpu1LxQZ6U5VqyQUWBNX2KC91mCHfws9tUNo7bNSa7lbA==",
+    "title": "producthunt.com"
+  },
+  "checked_at": "2026-11-05T07:52:37.354714+00:00"
+}

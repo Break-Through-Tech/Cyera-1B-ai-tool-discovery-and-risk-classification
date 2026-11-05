@@ -1,0 +1,43 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Proton VPN** at **`protonvpn.com`** is **Proton AG**.\n\n### Evidence\nAccording to the **Terms of Service** governing the `protonvpn.com` website and its services:\n> *\"By using the proton.me or protonvpn.com websites, making use of a Proton Account (the “Account”) and all its related features or otherwise using our services (with or without an Account) Proton Mail, Proton Calendar, Proton Drive, Proton VPN and Proton Pass... The Services are operated by Proton AG (“We”, the “Company”), a Swiss company located at Route de la Galaise 32, 1228 Plan-les-Ouates, Geneva, Switzerland...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Proton VPN** at **`protonvpn.com`** is **Proton AG**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOjpCVPsVf1dPNsHV9bVYBgvL1Fdg3J0jj0flzCYsEDH2bPEb0jw1WqOwBK9YKBCRGjBQ47toNuJQ3P3I97KNkSCGcIqOh7MW-irhNcs3FBnQotw==",
+          "title": "proton.me"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Proton AG",
+        "evidence": "Passage 0 directly states that the vendor directly providing Proton VPN at protonvpn.com is Proton AG.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Proton VPN** at **`protonvpn.com`** is **Proton AG**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOjpCVPsVf1dPNsHV9bVYBgvL1Fdg3J0jj0flzCYsEDH2bPEb0jw1WqOwBK9YKBCRGjBQ47toNuJQ3P3I97KNkSCGcIqOh7MW-irhNcs3FBnQotw==",
+          "title": "proton.me"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Proton VPN",
+    "domain": "protonvpn.com",
+    "description": "ProtonVPN is a free VPN service that prioritizes user security and privacy. Developed by scientists from CERN and MIT, it allows users to browse the internet anonymously, unblock restricted websites, and encrypt their internet connection to enhance privacy."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Proton AG",
+  "evidence": "Passage 0 directly states that the vendor directly providing Proton VPN at protonvpn.com is Proton AG.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Proton VPN** at **`protonvpn.com`** is **Proton AG**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOjpCVPsVf1dPNsHV9bVYBgvL1Fdg3J0jj0flzCYsEDH2bPEb0jw1WqOwBK9YKBCRGjBQ47toNuJQ3P3I97KNkSCGcIqOh7MW-irhNcs3FBnQotw==",
+    "title": "proton.me"
+  },
+  "checked_at": "2026-11-05T08:32:43.506578+00:00"
+}

@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on public listings and code repositories for **Foxus AI** hosted at **`foxus-ai.onrender.com`**, there is no registered corporate operating company; the software is an independently developed web application. \n\nThe published developers associated with the product are:\n* **Rahul Panchal** – identified as the developer who authored the open-source frontend codebase in the GitHub repository `rahulpanchal0106/Foxus-AI-FrontEnd` (*\"Frontend for Foxus-AI. AI generated Focused Learning Sessions\"*).\n* **Ramit Koul** – identified as the maker on the AI tool platform AINave for `foxus-ai.onrender.com` (*\"Verified by its maker: Ramit Koul claimed this listing and verified it with AINave, so the details here come from the team behind Foxus AI\"*).\n\n*(Note: Render / `onrender.com` is solely the cloud hosting platform and not the product provider).*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "Based on public listings and code repositories for **Foxus AI** hosted at **`foxus-ai.onrender.com`**, there is no registered corporate operating company; the software is an independently developed web application",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmqa7118cjF3T7oYF5NsWPv1lngichkhqmUetwlGlV7hdG4LZWpF3zaVIRQoAwXAlr2bUYb1_mI0_LhFwQwsekBe-dW0JDI7OQeEJtx1Hkk7KHoWaDfWP1B7g=",
+          "title": "ainave.com"
+        },
+        {
+          "id": 1,
+          "text": "Based on public listings and code repositories for **Foxus AI** hosted at **`foxus-ai.onrender.com`**, there is no registered corporate operating company; the software is an independently developed web application",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDm0XJffvhsGFvapqMrdkOyBkz84T65Pil5n6YRQuY-Ep9qnrgLj1a8H9zpLk_hcdwJsqEpdvC77WrdusQ0PcGvfoxO9J0Cq-EckM1fFl1_V3FE7g1U8L1",
+          "title": "github.com"
+        },
+        {
+          "id": 2,
+          "text": "Based on public listings and code repositories for **Foxus AI** hosted at **`foxus-ai.onrender.com`**, there is no registered corporate operating company; the software is an independently developed web application",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEuqjGtJ1xPSP9lfF3t4L2Q6x0jl8aheFlUFu1LTKWhyYQUFO29RFNJXAqjNh0Cye7ScWpy3eCLR_0Ml2MhEE8nnD_GwhUhqUUwiK81_vWRoDich42FMe_OoSVPAuYmAvzEc7lNi4FpDSlebBVuliTPYbk3LOBh70lhoNwwlG_eCsgXBDnLcbAnemDORSuTUIkYaSTi7c0H_-xsDOB_pA=",
+          "title": "reddit.com"
+        },
+        {
+          "id": 3,
+          "text": " generated Focused Learning Sessions\"*).\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDm0XJffvhsGFvapqMrdkOyBkz84T65Pil5n6YRQuY-Ep9qnrgLj1a8H9zpLk_hcdwJsqEpdvC77WrdusQ0PcGvfoxO9J0Cq-EckM1fFl1_V3FE7g1U8L1",
+          "title": "github.com"
+        },
+        {
+          "id": 4,
+          "text": " generated Focused Learning Sessions\"*).\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdMnelp38Oxd2QiFQKwntW5SHE3sUUwbu-o1jHHAXt5qkMOLiDLCkaSd0XDBDAY8OCtq8o45_3hLoz8feiu-6trMsXS28cT1QZyR8T3BznTOx0nK_NQV3lRw==",
+          "title": "github.com"
+        },
+        {
+          "id": 5,
+          "text": "Ramit Koul** – identified as the maker on the AI tool platform AINave for `foxus-ai.onrender.com` (*\"Verified by its maker: Ramit Koul claimed this listing and verified it with AINave, so the details here come from the team behind Foxus AI\"*).\n\n*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmqa7118cjF3T7oYF5NsWPv1lngichkhqmUetwlGlV7hdG4LZWpF3zaVIRQoAwXAlr2bUYb1_mI0_LhFwQwsekBe-dW0JDI7OQeEJtx1Hkk7KHoWaDfWP1B7g=",
+          "title": "ainave.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Ramit Koul",
+        "evidence": "Passage 5 states that Ramit Koul is identified as the maker who claimed and verified the listing for foxus-ai.onrender.com on AINave, representing the team behind Foxus AI.",
+        "source": {
+          "id": 5,
+          "text": "Ramit Koul** – identified as the maker on the AI tool platform AINave for `foxus-ai.onrender.com` (*\"Verified by its maker: Ramit Koul claimed this listing and verified it with AINave, so the details here come from the team behind Foxus AI\"*).\n\n*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmqa7118cjF3T7oYF5NsWPv1lngichkhqmUetwlGlV7hdG4LZWpF3zaVIRQoAwXAlr2bUYb1_mI0_LhFwQwsekBe-dW0JDI7OQeEJtx1Hkk7KHoWaDfWP1B7g=",
+          "title": "ainave.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Foxus AI",
+    "domain": "foxus-ai.onrender.com",
+    "description": "Foxus AI is a powerful content generation tool designed to quickly create high-quality, plagiarism-free text for various purposes like articles, blog posts, and social media. It offers SEO optimization and multilingual support."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Ramit Koul",
+  "evidence": "Passage 5 states that Ramit Koul is identified as the maker who claimed and verified the listing for foxus-ai.onrender.com on AINave, representing the team behind Foxus AI.",
+  "source": {
+    "id": 5,
+    "text": "Ramit Koul** – identified as the maker on the AI tool platform AINave for `foxus-ai.onrender.com` (*\"Verified by its maker: Ramit Koul claimed this listing and verified it with AINave, so the details here come from the team behind Foxus AI\"*).\n\n*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmqa7118cjF3T7oYF5NsWPv1lngichkhqmUetwlGlV7hdG4LZWpF3zaVIRQoAwXAlr2bUYb1_mI0_LhFwQwsekBe-dW0JDI7OQeEJtx1Hkk7KHoWaDfWP1B7g=",
+    "title": "ainave.com"
+  },
+  "checked_at": "2026-11-05T06:21:55.666654+00:00"
+}

@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **CitizenPortal** at **citizenportal.ai** is directly provided by **Citizen Portal, Inc.**\n\n### Evidence:\n* According to the official Privacy Policy on **citizenportal.ai**: \n  > *\"This Privacy Policy describes how Citizen Portal, Inc. ('we,' 'us' or 'our') collects, uses, and shares information about you and the choices you have regarding this information. This Privacy Policy applies to the information we collect when you access or use our products, services, and technology platforms (including, without limitation, our website(s), mobile applications, and other Citizen Portal-controlled properties that link to this Privacy Policy)...\"*\n* Official company filings also register **Citizen Portal Inc.** with the domain `https://www.citizenportal.ai/`.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **CitizenPortal** at **citizenportal.ai** is directly provided by **Citizen Portal, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHI2sqTwJvoxJbmutgOEZ1aSjQpmonWffS5mK0tTLlsDKhGdXOMn-S2epH2Cp1u_VXNPevVMiNxJE9sWLFz9MiChx2lEd7ijilldDlLmRGh0GRlLNi-pg==",
+          "title": "citizenportal.ai"
+        },
+        {
+          "id": 1,
+          "text": "The software product **CitizenPortal** at **citizenportal.ai** is directly provided by **Citizen Portal, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFc09O3AeNz-uWt34dLnUKKQhRgcAFSBtRV4P4-WXdzuxd7jGLbaVcZSwFxnIUbhXigq-8heHj3QM4pIXRQ5NGstu4lFIE1tG0UNBr_rZYAtkuqX1KP-nljiiDIHf2e9t4zpsnSRKHNfeXuwPduDo3fZ_k8NrG0iayh_lpMUIaaL4ssBlT-d9SD7cKFcCw4",
+          "title": "sec.gov"
+        },
+        {
+          "id": 2,
+          "text": "This Privacy Policy applies to the information we collect when you access or use our products, services, and technology platforms (including, without limitation, our website(s), mobile applications, and other Citizen Portal-controlled properties that link to this Privacy Policy)...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHI2sqTwJvoxJbmutgOEZ1aSjQpmonWffS5mK0tTLlsDKhGdXOMn-S2epH2Cp1u_VXNPevVMiNxJE9sWLFz9MiChx2lEd7ijilldDlLmRGh0GRlLNi-pg==",
+          "title": "citizenportal.ai"
+        },
+        {
+          "id": 3,
+          "text": "Official company filings also register **Citizen Portal Inc.** with the domain `https://www.citizenportal.ai/`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFc09O3AeNz-uWt34dLnUKKQhRgcAFSBtRV4P4-WXdzuxd7jGLbaVcZSwFxnIUbhXigq-8heHj3QM4pIXRQ5NGstu4lFIE1tG0UNBr_rZYAtkuqX1KP-nljiiDIHf2e9t4zpsnSRKHNfeXuwPduDo3fZ_k8NrG0iayh_lpMUIaaL4ssBlT-d9SD7cKFcCw4",
+          "title": "sec.gov"
+        },
+        {
+          "id": 4,
+          "text": "we,' 'us' or 'our') collects, uses, and shares information about you and the choices you have regarding this information. This Privacy Policy applies to the information we collect when you access or use our products, services, ",
+          "url": "https://www.platohq.com/privacy-policy",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Citizen Portal, Inc.",
+        "evidence": "The software product CitizenPortal at citizenportal.ai is directly provided by Citizen Portal, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The software product **CitizenPortal** at **citizenportal.ai** is directly provided by **Citizen Portal, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHI2sqTwJvoxJbmutgOEZ1aSjQpmonWffS5mK0tTLlsDKhGdXOMn-S2epH2Cp1u_VXNPevVMiNxJE9sWLFz9MiChx2lEd7ijilldDlLmRGh0GRlLNi-pg==",
+          "title": "citizenportal.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "CitizenPortal",
+    "domain": "citizenportal.ai",
+    "description": "Search every word spoken by your elected leaders."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Citizen Portal, Inc.",
+  "evidence": "The software product CitizenPortal at citizenportal.ai is directly provided by Citizen Portal, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The software product **CitizenPortal** at **citizenportal.ai** is directly provided by **Citizen Portal, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHI2sqTwJvoxJbmutgOEZ1aSjQpmonWffS5mK0tTLlsDKhGdXOMn-S2epH2Cp1u_VXNPevVMiNxJE9sWLFz9MiChx2lEd7ijilldDlLmRGh0GRlLNi-pg==",
+    "title": "citizenportal.ai"
+  },
+  "checked_at": "2026-11-05T05:39:32.379909+00:00"
+}

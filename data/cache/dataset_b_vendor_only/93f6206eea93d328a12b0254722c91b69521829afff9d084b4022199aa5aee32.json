@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **Zendesk** software products and services at **zendesk.com** is **Zendesk, Inc.**\n\n### Evidence:\n* **Terms of Use (`zendesk.com`):**  \n  > *\"Zendesk, Inc., ('Zendesk') and its subsidiaries, (collectively, the 'Zendesk Group' or 'we' or 'us' or 'our') have updated terms that apply to the use of our Websites... For the purposes of these Terms of Use, the term, 'Websites', shall refer collectively to www.zendesk.com as well as the other websites that the Zendesk Group operates...\"*\n* **Privacy Notice (`zendesk.com`):**  \n  > *\"This Notice applies to Zendesk, Inc. and its relevant Affiliates... ('Zendesk,' 'us,' 'we,' or 'our').\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **Zendesk** software products and services at **zendesk.com** is **Zendesk, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFe_GW8jqYbBM5Msyy78WwltVeYIF2dYhm_QphBSAAbCbA4ZzyW4prb8_7J5PBNukPe6DnbqILLMghwsAL5eDVgjLfiHPFW5eJE_jZZv2cG1meRc92d4OkT4cPtpf6LI9qilA26Gv3-lLUmDUn8S1jai_kCTSlhKZ0=",
+          "title": "zendesk.com"
+        },
+        {
+          "id": 1,
+          "text": "For the purposes of these Terms of Use, the term, 'Websites', shall refer collectively to www.zendesk.com as well as the other websites that the Zendesk Group operates...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFe_GW8jqYbBM5Msyy78WwltVeYIF2dYhm_QphBSAAbCbA4ZzyW4prb8_7J5PBNukPe6DnbqILLMghwsAL5eDVgjLfiHPFW5eJE_jZZv2cG1meRc92d4OkT4cPtpf6LI9qilA26Gv3-lLUmDUn8S1jai_kCTSlhKZ0=",
+          "title": "zendesk.com"
+        },
+        {
+          "id": 2,
+          "text": "('Zendesk,' 'us,' 'we,' or 'our').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESz8OPFDxUpQ84GDZQ15i6E2V5bVeCaMgEMph6TPIRn-gd-Dsw51aCXXZVx92Mjtagg-wG7W1t4tNkVoebRl0sCsk0IPSM3CShnfq5bjrjZW_8L1j-DWhSBvPOY1SXCR9f4x2hLS87fLP4ADg8FsLczIPMhZCPROo6OA==",
+          "title": "zendesk.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Zendesk, Inc.",
+        "evidence": "Passage 0 explicitly identifies Zendesk, Inc. as the vendor directly providing the Zendesk software products and services at zendesk.com.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the **Zendesk** software products and services at **zendesk.com** is **Zendesk, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFe_GW8jqYbBM5Msyy78WwltVeYIF2dYhm_QphBSAAbCbA4ZzyW4prb8_7J5PBNukPe6DnbqILLMghwsAL5eDVgjLfiHPFW5eJE_jZZv2cG1meRc92d4OkT4cPtpf6LI9qilA26Gv3-lLUmDUn8S1jai_kCTSlhKZ0=",
+          "title": "zendesk.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Zendesk",
+    "domain": "zendesk.com",
+    "description": "Zendesk is a leading customer experience software company founded in 2007, revolutionizing how businesses engage with customers online. With its headquarters in California and roots in Copenhagen, Zendesk provides a suite of products that facilitate communication across various channels, including chat, email, social media, and more, serving over 100,000 brands and connecting them with hundreds of millions of customers globally. The company emphasizes quality service and support through user-friendly tools designed to enhance customer interactions."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Zendesk, Inc.",
+  "evidence": "Passage 0 explicitly identifies Zendesk, Inc. as the vendor directly providing the Zendesk software products and services at zendesk.com.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the **Zendesk** software products and services at **zendesk.com** is **Zendesk, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFe_GW8jqYbBM5Msyy78WwltVeYIF2dYhm_QphBSAAbCbA4ZzyW4prb8_7J5PBNukPe6DnbqILLMghwsAL5eDVgjLfiHPFW5eJE_jZZv2cG1meRc92d4OkT4cPtpf6LI9qilA26Gv3-lLUmDUn8S1jai_kCTSlhKZ0=",
+    "title": "zendesk.com"
+  },
+  "checked_at": "2026-11-05T09:36:19.971643+00:00"
+}

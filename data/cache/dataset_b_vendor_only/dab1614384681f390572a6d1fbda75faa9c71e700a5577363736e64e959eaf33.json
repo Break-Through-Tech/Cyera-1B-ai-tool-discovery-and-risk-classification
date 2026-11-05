@@ -1,0 +1,91 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor and operating developer directly providing **AIChatting** at **aichatting.net** is **Wegital HK Limited** (also operating under the brand name **AIChatting**).\n\n### Evidence:\n* **Developer & Legal Entity Listings:** Official mobile app store listings for *AI Chatting - AI Chatbot* (which link directly to the domain `aichatting.net`, support email `contact@aichatting.net`, and legal pages `https://www.aichatting.net/privacy-policy.html` and `https://www.aichatting.net/terms-of-service.html`) identify the operating developer as **Wegital HK Limited**:\n  * *Google Play:* Developer listed as **Wegital HK Limited** (Address: *Rm F 6/F Mega Cube 8 Wang Kwong Rd, Kowloon Bay, Kowloon, Hong Kong*; Support contact: `contact@aichatting.net`).\n  * *Apple App Store:* Developer listed as **WEGITAL HK LIMITED**.\n* **Website Provider Brand:** The website footer at **aichatting.net** identifies the provider brand as **AIChatting** with copyright notices (e.g., *\"Copyright © Aichatting. All Rights Reserved.\"*) and contact email `contact@aichatting.net`.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor and operating developer directly providing **AIChatting** at **aichatting.net** is **Wegital HK Limited**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVLOFVtJkFqJC6Dq_cl-IBhHJo8wGrasuhgr48mINgju3Pvj6sRZk0N2XmaQhOOkAWFrymeE962Z5Cbz7uo6xYCGp5m6JF8GfKKSpnxmbSCWxfFB6NgUJhJWaGgVwgO1V9s9FkqmQp1uxgdIaeHZLhDF1Idk7UdxLsEtMmfCl9TA==",
+          "title": "google.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor and operating developer directly providing **AIChatting** at **aichatting.net** is **Wegital HK Limited**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdUA-5z_Y-hdYrJOWIr6km-khVARMaqb8Qa96rDbKNaxeI4Nc1ff_ZPlXupkGkbuJnH4aNluk7yuwHV_Kp68vn2r7J0Io5fj8afrobWCOClOyMFCORGRCd1Imhu_qF1ALvSTqbVGRa5c_syt6x9cBLz7Fzs6KblQ==",
+          "title": "apple.com"
+        },
+        {
+          "id": 2,
+          "text": "The vendor and operating developer directly providing **AIChatting** at **aichatting.net** is **Wegital HK Limited** (also operating under the brand name **AIChatting**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_3Ge6DVObBvdU5XbvVxC05IRMIqPMJjMx4i-u5RmHsa76Howu5VwmzJPwRAZO0e3gNqRWr-ZoNPjgH5-9rxORJ-31vlDY4wc4yN6bmjFZj7I=",
+          "title": "aichatting.net"
+        },
+        {
+          "id": 3,
+          "text": "The vendor and operating developer directly providing **AIChatting** at **aichatting.net** is **Wegital HK Limited** (also operating under the brand name **AIChatting**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUugToGU14aHEwzgv36c1RYWfaspdj-T_aSSCmVCgENYTWYxdWkW8rRPNF-GSf3MyF7AHX1a-JrlAGIlfjJ1BfctnUnqcinOhmYWJ_oVyWqT7o3FMbFdU=",
+          "title": "aichatting.net"
+        },
+        {
+          "id": 4,
+          "text": "**Developer & Legal Entity Listings:** Official mobile app store listings for *AI Chatting - AI Chatbot* (which link directly to the domain `aichatting.net`, support email `contact@aichatting.net`, and legal pages `https://www.aichatting.net/privacy-policy.html` and `https://www.aichatting.net/terms-of-service.html`) identify the operating developer as **Wegital HK Limited**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVLOFVtJkFqJC6Dq_cl-IBhHJo8wGrasuhgr48mINgju3Pvj6sRZk0N2XmaQhOOkAWFrymeE962Z5Cbz7uo6xYCGp5m6JF8GfKKSpnxmbSCWxfFB6NgUJhJWaGgVwgO1V9s9FkqmQp1uxgdIaeHZLhDF1Idk7UdxLsEtMmfCl9TA==",
+          "title": "google.com"
+        },
+        {
+          "id": 5,
+          "text": "**Developer & Legal Entity Listings:** Official mobile app store listings for *AI Chatting - AI Chatbot* (which link directly to the domain `aichatting.net`, support email `contact@aichatting.net`, and legal pages `https://www.aichatting.net/privacy-policy.html` and `https://www.aichatting.net/terms-of-service.html`) identify the operating developer as **Wegital HK Limited**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEyn3DHr1DYFxALlbob0p9y3YSbiibh6jxckOSScqQsn8L1X5iKF5sx0qBFOAnkwo0jrb8ufUveSV8Sk-aAW9skKF-5S717L7vjOWx7Fnj6lCbUzCA34qiaf8DjX9DxbAjZYp4tILr0AbUotPDTWRmNOrU-nLf4IA==",
+          "title": "apple.com"
+        },
+        {
+          "id": 6,
+          "text": "*Google Play:* Developer listed as **Wegital HK Limited** (Address: *Rm F 6/F Mega Cube 8 Wang Kwong Rd, Kowloon Bay, Kowloon, Hong Kong*; Support contact: `contact@aichatting.net`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVLOFVtJkFqJC6Dq_cl-IBhHJo8wGrasuhgr48mINgju3Pvj6sRZk0N2XmaQhOOkAWFrymeE962Z5Cbz7uo6xYCGp5m6JF8GfKKSpnxmbSCWxfFB6NgUJhJWaGgVwgO1V9s9FkqmQp1uxgdIaeHZLhDF1Idk7UdxLsEtMmfCl9TA==",
+          "title": "google.com"
+        },
+        {
+          "id": 7,
+          "text": "*Apple App Store:* Developer listed as **WEGITAL HK LIMITED**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdUA-5z_Y-hdYrJOWIr6km-khVARMaqb8Qa96rDbKNaxeI4Nc1ff_ZPlXupkGkbuJnH4aNluk7yuwHV_Kp68vn2r7J0Io5fj8afrobWCOClOyMFCORGRCd1Imhu_qF1ALvSTqbVGRa5c_syt6x9cBLz7Fzs6KblQ==",
+          "title": "apple.com"
+        },
+        {
+          "id": 8,
+          "text": "ll Rights Reserved.\"*) and contact email `contact@aichatting.net`.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUugToGU14aHEwzgv36c1RYWfaspdj-T_aSSCmVCgENYTWYxdWkW8rRPNF-GSf3MyF7AHX1a-JrlAGIlfjJ1BfctnUnqcinOhmYWJ_oVyWqT7o3FMbFdU=",
+          "title": "aichatting.net"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Wegital HK Limited",
+        "evidence": "Passage 0 explicitly identifies Wegital HK Limited as the vendor and operating developer directly providing AIChatting at aichatting.net.",
+        "source": {
+          "id": 0,
+          "text": "The vendor and operating developer directly providing **AIChatting** at **aichatting.net** is **Wegital HK Limited**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVLOFVtJkFqJC6Dq_cl-IBhHJo8wGrasuhgr48mINgju3Pvj6sRZk0N2XmaQhOOkAWFrymeE962Z5Cbz7uo6xYCGp5m6JF8GfKKSpnxmbSCWxfFB6NgUJhJWaGgVwgO1V9s9FkqmQp1uxgdIaeHZLhDF1Idk7UdxLsEtMmfCl9TA==",
+          "title": "google.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "AIChatting",
+    "domain": "aichatting.net",
+    "description": "Q&A and content generator."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Wegital HK Limited",
+  "evidence": "Passage 0 explicitly identifies Wegital HK Limited as the vendor and operating developer directly providing AIChatting at aichatting.net.",
+  "source": {
+    "id": 0,
+    "text": "The vendor and operating developer directly providing **AIChatting** at **aichatting.net** is **Wegital HK Limited**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVLOFVtJkFqJC6Dq_cl-IBhHJo8wGrasuhgr48mINgju3Pvj6sRZk0N2XmaQhOOkAWFrymeE962Z5Cbz7uo6xYCGp5m6JF8GfKKSpnxmbSCWxfFB6NgUJhJWaGgVwgO1V9s9FkqmQp1uxgdIaeHZLhDF1Idk7UdxLsEtMmfCl9TA==",
+    "title": "google.com"
+  },
+  "checked_at": "2026-11-05T05:55:55.237798+00:00"
+}

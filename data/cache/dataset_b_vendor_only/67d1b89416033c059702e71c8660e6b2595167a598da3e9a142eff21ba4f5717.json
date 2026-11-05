@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **Disqus** software product at **disqus.com** is **Disqus, Inc.** (a subsidiary of Zeta Global Corp.).\n\n### Evidence\n* **Product & Domain:** Disqus (`disqus.com` / `help.disqus.com`)\n* **Provider Statement:** According to Disqus's official Publisher Terms of Service Agreement, the agreement *\"is entered into by and between Disqus, Inc. (“Licensor”...)\"*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **Disqus** software product at **disqus.com** is **Disqus, Inc.** (a subsidiary of Zeta Global Corp.)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuUlXiWkIDgsRBnF4olEkklBtuFIZIAMn4lq01a0lsaXTsF-QKLEy1HFWGwEq-d7GHtV7-TrvjYVP_0b5vz5O1EGIIUCcZfwsRSdbgbvqJR4Cpvm2pxtcPUQ==",
+          "title": "wikipedia.org"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the **Disqus** software product at **disqus.com** is **Disqus, Inc.** (a subsidiary of Zeta Global Corp.)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEV8hvjgIRuncB7HBFJmzGzRBTtAYipOA15reFF_UnhGcpgSS6sfHxjpl8pnsvwtG-SoPcNg5kHKNkcpH8aZg3cCxEVUb_rm_tFDIxX7g==",
+          "title": "archive.vn"
+        },
+        {
+          "id": 2,
+          "text": "**Product & Domain:** Disqus (`disqus.com` / `help.disqus.com`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuUlXiWkIDgsRBnF4olEkklBtuFIZIAMn4lq01a0lsaXTsF-QKLEy1HFWGwEq-d7GHtV7-TrvjYVP_0b5vz5O1EGIIUCcZfwsRSdbgbvqJR4Cpvm2pxtcPUQ==",
+          "title": "wikipedia.org"
+        },
+        {
+          "id": 3,
+          "text": "**Product & Domain:** Disqus (`disqus.com` / `help.disqus.com`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEV8hvjgIRuncB7HBFJmzGzRBTtAYipOA15reFF_UnhGcpgSS6sfHxjpl8pnsvwtG-SoPcNg5kHKNkcpH8aZg3cCxEVUb_rm_tFDIxX7g==",
+          "title": "archive.vn"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Disqus, Inc.",
+        "evidence": "Passage 0 directly states that the vendor providing the Disqus software product at disqus.com is Disqus, Inc. (a subsidiary of Zeta Global Corp.).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the **Disqus** software product at **disqus.com** is **Disqus, Inc.** (a subsidiary of Zeta Global Corp.)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuUlXiWkIDgsRBnF4olEkklBtuFIZIAMn4lq01a0lsaXTsF-QKLEy1HFWGwEq-d7GHtV7-TrvjYVP_0b5vz5O1EGIIUCcZfwsRSdbgbvqJR4Cpvm2pxtcPUQ==",
+          "title": "wikipedia.org"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Disqus",
+    "domain": "disqus.com",
+    "description": "Disqus offers comment-hosting and user-engagement solutions tailored for websites and online communities, enabling enhanced interactions among users. Based in the USA, their platform is widely used for integrating comments and discussions into various web properties, fostering community engagement and enhancing content visibility."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Disqus, Inc.",
+  "evidence": "Passage 0 directly states that the vendor providing the Disqus software product at disqus.com is Disqus, Inc. (a subsidiary of Zeta Global Corp.).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the **Disqus** software product at **disqus.com** is **Disqus, Inc.** (a subsidiary of Zeta Global Corp.)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuUlXiWkIDgsRBnF4olEkklBtuFIZIAMn4lq01a0lsaXTsF-QKLEy1HFWGwEq-d7GHtV7-TrvjYVP_0b5vz5O1EGIIUCcZfwsRSdbgbvqJR4Cpvm2pxtcPUQ==",
+    "title": "wikipedia.org"
+  },
+  "checked_at": "2026-11-05T10:07:10.638973+00:00"
+}

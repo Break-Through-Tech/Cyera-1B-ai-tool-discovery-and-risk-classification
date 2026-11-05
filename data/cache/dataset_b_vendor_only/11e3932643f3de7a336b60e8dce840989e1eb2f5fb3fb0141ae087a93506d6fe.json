@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Nextcloud** at **nextcloud.com** is **Nextcloud GmbH**.\n\n### Provider Evidence\nAccording to the official Legal Notice (Impressum) on **nextcloud.com**:\n* **Legal Entity:** Nextcloud GmbH\n* **Managing Director:** Frank Karlitschek\n* **Legal Address:** Hauptmannsreute 44a, 70192 Stuttgart, Germany\n* **Commercial Register:** HRB 227086 (AG München)\n* **Website:** `https://nextcloud.com`",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Nextcloud** at **nextcloud.com** is **Nextcloud GmbH**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQED2PD8l6oOe3goSfKDYQVaKui1cczZ_nzgsV5RcXahAW8PGavFqYPOsvI4M3U4qu_Kykf_JWFdavSot-QK0llfwU0MFJZo4QN7UqxWdQZqSnWlHXCh",
+          "title": "nextcloud.com"
+        },
+        {
+          "id": 1,
+          "text": "**Legal Entity:** Nextcloud GmbH",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQED2PD8l6oOe3goSfKDYQVaKui1cczZ_nzgsV5RcXahAW8PGavFqYPOsvI4M3U4qu_Kykf_JWFdavSot-QK0llfwU0MFJZo4QN7UqxWdQZqSnWlHXCh",
+          "title": "nextcloud.com"
+        },
+        {
+          "id": 2,
+          "text": "**Managing Director:** Frank Karlitschek",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQED2PD8l6oOe3goSfKDYQVaKui1cczZ_nzgsV5RcXahAW8PGavFqYPOsvI4M3U4qu_Kykf_JWFdavSot-QK0llfwU0MFJZo4QN7UqxWdQZqSnWlHXCh",
+          "title": "nextcloud.com"
+        },
+        {
+          "id": 3,
+          "text": "**Legal Address:** Hauptmannsreute 44a, 70192 Stuttgart, Germany",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQED2PD8l6oOe3goSfKDYQVaKui1cczZ_nzgsV5RcXahAW8PGavFqYPOsvI4M3U4qu_Kykf_JWFdavSot-QK0llfwU0MFJZo4QN7UqxWdQZqSnWlHXCh",
+          "title": "nextcloud.com"
+        },
+        {
+          "id": 4,
+          "text": "**Commercial Register:** HRB 227086 (AG München)\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQED2PD8l6oOe3goSfKDYQVaKui1cczZ_nzgsV5RcXahAW8PGavFqYPOsvI4M3U4qu_Kykf_JWFdavSot-QK0llfwU0MFJZo4QN7UqxWdQZqSnWlHXCh",
+          "title": "nextcloud.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Nextcloud GmbH",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing Nextcloud at nextcloud.com is Nextcloud GmbH.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Nextcloud** at **nextcloud.com** is **Nextcloud GmbH**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQED2PD8l6oOe3goSfKDYQVaKui1cczZ_nzgsV5RcXahAW8PGavFqYPOsvI4M3U4qu_Kykf_JWFdavSot-QK0llfwU0MFJZo4QN7UqxWdQZqSnWlHXCh",
+          "title": "nextcloud.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Nextcloud",
+    "domain": "nextcloud.com",
+    "description": "Nextcloud is a comprehensive file sync and sharing platform that combines user-friendly features similar to Dropbox and Google Drive with robust security and privacy measures for businesses. It allows users to access and share documents seamlessly across various devices and integrates with existing IT infrastructures. In addition to file sharing, Nextcloud offers collaboration tools including calendar, contacts, email, and online office capabilities, supported by an extensive ecosystem of third-party apps. With an emphasis on security, Nextcloud provides advanced encryption, filing access controls, and ongoing security assessments, ensuring that private data remains protected."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Nextcloud GmbH",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing Nextcloud at nextcloud.com is Nextcloud GmbH.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Nextcloud** at **nextcloud.com** is **Nextcloud GmbH**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQED2PD8l6oOe3goSfKDYQVaKui1cczZ_nzgsV5RcXahAW8PGavFqYPOsvI4M3U4qu_Kykf_JWFdavSot-QK0llfwU0MFJZo4QN7UqxWdQZqSnWlHXCh",
+    "title": "nextcloud.com"
+  },
+  "checked_at": "2026-11-05T09:08:41.081588+00:00"
+}

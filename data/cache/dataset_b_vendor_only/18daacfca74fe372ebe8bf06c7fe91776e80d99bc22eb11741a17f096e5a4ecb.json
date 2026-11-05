@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product at **animoto.com** is **Animoto Inc.**\n\n### Provider Statement and Evidence\nAccording to the official **Animoto Privacy Policy** at **animoto.com**:\n> *\"This Privacy Policy for Animoto Inc. (“Animoto”, “we”, “us”, or “our”) describes how and why we might access, collect, store, use, and/or share (\"process\") your personal information when you (“User” or “you”) interact with us, including when you: (1) visit or interact with our website at https://Animoto.com...\"*\n\nAnimoto Inc. is also named as the service provider and legal entity in its Terms of Service and Copyright notices across the domain.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product at **animoto.com** is **Animoto Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFT8Xz3iv1Ph8YK2gnXLCu_ew0xs9vIHDeQ7zyARk9SoQnfMZCubLSVQEhiqnGtgOeKaRbjkcFzFIqkIyrCC0hzaE_4VBpHLFLOVaGuntOTPrejiFYiEiBTbw35oHdL",
+          "title": "animoto.com"
+        },
+        {
+          "id": 1,
+          "text": "*\"This Privacy Policy for Animoto Inc. (“Animoto”, “we”, “us”, or “our”) describes how and why we might access, collect, store, use, and/or share (\"process\") your personal information when you (“User” or “you”) interact with us, including when you: (1) visit or interact with our website at https://Animoto.com...\"*\n\nAnimoto Inc. is also n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFT8Xz3iv1Ph8YK2gnXLCu_ew0xs9vIHDeQ7zyARk9SoQnfMZCubLSVQEhiqnGtgOeKaRbjkcFzFIqkIyrCC0hzaE_4VBpHLFLOVaGuntOTPrejiFYiEiBTbw35oHdL",
+          "title": "animoto.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Animoto Inc.",
+        "evidence": "According to the Privacy Policy for animoto.com, Animoto Inc. is identified as the entity operating and providing the website at https://Animoto.com.",
+        "source": {
+          "id": 1,
+          "text": "*\"This Privacy Policy for Animoto Inc. (“Animoto”, “we”, “us”, or “our”) describes how and why we might access, collect, store, use, and/or share (\"process\") your personal information when you (“User” or “you”) interact with us, including when you: (1) visit or interact with our website at https://Animoto.com...\"*\n\nAnimoto Inc. is also n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFT8Xz3iv1Ph8YK2gnXLCu_ew0xs9vIHDeQ7zyARk9SoQnfMZCubLSVQEhiqnGtgOeKaRbjkcFzFIqkIyrCC0hzaE_4VBpHLFLOVaGuntOTPrejiFYiEiBTbw35oHdL",
+          "title": "animoto.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Animoto",
+    "domain": "animoto.com",
+    "description": "Animoto is an online video creation platform that allows users to easily create professional marketing videos through a simple drag-and-drop interface. With partnerships with major social media platforms like Facebook, Instagram, YouTube, and Twitter, alongside support from the Small Business Administration, Animoto provides valuable insights into current marketing trends. Over 1 million businesses globally utilize Animoto to enhance their social media presence and create standout marketing content."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Animoto Inc.",
+  "evidence": "According to the Privacy Policy for animoto.com, Animoto Inc. is identified as the entity operating and providing the website at https://Animoto.com.",
+  "source": {
+    "id": 1,
+    "text": "*\"This Privacy Policy for Animoto Inc. (“Animoto”, “we”, “us”, or “our”) describes how and why we might access, collect, store, use, and/or share (\"process\") your personal information when you (“User” or “you”) interact with us, including when you: (1) visit or interact with our website at https://Animoto.com...\"*\n\nAnimoto Inc. is also n",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFT8Xz3iv1Ph8YK2gnXLCu_ew0xs9vIHDeQ7zyARk9SoQnfMZCubLSVQEhiqnGtgOeKaRbjkcFzFIqkIyrCC0hzaE_4VBpHLFLOVaGuntOTPrejiFYiEiBTbw35oHdL",
+    "title": "animoto.com"
+  },
+  "checked_at": "2026-11-05T09:55:22.864510+00:00"
+}

@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **Semrush outline builder** (also referred to as the Content Outline Builder) hosted on **semrush.com** is directly provided by **Semrush, Inc.**.\n\n### Supporting Evidence\nAccording to the official **Semrush Terms of Service** and **Website Terms of Use** governing the platform and tools on `semrush.com`:\n* *\"The Services are provided by Semrush, Inc., a Delaware corporation, with entity number 4164033.\"*\n* The Website Terms of Use apply to *\"the Semrush Website, as defined in the Semrush Terms of Service... and all associated sites linked to the Website by Semrush Inc, a Delaware corporation with its principal place of business at 800 Boylston Street, Suite 2475, Boston, MA 02199, USA...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **Semrush outline builder** (also referred to as the Content Outline Builder) hosted on **semrush.com** is directly provided by **Semrush, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWNMlIgOa-NrDfaA-FN4mv5nZHgYoe6eROah3_mHU70npbLYGAoTCriJx7OpuGNyo3EVAMuj9qzAnWepGyTDn4O25C_KYKfWm7rlGFYGKEDrXNQdys9QDooep7FF--8hSdP0HnyvP9ypC1U9AOq52rjA==",
+          "title": "semrush.com"
+        },
+        {
+          "id": 1,
+          "text": "The software product **Semrush outline builder** (also referred to as the Content Outline Builder) hosted on **semrush.com** is directly provided by **Semrush, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEz4lkG6mJkJIYnzaktWe0vFYs2Wu0di_ATmRRdTxB5w_J1gAuHigMol7tkL-6RTgjhu7WOOpNNKBx8319dbBfSTDNoLQBk9tQjUfJHArJ46exSTulC64q3r270g0cl2IXhOuGujRN0_6LtzmvTqpUVmifFA4vDC6VX0VKsJdFVpkofd5j0HVA1pm15_sKwLaDQZSsDqwpHCQPX_l04CQ2QIbtmHlcllFYqerU=",
+          "title": "semrush.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"The Services are provided by Semrush, Inc., a Delaware corporation, with entity number 4164033.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsqorJKotxpityFdDXxEpzhHLl4jcLv0H_-P1WvYUMR3eURp76RmwGQBELN5Mse6tj07OENAdIdpNOx5V0OwDLE3NjYDhp7nbOcOnbez1L1fJsR6lHVEOT1t6ov4v6C-GchOHwjJ3yMc1krc2W3cIZ57gi4dBicJuAnU5A-w==",
+          "title": "semrush.com"
+        },
+        {
+          "id": 3,
+          "text": "The Website Terms of Use apply to *\"the Semrush Website, as defined in the Semrush Terms of Service... and all associated sites linked to the Website by Semrush Inc, a Delaware corporation with its principal place of business at 800 Boylston Street, Suite 2475, Boston, MA 02199, USA...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWNMlIgOa-NrDfaA-FN4mv5nZHgYoe6eROah3_mHU70npbLYGAoTCriJx7OpuGNyo3EVAMuj9qzAnWepGyTDn4O25C_KYKfWm7rlGFYGKEDrXNQdys9QDooep7FF--8hSdP0HnyvP9ypC1U9AOq52rjA==",
+          "title": "semrush.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Semrush, Inc.",
+        "evidence": "Passage 0 directly states that the software product Semrush outline builder hosted on semrush.com is provided by Semrush, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The software product **Semrush outline builder** (also referred to as the Content Outline Builder) hosted on **semrush.com** is directly provided by **Semrush, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWNMlIgOa-NrDfaA-FN4mv5nZHgYoe6eROah3_mHU70npbLYGAoTCriJx7OpuGNyo3EVAMuj9qzAnWepGyTDn4O25C_KYKfWm7rlGFYGKEDrXNQdys9QDooep7FF--8hSdP0HnyvP9ypC1U9AOq52rjA==",
+          "title": "semrush.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Semrush outline builder",
+    "domain": "semrush.com",
+    "description": "By combining AI and SEO insights, Semrush's Outline Builder helps craft high-ranking content. With its ready-to-use suggestions, outlines, competitor analyses, and detailed briefs, it simplifies content creation."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Semrush, Inc.",
+  "evidence": "Passage 0 directly states that the software product Semrush outline builder hosted on semrush.com is provided by Semrush, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The software product **Semrush outline builder** (also referred to as the Content Outline Builder) hosted on **semrush.com** is directly provided by **Semrush, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWNMlIgOa-NrDfaA-FN4mv5nZHgYoe6eROah3_mHU70npbLYGAoTCriJx7OpuGNyo3EVAMuj9qzAnWepGyTDn4O25C_KYKfWm7rlGFYGKEDrXNQdys9QDooep7FF--8hSdP0HnyvP9ypC1U9AOq52rjA==",
+    "title": "semrush.com"
+  },
+  "checked_at": "2026-11-05T06:29:21.692778+00:00"
+}

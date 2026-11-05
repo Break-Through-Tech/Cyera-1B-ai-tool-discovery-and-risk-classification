@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The operating company directly providing the software platform **Qiita** at **qiita.com** is **Qiita Inc.** (Qiita株式会社).\n\n### Evidence:\n* According to the Terms of Service for **qiita.com** (`qiita.com/terms`):\n  > 「Qiita株式会社（以下「当社」といいます。）が提供するエンジニアに関する知識を記録・共有するためのサービスQiitaは、以下の通り利用規約を定めます。」  \n  *(“Qiita Inc. (hereinafter referred to as ‘the Company’) sets forth the following terms of use for Qiita, a service provided to record and share knowledge regarding engineers...”)*\n* The site footer across **qiita.com** also identifies the provider:\n  > *\"© 2011 - 2026 Qiita Inc.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The operating company directly providing the software platform **Qiita** at **qiita.com** is **Qiita Inc.** (Qiita株式会社).\n\n### E",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEh_FNkUtYsv_JngvqCNGrlbgzBXj1AKV3EnfmKtx51rmvERw1oVfVcTMFflILQRYuhY_L0sfhsOxxnnVzBWAVN7sB_N9sF54IYWT9DBXaVWL4HQHT4v7sC",
+          "title": "wikipedia.org"
+        },
+        {
+          "id": 1,
+          "text": "The operating company directly providing the software platform **Qiita** at **qiita.com** is **Qiita Inc.** (Qiita株式会社).\n\n### E",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVHGMtMZWGMnS7fswUwHIVIfhbGQ9P-RgfWVuJrx7-bKTJcfRkTFi9RYxIA0ZGwOM29VSBqgNcC02KsfQOHiH6FBKMVa2OZ-YGoIp8",
+          "title": "qiita.com"
+        },
+        {
+          "id": 2,
+          "text": "約を定めます。」  \n  *(“Qiita Inc. (hereinafter referred to as ‘the Company’) sets forth the following terms of use for Qiita, a service provided to record and ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVHGMtMZWGMnS7fswUwHIVIfhbGQ9P-RgfWVuJrx7-bKTJcfRkTFi9RYxIA0ZGwOM29VSBqgNcC02KsfQOHiH6FBKMVa2OZ-YGoIp8",
+          "title": "qiita.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Qiita Inc.",
+        "evidence": "Passage 1 directly confirms that the operating company providing the software platform Qiita at qiita.com is Qiita Inc.",
+        "source": {
+          "id": 1,
+          "text": "The operating company directly providing the software platform **Qiita** at **qiita.com** is **Qiita Inc.** (Qiita株式会社).\n\n### E",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVHGMtMZWGMnS7fswUwHIVIfhbGQ9P-RgfWVuJrx7-bKTJcfRkTFi9RYxIA0ZGwOM29VSBqgNcC02KsfQOHiH6FBKMVa2OZ-YGoIp8",
+          "title": "qiita.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Qiita",
+    "domain": "qiita.com",
+    "description": "Qiita Inc. is dedicated to enhancing the happiness of engineers through its services, which include Qiita, a platform for knowledge sharing among engineers, Qiita Jobs for matching engineers with companies, and Qiita Team, a document collaboration service. Since its launch in September 2011, Qiita has grown into one of Japan's largest engineer communities, boasting over 1.2 million users and 920,000 articles, attracting around 6 million visits monthly. The company also organizes various engineering events to foster community engagement and development, aiming to accelerate societal change and technological evolution."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Qiita Inc.",
+  "evidence": "Passage 1 directly confirms that the operating company providing the software platform Qiita at qiita.com is Qiita Inc.",
+  "source": {
+    "id": 1,
+    "text": "The operating company directly providing the software platform **Qiita** at **qiita.com** is **Qiita Inc.** (Qiita株式会社).\n\n### E",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVHGMtMZWGMnS7fswUwHIVIfhbGQ9P-RgfWVuJrx7-bKTJcfRkTFi9RYxIA0ZGwOM29VSBqgNcC02KsfQOHiH6FBKMVa2OZ-YGoIp8",
+    "title": "qiita.com"
+  },
+  "checked_at": "2026-11-05T08:49:20.170128+00:00"
+}

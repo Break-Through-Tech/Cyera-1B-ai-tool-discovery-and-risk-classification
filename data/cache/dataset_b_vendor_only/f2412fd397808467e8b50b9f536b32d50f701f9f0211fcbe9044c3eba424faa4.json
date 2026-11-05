@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product at **invaluable.com** is **Invaluable, LLC**.\n\n### Supporting Evidence\nAccording to the official **Invaluable Terms of Use** and **Master Privacy Policy** on `invaluable.com`:\n* *\"This document describes terms and conditions applicable to your use of the services made available by Invaluable, LLC located in Boston, MA (“Invaluable”, “we”, or “us”) at the websites www.Invaluable.com, and Infinite Bidding Sites (the “Sites”).\"*\n* *\"Invaluable, LLC (“Invaluable”) is a Delaware Limited Liability Company based in Boston, Massachusetts. Invaluable provides database and software services to parties who participate in, or have an interest in the antiques, art, and traditional auction markets.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product at **invaluable.com** is **Invaluable, LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQk9SRTib630qMe5lIeKG1kfyk8UR3iNqV-JuIricLNEYZfzqI__zO_qkDD471o8CzJt388nHoQFyx_Vokd15WdCgPvNfvBVlIxUovqKTAkCvpq1Mp9d0-uLtXijQ_LXfuwXE-mZIQnlLZdD-jQJM=",
+          "title": "invaluable.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the software product at **invaluable.com** is **Invaluable, LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZByD3ghY9SI6d9WW5D-sW_6F4p4x_xnWGwh8gbI5tQ0CNB7DpRmfMR1K_nlW5WbVC6eO7WBKJ1jDEp-9S_69l6TaBPFR4q_iTYiukw4mMJRsT1nFJsJvDsx_Qc8yRBDM=",
+          "title": "invaluable.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"This document describes terms and conditions applicable to your use of the services made available by Invaluable, LLC located in Boston, MA (“Invaluable”, “we”, or “us”) at the websites www.Invaluable.com, and Infinite Bidding Sites (the “Sites”).\"*\n* *\"Invaluable,",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZByD3ghY9SI6d9WW5D-sW_6F4p4x_xnWGwh8gbI5tQ0CNB7DpRmfMR1K_nlW5WbVC6eO7WBKJ1jDEp-9S_69l6TaBPFR4q_iTYiukw4mMJRsT1nFJsJvDsx_Qc8yRBDM=",
+          "title": "invaluable.com"
+        },
+        {
+          "id": 3,
+          "text": "Invaluable, LLC (“Invaluable”) is a Delaware Limited Liability Company based in Boston, Massachusetts. Invaluable provides database and software services to parties who participate in, or have an interest in the antiques, art, and traditional auction mark",
+          "url": "https://www.invaluable.com/inv/agreements/privacy-policy/",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Invaluable, LLC",
+        "evidence": "Passage 2 describes terms and conditions applicable to the use of services made available by Invaluable, LLC at the website www.Invaluable.com.",
+        "source": {
+          "id": 2,
+          "text": "*\"This document describes terms and conditions applicable to your use of the services made available by Invaluable, LLC located in Boston, MA (“Invaluable”, “we”, or “us”) at the websites www.Invaluable.com, and Infinite Bidding Sites (the “Sites”).\"*\n* *\"Invaluable,",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZByD3ghY9SI6d9WW5D-sW_6F4p4x_xnWGwh8gbI5tQ0CNB7DpRmfMR1K_nlW5WbVC6eO7WBKJ1jDEp-9S_69l6TaBPFR4q_iTYiukw4mMJRsT1nFJsJvDsx_Qc8yRBDM=",
+          "title": "invaluable.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Invaluable",
+    "domain": "invaluable.com",
+    "description": "Invaluable is the largest online marketplace for fine and decorative arts, antiques, and collectibles, offering a live online bidding platform for global auctions. It assists collectors and dealers in real-time bids, featuring a diverse range of rare collectibles. As a leader in SaaS and e-commerce for the auction industry, Invaluable provides auction houses, galleries, and dealers with marketing solutions and auction management software. The company, founded in 1989 and based in Boston, boasts a comprehensive historical price database of over 58 million auction results, valued at more than $204 billion."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Invaluable, LLC",
+  "evidence": "Passage 2 describes terms and conditions applicable to the use of services made available by Invaluable, LLC at the website www.Invaluable.com.",
+  "source": {
+    "id": 2,
+    "text": "*\"This document describes terms and conditions applicable to your use of the services made available by Invaluable, LLC located in Boston, MA (“Invaluable”, “we”, or “us”) at the websites www.Invaluable.com, and Infinite Bidding Sites (the “Sites”).\"*\n* *\"Invaluable,",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZByD3ghY9SI6d9WW5D-sW_6F4p4x_xnWGwh8gbI5tQ0CNB7DpRmfMR1K_nlW5WbVC6eO7WBKJ1jDEp-9S_69l6TaBPFR4q_iTYiukw4mMJRsT1nFJsJvDsx_Qc8yRBDM=",
+    "title": "invaluable.com"
+  },
+  "checked_at": "2026-11-05T08:18:36.082717+00:00"
+}

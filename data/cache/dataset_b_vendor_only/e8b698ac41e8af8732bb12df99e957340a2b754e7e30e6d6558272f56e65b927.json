@@ -1,0 +1,79 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on the website at **writebot.io**, the software product **WriteBot.io** is directly provided by **WriteBot** (also operating as **WriteBot.io**). \n\n* **Evidence & Provider Statement:** The official website and its blog state in the footer:  \n  * *“© 2023 Copyrights by WriteBot. All Rights Reserved.”*\n  * A message on the site is officially signed by *“Founders of Writebot.io.”*\n  * Directory and app platform listings (such as CNET Download and G2) similarly list the developer/provider as **writebot** / **Writebot.io**.\n\nNo separate legal entity or distinct corporate parent is disclosed on the platform.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "Based on the website at **writebot.io**, the software product **WriteBot.io** is directly provided by **WriteBot** (also operating as **WriteBot.io**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoQtO9a2fgX2KUcSfBG12PkD8MHzMPvr9qpjxrh5EnVTiL9W33kC3thhXuX-78tnY-qSP-UguaCc_oOhCgpmIxOFRw-_R0KBxzDQ==",
+          "title": "writebot.io"
+        },
+        {
+          "id": 1,
+          "text": "Based on the website at **writebot.io**, the software product **WriteBot.io** is directly provided by **WriteBot** (also operating as **WriteBot.io**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxJQABX74cYs8Xh7UJ_D-GveffwthtcELPDMQqDZq3e557OpgtTM2HMs1fWTwN_jHfYnkAhNzeuwEsPB9LL1E3KlUWHKLJvjMy7WWgqWILf-n3-kiTkAN3UhFBqBLAiK8L1cNLbF8wv2EFpCt30W2ukgx2XWX0-FPr3fwTsuoRFO5jR6Tki1OJRNv7Bef0AW2rYP7jXNslaFUFFK0e8uJRtVL4THYejPeGrqLPKZDmDaO4KEm3VJy9Dp7a99T62Ln7jkovkcYnwo9g7KhAJ_yaswU8EQMFvE9kwWzU56QfVODRZObAbN9qYKBujwJVgK-c21Gv4wHjotxYuNgOt8ID2cTmBNvDK_tg1ERRWX0=",
+          "title": "g2.com"
+        },
+        {
+          "id": 2,
+          "text": " Rights Reserved.”*\n  * ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoQtO9a2fgX2KUcSfBG12PkD8MHzMPvr9qpjxrh5EnVTiL9W33kC3thhXuX-78tnY-qSP-UguaCc_oOhCgpmIxOFRw-_R0KBxzDQ==",
+          "title": "writebot.io"
+        },
+        {
+          "id": 3,
+          "text": " Rights Reserved.”*\n  * ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4Dgb5IdCgbbAoXx3E7SmFd5v928Y_pZrxaZw2Nrn8VQLEW5HpajK6qwoWGhC3I78u4uW4_Xvwf2A7Sz80vGpb9GCwe73EkPFYeUdUldlUfl-GGsZKsi2RiH7Q57WEEpEYIHsHXc7JZrlNMMcbWXZc7L4Hw7CHb3hn",
+          "title": "writebot.io"
+        },
+        {
+          "id": 4,
+          "text": "sage on the site is officially signed by *“Founders of Writebot.io.”*\n  * Dire",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoQtO9a2fgX2KUcSfBG12PkD8MHzMPvr9qpjxrh5EnVTiL9W33kC3thhXuX-78tnY-qSP-UguaCc_oOhCgpmIxOFRw-_R0KBxzDQ==",
+          "title": "writebot.io"
+        },
+        {
+          "id": 5,
+          "text": " and app platform listings (such as CNET Download and G2) similarly list the developer/provider as **writebot** / **Writebot.io**.\n\nNo sep",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGs8meA5YEEpWtPZW78pTiW4PqlrVLF5JZVaRSdu-LNY4kw9izpZn2Ag_7hmFF-M1BTI0lawscoZFYW3xehKib4MAvScWP0XuUCDBct0RnRQM0QmK1WH4It1e-4iq-jQJfNeLr1b_LhynXRm-1P6KcA_tDjDXNclJC1",
+          "title": "cnet.com"
+        },
+        {
+          "id": 6,
+          "text": " and app platform listings (such as CNET Download and G2) similarly list the developer/provider as **writebot** / **Writebot.io**.\n\nNo sep",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxJQABX74cYs8Xh7UJ_D-GveffwthtcELPDMQqDZq3e557OpgtTM2HMs1fWTwN_jHfYnkAhNzeuwEsPB9LL1E3KlUWHKLJvjMy7WWgqWILf-n3-kiTkAN3UhFBqBLAiK8L1cNLbF8wv2EFpCt30W2ukgx2XWX0-FPr3fwTsuoRFO5jR6Tki1OJRNv7Bef0AW2rYP7jXNslaFUFFK0e8uJRtVL4THYejPeGrqLPKZDmDaO4KEm3VJy9Dp7a99T62Ln7jkovkcYnwo9g7KhAJ_yaswU8EQMFvE9kwWzU56QfVODRZObAbN9qYKBujwJVgK-c21Gv4wHjotxYuNgOt8ID2cTmBNvDK_tg1ERRWX0=",
+          "title": "g2.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "WriteBot",
+        "evidence": "Based on the website at writebot.io, the software product WriteBot.io is directly provided by WriteBot (also operating as WriteBot.io).",
+        "source": {
+          "id": 0,
+          "text": "Based on the website at **writebot.io**, the software product **WriteBot.io** is directly provided by **WriteBot** (also operating as **WriteBot.io**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoQtO9a2fgX2KUcSfBG12PkD8MHzMPvr9qpjxrh5EnVTiL9W33kC3thhXuX-78tnY-qSP-UguaCc_oOhCgpmIxOFRw-_R0KBxzDQ==",
+          "title": "writebot.io"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "WriteBot.io",
+    "domain": "writebot.io",
+    "description": "WriteBot.io is an AI writing tool designed to help users create various types of content, including blog posts, articles, and marketing copy, quickly and efficiently. It offers various templates and writing styles to suit different needs."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "WriteBot",
+  "evidence": "Based on the website at writebot.io, the software product WriteBot.io is directly provided by WriteBot (also operating as WriteBot.io).",
+  "source": {
+    "id": 0,
+    "text": "Based on the website at **writebot.io**, the software product **WriteBot.io** is directly provided by **WriteBot** (also operating as **WriteBot.io**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoQtO9a2fgX2KUcSfBG12PkD8MHzMPvr9qpjxrh5EnVTiL9W33kC3thhXuX-78tnY-qSP-UguaCc_oOhCgpmIxOFRw-_R0KBxzDQ==",
+    "title": "writebot.io"
+  },
+  "checked_at": "2026-11-05T07:08:33.020603+00:00"
+}

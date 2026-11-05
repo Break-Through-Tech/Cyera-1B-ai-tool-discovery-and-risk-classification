@@ -1,0 +1,79 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product at **intrepid-geophysics.com** is **Intrepid Geophysics Pty Ltd** (operating as **Intrepid Geophysics**).\n\n### Evidence & Provider Statements\n* **Domain & Product:** `intrepid-geophysics.com` (product suite including **INTREPID**, **GeoModeller**, **JetStream**, and **Sea-g**).\n* **Provider Statement:** The official *About Us* page states:\n  > *\"Intrepid Geophysics has provided software and services for potential field geophysics, airborne electromagnetics (1D and 2.5D) and integrated geology for more than 35 years. Intrepid Geophysics now develops and commercializes four software products: INTREPID, Sea-g, GeoModeller, and JetStream.\"*\n* **Legal Operating Company:** Listed under the site's *Companies Details* section as **Intrepid Geophysics Pty Ltd** (ABN 69 006 991 180).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product at **intrepid-geophysics.com** is **Intrepid Geophysics Pty Ltd** (operating as **Intrepid Geophysics**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHK-tsVQxLWoEUOVodpyEFu7QsZis14uwyyjsNX2ULEUWZ-djMLyMmMIjD3G9mK6OQUqbzJLeEBJt4dD113kNzJYxCJsI27G_ZRBjGSH7cE0X6uhLbHVW7VM2M5NvLzf3YiQSOk6EM=",
+          "title": "business.gov.au"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the software product at **intrepid-geophysics.com** is **Intrepid Geophysics Pty Ltd** (operating as **Intrepid Geophysics**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDJ0UfABL8tCLPplwBefcwu5MxUJo86OGU5kW-IOPr3U1sFdMhCeDl1xkCQ0n8XfExOa1hA94d2PZwZttOXZffA7MX9eEua5AL1B_w3SnaLmK-gOJ29r7Va2-8U5_aueY8BRw=",
+          "title": "intrepid-geophysics.com"
+        },
+        {
+          "id": 2,
+          "text": "**Domain & Product:** `intrepid-geophysics.com` (product suite including **INTREPID**, **GeoModeller**, **JetStream**, and **Sea-g**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDJ0UfABL8tCLPplwBefcwu5MxUJo86OGU5kW-IOPr3U1sFdMhCeDl1xkCQ0n8XfExOa1hA94d2PZwZttOXZffA7MX9eEua5AL1B_w3SnaLmK-gOJ29r7Va2-8U5_aueY8BRw=",
+          "title": "intrepid-geophysics.com"
+        },
+        {
+          "id": 3,
+          "text": "**Domain & Product:** `intrepid-geophysics.com` (product suite including **INTREPID**, **GeoModeller**, **JetStream**, and **Sea-g**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFFKNa78EqfsvHtiRb5nsaK_ILP1qXg7w22GvzGXU0W4QvRQNADeSel2WgnPqKWabKkq4aJaTc5pIq1Fy5nQPoIJmR6tY6NJn5acYmEwWpIdSFRLQ36Kvv-JA=",
+          "title": "intrepid-geophysics.com"
+        },
+        {
+          "id": 4,
+          "text": "Intrepid Geophysics now develops and commercializes four software products: INTREPID, Sea-g, GeoModeller, and JetStream.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFFKNa78EqfsvHtiRb5nsaK_ILP1qXg7w22GvzGXU0W4QvRQNADeSel2WgnPqKWabKkq4aJaTc5pIq1Fy5nQPoIJmR6tY6NJn5acYmEwWpIdSFRLQ36Kvv-JA=",
+          "title": "intrepid-geophysics.com"
+        },
+        {
+          "id": 5,
+          "text": "**Legal Operating Company:** Listed under the site's *Companies Details* section as **Intrepid Geophysics Pty Ltd** (ABN 69 006 991 180)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDJ0UfABL8tCLPplwBefcwu5MxUJo86OGU5kW-IOPr3U1sFdMhCeDl1xkCQ0n8XfExOa1hA94d2PZwZttOXZffA7MX9eEua5AL1B_w3SnaLmK-gOJ29r7Va2-8U5_aueY8BRw=",
+          "title": "intrepid-geophysics.com"
+        },
+        {
+          "id": 6,
+          "text": "Intrepid Geophysics has provided software and services for potential field geophysics, airborne electromagnetics (1D and 2.5D) and integrated geology for more than 35 years. Intrepid Geophysics now develops and commercializes four software products: INTREPID, Sea-g, GeoModeller, and JetStrea",
+          "url": "https://www.aihitdata.com/company/006D1132/intrepid-geophysics/overview",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Intrepid Geophysics Pty Ltd",
+        "evidence": "Passage 1 directly states that the vendor providing the software product at intrepid-geophysics.com is Intrepid Geophysics Pty Ltd (operating as Intrepid Geophysics).",
+        "source": {
+          "id": 1,
+          "text": "The vendor directly providing the software product at **intrepid-geophysics.com** is **Intrepid Geophysics Pty Ltd** (operating as **Intrepid Geophysics**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDJ0UfABL8tCLPplwBefcwu5MxUJo86OGU5kW-IOPr3U1sFdMhCeDl1xkCQ0n8XfExOa1hA94d2PZwZttOXZffA7MX9eEua5AL1B_w3SnaLmK-gOJ29r7Va2-8U5_aueY8BRw=",
+          "title": "intrepid-geophysics.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Intrepid Geophysics",
+    "domain": "intrepid-geophysics.com",
+    "description": "Intrepid Geophysics is an Australian company based in Melbourne that specializes in software development and services for potential field geophysics and 3D geology. With over 35 years of experience, the company is known for its innovative solutions in geophysical processing and interpretation. Intrepid develops advanced software aimed at quantitative geology and offers a range of data processing and interpretation services. The company caters to clients across government, academic, and corporate sectors and has a skilled workforce, including over fifteen geophysicists and programmers, with agents located in Namibia, India, China, and Serbia."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Intrepid Geophysics Pty Ltd",
+  "evidence": "Passage 1 directly states that the vendor providing the software product at intrepid-geophysics.com is Intrepid Geophysics Pty Ltd (operating as Intrepid Geophysics).",
+  "source": {
+    "id": 1,
+    "text": "The vendor directly providing the software product at **intrepid-geophysics.com** is **Intrepid Geophysics Pty Ltd** (operating as **Intrepid Geophysics**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDJ0UfABL8tCLPplwBefcwu5MxUJo86OGU5kW-IOPr3U1sFdMhCeDl1xkCQ0n8XfExOa1hA94d2PZwZttOXZffA7MX9eEua5AL1B_w3SnaLmK-gOJ29r7Va2-8U5_aueY8BRw=",
+    "title": "intrepid-geophysics.com"
+  },
+  "checked_at": "2026-11-05T08:26:11.693842+00:00"
+}

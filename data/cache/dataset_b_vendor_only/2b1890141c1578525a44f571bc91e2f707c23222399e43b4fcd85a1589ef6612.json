@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product at **tawk.to** is **tawk.to inc.** (trading as **tawk.to**).\n\n### Evidence\nAccording to the official [Terms of Service](https://www.tawk.to/terms-of-service/) for the website and services at **tawk.to**:\n> *\"These Terms of Service govern your use of the tawk.to website and all of the products and services offered by tawk.to inc.\"*  \n> *\"The tawk.to service that allows website owners to monitor and chat with visitors on their website is maintained by tawk.to inc. trading as tawk.to.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product at **tawk.to** is **tawk.to inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGz-X0vHCnC492jRDf5c-SlVqB9xUmJ8g7typafweyTOX3OqMqlVf-3Lg1TQvstllIBuD1JjfwoqmsMpSu27QLNbtJH31nMwYcRjwz2mif0PVWtY5ktOo4wdlO5",
+          "title": "tawk.to"
+        },
+        {
+          "id": 1,
+          "text": "(trading as **tawk.to**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGz-X0vHCnC492jRDf5c-SlVqB9xUmJ8g7typafweyTOX3OqMqlVf-3Lg1TQvstllIBuD1JjfwoqmsMpSu27QLNbtJH31nMwYcRjwz2mif0PVWtY5ktOo4wdlO5",
+          "title": "tawk.to"
+        },
+        {
+          "id": 2,
+          "text": "*\"These Terms of Service govern your use of the tawk.to website and all of the products and services offered by tawk.to inc.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGz-X0vHCnC492jRDf5c-SlVqB9xUmJ8g7typafweyTOX3OqMqlVf-3Lg1TQvstllIBuD1JjfwoqmsMpSu27QLNbtJH31nMwYcRjwz2mif0PVWtY5ktOo4wdlO5",
+          "title": "tawk.to"
+        },
+        {
+          "id": 3,
+          "text": "*\"The tawk.to service that allows website owners to monitor and chat with visitors on their website is maintained by tawk.to inc. trading as tawk.to.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGz-X0vHCnC492jRDf5c-SlVqB9xUmJ8g7typafweyTOX3OqMqlVf-3Lg1TQvstllIBuD1JjfwoqmsMpSu27QLNbtJH31nMwYcRjwz2mif0PVWtY5ktOo4wdlO5",
+          "title": "tawk.to"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "tawk.to inc.",
+        "evidence": "Passage 3 states that the tawk.to service is maintained by tawk.to inc. trading as tawk.to.",
+        "source": {
+          "id": 3,
+          "text": "*\"The tawk.to service that allows website owners to monitor and chat with visitors on their website is maintained by tawk.to inc. trading as tawk.to.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGz-X0vHCnC492jRDf5c-SlVqB9xUmJ8g7typafweyTOX3OqMqlVf-3Lg1TQvstllIBuD1JjfwoqmsMpSu27QLNbtJH31nMwYcRjwz2mif0PVWtY5ktOo4wdlO5",
+          "title": "tawk.to"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Tawk",
+    "domain": "tawk.to",
+    "description": "Tawk.to is a leading online chat application that enables seamless communication between businesses and their customers. With over six million users and a 98% customer satisfaction rate, the platform offers features such as unlimited messaging, ticketing, and a Knowledge Base, all at no cost. Tawk.to is compatible across various devices and integrates easily with websites and landing pages, ensuring businesses can provide support round-the-clock. It is available on iOS, Android, Windows, and Mac OS, making it accessible anytime, anywhere."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "tawk.to inc.",
+  "evidence": "Passage 3 states that the tawk.to service is maintained by tawk.to inc. trading as tawk.to.",
+  "source": {
+    "id": 3,
+    "text": "*\"The tawk.to service that allows website owners to monitor and chat with visitors on their website is maintained by tawk.to inc. trading as tawk.to.\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGz-X0vHCnC492jRDf5c-SlVqB9xUmJ8g7typafweyTOX3OqMqlVf-3Lg1TQvstllIBuD1JjfwoqmsMpSu27QLNbtJH31nMwYcRjwz2mif0PVWtY5ktOo4wdlO5",
+    "title": "tawk.to"
+  },
+  "checked_at": "2026-11-05T09:45:49.580123+00:00"
+}

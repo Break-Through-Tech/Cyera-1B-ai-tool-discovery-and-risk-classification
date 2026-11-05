@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product and platform provided at **ada.com** (Ada Health) is directly operated and provided by **Ada Health GmbH** (and in the United States by its subsidiary, **Ada Health, Inc.**).\n\n### Supporting Evidence:\n* According to the official **Ada Health Terms & Conditions** on `ada.com`:\n  > *\"These Terms and Conditions form part of the agreement between you and **Ada Health GmbH** a company founded in Germany and registered with the Munich Local Court under the commercial register number 189710, with its registered office at Neue Grünstraße 17, 10179 Berlin, Germany (“Ada”, “we”, “our” or “us”), the operator of a platform that provides you access to our free digital health products and related services.\"*\n* For US users, the Terms specify that the website is operated by **Ada Health, Inc.** (under license from parent company Ada Health GmbH).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_S3JQXARBMI2viaSwPOX6kNyAyjKR1V-b6Q17Z_ERR8Kr0ndAhD0eCQau381FNVIvZDtVxnf-mS8p1MFnDRC138BNHpEHUR1wTQeljk1ptXqnoEItriYeytE_",
+          "title": "ada.com"
+        },
+        {
+          "id": 1,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAHRhuk4rVEUttcCfauY0qvMGz-5AeBJhjxAdW9vU4Jm6Ve7FN8xJMpQZLSj2p9jfEvVO_TfK6xFp_-V3swXbdD7gj_VHA1y3AHyaoGGio1t9pS3HbBcYtqRSLWxum",
+          "title": "ada.com"
+        },
+        {
+          "id": 2,
+          "text": "According to the official **Ada Health Terms & Conditions** on `ada.com`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_S3JQXARBMI2viaSwPOX6kNyAyjKR1V-b6Q17Z_ERR8Kr0ndAhD0eCQau381FNVIvZDtVxnf-mS8p1MFnDRC138BNHpEHUR1wTQeljk1ptXqnoEItriYeytE_",
+          "title": "ada.com"
+        },
+        {
+          "id": 3,
+          "text": "Ada Health GmbH** a company founded in Germany and registered with the Munich Local Court under the commercial register number 189710, with its registered office at Neue Grünstraße 17, 10179 Berlin, Germ",
+          "url": "https://ada.com/terms-and-conditions/",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Ada Health GmbH",
+        "evidence": "Passage 3 from https://ada.com/terms-and-conditions/ identifies Ada Health GmbH as the operating entity registered in Germany.",
+        "source": {
+          "id": 3,
+          "text": "Ada Health GmbH** a company founded in Germany and registered with the Munich Local Court under the commercial register number 189710, with its registered office at Neue Grünstraße 17, 10179 Berlin, Germ",
+          "url": "https://ada.com/terms-and-conditions/",
+          "title": ""
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Ada Health",
+    "domain": "ada.com",
+    "description": "Our app helps people manage their health."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Ada Health GmbH",
+  "evidence": "Passage 3 from https://ada.com/terms-and-conditions/ identifies Ada Health GmbH as the operating entity registered in Germany.",
+  "source": {
+    "id": 3,
+    "text": "Ada Health GmbH** a company founded in Germany and registered with the Munich Local Court under the commercial register number 189710, with its registered office at Neue Grünstraße 17, 10179 Berlin, Germ",
+    "url": "https://ada.com/terms-and-conditions/",
+    "title": ""
+  },
+  "checked_at": "2026-11-05T06:24:22.310942+00:00"
+}

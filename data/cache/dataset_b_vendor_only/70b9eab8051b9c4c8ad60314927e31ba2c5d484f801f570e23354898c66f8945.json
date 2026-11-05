@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the product at **icons8.com** is **Icons8 LLC**.\n\n### Evidence:\n* The official legal agreements on **icons8.com** (such as the Affiliate Program Terms of Service) state:  \n  > *\"These Icons8 Affiliate Program Terms ('Agreement') constitute a legal agreement between Icons8 LLC, a corporation organized under the laws of the State of Delaware ('Icons8', 'icons8.com', 'i,' 'we,' or 'us') and you...\"*\n* The site's official Terms and Conditions, Privacy Policy, and software license agreements are copyrighted and administered by **Icons8 LLC**.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the product at **icons8.com** is **Icons8 LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDRvO4qBAK6rkbVkVTXN0tfvY4KaqJcVRScM9BDJ9EJngFqBMhDruvzf-QUtiFd0ja5K8h-s1tD2UmdpfOHsZf0MYy-aX3wK3JdXLNtpiUyLuJjxvd4_GgZJq0MWE=",
+          "title": "icons8.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the product at **icons8.com** is **Icons8 LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYOU3ZRlRtzXTy4uohM2h8BUdszPBBDAPAOF43KHoO1R3eiW3DCCDmZBq3Kf-Aop299yAVxRXFt5s4iFoUxchgh0Kst2FBo49mBW99tI-IgKVryiFh1E-BHSnU_zEnngnwrgi8LZAk9OjcpmLVGDItIHqyD9K9I4TnFg==",
+          "title": "tapfiliate.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"These Icons8 Affiliate Program Terms ('Agreement') constitute a legal agreement between Icons8 LLC, a corporation organized under the laws of the State of Delaware ('Icons8', 'icons8.com', 'i,' 'we,' or 'us') and you...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYOU3ZRlRtzXTy4uohM2h8BUdszPBBDAPAOF43KHoO1R3eiW3DCCDmZBq3Kf-Aop299yAVxRXFt5s4iFoUxchgh0Kst2FBo49mBW99tI-IgKVryiFh1E-BHSnU_zEnngnwrgi8LZAk9OjcpmLVGDItIHqyD9K9I4TnFg==",
+          "title": "tapfiliate.com"
+        },
+        {
+          "id": 3,
+          "text": "The site's official Terms and Conditions, Privacy Policy, and software license agreements are copyrighted and administered by **Icons8 LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDRvO4qBAK6rkbVkVTXN0tfvY4KaqJcVRScM9BDJ9EJngFqBMhDruvzf-QUtiFd0ja5K8h-s1tD2UmdpfOHsZf0MYy-aX3wK3JdXLNtpiUyLuJjxvd4_GgZJq0MWE=",
+          "title": "icons8.com"
+        },
+        {
+          "id": 4,
+          "text": "The site's official Terms and Conditions, Privacy Policy, and software license agreements are copyrighted and administered by **Icons8 LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJVmSxoAMQIXGjenaEbnLb_fs8XdmKHBCDO5DFtLpUzM1LQI2GUbkNxAxlrp0vzW5Sefx0rIsHr8VEmyZ7kmOCBSDz42PC6pt5DpXD-wOKzkNzTvQ9CfPRtPi7AIADZ04h1vZldq8=",
+          "title": "icons8.com"
+        },
+        {
+          "id": 5,
+          "text": "The site's official Terms and Conditions, Privacy Policy, and software license agreements are copyrighted and administered by **Icons8 LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNC4_yTSIO2NdZ7e15ForYz26CkjEkm-UQuc9lK5sC07wOI92R3YLQOHRlKmxGgyTgXCLTGKFTtagmlNksgy6HVedXMGWiO5l9cJuw5tGvBl2SlyqwGEI=",
+          "title": "icons8.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Icons8 LLC",
+        "evidence": "Passage 0 directly states that the vendor providing the product at icons8.com is Icons8 LLC.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the product at **icons8.com** is **Icons8 LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDRvO4qBAK6rkbVkVTXN0tfvY4KaqJcVRScM9BDJ9EJngFqBMhDruvzf-QUtiFd0ja5K8h-s1tD2UmdpfOHsZf0MYy-aX3wK3JdXLNtpiUyLuJjxvd4_GgZJq0MWE=",
+          "title": "icons8.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Icons8",
+    "domain": "icons8.com",
+    "description": "Icons8 is a design resource platform offering a vast library of over 165,000 icons, along with photos, vectors, and graphic design tools. Established in 2001, the company supports both individual designers and larger entities by providing free resources and licenses to open source projects. Icons8 has collaborated with a variety of clients, including well-known brands like Oracle and Motorola, and aims to empower the design community through its contributions and resources."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Icons8 LLC",
+  "evidence": "Passage 0 directly states that the vendor providing the product at icons8.com is Icons8 LLC.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the product at **icons8.com** is **Icons8 LLC**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDRvO4qBAK6rkbVkVTXN0tfvY4KaqJcVRScM9BDJ9EJngFqBMhDruvzf-QUtiFd0ja5K8h-s1tD2UmdpfOHsZf0MYy-aX3wK3JdXLNtpiUyLuJjxvd4_GgZJq0MWE=",
+    "title": "icons8.com"
+  },
+  "checked_at": "2026-11-05T08:27:28.937871+00:00"
+}

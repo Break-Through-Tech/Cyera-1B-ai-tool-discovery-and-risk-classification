@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Infogram** at **infogram.com** is **Prezi, Inc.**\n\n### Provider Evidence\nAccording to the official **Terms and Conditions of Use** on `infogram.com`:\n> *\"Infogram is a service of Prezi, Inc. (‘Prezi’). These Infogram License Terms and Conditions, together with the applicable Order Form, constitute the ‘Agreement’.\"*\n\nAdditionally, the site footer and policies confirm that *\"Infogram and Infogr.am are registered trademarks of Prezi, Inc.\"* and note that Prezi, Inc. acts as the contracting entity and data controller for Infogram services.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Infogram** at **infogram.com** is **Prezi, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWMqAbrO3LBsriHKPIJWL_ncUKa9ZrILwv7GuPijddHc6_Lwglln8Ek2xffQRQ3crrNWNw8dx3gMdaJBEPzZKr8QaWfzLNqwwT4pPGF58y0Q==",
+          "title": "infogram.com"
+        },
+        {
+          "id": 1,
+          "text": "e Infogram License Terms and Conditions, together with the applicable Order Form, constitute the ‘Agreement’.\"*\n\nAdditi",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWMqAbrO3LBsriHKPIJWL_ncUKa9ZrILwv7GuPijddHc6_Lwglln8Ek2xffQRQ3crrNWNw8dx3gMdaJBEPzZKr8QaWfzLNqwwT4pPGF58y0Q==",
+          "title": "infogram.com"
+        },
+        {
+          "id": 2,
+          "text": "ally, the site footer and policies confirm that *\"Infogram and Infogr.am are registered trademarks of Prezi, Inc.\"* and not",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyVUP9EsWQSqdubtbiN-YV04V-NVqxI9WGj1h9wIlXVjvEOAcLJl9vSujZ-hacAMef0yanvQ48RdBbcCHwxd7zwRSqatXb2dvPkFYcaP6ka65mqRw=",
+          "title": "infogram.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Prezi, Inc.",
+        "evidence": "Passage 0 directly states that the vendor directly providing Infogram at infogram.com is Prezi, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Infogram** at **infogram.com** is **Prezi, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWMqAbrO3LBsriHKPIJWL_ncUKa9ZrILwv7GuPijddHc6_Lwglln8Ek2xffQRQ3crrNWNw8dx3gMdaJBEPzZKr8QaWfzLNqwwT4pPGF58y0Q==",
+          "title": "infogram.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Infogram",
+    "domain": "infogram.com",
+    "description": "Infogram is a user-friendly online platform that allows individuals and businesses to create visually appealing infographics, charts, and interactive maps. It is designed to help users effectively share data and reports through stunning visual content, catering to a wide range of applications including presentations, marketing, and educational materials."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Prezi, Inc.",
+  "evidence": "Passage 0 directly states that the vendor directly providing Infogram at infogram.com is Prezi, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Infogram** at **infogram.com** is **Prezi, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWMqAbrO3LBsriHKPIJWL_ncUKa9ZrILwv7GuPijddHc6_Lwglln8Ek2xffQRQ3crrNWNw8dx3gMdaJBEPzZKr8QaWfzLNqwwT4pPGF58y0Q==",
+    "title": "infogram.com"
+  },
+  "checked_at": "2026-11-05T09:46:18.807077+00:00"
+}

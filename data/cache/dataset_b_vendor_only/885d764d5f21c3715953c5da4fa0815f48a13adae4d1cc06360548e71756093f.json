@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **Metaview** at **metaview.ai** is provided by **Metaview Global Limited** (or **Metaview Global Ltd**) and its US entity **Metaview Labs Inc.**.\n\n### Evidence:\n* **Terms of Service:**\n  > *\"These Terms of Use constitute a legally binding agreement made between you... and (Metaview Global Limited, “Metaview”, “we”, “us”, or “our”)... governing the use of our Site (https://metaview.ai), products, software, services and web application (collectively the “Services”). We are registered in the United Kingdom and have our registered office at Floor 8, 4 Elder Street, London, England, E1 6BT.\"*\n* **Website Terms of Use:**\n  > *\"Metaview Global Ltd is a company registered in England and Wales (company number: 11313397) with its registered address at Floor 8, 4 Elder Street, London E1 6BT (“Metaview,” “we,” “our,” or “us”). Metaview operates the www.metaview.ai website...\"*\n* **Privacy Policy & Site Notices:**\n  > *\"The Metaview entity responsible for your personal data depends on how you interact with us and where you are located: If you are located in the EEA, the United Kingdom, or Switzerland, Metaview Global Ltd... is the data controller. If you are located in the United States or elsewhere, Metaview Labs Inc (incorporated in Delaware) is the data controller.\"* The website footer is additionally copyrighted by *Metaview Labs Inc.*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **Metaview** at **metaview.ai** is provided by **Metaview Global Limited** (or **Metaview Global Ltd**) and its US entity **Metaview Labs Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkoJzlSa1ELduoBWxpka_fbveRY1s8faJ0pnmBsv5kzFRepiGKIXjK__ZH30W_RuWDN0rak1n0sh52v0qdzYreMiflTImc638UeYEhOZ_Ygh5BVdkp1YtGPCOyMw==",
+          "title": "metaview.ai"
+        },
+        {
+          "id": 1,
+          "text": "The software product **Metaview** at **metaview.ai** is provided by **Metaview Global Limited** (or **Metaview Global Ltd**) and its US entity **Metaview Labs Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEe4d-lm0clRHY9y67SAunD-BtKJfr2dzDyTyrOqQKikCygyB5e2VdPo1vnwpBS0IL4E2iLop05cRnLpcaQPkefti9JZU07uzTCfFV2QTBd3c7X5YtWGsS_RXT04oqQ",
+          "title": "metaview.ai"
+        },
+        {
+          "id": 2,
+          "text": "**Terms of Service:**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEe4d-lm0clRHY9y67SAunD-BtKJfr2dzDyTyrOqQKikCygyB5e2VdPo1vnwpBS0IL4E2iLop05cRnLpcaQPkefti9JZU07uzTCfFV2QTBd3c7X5YtWGsS_RXT04oqQ",
+          "title": "metaview.ai"
+        },
+        {
+          "id": 3,
+          "text": "se:**\n  > *\"Metaview Glob",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSxGe5IVDEGEUF675z6CjY9pTf_EwWR0LRYMAacBVBJ8NeQkmII3hae98D7w6NtcDnzyW_OX6xTI-4Whax-DPr5kWUOFA8-L90DMCou44y-leQ3u1MJHNJ1dEhOa2s9Yi02A==",
+          "title": "metaview.ai"
+        },
+        {
+          "id": 4,
+          "text": " > *\"The Metaview entity responsib",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9418yOgoBM3nlccrp5dH38Kgvm4wSZq7qcehq4jyoOAcK9hZecazDEd4ydFVbvVPtVynrWkwTeqVLMF1R6vhjhxmxqhTPY0lMG1yuZlbvKUigjqvP",
+          "title": "metaview.ai"
+        },
+        {
+          "id": 5,
+          "text": " > *\"The Metaview entity responsib",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkoJzlSa1ELduoBWxpka_fbveRY1s8faJ0pnmBsv5kzFRepiGKIXjK__ZH30W_RuWDN0rak1n0sh52v0qdzYreMiflTImc638UeYEhOZ_Ygh5BVdkp1YtGPCOyMw==",
+          "title": "metaview.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Metaview Global Limited",
+        "evidence": "Passage 0 explicitly states that the software product Metaview at metaview.ai is provided by Metaview Global Limited (or Metaview Global Ltd) and its US entity Metaview Labs Inc.",
+        "source": {
+          "id": 0,
+          "text": "The software product **Metaview** at **metaview.ai** is provided by **Metaview Global Limited** (or **Metaview Global Ltd**) and its US entity **Metaview Labs Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkoJzlSa1ELduoBWxpka_fbveRY1s8faJ0pnmBsv5kzFRepiGKIXjK__ZH30W_RuWDN0rak1n0sh52v0qdzYreMiflTImc638UeYEhOZ_Ygh5BVdkp1YtGPCOyMw==",
+          "title": "metaview.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Metaview",
+    "domain": "metaview.ai",
+    "description": "Automated, AI-generated note taking for recruiters and interviewers."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Metaview Global Limited",
+  "evidence": "Passage 0 explicitly states that the software product Metaview at metaview.ai is provided by Metaview Global Limited (or Metaview Global Ltd) and its US entity Metaview Labs Inc.",
+  "source": {
+    "id": 0,
+    "text": "The software product **Metaview** at **metaview.ai** is provided by **Metaview Global Limited** (or **Metaview Global Ltd**) and its US entity **Metaview Labs Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkoJzlSa1ELduoBWxpka_fbveRY1s8faJ0pnmBsv5kzFRepiGKIXjK__ZH30W_RuWDN0rak1n0sh52v0qdzYreMiflTImc638UeYEhOZ_Ygh5BVdkp1YtGPCOyMw==",
+    "title": "metaview.ai"
+  },
+  "checked_at": "2026-11-05T05:58:21.558485+00:00"
+}

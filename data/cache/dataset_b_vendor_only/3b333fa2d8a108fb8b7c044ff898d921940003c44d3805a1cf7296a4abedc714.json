@@ -1,0 +1,85 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Intense Debate** at **intensedebate.com** is **Automattic Inc.** (originally **IntenseDebate Corporation**).\n\n### Evidence and Provider Statements\n* **Website Footer & Branding:** Pages across **intensedebate.com** state that the platform is *\"an Automattic Creation\"* and display the copyright notice *\"© Automattic Inc. (TOS | Privacy Policy)\"*.\n* **Automattic Privacy Documentation:** Automattic's Privacy Policy states that it applies to information collected when using *\"Our websites (including ... intensedebate.com ...)\"* and services such as *\"the IntenseDebate comment management system\"*. Automattic's Privacy Notice similarly identifies Automattic as the provider of services through *\"WordPress.com, Jetpack ... IntenseDebate, Crowdsignal.com, and Akismet\"*.\n* **Terms of Service:** The Terms of Service on **intensedebate.com** govern the use of *\"the website at http://www.intensedebate.com (the 'Site') the service owned and operated by IntenseDebate\"* (originally *IntenseDebate Corporation*) and incorporate Automattic's Privacy Policy.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Intense Debate** at **intensedebate.com** is **Automattic Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEU30caxSYA3Du4rh0_bSSywxdU5d6hSEv6ccp9ymAWy7K7Eko8tMWQKud4eP8-V2MIZO-W3z7pRz2jm3GpZv4kVf7WzRlWv79dqKYRN3UQ-iavDHbE3XbC",
+          "title": "intensedebate.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Intense Debate** at **intensedebate.com** is **Automattic Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzPue061Sb1mt3-OtT0NcC7RQP-KQdRiA0PGhlA9_-seWgtdGINpUd48RQ0fgNx7STqvUFebqHYOKyaJ8xSVHRn5Zi65Tcd-bnnfNlS9wXBiIQOE3k",
+          "title": "automattic.com"
+        },
+        {
+          "id": 2,
+          "text": "The vendor directly providing **Intense Debate** at **intensedebate.com** is **Automattic Inc.** (originally **IntenseDebate Corporation**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDxFBtCts609f-wEzmWukwvgRImqQOPxFbcdCy4fbQ0zNhVLAcj3Uz7tVKKMgXx2adfP-u-BRc8nVoo7g3TUj9PoRPTfYvCk7pCUE9bn8nrNJQ-g==",
+          "title": "intensedebate.com"
+        },
+        {
+          "id": 3,
+          "text": "**Website Footer & Branding:** Pages across **intensedebate.com** state that the platform is *\"an Automattic Creation\"* and display the copyright notice *\"© Automattic Inc. (TOS | Privacy Policy)\"*.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWWTx5vIjYWydrxkSX75QrVJYOPk7J5mt401oSGuuMwzzzXafCVgbEGpU2X11XptjBkqfCRd02ufAQ5kB6OXozRp6poYvMdC0YAjooCkNhJjZZ5DEZzzDq",
+          "title": "intensedebate.com"
+        },
+        {
+          "id": 4,
+          "text": "**Website Footer & Branding:** Pages across **intensedebate.com** state that the platform is *\"an Automattic Creation\"* and display the copyright notice *\"© Automattic Inc. (TOS | Privacy Policy)\"*.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEU30caxSYA3Du4rh0_bSSywxdU5d6hSEv6ccp9ymAWy7K7Eko8tMWQKud4eP8-V2MIZO-W3z7pRz2jm3GpZv4kVf7WzRlWv79dqKYRN3UQ-iavDHbE3XbC",
+          "title": "intensedebate.com"
+        },
+        {
+          "id": 5,
+          "text": "*Automattic Privacy Documentation:** Automattic's Privacy Policy states that it applies to information collected when using *\"Our websites (including ... intensedebate.com ...)\"* and services such as *\"the IntenseDebate comment management system\"*.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzPue061Sb1mt3-OtT0NcC7RQP-KQdRiA0PGhlA9_-seWgtdGINpUd48RQ0fgNx7STqvUFebqHYOKyaJ8xSVHRn5Zi65Tcd-bnnfNlS9wXBiIQOE3k",
+          "title": "automattic.com"
+        },
+        {
+          "id": 6,
+          "text": "ntenseDebate, Crowdsignal.com, and Akismet\"*.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVgXI2ybsInFxDDBanuStg99_NpC8OJyWqSIRzYcsQQa34dlAK0YWBhdx0rSxcmBG9r68J3LibM8MGrPNJdNBz_Fl-teBSLQpHPKPXh_MxHOHvk1LzuTLOVG-_5g==",
+          "title": "automattic.com"
+        },
+        {
+          "id": 7,
+          "text": "*Terms of Service:** The Terms of Service on **intensedebate.com** govern the use of *\"the website at http://www.intensedebate.com (the 'Site') the service owned and operated by IntenseDebate\"* (originally *IntenseDebate Corporation*) and incorporate Automattic's Privacy Policy.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDxFBtCts609f-wEzmWukwvgRImqQOPxFbcdCy4fbQ0zNhVLAcj3Uz7tVKKMgXx2adfP-u-BRc8nVoo7g3TUj9PoRPTfYvCk7pCUE9bn8nrNJQ-g==",
+          "title": "intensedebate.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Automattic Inc.",
+        "evidence": "Passage 0 directly states that the vendor providing Intense Debate at intensedebate.com is Automattic Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Intense Debate** at **intensedebate.com** is **Automattic Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEU30caxSYA3Du4rh0_bSSywxdU5d6hSEv6ccp9ymAWy7K7Eko8tMWQKud4eP8-V2MIZO-W3z7pRz2jm3GpZv4kVf7WzRlWv79dqKYRN3UQ-iavDHbE3XbC",
+          "title": "intensedebate.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Intense Debate",
+    "domain": "intensedebate.com",
+    "description": "IntenseDebate is a versatile commenting system designed for integration with platforms like WordPress, Blogger, and Tumblr. It enhances user engagement by providing robust features that support interaction and discussions on blogs and websites."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Automattic Inc.",
+  "evidence": "Passage 0 directly states that the vendor providing Intense Debate at intensedebate.com is Automattic Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Intense Debate** at **intensedebate.com** is **Automattic Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEU30caxSYA3Du4rh0_bSSywxdU5d6hSEv6ccp9ymAWy7K7Eko8tMWQKud4eP8-V2MIZO-W3z7pRz2jm3GpZv4kVf7WzRlWv79dqKYRN3UQ-iavDHbE3XbC",
+    "title": "intensedebate.com"
+  },
+  "checked_at": "2026-11-05T08:30:48.054395+00:00"
+}

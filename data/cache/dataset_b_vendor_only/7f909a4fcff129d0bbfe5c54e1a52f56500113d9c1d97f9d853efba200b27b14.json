@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Zotero** at **zotero.org** is the **Corporation for Digital Scholarship** (also known as **Digital Scholar**), a nonprofit organization.\n\n### Supporting Evidence & Provider Statement\nAccording to the official *Zotero Terms of Service* (`zotero.org/support/terms/terms_of_service`):\n> *\"Zotero is a collection of services, including storage subscription services (the “Services”), integrated with the Zotero desktop software and the Site, operated by the Corporation for Digital Scholarship (“CDS”) from its offices within the United States on a not-for-profit basis.\"*\n\nAdditionally, the *About* and site documentation state:\n> *\"Zotero is a project of the Corporation for Digital Scholarship, a nonprofit organization dedicated to the development of software and services for researchers and cultural heritage institutions.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Zotero** at **zotero.org** is the **Corporation for Digital Scholarship** (also known as **Digital Scholar**), a nonprofit organization",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbfyY5mftCXcDZ-uxmaydo3zLXhpNwunJCYohpy_EhGPa0b0_kVRfQbGl_3-m07JQAEZuVI4hq-K1DjOg1zzf5_O4CLRZWj52waH0v-GGAODWkSQ==",
+          "title": "zotero.org"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Zotero** at **zotero.org** is the **Corporation for Digital Scholarship** (also known as **Digital Scholar**), a nonprofit organization",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDyQv_i8D7mFJ-p96gRQsMgEDJuoN5KKhFPSqzx6xD6Ak4pnb43IEPQDsDiZMEOrgF5o9krYrwYh1AsvixuGWiHjobpDix-jH9Kco12ttt2_-8_Nf0DWDMxm1ThM_sAQCSnqO1LcsvATSYFQ==",
+          "title": "zotero.org"
+        },
+        {
+          "id": 2,
+          "text": "*\"Zotero is a collection of services, including storage subscription services (the “Services”), integrated with the Zotero desktop software and the Site, operated by the Corporation for Digital Scholarship (“CDS”) from its offices within the United States on a not-for-profit basis.\"*\n\nAdditi",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDyQv_i8D7mFJ-p96gRQsMgEDJuoN5KKhFPSqzx6xD6Ak4pnb43IEPQDsDiZMEOrgF5o9krYrwYh1AsvixuGWiHjobpDix-jH9Kco12ttt2_-8_Nf0DWDMxm1ThM_sAQCSnqO1LcsvATSYFQ==",
+          "title": "zotero.org"
+        },
+        {
+          "id": 3,
+          "text": "Zotero is a collection of services, including storage subscription services (the “Services”), integrated with the Zotero desktop software and the Site, operated by the Corporation for Digital Scholarship (“CDS”) from its offices within the United States on a not-for-profit ba",
+          "url": "https://www.zotero.org/support/terms/terms_of_service",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Corporation for Digital Scholarship",
+        "evidence": "Passage 3 states that Zotero, including its desktop software, site, and storage subscription services, is operated by the Corporation for Digital Scholarship on a not-for-profit basis.",
+        "source": {
+          "id": 3,
+          "text": "Zotero is a collection of services, including storage subscription services (the “Services”), integrated with the Zotero desktop software and the Site, operated by the Corporation for Digital Scholarship (“CDS”) from its offices within the United States on a not-for-profit ba",
+          "url": "https://www.zotero.org/support/terms/terms_of_service",
+          "title": ""
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Zotero",
+    "domain": "zotero.org",
+    "description": "Zotero is a free, user-friendly software that assists users in collecting, organizing, citing, and sharing research materials. It is widely used by students, academics, and researchers to manage bibliographic data and generate references seamlessly."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Corporation for Digital Scholarship",
+  "evidence": "Passage 3 states that Zotero, including its desktop software, site, and storage subscription services, is operated by the Corporation for Digital Scholarship on a not-for-profit basis.",
+  "source": {
+    "id": 3,
+    "text": "Zotero is a collection of services, including storage subscription services (the “Services”), integrated with the Zotero desktop software and the Site, operated by the Corporation for Digital Scholarship (“CDS”) from its offices within the United States on a not-for-profit ba",
+    "url": "https://www.zotero.org/support/terms/terms_of_service",
+    "title": ""
+  },
+  "checked_at": "2026-11-05T09:44:36.074564+00:00"
+}

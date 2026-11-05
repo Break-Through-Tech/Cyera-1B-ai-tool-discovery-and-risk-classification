@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Discourse** at **discourse.org** is **Civilized Discourse Construction Kit, Inc.** (also referred to as **CDCK**).\n\n### Supporting Evidence\n* **About Page:** *\"We build a community platform for civilized discussion on the web — we feel so strongly about it that we even named our company Civilized Discourse Construction Kit, Inc.\"*\n* **Privacy Policy:** *\"This notice describes how Civilized Discourse Construction Kit, Inc., or CDCK for short, collects and uses personal information... As a company, CDCK hosts forums using Discourse for businesses, organizations, and individual customers through Enterprise, Business, Pro, Starter, and Free plans. Discourse also provides the following websites and forums: ... discourse.org, a website marketing Discourse and CDCK's hosting service...\"*\n* **Site Copyright / Open Source Legal Notices:** *\"Discourse logo and 'Discourse Forum' are registered trademarks of Civilized Discourse Construction Kit, Inc.\"* and *\"Copyright © Civilized Discourse Construction Kit, Inc. All rights reserved.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Discourse** at **discourse.org** is **Civilized Discourse Construction Kit, Inc.** (also referred to as **CDCK**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwFqUdM_B5UgqHpdPaATp0s-CMoBpEwaOxDkkrrwVv76gkwx_VA_YSxhvfDRlJopnJpmwpv1K-60HkM72Rcpqk7jdw3qA1KJ6Gk5cCZs53RSlk7KF2Ag==",
+          "title": "discourse.org"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Discourse** at **discourse.org** is **Civilized Discourse Construction Kit, Inc.** (also referred to as **CDCK**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6vK_s8m0DB0MdstvG6HkQDq-IFmVdbo-czzpNhCcGChyjih586WRMrcSyFHsbG2RKRGuAr3Jj8_rB8_0OYWECCNnz9EtvgN-lXNNCuZufvQmB8xM=",
+          "title": "discourse.org"
+        },
+        {
+          "id": 2,
+          "text": "**About Page:** *\"We build a community platform for civilized discussion on the web — we feel so strongly about it that we even named our company Civilized Discourse Construction Kit, Inc.\"*\n*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6vK_s8m0DB0MdstvG6HkQDq-IFmVdbo-czzpNhCcGChyjih586WRMrcSyFHsbG2RKRGuAr3Jj8_rB8_0OYWECCNnz9EtvgN-lXNNCuZufvQmB8xM=",
+          "title": "discourse.org"
+        },
+        {
+          "id": 3,
+          "text": "scourse also provides the following websites and forums: ... discourse.org, a website marketing Discourse and CDCK's hosting service...\"*\n*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwFqUdM_B5UgqHpdPaATp0s-CMoBpEwaOxDkkrrwVv76gkwx_VA_YSxhvfDRlJopnJpmwpv1K-60HkM72Rcpqk7jdw3qA1KJ6Gk5cCZs53RSlk7KF2Ag==",
+          "title": "discourse.org"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Civilized Discourse Construction Kit, Inc.",
+        "evidence": "Passage 0 directly states that the vendor providing Discourse at discourse.org is Civilized Discourse Construction Kit, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Discourse** at **discourse.org** is **Civilized Discourse Construction Kit, Inc.** (also referred to as **CDCK**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwFqUdM_B5UgqHpdPaATp0s-CMoBpEwaOxDkkrrwVv76gkwx_VA_YSxhvfDRlJopnJpmwpv1K-60HkM72Rcpqk7jdw3qA1KJ6Gk5cCZs53RSlk7KF2Ag==",
+          "title": "discourse.org"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Discourse",
+    "domain": "discourse.org",
+    "description": "Civilized Discourse Construction Kit, Inc. is an internet company based in the United States, known for creating Discourse, a popular open-source discussion platform that fosters engaging online community interactions. It provides tools designed to enhance conversations and manage communities effectively, supporting both casual discussions and structured forums."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Civilized Discourse Construction Kit, Inc.",
+  "evidence": "Passage 0 directly states that the vendor providing Discourse at discourse.org is Civilized Discourse Construction Kit, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Discourse** at **discourse.org** is **Civilized Discourse Construction Kit, Inc.** (also referred to as **CDCK**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwFqUdM_B5UgqHpdPaATp0s-CMoBpEwaOxDkkrrwVv76gkwx_VA_YSxhvfDRlJopnJpmwpv1K-60HkM72Rcpqk7jdw3qA1KJ6Gk5cCZs53RSlk7KF2Ag==",
+    "title": "discourse.org"
+  },
+  "checked_at": "2026-11-05T08:31:05.897600+00:00"
+}
