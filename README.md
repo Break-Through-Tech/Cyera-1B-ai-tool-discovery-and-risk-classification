@@ -85,6 +85,36 @@ jupyter nbconvert --to notebook --execute --inplace notebooks/eda.ipynb
 
 ---
 
+## Embeddings and semantic similarity (issue #7)
+
+A frozen, revision-pinned MiniLM sentence-transformer now supports AI detection, category prediction and cosine-similarity matching to training applications. The same held-out applications and source-review exclusions are used as in issue #6. Validation selects the reviewed-only embedding head: test macro F1 is 0.939 versus 0.770 for TF-IDF; category test accuracy is 54.3% versus 28.3%. These are weak-label development results with only four non-AI examples per evaluation split.
+
+```bash
+python -m pip install -r modeling/requirements-embeddings.txt
+python modeling/predict_embeddings.py --name "ExampleCodeHelper" --description "An AI coding assistant that suggests completions and helps debug software."
+```
+
+See [the embedding comparison guide](docs/embedding_classification.md) and [runnable notebook](notebooks/embedding_classification.ipynb). The first use downloads the public encoder; classifier heads, reports and the training-only reference index are included in `artifacts/embeddings/`.
+
+---
+
+## Baseline classification models (issue #6)
+
+Train reproducible TF-IDF + Logistic Regression baselines for AI/non-AI detection and an initial business-purpose category classifier. Both reviewed-only and full-catalog variants are evaluated against a majority-class baseline. Validation macro F1 selects the reviewed-only binary model; the labels remain weak supervision.
+
+```bash
+python -m pip install -r modeling/requirements.txt
+python modeling/train_baseline.py --out artifacts/reproduced-baseline
+python modeling/predict.py --name "Example Writing Assistant" --description "An AI assistant that generates marketing copy from prompts."
+python -m unittest discover -s tests -v
+```
+
+The [source/code review](docs/source_review_2026-11-04.md) checks the negative seeds, a category sample and original errors, withholds four uncertain training identities, and preserves evaluation labels. Negative labels describe conventional primary purpose rather than an absence of AI capabilities.
+
+See [the baseline guide](docs/baseline_classification.md) for results, settings, prediction output and limitations, or use [the runnable notebook](notebooks/full_classification_baseline.ipynb). Saved models, reports and test predictions are in `artifacts/baseline/`. Detection, category and governance risk are separate tasks; this baseline does not calculate risk.
+
+---
+
 ## Classification dataset preparation (issue #5)
 
 The full available-data preparation pipeline accounts for all 16,762 cleaned catalog records and combines eligible weak AI examples with the team's 30 non-AI examples recovered from Git history. It produces 14,792 applications: 14,692 training, 50 validation and 50 test rows.
