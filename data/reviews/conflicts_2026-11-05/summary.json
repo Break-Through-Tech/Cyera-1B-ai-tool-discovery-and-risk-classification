@@ -1,0 +1,29 @@
+{
+  "records_reviewed": 201,
+  "by_source_label": {
+    "0": {
+      "0": 71,
+      "uncertain": 18,
+      "1": 13
+    },
+    "1": {
+      "1": 64,
+      "0": 17,
+      "uncertain": 18
+    }
+  },
+  "all_recommendations": {
+    "1": 77,
+    "0": 88,
+    "uncertain": 36
+  },
+  "scope_changes_required": 49,
+  "human_verified": false,
+  "source_labels_modified": false,
+  "research_urls_attempted": 203,
+  "recommendations_sha256": "5db121be2fb04dc46530fab224622c286c63e9db331b411d2c0d38f064c1557c",
+  "input_labeled_csv_sha256": "5c0bbc3a81153530eaba30adbe3b2e6145f0c4ca8450029a922e65a246d15058",
+  "review_date": "2026-11-05",
+  "label_definition": "Primary purpose of the named product/feature; conventional platforms may include AI features.",
+  "applied_to_training": false
+}
