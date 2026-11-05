@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00341",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Delivers cloud-based cybersecurity threat detection and rapid incident response via the Infinity Platform.",
+    "category": "Other",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Mentions 'AI-driven cybersecurity solutions', but details are insufficient to determine if AI is central or a marketing descriptor."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:09:35.278715+00:00"
+}

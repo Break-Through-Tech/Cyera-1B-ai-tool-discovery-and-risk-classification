@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00382",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Collects, unifies, and manages first-party customer data across various systems for real-time analytics.",
+    "category": "Data Analytics",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Customer data platform focused on data integration and pipeline management without mention of AI technologies."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:15:45.720811+00:00"
+}

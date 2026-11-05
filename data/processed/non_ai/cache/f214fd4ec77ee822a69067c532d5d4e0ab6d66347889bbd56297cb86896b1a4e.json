@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00164",
+    "description_usable": true,
+    "identity_consistent": false,
+    "function": "Creates visual communication content, instructional tutorials, images, and training videos.",
+    "category": "Image / Video Generation",
+    "ai_status": "non_ai",
+    "needs_review": true,
+    "reason": "Entity is a software company rather than a single specific product record."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:38.795407+00:00"
+}

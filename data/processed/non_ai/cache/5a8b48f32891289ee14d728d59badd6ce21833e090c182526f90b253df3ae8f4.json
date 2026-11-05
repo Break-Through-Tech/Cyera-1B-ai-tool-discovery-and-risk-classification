@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00072",
+    "description_usable": true,
+    "identity_consistent": false,
+    "function": "Provides an open-source design system and framework for building consistent digital UI products",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": true,
+    "reason": "Mismatch between tool name 'Relative Wave' and Material Design / domain material.io."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:13:07.411596+00:00"
+}

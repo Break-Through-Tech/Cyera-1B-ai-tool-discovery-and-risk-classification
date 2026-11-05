@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00262",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Enables open-source video conferencing, video calling, and self-hosted communication across web and mobile platforms",
+    "category": "Meeting / Transcription Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Standard open-source video conferencing software."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:13:07.422645+00:00"
+}

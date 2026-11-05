@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00406",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Automates web page interactions, navigation, screenshots, and unit testing via a headless browser JavaScript API.",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Conventional headless browser automation and testing tool."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:13:26.051616+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00325",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Support academic workflows and collaboration for researchers to connect and share scientific insights.",
+    "category": "Research / Search",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Reference management and research collaboration platform."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:17:02.580947+00:00"
+}

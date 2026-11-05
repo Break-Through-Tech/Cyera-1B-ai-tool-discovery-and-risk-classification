@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00099",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Search, select, and convert free vector icons into formats such as SVG and PNG for design projects.",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "It is an icon database and asset converter without AI features."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:10:35.220390+00:00"
+}

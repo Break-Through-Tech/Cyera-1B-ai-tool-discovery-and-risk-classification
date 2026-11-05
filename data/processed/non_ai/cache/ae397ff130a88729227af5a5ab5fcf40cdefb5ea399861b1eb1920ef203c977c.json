@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00021",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Organizes projects, tasks, and team collaboration using kanban-style boards, lists, and cards.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Standard visual project and task management software."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:38.801096+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00093",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Delivers managed WordPress hosting services, infrastructure, security, and performance optimization for websites.",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Managed web hosting and site infrastructure service for WordPress."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:11:31.652300+00:00"
+}

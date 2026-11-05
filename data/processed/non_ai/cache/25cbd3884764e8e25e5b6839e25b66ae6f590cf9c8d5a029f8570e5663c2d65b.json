@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00352",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Enhances the discoverability of research outputs and facilitates machine access to open research data from repositories and journals.",
+    "category": "Research / Search",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Provides an open-access repository platform and metadata management for scientific research without AI capabilities indicated."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:12:49.777257+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00233",
+    "description_usable": true,
+    "identity_consistent": false,
+    "function": "Provides a privacy-focused suite of encrypted communication and storage tools including email, VPN, calendar, drive, and pass.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": true,
+    "reason": "Identifies an organization offering a suite/portfolio of multiple distinct privacy tools rather than a single concrete product."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:17:16.833369+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00100",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Enable visual design and launch of responsive websites without writing code.",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Visual no-code web design and website development platform."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:13:43.669907+00:00"
+}

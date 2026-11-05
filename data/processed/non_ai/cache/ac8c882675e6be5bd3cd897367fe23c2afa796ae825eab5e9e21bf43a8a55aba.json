@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00496",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Convert website visitors and optimize on-site interactions to boost conversion rates.",
+    "category": "Sales / Marketing",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Conventional website conversion and visitor engagement tool without AI capabilities indicated."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:02.327739+00:00"
+}

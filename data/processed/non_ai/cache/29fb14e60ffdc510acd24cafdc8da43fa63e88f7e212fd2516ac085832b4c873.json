@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00281",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides financial charting, real-time and historical market data, and a social network for investors.",
+    "category": "Data Analytics",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Financial charting, social networking, and market data platform; no AI features described."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:11:12.892214+00:00"
+}

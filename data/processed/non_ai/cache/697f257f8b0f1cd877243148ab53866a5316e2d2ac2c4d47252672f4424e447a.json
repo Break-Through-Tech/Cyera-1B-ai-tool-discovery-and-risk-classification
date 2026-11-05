@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00399",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Deliver AI-driven contact center services, sales support, voice communication, meetings, and messaging with real-time insights.",
+    "category": "Customer Support",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Central functionality relies on real-time AI insights across communications and contact centers."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:17:02.591379+00:00"
+}

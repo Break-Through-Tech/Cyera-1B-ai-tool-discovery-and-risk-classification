@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00303",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Generates content in specific brand voices across CMS, emails, and social media using AI.",
+    "category": "Content Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "AI-powered writing and content creation are central to the product."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:15:09.569432+00:00"
+}

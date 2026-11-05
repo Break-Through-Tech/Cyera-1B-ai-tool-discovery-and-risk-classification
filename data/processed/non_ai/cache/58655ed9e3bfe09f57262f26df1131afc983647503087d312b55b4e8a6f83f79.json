@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00339",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Build customized work management workflows, applications, and team collaboration processes using a no-code system.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Work management and collaboration platform without AI functionality highlighted in the text."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:02.338991+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00306",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides a web development and hosting platform supporting modern frameworks, serverless functions, and edge computing",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Cloud hosting, CI/CD, and deployment platform for web developers and modern Jamstack apps."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:13:07.414593+00:00"
+}

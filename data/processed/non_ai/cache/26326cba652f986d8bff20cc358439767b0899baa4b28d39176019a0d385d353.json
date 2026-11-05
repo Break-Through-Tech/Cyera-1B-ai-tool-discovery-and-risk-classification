@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00311",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides a self-contained, serverless, and ACID-compliant SQL relational database engine for applications and embedded systems",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Conventional embedded relational SQL database library."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:13:07.424052+00:00"
+}

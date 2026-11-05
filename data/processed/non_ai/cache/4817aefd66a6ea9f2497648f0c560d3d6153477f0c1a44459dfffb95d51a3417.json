@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00030",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Automates meeting scheduling to eliminate back-and-forth communication when booking appointments.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Rule-based calendar scheduling automation tool."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:15:09.562402+00:00"
+}

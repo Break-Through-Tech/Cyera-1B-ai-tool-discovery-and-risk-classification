@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00453",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides a professional coaching platform offering immersive learning and personal development insights.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "BetterUp is a human coaching and training platform without AI technology mentioned."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:09:35.271077+00:00"
+}

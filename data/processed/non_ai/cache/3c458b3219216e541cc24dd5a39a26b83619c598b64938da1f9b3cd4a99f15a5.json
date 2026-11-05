@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00343",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides productivity applications for word processing, spreadsheet management, and presentation creation.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Standard productivity office software suite."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:38.790359+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00059",
+    "description_usable": false,
+    "identity_consistent": false,
+    "function": "Creates integrated development environments, language tools, and team collaboration software for developers.",
+    "category": "Coding / Developer Tools",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Record describes a software company and its portfolio of over 30 products rather than a specific software application."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:15:45.727873+00:00"
+}

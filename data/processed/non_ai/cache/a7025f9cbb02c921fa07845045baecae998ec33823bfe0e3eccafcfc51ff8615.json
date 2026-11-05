@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00301",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Build user interfaces and single-page applications using a progressive, adaptable JavaScript framework.",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Vue.js is an open-source JavaScript front-end framework with no AI capabilities mentioned."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:02.325497+00:00"
+}

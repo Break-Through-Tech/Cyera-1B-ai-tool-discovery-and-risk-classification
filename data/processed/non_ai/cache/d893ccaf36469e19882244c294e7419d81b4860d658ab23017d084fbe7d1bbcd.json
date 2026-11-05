@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00024",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides a comprehensive cloud CRM suite integrating sales, service, marketing, data management, and artificial intelligence solutions.",
+    "category": "Sales / Marketing",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Established enterprise CRM platform incorporating broad conventional tools alongside integrated AI capabilities."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:13:26.049652+00:00"
+}

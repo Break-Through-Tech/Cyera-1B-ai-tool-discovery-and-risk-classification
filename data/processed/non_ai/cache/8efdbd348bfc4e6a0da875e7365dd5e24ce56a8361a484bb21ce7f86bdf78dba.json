@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00227",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides cloud accounting software for online invoicing, expense management, billing, and time tracking.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "A well-defined conventional cloud accounting and invoicing platform without AI features described."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:16:24.716657+00:00"
+}

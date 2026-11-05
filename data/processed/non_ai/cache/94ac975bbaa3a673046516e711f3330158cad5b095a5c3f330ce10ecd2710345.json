@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00418",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Curate and display personalized social content based on user profiles, interests, and interactions.",
+    "category": "Sales / Marketing",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Personalized content curation could be rules-based or AI-driven; description offers insufficient technical evidence."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:12:09.885150+00:00"
+}

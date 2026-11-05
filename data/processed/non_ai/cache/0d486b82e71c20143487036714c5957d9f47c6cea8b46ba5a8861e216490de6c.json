@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00122",
+    "description_usable": false,
+    "identity_consistent": false,
+    "function": "Develops a portfolio of software tools designed for workplace collaboration, productivity, and teamwork",
+    "category": "Productivity",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Record describes a software corporation rather than a single specific product, with high-level generic descriptions."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:16:04.121167+00:00"
+}

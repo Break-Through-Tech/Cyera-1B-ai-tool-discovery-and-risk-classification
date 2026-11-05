@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00058",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Build customizable online forms with conditional logic, payment integrations, automated workflows, and reporting.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Standard no-code form builder and workflow automation software with no AI features noted."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:02.329858+00:00"
+}

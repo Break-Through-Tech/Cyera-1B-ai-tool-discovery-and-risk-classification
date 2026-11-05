@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00235",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provide eCommerce shipment tracking, returns management, email automation, and SMS marketing.",
+    "category": "Sales / Marketing",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "eCommerce post-purchase customer experience, shipping, and marketing automation platform."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:15:27.642344+00:00"
+}

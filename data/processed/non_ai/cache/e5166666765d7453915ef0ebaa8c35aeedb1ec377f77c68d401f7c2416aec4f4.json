@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00463",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides a local server environment featuring PHP, MySQL, and Apache for web developers and designers.",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Standard local development server stack for web development."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:12:49.785516+00:00"
+}

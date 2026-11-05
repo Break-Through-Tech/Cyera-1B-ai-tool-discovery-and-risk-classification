@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00460",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Manages client flow, billing, contracts, and communication for independent service-based businesses.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Business management and invoicing platform for freelancers and service businesses."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:15:09.561510+00:00"
+}

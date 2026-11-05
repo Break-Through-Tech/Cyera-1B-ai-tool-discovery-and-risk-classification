@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00494",
+    "description_usable": false,
+    "identity_consistent": false,
+    "function": "Provides cybersecurity and compliance protection across enterprise communication channels including email, web, cloud, and social media.",
+    "category": "Other",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "The entry describes an entire company portfolio of solutions rather than a specific tool, and lacks details on AI usage."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:09:54.259204+00:00"
+}

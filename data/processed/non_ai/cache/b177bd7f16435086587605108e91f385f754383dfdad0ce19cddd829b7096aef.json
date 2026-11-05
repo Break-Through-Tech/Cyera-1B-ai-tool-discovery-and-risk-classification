@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00110",
+    "description_usable": false,
+    "identity_consistent": false,
+    "function": "Provides enterprise open source solutions including Linux, hybrid cloud, edge computing, and Kubernetes technologies.",
+    "category": "AI Infrastructure / Model Platforms",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Description covers an entire corporation offering broad open source infrastructure solutions rather than a specific tool."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:15:45.725345+00:00"
+}

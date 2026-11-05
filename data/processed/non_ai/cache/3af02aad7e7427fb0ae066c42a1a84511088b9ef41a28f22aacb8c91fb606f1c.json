@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00391",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Utilizes AI to optimize digital publishing monetization, site performance, analytics, SEO, and automated content creation.",
+    "category": "Sales / Marketing",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Explicitly utilizes artificial intelligence for monetization optimization, SEO, and automated content creation."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:12:49.778268+00:00"
+}

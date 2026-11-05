@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00025",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides location intelligence, consumer discovery apps, and location data APIs for audience targeting and analytics.",
+    "category": "Data Analytics",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Foursquare provides location intelligence and APIs; there is no mention of central AI functionality."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:16:44.379489+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00094",
+    "description_usable": true,
+    "identity_consistent": false,
+    "function": "Connects job seekers pursuing unconventional career paths via specialized professional networking profiles.",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": true,
+    "reason": "Tool name 'Nowhere' and the described networking platform conflict with domain 'dictionary.com'."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:12:29.864145+00:00"
+}

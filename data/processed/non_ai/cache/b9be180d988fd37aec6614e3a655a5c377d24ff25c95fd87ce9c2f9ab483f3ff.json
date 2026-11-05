@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00020",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Access digital books, audiobooks, documents, and professional presentations via subscription and sharing platforms.",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Digital subscription service and document repository platform."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:10:35.234641+00:00"
+}

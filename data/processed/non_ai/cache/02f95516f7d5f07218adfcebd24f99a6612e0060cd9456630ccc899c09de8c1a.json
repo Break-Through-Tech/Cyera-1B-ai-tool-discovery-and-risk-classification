@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "claude_00018",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Hosts source code repositories with version control, pull requests, CI/CD, and code reviews.",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Described as a conventional software source code hosting and CI/CD platform."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:09:15.049362+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00194",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides a language-learning platform delivering gamified, bite-sized lessons to enhance student engagement and motivation.",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "An educational language-learning mobile app with no AI features mentioned in the description."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:11:12.880329+00:00"
+}

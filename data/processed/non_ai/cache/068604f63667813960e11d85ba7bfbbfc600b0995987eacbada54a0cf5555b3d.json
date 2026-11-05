@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00402",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Automates continuous localization workflows to translate and publish digital content across multiple languages.",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Localization workflow management and translation coordination platform."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:15:09.571173+00:00"
+}

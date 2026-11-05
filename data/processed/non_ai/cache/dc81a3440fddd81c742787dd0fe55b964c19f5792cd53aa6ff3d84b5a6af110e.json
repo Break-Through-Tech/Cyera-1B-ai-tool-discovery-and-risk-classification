@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00296",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides publishers with real-time analytics to understand audience attention and content engagement",
+    "category": "Data Analytics",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "A media audience analytics and content intelligence platform focusing on metrics and engagement data."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:16:04.122003+00:00"
+}

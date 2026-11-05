@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00370",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provide a software platform leveraging data science to optimize multi-channel and TV advertising and marketing personalization.",
+    "category": "Sales / Marketing",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Mentions leveraging data science for advertising; unclear whether machine learning/AI models are central or standard data analytics."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:12:09.882061+00:00"
+}

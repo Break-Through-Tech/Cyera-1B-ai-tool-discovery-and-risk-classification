@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00471",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Manages package dependencies, libraries, and versioning for PHP software projects.",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Composer is a standard package and dependency management utility for PHP."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:21.322444+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00127",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Enables web developers to test, share, and collaborate on JavaScript, CSS, HTML, and CoffeeScript code snippets.",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "A standard online web-based code playground without AI functionality."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:16:24.723764+00:00"
+}

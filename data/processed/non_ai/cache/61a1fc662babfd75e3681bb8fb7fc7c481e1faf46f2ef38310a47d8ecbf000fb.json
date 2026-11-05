@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00068",
+    "description_usable": true,
+    "identity_consistent": false,
+    "function": "Provides a portfolio of software solutions including AutoCAD, Revit, and Maya for 3D design, engineering, and media.",
+    "category": "Other",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Record describes a multi-product company portfolio rather than a single specific software tool."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:13:26.050462+00:00"
+}

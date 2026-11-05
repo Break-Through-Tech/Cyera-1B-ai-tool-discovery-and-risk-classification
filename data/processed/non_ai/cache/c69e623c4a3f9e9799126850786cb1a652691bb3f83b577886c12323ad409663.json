@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00084",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Manages passwords and provides single sign-on services securely across browsers and devices.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Conventional credential management and SSO security software."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:15:09.558008+00:00"
+}

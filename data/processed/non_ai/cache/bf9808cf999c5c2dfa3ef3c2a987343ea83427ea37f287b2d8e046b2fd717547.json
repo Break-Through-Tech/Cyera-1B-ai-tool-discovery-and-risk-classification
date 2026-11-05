@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00495",
+    "description_usable": true,
+    "identity_consistent": false,
+    "function": "Provides email marketing automation, list management, and analytics to execute targeted email campaigns.",
+    "category": "Sales / Marketing",
+    "ai_status": "non_ai",
+    "needs_review": true,
+    "reason": "Generic placeholder domain example.org conflicts with the tool identity Sendzilla."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:11:51.386967+00:00"
+}

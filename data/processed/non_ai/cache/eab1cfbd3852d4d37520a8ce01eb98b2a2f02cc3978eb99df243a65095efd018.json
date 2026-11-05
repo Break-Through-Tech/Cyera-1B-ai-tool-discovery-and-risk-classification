@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00483",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Facilitates online appointment, class, and workshop booking and scheduling across diverse local service industries.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Standard online scheduling and appointment booking software."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:12:49.781214+00:00"
+}

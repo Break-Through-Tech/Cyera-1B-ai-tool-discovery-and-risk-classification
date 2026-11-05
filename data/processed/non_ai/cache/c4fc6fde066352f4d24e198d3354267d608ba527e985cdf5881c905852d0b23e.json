@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "claude_00021",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Searches, monitors, and analyzes machine-generated log data and operational events.",
+    "category": "Data Analytics",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Conventional log management, searching, and operational data analytics platform."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:09:15.047425+00:00"
+}

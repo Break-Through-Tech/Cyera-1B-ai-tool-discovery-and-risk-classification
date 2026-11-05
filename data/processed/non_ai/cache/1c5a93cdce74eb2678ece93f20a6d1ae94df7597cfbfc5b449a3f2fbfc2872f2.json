@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00308",
+    "description_usable": true,
+    "identity_consistent": false,
+    "function": "Produces digital audio software and hardware for music composition, sound design, and audio post-production.",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": true,
+    "reason": "Record represents a manufacturer/company portfolio rather than a single specific product."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:09:35.266216+00:00"
+}

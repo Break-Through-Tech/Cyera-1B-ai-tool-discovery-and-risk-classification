@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00282",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Analyze, observe, and secure large volumes of data using an AI-powered search platform.",
+    "category": "Research / Search",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Built around the Elastic Search AI Platform for data search, observability, and security."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:17:02.592323+00:00"
+}

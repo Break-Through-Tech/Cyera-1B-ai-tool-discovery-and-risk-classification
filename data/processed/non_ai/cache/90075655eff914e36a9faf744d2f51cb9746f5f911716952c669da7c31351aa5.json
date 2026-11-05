@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00420",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Generates creative visual content and digital art from user concepts using advanced AI models.",
+    "category": "Image / Video Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Core functionality is AI-driven image and digital art generation."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:17:16.834256+00:00"
+}

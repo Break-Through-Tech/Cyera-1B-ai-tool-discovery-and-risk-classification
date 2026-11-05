@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00257",
+    "description_usable": true,
+    "identity_consistent": false,
+    "function": "Organizes documents and compiles BibTeX bibliography files for researchers and academics",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": true,
+    "reason": "Name is 'Lunch Pad' hosted on launchpad.net, likely referring to a specific project rather than the launchpad service itself."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:13:07.416981+00:00"
+}

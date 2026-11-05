@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00356",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides software tools to create, edit, compose, convert, resize, crop, and manipulate digital images.",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Conventional programmatic image manipulation and processing software suite."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:12:49.788326+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00340",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Develops AI assistant Claude and conducts research across natural language processing and reinforcement learning.",
+    "category": "AI Infrastructure / Model Platforms",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Anthropic is an AI research company and creator of the Claude AI assistant."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:09:35.264279+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00497",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Integrates dynamic maps, vector data, and interactive markers into websites via a JavaScript library",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Conventional open-source web mapping developer library with no AI components mentioned."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:52.297176+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00087",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Enables creators to monetize work through direct fan payments, one-time tips, and membership subscriptions.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Creator tipping and membership monetization platform."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:12:29.860291+00:00"
+}

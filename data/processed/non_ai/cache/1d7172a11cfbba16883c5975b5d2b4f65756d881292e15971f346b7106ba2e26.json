@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00346",
+    "description_usable": false,
+    "identity_consistent": false,
+    "function": "Offers cybersecurity and IoT software including AI-based endpoint security, unified endpoint management, and critical event management.",
+    "category": "Other",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Describes BlackBerry's broad corporate software portfolio spanning multiple distinct products (Cylance, UEM, AtHoc, QNX)."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:09:54.275613+00:00"
+}

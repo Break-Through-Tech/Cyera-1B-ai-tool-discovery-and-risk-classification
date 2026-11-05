@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00219",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Manages social media publishing, engagement, customer care, advocacy, and provides AI-powered business intelligence.",
+    "category": "Sales / Marketing",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Social media management platform explicitly featuring AI-powered business intelligence across its tool suite."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:15:45.719852+00:00"
+}

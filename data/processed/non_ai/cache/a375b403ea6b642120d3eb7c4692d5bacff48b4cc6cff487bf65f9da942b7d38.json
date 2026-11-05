@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00410",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Create and share collaborative, visually appealing presentations in real time.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Collaborative presentation creation and design software."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:13:43.677469+00:00"
+}

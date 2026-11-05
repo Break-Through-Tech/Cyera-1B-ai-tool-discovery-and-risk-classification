@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00428",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Enables legal research by providing searchable access to court opinions, PACER records, judge information, and oral arguments.",
+    "category": "Research / Search",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Dedicated legal search and research platform for court documentation."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:11:51.383557+00:00"
+}

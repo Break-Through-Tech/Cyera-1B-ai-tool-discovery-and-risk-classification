@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00073",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Collect, manage, and model corporate and regulatory reporting data using applications and APIs.",
+    "category": "Data Analytics",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Enterprise software platform for regulatory reporting and data management."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:17:02.583762+00:00"
+}

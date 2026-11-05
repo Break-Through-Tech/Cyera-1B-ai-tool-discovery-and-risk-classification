@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00185",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Deliver online courses and degree programs across academic disciplines from partner institutions.",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "It is an educational MOOC platform offering online degree programs and courses."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:10:53.454025+00:00"
+}

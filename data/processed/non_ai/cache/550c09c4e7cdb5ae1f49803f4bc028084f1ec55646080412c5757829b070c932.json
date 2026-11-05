@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00467",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provide end-to-end encrypted messaging and collaboration based on the decentralized Matrix protocol.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Secure messaging and collaboration client based on the Matrix protocol."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:15:27.632703+00:00"
+}

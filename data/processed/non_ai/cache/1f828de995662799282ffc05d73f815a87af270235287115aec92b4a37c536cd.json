@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00327",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Organizes in-person, virtual, and hybrid events featuring AI-driven tools, interactive engagement, and analytics.",
+    "category": "Productivity",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Mentions AI-driven features in an event management suite, but insufficient detail to determine if AI is central or peripheral."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:11:12.890618+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00333",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Facilitate live online auction bidding, auction management, and marketing for arts and collectibles.",
+    "category": "Sales / Marketing",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "It is an online auction marketplace and auction management software."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:10:53.451681+00:00"
+}

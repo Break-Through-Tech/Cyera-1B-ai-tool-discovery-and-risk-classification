@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00037",
+    "description_usable": false,
+    "identity_consistent": false,
+    "function": "Provide web development, blogging platforms, content management systems, and e-commerce solutions across multiple distinct products.",
+    "category": "Other",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Entity describes a holding company and portfolio of distinct products (WordPress.com, WooCommerce, Jetpack) rather than a single software tool."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:17:02.579267+00:00"
+}

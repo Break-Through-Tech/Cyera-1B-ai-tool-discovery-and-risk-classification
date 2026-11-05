@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00378",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides AI-powered public relations software combining media database access, monitoring, reporting, and pitching tools.",
+    "category": "Sales / Marketing",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Specifically identified as AI-powered PR software for media monitoring and pitching."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:16:24.718794+00:00"
+}

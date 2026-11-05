@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00274",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Delivers a cloud-based email delivery and communication platform to ensure reliable transactional and marketing email distribution.",
+    "category": "Sales / Marketing",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Email delivery and infrastructure platform with no mentioned AI features."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:11:51.377792+00:00"
+}

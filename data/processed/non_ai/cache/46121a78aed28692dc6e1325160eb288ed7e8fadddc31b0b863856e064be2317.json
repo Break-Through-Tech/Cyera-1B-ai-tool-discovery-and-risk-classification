@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00104",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides online video courses and learning resources focusing on creative skills, design, business, and technology.",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Online course marketplace for creative and professional skills with no AI capabilities mentioned."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:11:12.882913+00:00"
+}

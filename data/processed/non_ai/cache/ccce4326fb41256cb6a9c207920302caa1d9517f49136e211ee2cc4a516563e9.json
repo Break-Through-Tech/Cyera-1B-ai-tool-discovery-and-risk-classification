@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00078",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides interactive digital boards for brainstorming, organizing ideas, and collaborative information sharing.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Visual collaboration and brainstorming whiteboard tool."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:38.789598+00:00"
+}

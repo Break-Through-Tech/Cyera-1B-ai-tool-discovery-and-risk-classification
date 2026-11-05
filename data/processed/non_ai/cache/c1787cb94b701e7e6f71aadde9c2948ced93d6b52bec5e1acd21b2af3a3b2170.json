@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00480",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Collect and analyze real-time customer feedback using chat-like, classic, offline, and NPS surveys.",
+    "category": "Customer Support",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Experience management and survey platform without explicit AI functionality."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:02.335321+00:00"
+}

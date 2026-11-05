@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00474",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Manage customer reviews, visual user-generated content, loyalty programs, referrals, and SMS and email marketing for eCommerce retention.",
+    "category": "Sales / Marketing",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Conventional eCommerce retention and customer marketing platform; no central AI mentioned."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:12:09.876159+00:00"
+}

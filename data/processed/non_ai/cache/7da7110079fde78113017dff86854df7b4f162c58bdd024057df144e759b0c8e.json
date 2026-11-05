@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00184",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Integrates content management, marketing experimentation, commerce, and personalization for marketing teams.",
+    "category": "Sales / Marketing",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Digital experience, A/B testing, and marketing experimentation platform."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:38.798062+00:00"
+}

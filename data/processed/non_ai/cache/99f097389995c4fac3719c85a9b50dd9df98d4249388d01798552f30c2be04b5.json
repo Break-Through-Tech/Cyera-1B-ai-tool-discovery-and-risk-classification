@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00247",
+    "description_usable": false,
+    "identity_consistent": false,
+    "function": "Offers digital safety and online protection products to safeguard devices and data against cyber threats.",
+    "category": "Other",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Broad corporate description for McAfee encompassing many security products without a distinct product function."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:09:54.271676+00:00"
+}

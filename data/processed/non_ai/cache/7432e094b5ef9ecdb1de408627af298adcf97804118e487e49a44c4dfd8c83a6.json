@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00388",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides cloud-based instant messaging with media sharing, voice and video calls, and optional end-to-end encryption.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Telegram is described as a cloud-based instant messaging application without central AI functionality."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:16:44.364432+00:00"
+}

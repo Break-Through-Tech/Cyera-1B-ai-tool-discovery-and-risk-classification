@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00446",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Hosts web applications, sites, and services as a Windows-based web server.",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Traditional web server software developed by Microsoft."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:15:45.730016+00:00"
+}

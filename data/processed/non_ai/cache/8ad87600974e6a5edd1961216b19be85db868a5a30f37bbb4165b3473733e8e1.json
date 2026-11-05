@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00415",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Enables users to create and edit visual graphics, social media posts, and marketing materials using templates and stock photos.",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Conventional online graphic design and photo editing platform based on templates and standard editing tools."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:11:31.646520+00:00"
+}

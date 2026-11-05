@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "claude_00005",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides video conferencing, webinars, chat, and phone communication services.",
+    "category": "Meeting / Transcription Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Conventional video conferencing and telecommunications platform."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:09:15.039062+00:00"
+}

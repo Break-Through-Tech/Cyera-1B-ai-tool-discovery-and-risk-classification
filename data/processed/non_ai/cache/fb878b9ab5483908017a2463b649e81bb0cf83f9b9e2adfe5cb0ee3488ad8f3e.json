@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00442",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides an online collaborative environment for developers and creators to build websites and web applications",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Online web application coding, development, and hosting platform."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:13:07.423340+00:00"
+}

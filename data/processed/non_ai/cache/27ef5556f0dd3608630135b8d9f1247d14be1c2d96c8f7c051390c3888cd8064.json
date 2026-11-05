@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00451",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides an open-access repository for researchers to publish and share datasets, negative results, and unpublished figures.",
+    "category": "Research / Search",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Scientific open-access data repository without AI features."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:12:49.781872+00:00"
+}

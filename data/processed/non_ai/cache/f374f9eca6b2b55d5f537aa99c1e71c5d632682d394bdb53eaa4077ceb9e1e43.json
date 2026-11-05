@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00216",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Builds customized Google Apps Script and G Suite solutions to automate business workflows and processes.",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Provides custom Google Apps Script automation solutions; no AI features mentioned."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:16:24.722950+00:00"
+}

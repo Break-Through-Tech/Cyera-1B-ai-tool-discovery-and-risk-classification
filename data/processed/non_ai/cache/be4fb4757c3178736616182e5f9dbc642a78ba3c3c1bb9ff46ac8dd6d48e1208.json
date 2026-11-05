@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "claude_00007",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Enables team collaboration through chat, video meetings, file storage, and integrated workplace applications.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Described as a standard communication and collaboration hub."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:09:15.037640+00:00"
+}

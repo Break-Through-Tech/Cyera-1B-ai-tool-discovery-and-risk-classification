@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00302",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Manages and securely stores user credentials and passwords for individuals, teams, and organizations.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Bitwarden is a conventional password management utility without AI functionality described."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:09:54.270647+00:00"
+}

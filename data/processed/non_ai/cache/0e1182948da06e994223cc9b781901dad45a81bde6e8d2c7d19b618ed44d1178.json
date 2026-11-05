@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "claude_00006",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Creates, organizes, and shares team documentation, technical resources, and workspace knowledge.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Described as a standard documentation and knowledge base tool."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:09:15.045801+00:00"
+}

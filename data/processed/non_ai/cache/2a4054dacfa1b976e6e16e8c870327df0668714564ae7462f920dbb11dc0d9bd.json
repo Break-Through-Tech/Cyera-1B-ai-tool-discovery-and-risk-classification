@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00332",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Facilitate visual collaboration, digital whiteboarding, and team brainstorming to develop ideas and workflows.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Visual collaboration and whiteboarding workspace without central AI features described."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:15:27.635900+00:00"
+}

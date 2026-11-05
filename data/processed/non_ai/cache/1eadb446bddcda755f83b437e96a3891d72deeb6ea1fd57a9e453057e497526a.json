@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00405",
+    "description_usable": false,
+    "identity_consistent": false,
+    "function": "Deploy websites using CMS templates, CSS frameworks, and eCommerce solutions.",
+    "category": "Coding / Developer Tools",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Domain (symfony.com) does not match company name (T3NET Co., Ltd.) and the entry describes a services agency rather than a single software tool."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:17:02.585734+00:00"
+}

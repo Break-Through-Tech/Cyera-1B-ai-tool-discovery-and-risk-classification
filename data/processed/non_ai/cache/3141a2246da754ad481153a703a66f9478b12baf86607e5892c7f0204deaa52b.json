@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00146",
+    "description_usable": false,
+    "identity_consistent": false,
+    "function": "Manufacture consumer electronics and provide cloud storage, application store, and digital media services.",
+    "category": "Other",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Company profile for Apple with mismatched domain icloud.com and a broad portfolio of hardware and services."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:17:02.588900+00:00"
+}

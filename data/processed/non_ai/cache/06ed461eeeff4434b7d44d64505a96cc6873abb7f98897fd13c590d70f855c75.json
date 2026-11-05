@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00266",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Facilitates electronic signatures and contract lifecycle workflows to create, sign, and manage agreements digitally.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "E-signature and contract lifecycle management software platform."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:13:26.061675+00:00"
+}

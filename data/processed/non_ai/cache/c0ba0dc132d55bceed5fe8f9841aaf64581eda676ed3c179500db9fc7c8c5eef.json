@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00138",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Build and manage customizable SaaS e-commerce stores for B2B and B2C brands.",
+    "category": "Sales / Marketing",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "It is an enterprise SaaS platform for building and operating online retail stores."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:10:53.450906+00:00"
+}

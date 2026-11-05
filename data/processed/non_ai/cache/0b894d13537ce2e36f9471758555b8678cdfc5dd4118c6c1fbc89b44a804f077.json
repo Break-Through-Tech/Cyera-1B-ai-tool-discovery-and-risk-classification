@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00305",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Create, host, market, and analyze business video content with customizable players.",
+    "category": "Sales / Marketing",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Platform focused on hosting, tracking, and marketing video content for businesses."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:17:02.584659+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00357",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides interactive online courses, video tutorials, and in-browser coding practice for data science and programming education.",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "An interactive data science training platform; no explicit AI features or models are mentioned."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:11:12.881120+00:00"
+}

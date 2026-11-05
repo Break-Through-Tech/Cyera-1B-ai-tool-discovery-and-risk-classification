@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00158",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides market, competitor, and company intelligence using AI technology, database access, and API integrations.",
+    "category": "Data Analytics",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Market intelligence and analytics platform explicitly utilizing advanced AI technology to generate insights."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:11:31.658379+00:00"
+}

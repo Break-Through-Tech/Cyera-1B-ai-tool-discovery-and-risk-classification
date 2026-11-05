@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00174",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides compensation data, software solutions, and analytics for salary benchmarking and pay equity management.",
+    "category": "Data Analytics",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Compensation management and salary benchmarking platform based on empirical market data and analytics."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:11:31.653302+00:00"
+}

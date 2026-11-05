@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00389",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Leverages AI assistants to perform research, analyze complex problems, and create personalized content.",
+    "category": "General AI Assistants",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Explicitly defined as an engine leveraging AI assistants for research, analysis, and content creation."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:12:49.786248+00:00"
+}

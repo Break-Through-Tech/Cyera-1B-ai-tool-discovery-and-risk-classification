@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00205",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provide mobile attribution, deep linking, fraud protection, and marketing analytics for mobile applications.",
+    "category": "Sales / Marketing",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Specialized mobile marketing attribution and performance analytics platform."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:17:02.586494+00:00"
+}

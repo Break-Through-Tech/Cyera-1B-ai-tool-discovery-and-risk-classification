@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00400",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Tracks and analyzes time spent on digital activities to cultivate better work habits and productivity.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "RescueTime is a conventional time tracking and productivity analysis application."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:21.315698+00:00"
+}

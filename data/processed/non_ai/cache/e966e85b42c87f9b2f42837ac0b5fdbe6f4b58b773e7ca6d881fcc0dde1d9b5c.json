@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "claude_00027",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Manages job postings, candidate tracking, and hiring workflows for recruiting.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Described as a standard applicant tracking and recruiting system."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:09:15.043303+00:00"
+}

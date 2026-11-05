@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00041",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides cloud-based collaborative design, wireframing, and prototyping tools for UI/UX teams in real time.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Cloud interface design and prototyping tool; no AI features mentioned in the description."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:12:49.787045+00:00"
+}

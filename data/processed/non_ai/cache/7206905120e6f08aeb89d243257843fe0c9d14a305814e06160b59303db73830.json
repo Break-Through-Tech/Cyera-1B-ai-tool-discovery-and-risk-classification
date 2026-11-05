@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00042",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Deliver market intelligence, competitor tracking, and security threat research using Feedly AI machine learning models.",
+    "category": "Research / Search",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Explicitly centers Feedly AI machine learning models to deliver real-time insights and threat analysis."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:13:43.673392+00:00"
+}

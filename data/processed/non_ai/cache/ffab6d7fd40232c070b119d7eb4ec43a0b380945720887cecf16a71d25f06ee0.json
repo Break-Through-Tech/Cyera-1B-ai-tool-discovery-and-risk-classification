@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00047",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Connects classrooms globally for virtual learning experiences, guest speaker sessions, and collaborative educational activities.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Skype in the Classroom is an educational communication and virtual classroom platform without AI features."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:11:12.887045+00:00"
+}

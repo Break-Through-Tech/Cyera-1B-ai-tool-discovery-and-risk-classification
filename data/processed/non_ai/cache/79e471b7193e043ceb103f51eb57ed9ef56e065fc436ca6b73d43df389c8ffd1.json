@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "claude_00010",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Automates workflows for IT service management, human resources service delivery, and enterprise operations.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Conventional enterprise workflow automation and IT service management platform."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:09:15.045039+00:00"
+}

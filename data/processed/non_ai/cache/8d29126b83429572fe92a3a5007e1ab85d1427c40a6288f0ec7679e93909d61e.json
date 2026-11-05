@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00197",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides creative photo editing tools, community networking, and sharing platforms for photographers.",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Photo editing and creative community networking application."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:12:29.862548+00:00"
+}

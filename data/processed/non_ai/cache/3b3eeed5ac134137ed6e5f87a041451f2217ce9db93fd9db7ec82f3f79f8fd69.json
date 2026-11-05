@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00022",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Facilitate voice, video, and text communication for friends and online communities.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Communication platform for real-time text, voice, and video interaction."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:17:02.582775+00:00"
+}

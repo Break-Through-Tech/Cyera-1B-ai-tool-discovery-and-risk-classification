@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00479",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Formats web pages for printer-friendly reading and converts online pages and files into PDF documents.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Web utility for printer formatting and PDF document conversion."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:11:51.379414+00:00"
+}

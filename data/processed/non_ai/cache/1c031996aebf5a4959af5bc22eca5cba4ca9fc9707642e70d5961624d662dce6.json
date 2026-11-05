@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00387",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Block online advertisements, prevent tracking, and protect devices from malware across multiple platforms.",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Cybersecurity and ad-blocking software suite."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:15:27.639759+00:00"
+}

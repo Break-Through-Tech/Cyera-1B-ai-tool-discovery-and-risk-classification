@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00136",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Delivers online technology training courses, personalized mentorship, and workforce development programs.",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "An online learning and workforce training platform without AI-specific features outlined."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:11:12.887707+00:00"
+}

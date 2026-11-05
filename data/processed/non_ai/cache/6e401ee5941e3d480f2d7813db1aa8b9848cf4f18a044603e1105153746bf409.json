@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00019",
+    "description_usable": false,
+    "identity_consistent": false,
+    "function": "Conducts AI research and deployment to ensure general-purpose artificial intelligence benefits humanity.",
+    "category": "AI Infrastructure / Model Platforms",
+    "ai_status": "ai",
+    "needs_review": true,
+    "reason": "Description focuses entirely on company research mission without describing a specific concrete software tool or product."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:09:35.265293+00:00"
+}

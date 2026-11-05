@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00182",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Compresses and decompresses data at high speeds for real-time storage and retrieval applications",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Algorithmic data compression library with no AI or machine learning elements."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:52.308526+00:00"
+}

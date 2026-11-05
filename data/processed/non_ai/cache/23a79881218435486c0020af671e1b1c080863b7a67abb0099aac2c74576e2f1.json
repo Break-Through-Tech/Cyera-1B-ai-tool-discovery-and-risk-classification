@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00090",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides secure digital file transfer and asset-sharing tools for creative collaboration.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Conventional file-sharing and collaboration platform."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:17:16.836572+00:00"
+}

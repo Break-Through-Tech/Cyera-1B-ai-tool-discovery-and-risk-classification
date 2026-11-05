@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00083",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Analyzes market trends and digital traffic data to provide competitor insights and digital intelligence.",
+    "category": "Data Analytics",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Digital intelligence and analytics platform; description does not clarify whether core insights rely on AI models."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:09:54.277042+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00176",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Manages and secures user identities, authentication, and access authorization across diverse enterprise applications",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Identity and access management / authentication software platform."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:16:04.131569+00:00"
+}

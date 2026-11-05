@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00179",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides small business management tools for accounting, payroll, workforce management, and project tracking.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Conventional small business accounting and workforce management platform."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:11:12.892958+00:00"
+}

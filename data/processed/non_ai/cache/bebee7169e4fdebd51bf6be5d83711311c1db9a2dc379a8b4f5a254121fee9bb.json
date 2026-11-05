@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00270",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides software tools, including Burp Suite, for conducting security testing on web applications",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Web application security testing software suite without AI components mentioned."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:13:07.420359+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00210",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides file compression, encryption, and system utility solutions across multiple platforms and cloud services",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Specific conventional file compression and encryption utility software without AI features."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:52.292163+00:00"
+}

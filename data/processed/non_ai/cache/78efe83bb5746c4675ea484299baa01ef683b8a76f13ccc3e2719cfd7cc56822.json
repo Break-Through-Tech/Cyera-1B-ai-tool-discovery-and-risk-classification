@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00252",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Filters and blocks comment and contact form spam for WordPress websites using filtering algorithms.",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Algorithmic spam detection and filtering tool."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:38.794453+00:00"
+}

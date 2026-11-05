@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00255",
+    "description_usable": true,
+    "identity_consistent": false,
+    "function": "Create and curate visually appealing weekly email newsletters.",
+    "category": "Sales / Marketing",
+    "ai_status": "non_ai",
+    "needs_review": true,
+    "reason": "Domain getrevue.co does not match tool name 'Shores Beyond' (appears to be a newsletter hosted on Revue)."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:12:09.886401+00:00"
+}

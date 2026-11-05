@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00445",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Monitors work hours across projects and maintains timesheets for individuals and teams.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Clockify is a conventional time tracking and timesheet application."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:21.323292+00:00"
+}

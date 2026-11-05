@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00132",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides software and services for potential field geophysics processing, 3D geology, and quantitative data interpretation.",
+    "category": "Data Analytics",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Specialized geophysical processing and 3D geology software without mention of AI models."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:11:12.895179+00:00"
+}

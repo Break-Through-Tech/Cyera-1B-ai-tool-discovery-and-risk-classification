@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00487",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides marketing automation, transactional emails, SMS messaging, and contact management tools for digital marketing campaigns.",
+    "category": "Sales / Marketing",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Digital marketing and email/SMS automation platform without AI elements detailed."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:11:51.385662+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00103",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Facilitates live customer messaging, support ticketing, and knowledge base management for websites.",
+    "category": "Customer Support",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Conventional customer live chat and help desk ticketing software."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:15:45.730709+00:00"
+}

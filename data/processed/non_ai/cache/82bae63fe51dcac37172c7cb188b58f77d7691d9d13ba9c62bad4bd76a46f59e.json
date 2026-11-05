@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00263",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Delivers cloud solutions for multi-screen video publishing, distribution, measurement, and monetization.",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Brightcove provides video hosting, delivery, and monetization infrastructure."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:16:44.368656+00:00"
+}

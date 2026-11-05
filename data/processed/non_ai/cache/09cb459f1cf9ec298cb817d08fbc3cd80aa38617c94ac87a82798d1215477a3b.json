@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00316",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Streamline SEO content strategy, creation, and optimization using algorithms to boost organic traffic.",
+    "category": "Sales / Marketing",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Mentions content intelligence and advanced algorithms, but lacks explicit details on AI/ML models."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:10:35.228982+00:00"
+}

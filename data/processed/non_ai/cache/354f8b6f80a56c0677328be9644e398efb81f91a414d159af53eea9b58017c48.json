@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00450",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides a commenting system integrating with blogging platforms to support discussions and user engagement on websites.",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Standard commenting platform integration without AI components described."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:11:51.372037+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00351",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides cloud-based collaborative calendaring and scheduling to manage events and resources for teams and businesses.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Conventional team calendar and resource management software."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:13:26.045784+00:00"
+}

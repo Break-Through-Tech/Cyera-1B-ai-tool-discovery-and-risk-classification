@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00437",
+    "description_usable": true,
+    "identity_consistent": false,
+    "function": "Create permanent links for citations in academic and published works to prevent broken links.",
+    "category": "Research / Search",
+    "ai_status": "non_ai",
+    "needs_review": true,
+    "reason": "Tool name is listed as Policy while the domain is perma.cc and description discusses Perma."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:10:35.225159+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00413",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Protects cloud, network, and mobile systems from cybersecurity threats using artificial intelligence and automation.",
+    "category": "Other",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Cybersecurity platform emphasizing artificial intelligence and automation as central to threat protection across platforms."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:11:31.654867+00:00"
+}

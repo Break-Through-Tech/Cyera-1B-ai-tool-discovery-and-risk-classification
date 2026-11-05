@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00438",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Serve as the package repository for PHP Composer to manage and discover project dependencies.",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Standard open-source PHP package repository infrastructure."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:15:27.637008+00:00"
+}

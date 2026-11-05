@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00273",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Monitor application performance and track, diagnose, and fix software errors for developers.",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Application performance and error tracking developer tool, operating as standard software."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:15:27.630767+00:00"
+}

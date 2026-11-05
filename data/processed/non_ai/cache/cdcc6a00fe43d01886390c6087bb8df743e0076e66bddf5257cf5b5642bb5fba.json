@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00143",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Consolidates project management, document collaboration, and AI capabilities into a single productivity platform.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Primarily a general productivity and project management suite; AI capabilities are an integrated feature rather than the sole core product."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:16:24.721388+00:00"
+}

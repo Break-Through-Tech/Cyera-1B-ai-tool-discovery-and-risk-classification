@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00394",
+    "description_usable": true,
+    "identity_consistent": false,
+    "function": "Provides access to the Living Atlas of the World containing global geographic maps, applications, and data layers.",
+    "category": "Data Analytics",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "The tool name is California URISA but the domain is arcgis.com (Esri) and describes Living Atlas/URISA activities, presenting an identity mismatch."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:11:31.644083+00:00"
+}

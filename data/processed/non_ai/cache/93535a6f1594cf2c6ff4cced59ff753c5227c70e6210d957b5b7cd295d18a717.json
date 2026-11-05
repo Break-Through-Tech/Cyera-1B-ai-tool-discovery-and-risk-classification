@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00427",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Cleans system files, protects privacy, and provides optimization and maintenance tools across devices",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Standard system cleaning and device maintenance software with no AI capabilities described."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:52.293343+00:00"
+}

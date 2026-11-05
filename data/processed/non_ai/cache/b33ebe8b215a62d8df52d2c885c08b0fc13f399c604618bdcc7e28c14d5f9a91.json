@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "claude_00003",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Tracks software issues, project tasks, and agile workflows for technical and business teams.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Standard issue and project tracking system."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:09:15.048750+00:00"
+}

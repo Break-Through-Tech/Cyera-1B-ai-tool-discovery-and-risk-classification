@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00353",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Serves as an open-source React framework for building server-side rendered and static web applications.",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "A web development framework; standard software development tool without AI."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:16:24.724802+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00407",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Organize knowledge, digital textbooks, and educational resources collaboratively using cloud and AI technology.",
+    "category": "Productivity",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Description explicitly states the platform organizes knowledge using artificial intelligence."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:10:53.456998+00:00"
+}

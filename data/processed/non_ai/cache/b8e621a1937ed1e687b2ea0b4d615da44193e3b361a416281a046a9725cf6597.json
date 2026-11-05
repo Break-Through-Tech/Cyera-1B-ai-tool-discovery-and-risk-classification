@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00237",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Enables users to take notes, create to-do lists, and document meetings across digital notebooks.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Standard digital note-taking and task organization software."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:15:09.554735+00:00"
+}

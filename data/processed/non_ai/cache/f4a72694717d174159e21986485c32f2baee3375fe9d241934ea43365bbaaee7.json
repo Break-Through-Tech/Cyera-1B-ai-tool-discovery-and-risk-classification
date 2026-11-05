@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00231",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Acts as a preprocessor scripting language extending CSS with variables, nested rules, and mixins.",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Programming/stylesheet preprocessor language for web development."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:15:09.568591+00:00"
+}

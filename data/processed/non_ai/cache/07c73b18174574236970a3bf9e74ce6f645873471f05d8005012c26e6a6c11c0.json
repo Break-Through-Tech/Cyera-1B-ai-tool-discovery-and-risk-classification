@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00267",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides a subscription-based social platform enabling content creators to share exclusive content and monetize their audience.",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "A subscription content and social platform; no AI features indicated."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:16:24.726834+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00065",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides private company research, prospecting data, and API access for investors, sales teams, and researchers.",
+    "category": "Research / Search",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Crunchbase is a conventional business directory and database search platform."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:09:54.279938+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00198",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provide marketing automation tools including email, SMS, chatbot marketing, landing page creation, course development, and CRM.",
+    "category": "Sales / Marketing",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Offers chatbots and automation, but insufficient evidence whether chatbots rely on AI/LLMs or standard rule-based logic."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:12:09.887573+00:00"
+}

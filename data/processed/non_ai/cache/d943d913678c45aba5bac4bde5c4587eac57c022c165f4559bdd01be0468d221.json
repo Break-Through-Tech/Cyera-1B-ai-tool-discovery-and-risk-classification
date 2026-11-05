@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00350",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides an engineer community for technical knowledge sharing, document collaboration, and job matching.",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Knowledge-sharing and team collaboration platform tailored for software engineers."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:12:49.788919+00:00"
+}

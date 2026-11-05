@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00048",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Manages social media campaigns, customer interactions, and social commerce workflows across various networks.",
+    "category": "Sales / Marketing",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Social media scheduling, monitoring, and campaign management platform."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:15:09.564804+00:00"
+}

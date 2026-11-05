@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00214",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Tracks, plans, and analyzes team work time and productivity for professional services firms",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Traditional time tracking and business productivity software without AI features."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:52.311768+00:00"
+}

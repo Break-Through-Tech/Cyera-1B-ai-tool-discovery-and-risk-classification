@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00142",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Transforms raw data into actionable insights through intuitive visual analytics and business intelligence dashboards",
+    "category": "Data Analytics",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Established visual data analytics and business intelligence tool."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:16:04.129272+00:00"
+}

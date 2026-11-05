@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00310",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides document editing, project management, CRM, and calendar functionalities compatible with Microsoft Office formats.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Comprehensive conventional office and productivity suite without mention of AI capabilities."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:38.783268+00:00"
+}

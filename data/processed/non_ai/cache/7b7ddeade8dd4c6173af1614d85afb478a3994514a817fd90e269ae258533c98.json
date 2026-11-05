@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00062",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Generates privacy policies, cookie compliance solutions, and legal documentation to meet international data compliance regulations.",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Legal policy generation and compliance monitoring tool."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:11:51.381589+00:00"
+}

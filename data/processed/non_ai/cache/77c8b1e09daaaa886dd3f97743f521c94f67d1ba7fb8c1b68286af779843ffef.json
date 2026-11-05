@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00223",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Build and manage online stores across existing websites and platforms for small businesses.",
+    "category": "Sales / Marketing",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "It is a standard e-commerce store builder and management platform with no AI features mentioned."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:10:53.440801+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00292",
+    "description_usable": false,
+    "identity_consistent": false,
+    "function": "Provides enterprise threat defense and cloud security solutions across cloud and enterprise environments.",
+    "category": "Other",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "High-level company summary covering a diverse product portfolio with insufficient detail on AI capabilities or a concrete product."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:09:54.263119+00:00"
+}

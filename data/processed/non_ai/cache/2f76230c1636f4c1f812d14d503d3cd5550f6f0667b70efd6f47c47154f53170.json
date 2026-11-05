@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00457",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Delivers an AI-first customer service platform featuring an AI Chatbot, AI Copilot for agents, and an AI Analyst.",
+    "category": "Customer Support",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Described as an AI-first customer service platform powered by AI chatbots, copilot, and analytics."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:16:24.717623+00:00"
+}

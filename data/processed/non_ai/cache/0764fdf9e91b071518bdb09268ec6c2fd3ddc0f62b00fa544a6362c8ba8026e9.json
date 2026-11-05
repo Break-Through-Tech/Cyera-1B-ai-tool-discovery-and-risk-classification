@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00241",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Stores and manages passwords and digital credentials securely across web and mobile platforms.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Dashlane is a conventional password manager without AI features mentioned."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:21.316542+00:00"
+}

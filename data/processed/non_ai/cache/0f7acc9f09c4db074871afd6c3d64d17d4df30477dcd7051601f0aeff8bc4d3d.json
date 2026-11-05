@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00050",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provide a collaborative DevOps platform integrating development, security, and operations from idea to production.",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "GitLab is a well-defined DevOps software development platform without core AI features described."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:02.331812+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00408",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides monetization, advertising, and analytics tools to help developers optimize and grow Android app businesses.",
+    "category": "Sales / Marketing",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Conventional app marketing, monetization, and analytics platform for Android developers."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:12:29.851019+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00105",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Develops and maintains international standards for universal text, character, and emoji representation across computing systems.",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Standardization organization and character encoding standards body."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:12:29.854784+00:00"
+}

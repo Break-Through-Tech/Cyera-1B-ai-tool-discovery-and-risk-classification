@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00183",
+    "description_usable": false,
+    "identity_consistent": false,
+    "function": "Offers threat prevention, detection, and response solutions using anti-malware, behavioral analytics, and artificial intelligence.",
+    "category": "Other",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Covers Bitdefender as a broad enterprise/consumer vendor with a wide portfolio rather than a single specific product."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:09:54.264414+00:00"
+}

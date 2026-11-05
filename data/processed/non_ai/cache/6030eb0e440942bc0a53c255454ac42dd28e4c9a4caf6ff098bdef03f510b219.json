@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00465",
+    "description_usable": true,
+    "identity_consistent": false,
+    "function": "Provides a markdown pastebin service to create, preview, edit, and share notes via custom URLs.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": true,
+    "reason": "Tool name 'Boogweb Sales Consulting' conflicts with domain 'rentry.co' and the markdown pastebin service described."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:09:35.273249+00:00"
+}

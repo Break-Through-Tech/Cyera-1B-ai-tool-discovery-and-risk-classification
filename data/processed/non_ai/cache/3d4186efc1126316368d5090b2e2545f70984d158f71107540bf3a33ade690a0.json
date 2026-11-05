@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00077",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Host, discover, share, test, and manage JavaScript code packages and dependencies.",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Package registry and dependency management tool for JavaScript developers without AI components."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:02.335962+00:00"
+}

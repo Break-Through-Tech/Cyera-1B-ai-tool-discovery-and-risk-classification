@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00018",
+    "description_usable": true,
+    "identity_consistent": false,
+    "function": "Operates WordPress.com to offer website building, hosting, domain registration, and blogging services.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": true,
+    "reason": "Entry mixes company entity Automattic with product WordPress.com; standard web hosting/CMS platform."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:16:24.727499+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00431",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Create and edit scalable vector graphics (SVG) with graphic design and illustration tools.",
+    "category": "Content Generation",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Traditional open-source vector graphics software with no AI attributes."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:02.334331+00:00"
+}

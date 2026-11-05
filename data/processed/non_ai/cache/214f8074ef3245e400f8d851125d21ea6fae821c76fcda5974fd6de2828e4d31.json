@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00135",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Create real-time 3D photorealistic graphics and immersive experiences for gaming, film, architecture, and VR.",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "3D creation and real-time graphics rendering engine without AI central to description."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:13:43.672560+00:00"
+}

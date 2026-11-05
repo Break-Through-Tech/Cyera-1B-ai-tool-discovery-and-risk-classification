@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00447",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Centralizes customer communication, review collection, text marketing campaigns, and payment processing for local businesses.",
+    "category": "Customer Support",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Podium is described as a local business communications and review management platform."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:16:44.372442+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00461",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Sketch out low-fidelity user interface wireframes and interactive prototypes for web and mobile applications.",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "UI wireframing and prototyping design tool for software development teams."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:15:27.643283+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00488",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides a cloud-based code hosting platform supporting Git and SVN version control repositories",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Conventional code repository hosting platform supporting Git and SVN."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:13:07.424830+00:00"
+}

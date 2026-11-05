@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00381",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides interactive online coding courses covering multiple programming languages for students and professionals.",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Coding education platform; primary function is conventional interactive e-learning without AI mentioned."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:11:12.883729+00:00"
+}

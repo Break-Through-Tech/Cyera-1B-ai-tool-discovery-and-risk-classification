@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00056",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Build and manage websites, landing pages, and marketing funnels to optimize sales conversion rates.",
+    "category": "Sales / Marketing",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Traditional sales funnel and web page builder without AI features described."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:10:35.230010+00:00"
+}

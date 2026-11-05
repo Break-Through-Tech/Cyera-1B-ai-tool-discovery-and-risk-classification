@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00499",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Create, share, and integrate custom business applications to improve work efficiency and collaboration.",
+    "category": "Coding / Developer Tools",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Custom application development and workflow integration platform without AI features."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:13:43.670813+00:00"
+}

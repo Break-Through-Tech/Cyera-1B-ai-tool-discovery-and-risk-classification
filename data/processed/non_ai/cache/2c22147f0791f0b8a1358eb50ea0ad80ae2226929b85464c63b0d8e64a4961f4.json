@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00349",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Scan websites to detect cookies and manage automated consent to maintain privacy regulation compliance.",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Conventional website scanner and cookie consent compliance management tool."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:17:02.593132+00:00"
+}

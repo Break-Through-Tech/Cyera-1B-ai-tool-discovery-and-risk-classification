@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00141",
+    "description_usable": true,
+    "identity_consistent": false,
+    "function": "Operates a central registry assigning unique persistent identifiers to academic researchers to connect scholarly contributions.",
+    "category": "Research / Search",
+    "ai_status": "non_ai",
+    "needs_review": true,
+    "reason": "Tool name 'LP Gestion et Assainissement Liquide du Milieu Urbain' conflicts with ORCID domain and description."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:12:29.855596+00:00"
+}

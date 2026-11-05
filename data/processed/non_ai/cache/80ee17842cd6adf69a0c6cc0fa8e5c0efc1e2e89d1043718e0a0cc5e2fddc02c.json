@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00064",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Enables users to create marketing and social media videos using a drag-and-drop interface.",
+    "category": "Image / Video Generation",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Drag-and-drop video creation tool with no generative AI capabilities detailed."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:16:24.729830+00:00"
+}

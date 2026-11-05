@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00347",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides two-factor authentication solutions to secure web applications and prevent unauthorized account access.",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Authy is a conventional two-factor authentication (2FA) security tool."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:09:35.277088+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00491",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Create interactive newsletters and track engagement for K-12 educator-family communication.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "It is a newsletter creation and family engagement communication tool for schools."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:10:53.456313+00:00"
+}

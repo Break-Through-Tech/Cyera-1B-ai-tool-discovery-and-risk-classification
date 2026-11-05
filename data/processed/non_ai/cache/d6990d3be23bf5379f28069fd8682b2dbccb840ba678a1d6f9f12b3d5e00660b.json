@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00192",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provides guided meditations, sleepcasts, mindfulness exercises, and mental health coaching and therapy support.",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Digital mental health platform focused on guided audio exercises, coaching, and telehealth support."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:11:31.651436+00:00"
+}

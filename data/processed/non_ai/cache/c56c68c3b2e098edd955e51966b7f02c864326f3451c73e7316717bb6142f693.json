@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00403",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Create, distribute, and monetize interactive storytelling formats to drive digital audience engagement.",
+    "category": "Content Generation",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Interactive digital storytelling and content publishing platform."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:10:35.235417+00:00"
+}

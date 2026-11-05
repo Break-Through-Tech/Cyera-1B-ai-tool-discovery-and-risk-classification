@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00001",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Enables professional networking, job searching, industry insight sharing, and business solutions for talent acquisition and sales.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Core functionality is professional networking, job search, and recruiting without AI highlighted as central."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:12:49.783308+00:00"
+}

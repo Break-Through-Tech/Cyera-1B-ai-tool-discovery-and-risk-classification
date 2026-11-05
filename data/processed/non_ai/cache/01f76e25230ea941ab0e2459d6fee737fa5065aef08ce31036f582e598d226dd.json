@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00489",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Enables WordPress websites to create, translate, and manage multilingual content using the WPML plugin",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Conventional WordPress localization and translation plugin software with no AI functionality mentioned."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:52.299613+00:00"
+}

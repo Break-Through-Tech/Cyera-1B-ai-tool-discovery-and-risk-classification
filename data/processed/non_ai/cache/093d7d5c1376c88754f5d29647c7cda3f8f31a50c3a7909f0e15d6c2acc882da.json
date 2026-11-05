@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00118",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Design, edit, and create visual content using AI-powered tools, templates, and stickers.",
+    "category": "Image / Video Generation",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Integrates AI-powered tools for visual content design, drawing, and editing."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:10:35.232867+00:00"
+}

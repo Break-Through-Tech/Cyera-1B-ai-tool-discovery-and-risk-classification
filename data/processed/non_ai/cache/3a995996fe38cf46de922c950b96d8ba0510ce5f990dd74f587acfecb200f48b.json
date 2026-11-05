@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00500",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Delivers product analytics to track user behavior and optimize digital products.",
+    "category": "Data Analytics",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Product analytics software focusing on user tracking and behavioral data insights."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:38.784771+00:00"
+}

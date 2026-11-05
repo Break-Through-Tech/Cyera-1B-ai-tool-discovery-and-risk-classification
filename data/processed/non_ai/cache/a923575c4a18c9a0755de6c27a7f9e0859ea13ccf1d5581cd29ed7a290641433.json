@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00363",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Create videos, animations, graphics, logos, mockups, and responsive websites using customizable templates.",
+    "category": "Image / Video Generation",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Template-driven graphic and video creation tool; no AI features are mentioned."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:10:35.221476+00:00"
+}

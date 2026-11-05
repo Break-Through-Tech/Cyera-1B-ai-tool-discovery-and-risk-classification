@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00377",
+    "description_usable": false,
+    "identity_consistent": false,
+    "function": "Offers digital safety, internet security, and privacy software solutions for individuals and business environments.",
+    "category": "Other",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "High-level overview of F-Secure as a cybersecurity provider without concrete product-level details."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:09:54.276451+00:00"
+}

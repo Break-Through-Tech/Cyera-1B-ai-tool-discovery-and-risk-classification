@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00342",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Sync, share, and manage files securely with collaboration tools including calendar, contacts, email, and office apps.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Self-hosted/cloud file sync, sharing, and collaboration platform without AI specified."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:02.333527+00:00"
+}

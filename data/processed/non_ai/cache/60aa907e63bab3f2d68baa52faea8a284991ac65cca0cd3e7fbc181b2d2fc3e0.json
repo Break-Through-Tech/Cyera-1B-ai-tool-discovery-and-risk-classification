@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00102",
+    "description_usable": false,
+    "identity_consistent": false,
+    "function": "Integrate and manage enterprise business processes across workforce management, financials, customer relations, and supply chain.",
+    "category": "Other",
+    "ai_status": "uncertain",
+    "needs_review": true,
+    "reason": "Describes SAP's broad multi-product enterprise portfolio rather than a concrete tool; refers to business AI generally."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:14:02.326621+00:00"
+}

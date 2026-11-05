@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00376",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provide real-time customer service software via web, desktop, and mobile apps to connect companies with website visitors.",
+    "category": "Customer Support",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Standard live chat and customer support communication platform with no mention of AI."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:13:43.665923+00:00"
+}

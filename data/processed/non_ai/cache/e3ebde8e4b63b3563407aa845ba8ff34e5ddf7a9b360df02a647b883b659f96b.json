@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00393",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Provide virtual try-on, AI skin analysis, and personalized beauty product recommendations for e-commerce.",
+    "category": "Sales / Marketing",
+    "ai_status": "ai",
+    "needs_review": false,
+    "reason": "Uses computer vision and AI as the central mechanism to provide virtual try-on and skin analysis."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:17:02.588265+00:00"
+}

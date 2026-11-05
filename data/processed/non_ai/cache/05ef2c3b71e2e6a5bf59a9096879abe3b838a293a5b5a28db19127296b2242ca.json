@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00444",
+    "description_usable": true,
+    "identity_consistent": false,
+    "function": "Develop software products including Basecamp for project management and HEY for organized email service.",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": true,
+    "reason": "Describes the parent company 37signals and its product portfolio (Basecamp and HEY) rather than a single specific product."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:13:43.681563+00:00"
+}

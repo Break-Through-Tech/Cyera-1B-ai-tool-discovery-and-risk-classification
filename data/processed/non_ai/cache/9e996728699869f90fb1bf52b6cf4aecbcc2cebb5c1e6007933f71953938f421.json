@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00075",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Automates tasks and connects diverse apps and services through custom workflows to streamline operations",
+    "category": "Productivity",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Clear description of a conventional workflow automation and app integration platform with no AI features indicated."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:16:04.115245+00:00"
+}

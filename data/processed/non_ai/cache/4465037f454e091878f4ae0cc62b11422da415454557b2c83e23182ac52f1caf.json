@@ -1,0 +1,14 @@
+{
+  "result": {
+    "tool_id": "saas_00080",
+    "description_usable": true,
+    "identity_consistent": true,
+    "function": "Analyzes suspicious files, URLs, domains, and IP addresses via crowdsourced multi-antivirus scanning and threat intelligence.",
+    "category": "Other",
+    "ai_status": "non_ai",
+    "needs_review": false,
+    "reason": "Crowdsourced multi-engine malware scanning and threat intelligence service with no core AI mentioned."
+  },
+  "model": "gemini-3.8-flash",
+  "reviewed_at": "2026-11-04T16:09:35.276220+00:00"
+}
