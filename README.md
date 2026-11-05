@@ -1,5 +1,18 @@
 # Cyera - AI Tool Discovery & Risk Classification
 
+## Current project status — November 5, 2026
+
+The current labeling dataset is [all_labeled.csv](data/processed/source_membership/all_labeled.csv): **16,762 AI-source records labeled 1 and 530 conventional-source records labeled 0**. All 17,292 records are retained; potential cross-source conflicts are flagged. These are source-membership labels, not independently verified labels. See the [labeling guide](docs/source_membership_labels.md).
+
+Baseline and embedding code and saved results below are **earlier experiments using the older prepared splits**. They have not been retrained on the full source-membership dataset. Their scores do not evaluate the new data. Before a new Logistic Regression/Jev comparison, resolve split handling for conflicting identities and create new grouped training/validation/test splits. No Jev comparison has been run.
+
+The [governance risk engine](docs/governance_risk.md) is available separately, with explained scores and explicitly synthetic policy scenarios. It does not depend on the superseded curated v2 dataset or its fitted models.
+
+PRs #12, #13 and #17 are integrated in this consolidation; the risk-engine changes from #16 are included independently. PRs #14 and #15 are superseded by the team-data direction and retained in Git history rather than added to main.
+
+---
+
+
 > 💡 **Note for the team:** This is just a template. Update the above title with your AI Studio Challenge Project name. Remove all guidance notes and example text in this template and populate this README with your own content. You can work on this README throughout AI Studio, and get feedback from your AI Studio Coach and Challenge Advisor before finalizing it.  
 
 ---
