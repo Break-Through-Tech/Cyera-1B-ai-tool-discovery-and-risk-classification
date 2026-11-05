@@ -1,0 +1,297 @@
+conflict_id,signal,record_id,tool_name,is_ai_tool
+7e128467417d374d,name,ai_catalog:tool_01990,ActiveCampaign,1
+7e128467417d374d,name,non_ai_catalog:saas_00117,ActiveCampaign,0
+1f18aaa428785b13,name,ai_catalog:tool_09930,AdRoll,1
+1f18aaa428785b13,name,non_ai_catalog:saas_00482,AdRoll,0
+7a25056efea1b59d,name,ai_catalog:tool_11502,Akismet,1
+7a25056efea1b59d,name,non_ai_catalog:saas_00252,Akismet,0
+a7b522d0a32ce6fc,name,ai_catalog:tool_05983,Amplitude,1
+a7b522d0a32ce6fc,name,non_ai_catalog:saas_00500,Amplitude,0
+30dea0518c17c61f,name,ai_catalog:tool_07243,Auphonic,1
+30dea0518c17c61f,name,non_ai_catalog:saas_00284,Auphonic,0
+e4409ce862cbd22a,name,ai_catalog:tool_06006,AWeber,1
+e4409ce862cbd22a,name,non_ai_catalog:saas_00224,AWeber,0
+6d8ce280922ab5bc,name,ai_catalog:tool_02666,Benchmark Email,1
+6d8ce280922ab5bc,name,non_ai_catalog:saas_00411,Benchmark Email,0
+096d43cf5023feb3,name,ai_catalog:tool_03394,Bubble,1
+096d43cf5023feb3,name,non_ai_catalog:saas_00433,Bubble,0
+aadb3ee24d8e2c2f,name,ai_catalog:tool_04653,Calendly,1
+aadb3ee24d8e2c2f,name,non_ai_catalog:saas_00030,Calendly,0
+ff8417dc72ff1088,name,ai_catalog:tool_00001,ChatGPT,1
+ff8417dc72ff1088,name,non_ai_catalog:saas_00157,ChatGPT,0
+342240503200efb4,name,ai_catalog:tool_02636,Clickup,1
+342240503200efb4,name,non_ai_catalog:saas_00143,ClickUp,0
+0da02580cc1392aa,name,ai_catalog:tool_07849,Cloudinary,1
+0da02580cc1392aa,name,non_ai_catalog:saas_00288,Cloudinary,0
+8f7a3f0ebbd3ce40,name,ai_catalog:tool_11573,Constant Contact,1
+8f7a3f0ebbd3ce40,name,non_ai_catalog:saas_00066,Constant Contact,0
+1109aad248d70a2c,name,ai_catalog:tool_03451,CoSchedule,1
+1109aad248d70a2c,name,ai_catalog:tool_16438,CoSchedule,1
+1109aad248d70a2c,name,non_ai_catalog:saas_00101,CoSchedule,0
+1bd805b685dc85ac,name,ai_catalog:tool_03446,CrowdStrike,1
+1bd805b685dc85ac,name,non_ai_catalog:saas_00295,CrowdStrike,0
+a19687eb682a42d8,name,ai_catalog:tool_03205,DeepL,1
+a19687eb682a42d8,name,non_ai_catalog:saas_00069,DeepL,0
+69c6e3edc3b2fe5a,name,ai_catalog:tool_09746,Dialpad,1
+69c6e3edc3b2fe5a,name,non_ai_catalog:saas_00399,Dialpad,0
+6815336740853952,name,ai_catalog:tool_16291,Elastic,1
+6815336740853952,name,non_ai_catalog:saas_00282,Elastic,0
+d056cdbeb9172a36,name,ai_catalog:tool_00165,ElevenLabs,1
+d056cdbeb9172a36,name,non_ai_catalog:saas_00245,ElevenLabs,0
+ea8e7031e65520d8,name,ai_catalog:tool_04357,Epidemic Sound,1
+ea8e7031e65520d8,name,non_ai_catalog:saas_00085,Epidemic Sound,0
+9d3874b1621915dc,name,ai_catalog:tool_09418,Fotor,1
+9d3874b1621915dc,name,non_ai_catalog:saas_00166,Fotor,0
+159b3050d707ee29,name,ai_catalog:tool_09844,Freshworks,1
+159b3050d707ee29,name,non_ai_catalog:saas_00225,Freshworks,0
+b7dbce12ff53d068,name,ai_catalog:tool_01658,Grammarly,1
+b7dbce12ff53d068,name,non_ai_catalog:saas_00120,Grammarly,0
+0819fc3dc87cfd33,name,ai_catalog:tool_00158,Headspace,1
+0819fc3dc87cfd33,name,non_ai_catalog:saas_00192,Headspace,0
+54ed7d354f3eb002,name,ai_catalog:tool_14614,Hootsuite,1
+54ed7d354f3eb002,name,non_ai_catalog:saas_00048,Hootsuite,0
+2951ae4af766ec8d,name,ai_catalog:tool_03645,Hotjar,1
+2951ae4af766ec8d,name,non_ai_catalog:saas_00131,Hotjar,0
+26b36514660287a7,name,ai_catalog:tool_00112,Hubspot,1
+26b36514660287a7,name,non_ai_catalog:saas_00034,HubSpot,0
+33286c8526f13d0e,name,ai_catalog:tool_00258,JetBrains,1
+33286c8526f13d0e,name,non_ai_catalog:saas_00059,JetBrains,0
+6ee262cddb818d4c,name,ai_catalog:tool_04497,Jetpack,1
+6ee262cddb818d4c,name,non_ai_catalog:saas_00189,Jetpack,0
+fe2bb1d171ad3309,name,ai_catalog:tool_03340,Memrise,1
+fe2bb1d171ad3309,name,non_ai_catalog:saas_00486,Memrise,0
+7cbacf50ddc69deb,name,ai_catalog:tool_09351,Movavi,1
+7cbacf50ddc69deb,name,non_ai_catalog:saas_00464,Movavi,0
+28f7bbdcb0bc116c,name,ai_catalog:tool_06708,Oracle,1
+28f7bbdcb0bc116c,name,non_ai_catalog:saas_00016,Oracle,0
+8fbe4206fec28eba,name,ai_catalog:tool_11597,Picsart,1
+8fbe4206fec28eba,name,non_ai_catalog:saas_00118,Picsart,0
+026fcb4f2e1bba8a,name,ai_catalog:tool_13185,Pipedrive,1
+026fcb4f2e1bba8a,name,non_ai_catalog:saas_00264,Pipedrive,0
+3ee14ef0a7ae028c,name,ai_catalog:tool_11367,Pixlr,1
+3ee14ef0a7ae028c,name,non_ai_catalog:saas_00091,Pixlr,0
+110b1718f1612327,name,ai_catalog:tool_04812,Podium,1
+110b1718f1612327,name,non_ai_catalog:saas_00447,Podium,0
+9ff92f0f4b8df9f9,name,ai_catalog:tool_11803,Prezi,1
+9ff92f0f4b8df9f9,name,non_ai_catalog:saas_00113,Prezi,0
+2cea5a36261f06ff,name,ai_catalog:tool_07707,RescueTime,1
+2cea5a36261f06ff,name,non_ai_catalog:saas_00400,RescueTime,0
+514403cb1078c0c0,name,ai_catalog:tool_11775,SendPulse,1
+514403cb1078c0c0,name,non_ai_catalog:saas_00198,SendPulse,0
+cec38ac993bbc1a0,name,ai_catalog:tool_09584,SmallPDF,1
+cec38ac993bbc1a0,name,non_ai_catalog:saas_00336,Smallpdf,0
+7e4a741cdae19d7b,name,ai_catalog:tool_14855,Stability ai,1
+7e4a741cdae19d7b,name,non_ai_catalog:saas_00395,Stability AI,0
+b421631bae9622f9,name,ai_catalog:tool_03542,SurveySparrow,1
+b421631bae9622f9,name,non_ai_catalog:saas_00480,SurveySparrow,0
+16c70b4e04e79dc8,name,ai_catalog:tool_08024,Tableau,1
+16c70b4e04e79dc8,name,non_ai_catalog:saas_00142,Tableau,0
+16c70b4e04e79dc8,name,non_ai_catalog:claude_00022,Tableau,0
+c6226888d5152391,name,ai_catalog:tool_13040,Tawk,1
+c6226888d5152391,name,non_ai_catalog:saas_00103,Tawk,0
+fd6e07c80aa2da09,name,ai_catalog:tool_06196,Tidio,1
+fd6e07c80aa2da09,name,non_ai_catalog:saas_00236,Tidio,0
+162ea2b1799266f2,name,ai_catalog:tool_09322,Unbounce,1
+162ea2b1799266f2,name,non_ai_catalog:saas_00286,Unbounce,0
+36d4ecce4d929d85,name,ai_catalog:tool_00518,Unity,1
+36d4ecce4d929d85,name,non_ai_catalog:saas_00154,Unity,0
+8c90a4dc2c66d2b1,name,ai_catalog:tool_14602,Venngage,1
+8c90a4dc2c66d2b1,name,non_ai_catalog:saas_00217,Venngage,0
+ac440bec8ce5172c,name,ai_catalog:tool_07662,You,1
+ac440bec8ce5172c,name,non_ai_catalog:saas_00389,You,0
+683997b7855ba047,name,ai_catalog:tool_00747,Zapier,1
+683997b7855ba047,name,non_ai_catalog:saas_00071,Zapier,0
+d2d404d443026f87,domain,ai_catalog:tool_03180,ACDSee,1
+d2d404d443026f87,domain,non_ai_catalog:saas_00455,ACD Systems,0
+2c7f18be8afa09d0,domain,ai_catalog:tool_01990,ActiveCampaign,1
+2c7f18be8afa09d0,domain,non_ai_catalog:saas_00117,ActiveCampaign,0
+0edb67109551e744,domain,ai_catalog:tool_09930,AdRoll,1
+0edb67109551e744,domain,non_ai_catalog:saas_00482,AdRoll,0
+ae8fe877f132f4f4,domain,ai_catalog:tool_11407,Ahrefs Paragraph Generator,1
+ae8fe877f132f4f4,domain,non_ai_catalog:saas_00088,Ahrefs,0
+1c6d287f4f57b1b2,domain,ai_catalog:tool_01292,Airtable AI,1
+1c6d287f4f57b1b2,domain,non_ai_catalog:saas_00054,Airtable,0
+5d6c5d00738bc548,domain,ai_catalog:tool_11502,Akismet,1
+5d6c5d00738bc548,domain,non_ai_catalog:saas_00252,Akismet,0
+c6d0cd6f1c95021f,domain,ai_catalog:tool_05983,Amplitude,1
+c6d0cd6f1c95021f,domain,non_ai_catalog:saas_00500,Amplitude,0
+2b935b68085495d9,domain,ai_catalog:tool_07243,Auphonic,1
+2b935b68085495d9,domain,non_ai_catalog:saas_00284,Auphonic,0
+698ef3766eec4ead,domain,ai_catalog:tool_06006,AWeber,1
+698ef3766eec4ead,domain,non_ai_catalog:saas_00224,AWeber,0
+240bc854b7185afa,domain,ai_catalog:tool_02666,Benchmark Email,1
+240bc854b7185afa,domain,non_ai_catalog:saas_00411,Benchmark Email,0
+24d36de3fea97259,domain,ai_catalog:tool_04571,Bing Create,1
+24d36de3fea97259,domain,non_ai_catalog:saas_00011,Microsoft,0
+f4feb5a4eed5db8d,domain,ai_catalog:tool_00716,Box AI,1
+f4feb5a4eed5db8d,domain,non_ai_catalog:saas_00125,Box,0
+f4feb5a4eed5db8d,domain,non_ai_catalog:claude_00014,Box,0
+4a5a11a337c1dbd5,domain,ai_catalog:tool_03394,Bubble,1
+4a5a11a337c1dbd5,domain,non_ai_catalog:saas_00433,Bubble,0
+895ab08e769c3c94,domain,ai_catalog:tool_14079,Buffer AI assistant,1
+895ab08e769c3c94,domain,non_ai_catalog:saas_00040,Buffer,0
+cb09e3668a166afe,domain,ai_catalog:tool_04653,Calendly,1
+cb09e3668a166afe,domain,non_ai_catalog:saas_00030,Calendly,0
+c3f26d2a637a0a60,domain,ai_catalog:tool_00001,ChatGPT,1
+c3f26d2a637a0a60,domain,non_ai_catalog:saas_00157,ChatGPT,0
+9dd7d6ce51952c51,domain,ai_catalog:tool_02636,Clickup,1
+9dd7d6ce51952c51,domain,non_ai_catalog:saas_00143,ClickUp,0
+908eb6392afef391,domain,ai_catalog:tool_11573,Constant Contact,1
+908eb6392afef391,domain,non_ai_catalog:saas_00066,Constant Contact,0
+1a544fc11f47dc8c,domain,ai_catalog:tool_03451,CoSchedule,1
+1a544fc11f47dc8c,domain,non_ai_catalog:saas_00101,CoSchedule,0
+e5a4bd170e37c765,domain,ai_catalog:tool_15080,Crisp MagicReply,1
+e5a4bd170e37c765,domain,non_ai_catalog:saas_00484,Crisp Instant Messaging,0
+1e81d9ece65c76d8,domain,ai_catalog:tool_03446,CrowdStrike,1
+1e81d9ece65c76d8,domain,non_ai_catalog:saas_00295,CrowdStrike,0
+16c474251bc56a60,domain,ai_catalog:tool_09945,DataLab,1
+16c474251bc56a60,domain,non_ai_catalog:saas_00357,DataCamp,0
+c38d9cca6920812c,domain,ai_catalog:tool_03205,DeepL,1
+c38d9cca6920812c,domain,non_ai_catalog:saas_00069,DeepL,0
+21845777a634236f,domain,ai_catalog:tool_09746,Dialpad,1
+21845777a634236f,domain,non_ai_catalog:saas_00399,Dialpad,0
+4adf3191fdd01d6d,domain,ai_catalog:tool_03465,TextAiFy,1
+4adf3191fdd01d6d,domain,non_ai_catalog:saas_00022,Discord,0
+7d23bc8c9ad55045,domain,ai_catalog:tool_04645,Duolingo Max,1
+7d23bc8c9ad55045,domain,non_ai_catalog:saas_00194,Duolingo,0
+1fd2c6438fd32a1c,domain,ai_catalog:tool_16291,Elastic,1
+1fd2c6438fd32a1c,domain,non_ai_catalog:saas_00282,Elastic,0
+dbac12def115d065,domain,ai_catalog:tool_07416,Elementor AI,1
+dbac12def115d065,domain,non_ai_catalog:saas_00206,Elementor,0
+315e39908adaf191,domain,ai_catalog:tool_00165,ElevenLabs,1
+315e39908adaf191,domain,non_ai_catalog:saas_00245,ElevenLabs,0
+3e82b3490c056583,domain,ai_catalog:tool_04357,Epidemic Sound,1
+3e82b3490c056583,domain,non_ai_catalog:saas_00085,Epidemic Sound,0
+0c18c957207c7052,domain,ai_catalog:tool_14100,Feedly for Threat Intelligence,1
+0c18c957207c7052,domain,non_ai_catalog:saas_00042,Feedly,0
+798a9797a349796f,domain,ai_catalog:tool_07994,FigJam,1
+798a9797a349796f,domain,non_ai_catalog:saas_00041,Figma,0
+da7fcec87eeb1c0f,domain,ai_catalog:tool_09418,Fotor,1
+da7fcec87eeb1c0f,domain,non_ai_catalog:saas_00166,Fotor,0
+d6ca4b1dfcc86e8c,domain,ai_catalog:tool_09844,Freshworks,1
+d6ca4b1dfcc86e8c,domain,non_ai_catalog:saas_00225,Freshworks,0
+940f456b2998e05c,domain,ai_catalog:tool_01250,GetResponse AI Website Builder,1
+940f456b2998e05c,domain,non_ai_catalog:saas_00128,GetResponse,0
+8c83fffbb985ba6b,domain,ai_catalog:tool_11509,RootKit - AI Aimbot,1
+8c83fffbb985ba6b,domain,non_ai_catalog:saas_00004,GitHub,0
+8c83fffbb985ba6b,domain,non_ai_catalog:claude_00018,GitHub Enterprise,0
+db935b327ca35798,domain,ai_catalog:tool_00308,Magika by Google,1
+db935b327ca35798,domain,non_ai_catalog:saas_00344,Lovefield,0
+fcc05f3d1163cdef,domain,ai_catalog:tool_01658,Grammarly,1
+fcc05f3d1163cdef,domain,non_ai_catalog:saas_00120,Grammarly,0
+2aa13dfbfea283fc,domain,ai_catalog:tool_15161,SeamlessGPT,1
+2aa13dfbfea283fc,domain,non_ai_catalog:saas_00076,Gumroad,0
+49b57b6b96975353,domain,ai_catalog:tool_00158,Headspace,1
+49b57b6b96975353,domain,non_ai_catalog:saas_00192,Headspace,0
+f212cb04ec2dc0b1,domain,ai_catalog:tool_14614,Hootsuite,1
+f212cb04ec2dc0b1,domain,non_ai_catalog:saas_00048,Hootsuite,0
+694aa9aa4b7ac936,domain,ai_catalog:tool_03645,Hotjar,1
+694aa9aa4b7ac936,domain,non_ai_catalog:saas_00131,Hotjar,0
+68d5ad8cad084e7f,domain,ai_catalog:tool_00028,Hubspot Breeze,1
+68d5ad8cad084e7f,domain,ai_catalog:tool_00112,Hubspot,1
+68d5ad8cad084e7f,domain,non_ai_catalog:saas_00034,HubSpot,0
+68d5ad8cad084e7f,domain,non_ai_catalog:claude_00011,HubSpot Marketing Hub,0
+29a9eae45600aed1,domain,ai_catalog:tool_13101,Icons8 AI Image Upscaler,1
+29a9eae45600aed1,domain,non_ai_catalog:saas_00211,Icons8,0
+5ae47e554182af33,domain,ai_catalog:tool_03478,Fin by Intercom,1
+5ae47e554182af33,domain,non_ai_catalog:saas_00457,Intercom,0
+055c50b812d0f8da,domain,ai_catalog:tool_05906,Intuit Assist,1
+055c50b812d0f8da,domain,non_ai_catalog:saas_00239,Intuit,0
+90d0de77262b849e,domain,ai_catalog:tool_00395,Jasper.ai,1
+90d0de77262b849e,domain,non_ai_catalog:saas_00303,Jasper,0
+8cdceeea31223a62,domain,ai_catalog:tool_00258,JetBrains,1
+8cdceeea31223a62,domain,non_ai_catalog:saas_00059,JetBrains,0
+ce47e5c064b1f273,domain,ai_catalog:tool_04497,Jetpack,1
+ce47e5c064b1f273,domain,non_ai_catalog:saas_00189,Jetpack,0
+d820abd3c98c2f9a,domain,ai_catalog:tool_14096,Jotform AI Quiz Generator,1
+d820abd3c98c2f9a,domain,non_ai_catalog:saas_00058,Jotform,0
+9ac58e88331eaaf4,domain,ai_catalog:tool_13224,Klaviyo SMS Assistant,1
+9ac58e88331eaaf4,domain,non_ai_catalog:saas_00392,Klaviyo,0
+ffb569849a057b92,domain,ai_catalog:tool_02654,LangSmith,1
+ffb569849a057b92,domain,non_ai_catalog:saas_00493,LangChain,0
+5ce9f19d32282ccd,domain,ai_catalog:tool_05525,Chatgodai,1
+5ce9f19d32282ccd,domain,non_ai_catalog:saas_00008,Linktree,0
+0a8fb1fe3b4bd300,domain,ai_catalog:tool_13494,Chat Summary for LiveChat,1
+0a8fb1fe3b4bd300,domain,non_ai_catalog:saas_00376,LiveChat,0
+75a3e52f4bab30d4,domain,ai_catalog:tool_03436,Loom AI,1
+75a3e52f4bab30d4,domain,non_ai_catalog:saas_00092,Loom,0
+03474e88542aecb4,domain,ai_catalog:tool_03340,Memrise,1
+03474e88542aecb4,domain,non_ai_catalog:saas_00486,Memrise,0
+4c29b7e3d89d51fa,domain,ai_catalog:tool_06091,Midjourney Video,1
+4c29b7e3d89d51fa,domain,non_ai_catalog:saas_00420,Midjourney,0
+91f5d4f6c01a9a53,domain,ai_catalog:tool_00602,MiroAI,1
+91f5d4f6c01a9a53,domain,non_ai_catalog:saas_00108,Miro,0
+806410e9df8ab228,domain,ai_catalog:tool_02012,Mixpanel Spark,1
+806410e9df8ab228,domain,non_ai_catalog:saas_00202,Mixpanel,0
+05bf88541d7c45ca,domain,ai_catalog:tool_09351,Movavi,1
+05bf88541d7c45ca,domain,non_ai_catalog:saas_00464,Movavi,0
+753d6bbc56c65695,domain,ai_catalog:tool_03218,Notion AI,1
+753d6bbc56c65695,domain,non_ai_catalog:saas_00036,Notion,0
+800b2174231312fe,domain,ai_catalog:tool_02690,Otter.ai,1
+800b2174231312fe,domain,non_ai_catalog:saas_00330,Otter,0
+074177a8d8d16f29,domain,ai_catalog:tool_11597,Picsart,1
+074177a8d8d16f29,domain,non_ai_catalog:saas_00118,Picsart,0
+b32b5bb23dd7beac,domain,ai_catalog:tool_13185,Pipedrive,1
+b32b5bb23dd7beac,domain,non_ai_catalog:saas_00264,Pipedrive,0
+eef9a43ee75aa034,domain,ai_catalog:tool_03213,Pitch.com,1
+eef9a43ee75aa034,domain,non_ai_catalog:saas_00410,Pitch,0
+c150f097a5a6e7fc,domain,ai_catalog:tool_11367,Pixlr,1
+c150f097a5a6e7fc,domain,non_ai_catalog:saas_00091,Pixlr,0
+ee283771c78bd26e,domain,ai_catalog:tool_11803,Prezi,1
+ee283771c78bd26e,domain,non_ai_catalog:saas_00113,Prezi,0
+4e2915d8409defe7,domain,ai_catalog:tool_03231,RankMath,1
+4e2915d8409defe7,domain,non_ai_catalog:saas_00456,Rank Math,0
+296b80c73efe73ed,domain,ai_catalog:tool_07707,RescueTime,1
+296b80c73efe73ed,domain,non_ai_catalog:saas_00400,RescueTime,0
+f95c55ea10662571,domain,ai_catalog:tool_14954,Semrush outline builder,1
+f95c55ea10662571,domain,non_ai_catalog:saas_00044,Semrush,0
+32d1897c144bb2ac,domain,ai_catalog:tool_11775,SendPulse,1
+32d1897c144bb2ac,domain,non_ai_catalog:saas_00198,SendPulse,0
+6edeb65c9423f867,domain,ai_catalog:tool_14948,Slack GPT,1
+6edeb65c9423f867,domain,non_ai_catalog:saas_00032,Slack,0
+6edeb65c9423f867,domain,non_ai_catalog:claude_00001,Slack,0
+79a04c0fb347c593,domain,ai_catalog:tool_09584,SmallPDF,1
+79a04c0fb347c593,domain,non_ai_catalog:saas_00336,Smallpdf,0
+0ea73e52f59b27c1,domain,ai_catalog:tool_14855,Stability ai,1
+0ea73e52f59b27c1,domain,non_ai_catalog:saas_00395,Stability AI,0
+76dcb3fbe1cc995b,domain,ai_catalog:tool_09528,SurferSEO,1
+76dcb3fbe1cc995b,domain,non_ai_catalog:saas_00316,Surfer,0
+8a8ae7cbd6a36e96,domain,ai_catalog:tool_15181,SurveyMonkey Genius,1
+8a8ae7cbd6a36e96,domain,non_ai_catalog:saas_00023,SurveyMonkey,0
+c2fbcfd9336ad583,domain,ai_catalog:tool_03542,SurveySparrow,1
+c2fbcfd9336ad583,domain,non_ai_catalog:saas_00480,SurveySparrow,0
+49ef51de48c462f4,domain,ai_catalog:tool_08024,Tableau,1
+49ef51de48c462f4,domain,non_ai_catalog:saas_00142,Tableau,0
+49ef51de48c462f4,domain,non_ai_catalog:claude_00022,Tableau,0
+e19608daad3c5bea,domain,ai_catalog:tool_12884,Startup Pitch Generator,1
+e19608daad3c5bea,domain,non_ai_catalog:saas_00338,JobPotato,0
+16f09c937796d268,domain,ai_catalog:tool_13040,Tawk,1
+16f09c937796d268,domain,non_ai_catalog:saas_00103,Tawk,0
+a211e3d296d35468,domain,ai_catalog:tool_06196,Tidio,1
+a211e3d296d35468,domain,non_ai_catalog:saas_00236,Tidio,0
+86613067190bfb89,domain,ai_catalog:tool_09322,Unbounce,1
+86613067190bfb89,domain,non_ai_catalog:saas_00286,Unbounce,0
+343ef75a5264e5e6,domain,ai_catalog:tool_00518,Unity,1
+343ef75a5264e5e6,domain,non_ai_catalog:saas_00154,Unity,0
+2215f9afc7858afd,domain,ai_catalog:tool_14602,Venngage,1
+2215f9afc7858afd,domain,non_ai_catalog:saas_00217,Venngage,0
+bfd507fdb4790d77,domain,ai_catalog:tool_06001,V0 Generative UI,1
+bfd507fdb4790d77,domain,non_ai_catalog:saas_00481,Vercel,0
+ea4eced32c1d8519,domain,ai_catalog:tool_08022,Vimeo AI,1
+ea4eced32c1d8519,domain,non_ai_catalog:saas_00006,Vimeo,0
+18b923befa606b69,domain,ai_catalog:tool_04665,Text Wizard AI,1
+18b923befa606b69,domain,non_ai_catalog:saas_00100,Webflow,0
+19c68699bbb53a68,domain,ai_catalog:tool_11556,Wolframalpha,1
+19c68699bbb53a68,domain,non_ai_catalog:saas_00196,Wolfram Alpha,0
+38f252ac350458a1,domain,ai_catalog:tool_14762,Xero AI,1
+38f252ac350458a1,domain,non_ai_catalog:saas_00179,Xero,0
+b5f3dbddfbd4aa53,domain,ai_catalog:tool_07662,You,1
+b5f3dbddfbd4aa53,domain,non_ai_catalog:saas_00389,You,0
+c1f44f4081d8630d,domain,ai_catalog:tool_00747,Zapier,1
+c1f44f4081d8630d,domain,non_ai_catalog:saas_00071,Zapier,0
+4a76a8a79e3521e5,domain,ai_catalog:tool_00196,Zia,1
+4a76a8a79e3521e5,domain,non_ai_catalog:saas_00033,Zoho,0
+17a80f61d58b733b,domain,ai_catalog:tool_04703,Zoom AI Companion,1
+17a80f61d58b733b,domain,non_ai_catalog:saas_00468,Zoom Video Communications,0
+7fd27184b9f00429,domain,ai_catalog:tool_06319,Zoom IQ,1
+7fd27184b9f00429,domain,non_ai_catalog:claude_00005,Zoom,0
