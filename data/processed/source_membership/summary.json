@@ -1,0 +1,32 @@
+{
+  "label_method": "source_dataset_membership",
+  "independently_verified": false,
+  "total_rows": 17292,
+  "class_counts": {
+    "1": 16762,
+    "0": 530
+  },
+  "potential_conflict_rows": 201,
+  "potential_conflict_groups": 144,
+  "inputs": {
+    "ai_catalog": {
+      "file": "data/processed/dataset_b/dataset_b_master.csv",
+      "sha256": "be55b869bcd873931842d692ecb53c73009e8032bf3770b8d8caa994768b377c",
+      "assigned_label": 1,
+      "rows": 16762
+    },
+    "non_ai_catalog": {
+      "file": "data/processed/non_ai/dataset_b_non_ai_master.csv",
+      "sha256": "927e46eeec8cf53a4219bb340c993ab2bbfcdeca5a24adaef006dae3d844dda5",
+      "assigned_label": 0,
+      "rows": 530
+    }
+  },
+  "policy": "All records retained and labeled by source, including duplicates, missing descriptions and prior rejected/uncertain records. Conflict flags do not change labels. No model or API called.",
+  "outputs_sha256": {
+    "all_labeled.csv": "5c0bbc3a81153530eaba30adbe3b2e6145f0c4ca8450029a922e65a246d15058",
+    "ai_labeled.csv": "214493de0049294d2de68c9f7ebc0a8cd25601a1bd3fe348820586fa6126a0e2",
+    "non_ai_labeled.csv": "637eaa3f060766858ab1635407a89bb1260b9331feeee3f5d596715b744dcdbe",
+    "potential_conflicts.csv": "7f018d80f8493b76b95c79b2e032f660ebcc836af95029ee2b1d545e92a4a7bd"
+  }
+}
