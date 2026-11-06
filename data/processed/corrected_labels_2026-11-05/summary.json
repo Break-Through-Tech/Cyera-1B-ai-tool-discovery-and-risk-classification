@@ -1,0 +1,27 @@
+{
+  "version": "2026-11-05",
+  "total_rows": 17292,
+  "class_counts": {
+    "1": 16740,
+    "0": 516,
+    "unresolved": 36
+  },
+  "binary_label_changes": 30,
+  "unresolved_rows": 36,
+  "scope_corrections": 42,
+  "description_corrections": 43,
+  "eligible_for_binary_preparation": 16728,
+  "input_sha256": {
+    "source": "5c0bbc3a81153530eaba30adbe3b2e6145f0c4ca8450029a922e65a246d15058",
+    "recommendations": "5db121be2fb04dc46530fab224622c286c63e9db331b411d2c0d38f064c1557c",
+    "scoped_descriptions": "eeb8a347fac3c372758dd8e0cc769404634a991acbfe24f8548b68a80e4416cb"
+  },
+  "output_sha256": {
+    "all_corrected.csv": "7a9a86e5f2bdce604201fed52970f0d09cc94bfd32c4a0745a5b2bea456855b4",
+    "unresolved.csv": "9649761125783a52e31c365d334df08fbc927c781134acc56770bac948d1c203"
+  },
+  "source_labels_modified": false,
+  "models_retrained": false,
+  "independently_human_verified": false,
+  "note": "All source rows retained. Unresolved review labels are blank and excluded from binary preparation. Unreviewed records retain source labels. This is not deduplicated or split into training/evaluation data."
+}
