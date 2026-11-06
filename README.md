@@ -2,6 +2,8 @@
 
 ## Current project status — November 5, 2026
 
+The [corrected-label export](docs/corrected_labels.md) applies the approved conflict-review recommendations: **16,740 AI, 516 conventional and 36 unresolved records**. Use it for the next preparation stage; the source-membership file below preserves original dataset assignments.
+
 The current labeling dataset is [all_labeled.csv](data/processed/source_membership/all_labeled.csv): **16,762 AI-source records labeled 1 and 530 conventional-source records labeled 0**. All 17,292 records are retained; potential cross-source conflicts are flagged. These are source-membership labels, not independently verified labels. See the [labeling guide](docs/source_membership_labels.md).
 
 Baseline and embedding code and saved results below are **earlier experiments using the older prepared splits**. They have not been retrained on the full source-membership dataset. Their scores do not evaluate the new data. Before a new Logistic Regression/Jev comparison, resolve split handling for conflicting identities and create new grouped training/validation/test splits. No Jev comparison has been run.
