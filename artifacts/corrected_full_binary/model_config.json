@@ -1,0 +1,39 @@
+{
+  "dataset_version": "corrected-full-2026-11-09",
+  "dataset_manifest_sha256": "be5fb3fb771b8f2c7771b4307c139a1ddb86701d75f2b71825359f3219113f46",
+  "input_sha256": "c2face9704386301cd4e044ecb3cef93c3153729a2f32988417527c533236ebe",
+  "split_sha256": {
+    "train.csv": "99229482df9e0ad4e550c651b2dfa0f516f92587c8fc132f12215fb3b8ee7f7a",
+    "validation.csv": "272d99516ce1ef1ea2c6efccf72d5aded4f2adae85cadb92a197b077c1932060",
+    "test.csv": "febd460a50d28d3ee0518ea52bad53b259a91d74e100ea736705e63f2e89f17b",
+    "excluded_records.csv": "4335e68a6e02fcd2fed2ab65b198e42f6bf1f5ddedea99dc1071c7cb5ad3c44e"
+  },
+  "training_rows": 11672,
+  "training_class_counts": {
+    "0": 343,
+    "1": 11329
+  },
+  "feature": "description only; no product names, vendor, source labels, categories or governance fields",
+  "model": "word TF-IDF unigrams/bigrams + LogisticRegression",
+  "class_weight": "balanced, calculated from training labels only",
+  "candidates": [
+    0.1,
+    1.0,
+    10.0
+  ],
+  "selected_C": 10.0,
+  "threshold": 0.5,
+  "selection_rule": "Highest validation macro F1; exact ties prefer smaller C. Fixed threshold 0.5.",
+  "majority_class": 1,
+  "refit_on_evaluation": false,
+  "model_sha256": "aab701a4e28b9c55c8d80461de6d777fab0173054288f9e466d5eaf06c388488",
+  "code_sha256": "2c5352a48f3ae067a88aae3e776ea734a3ae5c2fb033a6b95d0443ceb9a4ab29",
+  "versions": {
+    "python": "3.12.5",
+    "sklearn": "1.7.2",
+    "numpy": "2.5.4",
+    "joblib": "1.6.0"
+  },
+  "human_verified_accuracy": false,
+  "probabilities_calibrated": false
+}
