@@ -138,8 +138,17 @@ def metadata_index(rows):
     return {key:values[0] for key,values in index.items() if len(values)==1}
 
 
-def run(company,activity,metadata_path,policy_path,scenarios=None):
+def run(company,activity,metadata_path,policy_path,scenarios=None,synthetic_metadata=False):
     policy=json.loads(Path(policy_path).read_text());validate_policy(policy)
+    provenance_path=Path(metadata_path).with_suffix('.provenance.json')
+    synthetic_source=False
+    if provenance_path.exists():
+        provenance=json.loads(provenance_path.read_text())
+        if provenance.get('output_sha256')!=hashlib.sha256(Path(metadata_path).read_bytes()).hexdigest():
+            raise ValueError('Metadata provenance hash mismatch')
+        synthetic_source=provenance.get('governance_provenance')=='synthetic_demonstration'
+        if synthetic_source and not synthetic_metadata:
+            raise ValueError('This metadata contains synthetic policies; explicitly use --synthetic-metadata for a demo')
     catalog=metadata_index(read_csv(metadata_path))
     overrides={}
     if scenarios:
@@ -152,7 +161,7 @@ def run(company,activity,metadata_path,policy_path,scenarios=None):
             if set(values)-set(FIELDS):raise ValueError('Scenario may override governance fields only')
     results=[]
     for usage in aggregate(read_csv(activity)):
-        key=usage['application_key'];raw=dict(catalog.get(key,{}));source='dataset_b' if raw else 'unknown'
+        key=usage['application_key'];raw=dict(catalog.get(key,{}));source=('synthetic_dataset_b' if synthetic_source else 'dataset_b') if raw else 'unknown'
         # Dataset B approval is not company-scoped. Only explicit company overlay may supply it.
         raw.pop('approved_status',None)
         if key in overrides:raw.update(overrides[key]);source='synthetic_company_scenario'
@@ -163,7 +172,8 @@ def run(company,activity,metadata_path,policy_path,scenarios=None):
     results.sort(key=lambda r:(-r['risk_score'],r['application_key']))
     paths={'activity':activity,'metadata':metadata_path,'policy':policy_path}
     if scenarios:paths['synthetic_scenarios']=scenarios
-    return dict(company=company,synthetic_activity=True,synthetic_scenario_applied=bool(scenarios),
+    if provenance_path.exists():paths['metadata_provenance']=provenance_path
+    return dict(company=company,synthetic_activity=True,synthetic_scenario_applied=bool(scenarios or synthetic_source),
         inputs={name:{'file':Path(path).name,'sha256':hashlib.sha256(Path(path).read_bytes()).hexdigest()} for name,path in paths.items()},
         policy_version=policy['version'],application_count=len(results),applications=results,
         limitations=['Catalog policies are mostly missing; missing values add no points and remain unknown.',
@@ -179,10 +189,11 @@ def main():
     p.add_argument('--metadata',type=Path,default=ROOT/'data/processed/dataset_b/dataset_b_master.csv')
     p.add_argument('--policy',type=Path,default=POLICY)
     p.add_argument('--scenarios',type=Path)
+    p.add_argument('--synthetic-metadata',action='store_true',help='Explicitly allow marked synthetic policy inputs for a demonstration')
     p.add_argument('--out',type=Path,required=True)
     a=p.parse_args()
     if a.out.exists():p.error('Output exists; choose a new file')
-    result=run(a.company,a.activity,a.metadata,a.policy,a.scenarios)
+    result=run(a.company,a.activity,a.metadata,a.policy,a.scenarios,a.synthetic_metadata)
     a.out.parent.mkdir(parents=True,exist_ok=True);a.out.write_text(json.dumps(result,indent=2,allow_nan=False)+'\n')
     print(json.dumps({'company':a.company,'applications':result['application_count'],'highest_priority':[{k:r[k] for k in ('application_key','risk_score','risk_level','assessment_status')} for r in result['applications'][:5]]},indent=2))
 

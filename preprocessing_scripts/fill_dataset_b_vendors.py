@@ -2,6 +2,8 @@
 Install: python -m pip install -U google-genai python-dotenv
 Run from project root: python scripts/fill_dataset_b_vendors.py
 GEMINI_API_KEY in environment or .env. Exactly 14 columns in the output CSV.
+Default output is a vendor-research intermediate; run apply_conflict_review.py
+to rebuild the corrected final export without overwriting label corrections.
 Evidence and resumable progress live in an internal JSON cache, not CSV columns.
 Search evidence is model-interpreted; UNKNOWN means unresolved, not nonexistent.
 Normally two API requests per tool (search + extraction); unresolved cases get
@@ -189,7 +191,7 @@ def lookup(client, model, record, path, cached, retry_unknown=False):
 def main():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('--input', type=Path, default=Path('data/processed/governance_only/dataset_b_combined.csv'))
-    p.add_argument('--output', type=Path, default=Path('data/processed/final/dataset_b_final.csv'))
+    p.add_argument('--output', type=Path, default=Path('data/processed/vendor_research/dataset_b_vendor_enriched.csv'))
     p.add_argument('--cache-dir', type=Path, default=Path('data/cache/dataset_b_vendor_only'))
     p.add_argument('--model', default='gemini-3.8-flash')
     p.add_argument('--env-file', type=Path, default=Path('.env'))

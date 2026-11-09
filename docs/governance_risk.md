@@ -69,3 +69,8 @@ python3 -m unittest discover -s tests -p 'test_governance.py'
 The CLI refuses to overwrite existing results. For programmatic use, import `run(company, activity, metadata_path, policy_path, scenarios=None)` or `assess(aggregated_usage, metadata, policy)`. The JSON's `applications` list is ordered by descending score and then application identity. A dashboard should show `risk_level`, `assessment_status`, `unknown_fields`, `metadata_source` and `reasons` together, and visibly mark synthetic scenarios. Reporting only a low/medium/high badge would hide material uncertainty.
 
 Tests cover policy thresholds, caps, known versus missing controls, missing transfer coverage, duplicate/invalid events, application-path separation, ambiguous metadata, company-scoped approvals and the actual synthetic DocuMind scenario. They verify rule consistency, not real-world risk accuracy. Future work is a shared discovery-to-assessment adapter and an investigation interface; vendor facts and organization-specific approval decisions require their own evidence and scope before production use.
+
+
+### Vendor-enriched synthetic subset
+
+The new `data/processed/final/dataset_b_final.csv` includes researched vendor suggestions but synthetic policy fields. Its `.provenance.json` explicitly marks that distinction. The CLI requires `--synthetic-metadata` before using these fictional controls, verifies the sidecar hash and marks the resulting metadata source synthetic. Unscoped approvals remain ignored and its stored `risk_label` is never used to calculate scores. Keep the sidecar with the CSV. See [the reconciliation guide](corrected_labels.md#november-9-vendor-enrichment-reconciliation).
