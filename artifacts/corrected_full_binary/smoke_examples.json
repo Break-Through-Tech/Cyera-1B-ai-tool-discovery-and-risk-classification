@@ -1,0 +1,26 @@
+[
+  {
+    "name": "conventional_file_storage",
+    "description": "Store and synchronize files across devices and share folders with colleagues.",
+    "expected_is_ai_tool": 0,
+    "prediction": {
+      "is_ai_tool": 1,
+      "model_ai_score": 0.9141824868553767,
+      "needs_review": true,
+      "caveat": "Uncalibrated primary-purpose classifier; does not predict optional AI features or governance risk."
+    },
+    "purpose": "Handwritten diagnostic example; not an independent benchmark or tuning input"
+  },
+  {
+    "name": "ai_coding_assistant",
+    "description": "A coding assistant that generates and edits source code from natural-language instructions.",
+    "expected_is_ai_tool": 1,
+    "prediction": {
+      "is_ai_tool": 1,
+      "model_ai_score": 0.9875737554271172,
+      "needs_review": true,
+      "caveat": "Uncalibrated primary-purpose classifier; does not predict optional AI features or governance risk."
+    },
+    "purpose": "Handwritten diagnostic example; not an independent benchmark or tuning input"
+  }
+]

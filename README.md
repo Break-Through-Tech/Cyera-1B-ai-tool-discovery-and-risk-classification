@@ -4,11 +4,11 @@
 
 The [vendor-reconciled subset](data/processed/final/dataset_b_final.csv) contains 697 reviewed records and is separate from the full classification source. See its [provenance](data/processed/final/dataset_b_final.provenance.json): vendor research is model-interpreted; governance policy fields are synthetic; six classification labels are unresolved.
 
-The [corrected-label export](docs/corrected_labels.md) applies the approved conflict-review recommendations: **16,740 AI, 516 conventional and 36 unresolved records**. Use it for the next preparation stage; the source-membership file below preserves original dataset assignments.
+The [corrected-label export](docs/corrected_labels.md) applies the approved conflict-review recommendations: **16,740 AI, 516 conventional and 36 unresolved records**. The [full-data binary training guide](docs/corrected_full_binary.md) documents the new grouped splits and retrained Logistic Regression model; the source-membership file below preserves original dataset assignments.
 
 The current labeling dataset is [all_labeled.csv](data/processed/source_membership/all_labeled.csv): **16,762 AI-source records labeled 1 and 530 conventional-source records labeled 0**. All 17,292 records are retained; potential cross-source conflicts are flagged. These are source-membership labels, not independently verified labels. See the [labeling guide](docs/source_membership_labels.md).
 
-Baseline and embedding code and saved results below are **earlier experiments using the older prepared splits**. They have not been retrained on the full source-membership dataset. Their scores do not evaluate the new data. Before a new Logistic Regression/Jev comparison, resolve split handling for conflicting identities and create new grouped training/validation/test splits. No Jev comparison has been run.
+The new **description-only Logistic Regression classifier** is in `artifacts/corrected_full_binary/`: 16,674 usable records grouped into fresh train/validation/test splits. Test macro F1 is 0.9243; 70 of 73 conventional test examples are recognized. Labels remain primarily source-assigned and accuracy is not independently verified. See [results, limitations and commands](docs/corrected_full_binary.md). Earlier baseline/embedding artifacts remain historical experiments. No Jev comparison has been run.
 
 The [governance risk engine](docs/governance_risk.md) is available separately, with explained scores and explicitly synthetic policy scenarios. It does not depend on the superseded curated v2 dataset or its fitted models.
 

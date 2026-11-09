@@ -56,3 +56,6 @@ python3 -m governance.risk --company 'Summit Financial' \
 ```
 
 Vendor research now defaults to `data/processed/vendor_research/dataset_b_vendor_enriched.csv`, so rerunning it does not overwrite corrected labels in the final export. Its cited cache is the reconciliation input; run the application command afterward. Blank/unknown vendors need further research, not guesses. Vendor names, synthetic governance fields and prior risk labels are enrichment for investigation, **not predictor inputs for the binary classifier**. Training splits, retraining and the Jev benchmark are still pending.
+
+
+**Training update:** [Grouped full-data preparation and binary retraining](corrected_full_binary.md) now use this export. Earlier mentions of pending splitting/training describe the enrichment stage; the original corrected export itself remains unsplit. Jev comparison remains pending.
