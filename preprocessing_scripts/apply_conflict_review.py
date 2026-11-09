@@ -5,9 +5,11 @@ import csv
 import hashlib
 import io
 import json
+import sys
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
+sys.path.insert(0,str(ROOT/'preprocessing_scripts'))
 SOURCE=ROOT/'data/processed/source_membership/all_labeled.csv'
 REVIEW=ROOT/'data/reviews/conflicts_2026-11-05'
 OUT=ROOT/'data/processed/corrected_labels_2026-11-05'
@@ -70,6 +72,8 @@ def build():
     if sha(REVIEW/'recommendations.csv')!=review_summary['recommendations_sha256']:raise ValueError('Review changed since research')
     original=read(SOURCE)
     rows=apply(original,read(REVIEW/'recommendations.csv'),json.loads((REVIEW/'scoped_descriptions.json').read_text()))
+    from reconcile_vendor_enrichment import enrich_full, final_files
+    rows=enrich_full(rows)
     fields=list(rows[0]);unresolved=[r for r in rows if r['review_status']=='unresolved_set_aside']
     files={'all_corrected.csv':csv_bytes(rows,fields),'unresolved.csv':csv_bytes(unresolved,fields)}
     summary=dict(version='2026-11-05',total_rows=len(rows),
@@ -82,7 +86,11 @@ def build():
         output_sha256={k:hashlib.sha256(v).hexdigest() for k,v in files.items()},
         source_labels_modified=False,models_retrained=False,independently_human_verified=False,
         note='All source rows retained. Unresolved review labels are blank and excluded from binary preparation. Unreviewed records retain source labels. This is not deduplicated or split into training/evaluation data.')
+    summary['vendor_found']=sum(r['vendor_status']=='model_grounded_found' for r in rows)
+    summary['vendor_unknown']=sum(r['vendor_status']=='model_grounded_unknown' for r in rows)
     files['summary.json']=(json.dumps(summary,indent=2)+'\n').encode()
+    # Final subset remains separate from the full classification source.
+    files.update(final_files(rows))
     return files,summary
 
 
@@ -91,9 +99,11 @@ def main():
     files,summary=build()
     if not a.check:OUT.mkdir(parents=True,exist_ok=True)
     for name,data in files.items():
+        path=name if isinstance(name,Path) else OUT/name
         if a.check:
-            if not (OUT/name).exists() or (OUT/name).read_bytes()!=data:raise SystemExit('Does not reproduce: '+name)
-        else:(OUT/name).write_bytes(data)
+            if not path.exists() or path.read_bytes()!=data:raise SystemExit('Does not reproduce: '+str(name))
+        else:
+            path.parent.mkdir(parents=True,exist_ok=True);path.write_bytes(data)
     print(json.dumps(summary,indent=2))
 
 if __name__=='__main__':main()
