@@ -1,6 +1,8 @@
 # Cyera - AI Tool Discovery & Risk Classification
 
-## Current project status — November 5, 2026
+## Current project status — November 9, 2026
+
+The [vendor-reconciled subset](data/processed/final/dataset_b_final.csv) contains 697 reviewed records and is separate from the full classification source. See its [provenance](data/processed/final/dataset_b_final.provenance.json): vendor research is model-interpreted; governance policy fields are synthetic; six classification labels are unresolved.
 
 The [corrected-label export](docs/corrected_labels.md) applies the approved conflict-review recommendations: **16,740 AI, 516 conventional and 36 unresolved records**. Use it for the next preparation stage; the source-membership file below preserves original dataset assignments.
 
