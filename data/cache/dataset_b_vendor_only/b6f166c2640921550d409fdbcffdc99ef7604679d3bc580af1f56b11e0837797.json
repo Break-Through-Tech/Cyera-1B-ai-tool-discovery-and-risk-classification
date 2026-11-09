@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **Brain.fm** service at **my.brain.fm** (and `brain.fm`) is **Brain.FM, Inc.**\n\n### Provider Statement\nAccording to the official Brain.fm Terms & Conditions:\n> *\"The Services are provided by Brain.FM, Inc., and its affiliated entities, its present, former and future parents, predecessors, successors, assignees, subsidiaries, owners, officers and directors... (collectively, 'Brain.FM,' 'we' 'us' and/or 'our').\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **Brain.fm** service at **my.brain.fm** (and `brain.fm`) is **Brain.FM, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEJHeqhGklIjN5l7K8e95W9ZUtgYJGv82L4j70laBMxBdKRGEKHHh8dkGh_swmXVD-zWiqbIYV9Hbp-eFP24hKkEfpJfv4eqeqVoFEQmsY",
+          "title": "brain.fm"
+        },
+        {
+          "id": 1,
+          "text": "*\"The Services are provided by Brain.FM, Inc., and its affiliated entities, its present, former and future parents, predecessors, successors, assignees, subsidiaries, owners, officers and directors... (collectively, 'Brain.FM,' 'we' 'us' and/or 'our').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEJHeqhGklIjN5l7K8e95W9ZUtgYJGv82L4j70laBMxBdKRGEKHHh8dkGh_swmXVD-zWiqbIYV9Hbp-eFP24hKkEfpJfv4eqeqVoFEQmsY",
+          "title": "brain.fm"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Brain.FM, Inc.",
+        "evidence": "Passage 0 states that the vendor directly providing the Brain.fm service at my.brain.fm (and brain.fm) is Brain.FM, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the **Brain.fm** service at **my.brain.fm** (and `brain.fm`) is **Brain.FM, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEJHeqhGklIjN5l7K8e95W9ZUtgYJGv82L4j70laBMxBdKRGEKHHh8dkGh_swmXVD-zWiqbIYV9Hbp-eFP24hKkEfpJfv4eqeqVoFEQmsY",
+          "title": "brain.fm"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Brain.fm",
+    "domain": "my.brain.fm",
+    "description": "AI Music to improve focus, meditation and sleep."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Brain.FM, Inc.",
+  "evidence": "Passage 0 states that the vendor directly providing the Brain.fm service at my.brain.fm (and brain.fm) is Brain.FM, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the **Brain.fm** service at **my.brain.fm** (and `brain.fm`) is **Brain.FM, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEJHeqhGklIjN5l7K8e95W9ZUtgYJGv82L4j70laBMxBdKRGEKHHh8dkGh_swmXVD-zWiqbIYV9Hbp-eFP24hKkEfpJfv4eqeqVoFEQmsY",
+    "title": "brain.fm"
+  },
+  "checked_at": "2026-11-05T06:55:16.215922+00:00"
+}

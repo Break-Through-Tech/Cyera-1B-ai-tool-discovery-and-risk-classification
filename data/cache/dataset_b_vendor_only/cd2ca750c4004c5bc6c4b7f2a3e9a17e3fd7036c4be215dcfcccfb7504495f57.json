@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Jitsi** (at **jitsi.org**) is **8x8, Inc.**\n\n### Evidence and Provider Statements:\n* **Privacy Supplement & Legal Documentation:** According to the official *meet.jit.si Privacy Supplement* hosted on `jitsi.org`:\n  > *\"8×8 is the main contributor to the Jitsi.org open-source video meetings solution. Meet.jit.si is an application of the Jitsi.org open-source video meetings solution that 8×8 hosts, which allows users to hold free video meetings.\"*\n* **Terms of Service:** The *meet.jit.si Terms of Service* state that:\n  > *\"8×8’s privacy policy available at https://jitsi.org/meet-jit-si-privacy/ (or any other site designated by 8×8) explains how we treat Your personal data and protect Your privacy when You Use the Service. By using the Service, You agree that 8×8 can use such data in accordance with its privacy policy.\"*\n* **Site Copyright & App Listings:** The site copyright at `jitsi.org` states: *\"Jitsi is a trademark of © 8x8, Inc. All Rights Reserved.\"* Additionally, official mobile application releases (e.g., on Google Play) publish Jitsi Meet under the developer name **8x8, Inc.**",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Jitsi** (at **jitsi.org**) is **8x8, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCydXd_CHSB9BrIlftQMV0tc9goYYGs_YWw4DCj4VfBoeqp9mpvHscJBN6faOTthLphvGsz9wJZnAOE4GUCPBDKIdedbUKvNRSp2KYuclkzFzM_iwvHtUnPD-_y2Iv2jmr4HPJXWpovbgOZ3Tc",
+          "title": "jitsi.org"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Jitsi** (at **jitsi.org**) is **8x8, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERtaRZ73aXzq8knEsJHS7hIC9EhGrwwIYN_swTnMU5nnfTM73nEofngo7hWqaBBN7Tp0mE1vbUPgBUkse2w_heW3L1HbfEbvQRakKpzVBhSz7TqSq9QYteb_NqIg==",
+          "title": "jitsi.org"
+        },
+        {
+          "id": 2,
+          "text": "eet.jit.si is an application of the Jitsi.org open-source video meetings solution that 8×8 hosts, which allows users to hold free video meetings.\"*\n*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERtaRZ73aXzq8knEsJHS7hIC9EhGrwwIYN_swTnMU5nnfTM73nEofngo7hWqaBBN7Tp0mE1vbUPgBUkse2w_heW3L1HbfEbvQRakKpzVBhSz7TqSq9QYteb_NqIg==",
+          "title": "jitsi.org"
+        },
+        {
+          "id": 3,
+          "text": "ng the Service, You agree that 8×8 can use such data in accordance with its privacy policy.\"*\n* **Si",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETHhlHUknyxwl1gJuQBkX1yXP06a3imUtrkmLIDTudlk0EUS8ivyWxoWY1-DQTBqiQoYCzD2DHDBEUe8rf55lnaJXkJSbUmFD0ptvv75_evgjS9_KuHwuEZjayqKfGNNA1qmf3jA==",
+          "title": "jitsi.org"
+        },
+        {
+          "id": 4,
+          "text": "ts Reserved.\"* Additio",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCydXd_CHSB9BrIlftQMV0tc9goYYGs_YWw4DCj4VfBoeqp9mpvHscJBN6faOTthLphvGsz9wJZnAOE4GUCPBDKIdedbUKvNRSp2KYuclkzFzM_iwvHtUnPD-_y2Iv2jmr4HPJXWpovbgOZ3Tc",
+          "title": "jitsi.org"
+        },
+        {
+          "id": 5,
+          "text": "8×8 is the main contributor to the Jitsi.org open-source video meetings solution. Meet.jit.si is an application of the Jitsi.org open-source video meetings solution that 8×8 hosts, which allows users to hold free video ",
+          "url": "https://jitsi.org/meet-jit-si-privacy/",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "8x8, Inc.",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing Jitsi at jitsi.org is 8x8, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Jitsi** (at **jitsi.org**) is **8x8, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCydXd_CHSB9BrIlftQMV0tc9goYYGs_YWw4DCj4VfBoeqp9mpvHscJBN6faOTthLphvGsz9wJZnAOE4GUCPBDKIdedbUKvNRSp2KYuclkzFzM_iwvHtUnPD-_y2Iv2jmr4HPJXWpovbgOZ3Tc",
+          "title": "jitsi.org"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Jitsi",
+    "domain": "jitsi.org",
+    "description": "Jitsi is a free open-source video conferencing software designed for web and mobile platforms. It enables users to make video calls and offers features such as self-hosting, integration capabilities for applications, and a user-friendly interface for seamless communication."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "8x8, Inc.",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing Jitsi at jitsi.org is 8x8, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Jitsi** (at **jitsi.org**) is **8x8, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCydXd_CHSB9BrIlftQMV0tc9goYYGs_YWw4DCj4VfBoeqp9mpvHscJBN6faOTthLphvGsz9wJZnAOE4GUCPBDKIdedbUKvNRSp2KYuclkzFzM_iwvHtUnPD-_y2Iv2jmr4HPJXWpovbgOZ3Tc",
+    "title": "jitsi.org"
+  },
+  "checked_at": "2026-11-05T08:54:15.169655+00:00"
+}

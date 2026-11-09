@@ -1,0 +1,91 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Next.js** at **nextjs.org** is **Vercel, Inc.** (commonly known as **Vercel**).\n\n### Evidence and Provider Statement\n* **Website Branding & Ownership:** The official website is titled and branded as *\"Next.js by Vercel - The React Framework\"*.\n* **Privacy Policy:** The \"Privacy Policy\" link in the footer of `nextjs.org` resolves to Vercel's Privacy Notice, which explicitly defines `nextjs.org` as a Vercel property: \n  > *\"Visit Vercel's websites, such as https://vercel.com, https://nextjs.org, https://turbo.build, and other Vercel affiliated websites... Access or use products or services made available by Vercel or its affiliates...\"*\n* **Legal Attribution & Repository:** The official open-source license and trademark documentation state: \n  > *\"Copyright (c) Vercel, Inc.\"* and *\"Next.js and related marks, designs and logos are trademarks or registered trademarks of Vercel, Inc.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Next.js** at **nextjs.org** is **Vercel, Inc.** (commonly known as **Vercel**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGftoZFGwf4HJQZCWb9dDTOQ6yMIOEcf8cE3LrR7yCrAiTGLaUVW74Y6NJA0SeDZOuKADHxlzUJTTxyrfwSfXBL4nhTOxcN9fr9t1aMfA8uoFB8675U",
+          "title": "vercel.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Next.js** at **nextjs.org** is **Vercel, Inc.** (commonly known as **Vercel**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpox5ZXqt71nwkuQokj-xcli0LF2JPJd7lKhngboC3YjqeGjGCiug_jLEe87OAGk4Rccg94U6rdPLXUNk4qge8Pvirji5fKyvmtmW8JcE7nG9SQ3qIMNFwzdwCJQ==",
+          "title": "vercel.com"
+        },
+        {
+          "id": 2,
+          "text": "**Website Branding & Ownership:** The official website is titled and branded as *\"Next.js by Vercel - The React Framework\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbFcT_VFPyjkb5k6dBSc9_ct7XDVh9bQN_Iy3s_6sUFM5bYRZCtkvwWA08rn43n_CnZuUz7yn_LDKBjHZd4J2N2afJAvuz8MHtv-9fJpY=",
+          "title": "nextjs.org"
+        },
+        {
+          "id": 3,
+          "text": "**Website Branding & Ownership:** The official website is titled and branded as *\"Next.js by Vercel - The React Framework\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENx57gJYjlqEtpNWCzg4Ngb87-U7NezTJPTGW5SXpj3G00uYhHUMtYi247UGw3dt-sAfGWObTpxp0y88jajZATWRpGLT4qX896",
+          "title": "nextjs.org"
+        },
+        {
+          "id": 4,
+          "text": "**Privacy Policy:** The \"Privacy Policy\" link in the footer of `nextjs.org` resolves to Vercel's Privacy Notice, which explicitly defines `nextjs.org` as a Vercel property",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6E0xLG_jGhunDHtF10VJlsKBPnl4lC7z2_ArBjFGrfSJMA4L12mFXNBriZCJ4I3ahNwPiyPNQoO3x5thMWXxc8yndlzm4sKN-shc6Sw==",
+          "title": "nextjs.org"
+        },
+        {
+          "id": 5,
+          "text": "**Privacy Policy:** The \"Privacy Policy\" link in the footer of `nextjs.org` resolves to Vercel's Privacy Notice, which explicitly defines `nextjs.org` as a Vercel property",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpox5ZXqt71nwkuQokj-xcli0LF2JPJd7lKhngboC3YjqeGjGCiug_jLEe87OAGk4Rccg94U6rdPLXUNk4qge8Pvirji5fKyvmtmW8JcE7nG9SQ3qIMNFwzdwCJQ==",
+          "title": "vercel.com"
+        },
+        {
+          "id": 6,
+          "text": "Access or use products or services made available by Vercel or its affiliates...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpox5ZXqt71nwkuQokj-xcli0LF2JPJd7lKhngboC3YjqeGjGCiug_jLEe87OAGk4Rccg94U6rdPLXUNk4qge8Pvirji5fKyvmtmW8JcE7nG9SQ3qIMNFwzdwCJQ==",
+          "title": "vercel.com"
+        },
+        {
+          "id": 7,
+          "text": "*\"Copyright (c) Vercel, Inc.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAucrV7TfHx8qCH1a-X7xhzVEjQrigZ1j5YWEKL2t4TEXn44IQr_ZWLylKHrAN3RIQMKE3arSmVqika9hborw8I9M0NH9-JHXap430ATXtthKAVqMlYjykix5BsI8R2SknvzG9UMuDjRMRAegd",
+          "title": "github.com"
+        },
+        {
+          "id": 8,
+          "text": "*\"Copyright (c) Vercel, Inc.\"* and *\"Next.js and related marks, designs and logos are trademarks or registered trademarks of Vercel, Inc.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGftoZFGwf4HJQZCWb9dDTOQ6yMIOEcf8cE3LrR7yCrAiTGLaUVW74Y6NJA0SeDZOuKADHxlzUJTTxyrfwSfXBL4nhTOxcN9fr9t1aMfA8uoFB8675U",
+          "title": "vercel.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Vercel, Inc.",
+        "evidence": "The vendor directly providing Next.js at nextjs.org is Vercel, Inc. (commonly known as Vercel).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Next.js** at **nextjs.org** is **Vercel, Inc.** (commonly known as **Vercel**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGftoZFGwf4HJQZCWb9dDTOQ6yMIOEcf8cE3LrR7yCrAiTGLaUVW74Y6NJA0SeDZOuKADHxlzUJTTxyrfwSfXBL4nhTOxcN9fr9t1aMfA8uoFB8675U",
+          "title": "vercel.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Next.js",
+    "domain": "nextjs.org",
+    "description": "Next.js is an open-source React framework designed for building server-side rendered (SSR) and static web applications. It optimizes frontend development by providing features like automatic code splitting, server-side rendering, and static site generation. As a popular framework in the web development ecosystem, Next.js is widely used by developers to create high-performance applications with user-friendly experiences."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Vercel, Inc.",
+  "evidence": "The vendor directly providing Next.js at nextjs.org is Vercel, Inc. (commonly known as Vercel).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Next.js** at **nextjs.org** is **Vercel, Inc.** (commonly known as **Vercel**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGftoZFGwf4HJQZCWb9dDTOQ6yMIOEcf8cE3LrR7yCrAiTGLaUVW74Y6NJA0SeDZOuKADHxlzUJTTxyrfwSfXBL4nhTOxcN9fr9t1aMfA8uoFB8675U",
+    "title": "vercel.com"
+  },
+  "checked_at": "2026-11-05T09:53:42.933583+00:00"
+}

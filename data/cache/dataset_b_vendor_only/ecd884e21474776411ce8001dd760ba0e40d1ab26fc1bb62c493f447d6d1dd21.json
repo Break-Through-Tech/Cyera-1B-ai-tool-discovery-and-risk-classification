@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Zapier** at **zapier.com** is **Zapier, Inc.**.\n\n### Supporting Evidence\nAccording to Zapier's official **Terms of Service**:\n> *\"The following terms of service (“Terms of Service”) govern your use of the Zapier website (the “Site”) and the Zapier web-based, application integration and data linking service accessed through the Site (“Service”), both of which are operated by Zapier, Inc. (“Zapier” or “we”).\"*\n\nThe Terms of Service further state:\n> *\"They govern your access to and use of Zapier’s cloud-based automation technology platform available at zapier.com... Zapier, Inc. is a Delaware corporation, and in these Terms, we will reference ourselves as 'Zapier' or 'we'/'us'.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Zapier** at **zapier.com** is **Zapier, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOXX7wyxxaD0JBfXsKqchfrWVgLlsCmHeWOk7e50HHESXrCvYedUnWG3_G0uWLbXVttByLEcFR01oOztIvRlJxy0fdq-8OlAtk87PIyO5-q1Fe8TyF4tyImxnOQT7Q1n0cddfxwTSGWmPNparY3VzOQYwjeb-U4LSFTmRTUB9J",
+          "title": "zapier.com"
+        },
+        {
+          "id": 1,
+          "text": "*\"The following terms of service (“Terms of Service”) govern your use of the Zapier website (the “Site”) and the Zapier web-based, application integration and data linking service accessed through the Site (“Service”), both of which are operated by Zapier, Inc. (“Zapier” or “we”).\"*\n\nThe Terms of Servi",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOXX7wyxxaD0JBfXsKqchfrWVgLlsCmHeWOk7e50HHESXrCvYedUnWG3_G0uWLbXVttByLEcFR01oOztIvRlJxy0fdq-8OlAtk87PIyO5-q1Fe8TyF4tyImxnOQT7Q1n0cddfxwTSGWmPNparY3VzOQYwjeb-U4LSFTmRTUB9J",
+          "title": "zapier.com"
+        },
+        {
+          "id": 2,
+          "text": "The following terms of service (“Terms of Service”) govern your use of the Zapier website (the “Site”) and the Zapier web-based, application integration and data linking service accessed through the Site (“Service”), both of which are op",
+          "url": "https://cdn.zapier.com/storage/files/167383b30555a2a206d48fe5c8a9a7a4.pdf",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Zapier, Inc.",
+        "evidence": "Passage 1 cites the Terms of Service stating that the Zapier website and the Zapier web-based application integration and data linking service are operated by Zapier, Inc.",
+        "source": {
+          "id": 1,
+          "text": "*\"The following terms of service (“Terms of Service”) govern your use of the Zapier website (the “Site”) and the Zapier web-based, application integration and data linking service accessed through the Site (“Service”), both of which are operated by Zapier, Inc. (“Zapier” or “we”).\"*\n\nThe Terms of Servi",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOXX7wyxxaD0JBfXsKqchfrWVgLlsCmHeWOk7e50HHESXrCvYedUnWG3_G0uWLbXVttByLEcFR01oOztIvRlJxy0fdq-8OlAtk87PIyO5-q1Fe8TyF4tyImxnOQT7Q1n0cddfxwTSGWmPNparY3VzOQYwjeb-U4LSFTmRTUB9J",
+          "title": "zapier.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Zapier",
+    "domain": "zapier.com",
+    "description": "Zapier is a remote company focused on providing automation solutions that help users seamlessly integrate various applications, such as Salesforce, Intuit, Google, and Dropbox. By automating data transfer between these platforms, Zapier empowers users to concentrate on their core tasks. The company operates globally with a diverse team distributed across 40 countries."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Zapier, Inc.",
+  "evidence": "Passage 1 cites the Terms of Service stating that the Zapier website and the Zapier web-based application integration and data linking service are operated by Zapier, Inc.",
+  "source": {
+    "id": 1,
+    "text": "*\"The following terms of service (“Terms of Service”) govern your use of the Zapier website (the “Site”) and the Zapier web-based, application integration and data linking service accessed through the Site (“Service”), both of which are operated by Zapier, Inc. (“Zapier” or “we”).\"*\n\nThe Terms of Servi",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOXX7wyxxaD0JBfXsKqchfrWVgLlsCmHeWOk7e50HHESXrCvYedUnWG3_G0uWLbXVttByLEcFR01oOztIvRlJxy0fdq-8OlAtk87PIyO5-q1Fe8TyF4tyImxnOQT7Q1n0cddfxwTSGWmPNparY3VzOQYwjeb-U4LSFTmRTUB9J",
+    "title": "zapier.com"
+  },
+  "checked_at": "2026-11-05T09:27:43.367656+00:00"
+}

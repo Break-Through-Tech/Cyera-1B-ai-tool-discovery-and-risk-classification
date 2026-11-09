@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software platform at **later.com** is **Victory Square Media Inc. d/b/a Later** (as part of **Mavrck LLC d/b/a Later**).\n\n### Evidence\n* **Terms of Service:**\n  > *\"These Social Media Management Solution Terms of Service ('Terms') exclusively govern your relationship with Victory Square Media Inc. dba Later ('Later', 'we', 'us' or 'our') and your use of the following Later websites, products and services: https://www.later.com website, https://www.latergram.me/ website, https://www.lat.gr/ website, https://linkin.bio/ website, https://app.later.com... (collectively, the Later websites, products, and services are the 'Social Media Management Solution').\"*\n* **Global Privacy Notice:**\n  > *\"Later's social media and marketing technology and services are provided by Mavrck LLC d.b.a. Later (operating Later Influence and Later Social Enterprise), and/or through our group companies such as MyFavoriteThings, Inc. d.b.a. Mavely... and Victory Square Media, Inc. (Later Social and Link in Bio).\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software platform at **later.com** is **Victory Square Media Inc. d/b/a Later** (as part of **Mavrck LLC d/b/a Later**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElen0d47u9bbGAl2BBlZUGmcyKzbR6ZMLg1bao-CdFBajPejalHliY_5Ey1p3gPDq2yS8B2QgnntHKBHGDr2iedNpUc1MslUAUIM5dTwnSMQ==",
+          "title": "later.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the software platform at **later.com** is **Victory Square Media Inc. d/b/a Later** (as part of **Mavrck LLC d/b/a Later**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgs8SXnZ5a4pBpIdRKXBrtXnyVIwy6qWSqQYak8UMJ5zJm_Pk9gGeY5Tg4H7V3TliVsERQ3ZQr3lUH9BQOnUjiw1FDtWzdTWynwGNom2Q=",
+          "title": "later.com"
+        },
+        {
+          "id": 2,
+          "text": "**Terms of Service:**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgs8SXnZ5a4pBpIdRKXBrtXnyVIwy6qWSqQYak8UMJ5zJm_Pk9gGeY5Tg4H7V3TliVsERQ3ZQr3lUH9BQOnUjiw1FDtWzdTWynwGNom2Q=",
+          "title": "later.com"
+        },
+        {
+          "id": 3,
+          "text": "**Global Privacy Notice:**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElen0d47u9bbGAl2BBlZUGmcyKzbR6ZMLg1bao-CdFBajPejalHliY_5Ey1p3gPDq2yS8B2QgnntHKBHGDr2iedNpUc1MslUAUIM5dTwnSMQ==",
+          "title": "later.com"
+        },
+        {
+          "id": 4,
+          "text": "These Social Media Management Solution Terms of Service ('Terms') exclusively govern your relationship with Victory Square Media Inc. dba Later ('Later', 'we', 'us' or 'our') and your use of the following Later websites, products and services",
+          "url": "https://later.com/terms/",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Victory Square Media Inc. dba Later",
+        "evidence": "According to the Terms of Service at later.com, Victory Square Media Inc. dba Later exclusively governs use of the Later websites, products, and services.",
+        "source": {
+          "id": 4,
+          "text": "These Social Media Management Solution Terms of Service ('Terms') exclusively govern your relationship with Victory Square Media Inc. dba Later ('Later', 'we', 'us' or 'our') and your use of the following Later websites, products and services",
+          "url": "https://later.com/terms/",
+          "title": ""
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Later",
+    "domain": "later.com",
+    "description": "Later is a Canadian marketing platform specializing in social media management, content scheduling, and influencer marketing solutions. The platform offers tools designed to help businesses optimize their social media presence and streamline content workflows, making it easier to engage with their audience effectively."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Victory Square Media Inc. dba Later",
+  "evidence": "According to the Terms of Service at later.com, Victory Square Media Inc. dba Later exclusively governs use of the Later websites, products, and services.",
+  "source": {
+    "id": 4,
+    "text": "These Social Media Management Solution Terms of Service ('Terms') exclusively govern your relationship with Victory Square Media Inc. dba Later ('Later', 'we', 'us' or 'our') and your use of the following Later websites, products and services",
+    "url": "https://later.com/terms/",
+    "title": ""
+  },
+  "checked_at": "2026-11-05T08:36:22.902673+00:00"
+}

@@ -1,0 +1,79 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Instapaper** at **instapaper.com** is **Instant Paper, Inc.**\n\n### Provider Statement\nAccording to the official Instapaper *Terms of Service* (governing `www.instapaper.com` and the Instapaper applications):\n> *\"Please read these Terms of Service (collectively with Instapaper's Privacy Policy and DMCA Copyright Policy, the \"Terms of Service\") fully and carefully before using www.instapaper.com (the \"Site\") and the services, features, content or applications, including the Instapaper application (the \"Application\") offered by Instant Paper, Inc. (\"Instapaper\", \"we\", \"us\" or \"our\").\"*\n\nThe *About & Legal* page further confirms that after spinning out from Pinterest in 2018, Instapaper operates as the independent company **Instant Paper, Inc.**",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Instapaper** at **instapaper.com** is **Instant Paper, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwt0x-HwGhFng0cXiva4555Oa3t7CAwCU1tOjx2HmMYYkL43vpBqPR8vn6nvORL8827vH9MNb_0VQ-Tzd1gP7jAg300WpYLuZ2jGl_fnMf5rkaWnZsGJH_Ww-ciFP-Or4ruX8uGZ7Mij8lcHnGa0EaAZKr",
+          "title": "instapaper.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Instapaper** at **instapaper.com** is **Instant Paper, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFkUB0orEeLCFGs0-uCPYd59lIhXAIjdb9SMTAuPJ_sdZnX2495cmw1qPAD9zDB1Rrjb0NzKlC57G6shFYRci4V9kODqkbVOTUKod8obzMkTyx7LKZjAhQT2by2O1uMgiIMy0dgQ7whG2Vpp-c",
+          "title": "instapaper.com"
+        },
+        {
+          "id": 2,
+          "text": "According to the official Instapaper *Terms of Service* (governing `www.instapaper.com` and the Instapaper applications)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwt0x-HwGhFng0cXiva4555Oa3t7CAwCU1tOjx2HmMYYkL43vpBqPR8vn6nvORL8827vH9MNb_0VQ-Tzd1gP7jAg300WpYLuZ2jGl_fnMf5rkaWnZsGJH_Ww-ciFP-Or4ruX8uGZ7Mij8lcHnGa0EaAZKr",
+          "title": "instapaper.com"
+        },
+        {
+          "id": 3,
+          "text": "*\"Please read these Terms of Service (collectively with Instapaper's Privacy Policy and DMCA Copyright Policy, the \"Terms of Service\") fully and carefully before using www.instapaper.com (the \"Site\") and the services, features, content or applications, including the Instapaper application (the \"Application\") offered by Instant Paper, Inc. (\"Instapaper\", \"we\", \"us\" or \"our\").\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwt0x-HwGhFng0cXiva4555Oa3t7CAwCU1tOjx2HmMYYkL43vpBqPR8vn6nvORL8827vH9MNb_0VQ-Tzd1gP7jAg300WpYLuZ2jGl_fnMf5rkaWnZsGJH_Ww-ciFP-Or4ruX8uGZ7Mij8lcHnGa0EaAZKr",
+          "title": "instapaper.com"
+        },
+        {
+          "id": 4,
+          "text": "The *About & Legal* page further confirms that after spinning out from Pinterest in 2018, Instapaper operates as the independent company **Instant Paper, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFkUB0orEeLCFGs0-uCPYd59lIhXAIjdb9SMTAuPJ_sdZnX2495cmw1qPAD9zDB1Rrjb0NzKlC57G6shFYRci4V9kODqkbVOTUKod8obzMkTyx7LKZjAhQT2by2O1uMgiIMy0dgQ7whG2Vpp-c",
+          "title": "instapaper.com"
+        },
+        {
+          "id": 5,
+          "text": "Please read these Terms of Service (collectively with Instapaper's Privacy Policy and DMCA Copyright Policy, the \"Terms of Service\") fully and carefully before using www.instapaper.com (the \"Site\") and the services, features, conte",
+          "url": "https://github.com/fabianospinelli/contrib-snapshots",
+          "title": ""
+        },
+        {
+          "id": 6,
+          "text": "the \"Terms of Service\") fully and carefully before using www.instapaper.com (the \"Site\") and the services, features, content or applications, including the Instapaper application (the \"Application\") offered by Instant Paper, Inc. (\"Instapaper\", \"we\", \"us\" or \"our\").\"*\n\nT",
+          "url": "https://www.instapaper.com/terms",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Instant Paper, Inc.",
+        "evidence": "According to the Terms of Service for www.instapaper.com and the Instapaper application, the services and application are offered by Instant Paper, Inc.",
+        "source": {
+          "id": 3,
+          "text": "*\"Please read these Terms of Service (collectively with Instapaper's Privacy Policy and DMCA Copyright Policy, the \"Terms of Service\") fully and carefully before using www.instapaper.com (the \"Site\") and the services, features, content or applications, including the Instapaper application (the \"Application\") offered by Instant Paper, Inc. (\"Instapaper\", \"we\", \"us\" or \"our\").\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwt0x-HwGhFng0cXiva4555Oa3t7CAwCU1tOjx2HmMYYkL43vpBqPR8vn6nvORL8827vH9MNb_0VQ-Tzd1gP7jAg300WpYLuZ2jGl_fnMf5rkaWnZsGJH_Ww-ciFP-Or4ruX8uGZ7Mij8lcHnGa0EaAZKr",
+          "title": "instapaper.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Instapaper",
+    "domain": "instapaper.com",
+    "description": "Instapaper is a web-based application that allows users to save web content, such as articles, stories, and videos, for later reading in a simplified format. With easy integration through browser buttons and mobile apps, it transforms saved content into a clutter-free reading experience, enhancing the accessibility and enjoyment of online material."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Instant Paper, Inc.",
+  "evidence": "According to the Terms of Service for www.instapaper.com and the Instapaper application, the services and application are offered by Instant Paper, Inc.",
+  "source": {
+    "id": 3,
+    "text": "*\"Please read these Terms of Service (collectively with Instapaper's Privacy Policy and DMCA Copyright Policy, the \"Terms of Service\") fully and carefully before using www.instapaper.com (the \"Site\") and the services, features, content or applications, including the Instapaper application (the \"Application\") offered by Instant Paper, Inc. (\"Instapaper\", \"we\", \"us\" or \"our\").\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwt0x-HwGhFng0cXiva4555Oa3t7CAwCU1tOjx2HmMYYkL43vpBqPR8vn6nvORL8827vH9MNb_0VQ-Tzd1gP7jAg300WpYLuZ2jGl_fnMf5rkaWnZsGJH_Ww-ciFP-Or4ruX8uGZ7Mij8lcHnGa0EaAZKr",
+    "title": "instapaper.com"
+  },
+  "checked_at": "2026-11-05T08:12:01.952809+00:00"
+}

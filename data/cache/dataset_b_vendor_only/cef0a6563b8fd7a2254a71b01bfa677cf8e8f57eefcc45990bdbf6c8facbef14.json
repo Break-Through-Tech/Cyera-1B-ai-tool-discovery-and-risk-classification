@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The software platform **Shopify** at **shopify.com** is directly provided by **Shopify Inc.** (alongside regional operating entities such as Shopify International Limited and Shopify Commerce Singapore Pte. Ltd. depending on the merchant's geographic location).\n\n### Provider Statement & Evidence\nAccording to Shopify's official contracting documentation and Terms of Service:\n> *\"Unless otherwise provided in your terms of service or any other terms applicable to the services you receive from Shopify as a merchant, the following are Shopify's primary contracting entities with its merchants: Shopify Inc.: A Canadian-registered entity contracting with merchants in the United States or Canada.\"*\n\nFor merchants with store billing addresses in the United States or Canada, the Terms of Service designate:\n> *\"‘Shopify Contracting Party’ means Shopify Inc., a Canadian corporation, with offices located at 151 O'Connor Street, Ground floor, Ottawa, Ontario, K2P 2L8.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "Ltd. depending on the merchant's geographic location)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsD1Xju7XBKhjvU46wsYs887ahcw143fXPsb3sL62Nc5x4v1_IYRqEkXx2eQCXc49lUVEYL39oXsavDJBqedwUTBIM5BI-r8R4NTZF4y9xOa9RofycMuJFtqPcuXRChUQHjWmXeOhkpSPrR9uMvO7RaE6IXkLNVGfkMwLZuOYJ4anwyfM0_bqFwp2KNUHJDm9Wu-VGDajqsnZPjlc3Ut_ESzHIs5Jd",
+          "title": "shopify.com"
+        },
+        {
+          "id": 1,
+          "text": "*\"Unless otherwise provided in your terms of service or any other terms applicable to the services you receive from Shopify as a merchant, the following are Shopify's primary contracting entities with its merchants: Shopify Inc.: A Canadian-registered entity contracting with merchants in the United States or Canada.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsD1Xju7XBKhjvU46wsYs887ahcw143fXPsb3sL62Nc5x4v1_IYRqEkXx2eQCXc49lUVEYL39oXsavDJBqedwUTBIM5BI-r8R4NTZF4y9xOa9RofycMuJFtqPcuXRChUQHjWmXeOhkpSPrR9uMvO7RaE6IXkLNVGfkMwLZuOYJ4anwyfM0_bqFwp2KNUHJDm9Wu-VGDajqsnZPjlc3Ut_ESzHIs5Jd",
+          "title": "shopify.com"
+        },
+        {
+          "id": 2,
+          "text": "Unless otherwise provided in your terms of service or any other terms applicable to the services you receive from Shopify as a merchant, the following are Shopify's primary contracting entities with its merchants: Shopify Inc.: A Canadian-registered entity contracting with merchants in the United States or ",
+          "url": "https://help.shopify.com/en/manual/privacy-and-security/privacy/international-data-transfers/contracting-entities",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Shopify Inc.",
+        "evidence": "Passage 1 confirms that Shopify's primary contracting entity for providing services to merchants is Shopify Inc., a Canadian-registered entity.",
+        "source": {
+          "id": 1,
+          "text": "*\"Unless otherwise provided in your terms of service or any other terms applicable to the services you receive from Shopify as a merchant, the following are Shopify's primary contracting entities with its merchants: Shopify Inc.: A Canadian-registered entity contracting with merchants in the United States or Canada.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsD1Xju7XBKhjvU46wsYs887ahcw143fXPsb3sL62Nc5x4v1_IYRqEkXx2eQCXc49lUVEYL39oXsavDJBqedwUTBIM5BI-r8R4NTZF4y9xOa9RofycMuJFtqPcuXRChUQHjWmXeOhkpSPrR9uMvO7RaE6IXkLNVGfkMwLZuOYJ4anwyfM0_bqFwp2KNUHJDm9Wu-VGDajqsnZPjlc3Ut_ESzHIs5Jd",
+          "title": "shopify.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Shopify",
+    "domain": "shopify.com",
+    "description": "Shopify is a Canadian multinational company specializing in providing comprehensive e-commerce solutions for online businesses. It offers a platform that enables retailers to create and manage their own online stores, facilitating sales and payment processing."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Shopify Inc.",
+  "evidence": "Passage 1 confirms that Shopify's primary contracting entity for providing services to merchants is Shopify Inc., a Canadian-registered entity.",
+  "source": {
+    "id": 1,
+    "text": "*\"Unless otherwise provided in your terms of service or any other terms applicable to the services you receive from Shopify as a merchant, the following are Shopify's primary contracting entities with its merchants: Shopify Inc.: A Canadian-registered entity contracting with merchants in the United States or Canada.\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsD1Xju7XBKhjvU46wsYs887ahcw143fXPsb3sL62Nc5x4v1_IYRqEkXx2eQCXc49lUVEYL39oXsavDJBqedwUTBIM5BI-r8R4NTZF4y9xOa9RofycMuJFtqPcuXRChUQHjWmXeOhkpSPrR9uMvO7RaE6IXkLNVGfkMwLZuOYJ4anwyfM0_bqFwp2KNUHJDm9Wu-VGDajqsnZPjlc3Ut_ESzHIs5Jd",
+    "title": "shopify.com"
+  },
+  "checked_at": "2026-11-05T08:16:22.569885+00:00"
+}

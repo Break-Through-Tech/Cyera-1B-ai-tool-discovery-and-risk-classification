@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The exact product and domain in question are **MooTools** at **mootools.net**.\n\nThere is no commercial operating company behind the product; it is an open-source project directly developed and provided by founder **Valerio Proietti** and the **MooTools Developers** (also known as the **MooTools Development Team**).\n\n* **Provider Statement:** The official site footer across **mootools.net** (including the homepage and the `/developers` page) specifies:  \n  > *\"Copyright © 2006–2026. Valerio Proietti & MooTools Developers.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The exact product and domain in question are **MooTools** at **mootools.net**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwVp_c1OgPKWXFuE6-jV2V_l0htf-4I8cKnGwSBWxaqJQX0YEZongIjNyqPh5x6Zqy7VqWXwx_GUbRv9-GZxqf3-6C8ntGTQoqgBE=",
+          "title": "mootools.net"
+        },
+        {
+          "id": 1,
+          "text": "There is no commercial operating company behind the product; it is an open-source project directly developed and provided by founder **Valerio Proietti** and the **MooTools Developers** (also known as the **MooTools Development Team**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTk2hLjJA5lfndiOAfeJxS9MjP4kONyybdhmdjJ_UlZvZEQ3gKhsvtav44OsAEjp_HpZNcG7AKIXn5rWzJKkAUhlhjfKb0zRYbfTCTANwOqA==",
+          "title": "mootools.net"
+        },
+        {
+          "id": 2,
+          "text": "There is no commercial operating company behind the product; it is an open-source project directly developed and provided by founder **Valerio Proietti** and the **MooTools Developers** (also known as the **MooTools Development Team**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmpPxkvolLUZXM3HJ0HMdIraio0ttMatWS0FJ2dE6zT3dviOI0ieCHH761P0JDp0h2BEcRt40C_fdHdvILugB6UBSEAXdVplCzptdKMha4ahS0SNkLl0yIgMJMGJei4iNML4fKVPlZt2xXVOykFXUE-syXpxa9",
+          "title": "github.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Valerio Proietti and MooTools Developers",
+        "evidence": "Passage 1 states that MooTools is an open-source project directly developed and provided by founder Valerio Proietti and the MooTools Developers.",
+        "source": {
+          "id": 1,
+          "text": "There is no commercial operating company behind the product; it is an open-source project directly developed and provided by founder **Valerio Proietti** and the **MooTools Developers** (also known as the **MooTools Development Team**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTk2hLjJA5lfndiOAfeJxS9MjP4kONyybdhmdjJ_UlZvZEQ3gKhsvtav44OsAEjp_HpZNcG7AKIXn5rWzJKkAUhlhjfKb0zRYbfTCTANwOqA==",
+          "title": "mootools.net"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "MooTools",
+    "domain": "mootools.net",
+    "description": "MooTools is a lightweight and modular JavaScript framework tailored for intermediate to advanced developers. It enables the creation of robust, flexible, and cross-browser compatible code through its elegant and well-documented API, making it a valuable tool for enhancing web development."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Valerio Proietti and MooTools Developers",
+  "evidence": "Passage 1 states that MooTools is an open-source project directly developed and provided by founder Valerio Proietti and the MooTools Developers.",
+  "source": {
+    "id": 1,
+    "text": "There is no commercial operating company behind the product; it is an open-source project directly developed and provided by founder **Valerio Proietti** and the **MooTools Developers** (also known as the **MooTools Development Team**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTk2hLjJA5lfndiOAfeJxS9MjP4kONyybdhmdjJ_UlZvZEQ3gKhsvtav44OsAEjp_HpZNcG7AKIXn5rWzJKkAUhlhjfKb0zRYbfTCTANwOqA==",
+    "title": "mootools.net"
+  },
+  "checked_at": "2026-11-05T09:46:04.980229+00:00"
+}

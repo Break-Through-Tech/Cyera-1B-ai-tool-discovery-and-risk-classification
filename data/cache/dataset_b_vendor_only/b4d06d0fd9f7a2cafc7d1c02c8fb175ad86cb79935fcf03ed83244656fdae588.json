@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The operating company and vendor directly providing **Wix** at **wix.com** is **Wix.com Ltd.** (along with its regional operating affiliates, such as Wix.com, Inc.).\n\n### Evidence\nAccording to the official **Wix Terms of Use** governing the **Wix Website** (`wix.com`) and associated services:\n> *\"The Wix Terms constitute a binding and enforceable legal contract between Wix.com Ltd. and its affiliated companies and subsidiaries worldwide (“Wix”...)\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The operating company and vendor directly providing **Wix** at **wix.com** is **Wix.com Ltd.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcLji9yaxHBFREUZp2YCy5heHfMHhBvVaogKxIR_gZYSAc9NOpsIlKhjkcD2P4gq5X7HQkY9wtQDhXlxj_bNja6y7kNRJ5Y_6J5MXz1t57D5ZJv14V-ug7WTc1",
+          "title": "wix.com"
+        },
+        {
+          "id": 1,
+          "text": "The operating company and vendor directly providing **Wix** at **wix.com** is **Wix.com Ltd.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLDyV8BW3Zv34EEzeSpMtmBKFbEQ37xFh0h1tFAQqm2zJ4XAaa7wPNMybYhwVB1Z4uBakBJ2LM9S5omkt2oYofaaer1Mi0nrOW_qd2AXI7BJL1ijELyi-M7rnGOUHZrtUvCMsF_MlLexYn3WD3i5OeaQpyIPPxCPDz_4iUvvZ86WwDpXDpxQ==",
+          "title": "sec.gov"
+        },
+        {
+          "id": 2,
+          "text": "The operating company and vendor directly providing **Wix** at **wix.com** is **Wix.com Ltd.** (along with its regional operating affiliates, such as Wix.com, Inc.)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLDyV8BW3Zv34EEzeSpMtmBKFbEQ37xFh0h1tFAQqm2zJ4XAaa7wPNMybYhwVB1Z4uBakBJ2LM9S5omkt2oYofaaer1Mi0nrOW_qd2AXI7BJL1ijELyi-M7rnGOUHZrtUvCMsF_MlLexYn3WD3i5OeaQpyIPPxCPDz_4iUvvZ86WwDpXDpxQ==",
+          "title": "sec.gov"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Wix.com Ltd.",
+        "evidence": "Passage 0 states that the operating company and vendor directly providing Wix at wix.com is Wix.com Ltd.",
+        "source": {
+          "id": 0,
+          "text": "The operating company and vendor directly providing **Wix** at **wix.com** is **Wix.com Ltd.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcLji9yaxHBFREUZp2YCy5heHfMHhBvVaogKxIR_gZYSAc9NOpsIlKhjkcD2P4gq5X7HQkY9wtQDhXlxj_bNja6y7kNRJ5Y_6J5MXz1t57D5ZJv14V-ug7WTc1",
+          "title": "wix.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Wix",
+    "domain": "wix.com",
+    "description": "Wix is a web development platform that empowers users to create personalized and professional websites using intuitive tools and templates. Catering to both novice and expert users, it offers a wide range of features designed for maximum creative freedom. With a global user base and open SDK, Wix creates a robust ecosystem for partners, developers, and web designers to market their applications and services effectively."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Wix.com Ltd.",
+  "evidence": "Passage 0 states that the operating company and vendor directly providing Wix at wix.com is Wix.com Ltd.",
+  "source": {
+    "id": 0,
+    "text": "The operating company and vendor directly providing **Wix** at **wix.com** is **Wix.com Ltd.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcLji9yaxHBFREUZp2YCy5heHfMHhBvVaogKxIR_gZYSAc9NOpsIlKhjkcD2P4gq5X7HQkY9wtQDhXlxj_bNja6y7kNRJ5Y_6J5MXz1t57D5ZJv14V-ug7WTc1",
+    "title": "wix.com"
+  },
+  "checked_at": "2026-11-05T10:10:26.257267+00:00"
+}

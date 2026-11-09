@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product **Mouseflow** at **mouseflow.com** is **Mouseflow ApS**.\n\n### Supporting Evidence\n* **Terms of Use:** \n  > *\"This Agreement is between you and Mouseflow ApS (“Mouseflow”, “we”, or “us”).\"*\n* **Privacy Policy:** \n  > *\"At Mouseflow ApS (“Mouseflow”, “we”, “our“, “us”), we are committed to safeguarding and protecting the privacy rights of our website visitors', Customers' and Partners'... This Privacy Policy applies to the websites owned and operated by Mouseflow® (“Mouseflow Websites“, “Websites“)...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product **Mouseflow** at **mouseflow.com** is **Mouseflow ApS**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwQa4l73qzf-OrbvJqn6OdUWcfcPkNDMGzIQ5FSn_aBuzRgWw2O-V31tcF2UFEUBbRIle75mcbn9VsHGgnV67ENNbmRcx8IMiEv1ss8S5IJSiB1DcAzhbtYZk_T_KMIQTS",
+          "title": "mouseflow.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the software product **Mouseflow** at **mouseflow.com** is **Mouseflow ApS**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVNDNRQFZXoRxoZxUrlDN-xuxpd5Jzw6tF1XGzEXzKOBnYuOWft1Xmpcz7180gZ9-k0I8liuR6hdCRtH_fZYXoBThXJ6d6uscFVBZAIV9vQ1X1TS-3w1Ld",
+          "title": "mouseflow.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"This Agreement is between you and Mouseflow ApS (“Mouseflow”, “we”, or “us”).\"*\n* **Privacy",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVNDNRQFZXoRxoZxUrlDN-xuxpd5Jzw6tF1XGzEXzKOBnYuOWft1Xmpcz7180gZ9-k0I8liuR6hdCRtH_fZYXoBThXJ6d6uscFVBZAIV9vQ1X1TS-3w1Ld",
+          "title": "mouseflow.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Mouseflow ApS",
+        "evidence": "Passage 0 explicitly identifies Mouseflow ApS as the vendor directly providing the software product Mouseflow at mouseflow.com.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the software product **Mouseflow** at **mouseflow.com** is **Mouseflow ApS**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwQa4l73qzf-OrbvJqn6OdUWcfcPkNDMGzIQ5FSn_aBuzRgWw2O-V31tcF2UFEUBbRIle75mcbn9VsHGgnV67ENNbmRcx8IMiEv1ss8S5IJSiB1DcAzhbtYZk_T_KMIQTS",
+          "title": "mouseflow.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Mouseflow",
+    "domain": "mouseflow.com",
+    "description": "Mouseflow is a leading behavior analytics tool that helps businesses gain insights into user behavior on their websites. Founded with the mission to improve user experience by revealing why users drop off or abandon carts, Mouseflow offers a comprehensive ecosystem rather than just a collection of separate tools. With a client base of over 190,000 worldwide, the platform caters to enterprises and small businesses alike, enabling teams to make confident decisions that enhance website performance."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Mouseflow ApS",
+  "evidence": "Passage 0 explicitly identifies Mouseflow ApS as the vendor directly providing the software product Mouseflow at mouseflow.com.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the software product **Mouseflow** at **mouseflow.com** is **Mouseflow ApS**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwQa4l73qzf-OrbvJqn6OdUWcfcPkNDMGzIQ5FSn_aBuzRgWw2O-V31tcF2UFEUBbRIle75mcbn9VsHGgnV67ENNbmRcx8IMiEv1ss8S5IJSiB1DcAzhbtYZk_T_KMIQTS",
+    "title": "mouseflow.com"
+  },
+  "checked_at": "2026-11-05T09:11:57.211299+00:00"
+}

@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Trello** at **trello.com** is **Trello, Inc.** (a subsidiary of Atlassian).\n\n### Supporting Evidence and Provider Statements:\n* **Atlassian Product-Specific Terms / Customer Agreement:**  \n  The Atlassian Product-Specific Terms designate the direct contracting entity for the product:\n  > *“Product(s) or offering(s): Trello | Atlassian Contracting Entity: Trello, Inc.”*  \n  > *“‘Trello’ means the software-as-a-service solution (including the corresponding mobile, desktop or other application(s)) currently branded as ‘Trello’ and made available by Trello, Inc.”*\n\n* **Trello Security & Pricing Documentation (`trello.com`):**  \n  > *“Trello, Inc. (‘we’, ‘us’ or ‘our’) is SOC2 Type 2 certified...”*\n\n* **Trello About Page (`trello.com`):**  \n  > *“In July 2014, Trello spins off from Fog Creek and becomes Trello, Inc. ... In early 2017, Trello is acquired by Atlassian and begins the next chapter in empowering teams everywhere.”*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Trello** at **trello.com** is **Trello, Inc.** (a subsidiary of Atlassian)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4tGW7b-BQ4qLDMS11GcQsiCHPFc0p7Sm7AVSw9phJWjGGW5vRAm1Gwd8YsuZVWMO46KciDNub-tpr-7qIFyGpRzrZDUp0lPhe4uJRh60Qb3Td",
+          "title": "trello.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Trello** at **trello.com** is **Trello, Inc.** (a subsidiary of Atlassian)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqzPqlXUsBohC1bQ-KYDe_EPKrRvb0M9kMQ22G21c3u4PxcF9r022E9XuzHS8xfGsi1F6R7ggLQc9gbpv8V1XwFwr6kvNhMmBtZLGLUtzFVQ==",
+          "title": "trello.com"
+        },
+        {
+          "id": 2,
+          "text": "The vendor directly providing **Trello** at **trello.com** is **Trello, Inc.** (a subsidiary of Atlassian)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZRU7VZWtAdqgztaVlr_HPb6Gnv5R28LdLP9rlTfHUPBu6vgFu2239cMtW5lKJa3NUbc1FzKgouEBDcbbbZ4_ozJADp3MrVmaif_UX6KH_PO-grQMTLTpif4CJYHn59i_bvvk=",
+          "title": "atlassian.com"
+        },
+        {
+          "id": 3,
+          "text": "*“Product(s) or offering(s): Trello | Atlassian Contracting Entity: Trello, Inc.”*  \n ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZRU7VZWtAdqgztaVlr_HPb6Gnv5R28LdLP9rlTfHUPBu6vgFu2239cMtW5lKJa3NUbc1FzKgouEBDcbbbZ4_ozJADp3MrVmaif_UX6KH_PO-grQMTLTpif4CJYHn59i_bvvk=",
+          "title": "atlassian.com"
+        },
+        {
+          "id": 4,
+          "text": "rello’ means the software-as-a-service solution (including the corresponding mobile, desktop or other application(s)) currently branded as ‘Trello’ and made available by Trello, Inc.”*\n\n* **Trello Sec",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHJpnNqxs1ZUQGjOgbVmiyHqwkZIoBFFkX7_tqtq--VvRm-sx4SJcKUmmA6ZAvkaiEloTySyMGk9Zrv0WJ7EYbRCn0JpXHRBJdcTtd0YU2kR3qtHtyNhZKXno3dggx6QHvgVjeHZ2L7ZOn3EQO449BH-NKHdLHHOVwFn_W-bkUDSlv8BTPZ1GTgWKcRfmCfs6RDq1Z",
+          "title": "atlassian.com"
+        },
+        {
+          "id": 5,
+          "text": "‘we’, ‘us’ or ‘our’) is SOC2 Type 2 certified...”*\n\n* **Trello About Page (`trello",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3wqtNivciikIBeHmtM3DbiUMVKLCo1r49co_FrKsUYR3vOU9q-TD9Nn1nI33S8z_ahg_Q6nqs6Cg47F_CiQrFbfh1GEutE2iKZNCr794BxxDPh50=",
+          "title": "trello.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Trello, Inc.",
+        "evidence": "Passage 0 explicitly identifies Trello, Inc. (a subsidiary of Atlassian) as the vendor directly providing Trello at trello.com.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Trello** at **trello.com** is **Trello, Inc.** (a subsidiary of Atlassian)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4tGW7b-BQ4qLDMS11GcQsiCHPFc0p7Sm7AVSw9phJWjGGW5vRAm1Gwd8YsuZVWMO46KciDNub-tpr-7qIFyGpRzrZDUp0lPhe4uJRh60Qb3Td",
+          "title": "trello.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Trello",
+    "domain": "trello.com",
+    "description": "Trello is a visual collaboration tool designed to facilitate project management and teamwork. Utilizing boards, lists, and cards, it helps teams organize tasks and communicate effectively. Trello is widely adopted across various industries for enhancing productivity and collaboration."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Trello, Inc.",
+  "evidence": "Passage 0 explicitly identifies Trello, Inc. (a subsidiary of Atlassian) as the vendor directly providing Trello at trello.com.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Trello** at **trello.com** is **Trello, Inc.** (a subsidiary of Atlassian)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4tGW7b-BQ4qLDMS11GcQsiCHPFc0p7Sm7AVSw9phJWjGGW5vRAm1Gwd8YsuZVWMO46KciDNub-tpr-7qIFyGpRzrZDUp0lPhe4uJRh60Qb3Td",
+    "title": "trello.com"
+  },
+  "checked_at": "2026-11-05T09:23:59.655479+00:00"
+}

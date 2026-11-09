@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **Buzzsprout** podcast hosting product at **buzzsprout.com** is **Higher Pixels, Inc.** (doing business as **Buzzsprout**).\n\n### Supporting Evidence\n* **Buzzsprout Privacy Policy (`buzzsprout.com/privacy`):**  \n  > *\"Higher Pixels, dba Buzzsprout, provides the Buzzsprout product (www.buzzsprout.com) and Buzzsprout Ads (www.buzzsprout.com/ads), together referred to as the Buzzsprout Services.\"*\n\n* **Buzzsprout Terms of Service (`buzzsprout.com/tos`):**  \n  > *\"Higher Pixels provides Buzzsprout and its related services ('Service') subject to your compliance with the terms and conditions ('Terms of Service')...\"*\n\n* **Buzzsprout Data Privacy Framework Policy (`buzzsprout.com/dpf`):**  \n  > *\"Buzzsprout is owned and operated by Higher Pixels, Inc. Higher Pixels is a small web application company based in Jacksonville, Florida, USA.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **Buzzsprout** podcast hosting product at **buzzsprout.com** is **Higher Pixels, Inc.** (doing business as **Buzzsprout**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9vSyo54wEnKTEARpU1j-u6YoSPd52iHl80_RXIvJyWSB2jn8NK52rm2N81om-k9cCQhcJ-9uSk60xrS1D2wI_RTs4iIY7qCVmKnzyLA8yksu4RsNJ34qB",
+          "title": "buzzsprout.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the **Buzzsprout** podcast hosting product at **buzzsprout.com** is **Higher Pixels, Inc.** (doing business as **Buzzsprout**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJnq15hgCn5HIfe9z5zzMauU9IviuPpDZBBemErR3OWzxBwH-Sug83U1hsMx6FjNxm4pnROSFX1nRoa_GnqHI9WEQF8z8RPcQIh7OYlSfWKF4Rc39O2zVN",
+          "title": "buzzsprout.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"Higher Pixels, dba Buzzsprout, provides the Buzzsprout product (www.buzzsprout.com) and Buzzsprout Ads (www.buzzsprout.com/ads), together referred to as the Buzzsprout Services.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9vSyo54wEnKTEARpU1j-u6YoSPd52iHl80_RXIvJyWSB2jn8NK52rm2N81om-k9cCQhcJ-9uSk60xrS1D2wI_RTs4iIY7qCVmKnzyLA8yksu4RsNJ34qB",
+          "title": "buzzsprout.com"
+        },
+        {
+          "id": 3,
+          "text": "*\"Higher Pixels provides Buzzsprout and its related services ('Service') subject to your compliance with the terms and conditions ('Terms of Service')...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWGi-uN_MGtAcw3FUCk3aAjgP9ePtvrUmluv9psOhyeNIP_DhI38lJ3YKjUvazPw5J1reUOjliB6JAQ-1CMDGlAKan2LyPr0_WXdyX8Lj6Cr5p6GM=",
+          "title": "buzzsprout.com"
+        },
+        {
+          "id": 4,
+          "text": "Higher Pixels is a small web application company based in Jacksonville, Florida, USA.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfGh4lC8zywfQ-du8p-H71cVxEZWCpEUr1CwRyeqqU9I3HxvyjjzP_AitlJeuYzzXOw2sIbAMvZ9ZiCU4ZpUgTBIJ9PaDBDnk4uPX1gdwy2yJrxwa9Sql6Y4ix85jxGi2P6Lw=",
+          "title": "buzzsprout.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Higher Pixels",
+        "evidence": "Passage 2 states that 'Higher Pixels, dba Buzzsprout, provides the Buzzsprout product (www.buzzsprout.com) and Buzzsprout Ads (www.buzzsprout.com/ads), together referred to as the Buzzsprout Services.'",
+        "source": {
+          "id": 2,
+          "text": "*\"Higher Pixels, dba Buzzsprout, provides the Buzzsprout product (www.buzzsprout.com) and Buzzsprout Ads (www.buzzsprout.com/ads), together referred to as the Buzzsprout Services.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9vSyo54wEnKTEARpU1j-u6YoSPd52iHl80_RXIvJyWSB2jn8NK52rm2N81om-k9cCQhcJ-9uSk60xrS1D2wI_RTs4iIY7qCVmKnzyLA8yksu4RsNJ34qB",
+          "title": "buzzsprout.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Buzzsprout",
+    "domain": "buzzsprout.com",
+    "description": "Buzzsprout is a podcast hosting platform that offers tools for hosting, promoting, and tracking podcasts. It is designed to simplify the podcasting process for users at all experience levels. The company aims to make podcasting accessible with user-friendly features and analytics tools, empowering creators to share their stories and connect with audiences. Buzzsprout operates in the digital media space and caters to both novice and experienced podcasters."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Higher Pixels",
+  "evidence": "Passage 2 states that 'Higher Pixels, dba Buzzsprout, provides the Buzzsprout product (www.buzzsprout.com) and Buzzsprout Ads (www.buzzsprout.com/ads), together referred to as the Buzzsprout Services.'",
+  "source": {
+    "id": 2,
+    "text": "*\"Higher Pixels, dba Buzzsprout, provides the Buzzsprout product (www.buzzsprout.com) and Buzzsprout Ads (www.buzzsprout.com/ads), together referred to as the Buzzsprout Services.\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9vSyo54wEnKTEARpU1j-u6YoSPd52iHl80_RXIvJyWSB2jn8NK52rm2N81om-k9cCQhcJ-9uSk60xrS1D2wI_RTs4iIY7qCVmKnzyLA8yksu4RsNJ34qB",
+    "title": "buzzsprout.com"
+  },
+  "checked_at": "2026-11-05T08:12:59.849916+00:00"
+}

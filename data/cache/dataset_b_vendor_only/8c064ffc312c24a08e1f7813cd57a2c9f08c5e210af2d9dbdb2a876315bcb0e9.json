@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Learniverse** at **learniverse.pro** is **RidingWaves LLC**.\n\n### Supporting Evidence:\n* **Operating Company:** The official website at `learniverse.pro` explicitly displays the legal copyright notice in its footer:  \n  > *\"© RidingWaves LLC. All rights reserved.\"*\n* **Company Catalog:** RidingWaves LLC lists **Learniverse** alongside its other cognitive/learning tools on its official website (*\"Our software turns scattered knowledge into clearer learning paths... Learniverse Tab2PDF Focura Platypus © RidingWaves LLC\"*).\n* **Developer / Brand Context:** The software was originally created and published by developer Sicong Zhao, and the Privacy Policy on `learniverse.pro` refers to the brand entity as *Learniverse* based in Washington, United States.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Learniverse** at **learniverse.pro** is **RidingWaves LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlm-xvpqqqZyrAazldGWp1iCckl7bf7Di-WpXXLLjwLdg1zuPXOPyNAVAYMTCHlxD3ZYI7UxM-p0DWKORobkTZ0Biw6VL5HsOrOtB-mJRWk_I=",
+          "title": "learniverse.pro"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Learniverse** at **learniverse.pro** is **RidingWaves LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFVjXEX5ICQiFx6B-vMMcdFfr00pRY_KWPat-7JupqsAOnfAxqJ916jCPYg51jbSZQQREcJFASt8lYzW5W7lR3aEgm_PsgoN9EY-OC5A==",
+          "title": "ridingwaves.io"
+        },
+        {
+          "id": 2,
+          "text": "ll rights reserved.\"*\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlm-xvpqqqZyrAazldGWp1iCckl7bf7Di-WpXXLLjwLdg1zuPXOPyNAVAYMTCHlxD3ZYI7UxM-p0DWKORobkTZ0Biw6VL5HsOrOtB-mJRWk_I=",
+          "title": "learniverse.pro"
+        },
+        {
+          "id": 3,
+          "text": "ll rights reserved.\"*\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-DhBafqcLMjqkONb9iB_oxbmidspT0XV4AXHlT_0hzHgdZqUU17_OYMEUM-cM_gBiTzxuA2y8IKJlYbh1fG1KGRnQPsbPt8P2by5N9FaNFyIf",
+          "title": "learniverse.pro"
+        },
+        {
+          "id": 4,
+          "text": "earniverse Tab2PDF Focura Platypus © RidingWaves LLC\"*).\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFVjXEX5ICQiFx6B-vMMcdFfr00pRY_KWPat-7JupqsAOnfAxqJ916jCPYg51jbSZQQREcJFASt8lYzW5W7lR3aEgm_PsgoN9EY-OC5A==",
+          "title": "ridingwaves.io"
+        },
+        {
+          "id": 5,
+          "text": "Developer / Brand Context:** The software was originally created and published by developer Sicong Zhao, ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlKvCLSsmjFdHQUJGFRu39LjYMI-LzlHZ4KpwgShHdq6RnmsfZMjDpBxS6QCuL4FaFyrMZ0MvkJbNfjRfqRsw9wKECZH4B9fMFkz2FfHyDWp97MlPUoSUxJcFw9_b21lVMwCtlti5haG5UvaIkChsZu5Wz8Os=",
+          "title": "medium.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "RidingWaves LLC",
+        "evidence": "Passage 0 explicitly identifies RidingWaves LLC as the vendor directly providing Learniverse at learniverse.pro.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Learniverse** at **learniverse.pro** is **RidingWaves LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlm-xvpqqqZyrAazldGWp1iCckl7bf7Di-WpXXLLjwLdg1zuPXOPyNAVAYMTCHlxD3ZYI7UxM-p0DWKORobkTZ0Biw6VL5HsOrOtB-mJRWk_I=",
+          "title": "learniverse.pro"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Learniverse",
+    "domain": "learniverse.pro",
+    "description": "Harness AI to curate tutorials for your unique goals."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "RidingWaves LLC",
+  "evidence": "Passage 0 explicitly identifies RidingWaves LLC as the vendor directly providing Learniverse at learniverse.pro.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Learniverse** at **learniverse.pro** is **RidingWaves LLC**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlm-xvpqqqZyrAazldGWp1iCckl7bf7Di-WpXXLLjwLdg1zuPXOPyNAVAYMTCHlxD3ZYI7UxM-p0DWKORobkTZ0Biw6VL5HsOrOtB-mJRWk_I=",
+    "title": "learniverse.pro"
+  },
+  "checked_at": "2026-11-05T06:20:38.779745+00:00"
+}

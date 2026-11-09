@@ -1,0 +1,43 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product **Elai.io** at **elai.io** is **Elai, Inc.**\n\n### Provider Statement\nAccording to the official **Terms of Service** on **elai.io**:\n> *\"These Elai Website Terms of Services (“Terms of Service”) provides important information regarding your use of the Elai.io website (“Website”), and the products, software, platforms, and services provided on, from, or through the Website (“Services”), owned and operated by Elai, Inc. and its affiliates (collectively, “Elai,” “we” or “us”).\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product **Elai.io** at **elai.io** is **Elai, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExYNqJCEZKuqQEgNvXDZdsLG4v16l3jonwxdaz5sWllDllCWGX0tWonPYKXuIMoKafIifU3mVhVSGVuUCIOUPocXnyvyBRFSeAqPxcEqMve3jRnl8YmJ0=",
+          "title": "elai.io"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Elai, Inc.",
+        "evidence": "Passage 0 explicitly confirms that the vendor directly providing the software product Elai.io at elai.io is Elai, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the software product **Elai.io** at **elai.io** is **Elai, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExYNqJCEZKuqQEgNvXDZdsLG4v16l3jonwxdaz5sWllDllCWGX0tWonPYKXuIMoKafIifU3mVhVSGVuUCIOUPocXnyvyBRFSeAqPxcEqMve3jRnl8YmJ0=",
+          "title": "elai.io"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Elai.io",
+    "domain": "elai.io",
+    "description": "Effortlessly create professional-grade videos with AI."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Elai, Inc.",
+  "evidence": "Passage 0 explicitly confirms that the vendor directly providing the software product Elai.io at elai.io is Elai, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the software product **Elai.io** at **elai.io** is **Elai, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExYNqJCEZKuqQEgNvXDZdsLG4v16l3jonwxdaz5sWllDllCWGX0tWonPYKXuIMoKafIifU3mVhVSGVuUCIOUPocXnyvyBRFSeAqPxcEqMve3jRnl8YmJ0=",
+    "title": "elai.io"
+  },
+  "checked_at": "2026-11-05T07:03:32.667862+00:00"
+}

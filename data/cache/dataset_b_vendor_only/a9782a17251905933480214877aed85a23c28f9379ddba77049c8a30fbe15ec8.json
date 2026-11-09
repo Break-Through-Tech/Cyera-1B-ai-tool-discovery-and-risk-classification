@@ -1,0 +1,91 @@
+{
+  "attempts": [
+    {
+      "answer": "The software repository and mirror service at **packagist.org** is directly operated and provided by **Packagist Conductors GmbH** (the company behind **Private Packagist**).\n\n* **Exact Product and Domain:** Packagist / Packagist Mirror at `packagist.org`.\n* **Operating Company:** **Packagist Conductors GmbH** (based in Berlin, Germany), founded by Composer and Packagist creators Nils Adermann and Jordi Boggiano.\n* **Provider / Operating Statements:** \n  * The official footer across `packagist.org` states: *\"Private Packagist provides maintenance and hosting.\"*\n  * The official company overview states: *\"In July 2016 they founded Packagist Conductors to put Composer and Packagist.org on a sustainable footing... developed and operated by Packagist Conductors GmbH in Berlin, Germany.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software repository and mirror service at **packagist.org** is directly operated and provided by **Packagist Conductors GmbH** (the company behind **Private Packagist**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4e4GS3K1VtVL4aiWsc7gZqlmKHvr106zx6V7UReziVfGS1HAoyRWuAD9NOVd1KarSK3HB7EytBayXkzrcPO1L5H7sR7FMqfysiw74Yhifzi2t",
+          "title": "packagist.com"
+        },
+        {
+          "id": 1,
+          "text": "The software repository and mirror service at **packagist.org** is directly operated and provided by **Packagist Conductors GmbH** (the company behind **Private Packagist**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcb-koW0xfOxi-oZokCWaTXbRv4cFZyTN_OF0Y5GuQ6M7IjB_AFHEFReSG-ikD8B9K9SDsluBE5_IT69OE_ycrtR79hgnEMAFixfiuCkUfu7JopzLNOGnP64P0SG_RIN_gcwKLBLs=",
+          "title": "packagist.org"
+        },
+        {
+          "id": 2,
+          "text": "**Exact Product and Domain:** Packagist / Packagist Mirror at `packagist.org`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE56A9uv43CCusNwh-8vsknGpOB6GD7BQSMpSxStCgksgfVrxGa74KjRw36ZV2pWT_7kN1ZaMSy0t-Q8ysFbRdy46ZQ_iEp3LnzZY9gyzsngJU=",
+          "title": "packagist.org"
+        },
+        {
+          "id": 3,
+          "text": "**Exact Product and Domain:** Packagist / Packagist Mirror at `packagist.org`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcb-koW0xfOxi-oZokCWaTXbRv4cFZyTN_OF0Y5GuQ6M7IjB_AFHEFReSG-ikD8B9K9SDsluBE5_IT69OE_ycrtR79hgnEMAFixfiuCkUfu7JopzLNOGnP64P0SG_RIN_gcwKLBLs=",
+          "title": "packagist.org"
+        },
+        {
+          "id": 4,
+          "text": "**Operating Company:** **Packagist Conductors GmbH** (based in Berlin, Germany), founded by Composer and Packagist creators Nils Adermann and Jordi Boggiano",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4e4GS3K1VtVL4aiWsc7gZqlmKHvr106zx6V7UReziVfGS1HAoyRWuAD9NOVd1KarSK3HB7EytBayXkzrcPO1L5H7sR7FMqfysiw74Yhifzi2t",
+          "title": "packagist.com"
+        },
+        {
+          "id": 5,
+          "text": "**Operating Company:** **Packagist Conductors GmbH** (based in Berlin, Germany), founded by Composer and Packagist creators Nils Adermann and Jordi Boggiano",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-B2wHQ-G56G6jB7LNi1npl_AjAgo_TImVxgBNNkj8kXzLZHN-IHTjuwnNJTW4o1bTZwBqd_gZDmvP82o5ejaLiJ1_mV2jl7Z4R-29wYXAdjIC",
+          "title": "packagist.com"
+        },
+        {
+          "id": 6,
+          "text": "The official footer across `packagist.org` states: *\"Private Packagist provides maintenance and hosting.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcb-koW0xfOxi-oZokCWaTXbRv4cFZyTN_OF0Y5GuQ6M7IjB_AFHEFReSG-ikD8B9K9SDsluBE5_IT69OE_ycrtR79hgnEMAFixfiuCkUfu7JopzLNOGnP64P0SG_RIN_gcwKLBLs=",
+          "title": "packagist.org"
+        },
+        {
+          "id": 7,
+          "text": "The official company overview states: *\"In July 2016 they founded Packagist Conductors to put Composer and Packagist.org on a sustainable footing... developed and operated by Packagist Conductors GmbH in Berlin, Germany.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4e4GS3K1VtVL4aiWsc7gZqlmKHvr106zx6V7UReziVfGS1HAoyRWuAD9NOVd1KarSK3HB7EytBayXkzrcPO1L5H7sR7FMqfysiw74Yhifzi2t",
+          "title": "packagist.com"
+        },
+        {
+          "id": 8,
+          "text": "The official company overview states: *\"In July 2016 they founded Packagist Conductors to put Composer and Packagist.org on a sustainable footing... developed and operated by Packagist Conductors GmbH in Berlin, Germany.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-B2wHQ-G56G6jB7LNi1npl_AjAgo_TImVxgBNNkj8kXzLZHN-IHTjuwnNJTW4o1bTZwBqd_gZDmvP82o5ejaLiJ1_mV2jl7Z4R-29wYXAdjIC",
+          "title": "packagist.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Packagist Conductors GmbH",
+        "evidence": "Passage 1 directly states that the software repository and mirror service at packagist.org is operated and provided by Packagist Conductors GmbH.",
+        "source": {
+          "id": 1,
+          "text": "The software repository and mirror service at **packagist.org** is directly operated and provided by **Packagist Conductors GmbH** (the company behind **Private Packagist**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcb-koW0xfOxi-oZokCWaTXbRv4cFZyTN_OF0Y5GuQ6M7IjB_AFHEFReSG-ikD8B9K9SDsluBE5_IT69OE_ycrtR79hgnEMAFixfiuCkUfu7JopzLNOGnP64P0SG_RIN_gcwKLBLs=",
+          "title": "packagist.org"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Packagist Mirror",
+    "domain": "packagist.org",
+    "description": "Packagist is the primary repository for managing packages in PHP through Composer. It enables developers to discover and utilize various libraries and packages to effectively manage project dependencies, facilitating a more structured and efficient coding environment."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Packagist Conductors GmbH",
+  "evidence": "Passage 1 directly states that the software repository and mirror service at packagist.org is operated and provided by Packagist Conductors GmbH.",
+  "source": {
+    "id": 1,
+    "text": "The software repository and mirror service at **packagist.org** is directly operated and provided by **Packagist Conductors GmbH** (the company behind **Private Packagist**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcb-koW0xfOxi-oZokCWaTXbRv4cFZyTN_OF0Y5GuQ6M7IjB_AFHEFReSG-ikD8B9K9SDsluBE5_IT69OE_ycrtR79hgnEMAFixfiuCkUfu7JopzLNOGnP64P0SG_RIN_gcwKLBLs=",
+    "title": "packagist.org"
+  },
+  "checked_at": "2026-11-05T09:39:36.692029+00:00"
+}

@@ -1,0 +1,43 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Campaign Monitor** at **campaignmonitor.com** is **Campaign Monitor Pty Ltd.**\n\n### Provider Statement\nAccording to the official Terms of Use agreement on `campaignmonitor.com`:\n> *\"PLEASE READ THIS TERMS OF USE AGREEMENT CAREFULLY BEFORE USING ANY OF THE SERVICES AVAILABLE AT CAMPAIGNMONITOR.COM (the “Site”) OR OFFERED BY OR ON BEHALF OF CAMPAIGN MONITOR PTY LTD OR ITS AFFILIATES... This Terms of Use Agreement... is a legal agreement between You (“Customer”, “You”, “Your”) and Campaign Monitor Pty Ltd. (“Campaign Monitor” or “Company”)... and deﬁnes the terms and conditions under which You are allowed to use the Services...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Campaign Monitor** at **campaignmonitor.com** is **Campaign Monitor Pty Ltd.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM9puRn-9kAL8DI7TKEdRn_qbNiGg_PrTryGPVoIvHEbZydPutLr1V9yRtFHm0MbztF9enfrZUNOHjVW0yMc0MsaqyYBtbdGajbU1__B4UpObfaGAd7imUiVafap5_JA==",
+          "title": "campaignmonitor.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Campaign Monitor Pty Ltd.",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing Campaign Monitor at campaignmonitor.com is Campaign Monitor Pty Ltd.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Campaign Monitor** at **campaignmonitor.com** is **Campaign Monitor Pty Ltd.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM9puRn-9kAL8DI7TKEdRn_qbNiGg_PrTryGPVoIvHEbZydPutLr1V9yRtFHm0MbztF9enfrZUNOHjVW0yMc0MsaqyYBtbdGajbU1__B4UpObfaGAd7imUiVafap5_JA==",
+          "title": "campaignmonitor.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Campaign Monitor",
+    "domain": "campaignmonitor.com",
+    "description": "Campaign Monitor, part of Marigold, specializes in relationship marketing solutions tailored to businesses of varying sizes and industries. With a focus on customer acquisition, engagement, and loyalty, they provide technology and strategic support aimed at maximizing ROI. Trusted by over 40,000 businesses worldwide, Campaign Monitor stands out by emphasizing the importance of genuine connections in marketing over mere conversions."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Campaign Monitor Pty Ltd.",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing Campaign Monitor at campaignmonitor.com is Campaign Monitor Pty Ltd.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Campaign Monitor** at **campaignmonitor.com** is **Campaign Monitor Pty Ltd.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM9puRn-9kAL8DI7TKEdRn_qbNiGg_PrTryGPVoIvHEbZydPutLr1V9yRtFHm0MbztF9enfrZUNOHjVW0yMc0MsaqyYBtbdGajbU1__B4UpObfaGAd7imUiVafap5_JA==",
+    "title": "campaignmonitor.com"
+  },
+  "checked_at": "2026-11-05T08:36:48.711125+00:00"
+}

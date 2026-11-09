@@ -1,0 +1,79 @@
+{
+  "attempts": [
+    {
+      "answer": "For the software product **FlashAI** at **flashai.me**, no registered corporate legal entity is published. The product is provided directly under the brand **FlashAI** by independent developer **flash.ai1996**.\n\n### Supporting Evidence:\n* **Official Website (`flashai.me`):** Displays support contact `support@flashai.me` and the copyright notice:  \n  > *\"Copyright © 2026 flashai All rights reserved.\"*\n* **Chrome Web Store Listing:** The FlashAI browser extension directly points to `flashai.me` (*\"Visit our website at flashai.me to explore the possibilities and acquire your license...\"*) and identifies the provider/developer:  \n  > **Offered by:** `flash.ai1996`  \n  > **Developer Email:** `flash.ai1996@gmail.com` (classified as a non-trader individual developer).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "For the software product **FlashAI** at **flashai.me**, no registered corporate legal entity is published",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCeyHOPlwB_pyCYlIc0cuYe00X6Ol8oS4qKnlOFALEhFgnb3UaQbGXvPChEtH4cYqjvgaNYb-YZlOfgFfMhczs5bDSJg5-DA_sivTvFYB8go3FHePy6s1qKSBfTMNzeJhhkIQQeZ9EAWjxfAYsSiZLG_VVZYZPyuuXWg7GTiv7ZH7UwG6mzypl",
+          "title": "google.com"
+        },
+        {
+          "id": 1,
+          "text": "For the software product **FlashAI** at **flashai.me**, no registered corporate legal entity is published",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOMY5f_JdFtcEKOCBKXu7CA8thT7XIuq-oAX4zo1yO_-a9KuwkbehAHiynCG1aOTJfLVIwSy1XQZB3WV53XMg4bAGy-wahuyB8",
+          "title": "flashai.me"
+        },
+        {
+          "id": 2,
+          "text": "The product is provided directly under the brand **FlashAI** by independent developer **flash.ai1996**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCeyHOPlwB_pyCYlIc0cuYe00X6Ol8oS4qKnlOFALEhFgnb3UaQbGXvPChEtH4cYqjvgaNYb-YZlOfgFfMhczs5bDSJg5-DA_sivTvFYB8go3FHePy6s1qKSBfTMNzeJhhkIQQeZ9EAWjxfAYsSiZLG_VVZYZPyuuXWg7GTiv7ZH7UwG6mzypl",
+          "title": "google.com"
+        },
+        {
+          "id": 3,
+          "text": "The product is provided directly under the brand **FlashAI** by independent developer **flash.ai1996**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOMY5f_JdFtcEKOCBKXu7CA8thT7XIuq-oAX4zo1yO_-a9KuwkbehAHiynCG1aOTJfLVIwSy1XQZB3WV53XMg4bAGy-wahuyB8",
+          "title": "flashai.me"
+        },
+        {
+          "id": 4,
+          "text": "*\"Copyright © 2026 flashai All rights reserved.\"*\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOMY5f_JdFtcEKOCBKXu7CA8thT7XIuq-oAX4zo1yO_-a9KuwkbehAHiynCG1aOTJfLVIwSy1XQZB3WV53XMg4bAGy-wahuyB8",
+          "title": "flashai.me"
+        },
+        {
+          "id": 5,
+          "text": "*Developer Email:** `flash.ai1996@gmail.com` (classified as a non-trader individual developer).",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCeyHOPlwB_pyCYlIc0cuYe00X6Ol8oS4qKnlOFALEhFgnb3UaQbGXvPChEtH4cYqjvgaNYb-YZlOfgFfMhczs5bDSJg5-DA_sivTvFYB8go3FHePy6s1qKSBfTMNzeJhhkIQQeZ9EAWjxfAYsSiZLG_VVZYZPyuuXWg7GTiv7ZH7UwG6mzypl",
+          "title": "google.com"
+        },
+        {
+          "id": 6,
+          "text": "*Developer Email:** `flash.ai1996@gmail.com` (classified as a non-trader individual developer).",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEyCrhSfqyCJMT0xqemCIxfmDuky3R9UqIO9ThIg4VimnVEn9ho3OjW27h6r8UyeJNKtpkWAAP4RCrtgmZLvwvMS9nWA0FpKpa633p1g_YORI1Vds475_CrYcBZrqvxueP8TMLxqHXIWw61J-j8z8YVgyDhduqnU4mDGk_BL3uhKz7L-PxbU7bc",
+          "title": "google.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "flash.ai1996",
+        "evidence": "Passage 3 explicitly states that FlashAI is provided directly by independent developer flash.ai1996.",
+        "source": {
+          "id": 3,
+          "text": "The product is provided directly under the brand **FlashAI** by independent developer **flash.ai1996**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOMY5f_JdFtcEKOCBKXu7CA8thT7XIuq-oAX4zo1yO_-a9KuwkbehAHiynCG1aOTJfLVIwSy1XQZB3WV53XMg4bAGy-wahuyB8",
+          "title": "flashai.me"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "FlashAI",
+    "domain": "flashai.me",
+    "description": "Enhancing productivity with prompts and summarization."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "flash.ai1996",
+  "evidence": "Passage 3 explicitly states that FlashAI is provided directly by independent developer flash.ai1996.",
+  "source": {
+    "id": 3,
+    "text": "The product is provided directly under the brand **FlashAI** by independent developer **flash.ai1996**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOMY5f_JdFtcEKOCBKXu7CA8thT7XIuq-oAX4zo1yO_-a9KuwkbehAHiynCG1aOTJfLVIwSy1XQZB3WV53XMg4bAGy-wahuyB8",
+    "title": "flashai.me"
+  },
+  "checked_at": "2026-11-05T05:27:31.721594+00:00"
+}

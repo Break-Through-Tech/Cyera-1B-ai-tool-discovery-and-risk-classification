@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The operating company and vendor directly providing the **Academic Help** platform at **academichelp.net** is **A-Help Limited**.\n\n### Evidence\n* **Terms and Conditions:** *\"Welcome to https://academichelp.net/, a website managed by A-Help Limited.\"*\n* **Contact & Footer Details:** Identifies the company as *\"A-Help Limited Vasili Michailidi, 9, 3026, Limassol, Cyprus\"* and specifies that the Terms are governed by the laws of the Republic of Cyprus.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The operating company and vendor directly providing the **Academic Help** platform at **academichelp.net** is **A-Help Limited**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtAQkknFk2_DjKf9cGuYcdd45ru3WXAuWM-U78h-TkYWiWY2CCsw_OaBQ1vocEXSGY2tgXqm_ZoN3-4aD13_0FdhySQ6gFqBugrTu-qeL3pUKDXgmUf8y6xhnf9oyzZyRVLMfI",
+          "title": "academichelp.net"
+        },
+        {
+          "id": 1,
+          "text": "The operating company and vendor directly providing the **Academic Help** platform at **academichelp.net** is **A-Help Limited**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAK0E_57WgWptbJ50K9kghaWY7pokKrqH7A9jfVVUNEnw2fHKnZgHmM6FamuNYNI_W8XsELVqA97ucPSEd8W5dWKJ-ZY9t3Nt9WQri_LE9kGSqqmwJkFzi5W8=",
+          "title": "academichelp.net"
+        },
+        {
+          "id": 2,
+          "text": "**Terms and Conditions:** *\"Welcome to https://academichelp.net/, a website managed by A-Help Limited.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtAQkknFk2_DjKf9cGuYcdd45ru3WXAuWM-U78h-TkYWiWY2CCsw_OaBQ1vocEXSGY2tgXqm_ZoN3-4aD13_0FdhySQ6gFqBugrTu-qeL3pUKDXgmUf8y6xhnf9oyzZyRVLMfI",
+          "title": "academichelp.net"
+        },
+        {
+          "id": 3,
+          "text": "**Terms and Conditions:** *\"Welcome to https://academichelp.net/, a website managed by A-Help Limited.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtAQkknFk2_DjKf9cGuYcdd45ru3WXAuWM-U78h-TkYWiWY2CCsw_OaBQ1vocEXSGY2tgXqm_ZoN3-4aD13_0FdhySQ6gFqBugrTu-qeL3pUKDXgmUf8y6xhnf9oyzZyRVLMfI",
+          "title": "academichelp.net"
+        },
+        {
+          "id": 4,
+          "text": "**Contact & Footer Details:** Identifies the company as *\"A-Help Limited Vasili Michailidi, 9, 3026, Limassol, Cyprus\"* and specifies that the Terms are governed by the laws of the Republic of Cyprus",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtAQkknFk2_DjKf9cGuYcdd45ru3WXAuWM-U78h-TkYWiWY2CCsw_OaBQ1vocEXSGY2tgXqm_ZoN3-4aD13_0FdhySQ6gFqBugrTu-qeL3pUKDXgmUf8y6xhnf9oyzZyRVLMfI",
+          "title": "academichelp.net"
+        },
+        {
+          "id": 5,
+          "text": "**Contact & Footer Details:** Identifies the company as *\"A-Help Limited Vasili Michailidi, 9, 3026, Limassol, Cyprus\"* and specifies that the Terms are governed by the laws of the Republic of Cyprus",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAK0E_57WgWptbJ50K9kghaWY7pokKrqH7A9jfVVUNEnw2fHKnZgHmM6FamuNYNI_W8XsELVqA97ucPSEd8W5dWKJ-ZY9t3Nt9WQri_LE9kGSqqmwJkFzi5W8=",
+          "title": "academichelp.net"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "A-Help Limited",
+        "evidence": "Passage 0 explicitly states that the operating company and vendor directly providing the Academic Help platform at academichelp.net is A-Help Limited.",
+        "source": {
+          "id": 0,
+          "text": "The operating company and vendor directly providing the **Academic Help** platform at **academichelp.net** is **A-Help Limited**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtAQkknFk2_DjKf9cGuYcdd45ru3WXAuWM-U78h-TkYWiWY2CCsw_OaBQ1vocEXSGY2tgXqm_ZoN3-4aD13_0FdhySQ6gFqBugrTu-qeL3pUKDXgmUf8y6xhnf9oyzZyRVLMfI",
+          "title": "academichelp.net"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Academic Help",
+    "domain": "academichelp.net",
+    "description": "Automated essay support for academic writing."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "A-Help Limited",
+  "evidence": "Passage 0 explicitly states that the operating company and vendor directly providing the Academic Help platform at academichelp.net is A-Help Limited.",
+  "source": {
+    "id": 0,
+    "text": "The operating company and vendor directly providing the **Academic Help** platform at **academichelp.net** is **A-Help Limited**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtAQkknFk2_DjKf9cGuYcdd45ru3WXAuWM-U78h-TkYWiWY2CCsw_OaBQ1vocEXSGY2tgXqm_ZoN3-4aD13_0FdhySQ6gFqBugrTu-qeL3pUKDXgmUf8y6xhnf9oyzZyRVLMfI",
+    "title": "academichelp.net"
+  },
+  "checked_at": "2026-11-05T07:09:35.219831+00:00"
+}

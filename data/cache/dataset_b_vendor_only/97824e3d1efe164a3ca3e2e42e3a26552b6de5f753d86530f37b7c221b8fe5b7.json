@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **Strava** software product at **strava.com** is **Strava, Inc.** (operating as **Strava Ireland Limited** for users in the European Economic Area).\n\n### Provider Statement\nAccording to the **Strava Terms of Service** (`strava.com/legal/terms`):\n> *\"The Strava websites, related mobile applications and services (collectively, the 'Services') are made available to you subject to these Terms of Service... If you are in the European Economic Area, the Services are provided to you by Strava Ireland Limited; otherwise, the Services are provided to you by Strava, Inc.\"* (San Francisco, CA, USA).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **Strava** software product at **strava.com** is **Strava, Inc.** (operating as **Strava Ireland Limited** for users in the European Economic Area)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVU7b5CsSVgnB5ctaA-S9S4Yp3_K4UAolzgcOxtub1fjm0NL050j1t4Lm0oYKr6aJkoMoH3XgILWylYnkZ39-b3XhANhLu0jhue8fhyRQDiTyv_tjn9r327KZJ6Sr04ws7oruQaDxm5t6xbBsgDECc4zkGh90lgz5duMLAHpEYTXOyeY2qMZ6Z_S2NyLHInp5fKTgx",
+          "title": "ny.gov"
+        },
+        {
+          "id": 1,
+          "text": "If you are in the European Economic Area, the Services are provided to you by Strava Ireland Limited; otherwise, the Services are provided to you by Strava, Inc.\"* (San Francisco, CA, USA)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVU7b5CsSVgnB5ctaA-S9S4Yp3_K4UAolzgcOxtub1fjm0NL050j1t4Lm0oYKr6aJkoMoH3XgILWylYnkZ39-b3XhANhLu0jhue8fhyRQDiTyv_tjn9r327KZJ6Sr04ws7oruQaDxm5t6xbBsgDECc4zkGh90lgz5duMLAHpEYTXOyeY2qMZ6Z_S2NyLHInp5fKTgx",
+          "title": "ny.gov"
+        },
+        {
+          "id": 2,
+          "text": "If you are in the European Economic Area, the Services are provided to you by Strava Ireland Limited; otherwise, the Services are provided to you by Strava, Inc.\"* (San Francisco, CA, USA)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHaLUVW_Uy9NZkLuYn-jPdVu7QjJ6KOpX7dSFvBDLauZLrVQd0tchocXRU3porkOZOaxhhHI38vIs4AUADVGsy6f7vghIvVowgw1OqopfMAJcDE3T_XWc74XyfoQUIrL_Sb_QVISKi31pOmxzcg_65H-7PHWwQvGSZot5BpXGkQXmCLi_JaWRFGbDpfCLiZd7QfUbGOqrA1ARVtcb1SFjaZDBHz0Inm278RsqqERj7PMJ254ibsgJN2RELVXoB-z9KvNrudjcwMh1QLY0v7nsp_Dy3Q",
+          "title": "ca.gov"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Strava, Inc.",
+        "evidence": "Passage 0 explicitly identifies that the vendor directly providing the Strava software product at strava.com is Strava, Inc. (operating as Strava Ireland Limited for users in the European Economic Area).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the **Strava** software product at **strava.com** is **Strava, Inc.** (operating as **Strava Ireland Limited** for users in the European Economic Area)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVU7b5CsSVgnB5ctaA-S9S4Yp3_K4UAolzgcOxtub1fjm0NL050j1t4Lm0oYKr6aJkoMoH3XgILWylYnkZ39-b3XhANhLu0jhue8fhyRQDiTyv_tjn9r327KZJ6Sr04ws7oruQaDxm5t6xbBsgDECc4zkGh90lgz5duMLAHpEYTXOyeY2qMZ6Z_S2NyLHInp5fKTgx",
+          "title": "ny.gov"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Strava",
+    "domain": "strava.com",
+    "description": "Strava is a technology company based in the United States that develops software tailored for athletes, enabling them to track and improve their performance. With a global community and billions of activity uploads, Strava aims to be the leading platform for athletic activity records. The company is committed to fostering an inclusive workplace culture while supporting the growth of its diverse team members. Strava is actively expanding to meet the needs of its ever-growing community of athletes around the world."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Strava, Inc.",
+  "evidence": "Passage 0 explicitly identifies that the vendor directly providing the Strava software product at strava.com is Strava, Inc. (operating as Strava Ireland Limited for users in the European Economic Area).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the **Strava** software product at **strava.com** is **Strava, Inc.** (operating as **Strava Ireland Limited** for users in the European Economic Area)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVU7b5CsSVgnB5ctaA-S9S4Yp3_K4UAolzgcOxtub1fjm0NL050j1t4Lm0oYKr6aJkoMoH3XgILWylYnkZ39-b3XhANhLu0jhue8fhyRQDiTyv_tjn9r327KZJ6Sr04ws7oruQaDxm5t6xbBsgDECc4zkGh90lgz5duMLAHpEYTXOyeY2qMZ6Z_S2NyLHInp5fKTgx",
+    "title": "ny.gov"
+  },
+  "checked_at": "2026-11-05T09:48:38.119671+00:00"
+}

@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **PagerDuty** at **pagerduty.com** is **PagerDuty, Inc.**\n\n### Supporting Evidence\nAccording to the official [PagerDuty Terms of Service](https://www.pagerduty.com/terms-of-service/):\n> *\"THESE ONLINE TERMS OF SERVICE (“AGREEMENT”) ARE A LEGAL AGREEMENT BETWEEN CUSTOMER (AS DEFINED BELOW) AND PAGERDUTY, INC. (“PAGERDUTY”) WHICH GOVERNS CUSTOMER'S ACCESS TO OR USE OF PAGERDUTY SERVICES...\"*\n\nAdditionally, the [Website Terms of Use](https://www.pagerduty.com/website-terms-of-use/) affirm:\n> *\"THESE WEBSITE TERMS OF USE (“TERMS”) CONTROL YOUR (“YOU” OR “YOUR”) ACCESS TO THE PAGERDUTY, INC. (“WE,” “OUR” OR “US”) WEBSITE.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **PagerDuty** at **pagerduty.com** is **PagerDuty, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHl9yr_TXZSSpTIvCo3l6uxsoWyibNEdmTj3PAMNaCK3woUdAzdiG0vPT6w31E32uakyLx6Owo_W5plqaWELRc_o58a9F-eYwtjbZTcrQSXL65nbeaU2fZnFn7c1JkMiy0=",
+          "title": "pagerduty.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **PagerDuty** at **pagerduty.com** is **PagerDuty, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOcufvNuJ7MKCI3YeduaJpDS2KSL4ZMZmPKRRUA1x-HBuxWy_85Q3yWBUtJNN9Qs-kSFHTWaUOYokq3k-6gNcCidylSEHKZv2PSd09Dv58KBmgGmnhyMuQL4i_PyQ_2L3knC28",
+          "title": "pagerduty.com"
+        },
+        {
+          "id": 2,
+          "text": "GERDUTY”) WHICH GOVERNS CUSTOMER'S ACCESS TO OR USE OF PAGERDUTY SERVICES...\"*\n\nAdditi",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHl9yr_TXZSSpTIvCo3l6uxsoWyibNEdmTj3PAMNaCK3woUdAzdiG0vPT6w31E32uakyLx6Owo_W5plqaWELRc_o58a9F-eYwtjbZTcrQSXL65nbeaU2fZnFn7c1JkMiy0=",
+          "title": "pagerduty.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "PagerDuty, Inc.",
+        "evidence": "Passage 0 directly states that the vendor providing PagerDuty at pagerduty.com is PagerDuty, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **PagerDuty** at **pagerduty.com** is **PagerDuty, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHl9yr_TXZSSpTIvCo3l6uxsoWyibNEdmTj3PAMNaCK3woUdAzdiG0vPT6w31E32uakyLx6Owo_W5plqaWELRc_o58a9F-eYwtjbZTcrQSXL65nbeaU2fZnFn7c1JkMiy0=",
+          "title": "pagerduty.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "PagerDuty",
+    "domain": "pagerduty.com",
+    "description": "An incident management and on-call alerting platform for operations and engineering teams."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "PagerDuty, Inc.",
+  "evidence": "Passage 0 directly states that the vendor providing PagerDuty at pagerduty.com is PagerDuty, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **PagerDuty** at **pagerduty.com** is **PagerDuty, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHl9yr_TXZSSpTIvCo3l6uxsoWyibNEdmTj3PAMNaCK3woUdAzdiG0vPT6w31E32uakyLx6Owo_W5plqaWELRc_o58a9F-eYwtjbZTcrQSXL65nbeaU2fZnFn7c1JkMiy0=",
+    "title": "pagerduty.com"
+  },
+  "checked_at": "2026-11-05T07:59:58.458031+00:00"
+}

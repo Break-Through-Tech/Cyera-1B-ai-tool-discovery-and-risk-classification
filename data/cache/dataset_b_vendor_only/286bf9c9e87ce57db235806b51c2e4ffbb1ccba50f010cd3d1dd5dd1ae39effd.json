@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **Coupa** platform at **coupa.com** is **Coupa Software Inc.**.\n\n### Evidence\n* **Privacy Policy (`coupa.com/privacy-policy`)**:\n  > *\"‘Coupa’, 'we,' 'our' and 'us' means Coupa Software Inc. and its affiliates. ‘Coupa Platform’ means any software and hardware that enables Coupa to provide our customers and their business partners with access to and use of the Coupa services...\"*\n  > *“‘Controller’ or ‘Processor’ (as applicable) ... is Coupa Software Inc., 950 Tower Lane, 20th Floor, Foster City, CA 94404, USA.”*\n* **Legal Notices / Trademarks (`coupa.com`)**:\n  > *\"Coupa, the Coupa logo, 'Make Margins Multiply', and 'Coupa is the margin multiplier company' are trademarks of Coupa Software Inc.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **Coupa** platform at **coupa.com** is **Coupa Software Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuwjtK0SHttp96t4GhbbmDtdG23otHAI60XJs8FvSkgbjyeFEPm_n9tvrHg5vT5yRcvkG5XGjA92WlFPyPxhrUhez_bqbvTTJumdntEvaNB22OVC2T46johQw=",
+          "title": "coupa.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the **Coupa** platform at **coupa.com** is **Coupa Software Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLzKQ89ofxUwUhnFl3HgC1sX3wQ3yjI-w0WFifCIC-jzlVWRgBW-XOUIP1Y_74vEDBvaYUtlEYk9kkJNqEL4gW6etI6k-8m8KGuktS7wTE_0XV0-8jH8CY5OuUA5rKwg==",
+          "title": "coupa.com"
+        },
+        {
+          "id": 2,
+          "text": "pa Platform’ means any software and hardware that enables Coupa to provide our customers and their business partners with access to and use of the Coupa services...\"*\n  > *“‘",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuwjtK0SHttp96t4GhbbmDtdG23otHAI60XJs8FvSkgbjyeFEPm_n9tvrHg5vT5yRcvkG5XGjA92WlFPyPxhrUhez_bqbvTTJumdntEvaNB22OVC2T46johQw=",
+          "title": "coupa.com"
+        },
+        {
+          "id": 3,
+          "text": "oller’ or ‘Processor’ (as applicable) ... is Coupa Software Inc., 950 Tower Lane, 20th Floor, Foster City, CA 94404, USA.”*\n* **Legal Notices /",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuwjtK0SHttp96t4GhbbmDtdG23otHAI60XJs8FvSkgbjyeFEPm_n9tvrHg5vT5yRcvkG5XGjA92WlFPyPxhrUhez_bqbvTTJumdntEvaNB22OVC2T46johQw=",
+          "title": "coupa.com"
+        },
+        {
+          "id": 4,
+          "text": "Coupa’, 'we,' 'our' and 'us' means Coupa Software Inc. and its affiliates. ‘Coupa Platform’ means any software and hardware that enables Coupa to provide our customers and their business partners with access to and use of the Coupa ser",
+          "url": "https://www.rfs.nsw.gov.au/__data/assets/pdf_file/0011/268967/Coupa_Supplier_Privacy-Policy.pdf",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Coupa Software Inc.",
+        "evidence": "Passage 0 confirms that the vendor directly providing the Coupa platform at coupa.com is Coupa Software Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the **Coupa** platform at **coupa.com** is **Coupa Software Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuwjtK0SHttp96t4GhbbmDtdG23otHAI60XJs8FvSkgbjyeFEPm_n9tvrHg5vT5yRcvkG5XGjA92WlFPyPxhrUhez_bqbvTTJumdntEvaNB22OVC2T46johQw=",
+          "title": "coupa.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Coupa",
+    "domain": "coupa.com",
+    "description": "A business spend management platform covering procurement, invoicing, and expense management."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Coupa Software Inc.",
+  "evidence": "Passage 0 confirms that the vendor directly providing the Coupa platform at coupa.com is Coupa Software Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the **Coupa** platform at **coupa.com** is **Coupa Software Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuwjtK0SHttp96t4GhbbmDtdG23otHAI60XJs8FvSkgbjyeFEPm_n9tvrHg5vT5yRcvkG5XGjA92WlFPyPxhrUhez_bqbvTTJumdntEvaNB22OVC2T46johQw=",
+    "title": "coupa.com"
+  },
+  "checked_at": "2026-11-05T08:01:14.597747+00:00"
+}

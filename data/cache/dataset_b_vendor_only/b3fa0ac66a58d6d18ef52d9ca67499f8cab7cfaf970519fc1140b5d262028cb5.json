@@ -1,0 +1,79 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **Monic** at **beta.monic.ai** (and `monic.ai`), which provided personalized study materials, flashcards, and quiz generation, was developed and provided directly by **Monic.ai** (also operating as **Monic AI**). The startup was co-founded by Jamshidbek Mirzakhalov, Axhens Mara, and Sherzod Kariev. \n\n*(Note: It is distinct from the unrelated consultancy \"Monic AI Systems LLC\".)*\n\n### Evidence & Provider Statements\n* **Terms of Service & Privacy Policy** (`monic.ai/terms` and `monic.ai/privacy`):\n  > *\"Monic.ai's Terms of Service defined the usage agreements between the platform and its users — covering account responsibilities, acceptable use, and the rights of students and educators using the platform... © Monic.ai — All rights reserved.\"*\n* **Official Closure Notice** (`monic.ai`):\n  > *\"With gratitude, The Monic.ai Team. © 2024–2026 Monic.ai · All rights reserved. Questions? hello@studyspaces.com.\"*\n* **Company & Directory Profiles**: PitchBook and SourceForge identify the operating company/developer for `beta.monic.ai` directly as **Monic.ai** / **Monic AI**.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **Monic** at **beta.monic.ai** (and `monic.ai`), which provided personalized study materials, flashcards, and quiz generation, was developed and provided directly by **Monic.ai** (also operating as **Monic AI**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqBjHrTm0IXEXknu3oSesmLYU6jBi9__007DsXtQeaCGx9I2j83eDvB605xGEXFMNmcX-m_mr2MC1_QOqVFBfTvmksTXOEza7IMvIex04gbk0rP_pCnv788MAf",
+          "title": "miraheze.org"
+        },
+        {
+          "id": 1,
+          "text": "The software product **Monic** at **beta.monic.ai** (and `monic.ai`), which provided personalized study materials, flashcards, and quiz generation, was developed and provided directly by **Monic.ai** (also operating as **Monic AI**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1a88XFnl2dLRx9DhTP-n1eymvhEB8rUOWQmNxd2o-J9ixjM5xxhdZOFW6rLPuuE4rg0h7gHnrAS1mHYXZ1gccP7N-D1JB-_EBXkxwTxB2HGGaAqVTCJf6feni-uPQKAX-LK5n41c=",
+          "title": "pitchbook.com"
+        },
+        {
+          "id": 2,
+          "text": "The startup was co-founded by Jamshidbek Mirzakhalov, Axhens Mara, and Sherzod Kariev",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqBjHrTm0IXEXknu3oSesmLYU6jBi9__007DsXtQeaCGx9I2j83eDvB605xGEXFMNmcX-m_mr2MC1_QOqVFBfTvmksTXOEza7IMvIex04gbk0rP_pCnv788MAf",
+          "title": "miraheze.org"
+        },
+        {
+          "id": 3,
+          "text": "*(Note: It is distinct from the unrelated consultancy \"Monic AI Systems LLC\"",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeWXceiq4LC0oTaNQCxKrFXVYeg-c1Ez_rljkGInw17D3CLWH1SBnLtafsL2gU7JaYeU51QSx9YSRzXlmkeX4YVtW1QBop6Nnhp4waGd6xHopbg94gmW7SCk2GAqskVzxlv3zlGOFPbfl0Hgsz2mDiQvvchdPErbbHAKh_0bB9UcOfmg==",
+          "title": "medium.com"
+        },
+        {
+          "id": 4,
+          "text": "*(Note: It is distinct from the unrelated consultancy \"Monic AI Systems LLC\"",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeDyq8ql-ooNV8R9jiqBczyhDHPdS6KORfIeek7Gd5VbB5NL4VEtvIW3D5AudlQHEenThqBv_l0VmFfvtQ2Dr9PIbVPLdvwc9QH9oG7Q3JMwfn27E1QoNv4JXOXNM18SX-fqU1IlmekMvpNtdNYA==",
+          "title": "monicaisystems.com"
+        },
+        {
+          "id": 5,
+          "text": "Monic.ai — All rights reserved.\"*\n* **",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvqeBHlEmxdtzWQZhpJba7afXPvbyh4reH_JI8_Pi6UH83i-6fF5LZV2rLeXBNKTbnjYntxhUtlgy7JJ5G8XEDi1wtad2h3YYfxQbJgA==",
+          "title": "monic.ai"
+        },
+        {
+          "id": 6,
+          "text": "dyspaces.com.\"*\n* **Comp",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2GRNI6cVUbZ6fkLOSQF30NklTmJhR2dZ-E78Nn71z3jRDubw6iycGdGsLzuQz10Kyw4h06OCYwca9pMbzxvhL8AxzUP9s",
+          "title": "monic.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Monic.ai",
+        "evidence": "Passage 0 explicitly states that the software product Monic at beta.monic.ai was developed and provided directly by Monic.ai (also operating as Monic AI).",
+        "source": {
+          "id": 0,
+          "text": "The software product **Monic** at **beta.monic.ai** (and `monic.ai`), which provided personalized study materials, flashcards, and quiz generation, was developed and provided directly by **Monic.ai** (also operating as **Monic AI**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqBjHrTm0IXEXknu3oSesmLYU6jBi9__007DsXtQeaCGx9I2j83eDvB605xGEXFMNmcX-m_mr2MC1_QOqVFBfTvmksTXOEza7IMvIex04gbk0rP_pCnv788MAf",
+          "title": "miraheze.org"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Monic",
+    "domain": "beta.monic.ai",
+    "description": "Personalized study materials and quizzes."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Monic.ai",
+  "evidence": "Passage 0 explicitly states that the software product Monic at beta.monic.ai was developed and provided directly by Monic.ai (also operating as Monic AI).",
+  "source": {
+    "id": 0,
+    "text": "The software product **Monic** at **beta.monic.ai** (and `monic.ai`), which provided personalized study materials, flashcards, and quiz generation, was developed and provided directly by **Monic.ai** (also operating as **Monic AI**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqBjHrTm0IXEXknu3oSesmLYU6jBi9__007DsXtQeaCGx9I2j83eDvB605xGEXFMNmcX-m_mr2MC1_QOqVFBfTvmksTXOEza7IMvIex04gbk0rP_pCnv788MAf",
+    "title": "miraheze.org"
+  },
+  "checked_at": "2026-11-05T07:44:45.692152+00:00"
+}

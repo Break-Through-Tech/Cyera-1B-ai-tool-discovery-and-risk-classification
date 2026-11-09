@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Bitbucket** at **bitbucket.org** is **Atlassian** (legally operating as **Atlassian Pty Ltd**).\n\n### Evidence & Provider Statement\n* **Exact Product & Domain:** Bitbucket / Bitbucket Cloud (`bitbucket.org`).\n* **Provider Terms:** In the *Atlassian Product-Specific Terms* (supplementing the *Atlassian Customer Agreement*), products including Bitbucket Cloud (governed under Section 3, *\"Additional Bitbucket Cloud Terms\"*) fall under the contracting entity table as *\"All Products not named elsewhere in this table\"*, designating the direct contracting provider as **Atlassian Pty Ltd**.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Bitbucket** at **bitbucket.org** is **Atlassian** (legally operating as **Atlassian Pty Ltd**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtNmm-l2wMEdNIZgwxYNyjY8uT-kplMUFv5J3j2M5_k8-5Ljx_atIR2snw5MWtKGH2efPpAsCvviWeLhri3D-rCKyxf753RlKIB1ZyCdCUXtFvD8tI5xPgKvFDd-g=",
+          "title": "wikipedia.org"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Bitbucket** at **bitbucket.org** is **Atlassian** (legally operating as **Atlassian Pty Ltd**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2mR1efKLbeKfs90wLHXH-0Ml5inCVjvC6Kg2XV22lkttjrAg5M6QE8iWOaqP2_ODO2y48n1W73kv7MdEjYQUtIuklOg17B-WgwYuOammgZqajAYlYz0FZbtGXPOHLcZjk7X0=",
+          "title": "atlassian.com"
+        },
+        {
+          "id": 2,
+          "text": "**Exact Product & Domain:** Bitbucket / Bitbucket Cloud (`bitbucket.org`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRf1xhCHNkFjgoeuZx0CZoTlodSZxcRnMU1FfDgkwDGkNXSekhRUeFcfZJ0HRpbcVfL1sKEb2UJnSIzwPT6WItvm9ipMVti8fUoQRFCq6RX_tc5Hx3bwy09C9kAQzg40-McJY=",
+          "title": "atlassian.com"
+        },
+        {
+          "id": 3,
+          "text": "**Exact Product & Domain:** Bitbucket / Bitbucket Cloud (`bitbucket.org`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtNmm-l2wMEdNIZgwxYNyjY8uT-kplMUFv5J3j2M5_k8-5Ljx_atIR2snw5MWtKGH2efPpAsCvviWeLhri3D-rCKyxf753RlKIB1ZyCdCUXtFvD8tI5xPgKvFDd-g=",
+          "title": "wikipedia.org"
+        },
+        {
+          "id": 4,
+          "text": "**Provider Terms:** In the *Atlassian Product-Specific Terms* (supplementing the *Atlassian Customer Agreement*), products including Bitbucket Cloud (governed under Section 3, *\"Additional Bitbucket Cloud Terms\"*) fall under the contracting entity table as *\"All Products not named elsewhere in this table\"*, designating the direct contracting provider as **Atlassian Pty Ltd**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2mR1efKLbeKfs90wLHXH-0Ml5inCVjvC6Kg2XV22lkttjrAg5M6QE8iWOaqP2_ODO2y48n1W73kv7MdEjYQUtIuklOg17B-WgwYuOammgZqajAYlYz0FZbtGXPOHLcZjk7X0=",
+          "title": "atlassian.com"
+        },
+        {
+          "id": 5,
+          "text": "**Provider Terms:** In the *Atlassian Product-Specific Terms* (supplementing the *Atlassian Customer Agreement*), products including Bitbucket Cloud (governed under Section 3, *\"Additional Bitbucket Cloud Terms\"*) fall under the contracting entity table as *\"All Products not named elsewhere in this table\"*, designating the direct contracting provider as **Atlassian Pty Ltd**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2mR1efKLbeKfs90wLHXH-0Ml5inCVjvC6Kg2XV22lkttjrAg5M6QE8iWOaqP2_ODO2y48n1W73kv7MdEjYQUtIuklOg17B-WgwYuOammgZqajAYlYz0FZbtGXPOHLcZjk7X0=",
+          "title": "atlassian.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Atlassian",
+        "evidence": "Passage 1 explicitly states that the vendor directly providing Bitbucket at bitbucket.org is Atlassian (legally operating as Atlassian Pty Ltd).",
+        "source": {
+          "id": 1,
+          "text": "The vendor directly providing **Bitbucket** at **bitbucket.org** is **Atlassian** (legally operating as **Atlassian Pty Ltd**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2mR1efKLbeKfs90wLHXH-0Ml5inCVjvC6Kg2XV22lkttjrAg5M6QE8iWOaqP2_ODO2y48n1W73kv7MdEjYQUtIuklOg17B-WgwYuOammgZqajAYlYz0FZbtGXPOHLcZjk7X0=",
+          "title": "atlassian.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Bitbucket",
+    "domain": "bitbucket.org",
+    "description": "Bitbucket provides cloud-based source code management and collaboration solutions utilizing Git and Mercurial. The platform is designed for developers and teams looking for a robust system to manage their code repositories and facilitate collaboration."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Atlassian",
+  "evidence": "Passage 1 explicitly states that the vendor directly providing Bitbucket at bitbucket.org is Atlassian (legally operating as Atlassian Pty Ltd).",
+  "source": {
+    "id": 1,
+    "text": "The vendor directly providing **Bitbucket** at **bitbucket.org** is **Atlassian** (legally operating as **Atlassian Pty Ltd**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2mR1efKLbeKfs90wLHXH-0Ml5inCVjvC6Kg2XV22lkttjrAg5M6QE8iWOaqP2_ODO2y48n1W73kv7MdEjYQUtIuklOg17B-WgwYuOammgZqajAYlYz0FZbtGXPOHLcZjk7X0=",
+    "title": "atlassian.com"
+  },
+  "checked_at": "2026-11-05T09:31:20.109064+00:00"
+}

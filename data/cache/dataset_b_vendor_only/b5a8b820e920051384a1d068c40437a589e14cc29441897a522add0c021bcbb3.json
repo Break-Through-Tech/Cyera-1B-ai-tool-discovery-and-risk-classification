@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **Ask Klëm** at **myklem.com** is directly provided by **Klëm Digital Wardrobe Technology Inc** (also operating/published as **Klëm Digital Wardrobe Technology Limited**).\n\n### Provider Statement\n* Official website footer at `myklem.com`:  \n  > *\"Team@myklem.com. Klëm Digital Wardrobe Technology Inc 2024.\"*\n* Official mobile app publisher listing:  \n  > *\"App By: Klëm Digital Wardrobe Technology Limited\"* (Website: `https://myklem.com/`).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **Ask Klëm** at **myklem.com** is directly provided by **Klëm Digital Wardrobe Technology Inc** (also operating/published as **Klëm Digital Wardrobe Technology Limited**).\n\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuui9Dz9apCeWylCHwhppVg-F_oD6VpAje7L3vUGup1RwDoiU9S0jaWCn_Gi_-DKy1Tgh5WgviVN2sSUvMNY4Ec76mQVQaihyS",
+          "title": "myklem.com"
+        },
+        {
+          "id": 1,
+          "text": "The software product **Ask Klëm** at **myklem.com** is directly provided by **Klëm Digital Wardrobe Technology Inc** (also operating/published as **Klëm Digital Wardrobe Technology Limited**).\n\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOqMZLvEh5QBDGJw4LG-3uO6SmWadm84qx4hVjUkaZvDMRolfkmOxdRp7MEN0NvjsHCUK6O-9QnOFR4S1xfO0wKRCpaILcIfXlFWwL7_JT8qcOxOVCTEdC4ua8JcQq1w==",
+          "title": "chrome-stats.com"
+        },
+        {
+          "id": 2,
+          "text": "m Digital Wardrobe Technology Inc 2024.\"*\n* O",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuui9Dz9apCeWylCHwhppVg-F_oD6VpAje7L3vUGup1RwDoiU9S0jaWCn_Gi_-DKy1Tgh5WgviVN2sSUvMNY4Ec76mQVQaihyS",
+          "title": "myklem.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Klëm Digital Wardrobe Technology Inc",
+        "evidence": "Passage 0 explicitly states that the software product Ask Klëm at myklem.com is directly provided by Klëm Digital Wardrobe Technology Inc (also operating/published as Klëm Digital Wardrobe Technology Limited).",
+        "source": {
+          "id": 0,
+          "text": "The software product **Ask Klëm** at **myklem.com** is directly provided by **Klëm Digital Wardrobe Technology Inc** (also operating/published as **Klëm Digital Wardrobe Technology Limited**).\n\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuui9Dz9apCeWylCHwhppVg-F_oD6VpAje7L3vUGup1RwDoiU9S0jaWCn_Gi_-DKy1Tgh5WgviVN2sSUvMNY4Ec76mQVQaihyS",
+          "title": "myklem.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Ask Klem",
+    "domain": "myklem.com",
+    "description": "Instantly tailored fashion guidance for outfits."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Klëm Digital Wardrobe Technology Inc",
+  "evidence": "Passage 0 explicitly states that the software product Ask Klëm at myklem.com is directly provided by Klëm Digital Wardrobe Technology Inc (also operating/published as Klëm Digital Wardrobe Technology Limited).",
+  "source": {
+    "id": 0,
+    "text": "The software product **Ask Klëm** at **myklem.com** is directly provided by **Klëm Digital Wardrobe Technology Inc** (also operating/published as **Klëm Digital Wardrobe Technology Limited**).\n\n",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuui9Dz9apCeWylCHwhppVg-F_oD6VpAje7L3vUGup1RwDoiU9S0jaWCn_Gi_-DKy1Tgh5WgviVN2sSUvMNY4Ec76mQVQaihyS",
+    "title": "myklem.com"
+  },
+  "checked_at": "2026-11-05T07:12:19.362608+00:00"
+}

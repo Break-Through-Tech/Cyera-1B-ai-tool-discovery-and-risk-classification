@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "For the software product **Diglot** at **diglot.ai**, the vendor directly providing the product is **Diglot OÜ** (alongside its founder and CEO, **Alex Zhovnir**).\n\n### Evidence & Provider Statements\n* **Terms of Service (`diglot.ai/terms`):** \n  > *\"These Terms of Service (“Terms”) form a binding agreement between you (“you”, “User”) and Diglot OÜ (“Diglot”, “we”, “us”, “our”), a company being registered in the Republic of Estonia. Until the entry in the Estonian Commercial Register is made, the Service is operated by the company's founder personally, who carries the obligations under these Terms; the company assumes them once it exists.\"*\n* **Privacy Policy (`diglot.ai/privacy`):**\n  > *\"Diglot OÜ (“Diglot”, “we”, “us”, “our”), a company being registered in the Republic of Estonia — until that entry is made, the controller is its founder personally — runs the Diglot bilingual writing platform at diglot.ai...\"*\n* **Press Kit / About Page (`diglot.ai/press-kit`, `diglot.ai/about`):**\n  Identifies the founder as **Alex Zhovnir** (Founder & CEO).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "For the software product **Diglot** at **diglot.ai**, the vendor directly providing the product is **Diglot OÜ** (alongside its founder and CEO, **Alex Zhovnir**).",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE62YvdpfbbJ4iw2mHE6ZfUCJFbRP7ULC5YdXhMRm68yjdCDepiUoJXOPxy59bwUUwNs_bqGC2qYH7VMsVfMyc4zclUVI6ujpxydO1ElwPc0BBZ2y_I2g==",
+          "title": "diglot.ai"
+        },
+        {
+          "id": 1,
+          "text": "For the software product **Diglot** at **diglot.ai**, the vendor directly providing the product is **Diglot OÜ** (alongside its founder and CEO, **Alex Zhovnir**).",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0BmKm4DPdGbcI-mvYvSa9IRw3NbPbX1Qj1qnPk8WbFZJGgJF7koq8rwDEYQELgkLZhL0eJGraOrqMfriLJMq5CYcuC7FGmEMS39Mbvw==",
+          "title": "diglot.ai"
+        },
+        {
+          "id": 2,
+          "text": "n Commercial Register is made, the Service is operated by the company's founder personally, who carries the obligations under these Terms; the company assumes them once it exists.\"*\n* **Privacy Policy (`diglot.a",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHejjWwbV14Gb5pfl0-8oo-iYV_krM8i70fiV_u4WNJ3w8wFFBWIYAymDF4pibTZPxz2_rUMeb1DdqVk23uU_xOMPPGHgPl2nsNItJc5iPYhyea1RaHsEWb",
+          "title": "diglot.ai"
+        },
+        {
+          "id": 3,
+          "text": "us”, “our”), a company being registered in the Republic of Estonia — until that entry is made, the controller is its founder personally — runs the Diglot bilingual writing platform at diglot.ai...\"*\n* **Press Kit / About Page (`diglot.ai/press-kit`,",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE62YvdpfbbJ4iw2mHE6ZfUCJFbRP7ULC5YdXhMRm68yjdCDepiUoJXOPxy59bwUUwNs_bqGC2qYH7VMsVfMyc4zclUVI6ujpxydO1ElwPc0BBZ2y_I2g==",
+          "title": "diglot.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Diglot OÜ",
+        "evidence": "Passage 0 explicitly identifies Diglot OÜ as the vendor directly providing the software product Diglot at diglot.ai.",
+        "source": {
+          "id": 0,
+          "text": "For the software product **Diglot** at **diglot.ai**, the vendor directly providing the product is **Diglot OÜ** (alongside its founder and CEO, **Alex Zhovnir**).",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE62YvdpfbbJ4iw2mHE6ZfUCJFbRP7ULC5YdXhMRm68yjdCDepiUoJXOPxy59bwUUwNs_bqGC2qYH7VMsVfMyc4zclUVI6ujpxydO1ElwPc0BBZ2y_I2g==",
+          "title": "diglot.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Diglot",
+    "domain": "diglot.ai",
+    "description": "Bilingual text editor with AI co-writer in one app"
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Diglot OÜ",
+  "evidence": "Passage 0 explicitly identifies Diglot OÜ as the vendor directly providing the software product Diglot at diglot.ai.",
+  "source": {
+    "id": 0,
+    "text": "For the software product **Diglot** at **diglot.ai**, the vendor directly providing the product is **Diglot OÜ** (alongside its founder and CEO, **Alex Zhovnir**).",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE62YvdpfbbJ4iw2mHE6ZfUCJFbRP7ULC5YdXhMRm68yjdCDepiUoJXOPxy59bwUUwNs_bqGC2qYH7VMsVfMyc4zclUVI6ujpxydO1ElwPc0BBZ2y_I2g==",
+    "title": "diglot.ai"
+  },
+  "checked_at": "2026-11-05T05:31:32.204815+00:00"
+}

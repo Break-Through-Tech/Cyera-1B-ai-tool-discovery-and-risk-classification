@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "For the software product **MyEssayTyper** at the domain **`myessaytyper.ai`**, the directly identified vendor and developer is **MyEssayTyper** (or **myessaytyper**).\n\n### Supporting Evidence:\n* **Published Developer / Publisher Listing:** Software profile and catalog directories (such as Softonic's product listing for the web application) explicitly publish the developer/publisher under app specifications as **myessaytyper** (*\"Éditeur: myessaytyper\"* / *\"Nhà phát triển: myessaytyper\"*).\n* **Operating Entity:** Company intelligence directories (e.g., Tracxn) identify the operating entity directly as **MyEssayTyper**, founded in 2023 as an AI-powered essay assistant platform.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "For the software product **MyEssayTyper** at the domain **`myessaytyper.ai`**, the directly identified vendor and developer is **MyEssayTyper** (or **myessaytyper**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4XLy-DWBNhvoruy-BCGqs8UDu_c6eNBz8rHwZkTMXZvnA6LVBTB_eB3Q0vdUTUE2Yg0wyAlAz8LmS2SKZeKVP45MyWqTGYthRyMNdZWbZo8COH72Bu02GX9kkG-Fg9QuCAkQ=",
+          "title": "softonic.com"
+        },
+        {
+          "id": 1,
+          "text": "For the software product **MyEssayTyper** at the domain **`myessaytyper.ai`**, the directly identified vendor and developer is **MyEssayTyper** (or **myessaytyper**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF26EnhaKzI3LrDt9k6rVcouZjOIXTHgr6YNz9TFx5V5ZWx7cIKfWWDLAW9tzfOajX87JaDwW4WEANCi0wx13_nA86oOgIF_qXbK6ROr6xSy7evjP5u-tB_1JuYgGs9UJsX1uxXfWBw0QmPYQ==",
+          "title": "softonic.com"
+        },
+        {
+          "id": 2,
+          "text": "For the software product **MyEssayTyper** at the domain **`myessaytyper.ai`**, the directly identified vendor and developer is **MyEssayTyper** (or **myessaytyper**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPiZoWQ5Y8lows0UX0p5DKiCiuHe11FDBQz40c7rs_1KkTf1kc63lNscqeyWQRBO8ZgYiwkGsItFPEbqS2JWqfnxo1JhovjhoZN0bsw_tmMT5IBG9OQekcEl-XckOcPiWNiQkLcZrlihLTDI-JVq2exCqE_xrJ5_Hx-GFnrtI8zvRqdtGqWaP0RQ89uubaqw==",
+          "title": "tracxn.com"
+        },
+        {
+          "id": 3,
+          "text": "**Published Developer / Publisher Listing:** Software profile and catalog directories (such as Softonic's product listing for the web application) explicitly publish the developer/publisher under app specifications as **myessaytyper** (*\"Éditeur: myessaytyper\"* / *\"Nhà phát triển: myessaytyper\"*).\n* *",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4XLy-DWBNhvoruy-BCGqs8UDu_c6eNBz8rHwZkTMXZvnA6LVBTB_eB3Q0vdUTUE2Yg0wyAlAz8LmS2SKZeKVP45MyWqTGYthRyMNdZWbZo8COH72Bu02GX9kkG-Fg9QuCAkQ=",
+          "title": "softonic.com"
+        },
+        {
+          "id": 4,
+          "text": "**Published Developer / Publisher Listing:** Software profile and catalog directories (such as Softonic's product listing for the web application) explicitly publish the developer/publisher under app specifications as **myessaytyper** (*\"Éditeur: myessaytyper\"* / *\"Nhà phát triển: myessaytyper\"*).\n* *",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF26EnhaKzI3LrDt9k6rVcouZjOIXTHgr6YNz9TFx5V5ZWx7cIKfWWDLAW9tzfOajX87JaDwW4WEANCi0wx13_nA86oOgIF_qXbK6ROr6xSy7evjP5u-tB_1JuYgGs9UJsX1uxXfWBw0QmPYQ==",
+          "title": "softonic.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "MyEssayTyper",
+        "evidence": "Passage 0 directly states that for the software product MyEssayTyper at the domain myessaytyper.ai, the identified vendor and developer is MyEssayTyper.",
+        "source": {
+          "id": 0,
+          "text": "For the software product **MyEssayTyper** at the domain **`myessaytyper.ai`**, the directly identified vendor and developer is **MyEssayTyper** (or **myessaytyper**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4XLy-DWBNhvoruy-BCGqs8UDu_c6eNBz8rHwZkTMXZvnA6LVBTB_eB3Q0vdUTUE2Yg0wyAlAz8LmS2SKZeKVP45MyWqTGYthRyMNdZWbZo8COH72Bu02GX9kkG-Fg9QuCAkQ=",
+          "title": "softonic.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "MyEssayTyper",
+    "domain": "myessaytyper.ai",
+    "description": "AI-based tool for excellent essay writing."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "MyEssayTyper",
+  "evidence": "Passage 0 directly states that for the software product MyEssayTyper at the domain myessaytyper.ai, the identified vendor and developer is MyEssayTyper.",
+  "source": {
+    "id": 0,
+    "text": "For the software product **MyEssayTyper** at the domain **`myessaytyper.ai`**, the directly identified vendor and developer is **MyEssayTyper** (or **myessaytyper**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4XLy-DWBNhvoruy-BCGqs8UDu_c6eNBz8rHwZkTMXZvnA6LVBTB_eB3Q0vdUTUE2Yg0wyAlAz8LmS2SKZeKVP45MyWqTGYthRyMNdZWbZo8COH72Bu02GX9kkG-Fg9QuCAkQ=",
+    "title": "softonic.com"
+  },
+  "checked_at": "2026-11-05T06:40:45.482237+00:00"
+}

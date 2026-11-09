@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **BotGPT** at **bot.wordgptpro.com** (and its parent domain `wordgptpro.com`) is **Word AI Studio Labs**.\n\n### Supporting Evidence:\n* **Terms of Service** (`bot.wordgptpro.com` / `wordgptpro.com`):  \n  > *\"Welcome to Word AI Studio Labs (“Company”, “we”, “our”, “us”)! ... These Terms of Service (“Terms”, “Terms of Service”) govern your use of our web pages located at wordgptpro.com operated by Word AI Studio Labs.\"*\n* **Cookie Policy** (`bot.wordgptpro.com`):  \n  > *\"This is the Cookie Policy for Word AI Studio Labs, accessible from https://bot.wordgptpro.com/.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **BotGPT** at **bot.wordgptpro.com** (and its parent domain `wordgptpro.com`) is **Word AI Studio Labs**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuww86eOSDLITJlSTvByWlCpoX3-IjXD5yfLYXsyKKHA8eNf0f_d7_EwZqoUOhHBsng5A2LVkh_PJqu45ibb_9caCWrwU1l4G3pH3rbg7jEpSRYJxLgvk9jTD0TNU=",
+          "title": "wordgptpro.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **BotGPT** at **bot.wordgptpro.com** (and its parent domain `wordgptpro.com`) is **Word AI Studio Labs**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5KwOcuRH6hy-s2NkEM4YDoDawM_UnMxOMqPLjO9tgXFNph37HBhAZZ0spWH-ml9CFaUvLiIK8MmenaSm7FYIIs2pOziX5aOAMf05-yZ3Tlxq6khLojqLf1AIy95AO-w==",
+          "title": "wordgptpro.com"
+        },
+        {
+          "id": 2,
+          "text": "ervice (“Terms”, “Terms of Service”) govern your use of our web pages located at wordgptpro.com operated by Word AI Studio Labs.\"*\n* **Cookie Policy** (`b",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuww86eOSDLITJlSTvByWlCpoX3-IjXD5yfLYXsyKKHA8eNf0f_d7_EwZqoUOhHBsng5A2LVkh_PJqu45ibb_9caCWrwU1l4G3pH3rbg7jEpSRYJxLgvk9jTD0TNU=",
+          "title": "wordgptpro.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Word AI Studio Labs",
+        "evidence": "Passage 0 explicitly confirms that the vendor directly providing BotGPT at bot.wordgptpro.com is Word AI Studio Labs.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **BotGPT** at **bot.wordgptpro.com** (and its parent domain `wordgptpro.com`) is **Word AI Studio Labs**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuww86eOSDLITJlSTvByWlCpoX3-IjXD5yfLYXsyKKHA8eNf0f_d7_EwZqoUOhHBsng5A2LVkh_PJqu45ibb_9caCWrwU1l4G3pH3rbg7jEpSRYJxLgvk9jTD0TNU=",
+          "title": "wordgptpro.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "BotGPT",
+    "domain": "bot.wordgptpro.com",
+    "description": "BotGPT is a chatbot creation tool that allows users to build and deploy custom chatbots without coding. It offers various features for creating engaging and interactive conversational experiences."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Word AI Studio Labs",
+  "evidence": "Passage 0 explicitly confirms that the vendor directly providing BotGPT at bot.wordgptpro.com is Word AI Studio Labs.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **BotGPT** at **bot.wordgptpro.com** (and its parent domain `wordgptpro.com`) is **Word AI Studio Labs**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuww86eOSDLITJlSTvByWlCpoX3-IjXD5yfLYXsyKKHA8eNf0f_d7_EwZqoUOhHBsng5A2LVkh_PJqu45ibb_9caCWrwU1l4G3pH3rbg7jEpSRYJxLgvk9jTD0TNU=",
+    "title": "wordgptpro.com"
+  },
+  "checked_at": "2026-11-05T06:00:51.010172+00:00"
+}

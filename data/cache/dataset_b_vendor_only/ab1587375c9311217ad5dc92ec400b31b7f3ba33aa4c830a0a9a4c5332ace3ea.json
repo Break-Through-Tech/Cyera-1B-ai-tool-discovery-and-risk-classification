@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **Clarify AI** at the domain **clarify-ai.com** is provided by developer and founder **Geoffrey Hung** under the operating brand **Clarify AI**.\n\n### Supporting Evidence:\n* **Official Privacy Notice (`clarify-ai.com`):** Identifies the service provider as **Clarify AI**:  \n  > *\"Clarify AI ('we', 'us', or 'our') values the privacy of its Users... This document outlines our practices regarding your information on the Clarify AI platform through our website.\"* (Contact: `admin@clarify-ai.com`).\n* **Developer/Founder Disclosures:** Published technical articles and startup records document that developer **Geoffrey Hung** created, developed, and operates the software as an LLM-based project (*\"building my side project, Clarify AI, a tool aimed at transforming vague ideas into structured contexts\"*).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **Clarify AI** at the domain **clarify-ai.com** is provided by developer and founder **Geoffrey Hung** under the operating brand **Clarify AI**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeHRtbVgCNZPR_yKwToRkVkwKjUVH6mSXDfpE8rhjDA1Kyl3CPbaiIdSRqnf0IQ0BZGV_edTChou5KmnzlAT9deF9sO3VC00X-WPRje4f90JQAC7OkoehmWR4kbAolrslJFJg=",
+          "title": "getlatka.com"
+        },
+        {
+          "id": 1,
+          "text": "The software product **Clarify AI** at the domain **clarify-ai.com** is provided by developer and founder **Geoffrey Hung** under the operating brand **Clarify AI**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpkqTwwWtH5pdSD94blBTBfsV7t-Sac14Ppx6BvvlrOi42PPeTL5NiWxWxSGSvvfQ4RQ6DoR4buO20fjZKUlkRju6PIxlBR9uh70u_vYRP6ypj-eHy2NbdxDxEAZTkkpN3VlmiFKlsd4_r719X3Ty94iWFxnioNHIjW4YYP0RDb-JBZjztvk38Iz9R5MUz6FBxlHFN1Ao=",
+          "title": "medium.com"
+        },
+        {
+          "id": 2,
+          "text": "(Contact: `admin@clarify-ai.com`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXU-8oSDhPDBQ3hVOxecQHPtqDFXtcax9bO_in4L82EnesgwFS4L1nOgKV0bDRiUyKFheuXwx3Rc1DC04EKTebSSFUbFd0Eqocp6Yuz1YBLT-4jy9aKcVK",
+          "title": "clarify-ai.com"
+        },
+        {
+          "id": 3,
+          "text": "**Developer/Founder Disclosures:** Published technical articles and startup records document that developer **Geoffrey Hung** created, developed, and operates the software as an LLM-based project (*\"building my side project, Clarify AI, a tool aimed at transforming vague ideas into structured contexts\"*)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeHRtbVgCNZPR_yKwToRkVkwKjUVH6mSXDfpE8rhjDA1Kyl3CPbaiIdSRqnf0IQ0BZGV_edTChou5KmnzlAT9deF9sO3VC00X-WPRje4f90JQAC7OkoehmWR4kbAolrslJFJg=",
+          "title": "getlatka.com"
+        },
+        {
+          "id": 4,
+          "text": "**Developer/Founder Disclosures:** Published technical articles and startup records document that developer **Geoffrey Hung** created, developed, and operates the software as an LLM-based project (*\"building my side project, Clarify AI, a tool aimed at transforming vague ideas into structured contexts\"*)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-FEnnJUNVwt_Qu00n0MXvjKwqgzgBKbq7PGs-xneANlwnEXeS4Jfy6Dk49w7y2v1wfBwtiNYOQRF9sCdCA0eDvKzonZ438OPPJyWjoVFvfDQ2TkBjbIqhCGhHl2weWMyVgaa2ZCzxW8y8wBeiEHfcSUz8x-0mSX86Umha3G3T3YoW-C2ChRJQdo9XiLzJXwbrE8sRm827",
+          "title": "medium.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Geoffrey Hung",
+        "evidence": "Passage 0 states that Clarify AI at the domain clarify-ai.com is provided by developer and founder Geoffrey Hung under the operating brand Clarify AI.",
+        "source": {
+          "id": 0,
+          "text": "The software product **Clarify AI** at the domain **clarify-ai.com** is provided by developer and founder **Geoffrey Hung** under the operating brand **Clarify AI**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeHRtbVgCNZPR_yKwToRkVkwKjUVH6mSXDfpE8rhjDA1Kyl3CPbaiIdSRqnf0IQ0BZGV_edTChou5KmnzlAT9deF9sO3VC00X-WPRje4f90JQAC7OkoehmWR4kbAolrslJFJg=",
+          "title": "getlatka.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Clarify AI",
+    "domain": "clarify-ai.com",
+    "description": "Structured problem solving, efficient idea generation."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Geoffrey Hung",
+  "evidence": "Passage 0 states that Clarify AI at the domain clarify-ai.com is provided by developer and founder Geoffrey Hung under the operating brand Clarify AI.",
+  "source": {
+    "id": 0,
+    "text": "The software product **Clarify AI** at the domain **clarify-ai.com** is provided by developer and founder **Geoffrey Hung** under the operating brand **Clarify AI**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeHRtbVgCNZPR_yKwToRkVkwKjUVH6mSXDfpE8rhjDA1Kyl3CPbaiIdSRqnf0IQ0BZGV_edTChou5KmnzlAT9deF9sO3VC00X-WPRje4f90JQAC7OkoehmWR4kbAolrslJFJg=",
+    "title": "getlatka.com"
+  },
+  "checked_at": "2026-11-05T07:56:39.367152+00:00"
+}

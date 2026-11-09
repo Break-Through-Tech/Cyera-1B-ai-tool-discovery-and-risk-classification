@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on the governing terms and legal policies for **Skype** at **`skype.com`**, the vendor directly providing the product is **Skype Communications S.à r.l.** (a subsidiary of Microsoft Corporation).\n\n### Evidence & Provider Statement\n* **Microsoft Services Agreement** (Section 10 – *Contracting Entity*):\n  > *\"For use of free and paid consumer Skype-branded Services, you're contracting with, and all references to “Microsoft” in these Terms mean, Skype Communications S.à.r.l, 23 – 29 Rives de Clausen, L-2165 Luxembourg.\"*\n* **Skype Terms of Use**:\n  > *\"'Skype' refers to the entity Skype Communications S.a.r.l... The Skype Website is provided to you and operated by Skype...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "a subsidiary of Microsoft Corporation).",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFesILuLAz5oOuIX5R6cg_IQu0SkBN_fgenOrWtUDgSymXsMypROgfFDWPRBrBWakhobH3l3xYstcHVuLq0ZsM9T3HRVwOr2A2RTUl-LkkrA3wZx4fGz0Bftl8mve4wgM7pso6dC8s=",
+          "title": "microsoft.com"
+        },
+        {
+          "id": 1,
+          "text": "a subsidiary of Microsoft Corporation).",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHxzV062HUcpQinLggDsAa4PCX0OK9DouLGorbVVLzbfpbPu3NsRLLYfWYGS0SsmdE_z0P0s5BWB7mo921l8oQQyLAFE5Vv7FPt-XlGBh75RE5k7TlSOafVtKTNX0ctb_DS23jELDFQuJsQrExcXw36FlR7PwsnQWKMKX8ZBQcaaf7bqtycKJyn0paZ9luedULTg==",
+          "title": "lawworks.org.uk"
+        },
+        {
+          "id": 2,
+          "text": "or use of free and paid consumer Skype-branded Services, you're contracting with, and all references to “Microsoft” in these Terms mean, Skype Communications S.à.r.l, 23 – 29 Rives de Clausen, L-2165 Luxembourg.\"*\n* **Skype",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFesILuLAz5oOuIX5R6cg_IQu0SkBN_fgenOrWtUDgSymXsMypROgfFDWPRBrBWakhobH3l3xYstcHVuLq0ZsM9T3HRVwOr2A2RTUl-LkkrA3wZx4fGz0Bftl8mve4wgM7pso6dC8s=",
+          "title": "microsoft.com"
+        },
+        {
+          "id": 3,
+          "text": "Contracting Entity*):\n  > *\"For use of free and paid consumer Skype-branded Services, you're contracting with, and all references to “Microsoft” in these Terms mean, Skype Communications S.à.r.l, 23 – 29 Rives de Clausen, L-2165 Luxembour",
+          "url": "https://bhcc.edu/media/03-documents/publicrecords/MicrosoftPublishedAgreement.pdf",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Skype Communications S.à.r.l",
+        "evidence": "Passage 3 states that for use of free and paid consumer Skype-branded Services, users contract with Skype Communications S.à.r.l.",
+        "source": {
+          "id": 3,
+          "text": "Contracting Entity*):\n  > *\"For use of free and paid consumer Skype-branded Services, you're contracting with, and all references to “Microsoft” in these Terms mean, Skype Communications S.à.r.l, 23 – 29 Rives de Clausen, L-2165 Luxembour",
+          "url": "https://bhcc.edu/media/03-documents/publicrecords/MicrosoftPublishedAgreement.pdf",
+          "title": ""
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Skype",
+    "domain": "skype.com",
+    "description": "Skype in the Classroom is a free platform designed for educators globally, facilitating unique learning experiences through virtual connections. By connecting classes from different cultures, it enables educators to engage in activities like Mystery Skype, host guest speakers, and access a variety of lesson collections. This initiative enhances education by making it interactive and global, ideal for promoting authentic learning opportunities."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Skype Communications S.à.r.l",
+  "evidence": "Passage 3 states that for use of free and paid consumer Skype-branded Services, users contract with Skype Communications S.à.r.l.",
+  "source": {
+    "id": 3,
+    "text": "Contracting Entity*):\n  > *\"For use of free and paid consumer Skype-branded Services, you're contracting with, and all references to “Microsoft” in these Terms mean, Skype Communications S.à.r.l, 23 – 29 Rives de Clausen, L-2165 Luxembour",
+    "url": "https://bhcc.edu/media/03-documents/publicrecords/MicrosoftPublishedAgreement.pdf",
+    "title": ""
+  },
+  "checked_at": "2026-11-05T08:22:47.483802+00:00"
+}

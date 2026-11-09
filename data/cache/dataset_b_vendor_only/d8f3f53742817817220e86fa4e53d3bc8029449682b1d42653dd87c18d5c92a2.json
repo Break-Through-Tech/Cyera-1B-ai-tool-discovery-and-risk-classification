@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **World Time Buddy** at **worldtimebuddy.com** is **Helloka, LLC**.\n\n### Evidence\n* The official website footer across **worldtimebuddy.com** directly states: \n  > *\"© 2011-26 Helloka, LLC • contact@worldtimebuddy.com\"*\n* The official mobile app versions for the service (*Time Buddy - Clock & Converter* / *Time Buddy - Easy Time Zones*) are published and developed under the name **Helloka, LLC** (and **Helloka**).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **World Time Buddy** at **worldtimebuddy.com** is **Helloka, LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELW8e8-jyu3actnp7VKhD1LeO7OuAb9Eh19CJMIo_WM8iytKSLrJXxSANk1_ne3GIkcnP52kLsMG67b8FlDmcRu6TZJKUsC3nJwI4VzGi2u4hfi_w=",
+          "title": "worldtimebuddy.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **World Time Buddy** at **worldtimebuddy.com** is **Helloka, LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6PnAG7u_6p5m97UTytc9ggW_vO7zH3kQNKySrAWMP2f44XuJp-Kk4LR2G2_d0h4Y8SrPtMCCmdcJ82Kr8k_8YxdAjgVEcatpZB-EX6fhinneS4YAvwrsnj9BtpiAmMHtFbxFgB1scnA8ZWStk9E93LSbheti05FBhlQ==",
+          "title": "google.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"© 2011-26 Helloka, LLC • contact@worldtimebuddy.com\"*\n* ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELW8e8-jyu3actnp7VKhD1LeO7OuAb9Eh19CJMIo_WM8iytKSLrJXxSANk1_ne3GIkcnP52kLsMG67b8FlDmcRu6TZJKUsC3nJwI4VzGi2u4hfi_w=",
+          "title": "worldtimebuddy.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Helloka, LLC",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing World Time Buddy at worldtimebuddy.com is Helloka, LLC.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **World Time Buddy** at **worldtimebuddy.com** is **Helloka, LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELW8e8-jyu3actnp7VKhD1LeO7OuAb9Eh19CJMIo_WM8iytKSLrJXxSANk1_ne3GIkcnP52kLsMG67b8FlDmcRu6TZJKUsC3nJwI4VzGi2u4hfi_w=",
+          "title": "worldtimebuddy.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "World Time Buddy",
+    "domain": "worldtimebuddy.com",
+    "description": "World Time Buddy is a web-based tool that simplifies time conversion and helps users coordinate schedules across different time zones. It is ideal for planning conference calls, webinars, online meetings, and travel itineraries, while also allowing users to track flight arrival times effectively."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Helloka, LLC",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing World Time Buddy at worldtimebuddy.com is Helloka, LLC.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **World Time Buddy** at **worldtimebuddy.com** is **Helloka, LLC**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELW8e8-jyu3actnp7VKhD1LeO7OuAb9Eh19CJMIo_WM8iytKSLrJXxSANk1_ne3GIkcnP52kLsMG67b8FlDmcRu6TZJKUsC3nJwI4VzGi2u4hfi_w=",
+    "title": "worldtimebuddy.com"
+  },
+  "checked_at": "2026-11-05T08:47:18.270571+00:00"
+}

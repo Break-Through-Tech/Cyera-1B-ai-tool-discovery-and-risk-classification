@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor and provider directly operating the software product **EssayFlow** at the domain **essayflow.ai** is **EssayFlow** (or **EssayFlow.ai**):\n\n* **Website Copyright Notice:** The official website footer specifies: *“© 2026 EssayFlow.ai. All rights reserved.”*\n* **Corporate & Press Releases:** Official launch announcements (distributed via PRWeb and PR Newswire) identify the provider and news source directly as **EssayFlow** (led by CEO John Stevenson; media contact: `hello@essayflow.ai`, `https://essayflow.ai/`).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor and provider directly operating the software product **EssayFlow** at the domain **essayflow.ai** is **EssayFlow** (or **EssayFlow.ai**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJVzgoEwAO-U1ajBosufnOYhzB8QPEmORWDsy-STrXh36xpf_QvWq2FgLWKuyv18Ei2Was8Vgs9teoeelljGNo5YcwZVdhgjpOBn0PiwKjcTs1",
+          "title": "essayflow.ai"
+        },
+        {
+          "id": 1,
+          "text": "The vendor and provider directly operating the software product **EssayFlow** at the domain **essayflow.ai** is **EssayFlow** (or **EssayFlow.ai**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH20zP5MTNH2toJE2cKZ-dUp9F8zskUbxiem9ngTD5bNg_vVkAlsC837mDNKZHu7vRAY9bu2hEG168WNFHxVQ_cH5ji5ho_gHIr7wD7IDMTrtK-qttJOuuzzn1fOfIB1sayV1JpUZyli8zCh2P4_ubz11FMFWBk1La1L2VHbRl-zX7ai5hMMV1PtFrUl-YXUbmRb3ycXWHEfivZ-6CCNuEUTusNVA8Kzth8yzwciEqYx9etqtROR2IYh9k8M5bCZUpX45UkFWga5TQ882bF",
+          "title": "prweb.com"
+        },
+        {
+          "id": 2,
+          "text": " rights reserved.”*\n* **",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJVzgoEwAO-U1ajBosufnOYhzB8QPEmORWDsy-STrXh36xpf_QvWq2FgLWKuyv18Ei2Was8Vgs9teoeelljGNo5YcwZVdhgjpOBn0PiwKjcTs1",
+          "title": "essayflow.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "EssayFlow",
+        "evidence": "Passage 0 states that the vendor and provider directly operating the software product EssayFlow at domain essayflow.ai is EssayFlow (or EssayFlow.ai).",
+        "source": {
+          "id": 0,
+          "text": "The vendor and provider directly operating the software product **EssayFlow** at the domain **essayflow.ai** is **EssayFlow** (or **EssayFlow.ai**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJVzgoEwAO-U1ajBosufnOYhzB8QPEmORWDsy-STrXh36xpf_QvWq2FgLWKuyv18Ei2Was8Vgs9teoeelljGNo5YcwZVdhgjpOBn0PiwKjcTs1",
+          "title": "essayflow.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "EssayFlow",
+    "domain": "essayflow.ai",
+    "description": "EssayFlow is an AI-powered essay writing tool designed to help students and professionals generate high-quality essays quickly and efficiently. It offers various features to assist with brainstorming, outlining, writing, and editing."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "EssayFlow",
+  "evidence": "Passage 0 states that the vendor and provider directly operating the software product EssayFlow at domain essayflow.ai is EssayFlow (or EssayFlow.ai).",
+  "source": {
+    "id": 0,
+    "text": "The vendor and provider directly operating the software product **EssayFlow** at the domain **essayflow.ai** is **EssayFlow** (or **EssayFlow.ai**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJVzgoEwAO-U1ajBosufnOYhzB8QPEmORWDsy-STrXh36xpf_QvWq2FgLWKuyv18Ei2Was8Vgs9teoeelljGNo5YcwZVdhgjpOBn0PiwKjcTs1",
+    "title": "essayflow.ai"
+  },
+  "checked_at": "2026-11-05T07:05:43.677639+00:00"
+}

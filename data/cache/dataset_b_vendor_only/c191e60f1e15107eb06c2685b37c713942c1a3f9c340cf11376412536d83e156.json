@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **Landingi** software platform at **landingi.com** is **Landingi Sp. z o.o.** (with **Landingi Inc.** also named alongside it in privacy policies).\n\n### Evidence:\nAccording to the official **Landingi Terms of Use** (under *General Provisions*):\n> *\"The owner of the Site https://landingi.com and the domain https://landingi.com is Landingi Sp. z o.o., registered office at Dworcowa 25 Street, 44-100, Gliwice...\"*  \n> *\"Service Provider – Landingi Sp. z o.o., registered office at Dworcowa 25, 44-100, Gliwice, NIP: 6762461659, REGON: 122774425... KRS number 0000449404...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **Landingi** software platform at **landingi.com** is **Landingi Sp. z o.o.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjkakDLX2m0odjSbhCQnZBgaNiOV4qwffrsJkb_-Ff6woRkK8Da7VcD0Jn3CxqtJbLMUxwMGoIxT84UFdcmHShaz3o_cgSN0ggZ3GdUZMYN-FC6HWcpA-q_Vgi8TnwnQ0m-asMgqo94fbpx9iRdlt2hCJjwqzc6z2z24-PQYnWUMT2I9Cy1A8=",
+          "title": "landingi.com"
+        },
+        {
+          "id": 1,
+          "text": "(with **Landingi Inc.** also named alongside it in privacy policies)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBsbnMmEC6RK62MPrcuVjowv9nWpoxmp3O97SW8OWWImNSbucEvPt32XhzRBZUAW-hqnnK43hthYYreki-AH616jZm_HtdouaCgIMaAKQR0nbOXzR5QVvlq9b1sXzeGJdP",
+          "title": "landingi.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"The owner of the Site https://landingi.com and the domain https://landingi.com is Landingi Sp. z o.o., registered office at Dworcowa 25 Street, 44-100, Gliwice...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjkakDLX2m0odjSbhCQnZBgaNiOV4qwffrsJkb_-Ff6woRkK8Da7VcD0Jn3CxqtJbLMUxwMGoIxT84UFdcmHShaz3o_cgSN0ggZ3GdUZMYN-FC6HWcpA-q_Vgi8TnwnQ0m-asMgqo94fbpx9iRdlt2hCJjwqzc6z2z24-PQYnWUMT2I9Cy1A8=",
+          "title": "landingi.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Landingi Sp. z o.o.",
+        "evidence": "Passage 0 directly states that the vendor providing the Landingi software platform at landingi.com is Landingi Sp. z o.o.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the **Landingi** software platform at **landingi.com** is **Landingi Sp. z o.o.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjkakDLX2m0odjSbhCQnZBgaNiOV4qwffrsJkb_-Ff6woRkK8Da7VcD0Jn3CxqtJbLMUxwMGoIxT84UFdcmHShaz3o_cgSN0ggZ3GdUZMYN-FC6HWcpA-q_Vgi8TnwnQ0m-asMgqo94fbpx9iRdlt2hCJjwqzc6z2z24-PQYnWUMT2I9Cy1A8=",
+          "title": "landingi.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Landingi",
+    "domain": "landingi.com",
+    "description": "Boost your marketing with our user-friendly, no-code platform & landing page builder."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Landingi Sp. z o.o.",
+  "evidence": "Passage 0 directly states that the vendor providing the Landingi software platform at landingi.com is Landingi Sp. z o.o.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the **Landingi** software platform at **landingi.com** is **Landingi Sp. z o.o.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjkakDLX2m0odjSbhCQnZBgaNiOV4qwffrsJkb_-Ff6woRkK8Da7VcD0Jn3CxqtJbLMUxwMGoIxT84UFdcmHShaz3o_cgSN0ggZ3GdUZMYN-FC6HWcpA-q_Vgi8TnwnQ0m-asMgqo94fbpx9iRdlt2hCJjwqzc6z2z24-PQYnWUMT2I9Cy1A8=",
+    "title": "landingi.com"
+  },
+  "checked_at": "2026-11-05T07:48:20.985230+00:00"
+}

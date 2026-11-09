@@ -1,0 +1,79 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **ChatSlide** at **chatslide.ai** is provided directly under the brand/company name **ChatSlide** (also presented as **ChatSlide AI** / **ChatSlide.AI**).\n\n### Supporting Evidence & Provider Statements\n* **Terms and Conditions (`chatslide.ai/terms`):** \n  > *\"Please read these terms and conditions carefully before using our website and services provided by ChatSlide.\"*\n* **Privacy Policy (`chatslide.ai/privacy`):** \n  > *\"This Privacy Policy explains how ChatSlide collects, uses, and protects the personal information of individuals who access or use our website and services.\"*\n* **About Page (`chatslide.ai/about`) & Site Footers:** \n  Identifies the organization as **ChatSlide.AI**, led by executive founders Quan-Lai Li (Founder & Board Chairman) and Sophie Ren (Founder), with copyright attributed to **ChatSlide AI**.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **ChatSlide** at **chatslide.ai** is provided directly under the brand/company name **ChatSlide** (also presented as **ChatSlide AI** / **ChatSlide.AI**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfLpK7iiOZ2HvmwjCQJ4pNvjprRPjRKjctZWO0Hguv4FEw9mv4glTVH_LtMc2NkETD3syFc-oHa40A0VAFiOqfX68ChJ7IuZBefY-sAeBgFby5qpgM8Q==",
+          "title": "chatslide.ai"
+        },
+        {
+          "id": 1,
+          "text": "The software product **ChatSlide** at **chatslide.ai** is provided directly under the brand/company name **ChatSlide** (also presented as **ChatSlide AI** / **ChatSlide.AI**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBx3EJhROaHDvY79rC1jDF7k-tJkaOez0P4ScYIeE6uR3lHIAsnnQO6hpReqqWp39WgGrbhWi8IFw5Fwa6kMvZsVzncdkK3RBRpWMrIDp7KpI34rM=",
+          "title": "chatslide.ai"
+        },
+        {
+          "id": 2,
+          "text": "The software product **ChatSlide** at **chatslide.ai** is provided directly under the brand/company name **ChatSlide** (also presented as **ChatSlide AI** / **ChatSlide.AI**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFMVcxmSvlUJlbMb9LZ4gGiOeK8x5z3e9FL3Mlk1TZiuMaPKwv9KWTMwDb7D13k0y1v_Q67_F52N8iPa5AlbBc-JQ63CiihFWgGJQfwnww_ecwnao=",
+          "title": "chatslide.ai"
+        },
+        {
+          "id": 3,
+          "text": "*\"Please read these terms and conditions carefully before using our website and services provided by ChatSlide.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdPEiOVo-aKp7OXwv1mDnaQkgmrKKBYUsHNy2IjyPn709-bMfTSUhKHIp13SerBwwicOQTNry_ciZQnjvHSfk19qAziCs6E9Jhf6RDxDUCB8mLWsE=",
+          "title": "chatslide.ai"
+        },
+        {
+          "id": 4,
+          "text": "*\"This Privacy Policy explains how ChatSlide collects, uses, and protects the personal information of individuals who access or use our website and services.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfLpK7iiOZ2HvmwjCQJ4pNvjprRPjRKjctZWO0Hguv4FEw9mv4glTVH_LtMc2NkETD3syFc-oHa40A0VAFiOqfX68ChJ7IuZBefY-sAeBgFby5qpgM8Q==",
+          "title": "chatslide.ai"
+        },
+        {
+          "id": 5,
+          "text": "Identifies the organization as **ChatSlide.AI**, led by executive founders Quan-Lai Li (Founder & Board Chairman) and Sophie Ren (Founder), with copyright attributed to **ChatSlide AI**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFMVcxmSvlUJlbMb9LZ4gGiOeK8x5z3e9FL3Mlk1TZiuMaPKwv9KWTMwDb7D13k0y1v_Q67_F52N8iPa5AlbBc-JQ63CiihFWgGJQfwnww_ecwnao=",
+          "title": "chatslide.ai"
+        },
+        {
+          "id": 6,
+          "text": "Identifies the organization as **ChatSlide.AI**, led by executive founders Quan-Lai Li (Founder & Board Chairman) and Sophie Ren (Founder), with copyright attributed to **ChatSlide AI**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEF-EDLxhLfYHIvcVb4Fwb_0lIrX_D6IwcL13FB_nqTZY8SsvNq8zpA_iNOsYLMO1N7lGt7ZuOz4k-p1JGWWWuzGUZs9vFe0bSijT5pmEH75fenTK8V2w==",
+          "title": "chatslide.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "ChatSlide",
+        "evidence": "The software product ChatSlide at chatslide.ai is provided directly under the brand/company name ChatSlide (also presented as ChatSlide AI / ChatSlide.AI).",
+        "source": {
+          "id": 0,
+          "text": "The software product **ChatSlide** at **chatslide.ai** is provided directly under the brand/company name **ChatSlide** (also presented as **ChatSlide AI** / **ChatSlide.AI**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfLpK7iiOZ2HvmwjCQJ4pNvjprRPjRKjctZWO0Hguv4FEw9mv4glTVH_LtMc2NkETD3syFc-oHa40A0VAFiOqfX68ChJ7IuZBefY-sAeBgFby5qpgM8Q==",
+          "title": "chatslide.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "ChatSlide",
+    "domain": "chatslide.ai",
+    "description": "Your AI assistant for professional slides creation."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "ChatSlide",
+  "evidence": "The software product ChatSlide at chatslide.ai is provided directly under the brand/company name ChatSlide (also presented as ChatSlide AI / ChatSlide.AI).",
+  "source": {
+    "id": 0,
+    "text": "The software product **ChatSlide** at **chatslide.ai** is provided directly under the brand/company name **ChatSlide** (also presented as **ChatSlide AI** / **ChatSlide.AI**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfLpK7iiOZ2HvmwjCQJ4pNvjprRPjRKjctZWO0Hguv4FEw9mv4glTVH_LtMc2NkETD3syFc-oHa40A0VAFiOqfX68ChJ7IuZBefY-sAeBgFby5qpgM8Q==",
+    "title": "chatslide.ai"
+  },
+  "checked_at": "2026-11-05T06:36:27.279672+00:00"
+}

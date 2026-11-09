@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Akismet** at **akismet.com** is **Automattic** (**Automattic Inc.** for users outside designated countries, and **Aut O'Mattic A8C Ireland Ltd.** for users residing within designated countries).\n\n### Provider Statement\nAccording to the official *Terms of Service* on **akismet.com**:\n> *\"The Akismet.com website (“Website”) is a hosted anti-comment-spam service (“Service”) operated by Automattic... If you reside in the “Designated Countries,” your agreement is with Aut O’Mattic A8C Ireland Ltd. If you reside outside of the “Designated Countries,” your agreement is with Automattic Inc. We refer to Aut O’Mattic A8C Ireland Ltd. and Automattic Inc. collectively as “Automattic” or “we” throughout this agreement.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Akismet** at **akismet.com** is **Automattic** (**Automattic Inc.** for users outside designated countries, and **Aut O'Mattic A8C Ireland Ltd.** for users residing within designated countries)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-2nE3D95qIXvtMrAX-uITIKG7Kyy_dqoZteBmrk01OdPKSlOblPXllSGP6vOjMzO7F73NgjbwT_Key2I9D1-4LITJCHk9AvEAcWlJZM0=",
+          "title": "akismet.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Akismet** at **akismet.com** is **Automattic** (**Automattic Inc.** for users outside designated countries, and **Aut O'Mattic A8C Ireland Ltd.** for users residing within designated countries)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-2nE3D95qIXvtMrAX-uITIKG7Kyy_dqoZteBmrk01OdPKSlOblPXllSGP6vOjMzO7F73NgjbwT_Key2I9D1-4LITJCHk9AvEAcWlJZM0=",
+          "title": "akismet.com"
+        },
+        {
+          "id": 2,
+          "text": "Aut O’Mattic A8C Ireland Ltd. If you reside outside of the “Designated Countries,” your agreement is with Automattic Inc. We refer to Aut O’Mattic A8C Ireland Ltd. and Automattic Inc. collectively as “Automattic” or “we” throughout this agreeme",
+          "url": "https://akismet.com/tos/",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Automattic",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing Akismet at akismet.com is Automattic (Automattic Inc. for users outside designated countries, and Aut O'Mattic A8C Ireland Ltd. for users residing within designated countries).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Akismet** at **akismet.com** is **Automattic** (**Automattic Inc.** for users outside designated countries, and **Aut O'Mattic A8C Ireland Ltd.** for users residing within designated countries)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-2nE3D95qIXvtMrAX-uITIKG7Kyy_dqoZteBmrk01OdPKSlOblPXllSGP6vOjMzO7F73NgjbwT_Key2I9D1-4LITJCHk9AvEAcWlJZM0=",
+          "title": "akismet.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Akismet",
+    "domain": "akismet.com",
+    "description": "Akismet is a leading spam detection service that effectively protects WordPress websites from unwanted comments and contact form spam. With its sophisticated algorithms, Akismet scans and filters spam for millions of users, ensuring a cleaner and safer online experience."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Automattic",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing Akismet at akismet.com is Automattic (Automattic Inc. for users outside designated countries, and Aut O'Mattic A8C Ireland Ltd. for users residing within designated countries).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Akismet** at **akismet.com** is **Automattic** (**Automattic Inc.** for users outside designated countries, and **Aut O'Mattic A8C Ireland Ltd.** for users residing within designated countries)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-2nE3D95qIXvtMrAX-uITIKG7Kyy_dqoZteBmrk01OdPKSlOblPXllSGP6vOjMzO7F73NgjbwT_Key2I9D1-4LITJCHk9AvEAcWlJZM0=",
+    "title": "akismet.com"
+  },
+  "checked_at": "2026-11-05T09:21:54.751934+00:00"
+}

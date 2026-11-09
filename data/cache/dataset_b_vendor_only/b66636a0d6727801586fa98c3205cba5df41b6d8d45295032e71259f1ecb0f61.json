@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "For **IELTS CHAMP** at **ieltschamp.com**, the software is directly provided under the brand/entity **IELTS CHAMP**, founded and developed by **Jacob Morgan**.\n\n### Supporting Evidence & Citations\n* **Official Website Notice (`ieltschamp.com`):** The site does not cite a distinct registered parent corporation, listing the copyright directly under the product/brand name: \n  > *\"© 2024 IELTS CHAMP. ... Please be aware that ieltschamp.com does not have an official affiliation, approval, or endorsement from the University of Cambridge ESOL, the British Council, or IDP Education Australia.\"*\n* **Published Developer / Founder:** Company tracking and database records identify Jacob Morgan as the creator/CEO:\n  > *\"Jacob Morgan founded IELTS CHAMP in 2023 and runs it as CEO.\"* (GetLatka SaaS Profile).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "For **IELTS CHAMP** at **ieltschamp.com**, the software is directly provided under the brand/entity **IELTS CHAMP**, founded and developed by **Jacob Morgan**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF33dVPnu45zpP8AhD-56wCevl8OQHvsZChMUzRA30CQOXtm4avNWg57VUDcbmiXi2CUqPvYk4LVpfIvTkpsben1BmZtaCPBJTpeqPwRIZ3e86wPlVRJpuZbCVImjduiA==",
+          "title": "getlatka.com"
+        },
+        {
+          "id": 1,
+          "text": "lease be aware that ieltschamp.com does not have an official affiliation, approval, or endorsement from the University of Cambridge ESOL, the British Council, or IDP Education Australia.\"*\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF02Za0an_OeGy-CWLg-CQ4SQyB2m6_vlxMM7GtnI9ynZsEshz6DS6NOYl-bfJat1SDLIBvyAFCFviwKE2DyVzW7QYN3NuV5mJDjznk5PDY1w3jc4oN6SSrvAvS1W0TXPhmn-j2Vh3Bx9E6xlE0tLcJWJqQnG7oWQzEGLA=",
+          "title": "ieltschamp.com"
+        },
+        {
+          "id": 2,
+          "text": "GetLatka SaaS Profile).",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF33dVPnu45zpP8AhD-56wCevl8OQHvsZChMUzRA30CQOXtm4avNWg57VUDcbmiXi2CUqPvYk4LVpfIvTkpsben1BmZtaCPBJTpeqPwRIZ3e86wPlVRJpuZbCVImjduiA==",
+          "title": "getlatka.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "IELTS CHAMP",
+        "evidence": "Passage 0 states that for IELTS CHAMP at ieltschamp.com, the software is directly provided under the brand/entity IELTS CHAMP, founded and developed by Jacob Morgan.",
+        "source": {
+          "id": 0,
+          "text": "For **IELTS CHAMP** at **ieltschamp.com**, the software is directly provided under the brand/entity **IELTS CHAMP**, founded and developed by **Jacob Morgan**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF33dVPnu45zpP8AhD-56wCevl8OQHvsZChMUzRA30CQOXtm4avNWg57VUDcbmiXi2CUqPvYk4LVpfIvTkpsben1BmZtaCPBJTpeqPwRIZ3e86wPlVRJpuZbCVImjduiA==",
+          "title": "getlatka.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "IELTS CHAMP",
+    "domain": "ieltschamp.com",
+    "description": "Ace IELTS writing & speaking with AI"
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "IELTS CHAMP",
+  "evidence": "Passage 0 states that for IELTS CHAMP at ieltschamp.com, the software is directly provided under the brand/entity IELTS CHAMP, founded and developed by Jacob Morgan.",
+  "source": {
+    "id": 0,
+    "text": "For **IELTS CHAMP** at **ieltschamp.com**, the software is directly provided under the brand/entity **IELTS CHAMP**, founded and developed by **Jacob Morgan**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF33dVPnu45zpP8AhD-56wCevl8OQHvsZChMUzRA30CQOXtm4avNWg57VUDcbmiXi2CUqPvYk4LVpfIvTkpsben1BmZtaCPBJTpeqPwRIZ3e86wPlVRJpuZbCVImjduiA==",
+    "title": "getlatka.com"
+  },
+  "checked_at": "2026-11-05T07:35:31.855608+00:00"
+}

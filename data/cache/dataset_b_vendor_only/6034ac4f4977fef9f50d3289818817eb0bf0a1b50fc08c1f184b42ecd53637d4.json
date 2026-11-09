@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **StrawPoll** at **strawpoll.ai** is **Creative Pages LLC**.\n\n### Evidence\n* **Terms of Service (`strawpoll.ai/terms`):** \n  > *\"The Terms of Service agreement is between you and Creative Pages LLC (collectively 'we', 'us' or 'our'). Our principal place of business is in Saint Louis, MO, United States of America.\"*\n* **Privacy Policy (`strawpoll.ai/privacy`):** \n  > *\"Creative Pages LLC (collectively 'we', 'us' or 'our') created this privacy policy for strawpoll.ai (collectively the 'Service').\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **StrawPoll** at **strawpoll.ai** is **Creative Pages LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1UAZm6wDA91PZkiWN-y69KhwqxmbucxyZrL4aHvQY4idt9P8dzhbItV-Nu1dKukCV6WUb815XpEkeY8uOlud6nfH3hxX7xxI53astSJZgichy",
+          "title": "strawpoll.ai"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **StrawPoll** at **strawpoll.ai** is **Creative Pages LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMnCNCmzva4zZE3uhH9uy3_A9vkYH05YnbJOCFoMOJj3hH3ZjMnJMXW5GIEickMFAd4H5PGNk1Zqg3DbEsWpPJFYK8yfg0HEJhv1UD9sQzww==",
+          "title": "strawpoll.ai"
+        },
+        {
+          "id": 2,
+          "text": "Our principal place of business is in Saint Louis, MO, United States of America.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMnCNCmzva4zZE3uhH9uy3_A9vkYH05YnbJOCFoMOJj3hH3ZjMnJMXW5GIEickMFAd4H5PGNk1Zqg3DbEsWpPJFYK8yfg0HEJhv1UD9sQzww==",
+          "title": "strawpoll.ai"
+        },
+        {
+          "id": 3,
+          "text": "*\"Creative Pages LLC (collectively 'we', 'us' or 'our') created this privacy policy for strawpoll.ai (collectively the 'Service').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1UAZm6wDA91PZkiWN-y69KhwqxmbucxyZrL4aHvQY4idt9P8dzhbItV-Nu1dKukCV6WUb815XpEkeY8uOlud6nfH3hxX7xxI53astSJZgichy",
+          "title": "strawpoll.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Creative Pages LLC",
+        "evidence": "Passage 0 states that the vendor directly providing StrawPoll at strawpoll.ai is Creative Pages LLC.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **StrawPoll** at **strawpoll.ai** is **Creative Pages LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1UAZm6wDA91PZkiWN-y69KhwqxmbucxyZrL4aHvQY4idt9P8dzhbItV-Nu1dKukCV6WUb815XpEkeY8uOlud6nfH3hxX7xxI53astSJZgichy",
+          "title": "strawpoll.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "StrawPoll",
+    "domain": "strawpoll.ai",
+    "description": "Create a poll, get responses, and analyze data with machine learning."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Creative Pages LLC",
+  "evidence": "Passage 0 states that the vendor directly providing StrawPoll at strawpoll.ai is Creative Pages LLC.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **StrawPoll** at **strawpoll.ai** is **Creative Pages LLC**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1UAZm6wDA91PZkiWN-y69KhwqxmbucxyZrL4aHvQY4idt9P8dzhbItV-Nu1dKukCV6WUb815XpEkeY8uOlud6nfH3hxX7xxI53astSJZgichy",
+    "title": "strawpoll.ai"
+  },
+  "checked_at": "2026-11-05T06:26:40.189897+00:00"
+}

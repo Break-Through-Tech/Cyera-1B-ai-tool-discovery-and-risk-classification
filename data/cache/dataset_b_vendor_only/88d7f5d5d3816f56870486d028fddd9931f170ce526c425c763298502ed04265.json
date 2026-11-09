@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **Data-Driven Documents (D3.js)** at **d3js.org** is provided and maintained by **Observable, Inc.** (co-founded by D3's original creator, **Mike Bostock**).\n\n### Supporting Evidence & Provider Statements\nFrom the official website at `d3js.org`:\n* *\"Built by Observable. D3 is developed by Observable, the platform for collaborative data analysis.\"*\n* *\"D3 was created by Mike Bostock in 2011. ... Mike and Philippe now maintain D3 and Observable Plot at Observable.\"*\n* Website copyright notice: *“© [Year] Mike Bostock and Observable, Inc. ISC License.”*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **Data-Driven Documents (D3.js)** at **d3js.org** is provided and maintained by **Observable, Inc.** (co-founded by D3's original creator, **Mike Bostock**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG92EhD_D-V3s2kAxvUfNyPXbH4a9gQ3IU0sf9rKGrMAftuXuMMUKDdA3bYwFD2xLpvOVu-rSlE0MqE-cujBr4aw6v6GxLI9J5afzeXjuCb8WA=",
+          "title": "d3js.org"
+        },
+        {
+          "id": 1,
+          "text": "The software product **Data-Driven Documents (D3.js)** at **d3js.org** is provided and maintained by **Observable, Inc.** (co-founded by D3's original creator, **Mike Bostock**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiDN8WvxBIMLDdCXKr6YESu8A-r5subKtFi0E1fU8giRdE2_vLNiH4asCyYX2Bfxf0raSXh-ig7DcflPDMUrLQgsv8aGC16g==",
+          "title": "d3js.org"
+        },
+        {
+          "id": 2,
+          "text": "D3 is developed by Observable, the platform for collaborative data analysis.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiDN8WvxBIMLDdCXKr6YESu8A-r5subKtFi0E1fU8giRdE2_vLNiH4asCyYX2Bfxf0raSXh-ig7DcflPDMUrLQgsv8aGC16g==",
+          "title": "d3js.org"
+        },
+        {
+          "id": 3,
+          "text": "Mike and Philippe now maintain D3 and Observable Plot at Observable.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG92EhD_D-V3s2kAxvUfNyPXbH4a9gQ3IU0sf9rKGrMAftuXuMMUKDdA3bYwFD2xLpvOVu-rSlE0MqE-cujBr4aw6v6GxLI9J5afzeXjuCb8WA=",
+          "title": "d3js.org"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Observable, Inc.",
+        "evidence": "Passage 0 states that Data-Driven Documents (D3.js) at d3js.org is provided and maintained by Observable, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The software product **Data-Driven Documents (D3.js)** at **d3js.org** is provided and maintained by **Observable, Inc.** (co-founded by D3's original creator, **Mike Bostock**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG92EhD_D-V3s2kAxvUfNyPXbH4a9gQ3IU0sf9rKGrMAftuXuMMUKDdA3bYwFD2xLpvOVu-rSlE0MqE-cujBr4aw6v6GxLI9J5afzeXjuCb8WA=",
+          "title": "d3js.org"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Data-Driven Documents",
+    "domain": "d3js.org",
+    "description": "D3.js is a powerful JavaScript library utilized for creating dynamic and interactive data visualizations in web browsers. By leveraging web standards such as SVG, HTML, and CSS, D3 allows developers to bind arbitrary data to a Document Object Model (DOM) and apply data-driven transformations to the document. This enables the creation of visually rich data representations that can be customized for better storytelling and analysis."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Observable, Inc.",
+  "evidence": "Passage 0 states that Data-Driven Documents (D3.js) at d3js.org is provided and maintained by Observable, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The software product **Data-Driven Documents (D3.js)** at **d3js.org** is provided and maintained by **Observable, Inc.** (co-founded by D3's original creator, **Mike Bostock**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG92EhD_D-V3s2kAxvUfNyPXbH4a9gQ3IU0sf9rKGrMAftuXuMMUKDdA3bYwFD2xLpvOVu-rSlE0MqE-cujBr4aw6v6GxLI9J5afzeXjuCb8WA=",
+    "title": "d3js.org"
+  },
+  "checked_at": "2026-11-05T08:59:39.399820+00:00"
+}

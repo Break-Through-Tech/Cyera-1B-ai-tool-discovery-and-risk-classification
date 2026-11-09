@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software and database solutions at **mariadb.com** is **MariaDB plc** (operating in the United States through its subsidiary **MariaDB USA, Inc.**).\n\n### Evidence:\n* **Privacy Policy (`mariadb.com/privacy-policy`)**:  \n  > *\"When we refer to MariaDB we refer to MariaDB plc, registered in Ireland, and its subsidiaries (“MariaDB” or “we” or “us”) and the mariadb.com or other MariaDB websites (“Site” or “Sites”).\"*\n\n* **Software License Terms (`mariadb.com`)**:  \n  > *\"These MariaDB Software License Terms (“Terms”) govern the Customer's use of MariaDB proprietary software made available by MariaDB USA, Inc. or its affiliate (“MariaDB”) to Customer...\"*\n\n* **About MariaDB (`mariadb.com`)**:  \n  > *\"MariaDB plc is the lead developer behind the popular open source database MariaDB Server... The company also develops an enterprise version, MariaDB Enterprise Platform... For more information, visit mariadb.com.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEY3OSeaOtXcqkJg-1-i8buVcokxT_Jv-_a3kobyFp5EKhSITOMUOcHtLqbi50SJ8UW2xOERaNz0qLhUp4jJ_rvtYy7wjpLHuyPvlAZufQVE8b8VNBon6B2",
+          "title": "mariadb.com"
+        },
+        {
+          "id": 1,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfwjM7pvZ0uMU8YYcvUbeTsVVwxgxbtVzZKrfSxv-OE1KpN5dVAltq0ZkLHrE2RtLO4zcnLhkJPNJk9hXOGNL326ofm_bSFcdGTvmw0uL_Z3fn4KHaGoR3wrMBEYmdleU06e8RE6E3BMnfivpMoPatWmJPvnTKEl187n8d8ozKai6hMXKoM6evhu7Foxi9dovbLA==",
+          "title": "mariadb.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"When we refer to MariaDB we refer to MariaDB plc, registered in Ireland, and its subsidiaries (“MariaDB” or “we” or “us”) and the mariadb.com or other MariaDB websites (“Site” or “Sites”).\"*\n\n* **Software Licen",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEY3OSeaOtXcqkJg-1-i8buVcokxT_Jv-_a3kobyFp5EKhSITOMUOcHtLqbi50SJ8UW2xOERaNz0qLhUp4jJ_rvtYy7wjpLHuyPvlAZufQVE8b8VNBon6B2",
+          "title": "mariadb.com"
+        },
+        {
+          "id": 3,
+          "text": "ware License Terms (“Terms”) govern the Customer's use of MariaDB proprietary software made available by MariaDB USA, Inc. or its affiliate (“MariaDB”) to Customer...\"*\n\n* **About MariaDB (`mariad",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfwjM7pvZ0uMU8YYcvUbeTsVVwxgxbtVzZKrfSxv-OE1KpN5dVAltq0ZkLHrE2RtLO4zcnLhkJPNJk9hXOGNL326ofm_bSFcdGTvmw0uL_Z3fn4KHaGoR3wrMBEYmdleU06e8RE6E3BMnfivpMoPatWmJPvnTKEl187n8d8ozKai6hMXKoM6evhu7Foxi9dovbLA==",
+          "title": "mariadb.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "MariaDB plc",
+        "evidence": "Passage 2 states: 'When we refer to MariaDB we refer to MariaDB plc, registered in Ireland, and its subsidiaries (“MariaDB” or “we” or “us”) and the mariadb.com or other MariaDB websites (“Site” or “Sites”).'",
+        "source": {
+          "id": 2,
+          "text": "*\"When we refer to MariaDB we refer to MariaDB plc, registered in Ireland, and its subsidiaries (“MariaDB” or “we” or “us”) and the mariadb.com or other MariaDB websites (“Site” or “Sites”).\"*\n\n* **Software Licen",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEY3OSeaOtXcqkJg-1-i8buVcokxT_Jv-_a3kobyFp5EKhSITOMUOcHtLqbi50SJ8UW2xOERaNz0qLhUp4jJ_rvtYy7wjpLHuyPvlAZufQVE8b8VNBon6B2",
+          "title": "mariadb.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "MariaDB",
+    "domain": "mariadb.com",
+    "description": "MariaDB is a cloud database company offering high-performance database solutions suitable for various workloads and cloud environments. With over a billion downloads and widespread use in Linux distributions, its products are designed for scalability, automation, and cost-efficiency, capable of saving up to 90% compared to proprietary databases. Trusted by notable organizations, MariaDB services a diverse clientele, providing reliable database infrastructure for critical applications."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "MariaDB plc",
+  "evidence": "Passage 2 states: 'When we refer to MariaDB we refer to MariaDB plc, registered in Ireland, and its subsidiaries (“MariaDB” or “we” or “us”) and the mariadb.com or other MariaDB websites (“Site” or “Sites”).'",
+  "source": {
+    "id": 2,
+    "text": "*\"When we refer to MariaDB we refer to MariaDB plc, registered in Ireland, and its subsidiaries (“MariaDB” or “we” or “us”) and the mariadb.com or other MariaDB websites (“Site” or “Sites”).\"*\n\n* **Software Licen",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEY3OSeaOtXcqkJg-1-i8buVcokxT_Jv-_a3kobyFp5EKhSITOMUOcHtLqbi50SJ8UW2xOERaNz0qLhUp4jJ_rvtYy7wjpLHuyPvlAZufQVE8b8VNBon6B2",
+    "title": "mariadb.com"
+  },
+  "checked_at": "2026-11-05T09:34:43.778880+00:00"
+}

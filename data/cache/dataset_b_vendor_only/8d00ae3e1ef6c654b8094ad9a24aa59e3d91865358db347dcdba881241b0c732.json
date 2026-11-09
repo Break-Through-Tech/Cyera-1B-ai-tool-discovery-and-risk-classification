@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **Roast My Landing Page** at the domain **`roastmylandingpage.io`** is independently created and provided by developer **Joshua Daniel** (operating online under handles including `joshuadaniel` / `@joshuadanieltech`). \n\nNo separate operating corporate entity is registered for the website; public project listings (such as on SideProjectors) confirm **`joshuadaniel`** as the direct project owner providing the tool at `roastmylandingpage.io`, and the tool was originally launched by the creator via Show HN (*\"I built a tool to roast landing pages using AI agents (roastmylandingpage.io)\"*).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **Roast My Landing Page** at the domain **`roastmylandingpage.io`** is independently created and provided by developer **Joshua Daniel** (operating online under handles including `joshuadaniel` / `@joshuadanieltech`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHr_yO47oJvqPnIGxbupZwH7siG9MLUCejwi1We3BNI7ChpPE-UGrbVfRN30aBRY7geDoIdJvnUWL6qpcnlnXFLprdMkTDLQ3gSqDYPX79AHRhBYRWCkY1qiZc5yhqxFlXVYg==",
+          "title": "ycombinator.com"
+        },
+        {
+          "id": 1,
+          "text": "The software product **Roast My Landing Page** at the domain **`roastmylandingpage.io`** is independently created and provided by developer **Joshua Daniel** (operating online under handles including `joshuadaniel` / `@joshuadanieltech`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEn53GjO3RQIHatSn6A5N2UpGSSJIdGhWRVMcXb5KPhOn1gf0O4pP7XVkMfBhv2HRVHsuVyiOkpv2JRuWWGNfimQ6zkcJi-X5bfC8cQaJlxy2EcCuyXXjEPEa_fW1U=",
+          "title": "thehackstack.com"
+        },
+        {
+          "id": 2,
+          "text": "The software product **Roast My Landing Page** at the domain **`roastmylandingpage.io`** is independently created and provided by developer **Joshua Daniel** (operating online under handles including `joshuadaniel` / `@joshuadanieltech`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCAQ_q_n_AMmPDYMLuZiV-V2KE9j0JJmphis3NdbYyAWgQODmJ1OYDvjwgqubD3fhsPy_jjOXoeUE1Nlsx32akmKEINkDIqSw3GWmwiUXki1e46UiZocjfgTu9vfK0hPQ=",
+          "title": "awesomeindie.com"
+        },
+        {
+          "id": 3,
+          "text": "No separate operating corporate entity is registered for the website; public project listings (such as on SideProjectors) confirm **`joshuadaniel`** as the direct project owner providing the tool at `roastmylandingpage.io`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2a4s1NGwZ9iHCeAgGl7Yw5T8HGBeWXX5Q9M-xhW24wxE3j_HBJLoee__3tk8pVbO6a-dEH05fSAL9V3B2GpsdZb3Eb6gAHM8vwjiMGTID8bx-CeCRG6Iev-b0MemQxv6dsb_rLwkJ-673OjzwO6sALIFWvg4yiow=",
+          "title": "sideprojectors.com"
+        },
+        {
+          "id": 4,
+          "text": "No separate operating corporate entity is registered for the website; public project listings (such as on SideProjectors) confirm **`joshuadaniel`** as the direct project owner providing the tool at `roastmylandingpage.io`, and the tool was originally launched by the creator via Show HN (*\"I built a tool to roast landing pages using AI agents (roastmylandingpage.io)\"*)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHr_yO47oJvqPnIGxbupZwH7siG9MLUCejwi1We3BNI7ChpPE-UGrbVfRN30aBRY7geDoIdJvnUWL6qpcnlnXFLprdMkTDLQ3gSqDYPX79AHRhBYRWCkY1qiZc5yhqxFlXVYg==",
+          "title": "ycombinator.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Joshua Daniel",
+        "evidence": "Passage 0 states that the software product Roast My Landing Page at the domain roastmylandingpage.io is independently created and provided by developer Joshua Daniel.",
+        "source": {
+          "id": 0,
+          "text": "The software product **Roast My Landing Page** at the domain **`roastmylandingpage.io`** is independently created and provided by developer **Joshua Daniel** (operating online under handles including `joshuadaniel` / `@joshuadanieltech`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHr_yO47oJvqPnIGxbupZwH7siG9MLUCejwi1We3BNI7ChpPE-UGrbVfRN30aBRY7geDoIdJvnUWL6qpcnlnXFLprdMkTDLQ3gSqDYPX79AHRhBYRWCkY1qiZc5yhqxFlXVYg==",
+          "title": "ycombinator.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Roast My Landing Page",
+    "domain": "roastmylandingpage.io",
+    "description": "An AI-powered tool that provides instant, unbiased feedback and actionable suggestions for improving landing page conversion rates. It analyzes clarity, persuasion, and user experience to help founders, marketers, and designers optimize their pages."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Joshua Daniel",
+  "evidence": "Passage 0 states that the software product Roast My Landing Page at the domain roastmylandingpage.io is independently created and provided by developer Joshua Daniel.",
+  "source": {
+    "id": 0,
+    "text": "The software product **Roast My Landing Page** at the domain **`roastmylandingpage.io`** is independently created and provided by developer **Joshua Daniel** (operating online under handles including `joshuadaniel` / `@joshuadanieltech`)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHr_yO47oJvqPnIGxbupZwH7siG9MLUCejwi1We3BNI7ChpPE-UGrbVfRN30aBRY7geDoIdJvnUWL6qpcnlnXFLprdMkTDLQ3gSqDYPX79AHRhBYRWCkY1qiZc5yhqxFlXVYg==",
+    "title": "ycombinator.com"
+  },
+  "checked_at": "2026-11-05T06:26:01.261076+00:00"
+}

@@ -1,0 +1,91 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Littlecook** (associated with the domain **littlecook.io**) is **BIG CORP LIMITED**.\n\n### Evidence:\n* According to the official **Privacy Policy** of **littlecook.io** (`littlecook.io/privacy`):\n  > * \"Application means the software program provided by the Company downloaded by You on any electronic device, named littlecook.\"\n  > * \"Company (referred to as either 'the Company', 'We', 'Us' or 'Our' in this Agreement) refers to BIG CORP LIMITED, London, UK.\"\n* The official App Store listing for the app confirms copyright and provider details for **BIG CORP LIMITED** (operating also as/under studio.gold / The Product Company of London Limited).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Littlecook** (associated with the domain **littlecook.io**) is **BIG CORP LIMITED**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyDCNZVoRRZ--9SWW1eVu-0ib-_kk3M_Wf4jIaAIFQ2OZyCsysQF7bIT6CRJYQMKvQOQ6YkH1x5rMf8IlSBA7EAaiOYvUzW2KPQKP8p8ibEo6b9A==",
+          "title": "littlecook.io"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Littlecook** (associated with the domain **littlecook.io**) is **BIG CORP LIMITED**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyDCNZVoRRZ--9SWW1eVu-0ib-_kk3M_Wf4jIaAIFQ2OZyCsysQF7bIT6CRJYQMKvQOQ6YkH1x5rMf8IlSBA7EAaiOYvUzW2KPQKP8p8ibEo6b9A==",
+          "title": "littlecook.io"
+        },
+        {
+          "id": 2,
+          "text": "* \"Application means the software program provided by the Company downloaded by You on any electronic device, named littlecook.\"",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyDCNZVoRRZ--9SWW1eVu-0ib-_kk3M_Wf4jIaAIFQ2OZyCsysQF7bIT6CRJYQMKvQOQ6YkH1x5rMf8IlSBA7EAaiOYvUzW2KPQKP8p8ibEo6b9A==",
+          "title": "littlecook.io"
+        },
+        {
+          "id": 3,
+          "text": "* \"Application means the software program provided by the Company downloaded by You on any electronic device, named littlecook.\"",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyDCNZVoRRZ--9SWW1eVu-0ib-_kk3M_Wf4jIaAIFQ2OZyCsysQF7bIT6CRJYQMKvQOQ6YkH1x5rMf8IlSBA7EAaiOYvUzW2KPQKP8p8ibEo6b9A==",
+          "title": "littlecook.io"
+        },
+        {
+          "id": 4,
+          "text": "* \"Company (referred to as either 'the Company', 'We', 'Us' or 'Our' in this Agreement) refers to BIG CORP LIMITED, London, UK.\"",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyDCNZVoRRZ--9SWW1eVu-0ib-_kk3M_Wf4jIaAIFQ2OZyCsysQF7bIT6CRJYQMKvQOQ6YkH1x5rMf8IlSBA7EAaiOYvUzW2KPQKP8p8ibEo6b9A==",
+          "title": "littlecook.io"
+        },
+        {
+          "id": 5,
+          "text": "* \"Company (referred to as either 'the Company', 'We', 'Us' or 'Our' in this Agreement) refers to BIG CORP LIMITED, London, UK.\"",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyDCNZVoRRZ--9SWW1eVu-0ib-_kk3M_Wf4jIaAIFQ2OZyCsysQF7bIT6CRJYQMKvQOQ6YkH1x5rMf8IlSBA7EAaiOYvUzW2KPQKP8p8ibEo6b9A==",
+          "title": "littlecook.io"
+        },
+        {
+          "id": 6,
+          "text": "The official App Store listing for the app confirms copyright and provider details for **BIG CORP LIMITED** (operating also as/under studio.gold / The Product Company of London Limited)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFtMLSZsp0aVxFgYZAc1TzHZO2vASzse1Ad5i1eDWYQI4HfW1xKK_hZIlRslTeo4sO8k6dm5bL5YYvxYbpVbRzVFy4y9pEm8uMSvKycJSw1YQ5STOFysjipHpi7XvF4h1kM_G0gDLk4AnPqmg==",
+          "title": "apple.com"
+        },
+        {
+          "id": 7,
+          "text": "The official App Store listing for the app confirms copyright and provider details for **BIG CORP LIMITED** (operating also as/under studio.gold / The Product Company of London Limited)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3rHIw0-65U9Nex6UgFwBOzyBm1iw9qBm4_ROlZnpgbpg4lzjw1lvTAiF9MnODvvKEpx7iWun-ADkooeg1JjbkqBiaAWNw2tkTa7lssGF8Ce4aTct5gsOEnF_gTmqoaInRyC3-JEAHYm-olA==",
+          "title": "apple.com"
+        },
+        {
+          "id": 8,
+          "text": "The official App Store listing for the app confirms copyright and provider details for **BIG CORP LIMITED** (operating also as/under studio.gold / The Product Company of London Limited)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnTxgGyogE2CGqEFr8bs9IJPCXvOechoQqAL60KFt3gdIzhp6RpOLdHBgM9N_T-cBo5pF1IODUB9wGmRlCM6HUT5SYlj6AMqQULv0O-m_hmteP2RTLR8_-2XbXuRniuCAVC8CUiDnx0tPxagDxhc34iPBaaKutYyHAo3qbx2ebxRpmeItdZns=",
+          "title": "apple.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "BIG CORP LIMITED",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing Littlecook (associated with the domain littlecook.io) is BIG CORP LIMITED.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Littlecook** (associated with the domain **littlecook.io**) is **BIG CORP LIMITED**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyDCNZVoRRZ--9SWW1eVu-0ib-_kk3M_Wf4jIaAIFQ2OZyCsysQF7bIT6CRJYQMKvQOQ6YkH1x5rMf8IlSBA7EAaiOYvUzW2KPQKP8p8ibEo6b9A==",
+          "title": "littlecook.io"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Littlecook",
+    "domain": "littlecook.io",
+    "description": "Littlecook is an AI-powered recipe generator that creates personalized meal plans and shopping lists based on dietary restrictions and preferences."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "BIG CORP LIMITED",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing Littlecook (associated with the domain littlecook.io) is BIG CORP LIMITED.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Littlecook** (associated with the domain **littlecook.io**) is **BIG CORP LIMITED**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyDCNZVoRRZ--9SWW1eVu-0ib-_kk3M_Wf4jIaAIFQ2OZyCsysQF7bIT6CRJYQMKvQOQ6YkH1x5rMf8IlSBA7EAaiOYvUzW2KPQKP8p8ibEo6b9A==",
+    "title": "littlecook.io"
+  },
+  "checked_at": "2026-11-05T07:16:22.384556+00:00"
+}

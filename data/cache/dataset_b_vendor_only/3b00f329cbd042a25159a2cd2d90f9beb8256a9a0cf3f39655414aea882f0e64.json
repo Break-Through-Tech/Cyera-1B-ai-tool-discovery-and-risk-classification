@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "For the open-source software **Composer** provided at **getcomposer.org**:\n\n* **Direct Developers / Providers:** **Nils Adermann** and **Jordi Boggiano** (with community contributions).\n* **Evidence / Provider Statement:** \n  * The homepage of **getcomposer.org** states: \n    > *\"Authors: Nils Adermann, Jordi Boggiano and many community contributions. ... Composer and all content on this site are released under the MIT license.\"*\n  * The official project license file specifies: \n    > *\"Copyright (c) Nils Adermann, Jordi Boggiano\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "For the open-source software **Composer** provided at **getcomposer.org**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFH0kOpSFjKXsuAgnPA43L5ZR9q569CfQDLezoydrqxAqC8Y7WstIuh1TEpmsC2FG_BT1q5rVavab5Mr24qdmUpiPMs1LwEATj0eDtX",
+          "title": "getcomposer.org"
+        },
+        {
+          "id": 1,
+          "text": "**Direct Developers / Providers:** **Nils Adermann** and **Jordi Boggiano**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFH0kOpSFjKXsuAgnPA43L5ZR9q569CfQDLezoydrqxAqC8Y7WstIuh1TEpmsC2FG_BT1q5rVavab5Mr24qdmUpiPMs1LwEATj0eDtX",
+          "title": "getcomposer.org"
+        },
+        {
+          "id": 2,
+          "text": "**Direct Developers / Providers:** **Nils Adermann** and **Jordi Boggiano**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPgr7xa_EkXfYQMb68g8voEPV86lR0KpauoBX8jf1BI2Xy52IZ6hbdSg5ikTbZZKOY688yToBIVsTfquxx4KbUWOl0EhCzT_2-W1AxRqH8148U5U1xgDXNTvV8IKOP1clH9-V9D4UR--HY",
+          "title": "github.com"
+        },
+        {
+          "id": 3,
+          "text": "**Direct Developers / Providers:** **Nils Adermann** and **Jordi Boggiano** (with community contributions)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFH0kOpSFjKXsuAgnPA43L5ZR9q569CfQDLezoydrqxAqC8Y7WstIuh1TEpmsC2FG_BT1q5rVavab5Mr24qdmUpiPMs1LwEATj0eDtX",
+          "title": "getcomposer.org"
+        },
+        {
+          "id": 4,
+          "text": "Composer and all content on this site are released under the MIT license.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFH0kOpSFjKXsuAgnPA43L5ZR9q569CfQDLezoydrqxAqC8Y7WstIuh1TEpmsC2FG_BT1q5rVavab5Mr24qdmUpiPMs1LwEATj0eDtX",
+          "title": "getcomposer.org"
+        },
+        {
+          "id": 5,
+          "text": "*\"Copyright (c) Nils Adermann, Jordi Boggiano\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPgr7xa_EkXfYQMb68g8voEPV86lR0KpauoBX8jf1BI2Xy52IZ6hbdSg5ikTbZZKOY688yToBIVsTfquxx4KbUWOl0EhCzT_2-W1AxRqH8148U5U1xgDXNTvV8IKOP1clH9-V9D4UR--HY",
+          "title": "github.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Nils Adermann and Jordi Boggiano",
+        "evidence": "Passage 1 identifies Nils Adermann and Jordi Boggiano as the direct developers and providers of Composer.",
+        "source": {
+          "id": 1,
+          "text": "**Direct Developers / Providers:** **Nils Adermann** and **Jordi Boggiano**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFH0kOpSFjKXsuAgnPA43L5ZR9q569CfQDLezoydrqxAqC8Y7WstIuh1TEpmsC2FG_BT1q5rVavab5Mr24qdmUpiPMs1LwEATj0eDtX",
+          "title": "getcomposer.org"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Composer",
+    "domain": "getcomposer.org",
+    "description": "Composer is an open-source dependency manager for PHP, facilitating the management of libraries, dependencies, and packages for PHP projects. It simplifies project initialization and version control to enhance the development process. The tool is widely used by PHP developers globally, streamlining their workflow and ensuring compatibility among various libraries."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Nils Adermann and Jordi Boggiano",
+  "evidence": "Passage 1 identifies Nils Adermann and Jordi Boggiano as the direct developers and providers of Composer.",
+  "source": {
+    "id": 1,
+    "text": "**Direct Developers / Providers:** **Nils Adermann** and **Jordi Boggiano**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFH0kOpSFjKXsuAgnPA43L5ZR9q569CfQDLezoydrqxAqC8Y7WstIuh1TEpmsC2FG_BT1q5rVavab5Mr24qdmUpiPMs1LwEATj0eDtX",
+    "title": "getcomposer.org"
+  },
+  "checked_at": "2026-11-05T09:16:11.409598+00:00"
+}

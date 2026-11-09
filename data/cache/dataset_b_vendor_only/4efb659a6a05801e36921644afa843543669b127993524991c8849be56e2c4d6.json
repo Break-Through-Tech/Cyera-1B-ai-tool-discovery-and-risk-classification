@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Sellfy** at **sellfy.com** is **UAB \"Sellfy\"** (also designated as **Sellfy UAB**), a company registered in Lithuania (registration code: 302673703).\n\n### Provider Statements:\n* **Terms and Conditions (`sellfy.com/terms/`):** \n  > *\"The Site belongs to, and the Service is provided and operated by, Sellfy, Sellfy UAB, registration number 302673703, Pramones g. 97, Vilnius, Lithuania (“Sellfy”).\"*\n* **Privacy Policy (`sellfy.com/privacy/`):** \n  > *\"UAB “Sellfy” (hereinafter referred to as “we“ or „data controller“) is a provider of an e-commerce system for selling products online. This Privacy Policy governs the manner in which Sellfy.com collects, uses, maintains and discloses information collected from users...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Sellfy** at **sellfy.com** is **UAB \"Sellfy\"** (also designated as **Sellfy UAB**), a company registered in Lithuania (registration code: 302673703)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0tsxeSlMYxM2xdpXoJMZ8vPrxqb4m2r9LtVbV8iT734z5JwxHs_JQRjjDtX8qSHVfPoaalCSB3bM6nrn0Edb-dptSqsyS9rqFD2teYSwdUw==",
+          "title": "sellfy.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Sellfy** at **sellfy.com** is **UAB \"Sellfy\"** (also designated as **Sellfy UAB**), a company registered in Lithuania (registration code: 302673703)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0S0MV_AmMgmdW9QRiJoRSjZn8tyt0Jla8q5d_ddQZpQbNR9q87Yc3UkzzbKO6lsKn5pNb0rGemoVXtfnayQKWGoDo3sojKvuMnvxiSDk=",
+          "title": "sellfy.com"
+        },
+        {
+          "id": 2,
+          "text": "97, Vilnius, Lithuania (“Sellfy”).\"*\n* *",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0S0MV_AmMgmdW9QRiJoRSjZn8tyt0Jla8q5d_ddQZpQbNR9q87Yc3UkzzbKO6lsKn5pNb0rGemoVXtfnayQKWGoDo3sojKvuMnvxiSDk=",
+          "title": "sellfy.com"
+        },
+        {
+          "id": 3,
+          "text": "UAB “Sellfy” (hereinafter referred to as “we“ or „data controller“) is a provider of an e-commerce system for selling products online. This Privacy Policy governs the manner in which Sellfy.com collects, uses, maintains and discloses information collected from u",
+          "url": "https://sellfy.com/privacy/",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "UAB \"Sellfy\"",
+        "evidence": "Passage 0 explicitly identifies that the vendor directly providing Sellfy at sellfy.com is UAB \"Sellfy\" (also designated as Sellfy UAB).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Sellfy** at **sellfy.com** is **UAB \"Sellfy\"** (also designated as **Sellfy UAB**), a company registered in Lithuania (registration code: 302673703)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0tsxeSlMYxM2xdpXoJMZ8vPrxqb4m2r9LtVbV8iT734z5JwxHs_JQRjjDtX8qSHVfPoaalCSB3bM6nrn0Edb-dptSqsyS9rqFD2teYSwdUw==",
+          "title": "sellfy.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Sellfy",
+    "domain": "sellfy.com",
+    "description": "Sellfy is an e-commerce platform designed for creators and merchants wanting to effortlessly sell digital products online. Based in [location], Sellfy simplifies the process of product storage, delivery, and payments, allowing users to start selling quickly with just a link. In addition to its sales platform, Sellfy provides tools for marketing including social media campaigns and affiliate programs, catering to the needs of digital product sellers."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "UAB \"Sellfy\"",
+  "evidence": "Passage 0 explicitly identifies that the vendor directly providing Sellfy at sellfy.com is UAB \"Sellfy\" (also designated as Sellfy UAB).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Sellfy** at **sellfy.com** is **UAB \"Sellfy\"** (also designated as **Sellfy UAB**), a company registered in Lithuania (registration code: 302673703)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0tsxeSlMYxM2xdpXoJMZ8vPrxqb4m2r9LtVbV8iT734z5JwxHs_JQRjjDtX8qSHVfPoaalCSB3bM6nrn0Edb-dptSqsyS9rqFD2teYSwdUw==",
+    "title": "sellfy.com"
+  },
+  "checked_at": "2026-11-05T08:14:54.058698+00:00"
+}

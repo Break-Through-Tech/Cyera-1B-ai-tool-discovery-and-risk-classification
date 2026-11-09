@@ -1,0 +1,79 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Pingdom** at **pingdom.com** is **SolarWinds Worldwide, LLC** (operating as **SolarWinds**).\n\n### Evidence\n* **Legal and Operating Notice:** The website footer across `pingdom.com` and its service tools explicitly identifies the operating entity:  \n  > *\"© SolarWinds Worldwide, LLC. All rights reserved.\"*  \n  Furthermore, user registration and legal disclaimers state: *\"By clicking below, you are agreeing to SolarWinds Terms and Privacy Policy\"* and govern usage under SolarWinds' Software Service Agreement and terms.\n* **Security & Product Statement:** The security policy on `pingdom.com` states:  \n  > *\"Protecting your data is very important to SolarWinds and the Pingdom team. You are placing your trust in SolarWinds® Pingdom®... link to the detailed SolarWinds security that blankets all of our products.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Pingdom** at **pingdom.com** is **SolarWinds Worldwide, LLC** (operating as **SolarWinds**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7Nz1D8hHEE-WpVPCv7ThmNyzp1vOvnnhx5Sb4pqoG59Q2fS0MMV2-obpC6LMQTdQOc8di2N4UyI77WKhvszajQUCUi-DD689bMAD3r7CZY1CY71e8ol-MGJAAddMR2-1P",
+          "title": "pingdom.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Pingdom** at **pingdom.com** is **SolarWinds Worldwide, LLC** (operating as **SolarWinds**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLcNa8gA527IGa4iicxBOMUKv1yXfH9JwbWfF6beX4yLksGlhA_GFuZkB82Z1kYPSAVSYiNbT1wXpGPjgtgU_YJHo9pOq6FOBfe2jD1OFGBjML6sOg7ek=",
+          "title": "pingdom.com"
+        },
+        {
+          "id": 2,
+          "text": "ll rights reserved.\"* ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7Nz1D8hHEE-WpVPCv7ThmNyzp1vOvnnhx5Sb4pqoG59Q2fS0MMV2-obpC6LMQTdQOc8di2N4UyI77WKhvszajQUCUi-DD689bMAD3r7CZY1CY71e8ol-MGJAAddMR2-1P",
+          "title": "pingdom.com"
+        },
+        {
+          "id": 3,
+          "text": "ll rights reserved.\"* ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYw4taHzGBdMdyIrE5aHpBytyNXD8mO6ZKpxuzwaEYjdMhkK4-AnpZRz8GK3u9qiaxgN8hZ53jHR6E-FfJhqyJU1Zjs4c0W0kyfVUbe4I8r8UGXO5yCgmlLtWwpAdBkoQc",
+          "title": "pingdom.com"
+        },
+        {
+          "id": 4,
+          "text": "ll rights reserved.\"* ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcSoAHX9RPw9cchXMl7dUrmePvf2HI543PlQS-VHrKa6iA2kEAhoKG4LMTNRGdUzyts4nMcovX1846HDB8pse81MG29uPxb1TE5DPmwJV14A==",
+          "title": "pingdom.com"
+        },
+        {
+          "id": 5,
+          "text": "urthermore, user registration and legal disclaimers state: *\"By clicking below, you are agreeing to SolarWinds Terms and Privacy Policy\"* and govern usage under SolarWinds' Software Service Agreement and terms.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsLiFzJi8sNHGj0CBVLSNXe5x85NbWUjVA07D_jw9SLIPly2WdLzWVaOnFUoePmKqtPpGMhhaOFU2WSYKxYEQOrpJxs55WN_NDJI9pg8Tw9YVH8A==",
+          "title": "pingdom.com"
+        },
+        {
+          "id": 6,
+          "text": "urthermore, user registration and legal disclaimers state: *\"By clicking below, you are agreeing to SolarWinds Terms and Privacy Policy\"* and govern usage under SolarWinds' Software Service Agreement and terms.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFznFctPaRGSTYfVeKh4EAIp4ce3gLStfDVu3hSEOXnTwbXedfphJufbBkzQ5wIA3zRxxWVaZuEH8HM1DiiDONMvEH5C3MZ_gHrjoEWirjToXeX5dIPnyfs8WeVmZF1ZK8WyJ9uSOPc3FE=",
+          "title": "pingdom.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "SolarWinds Worldwide, LLC",
+        "evidence": "Passage 0 directly states that the vendor directly providing Pingdom at pingdom.com is SolarWinds Worldwide, LLC (operating as SolarWinds).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Pingdom** at **pingdom.com** is **SolarWinds Worldwide, LLC** (operating as **SolarWinds**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7Nz1D8hHEE-WpVPCv7ThmNyzp1vOvnnhx5Sb4pqoG59Q2fS0MMV2-obpC6LMQTdQOc8di2N4UyI77WKhvszajQUCUi-DD689bMAD3r7CZY1CY71e8ol-MGJAAddMR2-1P",
+          "title": "pingdom.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Pingdom",
+    "domain": "pingdom.com",
+    "description": "SolarWinds Pingdom offers comprehensive monitoring services for web applications, focusing on real user monitoring, uptime tracking, page speed assessment, and synthetic monitoring, ensuring optimal performance from outside the firewall. As a part of SolarWinds' Application Performance Management (APM) suite, which includes AppOptics and Loggly, Pingdom is designed to support businesses in maintaining their web applications' reliability and speed."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "SolarWinds Worldwide, LLC",
+  "evidence": "Passage 0 directly states that the vendor directly providing Pingdom at pingdom.com is SolarWinds Worldwide, LLC (operating as SolarWinds).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Pingdom** at **pingdom.com** is **SolarWinds Worldwide, LLC** (operating as **SolarWinds**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7Nz1D8hHEE-WpVPCv7ThmNyzp1vOvnnhx5Sb4pqoG59Q2fS0MMV2-obpC6LMQTdQOc8di2N4UyI77WKhvszajQUCUi-DD689bMAD3r7CZY1CY71e8ol-MGJAAddMR2-1P",
+    "title": "pingdom.com"
+  },
+  "checked_at": "2026-11-05T10:05:38.262192+00:00"
+}

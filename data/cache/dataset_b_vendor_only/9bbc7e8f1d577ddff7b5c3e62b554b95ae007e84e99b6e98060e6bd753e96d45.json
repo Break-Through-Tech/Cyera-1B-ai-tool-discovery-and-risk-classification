@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **IFTTT - If This Then That** at **ifttt.com** is **IFTTT Inc.** (also styled as **IFTTT, Inc.**).\n\n### Supporting Evidence & Provider Statement\nAccording to the official Terms of Use and Privacy Policy hosted on `ifttt.com`:\n* **Terms of Use:** \n  > *\"Please read these terms carefully before using the services offered by IFTTT Inc. (“IFTTT”). By using the websites ifttt.com and ifttt.ai or other features, services, products, or applications offered by IFTTT (collectively, the “Service”), you (hereafter “User” or “you”) agree to be bound by these terms of use...\"*\n* **Privacy Policy:** \n  > *\"IFTTT Inc. (“IFTTT”) takes the private nature of your personal information very seriously. This Privacy Policy describes how we treat the information we collect when you visit and use the IFTTT website located at ifttt.com (the “Site”) and the services offered by IFTTT (the Site, Mobile Apps, and services referred to as the “Service”).\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGD2DoITvy-jB1aqKaVFzRnVkrkNgJrUmLvQM5jnKA2GovmTk3_s7VFf8ytgqdHLgXYgnPcDi1wNjFfxA13g4XH0U3BaDD49m2Zxvi2",
+          "title": "ifttt.com"
+        },
+        {
+          "id": 1,
+          "text": "sing the websites ifttt.com and ifttt.ai or other features, services, products, or applications offered by IFTTT (collectively, the “Service”), you (hereafter “User” or “you”) agree to be bound by these terms of use...\"*\n* **Privacy Pol",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGD2DoITvy-jB1aqKaVFzRnVkrkNgJrUmLvQM5jnKA2GovmTk3_s7VFf8ytgqdHLgXYgnPcDi1wNjFfxA13g4XH0U3BaDD49m2Zxvi2",
+          "title": "ifttt.com"
+        },
+        {
+          "id": 2,
+          "text": "very seriously. This Privacy Policy describes how we treat the information we collect when you visit and use the IFTTT website located at ifttt.com (the “Site”) and the services offered by IFTTT (the Site, Mobile Apps, and services referred to as the “Ser",
+          "url": "https://edit.tosdr.org/documents/68",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "IFTTT",
+        "evidence": "Passage 1 notes that the website ifttt.com and related features, services, products, or applications are offered by IFTTT.",
+        "source": {
+          "id": 1,
+          "text": "sing the websites ifttt.com and ifttt.ai or other features, services, products, or applications offered by IFTTT (collectively, the “Service”), you (hereafter “User” or “you”) agree to be bound by these terms of use...\"*\n* **Privacy Pol",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGD2DoITvy-jB1aqKaVFzRnVkrkNgJrUmLvQM5jnKA2GovmTk3_s7VFf8ytgqdHLgXYgnPcDi1wNjFfxA13g4XH0U3BaDD49m2Zxvi2",
+          "title": "ifttt.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "IFTTT - If This Then That",
+    "domain": "ifttt.com",
+    "description": "IFTTT (If This Then That) is a platform that enables users to automate tasks and connect a wide range of apps and services, enhancing both personal and business productivity. With integrations across thousands of applications, IFTTT helps users create custom workflows that streamline various operations, ultimately saving time and increasing efficiency."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "IFTTT",
+  "evidence": "Passage 1 notes that the website ifttt.com and related features, services, products, or applications are offered by IFTTT.",
+  "source": {
+    "id": 1,
+    "text": "sing the websites ifttt.com and ifttt.ai or other features, services, products, or applications offered by IFTTT (collectively, the “Service”), you (hereafter “User” or “you”) agree to be bound by these terms of use...\"*\n* **Privacy Pol",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGD2DoITvy-jB1aqKaVFzRnVkrkNgJrUmLvQM5jnKA2GovmTk3_s7VFf8ytgqdHLgXYgnPcDi1wNjFfxA13g4XH0U3BaDD49m2Zxvi2",
+    "title": "ifttt.com"
+  },
+  "checked_at": "2026-11-05T09:47:08.083232+00:00"
+}

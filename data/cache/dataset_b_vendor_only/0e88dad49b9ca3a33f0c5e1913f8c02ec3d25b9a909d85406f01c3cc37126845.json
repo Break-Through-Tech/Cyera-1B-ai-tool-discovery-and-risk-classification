@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on the website at **hidream.pro** for the image generation service **HiDream Pro**:\n\n* **Direct Provider / Brand:** **Hidream AI** (or **Hidream**)\n* **Provider Statement / Evidence:** The website at `hidream.pro` operates directly under the provider brand **Hidream AI**, citing in its site footer and branding: *\"© 2025 - 2026 Hidream AI\"* and *\"Hidream. Empowering creativity with an expressive AI-powered image generator\"*. No formal corporate entity name (such as an LLC or Inc.) is published on the domain.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "Based on the website at **hidream.pro** for the image generation service **HiDream Pro**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUkSUJlluTyLUc7AfRdQKG3YdsmOPgB4IWmHZv7LJlDS9VMaYYhdSjRVXHFcwxo_RZ4vZ9y5KWcBTp2h1YdEgRwC48v9ovD8g_ehaeVZwz0NuC5nw1D9_vt_2SUUexu8Jkt0uS",
+          "title": "likebookmark.com"
+        },
+        {
+          "id": 1,
+          "text": "Based on the website at **hidream.pro** for the image generation service **HiDream Pro**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUkSUJlluTyLUc7AfRdQKG3YdsmOPgB4IWmHZv7LJlDS9VMaYYhdSjRVXHFcwxo_RZ4vZ9y5KWcBTp2h1YdEgRwC48v9ovD8g_ehaeVZwz0NuC5nw1D9_vt_2SUUexu8Jkt0uS",
+          "title": "likebookmark.com"
+        },
+        {
+          "id": 2,
+          "text": "**Direct Provider / Brand:** **Hidream AI** (or **Hidream**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4mbOJghQ2r3w50UJCh5y7sUZgilvKumOFWdtW5y3Pe2vra3VA6DqOosDnCw4G9b2nRmKqeQ3wIHqRJybPx15oUn46maDenDCoxw==",
+          "title": "hidream.pro"
+        },
+        {
+          "id": 3,
+          "text": "**Direct Provider / Brand:** **Hidream AI** (or **Hidream**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFezMjwUwhjySCMusS6e2pkkCHRkAPXyn69HYrhDLhUOsRY-vOOhG_2w3Wei1K5f0B_EKXLoIuZKi3ezXbCKzwTbT0hD2NkOxlKiQ==",
+          "title": "hidream.pro"
+        },
+        {
+          "id": 4,
+          "text": "mpowering creativity with an expressive AI-powered image generator\"*.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4mbOJghQ2r3w50UJCh5y7sUZgilvKumOFWdtW5y3Pe2vra3VA6DqOosDnCw4G9b2nRmKqeQ3wIHqRJybPx15oUn46maDenDCoxw==",
+          "title": "hidream.pro"
+        },
+        {
+          "id": 5,
+          "text": "o formal corporate entity name (such as an LLC or Inc.) is published on the domain.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4mbOJghQ2r3w50UJCh5y7sUZgilvKumOFWdtW5y3Pe2vra3VA6DqOosDnCw4G9b2nRmKqeQ3wIHqRJybPx15oUn46maDenDCoxw==",
+          "title": "hidream.pro"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Hidream AI",
+        "evidence": "Passage 2 identifies Hidream AI (or Hidream) as the direct provider and brand for the website at hidream.pro.",
+        "source": {
+          "id": 2,
+          "text": "**Direct Provider / Brand:** **Hidream AI** (or **Hidream**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4mbOJghQ2r3w50UJCh5y7sUZgilvKumOFWdtW5y3Pe2vra3VA6DqOosDnCw4G9b2nRmKqeQ3wIHqRJybPx15oUn46maDenDCoxw==",
+          "title": "hidream.pro"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "HiDream Pro",
+    "domain": "hidream.pro",
+    "description": "Create stunning, photorealistic images using our new SOTA HiDream-I1 AI image generation model."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Hidream AI",
+  "evidence": "Passage 2 identifies Hidream AI (or Hidream) as the direct provider and brand for the website at hidream.pro.",
+  "source": {
+    "id": 2,
+    "text": "**Direct Provider / Brand:** **Hidream AI** (or **Hidream**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4mbOJghQ2r3w50UJCh5y7sUZgilvKumOFWdtW5y3Pe2vra3VA6DqOosDnCw4G9b2nRmKqeQ3wIHqRJybPx15oUn46maDenDCoxw==",
+    "title": "hidream.pro"
+  },
+  "checked_at": "2026-11-05T06:45:50.506331+00:00"
+}

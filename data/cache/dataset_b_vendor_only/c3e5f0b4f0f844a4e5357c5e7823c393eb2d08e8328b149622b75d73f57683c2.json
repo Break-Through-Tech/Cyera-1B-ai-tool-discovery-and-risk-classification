@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Quizlet** at **quizlet.com** is **Quizlet, Inc.** (alternatively formatted as **Quizlet Inc.**).\n\n### Evidence:\n* **Developer and Operating Entity Listings**: Official application and service listings (including Google Play and the Apple App Store) designate the developer and provider as **Quizlet, Inc.** (located at 123 Townsend St, San Francisco, CA 94107), directly linking to `https://quizlet.com/tos` and `https://quizlet.com/privacy` for its terms of service and privacy policies.\n* **Official Legal Notices**: Quizlet's corporate and privacy disclosures identify **Quizlet, Inc.** as the operating entity and data controller responsible for the Quizlet service and domain.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQED44IDD0bLq9tFXlKi8QuHyKAE39vC6xHnljpHY66McVD-IgXi5RNK6W7dMEkln0uEAJVY-Z-qPbKEDFnwtplfX2exA_R5uQXxDC6myHbPjHwosC2HTYbtTw==",
+          "title": "quizlet.com"
+        },
+        {
+          "id": 1,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuLvEozwoOPmNreKzKnzlqqgyDvAPvspi9C2DdMqywr6agEMX6n05sTqtcKHWiocoEXrHlfVpxmBMJ49Na7mJ-BmTPbaiATrXtPRzomvO0cbgIbnbSqOY3QzSJlBwAmf5gRq8_dV9o8wG-jVHyQ-0FBHUpzpKA-XXwT4e9CFPp4J8znQ==",
+          "title": "privacyshield.gov"
+        },
+        {
+          "id": 2,
+          "text": "**Developer and Operating Entity Listings**: Official application and service listings (including Google Play and the Apple App Store) designate the developer and provider as **Quizlet, Inc.** (located at 123 Townsend St, San Francisco, CA 94107), directly linking to `https://quizlet.com/tos` and `https://quizlet.com/privacy` for its terms of service and privacy policies",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQED44IDD0bLq9tFXlKi8QuHyKAE39vC6xHnljpHY66McVD-IgXi5RNK6W7dMEkln0uEAJVY-Z-qPbKEDFnwtplfX2exA_R5uQXxDC6myHbPjHwosC2HTYbtTw==",
+          "title": "quizlet.com"
+        },
+        {
+          "id": 3,
+          "text": "**Developer and Operating Entity Listings**: Official application and service listings (including Google Play and the Apple App Store) designate the developer and provider as **Quizlet, Inc.** (located at 123 Townsend St, San Francisco, CA 94107), directly linking to `https://quizlet.com/tos` and `https://quizlet.com/privacy` for its terms of service and privacy policies",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWS6BjrlX8hvD0O7OmtmZtq_Q9uZnmqunquFGexG8yUMtyaZ4RdHmSd-A1RD7Lkthk-xM8VpxLHrVf3vkMS20Ik7E2v9mTv7X-iwYsg65DMgrd2byKwFMZho0sS6-kUzy7QqSG-AeAjg_vWIuLtJX2Zlt7um_FyQXDjNkG5NuQ-VcZvk1VrJtz9aXVQbKDJUZ8",
+          "title": "apple.com"
+        },
+        {
+          "id": 4,
+          "text": "**Official Legal Notices**: Quizlet's corporate and privacy disclosures identify **Quizlet, Inc.** as the operating entity and data controller responsible for the Quizlet service and domain",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMyBAuKWa_Lj1U4ux6QjdFe8JZCyBLG23K4Q9cMifd7ZBAqj5iNpn3KvV1MIfPkTO74RBgjSqxbQhUhxTE5dKwiO4P9jSSdZRC8LuuzJbUZNIEzKMJlrxX7TJ5iEb2itrmJNAK8baRTDKS-YXzXtdJXM0oMDbuRchLofYf0ZrSTIzsdgA-SSsR3pVTnsOw10HVzbkz",
+          "title": "quizlet.com"
+        },
+        {
+          "id": 5,
+          "text": "**Official Legal Notices**: Quizlet's corporate and privacy disclosures identify **Quizlet, Inc.** as the operating entity and data controller responsible for the Quizlet service and domain",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuLvEozwoOPmNreKzKnzlqqgyDvAPvspi9C2DdMqywr6agEMX6n05sTqtcKHWiocoEXrHlfVpxmBMJ49Na7mJ-BmTPbaiATrXtPRzomvO0cbgIbnbSqOY3QzSJlBwAmf5gRq8_dV9o8wG-jVHyQ-0FBHUpzpKA-XXwT4e9CFPp4J8znQ==",
+          "title": "privacyshield.gov"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Quizlet, Inc.",
+        "evidence": "Quizlet's corporate and privacy disclosures identify Quizlet, Inc. as the operating entity and data controller responsible for the Quizlet service and domain.",
+        "source": {
+          "id": 4,
+          "text": "**Official Legal Notices**: Quizlet's corporate and privacy disclosures identify **Quizlet, Inc.** as the operating entity and data controller responsible for the Quizlet service and domain",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMyBAuKWa_Lj1U4ux6QjdFe8JZCyBLG23K4Q9cMifd7ZBAqj5iNpn3KvV1MIfPkTO74RBgjSqxbQhUhxTE5dKwiO4P9jSSdZRC8LuuzJbUZNIEzKMJlrxX7TJ5iEb2itrmJNAK8baRTDKS-YXzXtdJXM0oMDbuRchLofYf0ZrSTIzsdgA-SSsR3pVTnsOw10HVzbkz",
+          "title": "quizlet.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Quizlet",
+    "domain": "quizlet.com",
+    "description": "Quizlet is a prominent educational technology company that creates innovative learning tools aimed at enhancing the studying experience for students and teachers. With over 60 million active users monthly, Quizlet ranks among the top educational platforms in the U.S. and offers applications for both iOS and Android devices. As a rapidly growing startup valued at $1 billion, it focuses on delivering high-quality, user-friendly learning resources to facilitate education on a global scale."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Quizlet, Inc.",
+  "evidence": "Quizlet's corporate and privacy disclosures identify Quizlet, Inc. as the operating entity and data controller responsible for the Quizlet service and domain.",
+  "source": {
+    "id": 4,
+    "text": "**Official Legal Notices**: Quizlet's corporate and privacy disclosures identify **Quizlet, Inc.** as the operating entity and data controller responsible for the Quizlet service and domain",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMyBAuKWa_Lj1U4ux6QjdFe8JZCyBLG23K4Q9cMifd7ZBAqj5iNpn3KvV1MIfPkTO74RBgjSqxbQhUhxTE5dKwiO4P9jSSdZRC8LuuzJbUZNIEzKMJlrxX7TJ5iEb2itrmJNAK8baRTDKS-YXzXtdJXM0oMDbuRchLofYf0ZrSTIzsdgA-SSsR3pVTnsOw10HVzbkz",
+    "title": "quizlet.com"
+  },
+  "checked_at": "2026-11-05T08:21:28.346403+00:00"
+}

@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **WPForms** at **wpforms.com** is **WPForms, LLC**.\n\n### Evidence\nAccording to the official **Terms of Service** for `wpforms.com`:\n> *\"These Terms of Service (the 'Agreement') set forth the terms and conditions that apply to your access and use of the internet website owned and operated by WPForms, LLC ('WPForms') and located at wpforms.com and \\*.wpforms.com (the 'Site')...\"*\n\nAdditionally, the site's **Privacy Policy** states:\n> *\"WPForms LLC ('WPForms') operates several websites including WPForms.com.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **WPForms** at **wpforms.com** is **WPForms, LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfaw4I-7Acu4oPtMGZ3fRv0lt8fdtNzADUfrRqu_ocWzGi-pAhceQCrcaYOfqrKymON9cNckTRmqbwivtvIfvlApQIogDhQaE8h0FOkoiHPQ==",
+          "title": "wpforms.com"
+        },
+        {
+          "id": 1,
+          "text": "*\"These Terms of Service (the 'Agreement') set forth the terms and conditions that apply to your access and use of the internet website owned and operated by WPForms, LLC ('WPForms') and located at wpforms.com and \\*.wpforms.com (the 'Site')...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfaw4I-7Acu4oPtMGZ3fRv0lt8fdtNzADUfrRqu_ocWzGi-pAhceQCrcaYOfqrKymON9cNckTRmqbwivtvIfvlApQIogDhQaE8h0FOkoiHPQ==",
+          "title": "wpforms.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"WPForms LLC ('WPForms') operates several websites including WPForms.com.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuTc055xbGT_70cWXwbEoBUdOY5xmwA32A1FCwTnX3MaahJJlC9dHgCMB3XzxHL8M8KFtBOUpRWBJZyovMkRFdpGHBzi5gXm2sSennELUADl-apvDyRE4ZMA==",
+          "title": "wpforms.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "WPForms, LLC",
+        "evidence": "Passage 1 states that the website located at wpforms.com is owned and operated by WPForms, LLC.",
+        "source": {
+          "id": 1,
+          "text": "*\"These Terms of Service (the 'Agreement') set forth the terms and conditions that apply to your access and use of the internet website owned and operated by WPForms, LLC ('WPForms') and located at wpforms.com and \\*.wpforms.com (the 'Site')...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfaw4I-7Acu4oPtMGZ3fRv0lt8fdtNzADUfrRqu_ocWzGi-pAhceQCrcaYOfqrKymON9cNckTRmqbwivtvIfvlApQIogDhQaE8h0FOkoiHPQ==",
+          "title": "wpforms.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "WPForms",
+    "domain": "wpforms.com",
+    "description": "WPForms is an intuitive drag-and-drop online form builder designed for WordPress users. It allows users to easily create various types of online forms, including contact forms, subscription forms, and payment forms, enhancing user engagement and simplifying data collection processes."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "WPForms, LLC",
+  "evidence": "Passage 1 states that the website located at wpforms.com is owned and operated by WPForms, LLC.",
+  "source": {
+    "id": 1,
+    "text": "*\"These Terms of Service (the 'Agreement') set forth the terms and conditions that apply to your access and use of the internet website owned and operated by WPForms, LLC ('WPForms') and located at wpforms.com and \\*.wpforms.com (the 'Site')...\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfaw4I-7Acu4oPtMGZ3fRv0lt8fdtNzADUfrRqu_ocWzGi-pAhceQCrcaYOfqrKymON9cNckTRmqbwivtvIfvlApQIogDhQaE8h0FOkoiHPQ==",
+    "title": "wpforms.com"
+  },
+  "checked_at": "2026-11-05T09:19:48.632333+00:00"
+}

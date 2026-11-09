@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Playbuzz** at **playbuzz.com** is **EX.CO Technologies Ltd.** (originally operating as **Playbuzz Ltd.**).\n\n### Evidence\n* **Playbuzz Privacy Policy (hosted on `playbuzz.com`):**  \n  > *\"EX.CO Technologies Ltd. (“we”, “us”, “Company”) prepared this Privacy Policy to explain to its Customers, Website Visitors and End Users... when you are using the online advertising platform (“Platform”) and websites, including www.ex.co and www.playbuzz.com or any other site owned by us... constitutes an integral part of EX.CO's Terms and Playbuzz's Terms, all of which are incorporated herein by reference.\"*\n* **Playbuzz Website (`playbuzz.com` footer):**  \n  > *\"© [Year] Playbuzz Ltd. All rights reserved.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdFhsmR9dbH7VtjNfi9_4SeWoxBklnZByFAjTw4GzjuWnSDCMhFw3u7qP7UpUIxPFaATYzblOdcYQ-nYWCGX_oeXlX1tCUbp6GdL1r77t7a2S05lhUhmoYgclBaeaJygTc9ieDCpldIA==",
+          "title": "playbuzz.com"
+        },
+        {
+          "id": 1,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGVVrVwIW4jKlLorPLGqAmL54MA_iRd3bb20dDLuOjZgWKE883mo7szCP31fiDIbNVwv-44k6qzpjMbzkF5Sc2kHu81Ghz2qssxB-alh7z",
+          "title": "playbuzz.com"
+        },
+        {
+          "id": 2,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0-fGnudY2WNwRJLh35x1Mc-o-M-e1RK-l887NNq3aYdHMSn6f0UB66x0S1IwICNzVSKCz4VcJtdvVdf1oS59gvBwlFjTH4vyDbDA9-8e3fsnwmVSERTkJRxDm",
+          "title": "dealroom.co"
+        },
+        {
+          "id": 3,
+          "text": "*\"EX.CO Technologies Ltd. (“we”, “us”, “Company”) prepared this Privacy Policy to explain to its Customers, Website Visitors and End Users... when you are using the online advertising platform (“Platform”) and websites, including www.ex.co and www.playbuzz.com or any other site owned by us... constitutes an integral part of EX.CO's Terms and Playbuzz's Terms, all of which are incorporated herein by reference.\"*\n* **Playbuzz We",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdFhsmR9dbH7VtjNfi9_4SeWoxBklnZByFAjTw4GzjuWnSDCMhFw3u7qP7UpUIxPFaATYzblOdcYQ-nYWCGX_oeXlX1tCUbp6GdL1r77t7a2S05lhUhmoYgclBaeaJygTc9ieDCpldIA==",
+          "title": "playbuzz.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "EX.CO Technologies Ltd.",
+        "evidence": "EX.CO Technologies Ltd. defines itself as the company operating the online advertising platform and websites including www.playbuzz.com.",
+        "source": {
+          "id": 3,
+          "text": "*\"EX.CO Technologies Ltd. (“we”, “us”, “Company”) prepared this Privacy Policy to explain to its Customers, Website Visitors and End Users... when you are using the online advertising platform (“Platform”) and websites, including www.ex.co and www.playbuzz.com or any other site owned by us... constitutes an integral part of EX.CO's Terms and Playbuzz's Terms, all of which are incorporated herein by reference.\"*\n* **Playbuzz We",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdFhsmR9dbH7VtjNfi9_4SeWoxBklnZByFAjTw4GzjuWnSDCMhFw3u7qP7UpUIxPFaATYzblOdcYQ-nYWCGX_oeXlX1tCUbp6GdL1r77t7a2S05lhUhmoYgclBaeaJygTc9ieDCpldIA==",
+          "title": "playbuzz.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Playbuzz",
+    "domain": "playbuzz.com",
+    "description": "Playbuzz is a digital storytelling platform that enables premium publishers and brands to create, distribute, and monetize interactive content. Backed by Disney, it specializes in enhancing audience engagement through a variety of editorial and commercial interactive storytelling formats, appealing to a global market of content creators and consumers."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "EX.CO Technologies Ltd.",
+  "evidence": "EX.CO Technologies Ltd. defines itself as the company operating the online advertising platform and websites including www.playbuzz.com.",
+  "source": {
+    "id": 3,
+    "text": "*\"EX.CO Technologies Ltd. (“we”, “us”, “Company”) prepared this Privacy Policy to explain to its Customers, Website Visitors and End Users... when you are using the online advertising platform (“Platform”) and websites, including www.ex.co and www.playbuzz.com or any other site owned by us... constitutes an integral part of EX.CO's Terms and Playbuzz's Terms, all of which are incorporated herein by reference.\"*\n* **Playbuzz We",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdFhsmR9dbH7VtjNfi9_4SeWoxBklnZByFAjTw4GzjuWnSDCMhFw3u7qP7UpUIxPFaATYzblOdcYQ-nYWCGX_oeXlX1tCUbp6GdL1r77t7a2S05lhUhmoYgclBaeaJygTc9ieDCpldIA==",
+    "title": "playbuzz.com"
+  },
+  "checked_at": "2026-11-05T08:12:44.934255+00:00"
+}

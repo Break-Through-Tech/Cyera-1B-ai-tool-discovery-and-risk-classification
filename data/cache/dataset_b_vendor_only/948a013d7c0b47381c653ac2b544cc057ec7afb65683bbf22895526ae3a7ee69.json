@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "**Operating Company / Vendor:** Liberation Softwares LLP\n\n**Product & Domain:** Elephas (`elephas.app`)\n\n**Evidence / Citation:**\nAccording to the official Privacy Policy on `elephas.app`:\n> \"Elephas is provided by Liberation Softwares LLP (\"Elephas,\" \"we,\" \"us,\" or \"our\"). This Privacy Policy applies to Elephas for Mac and Windows, to your Elephas account, and to our website at elephas.app.\"\n\nWebsite copyright notices across `elephas.app` also cite:\n> \"© Liberation Softwares LLP. All rights reserved.\"",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**Operating Company / Vendor:** Liberation Softwares LLP",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWFHyGlHpTPak7GhHbz51uHMvNddXKeoSMJj2oFG4OJ1olBxxeJmhk7whZVNih-eTHPM8BFxPvw-ov1kOgP_kIxPhNS13RKB8WGze1x_7tfwI=",
+          "title": "elephas.app"
+        },
+        {
+          "id": 1,
+          "text": "**Product & Domain:** Elephas (`elephas.app`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWFHyGlHpTPak7GhHbz51uHMvNddXKeoSMJj2oFG4OJ1olBxxeJmhk7whZVNih-eTHPM8BFxPvw-ov1kOgP_kIxPhNS13RKB8WGze1x_7tfwI=",
+          "title": "elephas.app"
+        },
+        {
+          "id": 2,
+          "text": "This Privacy Policy applies to Elephas for Mac and Windows, to your Elephas account, and to our website at elephas.app.\"",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWFHyGlHpTPak7GhHbz51uHMvNddXKeoSMJj2oFG4OJ1olBxxeJmhk7whZVNih-eTHPM8BFxPvw-ov1kOgP_kIxPhNS13RKB8WGze1x_7tfwI=",
+          "title": "elephas.app"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Liberation Softwares LLP",
+        "evidence": "Passage 0 directly names Liberation Softwares LLP as the Operating Company / Vendor for the tool associated with elephas.app.",
+        "source": {
+          "id": 0,
+          "text": "**Operating Company / Vendor:** Liberation Softwares LLP",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWFHyGlHpTPak7GhHbz51uHMvNddXKeoSMJj2oFG4OJ1olBxxeJmhk7whZVNih-eTHPM8BFxPvw-ov1kOgP_kIxPhNS13RKB8WGze1x_7tfwI=",
+          "title": "elephas.app"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Elephas",
+    "domain": "elephas.app",
+    "description": "Your personal AI writing assistant saving you 3 hours daily."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Liberation Softwares LLP",
+  "evidence": "Passage 0 directly names Liberation Softwares LLP as the Operating Company / Vendor for the tool associated with elephas.app.",
+  "source": {
+    "id": 0,
+    "text": "**Operating Company / Vendor:** Liberation Softwares LLP",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWFHyGlHpTPak7GhHbz51uHMvNddXKeoSMJj2oFG4OJ1olBxxeJmhk7whZVNih-eTHPM8BFxPvw-ov1kOgP_kIxPhNS13RKB8WGze1x_7tfwI=",
+    "title": "elephas.app"
+  },
+  "checked_at": "2026-11-05T06:43:05.401248+00:00"
+}

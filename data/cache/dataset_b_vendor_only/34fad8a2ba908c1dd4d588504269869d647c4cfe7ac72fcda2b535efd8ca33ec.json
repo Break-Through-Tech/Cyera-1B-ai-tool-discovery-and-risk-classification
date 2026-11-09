@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on the official legal and about pages for **Flux Kontext AI** at **fluxkontext.io**:\n\n* **Direct Vendor/Provider:** **Flux Kontext** (operating also as **Flux Kontext AI**)\n* **Provider Statement:** The official Terms of Service defines the provider as: \n  > *\"'Company' (referred to as either 'the Company', 'We', 'Us' or 'Our' in this Agreement) refers to Flux Kontext. 'Service' refers to the Website and any related services provided by the Company.\"*\n\nThe site footer and Privacy Policy further clarify: *\"FluxKontext.io is an online AI image generation and editing service, not affiliated with Black Forest Labs. © Flux Kontext AI. All rights reserved.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**Direct Vendor/Provider:** **Flux Kontext** (operating also as **Flux Kontext AI**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfjVQsCo69heW4ZxJWxAdshkb-FS-1XhaPDVRKp5YhbXyKlUYr_3smGQx5c53BkTOgSU3r6MiiDvh2ksxOU27t1bnvfaZIGALfbU1CW6GBD3Y=",
+          "title": "fluxkontext.io"
+        },
+        {
+          "id": 1,
+          "text": "**Direct Vendor/Provider:** **Flux Kontext** (operating also as **Flux Kontext AI**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETbKZ7pvDrv-Yl_pcQF6A3f8BaVbRFYdS6xkY7NFjEV81389fklOCoeVmMqKsiz8b-v_xHIiYiBs-mlAKMeTq9qGnlhtWciUBPy65x",
+          "title": "fluxkontext.io"
+        },
+        {
+          "id": 2,
+          "text": "'Service' refers to the Website and any related services provided by the Company.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfjVQsCo69heW4ZxJWxAdshkb-FS-1XhaPDVRKp5YhbXyKlUYr_3smGQx5c53BkTOgSU3r6MiiDvh2ksxOU27t1bnvfaZIGALfbU1CW6GBD3Y=",
+          "title": "fluxkontext.io"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Flux Kontext",
+        "evidence": "Passage 0 states that the direct vendor/provider is Flux Kontext (operating also as Flux Kontext AI).",
+        "source": {
+          "id": 0,
+          "text": "**Direct Vendor/Provider:** **Flux Kontext** (operating also as **Flux Kontext AI**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfjVQsCo69heW4ZxJWxAdshkb-FS-1XhaPDVRKp5YhbXyKlUYr_3smGQx5c53BkTOgSU3r6MiiDvh2ksxOU27t1bnvfaZIGALfbU1CW6GBD3Y=",
+          "title": "fluxkontext.io"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Flux Kontext AI",
+    "domain": "fluxkontext.io",
+    "description": "Control every detail in your image—just by words"
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Flux Kontext",
+  "evidence": "Passage 0 states that the direct vendor/provider is Flux Kontext (operating also as Flux Kontext AI).",
+  "source": {
+    "id": 0,
+    "text": "**Direct Vendor/Provider:** **Flux Kontext** (operating also as **Flux Kontext AI**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfjVQsCo69heW4ZxJWxAdshkb-FS-1XhaPDVRKp5YhbXyKlUYr_3smGQx5c53BkTOgSU3r6MiiDvh2ksxOU27t1bnvfaZIGALfbU1CW6GBD3Y=",
+    "title": "fluxkontext.io"
+  },
+  "checked_at": "2026-11-05T07:10:37.980650+00:00"
+}

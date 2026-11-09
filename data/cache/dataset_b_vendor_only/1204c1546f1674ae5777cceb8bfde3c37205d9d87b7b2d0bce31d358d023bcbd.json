@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The operating company and vendor directly providing the software and services for **WP Engine** at **wpengine.com** is **WPEngine, Inc.**.\n\n### Supporting Evidence:\n* According to the **WP Engine Privacy Policy** at `wpengine.com/legal/privacy/`:\n  > *\"**WPEngine, Inc.** (“WP Engine,” “we,” “us,” “our”) maintains this Privacy Policy to inform you of our practices with regard to your information we collect from or about you as a data controller in connection with our websites (the “Sites”), through the provision of our products and services...\"*\n* The **WP Engine Enterprise Terms of Service** also specifies legal notices be delivered to:\n  > *\"WP Engine, 504 Lavaca Street, Suite 1000, Austin, TX 78701, ATTN: Legal Department.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The operating company and vendor directly providing the software and services for **WP Engine** at **wpengine.com** is **WPEngine, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGl2O4UtQTIOeRZnZTIhvlZ-3tv616v9ydbS4hH5Gl9izxM5nwTGmrZ09B4ns8_0MeGpzbSNuBgQDsFSsMkDRCVFs-WaclKXgccMFI6MEf8mtZHAVdDx5C4HI1cxvU-Lh2V8cVtVDWnDkIKg0gJwwUuREqIAvs=",
+          "title": "privacyshield.gov"
+        },
+        {
+          "id": 1,
+          "text": "The operating company and vendor directly providing the software and services for **WP Engine** at **wpengine.com** is **WPEngine, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH56o-tesE_wkwwqZKwg1ND7x3q7HjqaNPDia8L1i-JIJTNLRZeC8eWk2u3n3wy9AvJItdbmv9G34QkpGWQ-6ImR5qNydiiZANg5meZjdNy3M386rqBiWrCkg==",
+          "title": "wpengine.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"**WPEngine, Inc.** (“WP Engine,” “we,” “us,” “our”) maintains this Privacy Policy to inform you of our practices with regard to your information we collect from or about you as a data controller in connection with our websites (the “Sites”), through the provision of our products and services...\"*\n* The **WP Engine E",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH56o-tesE_wkwwqZKwg1ND7x3q7HjqaNPDia8L1i-JIJTNLRZeC8eWk2u3n3wy9AvJItdbmv9G34QkpGWQ-6ImR5qNydiiZANg5meZjdNy3M386rqBiWrCkg==",
+          "title": "wpengine.com"
+        },
+        {
+          "id": 3,
+          "text": "WPEngine, Inc.** (“WP Engine,” “we,” “us,” “our”) maintains this Privacy Policy to inform you of our practices with regard to your information we collect from or about you as a data controller in connection with our websites (the “Sites”), through the provision of our products and servi",
+          "url": "https://wpengine.com/legal/privacy/",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "WPEngine, Inc.",
+        "evidence": "Passage 1 directly identifies WPEngine, Inc. as the operating company and vendor directly providing the software and services for WP Engine at wpengine.com.",
+        "source": {
+          "id": 1,
+          "text": "The operating company and vendor directly providing the software and services for **WP Engine** at **wpengine.com** is **WPEngine, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH56o-tesE_wkwwqZKwg1ND7x3q7HjqaNPDia8L1i-JIJTNLRZeC8eWk2u3n3wy9AvJItdbmv9G34QkpGWQ-6ImR5qNydiiZANg5meZjdNy3M386rqBiWrCkg==",
+          "title": "wpengine.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "WP Engine",
+    "domain": "wpengine.com",
+    "description": "WP Engine provides managed WordPress hosting services, enabling users to create and manage WordPress websites efficiently. With a focus on performance, security, and customer support, they empower developers, marketers, and businesses to leverage the full potential of WordPress. Headquartered in Austin, Texas, WP Engine serves a global clientele with scalable solutions tailored for various digital experiences."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "WPEngine, Inc.",
+  "evidence": "Passage 1 directly identifies WPEngine, Inc. as the operating company and vendor directly providing the software and services for WP Engine at wpengine.com.",
+  "source": {
+    "id": 1,
+    "text": "The operating company and vendor directly providing the software and services for **WP Engine** at **wpengine.com** is **WPEngine, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH56o-tesE_wkwwqZKwg1ND7x3q7HjqaNPDia8L1i-JIJTNLRZeC8eWk2u3n3wy9AvJItdbmv9G34QkpGWQ-6ImR5qNydiiZANg5meZjdNy3M386rqBiWrCkg==",
+    "title": "wpengine.com"
+  },
+  "checked_at": "2026-11-05T08:28:15.636640+00:00"
+}

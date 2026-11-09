@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **MythBlender** at **mythblender.com** is **MythBlender Group** (also operating as **MythBlender**).\n\n### Evidence\n* **Terms of Use (`mythblender.com`):** *\"These MythBlender Terms of Use explain the relationship between MythBlender Group (\\\"MythBlender\\\") and you when you access and use mythblender.com and its related domains and browser extensions.\"*\n* **Privacy Policy (`mythblender.com`):** *\"MythBlender Group (\\\"MythBlender\\\") operates the mythblender.com website (“Site”). This privacy policy sets out how MythBlender Group. uses and protects any information that you give us when you use this Service.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **MythBlender** at **mythblender.com** is **MythBlender Group** (also operating as **MythBlender**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsjqm0TpjqG-LiPmi4L5rGRbDa2ZRqoCzwt3axwhos6wHrBpE-21IHT98cDpj4m04pUFCtKOnCt6WxV0kjVztwkro9cQN1gKFyKka21CNbQp0XtY_5H8TE6pMdyA==",
+          "title": "mythblender.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **MythBlender** at **mythblender.com** is **MythBlender Group** (also operating as **MythBlender**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5Pede6C0IklU3RAH8jduD1w-qHz90s1sI9v0T3ZMSwxfE358Y0QELO55WvL17XxGONWNsneDItBvxSawesy9K4jbt_mcdXP2BZErQ2duQRYWM4gNDBkZrRcE=",
+          "title": "mythblender.com"
+        },
+        {
+          "id": 2,
+          "text": "**Terms of Use (`mythblender.com`):** *\"These MythBlender Terms of Use explain the relationship between MythBlender Group (\\\"MythBlender\\\") and you when you access and use mythblender.com and its related domains and browser extensions.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5Pede6C0IklU3RAH8jduD1w-qHz90s1sI9v0T3ZMSwxfE358Y0QELO55WvL17XxGONWNsneDItBvxSawesy9K4jbt_mcdXP2BZErQ2duQRYWM4gNDBkZrRcE=",
+          "title": "mythblender.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "MythBlender Group",
+        "evidence": "According to the Terms of Use for mythblender.com, MythBlender Group (also referred to as MythBlender) provides and governs the use of mythblender.com and its related domains and browser extensions.",
+        "source": {
+          "id": 2,
+          "text": "**Terms of Use (`mythblender.com`):** *\"These MythBlender Terms of Use explain the relationship between MythBlender Group (\\\"MythBlender\\\") and you when you access and use mythblender.com and its related domains and browser extensions.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5Pede6C0IklU3RAH8jduD1w-qHz90s1sI9v0T3ZMSwxfE358Y0QELO55WvL17XxGONWNsneDItBvxSawesy9K4jbt_mcdXP2BZErQ2duQRYWM4gNDBkZrRcE=",
+          "title": "mythblender.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "MythBlender",
+    "domain": "mythblender.com",
+    "description": "MythBlender is an AI-powered tool that transforms your ideas into captivating stories, characters, and worlds. It generates unique narratives, detailed backstories, and rich lore, helping writers, game developers, and creators overcome blocks and accelerate their creative process."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "MythBlender Group",
+  "evidence": "According to the Terms of Use for mythblender.com, MythBlender Group (also referred to as MythBlender) provides and governs the use of mythblender.com and its related domains and browser extensions.",
+  "source": {
+    "id": 2,
+    "text": "**Terms of Use (`mythblender.com`):** *\"These MythBlender Terms of Use explain the relationship between MythBlender Group (\\\"MythBlender\\\") and you when you access and use mythblender.com and its related domains and browser extensions.\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5Pede6C0IklU3RAH8jduD1w-qHz90s1sI9v0T3ZMSwxfE358Y0QELO55WvL17XxGONWNsneDItBvxSawesy9K4jbt_mcdXP2BZErQ2duQRYWM4gNDBkZrRcE=",
+    "title": "mythblender.com"
+  },
+  "checked_at": "2026-11-05T06:57:46.879409+00:00"
+}

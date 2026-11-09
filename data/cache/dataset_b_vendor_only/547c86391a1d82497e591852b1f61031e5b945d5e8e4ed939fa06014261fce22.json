@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Thrivebase** at **thrivebase.ai** is **Thrivebase Inc**.\n\n### Supporting Evidence\nAccording to the official **Terms of Service** at `thrivebase.ai`:\n> *\"These Terms of Service constitute a legally binding agreement made between you, whether personally or on behalf of an entity ('you') and Thrivebase Inc ('Company', 'we', 'us', or 'our'), concerning your access to and use of the https://thrivebase.ai website as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto...\"*\n\nThis is also corroborated by the site's **Privacy Policy**, which defines the Company as:\n> *\"Company (referred to as either 'the Company', 'We', 'Us' or 'Our' in this Agreement) refers to Thrivebase Inc.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Thrivebase** at **thrivebase.ai** is **Thrivebase Inc**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHQx_eICaaYdO5ph9TS5ez3EIcjCX42OKKvEN6ToENq5_7WdGkSpNW72nAJxSkGwNditZhZUbVFCaurD2y3-ni5aEgfHl5dG8ELIraNNegsMajogEoYxYLKm9lnt5ECOI=",
+          "title": "thrivebase.ai"
+        },
+        {
+          "id": 1,
+          "text": "*\"These Terms of Service constitute a legally binding agreement made between you, whether personally or on behalf of an entity ('you') and Thrivebase Inc ('Company', 'we', 'us', or 'our'), concerning your access to and use of the https://thrivebase.ai website as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHQx_eICaaYdO5ph9TS5ez3EIcjCX42OKKvEN6ToENq5_7WdGkSpNW72nAJxSkGwNditZhZUbVFCaurD2y3-ni5aEgfHl5dG8ELIraNNegsMajogEoYxYLKm9lnt5ECOI=",
+          "title": "thrivebase.ai"
+        },
+        {
+          "id": 2,
+          "text": "*\"Company (referred to as either 'the Company', 'We', 'Us' or 'Our' in this Agreement) refers to Thrivebase Inc.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2CK7hhyuyCLMvc0HxTTpnHWEDKmd8FkJSih3VsCHAvnv0hf_GSsS6HmrzgXBkI2KiwUa24a-LYfb2tI4h7bgkgTkavsUapJfI6-mVg7i-Is4aiuFuE0BOx7XcR0Ig",
+          "title": "thrivebase.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Thrivebase Inc",
+        "evidence": "According to the Terms of Service for https://thrivebase.ai, the agreement concerning access to and use of the website is made between the user and Thrivebase Inc.",
+        "source": {
+          "id": 1,
+          "text": "*\"These Terms of Service constitute a legally binding agreement made between you, whether personally or on behalf of an entity ('you') and Thrivebase Inc ('Company', 'we', 'us', or 'our'), concerning your access to and use of the https://thrivebase.ai website as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHQx_eICaaYdO5ph9TS5ez3EIcjCX42OKKvEN6ToENq5_7WdGkSpNW72nAJxSkGwNditZhZUbVFCaurD2y3-ni5aEgfHl5dG8ELIraNNegsMajogEoYxYLKm9lnt5ECOI=",
+          "title": "thrivebase.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Thrivebase",
+    "domain": "thrivebase.ai",
+    "description": "Thrivebase is an AI-powered customer support platform that streamlines workflows, automates responses, and improves team collaboration to boost efficiency and customer satisfaction."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Thrivebase Inc",
+  "evidence": "According to the Terms of Service for https://thrivebase.ai, the agreement concerning access to and use of the website is made between the user and Thrivebase Inc.",
+  "source": {
+    "id": 1,
+    "text": "*\"These Terms of Service constitute a legally binding agreement made between you, whether personally or on behalf of an entity ('you') and Thrivebase Inc ('Company', 'we', 'us', or 'our'), concerning your access to and use of the https://thrivebase.ai website as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto...\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHQx_eICaaYdO5ph9TS5ez3EIcjCX42OKKvEN6ToENq5_7WdGkSpNW72nAJxSkGwNditZhZUbVFCaurD2y3-ni5aEgfHl5dG8ELIraNNegsMajogEoYxYLKm9lnt5ECOI=",
+    "title": "thrivebase.ai"
+  },
+  "checked_at": "2026-11-05T05:49:48.241505+00:00"
+}

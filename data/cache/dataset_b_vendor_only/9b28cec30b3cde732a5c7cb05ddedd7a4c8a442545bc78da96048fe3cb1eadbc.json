@@ -1,0 +1,113 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on the official MEGA Terms of Service governing the services at **mega.nz** (and mega.io):\n\n* **Direct Operating Company / Vendor:** \n  * **MEGA Privacy Kft.** (Hungarian registration Cg. 13-09-239012) directly provides MEGA Cloud / S4 services to web users.\n  * *(Note: When services/apps are obtained through the Apple App Store or Google Play Store, the contracting entity is **MEGA Networks LLC**, and for standalone paid VPN/Pass subscriptions, it is **MEGA Privacy (NZ) Limited**; historically the service was operated by New Zealand entity **Mega Cloud Services Limited** / **Mega Limited**).*\n\n* **Provider Statement:**\n  > *\"When you are a user of MEGA Cloud (whether a free user, or on a Pro or Business plan with MEGA VPN and MEGA Pass bundled for free), and/or a user of MEGA S4, your agreement for all these services is with MEGA Privacy Kft (Hungarian Cg. 13-09-239012, with its registered office at Templom utca 17, 2161 Csomàd, Hungary)... We provide our services at our websites at https://mega.nz and https://mega.io and related sites (“websites”).\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "Based on the official MEGA Terms of Service governing the services at **mega.nz** (and mega.io)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDEGxuNHg96EnBU-j0VqUb-Yk9j0MhmZ_1iSS3uASSKLdUzAJbbMFtoNNhkE4ZPJrtalKevRN8_9nBvSesLonZnQq8rnhs9RSB",
+          "title": "mega.io"
+        },
+        {
+          "id": 1,
+          "text": "(Hungarian registration Cg. 13-09-239012) directly provides MEGA Cloud / S4 services to web users",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDEGxuNHg96EnBU-j0VqUb-Yk9j0MhmZ_1iSS3uASSKLdUzAJbbMFtoNNhkE4ZPJrtalKevRN8_9nBvSesLonZnQq8rnhs9RSB",
+          "title": "mega.io"
+        },
+        {
+          "id": 2,
+          "text": "*(Note: When services/apps are obtained through the Apple App Store or Google Play Store, the contracting entity is **MEGA Networks LLC**, and for standalone paid VPN/Pass subscriptions, it is **MEGA Privacy (NZ) Limited**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDEGxuNHg96EnBU-j0VqUb-Yk9j0MhmZ_1iSS3uASSKLdUzAJbbMFtoNNhkE4ZPJrtalKevRN8_9nBvSesLonZnQq8rnhs9RSB",
+          "title": "mega.io"
+        },
+        {
+          "id": 3,
+          "text": "*(Note: When services/apps are obtained through the Apple App Store or Google Play Store, the contracting entity is **MEGA Networks LLC**, and for standalone paid VPN/Pass subscriptions, it is **MEGA Privacy (NZ) Limited**; historically the service was operated by New Zealand entity **Mega Cloud Services Limited** / **Mega Limited**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSJUWatgVxDo1F86eBNDhr5uyU2Vu0mDw2ghEmcpy9DpQAV6QtgXy0caIrZghiAE273i5hcDDL6kXO0yUr-LO-vvrM-dXbCiZ_MBPGR-p_h1lnnEnpIvTa9iXfEjaVwzQ=",
+          "title": "wikipedia.org"
+        },
+        {
+          "id": 4,
+          "text": "*(Note: When services/apps are obtained through the Apple App Store or Google Play Store, the contracting entity is **MEGA Networks LLC**, and for standalone paid VPN/Pass subscriptions, it is **MEGA Privacy (NZ) Limited**; historically the service was operated by New Zealand entity **Mega Cloud Services Limited** / **Mega Limited**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRUBRLv2jTj2zwRNJWWS5KKnqI_Hz4WhSej6teXl_8xiA_UGrjNgj_V3dp3kTSDQKit9TV2b02JQTNZwX9K2eyAJTFskwSpDsCscKrhsL4-cqRhhjznaKS570JnYTf",
+          "title": "democracyproject.org.nz"
+        }
+      ],
+      "result": {
+        "status": "unknown",
+        "vendor": "UNKNOWN",
+        "evidence": "The passages do not establish the current vendor for mega.nz. Passage 1 truncates the entity name providing web services, leaving only a registration number, while passages 2 and 3 refer only to mobile app stores, standalone VPN/Pass subscriptions, or historical operators rather than the current operating vendor of mega.nz."
+      }
+    },
+    {
+      "answer": "The vendor directly providing the software product **Mega** at the domain **`mega.nz`** is **MEGA Privacy Kft** (with affiliated entities handling specific distribution channels and services).\n\n### Official Provider Statement\nAccording to the official **MEGA Terms of Service** (governing services provided at `https://mega.nz` and `https://mega.io`):\n> *\"Subject to the paragraph above, when you are a user of MEGA Cloud (whether a free user, or on a Pro or Business plan with MEGA VPN and MEGA Pass bundled for free), and/or a user of MEGA S4, your agreement for all these services is with **MEGA Privacy Kft** (Hungarian Cg. 13-09-239012, with its registered office at Templom utca 17, 2161 Csomàd, Hungary).\"*\n\n*(Note: The terms state that users who obtain the services via mobile app stores contract with **MEGA Networks LLC**, while standalone subscriptions to MEGA VPN or MEGA Pass are provided by **MEGA Privacy (NZ) Limited**. The overarching provider brand is **MEGA** / **MEGA The Privacy Company**).*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product **Mega** at the domain **`mega.nz`** is **MEGA Privacy Kft** (with affiliated entities handling specific distribution channels and services)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxpcfwcwt0CK9TqnzvfhFdlBXtVdAF48tshDTygOgaPaS_R2cqf1vjuh_kG-TtJFhEC-xeGbiTNcdCD0oMueBdInmAy5SqWWa2AQ==",
+          "title": "mega.io"
+        },
+        {
+          "id": 1,
+          "text": "According to the official **MEGA Terms of Service** (governing services provided at `https://mega.nz` and `https://mega.io`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxpcfwcwt0CK9TqnzvfhFdlBXtVdAF48tshDTygOgaPaS_R2cqf1vjuh_kG-TtJFhEC-xeGbiTNcdCD0oMueBdInmAy5SqWWa2AQ==",
+          "title": "mega.io"
+        },
+        {
+          "id": 2,
+          "text": "*\"Subject to the paragraph above, when you are a user of MEGA Cloud (whether a free user, or on a Pro or Business plan with MEGA VPN and MEGA Pass bundled for free), and/or a user of MEGA S4, your agreement for all these services is with **MEGA Privacy Kft** (Hungarian Cg. 13-09-239012, with its registered office at Templom utca 17, 2161 Csomàd, Hungary).\"*\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxpcfwcwt0CK9TqnzvfhFdlBXtVdAF48tshDTygOgaPaS_R2cqf1vjuh_kG-TtJFhEC-xeGbiTNcdCD0oMueBdInmAy5SqWWa2AQ==",
+          "title": "mega.io"
+        },
+        {
+          "id": 3,
+          "text": "(Note: The terms state that users who obtain the services via mobile app stores contract with **MEGA Networks LLC**, while standalone subscriptions to MEGA VPN or MEGA Pass are provided by **MEGA Privacy (NZ) Limited**.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxpcfwcwt0CK9TqnzvfhFdlBXtVdAF48tshDTygOgaPaS_R2cqf1vjuh_kG-TtJFhEC-xeGbiTNcdCD0oMueBdInmAy5SqWWa2AQ==",
+          "title": "mega.io"
+        },
+        {
+          "id": 4,
+          "text": "he overarching provider brand is **MEGA** / **MEGA The Privacy Company**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxpcfwcwt0CK9TqnzvfhFdlBXtVdAF48tshDTygOgaPaS_R2cqf1vjuh_kG-TtJFhEC-xeGbiTNcdCD0oMueBdInmAy5SqWWa2AQ==",
+          "title": "mega.io"
+        },
+        {
+          "id": 5,
+          "text": "he overarching provider brand is **MEGA** / **MEGA The Privacy Company**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPBRWRXvyHguW3qX_yInCf5afcBh_zRAo6PhUyq0BfD271nUSKcl0LMVELyOeGT3lVssn8yVkFd4s6YmElk-KpFcjhmOGzMfR0KGsEdnplDuQOGWxz1NWrynN1S-MzYg==",
+          "title": "democracyproject.org.nz"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "MEGA Privacy Kft",
+        "evidence": "Passage 0 directly states that the vendor providing the software product Mega at the domain mega.nz is MEGA Privacy Kft.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the software product **Mega** at the domain **`mega.nz`** is **MEGA Privacy Kft** (with affiliated entities handling specific distribution channels and services)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxpcfwcwt0CK9TqnzvfhFdlBXtVdAF48tshDTygOgaPaS_R2cqf1vjuh_kG-TtJFhEC-xeGbiTNcdCD0oMueBdInmAy5SqWWa2AQ==",
+          "title": "mega.io"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Mega",
+    "domain": "mega.nz",
+    "description": "MEGA The Privacy Company is a technology firm based in Los Angeles, California, that specializes in providing secure cloud storage and encryption services. The company focuses on ensuring user privacy and data protection, offering a platform for both individuals and businesses to safely store and share files online."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "MEGA Privacy Kft",
+  "evidence": "Passage 0 directly states that the vendor providing the software product Mega at the domain mega.nz is MEGA Privacy Kft.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the software product **Mega** at the domain **`mega.nz`** is **MEGA Privacy Kft** (with affiliated entities handling specific distribution channels and services)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxpcfwcwt0CK9TqnzvfhFdlBXtVdAF48tshDTygOgaPaS_R2cqf1vjuh_kG-TtJFhEC-xeGbiTNcdCD0oMueBdInmAy5SqWWa2AQ==",
+    "title": "mega.io"
+  },
+  "checked_at": "2026-11-05T10:01:00.966457+00:00"
+}

@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Diffblue Cover** at **diffblue.com** is **Diffblue Limited** (also operating as **Diffblue Ltd**).\n\n### Evidence and Provider Statement\n* **Legal & Licensing Notices:** The official documentation and legal terms specify:\n  > *\"© Copyright Diffblue Limited... All rights reserved. Diffblue, Diffblue Cover, and the Diffblue logo are trademarks of Diffblue Ltd.\"*\n  > *\"Licensed by Diffblue Limited. For the full license text of the Diffblue Limited License, please see the End User License Agreement (EULA).\"*\n* **Corporate Details:** The official website footer identifies the operating entity as:\n  > *\"Diffblue Limited, 5 New Street Square, London EC4A 3TW\"*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Diffblue Cover** at **diffblue.com** is **Diffblue Limited** (also operating as **Diffblue Ltd**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFikUZlf_kLxPuysAkAM8BNt_i5Da3qUF9ggdBDMxjVX2IjYwThpugILtX66OyjSoGACczzxGyHYbuu36wfS_rqQNk-SMaRPDge4ndNtPn-Rax7L8zMDDmIF2B0",
+          "title": "wikipedia.org"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Diffblue Cover** at **diffblue.com** is **Diffblue Limited** (also operating as **Diffblue Ltd**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEL3f9JBSNQpWx2WsP1lzS-saxCjK7UZUGIpWYX2G910QglghAHWphxf6uE1nhElZJTDEGtyjcCDpYrvssgw5RyIEtslyMYluS_jKCqsSRl",
+          "title": "diffblue.com"
+        },
+        {
+          "id": 2,
+          "text": "The vendor directly providing **Diffblue Cover** at **diffblue.com** is **Diffblue Limited** (also operating as **Diffblue Ltd**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECg5MNmH2RqPP5iJ22EeVXjWoDY03zFyf-6OtHZXT6QmMu6xSniK4ZVOJ8yhHsgtXCnKfBMJ1TDX-Tsum1DBD2gmdrwBu_H9_tpe9IVSTOgsNGky7sbAH9YgzGYMjo9t-6-SrW",
+          "title": "diffblue.com"
+        },
+        {
+          "id": 3,
+          "text": "iffblue, Diffblue Cover, and the Diffblue logo are trademarks of Diffblue Ltd.\"*\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECg5MNmH2RqPP5iJ22EeVXjWoDY03zFyf-6OtHZXT6QmMu6xSniK4ZVOJ8yhHsgtXCnKfBMJ1TDX-Tsum1DBD2gmdrwBu_H9_tpe9IVSTOgsNGky7sbAH9YgzGYMjo9t-6-SrW",
+          "title": "diffblue.com"
+        },
+        {
+          "id": 4,
+          "text": "or the full license text of the Diffblue Limited License, please see the End User License Agreement (EULA).\"*\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbyeQwqpSOj9e7t-AELBFAO62ggdPxrkrbds6Biu30B3n2hfhGyfbOIGV2ZedfOdxdH-gyA_24x-pQH6DnM_ExO1AQH072yPpZ0iFCCzI-tBr73WQCtGsJrU7UtEyqhqKYASLDpcmgqMJLZ3GQzanYydJm-YCspSj3nGXbBIKv",
+          "title": "diffblue.com"
+        },
+        {
+          "id": 5,
+          "text": "\"Diffblue Limited, 5 New Street Square, London EC4A 3TW\"*.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEL3f9JBSNQpWx2WsP1lzS-saxCjK7UZUGIpWYX2G910QglghAHWphxf6uE1nhElZJTDEGtyjcCDpYrvssgw5RyIEtslyMYluS_jKCqsSRl",
+          "title": "diffblue.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Diffblue Limited",
+        "evidence": "Passage 1 states that the vendor directly providing Diffblue Cover at diffblue.com is Diffblue Limited (also operating as Diffblue Ltd).",
+        "source": {
+          "id": 1,
+          "text": "The vendor directly providing **Diffblue Cover** at **diffblue.com** is **Diffblue Limited** (also operating as **Diffblue Ltd**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEL3f9JBSNQpWx2WsP1lzS-saxCjK7UZUGIpWYX2G910QglghAHWphxf6uE1nhElZJTDEGtyjcCDpYrvssgw5RyIEtslyMYluS_jKCqsSRl",
+          "title": "diffblue.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Diffblue Cover",
+    "domain": "diffblue.com",
+    "description": "AI for autonomously writing Java unit tests"
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Diffblue Limited",
+  "evidence": "Passage 1 states that the vendor directly providing Diffblue Cover at diffblue.com is Diffblue Limited (also operating as Diffblue Ltd).",
+  "source": {
+    "id": 1,
+    "text": "The vendor directly providing **Diffblue Cover** at **diffblue.com** is **Diffblue Limited** (also operating as **Diffblue Ltd**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEL3f9JBSNQpWx2WsP1lzS-saxCjK7UZUGIpWYX2G910QglghAHWphxf6uE1nhElZJTDEGtyjcCDpYrvssgw5RyIEtslyMYluS_jKCqsSRl",
+    "title": "diffblue.com"
+  },
+  "checked_at": "2026-11-05T07:54:24.841598+00:00"
+}

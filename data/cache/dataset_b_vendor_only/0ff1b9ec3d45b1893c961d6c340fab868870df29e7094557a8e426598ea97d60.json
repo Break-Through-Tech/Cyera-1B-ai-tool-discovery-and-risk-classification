@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on software directory records and provider listings for **MindPlexa** at **mindplexa.com**:\n\n* **Operating Company / Provider:** **MindPlexa, Inc.** (also operating under the brand **MindPlexa**, developed by **jayasth**).\n* **Evidence / Provider Statement:** \n  * tyy.AI Tools identifies the operating entity for `mindplexa.com` as: *\"MindPlexa Company name: MindPlexa, Inc.\"*\n  * Software catalog listings such as G2 list the provider brand as: *\"Mindplexa. By MindPlexa\"*.\n  * The open-source project repository tracking the tool lists the developer as: *\"MindPlexa. By jayasth\"*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**Operating Company / Provider:** **MindPlexa, Inc.** (also operating under the brand **MindPlexa**, developed by **jayasth**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7T0C30NjjDTYBex9At_XfuOICYk6LBEUsRVWbYlzvgoqN_3wP8GV1_cBXzJG_Ewrl4yEarTgnOhBWx0Tm6R3Y_NTmR4azKS5LVUoUaL1uSBnr",
+          "title": "tyy.ai"
+        },
+        {
+          "id": 1,
+          "text": "**Operating Company / Provider:** **MindPlexa, Inc.** (also operating under the brand **MindPlexa**, developed by **jayasth**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEN-H5aqLvPi2rZYb_r7VKrGf7kRej49o0lqRropeu2na1Wx8Jgub7m_iyjJBcafOkPu0TlWNCi8nmLe7cbIZSqb2seny7VNCNQR9LthB_qes-SLvoKU-_8zd51eGuLHuTTVXMKypZfflvo6aMjm90rrFzu",
+          "title": "g2.com"
+        },
+        {
+          "id": 2,
+          "text": "**Operating Company / Provider:** **MindPlexa, Inc.** (also operating under the brand **MindPlexa**, developed by **jayasth**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1I1E7r7ZRlF4epbtM-srAlWRwFwTZLmG_R341J5V2WTF7TmvxBzWxSNRCpKSbpSvH-VBlkWAfyeDmQzjzW2o809-y-S8FiPCUfinP70umqLI39Q2lfE8oE0-6z99eb7AK7qznhDztzQ==",
+          "title": "libhunt.com"
+        },
+        {
+          "id": 3,
+          "text": "tyy.AI Tools identifies the operating entity for `mindplexa.com` as: *\"MindPlexa Company name: MindPlexa, Inc.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7T0C30NjjDTYBex9At_XfuOICYk6LBEUsRVWbYlzvgoqN_3wP8GV1_cBXzJG_Ewrl4yEarTgnOhBWx0Tm6R3Y_NTmR4azKS5LVUoUaL1uSBnr",
+          "title": "tyy.ai"
+        },
+        {
+          "id": 4,
+          "text": "By MindPlexa\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEN-H5aqLvPi2rZYb_r7VKrGf7kRej49o0lqRropeu2na1Wx8Jgub7m_iyjJBcafOkPu0TlWNCi8nmLe7cbIZSqb2seny7VNCNQR9LthB_qes-SLvoKU-_8zd51eGuLHuTTVXMKypZfflvo6aMjm90rrFzu",
+          "title": "g2.com"
+        },
+        {
+          "id": 5,
+          "text": "By jayasth\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1I1E7r7ZRlF4epbtM-srAlWRwFwTZLmG_R341J5V2WTF7TmvxBzWxSNRCpKSbpSvH-VBlkWAfyeDmQzjzW2o809-y-S8FiPCUfinP70umqLI39Q2lfE8oE0-6z99eb7AK7qznhDztzQ==",
+          "title": "libhunt.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "MindPlexa, Inc.",
+        "evidence": "tyy.AI Tools identifies the operating entity for `mindplexa.com` as: \"MindPlexa Company name: MindPlexa, Inc.\"",
+        "source": {
+          "id": 3,
+          "text": "tyy.AI Tools identifies the operating entity for `mindplexa.com` as: *\"MindPlexa Company name: MindPlexa, Inc.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7T0C30NjjDTYBex9At_XfuOICYk6LBEUsRVWbYlzvgoqN_3wP8GV1_cBXzJG_Ewrl4yEarTgnOhBWx0Tm6R3Y_NTmR4azKS5LVUoUaL1uSBnr",
+          "title": "tyy.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "MindPlexa",
+    "domain": "mindplexa.com",
+    "description": "MindPlexa is a project management AI tool designed to streamline workflows, enhance team collaboration, and boost productivity through intelligent task management and automation."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "MindPlexa, Inc.",
+  "evidence": "tyy.AI Tools identifies the operating entity for `mindplexa.com` as: \"MindPlexa Company name: MindPlexa, Inc.\"",
+  "source": {
+    "id": 3,
+    "text": "tyy.AI Tools identifies the operating entity for `mindplexa.com` as: *\"MindPlexa Company name: MindPlexa, Inc.\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7T0C30NjjDTYBex9At_XfuOICYk6LBEUsRVWbYlzvgoqN_3wP8GV1_cBXzJG_Ewrl4yEarTgnOhBWx0Tm6R3Y_NTmR4azKS5LVUoUaL1uSBnr",
+    "title": "tyy.ai"
+  },
+  "checked_at": "2026-11-05T07:23:39.174643+00:00"
+}

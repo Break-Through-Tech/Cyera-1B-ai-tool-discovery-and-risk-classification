@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **Podium** communications platform at **podium.com** is **Podium Corporation, Inc.**\n\n### Provider Statement\nAccording to the official Podium Terms of Service:\n> *\"Podium.com (https://www.podium.com), including all of its related applications, dashboards, or platforms (individually and collectively, the “Website”), is owned and operated by Podium Corporation, Inc. (“Podium,” “we,” “us,” or “our”).\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **Podium** communications platform at **podium.com** is **Podium Corporation, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEkoAafwOcpfVqnOaMQMjO7qTItOKU89shLm07cgE0nK5ko6xZgReb5FTjEGFkSEiER5diazhxwdJqCrqWIXrYzh-7nVLHjuvzS2Wsk28=",
+          "title": "podium.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the **Podium** communications platform at **podium.com** is **Podium Corporation, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpxyyXn6a4rJYFOXsr-TCCo-fBnwm44D95uvBNohR1tzLUsWStmnhH8WqEKufMPC_OUiMIRLx8SknH-UFXt4Do2x6mcLYMykzoguw6-FtHmn00-JUW7_vPDZf_OkrQ94GZPNGVo60=",
+          "title": "en-podium.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Podium Corporation, Inc.",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing the Podium communications platform at podium.com is Podium Corporation, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the **Podium** communications platform at **podium.com** is **Podium Corporation, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEkoAafwOcpfVqnOaMQMjO7qTItOKU89shLm07cgE0nK5ko6xZgReb5FTjEGFkSEiER5diazhxwdJqCrqWIXrYzh-7nVLHjuvzS2Wsk28=",
+          "title": "podium.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Podium",
+    "domain": "podium.com",
+    "description": "Podium is a communications platform designed to enhance customer interactions for local businesses, launched in 2014. The company provides tools for businesses to easily collect customer reviews, manage payments, run text marketing campaigns, and centralize communications. By leveraging messaging technology, Podium aims to modernize business operations and improve customer engagement across various local industries."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Podium Corporation, Inc.",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing the Podium communications platform at podium.com is Podium Corporation, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the **Podium** communications platform at **podium.com** is **Podium Corporation, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEkoAafwOcpfVqnOaMQMjO7qTItOKU89shLm07cgE0nK5ko6xZgReb5FTjEGFkSEiER5diazhxwdJqCrqWIXrYzh-7nVLHjuvzS2Wsk28=",
+    "title": "podium.com"
+  },
+  "checked_at": "2026-11-05T09:59:01.335418+00:00"
+}

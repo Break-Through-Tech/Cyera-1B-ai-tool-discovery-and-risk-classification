@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **Jam** provided at **jam.dev** is directly operated and provided by **We Are Jam, Inc.**\n\n### Evidence\nFrom the official **Jam Terms of Service** (accessible via `jam.dev`):\n> *\"These Terms of Service (the 'Terms') are a binding contract between you and We Are Jam, Inc. ('Jam,' 'we,' 'us,' or 'our'). By using our websites, products, services, web, desktop, and mobile applications, browser extension, and related tools (together, the 'Service'), you agree to these Terms.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **Jam** provided at **jam.dev** is directly operated and provided by **We Are Jam, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZjBFuKuPtEdZrMCUtLtTQbktH36ZVxQ8qflYS093iqIvtMHre6Mah8lC0sHiZRfPXcxRnFDu4BzrSpYsLZ936Q4GeBvMmkGROu1C_iUzrW5E=",
+          "title": "jam.dev"
+        },
+        {
+          "id": 1,
+          "text": "The software product **Jam** provided at **jam.dev** is directly operated and provided by **We Are Jam, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZjBFuKuPtEdZrMCUtLtTQbktH36ZVxQ8qflYS093iqIvtMHre6Mah8lC0sHiZRfPXcxRnFDu4BzrSpYsLZ936Q4GeBvMmkGROu1C_iUzrW5E=",
+          "title": "jam.dev"
+        },
+        {
+          "id": 2,
+          "text": "By using our websites, products, services, web, desktop, and mobile applications, browser extension, and related tools (together, the 'Service'), you agree to these Terms.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZjBFuKuPtEdZrMCUtLtTQbktH36ZVxQ8qflYS093iqIvtMHre6Mah8lC0sHiZRfPXcxRnFDu4BzrSpYsLZ936Q4GeBvMmkGROu1C_iUzrW5E=",
+          "title": "jam.dev"
+        },
+        {
+          "id": 3,
+          "text": "By using our websites, products, services, web, desktop, and mobile applications, browser extension, and related tools (together, the 'Service'), you agree to these Terms.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZjBFuKuPtEdZrMCUtLtTQbktH36ZVxQ8qflYS093iqIvtMHre6Mah8lC0sHiZRfPXcxRnFDu4BzrSpYsLZ936Q4GeBvMmkGROu1C_iUzrW5E=",
+          "title": "jam.dev"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "We Are Jam, Inc.",
+        "evidence": "Passage 0 states that the software product Jam provided at jam.dev is directly operated and provided by We Are Jam, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The software product **Jam** provided at **jam.dev** is directly operated and provided by **We Are Jam, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZjBFuKuPtEdZrMCUtLtTQbktH36ZVxQ8qflYS093iqIvtMHre6Mah8lC0sHiZRfPXcxRnFDu4BzrSpYsLZ936Q4GeBvMmkGROu1C_iUzrW5E=",
+          "title": "jam.dev"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Jam",
+    "domain": "jam.dev",
+    "description": "Debug suggestions for bug fix & enhancement."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "We Are Jam, Inc.",
+  "evidence": "Passage 0 states that the software product Jam provided at jam.dev is directly operated and provided by We Are Jam, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The software product **Jam** provided at **jam.dev** is directly operated and provided by **We Are Jam, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZjBFuKuPtEdZrMCUtLtTQbktH36ZVxQ8qflYS093iqIvtMHre6Mah8lC0sHiZRfPXcxRnFDu4BzrSpYsLZ936Q4GeBvMmkGROu1C_iUzrW5E=",
+    "title": "jam.dev"
+  },
+  "checked_at": "2026-11-05T07:54:35.526415+00:00"
+}

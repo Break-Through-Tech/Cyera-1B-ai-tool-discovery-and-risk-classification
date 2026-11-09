@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product **RescueTime** at **rescuetime.com** is **RescueTime, Inc.**.\n\n### Evidence:\n* RescueTime's **Terms of Service** govern the service (`\"RescueTime provides its service ('Service') to you, subject to the following Terms of Service ('TOS')\"`) and are published under **© RescueTime, Inc.**.\n* RescueTime's official **Privacy Policy** and legal help documentation similarly identify the operating entity as **RescueTime, Inc.**.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product **RescueTime** at **rescuetime.com** is **RescueTime, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGGDvHIWy9nU13NivSFn6D3dWzqtjsja5xVVOHXScDcBpTwGjCbnH7XXsqw6WSHyUE9nJk808u0OpNB4ctn4LhFDLn4qioaNc7h4gVzTQPJ8OcMTXGJy6TD99lNUp0gK1XSb5xnQvnekdFC1oBkXjoK-G5EDCMZVnT",
+          "title": "rescuetime.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the software product **RescueTime** at **rescuetime.com** is **RescueTime, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHT1fRVWPNRjE2mTKIhHKL5Y1I8BqV4RkDt3E7eg5krmb2Eg5RV5Q4jSrarICSYrSWaDPVCQdjbw4GQADBqRElHfeYx3R9lroHjCTELfennRLe2MoS01tjcrf24wd_SIrQp5PJuoBY=",
+          "title": "google.com"
+        },
+        {
+          "id": 2,
+          "text": "RescueTime's **Terms of Service** govern the service (`\"RescueTime provides its service ('Service') to you, subject to the following Terms of Service ('TOS')\"`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHR8v2LiYcLqaWWYoUfJB72aZUbtMk8uWcWwlOAEnJOz427-yD-doE4GUWiepICyHdcHgxn3gZ68N393psZgdrxYYSRsU4bUKHTdbGZ_eakgfxb1g==",
+          "title": "rescuetime.com"
+        },
+        {
+          "id": 3,
+          "text": "RescueTime's **Terms of Service** govern the service (`\"RescueTime provides its service ('Service') to you, subject to the following Terms of Service ('TOS')\"`) and are published under **© RescueTime, Inc.**.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGGDvHIWy9nU13NivSFn6D3dWzqtjsja5xVVOHXScDcBpTwGjCbnH7XXsqw6WSHyUE9nJk808u0OpNB4ctn4LhFDLn4qioaNc7h4gVzTQPJ8OcMTXGJy6TD99lNUp0gK1XSb5xnQvnekdFC1oBkXjoK-G5EDCMZVnT",
+          "title": "rescuetime.com"
+        },
+        {
+          "id": 4,
+          "text": "escueTime's official **Privacy Policy** and legal help documentation similarly identify the operating entity as **RescueTime, Inc.**.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFp3O8oXrZ5XiU-Ss-VX5rkcEaXKy9t0983E0ztbR1Vm06oBwjKotpcPhIsQMKQxOz2fOiSNqwyIAjo-LFtVMklX-gpBZ50MiT59chHT4ha5fvU4oReexxG95Bc9NlHK8q-DnD1xlQPQfOmkxM1_2mbRkJVJDY_QQ==",
+          "title": "rescuetime.com"
+        },
+        {
+          "id": 5,
+          "text": "escueTime's official **Privacy Policy** and legal help documentation similarly identify the operating entity as **RescueTime, Inc.**.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM4VLht52Fi2H4f2a6GMxa6Zatfz6o0n-yPBasjvF15wlYhNA8Ordax7J3j31lqcpb8WpeOL6vlBt8ajIYfs44CdG1ZvDcrW1V-tzPcxX3NIcQ",
+          "title": "rescuetime.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "RescueTime, Inc.",
+        "evidence": "Passage 0 directly confirms that the vendor providing the software product RescueTime at rescuetime.com is RescueTime, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the software product **RescueTime** at **rescuetime.com** is **RescueTime, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGGDvHIWy9nU13NivSFn6D3dWzqtjsja5xVVOHXScDcBpTwGjCbnH7XXsqw6WSHyUE9nJk808u0OpNB4ctn4LhFDLn4qioaNc7h4gVzTQPJ8OcMTXGJy6TD99lNUp0gK1XSb5xnQvnekdFC1oBkXjoK-G5EDCMZVnT",
+          "title": "rescuetime.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "RescueTime",
+    "domain": "rescuetime.com",
+    "description": "RescueTime specializes in time management and productivity analysis, helping individuals and organizations understand how their time is spent. The platform empowers users to cultivate better work habits and achieve a healthy work/life balance, crucial in today's digital age. As a distributed company based in the United States, RescueTime serves clients nationwide with its innovative software solutions."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "RescueTime, Inc.",
+  "evidence": "Passage 0 directly confirms that the vendor providing the software product RescueTime at rescuetime.com is RescueTime, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the software product **RescueTime** at **rescuetime.com** is **RescueTime, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGGDvHIWy9nU13NivSFn6D3dWzqtjsja5xVVOHXScDcBpTwGjCbnH7XXsqw6WSHyUE9nJk808u0OpNB4ctn4LhFDLn4qioaNc7h4gVzTQPJ8OcMTXGJy6TD99lNUp0gK1XSb5xnQvnekdFC1oBkXjoK-G5EDCMZVnT",
+    "title": "rescuetime.com"
+  },
+  "checked_at": "2026-11-05T09:14:17.696447+00:00"
+}

@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor and operating entity directly providing **Nmap** at **nmap.org** is **Nmap Software LLC** (also operating as **The Nmap Project**), originally created and led by developer **Gordon \"Fyodor\" Lyon**.\n\n### Evidence\n* According to the official legal notices for Nmap on `nmap.org`: \n  > *\"The Nmap Security Scanner is (C) 1996–2022 Nmap Software LLC (\"The Nmap Project\"). Nmap is also a registered trademark of the Nmap Project.\"*\n* The project documentation also identifies Gordon \"Fyodor\" Lyon as the creator who authored and released Nmap.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor and operating entity directly providing **Nmap** at **nmap.org** is **Nmap Software LLC** (also operating as **The Nmap Project**), originally created and led by developer **Gordon \"Fyodor\" Lyon**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhWz4PYKpAgWu5EMihChqUqnxZq7UsfftNq08EjlQAjRQlyiYUUlzlUkwDDTBg2Sal8Ahuc2gHtRCZTQDkaXnMXwGy28cZvWkX62t9H_i8jHfcEQLBDK1DRL4=",
+          "title": "nmap.org"
+        },
+        {
+          "id": 1,
+          "text": "The vendor and operating entity directly providing **Nmap** at **nmap.org** is **Nmap Software LLC** (also operating as **The Nmap Project**), originally created and led by developer **Gordon \"Fyodor\" Lyon**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlVpOtjlT4ZUVWnBQO6JXr9g9WcKRsroO_QRNPnwOT9Dv6JRq6kUUSXJld8nEd-_YrCV4iYTsEghfF-R1HDJJrQivZeZu-gJaoC1EFaD-9ve6hJ3Gl-O6U9tSo",
+          "title": "nmap.org"
+        },
+        {
+          "id": 2,
+          "text": "ap is also a registered trademark of the Nmap Project.\"*\n*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhWz4PYKpAgWu5EMihChqUqnxZq7UsfftNq08EjlQAjRQlyiYUUlzlUkwDDTBg2Sal8Ahuc2gHtRCZTQDkaXnMXwGy28cZvWkX62t9H_i8jHfcEQLBDK1DRL4=",
+          "title": "nmap.org"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Nmap Software LLC",
+        "evidence": "Passage 0 explicitly identifies Nmap Software LLC (also operating as The Nmap Project) as the vendor and operating entity directly providing Nmap at nmap.org.",
+        "source": {
+          "id": 0,
+          "text": "The vendor and operating entity directly providing **Nmap** at **nmap.org** is **Nmap Software LLC** (also operating as **The Nmap Project**), originally created and led by developer **Gordon \"Fyodor\" Lyon**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhWz4PYKpAgWu5EMihChqUqnxZq7UsfftNq08EjlQAjRQlyiYUUlzlUkwDDTBg2Sal8Ahuc2gHtRCZTQDkaXnMXwGy28cZvWkX62t9H_i8jHfcEQLBDK1DRL4=",
+          "title": "nmap.org"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Nmap",
+    "domain": "nmap.org",
+    "description": "Nmap is a free and open-source network exploration tool and security scanner designed for network discovery and security audit. It is compatible with various operating systems including Linux, Windows, UNIX, and FreeBSD. Nmap is widely used in the cybersecurity industry to identify open ports, running services, and potential vulnerabilities in networked devices."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Nmap Software LLC",
+  "evidence": "Passage 0 explicitly identifies Nmap Software LLC (also operating as The Nmap Project) as the vendor and operating entity directly providing Nmap at nmap.org.",
+  "source": {
+    "id": 0,
+    "text": "The vendor and operating entity directly providing **Nmap** at **nmap.org** is **Nmap Software LLC** (also operating as **The Nmap Project**), originally created and led by developer **Gordon \"Fyodor\" Lyon**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhWz4PYKpAgWu5EMihChqUqnxZq7UsfftNq08EjlQAjRQlyiYUUlzlUkwDDTBg2Sal8Ahuc2gHtRCZTQDkaXnMXwGy28cZvWkX62t9H_i8jHfcEQLBDK1DRL4=",
+    "title": "nmap.org"
+  },
+  "checked_at": "2026-11-05T08:07:47.448579+00:00"
+}

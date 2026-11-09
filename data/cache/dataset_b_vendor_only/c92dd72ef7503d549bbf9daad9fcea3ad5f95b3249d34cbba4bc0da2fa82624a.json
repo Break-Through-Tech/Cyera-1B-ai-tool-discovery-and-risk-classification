@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Dream3D** at **dream3d.com** is **Dream3D, Inc.** (founded by Tony Francis). \n\n* **Domain & Product:** The evidence concerns the AI 3D design software **Dream3D** hosted at `dream3d.com`.\n* **Provider Statement:** The official website footer explicitly identifies the operating entity: *“© 2026 Dream3D, inc.”* (with registered patents assigned to *Dream3D, Inc.*).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Dream3D** at **dream3d.com** is **Dream3D, Inc.** (founded by Tony Francis)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7dNvcCV-pY_i7YCtUN10j04DTYjVMKtQc-jvaexM1yuixLvXcmgTDS5FLT8kuVZ_pLi7iZL2hcdEded3Bc0aUw53YFsIR9bbhJQT5GN0ENWXPPiehFj8xHmeYHg==",
+          "title": "startupintros.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Dream3D** at **dream3d.com** is **Dream3D, Inc.** (founded by Tony Francis)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2lyv1I8WEIWQyPyLacR0w1qWmzOsjra7oUYr6RRZdasAq-0P1eaVI8g_u97mx-ui2tiEiCd_kQ9BejzIRuBS4Art9ZWORZt4uRQ==",
+          "title": "dream3d.com"
+        },
+        {
+          "id": 2,
+          "text": "**Domain & Product:** The evidence concerns the AI 3D design software **Dream3D** hosted at `dream3d.com`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2lyv1I8WEIWQyPyLacR0w1qWmzOsjra7oUYr6RRZdasAq-0P1eaVI8g_u97mx-ui2tiEiCd_kQ9BejzIRuBS4Art9ZWORZt4uRQ==",
+          "title": "dream3d.com"
+        },
+        {
+          "id": 3,
+          "text": "**Domain & Product:** The evidence concerns the AI 3D design software **Dream3D** hosted at `dream3d.com`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYUuGTfIePP_jL-ck0m0MuhIgnEnbL5FUau0VF_d77UgUOmClue8FDR2A3sNzXdcqgzgoiAwXgdTTZu45077VayCxcVxmKKC9DZRj-vFBuhgJ5REuKAAkVaE7N4_OJnVkPiEY=",
+          "title": "ycombinator.com"
+        },
+        {
+          "id": 4,
+          "text": "**Provider Statement:** The official website footer explicitly identifies the operating entity: *“© 2026 Dream3D, inc.”* (wit",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2lyv1I8WEIWQyPyLacR0w1qWmzOsjra7oUYr6RRZdasAq-0P1eaVI8g_u97mx-ui2tiEiCd_kQ9BejzIRuBS4Art9ZWORZt4uRQ==",
+          "title": "dream3d.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Dream3D, Inc.",
+        "evidence": "Passage 1 directly states that the vendor providing Dream3D at dream3d.com is Dream3D, Inc.",
+        "source": {
+          "id": 1,
+          "text": "The vendor directly providing **Dream3D** at **dream3d.com** is **Dream3D, Inc.** (founded by Tony Francis)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2lyv1I8WEIWQyPyLacR0w1qWmzOsjra7oUYr6RRZdasAq-0P1eaVI8g_u97mx-ui2tiEiCd_kQ9BejzIRuBS4Art9ZWORZt4uRQ==",
+          "title": "dream3d.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Dream3d",
+    "domain": "dream3d.com",
+    "description": "Created 3D graphics intuitively."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Dream3D, Inc.",
+  "evidence": "Passage 1 directly states that the vendor providing Dream3D at dream3d.com is Dream3D, Inc.",
+  "source": {
+    "id": 1,
+    "text": "The vendor directly providing **Dream3D** at **dream3d.com** is **Dream3D, Inc.** (founded by Tony Francis)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2lyv1I8WEIWQyPyLacR0w1qWmzOsjra7oUYr6RRZdasAq-0P1eaVI8g_u97mx-ui2tiEiCd_kQ9BejzIRuBS4Art9ZWORZt4uRQ==",
+    "title": "dream3d.com"
+  },
+  "checked_at": "2026-11-05T06:42:00.045739+00:00"
+}

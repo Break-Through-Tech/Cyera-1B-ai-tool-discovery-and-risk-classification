@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **MongoDB** at **mongodb.com** is **MongoDB, Inc.**\n\n### Provider Statement & Evidence\n* **Website Terms of Use:** \n  > *\"MongoDB, Inc. ('MongoDB') may modify all or any part of these Terms of Use from time to time without notice to you...\"*\n* **Cloud Terms of Service:**\n  > *\"MongoDB, Inc., MongoDB Limited, and MongoDB Serviços de Software No Brasil LTDA ('we,' 'us,' or 'our') are pleased to offer certain web services ('Cloud Services') according to the terms and conditions in this Agreement... If you are located in the Americas (excluding Brazil and the Caribbean) or Japan, your counterparty is MongoDB, Inc.\"*\n* **Legal Hub & Copyright:** The official legal pages and site footer state: *“© MongoDB, Inc.”*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **MongoDB** at **mongodb.com** is **MongoDB, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoc_jG4ph6ydDLxS9xy2CZzhxM-m2oiQgGnrKso7fexdZEu5M-G5N2raNzXm_pSZ0mGoEb3Mph8jDGNtHpKLccxcs1kuHc_NebinMK7rqS5Yax",
+          "title": "mongodb.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **MongoDB** at **mongodb.com** is **MongoDB, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuiJtNL_juv3C4Y28D8TWMcYAGpLAcnkDe8PJt7Jpn8n-l722Qa_OrlxAofdFQEKJPCWIq4F92PhoeZhVqeq3285fltyoUpoo-CsvJDgkZSsMXeFIg853qnElsJGVIsN0=",
+          "title": "mongodb.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"MongoDB, Inc. ('MongoDB') may modify all or any part of these Terms of Use from time to time without notice to you...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuiJtNL_juv3C4Y28D8TWMcYAGpLAcnkDe8PJt7Jpn8n-l722Qa_OrlxAofdFQEKJPCWIq4F92PhoeZhVqeq3285fltyoUpoo-CsvJDgkZSsMXeFIg853qnElsJGVIsN0=",
+          "title": "mongodb.com"
+        },
+        {
+          "id": 3,
+          "text": "f you are located in the Americas (excluding Brazil and the Caribbean) or Japan, your counterparty is MongoDB, Inc.\"*\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVH9bhp0TogQdtgsyNbc99EX_hNjKxnjkmniP0OflPVH2TejADrtk7LILzAFv2vOsqvVDd0J0rMY0ZSCnxqcokUGT6kzDqjqj0u_u06JjJAdZd8V1RGFw96XVIqRblqWLnUPhPkohZ-CIw6uAyLQ==",
+          "title": "mongodb.com"
+        },
+        {
+          "id": 4,
+          "text": "MongoDB, Inc., MongoDB Limited, and MongoDB Serviços de Software No Brasil LTDA ('we,' 'us,' or 'our') are pleased to offer certain web services ('Cloud Services') according to the terms and conditions in this Agreement... ",
+          "url": "https://d7umqicpi7263.cloudfront.net/eula/product/ab5111b7-41e1-4340-8742-3246c00b0032/1d617936-a1a9-465e-b8b4-708b68248683.pdf",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "MongoDB, Inc.",
+        "evidence": "Passage 0 directly confirms that the vendor providing MongoDB at mongodb.com is MongoDB, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **MongoDB** at **mongodb.com** is **MongoDB, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoc_jG4ph6ydDLxS9xy2CZzhxM-m2oiQgGnrKso7fexdZEu5M-G5N2raNzXm_pSZ0mGoEb3Mph8jDGNtHpKLccxcs1kuHc_NebinMK7rqS5Yax",
+          "title": "mongodb.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "MongoDB",
+    "domain": "mongodb.com",
+    "description": "MongoDB, headquartered in New York, is a leading provider of a developer data platform designed to help innovators create and transform industries. Its database solutions cater to the diverse and evolving needs of modern applications, offering an integrated set of services for development teams. With a global presence, MongoDB serves tens of thousands of customers worldwide and has facilitated extensive training through MongoDB University since its inception in 2007."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "MongoDB, Inc.",
+  "evidence": "Passage 0 directly confirms that the vendor providing MongoDB at mongodb.com is MongoDB, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **MongoDB** at **mongodb.com** is **MongoDB, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoc_jG4ph6ydDLxS9xy2CZzhxM-m2oiQgGnrKso7fexdZEu5M-G5N2raNzXm_pSZ0mGoEb3Mph8jDGNtHpKLccxcs1kuHc_NebinMK7rqS5Yax",
+    "title": "mongodb.com"
+  },
+  "checked_at": "2026-11-05T09:41:55.651911+00:00"
+}

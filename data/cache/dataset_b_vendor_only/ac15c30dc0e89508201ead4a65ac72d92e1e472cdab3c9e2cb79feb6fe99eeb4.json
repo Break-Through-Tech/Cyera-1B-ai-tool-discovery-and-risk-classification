@@ -1,0 +1,107 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on the legal policies published on **bitwarden.com** for the **Bitwarden** software product:\n\n* **Direct Operating Company / Vendor:** **8bit Solutions LLC** (wholly owned by **Bitwarden Inc.**).\n\n### Evidence and Provider Statement:\n* **Terms of Service (`bitwarden.com/terms`):**\n  > *“‘Bitwarden,’ ‘8bit,’ ‘We,’ and ‘Us’ refer to 8bit Solutions LLC, as well as our affiliates, directors, subsidiaries, contractors, licensors, officers, agents, and employees. ... Bitwarden Inc. is incorporated in the State of Delaware in the United States of America. 8bit Solutions LLC is wholly owned by Bitwarden Inc.”*\n* **Privacy Policy (`bitwarden.com/privacy`):**\n  > *“Bitwarden Inc. (‘Bitwarden’) ... provides this Privacy Policy to describe the ways we collect, use, transfer, store, secure and protect Personal Information on our Bitwarden.com website (‘Site’) and in connection with the Bitwarden password management solution used by customers to securely store, share, and access passwords (‘Bitwarden Service’).”*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEP4miPZ6MHsJoo1Vf0baNc9j2tWlhjfgz85GFOlJv3Pn1U3zE3PIHcwb_JxnSN47j6Z3skLFRB6GE1A4S0ZSXUQmMGjSIM_waKELOmF6bkX_Bi",
+          "title": "bitwarden.com"
+        },
+        {
+          "id": 1,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEP4miPZ6MHsJoo1Vf0baNc9j2tWlhjfgz85GFOlJv3Pn1U3zE3PIHcwb_JxnSN47j6Z3skLFRB6GE1A4S0ZSXUQmMGjSIM_waKELOmF6bkX_Bi",
+          "title": "bitwarden.com"
+        },
+        {
+          "id": 2,
+          "text": "incorporated in the State of Delaware in the United States of America. 8bit Solutions LLC is wholly owned by Bitwarden Inc.”*\n* **Privacy Policy ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEP4miPZ6MHsJoo1Vf0baNc9j2tWlhjfgz85GFOlJv3Pn1U3zE3PIHcwb_JxnSN47j6Z3skLFRB6GE1A4S0ZSXUQmMGjSIM_waKELOmF6bkX_Bi",
+          "title": "bitwarden.com"
+        },
+        {
+          "id": 3,
+          "text": "incorporated in the State of Delaware in the United States of America. 8bit Solutions LLC is wholly owned by Bitwarden Inc.”*\n* **Privacy Policy ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEP4miPZ6MHsJoo1Vf0baNc9j2tWlhjfgz85GFOlJv3Pn1U3zE3PIHcwb_JxnSN47j6Z3skLFRB6GE1A4S0ZSXUQmMGjSIM_waKELOmF6bkX_Bi",
+          "title": "bitwarden.com"
+        },
+        {
+          "id": 4,
+          "text": "this Privacy Policy to describe the ways we collect, use, transfer, store, secure and protect Personal Information on our Bitwarden.com website (‘Site’) and in connection with the Bitwarden password management solution used by customers to securely store, share, and access passwords (‘Bitwarden Serv",
+          "url": "https://bitwarden.com/privacy/",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "unknown",
+        "vendor": "UNKNOWN",
+        "evidence": "The available passages do not establish the provider relationship. Passage 2 and 3 mention that 8bit Solutions LLC is wholly owned by Bitwarden Inc. without stating that either entity operates or develops the Bitwarden product, and Passage 4 references the Bitwarden password management solution without naming the operating company or vendor."
+      }
+    },
+    {
+      "answer": "The vendor directly providing **Bitwarden** at **bitwarden.com** is **Bitwarden, Inc.**\n\n### Provider Evidence & Citation\n* According to the **Bitwarden Terms of Service** (`bitwarden.com/terms/`):\n  > \"Bitwarden Inc. is incorporated in the State of Delaware in the United States of America. 8bit Solutions LLC is wholly owned by Bitwarden Inc.\"\n* According to the **Bitwarden Privacy Policy** (`bitwarden.com/privacy/`):\n  > \"Bitwarden Inc. ('Bitwarden') complies with the EU-U.S. Data Privacy Framework... Bitwarden provides this Privacy Policy to describe the ways we collect, use, transfer, store, secure and protect Personal Information on our Bitwarden.com website ('Site') and in connection with the Bitwarden password management solution...\"",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Bitwarden** at **bitwarden.com** is **Bitwarden, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGm27XCzvJ26pmqXpL61lkvmvfYWdSVtKqISWHZZhCk2InM-j0JspEWoVT_hDW5Pdklgq5R2FL1fJpdRk9s8xcvF8vPXVSm_p4_iGkT4CWSr4K_Qxw=",
+          "title": "bitwarden.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Bitwarden** at **bitwarden.com** is **Bitwarden, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEU86vNvS-zAFTaxWlAWgrxK-cc6GGNxPQwGcRvgcbeOBvSRl9iV1M8Csks1EsaGzKB4oesJ3WgFoZoBylIdO5rU1PfRw4ATHBFDY4clAFN2ufx",
+          "title": "bitwarden.com"
+        },
+        {
+          "id": 2,
+          "text": "\"Bitwarden Inc. is incorporated in the State of Delaware in the United States of America. 8bit Solutions LLC is wholly owned by Bitwarden Inc.\"",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEU86vNvS-zAFTaxWlAWgrxK-cc6GGNxPQwGcRvgcbeOBvSRl9iV1M8Csks1EsaGzKB4oesJ3WgFoZoBylIdO5rU1PfRw4ATHBFDY4clAFN2ufx",
+          "title": "bitwarden.com"
+        },
+        {
+          "id": 3,
+          "text": "Bitwarden provides this Privacy Policy to describe the ways we collect, use, transfer, store, secure and protect Personal Information on our Bitwarden.com website ('Site') and in connection with the Bitwarden password management solution...\"",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGm27XCzvJ26pmqXpL61lkvmvfYWdSVtKqISWHZZhCk2InM-j0JspEWoVT_hDW5Pdklgq5R2FL1fJpdRk9s8xcvF8vPXVSm_p4_iGkT4CWSr4K_Qxw=",
+          "title": "bitwarden.com"
+        },
+        {
+          "id": 4,
+          "text": "this Privacy Policy to describe the ways we collect, use, transfer, store, secure and protect Personal Information on our Bitwarden.com website ('Site') and in connection with the Bitwarden password management solution",
+          "url": "https://bitwarden.com/privacy/",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Bitwarden, Inc.",
+        "evidence": "Passage 0 directly states that the vendor providing Bitwarden at bitwarden.com is Bitwarden, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Bitwarden** at **bitwarden.com** is **Bitwarden, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGm27XCzvJ26pmqXpL61lkvmvfYWdSVtKqISWHZZhCk2InM-j0JspEWoVT_hDW5Pdklgq5R2FL1fJpdRk9s8xcvF8vPXVSm_p4_iGkT4CWSr4K_Qxw=",
+          "title": "bitwarden.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Bitwarden",
+    "domain": "bitwarden.com",
+    "description": "Bitwarden, developed by 8bit Solutions LLC, is a secure identity management solution designed for individuals, teams, and organizations. It offers robust password management features that enhance security and streamline the process of managing credentials. The company operates primarily in the digital security and identity management sector, offering services globally through its user-friendly platform."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Bitwarden, Inc.",
+  "evidence": "Passage 0 directly states that the vendor providing Bitwarden at bitwarden.com is Bitwarden, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Bitwarden** at **bitwarden.com** is **Bitwarden, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGm27XCzvJ26pmqXpL61lkvmvfYWdSVtKqISWHZZhCk2InM-j0JspEWoVT_hDW5Pdklgq5R2FL1fJpdRk9s8xcvF8vPXVSm_p4_iGkT4CWSr4K_Qxw=",
+    "title": "bitwarden.com"
+  },
+  "checked_at": "2026-11-05T08:08:30.329777+00:00"
+}

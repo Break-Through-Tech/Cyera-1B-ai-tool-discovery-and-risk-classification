@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product **Smartcat** at **smartcat.com** is **Smartcat Platform Inc.**.\n\n### Supporting Evidence\n* **Official Website Footer (smartcat.com):** \n  > *\"© Smartcat Platform Inc. 2026 | 2810 N Church St PMB 50985, Wilmington, Delaware, 19802-4447, USA.\"*\n* **Smartcat Help & Supplier Documentation:** Identifies the operating entity and recipient/issuer of platform transactions as **Smartcat Platform Inc.** (EIN: 811551044, located at 2810 N Church St PMB 50985, Wilmington, Delaware, USA).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product **Smartcat** at **smartcat.com** is **Smartcat Platform Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGD5PtMI83hcKt2u3mu1UsWWjOUrdxsrlFq_qDAjPOyUCo1AnY9nuxIZBB-x3hHK3CEMRQvlg40MHTi171xU_LRiJKihxXgz6G1Yz27nDxAGJPrBryl-uQ9Dw==",
+          "title": "explain-ai.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the software product **Smartcat** at **smartcat.com** is **Smartcat Platform Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMHZMPJNW82oD-KX983tIpVq4BeOKL4p3XNo9kjZPfgSEzSP2T4MJoqELjsSnW0f-3dGRw8bEdR04TJyOJdau6wz8RaG2CTQYabPH1BI0p",
+          "title": "smartcat.com"
+        },
+        {
+          "id": 2,
+          "text": "026 | 2810 N Church St PMB 50985, Wilmington, Delaware, 19802-4447, USA.\"*\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMHZMPJNW82oD-KX983tIpVq4BeOKL4p3XNo9kjZPfgSEzSP2T4MJoqELjsSnW0f-3dGRw8bEdR04TJyOJdau6wz8RaG2CTQYabPH1BI0p",
+          "title": "smartcat.com"
+        },
+        {
+          "id": 3,
+          "text": "*Smartcat Help & Supplier Documentation:** Identifies the operating entity and recipient/issuer of platform transactions as **Smartcat Platform Inc.** (EIN: 811551044, located at 2810 N Church St PMB 50985, Wilmington, Delaware, USA).",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7GoExtOcqzBfl4Xcz3DAD7OUZagU3C3IEbtSiCJCfqM6hIy0NOSNNYLSFEg7VoZyTnthWHowP2cXEa6I_zgOFjeE2CYKLjfQiVgPj3SwyP8Uq-h0MPlQ0i396PlLf9eCP1LhqT6nhtnYLjE8r6Q0is9kz7gI=",
+          "title": "smartcat.com"
+        },
+        {
+          "id": 4,
+          "text": "*Smartcat Help & Supplier Documentation:** Identifies the operating entity and recipient/issuer of platform transactions as **Smartcat Platform Inc.** (EIN: 811551044, located at 2810 N Church St PMB 50985, Wilmington, Delaware, USA).",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzGxWB1rOLtArJqCpaA1nc8ndVQldKN5odbbYJRHIRp4M7A0QTTdDUzfWKq4qCpuM_-Xt8AZ7JpyVLhqNcIVGmMBnboeLjmibfbhd5pdGhILDOdzFww5A=",
+          "title": "smartcat.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Smartcat Platform Inc.",
+        "evidence": "Passage 1 confirms that the vendor directly providing the software product Smartcat at smartcat.com is Smartcat Platform Inc.",
+        "source": {
+          "id": 1,
+          "text": "The vendor directly providing the software product **Smartcat** at **smartcat.com** is **Smartcat Platform Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMHZMPJNW82oD-KX983tIpVq4BeOKL4p3XNo9kjZPfgSEzSP2T4MJoqELjsSnW0f-3dGRw8bEdR04TJyOJdau6wz8RaG2CTQYabPH1BI0p",
+          "title": "smartcat.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Smartcat",
+    "domain": "smartcat.com",
+    "description": "Smartcat is a cloud-based translation management system (TMS) that streamlines the entire translation workflow, from project management and vendor collaboration to quality assurance and reporting."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Smartcat Platform Inc.",
+  "evidence": "Passage 1 confirms that the vendor directly providing the software product Smartcat at smartcat.com is Smartcat Platform Inc.",
+  "source": {
+    "id": 1,
+    "text": "The vendor directly providing the software product **Smartcat** at **smartcat.com** is **Smartcat Platform Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMHZMPJNW82oD-KX983tIpVq4BeOKL4p3XNo9kjZPfgSEzSP2T4MJoqELjsSnW0f-3dGRw8bEdR04TJyOJdau6wz8RaG2CTQYabPH1BI0p",
+    "title": "smartcat.com"
+  },
+  "checked_at": "2026-11-05T07:16:55.145743+00:00"
+}

@@ -1,0 +1,85 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Reppls** at **reppls.com** is **Reppls, Inc.**.\n\n### Evidence:\n* The official website (`reppls.com`), including its About page, Terms of Service, and Privacy Policy, displays the copyright and operating entity notice: **\"© 2026 Reppls, Inc.\"**.\n* The legal terms and privacy documentation for the domain list the operating address as **1111B S Governors Ave STE 21573, Dover, DE 19904, US**, and define the contracting entity and service provider as **Reppls / Reppls, Inc.**.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Reppls** at **reppls.com** is **Reppls, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-yzkHNEWDKY6eqofhyOPTtGzIz4RWqE3ge1St5_dyUPbu4xeuhSoNr2OlJDkZcob4KKQrhUOwSOwYXALZZaL0O0CZBKrSQC_u",
+          "title": "reppls.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Reppls** at **reppls.com** is **Reppls, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_zU4kO6tzGIeoeKGT10KneF6VazOnrNqFixJNVTZi2CZBuSm1Vg4ogdsnvswvl7SkcZg0qsnPt-dRvZOyo6TjUbORWzRgSYRjFmnWc7dfaX8sguj4GjI=",
+          "title": "reppls.com"
+        },
+        {
+          "id": 2,
+          "text": "The official website (`reppls.com`), including its About page, Terms of Service, and Privacy Policy, displays the copyright and operating entity notice: **\"© 2026 Reppls, Inc.\"**.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-yzkHNEWDKY6eqofhyOPTtGzIz4RWqE3ge1St5_dyUPbu4xeuhSoNr2OlJDkZcob4KKQrhUOwSOwYXALZZaL0O0CZBKrSQC_u",
+          "title": "reppls.com"
+        },
+        {
+          "id": 3,
+          "text": "The official website (`reppls.com`), including its About page, Terms of Service, and Privacy Policy, displays the copyright and operating entity notice: **\"© 2026 Reppls, Inc.\"**.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_zU4kO6tzGIeoeKGT10KneF6VazOnrNqFixJNVTZi2CZBuSm1Vg4ogdsnvswvl7SkcZg0qsnPt-dRvZOyo6TjUbORWzRgSYRjFmnWc7dfaX8sguj4GjI=",
+          "title": "reppls.com"
+        },
+        {
+          "id": 4,
+          "text": "The official website (`reppls.com`), including its About page, Terms of Service, and Privacy Policy, displays the copyright and operating entity notice: **\"© 2026 Reppls, Inc.\"**.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtbfCQo4KI7VHeW2hbQYPgYwPaTFTkxrRefIGZoFuX-q6QscmoYu2T-7PiwSfaHWVgBj_fTkjOIxQO7gsa454L0kAFzqzia3TfC6Ds5-8=",
+          "title": "reppls.com"
+        },
+        {
+          "id": 5,
+          "text": "he legal terms and privacy documentation for the domain list the operating address as **1111B S Governors Ave STE 21573, Dover, DE 19904, US**, and define the contracting entity and service provider as **Reppls / Reppls, Inc.**.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGD_pXPXmdbNaHF8tp17rhJiz-ot9darOe1DIOaa-wfVu7JuMze8rXjUJIICvVWnFNPuXbO3QpCcGcVqwC-fRmmBgeTDP6q_pHTqPO7JECW1qy_t6CLxqOPGS1r1ew=",
+          "title": "getscoutmesh.com"
+        },
+        {
+          "id": 6,
+          "text": "he legal terms and privacy documentation for the domain list the operating address as **1111B S Governors Ave STE 21573, Dover, DE 19904, US**, and define the contracting entity and service provider as **Reppls / Reppls, Inc.**.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_zU4kO6tzGIeoeKGT10KneF6VazOnrNqFixJNVTZi2CZBuSm1Vg4ogdsnvswvl7SkcZg0qsnPt-dRvZOyo6TjUbORWzRgSYRjFmnWc7dfaX8sguj4GjI=",
+          "title": "reppls.com"
+        },
+        {
+          "id": 7,
+          "text": "he legal terms and privacy documentation for the domain list the operating address as **1111B S Governors Ave STE 21573, Dover, DE 19904, US**, and define the contracting entity and service provider as **Reppls / Reppls, Inc.**.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwN8SpFOAkIMuO4cvAc8-Agypqns00yTHIUf_JnHZzkKcP7-cR0MS9v9Exnl-ANj6WM4QsPhTG6Bs-VfkFwUX9O8EBtZduThkj5X7lF8r52xyqWrJCQT_29w==",
+          "title": "reppls.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Reppls, Inc.",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing Reppls at reppls.com is Reppls, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Reppls** at **reppls.com** is **Reppls, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-yzkHNEWDKY6eqofhyOPTtGzIz4RWqE3ge1St5_dyUPbu4xeuhSoNr2OlJDkZcob4KKQrhUOwSOwYXALZZaL0O0CZBKrSQC_u",
+          "title": "reppls.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Reppls",
+    "domain": "reppls.com",
+    "description": "AI Interview Agents for data driven hiring"
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Reppls, Inc.",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing Reppls at reppls.com is Reppls, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Reppls** at **reppls.com** is **Reppls, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-yzkHNEWDKY6eqofhyOPTtGzIz4RWqE3ge1St5_dyUPbu4xeuhSoNr2OlJDkZcob4KKQrhUOwSOwYXALZZaL0O0CZBKrSQC_u",
+    "title": "reppls.com"
+  },
+  "checked_at": "2026-11-05T07:24:37.231589+00:00"
+}

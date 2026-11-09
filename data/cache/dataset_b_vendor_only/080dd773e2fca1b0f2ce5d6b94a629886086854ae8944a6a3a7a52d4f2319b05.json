@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **TypeScript** at **typescriptlang.org** is **Microsoft** (Microsoft Corporation).\n\n### Evidence\n* Across the pages of **typescriptlang.org** (including the homepage and documentation), the site footer displays the Microsoft logo and copyright notice: \n  > *\"Made with ♥ in Redmond, Boston, SF & Dublin. Microsoft Logo. © 2012–2026 Microsoft Privacy Terms of Use.\"*\n* The software license terms and policies provided for TypeScript reference agreements with **Microsoft Corporation** and link directly to Microsoft's terms and privacy policies.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **TypeScript** at **typescriptlang.org** is **Microsoft** (Microsoft Corporation)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEunSPXItxm2Oaw399_1SIlb_Ly8uzvgyIJKFnynVRKpb8s_c7ZDvKBaHZMjduIFa9t7hrtLT0lAcNeuXxyoxhIMgvPOZzT5TT-aNyfzIqirlpJThoHuJ1TsBGTfk3RNV5F",
+          "title": "typescriptlang.org"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **TypeScript** at **typescriptlang.org** is **Microsoft** (Microsoft Corporation)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRONDGdw_3Ae1potHNG-AHDMOcOpQ60-ez4Z3I5srShbg1hWAjXPakv-YmZoNrKnemM8ILEa25uglcKuTJh_dy90AsxO6MSwudctUb_uIv9vlYP2iuIMHXdpYvoQ9SN1iXj0yC31DVLzIUwNM-8PkE_8j7iKgGxnQRlNRvqSAo2Ul_0AGFweSdNg==",
+          "title": "typescriptlang.org"
+        },
+        {
+          "id": 2,
+          "text": "2012–2026 Microsoft Privacy Terms of Use.\"*\n* Th",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRONDGdw_3Ae1potHNG-AHDMOcOpQ60-ez4Z3I5srShbg1hWAjXPakv-YmZoNrKnemM8ILEa25uglcKuTJh_dy90AsxO6MSwudctUb_uIv9vlYP2iuIMHXdpYvoQ9SN1iXj0yC31DVLzIUwNM-8PkE_8j7iKgGxnQRlNRvqSAo2Ul_0AGFweSdNg==",
+          "title": "typescriptlang.org"
+        },
+        {
+          "id": 3,
+          "text": "2012–2026 Microsoft Privacy Terms of Use.\"*\n* Th",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFb-XMAmGbNn4l5IeZugYExnxjOaaMEu5p_bE-CUakogntMU5SHh1IS2k1Tt16PIDSo1fUyZo0lCiPCPNGcDO1BeYVYb4zqNQLwUif5ygaLL8cOF8pB",
+          "title": "typescriptlang.org"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Microsoft",
+        "evidence": "Passage 0 directly states that the vendor directly providing TypeScript at typescriptlang.org is Microsoft (Microsoft Corporation).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **TypeScript** at **typescriptlang.org** is **Microsoft** (Microsoft Corporation)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEunSPXItxm2Oaw399_1SIlb_Ly8uzvgyIJKFnynVRKpb8s_c7ZDvKBaHZMjduIFa9t7hrtLT0lAcNeuXxyoxhIMgvPOZzT5TT-aNyfzIqirlpJThoHuJ1TsBGTfk3RNV5F",
+          "title": "typescriptlang.org"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "TypeScript",
+    "domain": "typescriptlang.org",
+    "description": "TypeScript is a programming language developed by Microsoft that enhances JavaScript by introducing static typing. This addition helps developers identify errors early in the development process, streamlining coding and optimizing the overall experience. TypeScript is widely used for building robust applications and can be compiled into plain JavaScript, making it compatible with various JavaScript environments."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Microsoft",
+  "evidence": "Passage 0 directly states that the vendor directly providing TypeScript at typescriptlang.org is Microsoft (Microsoft Corporation).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **TypeScript** at **typescriptlang.org** is **Microsoft** (Microsoft Corporation)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEunSPXItxm2Oaw399_1SIlb_Ly8uzvgyIJKFnynVRKpb8s_c7ZDvKBaHZMjduIFa9t7hrtLT0lAcNeuXxyoxhIMgvPOZzT5TT-aNyfzIqirlpJThoHuJ1TsBGTfk3RNV5F",
+    "title": "typescriptlang.org"
+  },
+  "checked_at": "2026-11-05T09:47:42.066375+00:00"
+}

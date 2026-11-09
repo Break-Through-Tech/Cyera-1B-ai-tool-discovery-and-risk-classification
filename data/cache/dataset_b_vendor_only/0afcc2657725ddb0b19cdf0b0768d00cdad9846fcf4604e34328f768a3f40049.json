@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **RealVNC** at **realvnc.com** is **RealVNC Limited** (also operating as **RealVNC Ltd**).\n\n### Evidence\n* **Legal and Licensing Documents:** According to the official legal and licensing agreements on realvnc.com (such as the VNC SDK Evaluation Licence Agreement and Data Processing Agreement), the contracting entity is defined as:\n  > *\"RealVNC Limited a company incorporated and registered in England and Wales with company number 04446945 whose registered office is at Edinburgh House, St John's Innovation Park, Cowley Road, Cambridge CB4 0WS.\"*\n* **Legal Overview:** The company's legal page states:\n  > *\"RealVNC® is a registered Private Limited Company. Company Registration Number (CRN): 04446945. ... RealVNC®, VNC® and RFB® are trademarks of RealVNC Limited...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **RealVNC** at **realvnc.com** is **RealVNC Limited** (also operating as **RealVNC Ltd**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbWgNy7HM546OjP30YKoQ0ECE7h6ekZmNEUXABdKl-4hJcaPk9I5cpr_3aUZzU9rGjBbDtaXSx2mbohY0ZwM01jCP56usPrNxiJ36WsEOpM16IFS_1BDE7Lgps1BC-NXgv0PAqm2-KJ2WPsPAzEywy-wEz6oPxZaIPysCmluesATeCsBOER4Ia8iRiOffgcg==",
+          "title": "realvnc.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **RealVNC** at **realvnc.com** is **RealVNC Limited** (also operating as **RealVNC Ltd**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBGLsxrW40hZdaehEF0Ug33Hu3PdSTcSFBLbbPf9VynxDO1FqhG5CTSITcnlAq-vBj8pDTRBITfk51x-hZPx68CuQVbVXMwafKM5VTOC1INZmxl5ri3M_i6XhwFA==",
+          "title": "realvnc.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"RealVNC Limited a company incorporated and registered in England and Wales with company number 04446945 whose registered office is at Edinburgh House, St John's Innovation Park, Cowley Road, Cambridge CB4 0WS.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbWgNy7HM546OjP30YKoQ0ECE7h6ekZmNEUXABdKl-4hJcaPk9I5cpr_3aUZzU9rGjBbDtaXSx2mbohY0ZwM01jCP56usPrNxiJ36WsEOpM16IFS_1BDE7Lgps1BC-NXgv0PAqm2-KJ2WPsPAzEywy-wEz6oPxZaIPysCmluesATeCsBOER4Ia8iRiOffgcg==",
+          "title": "realvnc.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "RealVNC Limited",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing RealVNC at realvnc.com is RealVNC Limited (also operating as RealVNC Ltd).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **RealVNC** at **realvnc.com** is **RealVNC Limited** (also operating as **RealVNC Ltd**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbWgNy7HM546OjP30YKoQ0ECE7h6ekZmNEUXABdKl-4hJcaPk9I5cpr_3aUZzU9rGjBbDtaXSx2mbohY0ZwM01jCP56usPrNxiJ36WsEOpM16IFS_1BDE7Lgps1BC-NXgv0PAqm2-KJ2WPsPAzEywy-wEz6oPxZaIPysCmluesATeCsBOER4Ia8iRiOffgcg==",
+          "title": "realvnc.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "RealVNC",
+    "domain": "realvnc.com",
+    "description": "RealVNC is a premier provider of remote access solutions, having developed the VNC internet protocol that is now a standard in the industry. Their award-winning software, VNC Connect, is utilized by over 90,000 enterprise organizations worldwide, including notable companies like Google, NASA, and Intel. With software installed on more than 1 billion devices, RealVNC is committed to evolving remote connectivity for businesses across various sectors."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "RealVNC Limited",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing RealVNC at realvnc.com is RealVNC Limited (also operating as RealVNC Ltd).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **RealVNC** at **realvnc.com** is **RealVNC Limited** (also operating as **RealVNC Ltd**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbWgNy7HM546OjP30YKoQ0ECE7h6ekZmNEUXABdKl-4hJcaPk9I5cpr_3aUZzU9rGjBbDtaXSx2mbohY0ZwM01jCP56usPrNxiJ36WsEOpM16IFS_1BDE7Lgps1BC-NXgv0PAqm2-KJ2WPsPAzEywy-wEz6oPxZaIPysCmluesATeCsBOER4Ia8iRiOffgcg==",
+    "title": "realvnc.com"
+  },
+  "checked_at": "2026-11-05T09:13:44.102108+00:00"
+}

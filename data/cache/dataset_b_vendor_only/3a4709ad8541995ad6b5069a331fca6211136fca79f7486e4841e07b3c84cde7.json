@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **HelloBar** at **hellobar.com** is **Hello Bar LLC**.\n\n### Supporting Evidence:\n* **Terms of Use:** \n  > *\"These 'Terms of Use' (sometimes referred to as this 'Agreement') constitutes a legal agreement between you and Hello Bar LLC ('Hello Bar,' 'Company,' 'we,' or 'us').\"*\n* **Privacy Policy:** \n  > *\"The terms 'we,' 'us,' and 'Company' refer to Hello Bar LLC, a limited liability company organized and existing under the laws of the State of California, or any successor or assignee of the Company. We are in the business of providing an online platform that our customers may use to create and deploy 'Hello Bar' embeddable JavaScript code snippets... The term 'Website' refers to the website with the URL https://www.hellobar.com and any websites attending that domain.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **HelloBar** at **hellobar.com** is **Hello Bar LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZLvZLqDWIcHuyRVP_uHS7LQhlTybOOjnIx5DBADRXcz3GObOXvRiu0iRX97BlNyCgD52xCnisgl6lD33sIVPmYj3UNcYuMD7aQ-4UqEyuq0oPXmPDPv4wdcboDcAV",
+          "title": "hellobar.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **HelloBar** at **hellobar.com** is **Hello Bar LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGRVgyDp24fWjn9CailYX7kjqgCVFzYFekMdanFV3oQztR0p1xDAj9BIC75aUM1Sb-qo6u1_H-X0ka9WuZDm5FbgtuG6roilp7psda16u-Var7BEhjLVdz4k27sA==",
+          "title": "hellobar.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"These 'Terms of Use' (sometimes referred to as this 'Agreement') constitutes a legal agreement between you and Hello Bar LLC ('Hello Bar,' 'Company,' 'we,' or 'us').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGRVgyDp24fWjn9CailYX7kjqgCVFzYFekMdanFV3oQztR0p1xDAj9BIC75aUM1Sb-qo6u1_H-X0ka9WuZDm5FbgtuG6roilp7psda16u-Var7BEhjLVdz4k27sA==",
+          "title": "hellobar.com"
+        },
+        {
+          "id": 3,
+          "text": "The term 'Website' refers to the website with the URL https://www.hellobar.com and any websites attending that domain.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZLvZLqDWIcHuyRVP_uHS7LQhlTybOOjnIx5DBADRXcz3GObOXvRiu0iRX97BlNyCgD52xCnisgl6lD33sIVPmYj3UNcYuMD7aQ-4UqEyuq0oPXmPDPv4wdcboDcAV",
+          "title": "hellobar.com"
+        },
+        {
+          "id": 4,
+          "text": "The terms 'we,' 'us,' and 'Company' refer to Hello Bar LLC, a limited liability company organized and existing under the laws of the State of California, or any successor or assignee of the Company. We are in the business of providing an online platform that our c",
+          "url": "https://www.hellobar.com/privacy-policy/",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Hello Bar LLC",
+        "evidence": "Passage 0 directly states that the vendor providing HelloBar at hellobar.com is Hello Bar LLC.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **HelloBar** at **hellobar.com** is **Hello Bar LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZLvZLqDWIcHuyRVP_uHS7LQhlTybOOjnIx5DBADRXcz3GObOXvRiu0iRX97BlNyCgD52xCnisgl6lD33sIVPmYj3UNcYuMD7aQ-4UqEyuq0oPXmPDPv4wdcboDcAV",
+          "title": "hellobar.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "HelloBar",
+    "domain": "hellobar.com",
+    "description": "HelloBar offers software solutions designed to enhance website effectiveness by converting visitors who would otherwise leave without taking action. Their tools focus on engaging the majority of users and optimizing interactions to boost conversions."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Hello Bar LLC",
+  "evidence": "Passage 0 directly states that the vendor providing HelloBar at hellobar.com is Hello Bar LLC.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **HelloBar** at **hellobar.com** is **Hello Bar LLC**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZLvZLqDWIcHuyRVP_uHS7LQhlTybOOjnIx5DBADRXcz3GObOXvRiu0iRX97BlNyCgD52xCnisgl6lD33sIVPmYj3UNcYuMD7aQ-4UqEyuq0oPXmPDPv4wdcboDcAV",
+    "title": "hellobar.com"
+  },
+  "checked_at": "2026-11-05T09:07:38.826134+00:00"
+}

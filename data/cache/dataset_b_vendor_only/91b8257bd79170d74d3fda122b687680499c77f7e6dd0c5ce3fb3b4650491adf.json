@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "**Product & Domain:** CoffeeScript (`coffeescript.org`)\n\n**Provider/Developer:** **Jeremy Ashkenas** (open-source software project with community contributors)\n\n**Evidence / Citation:**\n* The official project `package.json` for the software directly designates Jeremy Ashkenas as the author and references `https://coffeescript.org` as its homepage:\n  > `\"author\": \"Jeremy Ashkenas\",`  \n  > `\"homepage\": \"https://coffeescript.org\"`\n* Official documentation and license notices for CoffeeScript state: \n  > `\"© 2009–2018 Jeremy Ashkenas Licensed under the MIT License.\"`",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**Product & Domain:** CoffeeScript (`coffeescript.org`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGi4-p_TOiNwtPIVTvtRsK3zaSWnzCOwjg5bum5Xh2ySlCWgmyl4trTnY64faPDG_0uBMrUO-woswNOfhVRvtZfUYxpGoPfvf_KzxTS4OH2",
+          "title": "coffeescript.org"
+        },
+        {
+          "id": 1,
+          "text": "**Product & Domain:** CoffeeScript (`coffeescript.org`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6N8OUs4_vmNf2lvSn_JZyhO13ko8yr-YdNb_AmzyYtdIKnTb755PHljWoDb8ZjrPDH_UQ_Alv34Fg6fWrXkeZUkDs5gR6Rrwa2R9Lgfti3HEFYPHAzfa1L17uzeRkPgruPzu-XyzxVH1HQRWxxFY02_7u4AXq",
+          "title": "github.com"
+        },
+        {
+          "id": 2,
+          "text": "**Provider/Developer:** **Jeremy Ashkenas** (open-source software project with community contributors)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOv5MvlflypHGCeM8KqO2rzIIi207PSYNekesE-Zde5yqW_U0Ok_z0P7GLjz8sPAZnyz4MdLwxGMdtQ6OHHGRu3abNIgSt9qO6dtXSTP9suZr0vBE5SMxj6fhCUpA5fwY=",
+          "title": "wikipedia.org"
+        },
+        {
+          "id": 3,
+          "text": "**Provider/Developer:** **Jeremy Ashkenas** (open-source software project with community contributors)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6N8OUs4_vmNf2lvSn_JZyhO13ko8yr-YdNb_AmzyYtdIKnTb755PHljWoDb8ZjrPDH_UQ_Alv34Fg6fWrXkeZUkDs5gR6Rrwa2R9Lgfti3HEFYPHAzfa1L17uzeRkPgruPzu-XyzxVH1HQRWxxFY02_7u4AXq",
+          "title": "github.com"
+        },
+        {
+          "id": 4,
+          "text": "**Provider/Developer:** **Jeremy Ashkenas** (open-source software project with community contributors)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnlZUV86RcXrSEEAawO19Ph32QF8VOJV3yrO4DT0crv6iBjfGW1wlFYL-abWRFHDIIijGZ4S9nxne7Y5lE87sexIC61I-rrMQY1NaW3J-JMfNd_QUMNfe7JEtUr6gdpSM=",
+          "title": "bestofjs.org"
+        },
+        {
+          "id": 5,
+          "text": "`\"homepage\": \"https://coffeescript.org\"`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6N8OUs4_vmNf2lvSn_JZyhO13ko8yr-YdNb_AmzyYtdIKnTb755PHljWoDb8ZjrPDH_UQ_Alv34Fg6fWrXkeZUkDs5gR6Rrwa2R9Lgfti3HEFYPHAzfa1L17uzeRkPgruPzu-XyzxVH1HQRWxxFY02_7u4AXq",
+          "title": "github.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Jeremy Ashkenas",
+        "evidence": "Passage 3 explicitly identifies Jeremy Ashkenas as the provider and developer of CoffeeScript.",
+        "source": {
+          "id": 3,
+          "text": "**Provider/Developer:** **Jeremy Ashkenas** (open-source software project with community contributors)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6N8OUs4_vmNf2lvSn_JZyhO13ko8yr-YdNb_AmzyYtdIKnTb755PHljWoDb8ZjrPDH_UQ_Alv34Fg6fWrXkeZUkDs5gR6Rrwa2R9Lgfti3HEFYPHAzfa1L17uzeRkPgruPzu-XyzxVH1HQRWxxFY02_7u4AXq",
+          "title": "github.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "CoffeeScript",
+    "domain": "coffeescript.org",
+    "description": "CoffeeScript is a programming language that simplifies JavaScript development by offering a more concise and readable syntax. It transcompiles scripts written in CoffeeScript into standard JavaScript, enhancing code efficiency and maintainability. The language is widely used among developers for creating web applications and is supported by various development tools."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Jeremy Ashkenas",
+  "evidence": "Passage 3 explicitly identifies Jeremy Ashkenas as the provider and developer of CoffeeScript.",
+  "source": {
+    "id": 3,
+    "text": "**Provider/Developer:** **Jeremy Ashkenas** (open-source software project with community contributors)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6N8OUs4_vmNf2lvSn_JZyhO13ko8yr-YdNb_AmzyYtdIKnTb755PHljWoDb8ZjrPDH_UQ_Alv34Fg6fWrXkeZUkDs5gR6Rrwa2R9Lgfti3HEFYPHAzfa1L17uzeRkPgruPzu-XyzxVH1HQRWxxFY02_7u4AXq",
+    "title": "github.com"
+  },
+  "checked_at": "2026-11-05T09:13:06.555889+00:00"
+}

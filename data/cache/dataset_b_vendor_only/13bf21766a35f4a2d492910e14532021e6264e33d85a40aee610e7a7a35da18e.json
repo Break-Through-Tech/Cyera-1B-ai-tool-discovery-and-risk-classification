@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "**Product & Domain:** **ClicKarma** (`clickarma.io`)\n\n**Direct Provider / Vendor:** **ClicKarma**\n\n**Provider Statements & Evidence:**\n* **Official Website Footer / Disclaimer:** *\"ClicKarma is not affiliated with any search engine and is an independent provider.\"*\n* **About Page:** *\"Founded in 2022, ClicKarma emerged as a revolutionary response to the escalating challenges of click fraud in the digital advertising realm... We pride ourselves on being more than just a service provider.\"*\n* **Terms, Copyright & Privacy Notices:** The site issues its policies under the name ClicKarma (*\"Copyrights ©2023 ClicKarma. Privacy policy · Terms and conditions · Refund policy\"*, *\"By registering with ClicKarma, you are agreeing to our Terms & Conditions and Privacy Policy\"*, and contact via `dataprivacy@clickarma.io`).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**Product & Domain:** **ClicKarma** (`clickarma.io`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlZVMns99ea7NkGcTZRq-wLIe025GD2HvmRxiDVBysZjHaounhHKy-reTz_VUdaTzQ9_xCVOU_VVa1lpTxRMqt9AF7uPvJNN1w7l0=",
+          "title": "clickarma.io"
+        },
+        {
+          "id": 1,
+          "text": "**Product & Domain:** **ClicKarma** (`clickarma.io`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLS4pBjnEGCP0AKD-BQNwrTEX_79kvaEX1B3CDDy33VXokwUIkNHcEqO-QUclIEtvtJYFyq6xywvKPTNwIxXQJShfojATLs6kURLHGhL45n88DDoMXsJh9pEmLqmKZeBcs8V6OC7EAZVssUAtVL0dQtHSQqdAj069JsA==",
+          "title": "slashdot.org"
+        },
+        {
+          "id": 2,
+          "text": "**Direct Provider / Vendor:** **ClicKarma**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlZVMns99ea7NkGcTZRq-wLIe025GD2HvmRxiDVBysZjHaounhHKy-reTz_VUdaTzQ9_xCVOU_VVa1lpTxRMqt9AF7uPvJNN1w7l0=",
+          "title": "clickarma.io"
+        },
+        {
+          "id": 3,
+          "text": "**Direct Provider / Vendor:** **ClicKarma**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZ2g25-wXE8gYXgmw4uM2UDAjgf8iHKgljCtcJ2LNy61KPZHQMgdu8Dcn4dQdorerbzpYAK_azXkOH9uz7sBS3BErfQ4evy1qKN7SSHpjSZKIufg==",
+          "title": "clickarma.io"
+        },
+        {
+          "id": 4,
+          "text": "**Official Website Footer / Disclaimer:** *\"ClicKarma is not affiliated with any search engine and is an independent provider.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlZVMns99ea7NkGcTZRq-wLIe025GD2HvmRxiDVBysZjHaounhHKy-reTz_VUdaTzQ9_xCVOU_VVa1lpTxRMqt9AF7uPvJNN1w7l0=",
+          "title": "clickarma.io"
+        },
+        {
+          "id": 5,
+          "text": "We pride ourselves on being more than just a service provider.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZ2g25-wXE8gYXgmw4uM2UDAjgf8iHKgljCtcJ2LNy61KPZHQMgdu8Dcn4dQdorerbzpYAK_azXkOH9uz7sBS3BErfQ4evy1qKN7SSHpjSZKIufg==",
+          "title": "clickarma.io"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "ClicKarma",
+        "evidence": "ClicKarma's website footer explicitly states that 'ClicKarma is not affiliated with any search engine and is an independent provider.'",
+        "source": {
+          "id": 4,
+          "text": "**Official Website Footer / Disclaimer:** *\"ClicKarma is not affiliated with any search engine and is an independent provider.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlZVMns99ea7NkGcTZRq-wLIe025GD2HvmRxiDVBysZjHaounhHKy-reTz_VUdaTzQ9_xCVOU_VVa1lpTxRMqt9AF7uPvJNN1w7l0=",
+          "title": "clickarma.io"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "ClicKarma",
+    "domain": "clickarma.io",
+    "description": "Detect and prevent online ad click fraud."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "ClicKarma",
+  "evidence": "ClicKarma's website footer explicitly states that 'ClicKarma is not affiliated with any search engine and is an independent provider.'",
+  "source": {
+    "id": 4,
+    "text": "**Official Website Footer / Disclaimer:** *\"ClicKarma is not affiliated with any search engine and is an independent provider.\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlZVMns99ea7NkGcTZRq-wLIe025GD2HvmRxiDVBysZjHaounhHKy-reTz_VUdaTzQ9_xCVOU_VVa1lpTxRMqt9AF7uPvJNN1w7l0=",
+    "title": "clickarma.io"
+  },
+  "checked_at": "2026-11-05T07:32:27.215359+00:00"
+}

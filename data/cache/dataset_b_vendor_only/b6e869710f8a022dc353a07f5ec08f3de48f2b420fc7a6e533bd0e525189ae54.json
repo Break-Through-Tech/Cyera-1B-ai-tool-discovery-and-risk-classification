@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **Elementor** website builder software and related services at **elementor.com** is **Elementor Ltd.**\n\n### Provider Statement & Evidence\nAccording to the official **Terms of Service** and **Privacy Policy** on `elementor.com`:\n* **Terms of Service:** \n  > *\"These Terms of Service governing your access to and use of our website and software, including any content, features, manuals, articles, designs, layout, templates, and services that reside in them... 'Elementor' means Elementor Ltd., including our subsidiaries and affiliates worldwide... 'Software' means Elementor Core and Elementor Pro.\"*\n* **Privacy Policy:** \n  > *\"Elementor Ltd., including our subsidiaries and affiliates worldwide (“Elementor”, “we”, “our” or “us”)... User data concerning individuals (“Users”) who use Elementor's WordPress web development platform, features and tools, and/or hosting solution (together with the Sites – the “Services”).\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **Elementor** website builder software and related services at **elementor.com** is **Elementor Ltd.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3_0ZSOlDJLQTxhLWcwKSWNotU_ifRbT301-zm__OvyWk62EVjrgQgrdmGZaFG55c7MhpLgvooYaBg5xi98svCXdHVtFiCh9O7dioh2s6OYiEwIzRUsLQwCbw=",
+          "title": "elementor.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the **Elementor** website builder software and related services at **elementor.com** is **Elementor Ltd.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwcmFVv3iN2HyzCU88hulElz_Siy98ZuIxSvD2Eis2X45lj0C-h5SShlfKQb3VjJ0q91k8Pm_N4LfOeZNmEVMHPoKGZtlyl9UPo7CDfyoY_Uc7QBGCzA==",
+          "title": "elementor.com"
+        },
+        {
+          "id": 2,
+          "text": "'Software' means Elementor Core and Elementor Pro.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwcmFVv3iN2HyzCU88hulElz_Siy98ZuIxSvD2Eis2X45lj0C-h5SShlfKQb3VjJ0q91k8Pm_N4LfOeZNmEVMHPoKGZtlyl9UPo7CDfyoY_Uc7QBGCzA==",
+          "title": "elementor.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Elementor Ltd.",
+        "evidence": "Passage 0 directly states that the vendor directly providing the Elementor website builder software and related services at elementor.com is Elementor Ltd.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the **Elementor** website builder software and related services at **elementor.com** is **Elementor Ltd.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3_0ZSOlDJLQTxhLWcwKSWNotU_ifRbT301-zm__OvyWk62EVjrgQgrdmGZaFG55c7MhpLgvooYaBg5xi98svCXdHVtFiCh9O7dioh2s6OYiEwIzRUsLQwCbw=",
+          "title": "elementor.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Elementor",
+    "domain": "elementor.com",
+    "description": "Elementor is a prominent website builder designed specifically for professionals using WordPress. It caters to a diverse range of web professionals, such as developers, designers, and marketers, with a remarkable rate of new websites being launched every 10 seconds on its platform. Offering both free and premium options, Elementor operates under an open-source model, encouraging innovation and customization in website creation."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Elementor Ltd.",
+  "evidence": "Passage 0 directly states that the vendor directly providing the Elementor website builder software and related services at elementor.com is Elementor Ltd.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the **Elementor** website builder software and related services at **elementor.com** is **Elementor Ltd.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3_0ZSOlDJLQTxhLWcwKSWNotU_ifRbT301-zm__OvyWk62EVjrgQgrdmGZaFG55c7MhpLgvooYaBg5xi98svCXdHVtFiCh9O7dioh2s6OYiEwIzRUsLQwCbw=",
+    "title": "elementor.com"
+  },
+  "checked_at": "2026-11-05T09:23:01.567044+00:00"
+}

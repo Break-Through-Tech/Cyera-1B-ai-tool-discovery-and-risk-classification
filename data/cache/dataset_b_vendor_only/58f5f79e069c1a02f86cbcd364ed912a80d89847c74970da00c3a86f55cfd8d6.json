@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The software products and services offered at **f5.com** are directly provided by **F5, Inc.** (formerly F5 Networks, Inc.).\n\n### Provider Statement & Evidence\nAccording to the official **Terms of Use** on **f5.com**:\n> *\"Welcome to the web site for F5, Inc. (“F5”). F5's web site is comprised of various web pages, collectively the “web site”... In addition, when you purchase any F5 product or F5 service, you will be subject to the rules, guidelines, policies, terms, and conditions applicable to such purchase.\"*\n\nFurthermore, the **F5 Platform Terms of Use** states:\n> *\"These F5 Platform Terms of Use (these 'Terms') govern the use of F5 Products and are a legally binding contract between F5, Inc. and its Affiliates... and you...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software products and services offered at **f5.com** are directly provided by **F5, Inc.** (formerly F5 Networks, Inc.)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTy486YjlJxlIkyv3JdejcjlBi8v5eTnAX0mKn1OaL8f641NyaeZMZiOzk-sYkMl5BR3_MgIThhUtc5O53xTn288QOcc5j9A9op73zvNTWZO_75iVOShdeW5FHLYmwBhUNk9PITVA=",
+          "title": "f5.com"
+        },
+        {
+          "id": 1,
+          "text": "The software products and services offered at **f5.com** are directly provided by **F5, Inc.** (formerly F5 Networks, Inc.)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH52YavqfLDg7SAPJXa7uucRRmGmYlWPeLuRAfqlxiwKZn5SWsVJc4MHxl5cxpffdE6H-0dlQVkvuQ6AMoA9bUj6J38yNcs3szK0CiJroW4nmHS70QiR_uBFf9gejyDSFdBxkvYhoUqeUCawyHfJExQnumUDzlMvAFNTdK7-hkzYq6R66l-sXI18D0Dwv5w1jEZdWWK9sO_P58vOz2a-3LC",
+          "title": "f5.com"
+        },
+        {
+          "id": 2,
+          "text": "ion, when you purchase any F5 product or F5 service, you will be subject to the rules, guidelines, policies, terms, and conditions applicable to such purchase.\"*\n\nFurthe",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTy486YjlJxlIkyv3JdejcjlBi8v5eTnAX0mKn1OaL8f641NyaeZMZiOzk-sYkMl5BR3_MgIThhUtc5O53xTn288QOcc5j9A9op73zvNTWZO_75iVOShdeW5FHLYmwBhUNk9PITVA=",
+          "title": "f5.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "F5, Inc.",
+        "evidence": "Passage 0 explicitly states that software products and services offered at f5.com are directly provided by F5, Inc. (formerly F5 Networks, Inc.).",
+        "source": {
+          "id": 0,
+          "text": "The software products and services offered at **f5.com** are directly provided by **F5, Inc.** (formerly F5 Networks, Inc.)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTy486YjlJxlIkyv3JdejcjlBi8v5eTnAX0mKn1OaL8f641NyaeZMZiOzk-sYkMl5BR3_MgIThhUtc5O53xTn288QOcc5j9A9op73zvNTWZO_75iVOShdeW5FHLYmwBhUNk9PITVA=",
+          "title": "f5.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "F5 Networks",
+    "domain": "f5.com",
+    "description": "F5 Networks is a multi-cloud application services and security company that collaborates with large organizations to optimize and secure applications and APIs across various environments, including on-premises, in the cloud, and at the edge. Their services enhance digital experiences for customers while providing robust security measures against potential threats."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "F5, Inc.",
+  "evidence": "Passage 0 explicitly states that software products and services offered at f5.com are directly provided by F5, Inc. (formerly F5 Networks, Inc.).",
+  "source": {
+    "id": 0,
+    "text": "The software products and services offered at **f5.com** are directly provided by **F5, Inc.** (formerly F5 Networks, Inc.)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTy486YjlJxlIkyv3JdejcjlBi8v5eTnAX0mKn1OaL8f641NyaeZMZiOzk-sYkMl5BR3_MgIThhUtc5O53xTn288QOcc5j9A9op73zvNTWZO_75iVOShdeW5FHLYmwBhUNk9PITVA=",
+    "title": "f5.com"
+  },
+  "checked_at": "2026-11-05T10:02:02.266703+00:00"
+}

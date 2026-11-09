@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The developer directly providing **PhantomJS** at **phantomjs.org** is **Ariya Hidayat**. \n\n### Evidence:\n* Across the documentation, API reference, and pages on `phantomjs.org`, the site copyright and attribution explicitly cite him: *\"© Copyright 2010-2020 Ariya Hidayat\"*.\n* The official project repository and documentation statement for `phantomjs.org` identify him as the creator and maintainer: *\"PhantomJS is created and maintained by Ariya Hidayat\"*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The developer directly providing **PhantomJS** at **phantomjs.org** is **Ariya Hidayat**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGz7AmpARa9yjtX0iY2GCNNXiD3M04m4TwAzsnocTw-O4ljTN6oUClB3qHj091ttnO8gKpFrN-zHJ_Vms3Bya-4yMb-IlduGqgADy_omSWgscQsKyoBQmj",
+          "title": "github.io"
+        },
+        {
+          "id": 1,
+          "text": "Across the documentation, API reference, and pages on `phantomjs.org`, the site copyright and attribution explicitly cite him: *\"© Copyright 2010-2020 Ariya Hidayat\"*.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH79YvYWwJ9O6ar5iEVX4Jix22I3wbbd0DrF3DxDJ-hVEbDl5Lc51jHcu07osmEYmJ1LPTTFV_1fnlEDdY9kzCY5axk-gGMI5CIIlV1Fpd5SQ==",
+          "title": "phantomjs.org"
+        },
+        {
+          "id": 2,
+          "text": "Across the documentation, API reference, and pages on `phantomjs.org`, the site copyright and attribution explicitly cite him: *\"© Copyright 2010-2020 Ariya Hidayat\"*.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFUF6kQ0D8s8_QLHi2-GPaQQJLgvLLxOFxY-L3ycTAyofI1IFV4XpqBvC3DT5u4GdwClRnelTzg-umH-MAavoDa62uICQtKIp_MY05oWXHBHHnzZICKVpD5xU=",
+          "title": "phantomjs.org"
+        },
+        {
+          "id": 3,
+          "text": "he official project repository and documentation statement for `phantomjs.org` identify him as the creator and maintainer: *\"PhantomJS is created and maintained by Ariya Hidayat\"*.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGz7AmpARa9yjtX0iY2GCNNXiD3M04m4TwAzsnocTw-O4ljTN6oUClB3qHj091ttnO8gKpFrN-zHJ_Vms3Bya-4yMb-IlduGqgADy_omSWgscQsKyoBQmj",
+          "title": "github.io"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Ariya Hidayat",
+        "evidence": "Passage 0 directly identifies Ariya Hidayat as the developer providing PhantomJS at phantomjs.org.",
+        "source": {
+          "id": 0,
+          "text": "The developer directly providing **PhantomJS** at **phantomjs.org** is **Ariya Hidayat**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGz7AmpARa9yjtX0iY2GCNNXiD3M04m4TwAzsnocTw-O4ljTN6oUClB3qHj091ttnO8gKpFrN-zHJ_Vms3Bya-4yMb-IlduGqgADy_omSWgscQsKyoBQmj",
+          "title": "github.io"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "PhantomJS",
+    "domain": "phantomjs.org",
+    "description": "PhantomJS is a headless browser designed to automate web page interactions, enabling users to perform tasks such as navigation, taking screenshots, and verifying behaviors through a JavaScript API. It is widely utilized for browser-based unit testing, especially within continuous integration environments. Since its launch in 2011 by Ariya Hidayat, it has become a staple tool in web automation."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Ariya Hidayat",
+  "evidence": "Passage 0 directly identifies Ariya Hidayat as the developer providing PhantomJS at phantomjs.org.",
+  "source": {
+    "id": 0,
+    "text": "The developer directly providing **PhantomJS** at **phantomjs.org** is **Ariya Hidayat**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGz7AmpARa9yjtX0iY2GCNNXiD3M04m4TwAzsnocTw-O4ljTN6oUClB3qHj091ttnO8gKpFrN-zHJ_Vms3Bya-4yMb-IlduGqgADy_omSWgscQsKyoBQmj",
+    "title": "github.io"
+  },
+  "checked_at": "2026-11-05T08:57:32.916132+00:00"
+}

@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **1Password** at **1password.com** is **AgileBits Inc.** (doing business as **1Password**).\n\n### Supporting Evidence & Citations\n* **Privacy Notice** (`1password.com/legal/privacy`):  \n  > *\"AgileBits Inc., doing business as 1Password, is committed to processing your information in ways that respect your privacy and keep it safe.\"*\n\n* **Terms of Service / Legal Documentation** (`1password.com`):  \n  > *\"These Terms of Service... govern your relationship with the 1Password Service (the “Service”) operated by AgileBits, Inc. (“us”, “we”, or “our”).\"*  \n  > *\"AgileBits, Inc. d.b.a. 1Password (“1Password”)...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **1Password** at **1password.com** is **AgileBits Inc.** (doing business as **1Password**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHR13u0Sg3nLJ3IukFzAJWoBUxlZHOSAelanlVas1vs1xMgMUvOQNzY3h4f5Jb0KPzXEIoHzPffsZqKM4TyXtp9Flos3yfA5yDMXrc9-5WZ2DEoYrvv5gbSQ==",
+          "title": "1password.com"
+        },
+        {
+          "id": 1,
+          "text": "*\"AgileBits Inc., doing business as 1Password, is committed to processing your information in ways that respect your privacy and keep it safe.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHR13u0Sg3nLJ3IukFzAJWoBUxlZHOSAelanlVas1vs1xMgMUvOQNzY3h4f5Jb0KPzXEIoHzPffsZqKM4TyXtp9Flos3yfA5yDMXrc9-5WZ2DEoYrvv5gbSQ==",
+          "title": "1password.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"These Terms of Service... govern your relationship with the 1Password Service (the “Service”) operated by AgileBits, Inc. (“us”, “we”, or “our”).\"*  \n  > *\"AgileBi",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUdGsA5MW4vVEU_0EniF1f7foVGgdczar3N2FOx1gnRWJJWJJ1FZ2Gg20ZXOA0fpvat3bSnbB9DeTwDH-gSmTbTimQyzUahJFQPffxsi_6SaKBQHAaXCGN3S3Axm_NIF6PlYN36J9PlIexaf8UDUWLuS6TcdF8Y9fGXVAoK-X-n_eV9jY=",
+          "title": "1password.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "AgileBits Inc.",
+        "evidence": "Passage 0 explicitly identifies AgileBits Inc. (doing business as 1Password) as the vendor directly providing 1Password at 1password.com.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **1Password** at **1password.com** is **AgileBits Inc.** (doing business as **1Password**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHR13u0Sg3nLJ3IukFzAJWoBUxlZHOSAelanlVas1vs1xMgMUvOQNzY3h4f5Jb0KPzXEIoHzPffsZqKM4TyXtp9Flos3yfA5yDMXrc9-5WZ2DEoYrvv5gbSQ==",
+          "title": "1password.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "1Password",
+    "domain": "1password.com",
+    "description": "1Password is a leading password management solution that helps over 100,000 businesses safeguard their sensitive data. By serving as a key component of Identity and Access Management (IAM), it allows secure access to apps and services, enabling teams to efficiently share logins and documents while preserving privacy. 1Password seamlessly integrates with platforms like Azure AD, Okta, and Slack, ensuring effortless deployment and management, which enhances security without hindering productivity."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "AgileBits Inc.",
+  "evidence": "Passage 0 explicitly identifies AgileBits Inc. (doing business as 1Password) as the vendor directly providing 1Password at 1password.com.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **1Password** at **1password.com** is **AgileBits Inc.** (doing business as **1Password**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHR13u0Sg3nLJ3IukFzAJWoBUxlZHOSAelanlVas1vs1xMgMUvOQNzY3h4f5Jb0KPzXEIoHzPffsZqKM4TyXtp9Flos3yfA5yDMXrc9-5WZ2DEoYrvv5gbSQ==",
+    "title": "1password.com"
+  },
+  "checked_at": "2026-11-05T09:14:01.406460+00:00"
+}

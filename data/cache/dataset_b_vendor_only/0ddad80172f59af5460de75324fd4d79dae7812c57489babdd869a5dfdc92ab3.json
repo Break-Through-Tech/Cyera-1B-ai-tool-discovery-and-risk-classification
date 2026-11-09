@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "For the software product **PhotoFuse** at the domain **photofuse.ai**:\n\n* **Developer / Maker:** **Nick Dunas** (with a launch team including **Zac Zuo**). On the official Product Hunt launch page for `photofuse.ai`, maker Nick Dunas stated: *\"Super excited to introduce you to PhotoFuse... After hundreds of hours tweaking prompts and wrangling checkpoints, the answer became clear—people don't need more models, they need less friction. So I built PhotoFuse.\"*\n* **Operating Brand / Company:** The product is operated and provided under the brand/company name **PhotoFuse** (listed as the operating entity for `photofuse.ai` across software registries including Product Hunt and SourceForge).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**Developer / Maker:** **Nick Dunas** (with a launch team including **Zac Zuo**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfjYn21EV5uO9xI9oxGzSibJ6-kbgqdIqVh-tGw2U8U6Sdfa1dTBhSP3jXDI9ne8RrpyaZVHOa_41bLJhHvP6WaAs53JkkBXQz58sWQjF_USctFlrSfspl19QfcqTufVqdMNrT5KI=",
+          "title": "producthunt.com"
+        },
+        {
+          "id": 1,
+          "text": "**Developer / Maker:** **Nick Dunas** (with a launch team including **Zac Zuo**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDeWp8y3hQqQ1L-swhN8sdfNjLQH0VEQELWSV4ggXk6AJ9SuN2X-Nd4M0Sb093mli2-tqAwH32PoYG1s2RLa-f04UP1MMAKh9_JJQmpl4HAyLBdh_dOJJN_VN5KIhH5VpwsERgxYunbDJmsBjXU5UXUCQfhORj",
+          "title": "producthunt.com"
+        },
+        {
+          "id": 2,
+          "text": " I built PhotoFuse.\"*\n*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfjYn21EV5uO9xI9oxGzSibJ6-kbgqdIqVh-tGw2U8U6Sdfa1dTBhSP3jXDI9ne8RrpyaZVHOa_41bLJhHvP6WaAs53JkkBXQz58sWQjF_USctFlrSfspl19QfcqTufVqdMNrT5KI=",
+          "title": "producthunt.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Nick Dunas",
+        "evidence": "Passage 0 identifies Nick Dunas as the Developer / Maker of PhotoFuse.",
+        "source": {
+          "id": 0,
+          "text": "**Developer / Maker:** **Nick Dunas** (with a launch team including **Zac Zuo**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfjYn21EV5uO9xI9oxGzSibJ6-kbgqdIqVh-tGw2U8U6Sdfa1dTBhSP3jXDI9ne8RrpyaZVHOa_41bLJhHvP6WaAs53JkkBXQz58sWQjF_USctFlrSfspl19QfcqTufVqdMNrT5KI=",
+          "title": "producthunt.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "PhotoFuse",
+    "domain": "photofuse.ai",
+    "description": "PhotoFuse is an AI-powered tool designed for realistic face swapping in both photos and videos. It allows users to effortlessly replace faces with high-quality, watermark-free results, ideal for creating fun and engaging visual content."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Nick Dunas",
+  "evidence": "Passage 0 identifies Nick Dunas as the Developer / Maker of PhotoFuse.",
+  "source": {
+    "id": 0,
+    "text": "**Developer / Maker:** **Nick Dunas** (with a launch team including **Zac Zuo**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfjYn21EV5uO9xI9oxGzSibJ6-kbgqdIqVh-tGw2U8U6Sdfa1dTBhSP3jXDI9ne8RrpyaZVHOa_41bLJhHvP6WaAs53JkkBXQz58sWQjF_USctFlrSfspl19QfcqTufVqdMNrT5KI=",
+    "title": "producthunt.com"
+  },
+  "checked_at": "2026-11-05T06:06:40.134264+00:00"
+}

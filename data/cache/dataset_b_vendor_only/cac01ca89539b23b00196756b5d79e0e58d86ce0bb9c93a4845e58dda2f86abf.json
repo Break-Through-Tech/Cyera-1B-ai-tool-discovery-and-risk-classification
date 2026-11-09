@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **DocuChat** at **docuchat.io** is **DocuChat AI Limited**.\n\n### Evidence\nAccording to the official **Terms of Service** for DocuChat (`docuchat.io`):\n> *\"These Terms of Service govern your use of DocuChat and its website (collectively DocuChat) provided by DocuChat AI Limited, residing at Spring Court, Spring Road, Altrincham, Cheshire, United Kingdom, WA14 2UQ (we).\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **DocuChat** at **docuchat.io** is **DocuChat AI Limited**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGRJYaGWhXw7GtUPwi9BkCQrtqAeuuIMITV1UNo1cM2uBca5rHnazV-TnDDhFAnAXIC3Dpz5ZrJatyhT-P5GbCKZlHSogm2zvtLOXJuC7VLI1g",
+          "title": "docuchat.io"
+        },
+        {
+          "id": 1,
+          "text": "*\"These Terms of Service govern your use of DocuChat and its website (collectively DocuChat) provided by DocuChat AI Limited, residing at Spring Court, Spring Road, Altrincham, Cheshire, United Kingdom, WA14 2UQ (we).\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGRJYaGWhXw7GtUPwi9BkCQrtqAeuuIMITV1UNo1cM2uBca5rHnazV-TnDDhFAnAXIC3Dpz5ZrJatyhT-P5GbCKZlHSogm2zvtLOXJuC7VLI1g",
+          "title": "docuchat.io"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "DocuChat AI Limited",
+        "evidence": "According to the Terms of Service for DocuChat and its website, the service is provided by DocuChat AI Limited.",
+        "source": {
+          "id": 1,
+          "text": "*\"These Terms of Service govern your use of DocuChat and its website (collectively DocuChat) provided by DocuChat AI Limited, residing at Spring Court, Spring Road, Altrincham, Cheshire, United Kingdom, WA14 2UQ (we).\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGRJYaGWhXw7GtUPwi9BkCQrtqAeuuIMITV1UNo1cM2uBca5rHnazV-TnDDhFAnAXIC3Dpz5ZrJatyhT-P5GbCKZlHSogm2zvtLOXJuC7VLI1g",
+          "title": "docuchat.io"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Docuchat",
+    "domain": "docuchat.io",
+    "description": "Get instant, accurate answers from AI Chatbots"
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "DocuChat AI Limited",
+  "evidence": "According to the Terms of Service for DocuChat and its website, the service is provided by DocuChat AI Limited.",
+  "source": {
+    "id": 1,
+    "text": "*\"These Terms of Service govern your use of DocuChat and its website (collectively DocuChat) provided by DocuChat AI Limited, residing at Spring Court, Spring Road, Altrincham, Cheshire, United Kingdom, WA14 2UQ (we).\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGRJYaGWhXw7GtUPwi9BkCQrtqAeuuIMITV1UNo1cM2uBca5rHnazV-TnDDhFAnAXIC3Dpz5ZrJatyhT-P5GbCKZlHSogm2zvtLOXJuC7VLI1g",
+    "title": "docuchat.io"
+  },
+  "checked_at": "2026-11-05T06:19:30.250080+00:00"
+}

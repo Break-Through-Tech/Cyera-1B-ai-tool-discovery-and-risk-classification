@@ -1,0 +1,85 @@
+{
+  "attempts": [
+    {
+      "answer": "For the AI meal planning and batch cooking product **OnlyPans** at **onlypans.app**:\n\n* **Provider / Brand:** **OnlyPans**\n* **Published Developer:** **Chris Starr** (published via GitHub under repository `chrisstarrai/onlypans-app`)\n\n### Evidence & Provider Statements\n* On the official website footer of **onlypans.app**, no separate incorporated entity name is disclosed; the service is directly branded and copyrighted as:\n  > *\"© 2026 OnlyPans\"*\n* The software application's public source repository is developed and maintained by **Chris Starr** (`chrisstarrai/onlypans-app`), titled *\"Your AI sous chef - app\"*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "For the AI meal planning and batch cooking product **OnlyPans** at **onlypans.app**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkDHLEzTvLXTeP-OhBwkpvvvs9f_d_7W3zCi8eLb-uLMEMYQUVHz4MfbbxwzeS_ujtGtPRQbYlqMb3qWdkHqWqLjjmlSgst_ha4w==",
+          "title": "onlypans.app"
+        },
+        {
+          "id": 1,
+          "text": "For the AI meal planning and batch cooking product **OnlyPans** at **onlypans.app**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkDHLEzTvLXTeP-OhBwkpvvvs9f_d_7W3zCi8eLb-uLMEMYQUVHz4MfbbxwzeS_ujtGtPRQbYlqMb3qWdkHqWqLjjmlSgst_ha4w==",
+          "title": "onlypans.app"
+        },
+        {
+          "id": 2,
+          "text": "**Provider / Brand:** **OnlyPans**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkDHLEzTvLXTeP-OhBwkpvvvs9f_d_7W3zCi8eLb-uLMEMYQUVHz4MfbbxwzeS_ujtGtPRQbYlqMb3qWdkHqWqLjjmlSgst_ha4w==",
+          "title": "onlypans.app"
+        },
+        {
+          "id": 3,
+          "text": "**Published Developer:** **Chris Starr** (published via GitHub under repository `chrisstarrai/onlypans-app`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGX_04HOE1Ig0fGDflVdeQjgIVpG7QrBnlvdMxA1Hnq6kQbxPAsHbuYcDKD_7Sk_7911nGwIf1porFcy47hRpLnJL69KgARNaoDl8UZ74mL-eWp37FyBcRRX4_c9Js2z0PK",
+          "title": "github.com"
+        },
+        {
+          "id": 4,
+          "text": "**Published Developer:** **Chris Starr** (published via GitHub under repository `chrisstarrai/onlypans-app`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHseVR8ckaidjfILJlM0xGz9BRyzbU-Y3lktIMwguItT-J94ncW9mUZmZSYTH0dViKrdwQWLh8dT6AuvDh_VC_cz37JAwz0eJHTw_g-LmAzqUO0lOyXaf7LzfRAnnCeyqo=",
+          "title": "youtube.com"
+        },
+        {
+          "id": 5,
+          "text": "*\"© 2026 OnlyPans\"*\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkDHLEzTvLXTeP-OhBwkpvvvs9f_d_7W3zCi8eLb-uLMEMYQUVHz4MfbbxwzeS_ujtGtPRQbYlqMb3qWdkHqWqLjjmlSgst_ha4w==",
+          "title": "onlypans.app"
+        },
+        {
+          "id": 6,
+          "text": "he software application's public source repository is developed and maintained by **Chris Starr** (`chrisstarrai/onlypans-app`), titled *\"Your AI sous chef - app\"*.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGX_04HOE1Ig0fGDflVdeQjgIVpG7QrBnlvdMxA1Hnq6kQbxPAsHbuYcDKD_7Sk_7911nGwIf1porFcy47hRpLnJL69KgARNaoDl8UZ74mL-eWp37FyBcRRX4_c9Js2z0PK",
+          "title": "github.com"
+        },
+        {
+          "id": 7,
+          "text": "he software application's public source repository is developed and maintained by **Chris Starr** (`chrisstarrai/onlypans-app`), titled *\"Your AI sous chef - app\"*.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHseVR8ckaidjfILJlM0xGz9BRyzbU-Y3lktIMwguItT-J94ncW9mUZmZSYTH0dViKrdwQWLh8dT6AuvDh_VC_cz37JAwz0eJHTw_g-LmAzqUO0lOyXaf7LzfRAnnCeyqo=",
+          "title": "youtube.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Chris Starr",
+        "evidence": "Passage 3 identifies Chris Starr as the published developer of OnlyPans, publishing the application via the GitHub repository chrisstarrai/onlypans-app.",
+        "source": {
+          "id": 3,
+          "text": "**Published Developer:** **Chris Starr** (published via GitHub under repository `chrisstarrai/onlypans-app`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGX_04HOE1Ig0fGDflVdeQjgIVpG7QrBnlvdMxA1Hnq6kQbxPAsHbuYcDKD_7Sk_7911nGwIf1porFcy47hRpLnJL69KgARNaoDl8UZ74mL-eWp37FyBcRRX4_c9Js2z0PK",
+          "title": "github.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "OnlyPans",
+    "domain": "onlypans.app",
+    "description": "Discover personalized weekly dinner plans with OnlyPans, powered by AI"
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Chris Starr",
+  "evidence": "Passage 3 identifies Chris Starr as the published developer of OnlyPans, publishing the application via the GitHub repository chrisstarrai/onlypans-app.",
+  "source": {
+    "id": 3,
+    "text": "**Published Developer:** **Chris Starr** (published via GitHub under repository `chrisstarrai/onlypans-app`)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGX_04HOE1Ig0fGDflVdeQjgIVpG7QrBnlvdMxA1Hnq6kQbxPAsHbuYcDKD_7Sk_7911nGwIf1porFcy47hRpLnJL69KgARNaoDl8UZ74mL-eWp37FyBcRRX4_c9Js2z0PK",
+    "title": "github.com"
+  },
+  "checked_at": "2026-11-05T07:24:20.845244+00:00"
+}

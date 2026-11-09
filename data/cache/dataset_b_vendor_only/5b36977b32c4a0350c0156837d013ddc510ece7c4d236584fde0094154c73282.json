@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Almo Chat** at **almochat.com** is **IdeaMind Technologies Private Limited** (also operating as **IdeaMind Technologies**). \n\n### Evidence\n* Software directory listings (including Crozdesk and G2) for **Almo Chat** (`www.almochat.com`) list the vendor/seller as **IdeaMind Technologies Private Limited** / **IdeaMind Technologies**.\n* Corporate profiles register the software platform `almochat.com` under **Ideamind Technologies Private Limited** (incorporated in Hyderabad, India).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Almo Chat** at **almochat.com** is **IdeaMind Technologies Private Limited** (also operating as **IdeaMind Technologies**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgKnrGKeNQkLFz6yRddxb3Bx0r3uxIn_GStvdV8gs-ERfdVnQ8HO42IeXrANoEHxpoFmxtTjpZYswcjvFwC-4qN8cvCClfj6AsKslvO6xV4P7WU_KtcB9rQ3IvqEY=",
+          "title": "crozdesk.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Almo Chat** at **almochat.com** is **IdeaMind Technologies Private Limited** (also operating as **IdeaMind Technologies**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDFXJN7Qmg4HLeT0foBM090kpFgBOJGUloP1JyMEiNsDqmgSJGeEwl0Gh0NvKAHS23rGW4-9XtUi242hsi3WUPipsd76D45Q0pUmJN6CQt6ope7X6Y7lbtsU8NbWV7e3LahEM=",
+          "title": "g2.com"
+        },
+        {
+          "id": 2,
+          "text": "Software directory listings (including Crozdesk and G2) for **Almo Chat** (`www.almochat.com`) list the vendor/seller as **IdeaMind Technologies Private Limited** / **IdeaMind Technologies**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgKnrGKeNQkLFz6yRddxb3Bx0r3uxIn_GStvdV8gs-ERfdVnQ8HO42IeXrANoEHxpoFmxtTjpZYswcjvFwC-4qN8cvCClfj6AsKslvO6xV4P7WU_KtcB9rQ3IvqEY=",
+          "title": "crozdesk.com"
+        },
+        {
+          "id": 3,
+          "text": "Software directory listings (including Crozdesk and G2) for **Almo Chat** (`www.almochat.com`) list the vendor/seller as **IdeaMind Technologies Private Limited** / **IdeaMind Technologies**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDFXJN7Qmg4HLeT0foBM090kpFgBOJGUloP1JyMEiNsDqmgSJGeEwl0Gh0NvKAHS23rGW4-9XtUi242hsi3WUPipsd76D45Q0pUmJN6CQt6ope7X6Y7lbtsU8NbWV7e3LahEM=",
+          "title": "g2.com"
+        },
+        {
+          "id": 4,
+          "text": "Corporate profiles register the software platform `almochat.com` under **Ideamind Technologies Private Limited** (incorporated in Hyderabad, India)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGE66DR3phCsHDErqNLBDpDS2pNobOeZu7SIzZY1oIty7-eK86IB84oUQytvH1EhahpfBKnAO0fqi8Da-AkYPHdwTpH33eVUjqtF56YmrkNau2hif71-jkSw_JEfBUI3QnNipoa1-E6H5xsNbyyHVRBF1_Ag5dr1Is1ai_IEgmX2g2wLyl7My4Tr3ho9ryjz2lnAcwj2RNXiLs=",
+          "title": "thecompanycheck.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "IdeaMind Technologies Private Limited",
+        "evidence": "Passage 0 directly states that the vendor providing Almo Chat at almochat.com is IdeaMind Technologies Private Limited (also operating as IdeaMind Technologies).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Almo Chat** at **almochat.com** is **IdeaMind Technologies Private Limited** (also operating as **IdeaMind Technologies**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgKnrGKeNQkLFz6yRddxb3Bx0r3uxIn_GStvdV8gs-ERfdVnQ8HO42IeXrANoEHxpoFmxtTjpZYswcjvFwC-4qN8cvCClfj6AsKslvO6xV4P7WU_KtcB9rQ3IvqEY=",
+          "title": "crozdesk.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Almo Chat",
+    "domain": "almochat.com",
+    "description": "Created a chatbot for engaging customers."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "IdeaMind Technologies Private Limited",
+  "evidence": "Passage 0 directly states that the vendor providing Almo Chat at almochat.com is IdeaMind Technologies Private Limited (also operating as IdeaMind Technologies).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Almo Chat** at **almochat.com** is **IdeaMind Technologies Private Limited** (also operating as **IdeaMind Technologies**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgKnrGKeNQkLFz6yRddxb3Bx0r3uxIn_GStvdV8gs-ERfdVnQ8HO42IeXrANoEHxpoFmxtTjpZYswcjvFwC-4qN8cvCClfj6AsKslvO6xV4P7WU_KtcB9rQ3IvqEY=",
+    "title": "crozdesk.com"
+  },
+  "checked_at": "2026-11-05T05:53:05.483459+00:00"
+}

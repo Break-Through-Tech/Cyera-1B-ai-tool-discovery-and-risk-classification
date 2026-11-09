@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **VideoWeb AI** at **videoweb.ai** is **6677 Tech Limited**.\n\n### Supporting Evidence\n* **Website Footer (`videoweb.ai`):** Lists the copyright and legal entity as: \n  > *\"© 2026 videoweb.ai - 6677 Tech Limited. All rights reserved. 19H, 3 Tai Yau St, San Po Kong, Kowloon, HK.\"*\n* **Legal Terms / Affiliate Agreement (`videoweb.ai`):** States that the agreement is established:\n  > *\"...between 6677 Tech Limited, located at 19H MAXGRAND PLAZA NO.3 TAI YAU STREET SAN PO KONG, KOWLOON HONG KONG ('VideoWeb AI,' 'videoweb.ai,' 'we,' 'us,' or 'our').\"*\n* **Company Profile:** Confirms that *\"VideoWeb AI is an AI-powered media generation platform operated by 6677 Tech Limited.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **VideoWeb AI** at **videoweb.ai** is **6677 Tech Limited**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAP0gHTYw2jRQtszg7_8gP79j46mvHN2pPNe2ygzFDwHItsuklzcRhdD-lDSqKyvCwc_2GnTe_JpcP9QYNWVhurqI5w_jAvDooJ4ggyA-IoEpkh9udz2ldIFlMn5M=",
+          "title": "videoweb.ai"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **VideoWeb AI** at **videoweb.ai** is **6677 Tech Limited**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5UH6uoN3oT5Ntwo_S--bTp-FiW3kDxLdDfjVor5J1UyJ9knaoR0nw1foVlWevN2kJ4xMakoWeT175DtjdRo5PC5X4_ukuBojD",
+          "title": "videoweb.ai"
+        },
+        {
+          "id": 2,
+          "text": "9H, 3 Tai Yau St, San Po Kong, Kowloon, HK.\"*\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5UH6uoN3oT5Ntwo_S--bTp-FiW3kDxLdDfjVor5J1UyJ9knaoR0nw1foVlWevN2kJ4xMakoWeT175DtjdRo5PC5X4_ukuBojD",
+          "title": "videoweb.ai"
+        },
+        {
+          "id": 3,
+          "text": "\"...between 6677 Tech Limited, located at 19H MAXGRAND PLAZA NO.3 TAI YAU STREET SAN PO KONG, KOWLOON HONG KONG ('VideoWeb AI,' 'videoweb.ai,' 'we,' 'us,' or 'our').\"*\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUfOaqRhN9Sz9bJk7V2fDnFVQyiRZK-AApx7uM2PKoUTPnjvFpnwY884dOi-eOOfRQPZvuFt4GycO9lSF8Mzs-rP4avuGoef0VyxXt7r_rt_9jkmNgp44do4bHKsQ=",
+          "title": "videoweb.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "6677 Tech Limited",
+        "evidence": "Passage 3 cites terms defining the agreement as being 'between 6677 Tech Limited... ('VideoWeb AI,' 'videoweb.ai,' 'we,' 'us,' or 'our').'",
+        "source": {
+          "id": 3,
+          "text": "\"...between 6677 Tech Limited, located at 19H MAXGRAND PLAZA NO.3 TAI YAU STREET SAN PO KONG, KOWLOON HONG KONG ('VideoWeb AI,' 'videoweb.ai,' 'we,' 'us,' or 'our').\"*\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUfOaqRhN9Sz9bJk7V2fDnFVQyiRZK-AApx7uM2PKoUTPnjvFpnwY884dOi-eOOfRQPZvuFt4GycO9lSF8Mzs-rP4avuGoef0VyxXt7r_rt_9jkmNgp44do4bHKsQ=",
+          "title": "videoweb.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "VideoWeb AI",
+    "domain": "videoweb.ai",
+    "description": "Transform videos with AI-powered video generation."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "6677 Tech Limited",
+  "evidence": "Passage 3 cites terms defining the agreement as being 'between 6677 Tech Limited... ('VideoWeb AI,' 'videoweb.ai,' 'we,' 'us,' or 'our').'",
+  "source": {
+    "id": 3,
+    "text": "\"...between 6677 Tech Limited, located at 19H MAXGRAND PLAZA NO.3 TAI YAU STREET SAN PO KONG, KOWLOON HONG KONG ('VideoWeb AI,' 'videoweb.ai,' 'we,' 'us,' or 'our').\"*\n",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUfOaqRhN9Sz9bJk7V2fDnFVQyiRZK-AApx7uM2PKoUTPnjvFpnwY884dOi-eOOfRQPZvuFt4GycO9lSF8Mzs-rP4avuGoef0VyxXt7r_rt_9jkmNgp44do4bHKsQ=",
+    "title": "videoweb.ai"
+  },
+  "checked_at": "2026-11-05T07:00:09.521971+00:00"
+}

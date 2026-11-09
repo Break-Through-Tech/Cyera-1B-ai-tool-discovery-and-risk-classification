@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **Loom** at the domain **loom.com** is directly provided by **Loom, Inc.** (an Atlassian subsidiary).\n\n### Provider Evidence\n* **Loom Terms of Service:** *\"These Terms of Service (“Terms”) govern access to and use of the Services made available by Loom, Inc.\"*\n* **Atlassian Product-Specific Terms:** *\"“Loom” means the software-as-a-service solution (including the corresponding mobile, desktop or other applications) currently branded as “Loom” and made available by Loom, Inc.\"*\n* **Website Notices (loom.com):** *\"© 2026, Loom, Inc. All Rights Reserved.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **Loom** at the domain **loom.com** is directly provided by **Loom, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHd49YsvMKloj8oNYyUKSCWGpHwFNVRB0WmIZnU4OVPjgd7O3tm9cfTmx7Jt9U4sunx65jISu6JsUtslNPdfdiEOtitbmo6PembYa-FYKhLC-wSvHsBtIvvilXCr8ZLmLCXPD0RwpZqSSjiLL9hHpP6bsbI6Q==",
+          "title": "atlassian.com"
+        },
+        {
+          "id": 1,
+          "text": "The software product **Loom** at the domain **loom.com** is directly provided by **Loom, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6M_yfVjQ8CAVGeqGTIJvnKFOaIURra5KEIemOfZFCAKCWfunp5cXhOgqZj_aux0CuEcyqa5pfNEFrkQXkgtnKDWohXHW4fCf-Fzx3xy5bi6YY9v_kdExUdoaGuiNrgdlnsknVfsJnjfXIdqjGDmxgEQni2jwSzj1b5FutgLJPj-qJHUHEobTp8DvbPPhf2REQyXwL",
+          "title": "atlassian.com"
+        },
+        {
+          "id": 2,
+          "text": "The software product **Loom** at the domain **loom.com** is directly provided by **Loom, Inc.** (an Atlassian subsidiary)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsLD7UyvwSDVF5fjefNltyhNPAsTJ-BpxUNygFpcz6X_ZhCvVbQKjc1SIV9xIOPseTmwnAmc_wqk77JnpzHec4JK_H7w4cmTlnXNbB6nbBjYbb",
+          "title": "loom.com"
+        },
+        {
+          "id": 3,
+          "text": "**Loom Terms of Service:** *\"These Terms of Service (“Terms”) govern access to and use of the Services made available by Loom, Inc.\"*\n* *",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHd49YsvMKloj8oNYyUKSCWGpHwFNVRB0WmIZnU4OVPjgd7O3tm9cfTmx7Jt9U4sunx65jISu6JsUtslNPdfdiEOtitbmo6PembYa-FYKhLC-wSvHsBtIvvilXCr8ZLmLCXPD0RwpZqSSjiLL9hHpP6bsbI6Q==",
+          "title": "atlassian.com"
+        },
+        {
+          "id": 4,
+          "text": "**Loom Terms of Service:** *\"These Terms of Service (“Terms”) govern access to and use of the Services made available by Loom, Inc.\"*\n* *",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6XMhs_cbR784a7WNryToDz3LT5ms8qsnAXfsMYo5t-U_mZrGjkwqcKSlysvXOygcRuIW_0_4SoS291HPig1y4N0m8ITgWZSJRGUFYcUXUgLmFOWi4QwDFkcfPKOAkeC1RrytdDRw9qI5UwFCZzIfd7EPOsw==",
+          "title": "atlassian.com"
+        },
+        {
+          "id": 5,
+          "text": "lassian Product-Specific Terms:** *\"“Loom” means the software-as-a-service solution (including the corresponding mobile, desktop or other applications) currently branded as “Loom” and made available by Loom, Inc.\"*\n* **Website",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6M_yfVjQ8CAVGeqGTIJvnKFOaIURra5KEIemOfZFCAKCWfunp5cXhOgqZj_aux0CuEcyqa5pfNEFrkQXkgtnKDWohXHW4fCf-Fzx3xy5bi6YY9v_kdExUdoaGuiNrgdlnsknVfsJnjfXIdqjGDmxgEQni2jwSzj1b5FutgLJPj-qJHUHEobTp8DvbPPhf2REQyXwL",
+          "title": "atlassian.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Loom, Inc.",
+        "evidence": "Passage 2 states that the software product Loom at the domain loom.com is directly provided by Loom, Inc. (an Atlassian subsidiary).",
+        "source": {
+          "id": 2,
+          "text": "The software product **Loom** at the domain **loom.com** is directly provided by **Loom, Inc.** (an Atlassian subsidiary)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsLD7UyvwSDVF5fjefNltyhNPAsTJ-BpxUNygFpcz6X_ZhCvVbQKjc1SIV9xIOPseTmwnAmc_wqk77JnpzHec4JK_H7w4cmTlnXNbB6nbBjYbb",
+          "title": "loom.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Loom",
+    "domain": "loom.com",
+    "description": "Loom is a video messaging platform that enhances communication in the workplace, enabling teams to connect effectively regardless of location. By partnering with Atlassian, Loom promotes remote-first and asynchronous work environments, empowering users to maximize productivity through innovative video messaging solutions."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Loom, Inc.",
+  "evidence": "Passage 2 states that the software product Loom at the domain loom.com is directly provided by Loom, Inc. (an Atlassian subsidiary).",
+  "source": {
+    "id": 2,
+    "text": "The software product **Loom** at the domain **loom.com** is directly provided by **Loom, Inc.** (an Atlassian subsidiary)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsLD7UyvwSDVF5fjefNltyhNPAsTJ-BpxUNygFpcz6X_ZhCvVbQKjc1SIV9xIOPseTmwnAmc_wqk77JnpzHec4JK_H7w4cmTlnXNbB6nbBjYbb",
+    "title": "loom.com"
+  },
+  "checked_at": "2026-11-05T09:21:20.820927+00:00"
+}

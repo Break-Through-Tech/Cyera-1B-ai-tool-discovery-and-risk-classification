@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **LottieFiles** at **lottiefiles.com** is **Design Barn Inc.**.\n\n### Evidence\nAccording to the official **LottieFiles Terms and Conditions** (Terms of Use):\n> *\"These terms of use are entered into by and between You and Design Barn Inc., (“Company”, “we ”, or “us”). The following terms and conditions, together with any documents they expressly incorporate by reference (these “Terms of Use”), govern your access to and use of the LottieFiles Terms and Conditions page, including any content, functionality, and services offered on or through the LottieFiles website, software, apps, or plug-ins, (collectively, the “Website”), and all other products, services, content or application that link to these Terms of Use...\"*\n\nThis is further confirmed by the **LottieFiles Privacy Policy**, which states that *“‘Company’ (referred to as either ‘the Company’, ‘We’, ‘Us’ or ‘Our’ in this Agreement) refers to Design Barn, Inc.”*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **LottieFiles** at **lottiefiles.com** is **Design Barn Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEs8iYPeu4ecy3z372CtuJeoNnwJUnpevlOPi397tdUr5pV-_7la_0nZMiI16Ed5RhuAZGhy6CimkHKgk7z6l7JLyt_AuOdXwboe0XRGBjiXtied-lbQqkyTSTJXyUX5zfwsnh_6sRZ",
+          "title": "lottiefiles.com"
+        },
+        {
+          "id": 1,
+          "text": "According to the official **LottieFiles Terms and Conditions** (Terms of Use)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEs8iYPeu4ecy3z372CtuJeoNnwJUnpevlOPi397tdUr5pV-_7la_0nZMiI16Ed5RhuAZGhy6CimkHKgk7z6l7JLyt_AuOdXwboe0XRGBjiXtied-lbQqkyTSTJXyUX5zfwsnh_6sRZ",
+          "title": "lottiefiles.com"
+        },
+        {
+          "id": 2,
+          "text": "g terms and conditions, together with any documents they expressly incorporate by reference (these “Terms of Use”), govern your access to and use of the LottieFiles Terms and Conditions page, including any content, functionality, and services offered on or through the LottieFiles website, software, apps, or plug-ins, (collectively, the “Website”), and all other products, services, content or application that link to these Terms of Use...\"*\n\nThis is further co",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEs8iYPeu4ecy3z372CtuJeoNnwJUnpevlOPi397tdUr5pV-_7la_0nZMiI16Ed5RhuAZGhy6CimkHKgk7z6l7JLyt_AuOdXwboe0XRGBjiXtied-lbQqkyTSTJXyUX5zfwsnh_6sRZ",
+          "title": "lottiefiles.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Design Barn Inc.",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing LottieFiles at lottiefiles.com is Design Barn Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **LottieFiles** at **lottiefiles.com** is **Design Barn Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEs8iYPeu4ecy3z372CtuJeoNnwJUnpevlOPi397tdUr5pV-_7la_0nZMiI16Ed5RhuAZGhy6CimkHKgk7z6l7JLyt_AuOdXwboe0XRGBjiXtied-lbQqkyTSTJXyUX5zfwsnh_6sRZ",
+          "title": "lottiefiles.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "LottieFiles",
+    "domain": "lottiefiles.com",
+    "description": "LottieFiles is a platform designed for designers and developers to create, customize, and collaborate on animations using tools like Adobe After Effects and Figma. With over 8.8 million users and 280,000 teams, it enables seamless deployment of animations across various mediums, including web, mobile, and social media."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Design Barn Inc.",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing LottieFiles at lottiefiles.com is Design Barn Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **LottieFiles** at **lottiefiles.com** is **Design Barn Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEs8iYPeu4ecy3z372CtuJeoNnwJUnpevlOPi397tdUr5pV-_7la_0nZMiI16Ed5RhuAZGhy6CimkHKgk7z6l7JLyt_AuOdXwboe0XRGBjiXtied-lbQqkyTSTJXyUX5zfwsnh_6sRZ",
+    "title": "lottiefiles.com"
+  },
+  "checked_at": "2026-11-05T10:02:30.979168+00:00"
+}

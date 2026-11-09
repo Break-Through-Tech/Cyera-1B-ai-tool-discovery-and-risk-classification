@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **TutorAI** at **tutorai.me** is **Lumination AI LTD**.\n\nAccording to the official About page on `tutorai.me`:\n> *\"TutorAI is owned by Lumination AI LTD, a company registered in the UK with Company number 15291725 and address in 86-90 Paul Street, London, England, United Kingdom, EC2A 4NE.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **TutorAI** at **tutorai.me** is **Lumination AI LTD**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdrhAGx4CSRWFAUbLID4HO3yEEZtWXzMMPWj0hiHNYXVwHxcxUZ3kPBxJSqI0hOtJ4E0rH1Q2gagVcljBULIvZYVkj8AzbzV8HhwSqk7jAgmk=",
+          "title": "tutorai.me"
+        },
+        {
+          "id": 1,
+          "text": "*\"TutorAI is owned by Lumination AI LTD, a company registered in the UK with Company number 15291725 and address in 86-90 Paul Street, London, England, United Kingdom, EC2A 4NE.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdrhAGx4CSRWFAUbLID4HO3yEEZtWXzMMPWj0hiHNYXVwHxcxUZ3kPBxJSqI0hOtJ4E0rH1Q2gagVcljBULIvZYVkj8AzbzV8HhwSqk7jAgmk=",
+          "title": "tutorai.me"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Lumination AI LTD",
+        "evidence": "Passage 1 directly states that TutorAI is owned by Lumination AI LTD, a registered company in the UK.",
+        "source": {
+          "id": 1,
+          "text": "*\"TutorAI is owned by Lumination AI LTD, a company registered in the UK with Company number 15291725 and address in 86-90 Paul Street, London, England, United Kingdom, EC2A 4NE.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdrhAGx4CSRWFAUbLID4HO3yEEZtWXzMMPWj0hiHNYXVwHxcxUZ3kPBxJSqI0hOtJ4E0rH1Q2gagVcljBULIvZYVkj8AzbzV8HhwSqk7jAgmk=",
+          "title": "tutorai.me"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "TutorAI",
+    "domain": "tutorai.me",
+    "description": "TutorAI is an AI-powered learning platform offering personalized, instant tutoring and educational resources across various subjects. It provides interactive explanations and Q&A to help users learn anything, anytime."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Lumination AI LTD",
+  "evidence": "Passage 1 directly states that TutorAI is owned by Lumination AI LTD, a registered company in the UK.",
+  "source": {
+    "id": 1,
+    "text": "*\"TutorAI is owned by Lumination AI LTD, a company registered in the UK with Company number 15291725 and address in 86-90 Paul Street, London, England, United Kingdom, EC2A 4NE.\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdrhAGx4CSRWFAUbLID4HO3yEEZtWXzMMPWj0hiHNYXVwHxcxUZ3kPBxJSqI0hOtJ4E0rH1Q2gagVcljBULIvZYVkj8AzbzV8HhwSqk7jAgmk=",
+    "title": "tutorai.me"
+  },
+  "checked_at": "2026-11-05T06:20:53.327724+00:00"
+}

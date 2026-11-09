@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Online Gantt** (specifically the \"AI Assistant for Gantt Charts\" at **onlinegantt.com**) is **Online Gantt**. \n\n* **Evidence & Provider Statement:** The official product and feature pages on `onlinegantt.com` do not disclose a separate incorporated legal entity; instead, they explicitly cite the provider brand at the footer: *\"Powered by: Online Gantt\"* (as well as *\"Provided By: Online Gantt\"*). Official operational contact is maintained directly through `contact@onlinegantt.com` and `support@onlinegantt.com`.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Online Gantt** (specifically the \"AI Assistant for Gantt Charts\" at **onlinegantt.com**) is **Online Gantt**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPMmOzsIpC_xFZSfFWOU-O_B87VeybJdePqwrLi1ro6I7qta3LHMyXinyLAg7vKOu_PduX_12T_ERxHvMZBYbOFT1LI5AZfYI9ojbZ70mmYYPPJF2fejqORg==",
+          "title": "onlinegantt.com"
+        },
+        {
+          "id": 1,
+          "text": "**Evidence & Provider Statement:** The official product and feature pages on `onlinegantt.com` do not disclose a separate incorporated legal entity; instead, they explicitly cite the provider brand at the footer: *\"Powered by: Online Gantt\"* (as well as *\"Provided By: Online Gantt\"*)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPMmOzsIpC_xFZSfFWOU-O_B87VeybJdePqwrLi1ro6I7qta3LHMyXinyLAg7vKOu_PduX_12T_ERxHvMZBYbOFT1LI5AZfYI9ojbZ70mmYYPPJF2fejqORg==",
+          "title": "onlinegantt.com"
+        },
+        {
+          "id": 2,
+          "text": "**Evidence & Provider Statement:** The official product and feature pages on `onlinegantt.com` do not disclose a separate incorporated legal entity; instead, they explicitly cite the provider brand at the footer: *\"Powered by: Online Gantt\"* (as well as *\"Provided By: Online Gantt\"*)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtGtguJT30R92HLOzwcSOWfS390oBHFvtzTNBBS-Ks20GinnuorJMIbnDVVYcdFxUPuIaUKDxqMuljmyQRnOJA_RmOdXb07Of8Eg3dQSGf7xgnC3jjzUpBnNz4tIJr8XU9C57Bak7BUrghLA==",
+          "title": "onlinegantt.com"
+        },
+        {
+          "id": 3,
+          "text": "Official operational contact is maintained directly through `contact@onlinegantt.com` and `support@onlinegantt.com`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMI-vV0hQ62e48UyCQHznebFhFNL4gab6pipcHV44mOdG1vZXS18PR99F1zzrQkwQlLDaJ2IfAPELUOOh7cZEtDiXB7q3SclWvdzPFA-Io5ha9",
+          "title": "onlinegantt.com"
+        },
+        {
+          "id": 4,
+          "text": "Official operational contact is maintained directly through `contact@onlinegantt.com` and `support@onlinegantt.com`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMI-vV0hQ62e48UyCQHznebFhFNL4gab6pipcHV44mOdG1vZXS18PR99F1zzrQkwQlLDaJ2IfAPELUOOh7cZEtDiXB7q3SclWvdzPFA-Io5ha9",
+          "title": "onlinegantt.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Online Gantt",
+        "evidence": "The official product and feature pages on onlinegantt.com explicitly cite the provider brand at the footer as 'Powered by: Online Gantt' and 'Provided By: Online Gantt'.",
+        "source": {
+          "id": 1,
+          "text": "**Evidence & Provider Statement:** The official product and feature pages on `onlinegantt.com` do not disclose a separate incorporated legal entity; instead, they explicitly cite the provider brand at the footer: *\"Powered by: Online Gantt\"* (as well as *\"Provided By: Online Gantt\"*)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPMmOzsIpC_xFZSfFWOU-O_B87VeybJdePqwrLi1ro6I7qta3LHMyXinyLAg7vKOu_PduX_12T_ERxHvMZBYbOFT1LI5AZfYI9ojbZ70mmYYPPJF2fejqORg==",
+          "title": "onlinegantt.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Online Gantt",
+    "domain": "onlinegantt.com",
+    "description": "AI Assistant for Gantt Charts"
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Online Gantt",
+  "evidence": "The official product and feature pages on onlinegantt.com explicitly cite the provider brand at the footer as 'Powered by: Online Gantt' and 'Provided By: Online Gantt'.",
+  "source": {
+    "id": 1,
+    "text": "**Evidence & Provider Statement:** The official product and feature pages on `onlinegantt.com` do not disclose a separate incorporated legal entity; instead, they explicitly cite the provider brand at the footer: *\"Powered by: Online Gantt\"* (as well as *\"Provided By: Online Gantt\"*)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPMmOzsIpC_xFZSfFWOU-O_B87VeybJdePqwrLi1ro6I7qta3LHMyXinyLAg7vKOu_PduX_12T_ERxHvMZBYbOFT1LI5AZfYI9ojbZ70mmYYPPJF2fejqORg==",
+    "title": "onlinegantt.com"
+  },
+  "checked_at": "2026-11-05T07:14:24.478995+00:00"
+}

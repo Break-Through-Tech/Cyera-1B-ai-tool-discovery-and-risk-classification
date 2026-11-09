@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "**Product & Domain:** ServiceNow (`servicenow.com`)\n\n**Direct Vendor:** **ServiceNow, Inc.**\n\n**Evidence / Citation:**\nAccording to the official legal terms across `servicenow.com` (such as the Demo Terms of Use and Event Terms and Conditions), the legal agreement is entered directly with **ServiceNow, Inc.**, stating: \n> *\"...form a legal agreement between you [...] and ServiceNow, Inc. ('ServiceNow,' 'we,' 'us' and 'our').\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**Product & Domain:** ServiceNow (`servicenow.com`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_82ffGj_CMBaJNhRamTPZADdJwASBZTrnIyzP0NhMSTW5nZuInmN4ibzRpB2RFKhl4DGYVTMu7VQRYHi_nkRVc3uyPO9ZyCW3a1z8UUaEiuP6y2J8k6DaxxsT8v6jVWnnyN2zZajGZya2bxcAaJDKGr0ndvYM1dqvesOTMKWopJUsB03dwWMl",
+          "title": "servicenow.com"
+        },
+        {
+          "id": 1,
+          "text": "**Direct Vendor:** **ServiceNow, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSSQdhlkvaYHBaGFfiOs3NTkF5tfIumeYib2Re-RnOmj3bZHq2bcxlHCEmLweHL-Ipo3p7TcTdXTktNM-1CVoesMDEEXsPr3EXZ62YgJ3MRKu414bRg1T8iFAH6bWPYK03go6dhVaFFeC3",
+          "title": "servicenow.com"
+        },
+        {
+          "id": 2,
+          "text": "**Direct Vendor:** **ServiceNow, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEk613AKqjoVgwq4uzYnYWCTneLXuY7Yxkql2BhWj-pT46gEjeygr5ccNPwCVGjsCf3jwCpYSC4UIR8U0oCgvHCrKRhWOGHO1kXcgu8E8m1JOk3xTJXeeW6LBrNNMWRvs6tthnwBgXZ1SGOjAk=",
+          "title": "servicenow.com"
+        },
+        {
+          "id": 3,
+          "text": "*\"...form a legal agreement between you [...] and ServiceNow, Inc. ('ServiceNow,' 'we,' 'us' and 'our').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSSQdhlkvaYHBaGFfiOs3NTkF5tfIumeYib2Re-RnOmj3bZHq2bcxlHCEmLweHL-Ipo3p7TcTdXTktNM-1CVoesMDEEXsPr3EXZ62YgJ3MRKu414bRg1T8iFAH6bWPYK03go6dhVaFFeC3",
+          "title": "servicenow.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "ServiceNow, Inc.",
+        "evidence": "Passage 1 directly specifies ServiceNow, Inc. as the direct vendor for ServiceNow at servicenow.com.",
+        "source": {
+          "id": 1,
+          "text": "**Direct Vendor:** **ServiceNow, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSSQdhlkvaYHBaGFfiOs3NTkF5tfIumeYib2Re-RnOmj3bZHq2bcxlHCEmLweHL-Ipo3p7TcTdXTktNM-1CVoesMDEEXsPr3EXZ62YgJ3MRKu414bRg1T8iFAH6bWPYK03go6dhVaFFeC3",
+          "title": "servicenow.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "ServiceNow",
+    "domain": "servicenow.com",
+    "description": "A workflow automation platform for IT service management, HR service delivery, and operations."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "ServiceNow, Inc.",
+  "evidence": "Passage 1 directly specifies ServiceNow, Inc. as the direct vendor for ServiceNow at servicenow.com.",
+  "source": {
+    "id": 1,
+    "text": "**Direct Vendor:** **ServiceNow, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSSQdhlkvaYHBaGFfiOs3NTkF5tfIumeYib2Re-RnOmj3bZHq2bcxlHCEmLweHL-Ipo3p7TcTdXTktNM-1CVoesMDEEXsPr3EXZ62YgJ3MRKu414bRg1T8iFAH6bWPYK03go6dhVaFFeC3",
+    "title": "servicenow.com"
+  },
+  "checked_at": "2026-11-05T08:00:12.915462+00:00"
+}

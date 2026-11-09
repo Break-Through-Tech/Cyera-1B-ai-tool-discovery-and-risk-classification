@@ -1,0 +1,79 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product at the supplied domain is **HubSpot, Inc.**\n\n### Evidence:\n* **Product & Domain:** **HubSpot Marketing Hub** offered via **hubspot.com**.\n* **Terms of Service Statement:** Under the *HubSpot Customer Terms of Service* (incorporating the *Product Specific Terms* covering Marketing Hub), the Jurisdiction Specific Terms specify the primary contracting entity: \n  > *\"Customer Location: North America or South America (excluding Canada; excluding Colombia...): HubSpot, Inc., Two Canal Park, Cambridge, MA 02141, U.S.A.\"* \n  Furthermore, the Customer Terms define: \n  > *\"HubSpot\" means HubSpot, Inc. and any entity which directly or indirectly controls, is controlled by, or is under common control with HubSpot, Inc.*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product at the supplied domain is **HubSpot, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4PJE8uN7N-8RH5LiNHa-da8P-HB8-FzWxb1T9yTUlA32ZKHUz1VJh2XUUWvqjjFDosjgTqpuJlbVQh-k-F_qb4SzYlpmEsT9UM3ITAG_hRLEtVfJaRTA-HOgyvu4KJTU=",
+          "title": "hubspot.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the software product at the supplied domain is **HubSpot, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJ_Yw2cCZ74mQw6yTc1LKxCy35THdB_QhLf9DsVShD8GjoBt8btNpZdK1OOfCmKdCXzHq1JEGkFnLDrDPdvSb3xQxvuyrmEsi1eAKZb07G_jamsdSxoShT82DjwYcWA9p_6SrL4ZtnerHUgiZpRzziVxHD",
+          "title": "hubspot.com"
+        },
+        {
+          "id": 2,
+          "text": "**Product & Domain:** **HubSpot Marketing Hub** offered via **hubspot.com**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFunkStG63k5bDWbmw9qOwxHKB5_H7nc7t8cdysi1wwKoU1PyyJHHr0_k4i5Iz5L_mNAoq7xpUeN8nD9A2GLwEtvtM8YQTJKb9jfwqOrczHo-bko_AUmsh5Czq-g1qJJ4Y=",
+          "title": "hubspot.com"
+        },
+        {
+          "id": 3,
+          "text": "**Product & Domain:** **HubSpot Marketing Hub** offered via **hubspot.com**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdHxB8OliYVMW56a_P9g3J8PhP46C5Quq5J0xzWwCXmfIyexZKQXrBZEASO2AeolflTGurljS3jVkSpOExf8o88M5hfLN7vWRZHaqTn_R75VF3QgJYdzBq5XNf7yaOLi_wr9eHRBa-l6Ug",
+          "title": "hubspot.com"
+        },
+        {
+          "id": 4,
+          "text": "**Terms of Service Statement:** Under the *HubSpot Customer Terms of Service* (incorporating the *Product Specific Terms* covering Marketing Hub)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXxLOCsODx_r9r5jUM1Zq3Ydr_TZeKgYs0I_uQCSla4Kql_xYO79dv5H52Zg48mkh49VaOYrjfwzfR_MgP6J1fr3_dhPv5odtoxPw2z0R3swSDG0ml_jsg_GrqxdSUhJzN9iOPnPU=",
+          "title": "hubspot.com"
+        },
+        {
+          "id": 5,
+          "text": "*\"Customer Location: North America or South America (excluding Canada; excluding Colombia...): HubSpot, Inc., Two Canal Park, Cambridge, MA 02141, U.S.A.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4PJE8uN7N-8RH5LiNHa-da8P-HB8-FzWxb1T9yTUlA32ZKHUz1VJh2XUUWvqjjFDosjgTqpuJlbVQh-k-F_qb4SzYlpmEsT9UM3ITAG_hRLEtVfJaRTA-HOgyvu4KJTU=",
+          "title": "hubspot.com"
+        },
+        {
+          "id": 6,
+          "text": "*\"HubSpot\" means HubSpot, Inc. and any entity which directly or indirectly controls, is controlled by, or is under common control with HubSpot, Inc.*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJ_Yw2cCZ74mQw6yTc1LKxCy35THdB_QhLf9DsVShD8GjoBt8btNpZdK1OOfCmKdCXzHq1JEGkFnLDrDPdvSb3xQxvuyrmEsi1eAKZb07G_jamsdSxoShT82DjwYcWA9p_6SrL4ZtnerHUgiZpRzziVxHD",
+          "title": "hubspot.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "HubSpot, Inc.",
+        "evidence": "Passage 0 directly states that the vendor directly providing the software product at the supplied domain is HubSpot, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the software product at the supplied domain is **HubSpot, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4PJE8uN7N-8RH5LiNHa-da8P-HB8-FzWxb1T9yTUlA32ZKHUz1VJh2XUUWvqjjFDosjgTqpuJlbVQh-k-F_qb4SzYlpmEsT9UM3ITAG_hRLEtVfJaRTA-HOgyvu4KJTU=",
+          "title": "hubspot.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "HubSpot Marketing Hub",
+    "domain": "hubspot.com",
+    "description": "A marketing automation platform for email campaigns, landing pages, lead nurturing, and analytics."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "HubSpot, Inc.",
+  "evidence": "Passage 0 directly states that the vendor directly providing the software product at the supplied domain is HubSpot, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the software product at the supplied domain is **HubSpot, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4PJE8uN7N-8RH5LiNHa-da8P-HB8-FzWxb1T9yTUlA32ZKHUz1VJh2XUUWvqjjFDosjgTqpuJlbVQh-k-F_qb4SzYlpmEsT9UM3ITAG_hRLEtVfJaRTA-HOgyvu4KJTU=",
+    "title": "hubspot.com"
+  },
+  "checked_at": "2026-11-05T08:00:47.179036+00:00"
+}

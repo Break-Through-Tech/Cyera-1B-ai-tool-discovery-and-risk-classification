@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **PaperChat** at the domain **paperchat.io** is developed and operated directly by its founder, **Costin Gheorghe**, as a solo venture under the **PaperChat** brand.\n\n### Evidence and Citations\n* **Founder / Developer Statement:** On the official blog's author profile (`blog.paperchat.io`), Costin Gheorghe is identified as:\n  > *\"Costin Gheorghe. I am the founder of PaperChat, a solo venture driven by relentless curiosity and a passion for learning.\"*\n* **Terms and Conditions (`paperchat.io`):** The official Terms state:\n  > *\"All content and materials available on the Service, including but not limited to text, graphics, logos, button icons, images, audio clips, and software, are the property of PaperChat and are protected by applicable intellectual property laws.\"*\n  The terms further specify governance under the laws of Romania without a separate corporate entity named.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **PaperChat** at the domain **paperchat.io** is developed and operated directly by its founder, **Costin Gheorghe**, as a solo venture under the **PaperChat** brand",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjxL3Cstd-yiY23TJuHOxHkDLSkUHKinYUcSzF49sgzTz-3G68iPszEvSF9IcXfEeb4yelp-H7XZPTzYBnnta7YxiTeFiV8CQ07X5pH99gJgyg__2uVkeC_g9RtjQy6ZARx0SufLU=",
+          "title": "paperchat.io"
+        },
+        {
+          "id": 1,
+          "text": "The software product **PaperChat** at the domain **paperchat.io** is developed and operated directly by its founder, **Costin Gheorghe**, as a solo venture under the **PaperChat** brand",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdvXasoNnAEJ_PSzS5PYBsXNqg3I9pYU8owoOyM23F89umO-7LSyhChDfeGgr3gx8oE5xNqM1txUlO0qIIZKiyaN--efIEFEdnPjHOmQURKof1keZ3m8HmOqjKYoQKGI9wKjpt",
+          "title": "paperchat.io"
+        },
+        {
+          "id": 2,
+          "text": "I am the founder of PaperChat, a solo venture driven by relentless curiosity and a passion for learning.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjxL3Cstd-yiY23TJuHOxHkDLSkUHKinYUcSzF49sgzTz-3G68iPszEvSF9IcXfEeb4yelp-H7XZPTzYBnnta7YxiTeFiV8CQ07X5pH99gJgyg__2uVkeC_g9RtjQy6ZARx0SufLU=",
+          "title": "paperchat.io"
+        },
+        {
+          "id": 3,
+          "text": "*\"All content and materials available on the Service, including but not limited to text, graphics, logos, button icons, images, audio clips, and software, are the property of PaperChat and are protected by applicable intellectual property laws.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdvXasoNnAEJ_PSzS5PYBsXNqg3I9pYU8owoOyM23F89umO-7LSyhChDfeGgr3gx8oE5xNqM1txUlO0qIIZKiyaN--efIEFEdnPjHOmQURKof1keZ3m8HmOqjKYoQKGI9wKjpt",
+          "title": "paperchat.io"
+        },
+        {
+          "id": 4,
+          "text": "The terms further specify governance under the laws of Romania without a separate corporate entity named",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIRTARz-ZVEuHXlLiOHWjB2wVGy1FWRgTMK07Qb-jpgAvAQUtbyITQXizIyhGkU19WC4tZte_vcoZZtmy3H2IGDFx6kFZPilMI1y7tdygVxG9ByrjSnvjV",
+          "title": "effecthub.net"
+        },
+        {
+          "id": 5,
+          "text": "The terms further specify governance under the laws of Romania without a separate corporate entity named",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdvXasoNnAEJ_PSzS5PYBsXNqg3I9pYU8owoOyM23F89umO-7LSyhChDfeGgr3gx8oE5xNqM1txUlO0qIIZKiyaN--efIEFEdnPjHOmQURKof1keZ3m8HmOqjKYoQKGI9wKjpt",
+          "title": "paperchat.io"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Costin Gheorghe",
+        "evidence": "Passage 0 states that PaperChat at paperchat.io is developed and operated directly by its founder, Costin Gheorghe, as a solo venture.",
+        "source": {
+          "id": 0,
+          "text": "The software product **PaperChat** at the domain **paperchat.io** is developed and operated directly by its founder, **Costin Gheorghe**, as a solo venture under the **PaperChat** brand",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjxL3Cstd-yiY23TJuHOxHkDLSkUHKinYUcSzF49sgzTz-3G68iPszEvSF9IcXfEeb4yelp-H7XZPTzYBnnta7YxiTeFiV8CQ07X5pH99gJgyg__2uVkeC_g9RtjQy6ZARx0SufLU=",
+          "title": "paperchat.io"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "PaperChat",
+    "domain": "paperchat.io",
+    "description": "Chat with documents using AI"
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Costin Gheorghe",
+  "evidence": "Passage 0 states that PaperChat at paperchat.io is developed and operated directly by its founder, Costin Gheorghe, as a solo venture.",
+  "source": {
+    "id": 0,
+    "text": "The software product **PaperChat** at the domain **paperchat.io** is developed and operated directly by its founder, **Costin Gheorghe**, as a solo venture under the **PaperChat** brand",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjxL3Cstd-yiY23TJuHOxHkDLSkUHKinYUcSzF49sgzTz-3G68iPszEvSF9IcXfEeb4yelp-H7XZPTzYBnnta7YxiTeFiV8CQ07X5pH99gJgyg__2uVkeC_g9RtjQy6ZARx0SufLU=",
+    "title": "paperchat.io"
+  },
+  "checked_at": "2026-11-05T06:11:21.375111+00:00"
+}

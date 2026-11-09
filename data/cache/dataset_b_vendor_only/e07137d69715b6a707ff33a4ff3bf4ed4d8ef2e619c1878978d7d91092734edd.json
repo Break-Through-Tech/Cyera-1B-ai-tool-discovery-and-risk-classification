@@ -1,0 +1,89 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software platform **BigCommerce** at **bigcommerce.com** is **BigCommerce, Inc.** (operating alongside regional entities such as BigCommerce UK Ltd., BigCommerce Software Ireland Ltd., and BigCommerce Pty. Ltd. depending on the customer's jurisdiction).\n\n### Provider Statement & Evidence\nAccording to the BigCommerce Terms of Service (`bigcommerce.com/terms`):\n> *“'BigCommerce' means the BigCommerce entity with which you are entering into these Terms. If you have previously entered into an agreement with a BigCommerce entity, then 'BigCommerce' means that entity. If you have not previously entered into an agreement with a BigCommerce entity, then 'BigCommerce' means the entity identified in the following table: ... United States: BigCommerce, Inc., a Texas corporation in the United States”*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "Ltd. depending on the customer's jurisdiction)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFemQN3CjT_G0FSHWGp0veFxKfsza8NwiVMxKGrsEw4ailUD-5hL0fP_IKIXXjjDSAPd22KiG4DHLViJkzr939phNdfEe0vxibEADgJnOtB9k1-Ycfv2Wmb4ioVwPmMqBjVpcnEoYjGnDn2oFvtnyisclKQ9wRSkf44J8dliAmlNPYy3Ak8MmDwZn7xjKsJMBiAYH-QqcYjJ6GxXluSWF4jOuCc0tkkHHTMHipR6VtnxaqxKfPuX637l2u5ucWEwMkJe4cqHbZzGpA=",
+          "title": "service.gov.uk"
+        },
+        {
+          "id": 1,
+          "text": "Ltd. depending on the customer's jurisdiction)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwsj_NY1foW8PIxrcuY0_OuWhu0LJYgCOmcIlHDaEaU32AOzJHgMZNHp4he44Lnap9MzgN6S9tbEVHnHGUZjsbfdXggK3TDq3rTXdZz11QOeEyAsJw9tnqJIchBkacZNOG8LBNvRAb4ZNA-PyPPeX_yBRZkrI=",
+          "title": "bigcommerce.com"
+        },
+        {
+          "id": 2,
+          "text": "Ltd. depending on the customer's jurisdiction)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnsiQE5SGyPO7M20ygtX__vDwsJrnUH0xxKey_rLhVFMMmHymWunL9jmRwmoAD6Yrxp1qoNouEdFiYL-r77GWkDiTSQWKBwsTDq6Jr_zb2Ug-gn2KSi96vFJWWYucIwcCOFklznGknCZ65qvlcc303eW8WQ4w1zjZqHgrfpXy_lFRW5FdBM9eKlvJgOpppW-cxML0OS1Wbl3LCzjB-OFFBdW3Y4yXQQwxktY6gqnS6_mjs7z33RuIVeoqJyDQ8XKVLdE5b5gKYcwg=",
+          "title": "service.gov.uk"
+        }
+      ],
+      "result": {
+        "status": "unknown",
+        "vendor": "UNKNOWN",
+        "evidence": "The provided passages only contain truncated sentence fragments ('Ltd. depending on the customer's jurisdiction)') and do not provide sufficient evidence to identify or establish the vendor for BigCommerce."
+      }
+    },
+    {
+      "answer": "The vendor directly providing the **BigCommerce** platform at **bigcommerce.com** is **BigCommerce, Inc.**\n\n### Provider Evidence\nAccording to the BigCommerce Terms of Service governing the use of the website and services at `bigcommerce.com/terms/`:\n* Under **Contracting Entity**, the terms specify that *“BigCommerce” means the BigCommerce entity with which you are entering into these Terms,”* designating **BigCommerce, Inc.** (a Texas corporation) as the primary contracting entity. \n* In the arbitration and legal provisions, *“‘BigCommerce’ means BigCommerce, Inc., a Texas corporation, and each of its parents, subsidiaries, and affiliated companies...”*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **BigCommerce** platform at **bigcommerce.com** is **BigCommerce, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJ61N2uKqwDFB6Pa-R-7Cj4LyKJYEzcKkAXfSSj6W5Uh9zRPrnEGtqzGUFXCwgcSm8NH04AbFtsDrA0Hu2hLwm4S6-3lmETRHBLTMNmQqW7xx7NM1ByzCMoHAtjogmasBjy5znK7ZAls3LqPMuak6k4fJLyX4vEWKRNvK2Bqz6963WoDf0pHZapLviuugyfgytZCWFvnPD4XufuqhlUgBIY1AzvfRSPBNDm0x3m1hLVmEpdCPxbONefVL_Bt8-PuiKmGtfLtDW-XY=",
+          "title": "service.gov.uk"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the **BigCommerce** platform at **bigcommerce.com** is **BigCommerce, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJ61N2uKqwDFB6Pa-R-7Cj4LyKJYEzcKkAXfSSj6W5Uh9zRPrnEGtqzGUFXCwgcSm8NH04AbFtsDrA0Hu2hLwm4S6-3lmETRHBLTMNmQqW7xx7NM1ByzCMoHAtjogmasBjy5znK7ZAls3LqPMuak6k4fJLyX4vEWKRNvK2Bqz6963WoDf0pHZapLviuugyfgytZCWFvnPD4XufuqhlUgBIY1AzvfRSPBNDm0x3m1hLVmEpdCPxbONefVL_Bt8-PuiKmGtfLtDW-XY=",
+          "title": "service.gov.uk"
+        },
+        {
+          "id": 2,
+          "text": "Under **Contracting Entity**, the terms specify that *“BigCommerce” means the BigCommerce entity with which you are entering into these Terms,”* designating **BigCommerce, Inc.** (a Texas corporation) as the primary contracting entity. \n* I",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJ61N2uKqwDFB6Pa-R-7Cj4LyKJYEzcKkAXfSSj6W5Uh9zRPrnEGtqzGUFXCwgcSm8NH04AbFtsDrA0Hu2hLwm4S6-3lmETRHBLTMNmQqW7xx7NM1ByzCMoHAtjogmasBjy5znK7ZAls3LqPMuak6k4fJLyX4vEWKRNvK2Bqz6963WoDf0pHZapLviuugyfgytZCWFvnPD4XufuqhlUgBIY1AzvfRSPBNDm0x3m1hLVmEpdCPxbONefVL_Bt8-PuiKmGtfLtDW-XY=",
+          "title": "service.gov.uk"
+        },
+        {
+          "id": 3,
+          "text": "Under **Contracting Entity**, the terms specify that *“BigCommerce” means the BigCommerce entity with which you are entering into these Terms,”* designating **BigCommerce, Inc.** (a Texas corporation) as the primary contracting entity. \n* I",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJ61N2uKqwDFB6Pa-R-7Cj4LyKJYEzcKkAXfSSj6W5Uh9zRPrnEGtqzGUFXCwgcSm8NH04AbFtsDrA0Hu2hLwm4S6-3lmETRHBLTMNmQqW7xx7NM1ByzCMoHAtjogmasBjy5znK7ZAls3LqPMuak6k4fJLyX4vEWKRNvK2Bqz6963WoDf0pHZapLviuugyfgytZCWFvnPD4XufuqhlUgBIY1AzvfRSPBNDm0x3m1hLVmEpdCPxbONefVL_Bt8-PuiKmGtfLtDW-XY=",
+          "title": "service.gov.uk"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "BigCommerce, Inc.",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing the BigCommerce platform at bigcommerce.com is BigCommerce, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the **BigCommerce** platform at **bigcommerce.com** is **BigCommerce, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJ61N2uKqwDFB6Pa-R-7Cj4LyKJYEzcKkAXfSSj6W5Uh9zRPrnEGtqzGUFXCwgcSm8NH04AbFtsDrA0Hu2hLwm4S6-3lmETRHBLTMNmQqW7xx7NM1ByzCMoHAtjogmasBjy5znK7ZAls3LqPMuak6k4fJLyX4vEWKRNvK2Bqz6963WoDf0pHZapLviuugyfgytZCWFvnPD4XufuqhlUgBIY1AzvfRSPBNDm0x3m1hLVmEpdCPxbONefVL_Bt8-PuiKmGtfLtDW-XY=",
+          "title": "service.gov.uk"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "BigCommerce",
+    "domain": "bigcommerce.com",
+    "description": "BigCommerce is a prominent open SaaS ecommerce platform that allows brands and retailers to create, innovate, and expand their online businesses. With a focus on providing enterprise-grade features, customization options, and ease of use, BigCommerce serves tens of thousands of B2C and B2B clients across various industries in 150 countries."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "BigCommerce, Inc.",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing the BigCommerce platform at bigcommerce.com is BigCommerce, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the **BigCommerce** platform at **bigcommerce.com** is **BigCommerce, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJ61N2uKqwDFB6Pa-R-7Cj4LyKJYEzcKkAXfSSj6W5Uh9zRPrnEGtqzGUFXCwgcSm8NH04AbFtsDrA0Hu2hLwm4S6-3lmETRHBLTMNmQqW7xx7NM1ByzCMoHAtjogmasBjy5znK7ZAls3LqPMuak6k4fJLyX4vEWKRNvK2Bqz6963WoDf0pHZapLviuugyfgytZCWFvnPD4XufuqhlUgBIY1AzvfRSPBNDm0x3m1hLVmEpdCPxbONefVL_Bt8-PuiKmGtfLtDW-XY=",
+    "title": "service.gov.uk"
+  },
+  "checked_at": "2026-11-05T08:18:21.612514+00:00"
+}

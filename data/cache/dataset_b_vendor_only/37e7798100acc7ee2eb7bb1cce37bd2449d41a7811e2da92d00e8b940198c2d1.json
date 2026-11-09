@@ -1,0 +1,79 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product and service provided at **matrix.to** is operated and maintained by **The Matrix.org Foundation C.I.C.** (also operating simply as **The Matrix.org Foundation**).\n\n### Evidence and Provider Statement\n* **Exact Product / Domain:** **matrix.to** (the stateless URL preview and redirection landing service for the Matrix ecosystem).\n* **Operating Entity / Vendor:** **The Matrix.org Foundation C.I.C.**, a non-profit UK Community Interest Company (Company #11648710).\n* **Provider Statement:** Official governance and privacy documentation states:\n  > *\"The evolution of Matrix is managed through an open governance process, looked after by The Matrix.org Foundation - a non-profit UK Community Interest Company, incorporated to act as the neutral guardian of the standard on behalf of the whole Matrix community. The Matrix.org Foundation C.I.C. is registered in the UK as Company #11648710...\"* \n  > Furthermore, the official repository for the service (`matrix-org/matrix.to`) is published and maintained directly under the Matrix.org Foundation's organization.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product and service provided at **matrix.to** is operated and maintained by **The Matrix.org Foundation C.I.C.** (also operating simply as **The Matrix.org Foundation**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsQ9Z3HKIpFKrXr9vpbEqwqucUG7t6-fW5D99GxMPY7_q8WInzUB008X8jklm2UPebdJcn9tAPIIBCZEoBCI_T5tFFdTsAvwSovbs9RSr7IFddI8m3P1jZlrf8FVQ=",
+          "title": "github.com"
+        },
+        {
+          "id": 1,
+          "text": "The software product and service provided at **matrix.to** is operated and maintained by **The Matrix.org Foundation C.I.C.** (also operating simply as **The Matrix.org Foundation**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpCl1MMN1DiKyRsgfwEl1cK_fAEgDPs60xmSxpeJSi2ltNKK3yBOXtAnQrBN8X6Bxgs1S2QmYItjLmexx9tZlzkdXW8rTUmr-2SB1BhNw=",
+          "title": "matrix.org"
+        },
+        {
+          "id": 2,
+          "text": "**Exact Product / Domain:** **matrix.to** (the stateless URL preview and redirection landing service for the Matrix ecosystem)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsQ9Z3HKIpFKrXr9vpbEqwqucUG7t6-fW5D99GxMPY7_q8WInzUB008X8jklm2UPebdJcn9tAPIIBCZEoBCI_T5tFFdTsAvwSovbs9RSr7IFddI8m3P1jZlrf8FVQ=",
+          "title": "github.com"
+        },
+        {
+          "id": 3,
+          "text": "**Operating Entity / Vendor:** **The Matrix.org Foundation C.I.C.**, a non-profit UK Community Interest Company (Company #11648710)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpCl1MMN1DiKyRsgfwEl1cK_fAEgDPs60xmSxpeJSi2ltNKK3yBOXtAnQrBN8X6Bxgs1S2QmYItjLmexx9tZlzkdXW8rTUmr-2SB1BhNw=",
+          "title": "matrix.org"
+        },
+        {
+          "id": 4,
+          "text": "The Matrix.org Foundation C.I.C. is registered in the UK as Company #11648710...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpCl1MMN1DiKyRsgfwEl1cK_fAEgDPs60xmSxpeJSi2ltNKK3yBOXtAnQrBN8X6Bxgs1S2QmYItjLmexx9tZlzkdXW8rTUmr-2SB1BhNw=",
+          "title": "matrix.org"
+        },
+        {
+          "id": 5,
+          "text": "Furthermore, the official repository for the service (`matrix-org/matrix.to`) is published and maintained directly under the Matrix.org Foundation's organization",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsQ9Z3HKIpFKrXr9vpbEqwqucUG7t6-fW5D99GxMPY7_q8WInzUB008X8jklm2UPebdJcn9tAPIIBCZEoBCI_T5tFFdTsAvwSovbs9RSr7IFddI8m3P1jZlrf8FVQ=",
+          "title": "github.com"
+        },
+        {
+          "id": 6,
+          "text": "The evolution of Matrix is managed through an open governance process, looked after by The Matrix.org Foundation - a non-profit UK Community Interest Company, incorporated to act as the neutral guardian of the standard on behalf of the whole Matrix community. The",
+          "url": "https://matrix.org/foundation/about/",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "The Matrix.org Foundation C.I.C.",
+        "evidence": "The software product and service provided at matrix.to is operated and maintained by The Matrix.org Foundation C.I.C. (also operating simply as The Matrix.org Foundation).",
+        "source": {
+          "id": 0,
+          "text": "The software product and service provided at **matrix.to** is operated and maintained by **The Matrix.org Foundation C.I.C.** (also operating simply as **The Matrix.org Foundation**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsQ9Z3HKIpFKrXr9vpbEqwqucUG7t6-fW5D99GxMPY7_q8WInzUB008X8jklm2UPebdJcn9tAPIIBCZEoBCI_T5tFFdTsAvwSovbs9RSr7IFddI8m3P1jZlrf8FVQ=",
+          "title": "github.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Matrix",
+    "domain": "matrix.to",
+    "description": "Matrix is an open-source platform that facilitates secure and decentralized communication. It enables users to create and participate in real-time chats, voice, and video calls across various devices and services. The platform is designed to empower privacy and control, supporting organizations and communities to connect seamlessly. Matrix is widely known for its interoperability and is implemented by individuals and enterprises globally."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "The Matrix.org Foundation C.I.C.",
+  "evidence": "The software product and service provided at matrix.to is operated and maintained by The Matrix.org Foundation C.I.C. (also operating simply as The Matrix.org Foundation).",
+  "source": {
+    "id": 0,
+    "text": "The software product and service provided at **matrix.to** is operated and maintained by **The Matrix.org Foundation C.I.C.** (also operating simply as **The Matrix.org Foundation**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsQ9Z3HKIpFKrXr9vpbEqwqucUG7t6-fW5D99GxMPY7_q8WInzUB008X8jklm2UPebdJcn9tAPIIBCZEoBCI_T5tFFdTsAvwSovbs9RSr7IFddI8m3P1jZlrf8FVQ=",
+    "title": "github.com"
+  },
+  "checked_at": "2026-11-05T08:05:20.875289+00:00"
+}

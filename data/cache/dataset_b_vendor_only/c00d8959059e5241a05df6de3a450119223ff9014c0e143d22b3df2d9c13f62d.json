@@ -1,0 +1,115 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **Inkscape** at **inkscape.org** is developed and provided by the **Inkscape Project**, with the **Software Freedom Conservancy, Inc.** serving as its legal entity and 501(c)(3) non-profit fiscal sponsor.\n\n* **Published Developer / Project:** **Inkscape Project** (administered by the Inkscape Project Leadership Committee / Board).\n* **Operating / Legal Non-Profit Entity:** **Software Freedom Conservancy, Inc.**.\n\n### Supporting Evidence & Citations\n* **Fiscal Sponsorship Agreement & Developer Management:** Under the project's Fiscal Sponsorship Agreement, the agreement is made between *\"The Software Freedom Conservancy ('Conservancy') and ... (the 'Developers') on behalf of the project known as Inkscape (the 'Project')\"*, establishing that *\"The Developers Will Manage the Project\"* under Conservancy sponsorship.\n* **Legal and Trademark Administration:** Official documentation notes: *\"The Inkscape name is trademarked under U.S. Trademark Law, and held and administered by the Software Freedom Conservancy\"*.\n* **About Documentation:** Official project documentation describes Inkscape as an open-source software project that *\"is a member of the Software Freedom Conservancy, a US 501(c)(3) non-profit organization\"*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **Inkscape** at **inkscape.org** is developed and provided by the **Inkscape Project**, with the **Software Freedom Conservancy, Inc.** serving as its legal entity and 501(c)(3) non-profit fiscal sponsor",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHpuW04c0BwItIr5xaYHza1isygR53ItXyWLESytVaW5NjP-u5SdqLix6KAe-hgmcsm-8c8P87YTo2p0TnsFU5G3o5d0khdfYM-TQ85WwoDvYmc34s6brvIIF9Gd4o2uFOuVaZAAJnZdGtIohST3hGDBze9OtlTF_V9p6YDIT3HmUs-RJOCdNUJLQYq0vcnnLp1SFmacQy-UMh6nN4xCjOuZQt3RqIt7Ug4BU=",
+          "title": "inkscape.org"
+        },
+        {
+          "id": 1,
+          "text": "The software product **Inkscape** at **inkscape.org** is developed and provided by the **Inkscape Project**, with the **Software Freedom Conservancy, Inc.** serving as its legal entity and 501(c)(3) non-profit fiscal sponsor",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoj05kYKL9_wokyRNA1RWC1o9NJN5pLkTp_8rJRasXtIgtbDFcCffNdppvDckjPfgmTa1NK_hBtmtlS701t-ULOVZQ-M1nAHPtUN2-xKLjm7Ko7s0j_kKrGHUXBi-ZA_HO5PO6_2k_mKdMLpRPnUVOgD_h5jMC7Z4H-q_VDfIgGix8Og==",
+          "title": "inkscape.org"
+        },
+        {
+          "id": 2,
+          "text": "The software product **Inkscape** at **inkscape.org** is developed and provided by the **Inkscape Project**, with the **Software Freedom Conservancy, Inc.** serving as its legal entity and 501(c)(3) non-profit fiscal sponsor",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFgQiPRDViJu7DEtmUuDXNTcsOXHmzOKBd0rVA7VM6EBV5oR_gldHj3MRS4G3sS8J1tM2bEN3G1zJ2ZP9g2jbJeqcMZdoyZRSkyKrqrVj19gvJNL5vU7Ds7NmC8w==",
+          "title": "fieldwork.news"
+        },
+        {
+          "id": 3,
+          "text": "The software product **Inkscape** at **inkscape.org** is developed and provided by the **Inkscape Project**, with the **Software Freedom Conservancy, Inc.** serving as its legal entity and 501(c)(3) non-profit fiscal sponsor",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzdIeTR7Zz9UEXuLJ3NELJfh4u9WwZaGR_9Q3RQAof-eHuuwZeob0Imq8up4bjQCT3zmIsk16BA0GfsSSpzGZsZpNEk4w91afDK19YwiKzroxyYndnzpB65dmTKff7EuQD3sjoZ0oMc4w7v-00Y5EKm3AsjPBW4iwS5ENh7ot8JNY5eREDUpw=",
+          "title": "thebrandhopper.com"
+        },
+        {
+          "id": 4,
+          "text": "**Published Developer / Project:** **Inkscape Project** (administered by the Inkscape Project Leadership Committee / Board)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3Bbe_UETrGPDSWpSzoUhHlxWRxZQbNtDMYHLcBskZm3hioSIX8dEpykDf-Yxiuuv1aPQc6ox4cCGtxsY5P01wZOlrVWwoU89yYTsPlja5WzTqrVrnpeChe0Hwg2fCZBgwBc1hVpF6ZnCtQF-z-b3eols6NhHeS1QBEg==",
+          "title": "inkscape.org"
+        },
+        {
+          "id": 5,
+          "text": "**Published Developer / Project:** **Inkscape Project** (administered by the Inkscape Project Leadership Committee / Board)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzdIeTR7Zz9UEXuLJ3NELJfh4u9WwZaGR_9Q3RQAof-eHuuwZeob0Imq8up4bjQCT3zmIsk16BA0GfsSSpzGZsZpNEk4w91afDK19YwiKzroxyYndnzpB65dmTKff7EuQD3sjoZ0oMc4w7v-00Y5EKm3AsjPBW4iwS5ENh7ot8JNY5eREDUpw=",
+          "title": "thebrandhopper.com"
+        },
+        {
+          "id": 6,
+          "text": "**Operating / Legal Non-Profit Entity:** **Software Freedom Conservancy, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoj05kYKL9_wokyRNA1RWC1o9NJN5pLkTp_8rJRasXtIgtbDFcCffNdppvDckjPfgmTa1NK_hBtmtlS701t-ULOVZQ-M1nAHPtUN2-xKLjm7Ko7s0j_kKrGHUXBi-ZA_HO5PO6_2k_mKdMLpRPnUVOgD_h5jMC7Z4H-q_VDfIgGix8Og==",
+          "title": "inkscape.org"
+        },
+        {
+          "id": 7,
+          "text": "**Operating / Legal Non-Profit Entity:** **Software Freedom Conservancy, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFL39xCwHhFbrwH2i-CI7r_8hVTFC4W1l0zkxpfooo30YC7b4Tj9f2_uuchFscoMORxwPmFhkZm0xOKgCnlwv0WRwGwVOQY6FICVd-ca35trFDuec0FRvYryPmXwh5vrcnAInQPz6XiSg_LlY=",
+          "title": "easycounter.com"
+        },
+        {
+          "id": 8,
+          "text": "**Fiscal Sponsorship Agreement & Developer Management:** Under the project's Fiscal Sponsorship Agreement, the agreement is made between *\"The Software Freedom Conservancy ('Conservancy') and ... (the 'Developers') on behalf of the project known as Inkscape (the 'Project')\"*, establishing that *\"The Developers Will Manage the Project\"* under Conservancy sponsorship",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoj05kYKL9_wokyRNA1RWC1o9NJN5pLkTp_8rJRasXtIgtbDFcCffNdppvDckjPfgmTa1NK_hBtmtlS701t-ULOVZQ-M1nAHPtUN2-xKLjm7Ko7s0j_kKrGHUXBi-ZA_HO5PO6_2k_mKdMLpRPnUVOgD_h5jMC7Z4H-q_VDfIgGix8Og==",
+          "title": "inkscape.org"
+        },
+        {
+          "id": 9,
+          "text": "**Legal and Trademark Administration:** Official documentation notes: *\"The Inkscape name is trademarked under U.S. Trademark Law, and held and administered by the Software Freedom Conservancy\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHpuW04c0BwItIr5xaYHza1isygR53ItXyWLESytVaW5NjP-u5SdqLix6KAe-hgmcsm-8c8P87YTo2p0TnsFU5G3o5d0khdfYM-TQ85WwoDvYmc34s6brvIIF9Gd4o2uFOuVaZAAJnZdGtIohST3hGDBze9OtlTF_V9p6YDIT3HmUs-RJOCdNUJLQYq0vcnnLp1SFmacQy-UMh6nN4xCjOuZQt3RqIt7Ug4BU=",
+          "title": "inkscape.org"
+        },
+        {
+          "id": 10,
+          "text": "**Legal and Trademark Administration:** Official documentation notes: *\"The Inkscape name is trademarked under U.S. Trademark Law, and held and administered by the Software Freedom Conservancy\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHV9ubMQMbJ0YTfd7OuE_Nmd16ClLobY4U6TtoOyEqQcSnUsxq2wby_OxnllkG34Gqi50s1cYU3txom4S0cXClmeXXqv-HAcGK1yrHqo7lVg6WYHKIfddVjh896FsKMPhjzJCb2kWVyBPFcspwAN5CWZp50pLdBHsa--2mTKq7AzC2dQ8IZcuig1LZ9e_113jd_EF_Qc1ogHviOvOvTxub7nZNk7BVRIz-pODFeZ2hptLvKE65TROI=",
+          "title": "inkscape.org"
+        },
+        {
+          "id": 11,
+          "text": "**About Documentation:** Official project documentation describes Inkscape as an open-source software project that *\"is a member of the Software Freedom Conservancy, a US 501(c)(3) non-profit organization\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH44XQ2oIVg0cz02Uw02f1w38l2j0G1oJu614g3Avh697t1-Pl5SrNXJBZM1Hmz__2pzd1t1_6mYQpz1UCYazaUIbcE7NOQyKW32by89WBE1MSTqa1JlDQyzBx-RUvOtXINZg==",
+          "title": "georgefox.edu"
+        },
+        {
+          "id": 12,
+          "text": "**About Documentation:** Official project documentation describes Inkscape as an open-source software project that *\"is a member of the Software Freedom Conservancy, a US 501(c)(3) non-profit organization\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGS2xjY3yjIvKuI6s6J6kcg9zbvOSqR5s66_dnTs4R-JV3MVdfccQx3YIyncmGSWvmuKi8ufpRRaSAw84ujWmEtGYQDNaaHflY2s7p6MRl1KTkSgiVGWlpR6HfiB2MYA4a7",
+          "title": "georgefox.edu"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Software Freedom Conservancy, Inc.",
+        "evidence": "According to the official inkscape.org documentation, Software Freedom Conservancy, Inc. serves as the operating and legal non-profit entity for Inkscape.",
+        "source": {
+          "id": 6,
+          "text": "**Operating / Legal Non-Profit Entity:** **Software Freedom Conservancy, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoj05kYKL9_wokyRNA1RWC1o9NJN5pLkTp_8rJRasXtIgtbDFcCffNdppvDckjPfgmTa1NK_hBtmtlS701t-ULOVZQ-M1nAHPtUN2-xKLjm7Ko7s0j_kKrGHUXBi-ZA_HO5PO6_2k_mKdMLpRPnUVOgD_h5jMC7Z4H-q_VDfIgGix8Og==",
+          "title": "inkscape.org"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Inkscape Project",
+    "domain": "inkscape.org",
+    "description": "Inkscape is a professional quality vector graphics software that is compatible with Linux, Mac OS X, and Windows operating systems. The software is widely used for creating and editing scalable vector graphics (SVG) and offers a comprehensive set of tools for graphic design and illustration."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Software Freedom Conservancy, Inc.",
+  "evidence": "According to the official inkscape.org documentation, Software Freedom Conservancy, Inc. serves as the operating and legal non-profit entity for Inkscape.",
+  "source": {
+    "id": 6,
+    "text": "**Operating / Legal Non-Profit Entity:** **Software Freedom Conservancy, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoj05kYKL9_wokyRNA1RWC1o9NJN5pLkTp_8rJRasXtIgtbDFcCffNdppvDckjPfgmTa1NK_hBtmtlS701t-ULOVZQ-M1nAHPtUN2-xKLjm7Ko7s0j_kKrGHUXBi-ZA_HO5PO6_2k_mKdMLpRPnUVOgD_h5jMC7Z4H-q_VDfIgGix8Og==",
+    "title": "inkscape.org"
+  },
+  "checked_at": "2026-11-05T09:09:31.667836+00:00"
+}

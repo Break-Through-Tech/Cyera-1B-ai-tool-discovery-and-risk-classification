@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **EasyChat AI** at **easychat-ai.app** is **WunderApps GmbH**.\n\n### Evidence:\n* **Privacy Policy (`easychat-ai.app/privacy`)**: Identifies the responsible entity: *\"WunderApps GmbH, Rheinsberger Str. 76–77, c/o Factory Works GmbH, 10115 Berlin, Germany, is responsible for the processing described here.\"*\n* **Website Footer (`easychat-ai.app`)**: Displays *\"© 2026 WunderApps GmbH\"*.\n* **Microsoft Store Listing**: Notes the application is *\"Developed by WunderApps GmbH\"* (and published by Tim Grabinat).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **EasyChat AI** at **easychat-ai.app** is **WunderApps GmbH**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF--SMe5CSFY9PuYQ9kxEGeDPjgKG8HVYvYNp3zHzXuXBqrbVi9hgl3MAGwxW5VXuC2XQAS4MWinoyArH9laPrsd8g741kyKRw6yprU_qic3oLBwiWzEXRSxMiPXvFVFLue4N99AvnOxK-F_d-mx6BLCA==",
+          "title": "microsoft.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **EasyChat AI** at **easychat-ai.app** is **WunderApps GmbH**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHn8Jlcz-DIbhjlAAGah5GEjk8wmabl1dhpizaKoNDOj-tsS_vGAJ1DljH-vYt0wTKXT1vzmxKVTZD-Incw_vHIER8el8-lWfhbOIqTepyAsYpUjsEo",
+          "title": "easychat-ai.app"
+        },
+        {
+          "id": 2,
+          "text": "**Privacy Policy (`easychat-ai.app/privacy`)**: Identifies the responsible entity: *\"WunderApps GmbH, Rheinsberger Str. 76–77, c/o Factory Works GmbH, 10115 Berlin, Germany, is responsible for the processing described here.\"*\n*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF57LIYxSzBJTsHnG28Lw4wxpnTdqy-vFs2ylgL_TlG7GLwauOjnNxPO78asGstVQy6Xd8zVTcYFMnB_mCPmKiQGD7sLfN9IbthwQD_d92Hk_iggIUy",
+          "title": "easychat-ai.app"
+        },
+        {
+          "id": 3,
+          "text": "Website Footer (`easychat-ai.app`)**: Displays *\"© 2026 WunderApps GmbH\"*.\n*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHn8Jlcz-DIbhjlAAGah5GEjk8wmabl1dhpizaKoNDOj-tsS_vGAJ1DljH-vYt0wTKXT1vzmxKVTZD-Incw_vHIER8el8-lWfhbOIqTepyAsYpUjsEo",
+          "title": "easychat-ai.app"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "WunderApps GmbH",
+        "evidence": "According to the Privacy Policy at easychat-ai.app/privacy, WunderApps GmbH is identified as the entity responsible for the site and its data processing.",
+        "source": {
+          "id": 2,
+          "text": "**Privacy Policy (`easychat-ai.app/privacy`)**: Identifies the responsible entity: *\"WunderApps GmbH, Rheinsberger Str. 76–77, c/o Factory Works GmbH, 10115 Berlin, Germany, is responsible for the processing described here.\"*\n*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF57LIYxSzBJTsHnG28Lw4wxpnTdqy-vFs2ylgL_TlG7GLwauOjnNxPO78asGstVQy6Xd8zVTcYFMnB_mCPmKiQGD7sLfN9IbthwQD_d92Hk_iggIUy",
+          "title": "easychat-ai.app"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "EasyChat AI",
+    "domain": "easychat-ai.app",
+    "description": "Conversed with a potent language model via interface."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "WunderApps GmbH",
+  "evidence": "According to the Privacy Policy at easychat-ai.app/privacy, WunderApps GmbH is identified as the entity responsible for the site and its data processing.",
+  "source": {
+    "id": 2,
+    "text": "**Privacy Policy (`easychat-ai.app/privacy`)**: Identifies the responsible entity: *\"WunderApps GmbH, Rheinsberger Str. 76–77, c/o Factory Works GmbH, 10115 Berlin, Germany, is responsible for the processing described here.\"*\n*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF57LIYxSzBJTsHnG28Lw4wxpnTdqy-vFs2ylgL_TlG7GLwauOjnNxPO78asGstVQy6Xd8zVTcYFMnB_mCPmKiQGD7sLfN9IbthwQD_d92Hk_iggIUy",
+    "title": "easychat-ai.app"
+  },
+  "checked_at": "2026-11-05T05:32:36.207632+00:00"
+}

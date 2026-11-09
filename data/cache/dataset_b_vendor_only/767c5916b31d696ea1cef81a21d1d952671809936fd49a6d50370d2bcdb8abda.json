@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **OnlyOffice** at **onlyoffice.com** is **Ascensio System SIA**.\n\n### Evidence\n* According to the official **ONLYOFFICE Legal Notices and Terms of Use** page (`onlyoffice.com/terms.aspx`):  \n  > *\"The following documents define the terms of a legal agreement between you and Ascensio System SIA concerning your use of the ONLYOFFICE products.\"*\n* Additionally, the **Privacy Policy** (`onlyoffice.com/privacy.aspx`) states:  \n  > *\"The following discloses our approach in gathering and processing Personal Data for the Ascensio System SIA website https://www.onlyoffice.com and related services.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **OnlyOffice** at **onlyoffice.com** is **Ascensio System SIA**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvgpqeJ5EEC3AOpQ7uqVkmgVbXQD8eblR2DQGhlX37v1uL0OnRAZBWLsmIi7rfrU2gR-E8eFZ8J9Tjui4gUr6R3pgYmWWC3RA3V-HgG02KV0Eu1lcDzp2U",
+          "title": "onlyoffice.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **OnlyOffice** at **onlyoffice.com** is **Ascensio System SIA**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFzSaUQnFbOdGmwaDgHT7_lw7xneOOFpF3XrqayUOq7RzTeKMJRNU3lfnr29mXVRX-eOIzZPo6vz9tVsJrviy2ZbZPSYfg9SQ4mJyJeiUKcANFMrayABkcSKfB",
+          "title": "onlyoffice.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"The following documents define the terms of a legal agreement between you and Ascensio System SIA concerning your use of the ONLYOFFICE products.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFzSaUQnFbOdGmwaDgHT7_lw7xneOOFpF3XrqayUOq7RzTeKMJRNU3lfnr29mXVRX-eOIzZPo6vz9tVsJrviy2ZbZPSYfg9SQ4mJyJeiUKcANFMrayABkcSKfB",
+          "title": "onlyoffice.com"
+        },
+        {
+          "id": 3,
+          "text": "*\"The following discloses our approach in gathering and processing Personal Data for the Ascensio System SIA website https://www.onlyoffice.com and related services.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvgpqeJ5EEC3AOpQ7uqVkmgVbXQD8eblR2DQGhlX37v1uL0OnRAZBWLsmIi7rfrU2gR-E8eFZ8J9Tjui4gUr6R3pgYmWWC3RA3V-HgG02KV0Eu1lcDzp2U",
+          "title": "onlyoffice.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Ascensio System SIA",
+        "evidence": "Passage 2 states that the terms of the legal agreement regarding the use of ONLYOFFICE products are between the user and Ascensio System SIA.",
+        "source": {
+          "id": 2,
+          "text": "*\"The following documents define the terms of a legal agreement between you and Ascensio System SIA concerning your use of the ONLYOFFICE products.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFzSaUQnFbOdGmwaDgHT7_lw7xneOOFpF3XrqayUOq7RzTeKMJRNU3lfnr29mXVRX-eOIzZPo6vz9tVsJrviy2ZbZPSYfg9SQ4mJyJeiUKcANFMrayABkcSKfB",
+          "title": "onlyoffice.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "OnlyOffice",
+    "domain": "onlyoffice.com",
+    "description": "ONLYOFFICE is a comprehensive productivity suite developed by Ascensio System SIA, an IT company based in Riga, Latvia. Initially designed for internal team collaboration, it has gained popularity globally for its robust features that include document editing, project management, CRM, and calendar functionalities, all highly compatible with Microsoft Office and OpenDocument formats. ONLYOFFICE can be integrated into various SaaS or on-premises solutions, making it a versatile tool for enhancing productivity and collaboration in diverse work environments."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Ascensio System SIA",
+  "evidence": "Passage 2 states that the terms of the legal agreement regarding the use of ONLYOFFICE products are between the user and Ascensio System SIA.",
+  "source": {
+    "id": 2,
+    "text": "*\"The following documents define the terms of a legal agreement between you and Ascensio System SIA concerning your use of the ONLYOFFICE products.\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFzSaUQnFbOdGmwaDgHT7_lw7xneOOFpF3XrqayUOq7RzTeKMJRNU3lfnr29mXVRX-eOIzZPo6vz9tVsJrviy2ZbZPSYfg9SQ4mJyJeiUKcANFMrayABkcSKfB",
+    "title": "onlyoffice.com"
+  },
+  "checked_at": "2026-11-05T09:19:22.522155+00:00"
+}

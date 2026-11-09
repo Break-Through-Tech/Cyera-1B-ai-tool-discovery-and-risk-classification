@@ -1,0 +1,79 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **StatCounter** at **statcounter.com** is **Statcounter Limited** (also operating as **Statcounter Ltd** / **Statcounter**).\n\n### Supporting Evidence:\n* **Official Website (Contact page at `statcounter.com/about/contact/`):** Lists the company's operating office and tax registration as:\n  > *\"Statcounter, Guinness Enterprise Centre, Taylor's Lane, Dublin 8, Ireland. VAT Number: IE 9582511F\"*\n* **Official App Store Listings:** \n  * The Google Play listing for the official app identifies the developer as **STATCOUNTER LIMITED** (Guinness Enterprise Centre, Taylors Lane, Dublin 8, Ireland).\n  * The Microsoft Store listing for *Statcounter Web Analytics* lists the publisher/copyright holder as **Statcounter Ltd** / **StatCounter**.\n* **Corporate Registry:** Registered in Ireland as **Statcounter Limited** (Company No. 431839).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **StatCounter** at **statcounter.com** is **Statcounter Limited** (also operating as **Statcounter Ltd** / **Statcounter**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWKhEat_pxFvA7wkKknhwOqjyirnPOyAUT1uT6asWzHplG9s1jAlxmBg9qxWHoegxFPi4unSD9GhFgededTYDoqivTdi7u8fHC_-IPSvJYrGGjc3h0LppvmmnL",
+          "title": "statcounter.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **StatCounter** at **statcounter.com** is **Statcounter Limited** (also operating as **Statcounter Ltd** / **Statcounter**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkMdD_vZnlDa2hg71Zemv0yPbLx4mGedGnsXVrNtaVaIgwRYH4r3lgQTL_6zcC5zjs43ncRcXH-y-0SzDmksEclaGCu211u3miU0vzhxgWWU81NL7Aafz67u6cRLEugeblVUVjoEBqTjbnUNu3U3LAY2bQ",
+          "title": "microsoft.com"
+        },
+        {
+          "id": 2,
+          "text": "The vendor directly providing **StatCounter** at **statcounter.com** is **Statcounter Limited** (also operating as **Statcounter Ltd** / **Statcounter**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMRB5SV8ID3dg_0f2OBl15UROkhCEzRKJWJ1f4XHW4j3rT25O3qs_1sRblRvCYtbv6ku2MXSI6AWn_WJJSHbdw0s5-PKbN3RD9C6ccoOOwdcxu0dTw1QJs86lz2414YHZOgUBHzhppXKWVwV3WwV2BNXS_mYH2kg==",
+          "title": "solocheck.ie"
+        },
+        {
+          "id": 3,
+          "text": "VAT Number: IE 9582511F\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWKhEat_pxFvA7wkKknhwOqjyirnPOyAUT1uT6asWzHplG9s1jAlxmBg9qxWHoegxFPi4unSD9GhFgededTYDoqivTdi7u8fHC_-IPSvJYrGGjc3h0LppvmmnL",
+          "title": "statcounter.com"
+        },
+        {
+          "id": 4,
+          "text": "The Google Play listing for the official app identifies the developer as **STATCOUNTER LIMITED** (Guinness Enterprise Centre, Taylors Lane, Dublin 8, Ireland)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGn7dcY2adptehNu9Ql-dr706L_WOMrIAiK0Wu1mObNIZT6_iXK92zJIlpj1V1ahl8OXUS621MJj6SX814JIAKOk7Gok5B9-7HswLFnftnRt76s4OTrvuwQ6CUadkV1j4LnxinwOvDRDoXq8eKYDZ_Dh4uX0EE71Dnnpp81OcDu5gXkX1kr3Opa4Qsq",
+          "title": "google.com"
+        },
+        {
+          "id": 5,
+          "text": "The Microsoft Store listing for *Statcounter Web Analytics* lists the publisher/copyright holder as **Statcounter Ltd** / **StatCounter**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkMdD_vZnlDa2hg71Zemv0yPbLx4mGedGnsXVrNtaVaIgwRYH4r3lgQTL_6zcC5zjs43ncRcXH-y-0SzDmksEclaGCu211u3miU0vzhxgWWU81NL7Aafz67u6cRLEugeblVUVjoEBqTjbnUNu3U3LAY2bQ",
+          "title": "microsoft.com"
+        },
+        {
+          "id": 6,
+          "text": "**Corporate Registry:** Registered in Ireland as **Statcounter Limited** (Company No. 431839)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMRB5SV8ID3dg_0f2OBl15UROkhCEzRKJWJ1f4XHW4j3rT25O3qs_1sRblRvCYtbv6ku2MXSI6AWn_WJJSHbdw0s5-PKbN3RD9C6ccoOOwdcxu0dTw1QJs86lz2414YHZOgUBHzhppXKWVwV3WwV2BNXS_mYH2kg==",
+          "title": "solocheck.ie"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Statcounter Limited",
+        "evidence": "Passage 0 states that the vendor directly providing StatCounter at statcounter.com is Statcounter Limited (also operating as Statcounter Ltd / Statcounter).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **StatCounter** at **statcounter.com** is **Statcounter Limited** (also operating as **Statcounter Ltd** / **Statcounter**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWKhEat_pxFvA7wkKknhwOqjyirnPOyAUT1uT6asWzHplG9s1jAlxmBg9qxWHoegxFPi4unSD9GhFgededTYDoqivTdi7u8fHC_-IPSvJYrGGjc3h0LppvmmnL",
+          "title": "statcounter.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "StatCounter",
+    "domain": "statcounter.com",
+    "description": "Statcounter is a web analytics service that provides user-friendly tools for tracking website traffic and performance. Based in the online analytics industry, Statcounter helps businesses and website owners understand visitor behavior through comprehensive reporting and analysis to enhance their online presence and optimize their digital marketing strategies."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Statcounter Limited",
+  "evidence": "Passage 0 states that the vendor directly providing StatCounter at statcounter.com is Statcounter Limited (also operating as Statcounter Ltd / Statcounter).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **StatCounter** at **statcounter.com** is **Statcounter Limited** (also operating as **Statcounter Ltd** / **Statcounter**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWKhEat_pxFvA7wkKknhwOqjyirnPOyAUT1uT6asWzHplG9s1jAlxmBg9qxWHoegxFPi4unSD9GhFgededTYDoqivTdi7u8fHC_-IPSvJYrGGjc3h0LppvmmnL",
+    "title": "statcounter.com"
+  },
+  "checked_at": "2026-11-05T08:41:35.076523+00:00"
+}

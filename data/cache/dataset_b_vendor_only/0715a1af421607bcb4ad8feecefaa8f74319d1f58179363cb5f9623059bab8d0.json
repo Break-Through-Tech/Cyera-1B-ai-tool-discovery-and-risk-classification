@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Foursquare** at the domain **foursquare.com** is **Foursquare Labs, Inc.**.\n\n### Provider Statement & Evidence\nAccording to the official legal policies on `foursquare.com`:\n* **Foursquare Consumer Services Terms of Use**: *\"The Foursquare Consumer Services Terms of Use (“Consumer Terms”) are a legally binding contract between you and Foursquare Labs, Inc. (“Foursquare”). These Consumer Terms cover your use of certain websites and applications (such as Foursquare Swarm), services, content, features and widgets offered by Foursquare...\"*\n* **Foursquare Developer Master Terms of Service**: *\"These Foursquare Developer Master Terms of Service (“Master Terms”) are a legally binding contract between you and Foursquare Labs, Inc. (“Foursquare”)... and govern your access to and use of our developer suite of products and services... including our Places application programming interface (the “Places API”)...\"*\n* **Data Authorization Agreement**: *\"The Services... are created and owned by Foursquare Labs, Inc., a Delaware corporation (“Foursquare”).\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Foursquare** at the domain **foursquare.com** is **Foursquare Labs, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-YfVWP9AZtVfITuq5v0wYQvEqxyi1nzFA8ESSE2YY07XaZ9Xgz43N6lGOey5QO7q4-EVr8oUcsnkjvn2uOaleoBRCQd32vstgFz0DqD6vNaCpLQkUSUhuhBW3cKAKaOS8os7UCnJeSfHKc3pt0jp8Geohn3WubJF4AhZJlEhRqTO91Q==",
+          "title": "foursquare.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Foursquare** at the domain **foursquare.com** is **Foursquare Labs, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_G3aYeFOxcEFX8CQ4b9PaIWBk4DRYCctdzLBzeTG2JzY-2Q-sS4ZpSLWQxsawcznrgUhRMfq42UdZN1tALQnOIB2wJ2u35Uj8wXyg4JY2wWkq-GdkbFCYN-Lmtwhw",
+          "title": "foursquare.com"
+        },
+        {
+          "id": 2,
+          "text": "nsumer Terms cover your use of certain websites and applications (such as Foursquare Swarm), services, content, features and widgets offered by Foursquare...\"*\n* **Fou",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-YfVWP9AZtVfITuq5v0wYQvEqxyi1nzFA8ESSE2YY07XaZ9Xgz43N6lGOey5QO7q4-EVr8oUcsnkjvn2uOaleoBRCQd32vstgFz0DqD6vNaCpLQkUSUhuhBW3cKAKaOS8os7UCnJeSfHKc3pt0jp8Geohn3WubJF4AhZJlEhRqTO91Q==",
+          "title": "foursquare.com"
+        },
+        {
+          "id": 3,
+          "text": "uare Developer Master Terms of Service**: *\"These Foursquare Developer Master Terms of Service (“Master Terms”) are a legally binding contract between you and Foursquare Labs, Inc. (“Foursquare”)... and govern your access to and use of our developer suite of products and services... including our Places application programming interface (the “Places API”)...\"*\n* **Data Authorizat",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWGrZVJQgKGJjBn-S1uhnfB6IppGevMsGMAUb9JZAGPNzIEo8zRnq848vq5IyxcOFzDvolLBTYakHQQY2Quur428s27sxlhYhy0UNVxsPHZlkyfXldrMOcquaBN2MExFPu0qWoOgM057Q5o2YqxiswxqSPjevAdF7V",
+          "title": "foursquare.com"
+        },
+        {
+          "id": 4,
+          "text": "contract between you and Foursquare Labs, Inc. (“Foursquare”). These Consumer Terms cover your use of certain websites and applications (such as Foursquare Swarm), services, content, features and widgets offered by Foursquar",
+          "url": "https://foursquare.com/legal/terms/foursquare-consumer-services-terms-of-use/",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Foursquare Labs, Inc.",
+        "evidence": "Passage 0 states that the vendor directly providing Foursquare at the domain foursquare.com is Foursquare Labs, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Foursquare** at the domain **foursquare.com** is **Foursquare Labs, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-YfVWP9AZtVfITuq5v0wYQvEqxyi1nzFA8ESSE2YY07XaZ9Xgz43N6lGOey5QO7q4-EVr8oUcsnkjvn2uOaleoBRCQd32vstgFz0DqD6vNaCpLQkUSUhuhBW3cKAKaOS8os7UCnJeSfHKc3pt0jp8Geohn3WubJF4AhZJlEhRqTO91Q==",
+          "title": "foursquare.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Foursquare",
+    "domain": "foursquare.com",
+    "description": "Foursquare is a technology company specializing in location intelligence to enhance consumer experiences and guide business strategies. With over 50 million monthly users, Foursquare provides mobile applications like the City Guide and Swarm, which help users discover new locations and check in. Their Places API, utilized by major companies such as Apple and Uber, offers vital location data. Additionally, Foursquare's solutions, including Pinpoint and Analytics, assist businesses in targeting audiences and measuring advertising success. Headquartered in New York, Foursquare also has offices in San Francisco, Los Angeles, London, and Singapore, employing over 250 people worldwide."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Foursquare Labs, Inc.",
+  "evidence": "Passage 0 states that the vendor directly providing Foursquare at the domain foursquare.com is Foursquare Labs, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Foursquare** at the domain **foursquare.com** is **Foursquare Labs, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-YfVWP9AZtVfITuq5v0wYQvEqxyi1nzFA8ESSE2YY07XaZ9Xgz43N6lGOey5QO7q4-EVr8oUcsnkjvn2uOaleoBRCQd32vstgFz0DqD6vNaCpLQkUSUhuhBW3cKAKaOS8os7UCnJeSfHKc3pt0jp8Geohn3WubJF4AhZJlEhRqTO91Q==",
+    "title": "foursquare.com"
+  },
+  "checked_at": "2026-11-05T10:01:16.633372+00:00"
+}

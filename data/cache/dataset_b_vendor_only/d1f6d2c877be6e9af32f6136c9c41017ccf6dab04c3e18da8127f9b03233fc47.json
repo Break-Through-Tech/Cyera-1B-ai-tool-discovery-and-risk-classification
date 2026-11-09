@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **Codecademy** software product and platform at **codecademy.com** is **Codecademy LLC** (an operating subsidiary of Skillsoft).\n\n### Supporting Evidence:\n* **Terms of Service:** *\"Welcome to Codecademy, the website and mobile service of Codecademy LLC (“Codecademy,” “we,” or “us”). This page explains the terms by which you may use our online and/or mobile services, website, and software provided on or in connection with the service (collectively the “Service”).\"*\n* **Privacy Policy:** *\"Codecademy LLC (“Codecademy,” “we,” “our,” or “us”) is committed to protecting your privacy... This Privacy Policy applies to the online services offered by Codecademy such as our website at www.codecademy.com, our mobile app Codecademy Go, and any other online service location...\"*\n* **Teams Master Subscription Agreement:** *\"This Teams Master Subscription Agreement... governs use of the Codecademy Platform (as defined below) offered by Codecademy LLC (“Codecademy”), a New York limited liability company...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **Codecademy** software product and platform at **codecademy.com** is **Codecademy LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAelyMRcjpcGZCR3UMRy9qHsXqO_E71fikVw0x82ntCLWV5u0vHimXWBm6bc7ketN4WSuPEDIdCdy7heqAf_Ugakln2U2NJohFhXm8gsoHbUFBhcWOQg==",
+          "title": "codecademy.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the **Codecademy** software product and platform at **codecademy.com** is **Codecademy LLC** (an operating subsidiary of Skillsoft",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGO0m4ONj6AJ20meaDBIEy1haBXCb9wvShC6WW3RbjP3aikjUDQ_WR_xSGvBu7xWA9Bqf7rTu1pmKwiX3Rf_I6ruHbZy_Nabj3p1zx33rEWVAvwYDuR7sNvI88Y_qCU5sU2o22vt0gxh56116DSza-CNGX3ikxI63Rkep2hHiQeXdEmpSm1Ps4q_REYrDwEJHuf",
+          "title": "sec.gov"
+        },
+        {
+          "id": 2,
+          "text": "plains the terms by which you may use our online and/or mobile services, website, and software provided on or in connection with the service (collectively the “Service”).\"*\n* **Privacy Pol",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAelyMRcjpcGZCR3UMRy9qHsXqO_E71fikVw0x82ntCLWV5u0vHimXWBm6bc7ketN4WSuPEDIdCdy7heqAf_Ugakln2U2NJohFhXm8gsoHbUFBhcWOQg==",
+          "title": "codecademy.com"
+        },
+        {
+          "id": 3,
+          "text": "he online services offered by Codecademy such as our website at www.codecademy.com, our mobile app Codecademy Go, and any other online service location...\"*\n* **Teams Master Subscription A",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKWiRINfHJPE95HfYnnnF74zMFZ7lS0D5m2DlHGEeJdBIHyAfQegileHntno9aTcRxoOMNqIg2m48DNvJOS87vQmTtUpoQRHSiRQ3aZuegZCpNyF9Xjvg=",
+          "title": "codecademy.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Codecademy LLC",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing the Codecademy software product and platform at codecademy.com is Codecademy LLC.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the **Codecademy** software product and platform at **codecademy.com** is **Codecademy LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAelyMRcjpcGZCR3UMRy9qHsXqO_E71fikVw0x82ntCLWV5u0vHimXWBm6bc7ketN4WSuPEDIdCdy7heqAf_Ugakln2U2NJohFhXm8gsoHbUFBhcWOQg==",
+          "title": "codecademy.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Codecademy",
+    "domain": "codecademy.com",
+    "description": "Codecademy is an E-learning platform headquartered in New York that specializes in offering interactive coding courses focused on a variety of programming languages. It caters to both students and professionals seeking to enhance their coding skills and boost their career opportunities."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Codecademy LLC",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing the Codecademy software product and platform at codecademy.com is Codecademy LLC.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the **Codecademy** software product and platform at **codecademy.com** is **Codecademy LLC**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAelyMRcjpcGZCR3UMRy9qHsXqO_E71fikVw0x82ntCLWV5u0vHimXWBm6bc7ketN4WSuPEDIdCdy7heqAf_Ugakln2U2NJohFhXm8gsoHbUFBhcWOQg==",
+    "title": "codecademy.com"
+  },
+  "checked_at": "2026-11-05T08:21:53.692952+00:00"
+}

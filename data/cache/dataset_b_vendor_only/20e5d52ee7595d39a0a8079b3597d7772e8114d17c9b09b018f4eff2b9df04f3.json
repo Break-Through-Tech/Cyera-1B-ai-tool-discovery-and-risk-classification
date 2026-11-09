@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly operating and providing the media management platform **Cloudinary** at **cloudinary.com** is **Cloudinary Ltd.**\n\n### Provider Statement\nAccording to the Cloudinary Terms of Use:\n> *\"Welcome to Cloudinary, a cloud-based image management solution (the “Services”, as more fully described below). The Service is owned and operated by Cloudinary Ltd. and these Terms of Use will govern the relationship between you and Cloudinary Ltd., or the Cloudinary Ltd. subsidiary from which you are acquiring (directly or through an authorized distributor or reseller) the Services, as applicable (“Cloudinary“).\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly operating and providing the media management platform **Cloudinary** at **cloudinary.com** is **Cloudinary Ltd.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvHyXCO3ceon-fMRm8vEgeZJXDSb7HHES1QdBz3wbD90Uu_eQeLd5G29qxoMfXF2xbU86dNckcH62rjG2_IKAkKjetkhl2vyscwJbTT43tHw==",
+          "title": "cloudinary.com"
+        },
+        {
+          "id": 1,
+          "text": "According to the Cloudinary Terms of Use",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvHyXCO3ceon-fMRm8vEgeZJXDSb7HHES1QdBz3wbD90Uu_eQeLd5G29qxoMfXF2xbU86dNckcH62rjG2_IKAkKjetkhl2vyscwJbTT43tHw==",
+          "title": "cloudinary.com"
+        },
+        {
+          "id": 2,
+          "text": "as more fully described below). The Service is owned and operated by Cloudinary Ltd. and these Terms of Use will govern the relationship between you and Cloudinary Ltd., or the Cloudinary Ltd. subsidiary from which you are acquiring (directly or through an authorized distributor or reseller) the Services, as applic",
+          "url": "https://cloudinary.com/tou",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Cloudinary Ltd.",
+        "evidence": "According to the terms in passage 2, the Service is owned and operated by Cloudinary Ltd.",
+        "source": {
+          "id": 2,
+          "text": "as more fully described below). The Service is owned and operated by Cloudinary Ltd. and these Terms of Use will govern the relationship between you and Cloudinary Ltd., or the Cloudinary Ltd. subsidiary from which you are acquiring (directly or through an authorized distributor or reseller) the Services, as applic",
+          "url": "https://cloudinary.com/tou",
+          "title": ""
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Cloudinary",
+    "domain": "cloudinary.com",
+    "description": "Cloudinary is a leading media management platform specializing in the optimization and delivery of images and videos for businesses. With over 60 billion assets managed and a global customer base exceeding 10,000, the company enables developers, marketers, and creators to enhance their visual content and improve user engagement. By leveraging Cloudinary's services, brands achieve quicker market launches and heightened customer satisfaction."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Cloudinary Ltd.",
+  "evidence": "According to the terms in passage 2, the Service is owned and operated by Cloudinary Ltd.",
+  "source": {
+    "id": 2,
+    "text": "as more fully described below). The Service is owned and operated by Cloudinary Ltd. and these Terms of Use will govern the relationship between you and Cloudinary Ltd., or the Cloudinary Ltd. subsidiary from which you are acquiring (directly or through an authorized distributor or reseller) the Services, as applic",
+    "url": "https://cloudinary.com/tou",
+    "title": ""
+  },
+  "checked_at": "2026-11-05T09:55:07.604218+00:00"
+}

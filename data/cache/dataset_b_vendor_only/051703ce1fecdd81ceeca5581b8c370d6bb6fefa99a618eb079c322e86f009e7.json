@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product **Scrumbuiss** at **scrumbuiss.com** is **Scrumbuiss**.\n\n### Evidence & Provider Statements\n* **Terms of Service (`scrumbuiss.com`):** \n  > *\"By accessing or using Scrumbuiss (the 'Service'), you agree to be bound by these Terms of Service ('Terms'), which constitute a legally binding agreement between you and Scrumbuiss ('Company,' 'we,' or 'us').\"*\n* **Privacy Policy (`scrumbuiss.com`):** \n  > *\"Company (referred to as either 'the Company', 'We', 'Us' or 'Our' in this Agreement) refers to Scrumbuiss.\"*\n  > *\"Website refers to Scrumbuiss, accessible from https://www.scrumbuiss.com/.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product **Scrumbuiss** at **scrumbuiss.com** is **Scrumbuiss**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoj2xMZflnOKwSQ4sxC_z8NZVjC0hjdMn8tKQ2mC_BVzn7935bQcQ6iErZKGRJYV3c_Jfb4vs8guLtIydw5pEYyhFdpe6p0VFD8Sj3-NYzCdfYm4sHLY0p2Cgx85RMrHA=",
+          "title": "scrumbuiss.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the software product **Scrumbuiss** at **scrumbuiss.com** is **Scrumbuiss**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETSegfDnxE9ECZgCeQD169u1-k-x9HgXCVPNQUE63iom1AQgQWqalg1uVHYKyLb2Bk6v_u3h0YbCr2XxmQdT8pS4es_Hwl5-Dkt3t8cB-uPAtu5WdgvfhaFNJR8fRgEuPYPGgNdQ==",
+          "title": "scrumbuiss.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"By accessing or using Scrumbuiss (the 'Service'), you agree to be bound by these Terms of Service ('Terms'), which constitute a legally binding agreement between you and Scrumbuiss ('Company,' 'we,' or 'us').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETSegfDnxE9ECZgCeQD169u1-k-x9HgXCVPNQUE63iom1AQgQWqalg1uVHYKyLb2Bk6v_u3h0YbCr2XxmQdT8pS4es_Hwl5-Dkt3t8cB-uPAtu5WdgvfhaFNJR8fRgEuPYPGgNdQ==",
+          "title": "scrumbuiss.com"
+        },
+        {
+          "id": 3,
+          "text": "*\"Company (referred to as either 'the Company', 'We', 'Us' or 'Our' in this Agreement) refers to Scrumbuiss.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoj2xMZflnOKwSQ4sxC_z8NZVjC0hjdMn8tKQ2mC_BVzn7935bQcQ6iErZKGRJYV3c_Jfb4vs8guLtIydw5pEYyhFdpe6p0VFD8Sj3-NYzCdfYm4sHLY0p2Cgx85RMrHA=",
+          "title": "scrumbuiss.com"
+        },
+        {
+          "id": 4,
+          "text": "*\"Website refers to Scrumbuiss, accessible from https://www.scrumbuiss.com/.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoj2xMZflnOKwSQ4sxC_z8NZVjC0hjdMn8tKQ2mC_BVzn7935bQcQ6iErZKGRJYV3c_Jfb4vs8guLtIydw5pEYyhFdpe6p0VFD8Sj3-NYzCdfYm4sHLY0p2Cgx85RMrHA=",
+          "title": "scrumbuiss.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Scrumbuiss",
+        "evidence": "The Terms of Service state that the terms constitute a legally binding agreement between the user and Scrumbuiss ('Company,' 'we,' or 'us') for accessing or using Scrumbuiss.",
+        "source": {
+          "id": 2,
+          "text": "*\"By accessing or using Scrumbuiss (the 'Service'), you agree to be bound by these Terms of Service ('Terms'), which constitute a legally binding agreement between you and Scrumbuiss ('Company,' 'we,' or 'us').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETSegfDnxE9ECZgCeQD169u1-k-x9HgXCVPNQUE63iom1AQgQWqalg1uVHYKyLb2Bk6v_u3h0YbCr2XxmQdT8pS4es_Hwl5-Dkt3t8cB-uPAtu5WdgvfhaFNJR8fRgEuPYPGgNdQ==",
+          "title": "scrumbuiss.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Scrumbuiss",
+    "domain": "scrumbuiss.com",
+    "description": "Scrumbuiss is an AI-powered project management software designed to optimize workflows"
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Scrumbuiss",
+  "evidence": "The Terms of Service state that the terms constitute a legally binding agreement between the user and Scrumbuiss ('Company,' 'we,' or 'us') for accessing or using Scrumbuiss.",
+  "source": {
+    "id": 2,
+    "text": "*\"By accessing or using Scrumbuiss (the 'Service'), you agree to be bound by these Terms of Service ('Terms'), which constitute a legally binding agreement between you and Scrumbuiss ('Company,' 'we,' or 'us').\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETSegfDnxE9ECZgCeQD169u1-k-x9HgXCVPNQUE63iom1AQgQWqalg1uVHYKyLb2Bk6v_u3h0YbCr2XxmQdT8pS4es_Hwl5-Dkt3t8cB-uPAtu5WdgvfhaFNJR8fRgEuPYPGgNdQ==",
+    "title": "scrumbuiss.com"
+  },
+  "checked_at": "2026-11-05T07:14:54.857372+00:00"
+}

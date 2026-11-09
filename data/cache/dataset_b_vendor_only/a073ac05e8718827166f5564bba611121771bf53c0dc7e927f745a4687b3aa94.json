@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **TreeBrain** at **treebrain.ai** is **Privee Ventures LLC**.\n\n### Evidence:\n* The official Privacy Policy on **treebrain.ai** explicitly identifies the operating company:\n  > *\"At Privee Ventures LLC (TreeBrain.ai), our commitment to privacy and data protection is paramount. We recognize the importance of safeguarding the personal information of our customers and users across all sales channels, including Amazon, Shopify, and other platforms.\"*\n* The software integration is also officially published by **Privee Ventures** on the Shopify App Store.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **TreeBrain** at **treebrain.ai** is **Privee Ventures LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHf7PkmuAvLNsFv10SU4goPMvYp6IEGRkIVTa7FKTMgxRznu1m28qV6Pb-K1SR_rwb7MtxkqBCV5gFiPiZ4IPjYrGhT57eGlH2JE3p3vSBJDo_BxEs4QT8=",
+          "title": "treebrain.ai"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **TreeBrain** at **treebrain.ai** is **Privee Ventures LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMWxoj39AGZ6V3j-dZg6--UlVxzxFgMwc89SLF2jI_SIIR6eEgdCngMDiMUnuSP4mijwerl1Or5_30SKfqt3K4szQIBnZnFF1h-o9MHud754claRtSpZM3UbhegOspDivZphNJtQk=",
+          "title": "shopify.com"
+        },
+        {
+          "id": 2,
+          "text": "The official Privacy Policy on **treebrain.ai** explicitly identifies the operating company",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHf7PkmuAvLNsFv10SU4goPMvYp6IEGRkIVTa7FKTMgxRznu1m28qV6Pb-K1SR_rwb7MtxkqBCV5gFiPiZ4IPjYrGhT57eGlH2JE3p3vSBJDo_BxEs4QT8=",
+          "title": "treebrain.ai"
+        },
+        {
+          "id": 3,
+          "text": "The software integration is also officially published by **Privee Ventures** on the Shopify App Store",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMWxoj39AGZ6V3j-dZg6--UlVxzxFgMwc89SLF2jI_SIIR6eEgdCngMDiMUnuSP4mijwerl1Or5_30SKfqt3K4szQIBnZnFF1h-o9MHud754claRtSpZM3UbhegOspDivZphNJtQk=",
+          "title": "shopify.com"
+        },
+        {
+          "id": 4,
+          "text": "At Privee Ventures LLC (TreeBrain.ai), our commitment to privacy and data protection is paramount. We recognize the importance of safeguarding the personal information of our customers and users across all sales channels, including Amazon, Shopify, and other platforms.\"*\n* T",
+          "url": "https://www.treebrain.ai/privacy/",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Privee Ventures LLC",
+        "evidence": "According to TreeBrain's privacy policy, 'At Privee Ventures LLC (TreeBrain.ai), our commitment to privacy and data protection is paramount', demonstrating that Privee Ventures LLC operates TreeBrain.ai.",
+        "source": {
+          "id": 4,
+          "text": "At Privee Ventures LLC (TreeBrain.ai), our commitment to privacy and data protection is paramount. We recognize the importance of safeguarding the personal information of our customers and users across all sales channels, including Amazon, Shopify, and other platforms.\"*\n* T",
+          "url": "https://www.treebrain.ai/privacy/",
+          "title": ""
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "TreeBrain",
+    "domain": "treebrain.ai",
+    "description": "Optimized content generation for eCommerce platform."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Privee Ventures LLC",
+  "evidence": "According to TreeBrain's privacy policy, 'At Privee Ventures LLC (TreeBrain.ai), our commitment to privacy and data protection is paramount', demonstrating that Privee Ventures LLC operates TreeBrain.ai.",
+  "source": {
+    "id": 4,
+    "text": "At Privee Ventures LLC (TreeBrain.ai), our commitment to privacy and data protection is paramount. We recognize the importance of safeguarding the personal information of our customers and users across all sales channels, including Amazon, Shopify, and other platforms.\"*\n* T",
+    "url": "https://www.treebrain.ai/privacy/",
+    "title": ""
+  },
+  "checked_at": "2026-11-05T06:31:39.341376+00:00"
+}

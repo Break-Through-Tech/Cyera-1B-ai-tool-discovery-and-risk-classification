@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **KIVA by Wellows** at **wellows.com** is **WEBAFFINITI-FZCO** (operating under the brand **Wellows**).\n\n### Evidence & Provider Statement\nAccording to the official Wellows *Terms of Service* hosted on `wellows.com`:\n> *\"Welcome to Wellows (“Service”), a proprietary platform owned and operated by WEBAFFINITI-FZCO a legal entity organized and existing under the laws of United Arab Emirates, with its principal office located at Silicon Oasis, Dubai (“Company,” “we,” “our,” or “us”).\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **KIVA by Wellows** at **wellows.com** is **WEBAFFINITI-FZCO** (operating under the brand **Wellows**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfersbXYQCf2mZeG-SeT20yS99eaUveBUof2GSG2PKRDdw5yb9hhrlBR8RrEnyFBDRc6AMVchLV2JHCfLuhWYhPw9YK5u7zm_nrUVnLrBLM2o=",
+          "title": "wellows.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **KIVA by Wellows** at **wellows.com** is **WEBAFFINITI-FZCO** (operating under the brand **Wellows**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4kpXyiRdfRC7OUQ7X-CYoLzxNVPvF3EOmB9nCoTA9UBYROAbGD5V8hzb-_8fN7PryBa3wwU--opR5C6vcecieM0UecbEw5I8sXe6Z3yir4aSg1AU7vg7e-u8_",
+          "title": "wellows.com"
+        },
+        {
+          "id": 2,
+          "text": "Welcome to Wellows (“Service”), a proprietary platform owned and operated by WEBAFFINITI-FZCO a legal entity organized and existing under the laws of United Arab Emirates, with its principal office located at Silicon Oasis, Dubai (“Company,” “we,” “our,” ",
+          "url": "https://wellows.com/terms-of-service/",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "WEBAFFINITI-FZCO",
+        "evidence": "Passage 2 states that Wellows is a proprietary platform owned and operated by WEBAFFINITI-FZCO, a legal entity located at Silicon Oasis, Dubai.",
+        "source": {
+          "id": 2,
+          "text": "Welcome to Wellows (“Service”), a proprietary platform owned and operated by WEBAFFINITI-FZCO a legal entity organized and existing under the laws of United Arab Emirates, with its principal office located at Silicon Oasis, Dubai (“Company,” “we,” “our,” ",
+          "url": "https://wellows.com/terms-of-service/",
+          "title": ""
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "KIVA by Wellows",
+    "domain": "wellows.com",
+    "description": "Kiva by Wellows is an AI-powered SEO optimization tool that analyzes websites, identifies areas for improvement, and suggests actionable steps to boost search engine rankings. It simplifies the SEO process, making it accessible to businesses of all sizes."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "WEBAFFINITI-FZCO",
+  "evidence": "Passage 2 states that Wellows is a proprietary platform owned and operated by WEBAFFINITI-FZCO, a legal entity located at Silicon Oasis, Dubai.",
+  "source": {
+    "id": 2,
+    "text": "Welcome to Wellows (“Service”), a proprietary platform owned and operated by WEBAFFINITI-FZCO a legal entity organized and existing under the laws of United Arab Emirates, with its principal office located at Silicon Oasis, Dubai (“Company,” “we,” “our,” ",
+    "url": "https://wellows.com/terms-of-service/",
+    "title": ""
+  },
+  "checked_at": "2026-11-05T06:26:18.253855+00:00"
+}

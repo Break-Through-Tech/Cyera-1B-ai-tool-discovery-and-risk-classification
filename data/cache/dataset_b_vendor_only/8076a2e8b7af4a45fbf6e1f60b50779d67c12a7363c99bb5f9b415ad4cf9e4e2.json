@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "For **Dream Machine AI** at the domain **dream-machine-ai.com**:\n\nNo registered legal company name is disclosed on the website. The service is provided directly under the brand **Dream Machine AI** (also referenced in its legal notices as **Luma DreamMachine**) by developer contact **liangjiongxin**:\n\n* **Privacy Policy (`dream-machine-ai.com`):** States that *\"Website refers to Luma DreamMachine, accessible from https://dream-machine-ai.com\"* and specifies: *\"If you have any questions about this Privacy Policy, You can contact us: By email: liangjiongxin@gmail.com\"*.\n* **Terms & Conditions and Site Notices:** Refer to *\"materials on Luma DreamMachine's Website\"*, list the customer contact as `support@dream-machine-ai.com`, and display the copyright *\"© Dream Machine AI. All rights reserved.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "No registered legal company name is disclosed on the website",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgPx7Gw8pbwPlJYJ42UBkymsolzwMhID6suVedlglrYkgXDI3QJfKtXW6TIvgvz-YzfDXXoOZopR0O-XkP0_8n1jikTUBIyCTUhtlw0PPmMrYWI_tbQQlPvMg=",
+          "title": "dream-machine-ai.com"
+        },
+        {
+          "id": 1,
+          "text": "No registered legal company name is disclosed on the website",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEL61rmu2M4GBHRb99S4Po86IAHxdS10Hz_vFLnBv5EYUPM_k62oP4ymQwXN_eZPukhmMeqW-Ilh382glXo_2dSg_0BGU94so3Ts4P2iN0nz5WyeVIF3hR_",
+          "title": "dream-machine-ai.com"
+        },
+        {
+          "id": 2,
+          "text": "The service is provided directly under the brand **Dream Machine AI** (also referenced in its legal notices as **Luma DreamMachine**) by developer contact **liangjiongxin**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgPx7Gw8pbwPlJYJ42UBkymsolzwMhID6suVedlglrYkgXDI3QJfKtXW6TIvgvz-YzfDXXoOZopR0O-XkP0_8n1jikTUBIyCTUhtlw0PPmMrYWI_tbQQlPvMg=",
+          "title": "dream-machine-ai.com"
+        },
+        {
+          "id": 3,
+          "text": "The service is provided directly under the brand **Dream Machine AI** (also referenced in its legal notices as **Luma DreamMachine**) by developer contact **liangjiongxin**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEL61rmu2M4GBHRb99S4Po86IAHxdS10Hz_vFLnBv5EYUPM_k62oP4ymQwXN_eZPukhmMeqW-Ilh382glXo_2dSg_0BGU94so3Ts4P2iN0nz5WyeVIF3hR_",
+          "title": "dream-machine-ai.com"
+        },
+        {
+          "id": 4,
+          "text": "The service is provided directly under the brand **Dream Machine AI** (also referenced in its legal notices as **Luma DreamMachine**) by developer contact **liangjiongxin**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEp34JOdJzfohMuVnuRkn-Ep-NMx_gpUtHs4X4Tlgy5P92wFybQpOtdqFaqlYw-mtsoy5-My0UcWUo3EsWpQ-E6PtfZCIxb9YmZ0mRd5SHwqovHqWG3CCyXpqw=",
+          "title": "dream-machine-ai.com"
+        },
+        {
+          "id": 5,
+          "text": "**Privacy Policy (`dream-machine-ai.com`):** States that *\"Website refers to Luma DreamMachine, accessible from https://dream-machine-ai.com\"* and specifies: *\"If you have any questions about this Privacy Policy, You can contact us: By email: liangjiongxin@gmail.com\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgPx7Gw8pbwPlJYJ42UBkymsolzwMhID6suVedlglrYkgXDI3QJfKtXW6TIvgvz-YzfDXXoOZopR0O-XkP0_8n1jikTUBIyCTUhtlw0PPmMrYWI_tbQQlPvMg=",
+          "title": "dream-machine-ai.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "liangjiongxin",
+        "evidence": "Passage 2 states that the service is provided under the brand Dream Machine AI by developer contact liangjiongxin.",
+        "source": {
+          "id": 2,
+          "text": "The service is provided directly under the brand **Dream Machine AI** (also referenced in its legal notices as **Luma DreamMachine**) by developer contact **liangjiongxin**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgPx7Gw8pbwPlJYJ42UBkymsolzwMhID6suVedlglrYkgXDI3QJfKtXW6TIvgvz-YzfDXXoOZopR0O-XkP0_8n1jikTUBIyCTUhtlw0PPmMrYWI_tbQQlPvMg=",
+          "title": "dream-machine-ai.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Dream Machine AI",
+    "domain": "dream-machine-ai.com",
+    "description": "Transform text and images into high-quality videos instantly with Dream Machine AI."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "liangjiongxin",
+  "evidence": "Passage 2 states that the service is provided under the brand Dream Machine AI by developer contact liangjiongxin.",
+  "source": {
+    "id": 2,
+    "text": "The service is provided directly under the brand **Dream Machine AI** (also referenced in its legal notices as **Luma DreamMachine**) by developer contact **liangjiongxin**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgPx7Gw8pbwPlJYJ42UBkymsolzwMhID6suVedlglrYkgXDI3QJfKtXW6TIvgvz-YzfDXXoOZopR0O-XkP0_8n1jikTUBIyCTUhtlw0PPmMrYWI_tbQQlPvMg=",
+    "title": "dream-machine-ai.com"
+  },
+  "checked_at": "2026-11-05T06:48:07.309394+00:00"
+}

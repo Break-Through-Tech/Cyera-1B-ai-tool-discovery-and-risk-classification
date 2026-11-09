@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **GeoGebra** at **geogebra.org** is **GeoGebra GmbH**.\n\n### Evidence\nAccording to GeoGebra's official *Website Terms of Service and Use* (hosted at `geogebra.org`):\n> *\"The GeoGebra GmbH is located in Linz, Austria ('we', 'our' or 'us'). We develop and support the GeoGebra dynamic mathematics software application, including its source code, installers, web applications and services, language files and associated documentation ('GeoGebra' or 'the Software'). We operate GeoGebra (and publish its related resources) through our website located at https://www.geogebra.org.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **GeoGebra** at **geogebra.org** is **GeoGebra GmbH**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGe33cmZekOc13eLhP6XQ7j6eD4mDInmvbYHe4msXus_RkGbB87KDwS6jHNLcb2NH6vbe3SXAlC8xZ44elq_gePUFHDDWKdwF5dUqpwz4wmFH8=",
+          "title": "geogebra.org"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **GeoGebra** at **geogebra.org** is **GeoGebra GmbH**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGe33cmZekOc13eLhP6XQ7j6eD4mDInmvbYHe4msXus_RkGbB87KDwS6jHNLcb2NH6vbe3SXAlC8xZ44elq_gePUFHDDWKdwF5dUqpwz4wmFH8=",
+          "title": "geogebra.org"
+        },
+        {
+          "id": 2,
+          "text": "We operate GeoGebra (and publish its related resources) through our website located at https://www.geogebra.org.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGe33cmZekOc13eLhP6XQ7j6eD4mDInmvbYHe4msXus_RkGbB87KDwS6jHNLcb2NH6vbe3SXAlC8xZ44elq_gePUFHDDWKdwF5dUqpwz4wmFH8=",
+          "title": "geogebra.org"
+        },
+        {
+          "id": 3,
+          "text": "The GeoGebra GmbH is located in Linz, Austria ('we', 'our' or 'us'). We develop and support the GeoGebra dynamic mathematics software application, including its source code, installers, web applications and services, language files and associated documentation ('GeoGebra' or 'the Software'). We operate GeoGebra (and publish its related resources) through our website located",
+          "url": "https://www.geogebra.org/license",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "GeoGebra GmbH",
+        "evidence": "Passage 3 explicitly states that GeoGebra GmbH develops and supports the GeoGebra dynamic mathematics software application and operates it through its website at geogebra.org.",
+        "source": {
+          "id": 3,
+          "text": "The GeoGebra GmbH is located in Linz, Austria ('we', 'our' or 'us'). We develop and support the GeoGebra dynamic mathematics software application, including its source code, installers, web applications and services, language files and associated documentation ('GeoGebra' or 'the Software'). We operate GeoGebra (and publish its related resources) through our website located",
+          "url": "https://www.geogebra.org/license",
+          "title": ""
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "GeoGebra",
+    "domain": "geogebra.org",
+    "description": "GeoGebra is a versatile mathematics software that integrates various mathematical concepts such as geometry, algebra, graphing, statistics, and calculus into a single platform. It caters to educational institutions and individual learners across all levels, fostering a global community of millions of users. By prioritizing STEM education, GeoGebra aids in the enhancement of teaching and learning methodologies across various geographies."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "GeoGebra GmbH",
+  "evidence": "Passage 3 explicitly states that GeoGebra GmbH develops and supports the GeoGebra dynamic mathematics software application and operates it through its website at geogebra.org.",
+  "source": {
+    "id": 3,
+    "text": "The GeoGebra GmbH is located in Linz, Austria ('we', 'our' or 'us'). We develop and support the GeoGebra dynamic mathematics software application, including its source code, installers, web applications and services, language files and associated documentation ('GeoGebra' or 'the Software'). We operate GeoGebra (and publish its related resources) through our website located",
+    "url": "https://www.geogebra.org/license",
+    "title": ""
+  },
+  "checked_at": "2026-11-05T09:26:52.774377+00:00"
+}

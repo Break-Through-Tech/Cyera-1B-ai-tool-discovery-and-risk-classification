@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "For **StoriesForKids.ai** at the domain **`storiesforkids.ai`**:\n\n* **Published Developer / Creator:** **Brian Roy** created and launched the tool. According to Product Hunt's launch feature: *\"Brian Roy, who works as a Director of Product Design at Spotify, created StoriesForKids while on parental leave\".*\n* **Provider Brand:** The service operates directly under the brand **StoriesForKids.ai**, as stated in the site's copyright footer: *\"© 2022 StoriesForKids.ai; Privacy · Terms\"*. No separate incorporated entity is listed.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**Published Developer / Creator:** **Brian Roy** created and launched the tool",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1hUKUkOTY5OTXLoegf4lC93i2rT7sCJZrpFkWNZ43upALKioNH65f1gpnC98-W397v0P31bQScIeREL6u2TOuZVSrE4VKwJHKq8vbr8AzHo-Svss7ZdIA4GA7Mg2ZZQ9auwEWjYMFRWZ5yfoDfmgOLUAadKc90C3DFTj4xCQcyKHXcE-cLw==",
+          "title": "producthunt.com"
+        },
+        {
+          "id": 1,
+          "text": "According to Product Hunt's launch feature: *\"Brian Roy, who works as a Director of Product Design at Spotify, created StoriesForKids while on parental leave\"",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1hUKUkOTY5OTXLoegf4lC93i2rT7sCJZrpFkWNZ43upALKioNH65f1gpnC98-W397v0P31bQScIeREL6u2TOuZVSrE4VKwJHKq8vbr8AzHo-Svss7ZdIA4GA7Mg2ZZQ9auwEWjYMFRWZ5yfoDfmgOLUAadKc90C3DFTj4xCQcyKHXcE-cLw==",
+          "title": "producthunt.com"
+        },
+        {
+          "id": 2,
+          "text": "**Provider Brand:** The service operates directly under the brand **StoriesForKids.ai**, as stated in the site's copyright footer: *\"© 2022 StoriesForKids.ai; Privacy · Terms\"*. ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_8cBPGcw3m921A2dy0jXZUI7jNLHHAVwtNmniX1QUiPzRKEra2cXGI2sByCp_ghK1Z9grsTyri70qal47p9Yrdb_DGOOThCHeLMnosONdWg==",
+          "title": "storiesforkids.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Brian Roy",
+        "evidence": "Brian Roy is identified as the published developer and creator who created and launched the tool.",
+        "source": {
+          "id": 0,
+          "text": "**Published Developer / Creator:** **Brian Roy** created and launched the tool",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1hUKUkOTY5OTXLoegf4lC93i2rT7sCJZrpFkWNZ43upALKioNH65f1gpnC98-W397v0P31bQScIeREL6u2TOuZVSrE4VKwJHKq8vbr8AzHo-Svss7ZdIA4GA7Mg2ZZQ9auwEWjYMFRWZ5yfoDfmgOLUAadKc90C3DFTj4xCQcyKHXcE-cLw==",
+          "title": "producthunt.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "StoriesForKids.ai",
+    "domain": "storiesforkids.ai",
+    "description": "Create personalized children's books with AI"
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Brian Roy",
+  "evidence": "Brian Roy is identified as the published developer and creator who created and launched the tool.",
+  "source": {
+    "id": 0,
+    "text": "**Published Developer / Creator:** **Brian Roy** created and launched the tool",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1hUKUkOTY5OTXLoegf4lC93i2rT7sCJZrpFkWNZ43upALKioNH65f1gpnC98-W397v0P31bQScIeREL6u2TOuZVSrE4VKwJHKq8vbr8AzHo-Svss7ZdIA4GA7Mg2ZZQ9auwEWjYMFRWZ5yfoDfmgOLUAadKc90C3DFTj4xCQcyKHXcE-cLw==",
+    "title": "producthunt.com"
+  },
+  "checked_at": "2026-11-05T06:46:27.260254+00:00"
+}

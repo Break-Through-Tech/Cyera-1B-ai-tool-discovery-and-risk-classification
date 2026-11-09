@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The operating vendor directly providing the software product at **unboundcontent.ai** (Unbound / UnboundAI) is **Matterr Capital, LLC** (doing business as **UnboundAI**).\n\n### Evidence:\n* **Terms of Service** (`unboundcontent.ai`):\n  > *\"These Terms of Use constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and Matterr Capital, LLC (\"Company,\" “we,\" “us,\" or “our”), concerning your access to and use of the unboundcontent.ai website as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto (collectively, the “Site”). We are registered in California, United States...\"*\n* **Privacy Policy** (`unboundcontent.ai`):\n  > *\"This privacy notice for Matterr Capital, LLC (doing business as UnboundAI) (\\\"UnboundAI,\\\" \\\"we,\\\" \\\"us,\\\" or \\\"our\\\"), describes how and why we might collect, store, use, and/or share (\\\"process\\\") your information when you use our services (\\\"Services\\\"), such as when you: Visit our website at https://unboundcontent.ai...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The operating vendor directly providing the software product at **unboundcontent.ai** (Unbound / UnboundAI) is **Matterr Capital, LLC** (doing business as **UnboundAI**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_8gL7Ry9HQEIZtNwD56aP_NhqoQkVrVclQeQUh1CSUvLIsnNJVy5K6Qdz5xEGx2qlEXaTafEsXbm2cq4rWfEHef1tn6Rhnav82MsM9R7f3HHNt0mMgSnj1okoennx",
+          "title": "unboundcontent.ai"
+        },
+        {
+          "id": 1,
+          "text": "The operating vendor directly providing the software product at **unboundcontent.ai** (Unbound / UnboundAI) is **Matterr Capital, LLC** (doing business as **UnboundAI**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFh9cWNKvPMWo_TGpTFg5q4J32TlXlQz_-gy_z67fc_1YvY5FlHWDq3SbsJJ9rbHG4qL3LYLcBTa3h_Ehf0cwvRnriRSLNqejomnpe0bJ9TU4g8ebcX_T19d5BY0sBf2sc=",
+          "title": "unboundcontent.ai"
+        },
+        {
+          "id": 2,
+          "text": "d in California, United States...\"*\n* **Privacy Pol",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFh9cWNKvPMWo_TGpTFg5q4J32TlXlQz_-gy_z67fc_1YvY5FlHWDq3SbsJJ9rbHG4qL3LYLcBTa3h_Ehf0cwvRnriRSLNqejomnpe0bJ9TU4g8ebcX_T19d5BY0sBf2sc=",
+          "title": "unboundcontent.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Matterr Capital, LLC",
+        "evidence": "Passage 0 explicitly identifies Matterr Capital, LLC (doing business as UnboundAI) as the operating vendor directly providing the software product at unboundcontent.ai.",
+        "source": {
+          "id": 0,
+          "text": "The operating vendor directly providing the software product at **unboundcontent.ai** (Unbound / UnboundAI) is **Matterr Capital, LLC** (doing business as **UnboundAI**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_8gL7Ry9HQEIZtNwD56aP_NhqoQkVrVclQeQUh1CSUvLIsnNJVy5K6Qdz5xEGx2qlEXaTafEsXbm2cq4rWfEHef1tn6Rhnav82MsM9R7f3HHNt0mMgSnj1okoennx",
+          "title": "unboundcontent.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Unbound ML E-commerce AI Assistant",
+    "domain": "unboundcontent.ai",
+    "description": "Generate images and text automatically from a single search bar."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Matterr Capital, LLC",
+  "evidence": "Passage 0 explicitly identifies Matterr Capital, LLC (doing business as UnboundAI) as the operating vendor directly providing the software product at unboundcontent.ai.",
+  "source": {
+    "id": 0,
+    "text": "The operating vendor directly providing the software product at **unboundcontent.ai** (Unbound / UnboundAI) is **Matterr Capital, LLC** (doing business as **UnboundAI**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_8gL7Ry9HQEIZtNwD56aP_NhqoQkVrVclQeQUh1CSUvLIsnNJVy5K6Qdz5xEGx2qlEXaTafEsXbm2cq4rWfEHef1tn6Rhnav82MsM9R7f3HHNt0mMgSnj1okoennx",
+    "title": "unboundcontent.ai"
+  },
+  "checked_at": "2026-11-05T06:42:16.050400+00:00"
+}

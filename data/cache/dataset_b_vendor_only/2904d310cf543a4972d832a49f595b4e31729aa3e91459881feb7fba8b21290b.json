@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The operating company directly providing the **ActiveCampaign** software product at **activecampaign.com** is **ActiveCampaign, LLC**.\n\n### Provider Statement\nAccording to the official ActiveCampaign Terms of Service:\n> *\"These Terms of Service (“Terms”) apply to your access to and use of the websites, applications and other products and services, including email services, trainings, events, marketing services, consulting services, review and message boards and various other message communication applications (collectively, our “Services”) provided by ActiveCampaign, LLC. (“ActiveCampaign”, “we”, or “us”).\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The operating company directly providing the **ActiveCampaign** software product at **activecampaign.com** is **ActiveCampaign, LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGojgOdlyIdnunilrz_L_5UrePUx7IVq8dou_tAVABwgSHzAGCuueyPlnJzXGmI_WW5clugypPiGfwYrdihSeiEpYI_t0EbGiUGY6ZuN9hONSQHAB2VzIww79dOl8lf9QOGwfs11iC57aZ_bPBAzRk=",
+          "title": "activecampaign.com"
+        },
+        {
+          "id": 1,
+          "text": "The operating company directly providing the **ActiveCampaign** software product at **activecampaign.com** is **ActiveCampaign, LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoVliLkmuBcQjXxITzBLzykHI3pJtXn4ED4_Rac6tfh2370XolpAveztLkZKHFajFENfYdBAmqLhJCF-VG-4QcFxlWmEvT7clM8XwkEckc8CutiBo34cIRtyctOmVzMxF1gFn-JSmATkjw",
+          "title": "activecampaign.com"
+        },
+        {
+          "id": 2,
+          "text": "apply to your access to and use of the websites, applications and other products and services, including email services, trainings, events, marketing services, consulting services, review and message boards and various other message communication applications (collectively",
+          "url": "https://www.activecampaign.com/legal/terms-of-service",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "ActiveCampaign, LLC",
+        "evidence": "Passage 0 directly states that the operating company providing the ActiveCampaign software product at activecampaign.com is ActiveCampaign, LLC.",
+        "source": {
+          "id": 0,
+          "text": "The operating company directly providing the **ActiveCampaign** software product at **activecampaign.com** is **ActiveCampaign, LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGojgOdlyIdnunilrz_L_5UrePUx7IVq8dou_tAVABwgSHzAGCuueyPlnJzXGmI_WW5clugypPiGfwYrdihSeiEpYI_t0EbGiUGY6ZuN9hONSQHAB2VzIww79dOl8lf9QOGwfs11iC57aZ_bPBAzRk=",
+          "title": "activecampaign.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "ActiveCampaign",
+    "domain": "activecampaign.com",
+    "description": "ActiveCampaign is a leading marketing automation platform that empowers small teams to drive significant business growth. With operations spanning over 170 countries, the company offers a robust suite of pre-built automations and integrations with major platforms such as Facebook, Google, WordPress, Salesforce, Shopify, and Square. ActiveCampaign enables businesses to enhance personalized marketing, manage transactional emails, and facilitate one-to-one customer relationship management interactions, effectively supporting the customer lifecycle."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "ActiveCampaign, LLC",
+  "evidence": "Passage 0 directly states that the operating company providing the ActiveCampaign software product at activecampaign.com is ActiveCampaign, LLC.",
+  "source": {
+    "id": 0,
+    "text": "The operating company directly providing the **ActiveCampaign** software product at **activecampaign.com** is **ActiveCampaign, LLC**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGojgOdlyIdnunilrz_L_5UrePUx7IVq8dou_tAVABwgSHzAGCuueyPlnJzXGmI_WW5clugypPiGfwYrdihSeiEpYI_t0EbGiUGY6ZuN9hONSQHAB2VzIww79dOl8lf9QOGwfs11iC57aZ_bPBAzRk=",
+    "title": "activecampaign.com"
+  },
+  "checked_at": "2026-11-05T08:51:47.883031+00:00"
+}

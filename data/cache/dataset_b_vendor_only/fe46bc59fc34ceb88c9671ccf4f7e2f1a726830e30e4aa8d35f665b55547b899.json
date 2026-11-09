@@ -1,0 +1,85 @@
+{
+  "attempts": [
+    {
+      "answer": "The evidence concerns the software product **Locales.ai** at the domain **locales.ai** (AI-powered website and app localization services).\n\n### Directly Providing Vendor\nThe operating company and developer directly providing **Locales.ai** is **AGI Forge Global, Inc.** (operating under the corporate brand **AGIForge**).\n\n### Provider Statements & Evidence\n* **Official Website Legal Policies & Support:** The official Privacy Policy, Terms of Use, and help documentation across `locales.ai` direct all support, legal, and operational inquiries to AGIForge (`support@agiforge.com`): \n  * *\"To ask questions or comment about this privacy policy and our privacy practices, contact us at: support@agiforge.com.\"*\n  * *\"All refund requests should be submitted within 30 days from the date of purchase, via email to support@agiforge.com...\"*\n* **App Store Publisher Listing:** Official marketplace distributions for the tool (such as on the Shopify App Store for *Locales.ai: AI Translate*) explicitly identify the registered developer and company as **AGI Forge Global, Inc.**.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The evidence concerns the software product **Locales.ai** at the domain **locales.ai** (AI-powered website and app localization services)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVgxeSnUCiqpHQWD2xhpKpGlwNdm4PFXMP7qeNoZkH0ZIIJ949ye07EdAFoRoH-PRemqJJPdvtiRUOMQ2HSofUVlSWnouL9WPA",
+          "title": "locales.ai"
+        },
+        {
+          "id": 1,
+          "text": "The operating company and developer directly providing **Locales.ai** is **AGI Forge Global, Inc.** (operating under the corporate brand **AGIForge**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0tbS7aPJL3h2G4oYKsJ59Xj3qMfffCPUGpgDGv89hZWL4jSdu_gKBLe6IqsNjIBXFyodr5MIJlf9ttjBjBQl9_2KPFMygPWbApCZzenPvVX94nx4TdSCBFQ==",
+          "title": "shopify.com"
+        },
+        {
+          "id": 2,
+          "text": "The operating company and developer directly providing **Locales.ai** is **AGI Forge Global, Inc.** (operating under the corporate brand **AGIForge**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVGTg30RDQWWFr7zPcZQ_s6cTf8kPsBnc9oYA7JUTREKOGk1vC3kOgOcVfR0Ii6wtGsInvlgAYvhWy5Iv27teGTV7osomsIinqO74=",
+          "title": "agiforge.com"
+        },
+        {
+          "id": 3,
+          "text": "**Official Website Legal Policies & Support:** The official Privacy Policy, Terms of Use, and help documentation across `locales.ai` direct all support, legal, and operational inquiries to AGIForge (`support@agiforge.com`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmVLzlzPaapd61RueUyOww5G4-w2rWn4dWwt4YOXVOzvMVmkiXDrEJchzPcgh3MlV6khHmDhkEFpJiA2g04GLsIVt0CPOsmrNRecOAqoYi2w5uDMCJ5qA=",
+          "title": "locales.ai"
+        },
+        {
+          "id": 4,
+          "text": "**Official Website Legal Policies & Support:** The official Privacy Policy, Terms of Use, and help documentation across `locales.ai` direct all support, legal, and operational inquiries to AGIForge (`support@agiforge.com`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1VDmDPcrXYqiDEcn8CpKS-hmknUc0spkAaCw0hG6ge-EBZ0TNwOnHRa4bFaFNpT2WydvNqmkfW4c8_2q55HZZIkRvhgikPm8buc9Q9aMDTN02eO4=",
+          "title": "locales.ai"
+        },
+        {
+          "id": 5,
+          "text": "*\"To ask questions or comment about this privacy policy and our privacy practices, contact us at: support@agiforge.com.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmVLzlzPaapd61RueUyOww5G4-w2rWn4dWwt4YOXVOzvMVmkiXDrEJchzPcgh3MlV6khHmDhkEFpJiA2g04GLsIVt0CPOsmrNRecOAqoYi2w5uDMCJ5qA=",
+          "title": "locales.ai"
+        },
+        {
+          "id": 6,
+          "text": "*\"All refund requests should be submitted within 30 days from the date of purchase, via email to support@agiforge.com...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1VDmDPcrXYqiDEcn8CpKS-hmknUc0spkAaCw0hG6ge-EBZ0TNwOnHRa4bFaFNpT2WydvNqmkfW4c8_2q55HZZIkRvhgikPm8buc9Q9aMDTN02eO4=",
+          "title": "locales.ai"
+        },
+        {
+          "id": 7,
+          "text": "**App Store Publisher Listing:** Official marketplace distributions for the tool (such as on the Shopify App Store for *Locales.ai: AI Translate*) explicitly identify the registered developer and company as **AGI Forge Global, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0tbS7aPJL3h2G4oYKsJ59Xj3qMfffCPUGpgDGv89hZWL4jSdu_gKBLe6IqsNjIBXFyodr5MIJlf9ttjBjBQl9_2KPFMygPWbApCZzenPvVX94nx4TdSCBFQ==",
+          "title": "shopify.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "AGI Forge Global, Inc.",
+        "evidence": "Passage 1 confirms that the operating company and developer directly providing Locales.ai is AGI Forge Global, Inc. (operating under the corporate brand AGIForge).",
+        "source": {
+          "id": 1,
+          "text": "The operating company and developer directly providing **Locales.ai** is **AGI Forge Global, Inc.** (operating under the corporate brand **AGIForge**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0tbS7aPJL3h2G4oYKsJ59Xj3qMfffCPUGpgDGv89hZWL4jSdu_gKBLe6IqsNjIBXFyodr5MIJlf9ttjBjBQl9_2KPFMygPWbApCZzenPvVX94nx4TdSCBFQ==",
+          "title": "shopify.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Locales.ai",
+    "domain": "locales.ai",
+    "description": "AI-powered website and app localization services."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "AGI Forge Global, Inc.",
+  "evidence": "Passage 1 confirms that the operating company and developer directly providing Locales.ai is AGI Forge Global, Inc. (operating under the corporate brand AGIForge).",
+  "source": {
+    "id": 1,
+    "text": "The operating company and developer directly providing **Locales.ai** is **AGI Forge Global, Inc.** (operating under the corporate brand **AGIForge**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0tbS7aPJL3h2G4oYKsJ59Xj3qMfffCPUGpgDGv89hZWL4jSdu_gKBLe6IqsNjIBXFyodr5MIJlf9ttjBjBQl9_2KPFMygPWbApCZzenPvVX94nx4TdSCBFQ==",
+    "title": "shopify.com"
+  },
+  "checked_at": "2026-11-05T06:31:59.368487+00:00"
+}

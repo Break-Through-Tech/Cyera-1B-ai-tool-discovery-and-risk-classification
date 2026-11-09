@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Substack** at **substack.com** is **Substack Inc.**\n\n### Provider Statement\nAccording to the Substack **Terms of Use**:\n> *\"These Terms of Use are a binding contract between you and Substack Inc. (“we”, “us”, “our”). It contains the rules and restrictions that govern your use of Substack's products and services (referred to below simply as “Substack”).\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Substack** at **substack.com** is **Substack Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBvh4p8ZBz0ei8Fj4-kLfNEzOTl68p1AP6Du4hZtq_sPlc-kYfA_zqfE7SkzmwRhpPjSQqGTcv0uftmAulv1ITQJCgvlgXZhMF0ue1pE0=",
+          "title": "substack.com"
+        },
+        {
+          "id": 1,
+          "text": "According to the Substack",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBvh4p8ZBz0ei8Fj4-kLfNEzOTl68p1AP6Du4hZtq_sPlc-kYfA_zqfE7SkzmwRhpPjSQqGTcv0uftmAulv1ITQJCgvlgXZhMF0ue1pE0=",
+          "title": "substack.com"
+        },
+        {
+          "id": 2,
+          "text": "These Terms of Use are a binding contract between you and Substack Inc. (“we”, “us”, “our”). It contains the rules and restrictions that govern your use of Substack's products and services (referred to below simply as “Substack",
+          "url": "https://substack.com/tos",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Substack Inc.",
+        "evidence": "Substack's Terms of Use state that the contract governing the use of Substack's products and services is between the user and Substack Inc.",
+        "source": {
+          "id": 2,
+          "text": "These Terms of Use are a binding contract between you and Substack Inc. (“we”, “us”, “our”). It contains the rules and restrictions that govern your use of Substack's products and services (referred to below simply as “Substack",
+          "url": "https://substack.com/tos",
+          "title": ""
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Substack",
+    "domain": "substack.com",
+    "description": "Substack is a platform that allows writers to publish paid newsletters. It provides tools to facilitate direct relationships between independent creators and their audiences, helping them to monetize their content through subscriptions. Founded in 2017 and headquartered in San Francisco, California, Substack supports a range of content from journalism to food writing and personal essays."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Substack Inc.",
+  "evidence": "Substack's Terms of Use state that the contract governing the use of Substack's products and services is between the user and Substack Inc.",
+  "source": {
+    "id": 2,
+    "text": "These Terms of Use are a binding contract between you and Substack Inc. (“we”, “us”, “our”). It contains the rules and restrictions that govern your use of Substack's products and services (referred to below simply as “Substack",
+    "url": "https://substack.com/tos",
+    "title": ""
+  },
+  "checked_at": "2026-11-05T08:43:35.750936+00:00"
+}

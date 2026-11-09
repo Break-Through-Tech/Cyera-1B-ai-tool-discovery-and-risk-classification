@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on the domain and software records, the vendor/operating provider is identified as follows:\n\n* **Exact Product & Domain:** **DraGAN** (published as **DragGAN** / *“Drag Your GAN: Interactive Point-based Manipulation on the Generative Image Manifold”*) hosted at **`vcai.mpi-inf.mpg.de`** (project page: `vcai.mpi-inf.mpg.de/projects/DragGAN/`).\n* **Vendor / Directly Providing Entity:** **Max-Planck-Gesellschaft zur Förderung der Wissenschaften e.V.**, operating through the **Max Planck Institute for Informatics** (*Max-Planck-Institut für Informatik*) and its **Visual Computing and Artificial Intelligence (VCAI) Department**.\n* **Provider Statement / Evidence:** The legal provider identification (Imprint) for `mpi-inf.mpg.de` explicitly establishes: \n  > *\"The provider of this Internet site within the legal meaning of the term is the registered association Max-Planck-Gesellschaft zur Förderung der Wissenschaften e.V.\"*\n\nThe `vcai` subdomain represents the Visual Computing and Artificial Intelligence Department at the Max Planck Institute for Informatics, which hosts and distributes the DragGAN research project and resources.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**Exact Product & Domain:** **DraGAN** (published as **DragGAN** / *“Drag Your GAN: Interactive Point-based Manipulation on the Generative Image Manifold”*) hosted at **`vcai.mpi-inf.mpg.de`** (project page: `vcai.mpi-inf.mpg.de/projects/DragGAN/`).\n* ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTALFSYDxc1yTLwC-lOUoYIR3t0jVJ3YII1PxaYjuIcFUqThh4ys8M_WcZBgVq8NpdBx-OBb7fI0b7TGBbOJiTfPzsGTcwtl3PGDjASC0OGgn_RsXrjMAle__a",
+          "title": "github.com"
+        },
+        {
+          "id": 1,
+          "text": "**Exact Product & Domain:** **DraGAN** (published as **DragGAN** / *“Drag Your GAN: Interactive Point-based Manipulation on the Generative Image Manifold”*) hosted at **`vcai.mpi-inf.mpg.de`** (project page: `vcai.mpi-inf.mpg.de/projects/DragGAN/`).\n* ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZdcitlHYFZBR9TESQit7qrHS83sBtOjndxKokI-sk3SIagAWQYEmpBQNvxUz-N1PPqnWE0IcC89gIXr-3H45XW9apnWwjEabasQIfSB9fnHVFacCVVrzj1VYd4SAZHqdhah8=",
+          "title": "mpg.de"
+        },
+        {
+          "id": 2,
+          "text": "ndor / Directly Providing Entity:** **Max-Planck-Gesellschaft zur Förderung der Wissenschaften e.V.**, operating through the **Max Planck Institute for Informatics** (*Max-Planck-Institut für Informatik*) and its **Visual Computing and Artificial Intelligence (VCAI) Department**.\n* **",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPfui_2gimj_Lk5vyEupG3PUPdVekoRcA_dWpLbXuofURRRlIo_m61afkdEYgPGAwPVBqtuJ-AhaKYc_P7AmaPc8xpadXdWJf933Ve_Wr1Jpgjk96J3q95z5s_Af2pfSqxmhzNffIbzPnmiHoBcV-2zmS3RVX4hq9YyjkFbMiT0rUTJ6xDHWjx7w==",
+          "title": "mpg.de"
+        },
+        {
+          "id": 3,
+          "text": "ndor / Directly Providing Entity:** **Max-Planck-Gesellschaft zur Förderung der Wissenschaften e.V.**, operating through the **Max Planck Institute for Informatics** (*Max-Planck-Institut für Informatik*) and its **Visual Computing and Artificial Intelligence (VCAI) Department**.\n* **",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiWnXVvNR9xkDCvrYQETwioDfu_BTPvCX_CGVE3TEyrU-JhzW_ODus5eI3o1mJMsrkIj-5EzBNFxClDtv9Xx3U5RowyBHFnVzJs87CeuAWMUySgcaM0Fc2",
+          "title": "mpg.de"
+        },
+        {
+          "id": 4,
+          "text": "provider of this Internet site within the legal meaning of the term is the registered association Max-Planck-Gesellschaft zur Förderung der Wissenschaften e.V.\"*\n\nThe `",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiWnXVvNR9xkDCvrYQETwioDfu_BTPvCX_CGVE3TEyrU-JhzW_ODus5eI3o1mJMsrkIj-5EzBNFxClDtv9Xx3U5RowyBHFnVzJs87CeuAWMUySgcaM0Fc2",
+          "title": "mpg.de"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Max-Planck-Gesellschaft zur Förderung der Wissenschaften e.V.",
+        "evidence": "Passage 2 states that the directly providing entity is Max-Planck-Gesellschaft zur Förderung der Wissenschaften e.V., operating through the Max Planck Institute for Informatics and its Visual Computing and Artificial Intelligence (VCAI) Department.",
+        "source": {
+          "id": 2,
+          "text": "ndor / Directly Providing Entity:** **Max-Planck-Gesellschaft zur Förderung der Wissenschaften e.V.**, operating through the **Max Planck Institute for Informatics** (*Max-Planck-Institut für Informatik*) and its **Visual Computing and Artificial Intelligence (VCAI) Department**.\n* **",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPfui_2gimj_Lk5vyEupG3PUPdVekoRcA_dWpLbXuofURRRlIo_m61afkdEYgPGAwPVBqtuJ-AhaKYc_P7AmaPc8xpadXdWJf933Ve_Wr1Jpgjk96J3q95z5s_Af2pfSqxmhzNffIbzPnmiHoBcV-2zmS3RVX4hq9YyjkFbMiT0rUTJ6xDHWjx7w==",
+          "title": "mpg.de"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "DraGAN",
+    "domain": "vcai.mpi-inf.mpg.de",
+    "description": "Controlling GANs through Point-based Manipulation"
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Max-Planck-Gesellschaft zur Förderung der Wissenschaften e.V.",
+  "evidence": "Passage 2 states that the directly providing entity is Max-Planck-Gesellschaft zur Förderung der Wissenschaften e.V., operating through the Max Planck Institute for Informatics and its Visual Computing and Artificial Intelligence (VCAI) Department.",
+  "source": {
+    "id": 2,
+    "text": "ndor / Directly Providing Entity:** **Max-Planck-Gesellschaft zur Förderung der Wissenschaften e.V.**, operating through the **Max Planck Institute for Informatics** (*Max-Planck-Institut für Informatik*) and its **Visual Computing and Artificial Intelligence (VCAI) Department**.\n* **",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPfui_2gimj_Lk5vyEupG3PUPdVekoRcA_dWpLbXuofURRRlIo_m61afkdEYgPGAwPVBqtuJ-AhaKYc_P7AmaPc8xpadXdWJf933Ve_Wr1Jpgjk96J3q95z5s_Af2pfSqxmhzNffIbzPnmiHoBcV-2zmS3RVX4hq9YyjkFbMiT0rUTJ6xDHWjx7w==",
+    "title": "mpg.de"
+  },
+  "checked_at": "2026-11-05T07:08:03.165515+00:00"
+}

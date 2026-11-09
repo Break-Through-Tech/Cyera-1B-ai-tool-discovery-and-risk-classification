@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **Franchise AI Assistant** at **wefranch.com** is **Wefranch**.\n\n### Supporting Evidence:\n* **Terms and Conditions (`wefranch.com`):** *\"These terms and conditions outline the rules and regulations for the use of Wefranch's Website, located at https://www.wefranch.com... Unless otherwise stated, Wefranch and/or its licensors own the intellectual property rights for all material on Wefranch.\"*\n* **Privacy Policy (`wefranch.com`):** *\"Privacy Policy for Wefranch. At Wefranch, accessible from https://www.wefranch.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Wefranch...\"*\n* **Product Listing:** Third-party software directories (such as G2) document the tool directly as: *\"The Franchise AI Assistant by Wefranch is an innovative tool designed to empower franchisors...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **Franchise AI Assistant** at **wefranch.com** is **Wefranch**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXskKUM620c2X5YKXKbqLHssaW_EboJ_uFlW9NDCwy6WcNX0-eSCs_Q3YYPFc6Al6lTdCV4kRWO-127OlLdf7q4Sgm_HIXtm6XJwpf4wMEoOqW",
+          "title": "wefranch.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the **Franchise AI Assistant** at **wefranch.com** is **Wefranch**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlGAcWwkySC8oobQitag3KTTCocdE4Xy4cIulZ9bhwcGUa72uOezchZl-roHoHTcWO8fK6q1CK-oVKGMp6pm6kieOLJmB6r6gn7sFybBbkFw==",
+          "title": "wefranch.com"
+        },
+        {
+          "id": 2,
+          "text": "The vendor directly providing the **Franchise AI Assistant** at **wefranch.com** is **Wefranch**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwZM1x_bv9pqjH3PeFRvYqIUOm16Ob593jFeNhSTwQB8CCU6Gw9n1irY2R5SIh_0neA2ZGtBndoPhpnzXHs6t8y3oQ0XXjqY9Ur8xFG-_imn1vbB8We74Rsth3Lfs=",
+          "title": "g2.com"
+        },
+        {
+          "id": 3,
+          "text": "Unless otherwise stated, Wefranch and/or its licensors own the intellectual property rights for all material on Wefranch.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlGAcWwkySC8oobQitag3KTTCocdE4Xy4cIulZ9bhwcGUa72uOezchZl-roHoHTcWO8fK6q1CK-oVKGMp6pm6kieOLJmB6r6gn7sFybBbkFw==",
+          "title": "wefranch.com"
+        },
+        {
+          "id": 4,
+          "text": "This Privacy Policy document contains types of information that is collected and recorded by Wefranch...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXskKUM620c2X5YKXKbqLHssaW_EboJ_uFlW9NDCwy6WcNX0-eSCs_Q3YYPFc6Al6lTdCV4kRWO-127OlLdf7q4Sgm_HIXtm6XJwpf4wMEoOqW",
+          "title": "wefranch.com"
+        },
+        {
+          "id": 5,
+          "text": "**Product Listing:** Third-party software directories (such as G2) document the tool directly as: *\"The Franchise AI Assistant by Wefranch is an innovative tool designed to empower franchisors...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwZM1x_bv9pqjH3PeFRvYqIUOm16Ob593jFeNhSTwQB8CCU6Gw9n1irY2R5SIh_0neA2ZGtBndoPhpnzXHs6t8y3oQ0XXjqY9Ur8xFG-_imn1vbB8We74Rsth3Lfs=",
+          "title": "g2.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Wefranch",
+        "evidence": "Third-party software directories document the tool directly as 'The Franchise AI Assistant by Wefranch'.",
+        "source": {
+          "id": 5,
+          "text": "**Product Listing:** Third-party software directories (such as G2) document the tool directly as: *\"The Franchise AI Assistant by Wefranch is an innovative tool designed to empower franchisors...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwZM1x_bv9pqjH3PeFRvYqIUOm16Ob593jFeNhSTwQB8CCU6Gw9n1irY2R5SIh_0neA2ZGtBndoPhpnzXHs6t8y3oQ0XXjqY9Ur8xFG-_imn1vbB8We74Rsth3Lfs=",
+          "title": "g2.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Franchise AI Assistant",
+    "domain": "wefranch.com",
+    "description": "Franchise AI Assistant that will answer any questions about a franchise concept"
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Wefranch",
+  "evidence": "Third-party software directories document the tool directly as 'The Franchise AI Assistant by Wefranch'.",
+  "source": {
+    "id": 5,
+    "text": "**Product Listing:** Third-party software directories (such as G2) document the tool directly as: *\"The Franchise AI Assistant by Wefranch is an innovative tool designed to empower franchisors...\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwZM1x_bv9pqjH3PeFRvYqIUOm16Ob593jFeNhSTwQB8CCU6Gw9n1irY2R5SIh_0neA2ZGtBndoPhpnzXHs6t8y3oQ0XXjqY9Ur8xFG-_imn1vbB8We74Rsth3Lfs=",
+    "title": "g2.com"
+  },
+  "checked_at": "2026-11-05T05:44:47.765526+00:00"
+}

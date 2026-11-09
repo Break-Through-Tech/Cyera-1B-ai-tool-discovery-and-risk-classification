@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software products under **Avast** at **avast.com** is **Avast Software s.r.o.**.\n\n### Supporting Evidence\n* **End User License Agreement:** Specifies that the agreement is *\"a legally binding contract with Avast Software s.r.o. (a company formed under the laws of the Czech Republic) in respect of Solutions branded 'AVAST'\"*.\n* **General Privacy Policy:** Confirms that *\"the Controller of your personal data for Avast products is: Avast Software s.r.o., which has its principal place of business at 1737/1A Pikrtova, Prague 4, Czech Republic, 140 00\"*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software products under **Avast** at **avast.com** is **Avast Software s.r.o.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGl07KOR-e08NTTeEBK7jpsk5YnNrBcuc-uH6PqBAW72gMPQpZKcXO_A1w6WWAibCgG6MFodmmtweWohc1Ll_oAYfRrAhq2rilWXYHQ2kmRMAYY84ersWw6XJLZmVrMQ574yFsQOq6GvZWnepylqTNQoIXxJYM-nPO-XYAKGHoAbbQliSWJp-5hig==",
+          "title": "avast.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the software products under **Avast** at **avast.com** is **Avast Software s.r.o.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFT9sKTYKRYzSU8H8tO3miWF1lgz9wOzY1L8xJV41Tc-W_jrTTADgfPyYSntKxxbh1MHxqZWkiHExWpY6ATHFrPK9BcWpjN0ROzFAYVeBQ0dsc7r8vMjVwZ8ZCGAQaNxQ==",
+          "title": "avast.com"
+        },
+        {
+          "id": 2,
+          "text": "**End User License Agreement:** Specifies that the agreement is *\"a legally binding contract with Avast Software s.r.o. (a company formed under the laws of the Czech Republic) in respect of Solutions branded 'AVAST'\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGl07KOR-e08NTTeEBK7jpsk5YnNrBcuc-uH6PqBAW72gMPQpZKcXO_A1w6WWAibCgG6MFodmmtweWohc1Ll_oAYfRrAhq2rilWXYHQ2kmRMAYY84ersWw6XJLZmVrMQ574yFsQOq6GvZWnepylqTNQoIXxJYM-nPO-XYAKGHoAbbQliSWJp-5hig==",
+          "title": "avast.com"
+        },
+        {
+          "id": 3,
+          "text": "**General Privacy Policy:** Confirms that *\"the Controller of your personal data for Avast products is: Avast Software s.r.o., which has its principal place of business at 1737/1A Pikrtova, Prague 4, Czech Republic, 140 00\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFT9sKTYKRYzSU8H8tO3miWF1lgz9wOzY1L8xJV41Tc-W_jrTTADgfPyYSntKxxbh1MHxqZWkiHExWpY6ATHFrPK9BcWpjN0ROzFAYVeBQ0dsc7r8vMjVwZ8ZCGAQaNxQ==",
+          "title": "avast.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Avast Software s.r.o.",
+        "evidence": "Passage 0 directly states that the vendor providing the software products under Avast at avast.com is Avast Software s.r.o.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the software products under **Avast** at **avast.com** is **Avast Software s.r.o.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGl07KOR-e08NTTeEBK7jpsk5YnNrBcuc-uH6PqBAW72gMPQpZKcXO_A1w6WWAibCgG6MFodmmtweWohc1Ll_oAYfRrAhq2rilWXYHQ2kmRMAYY84ersWw6XJLZmVrMQ574yFsQOq6GvZWnepylqTNQoIXxJYM-nPO-XYAKGHoAbbQliSWJp-5hig==",
+          "title": "avast.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Avast",
+    "domain": "avast.com",
+    "description": "Avast, part of Gen™, is a leading global provider of cybersecurity solutions dedicated to enhancing digital freedom and safety. With a mission to protect over 435 million users worldwide, Avast focuses on safeguarding personal data, identity, and privacy through innovative security software. The company operates from offices in the Czech Republic, the USA, and across Europe, utilizing advanced technology and expertise to create a safer online environment."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Avast Software s.r.o.",
+  "evidence": "Passage 0 directly states that the vendor providing the software products under Avast at avast.com is Avast Software s.r.o.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the software products under **Avast** at **avast.com** is **Avast Software s.r.o.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGl07KOR-e08NTTeEBK7jpsk5YnNrBcuc-uH6PqBAW72gMPQpZKcXO_A1w6WWAibCgG6MFodmmtweWohc1Ll_oAYfRrAhq2rilWXYHQ2kmRMAYY84ersWw6XJLZmVrMQ574yFsQOq6GvZWnepylqTNQoIXxJYM-nPO-XYAKGHoAbbQliSWJp-5hig==",
+    "title": "avast.com"
+  },
+  "checked_at": "2026-11-05T08:07:31.194285+00:00"
+}

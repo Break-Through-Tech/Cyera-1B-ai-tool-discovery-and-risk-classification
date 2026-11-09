@@ -1,0 +1,79 @@
+{
+  "attempts": [
+    {
+      "answer": "For the software product **NGINX** provided at **nginx.org**:\n\n### Direct Vendor / Operating Company\nThe vendor directly providing and maintaining NGINX at `nginx.org` is **F5, Inc.** (operating with its subsidiary/business unit **NGINX, Inc.**).\n\n### Evidence & Provider Statements\n* **Enterprise & Stewardship Statement (`nginx.org/en/enterprise.html`):**  \n  > *\"F5, Inc. is the primary maintainer, sponsor, and steward of NGINX since the acquisition of NGINX, Inc. in 2019. ... NGINX® is a registered trademark of F5, Inc.\"*\n* **Product & Support Statement (`nginx.org`):**  \n  > *\"nginx ('engine x') is an HTTP web server, reverse proxy, content cache, load balancer, TCP/UDP proxy server, and mail proxy server. Originally written by Igor Sysoev and distributed under the 2-clause BSD License. Enterprise distributions, commercial support and training are available from F5, Inc.\"*\n* **Terms of Use (`nginx.org` site experience / community):**  \n  > *\"Welcome to the web site for F5, Inc. ('F5'). F5's web site is comprised of various web pages, collectively the 'web site'.\"*\n* **Software Copyright Notice (`nginx.org/LICENSE`):**  \n  > *\"Copyright (C) 2002-2021 Igor Sysoev / Copyright (C) 2011–2026 Nginx, Inc.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0kFQKDyc46H_6M801A6ICuTF71bLUf-FGksrnifxxtaI2RPmp19JQfsrWtW9mIT1KjuFsFvpKZqR4LIPrNeIOFsaRpjzHdkeCdeT6_HnUcEZiEipwAJGBb8Gm5XreV1hHF3QdVQ==",
+          "title": "nginx.org"
+        },
+        {
+          "id": 1,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvN9P9s6E0a-31rNmpKtq310McE3JFv3ETt-mi0wEkKP-VA1cgpMOnilSAx7Me2g1UZN70g2DFlmL4KK_VgW5oSlX5j3JdDxj5vIF2IFR8w9ZsaLjN8hC7Pg==",
+          "title": "nginx.org"
+        },
+        {
+          "id": 2,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRgp97lqceuUVaQkhFK4uNmuCEjw8U12ZN7iA44Da-yngvFHqA7hMYm3wQNJLUS88NVO-iPZlp8e9vqJR3XVqcQJPY9KNKjrHTBmescGv-acKMFiL9k1OCPAWLuUDjWcsj3J-1jgfPgwL7McUknjW7IDtO",
+          "title": "nginx.org"
+        },
+        {
+          "id": 3,
+          "text": "NGINX® is a registered trademark of F5, Inc.\"*\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvN9P9s6E0a-31rNmpKtq310McE3JFv3ETt-mi0wEkKP-VA1cgpMOnilSAx7Me2g1UZN70g2DFlmL4KK_VgW5oSlX5j3JdDxj5vIF2IFR8w9ZsaLjN8hC7Pg==",
+          "title": "nginx.org"
+        },
+        {
+          "id": 4,
+          "text": "nterprise distributions, commercial support and training are available from F5, Inc.\"*\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHh7xgktv9edbeGUIKvwlBZnAAbhOIlkLELhhvWOaSWze0n3sz598ARMw_EgQFo-jyPkVPd3ta-UN_K7Sq1PpK7L79JDk4R2w==",
+          "title": "nginx.org"
+        },
+        {
+          "id": 5,
+          "text": "5's web site is comprised of various web pages, collectively the 'web site'.\"*\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0kFQKDyc46H_6M801A6ICuTF71bLUf-FGksrnifxxtaI2RPmp19JQfsrWtW9mIT1KjuFsFvpKZqR4LIPrNeIOFsaRpjzHdkeCdeT6_HnUcEZiEipwAJGBb8Gm5XreV1hHF3QdVQ==",
+          "title": "nginx.org"
+        },
+        {
+          "id": 6,
+          "text": "is an HTTP web server, reverse proxy, content cache, load balancer, TCP/UDP proxy server, and mail proxy server. Originally written by Igor Sysoev and distributed under the 2-clause BSD License. Enterprise distributions, commercial support and training are available from F",
+          "url": "https://nginx.org/",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "F5, Inc.",
+        "evidence": "Passage 4 confirms that enterprise distributions, commercial support, and training for the product are available from F5, Inc.",
+        "source": {
+          "id": 4,
+          "text": "nterprise distributions, commercial support and training are available from F5, Inc.\"*\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHh7xgktv9edbeGUIKvwlBZnAAbhOIlkLELhhvWOaSWze0n3sz598ARMw_EgQFo-jyPkVPd3ta-UN_K7Sq1PpK7L79JDk4R2w==",
+          "title": "nginx.org"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "NGINX",
+    "domain": "nginx.org",
+    "description": "NGINX, Inc. is the developer of NGINX, a widely used open-source software that powers over 400 million websites. The company provides technologies for building and deploying modern applications, including the NGINX Application Platform, which helps enterprises modernize legacy systems and support microservices architectures. Headquartered in San Francisco, with additional offices in Cork, Ireland, and Singapore, NGINX serves a diverse clientele, including major brands like Netflix and Starbucks, focusing on improving operational efficiency and fostering innovation."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "F5, Inc.",
+  "evidence": "Passage 4 confirms that enterprise distributions, commercial support, and training for the product are available from F5, Inc.",
+  "source": {
+    "id": 4,
+    "text": "nterprise distributions, commercial support and training are available from F5, Inc.\"*\n",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHh7xgktv9edbeGUIKvwlBZnAAbhOIlkLELhhvWOaSWze0n3sz598ARMw_EgQFo-jyPkVPd3ta-UN_K7Sq1PpK7L79JDk4R2w==",
+    "title": "nginx.org"
+  },
+  "checked_at": "2026-11-05T09:29:30.866864+00:00"
+}

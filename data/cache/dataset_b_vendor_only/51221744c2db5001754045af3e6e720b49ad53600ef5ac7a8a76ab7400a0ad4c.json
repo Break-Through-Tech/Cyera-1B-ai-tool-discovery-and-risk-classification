@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "For the software product **AiChatPilot** associated with the domain **aichatpilot.com**, the identified provider/developer is **AiChatPilot**. \n\n* **Evidence / Provider Statement:** Published software extension profiles and store directories identify the tool as *\"developed by AiChatPilot\"* with the developer name listed as **aichatpilot** and the developer/creator site explicitly linked to `http://aichatpilot.com`. No distinct registered operating company is publicly disclosed.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "For the software product **AiChatPilot** associated with the domain **aichatpilot.com**, the identified provider/developer is **AiChatPilot**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEHp2FvxmjhKJbE7yDx6XMpoqnJ1E11tGwtgPvreft0s5nAGFH7JzmPDm5LkTvThg2gUT9lJGTwvk0-Et9nRwEh89OBGUo1kGVS6QwUMZgOAmkYk6YqTJ902NCwd5-X8RWqxQ_knXHEPyw",
+          "title": "softonic.com"
+        },
+        {
+          "id": 1,
+          "text": "For the software product **AiChatPilot** associated with the domain **aichatpilot.com**, the identified provider/developer is **AiChatPilot**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZVPM6yQT9-urZV8KqEh5wwLB7vx966fSi5xYz6zw_Y8yS-q3BD22K-sxn6DotpkbcNFOWAedgtT3qFumXqsMJQFtws8bNQsteN33z0R9X8BJU4PDD5FYnEDyJCc3ApRISn8WXrfGKmdSTzwQyt5g8c9-QmM-3ng2THXU5xtRB",
+          "title": "chrome-stats.com"
+        },
+        {
+          "id": 2,
+          "text": "**Evidence / Provider Statement:** Published software extension profiles and store directories identify the tool as *\"developed by AiChatPilot\"* with the developer name listed as **aichatpilot** and the developer/creator site explicitly linked to `http://aichatpilot.com`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHW1ySVu-c0d0l7cNMInBC-neDRJ-O98E4D9cfn9frW3_WE8OdXz6hrV5MSO4AYd8Id2vG0reQzfRLaGlYyXi0QgIb0CwmfbUA0KGyROH3iILAeWQyNyRUupkmlkoj5lfm2ObkXVhmi4E3jeNOIhu365EIZkA5d5MbZXuzOaY3",
+          "title": "chrome-stats.com"
+        },
+        {
+          "id": 3,
+          "text": "**Evidence / Provider Statement:** Published software extension profiles and store directories identify the tool as *\"developed by AiChatPilot\"* with the developer name listed as **aichatpilot** and the developer/creator site explicitly linked to `http://aichatpilot.com`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHReQ3JSzTDflfWbsueljAL1Y5X1eJIwWAAcun_4cQoIEu14YwmBco5uv22ETQiScgkDR86rwsdoaYwsDVYnyiSM803tfCawrp0usnU_vS_a6nmoTEg6Uv1uqMUERkDdB-kqg==",
+          "title": "softonic.com"
+        },
+        {
+          "id": 4,
+          "text": "**Evidence / Provider Statement:** Published software extension profiles and store directories identify the tool as *\"developed by AiChatPilot\"* with the developer name listed as **aichatpilot** and the developer/creator site explicitly linked to `http://aichatpilot.com`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEHp2FvxmjhKJbE7yDx6XMpoqnJ1E11tGwtgPvreft0s5nAGFH7JzmPDm5LkTvThg2gUT9lJGTwvk0-Et9nRwEh89OBGUo1kGVS6QwUMZgOAmkYk6YqTJ902NCwd5-X8RWqxQ_knXHEPyw",
+          "title": "softonic.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "AiChatPilot",
+        "evidence": "Published software extension profiles and store directories identify the tool as \"developed by AiChatPilot\" with the developer name listed as aichatpilot and the developer/creator site explicitly linked to http://aichatpilot.com.",
+        "source": {
+          "id": 2,
+          "text": "**Evidence / Provider Statement:** Published software extension profiles and store directories identify the tool as *\"developed by AiChatPilot\"* with the developer name listed as **aichatpilot** and the developer/creator site explicitly linked to `http://aichatpilot.com`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHW1ySVu-c0d0l7cNMInBC-neDRJ-O98E4D9cfn9frW3_WE8OdXz6hrV5MSO4AYd8Id2vG0reQzfRLaGlYyXi0QgIb0CwmfbUA0KGyROH3iILAeWQyNyRUupkmlkoj5lfm2ObkXVhmi4E3jeNOIhu365EIZkA5d5MbZXuzOaY3",
+          "title": "chrome-stats.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "AiChatPilot",
+    "domain": "aichatpilot.com",
+    "description": "Generate varied platform content with language models."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "AiChatPilot",
+  "evidence": "Published software extension profiles and store directories identify the tool as \"developed by AiChatPilot\" with the developer name listed as aichatpilot and the developer/creator site explicitly linked to http://aichatpilot.com.",
+  "source": {
+    "id": 2,
+    "text": "**Evidence / Provider Statement:** Published software extension profiles and store directories identify the tool as *\"developed by AiChatPilot\"* with the developer name listed as **aichatpilot** and the developer/creator site explicitly linked to `http://aichatpilot.com`",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHW1ySVu-c0d0l7cNMInBC-neDRJ-O98E4D9cfn9frW3_WE8OdXz6hrV5MSO4AYd8Id2vG0reQzfRLaGlYyXi0QgIb0CwmfbUA0KGyROH3iILAeWQyNyRUupkmlkoj5lfm2ObkXVhmi4E3jeNOIhu365EIZkA5d5MbZXuzOaY3",
+    "title": "chrome-stats.com"
+  },
+  "checked_at": "2026-11-05T06:56:05.694196+00:00"
+}

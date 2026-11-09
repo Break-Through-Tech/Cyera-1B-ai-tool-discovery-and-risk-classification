@@ -1,0 +1,71 @@
+{
+  "attempts": [
+    {
+      "answer": "No provider or vendor can be established for **GeminiAIVideo** at **geminiaivideo.com**. \n\nThe domain does not host accessible or indexed company, developer, terms of service, privacy, or about pages. The only external references to `geminiaivideo.com` appear in automated third-party AI directory aggregator listings (such as MossAI), which repeat the tool's description without identifying an operating company, published developer, or provider entity.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "No provider or vendor can be established for **GeminiAIVideo** at **geminiaivideo.com**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGG1WSU-wruzdxweL6kQgZs0l1TjZizqnaUZbMJtHhUwzZtGqJv3qJ33O0QlhpNsK1bcrnTqn-tluo30snJFIWd8f0oJoCtHCP6q8tZ-kXa8qN6ZXPA7xnCJIQlxzPbfoc9qy1E",
+          "title": "mossai.org"
+        },
+        {
+          "id": 1,
+          "text": "The only external references to `geminiaivideo.com` appear in automated third-party AI directory aggregator listings (such as MossAI), which repeat the tool's description without identifying an operating company, published developer, or provider entity",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGG1WSU-wruzdxweL6kQgZs0l1TjZizqnaUZbMJtHhUwzZtGqJv3qJ33O0QlhpNsK1bcrnTqn-tluo30snJFIWd8f0oJoCtHCP6q8tZ-kXa8qN6ZXPA7xnCJIQlxzPbfoc9qy1E",
+          "title": "mossai.org"
+        },
+        {
+          "id": 2,
+          "text": "The only external references to `geminiaivideo.com` appear in automated third-party AI directory aggregator listings (such as MossAI), which repeat the tool's description without identifying an operating company, published developer, or provider entity",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5LlPkKAAFiw7ZDbpTVZCGZJbMl6WopllBlRpIcoEtOJdotM6y4ixmu2ffPG18jED2u7VfhP1lDHmxxrhR0mvXaV0oh2D0PZETxNWXv04Mg2mGcmRJwQ==",
+          "title": "mossai.org"
+        }
+      ],
+      "result": {
+        "status": "unknown",
+        "vendor": "UNKNOWN",
+        "evidence": "No operating company, published developer, or provider entity can be established from the search evidence for GeminiAIVideo at geminiaivideo.com."
+      }
+    },
+    {
+      "answer": "No vendor, operating company, published developer, or provider brand can be established for **GeminiAIVideo** at **geminiaivideo.com**.\n\n### Reason\n* **No Direct Site Documentation:** The domain `geminiaivideo.com` has no publicly indexed or accessible legal, corporate, or contact pages (such as Terms of Service, Privacy Policy, or About Us).\n* **No Third-Party Disclosures:** Available aggregator records (such as MossAI) only list a product summary describing it as a tool to create AI videos with synchronized audio, along with traffic analytics, without naming any legal operating entity, author, or publisher.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "No vendor, operating company, published developer, or provider brand can be established for **GeminiAIVideo** at **geminiaivideo.com**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZu5xB0aCdhhoSIQT6GlNJg98NmhYL6fALgxlWeAxkX41t1rI3L64SWlvOm7K1FNtBVG5WHIqyROIVZcVLQQO_4NUoxBnL2pOcZavReomVzcLUGHX3GKLfP70k4mMPxRYIn6n8jw==",
+          "title": "mossai.org"
+        },
+        {
+          "id": 1,
+          "text": "**No Third-Party Disclosures:** Available aggregator records (such as MossAI) only list a product summary describing it as a tool to create AI videos with synchronized audio, along with traffic analytics, without naming any legal operating entity, author, or publisher",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZu5xB0aCdhhoSIQT6GlNJg98NmhYL6fALgxlWeAxkX41t1rI3L64SWlvOm7K1FNtBVG5WHIqyROIVZcVLQQO_4NUoxBnL2pOcZavReomVzcLUGHX3GKLfP70k4mMPxRYIn6n8jw==",
+          "title": "mossai.org"
+        },
+        {
+          "id": 2,
+          "text": "**No Third-Party Disclosures:** Available aggregator records (such as MossAI) only list a product summary describing it as a tool to create AI videos with synchronized audio, along with traffic analytics, without naming any legal operating entity, author, or publisher",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3ImHO_VC3fHCdthZKQtNwrFEFbBVByPZns_10xvYkyiZsDWOkynA666FR7_IJ73EZottXoI5odnr9L6_KYNAWCmaRvnHxAtrct9Oqoa0FW4-6cDvn",
+          "title": "mossai.org"
+        }
+      ],
+      "result": {
+        "status": "unknown",
+        "vendor": "UNKNOWN",
+        "evidence": "No vendor, operating company, published developer, or provider brand can be established from the search evidence, as available records do not name any legal operating entity, author, or publisher for GeminiAIVideo at geminiaivideo.com."
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "GeminiAIVideo",
+    "domain": "geminiaivideo.com",
+    "description": "Create stunning AI videos with synchronized audio using Gemini AI Video."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "unknown",
+  "vendor": "UNKNOWN",
+  "evidence": "No vendor, operating company, published developer, or provider brand can be established from the search evidence, as available records do not name any legal operating entity, author, or publisher for GeminiAIVideo at geminiaivideo.com.",
+  "checked_at": "2026-11-05T06:53:26.434513+00:00"
+}

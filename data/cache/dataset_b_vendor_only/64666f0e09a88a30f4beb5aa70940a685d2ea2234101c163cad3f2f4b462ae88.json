@@ -1,0 +1,85 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on the official End User License Agreement (EULA) and Privacy Policy for software solutions provided at **avg.com** (AVG Technologies):\n\nThe software and services are directly provided by **Gen Digital Inc.** and its regional operating entities. The EULA specifies the operating vendor based on geographic location:\n\n* **North, Central, and South America:** **Gen Digital Inc.**\n* **Europe (excluding UK/Benelux/Ireland), Middle East, and Africa:** **Avast Software s.r.o.**\n* **United Kingdom, Ireland, Belgium, Netherlands, and Luxembourg:** **NortonLifeLock Ireland Limited**\n* **Australia & Asia-Pacific:** **NortonLifeLock Singapore Pte Ltd**\n* **Japan:** **NortonLifeLock Japan KK**\n\n### Supporting Statements\n* **EULA (`avg.com` / Version 1.16):**\n  > *\"In this Agreement, 'Vendor' means the entity providing the Solution to you, which will differ depending on your location, as follows:  \n  > a. North, Central, and South America: Gen Digital Inc.  \n  > b. Ireland, United Kingdom, Belgium, Netherlands, and Luxemburg: NortonLifeLock Ireland Limited  \n  > c. Japan: NortonLifeLock Japan KK  \n  > d. Australia, all other Asian Pacific Countries: NortonLifeLock Singapore Pte Ltd  \n  > e. Spain, France, Italy, and the rest of Europe, Middle East, and Africa: Avast Software s.r.o.\"*\n* **Privacy Policy (`avg.com/privacy`):**\n  > *\"If you are in the European Economic Area, and unless stipulated otherwise contractually, the Controller of your personal data for AVG products is: Avast Software s.r.o.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software and services are directly provided by **Gen Digital Inc.** and its regional operating entities",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1DLwWQ55BVdG3YU8Nl4ArBKDD-C7F7_g5Sz-eR9ZJF0g1f-NX75QU8lZTKLG6z1jwuKjcMVdxRXW6M_hOfuJZeN6g-rZjwoQ24MvAyZj4s9t9ilLaJpWQuM8acQ==",
+          "title": "avg.com"
+        },
+        {
+          "id": 1,
+          "text": "**North, Central, and South America:** **Gen Digital Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1DLwWQ55BVdG3YU8Nl4ArBKDD-C7F7_g5Sz-eR9ZJF0g1f-NX75QU8lZTKLG6z1jwuKjcMVdxRXW6M_hOfuJZeN6g-rZjwoQ24MvAyZj4s9t9ilLaJpWQuM8acQ==",
+          "title": "avg.com"
+        },
+        {
+          "id": 2,
+          "text": "**Europe (excluding UK/Benelux/Ireland), Middle East, and Africa:** **Avast Software s.r.o.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1DLwWQ55BVdG3YU8Nl4ArBKDD-C7F7_g5Sz-eR9ZJF0g1f-NX75QU8lZTKLG6z1jwuKjcMVdxRXW6M_hOfuJZeN6g-rZjwoQ24MvAyZj4s9t9ilLaJpWQuM8acQ==",
+          "title": "avg.com"
+        },
+        {
+          "id": 3,
+          "text": "**United Kingdom, Ireland, Belgium, Netherlands, and Luxembourg:** **NortonLifeLock Ireland Limited**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1DLwWQ55BVdG3YU8Nl4ArBKDD-C7F7_g5Sz-eR9ZJF0g1f-NX75QU8lZTKLG6z1jwuKjcMVdxRXW6M_hOfuJZeN6g-rZjwoQ24MvAyZj4s9t9ilLaJpWQuM8acQ==",
+          "title": "avg.com"
+        },
+        {
+          "id": 4,
+          "text": "**Australia & Asia-Pacific:** **NortonLifeLock Singapore Pte Ltd**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1DLwWQ55BVdG3YU8Nl4ArBKDD-C7F7_g5Sz-eR9ZJF0g1f-NX75QU8lZTKLG6z1jwuKjcMVdxRXW6M_hOfuJZeN6g-rZjwoQ24MvAyZj4s9t9ilLaJpWQuM8acQ==",
+          "title": "avg.com"
+        },
+        {
+          "id": 5,
+          "text": "**Japan:** **NortonLifeLock Japan KK**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1DLwWQ55BVdG3YU8Nl4ArBKDD-C7F7_g5Sz-eR9ZJF0g1f-NX75QU8lZTKLG6z1jwuKjcMVdxRXW6M_hOfuJZeN6g-rZjwoQ24MvAyZj4s9t9ilLaJpWQuM8acQ==",
+          "title": "avg.com"
+        },
+        {
+          "id": 6,
+          "text": "Spain, France, Italy, and the rest of Europe, Middle East, and Africa: Avast Software s.r.o.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1DLwWQ55BVdG3YU8Nl4ArBKDD-C7F7_g5Sz-eR9ZJF0g1f-NX75QU8lZTKLG6z1jwuKjcMVdxRXW6M_hOfuJZeN6g-rZjwoQ24MvAyZj4s9t9ilLaJpWQuM8acQ==",
+          "title": "avg.com"
+        },
+        {
+          "id": 7,
+          "text": "*\"If you are in the European Economic Area, and unless stipulated otherwise contractually, the Controller of your personal data for AVG products is: Avast Software s.r.o.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOa9A03Cg97Zs5uBtb_dgSCfRfoRVRbEqTLpxLBz7bRdiTU7E9t5OAr3C1sCjb0k_YfoP_DC2tVfJ5XnEkxRDVEVfYDkY7hq1DOAxn0BxNAL-2HUcm",
+          "title": "avg.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Gen Digital Inc.",
+        "evidence": "Passage 0 states that the software and services are directly provided by Gen Digital Inc. and its regional operating entities.",
+        "source": {
+          "id": 0,
+          "text": "The software and services are directly provided by **Gen Digital Inc.** and its regional operating entities",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1DLwWQ55BVdG3YU8Nl4ArBKDD-C7F7_g5Sz-eR9ZJF0g1f-NX75QU8lZTKLG6z1jwuKjcMVdxRXW6M_hOfuJZeN6g-rZjwoQ24MvAyZj4s9t9ilLaJpWQuM8acQ==",
+          "title": "avg.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "AVG Technologies",
+    "domain": "avg.com",
+    "description": "AVG Technologies, now part of Avast since 2016, specializes in delivering solutions for digital security, privacy, and performance. The company's offerings include antivirus and security products for various platforms such as Windows, iOS, Android, and Mac, catering to individuals, families, and small businesses. With headquarters in Amsterdam and a presence in 14 offices worldwide, AVG's mission is to ensure a secure and user-friendly digital experience."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Gen Digital Inc.",
+  "evidence": "Passage 0 states that the software and services are directly provided by Gen Digital Inc. and its regional operating entities.",
+  "source": {
+    "id": 0,
+    "text": "The software and services are directly provided by **Gen Digital Inc.** and its regional operating entities",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1DLwWQ55BVdG3YU8Nl4ArBKDD-C7F7_g5Sz-eR9ZJF0g1f-NX75QU8lZTKLG6z1jwuKjcMVdxRXW6M_hOfuJZeN6g-rZjwoQ24MvAyZj4s9t9ilLaJpWQuM8acQ==",
+    "title": "avg.com"
+  },
+  "checked_at": "2026-11-05T09:01:05.468424+00:00"
+}

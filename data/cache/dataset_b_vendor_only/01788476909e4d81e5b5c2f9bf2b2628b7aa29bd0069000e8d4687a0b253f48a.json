@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software platform **Asana** at **asana.com** is **Asana, Inc.**\n\n### Evidence:\n* **Subscriber Terms (asana.com):** State that *\"These Subscriber Terms ('Agreement') are between Asana, Inc. ('Asana') and the party identified as the customer in the signature block hereunder ('Customer')\"*.\n* **Data Processing Addendum (asana.com):** Confirms the agreement is *\"entered into between Asana, Inc. ('Asana') and the entity identified in the Agreement ('Customer')\"*.\n* **Company Disclosures & Website Footer (asana.com):** Identify the operating entity as Delaware-incorporated **Asana, Inc.** (headquartered in San Francisco, CA).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software platform **Asana** at **asana.com** is **Asana, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYUhlvlHnmUtG2BNu6GbDgEmcez3gWHceHqbQziJMPe6JoD076MgOprGBVV841EoD93gk4GW8YzZG99bDa9aQqp9a1Mo5GFTEGXE-Vtwnga8bAR-RW-iUS1uVNLMBil_okuCFqE1g=",
+          "title": "asana.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the software platform **Asana** at **asana.com** is **Asana, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEz8eKiT0acXQ9hqvQCGGLslxj2D5ShIsm7wJd-dzhwPSiYxUzPN27P0163osntFVoYGeDj7fqoPfYoWBrbPD4pZALfHHcFVvDKstPiCf4IOElW5fL4UHGEKsk5RyL0kWTHagyKbt4=",
+          "title": "asana.com"
+        },
+        {
+          "id": 2,
+          "text": "**Subscriber Terms (asana.com):** State that *\"These Subscriber Terms ('Agreement') are between Asana, Inc. ('Asana') and the party identified as the customer in the signature block hereunder ('Customer')\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYUhlvlHnmUtG2BNu6GbDgEmcez3gWHceHqbQziJMPe6JoD076MgOprGBVV841EoD93gk4GW8YzZG99bDa9aQqp9a1Mo5GFTEGXE-Vtwnga8bAR-RW-iUS1uVNLMBil_okuCFqE1g=",
+          "title": "asana.com"
+        },
+        {
+          "id": 3,
+          "text": "**Data Processing Addendum (asana.com):** Confirms the agreement is *\"entered into between Asana, Inc. ('Asana') and the entity identified in the Agreement ('Customer')\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2Ny_v9GwrL9tMxRQfq9YW1M_T9XQ80SH_-esyybNXoB_Lm0-dF7_SZQZrRZpjIroqKGQknmybA6JiYbgTgxCphGUfglcU7JT-5cGCvggCnyfuSGsrW5KxtLnmNgc=",
+          "title": "asana.com"
+        },
+        {
+          "id": 4,
+          "text": "**Company Disclosures & Website Footer (asana.com):** Identify the operating entity as Delaware-incorporated **Asana, Inc.** (headquartered in San Francisco, CA)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrKPkqZwtnEbZwetXmH6XcjBvB3B5DjineeyECQCFjpBUUyajmqOdK15N4uwZlDN7M0sOkTHfzluxmLSu4ufi_4pXXOfI3SHdQo7ucDH2pEhd2TxquIdfCimVKHpU5FQ==",
+          "title": "asana.com"
+        },
+        {
+          "id": 5,
+          "text": "**Company Disclosures & Website Footer (asana.com):** Identify the operating entity as Delaware-incorporated **Asana, Inc.** (headquartered in San Francisco, CA)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEz8eKiT0acXQ9hqvQCGGLslxj2D5ShIsm7wJd-dzhwPSiYxUzPN27P0163osntFVoYGeDj7fqoPfYoWBrbPD4pZALfHHcFVvDKstPiCf4IOElW5fL4UHGEKsk5RyL0kWTHagyKbt4=",
+          "title": "asana.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Asana, Inc.",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing the software platform Asana at asana.com is Asana, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the software platform **Asana** at **asana.com** is **Asana, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYUhlvlHnmUtG2BNu6GbDgEmcez3gWHceHqbQziJMPe6JoD076MgOprGBVV841EoD93gk4GW8YzZG99bDa9aQqp9a1Mo5GFTEGXE-Vtwnga8bAR-RW-iUS1uVNLMBil_okuCFqE1g=",
+          "title": "asana.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Asana",
+    "domain": "asana.com",
+    "description": "Asana is an enterprise work management platform that enables organizations to streamline their operations by connecting goals and strategic initiatives with day-to-day execution. With a customer base exceeding 150,000 across more than 200 countries, Asana is utilized by prominent companies such as Amazon, Roche, and T-Mobile to facilitate various aspects of project management, including goal setting, tracking, capacity planning, and product launches."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Asana, Inc.",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing the software platform Asana at asana.com is Asana, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the software platform **Asana** at **asana.com** is **Asana, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYUhlvlHnmUtG2BNu6GbDgEmcez3gWHceHqbQziJMPe6JoD076MgOprGBVV841EoD93gk4GW8YzZG99bDa9aQqp9a1Mo5GFTEGXE-Vtwnga8bAR-RW-iUS1uVNLMBil_okuCFqE1g=",
+    "title": "asana.com"
+  },
+  "checked_at": "2026-11-05T09:40:41.018894+00:00"
+}

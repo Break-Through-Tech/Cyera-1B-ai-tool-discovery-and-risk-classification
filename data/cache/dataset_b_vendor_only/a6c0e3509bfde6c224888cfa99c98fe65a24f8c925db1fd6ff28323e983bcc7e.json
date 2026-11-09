@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **Unity** platform and services at **unity.com** is **Unity Technologies SF** (an operating subsidiary of parent company **Unity Software Inc.**).\n\n### Provider Statements & Evidence\n* **Direct Operating/Contracting Entity:**  \n  The official *Unity Terms of Service* states:  \n  > *\"References to 'Unity Contracting Party' refer to Unity Technologies SF...\"*\n* **Provision of Services:**  \n  The *Unity Additional Terms* specifies:  \n  > *\"For clarity, unless otherwise indicated in specific Additional Terms, Services are provided by Unity Technologies SF.\"*\n* **Corporate Structure:**  \n  The *Unity Terms of Service* defines:  \n  > *“'Unity' means Unity Software Inc., a Delaware corporation, together with its subsidiaries and other Affiliates.”*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZfYE6C42Cf5_cptT-gAJVQv04LL3EMVmlzb1aYWsoDxBaRQDacuQARPKDDYO4nYMZ9E8JAFSGzdN_bn63_JHl85cRtVfQoB6CzEWI4xe5rlu9fTZ7yJTvvII4cMoe",
+          "title": "unity.com"
+        },
+        {
+          "id": 1,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfrfkQVC3RaK8ItS0NN4Tn9k8yFQXzuGUBYHecS-DFSBh8csrf95C21TtS-_4Oz_h5bFYB4fzVNKT9PqxE8sRYn6kiin3Vfq9lSK1pG6F1bvxVlJiUoytCd4uYxRG_UtjLVMBw4tJk4oMfI9nZ4k0wgd8fx6D420m617c=",
+          "title": "unity.com"
+        },
+        {
+          "id": 2,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGk1aLwjjEpiDt1e9qRdY93_uTe2ROovFQFdP_p6YZOPeBTvm2ZSf1bGbIV40toANozAhhMhF4dWwhd_8bhVhAjLnduxK5GmVYdzYOS1iasOWhoEbbOH-tPlB70mjq3",
+          "title": "unity.com"
+        },
+        {
+          "id": 3,
+          "text": "*\"References to 'Unity Contracting Party' refer to Unity Technologies SF...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGk1aLwjjEpiDt1e9qRdY93_uTe2ROovFQFdP_p6YZOPeBTvm2ZSf1bGbIV40toANozAhhMhF4dWwhd_8bhVhAjLnduxK5GmVYdzYOS1iasOWhoEbbOH-tPlB70mjq3",
+          "title": "unity.com"
+        },
+        {
+          "id": 4,
+          "text": "*\"For clarity, unless otherwise indicated in specific Additional Terms, Services are provided by Unity Technologies SF.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZfYE6C42Cf5_cptT-gAJVQv04LL3EMVmlzb1aYWsoDxBaRQDacuQARPKDDYO4nYMZ9E8JAFSGzdN_bn63_JHl85cRtVfQoB6CzEWI4xe5rlu9fTZ7yJTvvII4cMoe",
+          "title": "unity.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Unity Technologies SF",
+        "evidence": "Passage 4 states that 'unless otherwise indicated in specific Additional Terms, Services are provided by Unity Technologies SF.'",
+        "source": {
+          "id": 4,
+          "text": "*\"For clarity, unless otherwise indicated in specific Additional Terms, Services are provided by Unity Technologies SF.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZfYE6C42Cf5_cptT-gAJVQv04LL3EMVmlzb1aYWsoDxBaRQDacuQARPKDDYO4nYMZ9E8JAFSGzdN_bn63_JHl85cRtVfQoB6CzEWI4xe5rlu9fTZ7yJTvvII4cMoe",
+          "title": "unity.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Unity",
+    "domain": "unity.com",
+    "description": "Unity is a premier real-time development platform located in California, specializing in the creation and management of interactive 3D content for various industries such as gaming and architecture. By providing advanced tools and resources, Unity empowers developers to build immersive experiences across multiple platforms."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Unity Technologies SF",
+  "evidence": "Passage 4 states that 'unless otherwise indicated in specific Additional Terms, Services are provided by Unity Technologies SF.'",
+  "source": {
+    "id": 4,
+    "text": "*\"For clarity, unless otherwise indicated in specific Additional Terms, Services are provided by Unity Technologies SF.\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZfYE6C42Cf5_cptT-gAJVQv04LL3EMVmlzb1aYWsoDxBaRQDacuQARPKDDYO4nYMZ9E8JAFSGzdN_bn63_JHl85cRtVfQoB6CzEWI4xe5rlu9fTZ7yJTvvII4cMoe",
+    "title": "unity.com"
+  },
+  "checked_at": "2026-11-05T09:50:19.712369+00:00"
+}

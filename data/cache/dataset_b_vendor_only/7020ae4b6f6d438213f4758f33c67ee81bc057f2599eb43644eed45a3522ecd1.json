@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **FutureLearn** platform at **futurelearn.com** is **FutureLearn Limited**.\n\n### Evidence:\n* **Terms of Business (`futurelearn.com/terms-of-business`):**  \n  > *\"This website is operated by FutureLearn Limited (“we”,“us” and “our”). FutureLearn is a company registered in England and Wales under company number 08324083.\"*\n* **Terms and Conditions (`futurelearn.com/terms`):**  \n  > *\"In these Terms, references to “we” or “us” are to FutureLearn Limited, a company incorporated in England and Wales (registered number 8324083)...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **FutureLearn** platform at **futurelearn.com** is **FutureLearn Limited**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnTns9kqVXynMpy7JDb2OWuaaE40GwyDYWuP6t16A-4vRIl_74eLrxXU085-mrZpLTtRa65dNZEdf9X7CqKx6Zj2htVd0JhX5RQQOJhbAjMRA_6d0TVTUS0QhErjc93AQGIjsg-qMRzi24wQ==",
+          "title": "futurelearn.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the **FutureLearn** platform at **futurelearn.com** is **FutureLearn Limited**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQusS99CnTiI1O9zXPUwBQuGjIAq_LluA0TKZmk-yvdzkghPyBL1uKF48YbXT9hlqz3_QbE6BUzlr_Cn7JXzjoXbVbgT6I6ItcvmmFl6DqL98o5QzJiCvEX24R5liVas8Gldx2Mw==",
+          "title": "futurelearn.com"
+        },
+        {
+          "id": 2,
+          "text": "is a company registered in England and Wales under company number 08324083.\"*\n* **Terms a",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQusS99CnTiI1O9zXPUwBQuGjIAq_LluA0TKZmk-yvdzkghPyBL1uKF48YbXT9hlqz3_QbE6BUzlr_Cn7JXzjoXbVbgT6I6ItcvmmFl6DqL98o5QzJiCvEX24R5liVas8Gldx2Mw==",
+          "title": "futurelearn.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "FutureLearn Limited",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing the FutureLearn platform at futurelearn.com is FutureLearn Limited.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the **FutureLearn** platform at **futurelearn.com** is **FutureLearn Limited**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnTns9kqVXynMpy7JDb2OWuaaE40GwyDYWuP6t16A-4vRIl_74eLrxXU085-mrZpLTtRa65dNZEdf9X7CqKx6Zj2htVd0JhX5RQQOJhbAjMRA_6d0TVTUS0QhErjc93AQGIjsg-qMRzi24wQ==",
+          "title": "futurelearn.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "FutureLearn",
+    "domain": "futurelearn.com",
+    "description": "FutureLearn is an educational technology platform based in England, providing online courses across various disciplines, including law, IT, and data analytics. It aims to enhance learning opportunities for individuals through accessible and engaging content."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "FutureLearn Limited",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing the FutureLearn platform at futurelearn.com is FutureLearn Limited.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the **FutureLearn** platform at **futurelearn.com** is **FutureLearn Limited**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnTns9kqVXynMpy7JDb2OWuaaE40GwyDYWuP6t16A-4vRIl_74eLrxXU085-mrZpLTtRa65dNZEdf9X7CqKx6Zj2htVd0JhX5RQQOJhbAjMRA_6d0TVTUS0QhErjc93AQGIjsg-qMRzi24wQ==",
+    "title": "futurelearn.com"
+  },
+  "checked_at": "2026-11-05T08:20:02.314295+00:00"
+}

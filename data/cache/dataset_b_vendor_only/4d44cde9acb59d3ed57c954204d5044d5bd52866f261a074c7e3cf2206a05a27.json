@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Memoirji** at **memoirji.com** is **Memoirji LLC**. \n\n### Evidence:\n* On the official Memoirji website's legal documentation (*Terms and Policies* at `memoirji.com`), the Privacy Policy explicitly identifies the operating company: *\"Memoirji LLC ('we,' 'our,' or 'us')\"* and displays the copyright notice *“© Memoirji LLC. All rights reserved.”*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Memoirji** at **memoirji.com** is **Memoirji LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTuIwvI_3wEHnUsELJTbZnU89vfP3w5A3-CeTIs3R5YuwGG--qSHwkq_2DGWd30tjku5eoQ35XzftUnhj6Xx936pvvIwkOVOTZvXE=",
+          "title": "memoirji.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Memoirji** at **memoirji.com** is **Memoirji LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEulW87-3po2s2TgNrx_-vqwkQ6jCGKLUeO6B6f8t1JsQheqiZUC7_3YJ7KRmsYt68i7ec9lV96JClWawYAnYo4YCHAX7u_r15OtJLTbKsrStc=",
+          "title": "memoirji.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Memoirji LLC",
+        "evidence": "Passage 0 states that the vendor directly providing Memoirji at memoirji.com is Memoirji LLC.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Memoirji** at **memoirji.com** is **Memoirji LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTuIwvI_3wEHnUsELJTbZnU89vfP3w5A3-CeTIs3R5YuwGG--qSHwkq_2DGWd30tjku5eoQ35XzftUnhj6Xx936pvvIwkOVOTZvXE=",
+          "title": "memoirji.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Memoirji",
+    "domain": "memoirji.com",
+    "description": "Memoirji helps you write your life story by providing prompts, structuring your memories, and offering editing assistance to create a compelling and personal memoir."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Memoirji LLC",
+  "evidence": "Passage 0 states that the vendor directly providing Memoirji at memoirji.com is Memoirji LLC.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Memoirji** at **memoirji.com** is **Memoirji LLC**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTuIwvI_3wEHnUsELJTbZnU89vfP3w5A3-CeTIs3R5YuwGG--qSHwkq_2DGWd30tjku5eoQ35XzftUnhj6Xx936pvvIwkOVOTZvXE=",
+    "title": "memoirji.com"
+  },
+  "checked_at": "2026-11-05T05:52:12.099016+00:00"
+}

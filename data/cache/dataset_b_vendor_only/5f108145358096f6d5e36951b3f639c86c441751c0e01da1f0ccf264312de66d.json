@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The published developer and provider of the **Prompt Sloth Write Better AI Prompts** Chrome extension and service at **promptsloth.com** is **Eric Strohmaier** (operating under the brand **Prompt Sloth**).\n\n* **Evidence & Provider Statement:** \n  * The official site's founder page states: *\"Prompt Sloth is built by Eric Strohmaier, a solo founder. 10000+ people use the extension to write better AI prompts in ChatGPT, Claude, Gemini and more.\"*\n  * The Privacy Policy on `promptsloth.com` establishes the provider entity: *\"This Privacy Policy explains how Prompt Sloth ('we,' 'our,' or 'us') handles your data when you use our browser extension, desktop app and website.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The published developer and provider of the **Prompt Sloth Write Better AI Prompts** Chrome extension and service at **promptsloth.com** is **Eric Strohmaier** (operating under the brand **Prompt Sloth**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWp1CHug43eeABUaNTuontwAbSg_gVULez3o_oDM_eq0xYmoTLdHIRx_Ly9pqQ8MxqLkZWq1dRzzxCLmXuaUTC9xThUX0jbYwK8jsiE9lvCIzHyXgVZlEIikIR2R1J",
+          "title": "trustmrr.com"
+        },
+        {
+          "id": 1,
+          "text": "The published developer and provider of the **Prompt Sloth Write Better AI Prompts** Chrome extension and service at **promptsloth.com** is **Eric Strohmaier** (operating under the brand **Prompt Sloth**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUY4NgDB1LCN2_wxfhnPfX8ESrEMDWFoH9EkQ4BOLyQCcb2ioevFViYvKTprOO6-VA_rnhVNPIV3dfUGsmv2SPj4kKF5736rn6aQhEzUj9f-wL",
+          "title": "promptsloth.com"
+        },
+        {
+          "id": 2,
+          "text": "The official site's founder page states: *\"Prompt Sloth is built by Eric Strohmaier, a solo founder. 10000+ people use the extension to write better AI prompts in ChatGPT, Claude, Gemini and more.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUY4NgDB1LCN2_wxfhnPfX8ESrEMDWFoH9EkQ4BOLyQCcb2ioevFViYvKTprOO6-VA_rnhVNPIV3dfUGsmv2SPj4kKF5736rn6aQhEzUj9f-wL",
+          "title": "promptsloth.com"
+        },
+        {
+          "id": 3,
+          "text": "The Privacy Policy on `promptsloth.com` establishes the provider entity: *\"This Privacy Policy explains how Prompt Sloth ('we,' 'our,' or 'us') handles your data when you use our browser extension, desktop app and website.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFaOLFiBmc_-fxxTKyx6hKFQ-Ke8LWw7Z41-saXt77nJypUQSY9ZtqGg_NdIvuzQzRoztPrsLt88wn8inhBC8JInd0t1PJ9fDfn5supd17gd3iCX6_pzrdB_XTww==",
+          "title": "promptsloth.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Eric Strohmaier",
+        "evidence": "Passage 1 states that the published developer and provider of the Prompt Sloth Write Better AI Prompts Chrome extension and service at promptsloth.com is Eric Strohmaier (operating under the brand Prompt Sloth).",
+        "source": {
+          "id": 1,
+          "text": "The published developer and provider of the **Prompt Sloth Write Better AI Prompts** Chrome extension and service at **promptsloth.com** is **Eric Strohmaier** (operating under the brand **Prompt Sloth**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUY4NgDB1LCN2_wxfhnPfX8ESrEMDWFoH9EkQ4BOLyQCcb2ioevFViYvKTprOO6-VA_rnhVNPIV3dfUGsmv2SPj4kKF5736rn6aQhEzUj9f-wL",
+          "title": "promptsloth.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Prompt Sloth Write Better AI Prompts",
+    "domain": "promptsloth.com",
+    "description": "Chrome extension that turns lazy prompts into pro-level instructions."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Eric Strohmaier",
+  "evidence": "Passage 1 states that the published developer and provider of the Prompt Sloth Write Better AI Prompts Chrome extension and service at promptsloth.com is Eric Strohmaier (operating under the brand Prompt Sloth).",
+  "source": {
+    "id": 1,
+    "text": "The published developer and provider of the **Prompt Sloth Write Better AI Prompts** Chrome extension and service at **promptsloth.com** is **Eric Strohmaier** (operating under the brand **Prompt Sloth**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUY4NgDB1LCN2_wxfhnPfX8ESrEMDWFoH9EkQ4BOLyQCcb2ioevFViYvKTprOO6-VA_rnhVNPIV3dfUGsmv2SPj4kKF5736rn6aQhEzUj9f-wL",
+    "title": "promptsloth.com"
+  },
+  "checked_at": "2026-11-05T05:32:19.973170+00:00"
+}

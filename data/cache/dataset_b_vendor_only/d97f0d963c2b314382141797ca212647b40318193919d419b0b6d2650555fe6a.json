@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Okta** at the domain **okta.com** is **Okta, Inc.**\n\n### Evidence & Provider Statements\n* **Privacy Policy (`okta.com`):** *\"In this Privacy Policy, 'Okta,' 'we,' 'our,' and 'us' each mean Okta, Inc. and the applicable Okta affiliate(s) involved in the processing activity.\"*\n* **Website Terms of Service (`okta.com`):** *\"The Website is owned and operated by Okta, Inc. ('Okta').\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Okta** at the domain **okta.com** is **Okta, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0kzuYL4gDMF4JlngOjhS1_oK1i1KKVJbnO_cynPsRtdkwR67FOMytDc7Bkm6a27e8Xc5Gyw0QPsz6gDOKMBJturwPmNEzLePBBxHrS5z7VyX_gxLzPcqY63TI-u7UIQw=",
+          "title": "okta.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Okta** at the domain **okta.com** is **Okta, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFam28-0RWzbL-FErYPb9xQVch-w5TNwNjLsQakY6l4AdCzm-eTNZYZCmhOAWhvitkjlkmZFhTbC1fYqPWvh7-ynH66P3zY-zQxVuWPcuDTt0bROA==",
+          "title": "okta.com"
+        },
+        {
+          "id": 2,
+          "text": "**Privacy Policy (`okta.com`):** *\"In this Privacy Policy, 'Okta,' 'we,' 'our,' and 'us' each mean Okta, Inc. and the applicable Okta affiliate(s) involved in the processing activity.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0kzuYL4gDMF4JlngOjhS1_oK1i1KKVJbnO_cynPsRtdkwR67FOMytDc7Bkm6a27e8Xc5Gyw0QPsz6gDOKMBJturwPmNEzLePBBxHrS5z7VyX_gxLzPcqY63TI-u7UIQw=",
+          "title": "okta.com"
+        },
+        {
+          "id": 3,
+          "text": "**Website Terms of Service (`okta.com`):** *\"The Website is owned and operated by Okta, Inc. ('Okta').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFam28-0RWzbL-FErYPb9xQVch-w5TNwNjLsQakY6l4AdCzm-eTNZYZCmhOAWhvitkjlkmZFhTbC1fYqPWvh7-ynH66P3zY-zQxVuWPcuDTt0bROA==",
+          "title": "okta.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Okta, Inc.",
+        "evidence": "Passage 0 directly states that the vendor providing Okta at the domain okta.com is Okta, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Okta** at the domain **okta.com** is **Okta, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0kzuYL4gDMF4JlngOjhS1_oK1i1KKVJbnO_cynPsRtdkwR67FOMytDc7Bkm6a27e8Xc5Gyw0QPsz6gDOKMBJturwPmNEzLePBBxHrS5z7VyX_gxLzPcqY63TI-u7UIQw=",
+          "title": "okta.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Okta",
+    "domain": "okta.com",
+    "description": "Okta specializes in identity and access management services, providing a versatile platform for businesses to secure and manage user identities across various applications. Their solutions are designed to meet diverse industry needs, ensuring a seamless integration and support for user authentication and authorization in both personal and enterprise environments."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Okta, Inc.",
+  "evidence": "Passage 0 directly states that the vendor providing Okta at the domain okta.com is Okta, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Okta** at the domain **okta.com** is **Okta, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0kzuYL4gDMF4JlngOjhS1_oK1i1KKVJbnO_cynPsRtdkwR67FOMytDc7Bkm6a27e8Xc5Gyw0QPsz6gDOKMBJturwPmNEzLePBBxHrS5z7VyX_gxLzPcqY63TI-u7UIQw=",
+    "title": "okta.com"
+  },
+  "checked_at": "2026-11-05T09:51:29.396360+00:00"
+}

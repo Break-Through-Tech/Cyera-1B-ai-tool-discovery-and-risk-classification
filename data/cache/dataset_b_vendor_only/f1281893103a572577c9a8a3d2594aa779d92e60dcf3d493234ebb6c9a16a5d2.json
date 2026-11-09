@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **Payhip** at the domain **payhip.com** is directly provided and operated by **Payhip Limited** (also identified as **Payhip Ltd**).\n\n### Supporting Statement:\nAccording to Payhip's official *Terms of Use* and *Privacy Policy*:\n> *\"Payhip Limited is a company incorporated in England and Wales with registration no 08386910. We own and operate www.payhip.com.\"*\n> \n> *\"As the operators of the website https://payhip.com (\"Website\"), Payhip Ltd (\"We\", \"Us\") is committed to protecting and respecting your privacy... the Data Controller is Payhip Limited.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **Payhip** at the domain **payhip.com** is directly provided and operated by **Payhip Limited** (also identified as **Payhip Ltd**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwFpoi_-AueeZC6Dubg0drb5O_D1Q-y7RoWtQRTwzaey-1D8t-lVLcdvOgOoXksN6UM0IhjfVOaUucodHbtLcq0jEdjx5V8zpcJ4vVaQ==",
+          "title": "payhip.com"
+        },
+        {
+          "id": 1,
+          "text": "The software product **Payhip** at the domain **payhip.com** is directly provided and operated by **Payhip Limited** (also identified as **Payhip Ltd**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElqiVO1IrRdg-xnWCrwBRW7a2qwi85GJ40fZJQDSR-e6QfFRN5D9loCTs8WI73rw3-BNqA4RfIlAGbMkgdQGyqboFnyxH4Mw0e9nT01IsT",
+          "title": "payhip.com"
+        },
+        {
+          "id": 2,
+          "text": "We own and operate www.payhip.com.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwFpoi_-AueeZC6Dubg0drb5O_D1Q-y7RoWtQRTwzaey-1D8t-lVLcdvOgOoXksN6UM0IhjfVOaUucodHbtLcq0jEdjx5V8zpcJ4vVaQ==",
+          "title": "payhip.com"
+        },
+        {
+          "id": 3,
+          "text": "*\"As the operators of the website https://payhip.com (\"Website\"), Payhip Ltd (\"We\", \"Us\") is committed to protecting and respecting your privacy... the Data Controller is Payhip Limited.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElqiVO1IrRdg-xnWCrwBRW7a2qwi85GJ40fZJQDSR-e6QfFRN5D9loCTs8WI73rw3-BNqA4RfIlAGbMkgdQGyqboFnyxH4Mw0e9nT01IsT",
+          "title": "payhip.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Payhip Limited",
+        "evidence": "Passage 0 explicitly states that the software product Payhip at the domain payhip.com is directly provided and operated by Payhip Limited (also identified as Payhip Ltd).",
+        "source": {
+          "id": 0,
+          "text": "The software product **Payhip** at the domain **payhip.com** is directly provided and operated by **Payhip Limited** (also identified as **Payhip Ltd**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwFpoi_-AueeZC6Dubg0drb5O_D1Q-y7RoWtQRTwzaey-1D8t-lVLcdvOgOoXksN6UM0IhjfVOaUucodHbtLcq0jEdjx5V8zpcJ4vVaQ==",
+          "title": "payhip.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Payhip",
+    "domain": "payhip.com",
+    "description": "Payhip is an online platform that simplifies the selling of digital products, including ebooks, courses, software, and design assets. It enables creators to directly sell and promote their digital goods to customers, streamlining the sales process for both seller and buyer. Located in the digital commerce sector, Payhip provides an accessible solution for entrepreneurs looking to monetize their digital offerings."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Payhip Limited",
+  "evidence": "Passage 0 explicitly states that the software product Payhip at the domain payhip.com is directly provided and operated by Payhip Limited (also identified as Payhip Ltd).",
+  "source": {
+    "id": 0,
+    "text": "The software product **Payhip** at the domain **payhip.com** is directly provided and operated by **Payhip Limited** (also identified as **Payhip Ltd**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwFpoi_-AueeZC6Dubg0drb5O_D1Q-y7RoWtQRTwzaey-1D8t-lVLcdvOgOoXksN6UM0IhjfVOaUucodHbtLcq0jEdjx5V8zpcJ4vVaQ==",
+    "title": "payhip.com"
+  },
+  "checked_at": "2026-11-05T08:17:50.690843+00:00"
+}

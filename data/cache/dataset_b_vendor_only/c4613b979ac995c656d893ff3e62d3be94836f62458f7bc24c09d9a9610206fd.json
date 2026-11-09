@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The operating company and vendor directly providing the software solutions and services at **ivanti.com** (product: **Ivanti**) is **Ivanti, Inc.** (operating alongside its regional affiliated entities).\n\n### Evidence & Provider Statements\nAccording to the **Ivanti End User License and Services Agreement** and legal terms hosted on **ivanti.com**:\n* *\"All references to 'Ivanti' shall mean the entity identified below in the same geographic region as You: • Ivanti, Inc., a Delaware corporation, in the Americas, except Brazil, and in China.\"*\n* *\"Ivanti, Inc. ('Ivanti'), a Delaware corporation having its principal place of business at 10377 South Jordan Gateway, South Jordan, UT 84095...\"* (Ivanti Developer Program Agreement).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The operating company and vendor directly providing the software solutions and services at **ivanti.com** (product: **Ivanti**) is **Ivanti, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEB6omxU88mKnLm2ChEMLfisS6YUln4fwlM2BBAQ8R2RbfzoBL5IgoskHpWd0PcYb2arqs5U_d2B7_rfnuo7oNeq91VcYnHQr3vY37L8D4oDy6DaZOJ4kCsnnzUhTDf0w==",
+          "title": "ivanti.com"
+        },
+        {
+          "id": 1,
+          "text": "The operating company and vendor directly providing the software solutions and services at **ivanti.com** (product: **Ivanti**) is **Ivanti, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGL-Tb3a9qAGgvSYBvJyHPOrAujEMAE1__oLNKdtklHR214kVOWJnkilCY4qf2iAsvPyjHrmRpkFaC45TTTvl5OoIxups1ntePMFItayjqcKiZ1ufgPyVcCiyLVYCN_V7Al8HEq0Wai_3O8uVmoCmwzsEuFOr2X5cdZ4-2JlGka2KJ_St2nfLHBdt84DdkVa4uI04V",
+          "title": "ivanti.com"
+        },
+        {
+          "id": 2,
+          "text": "The operating company and vendor directly providing the software solutions and services at **ivanti.com** (product: **Ivanti**) is **Ivanti, Inc.** (operating alongside its regional affiliated entities)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEB6omxU88mKnLm2ChEMLfisS6YUln4fwlM2BBAQ8R2RbfzoBL5IgoskHpWd0PcYb2arqs5U_d2B7_rfnuo7oNeq91VcYnHQr3vY37L8D4oDy6DaZOJ4kCsnnzUhTDf0w==",
+          "title": "ivanti.com"
+        },
+        {
+          "id": 3,
+          "text": "The operating company and vendor directly providing the software solutions and services at **ivanti.com** (product: **Ivanti**) is **Ivanti, Inc.** (operating alongside its regional affiliated entities)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNbvDAJp1zx-RjntPa5nCZjVp_pw-k2HDBcOzisD8HpNkao0W2nCn3dOE1Yb3znN5tg1skUzoenBCDS-6ZMvonZ-tUclqOT0g4JkPTmNO9C_pZzw37krwRMDqGoENJEfU_Sx_HlymdSdYAcLmpKAiD",
+          "title": "ivanti.com"
+        },
+        {
+          "id": 4,
+          "text": "*\"All references to 'Ivanti' shall mean the entity identified below in the same geographic region as You: • Ivanti, Inc., a Delaware corporation, in the Americas, except Brazil, and in China.\"*\n*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEB6omxU88mKnLm2ChEMLfisS6YUln4fwlM2BBAQ8R2RbfzoBL5IgoskHpWd0PcYb2arqs5U_d2B7_rfnuo7oNeq91VcYnHQr3vY37L8D4oDy6DaZOJ4kCsnnzUhTDf0w==",
+          "title": "ivanti.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Ivanti, Inc.",
+        "evidence": "The operating company and vendor directly providing the software solutions and services at ivanti.com (product: Ivanti) is Ivanti, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The operating company and vendor directly providing the software solutions and services at **ivanti.com** (product: **Ivanti**) is **Ivanti, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEB6omxU88mKnLm2ChEMLfisS6YUln4fwlM2BBAQ8R2RbfzoBL5IgoskHpWd0PcYb2arqs5U_d2B7_rfnuo7oNeq91VcYnHQr3vY37L8D4oDy6DaZOJ4kCsnnzUhTDf0w==",
+          "title": "ivanti.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Ivanti",
+    "domain": "ivanti.com",
+    "description": "Ivanti is a technology company that specializes in IT management and security solutions, facilitating seamless operations for organizations adapting to a modern work environment. The company's unique platform integrates IT and security functions, enhancing employee experiences and productivity through automation and proactive responses. With over 40,000 customers, including prominent Fortune 100 companies, Ivanti provides comprehensive software solutions that scale according to organizational needs."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Ivanti, Inc.",
+  "evidence": "The operating company and vendor directly providing the software solutions and services at ivanti.com (product: Ivanti) is Ivanti, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The operating company and vendor directly providing the software solutions and services at **ivanti.com** (product: **Ivanti**) is **Ivanti, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEB6omxU88mKnLm2ChEMLfisS6YUln4fwlM2BBAQ8R2RbfzoBL5IgoskHpWd0PcYb2arqs5U_d2B7_rfnuo7oNeq91VcYnHQr3vY37L8D4oDy6DaZOJ4kCsnnzUhTDf0w==",
+    "title": "ivanti.com"
+  },
+  "checked_at": "2026-11-05T09:52:31.028712+00:00"
+}

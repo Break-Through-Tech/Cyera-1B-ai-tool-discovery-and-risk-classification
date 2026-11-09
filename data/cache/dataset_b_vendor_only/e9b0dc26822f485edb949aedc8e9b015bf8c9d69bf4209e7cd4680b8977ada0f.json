@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **Doodle** at **doodle.com** is directly provided by the operating company **Doodle AG**.\n\n### Supporting Evidence\nAccording to the official **General Terms and Conditions** on `doodle.com`:\n> *\"These General Terms and Conditions (hereinafter “GTC”) for Users of Doodle govern the access to and use of the Services of Doodle AG (“Doodle”) and all transactions incidental thereto, which are offered online via www.doodle.com or www.doodle.ch or other top-level domains as part of a software-as-a-service solution.\"*\n\nThis is also corroborated by the site's official **Imprint**, which identifies the operating entity and headquarters as **Doodle AG** (Werdstrasse 21, 8004 Zurich, Switzerland).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **Doodle** at **doodle.com** is directly provided by the operating company **Doodle AG**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEX10DnUNz0Bl-CvVJ0xSTi4rPTy-Cl0waPg1FNw3Y-o-Q_pmHxMHg_R4OHplN83L4a7wNQj94W7mFgZ8TYTNRYVhMm6aZntOTotIyO55klEuT3In0JqNLlPA1PQ1q4PPdpNL8gzHJ-7_s=",
+          "title": "doodle.com"
+        },
+        {
+          "id": 1,
+          "text": "*\"These General Terms and Conditions (hereinafter “GTC”) for Users of Doodle govern the access to and use of the Services of Doodle AG (“Doodle”) and all transactions incidental thereto, which are offered online via www.doodle.com or www.doodle.ch or other top-level domains as part of a software-as-a-service solution.\"*\n\nThis i",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEX10DnUNz0Bl-CvVJ0xSTi4rPTy-Cl0waPg1FNw3Y-o-Q_pmHxMHg_R4OHplN83L4a7wNQj94W7mFgZ8TYTNRYVhMm6aZntOTotIyO55klEuT3In0JqNLlPA1PQ1q4PPdpNL8gzHJ-7_s=",
+          "title": "doodle.com"
+        },
+        {
+          "id": 2,
+          "text": "These General Terms and Conditions (hereinafter “GTC”) for Users of Doodle govern the access to and use of the Services of Doodle AG (“Doodle”) and all transactions incidental thereto, which are offered online via www.doodle.com or www.doodle.ch or other top-level domains as part of a software-as-a-service solutio",
+          "url": "https://doodle.com/en/general-terms-and-conditions/",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Doodle AG",
+        "evidence": "Passage 2 contains the General Terms and Conditions governing Doodle, stating that the services offered online via www.doodle.com are the Services of Doodle AG.",
+        "source": {
+          "id": 2,
+          "text": "These General Terms and Conditions (hereinafter “GTC”) for Users of Doodle govern the access to and use of the Services of Doodle AG (“Doodle”) and all transactions incidental thereto, which are offered online via www.doodle.com or www.doodle.ch or other top-level domains as part of a software-as-a-service solutio",
+          "url": "https://doodle.com/en/general-terms-and-conditions/",
+          "title": ""
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Doodle",
+    "domain": "doodle.com",
+    "description": "Doodle is an online scheduling platform that simplifies the process of arranging events and meetings by allowing users to create polls where participants can select their preferred dates and times. Based in Switzerland, Doodle has been serving millions of users for over a decade and recently expanded its services by acquiring the chatbot Meekan. The platform operates on a freemium model, offering both free functionalities and premium subscriptions for enhanced features."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Doodle AG",
+  "evidence": "Passage 2 contains the General Terms and Conditions governing Doodle, stating that the services offered online via www.doodle.com are the Services of Doodle AG.",
+  "source": {
+    "id": 2,
+    "text": "These General Terms and Conditions (hereinafter “GTC”) for Users of Doodle govern the access to and use of the Services of Doodle AG (“Doodle”) and all transactions incidental thereto, which are offered online via www.doodle.com or www.doodle.ch or other top-level domains as part of a software-as-a-service solutio",
+    "url": "https://doodle.com/en/general-terms-and-conditions/",
+    "title": ""
+  },
+  "checked_at": "2026-11-05T09:17:26.968504+00:00"
+}

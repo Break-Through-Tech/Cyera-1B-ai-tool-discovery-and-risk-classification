@@ -1,0 +1,79 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product **Yuma** at **yuma.ai** is **Yuma AI Inc.**.\n\n### Evidence\n* **Operating Entity Notice:** Across official pages on `yuma.ai` (including the Security & Trust Center, About, and Careers pages), the provider displays the legal and copyright statement:  \n  * *\"© 2026 Yuma AI Inc. All rights reserved.\"*  \n* **Company Details:** Official pages list the corporate headquarters at 245 Main Street, 2nd Floor, Cambridge, MA 02142, USA, and corporate regulatory filings confirm **Yuma AI Inc.** as the operating entity.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product **Yuma** at **yuma.ai** is **Yuma AI Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjyKVbwqPtpcm5v-xTGCo4NsqOLBk0WoGivLfFreuRaw5apEU3GBRcYVCLU3coMfVoP_4eHYf09X4YQH6QP_CAgJMmb1Z7qxPcKsF9ZwU=",
+          "title": "yuma.ai"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the software product **Yuma** at **yuma.ai** is **Yuma AI Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEl-YrkXu5tHZYkSnkVCDheSy6FDbpgHEcxugZdCrUeAmBSTlXPBe0izqWKcI2iuBXcTdiqW_NZcEo2uDoWZ3KYm6Oisvqg",
+          "title": "yuma.ai"
+        },
+        {
+          "id": 2,
+          "text": "ll rights reserved.\"* ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjyKVbwqPtpcm5v-xTGCo4NsqOLBk0WoGivLfFreuRaw5apEU3GBRcYVCLU3coMfVoP_4eHYf09X4YQH6QP_CAgJMmb1Z7qxPcKsF9ZwU=",
+          "title": "yuma.ai"
+        },
+        {
+          "id": 3,
+          "text": "ll rights reserved.\"* ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGyLs346XHhQvsdUt11qBNMdtY8ARtX3C35Op7EJvZUPgw5QwkvjUDjbx1yJMZijHIY0G5QFaghoC0jsiAOPF-bfx_nLeJ4HakMe0D74UM=",
+          "title": "yuma.ai"
+        },
+        {
+          "id": 4,
+          "text": "ll rights reserved.\"* ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5qccpYfzs55C_j8gsNV6ttrLxDmIS3E2ccpmBlFwFszXBEwQd2KLEk2f3xaxcvKauHpTva5fZuR-gXc_PUTCw4ziH9RmuUzcB05COKuGFQF2V",
+          "title": "yuma.ai"
+        },
+        {
+          "id": 5,
+          "text": "*Company Details:** Official pages list the corporate headquarters at 245 Main Street, 2nd Floor, Cambridge, MA 02142, USA,",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEl-YrkXu5tHZYkSnkVCDheSy6FDbpgHEcxugZdCrUeAmBSTlXPBe0izqWKcI2iuBXcTdiqW_NZcEo2uDoWZ3KYm6Oisvqg",
+          "title": "yuma.ai"
+        },
+        {
+          "id": 6,
+          "text": "*Company Details:** Official pages list the corporate headquarters at 245 Main Street, 2nd Floor, Cambridge, MA 02142, USA, and corporate regulatory filings confirm **Yuma AI Inc.** as the operating entity.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0yKmBJ_eE7wumg2V9nB4M2L2wvEFNPNwxa5VwYOCAJJBcLGVlHL0MF9caYofgYW0SB50UHpzRFlYn84OzSSPn3T5NLR5ppu46tfJPkV_0bKO_03QWIjzAV7_9X80lwxevGqijviY=",
+          "title": "specstream.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Yuma AI Inc.",
+        "evidence": "Passage 0 directly states that the vendor providing the software product Yuma at yuma.ai is Yuma AI Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the software product **Yuma** at **yuma.ai** is **Yuma AI Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjyKVbwqPtpcm5v-xTGCo4NsqOLBk0WoGivLfFreuRaw5apEU3GBRcYVCLU3coMfVoP_4eHYf09X4YQH6QP_CAgJMmb1Z7qxPcKsF9ZwU=",
+          "title": "yuma.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Yuma",
+    "domain": "yuma.ai",
+    "description": "Streamlining customer support processes."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Yuma AI Inc.",
+  "evidence": "Passage 0 directly states that the vendor providing the software product Yuma at yuma.ai is Yuma AI Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the software product **Yuma** at **yuma.ai** is **Yuma AI Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjyKVbwqPtpcm5v-xTGCo4NsqOLBk0WoGivLfFreuRaw5apEU3GBRcYVCLU3coMfVoP_4eHYf09X4YQH6QP_CAgJMmb1Z7qxPcKsF9ZwU=",
+    "title": "yuma.ai"
+  },
+  "checked_at": "2026-11-05T05:57:00.595410+00:00"
+}

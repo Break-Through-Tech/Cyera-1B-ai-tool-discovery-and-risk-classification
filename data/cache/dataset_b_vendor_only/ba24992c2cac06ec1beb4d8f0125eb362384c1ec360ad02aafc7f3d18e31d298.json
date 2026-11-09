@@ -1,0 +1,91 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on the legal and about documentation on **validatorai.com**, the software product **Validator AI** is operated and provided under the brand **ValidatorAI.com** / **Validator AI**, created and founded by developer/entrepreneur **Aron Meystedt**.\n\n* **Terms of Service:** *\"Welcome to ValidatorAI.com ('Validator AI,' 'we,' 'us,' or 'our'). By accessing or using our website and services, you agree to be bound by these Terms and Conditions...\"*\n* **Privacy Policy:** *\"ValidatorAI.com ('Validator AI') values its users' privacy. This Privacy Policy ('Policy') will help you understand how we collect and use personal information from those who visit our website or make use of our online facilities and services...\"*\n* **About Page:** *\"ValidatorAI was created by Aron Meystedt...\"* / *\"Founded by Aron Meystedt\"*\n\nNo separate formal legal corporate entity is designated on the website.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "Based on the legal and about documentation on **validatorai.com**, the software product **Validator AI** is operated and provided under the brand **ValidatorAI.com** / **Validator AI**, created and founded by developer/entrepreneur **Aron Meystedt**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlV5HvNewgYW8DLJ2G5vqhTcPd-W36gvhMUdrv9flaJ8QJb31EqPl7fclH4FZxn2WMGaOchI3wnn5LAJoRLLBV1gQZW7NetMgKOQxvba6kEB8MLwY=",
+          "title": "validatorai.com"
+        },
+        {
+          "id": 1,
+          "text": "Based on the legal and about documentation on **validatorai.com**, the software product **Validator AI** is operated and provided under the brand **ValidatorAI.com** / **Validator AI**, created and founded by developer/entrepreneur **Aron Meystedt**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFR2032TAr1MnjXVLrNJpLS7mBxp9Jpy4RpS__ZpGXCA40wpICxBRbKDm1ZCribktR6R000oU2ehQphfrDlZK3YQcvDYgL0hPJ716kLGyM=",
+          "title": "validatorai.com"
+        },
+        {
+          "id": 2,
+          "text": "By accessing or using our website and services, you agree to be bound by these Terms and Conditions...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWYtLD9ts5g3qzO4ZXP5ViFupIVt5bdLUzfJb-NoFntxTMvPYKQvyDfP0fly2i77n-7q0SuWfdFYpNAxUUcnMWKaI9GMHX5t3UgniBEHmyZnOIRg==",
+          "title": "validatorai.com"
+        },
+        {
+          "id": 3,
+          "text": "This Privacy Policy ('Policy') will help you understand how we collect and use personal information from those who visit our website or make use of our online facilities and services...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWIo6M678v5BxoJOJF6H43sd-s8hyyv9zvtGtPvhNcdxkfMyIhbs5d7tRvuFZHYFtjP7Wop6_gHoINDoa0PekT9i_KsGDiv8h0yEvyzyj-iIhBPKEi",
+          "title": "validatorai.com"
+        },
+        {
+          "id": 4,
+          "text": "/ *\"Founded by Aron Meystedt\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlV5HvNewgYW8DLJ2G5vqhTcPd-W36gvhMUdrv9flaJ8QJb31EqPl7fclH4FZxn2WMGaOchI3wnn5LAJoRLLBV1gQZW7NetMgKOQxvba6kEB8MLwY=",
+          "title": "validatorai.com"
+        },
+        {
+          "id": 5,
+          "text": "/ *\"Founded by Aron Meystedt\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFR2032TAr1MnjXVLrNJpLS7mBxp9Jpy4RpS__ZpGXCA40wpICxBRbKDm1ZCribktR6R000oU2ehQphfrDlZK3YQcvDYgL0hPJ716kLGyM=",
+          "title": "validatorai.com"
+        },
+        {
+          "id": 6,
+          "text": "No separate formal legal corporate entity is designated on the website",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWYtLD9ts5g3qzO4ZXP5ViFupIVt5bdLUzfJb-NoFntxTMvPYKQvyDfP0fly2i77n-7q0SuWfdFYpNAxUUcnMWKaI9GMHX5t3UgniBEHmyZnOIRg==",
+          "title": "validatorai.com"
+        },
+        {
+          "id": 7,
+          "text": "No separate formal legal corporate entity is designated on the website",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWIo6M678v5BxoJOJF6H43sd-s8hyyv9zvtGtPvhNcdxkfMyIhbs5d7tRvuFZHYFtjP7Wop6_gHoINDoa0PekT9i_KsGDiv8h0yEvyzyj-iIhBPKEi",
+          "title": "validatorai.com"
+        },
+        {
+          "id": 8,
+          "text": "values its users' privacy. This Privacy Policy ('Policy') will help you understand how we collect and use personal information from those who visit our website or make use of our online facilities and services...\"*\n* **",
+          "url": "https://www.amtamassage.org/privacy-policy/",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Aron Meystedt",
+        "evidence": "Passage 0 states that Validator AI is operated and provided under the brand ValidatorAI.com / Validator AI, and was created and founded by developer/entrepreneur Aron Meystedt.",
+        "source": {
+          "id": 0,
+          "text": "Based on the legal and about documentation on **validatorai.com**, the software product **Validator AI** is operated and provided under the brand **ValidatorAI.com** / **Validator AI**, created and founded by developer/entrepreneur **Aron Meystedt**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlV5HvNewgYW8DLJ2G5vqhTcPd-W36gvhMUdrv9flaJ8QJb31EqPl7fclH4FZxn2WMGaOchI3wnn5LAJoRLLBV1gQZW7NetMgKOQxvba6kEB8MLwY=",
+          "title": "validatorai.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Validator AI",
+    "domain": "validatorai.com",
+    "description": "Validated feedback for startup ideas."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Aron Meystedt",
+  "evidence": "Passage 0 states that Validator AI is operated and provided under the brand ValidatorAI.com / Validator AI, and was created and founded by developer/entrepreneur Aron Meystedt.",
+  "source": {
+    "id": 0,
+    "text": "Based on the legal and about documentation on **validatorai.com**, the software product **Validator AI** is operated and provided under the brand **ValidatorAI.com** / **Validator AI**, created and founded by developer/entrepreneur **Aron Meystedt**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlV5HvNewgYW8DLJ2G5vqhTcPd-W36gvhMUdrv9flaJ8QJb31EqPl7fclH4FZxn2WMGaOchI3wnn5LAJoRLLBV1gQZW7NetMgKOQxvba6kEB8MLwY=",
+    "title": "validatorai.com"
+  },
+  "checked_at": "2026-11-05T05:41:22.504285+00:00"
+}

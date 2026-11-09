@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product **Novoresume** at **novoresume.com** is **Novorésumé ApS**.\n\n### Evidence\nAccording to the official **Terms of Use** and **Privacy Policy** published on `novoresume.com`:\n> *\"Novorésumé is a product of Novorésumé ApS, meaning that the Terms of Use found below applies to Novorésumé. When there is a reference to „Novorésumé”, „us” or „we” this takes into account the following: novoresume.com, Novorésumé ApS, website, site or any other application/app/service/software directly related to Novorésumé and owned & developed by Novorésumé.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product **Novoresume** at **novoresume.com** is **Novorésumé ApS**.\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFB13HeHnOfMGoFPmFhd5tapp-LCBzKQZQurL8EviCIJu6acUXhMGZxwc4cp_ZgmL--ibvhbe-kuBv4BJoOH9iym_WpJ3sYHXLH28y6VrZ87P3N5GUIzcZyDbL5kpJ_7ACy33N3rmFUOLW4Np0=",
+          "title": "novoresume.com"
+        },
+        {
+          "id": 1,
+          "text": "found below applies to Novorésumé. When there is a reference to „Novorésumé”, „us” or „we” this takes into account the following: novoresume.com, Novorésumé ApS, website, site or any other application/app/service/software directly related to Novorésumé and owned & developed by Novorésum",
+          "url": "https://novoresume.com/page/legal/privacy-policy",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Novorésumé ApS",
+        "evidence": "Passage 0 explicitly identifies Novorésumé ApS as the vendor directly providing the software product Novoresume at novoresume.com.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the software product **Novoresume** at **novoresume.com** is **Novorésumé ApS**.\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFB13HeHnOfMGoFPmFhd5tapp-LCBzKQZQurL8EviCIJu6acUXhMGZxwc4cp_ZgmL--ibvhbe-kuBv4BJoOH9iym_WpJ3sYHXLH28y6VrZ87P3N5GUIzcZyDbL5kpJ_7ACy33N3rmFUOLW4Np0=",
+          "title": "novoresume.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Novoresume",
+    "domain": "novoresume.com",
+    "description": "Novoresume is an AI-powered online platform that helps job seekers create professional, ATS-friendly resumes, CVs, and cover letters using customizable templates and intelligent content suggestions to optimize their job applications."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Novorésumé ApS",
+  "evidence": "Passage 0 explicitly identifies Novorésumé ApS as the vendor directly providing the software product Novoresume at novoresume.com.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the software product **Novoresume** at **novoresume.com** is **Novorésumé ApS**.\n",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFB13HeHnOfMGoFPmFhd5tapp-LCBzKQZQurL8EviCIJu6acUXhMGZxwc4cp_ZgmL--ibvhbe-kuBv4BJoOH9iym_WpJ3sYHXLH28y6VrZ87P3N5GUIzcZyDbL5kpJ_7ACy33N3rmFUOLW4Np0=",
+    "title": "novoresume.com"
+  },
+  "checked_at": "2026-11-05T07:21:24.532666+00:00"
+}

@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product at **tinypng.com** (TinyPNG / Tinify) is **Tinify B.V.**\n\n### Provider Statement\nAccording to the official **Terms of Service** on **tinypng.com**:\n> *\"The following terms and conditions (the “Agreement”) govern the use of the TinyPNG and TinyJPG websites and all content and services available at or through the websites (collectively, the “Service”). The Service is owned and operated by Tinify B.V. (“Tinify”).\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product at **tinypng.com** (TinyPNG / Tinify) is **Tinify B.V.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIKRD-_YvJAkGW_kpLU2yu5sMnCGKC698LDJOvfG0057hPN5jhJem2YmE4iZ1VFDTDjLo3e0kgG9t9pUObQB2zt7q7xptqhnCBSZCLZOkM",
+          "title": "tinypng.com"
+        },
+        {
+          "id": 1,
+          "text": "The following terms and conditions (the “Agreement”) govern the use of the TinyPNG and TinyJPG websites and all content and services available at or through the websites (collectively, the “Service”). The Service is owned and operated by Tinify B.V. (“T",
+          "url": "https://tinypng.com/terms",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Tinify B.V.",
+        "evidence": "Passage 1 confirms that the TinyPNG and TinyJPG websites and services are owned and operated by Tinify B.V.",
+        "source": {
+          "id": 1,
+          "text": "The following terms and conditions (the “Agreement”) govern the use of the TinyPNG and TinyJPG websites and all content and services available at or through the websites (collectively, the “Service”). The Service is owned and operated by Tinify B.V. (“T",
+          "url": "https://tinypng.com/terms",
+          "title": ""
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Tinify",
+    "domain": "tinypng.com",
+    "description": "TinyPNG is a web-based image compression service that optimizes images, making them smaller in size without significant loss of quality. This service is particularly useful for web developers and designers who need to enhance website performance by reducing image load times. It operates globally, serving users looking for efficient image handling solutions."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Tinify B.V.",
+  "evidence": "Passage 1 confirms that the TinyPNG and TinyJPG websites and services are owned and operated by Tinify B.V.",
+  "source": {
+    "id": 1,
+    "text": "The following terms and conditions (the “Agreement”) govern the use of the TinyPNG and TinyJPG websites and all content and services available at or through the websites (collectively, the “Service”). The Service is owned and operated by Tinify B.V. (“T",
+    "url": "https://tinypng.com/terms",
+    "title": ""
+  },
+  "checked_at": "2026-11-05T09:57:11.182427+00:00"
+}

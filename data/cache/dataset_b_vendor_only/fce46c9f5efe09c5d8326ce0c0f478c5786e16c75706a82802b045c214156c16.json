@@ -1,0 +1,43 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **Crunchbase** platform and services at **crunchbase.com** is **Crunchbase, Inc.**\n\n### Evidence\nAccording to the official **Crunchbase Terms of Service** (covering access to and use of its websites, applications, products, and services at `crunchbase.com`):\n\n> *\"These Terms of Service (the “Terms”) are a binding contract between you and Crunchbase, Inc. (“Crunchbase,” “we”, “our” and “us”). By using the Service in any way, you agree to and accept all of these Terms... These Terms govern your access to the Service and use of all Content on Crunchbase's websites, applications, products and other properties...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **Crunchbase** platform and services at **crunchbase.com** is **Crunchbase, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGusfc-kGPe95q6ZLspnLwRmi2ZOmKcDHceFK1Ktp5D1lZSHzLYBreJM4RBv9Rj-raGI8xXil29j40wfg1rNOJcxX5aLVbmApcSxmCpheiWq_GmlHmKR4urzUig14uUx7Wl_A0=",
+          "title": "crunchbase.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Crunchbase, Inc.",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing the Crunchbase platform and services at crunchbase.com is Crunchbase, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the **Crunchbase** platform and services at **crunchbase.com** is **Crunchbase, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGusfc-kGPe95q6ZLspnLwRmi2ZOmKcDHceFK1Ktp5D1lZSHzLYBreJM4RBv9Rj-raGI8xXil29j40wfg1rNOJcxX5aLVbmApcSxmCpheiWq_GmlHmKR4urzUig14uUx7Wl_A0=",
+          "title": "crunchbase.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Crunchbase",
+    "domain": "crunchbase.com",
+    "description": "Crunchbase is a premier platform offering private company prospecting and research solutions, primarily catering to sales professionals, entrepreneurs, investors, and market researchers. With a user base of 75 million, it serves as a hub for discovering new business opportunities and provides an extensive API that supports over 6 billion annual calls from applications globally."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Crunchbase, Inc.",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing the Crunchbase platform and services at crunchbase.com is Crunchbase, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the **Crunchbase** platform and services at **crunchbase.com** is **Crunchbase, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGusfc-kGPe95q6ZLspnLwRmi2ZOmKcDHceFK1Ktp5D1lZSHzLYBreJM4RBv9Rj-raGI8xXil29j40wfg1rNOJcxX5aLVbmApcSxmCpheiWq_GmlHmKR4urzUig14uUx7Wl_A0=",
+    "title": "crunchbase.com"
+  },
+  "checked_at": "2026-11-05T08:08:42.108659+00:00"
+}

@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The operating vendor directly providing the software platform **Discord** at **discord.com** is **Discord Inc.**\n\n### Supporting Evidence\nAccording to Discord’s [Terms of Service](https://discord.com/terms):\n* *\"When we say “Discord,” “we,” “us,” and “our” in these terms, we mean Discord Inc., its subsidiaries, and its related companies. When we say “services” in these terms, we mean Discord's services, apps, websites, and other products.\"*\n* *\"Discord's services are provided by Discord Inc. We're located at 444 De Haro Street #200, San Francisco, CA 94107, USA.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The operating vendor directly providing the software platform **Discord** at **discord.com** is **Discord Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGf_EInoN2thjSg2FZ_AFBzl12VljOScsiBoCVgvYbDszSK5k6t-SugrZJcSf8TVnQMYgYsGYSWB3u8dLLQqwtRI02zv_1JQKJubjF7pMQ=",
+          "title": "discord.com"
+        },
+        {
+          "id": 1,
+          "text": "The operating vendor directly providing the software platform **Discord** at **discord.com** is **Discord Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHeX1Cfadgsifw_Hm4MZ1q-dkp8wnWRvCBE71hR27RXFBHDeA_q88XA_c8pZQ5uerSwiCTdbxY-PUPlS6TkYUd7qVVVJDuu6sHbIZhO1oSWVAX7bEhs4fpO-boN40GeZq4XQjJqeVX0v0KE",
+          "title": "discord.com"
+        },
+        {
+          "id": 2,
+          "text": "ces” in these terms, we mean Discord's services, apps, websites, and other products.\"*\n* *\"Discord's service",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGf_EInoN2thjSg2FZ_AFBzl12VljOScsiBoCVgvYbDszSK5k6t-SugrZJcSf8TVnQMYgYsGYSWB3u8dLLQqwtRI02zv_1JQKJubjF7pMQ=",
+          "title": "discord.com"
+        },
+        {
+          "id": 3,
+          "text": "When we say “Discord,” “we,” “us,” and “our” in these terms, we mean Discord Inc., its subsidiaries, and its related companies. When we say “services” in these terms, we mean Discord's services, apps, websites, and other product",
+          "url": "https://discord.com/terms/terms-of-service-march-2023",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Discord Inc.",
+        "evidence": "Passage 0 states directly that the operating vendor directly providing the software platform Discord at discord.com is Discord Inc.",
+        "source": {
+          "id": 0,
+          "text": "The operating vendor directly providing the software platform **Discord** at **discord.com** is **Discord Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGf_EInoN2thjSg2FZ_AFBzl12VljOScsiBoCVgvYbDszSK5k6t-SugrZJcSf8TVnQMYgYsGYSWB3u8dLLQqwtRI02zv_1JQKJubjF7pMQ=",
+          "title": "discord.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Discord",
+    "domain": "discord.com",
+    "description": "Founded in 2015, Discord is a communication platform that facilitates voice, video, and text interactions, enabling users to connect with friends and communities based on shared interests. With 200 million monthly users and 19 million active communities, Discord is recognized globally as one of the leading communication services, focusing on building a sense of belonging without relying on ads or user data. The platform offers a premium subscription, Nitro, which enhances user experience with extra features."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Discord Inc.",
+  "evidence": "Passage 0 states directly that the operating vendor directly providing the software platform Discord at discord.com is Discord Inc.",
+  "source": {
+    "id": 0,
+    "text": "The operating vendor directly providing the software platform **Discord** at **discord.com** is **Discord Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGf_EInoN2thjSg2FZ_AFBzl12VljOScsiBoCVgvYbDszSK5k6t-SugrZJcSf8TVnQMYgYsGYSWB3u8dLLQqwtRI02zv_1JQKJubjF7pMQ=",
+    "title": "discord.com"
+  },
+  "checked_at": "2026-11-05T10:03:24.109300+00:00"
+}

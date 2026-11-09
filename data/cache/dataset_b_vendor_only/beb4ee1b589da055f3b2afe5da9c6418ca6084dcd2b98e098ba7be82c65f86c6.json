@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **Make** provided at **make.com** is directly provided by **Celonis, Inc.**.\n\n### Evidence\n* **Master Services Agreement for Make:** \n  > *\"THESE TERMS ARE BETWEEN YOU (“YOU”) AND CELONIS, INC. (“WE,” “US”, “OUR” OR “CELONIS”) ... This Agreement governs Your access to and use of the Services acquired by You at www.make.com, which includes the Platform and Celonis Materials (collectively, the “Services”)\"*.\n* **Celonis Data Processing Agreement for Make:** \n  > *\"This Data Processing Agreement forms part of and is integrated into the agreement between You and Celonis, Inc. governing Our provision of any Make-branded Services to You (collectively, the “Agreement”)\"*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **Make** provided at **make.com** is directly provided by **Celonis, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgUSjfaPLYpR6mh55PCGPpreJJWA5WGAaeQSq1ioN1j5WX5ewQ7ETh55U04-NhbTM7MQvCKGF_MdyVdm2bigXF9F-bWs0SNT8e8R-GC4V91Mp2JQzFXeG9dmGNjx6HOQ9ITgxluZMHYmReC88SfnKJ-eDKIqM=",
+          "title": "make.com"
+        },
+        {
+          "id": 1,
+          "text": "ns Your access to and use of the Services acquired by You at www.make.com, which includes the Platform and Celonis Materials (collectively, the “Services”)\"*.\n* **Celonis Data Proce",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgUSjfaPLYpR6mh55PCGPpreJJWA5WGAaeQSq1ioN1j5WX5ewQ7ETh55U04-NhbTM7MQvCKGF_MdyVdm2bigXF9F-bWs0SNT8e8R-GC4V91Mp2JQzFXeG9dmGNjx6HOQ9ITgxluZMHYmReC88SfnKJ-eDKIqM=",
+          "title": "make.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Celonis, Inc.",
+        "evidence": "Passage 0 explicitly states that the software product Make provided at make.com is directly provided by Celonis, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The software product **Make** provided at **make.com** is directly provided by **Celonis, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgUSjfaPLYpR6mh55PCGPpreJJWA5WGAaeQSq1ioN1j5WX5ewQ7ETh55U04-NhbTM7MQvCKGF_MdyVdm2bigXF9F-bWs0SNT8e8R-GC4V91Mp2JQzFXeG9dmGNjx6HOQ9ITgxluZMHYmReC88SfnKJ-eDKIqM=",
+          "title": "make.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Make",
+    "domain": "make.com",
+    "description": "Make is a prominent automation platform that offers a user-friendly visual interface for creating, designing, and automating tasks, workflows, apps, and systems. Serving over 160,000 organizations worldwide, Make empowers individuals and businesses of all sizes to develop scalable, custom solutions that enhance productivity and efficiency."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Celonis, Inc.",
+  "evidence": "Passage 0 explicitly states that the software product Make provided at make.com is directly provided by Celonis, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The software product **Make** provided at **make.com** is directly provided by **Celonis, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgUSjfaPLYpR6mh55PCGPpreJJWA5WGAaeQSq1ioN1j5WX5ewQ7ETh55U04-NhbTM7MQvCKGF_MdyVdm2bigXF9F-bWs0SNT8e8R-GC4V91Mp2JQzFXeG9dmGNjx6HOQ9ITgxluZMHYmReC88SfnKJ-eDKIqM=",
+    "title": "make.com"
+  },
+  "checked_at": "2026-11-05T09:06:09.700316+00:00"
+}

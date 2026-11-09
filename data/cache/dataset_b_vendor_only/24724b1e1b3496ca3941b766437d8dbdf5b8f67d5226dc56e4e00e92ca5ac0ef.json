@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product and domain **taxgpt.com** (TaxGPT) is directly provided and operated by **TaxGPT Inc.**\n\n### Evidence & Citations:\n* **Operating Company / Developer Listing:** The official app store publisher listing identifies the developer as **TaxGPT Inc.** (dev@taxgpt.com, 1151 Mission St, San Francisco, CA).\n* **Provider / Corporate Statement:** Business and industry records confirm that *\"TaxGPT is owned and operated by TaxGPT Inc.\"* (founded by Kashif Ali and Isabella Maceda-Ali) to provide tax automation software through **taxgpt.com**. Furthermore, B2B software listings state: *\"TaxGPT Inc. is a pioneering company... The company's platform, accessible through https://www.taxgpt.com/, offers user-friendly tax solutions that optimize accuracy and ensure compliance with the latest tax laws and regulations.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product and domain **taxgpt.com** (TaxGPT) is directly provided and operated by **TaxGPT Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEuX-ODH80W6elqlf2i8Yl8BiURP6cbHWtUXcekOuLy8yLCePsf7cIS91phiObn-R5UdANu397ZRGJfb0oxRKsJXiAXD9StpexXRFqUJZav3pVCv-7uh0FpeBoMIrENqavjLXDXXdoKvUlYGQxa_zXOVV6szxaGA==",
+          "title": "google.com"
+        },
+        {
+          "id": 1,
+          "text": "The software product and domain **taxgpt.com** (TaxGPT) is directly provided and operated by **TaxGPT Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEogSm3KTDhYmfuSgiQwCiBjmWcmC-56QIy0uExes4iA_kBYcEEuV0VzlhT4MoLHZobkyvOmwWjbwgnvCp-CdTiniwBqjBfa6C1fIji6Or0KIIw6vp5cyCPVfylz6ApVE91co3QkBxrhhP54GDX8UGKkw7486vDCRpo5D4Xtu5Or2Iw3jvYENPdA7HSIwBP4dI=",
+          "title": "intuit.com"
+        },
+        {
+          "id": 2,
+          "text": "**Operating Company / Developer Listing:** The official app store publisher listing identifies the developer as **TaxGPT Inc.** (dev@taxgpt.com, 1151 Mission St, San Francisco, CA)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEuX-ODH80W6elqlf2i8Yl8BiURP6cbHWtUXcekOuLy8yLCePsf7cIS91phiObn-R5UdANu397ZRGJfb0oxRKsJXiAXD9StpexXRFqUJZav3pVCv-7uh0FpeBoMIrENqavjLXDXXdoKvUlYGQxa_zXOVV6szxaGA==",
+          "title": "google.com"
+        },
+        {
+          "id": 3,
+          "text": "**Provider / Corporate Statement:** Business and industry records confirm that *\"TaxGPT is owned and operated by TaxGPT Inc.\"* (founded by Kashif Ali and Isabella Maceda-Ali) to provide tax automation software through **taxgpt.com**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6umUTNX5fXbJgCl9Jdr0rbgd044bjNraAzofcxNBmx9IA64V0oCz1wJaOvUtvNQtcDKOgTiCNWsTUwnW86VbuieI8fJjzDI-iu9YVodG8fj573EJCjulmpXlPFzTWxnftaj5Ci7xDETcsC0BOYJMUOrL2HaSvzqcwjRM6mMW-3-I-8M-bkXB4PZAtJ6gjX2qM2GDp68F22huMAm6w8erR",
+          "title": "forbes.com"
+        },
+        {
+          "id": 4,
+          "text": "**Provider / Corporate Statement:** Business and industry records confirm that *\"TaxGPT is owned and operated by TaxGPT Inc.\"* (founded by Kashif Ali and Isabella Maceda-Ali) to provide tax automation software through **taxgpt.com**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEogSm3KTDhYmfuSgiQwCiBjmWcmC-56QIy0uExes4iA_kBYcEEuV0VzlhT4MoLHZobkyvOmwWjbwgnvCp-CdTiniwBqjBfa6C1fIji6Or0KIIw6vp5cyCPVfylz6ApVE91co3QkBxrhhP54GDX8UGKkw7486vDCRpo5D4Xtu5Or2Iw3jvYENPdA7HSIwBP4dI=",
+          "title": "intuit.com"
+        },
+        {
+          "id": 5,
+          "text": "The company's platform, accessible through https://www.taxgpt.com/, offers user-friendly tax solutions that optimize accuracy and ensure compliance with the latest tax laws and regulations.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhtncqcWVvGMnoSagVKYHmt_Mlu9ztAcMeBD7uakH7FKB2Wejky7-l6hMRBhfZaJJzmnXJcwUmwUkbfsw4dE7YomalwYQeiPeytCpvHPlx_AbWCgDIFEg=",
+          "title": "g2.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "TaxGPT Inc.",
+        "evidence": "Passage 0 directly states that the software product and domain taxgpt.com (TaxGPT) is provided and operated by TaxGPT Inc.",
+        "source": {
+          "id": 0,
+          "text": "The software product and domain **taxgpt.com** (TaxGPT) is directly provided and operated by **TaxGPT Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEuX-ODH80W6elqlf2i8Yl8BiURP6cbHWtUXcekOuLy8yLCePsf7cIS91phiObn-R5UdANu397ZRGJfb0oxRKsJXiAXD9StpexXRFqUJZav3pVCv-7uh0FpeBoMIrENqavjLXDXXdoKvUlYGQxa_zXOVV6szxaGA==",
+          "title": "google.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "TaxGPT.com",
+    "domain": "taxgpt.com",
+    "description": "TaxGPT helps individuals file their personal taxes efficiently and accurately using AI-powered guidance. It simplifies the process, offering support and insights throughout."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "TaxGPT Inc.",
+  "evidence": "Passage 0 directly states that the software product and domain taxgpt.com (TaxGPT) is provided and operated by TaxGPT Inc.",
+  "source": {
+    "id": 0,
+    "text": "The software product and domain **taxgpt.com** (TaxGPT) is directly provided and operated by **TaxGPT Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEuX-ODH80W6elqlf2i8Yl8BiURP6cbHWtUXcekOuLy8yLCePsf7cIS91phiObn-R5UdANu397ZRGJfb0oxRKsJXiAXD9StpexXRFqUJZav3pVCv-7uh0FpeBoMIrENqavjLXDXXdoKvUlYGQxa_zXOVV6szxaGA==",
+    "title": "google.com"
+  },
+  "checked_at": "2026-11-05T05:45:08.530642+00:00"
+}

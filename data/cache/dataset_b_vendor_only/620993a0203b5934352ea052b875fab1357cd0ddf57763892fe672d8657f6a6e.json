@@ -1,0 +1,107 @@
+{
+  "attempts": [
+    {
+      "answer": "For the software product **Malibu** associated with the domain **`malibuai.xyz`**, a direct vendor, operating company, or published developer cannot be established. \n\n### Reason:\n* The domain `malibuai.xyz` is currently inactive and displays an expired domain notice at its registrar (Namecheap). Consequently, official Terms of Service, Privacy Policy, contact, and \"About\" pages are inaccessible.\n* Third-party AI software directories (such as EliteAI.tools and IDEAi.ID) index the tool only by its name and description (\"Design your first AI influencer in 3 clicks...\"), providing no disclosure of an underlying legal corporate entity, publisher, or identified developer.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "For the software product **Malibu** associated with the domain **`malibuai.xyz`**, a direct vendor, operating company, or published developer cannot be established",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGloxfgT1x7TVmjghWKIF7ayjpt6JQ75_mJ5inhG3XvoFSPHsvu-CIP0Dyr3kJMxeIuCaFu8XWjnbSsxbxDSbgIz7seglXHl3OmA4XOgBYBTGaM6fhG7bVnx0=",
+          "title": "eliteai.tools"
+        },
+        {
+          "id": 1,
+          "text": "For the software product **Malibu** associated with the domain **`malibuai.xyz`**, a direct vendor, operating company, or published developer cannot be established",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKi3PgD-34A5RP3mjnjoEUvxpdyGD4huY9AWC2nC4iDLvppM_0A4nnSY5MOhj6-H3H-SDfb_cDfuwTIwey9IIqQf2whXlcnY6CG0n5EWWWbwZh_00erNfJsWMapFp6BT2dMvlmqH5EkdQS8jKPWPPty0fT-Bd3sds-",
+          "title": "ideai.id"
+        },
+        {
+          "id": 2,
+          "text": "The domain `malibuai.xyz` is currently inactive and displays an expired domain notice at its registrar (Namecheap)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwiH30JwcfX_BhOeOoZzEKrqaqRGDIsV8tl_M_ZtkbGRhXCdWLugM6qD850LmlcX1V2rnxUb2QA165_oLj8AMSsiB5QVNjHa3nHn4=",
+          "title": "malibuai.xyz"
+        },
+        {
+          "id": 3,
+          "text": "Consequently, official Terms of Service, Privacy Policy, contact, and \"About\" pages are inaccessible",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwiH30JwcfX_BhOeOoZzEKrqaqRGDIsV8tl_M_ZtkbGRhXCdWLugM6qD850LmlcX1V2rnxUb2QA165_oLj8AMSsiB5QVNjHa3nHn4=",
+          "title": "malibuai.xyz"
+        },
+        {
+          "id": 4,
+          "text": "Third-party AI software directories (such as EliteAI.tools and IDEAi.ID) index the tool only by its name and description (\"Design your first AI influencer in 3 clicks...\"), providing no disclosure of an underlying legal corporate entity, publisher, or identified developer",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGloxfgT1x7TVmjghWKIF7ayjpt6JQ75_mJ5inhG3XvoFSPHsvu-CIP0Dyr3kJMxeIuCaFu8XWjnbSsxbxDSbgIz7seglXHl3OmA4XOgBYBTGaM6fhG7bVnx0=",
+          "title": "eliteai.tools"
+        },
+        {
+          "id": 5,
+          "text": "Third-party AI software directories (such as EliteAI.tools and IDEAi.ID) index the tool only by its name and description (\"Design your first AI influencer in 3 clicks...\"), providing no disclosure of an underlying legal corporate entity, publisher, or identified developer",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKi3PgD-34A5RP3mjnjoEUvxpdyGD4huY9AWC2nC4iDLvppM_0A4nnSY5MOhj6-H3H-SDfb_cDfuwTIwey9IIqQf2whXlcnY6CG0n5EWWWbwZh_00erNfJsWMapFp6BT2dMvlmqH5EkdQS8jKPWPPty0fT-Bd3sds-",
+          "title": "ideai.id"
+        }
+      ],
+      "result": {
+        "status": "unknown",
+        "vendor": "UNKNOWN",
+        "evidence": "A direct vendor, operating company, or published developer cannot be established because the domain malibuai.xyz is inactive with an expired domain notice, and third-party software directories do not disclose any corporate entity, publisher, or developer."
+      }
+    },
+    {
+      "answer": "No vendor, operating company, or published developer can be established for **Malibu** at **`malibuai.xyz`**.\n\n### Findings & Reason:\n* The domain **`malibuai.xyz`** is inactive and displays a Namecheap expiration notice (\"Domain registration has expired\").\n* Third-party AI directories (such as IDEAi.ID and EliteAI.tools) index the product under the supplied description (\"*Design your first AI influencer in 3 clicks. Free trial, no card required. Malibu makes AI content creation fast and fun.*\"), but they provide no legal entity, registered company, named developer, or official provider documentation (such as Terms of Service, Privacy Policy, or About page).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "No vendor, operating company, or published developer can be established for **Malibu** at **`malibuai.xyz`**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdP07uduocD68Arm6HpewG2i6MrnvmSO6JcIpnubc32X2Z0HfQAxHyvG9L7D9YTmvEQO8Rt6Nu4NNdAXVdn7_gaQM-UJxbV6wdN5Sp3SzxbYM_-lTbwZ6Sk80=",
+          "title": "eliteai.tools"
+        },
+        {
+          "id": 1,
+          "text": "No vendor, operating company, or published developer can be established for **Malibu** at **`malibuai.xyz`**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG307dNAqz_RYIYiQcIfG3h7wmPQ5i-0fRoWp0FfRxEM_Jmb1BHRHXfYemG6hXG5lMxwvMPsimcsZB-8EoKZChNAuQbMEs7q7s33TOkUKb8njOsrDYm23MoYUKCV0g_cCKpk0lJ-lva9uMOgb7sl7eNeba1v5LKqWqG",
+          "title": "ideai.id"
+        },
+        {
+          "id": 2,
+          "text": "The domain **`malibuai.xyz`** is inactive and displays a Namecheap expiration notice (\"Domain registration has expired\")",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDas6AXxdBVPRUiCml9nM89MgSS9DGcYLSEK3Cu4zgjLEfsMsc0D5wE0A0fz9oL4f67t2JvsvghhtsyBZol4EKTiNqlCDSHRv5jUw=",
+          "title": "malibuai.xyz"
+        },
+        {
+          "id": 3,
+          "text": "The domain **`malibuai.xyz`** is inactive and displays a Namecheap expiration notice (\"Domain registration has expired\")",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDas6AXxdBVPRUiCml9nM89MgSS9DGcYLSEK3Cu4zgjLEfsMsc0D5wE0A0fz9oL4f67t2JvsvghhtsyBZol4EKTiNqlCDSHRv5jUw=",
+          "title": "malibuai.xyz"
+        },
+        {
+          "id": 4,
+          "text": "Malibu makes AI content creation fast and fun.*\"), but they provide no legal entity, registered company, named developer, or official provider documentation (such as Terms of Service, Privacy Policy, or About page)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdP07uduocD68Arm6HpewG2i6MrnvmSO6JcIpnubc32X2Z0HfQAxHyvG9L7D9YTmvEQO8Rt6Nu4NNdAXVdn7_gaQM-UJxbV6wdN5Sp3SzxbYM_-lTbwZ6Sk80=",
+          "title": "eliteai.tools"
+        },
+        {
+          "id": 5,
+          "text": "Malibu makes AI content creation fast and fun.*\"), but they provide no legal entity, registered company, named developer, or official provider documentation (such as Terms of Service, Privacy Policy, or About page)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG307dNAqz_RYIYiQcIfG3h7wmPQ5i-0fRoWp0FfRxEM_Jmb1BHRHXfYemG6hXG5lMxwvMPsimcsZB-8EoKZChNAuQbMEs7q7s33TOkUKb8njOsrDYm23MoYUKCV0g_cCKpk0lJ-lva9uMOgb7sl7eNeba1v5LKqWqG",
+          "title": "ideai.id"
+        }
+      ],
+      "result": {
+        "status": "unknown",
+        "vendor": "UNKNOWN",
+        "evidence": "No vendor, operating company, or published developer can be established from the evidence; the domain malibuai.xyz is expired, and third-party directories provide no legal entity, registered company, or developer documentation."
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Malibu",
+    "domain": "malibuai.xyz",
+    "description": "Design your first AI influencer in 3 clicks. Free trial, no card required. Malibu makes AI content creation fast and fun."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "unknown",
+  "vendor": "UNKNOWN",
+  "evidence": "No vendor, operating company, or published developer can be established from the evidence; the domain malibuai.xyz is expired, and third-party directories provide no legal entity, registered company, or developer documentation.",
+  "checked_at": "2026-11-05T06:03:12.275337+00:00"
+}

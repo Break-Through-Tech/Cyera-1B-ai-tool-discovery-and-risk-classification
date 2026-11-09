@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **WebPageTest** at **webpagetest.org** is **Catchpoint Systems, Inc.**\n\n### Supporting Evidence:\n* **About Page:** According to the official About page on webpagetest.org, *\"Catchpoint's 2020 acquisition of WebPageTest, created and open-sourced by Patrick Meenan in 2008, marked a significant milestone in our journey.\"*\n* **Copyright & Terms:** The site pages, Master Subscription Agreement, and legal terms designate Catchpoint Systems, Inc. as the operating provider: *\"© Catchpoint Systems, Inc. All Rights Reserved.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **WebPageTest** at **webpagetest.org** is **Catchpoint Systems, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPSonK-52Ww4CrTxQgTCk42iNIPpk8CI8NT8pZmZUX-B6STwDoIcnVqGG8RYWXsy8A-dgJQ9JlQraBSZjf1NmmpAqgtownqxrrQHCbDQW5TpttorUwFA==",
+          "title": "webpagetest.org"
+        },
+        {
+          "id": 1,
+          "text": "**About Page:** According to the official About page on webpagetest.org, *\"Catchpoint's 2020 acquisition of WebPageTest, created and open-sourced by Patrick Meenan in 2008, marked a significant milestone in our journey.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPSonK-52Ww4CrTxQgTCk42iNIPpk8CI8NT8pZmZUX-B6STwDoIcnVqGG8RYWXsy8A-dgJQ9JlQraBSZjf1NmmpAqgtownqxrrQHCbDQW5TpttorUwFA==",
+          "title": "webpagetest.org"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Catchpoint Systems, Inc.",
+        "evidence": "Passage 0 states that the vendor directly providing WebPageTest at webpagetest.org is Catchpoint Systems, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **WebPageTest** at **webpagetest.org** is **Catchpoint Systems, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPSonK-52Ww4CrTxQgTCk42iNIPpk8CI8NT8pZmZUX-B6STwDoIcnVqGG8RYWXsy8A-dgJQ9JlQraBSZjf1NmmpAqgtownqxrrQHCbDQW5TpttorUwFA==",
+          "title": "webpagetest.org"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "WebPageTest",
+    "domain": "webpagetest.org",
+    "description": "WebPageTest is an online tool that allows users to run free website speed tests from various locations worldwide. It utilizes real browsers and consumer connection speeds to assess website performance, providing detailed optimization recommendations to improve loading times and overall user experience."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Catchpoint Systems, Inc.",
+  "evidence": "Passage 0 states that the vendor directly providing WebPageTest at webpagetest.org is Catchpoint Systems, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **WebPageTest** at **webpagetest.org** is **Catchpoint Systems, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPSonK-52Ww4CrTxQgTCk42iNIPpk8CI8NT8pZmZUX-B6STwDoIcnVqGG8RYWXsy8A-dgJQ9JlQraBSZjf1NmmpAqgtownqxrrQHCbDQW5TpttorUwFA==",
+    "title": "webpagetest.org"
+  },
+  "checked_at": "2026-11-05T08:31:19.700063+00:00"
+}

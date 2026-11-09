@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product at **imagemagick.org** (concerning **ImageMagick** / **ImageMagick Studio**) is **ImageMagick Studio LLC**.\n\n### Evidence and Provider Statement\n* **Privacy Policy (`imagemagick.org/script/privacy-policy.php`):**  \n  > *\"As the organization responsible for maintaining and distributing the open‑source ImageMagick software, ImageMagick Studio LLC does not collect, store, or process any personally identifiable information (PII).\"*\n* **License / Terms (`imagemagick.org/script/license.php`):**  \n  > *\"Copyright © 1999 ImageMagick Studio LLC, a non-profit organization dedicated to making software imaging solutions freely available.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product at **imagemagick.org** (concerning **ImageMagick** / **ImageMagick Studio**) is **ImageMagick Studio LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXUY6zZMtFbIegmjuPxZNsYbSPH7rJqDVQm--x97YovVw79fy7mxo4i55dBkwaaIyeCwYl_zNJueKygLbUc1PLiV9B_ueGajk_Gq8nJNByp-LZzdksjA==",
+          "title": "imagemagick.org"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the software product at **imagemagick.org** (concerning **ImageMagick** / **ImageMagick Studio**) is **ImageMagick Studio LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJC-M8gtQPg6VF0pwceO8XjRcpXI56_hotfNGUBhdeUmRlL2XQomeDebRDMe38VRRZ5UH1zIbuKmyJT-1LcU-9fuWlgylMiHZQ9a0t6cce7lQY68IwIECBXs5ZCPc=",
+          "title": "imagemagick.org"
+        },
+        {
+          "id": 2,
+          "text": "*\"As the organization responsible for maintaining and distributing the open‑source ImageMagick software, ImageMagick Studio LLC does not collect, store, or process any personally identifiable information (PII).\"*\n*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJC-M8gtQPg6VF0pwceO8XjRcpXI56_hotfNGUBhdeUmRlL2XQomeDebRDMe38VRRZ5UH1zIbuKmyJT-1LcU-9fuWlgylMiHZQ9a0t6cce7lQY68IwIECBXs5ZCPc=",
+          "title": "imagemagick.org"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "ImageMagick Studio LLC",
+        "evidence": "ImageMagick Studio LLC is identified as the organization responsible for maintaining and distributing the open-source ImageMagick software.",
+        "source": {
+          "id": 2,
+          "text": "*\"As the organization responsible for maintaining and distributing the open‑source ImageMagick software, ImageMagick Studio LLC does not collect, store, or process any personally identifiable information (PII).\"*\n*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJC-M8gtQPg6VF0pwceO8XjRcpXI56_hotfNGUBhdeUmRlL2XQomeDebRDMe38VRRZ5UH1zIbuKmyJT-1LcU-9fuWlgylMiHZQ9a0t6cce7lQY68IwIECBXs5ZCPc=",
+          "title": "imagemagick.org"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "ImageMagick Studio",
+    "domain": "imagemagick.org",
+    "description": "ImageMagick Studio provides powerful tools for creating, editing, composing, and converting digital images. Its software enables users to resize, crop, and manipulate image colors and shades, as well as add captions, making it a versatile solution for photographers, designers, and developers looking to enhance image processing capabilities."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "ImageMagick Studio LLC",
+  "evidence": "ImageMagick Studio LLC is identified as the organization responsible for maintaining and distributing the open-source ImageMagick software.",
+  "source": {
+    "id": 2,
+    "text": "*\"As the organization responsible for maintaining and distributing the open‑source ImageMagick software, ImageMagick Studio LLC does not collect, store, or process any personally identifiable information (PII).\"*\n*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJC-M8gtQPg6VF0pwceO8XjRcpXI56_hotfNGUBhdeUmRlL2XQomeDebRDMe38VRRZ5UH1zIbuKmyJT-1LcU-9fuWlgylMiHZQ9a0t6cce7lQY68IwIECBXs5ZCPc=",
+    "title": "imagemagick.org"
+  },
+  "checked_at": "2026-11-05T08:49:06.625488+00:00"
+}

@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The operating vendor directly providing **CourtListener** at **courtlistener.com** is **Free Law Project**.\n\n### Evidence and Provider Statement\nAccording to the official *CourtListener.com Terms of Service and Policies* (hosted on the Free Law Project wiki linked directly from the site's Terms & Privacy pages):\n\n> *\"Free Law Project is the non-profit 501(c)(3) operator of CourtListener and other projects that fall under the CourtListener name, which we refer to below as the **Services**:*  \n> *- the website at **courtlistener.com**;*  \n> *- the **CourtListener REST API** and the webhooks it can send;*  \n> *- the **CourtListener MCP server** at **mcp.courtlistener.com**; and*  \n> *- the accounts, alerts, and membership features that support all of the above.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The operating vendor directly providing **CourtListener** at **courtlistener.com** is **Free Law Project**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE72NGh-E2IWDVa5DTxe1hV9vBtAql5SD_KqrY64zMboS9wQZ4Wh83obTSIELVf5Ici-jRNASaFrhWXfFbQB3meNrrz-FvGA86Dj_EQOby9xMxlTP8PtmKdRnN6l_1byrPT14RtMmaCOw==",
+          "title": "justicebench.org"
+        },
+        {
+          "id": 1,
+          "text": "The operating vendor directly providing **CourtListener** at **courtlistener.com** is **Free Law Project**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHaJIxsUk3wEyqX63pxS1XlG-2-V9yAVMhEWIJqEJJ1BjASHSQ_ixpKc8DhcQOdO-V-PPS6bCih06JORMwCMr5i4eZL38TU-1Ep-qJQMyw6wikY_o5zYLnngmA=",
+          "title": "courtlistener.com"
+        },
+        {
+          "id": 2,
+          "text": "*- the accounts, alerts, and membership features that support all of the above.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHaJIxsUk3wEyqX63pxS1XlG-2-V9yAVMhEWIJqEJJ1BjASHSQ_ixpKc8DhcQOdO-V-PPS6bCih06JORMwCMr5i4eZL38TU-1Ep-qJQMyw6wikY_o5zYLnngmA=",
+          "title": "courtlistener.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Free Law Project",
+        "evidence": "Passage 1 explicitly confirms that the operating vendor directly providing CourtListener at courtlistener.com is Free Law Project.",
+        "source": {
+          "id": 1,
+          "text": "The operating vendor directly providing **CourtListener** at **courtlistener.com** is **Free Law Project**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHaJIxsUk3wEyqX63pxS1XlG-2-V9yAVMhEWIJqEJJ1BjASHSQ_ixpKc8DhcQOdO-V-PPS6bCih06JORMwCMr5i4eZL38TU-1Ep-qJQMyw6wikY_o5zYLnngmA=",
+          "title": "courtlistener.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "CourtListener",
+    "domain": "courtlistener.com",
+    "description": "CourtListener is a legal research platform that provides users access to a collection of court opinions, PACER documents, judge information, and oral arguments. It is an initiative of Free Law Project, designed to help users stay updated automatically with the latest court documents and enhance legal research capabilities."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Free Law Project",
+  "evidence": "Passage 1 explicitly confirms that the operating vendor directly providing CourtListener at courtlistener.com is Free Law Project.",
+  "source": {
+    "id": 1,
+    "text": "The operating vendor directly providing **CourtListener** at **courtlistener.com** is **Free Law Project**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHaJIxsUk3wEyqX63pxS1XlG-2-V9yAVMhEWIJqEJJ1BjASHSQ_ixpKc8DhcQOdO-V-PPS6bCih06JORMwCMr5i4eZL38TU-1Ep-qJQMyw6wikY_o5zYLnngmA=",
+    "title": "courtlistener.com"
+  },
+  "checked_at": "2026-11-05T08:33:56.271252+00:00"
+}

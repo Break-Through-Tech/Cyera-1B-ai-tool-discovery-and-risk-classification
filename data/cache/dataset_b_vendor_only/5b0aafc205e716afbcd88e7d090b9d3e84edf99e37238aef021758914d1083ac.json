@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **SketchUp** at the domain **sketchup.com** is directly provided by **Trimble Inc.**.\n\n### Evidence\n* According to the **Software End User License Agreement (Trimble SketchUp)** hosted on the domain, the agreement *\"is between Trimble Inc., located at 935 Stewart Drive, Sunnyvale, CA 94085 USA, or the affiliate identified on the Order Form, and its affiliates ('Trimble') and the customer (individual or entity) that has downloaded or otherwise procured the licensed Software...\"*\n* Official website terms, privacy documentation, and footers throughout `sketchup.com` confirm the platform and software are owned and operated by **Trimble Inc.**.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **SketchUp** at the domain **sketchup.com** is directly provided by **Trimble Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0HYCHO1U1Z5SJOUQxlllS75XhLjdwJ_WdfMHN20MH44xcFaEfKHT7CnGdlQWzc3yo2BQJ5hCtN_z0NX0AKR-u-lUv_qMxdDPEN7WSzoXHv8_hliRmCrmsYKbligdvrbn5aNu9ItP5icMAfMGxuDMbFbdjMg4bW5MoKi5eupMXSRaYWBVOHCilQYrcvifBrMVoAfkOOcWiY_KcFiZLZvkvYClUnTfW37WpRbdBXIPqQsE=",
+          "title": "website-files.com"
+        },
+        {
+          "id": 1,
+          "text": "According to the **Software End User License Agreement (Trimble SketchUp)** hosted on the domain, the agreement *\"is between Trimble Inc., located at 935 Stewart Drive, Sunnyvale, CA 94085 USA, or the affiliate identified on the Order Form, and its affiliates ('Trimble') and the customer (individual or entity) that has downloaded or otherwise procured the licensed Software...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0HYCHO1U1Z5SJOUQxlllS75XhLjdwJ_WdfMHN20MH44xcFaEfKHT7CnGdlQWzc3yo2BQJ5hCtN_z0NX0AKR-u-lUv_qMxdDPEN7WSzoXHv8_hliRmCrmsYKbligdvrbn5aNu9ItP5icMAfMGxuDMbFbdjMg4bW5MoKi5eupMXSRaYWBVOHCilQYrcvifBrMVoAfkOOcWiY_KcFiZLZvkvYClUnTfW37WpRbdBXIPqQsE=",
+          "title": "website-files.com"
+        },
+        {
+          "id": 2,
+          "text": "Official website terms, privacy documentation, and footers throughout `sketchup.com` confirm the platform and software are owned and operated by **Trimble Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOcd3BsHc21gIQOc62PekNhNDO62TNXfmt82uYJXpWDz10OLPzJHAT19BuoV9N_1_2u9fIPf9F5E_B0y1IujVBcpMLuJRncv8tmE7uvszP24VFcq0rB0FtCGK9bgAaF6CyGJAfPd9kLE0=",
+          "title": "trimble.com"
+        },
+        {
+          "id": 3,
+          "text": "Official website terms, privacy documentation, and footers throughout `sketchup.com` confirm the platform and software are owned and operated by **Trimble Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlwy01L29tGqtlGq-ZTTS4cjXpoxxTU6QmcCOBt_t3QqAvOn3Vy5_LuCEtjjk9WLB5bbrOOx5mRoVCl1Rk5BJE0wwkRysdBm9ZkutxD8PuuvNX2pDo-2P0oAYKxdA1gtD4IS8FMmmqED0=",
+          "title": "sketchup.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Trimble Inc.",
+        "evidence": "Official website terms, privacy documentation, and footers throughout sketchup.com confirm the platform and software are owned and operated by Trimble Inc.",
+        "source": {
+          "id": 3,
+          "text": "Official website terms, privacy documentation, and footers throughout `sketchup.com` confirm the platform and software are owned and operated by **Trimble Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlwy01L29tGqtlGq-ZTTS4cjXpoxxTU6QmcCOBt_t3QqAvOn3Vy5_LuCEtjjk9WLB5bbrOOx5mRoVCl1Rk5BJE0wwkRysdBm9ZkutxD8PuuvNX2pDo-2P0oAYKxdA1gtD4IS8FMmmqED0=",
+          "title": "sketchup.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "SketchUp",
+    "domain": "sketchup.com",
+    "description": "SketchUp is a leading design software utilized by over 33 million users, primarily in architecture, interior design, and construction. With a focus on creativity and flexibility, SketchUp allows professionals to bring their design ideas to life through 3D modeling, parametrically configurable objects, and a suite of tools for documentation and virtual reality viewing. It supports an efficient workflow for creating intricate and energy-efficient buildings, catering to a diverse range of design projects."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Trimble Inc.",
+  "evidence": "Official website terms, privacy documentation, and footers throughout sketchup.com confirm the platform and software are owned and operated by Trimble Inc.",
+  "source": {
+    "id": 3,
+    "text": "Official website terms, privacy documentation, and footers throughout `sketchup.com` confirm the platform and software are owned and operated by **Trimble Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlwy01L29tGqtlGq-ZTTS4cjXpoxxTU6QmcCOBt_t3QqAvOn3Vy5_LuCEtjjk9WLB5bbrOOx5mRoVCl1Rk5BJE0wwkRysdBm9ZkutxD8PuuvNX2pDo-2P0oAYKxdA1gtD4IS8FMmmqED0=",
+    "title": "sketchup.com"
+  },
+  "checked_at": "2026-11-05T09:38:36.045722+00:00"
+}

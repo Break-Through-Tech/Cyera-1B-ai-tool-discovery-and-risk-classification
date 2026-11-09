@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Authy** at **authy.com** is **Twilio Inc.**.\n\n### Supporting Evidence:\n* **Product & Domain Concerned:** Authy / `authy.com`.\n* **Provider Statement (from the *Twilio Authy Application Terms*):**  \n  > *\"By using, installing, or accessing the Twilio Authy Application (“Authy App”), or clicking to accept the terms set forth in these Twilio Authy Application Terms (“Authy App Terms”), you agree to be bound by these Authy App Terms. For purposes of these Authy App Terms, Any references to 'you' or 'your' refer to you as the user of the Authy App, and any references to 'Twilio' refer to Twilio Inc. ... Twilio owns all right, title, and interest in and to the Authy App.\"*\n* Additionally, the website footer across `authy.com` states: *\"Copyright © Twilio Inc. All rights reserved.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Authy** at **authy.com** is **Twilio Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEK1jx3U1VJ2ZxWCvO1NVXPHipizh98vIvTWzDsc91w0uQb6c7I6qxKhKMb1Kl214kgKXVFfxyREJ1W9-1DcwMI0FwWf2Xa2hMg1WpY",
+          "title": "authy.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Authy** at **authy.com** is **Twilio Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMWoBVHawbC5Sw4BLbtDz-r8sT6IBUZW4pWVgkHHKt7IHonr11EsWDupa3r6Y19n3NHfY8dKlQrrE2qOWtOfgFemcMrrOD_9zGy7IKsl65vLgxIz24NSxOkQQMJNbjbOPUrLhHKa2dKg==",
+          "title": "twilio.com"
+        },
+        {
+          "id": 2,
+          "text": "**Product & Domain Concerned:** Authy / `authy.com`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEK1jx3U1VJ2ZxWCvO1NVXPHipizh98vIvTWzDsc91w0uQb6c7I6qxKhKMb1Kl214kgKXVFfxyREJ1W9-1DcwMI0FwWf2Xa2hMg1WpY",
+          "title": "authy.com"
+        },
+        {
+          "id": 3,
+          "text": "**Product & Domain Concerned:** Authy / `authy.com`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfmqtOQVSgiEp1MRWE2C7oda_dI3ZVWCYqCmrbjeyAKxlg61zEa6RGOJSYcw8AYnhDbJ_8djZT0q-haV3WhhOv4sro_yHHzdIhG4SCFIfV0H5A2WjPapbOWUEa_YqjxnoeMDJD74a8jgL-bIihK3xTx5Kl_9ppBGuMGOXzlFelnwgi",
+          "title": "apple.com"
+        },
+        {
+          "id": 4,
+          "text": "wns all right, title, and interest in and to the Authy App.\"*\n* Addit",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMWoBVHawbC5Sw4BLbtDz-r8sT6IBUZW4pWVgkHHKt7IHonr11EsWDupa3r6Y19n3NHfY8dKlQrrE2qOWtOfgFemcMrrOD_9zGy7IKsl65vLgxIz24NSxOkQQMJNbjbOPUrLhHKa2dKg==",
+          "title": "twilio.com"
+        },
+        {
+          "id": 5,
+          "text": "By using, installing, or accessing the Twilio Authy Application (“Authy App”), or clicking to accept the terms set forth in these Twilio Authy Application Terms (“Authy App Terms”), you agree to be bound by these Authy App Terms. For purposes of these Authy App Terms, Any references to 'you' or 'your' refer to you as the user of the Authy App, and any references to 'Twilio' refer to Twilio Inc",
+          "url": "https://www.twilio.com/en-us/legal/authy-app-terms",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Twilio Inc.",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing Authy at authy.com is Twilio Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Authy** at **authy.com** is **Twilio Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEK1jx3U1VJ2ZxWCvO1NVXPHipizh98vIvTWzDsc91w0uQb6c7I6qxKhKMb1Kl214kgKXVFfxyREJ1W9-1DcwMI0FwWf2Xa2hMg1WpY",
+          "title": "authy.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Authy",
+    "domain": "authy.com",
+    "description": "Authy, a Twilio company, specializes in two-factor authentication (2FA) solutions, offering robust protection against malicious attacks for both individuals and enterprises. The platform enables businesses to enhance security while providing a user-friendly experience. With over 11,000 websites utilizing its services and 2 million users globally, Authy's 2FA solution is designed for quick implementation and scalability, boasting a reliability rate of 99.999%. Notable clients include Coinbase, CloudFlare, Humble Bundle, and Twitch.tv."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Twilio Inc.",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing Authy at authy.com is Twilio Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Authy** at **authy.com** is **Twilio Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEK1jx3U1VJ2ZxWCvO1NVXPHipizh98vIvTWzDsc91w0uQb6c7I6qxKhKMb1Kl214kgKXVFfxyREJ1W9-1DcwMI0FwWf2Xa2hMg1WpY",
+    "title": "authy.com"
+  },
+  "checked_at": "2026-11-05T08:07:18.993144+00:00"
+}

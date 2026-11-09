@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Chat Thing** at **chatthing.ai** is **Chat Thing Ltd** (registered as **CHAT THING LTD** in England and Wales).\n\n### Evidence:\n* **Privacy Policy (`chatthing.ai/legal/privacy`)**:  \n  > *\"Who we are and other important information. We are CHAT THING LTD, registered in England and Wales with company number 14789358 with our registered address at 61 Church Street, St Columb Minor, TR7 3ES (we, us or our).\"*\n\n* **Security & Data Documentation (`chatthing.ai`)**:  \n  > *\"Who runs Chat Thing? Chat Thing Ltd, a company registered in England and Wales and registered with the UK Information Commissioner's Office (ICO).\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Chat Thing** at **chatthing.ai** is **Chat Thing Ltd**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKOU7ENEKSnvXlpdLfdwCJPW5SMSd8uhVySdOIu1evArivc2n9VFvF-8WV8kkjwiWbrzWScygnQINdeibqep4Cj7fOqAPhaVcSEYpv4IADzIh7QXIyduGvQARcSP6ksJh3nqvE7kll6So=",
+          "title": "chatthing.ai"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Chat Thing** at **chatthing.ai** is **Chat Thing Ltd** (registered as **CHAT THING LTD** in England and Wales)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXhPDxdOhSxq8LLvyCJZ_Xd8mjHwBE_KsWNdnlcIb8ClBtFcArTE_f_s2EWUisu29n-Rlfn4ZrfNjexWOHiQB11VzGhjrYgu9arSvy1pblNVDIpz4ADq3U",
+          "title": "chatthing.ai"
+        },
+        {
+          "id": 2,
+          "text": "We are CHAT THING LTD, registered in England and Wales with company number 14789358 with our registered address at 61 Church Street, St Columb Minor, TR7 3ES (we, us or our).\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXhPDxdOhSxq8LLvyCJZ_Xd8mjHwBE_KsWNdnlcIb8ClBtFcArTE_f_s2EWUisu29n-Rlfn4ZrfNjexWOHiQB11VzGhjrYgu9arSvy1pblNVDIpz4ADq3U",
+          "title": "chatthing.ai"
+        },
+        {
+          "id": 3,
+          "text": "Chat Thing Ltd, a company registered in England and Wales and registered with the UK Information Commissioner's Office (ICO).\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKOU7ENEKSnvXlpdLfdwCJPW5SMSd8uhVySdOIu1evArivc2n9VFvF-8WV8kkjwiWbrzWScygnQINdeibqep4Cj7fOqAPhaVcSEYpv4IADzIh7QXIyduGvQARcSP6ksJh3nqvE7kll6So=",
+          "title": "chatthing.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Chat Thing Ltd",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing Chat Thing at chatthing.ai is Chat Thing Ltd.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Chat Thing** at **chatthing.ai** is **Chat Thing Ltd**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKOU7ENEKSnvXlpdLfdwCJPW5SMSd8uhVySdOIu1evArivc2n9VFvF-8WV8kkjwiWbrzWScygnQINdeibqep4Cj7fOqAPhaVcSEYpv4IADzIh7QXIyduGvQARcSP6ksJh3nqvE7kll6So=",
+          "title": "chatthing.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Chat Thing",
+    "domain": "chatthing.ai",
+    "description": "Make chatbots from data sources with ease."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Chat Thing Ltd",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing Chat Thing at chatthing.ai is Chat Thing Ltd.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Chat Thing** at **chatthing.ai** is **Chat Thing Ltd**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKOU7ENEKSnvXlpdLfdwCJPW5SMSd8uhVySdOIu1evArivc2n9VFvF-8WV8kkjwiWbrzWScygnQINdeibqep4Cj7fOqAPhaVcSEYpv4IADzIh7QXIyduGvQARcSP6ksJh3nqvE7kll6So=",
+    "title": "chatthing.ai"
+  },
+  "checked_at": "2026-11-05T05:58:45.710249+00:00"
+}

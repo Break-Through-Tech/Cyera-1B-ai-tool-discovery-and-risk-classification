@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **Mendeley** at **mendeley.com** is directly provided by **Mendeley Limited** (an Elsevier company).\n\n### Evidence\nAccording to the official *Mendeley Terms of Use* governing `mendeley.com`, its subdomains, desktop software, and related services:\n> *\"By using the Mendeley website at https://www.mendeley.com and its subdomains (the \"Site\"), and Mendeley desktop software (the \"Software\") or other products and services... The Services are provided by Mendeley Limited (“we”, “us” and “our”).\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **Mendeley** at **mendeley.com** is directly provided by **Mendeley Limited** (an Elsevier company)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUU2-WnglV-ptGXL3GmrMVx29DtQ3nnZKChoSNgwh36TIp0tp-eyUK7DlpYFhz4cXnueeor5l0aVoo8hR8HRVGIZOSeTN2WQ3_RqrORUTdd7SEiRs=",
+          "title": "mendeley.com"
+        },
+        {
+          "id": 1,
+          "text": "The software product **Mendeley** at **mendeley.com** is directly provided by **Mendeley Limited** (an Elsevier company)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhDdbKsIIZnVWkbgCWj1Rbt0eWhB05izBMjc7WZLdAS3VEa8sKlJYNymi28X_3JMhS4A-5c50Dd1Gj_sVKYu_Fz6AfNBymn7MgWKaXAlW6bMS1gYr6lvanhAqNoH4=",
+          "title": "mendeley.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Mendeley Limited",
+        "evidence": "Passage 0 states that the software product Mendeley at mendeley.com is directly provided by Mendeley Limited (an Elsevier company).",
+        "source": {
+          "id": 0,
+          "text": "The software product **Mendeley** at **mendeley.com** is directly provided by **Mendeley Limited** (an Elsevier company)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUU2-WnglV-ptGXL3GmrMVx29DtQ3nnZKChoSNgwh36TIp0tp-eyUK7DlpYFhz4cXnueeor5l0aVoo8hR8HRVGIZOSeTN2WQ3_RqrORUTdd7SEiRs=",
+          "title": "mendeley.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Mendeley",
+    "domain": "mendeley.com",
+    "description": "Mendeley is a global research collaboration platform that enhances academic workflows and accelerates scientific discovery. The company aims to impact areas such as disease cure and technology development through innovative solutions that support researchers and academics. With backing from a resourceful organization, Mendeley continues to grow and revolutionize the academic research landscape, making it easier for users to connect, collaborate, and share insights."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Mendeley Limited",
+  "evidence": "Passage 0 states that the software product Mendeley at mendeley.com is directly provided by Mendeley Limited (an Elsevier company).",
+  "source": {
+    "id": 0,
+    "text": "The software product **Mendeley** at **mendeley.com** is directly provided by **Mendeley Limited** (an Elsevier company)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUU2-WnglV-ptGXL3GmrMVx29DtQ3nnZKChoSNgwh36TIp0tp-eyUK7DlpYFhz4cXnueeor5l0aVoo8hR8HRVGIZOSeTN2WQ3_RqrORUTdd7SEiRs=",
+    "title": "mendeley.com"
+  },
+  "checked_at": "2026-11-05T10:03:08.524028+00:00"
+}

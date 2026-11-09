@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **Leaflet** provided at **leafletjs.com** is an open-source library created and provided by developer **Volodymyr Agafonkin** (along with an open-source community of contributors). \n\n* **Evidence / Provider Statement:** On the official website ([leafletjs.com](https://leafletjs.com/)), the homepage notes: *\"Leaflet was originally created by Volodymyr Agafonkin, but is now developed by a big community of contributors\"*, and the site and software license display the copyright notice: *\"© 2010–2026 Volodymyr Agafonkin\"*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **Leaflet** provided at **leafletjs.com** is an open-source library created and provided by developer **Volodymyr Agafonkin** (along with an open-source community of contributors)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeeLvU103Ouaq8lWY0HB2cc_aeNrb0DlfWKRAkSuZnaxuJLn7nd8JYoyrErdTqyWPXm3Qru_dNizK0PBwmJ71gPq8-Oz_KVerQdhWLHM6f9LO29kOxQiBmGE1Z0eVsExEaWJpY7hbDjDyrL3dCPtS0JOS6jOBxvt0=",
+          "title": "leafletjs.com"
+        },
+        {
+          "id": 1,
+          "text": "The software product **Leaflet** provided at **leafletjs.com** is an open-source library created and provided by developer **Volodymyr Agafonkin** (along with an open-source community of contributors)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0MXG66zkkK8GBx191pCNozxNXar6VnwkKoF6trICtqXCy5kvsnR-8oELNXdndQxQ8zBcBBhM9pTWeM20We7uLBtqfMSNx-4EJOdLF",
+          "title": "leafletjs.com"
+        },
+        {
+          "id": 2,
+          "text": "**Evidence / Provider Statement:** On the official website ([leafletjs.com](https://leafletjs.com/)), the homepage notes: *\"Leaflet was originally created by Volodymyr Agafonkin, but is now developed by a big community of contributors\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0MXG66zkkK8GBx191pCNozxNXar6VnwkKoF6trICtqXCy5kvsnR-8oELNXdndQxQ8zBcBBhM9pTWeM20We7uLBtqfMSNx-4EJOdLF",
+          "title": "leafletjs.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Volodymyr Agafonkin",
+        "evidence": "Passage 0 states that the software product Leaflet at leafletjs.com is an open-source library created and provided by developer Volodymyr Agafonkin.",
+        "source": {
+          "id": 0,
+          "text": "The software product **Leaflet** provided at **leafletjs.com** is an open-source library created and provided by developer **Volodymyr Agafonkin** (along with an open-source community of contributors)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeeLvU103Ouaq8lWY0HB2cc_aeNrb0DlfWKRAkSuZnaxuJLn7nd8JYoyrErdTqyWPXm3Qru_dNizK0PBwmJ71gPq8-Oz_KVerQdhWLHM6f9LO29kOxQiBmGE1Z0eVsExEaWJpY7hbDjDyrL3dCPtS0JOS6jOBxvt0=",
+          "title": "leafletjs.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Leaflet",
+    "domain": "leafletjs.com",
+    "description": "Leaflet is a modern, lightweight open-source JavaScript library designed for creating mobile-friendly interactive maps. It offers various mapping features that cater to developers looking to enhance their web applications with geospatial data and dynamic visualizations."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Volodymyr Agafonkin",
+  "evidence": "Passage 0 states that the software product Leaflet at leafletjs.com is an open-source library created and provided by developer Volodymyr Agafonkin.",
+  "source": {
+    "id": 0,
+    "text": "The software product **Leaflet** provided at **leafletjs.com** is an open-source library created and provided by developer **Volodymyr Agafonkin** (along with an open-source community of contributors)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeeLvU103Ouaq8lWY0HB2cc_aeNrb0DlfWKRAkSuZnaxuJLn7nd8JYoyrErdTqyWPXm3Qru_dNizK0PBwmJ71gPq8-Oz_KVerQdhWLHM6f9LO29kOxQiBmGE1Z0eVsExEaWJpY7hbDjDyrL3dCPtS0JOS6jOBxvt0=",
+    "title": "leafletjs.com"
+  },
+  "checked_at": "2026-11-05T09:37:39.262284+00:00"
+}

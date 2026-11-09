@@ -1,0 +1,85 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on public records, interviews, and developer profiles:\n\n* **Exact Product and Domain:** Knobi ([knobi.io](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGal91tfWayAcoJVSZnkRIYkiOT3J7NJVDGUMPOHWwW9Hx5ehFkAww_k-lBmwvnC-R-4gWseDQtFH5JqThZ9AimFGhvXDlqPJFsfg==))\n* **Vendor / Operating Entity & Developer:** **Knobi LLC**, founded and operated by software engineer and developer **Cody Crumrine**. The product is also directly provided and branded as **Knobi**.\n\n### Supporting Evidence & Citations:\n* Cody Crumrine is identified as the founder and CEO behind the software at `knobi.io`: *\"Cody Crumrine, founder of Knobi.io\"* (AI Rebels / HIPTHER Talks) and as *\"software engineer by trade... founder of Knobi LLC\"*.\n* Knobi's website directly provides the platform under the Knobi brand: *\"Knobi offers 3 tools that make it easier... The Knobi Knowledge Bot gives users a chat-based way to find community wisdom\"* ([knobi.io](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGal91tfWayAcoJVSZnkRIYkiOT3J7NJVDGUMPOHWwW9Hx5ehFkAww_k-lBmwvnC-R-4gWseDQtFH5JqThZ9AimFGhvXDlqPJFsfg==)).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**Exact Product and Domain:** Knobi ([knobi.io](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGal91tfWayAcoJVSZnkRIYkiOT3J7NJVDGUMPOHWwW9Hx5ehFkAww_k-lBmwvnC-R-4gWseDQtFH5JqThZ9AimFGhvXDlqPJFsfg==))",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGal91tfWayAcoJVSZnkRIYkiOT3J7NJVDGUMPOHWwW9Hx5ehFkAww_k-lBmwvnC-R-4gWseDQtFH5JqThZ9AimFGhvXDlqPJFsfg==",
+          "title": "knobi.io"
+        },
+        {
+          "id": 1,
+          "text": "**Vendor / Operating Entity & Developer:** **Knobi LLC**, founded and operated by software engineer and developer **Cody Crumrine**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZMvNGOxn6pkxLFXW84tx2xuchXArnJeuNlOOsSpUcK1lI2AF3OJitk2UH0-BEihAZ_VeqjLTyuVQbw9YoMxZ81_PKctQHn1i73Awy1TXE_JBCcCwLdu53iqa7jbzHzkp9ZQ==",
+          "title": "efca.org"
+        },
+        {
+          "id": 2,
+          "text": "The product is also directly provided and branded as **Knobi**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEDaVYm6-sKJqFe-LNd9kdFABRC8pIHOS6GqYbHGUy5rB60XaghU6AVEd_ubS2yoHUzSYrKx8_KG1YCShbaUXQujITqULcUHcwQfSddtJhMi8=",
+          "title": "knobi.io"
+        },
+        {
+          "id": 3,
+          "text": "The product is also directly provided and branded as **Knobi**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzIfVEIumGXjPrYJMLuhWaF3HDcCKbQ3adiPIqwlWk4Tzx1CS3A-covKa7LvINQsTQizzsFNIQPTMITCnXLkOof1xO6aFNS8yFBuI8SffO1qr3mqN-ShyMtdg=",
+          "title": "mindber.com"
+        },
+        {
+          "id": 4,
+          "text": "Cody Crumrine is identified as the founder and CEO behind the software at `knobi.io`: *\"Cody Crumrine, founder of Knobi.io\"* (AI Rebels / HIPTHER Talks)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZTH3gdGZ192KJPVTU880c-4Ev2U4FjxMSeYf5HTG8clk66DF4pK_b3ea0QFQ0R2UvIXCHWBdB_S5nh4SqKq5JNK_WSz6XHXlLg_AuVGo5yOmfujuDwZYntbbLqZN-73N8xI7n_JXVb5JXtxuAdRH6Zh-sL67VVKMTv535OKJs_A==",
+          "title": "spotify.com"
+        },
+        {
+          "id": 5,
+          "text": "Cody Crumrine is identified as the founder and CEO behind the software at `knobi.io`: *\"Cody Crumrine, founder of Knobi.io\"* (AI Rebels / HIPTHER Talks)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHP9uF8YztpQsZfve5TgQGHwAPp6sE3cjm85yUS-DwZtfXwW3Dn1j6V3UsOpFOQZmfrQdUwh_5MqNuqT5kk1hflL_rFFW53v0mktaWa_N4k9CYJ0CDQn88a0N7RTHR3Xhjq",
+          "title": "youtube.com"
+        },
+        {
+          "id": 6,
+          "text": "Cody Crumrine is identified as the founder and CEO behind the software at `knobi.io`: *\"Cody Crumrine, founder of Knobi.io\"* (AI Rebels / HIPTHER Talks) and as *\"software engineer by trade... founder of Knobi LLC\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZMvNGOxn6pkxLFXW84tx2xuchXArnJeuNlOOsSpUcK1lI2AF3OJitk2UH0-BEihAZ_VeqjLTyuVQbw9YoMxZ81_PKctQHn1i73Awy1TXE_JBCcCwLdu53iqa7jbzHzkp9ZQ==",
+          "title": "efca.org"
+        },
+        {
+          "id": 7,
+          "text": "The Knobi Knowledge Bot gives users a chat-based way to find community wisdom\"* ([knobi.io](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGal91tfWayAcoJVSZnkRIYkiOT3J7NJVDGUMPOHWwW9Hx5ehFkAww_k-lBmwvnC-R-4gWseDQtFH5JqThZ9AimFGhvXDlqPJFsfg==))",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGal91tfWayAcoJVSZnkRIYkiOT3J7NJVDGUMPOHWwW9Hx5ehFkAww_k-lBmwvnC-R-4gWseDQtFH5JqThZ9AimFGhvXDlqPJFsfg==",
+          "title": "knobi.io"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Knobi LLC",
+        "evidence": "Passage 1 specifies Knobi LLC as the vendor, operating entity, and developer founded and operated by Cody Crumrine.",
+        "source": {
+          "id": 1,
+          "text": "**Vendor / Operating Entity & Developer:** **Knobi LLC**, founded and operated by software engineer and developer **Cody Crumrine**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZMvNGOxn6pkxLFXW84tx2xuchXArnJeuNlOOsSpUcK1lI2AF3OJitk2UH0-BEihAZ_VeqjLTyuVQbw9YoMxZ81_PKctQHn1i73Awy1TXE_JBCcCwLdu53iqa7jbzHzkp9ZQ==",
+          "title": "efca.org"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Knobi",
+    "domain": "knobi.io",
+    "description": "Knobi is an AI-powered knowledge base that centralizes information from various sources like documents, notes, and web pages. It enables users to ask questions and receive instant, accurate answers, streamlining knowledge retrieval for individuals and teams."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Knobi LLC",
+  "evidence": "Passage 1 specifies Knobi LLC as the vendor, operating entity, and developer founded and operated by Cody Crumrine.",
+  "source": {
+    "id": 1,
+    "text": "**Vendor / Operating Entity & Developer:** **Knobi LLC**, founded and operated by software engineer and developer **Cody Crumrine**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZMvNGOxn6pkxLFXW84tx2xuchXArnJeuNlOOsSpUcK1lI2AF3OJitk2UH0-BEihAZ_VeqjLTyuVQbw9YoMxZ81_PKctQHn1i73Awy1TXE_JBCcCwLdu53iqa7jbzHzkp9ZQ==",
+    "title": "efca.org"
+  },
+  "checked_at": "2026-11-05T05:49:18.613511+00:00"
+}

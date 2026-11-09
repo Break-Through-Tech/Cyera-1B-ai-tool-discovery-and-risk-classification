@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product **New Relic** at **newrelic.com** is **New Relic, Inc.**\n\n### Evidence & Provider Statements\nAccording to the official **Terms of Service** and legal agreements on `newrelic.com`:\n* **Terms of Service:** The agreement specifies that the contract is entered into with *\"New Relic, Inc. ('New Relic,' 'we,' 'our,' or 'us,' and collectively with Customer, 'Parties')\"* for the provision and paid/unpaid use of the Service.\n* **Data Processing Addendum:** Identifies the provider of the services as *\"New Relic, Inc. a Delaware corporation with offices located at 188 Spear Street, Suite 1000, San Francisco, CA 94105 ('New Relic')\"*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product **New Relic** at **newrelic.com** is **New Relic, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGs3MHYLYr_iXvotpTIzJXyuJdXMPFckM1kSRqJsys1sJbK_RMfx-gbGRNpxVV5vmo56p5JsLdvtC64lI4JqWvzK0gRTVfMN4LGaFxNkcV44WrCaRW9JUvmxE7LvnUObQ5_B5yhmtbahrgM-g==",
+          "title": "newrelic.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the software product **New Relic** at **newrelic.com** is **New Relic, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFX_zCa8BuYCONA8bqd5uf3PN2maUvm8oSK-bZZGhqUUVFydJISPuwBhSiga9--tNbIti0BCuYbNzWc9voMvMPTF_vbEukE_Z1Z3kttgNr2ZICjTFgOv-dMZlF5nciVBUlC_a99YwVd1loF",
+          "title": "newrelic.com"
+        },
+        {
+          "id": 2,
+          "text": "**Terms of Service:** The agreement specifies that the contract is entered into with *\"New Relic, Inc. ('New Relic,' 'we,' 'our,' or 'us,' and collectively with Customer, 'Parties')\"* for the provision and paid/unpaid use of the Service",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5AhnjARsh8FN8tsYB7c3NsdpvATkQPd3WplT4Es5MfJhXgLq5MHD_V15SNSZoyLIwLp-SR8_90p7Q_oNgZSFX3u4eiYaMEc5qn2YVWfR2qTPStdXLw1F678lUoXAiUDuwHawjgnRhghUGRtRF",
+          "title": "newrelic.com"
+        },
+        {
+          "id": 3,
+          "text": "**Terms of Service:** The agreement specifies that the contract is entered into with *\"New Relic, Inc. ('New Relic,' 'we,' 'our,' or 'us,' and collectively with Customer, 'Parties')\"* for the provision and paid/unpaid use of the Service",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFX_zCa8BuYCONA8bqd5uf3PN2maUvm8oSK-bZZGhqUUVFydJISPuwBhSiga9--tNbIti0BCuYbNzWc9voMvMPTF_vbEukE_Z1Z3kttgNr2ZICjTFgOv-dMZlF5nciVBUlC_a99YwVd1loF",
+          "title": "newrelic.com"
+        },
+        {
+          "id": 4,
+          "text": "**Data Processing Addendum:** Identifies the provider of the services as *\"New Relic, Inc. a Delaware corporation with offices located at 188 Spear Street, Suite 1000, San Francisco, CA 94105 ('New Relic')\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGs3MHYLYr_iXvotpTIzJXyuJdXMPFckM1kSRqJsys1sJbK_RMfx-gbGRNpxVV5vmo56p5JsLdvtC64lI4JqWvzK0gRTVfMN4LGaFxNkcV44WrCaRW9JUvmxE7LvnUObQ5_B5yhmtbahrgM-g==",
+          "title": "newrelic.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "New Relic, Inc.",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing the software product New Relic at newrelic.com is New Relic, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the software product **New Relic** at **newrelic.com** is **New Relic, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGs3MHYLYr_iXvotpTIzJXyuJdXMPFckM1kSRqJsys1sJbK_RMfx-gbGRNpxVV5vmo56p5JsLdvtC64lI4JqWvzK0gRTVfMN4LGaFxNkcV44WrCaRW9JUvmxE7LvnUObQ5_B5yhmtbahrgM-g==",
+          "title": "newrelic.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "New Relic",
+    "domain": "newrelic.com",
+    "description": "New Relic is a leading provider of observability and application performance monitoring (APM) solutions, helping businesses worldwide optimize their digital experiences and ensure system reliability. Their advanced platform is utilized by various notable organizations such as adidas Runtastic, American Red Cross, and Domino's, enabling them to enhance customer engagement and drive innovation in their operations."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "New Relic, Inc.",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing the software product New Relic at newrelic.com is New Relic, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the software product **New Relic** at **newrelic.com** is **New Relic, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGs3MHYLYr_iXvotpTIzJXyuJdXMPFckM1kSRqJsys1sJbK_RMfx-gbGRNpxVV5vmo56p5JsLdvtC64lI4JqWvzK0gRTVfMN4LGaFxNkcV44WrCaRW9JUvmxE7LvnUObQ5_B5yhmtbahrgM-g==",
+    "title": "newrelic.com"
+  },
+  "checked_at": "2026-11-05T09:01:35.866978+00:00"
+}

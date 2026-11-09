@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on the official Imprint and Privacy Policy pages on **gnupg.org**, the operating legal entity behind GnuPG at this domain is **g10 Code GmbH** (also stylized as **g10code GmbH**).\n\n### Evidence & Citation\nThe official Imprint page on **gnupg.org** states:\n> *\"GnuPG is an international community project run by volunteers and not a legal entity. **g10code GmbH** is the privately owned legal entity behind the GnuPG project. They employ all paid developers and re-invest the majority their profits into the development of GnuPG and related free software. [...] g10 Code GmbH. Bergstr. 3a. D-40699 Erkrath Germany.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "Based on the official Imprint and Privacy Policy pages on **gnupg.org**, the operating legal entity behind GnuPG at this domain is **g10 Code GmbH** (also stylized as **g10code GmbH**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvSieDlGR05cReoxIm_VbsLel8d_3NWPB8Xfb5a9OStNdmoFnBka_kGtxDRd_y1fJndOmLLk3V40ON18XFQTsT3D-HH8gliDdTv1mpoOXNZrFxeWtnwYs8fbe_JoRpqw==",
+          "title": "gnupg.org"
+        },
+        {
+          "id": 1,
+          "text": "Based on the official Imprint and Privacy Policy pages on **gnupg.org**, the operating legal entity behind GnuPG at this domain is **g10 Code GmbH** (also stylized as **g10code GmbH**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbfSeJVkH_TnGyQJFfevqkbV08Xh-u6afLPG1tK8omEOfVKa1EO5J9cu_77V3YDcnTmOrpV4RdLwX7meT1Nd9k38gx-ZvLbjieBQ6geP9cefui-H-4YWl0",
+          "title": "gnupg.org"
+        },
+        {
+          "id": 2,
+          "text": "The official Imprint page on **gnupg.org** states",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbfSeJVkH_TnGyQJFfevqkbV08Xh-u6afLPG1tK8omEOfVKa1EO5J9cu_77V3YDcnTmOrpV4RdLwX7meT1Nd9k38gx-ZvLbjieBQ6geP9cefui-H-4YWl0",
+          "title": "gnupg.org"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "g10 Code GmbH",
+        "evidence": "According to the official Imprint and Privacy Policy pages on gnupg.org, the operating legal entity behind GnuPG at this domain is g10 Code GmbH.",
+        "source": {
+          "id": 0,
+          "text": "Based on the official Imprint and Privacy Policy pages on **gnupg.org**, the operating legal entity behind GnuPG at this domain is **g10 Code GmbH** (also stylized as **g10code GmbH**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvSieDlGR05cReoxIm_VbsLel8d_3NWPB8Xfb5a9OStNdmoFnBka_kGtxDRd_y1fJndOmLLk3V40ON18XFQTsT3D-HH8gliDdTv1mpoOXNZrFxeWtnwYs8fbe_JoRpqw==",
+          "title": "gnupg.org"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Gpg Communications",
+    "domain": "gnupg.org",
+    "description": "GPG Communications develops GnuPG, a robust tool for encrypting and signing data and communications. The software features a versatile key management system and offers access modules for various public key directories, ensuring a secure environment for users’ digital interactions."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "g10 Code GmbH",
+  "evidence": "According to the official Imprint and Privacy Policy pages on gnupg.org, the operating legal entity behind GnuPG at this domain is g10 Code GmbH.",
+  "source": {
+    "id": 0,
+    "text": "Based on the official Imprint and Privacy Policy pages on **gnupg.org**, the operating legal entity behind GnuPG at this domain is **g10 Code GmbH** (also stylized as **g10code GmbH**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvSieDlGR05cReoxIm_VbsLel8d_3NWPB8Xfb5a9OStNdmoFnBka_kGtxDRd_y1fJndOmLLk3V40ON18XFQTsT3D-HH8gliDdTv1mpoOXNZrFxeWtnwYs8fbe_JoRpqw==",
+    "title": "gnupg.org"
+  },
+  "checked_at": "2026-11-05T09:07:00.542088+00:00"
+}

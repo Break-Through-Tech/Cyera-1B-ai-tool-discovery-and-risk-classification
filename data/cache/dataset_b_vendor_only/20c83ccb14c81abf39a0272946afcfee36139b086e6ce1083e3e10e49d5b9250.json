@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **TunnelBear** software product at **tunnelbear.com** is **TunnelBear LLC**.\n\n### Evidence\n* **Terms of Service** (`tunnelbear.com/terms`):\n  > *\"This is where we break down what you're allowed, and not allowed to do with the apps and websites created by TunnelBear LLC... By downloading, installing and using TunnelBear products and services ('the Services') you agree and acknowledge that you have read and accept this Agreement in its entirety, and agree to be bound by its terms... TunnelBear LLC. ('TunnelBear') reserves the right, at its sole discretion, to modify or replace the terms of this Agreement at any time.\"*\n* **Privacy Policy** (`tunnelbear.com/privacy-policy`):\n  > *\"This Privacy Policy describes how TunnelBear LLC. ('TunnelBear') handles your Personal Data when you use our services ('Services').\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **TunnelBear** software product at **tunnelbear.com** is **TunnelBear LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOexapjvbWjKMBqtehQ6RvkdFPQTHkDTgc0A3FJcS2rfA-pi1aBQWPkiLPra9Ka9zcIPOD-fM3fJ_mpMt2aOmkEnf4ZoFVCBaBk9iscgOgYP6JZE9CFVQAxSdfhAIOQQ==",
+          "title": "tunnelbear.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the **TunnelBear** software product at **tunnelbear.com** is **TunnelBear LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9O71lnAZGEk4dUcp__I2Qog7NH7lu_YN-4LuFUvzpYPI7ka14RxWQ7CInrPZhroJfMCgxocPxMLbbowHonPgGdHUhdvSwCfSAM94woaNJRhDHwg7u9ZHzIYnY_fBSn3in",
+          "title": "tunnelbear.com"
+        },
+        {
+          "id": 2,
+          "text": "('TunnelBear') reserves the right, at its sole discretion, to modify or replace the terms of this Agreement at any time.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9O71lnAZGEk4dUcp__I2Qog7NH7lu_YN-4LuFUvzpYPI7ka14RxWQ7CInrPZhroJfMCgxocPxMLbbowHonPgGdHUhdvSwCfSAM94woaNJRhDHwg7u9ZHzIYnY_fBSn3in",
+          "title": "tunnelbear.com"
+        },
+        {
+          "id": 3,
+          "text": "('TunnelBear') handles your Personal Data when you use our services ('Services').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOexapjvbWjKMBqtehQ6RvkdFPQTHkDTgc0A3FJcS2rfA-pi1aBQWPkiLPra9Ka9zcIPOD-fM3fJ_mpMt2aOmkEnf4ZoFVCBaBk9iscgOgYP6JZE9CFVQAxSdfhAIOQQ==",
+          "title": "tunnelbear.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "TunnelBear LLC",
+        "evidence": "Passage 0 explicitly identifies that the vendor directly providing the TunnelBear software product at tunnelbear.com is TunnelBear LLC.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the **TunnelBear** software product at **tunnelbear.com** is **TunnelBear LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOexapjvbWjKMBqtehQ6RvkdFPQTHkDTgc0A3FJcS2rfA-pi1aBQWPkiLPra9Ka9zcIPOD-fM3fJ_mpMt2aOmkEnf4ZoFVCBaBk9iscgOgYP6JZE9CFVQAxSdfhAIOQQ==",
+          "title": "tunnelbear.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "TunnelBear",
+    "domain": "tunnelbear.com",
+    "description": "TunnelBear is a Toronto-based company founded in 2011 that aims to provide internet privacy and security for users worldwide. The company offers simple and effective VPN applications for PC, Mac, iOS, and Android, enabling users to browse the internet privately and access content without restrictions. TunnelBear has been recognized by major publications such as TechCrunch and Lifehacker for its user-friendly design and commitment to online privacy."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "TunnelBear LLC",
+  "evidence": "Passage 0 explicitly identifies that the vendor directly providing the TunnelBear software product at tunnelbear.com is TunnelBear LLC.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the **TunnelBear** software product at **tunnelbear.com** is **TunnelBear LLC**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOexapjvbWjKMBqtehQ6RvkdFPQTHkDTgc0A3FJcS2rfA-pi1aBQWPkiLPra9Ka9zcIPOD-fM3fJ_mpMt2aOmkEnf4ZoFVCBaBk9iscgOgYP6JZE9CFVQAxSdfhAIOQQ==",
+    "title": "tunnelbear.com"
+  },
+  "checked_at": "2026-11-05T08:31:33.274342+00:00"
+}

@@ -1,0 +1,43 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **SpeedCurve** software product at **speedcurve.com** is **Embrace Mobile, Inc.** (also operating under the brand **Embrace**).\n\n### Supporting Evidence\nAccording to the **SpeedCurve Terms of Service and Privacy Policy** (at `speedcurve.com`):\n> *\"This is a legally binding contract between you and Embrace Mobile, Inc. (aka “Embrace”.) All references to SpeedCurve are as a product wholly owned and operated by Embrace... When we say 'site,' we mean speedcurve.com and the services offered through that site. When we say 'we,' 'us,' or 'our,' we mean Embrace Mobile, Inc.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **SpeedCurve** software product at **speedcurve.com** is **Embrace Mobile, Inc.** (also operating under the brand **Embrace**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgjrLMLXmWa0kXoeih2mfrVhXsPMa255K2JAB4Z7qhg9Im-Hep_6rUGWqq1jGF6Oiwc4ekWKAylWjF9zzL8jRVUjCp1ILXp4chxdbqA2O6pGA1P8XGgJA=",
+          "title": "speedcurve.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Embrace Mobile, Inc.",
+        "evidence": "Passage 0 explicitly identifies Embrace Mobile, Inc. (also operating under the brand Embrace) as the vendor directly providing the SpeedCurve software product at speedcurve.com.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the **SpeedCurve** software product at **speedcurve.com** is **Embrace Mobile, Inc.** (also operating under the brand **Embrace**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgjrLMLXmWa0kXoeih2mfrVhXsPMa255K2JAB4Z7qhg9Im-Hep_6rUGWqq1jGF6Oiwc4ekWKAylWjF9zzL8jRVUjCp1ILXp4chxdbqA2O6pGA1P8XGgJA=",
+          "title": "speedcurve.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "SpeedCurve",
+    "domain": "speedcurve.com",
+    "description": "SpeedCurve is a performance monitoring company that enhances website speed and user experience (UX) through a combination of lab testing and field monitoring tools. Serving notable clients like Zillow, BBC, and Trivago, SpeedCurve focuses on measuring the impact of web performance on user satisfaction and business outcomes. Their platform allows businesses to track essential metrics such as Core Web Vitals and Lighthouse scores, while also providing custom metrics and analytics that guide performance improvements. With features including automated reporting, user happiness tracking, and consulting services, SpeedCurve helps organizations identify and address factors that influence site performance and user engagement."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Embrace Mobile, Inc.",
+  "evidence": "Passage 0 explicitly identifies Embrace Mobile, Inc. (also operating under the brand Embrace) as the vendor directly providing the SpeedCurve software product at speedcurve.com.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the **SpeedCurve** software product at **speedcurve.com** is **Embrace Mobile, Inc.** (also operating under the brand **Embrace**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgjrLMLXmWa0kXoeih2mfrVhXsPMa255K2JAB4Z7qhg9Im-Hep_6rUGWqq1jGF6Oiwc4ekWKAylWjF9zzL8jRVUjCp1ILXp4chxdbqA2O6pGA1P8XGgJA=",
+    "title": "speedcurve.com"
+  },
+  "checked_at": "2026-11-05T09:03:24.754585+00:00"
+}

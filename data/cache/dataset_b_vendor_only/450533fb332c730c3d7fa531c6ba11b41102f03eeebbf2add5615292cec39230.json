@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **DocuSign** software platform at **docusign.com** is **DocuSign, Inc.**.\n\n### Supporting Evidence:\n* **DocuSign Privacy Notice (`docusign.com`):** \n  > *\"The purpose of this document is to set out how Docusign, Inc. and its affiliates (“us,” “our,” or “we”) collect, use, store, or otherwise process personal information about customers and other individuals (collectively 'you') who access or use our websites, including docusign.com and docusign.net, our mobile applications, our web client or professional client, and/or any of our other websites, products, or services that link to this Privacy Notice (the 'Services')...\"*\n* **DocuSign Terms and Conditions:**\n  > *\"These Terms and Conditions constitute a binding legal agreement between you and Docusign, Inc. ('Docusign,' 'we,' 'us,' and 'our').\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **DocuSign** software platform at **docusign.com** is **DocuSign, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqO16nNrFWr1K6C5VCkTJhYWVIiaRUwaiZp_vRk3bMj4ZYO58FBIGMyUlR-LUXMTTxDB3U3BGaV2viQ4Ma3S8Q5DeAX6X-tpi7NCuf96J9wZb6xYEDfA==",
+          "title": "docusign.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the **DocuSign** software platform at **docusign.com** is **DocuSign, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOUzhDjNd5b2qL1-FuV5wU12sAgMSIo9rxjewvmFJX2ftU_kKK1zTRrR55q3LRZZmmDKdextlYqBobgY5VQcFz81AnMLuTq5JQUaHXAnsKfG4sbS8v2xhHWMCthYgvp5G8UvdcP9zVdrSK7NbvEnXCqM-y-miZOw==",
+          "title": "docusign.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"The purpose of this document is to set out how Docusign, Inc. and its affiliates (“us,” “our,” or “we”) collect, use, store, or otherwise process personal information about customers and other individuals (collectively 'you') who access or use our websites, including docusign.com and docusign.net, our mobile applications, our web client or professional client, and/or any of our other websites, products, or services that link to this Privacy Notice (the 'Services')...\"*\n* **DocuSig",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqO16nNrFWr1K6C5VCkTJhYWVIiaRUwaiZp_vRk3bMj4ZYO58FBIGMyUlR-LUXMTTxDB3U3BGaV2viQ4Ma3S8Q5DeAX6X-tpi7NCuf96J9wZb6xYEDfA==",
+          "title": "docusign.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "DocuSign, Inc.",
+        "evidence": "Passage 0 explicitly identifies DocuSign, Inc. as the vendor directly providing the DocuSign software platform at docusign.com.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the **DocuSign** software platform at **docusign.com** is **DocuSign, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqO16nNrFWr1K6C5VCkTJhYWVIiaRUwaiZp_vRk3bMj4ZYO58FBIGMyUlR-LUXMTTxDB3U3BGaV2viQ4Ma3S8Q5DeAX6X-tpi7NCuf96J9wZb6xYEDfA==",
+          "title": "docusign.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "DocuSign",
+    "domain": "docusign.com",
+    "description": "DocuSign is a leader in e-signature and intelligent agreement management, providing solutions that empower over 1.5 million customers and more than a billion users globally. The company simplifies the agreement process across various industries by allowing businesses to create, commit, and manage contracts efficiently. Its services are used in over 180 countries, helping to unlock critical business data and enhance productivity."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "DocuSign, Inc.",
+  "evidence": "Passage 0 explicitly identifies DocuSign, Inc. as the vendor directly providing the DocuSign software platform at docusign.com.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the **DocuSign** software platform at **docusign.com** is **DocuSign, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqO16nNrFWr1K6C5VCkTJhYWVIiaRUwaiZp_vRk3bMj4ZYO58FBIGMyUlR-LUXMTTxDB3U3BGaV2viQ4Ma3S8Q5DeAX6X-tpi7NCuf96J9wZb6xYEDfA==",
+    "title": "docusign.com"
+  },
+  "checked_at": "2026-11-05T09:01:21.410559+00:00"
+}

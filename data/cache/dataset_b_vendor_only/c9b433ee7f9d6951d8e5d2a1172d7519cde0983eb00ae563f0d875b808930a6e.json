@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Cvent** at **cvent.com** is **Cvent, Inc.**\n\n### Supporting Evidence\nAccording to the official **Cvent Website Terms of Use** at `cvent.com`:\n> *\"These Website Terms of Use (\"Terms\") govern your use of the website that links to these Terms (the “Website”) and are a legally binding agreement between you (\"User\" or \"you\") and Cvent, Inc., including its subsidiaries and affiliates (collectively, \"CVENT\", \"we,\" \"us\", or \"our\").\"*\n\nThis is additionally corroborated by the **Cvent Community Terms of Use**, which confirms:\n> *\"This Agreement is between you (“You” or “Your”) and Cvent, Inc. on behalf of itself and its wholly-owned subsidiaries, as applicable (“Cvent” or “We” or “Our”).\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Cvent** at **cvent.com** is **Cvent, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENaHM1iTCAAcYkb-6vcGcqkSm75huAKy6pwls4xBv5mHrj3A0l7ZIiyFrDGoRFumOQN-X6EaO31XCnbNcSDlguhVm8VzyemE0T0N0sTosTj8lo6O5zSETPXbpOsQ==",
+          "title": "cvent.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Cvent** at **cvent.com** is **Cvent, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM5c8hmoKJGRHcHmUdtCJ8lu_iPb37uTGPPftaUXSNS-3TEUKzvLXlqgzeZ5Msv_XhSQSoi9SPcrxqIwqLAM5LEdHm1dhELUgnhuZyn1Hh91KTVLuba4Y09dYtzGdvDn1Zk60fjwm-1X9_cybSbh6tIJ46",
+          "title": "cvent.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"These Website Terms of Use (\"Terms\") govern your use of the website that links to these Terms (the “Website”) and are a legally binding agreement between you (\"User\" or \"you\") and Cvent, Inc., including its subsidiaries and affiliates (collectively, \"CVENT\", \"we,\" \"us\", or \"our\").\"*\n\nTh",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM5c8hmoKJGRHcHmUdtCJ8lu_iPb37uTGPPftaUXSNS-3TEUKzvLXlqgzeZ5Msv_XhSQSoi9SPcrxqIwqLAM5LEdHm1dhELUgnhuZyn1Hh91KTVLuba4Y09dYtzGdvDn1Zk60fjwm-1X9_cybSbh6tIJ46",
+          "title": "cvent.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Cvent, Inc.",
+        "evidence": "According to the Website Terms of Use, the terms governing the use of the website constitute a legally binding agreement between the user and Cvent, Inc.",
+        "source": {
+          "id": 2,
+          "text": "*\"These Website Terms of Use (\"Terms\") govern your use of the website that links to these Terms (the “Website”) and are a legally binding agreement between you (\"User\" or \"you\") and Cvent, Inc., including its subsidiaries and affiliates (collectively, \"CVENT\", \"we,\" \"us\", or \"our\").\"*\n\nTh",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM5c8hmoKJGRHcHmUdtCJ8lu_iPb37uTGPPftaUXSNS-3TEUKzvLXlqgzeZ5Msv_XhSQSoi9SPcrxqIwqLAM5LEdHm1dhELUgnhuZyn1Hh91KTVLuba4Y09dYtzGdvDn1Zk60fjwm-1X9_cybSbh6tIJ46",
+          "title": "cvent.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Cvent",
+    "domain": "cvent.com",
+    "description": "Cvent, Inc. is a cloud-based enterprise event management company that provides comprehensive software solutions for event planners. With a global workforce of over 2,700 employees, Cvent serves tens of thousands of clients by offering tools for online event registration, venue selection, mobile apps, on-site event solutions, email marketing, and web surveys. The company also assists hoteliers in boosting group business demand through targeted advertising and advanced analytics. Cvent's integrated platform optimizes the event management process and supports the organization of hundreds of thousands of events annually."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Cvent, Inc.",
+  "evidence": "According to the Website Terms of Use, the terms governing the use of the website constitute a legally binding agreement between the user and Cvent, Inc.",
+  "source": {
+    "id": 2,
+    "text": "*\"These Website Terms of Use (\"Terms\") govern your use of the website that links to these Terms (the “Website”) and are a legally binding agreement between you (\"User\" or \"you\") and Cvent, Inc., including its subsidiaries and affiliates (collectively, \"CVENT\", \"we,\" \"us\", or \"our\").\"*\n\nTh",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM5c8hmoKJGRHcHmUdtCJ8lu_iPb37uTGPPftaUXSNS-3TEUKzvLXlqgzeZ5Msv_XhSQSoi9SPcrxqIwqLAM5LEdHm1dhELUgnhuZyn1Hh91KTVLuba4Y09dYtzGdvDn1Zk60fjwm-1X9_cybSbh6tIJ46",
+    "title": "cvent.com"
+  },
+  "checked_at": "2026-11-05T08:24:49.650005+00:00"
+}

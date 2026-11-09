@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Floik** at **floik.com** is **Document360 Limited**.\n\n### Evidence\n* **Terms of Service:** State that the agreement for *\"the website located at the URL www.floik.com, and WebApp (collectively referred to as 'Platform') is between DOCUMENT360 LIMITED, a private limited company incorporated in and under the laws of England and Wales (referred as 'Company' or 'we' or 'us' or 'our') and the Users\"*.\n* **Privacy Policy:** Identifies the company as *\"Document360 Limited, the provider of the Floik service\"* and specifies that *\"Document360 LIMITED... is the owner of the website domain at https://floik.com/ and WebApp\"*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Floik** at **floik.com** is **Document360 Limited**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGa5-mt5jf0V9UzaTNK_Joz2_2Ku7cdWmNQhWwlPk5VvXMVZpAflRwH-TZxXCU5F0Nm1Wv9ktFGpVSSapX7Rewm6jmbE5ThoOBd-7BPi7YI22dr1R2oRaC7wLSbrrCAAUb5DQ==",
+          "title": "floik.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Floik** at **floik.com** is **Document360 Limited**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUm0wwjAW6vb65hEEPJjU8IAuzqc0kPP4Er7T_R_g5-n-zY9Md_HbzP5UPI_bWWC2f1O9V2CxdgGPDXq9EbcCo3OJ8SBEEjRlMuyZLONZmpg1Czs-dKYR2dcDC04uUg9W_tuxnqHPDTg==",
+          "title": "floik.com"
+        },
+        {
+          "id": 2,
+          "text": "**Terms of Service:** State that the agreement for *\"the website located at the URL www.floik.com, and WebApp (collectively referred to as 'Platform') is between DOCUMENT360 LIMITED, a private limited company incorporated in and under the laws of England and Wales (referred as 'Company' or 'we' or 'us' or 'our') and the Users\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUm0wwjAW6vb65hEEPJjU8IAuzqc0kPP4Er7T_R_g5-n-zY9Md_HbzP5UPI_bWWC2f1O9V2CxdgGPDXq9EbcCo3OJ8SBEEjRlMuyZLONZmpg1Czs-dKYR2dcDC04uUg9W_tuxnqHPDTg==",
+          "title": "floik.com"
+        },
+        {
+          "id": 3,
+          "text": "**Privacy Policy:** Identifies the company as *\"Document360 Limited, the provider of the Floik service\"* and specifies that *\"Document360 LIMITED... is the owner of the website domain at https://floik.com/ and WebApp\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGa5-mt5jf0V9UzaTNK_Joz2_2Ku7cdWmNQhWwlPk5VvXMVZpAflRwH-TZxXCU5F0Nm1Wv9ktFGpVSSapX7Rewm6jmbE5ThoOBd-7BPi7YI22dr1R2oRaC7wLSbrrCAAUb5DQ==",
+          "title": "floik.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Document360 Limited",
+        "evidence": "Floik's Privacy Policy directly identifies Document360 Limited as the provider of the Floik service and the owner of the website domain at https://floik.com/ and WebApp.",
+        "source": {
+          "id": 3,
+          "text": "**Privacy Policy:** Identifies the company as *\"Document360 Limited, the provider of the Floik service\"* and specifies that *\"Document360 LIMITED... is the owner of the website domain at https://floik.com/ and WebApp\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGa5-mt5jf0V9UzaTNK_Joz2_2Ku7cdWmNQhWwlPk5VvXMVZpAflRwH-TZxXCU5F0Nm1Wv9ktFGpVSSapX7Rewm6jmbE5ThoOBd-7BPi7YI22dr1R2oRaC7wLSbrrCAAUb5DQ==",
+          "title": "floik.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Floik",
+    "domain": "floik.com",
+    "description": "Turn product workflows into interactive demos and videos."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Document360 Limited",
+  "evidence": "Floik's Privacy Policy directly identifies Document360 Limited as the provider of the Floik service and the owner of the website domain at https://floik.com/ and WebApp.",
+  "source": {
+    "id": 3,
+    "text": "**Privacy Policy:** Identifies the company as *\"Document360 Limited, the provider of the Floik service\"* and specifies that *\"Document360 LIMITED... is the owner of the website domain at https://floik.com/ and WebApp\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGa5-mt5jf0V9UzaTNK_Joz2_2Ku7cdWmNQhWwlPk5VvXMVZpAflRwH-TZxXCU5F0Nm1Wv9ktFGpVSSapX7Rewm6jmbE5ThoOBd-7BPi7YI22dr1R2oRaC7wLSbrrCAAUb5DQ==",
+    "title": "floik.com"
+  },
+  "checked_at": "2026-11-05T05:39:44.983640+00:00"
+}

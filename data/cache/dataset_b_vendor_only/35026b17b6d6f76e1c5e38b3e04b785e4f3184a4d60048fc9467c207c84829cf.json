@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly operating and providing **Focal** at **getfocal.co** is **Human Unsupervised Pty Ltd** (founded by Antonio de Perio). \n\n### Evidence & Provider Statements\n* **Operating Company:** According to G2 vendor records for the product and domain, *\"Human Unsupervised Pty Ltd is a company that operates the platform Focal, accessible via the website https://getfocal.co\"*.\n* **Policy Documents:** The legal terms and policies for the product explicitly identify the entity as *\"Focal - Human Unsupervised Pty Ltd\"* (e.g., *\"This cookie policy is part of Focal - Human Unsupervised Pty Ltd's privacy policy\"* and *\"Focal - Human Unsupervised Pty Ltd customers found engaging in activities prohibited by this acceptable use policy...\"*).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly operating and providing **Focal** at **getfocal.co** is **Human Unsupervised Pty Ltd**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDLtP6FxLAafFeGyw7dELR5ITjeSkXx8bvED_fc9V1xyYhzz49Xzwcs4nOB94NaueRByGqxWR3daw5-zOAUHytt-WC3QIegIvNr4ogZ4GNB1oVpwXKxpDdYUgBUWvKUU-XQwbiltdxq7LYkw==",
+          "title": "g2.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly operating and providing **Focal** at **getfocal.co** is **Human Unsupervised Pty Ltd** (founded by Antonio de Perio)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVZ4ud6f-xGNufPWcKpUMk0FbHOkagvBLINwwEsnRL9RNzctyaEukndzvNcY5ArC65yWodjLcaKhNppYlWHqIweIIgUWXK-HwZhnMKBn7zxJ3uDohr8p7bSYBFqLw=",
+          "title": "humanunsupervised.com"
+        },
+        {
+          "id": 2,
+          "text": "The vendor directly operating and providing **Focal** at **getfocal.co** is **Human Unsupervised Pty Ltd** (founded by Antonio de Perio)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVvYx5jtBnzLOz7UzXLrUt32ITD7FI8zjEPfKSiZAhWe89L6m6-wo8Yl66z-8SzHadDgPRPL-bWxw5r8MI55UU0APTpU9FjBg6coIaR_5lAw==",
+          "title": "github.com"
+        },
+        {
+          "id": 3,
+          "text": "**Operating Company:** According to G2 vendor records for the product and domain, *\"Human Unsupervised Pty Ltd is a company that operates the platform Focal, accessible via the website https://getfocal.co\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDLtP6FxLAafFeGyw7dELR5ITjeSkXx8bvED_fc9V1xyYhzz49Xzwcs4nOB94NaueRByGqxWR3daw5-zOAUHytt-WC3QIegIvNr4ogZ4GNB1oVpwXKxpDdYUgBUWvKUU-XQwbiltdxq7LYkw==",
+          "title": "g2.com"
+        },
+        {
+          "id": 4,
+          "text": "**Policy Documents:** The legal terms and policies for the product explicitly identify the entity as *\"Focal - Human Unsupervised Pty Ltd\"* (e.g., *\"This cookie policy is part of Focal - Human Unsupervised Pty Ltd's privacy policy\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcNnOoahUDxKpaxMyDxZPyefWptSREYyCPUyt7vJJJkv_UiXEDfPXrjUa_GhtMGBZY9QQymHrv6vOfmQYCJs-vJHkiIl_MZ5LqyWv9ifxd1rWgHU6imcP9qW1EUA==",
+          "title": "focalevidence.com"
+        },
+        {
+          "id": 5,
+          "text": "**Policy Documents:** The legal terms and policies for the product explicitly identify the entity as *\"Focal - Human Unsupervised Pty Ltd\"* (e.g., *\"This cookie policy is part of Focal - Human Unsupervised Pty Ltd's privacy policy\"* and *\"Focal - Human Unsupervised Pty Ltd customers found engaging in activities prohibited by this acceptable use policy...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2uD5AEGTl6VuJsisvAxpsh7Xd75Aw5GGgRqNfj14t3ER3ySi24kRV9FdjBcSdw1wiqJjP5_ui85tyZX4Ox5vQe-dtu-C83fMEq-HWydu3eiP7JlJlDu5VKPVAj1kefAfBxCUH",
+          "title": "focalevidence.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Human Unsupervised Pty Ltd",
+        "evidence": "According to G2 vendor records cited in passage 3, Human Unsupervised Pty Ltd is the company that operates the platform Focal, accessible via https://getfocal.co.",
+        "source": {
+          "id": 3,
+          "text": "**Operating Company:** According to G2 vendor records for the product and domain, *\"Human Unsupervised Pty Ltd is a company that operates the platform Focal, accessible via the website https://getfocal.co\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDLtP6FxLAafFeGyw7dELR5ITjeSkXx8bvED_fc9V1xyYhzz49Xzwcs4nOB94NaueRByGqxWR3daw5-zOAUHytt-WC3QIegIvNr4ogZ4GNB1oVpwXKxpDdYUgBUWvKUU-XQwbiltdxq7LYkw==",
+          "title": "g2.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Focal",
+    "domain": "getfocal.co",
+    "description": "AI PDF and web summaries for your reading and research."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Human Unsupervised Pty Ltd",
+  "evidence": "According to G2 vendor records cited in passage 3, Human Unsupervised Pty Ltd is the company that operates the platform Focal, accessible via https://getfocal.co.",
+  "source": {
+    "id": 3,
+    "text": "**Operating Company:** According to G2 vendor records for the product and domain, *\"Human Unsupervised Pty Ltd is a company that operates the platform Focal, accessible via the website https://getfocal.co\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDLtP6FxLAafFeGyw7dELR5ITjeSkXx8bvED_fc9V1xyYhzz49Xzwcs4nOB94NaueRByGqxWR3daw5-zOAUHytt-WC3QIegIvNr4ogZ4GNB1oVpwXKxpDdYUgBUWvKUU-XQwbiltdxq7LYkw==",
+    "title": "g2.com"
+  },
+  "checked_at": "2026-11-05T05:30:30.161922+00:00"
+}

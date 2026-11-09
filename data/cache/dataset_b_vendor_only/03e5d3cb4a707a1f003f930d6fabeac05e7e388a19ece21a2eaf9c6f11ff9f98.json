@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor and provider for the **AI Song Generator** at **ai-song.ai** operates under the entity/brand name **AI Song** (or **AI-Song**).\n\n### Supporting Evidence:\n* **Terms of Service** (`ai-song.ai/terms`):\n  > *\"Company (referred to as either 'the Company', 'We', 'Us' or 'Our' in this Agreement) refers to AI Song.\"*  \n  > *\"Country refers to: Hong Kong SAR China.\"*  \n  > *\"Website refers to AI Song, accessible from https://ai-song.ai.\"*\n* **Copyright Notice**:\n  > *\"© 2026 AI-Song. All rights reserved.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor and provider for the **AI Song Generator** at **ai-song.ai** operates under the entity/brand name **AI Song** (or **AI-Song**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGR_ZgLZWipLuOBlGQKPH6Wee6c1E8KLQ9MLZmeEI6VvtOhonZDR_9JeylMfK-TuX5I_4yWD-CsiXwNJbBBII3Ct3wxZbWYHuKO_Hw6XuS0v7oHanCxUzHgKTxVHZFb-g==",
+          "title": "ai-song.ai"
+        },
+        {
+          "id": 1,
+          "text": "The vendor and provider for the **AI Song Generator** at **ai-song.ai** operates under the entity/brand name **AI Song** (or **AI-Song**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJ-nE1rW4nc1uTY1yJaJIK_TSKd2TX6ka8Iuyiu_hQDG5YEbafoEHM0SDfoAZIwYUXKRnd7Azp1K8jxCM_FdPFyfVNYrsBYhoq5PmPd_E=",
+          "title": "ai-song.ai"
+        },
+        {
+          "id": 2,
+          "text": "*\"Company (referred to as either 'the Company', 'We', 'Us' or 'Our' in this Agreement) refers to AI Song.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJ-nE1rW4nc1uTY1yJaJIK_TSKd2TX6ka8Iuyiu_hQDG5YEbafoEHM0SDfoAZIwYUXKRnd7Azp1K8jxCM_FdPFyfVNYrsBYhoq5PmPd_E=",
+          "title": "ai-song.ai"
+        },
+        {
+          "id": 3,
+          "text": "*\"Country refers to: Hong Kong SAR China.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJ-nE1rW4nc1uTY1yJaJIK_TSKd2TX6ka8Iuyiu_hQDG5YEbafoEHM0SDfoAZIwYUXKRnd7Azp1K8jxCM_FdPFyfVNYrsBYhoq5PmPd_E=",
+          "title": "ai-song.ai"
+        },
+        {
+          "id": 4,
+          "text": "*\"Website refers to AI Song, accessible from https://ai-song.ai.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJ-nE1rW4nc1uTY1yJaJIK_TSKd2TX6ka8Iuyiu_hQDG5YEbafoEHM0SDfoAZIwYUXKRnd7Azp1K8jxCM_FdPFyfVNYrsBYhoq5PmPd_E=",
+          "title": "ai-song.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "AI Song",
+        "evidence": "The terms of service define the Company as referring to AI Song.",
+        "source": {
+          "id": 2,
+          "text": "*\"Company (referred to as either 'the Company', 'We', 'Us' or 'Our' in this Agreement) refers to AI Song.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJ-nE1rW4nc1uTY1yJaJIK_TSKd2TX6ka8Iuyiu_hQDG5YEbafoEHM0SDfoAZIwYUXKRnd7Azp1K8jxCM_FdPFyfVNYrsBYhoq5PmPd_E=",
+          "title": "ai-song.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "AI Song Generator",
+    "domain": "ai-song.ai",
+    "description": "Create unique songs with AI in minutes"
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "AI Song",
+  "evidence": "The terms of service define the Company as referring to AI Song.",
+  "source": {
+    "id": 2,
+    "text": "*\"Company (referred to as either 'the Company', 'We', 'Us' or 'Our' in this Agreement) refers to AI Song.\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJ-nE1rW4nc1uTY1yJaJIK_TSKd2TX6ka8Iuyiu_hQDG5YEbafoEHM0SDfoAZIwYUXKRnd7Azp1K8jxCM_FdPFyfVNYrsBYhoq5PmPd_E=",
+    "title": "ai-song.ai"
+  },
+  "checked_at": "2026-11-05T06:58:42.083509+00:00"
+}

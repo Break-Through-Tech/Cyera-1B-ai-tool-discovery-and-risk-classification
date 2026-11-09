@@ -1,0 +1,119 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor providing the software product at **agent360.ai** is **Agent360.Ai** (operating as a Limited Liability Company).\n\n### Evidence and Citations\n* **Operating Entity & Provider Name:** According to the Better Business Bureau (BBB) business profile for the website `agent360.ai`, the company is registered/operating as **Agent360.Ai** (Type of Entity: Limited Liability Company [LLC]). \n* **Trustpilot Profile:** The verified company profile for `agent360.ai` lists the company name as **Agent360.Ai** (with contact email `info@agent360.ai` and address at 11 North Central Avenue, Staunton, VA).\n* **Website Terms / Copyright:** Service and privacy documentation for the product directly references **Agent360** (e.g., *\"By clicking 'Submit', you agree to Agent360's Terms of Service and Privacy Policy\"* and *\"© Agent360. All rights reserved\"*).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "Ai** (operating as a Limited Liability Company)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmjovxLoR_VKjtdn_hwkEBan4VR8KKpatYqfvGgMirZQ0WJznbKZjunxeAhRerTj-xfLfFO7ewjVRcsfGInqkOBaJoKOy2HFPsL1rNTeppR5pmpJixFrwQOWiTN82ehkiOzw==",
+          "title": "trustpilot.com"
+        },
+        {
+          "id": 1,
+          "text": "Ai** (operating as a Limited Liability Company)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEk-hrYFL0ANFldiBM-v63N79WVOU3_L9CTkpZu_ZapdtbITwidwSh9jagoAMArSpN5Q2fNWw8XUasDtvNcPqiqZPW9d3sj7g6NhI-Iz8Ob_jc3PUKyEiDQB4DfvD3sJAO1vUz1qloTABmooaigubQyd9torJKU0fSquBJ-ygovxta-D0IJwRX_1IZJex_m",
+          "title": "bbb.org"
+        },
+        {
+          "id": 2,
+          "text": "Ai** (Type of Entity: Limited Liability Company [LLC])",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEk-hrYFL0ANFldiBM-v63N79WVOU3_L9CTkpZu_ZapdtbITwidwSh9jagoAMArSpN5Q2fNWw8XUasDtvNcPqiqZPW9d3sj7g6NhI-Iz8Ob_jc3PUKyEiDQB4DfvD3sJAO1vUz1qloTABmooaigubQyd9torJKU0fSquBJ-ygovxta-D0IJwRX_1IZJex_m",
+          "title": "bbb.org"
+        },
+        {
+          "id": 3,
+          "text": "Ai** (with contact email `info@agent360.ai` and address at 11 North Central Avenue, Staunton, VA)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmjovxLoR_VKjtdn_hwkEBan4VR8KKpatYqfvGgMirZQ0WJznbKZjunxeAhRerTj-xfLfFO7ewjVRcsfGInqkOBaJoKOy2HFPsL1rNTeppR5pmpJixFrwQOWiTN82ehkiOzw==",
+          "title": "trustpilot.com"
+        },
+        {
+          "id": 4,
+          "text": "ll rights reserved\"*).",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnYBW4HWukei_PAHe5mEa3eFbp_Ftd1nL2Dbyq1sinwIKYsSwHjrEwQHgX3J_5ureZyJ7aqkp8_hAHY3vhRN2YKEJNrVkq35F6tiA9qA==",
+          "title": "agent360.io"
+        },
+        {
+          "id": 5,
+          "text": "ll rights reserved\"*).",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLod8id1SRNwEfAXX2pp2twIm8IE1euF6r863mokQUjfmHQoma1-pUVxN78HJcINwwKTCzKo01CdpXsv9LKlyjybJsYwseSI_zRNunvQN93mHg",
+          "title": "agent360.io"
+        }
+      ],
+      "result": {
+        "status": "unknown",
+        "vendor": "UNKNOWN",
+        "evidence": "The provided passages contain truncated text fragments (such as 'Ai**' and 'll rights reserved\"*)') that do not mention or establish the full name of the vendor or operating company."
+      }
+    },
+    {
+      "answer": "The vendor directly providing **Agent 360** (associated with **agent360.ai** / **getagent360.com**) is **Agent360 LLC**.\n\n### Supporting Evidence & Provider Statement\n* **Operating Company:** According to its official Terms of Service:\n  > *\"These Terms of Service ('Terms') form a binding agreement between Agent360 LLC, a California limited liability company ('Agent360,' 'we,' 'us'), and the customer entity or individual who creates an account or otherwise accesses the Services... Agent360 operates 'Zoe,' an AI voice-receptionist software-as-a-service platform that answers, qualifies, and routes inbound calls, places outbound calls (where enabled), and produces transcripts, summaries, and structured intake records for the Customer's business workflows (the 'Services').\"*\n* **Published Developer Listing:** Official store listings and SMS disclosures identify the developer and operating entity as **Agent360 LLC** (based at 2590 South Centinela Avenue, Los Angeles, CA 90064).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Agent 360** (associated with **agent360.ai** / **getagent360.com**) is **Agent360 LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfmyt6kjpCvZhJSWOjzJOogvZn_H6HzncugX6XnNpOJvkx6Lk7iwUe7Rx1QrY3gpLYQt2Gh9f3_wnBZnQrDf2IYXNXpqLj6wvmxe0fl84z_luC",
+          "title": "getagent360.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Agent 360** (associated with **agent360.ai** / **getagent360.com**) is **Agent360 LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkJ1TfQrdbDHcSFc1CmV43kSfLiYish4rZw4mmHdwHhs5KbVMcondr6BsW0Mr1KBgVC26uwcHGUcLfLuKhjVUdmn_iSroZ6FpIx2HEJXNOpxT9jFzkfQFs",
+          "title": "getagent360.com"
+        },
+        {
+          "id": 2,
+          "text": "The vendor directly providing **Agent 360** (associated with **agent360.ai** / **getagent360.com**) is **Agent360 LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJqOg3fWVTIx8Ihh-IMDecslHckQt0w9Fiz7E_vQzcTHiEMa2EMs3tkpsUi8FjY2bnJcQA3XDQIUj2P6couu4Xwe2dlmHTF_xzVWHr29pCGxaBurvv8ijbDOjHrDdz0e5Xi3kxfu50m5E2U-2Ai67RwnxwCuVzzMVdVHXAtCLR7dtfuMrG5-9x",
+          "title": "google.com"
+        },
+        {
+          "id": 3,
+          "text": "Agent360 operates 'Zoe,' an AI voice-receptionist software-as-a-service platform that answers, qualifies, and routes inbound calls, places outbound calls (where enabled), and produces transcripts, summaries, and structured intake records for the Customer's business workflows (the 'Services').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkJ1TfQrdbDHcSFc1CmV43kSfLiYish4rZw4mmHdwHhs5KbVMcondr6BsW0Mr1KBgVC26uwcHGUcLfLuKhjVUdmn_iSroZ6FpIx2HEJXNOpxT9jFzkfQFs",
+          "title": "getagent360.com"
+        },
+        {
+          "id": 4,
+          "text": "**Published Developer Listing:** Official store listings and SMS disclosures identify the developer and operating entity as **Agent360 LLC** (based at 2590 South Centinela Avenue, Los Angeles, CA 90064)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJqOg3fWVTIx8Ihh-IMDecslHckQt0w9Fiz7E_vQzcTHiEMa2EMs3tkpsUi8FjY2bnJcQA3XDQIUj2P6couu4Xwe2dlmHTF_xzVWHr29pCGxaBurvv8ijbDOjHrDdz0e5Xi3kxfu50m5E2U-2Ai67RwnxwCuVzzMVdVHXAtCLR7dtfuMrG5-9x",
+          "title": "google.com"
+        },
+        {
+          "id": 5,
+          "text": "**Published Developer Listing:** Official store listings and SMS disclosures identify the developer and operating entity as **Agent360 LLC** (based at 2590 South Centinela Avenue, Los Angeles, CA 90064)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmRDVtfYK3ClMgDM_2AI_M1C4acOUeWBlLnKZcM8x0aliVKt3CzjyduGUS2EhYgI7ZzwSK0YGmzQoQs1g-kAuOLtH6-M7i8d-GSAURVaaY8Kc3KYWNLpKqDAFMacQ=",
+          "title": "getagent360.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Agent360 LLC",
+        "evidence": "Passage 0 explicitly identifies Agent360 LLC as the direct vendor providing Agent 360 associated with the domain agent360.ai.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Agent 360** (associated with **agent360.ai** / **getagent360.com**) is **Agent360 LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfmyt6kjpCvZhJSWOjzJOogvZn_H6HzncugX6XnNpOJvkx6Lk7iwUe7Rx1QrY3gpLYQt2Gh9f3_wnBZnQrDf2IYXNXpqLj6wvmxe0fl84z_luC",
+          "title": "getagent360.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Agent 360",
+    "domain": "agent360.ai",
+    "description": "Agent 360 is an AI-powered digital receptionist that handles calls, messages, and scheduling, freeing up your time and improving customer experience."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Agent360 LLC",
+  "evidence": "Passage 0 explicitly identifies Agent360 LLC as the direct vendor providing Agent 360 associated with the domain agent360.ai.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Agent 360** (associated with **agent360.ai** / **getagent360.com**) is **Agent360 LLC**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfmyt6kjpCvZhJSWOjzJOogvZn_H6HzncugX6XnNpOJvkx6Lk7iwUe7Rx1QrY3gpLYQt2Gh9f3_wnBZnQrDf2IYXNXpqLj6wvmxe0fl84z_luC",
+    "title": "getagent360.com"
+  },
+  "checked_at": "2026-11-05T05:51:45.937133+00:00"
+}

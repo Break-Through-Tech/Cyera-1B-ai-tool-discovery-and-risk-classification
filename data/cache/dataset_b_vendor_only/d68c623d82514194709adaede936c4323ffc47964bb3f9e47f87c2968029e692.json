@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The operating company and vendor directly providing **AppsFlyer** at **appsflyer.com** is **AppsFlyer Ltd.** (with U.S. and Canadian customers contracting through its subsidiary, **AppsFlyer Inc.**).\n\n### Supporting Evidence\n* **Site Terms:** *\"AppsFlyer Ltd. (“AppsFlyer”, “Company”, “we”, “our” or “us”) welcomes you (“User” or “you”) to our primary website at www.appsflyer.com, and any of its sub-domains...\"*\n* **Services Privacy Policy:** *\"AppsFlyer provides attribution and marketing analytics services (“Services“)... any reference to “AppsFlyer” “we” “us” or “our” shall mean AppsFlyer Ltd. and its affiliates.\"*\n* **Legal Terms of Use (Section 16):** Specifies that contracting entities depend on customer domicile: *\"if you are domiciled in the United States or Canada then you are contracting with AppsFlyer Inc... [otherwise AppsFlyer Ltd.]\"*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGyHh_QcJAmvhrVta0XGveWYKNfK6WmGYVUWrWIfwa81Ym1e3UdpCxS1X-7G0vlbCcj2dXvparqCSDBPAHIo4kUszcouRdBj8PNx2n2Pihx9tjO3IohSSO0HAPtwzBliO9unIzL",
+          "title": "appsflyer.com"
+        },
+        {
+          "id": 1,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvrQu04yCyhCj_slT32hqWM-r8YDqn0k6VBcZG-34VyYYwu8gifzWsT2tx6uiC9SRj5sZw5FcT8IWXmjt_hAkJT4etosS2bZVNW1vVl-ymYY47l5WEzAIqb9qXWN1V8CmOdA==",
+          "title": "appsflyer.com"
+        },
+        {
+          "id": 2,
+          "text": "**Site Terms:** *\"AppsFlyer Ltd. (“AppsFlyer”, “Company”, “we”, “our” or “us”) welcomes you (“User” or “you”) to our primary website at www.appsflyer.com, and any of its sub-domains...\"*\n* **Services Privacy Policy",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdPnHo8Bbgr0_n7L8_b73HpPi2zdhnMufBZv7Y6gKbqronudLe2hRiOrEEJzWYykpaTrJmZafq0WMidP5-tWRMDmC1kvZcXcyPCHaCCZ-q25qi9B59HGd4XDV01RfUwAap",
+          "title": "appsflyer.com"
+        },
+        {
+          "id": 3,
+          "text": " *\"AppsFlyer provides attribution and marketing analytics services (“Services“)... any reference to “AppsFlyer” “we” “us” or “our” shall mean AppsFlyer Ltd. and its affiliates.\"*\n* **Legal Terms of Use (Section 16):** Specifie",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBlo48Kz_vbCo0hU3xeT7YzJAHmP4HKLBGukW5aPkA_7M43CfJ-WF5VvbJJF8vpCvMDGPkkA8MOzHwXYF0ydLjtvwxudaIePu2dNWt3mBMBvAmIsHk2OXiBzT_htxIueLIHe6pBzmtE2rW4dYo",
+          "title": "appsflyer.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "AppsFlyer Ltd.",
+        "evidence": "Passage 2 quotes the site terms stating that 'AppsFlyer Ltd. (“AppsFlyer”, “Company”, “we”, “our” or “us”) welcomes you (“User” or “you”) to our primary website at www.appsflyer.com, and any of its sub-domains...'",
+        "source": {
+          "id": 2,
+          "text": "**Site Terms:** *\"AppsFlyer Ltd. (“AppsFlyer”, “Company”, “we”, “our” or “us”) welcomes you (“User” or “you”) to our primary website at www.appsflyer.com, and any of its sub-domains...\"*\n* **Services Privacy Policy",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdPnHo8Bbgr0_n7L8_b73HpPi2zdhnMufBZv7Y6gKbqronudLe2hRiOrEEJzWYykpaTrJmZafq0WMidP5-tWRMDmC1kvZcXcyPCHaCCZ-q25qi9B59HGd4XDV01RfUwAap",
+          "title": "appsflyer.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "AppsFlyer",
+    "domain": "appsflyer.com",
+    "description": "AppsFlyer is a leading mobile attribution and marketing analytics platform that assists brands in optimizing their customer engagement through advanced measurement and data analytics. The company specializes in deep linking, fraud protection, and privacy-preserving technology, enabling brands to create meaningful customer relationships while ensuring their data security. With thousands of creators and over 10,000 technology partners utilizing their solutions, AppsFlyer is dedicated to enhancing brand experiences while prioritizing customer privacy."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "AppsFlyer Ltd.",
+  "evidence": "Passage 2 quotes the site terms stating that 'AppsFlyer Ltd. (“AppsFlyer”, “Company”, “we”, “our” or “us”) welcomes you (“User” or “you”) to our primary website at www.appsflyer.com, and any of its sub-domains...'",
+  "source": {
+    "id": 2,
+    "text": "**Site Terms:** *\"AppsFlyer Ltd. (“AppsFlyer”, “Company”, “we”, “our” or “us”) welcomes you (“User” or “you”) to our primary website at www.appsflyer.com, and any of its sub-domains...\"*\n* **Services Privacy Policy",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdPnHo8Bbgr0_n7L8_b73HpPi2zdhnMufBZv7Y6gKbqronudLe2hRiOrEEJzWYykpaTrJmZafq0WMidP5-tWRMDmC1kvZcXcyPCHaCCZ-q25qi9B59HGd4XDV01RfUwAap",
+    "title": "appsflyer.com"
+  },
+  "checked_at": "2026-11-05T10:04:23.212496+00:00"
+}

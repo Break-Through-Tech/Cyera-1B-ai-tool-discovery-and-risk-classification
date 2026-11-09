@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Vocal Remover** at **vocalremover.com** is **MB Kimarta**.\n\n### Evidence\nAccording to the site footer and official policy pages on `vocalremover.com`:\n> *\"MB Kimarta · Company code 307547815 · VAT No. LT100019494111 · Maironio g. 14-11, Kaunas, Lithuania · info@vocalremover.com\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Vocal Remover** at **vocalremover.com** is **MB Kimarta**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM4LV9b7_55g0DhNPhgLW01sJWdlap-_C05dU15TVopASQIzOTVkdz0lanFldjyHtKqc_385hjFonsIwYlEzTwaQ0DNB6-A87nAB5oLIKR75EpStQIiWMnNi-4Og==",
+          "title": "vocalremover.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Vocal Remover** at **vocalremover.com** is **MB Kimarta**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfrTQe3HdXjcOes67Wm7O8vc4VTdCgHokmL4o3IR5bOXlrSrHO-Nu5CS71Q-dRZPXzXMdKtWaFGTh15CxKbwd-e8VCxhmfHL5qNYmYkg36",
+          "title": "vocalremover.com"
+        },
+        {
+          "id": 2,
+          "text": "According to the site footer and official policy pages on `vocalremover.com`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM4LV9b7_55g0DhNPhgLW01sJWdlap-_C05dU15TVopASQIzOTVkdz0lanFldjyHtKqc_385hjFonsIwYlEzTwaQ0DNB6-A87nAB5oLIKR75EpStQIiWMnNi-4Og==",
+          "title": "vocalremover.com"
+        },
+        {
+          "id": 3,
+          "text": "According to the site footer and official policy pages on `vocalremover.com`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfrTQe3HdXjcOes67Wm7O8vc4VTdCgHokmL4o3IR5bOXlrSrHO-Nu5CS71Q-dRZPXzXMdKtWaFGTh15CxKbwd-e8VCxhmfHL5qNYmYkg36",
+          "title": "vocalremover.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "MB Kimarta",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing Vocal Remover at vocalremover.com is MB Kimarta.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Vocal Remover** at **vocalremover.com** is **MB Kimarta**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM4LV9b7_55g0DhNPhgLW01sJWdlap-_C05dU15TVopASQIzOTVkdz0lanFldjyHtKqc_385hjFonsIwYlEzTwaQ0DNB6-A87nAB5oLIKR75EpStQIiWMnNi-4Og==",
+          "title": "vocalremover.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Vocal Remover",
+    "domain": "vocalremover.com",
+    "description": "Vocal Remover is a tool that can remove vocals from any music track, creating instrumental or karaoke versions of songs."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "MB Kimarta",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing Vocal Remover at vocalremover.com is MB Kimarta.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Vocal Remover** at **vocalremover.com** is **MB Kimarta**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM4LV9b7_55g0DhNPhgLW01sJWdlap-_C05dU15TVopASQIzOTVkdz0lanFldjyHtKqc_385hjFonsIwYlEzTwaQ0DNB6-A87nAB5oLIKR75EpStQIiWMnNi-4Og==",
+    "title": "vocalremover.com"
+  },
+  "checked_at": "2026-11-05T06:40:59.237785+00:00"
+}

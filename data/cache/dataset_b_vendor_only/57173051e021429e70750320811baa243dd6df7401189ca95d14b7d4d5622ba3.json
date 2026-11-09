@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "**Product & Domain:** LinkedIn (`linkedin.com`)\n\n**Direct Vendor / Operating Company:** **LinkedIn Corporation** (and **LinkedIn Ireland Unlimited Company** for users located in the European Union, European Economic Area, and Switzerland).\n\n**Provider Statement:**\nAccording to Section 1.1 of the LinkedIn User Agreement (`linkedin.com/legal/user-agreement`):\n> *\"This Contract applies to LinkedIn.com, LinkedIn-branded apps, LinkedIn Learning and other LinkedIn-related sites, apps, communications, and other services that state that they are offered under this Contract (“Services”)... If you reside in the “Designated Countries” [EU, EEA, and Switzerland], you are entering into this Contract with LinkedIn Ireland Unlimited Company... If you reside outside of the “Designated Countries”, you are entering into this Contract with LinkedIn Corporation...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**Product & Domain:** LinkedIn (`linkedin.com`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELBXTfuTShL44tDR2s8WYEHvYT9AVuTvwEccGNbgAH32O3mAWJQ-U8_szOOylyuFCDmy-M6Pl-yVRhC8OY9u91YmGzpXTPunPt0a2HaX-v6QbLqijzG6Oa2iQkpskYm_vclDAd5NkVCntHLQY3lLGmrhl684fZua8sVP0yAPMpb9cPtM0OtbkuFHjSGSCivQ-LXJOdF396PNhCbQf7yve0208L0lkFylmkpNiSYNZCAqdkRbtYa_ynnufni0YgbPpGVMDBnGyNKmtNVWK5eNY0L8RKqVcKkNJV6ggcxhkm",
+          "title": "irisinvestigations.com"
+        },
+        {
+          "id": 1,
+          "text": "**Direct Vendor / Operating Company:** **LinkedIn Corporation** (and **LinkedIn Ireland Unlimited Company** for users located in the European Union, European Economic Area, and Switzerland)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6tgaXf_KBx2R6g7YaaF-zWvnKa8U4bBMBhRO9yJLQ6TqmDvLffGzbVuQsP_TR30NwmA-mMU6kdAfHC_-tzPYh2cBcSif31Kk0d1VRhoaOeOZW944_zObNE3bmBVOeaJUZ83rd1Yzwlcq-mJXSD4_nNvbq-UldF-Ww1PnUhIr6UdAjb8U2inkDjOyoouLXifMMDHq3abop_-CWTwDBVDe5Y039dRhtLU7BwDJ_REEOQR410Ow6-OkRlFY3s8qWC3Bo3tjkGePuE8vGWODZyJcC2jN-xBfPjMGBPnSpvbdi-QLF9v6akbw=",
+          "title": "scu.edu"
+        },
+        {
+          "id": 2,
+          "text": "**Direct Vendor / Operating Company:** **LinkedIn Corporation** (and **LinkedIn Ireland Unlimited Company** for users located in the European Union, European Economic Area, and Switzerland)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0vz_RXrmUOnNxLgtOKd3MDKMTCNyeng4a8Xh3cJa8Io3m1sc8Tw_CtAu7hk7ME8jS1oOWx82x__T259iSgC2qdERkJe4XdXZne5cQqU_22wi_zJQ5erPI0_kmbT68E8_tsQt5mo0NuesDXz3XYSvoRMx-Z-HM2FTLOZ3OUI-KXZhqXL0YBln_ZmPtu1IvCzwuFTAxI96ENyJtuXnTXwnHyro_4onz9Sfg9mi21y9xIVXbms2mGzAzdqRsm_Ncrq9ZpwgcDmnicTnI02NP8wKl_aBlKhAY4RxshWfsCtLcIjzUbE91pEnIIb4Kmrzwr44DsfU=",
+          "title": "ca.gov"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "LinkedIn Corporation",
+        "evidence": "Passage 1 explicitly lists LinkedIn Corporation (and LinkedIn Ireland Unlimited Company for users in the EU, EEA, and Switzerland) as the direct vendor and operating company for LinkedIn.",
+        "source": {
+          "id": 1,
+          "text": "**Direct Vendor / Operating Company:** **LinkedIn Corporation** (and **LinkedIn Ireland Unlimited Company** for users located in the European Union, European Economic Area, and Switzerland)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6tgaXf_KBx2R6g7YaaF-zWvnKa8U4bBMBhRO9yJLQ6TqmDvLffGzbVuQsP_TR30NwmA-mMU6kdAfHC_-tzPYh2cBcSif31Kk0d1VRhoaOeOZW944_zObNE3bmBVOeaJUZ83rd1Yzwlcq-mJXSD4_nNvbq-UldF-Ww1PnUhIr6UdAjb8U2inkDjOyoouLXifMMDHq3abop_-CWTwDBVDe5Y039dRhtLU7BwDJ_REEOQR410Ow6-OkRlFY3s8qWC3Bo3tjkGePuE8vGWODZyJcC2jN-xBfPjMGBPnSpvbdi-QLF9v6akbw=",
+          "title": "scu.edu"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "LinkedIn",
+    "domain": "linkedin.com",
+    "description": "LinkedIn is a leading professional networking platform that connects individuals and businesses worldwide. The company offers a platform for professionals to network, search for jobs, and share industry insights. It also provides solutions for talent acquisition, marketing, and sales to businesses. LinkedIn, founded in 2002, is headquartered in Sunnyvale, California."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "LinkedIn Corporation",
+  "evidence": "Passage 1 explicitly lists LinkedIn Corporation (and LinkedIn Ireland Unlimited Company for users in the EU, EEA, and Switzerland) as the direct vendor and operating company for LinkedIn.",
+  "source": {
+    "id": 1,
+    "text": "**Direct Vendor / Operating Company:** **LinkedIn Corporation** (and **LinkedIn Ireland Unlimited Company** for users located in the European Union, European Economic Area, and Switzerland)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6tgaXf_KBx2R6g7YaaF-zWvnKa8U4bBMBhRO9yJLQ6TqmDvLffGzbVuQsP_TR30NwmA-mMU6kdAfHC_-tzPYh2cBcSif31Kk0d1VRhoaOeOZW944_zObNE3bmBVOeaJUZ83rd1Yzwlcq-mJXSD4_nNvbq-UldF-Ww1PnUhIr6UdAjb8U2inkDjOyoouLXifMMDHq3abop_-CWTwDBVDe5Y039dRhtLU7BwDJ_REEOQR410Ow6-OkRlFY3s8qWC3Bo3tjkGePuE8vGWODZyJcC2jN-xBfPjMGBPnSpvbdi-QLF9v6akbw=",
+    "title": "scu.edu"
+  },
+  "checked_at": "2026-11-05T08:46:14.420463+00:00"
+}

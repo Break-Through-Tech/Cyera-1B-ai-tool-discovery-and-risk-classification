@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the website and organization services for **OpenID Foundation** at **openid.net** is the **OpenID Foundation** (an Oregon non-profit public benefit corporation).\n\n### Supporting Evidence\n* **OpenID Foundation Privacy Policy**:\n  > *\"This OpenID Foundation Privacy Policy ('Privacy Policy') explains the data collection and usage practices of the OpenID Foundation ('OIDF,' 'we,' 'our,' or 'us')... OIDF, an Oregon State non-profit public benefit corporation located in the United States, is responsible for the processing of your personal data under this Privacy Policy.\"*\n* **Participation Agreements**:\n  > *\"...by and between the OpenID Foundation, an Oregon nonprofit public benefit corporation with its principal place of business at 5000 Executive Parkway, Suite 302, San Ramon, CA 94583, United States ('OIDF')...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the website and organization services for **OpenID Foundation** at **openid.net** is the **OpenID Foundation** (an Oregon non-profit public benefit corporation)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4Sw9nyvGnY9tDLl2u6FFgfDC0BLBm2P4sCFrSrcISawJgLJ1NncspHEvdhrr6vX9Xk1WSDrKtJdHJ5SYPjVdSkDedn5iKzkO2rT1uwsFmYLec_vZT3z-dp3VYhHab5RP9z5U07c1pMBE=",
+          "title": "openid.net"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the website and organization services for **OpenID Foundation** at **openid.net** is the **OpenID Foundation** (an Oregon non-profit public benefit corporation)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCPyELHplv-Gny3WzDXBi5W__RMxZu8wILJBKowXkIqgsGhg-ZfEDBk7QrUTJGWYp1DshlC8sNtmQ7rxY5hGvy2hHTSWtH4FuleFZgK2umfxm8RrZJtlhpEtgmm9RuGQJKUXVbtKY-PJ49d53NMbAS2iLywq35skqmarX-RL53NkSEDNidG0kY5pW7rMLG4_BgphvUyaU0vNk3jzo=",
+          "title": "openid.net"
+        },
+        {
+          "id": 2,
+          "text": "OIDF, an Oregon State non-profit public benefit corporation located in the United States, is responsible for the processing of your personal data under this Privacy Policy.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4Sw9nyvGnY9tDLl2u6FFgfDC0BLBm2P4sCFrSrcISawJgLJ1NncspHEvdhrr6vX9Xk1WSDrKtJdHJ5SYPjVdSkDedn5iKzkO2rT1uwsFmYLec_vZT3z-dp3VYhHab5RP9z5U07c1pMBE=",
+          "title": "openid.net"
+        },
+        {
+          "id": 3,
+          "text": "OIDF, an Oregon State non-profit public benefit corporation located in the United States, is responsible for the processing of your personal data under this Privacy Policy.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUtOUPQtIMUXCU8cqttNKOBWlh8lC4ad8hgx8IUixFWjEmGya-O8P1EjsaKIXRMTR2_1KK_PkZ1OQmaHj4ouEcNk8230fTP1kEDmDJgwVl-DF9VTSeBovXREj5p038_QuX7ha_JDOX8Y3H5wUMw26COEjyXW4g6rx_uQWpNQIRMQTLI3BBvx3GFdkH",
+          "title": "openid.net"
+        },
+        {
+          "id": 4,
+          "text": "*\"...by and between the OpenID Foundation, an Oregon nonprofit public benefit corporation with its principal place of business at 5000 Executive Parkway, Suite 302, San Ramon, CA 94583, United States ('OIDF')...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCPyELHplv-Gny3WzDXBi5W__RMxZu8wILJBKowXkIqgsGhg-ZfEDBk7QrUTJGWYp1DshlC8sNtmQ7rxY5hGvy2hHTSWtH4FuleFZgK2umfxm8RrZJtlhpEtgmm9RuGQJKUXVbtKY-PJ49d53NMbAS2iLywq35skqmarX-RL53NkSEDNidG0kY5pW7rMLG4_BgphvUyaU0vNk3jzo=",
+          "title": "openid.net"
+        },
+        {
+          "id": 5,
+          "text": "*\"...by and between the OpenID Foundation, an Oregon nonprofit public benefit corporation with its principal place of business at 5000 Executive Parkway, Suite 302, San Ramon, CA 94583, United States ('OIDF')...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlvDampZg1m_GIcglE0XzNrkEBoGQqENIxT5ZZ7Jf-LBvGQXB1HuXgVgjIYvAW17qsM74NAkghLh5RGkIVFM5TQUjwAIj04QUnMubYtOHdohkc_StTaxhqIrdgRgkU7Ow_EuTHMsIMGJZOzs2iFKvKqrV1C748Pv8I-Lose00rqSur9UXZegDYCd7GzqYpDStLJjDrPT4-ZMmE44CEpE_Z7w==",
+          "title": "openid.net"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "OpenID Foundation",
+        "evidence": "Passage 0 directly states that the vendor directly providing the website and organization services for OpenID Foundation at openid.net is the OpenID Foundation (an Oregon non-profit public benefit corporation).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the website and organization services for **OpenID Foundation** at **openid.net** is the **OpenID Foundation** (an Oregon non-profit public benefit corporation)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4Sw9nyvGnY9tDLl2u6FFgfDC0BLBm2P4sCFrSrcISawJgLJ1NncspHEvdhrr6vX9Xk1WSDrKtJdHJ5SYPjVdSkDedn5iKzkO2rT1uwsFmYLec_vZT3z-dp3VYhHab5RP9z5U07c1pMBE=",
+          "title": "openid.net"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "OpenID Foundation",
+    "domain": "openid.net",
+    "description": "The OpenID Foundation (OIDF) is a non-profit international organization founded in June 2007 that promotes and supports OpenID technologies, providing a vital internet identity layer and API protection. It serves as a public trust for developers, vendors, and users, offering infrastructure and facilitating the expanded adoption of OpenID through brand management and community engagement."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "OpenID Foundation",
+  "evidence": "Passage 0 directly states that the vendor directly providing the website and organization services for OpenID Foundation at openid.net is the OpenID Foundation (an Oregon non-profit public benefit corporation).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the website and organization services for **OpenID Foundation** at **openid.net** is the **OpenID Foundation** (an Oregon non-profit public benefit corporation)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4Sw9nyvGnY9tDLl2u6FFgfDC0BLBm2P4sCFrSrcISawJgLJ1NncspHEvdhrr6vX9Xk1WSDrKtJdHJ5SYPjVdSkDedn5iKzkO2rT1uwsFmYLec_vZT3z-dp3VYhHab5RP9z5U07c1pMBE=",
+    "title": "openid.net"
+  },
+  "checked_at": "2026-11-05T08:40:51.707719+00:00"
+}

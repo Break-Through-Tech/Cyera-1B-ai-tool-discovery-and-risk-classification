@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product **EmailWritr** at **emailwritr.com** is **EmailWritr LLC**.\n\n### Supporting Evidence & Citation\n* **Operating Company:** According to the legal terms/return and refund policy on `emailwritr.com`:\n  > *\"Company (referred to as either “the Company”, “We”, “Us” or “Our” in this Agreement) refers to EmailWritr LLC, 1309 Coffeen Avenue STE 1200, Sheridan, Wyoming, Wyoming 82801 US\"* with *\"Website refers to My Site, accessible from https://emailwritr.com\"*.\n* **Leadership / Founders:** The company was founded by Peter Onwe (Founder & CEO) alongside Augustine Esheya (Co-Founder) and Kevin Chukwu (CTO).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product **EmailWritr** at **emailwritr.com** is **EmailWritr LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWRrzKSVPwWtCW5y9_jo3Oe1G35gOnZy3WYvByr76-uLMG4SC9ynbw07tnPFre2ry_K5sw466sHXm8kv1Ej4BTSYJu_h-5rP1lOe0Db_tuGOotwAurRqvFLrdX0vsAlZ9r6lsH",
+          "title": "dfyemail.biz"
+        },
+        {
+          "id": 1,
+          "text": "*\"Company (referred to as either “the Company”, “We”, “Us” or “Our” in this Agreement) refers to EmailWritr LLC, 1309 Coffeen Avenue STE 1200, Sheridan, Wyoming, Wyoming 82801 US\"* with *\"Website refers to My Site, accessible from https://emailwritr.com\"*.\n* **Leadership",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWRrzKSVPwWtCW5y9_jo3Oe1G35gOnZy3WYvByr76-uLMG4SC9ynbw07tnPFre2ry_K5sw466sHXm8kv1Ej4BTSYJu_h-5rP1lOe0Db_tuGOotwAurRqvFLrdX0vsAlZ9r6lsH",
+          "title": "dfyemail.biz"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "EmailWritr LLC",
+        "evidence": "Passage 1 states that 'Company' refers to EmailWritr LLC in connection with the website accessible from https://emailwritr.com.",
+        "source": {
+          "id": 1,
+          "text": "*\"Company (referred to as either “the Company”, “We”, “Us” or “Our” in this Agreement) refers to EmailWritr LLC, 1309 Coffeen Avenue STE 1200, Sheridan, Wyoming, Wyoming 82801 US\"* with *\"Website refers to My Site, accessible from https://emailwritr.com\"*.\n* **Leadership",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWRrzKSVPwWtCW5y9_jo3Oe1G35gOnZy3WYvByr76-uLMG4SC9ynbw07tnPFre2ry_K5sw466sHXm8kv1Ej4BTSYJu_h-5rP1lOe0Db_tuGOotwAurRqvFLrdX0vsAlZ9r6lsH",
+          "title": "dfyemail.biz"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "EmailWritr",
+    "domain": "emailwritr.com",
+    "description": "Email sequence creation for marketing campaigns."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "EmailWritr LLC",
+  "evidence": "Passage 1 states that 'Company' refers to EmailWritr LLC in connection with the website accessible from https://emailwritr.com.",
+  "source": {
+    "id": 1,
+    "text": "*\"Company (referred to as either “the Company”, “We”, “Us” or “Our” in this Agreement) refers to EmailWritr LLC, 1309 Coffeen Avenue STE 1200, Sheridan, Wyoming, Wyoming 82801 US\"* with *\"Website refers to My Site, accessible from https://emailwritr.com\"*.\n* **Leadership",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWRrzKSVPwWtCW5y9_jo3Oe1G35gOnZy3WYvByr76-uLMG4SC9ynbw07tnPFre2ry_K5sw466sHXm8kv1Ej4BTSYJu_h-5rP1lOe0Db_tuGOotwAurRqvFLrdX0vsAlZ9r6lsH",
+    "title": "dfyemail.biz"
+  },
+  "checked_at": "2026-11-05T06:30:51.697353+00:00"
+}

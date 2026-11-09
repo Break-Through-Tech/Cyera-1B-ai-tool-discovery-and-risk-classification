@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Mailchimp** at **mailchimp.com** is **The Rocket Science Group LLC** (doing business as **Mailchimp**), a subsidiary of Intuit Inc.\n\n### Provider Statement\nAccording to **Mailchimp's Standard Terms of Use** (`mailchimp.com/legal/terms`):\n> *\"By using the Service (defined below) or signing up for an account, you're agreeing to these Terms, which will result in a legal agreement between you and The Rocket Science Group LLC d/b/a Mailchimp (collectively, “Mailchimp,” “we,” or “us”). Mailchimp is part of the Intuit group of companies and our parent entity is Intuit Inc.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Mailchimp** at **mailchimp.com** is **The Rocket Science Group LLC** (doing business as **Mailchimp**), a subsidiary of Intuit Inc.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmC88yS28EKxKGIoYxzRI4qTX3BTloKTnAT7_GbDhnhrcx4eWkff3z0xlfZqz_eCdkIB_CSYcAAHEP9EM_9nG2YugX0rL5li1607D_riq99yMfv8bo7nfM",
+          "title": "mailchimp.com"
+        },
+        {
+          "id": 1,
+          "text": "Terms, which will result in a legal agreement between you and The Rocket Science Group LLC d/b/a Mailchimp (collectively, “Mailchimp,” “we,” or “us”). Mailchimp is part of the Intuit group of companies and our parent entity is In",
+          "url": "https://mailchimp.com/legal/marketing-health-check/",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "The Rocket Science Group LLC",
+        "evidence": "The vendor directly providing Mailchimp at mailchimp.com is identified as The Rocket Science Group LLC (doing business as Mailchimp).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Mailchimp** at **mailchimp.com** is **The Rocket Science Group LLC** (doing business as **Mailchimp**), a subsidiary of Intuit Inc.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmC88yS28EKxKGIoYxzRI4qTX3BTloKTnAT7_GbDhnhrcx4eWkff3z0xlfZqz_eCdkIB_CSYcAAHEP9EM_9nG2YugX0rL5li1607D_riq99yMfv8bo7nfM",
+          "title": "mailchimp.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Mailchimp",
+    "domain": "mailchimp.com",
+    "description": "Mailchimp is a leading email marketing and automation platform designed to help businesses convert leads into customers. Through real-time behavioral data and automated triggers, it offers personalized email marketing solutions tailored to individual customer preferences. Based in the United States, Mailchimp caters primarily to small and medium-sized businesses, providing tools that simplify marketing processes and enhance customer engagement."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "The Rocket Science Group LLC",
+  "evidence": "The vendor directly providing Mailchimp at mailchimp.com is identified as The Rocket Science Group LLC (doing business as Mailchimp).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Mailchimp** at **mailchimp.com** is **The Rocket Science Group LLC** (doing business as **Mailchimp**), a subsidiary of Intuit Inc.",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmC88yS28EKxKGIoYxzRI4qTX3BTloKTnAT7_GbDhnhrcx4eWkff3z0xlfZqz_eCdkIB_CSYcAAHEP9EM_9nG2YugX0rL5li1607D_riq99yMfv8bo7nfM",
+    "title": "mailchimp.com"
+  },
+  "checked_at": "2026-11-05T08:38:21.873901+00:00"
+}

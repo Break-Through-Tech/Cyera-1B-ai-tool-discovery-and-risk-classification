@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The operating company directly providing the software product **PrestaShop** at **prestashop.com** is **PrestaShop SA**.\n\n### Evidence\nAccording to the official Legal Notice on **prestashop.com**:\n> *\"The website www.prestashop.com is owned by PrestaShop SA, corporation company with a capital of 857,946.45 €. The headquarters are located at 82 Avenue du Maine, 75014 Paris, France. RCS registration number: B 497 916 635.\"*\n\nIts privacy policy further confirms that **PrestaShop SA** is the entity operating the platform and acting as the data controller.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The operating company directly providing the software product **PrestaShop** at **prestashop.com** is **PrestaShop SA**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSJGIc9R9EBPi6RxpWyUxk2Gq0PmlY6kFQ7w-HWOFkoCdJ2ARdBnSl8rAcBjQnskfqkBofmFP1eO4BkMXnliKV51HhAaiTao9u-t3qpiUt74qVggzzrF-L3qI=",
+          "title": "prestashop.com"
+        },
+        {
+          "id": 1,
+          "text": "S registration number: B 497 916 635.\"*\n\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSJGIc9R9EBPi6RxpWyUxk2Gq0PmlY6kFQ7w-HWOFkoCdJ2ARdBnSl8rAcBjQnskfqkBofmFP1eO4BkMXnliKV51HhAaiTao9u-t3qpiUt74qVggzzrF-L3qI=",
+          "title": "prestashop.com"
+        },
+        {
+          "id": 2,
+          "text": "The website www.prestashop.com is owned by PrestaShop SA, corporation company with a capital of 857,946.45 €. The headquarters are located at 82 Avenue du Maine, 75014 Paris, France. RCS registration number: B 497 916 635",
+          "url": "https://prestashop.com/legal-notice/",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "PrestaShop SA",
+        "evidence": "Passage 0 directly states that the operating company providing the software product PrestaShop at prestashop.com is PrestaShop SA.",
+        "source": {
+          "id": 0,
+          "text": "The operating company directly providing the software product **PrestaShop** at **prestashop.com** is **PrestaShop SA**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSJGIc9R9EBPi6RxpWyUxk2Gq0PmlY6kFQ7w-HWOFkoCdJ2ARdBnSl8rAcBjQnskfqkBofmFP1eO4BkMXnliKV51HhAaiTao9u-t3qpiUt74qVggzzrF-L3qI=",
+          "title": "prestashop.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "PrestaShop",
+    "domain": "prestashop.com",
+    "description": "PrestaShop is a leading open-source ecommerce platform headquartered in Europe, designed to facilitate the digital transformation of businesses globally. With around 250,000 online stores utilizing its solutions, PrestaShop enables merchants to efficiently manage their online sales through tools such as secure payment systems, performance analysis, and web marketing. In partnership with MBE Worldwide, PrestaShop continues to expand its offerings, helping businesses achieve significant growth in online sales, exemplified by over 22 million euros generated in 2023."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "PrestaShop SA",
+  "evidence": "Passage 0 directly states that the operating company providing the software product PrestaShop at prestashop.com is PrestaShop SA.",
+  "source": {
+    "id": 0,
+    "text": "The operating company directly providing the software product **PrestaShop** at **prestashop.com** is **PrestaShop SA**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSJGIc9R9EBPi6RxpWyUxk2Gq0PmlY6kFQ7w-HWOFkoCdJ2ARdBnSl8rAcBjQnskfqkBofmFP1eO4BkMXnliKV51HhAaiTao9u-t3qpiUt74qVggzzrF-L3qI=",
+    "title": "prestashop.com"
+  },
+  "checked_at": "2026-11-05T08:17:34.002962+00:00"
+}

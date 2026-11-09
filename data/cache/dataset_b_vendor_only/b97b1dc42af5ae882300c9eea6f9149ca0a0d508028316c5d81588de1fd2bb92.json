@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **WeTransfer** software product at **wetransfer.com** is **WeTransfer B.V.**\n\n### Provider Statement\nAccording to the official [Terms of Service](https://wetransfer.com/legal/terms) for WeTransfer:\n> *\"These Terms of Service (these “Terms”) constitute a legally binding agreement between you (“you” or “your”) and Wetransfer B.V. (“WeTransfer”, “we, “us”, or “our”). These Terms govern your access and use of our websites where these Terms are posted (the “Sites”), our mobile applications (the “Apps”), and our related content, products, and services...\"*\n\nAdditionally, the terms state:\n> *\"The Services are provided to you as the user of the Services by WeTransfer B.V. (“WeTransfer”, “We”), with its main office at Willem Fenengastraat 19, 1096 BL Amsterdam, the Netherlands, registered at the Dutch Chamber of Commerce under 34380998.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **WeTransfer** software product at **wetransfer.com** is **WeTransfer B.V.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVIdRw1Xxrqq7GUJKkOyOGZGNJpTtm06FW_OLBwgyEBc0WcsrK2JrHubyJKrW-r-hUwUIZvuZq8VZdc7cLTo-v8BfY1T_AUjUk4OiU3S55GeZcnZhZpveh3cK0e3BrmxI=",
+          "title": "wetransfer.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the **WeTransfer** software product at **wetransfer.com** is **WeTransfer B.V.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBeEE2z169F0jsGj06SLTQCA0CSXoCLJGiO6Z3-J3TAsfit2T3EmDmfyqfYvoYeXZ-tzDXdg_UnM2FbfIhYLsofDRJ2HmhQLgHBgP3wg3tiZiq7HERuZ059LmIJdJZOtWgM_8V_rbsUA9fhZByHl--RHTclihBNRgv9dmUYOjeh8sH_dksQGMjTKXpQeH6zLwtloKBmg==",
+          "title": "wetransfer.com"
+        },
+        {
+          "id": 2,
+          "text": "cess and use of our websites where these Terms are posted (the “Sites”), our mobile applications (the “Apps”), and our related content, products, and services...\"*\n\nAdditionally, the terms state:\n>",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVIdRw1Xxrqq7GUJKkOyOGZGNJpTtm06FW_OLBwgyEBc0WcsrK2JrHubyJKrW-r-hUwUIZvuZq8VZdc7cLTo-v8BfY1T_AUjUk4OiU3S55GeZcnZhZpveh3cK0e3BrmxI=",
+          "title": "wetransfer.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "WeTransfer B.V.",
+        "evidence": "Passage 0 confirms that the vendor directly providing the WeTransfer software product at wetransfer.com is WeTransfer B.V.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the **WeTransfer** software product at **wetransfer.com** is **WeTransfer B.V.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVIdRw1Xxrqq7GUJKkOyOGZGNJpTtm06FW_OLBwgyEBc0WcsrK2JrHubyJKrW-r-hUwUIZvuZq8VZdc7cLTo-v8BfY1T_AUjUk4OiU3S55GeZcnZhZpveh3cK0e3BrmxI=",
+          "title": "wetransfer.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "WeTransfer",
+    "domain": "wetransfer.com",
+    "description": "WeTransfer is a platform that offers secure file transferring and creative collaboration tools, facilitating the efficient sharing of ideas and digital assets. With a focus on simplicity and user-friendliness, WeTransfer enhances the collaborative process for individuals and teams across various industries."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "WeTransfer B.V.",
+  "evidence": "Passage 0 confirms that the vendor directly providing the WeTransfer software product at wetransfer.com is WeTransfer B.V.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the **WeTransfer** software product at **wetransfer.com** is **WeTransfer B.V.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVIdRw1Xxrqq7GUJKkOyOGZGNJpTtm06FW_OLBwgyEBc0WcsrK2JrHubyJKrW-r-hUwUIZvuZq8VZdc7cLTo-v8BfY1T_AUjUk4OiU3S55GeZcnZhZpveh3cK0e3BrmxI=",
+    "title": "wetransfer.com"
+  },
+  "checked_at": "2026-11-05T10:09:18.994939+00:00"
+}

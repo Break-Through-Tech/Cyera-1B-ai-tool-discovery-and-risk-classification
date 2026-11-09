@@ -1,0 +1,79 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the web analytics and traffic ranking software product at **alexa.com** is **Alexa Internet, Inc.** (operating as a subsidiary of Amazon.com).\n\n### Supporting Evidence:\n* **Operating Entity and Service Notices:** Disclosures and end-of-service documentation for `alexa.com` identify the operating company as **Alexa Internet, Inc.**: \n  > *\"Twenty-five years ago, we founded Alexa Internet. After two decades of helping you find, reach, and convert your digital audience, we've made the difficult decision to retire Alexa.com on May 1, 2022.\"*\n* **Legal and Privacy Terms:** Privacy disclosures and terms for the software service explicitly identify it as provided by the entity: \n  > *\"Alexa Metrics is an analytics service provided by Alexa Internet, Inc.\"* (referencing `alexa.com`).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the web analytics and traffic ranking software product at **alexa.com** is **Alexa Internet, Inc.** (operating as a subsidiary of Amazon.com)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2rUyFA-XGVeNzQ0oI3T7nxrkiEGJghLHyCQmrIyKQlYSzPx--ClFKPw0nfr3CRwUXS_NWnnPARlkhvdeKjiRZxFFk8DJlDQ91XcE6icsw-qs2Y129EkFknUurXXbaaeCC8g==",
+          "title": "wikipedia.org"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the web analytics and traffic ranking software product at **alexa.com** is **Alexa Internet, Inc.** (operating as a subsidiary of Amazon.com)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3V3GBq2pBPhR68iymTSASwj-X29mBduD6Drcd_lma5WhrRjeyZJbsAzt-33inIVuw0OrfN-Lw_9hJnokCQAFVhpBQkSc9ehvF7SKkZx45oQfIaO0SJH7wjjJIiA==",
+          "title": "icontact.com"
+        },
+        {
+          "id": 2,
+          "text": "**Operating Entity and Service Notices:** Disclosures and end-of-service documentation for `alexa.com` identify the operating company as **Alexa Internet, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2rUyFA-XGVeNzQ0oI3T7nxrkiEGJghLHyCQmrIyKQlYSzPx--ClFKPw0nfr3CRwUXS_NWnnPARlkhvdeKjiRZxFFk8DJlDQ91XcE6icsw-qs2Y129EkFknUurXXbaaeCC8g==",
+          "title": "wikipedia.org"
+        },
+        {
+          "id": 3,
+          "text": "**Operating Entity and Service Notices:** Disclosures and end-of-service documentation for `alexa.com` identify the operating company as **Alexa Internet, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHud8c6s7ujD3jgpeFmrcrhFjIvbihu3S6NRZWV5Ko5_NPV-8WzVcE67IpNusHnKSUQqVH9_CY7nQT6exOyqip3a9Z9MCg4mBDk_iEFnGhpngu0uQJzP4lxGGU1aZ7XjK8IFvX-nAeGTHduTfs8f2i-CudtJFOjx-i_",
+          "title": "mashable.com"
+        },
+        {
+          "id": 4,
+          "text": "After two decades of helping you find, reach, and convert your digital audience, we've made the difficult decision to retire Alexa.com on May 1, 2022.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQZK101xJoLfp7koM2l8F7MKTPoQLrwFOpsIj5cUzKQ_2yR5chhTi7j6tNSZqFnV5WRcEYUPGRVmhpQpuuzUKO89PdacKR1GtS-KRkKRFGFUlLEv0LYfGQuuNkq3rzXZaNfNwcr9yiJp7kAKfK3HiZ-ZeiShQfuvrJYQ==",
+          "title": "gizmodo.com"
+        },
+        {
+          "id": 5,
+          "text": "*\"Alexa Metrics is an analytics service provided by Alexa Internet, Inc.\"* (referencing `alexa.com`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFq7916KuHntHSM6oJlchNZbpTV9zojk7ZqeqdIeuuH7DpOGyT4riPmhShcH7nsiJruJTeWawp5BBatz7370ga6g91uiXVkUYF1WTHLgUjj_lXO3r9uhGsH7N_-",
+          "title": "uselbs.com"
+        },
+        {
+          "id": 6,
+          "text": "*\"Alexa Metrics is an analytics service provided by Alexa Internet, Inc.\"* (referencing `alexa.com`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaAdl0eq-lD1IkADYTlwZnGn8RkShxotQxFK3mLJAnG30tPHC5kD4b-2ue-XV09mab7LUnsIXymHjplrjHVEGkKUot8TLVyYUtK-QALz1OHNUqT_jGjH1l3Yaa",
+          "title": "uselbs.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Alexa Internet, Inc.",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing the web analytics and traffic ranking software product at alexa.com is Alexa Internet, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the web analytics and traffic ranking software product at **alexa.com** is **Alexa Internet, Inc.** (operating as a subsidiary of Amazon.com)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2rUyFA-XGVeNzQ0oI3T7nxrkiEGJghLHyCQmrIyKQlYSzPx--ClFKPw0nfr3CRwUXS_NWnnPARlkhvdeKjiRZxFFk8DJlDQ91XcE6icsw-qs2Y129EkFknUurXXbaaeCC8g==",
+          "title": "wikipedia.org"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Alexa",
+    "domain": "alexa.com",
+    "description": "Alexa is a leading provider of web analytics solutions, specializing in transforming data into actionable insights that enhance competitive advantages for businesses. Established in 1996 and based in the U.S., Alexa offers a comprehensive suite of intuitive analytical tools designed to deliver precise insights without unnecessary distractions, aiding companies in achieving measurable results. As a subsidiary of Amazon.com, Alexa combines industry expertise with the backing of a major corporation, creating a dynamic work environment focused on innovation and customer empowerment."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Alexa Internet, Inc.",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing the web analytics and traffic ranking software product at alexa.com is Alexa Internet, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the web analytics and traffic ranking software product at **alexa.com** is **Alexa Internet, Inc.** (operating as a subsidiary of Amazon.com)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2rUyFA-XGVeNzQ0oI3T7nxrkiEGJghLHyCQmrIyKQlYSzPx--ClFKPw0nfr3CRwUXS_NWnnPARlkhvdeKjiRZxFFk8DJlDQ91XcE6icsw-qs2Y129EkFknUurXXbaaeCC8g==",
+    "title": "wikipedia.org"
+  },
+  "checked_at": "2026-11-05T08:02:41.245071+00:00"
+}

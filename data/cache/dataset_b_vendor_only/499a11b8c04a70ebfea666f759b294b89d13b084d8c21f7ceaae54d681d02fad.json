@@ -1,0 +1,79 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on the official website and legal documentation for **Just Resignation Letters** at **resign.ai**:\n\n* **Operating Entity / Company Name:** In its official Privacy Policy (accessible at `resign.ai/privacy-policy/`), the operating entity is defined as:\n  > *\"Company (referred to as either 'the Company', 'We', 'Us' or 'Our' in this Agreement) refers to Generate The Perfect Resignation Letter.\"*\n  > *\"Country refers to: California, United States\"*\n\n* **Provider / Service Brand:** The service operates directly under the brand names **Just Resignation Letters** (as indicated in page headers and document titles such as *\"Privacy Policy Just Resignation Letters\"*) and **Resign.ai**. \n\n* **Direct Contact:** The policy provides the contact email for the operator as `techindemnity@gmail.com`. No other corporate parent or individual developer is publicly identified on the domain.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "*\"Company (referred to as either 'the Company', 'We', 'Us' or 'Our' in this Agreement) refers to Generate The Perfect Resignation Letter.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3wwEtWx5deSGF1jyyJfyuwTFJ8CldPspsnqDMZGOB5DuPJELkJAWXiDwOpkaAueGa-lrO_OmpqGsvOSUP8ru-YLgXFds9myWp9e2KaVBLIVTIFZdiDZPWBUle",
+          "title": "resign.ai"
+        },
+        {
+          "id": 1,
+          "text": "*\"Country refers to: California, United States\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3wwEtWx5deSGF1jyyJfyuwTFJ8CldPspsnqDMZGOB5DuPJELkJAWXiDwOpkaAueGa-lrO_OmpqGsvOSUP8ru-YLgXFds9myWp9e2KaVBLIVTIFZdiDZPWBUle",
+          "title": "resign.ai"
+        },
+        {
+          "id": 2,
+          "text": "**Provider / Service Brand:** The service operates directly under the brand names **Just Resignation Letters** (as indicated in page headers and document titles such as *\"Privacy Policy Just Resignation Letters\"*) and **Resign.ai**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0OwtkFC7VgJqR71vK6aCvwcokBJY6mVpsvSq2EQEMuIv6Z3z7tVYfkPNu65GfId3I2Q0NQIdZPj39zbRdGFgjzagey1bPCQy3VG2G",
+          "title": "resign.ai"
+        },
+        {
+          "id": 3,
+          "text": "**Provider / Service Brand:** The service operates directly under the brand names **Just Resignation Letters** (as indicated in page headers and document titles such as *\"Privacy Policy Just Resignation Letters\"*) and **Resign.ai**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNlf9ThwjG0V1ZRvNN3aL6__TzSNDb3Q5Q0OHmy1evEiBHe8f2L5LE_1w8KZ1a-UAlUWZnjdRqDFXtdB0N1k2tKLAgA3JV2dPYlUebeDluYpULueUuU8mgl3VL",
+          "title": "resign.ai"
+        },
+        {
+          "id": 4,
+          "text": "**Direct Contact:** The policy provides the contact email for the operator as `techindemnity@gmail.com`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjjyOsNKvBPFNrkbnYFt0diJ8OTpzquQQO_smwMpa2WSBfNsHUo8bz5nm4PKrpFssna9CEVgip7Rxp8dVmrfqJFYKJW2oOAE2G3AfifLICdEFajZRFJ8imfIJ7",
+          "title": "resign.ai"
+        },
+        {
+          "id": 5,
+          "text": "No other corporate parent or individual developer is publicly identified on the domain",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNlf9ThwjG0V1ZRvNN3aL6__TzSNDb3Q5Q0OHmy1evEiBHe8f2L5LE_1w8KZ1a-UAlUWZnjdRqDFXtdB0N1k2tKLAgA3JV2dPYlUebeDluYpULueUuU8mgl3VL",
+          "title": "resign.ai"
+        },
+        {
+          "id": 6,
+          "text": "No other corporate parent or individual developer is publicly identified on the domain",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMCjZhATj-W0cbG1T4oElk5_w-qspaC5te0fHJq9IW22AqhoOAH5G7p7fJA4b_F186jyatr_odnAPs-VwvPCmqQHb2bx3U0PXsyobbpp1iuBvdMTFu5E1f7nHcd_kim6QT",
+          "title": "wmtips.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Generate The Perfect Resignation Letter",
+        "evidence": "The official Privacy Policy defines the operating company as: 'Company (referred to as either 'the Company', 'We', 'Us' or 'Our' in this Agreement) refers to Generate The Perfect Resignation Letter.'",
+        "source": {
+          "id": 0,
+          "text": "*\"Company (referred to as either 'the Company', 'We', 'Us' or 'Our' in this Agreement) refers to Generate The Perfect Resignation Letter.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3wwEtWx5deSGF1jyyJfyuwTFJ8CldPspsnqDMZGOB5DuPJELkJAWXiDwOpkaAueGa-lrO_OmpqGsvOSUP8ru-YLgXFds9myWp9e2KaVBLIVTIFZdiDZPWBUle",
+          "title": "resign.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Just Resignation Letters",
+    "domain": "resign.ai",
+    "description": "The perfect resignation letter in minutes, generated by AI"
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Generate The Perfect Resignation Letter",
+  "evidence": "The official Privacy Policy defines the operating company as: 'Company (referred to as either 'the Company', 'We', 'Us' or 'Our' in this Agreement) refers to Generate The Perfect Resignation Letter.'",
+  "source": {
+    "id": 0,
+    "text": "*\"Company (referred to as either 'the Company', 'We', 'Us' or 'Our' in this Agreement) refers to Generate The Perfect Resignation Letter.\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3wwEtWx5deSGF1jyyJfyuwTFJ8CldPspsnqDMZGOB5DuPJELkJAWXiDwOpkaAueGa-lrO_OmpqGsvOSUP8ru-YLgXFds9myWp9e2KaVBLIVTIFZdiDZPWBUle",
+    "title": "resign.ai"
+  },
+  "checked_at": "2026-11-05T07:15:30.148535+00:00"
+}

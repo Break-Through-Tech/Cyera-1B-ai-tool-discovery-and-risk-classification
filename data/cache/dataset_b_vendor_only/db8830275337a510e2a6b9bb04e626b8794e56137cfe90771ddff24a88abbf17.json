@@ -1,0 +1,43 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **Roboflow** software platform at **roboflow.com** is **Roboflow, Inc.**\n\n### Provider Statement\nAccording to the *Roboflow Website and Mobile Application Terms of Use Agreement* (at `roboflow.com/terms`):\n> *\"This Website and Mobile Application Terms of Use Agreement governs Your access to and use of all websites, mobile websites, and mobile applications owned and operated by Roboflow, Inc. (“Company” or “we” or “us” or “our”), including, but not limited to websites, mobile websites, and mobile applications available at: roboflow.com; app.roboflow.com; universe.roboflow.com...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **Roboflow** software platform at **roboflow.com** is **Roboflow, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGW8ybK5sGaYKVKlpBsvpWYzVDPLoJdxnKn2hvtGpbfHij4gKg1mZOOPPOF7b88CdvRjVnoGcmGUZVrbNCq9CbGsSS9Uszob9Zqq3puOnqWvA==",
+          "title": "roboflow.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Roboflow, Inc.",
+        "evidence": "Passage 0 explicitly identifies Roboflow, Inc. as the vendor directly providing the Roboflow software platform at roboflow.com.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the **Roboflow** software platform at **roboflow.com** is **Roboflow, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGW8ybK5sGaYKVKlpBsvpWYzVDPLoJdxnKn2hvtGpbfHij4gKg1mZOOPPOF7b88CdvRjVnoGcmGUZVrbNCq9CbGsSS9Uszob9Zqq3puOnqWvA==",
+          "title": "roboflow.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Roboflow",
+    "domain": "roboflow.com",
+    "description": "Train a computer vision model in an afternoon with images."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Roboflow, Inc.",
+  "evidence": "Passage 0 explicitly identifies Roboflow, Inc. as the vendor directly providing the Roboflow software platform at roboflow.com.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the **Roboflow** software platform at **roboflow.com** is **Roboflow, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGW8ybK5sGaYKVKlpBsvpWYzVDPLoJdxnKn2hvtGpbfHij4gKg1mZOOPPOF7b88CdvRjVnoGcmGUZVrbNCq9CbGsSS9Uszob9Zqq3puOnqWvA==",
+    "title": "roboflow.com"
+  },
+  "checked_at": "2026-11-05T07:56:13.710696+00:00"
+}

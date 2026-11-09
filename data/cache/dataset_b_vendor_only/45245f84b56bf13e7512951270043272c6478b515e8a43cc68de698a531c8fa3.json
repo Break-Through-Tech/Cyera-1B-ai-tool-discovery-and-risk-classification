@@ -1,0 +1,85 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on the legal and corporate documentation on **winzip.com**, the software products and website are provided by **Corel Corporation** and its operating subsidiary **WinZip Computing** (specifically **WinZip Computing S.L.**):\n\n* **Software Licensing / EULA:** WinZip's End-User License Agreement states: \n  > *\"This EULA is a legal agreement between You and WinZip Computing S.L., a wholly-owned subsidiary of Corel Corporation, including any affiliates and contractors acting on Our behalf (collectively 'WinZip', 'Us', 'We', or 'Our') regarding Your use of the Software.\"*\n* **Website and Online Services Terms of Use:** The Terms of Use and Service specify:\n  > *\"By (i) signing-up for a membership, service or a subscription, (ii) using this product with online functionality, this web site ('Site') or other online service of Corel Corporation, its affiliates and agents ('Corel')...\"*\n* **Contact & Operating Entity:** The contact page identifies the Mansfield, CT operations as **WinZip Computing** (*PO Box 540, Mansfield, CT 06268, USA*), with site copyright held by **Corel Corporation**.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "Based on the legal and corporate documentation on **winzip.com**, the software products and website are provided by **Corel Corporation** and its operating subsidiary **WinZip Computing** (specifically **WinZip Computing S.L.**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIQxT_8S8Jwz88_cwJKWhYtj-B6LEsuKrIkc0r5mfCuisn7F1yLPBK-hyIoHUGZdz5k5A7pv2E72cnNrciI5sQvSist02K-PJdPmdRyPPUidr3HYebecZGIGJP4nusSUb5nMnZpBVnErp3TA==",
+          "title": "winzip.com"
+        },
+        {
+          "id": 1,
+          "text": "Based on the legal and corporate documentation on **winzip.com**, the software products and website are provided by **Corel Corporation** and its operating subsidiary **WinZip Computing** (specifically **WinZip Computing S.L.**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbvsOgP-M6ckRZY_w-TKp-xY4Ujamu1Js_2S-dkMB6mMpDdtBYxBWSjqHjJi5wis4p87evosTHG2Ljp1pinYK7QVtUCf7UzNJmJ6ph2fnFpOn9WR4nwhFhifVd2vFu0mnJDpG82iazig==",
+          "title": "winzipsystemtools.com"
+        },
+        {
+          "id": 2,
+          "text": "Based on the legal and corporate documentation on **winzip.com**, the software products and website are provided by **Corel Corporation** and its operating subsidiary **WinZip Computing** (specifically **WinZip Computing S.L.**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELxQzxR6Xv0rVhTtHJnlPaTrn6C954_Oj4pDO7efUPY3nrOpw6uysHSxe2p43XSPu5LF6X4siEe72o23tEFEDRxjqN0l9Zycxn7-zonwo-AhhC2HhnntmQtH322mkI9A==",
+          "title": "winzip.com"
+        },
+        {
+          "id": 3,
+          "text": "*\"This EULA is a legal agreement between You and WinZip Computing S.L., a wholly-owned subsidiary of Corel Corporation, including any affiliates and contractors acting on Our behalf (collectively 'WinZip', 'Us', 'We', or 'Our') regarding Your use of the Software.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbvsOgP-M6ckRZY_w-TKp-xY4Ujamu1Js_2S-dkMB6mMpDdtBYxBWSjqHjJi5wis4p87evosTHG2Ljp1pinYK7QVtUCf7UzNJmJ6ph2fnFpOn9WR4nwhFhifVd2vFu0mnJDpG82iazig==",
+          "title": "winzipsystemtools.com"
+        },
+        {
+          "id": 4,
+          "text": "*\"By (i) signing-up for a membership, service or a subscription, (ii) using this product with online functionality, this web site ('Site') or other online service of Corel Corporation, its affiliates and agents ('Corel')...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIQxT_8S8Jwz88_cwJKWhYtj-B6LEsuKrIkc0r5mfCuisn7F1yLPBK-hyIoHUGZdz5k5A7pv2E72cnNrciI5sQvSist02K-PJdPmdRyPPUidr3HYebecZGIGJP4nusSUb5nMnZpBVnErp3TA==",
+          "title": "winzip.com"
+        },
+        {
+          "id": 5,
+          "text": "**Contact & Operating Entity:** The contact page identifies the Mansfield, CT operations as **WinZip Computing** (*PO Box 540, Mansfield, CT 06268, USA*), with site copyright held by **Corel Corporation**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrZAspTVpWAWS4SONDMs78Sky5hgupIbuI5cFYJeHDX8iVPFXBG8MjaGCMvAV9hnSoL6Cqs5vC9yX_ExfYuAcuTdzbKhYVjJKVB0hJhN6OoWcq1Qap0SdYyjdWh7AS",
+          "title": "winzip.com"
+        },
+        {
+          "id": 6,
+          "text": "**Contact & Operating Entity:** The contact page identifies the Mansfield, CT operations as **WinZip Computing** (*PO Box 540, Mansfield, CT 06268, USA*), with site copyright held by **Corel Corporation**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELxQzxR6Xv0rVhTtHJnlPaTrn6C954_Oj4pDO7efUPY3nrOpw6uysHSxe2p43XSPu5LF6X4siEe72o23tEFEDRxjqN0l9Zycxn7-zonwo-AhhC2HhnntmQtH322mkI9A==",
+          "title": "winzip.com"
+        },
+        {
+          "id": 7,
+          "text": "By (i) signing-up for a membership, service or a subscription, (ii) using this product with online functionality, this web site ('Site') or other online service of Corel Corporation, its affiliates and agents ('Core",
+          "url": "https://www.corel.com/en/terms-of-service/",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Corel Corporation",
+        "evidence": "Passage 0 states that based on legal and corporate documentation on winzip.com, the software products and website are provided by Corel Corporation and its operating subsidiary WinZip Computing.",
+        "source": {
+          "id": 0,
+          "text": "Based on the legal and corporate documentation on **winzip.com**, the software products and website are provided by **Corel Corporation** and its operating subsidiary **WinZip Computing** (specifically **WinZip Computing S.L.**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIQxT_8S8Jwz88_cwJKWhYtj-B6LEsuKrIkc0r5mfCuisn7F1yLPBK-hyIoHUGZdz5k5A7pv2E72cnNrciI5sQvSist02K-PJdPmdRyPPUidr3HYebecZGIGJP4nusSUb5nMnZpBVnErp3TA==",
+          "title": "winzip.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "WinZip International",
+    "domain": "winzip.com",
+    "description": "WinZip International, headquartered in Mansfield, CT, is the leading provider of zip utilities globally, with over a billion downloads. The company offers a range of applications for Windows, Mac, iOS, and Android, as well as online compression services through ZipShare and system utilities through the WinZip System Utilities Suite. WinZip specializes in compression and encryption solutions, catering to various digital platforms including email, mobile, social media, and cloud services."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Corel Corporation",
+  "evidence": "Passage 0 states that based on legal and corporate documentation on winzip.com, the software products and website are provided by Corel Corporation and its operating subsidiary WinZip Computing.",
+  "source": {
+    "id": 0,
+    "text": "Based on the legal and corporate documentation on **winzip.com**, the software products and website are provided by **Corel Corporation** and its operating subsidiary **WinZip Computing** (specifically **WinZip Computing S.L.**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIQxT_8S8Jwz88_cwJKWhYtj-B6LEsuKrIkc0r5mfCuisn7F1yLPBK-hyIoHUGZdz5k5A7pv2E72cnNrciI5sQvSist02K-PJdPmdRyPPUidr3HYebecZGIGJP4nusSUb5nMnZpBVnErp3TA==",
+    "title": "winzip.com"
+  },
+  "checked_at": "2026-11-05T09:24:21.132858+00:00"
+}

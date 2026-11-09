@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product at **backblaze.com** is **Backblaze, Inc.**.\n\n### Evidence\nFrom the official Backblaze Terms of Service and Privacy Policy:\n* *“These Terms of Service (‘Terms’) are a legal agreement between you and Backblaze, Inc. (‘Backblaze’, ‘we’, ‘us’, or ‘our’) and apply to your use of our website and our products and services... such as Backblaze Computer Backup or Backblaze B2 Cloud Storage (collectively, the ‘Service(s)’).”*\n* *“This Notice at Collection and Privacy Policy (‘Privacy Notice’) describes how Backblaze, Inc. (‘Backblaze,’ the ‘Company,’ ‘we,’ ‘our,’ or ‘us’) collects, uses, discloses, processes, and retains personal information... This Privacy Notice applies when you visit our website (www.Backblaze.com), use the Backblaze App...”*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product at **backblaze.com** is **Backblaze, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHp94P1-xNkgmr6gmJA9rYieloPOYz6pzjYw8oZ5f-HmqiMIfjXTCJI-Ykz4XMYcTdV5SF8cg6GA1ADtlXPJ8KYGDeYXOvR1wxIihjqQux66Fzpk-YmzdoKWwIcdYdVikCp27_sZaNT1f_jxcE1XpA=",
+          "title": "backblaze.com"
+        },
+        {
+          "id": 1,
+          "text": "*“These Terms of Service (‘Terms’) are a legal agreement between you and Backblaze, Inc. (‘Backblaze’, ‘we’, ‘us’, or ‘our’) and apply to your use of our website and our products and services... such as Backblaze Computer Backup or Backblaze B2 Cloud Storage (collectively, the ‘Service(s)’).”*\n* *“This Notice at Collecti",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHp94P1-xNkgmr6gmJA9rYieloPOYz6pzjYw8oZ5f-HmqiMIfjXTCJI-Ykz4XMYcTdV5SF8cg6GA1ADtlXPJ8KYGDeYXOvR1wxIihjqQux66Fzpk-YmzdoKWwIcdYdVikCp27_sZaNT1f_jxcE1XpA=",
+          "title": "backblaze.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Backblaze, Inc.",
+        "evidence": "Passage 1 cites the Terms of Service stating that they form a legal agreement between the user and Backblaze, Inc. applying to the use of the website and products and services such as Backblaze Computer Backup.",
+        "source": {
+          "id": 1,
+          "text": "*“These Terms of Service (‘Terms’) are a legal agreement between you and Backblaze, Inc. (‘Backblaze’, ‘we’, ‘us’, or ‘our’) and apply to your use of our website and our products and services... such as Backblaze Computer Backup or Backblaze B2 Cloud Storage (collectively, the ‘Service(s)’).”*\n* *“This Notice at Collecti",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHp94P1-xNkgmr6gmJA9rYieloPOYz6pzjYw8oZ5f-HmqiMIfjXTCJI-Ykz4XMYcTdV5SF8cg6GA1ADtlXPJ8KYGDeYXOvR1wxIihjqQux66Fzpk-YmzdoKWwIcdYdVikCp27_sZaNT1f_jxcE1XpA=",
+          "title": "backblaze.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Backblaze",
+    "domain": "backblaze.com",
+    "description": "Backblaze is a cloud storage and backup service provider that offers affordable solutions for individuals and businesses. With plans starting at just $5 per month for unlimited backup of Macs and PCs, alongside competitive rates of $0.005 per GB per month for cloud storage, Backblaze caters primarily to developers and IT professionals looking for cost-effective data solutions. The company operates globally and is known for its simplicity and reliability in data management."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Backblaze, Inc.",
+  "evidence": "Passage 1 cites the Terms of Service stating that they form a legal agreement between the user and Backblaze, Inc. applying to the use of the website and products and services such as Backblaze Computer Backup.",
+  "source": {
+    "id": 1,
+    "text": "*“These Terms of Service (‘Terms’) are a legal agreement between you and Backblaze, Inc. (‘Backblaze’, ‘we’, ‘us’, or ‘our’) and apply to your use of our website and our products and services... such as Backblaze Computer Backup or Backblaze B2 Cloud Storage (collectively, the ‘Service(s)’).”*\n* *“This Notice at Collecti",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHp94P1-xNkgmr6gmJA9rYieloPOYz6pzjYw8oZ5f-HmqiMIfjXTCJI-Ykz4XMYcTdV5SF8cg6GA1ADtlXPJ8KYGDeYXOvR1wxIihjqQux66Fzpk-YmzdoKWwIcdYdVikCp27_sZaNT1f_jxcE1XpA=",
+    "title": "backblaze.com"
+  },
+  "checked_at": "2026-11-05T08:04:40.035484+00:00"
+}

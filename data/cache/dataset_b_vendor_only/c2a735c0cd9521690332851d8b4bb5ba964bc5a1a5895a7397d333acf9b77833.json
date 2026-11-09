@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product **Checkr** at **checkr.com** is **Checkr, Inc.**\n\n### Provider Evidence\nAccording to the official **Checkr Legal Terms of Service**:\n> *\"These Terms of Service (the “Terms”) contain the terms and conditions that govern your access to and use of the services provided by Checkr, Inc. (“Checkr”), including those available on Checkr's website (the “Site”) and other websites offered by Checkr, its affiliates and partners, including but not limited to: obtaining, delivering, and managing background reports and related documentation...\"*\n\nSimilarly, the **Checkr Privacy Policy** affirms:\n> *\"At Checkr, Inc. (“Checkr,” “us,” “we,” or “our”), we know that you care about what happens to your information... This Policy applies to https://www.checkr.com and https://www.truework.com/...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product **Checkr** at **checkr.com** is **Checkr, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGj50Yb_4FggamJeAMdTiFeMBE3yOmJLQEK3--xF8Jg_zxWzBTQieNTR9M6TAezCysJSRWGuowiAk2CUnFV-aYnLiP7G3PE57c8p2-o0c1ncjc01wOXgfpQifOlUWc=",
+          "title": "checkr.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the software product **Checkr** at **checkr.com** is **Checkr, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_mn3XJ1LJxrUv2YAieXRfbfuiHIKmoTAY8iAlI0V7By2Xpcrn7WbS1H2gXh5hoExmkgxH3_N2oZP92-mso_5LDzs45XKKgTbHPZ6XK2wvPygpkYuYVweIbf0RW7Uklg==",
+          "title": "checkr.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"These Terms of Service (the “Terms”) contain the terms and conditions that govern your access to and use of the services provided by Checkr, Inc. (“Checkr”), including those available on Checkr's website (the “Site”) and other websites offered by Checkr, its affiliates and partners, including but not limited to: obtaining, delivering, and managing background reports and related documentation...\"*\n\nSimilarly,",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_mn3XJ1LJxrUv2YAieXRfbfuiHIKmoTAY8iAlI0V7By2Xpcrn7WbS1H2gXh5hoExmkgxH3_N2oZP92-mso_5LDzs45XKKgTbHPZ6XK2wvPygpkYuYVweIbf0RW7Uklg==",
+          "title": "checkr.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Checkr, Inc.",
+        "evidence": "Passage 2 states that the Terms of Service govern access to and use of the services provided by Checkr, Inc., including those available on Checkr's website for obtaining, delivering, and managing background reports.",
+        "source": {
+          "id": 2,
+          "text": "*\"These Terms of Service (the “Terms”) contain the terms and conditions that govern your access to and use of the services provided by Checkr, Inc. (“Checkr”), including those available on Checkr's website (the “Site”) and other websites offered by Checkr, its affiliates and partners, including but not limited to: obtaining, delivering, and managing background reports and related documentation...\"*\n\nSimilarly,",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_mn3XJ1LJxrUv2YAieXRfbfuiHIKmoTAY8iAlI0V7By2Xpcrn7WbS1H2gXh5hoExmkgxH3_N2oZP92-mso_5LDzs45XKKgTbHPZ6XK2wvPygpkYuYVweIbf0RW7Uklg==",
+          "title": "checkr.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Checkr",
+    "domain": "checkr.com",
+    "description": "Screening platform for recruiting background checks."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Checkr, Inc.",
+  "evidence": "Passage 2 states that the Terms of Service govern access to and use of the services provided by Checkr, Inc., including those available on Checkr's website for obtaining, delivering, and managing background reports.",
+  "source": {
+    "id": 2,
+    "text": "*\"These Terms of Service (the “Terms”) contain the terms and conditions that govern your access to and use of the services provided by Checkr, Inc. (“Checkr”), including those available on Checkr's website (the “Site”) and other websites offered by Checkr, its affiliates and partners, including but not limited to: obtaining, delivering, and managing background reports and related documentation...\"*\n\nSimilarly,",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_mn3XJ1LJxrUv2YAieXRfbfuiHIKmoTAY8iAlI0V7By2Xpcrn7WbS1H2gXh5hoExmkgxH3_N2oZP92-mso_5LDzs45XKKgTbHPZ6XK2wvPygpkYuYVweIbf0RW7Uklg==",
+    "title": "checkr.com"
+  },
+  "checked_at": "2026-11-05T05:43:31.240904+00:00"
+}

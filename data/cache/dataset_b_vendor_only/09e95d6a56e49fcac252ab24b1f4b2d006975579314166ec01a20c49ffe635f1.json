@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product at **exemplary.ai** is **Exemplary, Inc.**\n\n### Evidence\n* According to the official **Privacy Policy** for `https://exemplary.ai`: \n  > *\"We, Exemplary, Inc. (“Exemplary”, “Company”, “we”, “us”, “our”) are the owners of the website https://exemplary.ai (“Website”).\"*\n* The **Terms of Service** state: \n  > *\"Exemplary, Inc. (“Exemplary”, “we” or “us”) and our website https://exemplary.ai along with our related websites, applications, and other services provided by us (collectively, the “Service”).\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product at **exemplary.ai** is **Exemplary, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOCtatN718VQ-epimSkq-Rc-R1XoFtp2PHjEcBecwuRpleTg3wzXFRHE6wnW8wFSVKwUPba4cyQ1D-6iEOyOhSry0TKqPf_02-7_L8Y8OENRby",
+          "title": "exemplary.ai"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the software product at **exemplary.ai** is **Exemplary, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzJJx-x1wZvwV36YP6If7ccXli6EvEWHhmpGR_tr5dqg8YdLQQz3JPe5NH560dWH7bQ1Xqp_2B9Wty3ww6dTlyIUuEEqkbj91uFULfgRTRig==",
+          "title": "exemplary.ai"
+        },
+        {
+          "id": 2,
+          "text": "*\"We, Exemplary, Inc. (“Exemplary”, “Company”, “we”, “us”, “our”) are the owners of the website https://exemplary.ai (“Website”).\"*\n* The **Terms of Servic",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOCtatN718VQ-epimSkq-Rc-R1XoFtp2PHjEcBecwuRpleTg3wzXFRHE6wnW8wFSVKwUPba4cyQ1D-6iEOyOhSry0TKqPf_02-7_L8Y8OENRby",
+          "title": "exemplary.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Exemplary, Inc.",
+        "evidence": "Passage 2 states from the website's policies: 'We, Exemplary, Inc. (“Exemplary”, “Company”, “we”, “us”, “our”) are the owners of the website https://exemplary.ai (“Website”).'",
+        "source": {
+          "id": 2,
+          "text": "*\"We, Exemplary, Inc. (“Exemplary”, “Company”, “we”, “us”, “our”) are the owners of the website https://exemplary.ai (“Website”).\"*\n* The **Terms of Servic",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOCtatN718VQ-epimSkq-Rc-R1XoFtp2PHjEcBecwuRpleTg3wzXFRHE6wnW8wFSVKwUPba4cyQ1D-6iEOyOhSry0TKqPf_02-7_L8Y8OENRby",
+          "title": "exemplary.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Exemplary AI",
+    "domain": "exemplary.ai",
+    "description": "Transcribes 120+ languages' audio/video."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Exemplary, Inc.",
+  "evidence": "Passage 2 states from the website's policies: 'We, Exemplary, Inc. (“Exemplary”, “Company”, “we”, “us”, “our”) are the owners of the website https://exemplary.ai (“Website”).'",
+  "source": {
+    "id": 2,
+    "text": "*\"We, Exemplary, Inc. (“Exemplary”, “Company”, “we”, “us”, “our”) are the owners of the website https://exemplary.ai (“Website”).\"*\n* The **Terms of Servic",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOCtatN718VQ-epimSkq-Rc-R1XoFtp2PHjEcBecwuRpleTg3wzXFRHE6wnW8wFSVKwUPba4cyQ1D-6iEOyOhSry0TKqPf_02-7_L8Y8OENRby",
+    "title": "exemplary.ai"
+  },
+  "checked_at": "2026-11-05T06:35:58.049724+00:00"
+}

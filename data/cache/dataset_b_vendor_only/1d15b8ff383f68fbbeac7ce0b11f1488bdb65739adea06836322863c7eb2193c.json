@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on official listings for **Question AI.io** at the domain **`questionai.io`**:\n\n* **Published Developer / Provider:** **Payal Seth** (the published provider, seller, and copyright holder for the affiliated iOS homework helper app, which designates `https://questionai.io/?tab=privacy-policy` as its official Privacy Policy).\n* **Provider Brand:** **QuestionAI.io** (operated directly under this brand on the website, citing the copyright statement: *\"© 2025 QuestionAI.io. All rights reserved.\"*).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**Published Developer / Provider:** **Payal Seth**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcW0_ZfeIYp549_Jr4t8ksMhGm7PoFUDJlJKTBrnOdXJkwTpqIVpVC9WLCkvc4KvL8XaQ_B-E7F3mi9nF83QwmgHvg-3cQuFKMRolxW_LNY-735-R_YMWcwjLdC3kYaI2B2FFEDj-uoyk_oJkkvGO6JIrbrFfTHYjG",
+          "title": "apple.com"
+        },
+        {
+          "id": 1,
+          "text": "**Published Developer / Provider:** **Payal Seth** (the published provider, seller, and copyright holder for the affiliated iOS homework helper app, which designates `https://questionai.io/?tab=privacy-policy` as its official Privacy Policy)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPEb8eIyrepJYqhcsd0hcacRH5LlPexCWmagP2tvK9FIuyWTQAciLf1QuTgQ0AoiSKba74BXU2s1vxVbDUrryjjJOH0uY4acbJ5fJP8aFDB61MDEv_S67ontS_kLFlGua0SJFAcffUHZ-pa8UpyhtHkSNHsBCmP2zan0E5VyUshHkfaBgK",
+          "title": "apple.com"
+        },
+        {
+          "id": 2,
+          "text": "**Published Developer / Provider:** **Payal Seth** (the published provider, seller, and copyright holder for the affiliated iOS homework helper app, which designates `https://questionai.io/?tab=privacy-policy` as its official Privacy Policy)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJ3zW4mPQLu96pCyZYg1i1afsV-q8gwVdHiWJOTaaDforprmCbfcp-raV34GXoYNvrAJOttE8GKSJXzE7k8Opk_ctcbybn13ofmpfB9kPw8plUv10IMrUKxdoR0CmuYJwvwy388hK_ArkZGRjnU6Zgm6Q0FMsLTvjyyWTHgLu91DnK1NpF",
+          "title": "apple.com"
+        },
+        {
+          "id": 3,
+          "text": "**Provider Brand:** **QuestionAI.io**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJGrO7hdeMJ9elh_Ifx87NS20G4dUdTnXsyz8s9FnfcJ2QF4-nWZvrp5IOIpZ0cx-QPBt_vu-cD_cGLheg_wWUyoGYtAwaGy2fVeV7Me76ch4gmtIOmVBkRjH5d0vj",
+          "title": "questionai.io"
+        },
+        {
+          "id": 4,
+          "text": ").",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJGrO7hdeMJ9elh_Ifx87NS20G4dUdTnXsyz8s9FnfcJ2QF4-nWZvrp5IOIpZ0cx-QPBt_vu-cD_cGLheg_wWUyoGYtAwaGy2fVeV7Me76ch4gmtIOmVBkRjH5d0vj",
+          "title": "questionai.io"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Payal Seth",
+        "evidence": "Payal Seth is identified as the published developer, provider, seller, and copyright holder for the affiliated app linking to questionai.io's official privacy policy.",
+        "source": {
+          "id": 1,
+          "text": "**Published Developer / Provider:** **Payal Seth** (the published provider, seller, and copyright holder for the affiliated iOS homework helper app, which designates `https://questionai.io/?tab=privacy-policy` as its official Privacy Policy)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPEb8eIyrepJYqhcsd0hcacRH5LlPexCWmagP2tvK9FIuyWTQAciLf1QuTgQ0AoiSKba74BXU2s1vxVbDUrryjjJOH0uY4acbJ5fJP8aFDB61MDEv_S67ontS_kLFlGua0SJFAcffUHZ-pa8UpyhtHkSNHsBCmP2zan0E5VyUshHkfaBgK",
+          "title": "apple.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Question AI.io",
+    "domain": "questionai.io",
+    "description": "AI assistance for your homework queries."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Payal Seth",
+  "evidence": "Payal Seth is identified as the published developer, provider, seller, and copyright holder for the affiliated app linking to questionai.io's official privacy policy.",
+  "source": {
+    "id": 1,
+    "text": "**Published Developer / Provider:** **Payal Seth** (the published provider, seller, and copyright holder for the affiliated iOS homework helper app, which designates `https://questionai.io/?tab=privacy-policy` as its official Privacy Policy)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPEb8eIyrepJYqhcsd0hcacRH5LlPexCWmagP2tvK9FIuyWTQAciLf1QuTgQ0AoiSKba74BXU2s1vxVbDUrryjjJOH0uY4acbJ5fJP8aFDB61MDEv_S67ontS_kLFlGua0SJFAcffUHZ-pa8UpyhtHkSNHsBCmP2zan0E5VyUshHkfaBgK",
+    "title": "apple.com"
+  },
+  "checked_at": "2026-11-05T07:50:34.711748+00:00"
+}

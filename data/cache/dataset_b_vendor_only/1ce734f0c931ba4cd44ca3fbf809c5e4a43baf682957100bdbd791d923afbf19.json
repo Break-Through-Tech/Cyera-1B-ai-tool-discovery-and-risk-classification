@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **NordVPN** at **nordvpn.com** is **nordvpn S.A.** (incorporated in Panama).\n\n### Provider Statement\nAccording to the official General Terms of Service governing access to NordVPN and related services:\n> *\"For the purpose of the Terms, 'Nord,' 'we,' 'us,' or 'our' means nordvpn S.A., PH F&F TOWER, 50th Street & 56th Street, Suite #32-D, Floor 32, Panama City, Republic of Panama.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **NordVPN** at **nordvpn.com** is **nordvpn S.A.** (incorporated in Panama)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcOKHK4lnEtrNyihHc1J1GQYAscz1mPD4-TqdwzRJk3zdtEX1oT5ewaRS0OFCNAWPWXzw7zPsCWYKbS7J_9Hob08op1ZZRGPAo94ccxTXU24XXaI1dAKaHTdDLr_0q-gMmMwal4kH7",
+          "title": "nordaccount.com"
+        },
+        {
+          "id": 1,
+          "text": "*\"For the purpose of the Terms, 'Nord,' 'we,' 'us,' or 'our' means nordvpn S.A., PH F&F TOWER, 50th Street & 56th Street, Suite #32-D, Floor 32, Panama City, Republic of Panama.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcOKHK4lnEtrNyihHc1J1GQYAscz1mPD4-TqdwzRJk3zdtEX1oT5ewaRS0OFCNAWPWXzw7zPsCWYKbS7J_9Hob08op1ZZRGPAo94ccxTXU24XXaI1dAKaHTdDLr_0q-gMmMwal4kH7",
+          "title": "nordaccount.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "nordvpn S.A.",
+        "evidence": "Passage 0 directly states that the vendor providing NordVPN at nordvpn.com is nordvpn S.A.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **NordVPN** at **nordvpn.com** is **nordvpn S.A.** (incorporated in Panama)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcOKHK4lnEtrNyihHc1J1GQYAscz1mPD4-TqdwzRJk3zdtEX1oT5ewaRS0OFCNAWPWXzw7zPsCWYKbS7J_9Hob08op1ZZRGPAo94ccxTXU24XXaI1dAKaHTdDLr_0q-gMmMwal4kH7",
+          "title": "nordaccount.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "NordVPN",
+    "domain": "nordvpn.com",
+    "description": "NordVPN is a cybersecurity company that specializes in virtual private network (VPN) services, enabling users to secure their internet connections and maintain online privacy. With over 5600 servers spread across 60 countries, NordVPN helps protect users from threats while browsing on public networks and shields them from ISPs and advertisers. The company is headquartered in Panama, providing additional privacy benefits."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "nordvpn S.A.",
+  "evidence": "Passage 0 directly states that the vendor providing NordVPN at nordvpn.com is nordvpn S.A.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **NordVPN** at **nordvpn.com** is **nordvpn S.A.** (incorporated in Panama)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcOKHK4lnEtrNyihHc1J1GQYAscz1mPD4-TqdwzRJk3zdtEX1oT5ewaRS0OFCNAWPWXzw7zPsCWYKbS7J_9Hob08op1ZZRGPAo94ccxTXU24XXaI1dAKaHTdDLr_0q-gMmMwal4kH7",
+    "title": "nordaccount.com"
+  },
+  "checked_at": "2026-11-05T08:06:14.842475+00:00"
+}

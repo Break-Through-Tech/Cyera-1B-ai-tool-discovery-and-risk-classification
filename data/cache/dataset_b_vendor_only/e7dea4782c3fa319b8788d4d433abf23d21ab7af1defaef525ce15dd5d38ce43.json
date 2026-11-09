@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software platform and services at **bazaarvoice.com** is **Bazaarvoice, Inc.**.\n\n### Evidence\n* According to the official [Bazaarvoice Privacy Policy](https://www.bazaarvoice.com/legal/privacy-policy/): \n  > *\"This Privacy Policy is intended to inform you... about **Bazaarvoice, Inc.**, its affiliates' and subsidiaries' ('Bazaarvoice', 'we', 'us', or 'our') collection, use, security and disclosure of information that we receive through the services that we provide... through **bazaarvoice.com**, and/or other Bazaarvoice-branded websites ('Website'), and through the business applications offered to our direct Clients on the Website ('BizApps') (collectively, the 'Services').\"*\n* The [Bazaarvoice API Terms of Use](https://www.bazaarvoice.com/legal/api-terms-of-use/) likewise state: \n  > *\"Thank you for using the **Bazaarvoice, Inc.** ('we', 'our' or 'Bazaarvoice') application programming interface...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software platform and services at **bazaarvoice.com** is **Bazaarvoice, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUuZ320AQFLU7aS-gl-7tzCVsSvnfr06O8rBdD6rHj01JlgqlP5exEZ57o8XguXqhS8msNdh9NDpGxQp0jkKBAR-xvzB25gkVF6k1QnQbqVoaCnALgdKQgF7ck0DCCp6dJyyIBUssZ",
+          "title": "bazaarvoice.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the software platform and services at **bazaarvoice.com** is **Bazaarvoice, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSgHCKdzqz9ckss0qhNs75X6np88hBxZ36aZRR8ZKD7LiKjE8AdCigt5HBdJpydwR_fdDX6KZxQUUvhtBGT6Qaj23nvgcZNCUvwWoBLllyEgAoqHg9-VIUrxa80AieWoP4WCBZqo0GmvI=",
+          "title": "bazaarvoice.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"This Privacy Policy is intended to inform you... about **Bazaarvoice, Inc.**, its affiliates' and subsidiaries' ('Bazaarvoice', 'we', 'us', or 'our') collection, use, security and disclosure of information that we receive through the services that we provide... through **bazaarvoice.com**, and/or other Bazaarvoice-branded websites ('Website'), and through the business applications offered to our direct Clients on the Website ('BizApps') (collectively, the 'Services').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUuZ320AQFLU7aS-gl-7tzCVsSvnfr06O8rBdD6rHj01JlgqlP5exEZ57o8XguXqhS8msNdh9NDpGxQp0jkKBAR-xvzB25gkVF6k1QnQbqVoaCnALgdKQgF7ck0DCCp6dJyyIBUssZ",
+          "title": "bazaarvoice.com"
+        },
+        {
+          "id": 3,
+          "text": "*\"Thank you for using the **Bazaarvoice, Inc.** ('we', 'our' or 'Bazaarvoice') application programming interface...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSgHCKdzqz9ckss0qhNs75X6np88hBxZ36aZRR8ZKD7LiKjE8AdCigt5HBdJpydwR_fdDX6KZxQUUvhtBGT6Qaj23nvgcZNCUvwWoBLllyEgAoqHg9-VIUrxa80AieWoP4WCBZqo0GmvI=",
+          "title": "bazaarvoice.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Bazaarvoice, Inc.",
+        "evidence": "Bazaarvoice, Inc. provides services and business applications through bazaarvoice.com as stated in its privacy policy.",
+        "source": {
+          "id": 2,
+          "text": "*\"This Privacy Policy is intended to inform you... about **Bazaarvoice, Inc.**, its affiliates' and subsidiaries' ('Bazaarvoice', 'we', 'us', or 'our') collection, use, security and disclosure of information that we receive through the services that we provide... through **bazaarvoice.com**, and/or other Bazaarvoice-branded websites ('Website'), and through the business applications offered to our direct Clients on the Website ('BizApps') (collectively, the 'Services').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUuZ320AQFLU7aS-gl-7tzCVsSvnfr06O8rBdD6rHj01JlgqlP5exEZ57o8XguXqhS8msNdh9NDpGxQp0jkKBAR-xvzB25gkVF6k1QnQbqVoaCnALgdKQgF7ck0DCCp6dJyyIBUssZ",
+          "title": "bazaarvoice.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Bazaarvoice",
+    "domain": "bazaarvoice.com",
+    "description": "Bazaarvoice empowers brands and retailers by leveraging authentic user-generated content, such as ratings, reviews, and social media engagement, to enhance customer trust and drive sales. Established in 2005 and headquartered in Austin, Texas, the company operates globally with offices across North America, Europe, and Australia, offering solutions that inspire consumer confidence and further content creation."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Bazaarvoice, Inc.",
+  "evidence": "Bazaarvoice, Inc. provides services and business applications through bazaarvoice.com as stated in its privacy policy.",
+  "source": {
+    "id": 2,
+    "text": "*\"This Privacy Policy is intended to inform you... about **Bazaarvoice, Inc.**, its affiliates' and subsidiaries' ('Bazaarvoice', 'we', 'us', or 'our') collection, use, security and disclosure of information that we receive through the services that we provide... through **bazaarvoice.com**, and/or other Bazaarvoice-branded websites ('Website'), and through the business applications offered to our direct Clients on the Website ('BizApps') (collectively, the 'Services').\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUuZ320AQFLU7aS-gl-7tzCVsSvnfr06O8rBdD6rHj01JlgqlP5exEZ57o8XguXqhS8msNdh9NDpGxQp0jkKBAR-xvzB25gkVF6k1QnQbqVoaCnALgdKQgF7ck0DCCp6dJyyIBUssZ",
+    "title": "bazaarvoice.com"
+  },
+  "checked_at": "2026-11-05T08:34:11.700728+00:00"
+}

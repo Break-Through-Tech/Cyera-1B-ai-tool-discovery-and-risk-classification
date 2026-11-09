@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Product Genius** at **`productgenius.guru`** is **Product Genius Corporation** (also operating as **Product Genius**).\n\n### Supporting Evidence & Citation\n* Official announcements via Business Wire state: \n  > *\"About Product Genius Corporation. Founded by Ken Gavranovic... and Lee Atchison..., Product Genius Corporation is dedicated to democratizing AI-powered insights for small business... Ready to see how Product Genius can transform your property? Visit ProductGenius.guru to start your free trial or schedule a demo today.\"*\n* Additional corporate filings and releases note that the company is headquartered in Atlanta, Georgia, with Ken Gavranovic serving as CEO.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Product Genius** at **`productgenius.guru`** is **Product Genius Corporation** (also operating as **Product Genius**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGl-ZjzhkWwlsqQMWUnJE78j8FBVJO4SEtFSB4K_MMJJ88fjWkB75_0WYG2mD8sku8mYiSRrRK3xFFevca0E-fshPelhBq3OEETrhbqIJlx0MGhTYtbQeUHbGfUws0TIVFO8_wKyVlny8RAaUGSLexbbDqdebRtfmPP5ULX6shEgDsoCAOrYf1tFX_LtNfKoO49qRG4cad2L3UJsPoBUj9CJXr20uktq4XBjS9aBAv9n3QhPaw9qJ40vUVNDaIPwbN7fi9W64KGM4FoQlyOERPoN7-ScyM532WqzJ5YEQ==",
+          "title": "businesswire.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Product Genius** at **`productgenius.guru`** is **Product Genius Corporation** (also operating as **Product Genius**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpA80PzsXU9O81dVloZOUB3DV2LTv3QyyxGvvGvdCWXml1uHpT_6letJaz5LviicbtOvbb2n7Mn3gm5Zo48MCMWs24uVWvBwCiNYOFCIigX7n88DLDYtPVuqUKCAOnsejVsZhXEj38n-_1uamo-XHfJCaAHvUAVf0llau_qbB4vC30rWigg23u5vvd0LjSZpCS5vZ5UkZAGOtKYngwKjr7i0VhgJ4HHPto2wPg",
+          "title": "businesswire.com"
+        },
+        {
+          "id": 2,
+          "text": "Visit ProductGenius.guru to start your free trial or schedule a demo today.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvCRDXBa6OCobbBaCWDoOQS3gxrtIk7eBBgeC5tL3OfczndaJ7Y1Uh6D5xb-RN6B7qflD0zAfXWl1Rfy1mLKCQ33vkiiOi0D1J6CZVspwP4SODg7uLzmt1d5UVAVdES-rH0WR58hm8maYiyPv2WYxjN0jHYqfW9gC0ypK5Rknr5ZwH6-kbuZUaosvm5SAvqIdTkviKdW7L6nXFF6Jb8lJfgJ734YsbAXcuB50uZ-IUfmuUjWK-MNoi2p7MsEkUdXfsc3fHJ8SBaNrskNM=",
+          "title": "businesswire.com"
+        },
+        {
+          "id": 3,
+          "text": "Visit ProductGenius.guru to start your free trial or schedule a demo today.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGl-ZjzhkWwlsqQMWUnJE78j8FBVJO4SEtFSB4K_MMJJ88fjWkB75_0WYG2mD8sku8mYiSRrRK3xFFevca0E-fshPelhBq3OEETrhbqIJlx0MGhTYtbQeUHbGfUws0TIVFO8_wKyVlny8RAaUGSLexbbDqdebRtfmPP5ULX6shEgDsoCAOrYf1tFX_LtNfKoO49qRG4cad2L3UJsPoBUj9CJXr20uktq4XBjS9aBAv9n3QhPaw9qJ40vUVNDaIPwbN7fi9W64KGM4FoQlyOERPoN7-ScyM532WqzJ5YEQ==",
+          "title": "businesswire.com"
+        },
+        {
+          "id": 4,
+          "text": "Additional corporate filings and releases note that the company is headquartered in Atlanta, Georgia, with Ken Gavranovic serving as CEO",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpA80PzsXU9O81dVloZOUB3DV2LTv3QyyxGvvGvdCWXml1uHpT_6letJaz5LviicbtOvbb2n7Mn3gm5Zo48MCMWs24uVWvBwCiNYOFCIigX7n88DLDYtPVuqUKCAOnsejVsZhXEj38n-_1uamo-XHfJCaAHvUAVf0llau_qbB4vC30rWigg23u5vvd0LjSZpCS5vZ5UkZAGOtKYngwKjr7i0VhgJ4HHPto2wPg",
+          "title": "businesswire.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Product Genius Corporation",
+        "evidence": "Passage 0 states that the vendor directly providing Product Genius at productgenius.guru is Product Genius Corporation (also operating as Product Genius).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Product Genius** at **`productgenius.guru`** is **Product Genius Corporation** (also operating as **Product Genius**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGl-ZjzhkWwlsqQMWUnJE78j8FBVJO4SEtFSB4K_MMJJ88fjWkB75_0WYG2mD8sku8mYiSRrRK3xFFevca0E-fshPelhBq3OEETrhbqIJlx0MGhTYtbQeUHbGfUws0TIVFO8_wKyVlny8RAaUGSLexbbDqdebRtfmPP5ULX6shEgDsoCAOrYf1tFX_LtNfKoO49qRG4cad2L3UJsPoBUj9CJXr20uktq4XBjS9aBAv9n3QhPaw9qJ40vUVNDaIPwbN7fi9W64KGM4FoQlyOERPoN7-ScyM532WqzJ5YEQ==",
+          "title": "businesswire.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Product Genius",
+    "domain": "productgenius.guru",
+    "description": "Product Genius analyzes customer feedback from various sources to identify trends, pain points, and opportunities for product improvement."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Product Genius Corporation",
+  "evidence": "Passage 0 states that the vendor directly providing Product Genius at productgenius.guru is Product Genius Corporation (also operating as Product Genius).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Product Genius** at **`productgenius.guru`** is **Product Genius Corporation** (also operating as **Product Genius**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGl-ZjzhkWwlsqQMWUnJE78j8FBVJO4SEtFSB4K_MMJJ88fjWkB75_0WYG2mD8sku8mYiSRrRK3xFFevca0E-fshPelhBq3OEETrhbqIJlx0MGhTYtbQeUHbGfUws0TIVFO8_wKyVlny8RAaUGSLexbbDqdebRtfmPP5ULX6shEgDsoCAOrYf1tFX_LtNfKoO49qRG4cad2L3UJsPoBUj9CJXr20uktq4XBjS9aBAv9n3QhPaw9qJ40vUVNDaIPwbN7fi9W64KGM4FoQlyOERPoN7-ScyM532WqzJ5YEQ==",
+    "title": "businesswire.com"
+  },
+  "checked_at": "2026-11-05T06:19:45.965328+00:00"
+}

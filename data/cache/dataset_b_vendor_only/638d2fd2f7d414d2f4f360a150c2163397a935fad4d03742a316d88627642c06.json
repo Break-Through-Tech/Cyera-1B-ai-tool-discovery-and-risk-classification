@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **Humanize.im** at the domain **humanize.im** is operated and provided by **NEXUSAI SERVICES LLC**. \n\nAccording to the official Terms of Use documentation for the domain (`humanize.im/terms-of-use`), the service explicitly identifies and names **NEXUSAI SERVICES LLC** as the operating company behind the website and product.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **Humanize.im** at the domain **humanize.im** is operated and provided by **NEXUSAI SERVICES LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPD_PYHUDeYcQ0mmz20rcQmepYNV9opKbu-88XifV8B5MlAPPcsCOaSKsSJkiC3bVDTqXUj0aJf3K7TDIpsixJbl_OSwwSXxsyjaDIWs9oeW474gJT13CTFhTMRKMkHKkLEQVwbKNt",
+          "title": "textsight.ai"
+        },
+        {
+          "id": 1,
+          "text": "The software product **Humanize.im** at the domain **humanize.im** is operated and provided by **NEXUSAI SERVICES LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJmMgquHhq6fOPPvUOoGW0wlshRJun3DCaEsYum00OCzTJKQRrPN6WC2NpCWwAxnrQboqHPUFguhRCKOI3PgxUCDVV3jaju2soY4VdvIslgGQoZRAP6LRSww==",
+          "title": "domore.ai"
+        },
+        {
+          "id": 2,
+          "text": "According to the official Terms of Use documentation for the domain (`humanize.im/terms-of-use`), the service explicitly identifies and names **NEXUSAI SERVICES LLC** as the operating company behind the website and product",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPD_PYHUDeYcQ0mmz20rcQmepYNV9opKbu-88XifV8B5MlAPPcsCOaSKsSJkiC3bVDTqXUj0aJf3K7TDIpsixJbl_OSwwSXxsyjaDIWs9oeW474gJT13CTFhTMRKMkHKkLEQVwbKNt",
+          "title": "textsight.ai"
+        },
+        {
+          "id": 3,
+          "text": "According to the official Terms of Use documentation for the domain (`humanize.im/terms-of-use`), the service explicitly identifies and names **NEXUSAI SERVICES LLC** as the operating company behind the website and product",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIjv6XeD8k5nXbPflVOYdwMCrOcwmhvKN2khS_L9oZCuxypjBoUB-yhwK_0jD1XnkMyYAH-R3ijbL5jFU4kjlTGX7tK4t7PWwmRNv-FZ2ZIbVAxR_Q4lgM4w4HCOCDTfWyeodn4H_k",
+          "title": "textsight.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "NEXUSAI SERVICES LLC",
+        "evidence": "Passage 0 states that the software product Humanize.im at the domain humanize.im is operated and provided by NEXUSAI SERVICES LLC.",
+        "source": {
+          "id": 0,
+          "text": "The software product **Humanize.im** at the domain **humanize.im** is operated and provided by **NEXUSAI SERVICES LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPD_PYHUDeYcQ0mmz20rcQmepYNV9opKbu-88XifV8B5MlAPPcsCOaSKsSJkiC3bVDTqXUj0aJf3K7TDIpsixJbl_OSwwSXxsyjaDIWs9oeW474gJT13CTFhTMRKMkHKkLEQVwbKNt",
+          "title": "textsight.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Humanize.im",
+    "domain": "humanize.im",
+    "description": "Humanize.im is an AI tool that helps improve the readability and natural flow of text by making it sound more human-like. It's designed to enhance the clarity and engagement of written content."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "NEXUSAI SERVICES LLC",
+  "evidence": "Passage 0 states that the software product Humanize.im at the domain humanize.im is operated and provided by NEXUSAI SERVICES LLC.",
+  "source": {
+    "id": 0,
+    "text": "The software product **Humanize.im** at the domain **humanize.im** is operated and provided by **NEXUSAI SERVICES LLC**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPD_PYHUDeYcQ0mmz20rcQmepYNV9opKbu-88XifV8B5MlAPPcsCOaSKsSJkiC3bVDTqXUj0aJf3K7TDIpsixJbl_OSwwSXxsyjaDIWs9oeW474gJT13CTFhTMRKMkHKkLEQVwbKNt",
+    "title": "textsight.ai"
+  },
+  "checked_at": "2026-11-05T06:41:44.198458+00:00"
+}
