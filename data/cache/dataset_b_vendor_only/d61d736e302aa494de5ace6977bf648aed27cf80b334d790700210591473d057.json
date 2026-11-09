@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **Jobber** software product at **getjobber.com** is **Octopusapp Inc.** (doing business as **Jobber**).\n\n### Supporting Evidence\nAccording to the Jobber Privacy Policy hosted on the domain:\n> *\"Octopusapp Inc. d/b/a Jobber (“Jobber”/“we”/“us”/“our”) provides services that allow business customers to run a home service business by providing customer relationship management, scheduling, billing, invoicing, payment integration function, and payment processing services, collectively (the “Service”). Jobber owns and operates the website located at https://getjobber.com/...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **Jobber** software product at **getjobber.com** is **Octopusapp Inc.** (doing business as **Jobber**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxn6vSftz3vMhcgmE7aSpMyphjQRE7uFSJUuDM5yL7aaKF0XhSbmbT7P9c49sqaNI8mtbN6lLwrfN2hTw605kwQnFgWYxIl2uDFwpAfN8104SA8oplZfvbQBeYt9UV",
+          "title": "getjobber.com"
+        },
+        {
+          "id": 1,
+          "text": "According to the Jobber Privacy Policy hosted on the domain",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxn6vSftz3vMhcgmE7aSpMyphjQRE7uFSJUuDM5yL7aaKF0XhSbmbT7P9c49sqaNI8mtbN6lLwrfN2hTw605kwQnFgWYxIl2uDFwpAfN8104SA8oplZfvbQBeYt9UV",
+          "title": "getjobber.com"
+        },
+        {
+          "id": 2,
+          "text": "we”/“us”/“our”) provides services that allow business customers to run a home service business by providing customer relationship management, scheduling, billing, invoicing, payment integration function, and payment processing services, collectively (the “Se",
+          "url": "https://hunterandson.com/private-policy",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Octopusapp Inc.",
+        "evidence": "Passage 0 confirms that the vendor directly providing the Jobber software product at getjobber.com is Octopusapp Inc. (doing business as Jobber).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the **Jobber** software product at **getjobber.com** is **Octopusapp Inc.** (doing business as **Jobber**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxn6vSftz3vMhcgmE7aSpMyphjQRE7uFSJUuDM5yL7aaKF0XhSbmbT7P9c49sqaNI8mtbN6lLwrfN2hTw605kwQnFgWYxIl2uDFwpAfN8104SA8oplZfvbQBeYt9UV",
+          "title": "getjobber.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Jobber",
+    "domain": "getjobber.com",
+    "description": "Jobber is a leading operations management software designed specifically for home service businesses. Empowering over 200,000 professionals, Jobber supports service providers across more than 60 countries, helping them streamline operations and manage invoicing effectively. With a proven track record of facilitating over $40 billion in service transactions, Jobber is recognized as one of Canada's fastest-growing and most innovative companies."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Octopusapp Inc.",
+  "evidence": "Passage 0 confirms that the vendor directly providing the Jobber software product at getjobber.com is Octopusapp Inc. (doing business as Jobber).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the **Jobber** software product at **getjobber.com** is **Octopusapp Inc.** (doing business as **Jobber**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxn6vSftz3vMhcgmE7aSpMyphjQRE7uFSJUuDM5yL7aaKF0XhSbmbT7P9c49sqaNI8mtbN6lLwrfN2hTw605kwQnFgWYxIl2uDFwpAfN8104SA8oplZfvbQBeYt9UV",
+    "title": "getjobber.com"
+  },
+  "checked_at": "2026-11-05T09:05:17.177465+00:00"
+}

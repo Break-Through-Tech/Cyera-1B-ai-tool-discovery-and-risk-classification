@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product **Ecwid** at **ecwid.com** is **Ecwid, Inc.** (an operating subsidiary of Lightspeed Commerce Inc.).\n\n### Evidence & Provider Statements\n* **Terms of Service / Service Agreement:** In the *Lightspeed Service Agreement* linked directly via the `ecwid.com` Terms of Service, section *III. Governing Law and Contracting Entity* explicitly identifies the worldwide contracting provider for the platform (Lightspeed eCom / E-Series) as:\n  > *\"Lightspeed eCom (E-Series), Worldwide, Ecwid, Inc.\"*\n* **Partner Agreements & Legal Notices:** Other legal agreements on `ecwid.com` (such as the *Ecwid WebPartner Agreement* and *CCPA Notice*) confirm the operating entity:\n  > *\"...entering into a binding legal agreement with Ecwid Inc. (“Ecwid” or “We”)...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product **Ecwid** at **ecwid.com** is **Ecwid, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoB57_Sey2tytKqi8cJeh8cClUs2NnlBE9Kiltsde2DOd3KIXAmHQeTCBoxEpbxrXSKrbJYiPWOtBABol0qHf4ZGFZK_ZeIIQ_4EHnNJCF41LZYoNlAwxBJEEZEw==",
+          "title": "ecwid.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the software product **Ecwid** at **ecwid.com** is **Ecwid, Inc.** (an operating subsidiary of Lightspeed Commerce Inc.)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5NnvEV2UO0bNy3R5lNuMDtpdaDOvUlrb1UZJYHnJ4moRssSLLFf2d56Sb6IMyUZgggYoaH31ueI0Q0SD_BrRwpkEYUB_VbmQ4yKOug6PB4wzSKsA7yjRfDKgijqgUd5KQL5X-yWlDvo3sWpSMh2Th89gbkiK0",
+          "title": "lightspeedhq.com"
+        },
+        {
+          "id": 2,
+          "text": "The vendor directly providing the software product **Ecwid** at **ecwid.com** is **Ecwid, Inc.** (an operating subsidiary of Lightspeed Commerce Inc.)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQtWPgAJ4TItqeu8Wtu9psYt4xcFr_L1nlIH-5_40xPFsBk6UYNU8ukuwPc1BbepnUDgwLrmOxaJzrxKv8IVlmgGQE0ksoekYq1PqF5lrhEnVox_X0uKrv8uGG1uhBtKyOIgtpW0O0DaiHll1iDgqqphbo4vlceQTWUkU4VUA4iVwI7IpaLg==",
+          "title": "ecwid.com"
+        },
+        {
+          "id": 3,
+          "text": "*\"Lightspeed eCom (E-Series), Worldwide, Ecwid, Inc.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoB57_Sey2tytKqi8cJeh8cClUs2NnlBE9Kiltsde2DOd3KIXAmHQeTCBoxEpbxrXSKrbJYiPWOtBABol0qHf4ZGFZK_ZeIIQ_4EHnNJCF41LZYoNlAwxBJEEZEw==",
+          "title": "ecwid.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Ecwid, Inc.",
+        "evidence": "Passage 0 explicitly confirms that the vendor directly providing the software product Ecwid at ecwid.com is Ecwid, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the software product **Ecwid** at **ecwid.com** is **Ecwid, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoB57_Sey2tytKqi8cJeh8cClUs2NnlBE9Kiltsde2DOd3KIXAmHQeTCBoxEpbxrXSKrbJYiPWOtBABol0qHf4ZGFZK_ZeIIQ_4EHnNJCF41LZYoNlAwxBJEEZEw==",
+          "title": "ecwid.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Ecwid",
+    "domain": "ecwid.com",
+    "description": "Ecwid is a leading online store builder designed specifically for small businesses, enabling them to easily create and manage their online store without needing to abandon their existing websites. With the capacity to integrate with various online platforms, including social media and mobile devices, Ecwid supports over 1 million merchants across 175 countries and offers multilingual services. Their solutions cater to SMBs looking to enhance their e-commerce presence efficiently and affordably, with a free plan option available."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Ecwid, Inc.",
+  "evidence": "Passage 0 explicitly confirms that the vendor directly providing the software product Ecwid at ecwid.com is Ecwid, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the software product **Ecwid** at **ecwid.com** is **Ecwid, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoB57_Sey2tytKqi8cJeh8cClUs2NnlBE9Kiltsde2DOd3KIXAmHQeTCBoxEpbxrXSKrbJYiPWOtBABol0qHf4ZGFZK_ZeIIQ_4EHnNJCF41LZYoNlAwxBJEEZEw==",
+    "title": "ecwid.com"
+  },
+  "checked_at": "2026-11-05T08:15:20.723416+00:00"
+}

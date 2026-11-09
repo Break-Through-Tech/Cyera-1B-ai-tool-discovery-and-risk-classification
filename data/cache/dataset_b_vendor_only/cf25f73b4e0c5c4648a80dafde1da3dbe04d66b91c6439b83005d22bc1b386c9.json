@@ -1,0 +1,85 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on software directory listings and product profiles for **IntelliChat** at **intellichat.io**:\n\n* **Direct Provider / Vendor:** **IntelliChat**\n* **Provider Statement / Evidence:** Software profile comparisons (such as on SourceForge) for the product and domain list the vendor under *Company Information* as:\n  > *\"Company Information: IntelliChat. India. intellichat.io.\"*\n\nNo separate parent or incorporated legal entity is published; the software is provided directly under the brand/company name **IntelliChat**.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "Based on software directory listings and product profiles for **IntelliChat** at **intellichat.io**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFX9CLqYi-oFrER0gnCvd2-KAJMObnSzV8hT4Z9tD901oaOJupMEK9yspzccqYk5ERx-toq76MFu5xxWZs8zJY7GTQI9N6ib55JYl2RKtPgq4wOF7oLjFBCEEXT00h9defpUQilgBNcuECkUcP07IXIdU7bdBl1Uw==",
+          "title": "sourceforge.net"
+        },
+        {
+          "id": 1,
+          "text": "Based on software directory listings and product profiles for **IntelliChat** at **intellichat.io**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVqNREVVjTakoovX0sVxi7M80G4GaKZ80ZPWYvqjRy8GfjK8hF3Yk3lJEcK6pTyyUWwEMsFFDpoL8FRp4Qkh2lpCnlOZwoSN8QFCdO-FkuB6CUfLIjLV7WrRQdhr7DjNN7e1rR4XyB7-EcupEP-OVW89gavXob4hs=",
+          "title": "sourceforge.net"
+        },
+        {
+          "id": 2,
+          "text": "**Direct Provider / Vendor:** **IntelliChat**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFX9CLqYi-oFrER0gnCvd2-KAJMObnSzV8hT4Z9tD901oaOJupMEK9yspzccqYk5ERx-toq76MFu5xxWZs8zJY7GTQI9N6ib55JYl2RKtPgq4wOF7oLjFBCEEXT00h9defpUQilgBNcuECkUcP07IXIdU7bdBl1Uw==",
+          "title": "sourceforge.net"
+        },
+        {
+          "id": 3,
+          "text": "**Direct Provider / Vendor:** **IntelliChat**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVqNREVVjTakoovX0sVxi7M80G4GaKZ80ZPWYvqjRy8GfjK8hF3Yk3lJEcK6pTyyUWwEMsFFDpoL8FRp4Qkh2lpCnlOZwoSN8QFCdO-FkuB6CUfLIjLV7WrRQdhr7DjNN7e1rR4XyB7-EcupEP-OVW89gavXob4hs=",
+          "title": "sourceforge.net"
+        },
+        {
+          "id": 4,
+          "text": "India. intellichat.io.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFX9CLqYi-oFrER0gnCvd2-KAJMObnSzV8hT4Z9tD901oaOJupMEK9yspzccqYk5ERx-toq76MFu5xxWZs8zJY7GTQI9N6ib55JYl2RKtPgq4wOF7oLjFBCEEXT00h9defpUQilgBNcuECkUcP07IXIdU7bdBl1Uw==",
+          "title": "sourceforge.net"
+        },
+        {
+          "id": 5,
+          "text": "India. intellichat.io.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVqNREVVjTakoovX0sVxi7M80G4GaKZ80ZPWYvqjRy8GfjK8hF3Yk3lJEcK6pTyyUWwEMsFFDpoL8FRp4Qkh2lpCnlOZwoSN8QFCdO-FkuB6CUfLIjLV7WrRQdhr7DjNN7e1rR4XyB7-EcupEP-OVW89gavXob4hs=",
+          "title": "sourceforge.net"
+        },
+        {
+          "id": 6,
+          "text": "No separate parent or incorporated legal entity is published; the software is provided directly under the brand/company name **IntelliChat**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFX9CLqYi-oFrER0gnCvd2-KAJMObnSzV8hT4Z9tD901oaOJupMEK9yspzccqYk5ERx-toq76MFu5xxWZs8zJY7GTQI9N6ib55JYl2RKtPgq4wOF7oLjFBCEEXT00h9defpUQilgBNcuECkUcP07IXIdU7bdBl1Uw==",
+          "title": "sourceforge.net"
+        },
+        {
+          "id": 7,
+          "text": "No separate parent or incorporated legal entity is published; the software is provided directly under the brand/company name **IntelliChat**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVqNREVVjTakoovX0sVxi7M80G4GaKZ80ZPWYvqjRy8GfjK8hF3Yk3lJEcK6pTyyUWwEMsFFDpoL8FRp4Qkh2lpCnlOZwoSN8QFCdO-FkuB6CUfLIjLV7WrRQdhr7DjNN7e1rR4XyB7-EcupEP-OVW89gavXob4hs=",
+          "title": "sourceforge.net"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "IntelliChat",
+        "evidence": "Passage 6 confirms that no separate parent or incorporated entity is published and the software is provided directly under the brand/company name IntelliChat.",
+        "source": {
+          "id": 6,
+          "text": "No separate parent or incorporated legal entity is published; the software is provided directly under the brand/company name **IntelliChat**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFX9CLqYi-oFrER0gnCvd2-KAJMObnSzV8hT4Z9tD901oaOJupMEK9yspzccqYk5ERx-toq76MFu5xxWZs8zJY7GTQI9N6ib55JYl2RKtPgq4wOF7oLjFBCEEXT00h9defpUQilgBNcuECkUcP07IXIdU7bdBl1Uw==",
+          "title": "sourceforge.net"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "IntelliChat",
+    "domain": "intellichat.io",
+    "description": "IntelliChat is an AI-powered customer service platform that automates conversations, improves response times, and provides personalized support across various channels."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "IntelliChat",
+  "evidence": "Passage 6 confirms that no separate parent or incorporated entity is published and the software is provided directly under the brand/company name IntelliChat.",
+  "source": {
+    "id": 6,
+    "text": "No separate parent or incorporated legal entity is published; the software is provided directly under the brand/company name **IntelliChat**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFX9CLqYi-oFrER0gnCvd2-KAJMObnSzV8hT4Z9tD901oaOJupMEK9yspzccqYk5ERx-toq76MFu5xxWZs8zJY7GTQI9N6ib55JYl2RKtPgq4wOF7oLjFBCEEXT00h9defpUQilgBNcuECkUcP07IXIdU7bdBl1Uw==",
+    "title": "sourceforge.net"
+  },
+  "checked_at": "2026-11-05T05:57:52.069970+00:00"
+}

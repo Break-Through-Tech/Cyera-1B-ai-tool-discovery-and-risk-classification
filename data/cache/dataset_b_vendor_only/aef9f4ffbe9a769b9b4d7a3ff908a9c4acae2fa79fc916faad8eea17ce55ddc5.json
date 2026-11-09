@@ -1,0 +1,125 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Accio** at **accio.com** is **Accio Global Technology Pte. Ltd.**\n\n### Evidence:\n* **Terms of Use (`accio.com/terms`)**: Clause 2.1 explicitly states: *\"You are contracting with ACCIO GLOBAL TECHNOLOGY PTE. LTD. for the use of the Sites and Services.\"*\n* **Privacy Policy (`accio.com/privacy`)**: States: *\"We at Accio Global Technology Pte. Ltd. (together with our affiliates, 'Accio', 'we', 'our' or 'us') recognize the importance of your privacy and the confidentiality of your Personal Information.\"*\n* **Legal Notice & Registry**: Registered in Singapore under UEN `202326644R` at 51 Bras Basah Road, #01-21 Lazada One, Singapore 189554.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "Ltd.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHH3mo8byHl_1fnHW-2UHaxyiSQfqvF906vxhaAQp5S5s0D-5qxp0pp4QUIVSVzGddK-0nhcsM1-T26SQHTQR_yEQL5vc9_ex5MEffMENhEiLyzixVbq0wndHORdM9R43TEDZdhjxkcYpgWf2PRnf2tVU2YlxdYJt2N4-lUqZzOIbFbhhAUycbB5MwD6FpoI0w=",
+          "title": "accio.com"
+        },
+        {
+          "id": 1,
+          "text": "Ltd.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPXa0V2WJOCki4M1XHA3janwhMAtPazIPy8VQm0ZvAimEs9EcD0Qhw5rP-h1VNyR5qBk-Z9NezY0S54FOSp6cWVRnFCU_FQnPd8uBMiMP5b0UTEFd0Xk6eRuzWHguNwsT9qlaceBvsjzfrIneLi73SFeod-lSvRgG4mSuGnmpATxnxA1SfXY_mBV_wo3IVREy-c4cV37v6LPF7slk=",
+          "title": "accio.com"
+        },
+        {
+          "id": 2,
+          "text": "LTD. for the use of the Sites and Services.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPXa0V2WJOCki4M1XHA3janwhMAtPazIPy8VQm0ZvAimEs9EcD0Qhw5rP-h1VNyR5qBk-Z9NezY0S54FOSp6cWVRnFCU_FQnPd8uBMiMP5b0UTEFd0Xk6eRuzWHguNwsT9qlaceBvsjzfrIneLi73SFeod-lSvRgG4mSuGnmpATxnxA1SfXY_mBV_wo3IVREy-c4cV37v6LPF7slk=",
+          "title": "accio.com"
+        },
+        {
+          "id": 3,
+          "text": "Ltd. (together with our affiliates, 'Accio', 'we', 'our' or 'us') recognize the importance of your privacy and the confidentiality of your Personal Information.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHH3mo8byHl_1fnHW-2UHaxyiSQfqvF906vxhaAQp5S5s0D-5qxp0pp4QUIVSVzGddK-0nhcsM1-T26SQHTQR_yEQL5vc9_ex5MEffMENhEiLyzixVbq0wndHORdM9R43TEDZdhjxkcYpgWf2PRnf2tVU2YlxdYJt2N4-lUqZzOIbFbhhAUycbB5MwD6FpoI0w=",
+          "title": "accio.com"
+        },
+        {
+          "id": 4,
+          "text": "**Legal Notice & Registry**: Registered in Singapore under UEN `202326644R` at 51 Bras Basah Road, #01-21 Lazada One, Singapore 189554",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqTaDUavWEm77UaArcKmYMT21SqRAHsCjjSsjqa3Eky-xPlbV7QINKKKOE6BGBK--CJ2sDSQDqSm1cRBJZjfHxSheDb7gG9qwQ4472GqUpA-K9j8e6VBEyIHLDhUWW_Kvkjhp4c2nhhsnK-lHHDAyYumnzrF3MkE0uYjnNw1iqGla828Xcjgxp-bYxOkV_RuFmlt_ckS6iEeZk",
+          "title": "accio.com"
+        },
+        {
+          "id": 5,
+          "text": "**Legal Notice & Registry**: Registered in Singapore under UEN `202326644R` at 51 Bras Basah Road, #01-21 Lazada One, Singapore 189554",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiHzyGLndUyWfOOBWVSJxBXtW4lSOhz0he0bv-ILCbn-iLHoMQVk-kTF-gE60TSAKnENuwAlWxbyftxSN2zLFBHQnxbjcO96UGcNZE9p11siH8qMvoeHcYyr0M24Zx80Rgl7gjE1DnbnUiZiIqNw9RKbdPLUA=",
+          "title": "companieshouse.sg"
+        },
+        {
+          "id": 6,
+          "text": "**Legal Notice & Registry**: Registered in Singapore under UEN `202326644R` at 51 Bras Basah Road, #01-21 Lazada One, Singapore 189554",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7gMjIo_Rc0X5n8woSUTE7zDcd32y8eGMb2UwxzGQHpYt1X3iV9KtvAo6DmtNNtreHJlakS7l9Uf4679odlCrw2yLdZcm_IDMhuqhktJgw2qN2QfWAR93fbxCcA_LFr2-yfD_2CNF6qOjjoT9D99cISVWvZQYs51eLGH_0Cg==",
+          "title": "sgpgrid.com"
+        }
+      ],
+      "result": {
+        "status": "unknown",
+        "vendor": "UNKNOWN",
+        "evidence": "The provided passages are truncated fragments that omit the full name of the contracting company or provider (showing only 'Ltd.' or sentence fragments), making it impossible to verify the vendor from the text."
+      }
+    },
+    {
+      "answer": "The vendor directly providing **Accio** at **accio.com** is **ACCIO GLOBAL TECHNOLOGY PTE. LTD.** (an affiliate of Alibaba International Digital Commerce Group).\n\n* **Accio.com Terms of Use (Section 2.1):** *\"You are contracting with ACCIO GLOBAL TECHNOLOGY PTE. LTD. for the use of the Sites and Services.\"*\n* **Accio Privacy Policy:** *\"We at Accio Global Technology Pte. Ltd. (together with our affiliates, 'Accio', 'we', 'our' or 'us') recognize the importance of your privacy and the confidentiality of your Personal Information. This Accio Privacy Policy ('Privacy Policy') describes how we handle your Personal Information when you interact with and use the services of Accio (collectively, 'Services').\"*\n\n*(Note: Earlier platform terms and mobile app publisher listings also reference the corporate affiliate **Alibaba.com Global E-Commerce Pte. Ltd.**).*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "LTD.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvvf-s5VtW2iJnV8til5FqZzM4KW2Jk_O3OUuIKQMfIy0Z5U4Atk1PEOl5d6sDXk2g_z_iSOuYsOgJm5EIL401UrWAqATwhX-xAqoP5QUaF8vigxV0Dm0ZXkfYDnWuX2Zyk2L9UrpiNBqFxnnSoZ-tG7E7GaQ9EnDqorOvH5-ctvorv5pVmiTNZooXEbE7wVGGkml0AOlf2GaAiaw=",
+          "title": "accio.com"
+        },
+        {
+          "id": 1,
+          "text": "(an affiliate of Alibaba International Digital Commerce Group",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEtDscSF_c1EWEYgcUjocjxM1jicaQ6RPCgjK710UBoa9b6l7AA2ZAbXNNk-D6UdniYIsP_tvRhoN0vUKvkHRecGo_FZ_ikCH964NW2QDUvhC1BAbFu40Y5rJiEqxXuprrLp9Xeh4WJTBrAGgvn_7TFr6EfoNGfYjTj8tUCQ4_fLxeU4JrDG1SoTq6RwnLRQmWXcYp4SRkL7qtVNP-oEEbC01JR9mbbBtwYZT7QMRZXJ5oB8Tb5GNMD0FZEYkP28XWiev-6fy118PD",
+          "title": "prnewswire.com"
+        },
+        {
+          "id": 2,
+          "text": "(an affiliate of Alibaba International Digital Commerce Group",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNtF5wW0nsK7qXSWeNG1GtfyjKZJu82-JnN13xHTJW7kYoen1nhpAtTFkqOhKkiJqdXdW696USSWR_8WXUEEeGAJl8nzEsX8sT40JVIRcLQ3n_EL1opaD7ycMcLZmA-dzMLmzRyPD5J6AmJ0Lnejo2Diver8o=",
+          "title": "companieshouse.sg"
+        },
+        {
+          "id": 3,
+          "text": "LTD. for the use of the Sites and Services.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvvf-s5VtW2iJnV8til5FqZzM4KW2Jk_O3OUuIKQMfIy0Z5U4Atk1PEOl5d6sDXk2g_z_iSOuYsOgJm5EIL401UrWAqATwhX-xAqoP5QUaF8vigxV0Dm0ZXkfYDnWuX2Zyk2L9UrpiNBqFxnnSoZ-tG7E7GaQ9EnDqorOvH5-ctvorv5pVmiTNZooXEbE7wVGGkml0AOlf2GaAiaw=",
+          "title": "accio.com"
+        },
+        {
+          "id": 4,
+          "text": "This Accio Privacy Policy ('Privacy Policy') describes how we handle your Personal Information when you interact with and use the services of Accio (collectively, 'Services').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtbLK_PFsasLhnCLEr3PZnfAdt-1pdxPMNLa3CgBcDbHCMFeQkUOGxi8-kezQv5-UtmeGEnPiJg1rVikGSSia2gTGKo4ozSbqP8Zu3c-0eZPtm65mfDep3dZy6IB-kTr9rwbR16OL1Pam64bI9IsKSq-ok_Q_2wsqJKatifcaUr6_LYTqWIgwAP6LWDCaXK64=",
+          "title": "accio.com"
+        },
+        {
+          "id": 5,
+          "text": "Ltd.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZIST6nBNddUASFRgPDGBEtIcsxpKmehe8K1eEbtNF4p_O6S9QOjvaIlOk3q_3r8ZAUsnP9KKFjQo3foYXzPrpEIeWKyYKeRr6lBkj_PKs3KzKxCfrUGmvT1_hsxAqHIbXCF3JbDb1vgn_fs-yjeiNOe5vA1Qv4O6d7yrrXuBJ2EwHTjomjcd8ZPO56Sq6dw==",
+          "title": "apple.com"
+        },
+        {
+          "id": 6,
+          "text": "Ltd.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYWv2XYPA4mOeJyiiIbypg5NX-CuD3zD1HIZvTdtQZmiOWZTzQBGuXISuqGZ2N68a03Z6ZpeS5GABZlsrOaeL_4-I85jMCxNvURFyjKmzh7W-jvnJCT7hPMQykq2ACHiFD3TTzM7MPt2MZr8rC3LW8Gbe4bjt_oqFX_dswmB1MYoTnpEVs57W2jpad8BiP38CCZ_sS-FTvAQdC",
+          "title": "accio.com"
+        },
+        {
+          "id": 7,
+          "text": "Ltd.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNtF5wW0nsK7qXSWeNG1GtfyjKZJu82-JnN13xHTJW7kYoen1nhpAtTFkqOhKkiJqdXdW696USSWR_8WXUEEeGAJl8nzEsX8sT40JVIRcLQ3n_EL1opaD7ycMcLZmA-dzMLmzRyPD5J6AmJ0Lnejo2Diver8o=",
+          "title": "companieshouse.sg"
+        }
+      ],
+      "result": {
+        "status": "unknown",
+        "vendor": "UNKNOWN",
+        "evidence": "The provided passages consist of truncated text fragments (such as 'LTD.**' and '(an affiliate of Alibaba International Digital Commerce Group') and do not contain the complete name or verifiable identity of the vendor providing Accio."
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Accio",
+    "domain": "accio.com",
+    "description": "The World’s First AI-Powered B2B Sourcing Engine"
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "unknown",
+  "vendor": "UNKNOWN",
+  "evidence": "The provided passages consist of truncated text fragments (such as 'LTD.**' and '(an affiliate of Alibaba International Digital Commerce Group') and do not contain the complete name or verifiable identity of the vendor providing Accio.",
+  "checked_at": "2026-11-05T05:42:06.018777+00:00"
+}

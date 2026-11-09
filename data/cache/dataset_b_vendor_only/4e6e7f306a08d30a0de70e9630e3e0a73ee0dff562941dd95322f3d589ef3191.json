@@ -1,0 +1,43 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Scenario** at **scenario.gg** (which operates alongside and forwards to **scenario.com**) is **Scenario Inc.**\n\n### Provider Statement\nFrom Scenario's official Terms and Conditions:\n> *\"These Terms and Conditions (“Terms”) constitute a binding agreement between you (“User,” “you,” or “your”) and Scenario Inc., a Delaware corporation with its principal place of business at 440 N Barranca Ave #9893, Covina, CA 91723, USA (“Scenario,” “we,” “us,” or “our”). These Terms govern your access to and use of the Scenario platform, including our website at scenario.com, the application at app.scenario.com, the API documented at docs.scenario.com, and all related services, tools, and features...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Scenario** at **scenario.gg** (which operates alongside and forwards to **scenario.com**) is **Scenario Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1CPFjs7ncy2oCBJ8mIVarJcsO39JjD5zzpLFXgqMdkXUDThSAkH4mw2pM-Oae3EYWfdld7NYlNIpv38VVDK8QvuDQURhutSuPIR38Q1hVoIbxZOMnBDvB4qNjdp-QL1FH8Q==",
+          "title": "scenario.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Scenario Inc.",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing Scenario at scenario.gg is Scenario Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Scenario** at **scenario.gg** (which operates alongside and forwards to **scenario.com**) is **Scenario Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1CPFjs7ncy2oCBJ8mIVarJcsO39JjD5zzpLFXgqMdkXUDThSAkH4mw2pM-Oae3EYWfdld7NYlNIpv38VVDK8QvuDQURhutSuPIR38Q1hVoIbxZOMnBDvB4qNjdp-QL1FH8Q==",
+          "title": "scenario.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Scenario",
+    "domain": "scenario.gg",
+    "description": "Unlock the power of AI-generated gaming assets with Scenario."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Scenario Inc.",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing Scenario at scenario.gg is Scenario Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Scenario** at **scenario.gg** (which operates alongside and forwards to **scenario.com**) is **Scenario Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1CPFjs7ncy2oCBJ8mIVarJcsO39JjD5zzpLFXgqMdkXUDThSAkH4mw2pM-Oae3EYWfdld7NYlNIpv38VVDK8QvuDQURhutSuPIR38Q1hVoIbxZOMnBDvB4qNjdp-QL1FH8Q==",
+    "title": "scenario.com"
+  },
+  "checked_at": "2026-11-05T06:46:40.272359+00:00"
+}

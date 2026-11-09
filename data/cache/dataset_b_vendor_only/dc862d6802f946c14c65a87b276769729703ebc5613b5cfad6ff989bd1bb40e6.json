@@ -1,0 +1,91 @@
+{
+  "attempts": [
+    {
+      "answer": "For the product **EasyMedia** at **easymedia.app**:\n\n* **Provider / Developer:** **Piotr Vassev** / **V-IT Solutions Sp. z o.o.** (operating under the product/service brand **EasyMedia**).\n* **Evidence & Citations:** \n  * The official Terms of Service and Privacy Policy for **EasyMedia** (`easymedia.app`) state: *\"Welcome to EasyMedia (the 'App'), a service powered by AI that helps you repurpose your YouTube video content for engaging social media posts.\"*\n  * Section 9 specifies that the agreement is governed by the laws of Poland.\n  * Section 12 provides the direct official contact address: `piotrv1001@gmail.com`, which is the published email and handle of software developer and founder Piotr Vassev (CEO/owner of Poland-registered entity V-IT Solutions Sp. z o.o.).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "(operating under the product/service brand **EasyMedia**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvFhv8Ql_YEkUt6TYEt7W_rs6o6UxNdz6qCEbv8Cv1McKJTsXRhQHbo9yDzl5UTwzr74pe1zfZBkdqO0f4gLiwhoEO2aYUaHFqXq4pMG3D8bOlA3TuOnlS3f4G0Slmww==",
+          "title": "easymedia.app"
+        },
+        {
+          "id": 1,
+          "text": "(operating under the product/service brand **EasyMedia**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyJPPL7r0RydINOGQnbAXNx4hhUOXDtnvrsuR7OL_SRSuhbHwiBCtbyuXTZQFnUHBaJ61XSgtIS8c9qezvoZLOKaJGvJ5Vg02y7-CTRxVwkDr_J9dLyzaYNx6Q1oT3AOGWDg==",
+          "title": "rejestr.io"
+        },
+        {
+          "id": 2,
+          "text": "(operating under the product/service brand **EasyMedia**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECr9POjFv4kjQdnIzAxXiOLSFsIEhBNNiBBhRwUM-g7fMKJXsxQYRWxXbUv-DD-o-wwAyFETtGLn7Gte4c-QdefSUtM3XALJxJb9oNBIABPdv8WQ2Zl3R8SHEDgEWTAlgwlxO5-TUeqGa1Fz4s",
+          "title": "getlatka.com"
+        },
+        {
+          "id": 3,
+          "text": "The official Terms of Service and Privacy Policy for **EasyMedia** (`easymedia.app`) state: *\"Welcome to EasyMedia (the 'App'), a service powered by AI that helps you repurpose your YouTube video content for engaging social media posts.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvFhv8Ql_YEkUt6TYEt7W_rs6o6UxNdz6qCEbv8Cv1McKJTsXRhQHbo9yDzl5UTwzr74pe1zfZBkdqO0f4gLiwhoEO2aYUaHFqXq4pMG3D8bOlA3TuOnlS3f4G0Slmww==",
+          "title": "easymedia.app"
+        },
+        {
+          "id": 4,
+          "text": "Section 9 specifies that the agreement is governed by the laws of Poland",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGK2M2_daB_0walpR2J6qJEXOtM8S65lhSwNT4MWIWnogCEp-G3_6QWQNhK6FG52cTgHgjzudPE8HYqY9KFVQRqoBnxvHO16GyIKHJDnju3biotXWh0ydV5IyYOpaRNi4Y=",
+          "title": "easymedia.app"
+        },
+        {
+          "id": 5,
+          "text": "Section 12 provides the direct official contact address: `piotrv1001@gmail.com`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGK2M2_daB_0walpR2J6qJEXOtM8S65lhSwNT4MWIWnogCEp-G3_6QWQNhK6FG52cTgHgjzudPE8HYqY9KFVQRqoBnxvHO16GyIKHJDnju3biotXWh0ydV5IyYOpaRNi4Y=",
+          "title": "easymedia.app"
+        },
+        {
+          "id": 6,
+          "text": "Section 12 provides the direct official contact address: `piotrv1001@gmail.com`, which is the published email and handle of software developer and founder Piotr Vassev (CEO/owner of Poland-registered entity V-IT Solutions Sp. z o.o.)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyJPPL7r0RydINOGQnbAXNx4hhUOXDtnvrsuR7OL_SRSuhbHwiBCtbyuXTZQFnUHBaJ61XSgtIS8c9qezvoZLOKaJGvJ5Vg02y7-CTRxVwkDr_J9dLyzaYNx6Q1oT3AOGWDg==",
+          "title": "rejestr.io"
+        },
+        {
+          "id": 7,
+          "text": "Section 12 provides the direct official contact address: `piotrv1001@gmail.com`, which is the published email and handle of software developer and founder Piotr Vassev (CEO/owner of Poland-registered entity V-IT Solutions Sp. z o.o.)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHp8vA3kmxykDuBRGs5OcYwf3f-jCiAg_dwUFRIRMxZNthWs5Xa1kEFKrbve6o9CTEJGrX2fNsxw8tDii6GfHfsD4VfQA245MT7TBtEnK_RIdr0",
+          "title": "github.com"
+        },
+        {
+          "id": 8,
+          "text": "Section 12 provides the direct official contact address: `piotrv1001@gmail.com`, which is the published email and handle of software developer and founder Piotr Vassev (CEO/owner of Poland-registered entity V-IT Solutions Sp. z o.o.)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECr9POjFv4kjQdnIzAxXiOLSFsIEhBNNiBBhRwUM-g7fMKJXsxQYRWxXbUv-DD-o-wwAyFETtGLn7Gte4c-QdefSUtM3XALJxJb9oNBIABPdv8WQ2Zl3R8SHEDgEWTAlgwlxO5-TUeqGa1Fz4s",
+          "title": "getlatka.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "V-IT Solutions Sp. z o.o.",
+        "evidence": "Passage 6 identifies the official contact email for EasyMedia as belonging to software developer and founder Piotr Vassev, who is the CEO and owner of the Poland-registered operating entity V-IT Solutions Sp. z o.o.",
+        "source": {
+          "id": 6,
+          "text": "Section 12 provides the direct official contact address: `piotrv1001@gmail.com`, which is the published email and handle of software developer and founder Piotr Vassev (CEO/owner of Poland-registered entity V-IT Solutions Sp. z o.o.)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyJPPL7r0RydINOGQnbAXNx4hhUOXDtnvrsuR7OL_SRSuhbHwiBCtbyuXTZQFnUHBaJ61XSgtIS8c9qezvoZLOKaJGvJ5Vg02y7-CTRxVwkDr_J9dLyzaYNx6Q1oT3AOGWDg==",
+          "title": "rejestr.io"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "EasyMedia",
+    "domain": "easymedia.app",
+    "description": "EasyMedia is an AI-powered video repurposing tool that helps creators quickly and easily transform long-form videos into various formats for different platforms, saving time and effort."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "V-IT Solutions Sp. z o.o.",
+  "evidence": "Passage 6 identifies the official contact email for EasyMedia as belonging to software developer and founder Piotr Vassev, who is the CEO and owner of the Poland-registered operating entity V-IT Solutions Sp. z o.o.",
+  "source": {
+    "id": 6,
+    "text": "Section 12 provides the direct official contact address: `piotrv1001@gmail.com`, which is the published email and handle of software developer and founder Piotr Vassev (CEO/owner of Poland-registered entity V-IT Solutions Sp. z o.o.)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyJPPL7r0RydINOGQnbAXNx4hhUOXDtnvrsuR7OL_SRSuhbHwiBCtbyuXTZQFnUHBaJ61XSgtIS8c9qezvoZLOKaJGvJ5Vg02y7-CTRxVwkDr_J9dLyzaYNx6Q1oT3AOGWDg==",
+    "title": "rejestr.io"
+  },
+  "checked_at": "2026-11-05T06:44:33.689334+00:00"
+}

@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Buy Me a Coffee** at **buymeacoffee.com** is **Publisherr, Inc.**\n\n### Supporting Citation\nFrom the official Buy Me a Coffee *Terms of Use* and *Privacy Policy*:\n> *\"The service is provided by Publisherr, Inc., 2193 Fillmore Street, San Francisco, CA 94115, USA ('Buy Me a Coffee', 'we', 'us').\"*\n>\n> *\"By using Buy Me a Coffee you agree to these Terms... Together they form your agreement with Publisherr, Inc., 2193 Fillmore Street, San Francisco, CA 94115, USA ('Buy Me a Coffee', 'we', 'us').\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Buy Me a Coffee** at **buymeacoffee.com** is **Publisherr, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSSYsb8qitP8p3XFBgmyhInBtsWUCCcFKZwa3cl0MHaEW34_WpJGuU4jJ-3J_UzL7M0S7YJBBSPJfzAyIj4L_LtkIJU2oA1TFZqVL6aKUltTbboMI=",
+          "title": "buymeacoffee.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Buy Me a Coffee** at **buymeacoffee.com** is **Publisherr, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpxOdwunshVkvpSPyiv5vsxtPxNso9icn6VnvsdWVIF0b7J0yiRofU0GM59w7s1qaK-xXERBi1hlopw1m6tkA-NLrS9OKeMdA4cSXPHMwF8oRkqg==",
+          "title": "buymeacoffee.com"
+        },
+        {
+          "id": 2,
+          "text": "From the official Buy Me a Coffee *Terms of Use* and *Privacy Policy*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9Zq8077qA7vyKpgtixSiKjiMjYraf8MrAjhlgKEm2sFuLKVxILHUVrrf3dvnD_VXStWAS1l9B7Nbr9opF9kXo8olF0eBeRoR9BGkEFd38ID0r1S00jYKlIjVgU2U=",
+          "title": "buymeacoffee.com"
+        },
+        {
+          "id": 3,
+          "text": "From the official Buy Me a Coffee *Terms of Use* and *Privacy Policy*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSSYsb8qitP8p3XFBgmyhInBtsWUCCcFKZwa3cl0MHaEW34_WpJGuU4jJ-3J_UzL7M0S7YJBBSPJfzAyIj4L_LtkIJU2oA1TFZqVL6aKUltTbboMI=",
+          "title": "buymeacoffee.com"
+        },
+        {
+          "id": 4,
+          "text": "*\"The service is provided by Publisherr, Inc., 2193 Fillmore Street, San Francisco, CA 94115, USA ('Buy Me a Coffee', 'we', 'us').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9Zq8077qA7vyKpgtixSiKjiMjYraf8MrAjhlgKEm2sFuLKVxILHUVrrf3dvnD_VXStWAS1l9B7Nbr9opF9kXo8olF0eBeRoR9BGkEFd38ID0r1S00jYKlIjVgU2U=",
+          "title": "buymeacoffee.com"
+        },
+        {
+          "id": 5,
+          "text": "Together they form your agreement with Publisherr, Inc., 2193 Fillmore Street, San Francisco, CA 94115, USA ('Buy Me a Coffee', 'we', 'us').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSSYsb8qitP8p3XFBgmyhInBtsWUCCcFKZwa3cl0MHaEW34_WpJGuU4jJ-3J_UzL7M0S7YJBBSPJfzAyIj4L_LtkIJU2oA1TFZqVL6aKUltTbboMI=",
+          "title": "buymeacoffee.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Publisherr, Inc.",
+        "evidence": "Passage 4 directly states: 'The service is provided by Publisherr, Inc., 2193 Fillmore Street, San Francisco, CA 94115, USA ('Buy Me a Coffee', 'we', 'us').'",
+        "source": {
+          "id": 4,
+          "text": "*\"The service is provided by Publisherr, Inc., 2193 Fillmore Street, San Francisco, CA 94115, USA ('Buy Me a Coffee', 'we', 'us').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9Zq8077qA7vyKpgtixSiKjiMjYraf8MrAjhlgKEm2sFuLKVxILHUVrrf3dvnD_VXStWAS1l9B7Nbr9opF9kXo8olF0eBeRoR9BGkEFd38ID0r1S00jYKlIjVgU2U=",
+          "title": "buymeacoffee.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Buy Me a Coffee",
+    "domain": "buymeacoffee.com",
+    "description": "Buy Me a Coffee is a platform designed to facilitate direct payments for creators, allowing them to receive financial support from their fans and followers. With over 1 million creators utilizing the service, it offers a simple and effective way for artists, writers, and other content creators to monetize their work through one-time tips and membership subscriptions."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Publisherr, Inc.",
+  "evidence": "Passage 4 directly states: 'The service is provided by Publisherr, Inc., 2193 Fillmore Street, San Francisco, CA 94115, USA ('Buy Me a Coffee', 'we', 'us').'",
+  "source": {
+    "id": 4,
+    "text": "*\"The service is provided by Publisherr, Inc., 2193 Fillmore Street, San Francisco, CA 94115, USA ('Buy Me a Coffee', 'we', 'us').\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9Zq8077qA7vyKpgtixSiKjiMjYraf8MrAjhlgKEm2sFuLKVxILHUVrrf3dvnD_VXStWAS1l9B7Nbr9opF9kXo8olF0eBeRoR9BGkEFd38ID0r1S00jYKlIjVgU2U=",
+    "title": "buymeacoffee.com"
+  },
+  "checked_at": "2026-11-05T08:42:03.453137+00:00"
+}

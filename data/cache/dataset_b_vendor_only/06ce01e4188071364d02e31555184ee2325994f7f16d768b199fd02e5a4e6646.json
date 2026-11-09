@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product at **ahrefs.com** is **Ahrefs Pte. Ltd.**\n\n### Provider Statement\nAccording to the official **Terms of Service** for **Ahrefs** (`ahrefs.com`):\n> *\"These Terms of Service (the \"Terms\") are a binding agreement between you and Ahrefs Pte. Ltd. (\"Ahrefs\", \"we\", \"us\", or \"our\") (UEN No. 201227417H) of 16 Raffles Quay #33-03 Hong Leong Building Singapore 048581... with respect to your use of Ahrefs (https://ahrefs.com/) and all products and services in connection with Ahrefs from time to time... (collectively, \"Ahrefs Services\").\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "Ltd.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMK2mu1foZAyMs3T8VZuNDW0fyg1zl0xab4PxyygIB3Fvq1bRkP4_5qEkmVETS8TcaQnfimPOS_bSilKi8KYt8Z5nbXVhd-GwHd6_qPL3I8ffkEg==",
+          "title": "ahrefs.com"
+        },
+        {
+          "id": 1,
+          "text": "Ltd. (\"Ahrefs\", \"we\", \"us\", or \"our\") (UEN No. 201227417H) of 16 Raffles Quay #33-03 Hong Leong Building Singapore 048581... with respect to your use of Ahrefs (https://ahrefs.com/) and all products and services in connection with Ahrefs from time to time... (collectively, \"Ahrefs Services\").\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMK2mu1foZAyMs3T8VZuNDW0fyg1zl0xab4PxyygIB3Fvq1bRkP4_5qEkmVETS8TcaQnfimPOS_bSilKi8KYt8Z5nbXVhd-GwHd6_qPL3I8ffkEg==",
+          "title": "ahrefs.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Ahrefs",
+        "evidence": "Passage 1 indicates that the terms for using Ahrefs (https://ahrefs.com/) and Ahrefs Services are between the user and the company designated as 'Ltd. (\"Ahrefs\", \"we\", \"us\", or \"our\")'.",
+        "source": {
+          "id": 1,
+          "text": "Ltd. (\"Ahrefs\", \"we\", \"us\", or \"our\") (UEN No. 201227417H) of 16 Raffles Quay #33-03 Hong Leong Building Singapore 048581... with respect to your use of Ahrefs (https://ahrefs.com/) and all products and services in connection with Ahrefs from time to time... (collectively, \"Ahrefs Services\").\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMK2mu1foZAyMs3T8VZuNDW0fyg1zl0xab4PxyygIB3Fvq1bRkP4_5qEkmVETS8TcaQnfimPOS_bSilKi8KYt8Z5nbXVhd-GwHd6_qPL3I8ffkEg==",
+          "title": "ahrefs.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Ahrefs",
+    "domain": "ahrefs.com",
+    "description": "Ahrefs Pte. Ltd. is a software company specializing in SEO tools and resources aimed at marketing professionals. Based in Singapore, its all-in-one SEO toolset helps users increase search traffic and optimize their websites through comprehensive data analysis. Ahrefs is recognized for pioneering tools like Site Explorer for backlink analysis, as well as Keywords Explorer, Content Explorer, Rank Tracker, and Site Audit, making it a key player in the SEO industry."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Ahrefs",
+  "evidence": "Passage 1 indicates that the terms for using Ahrefs (https://ahrefs.com/) and Ahrefs Services are between the user and the company designated as 'Ltd. (\"Ahrefs\", \"we\", \"us\", or \"our\")'.",
+  "source": {
+    "id": 1,
+    "text": "Ltd. (\"Ahrefs\", \"we\", \"us\", or \"our\") (UEN No. 201227417H) of 16 Raffles Quay #33-03 Hong Leong Building Singapore 048581... with respect to your use of Ahrefs (https://ahrefs.com/) and all products and services in connection with Ahrefs from time to time... (collectively, \"Ahrefs Services\").\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMK2mu1foZAyMs3T8VZuNDW0fyg1zl0xab4PxyygIB3Fvq1bRkP4_5qEkmVETS8TcaQnfimPOS_bSilKi8KYt8Z5nbXVhd-GwHd6_qPL3I8ffkEg==",
+    "title": "ahrefs.com"
+  },
+  "checked_at": "2026-11-05T09:15:07.557515+00:00"
+}

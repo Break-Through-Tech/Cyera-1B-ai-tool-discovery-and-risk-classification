@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product **HereAfter AI** (associated with the domain **`hereafter.ai`**) is **HereAfter Inc.**.\n\n### Evidence:\n* **App Store Developer & Legal Listings:** Apple App Store listings for the *HereAfter AI* application identify the developer and operating entity as **HereAfter Inc.** (stating: *\"The developer, HereAfter Inc., indicated that the app's privacy practices may include handling of data...\"*).\n* **Company & Legal Documentation:** Legal and service records for HereAfter AI at `hereafter.ai` establish **HereAfter Inc.** as the corporate entity operating the service and its terms.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product **HereAfter AI** (associated with the domain **`hereafter.ai`**) is **HereAfter Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUDA0ZlhTuid4jUrUCXvwRjxRKCDuU2m8RDuzf6C1pht6SumRiZhHc0MbA6tRW5fEryeLAlO56TFieN_zWlh_jD15_hinIyenZgD6wjQ_akpbScm4Ucz7BMTn0h9o6aSlwHwD6ZIH7KRHSEucNQkEzFT4niA==",
+          "title": "princememoagent.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the software product **HereAfter AI** (associated with the domain **`hereafter.ai`**) is **HereAfter Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqI6nIwQKKyHKKGq9M5dqf0mylcgCO6ikM9yMYzUD8VObUYUiNXrdgCIgCGRWyocD0zlHO7efpnwhRNAVXDySrHyfdpoALo5KgKbphZTovOvX1D9_Qf4ZGsX-ARXptFggMBfP5I3PAi4z9Yak9",
+          "title": "apple.com"
+        },
+        {
+          "id": 2,
+          "text": "*)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErhJ4UQSCdH5S6fM8KoCFbF1eFk54AopHzFG7vUDDE0UItTKCrpYxrvULKNBhJ8NqqzhQO-F_Gog4CrU9pva7K3kr_nIEgu7oYnWCfdGMTjxi6hPWw7dqZF6UR2DJxAoB1rlabz6VzTvX_0Fsy2tHjCzxWN9A=",
+          "title": "apple.com"
+        },
+        {
+          "id": 3,
+          "text": "*)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxTGeNL_C0mTlOuhpkX1_xV0nwluewNI5mLlgcSnRo2yGRKxAX_Lst8MhLeow4tXEux_-01-BhJofcG1wFUJd9R-sykpK1XnP5nS3jdujIpUQcyTrFjy6BJfBPVtm467zMx_e2bjcrLKK1u1K3",
+          "title": "apple.com"
+        },
+        {
+          "id": 4,
+          "text": "**Company & Legal Documentation:** Legal and service records for HereAfter AI at `hereafter.ai` establish **HereAfter Inc.** as the corporate entity operating the service and its terms",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUDA0ZlhTuid4jUrUCXvwRjxRKCDuU2m8RDuzf6C1pht6SumRiZhHc0MbA6tRW5fEryeLAlO56TFieN_zWlh_jD15_hinIyenZgD6wjQ_akpbScm4Ucz7BMTn0h9o6aSlwHwD6ZIH7KRHSEucNQkEzFT4niA==",
+          "title": "princememoagent.com"
+        },
+        {
+          "id": 5,
+          "text": "**Company & Legal Documentation:** Legal and service records for HereAfter AI at `hereafter.ai` establish **HereAfter Inc.** as the corporate entity operating the service and its terms",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRKp-nudX8bT6-f3kSM1_JwYS00A99aLKW-sXZjLv_mtBu7F_ji1wQdEOiXyLHqqsHNsvhmRICkFuxYhQacSOSiIPjbNK4JXYIhPBkW2or4_nPTHbtBdsRONCHp3g2hIQsminay0jX_2WrARDGs25jdgDLd8-a8KGlDK_bGrXbENAswmz--Wnha1_ekaBNHbEwJYkm68RWImK2LrQ6MKqzh8UJGgJReGOouXANsvrghSeu0e4Ucjm2QMmr40zGnNgFPm3QZqFBOoH9rz56tgT5rHG3fARe8MtPB9_XMOeKn6chkOJDoEnlHyoCsgJsIg6Kd5b7tAnJKzjg6LXP0N9q",
+          "title": "cambridge.org"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "HereAfter Inc.",
+        "evidence": "Passage 0 explicitly identifies HereAfter Inc. as the vendor directly providing the software product HereAfter AI associated with the domain hereafter.ai.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the software product **HereAfter AI** (associated with the domain **`hereafter.ai`**) is **HereAfter Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUDA0ZlhTuid4jUrUCXvwRjxRKCDuU2m8RDuzf6C1pht6SumRiZhHc0MbA6tRW5fEryeLAlO56TFieN_zWlh_jD15_hinIyenZgD6wjQ_akpbScm4Ucz7BMTn0h9o6aSlwHwD6ZIH7KRHSEucNQkEzFT4niA==",
+          "title": "princememoagent.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "HereAfter AI",
+    "domain": "hereafter.ai",
+    "description": "Preserve memories with an app that interviews you about your life."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "HereAfter Inc.",
+  "evidence": "Passage 0 explicitly identifies HereAfter Inc. as the vendor directly providing the software product HereAfter AI associated with the domain hereafter.ai.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the software product **HereAfter AI** (associated with the domain **`hereafter.ai`**) is **HereAfter Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUDA0ZlhTuid4jUrUCXvwRjxRKCDuU2m8RDuzf6C1pht6SumRiZhHc0MbA6tRW5fEryeLAlO56TFieN_zWlh_jD15_hinIyenZgD6wjQ_akpbScm4Ucz7BMTn0h9o6aSlwHwD6ZIH7KRHSEucNQkEzFT4niA==",
+    "title": "princememoagent.com"
+  },
+  "checked_at": "2026-11-05T05:56:12.427751+00:00"
+}

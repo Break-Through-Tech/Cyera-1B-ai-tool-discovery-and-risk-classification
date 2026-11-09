@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on the official website and legal documentation for the software product **MAMP** at **mamp.info**:\n\n* **Vendor / Operating Company:** **MAMP GmbH**\n* **Evidence:**\n  * The homepage states: *\"MAMP GmbH is the manufacturer of the award-winning MAMP software.\"*\n  * The Terms of Service state: *\"These Terms of Service govern the use of MAMP PRO, MAMP Cloud, NAMO, and related products and services provided by MAMP GmbH, In den Niederwiesen 4a, 76744 Wörth am Rhein, Germany...\"*\n  * The Legal Notice (*Impressum*) confirms the operating entity and provider as **MAMP GmbH** (registered at Amtsgericht Landau, HRB 32431).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**Vendor / Operating Company:** **MAMP GmbH**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJM2vh0Z6Hu0TNh8gjXNaxBzb8WaP4cc5GEE-m6r7gK7E-qi9Q2j99HQRTvWMxh5szGitwfSdTsqGgNccpDyTAEmLTpDTpJf9cz9r7dMhQf4XnXMn-VZ6MrAFQHb8=",
+          "title": "mamp.info"
+        },
+        {
+          "id": 1,
+          "text": "**Vendor / Operating Company:** **MAMP GmbH**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGe7MGTpM89_oVbb2BdKy53zGZT7PzfqRpcmj_GU4lUVj-4qMFh_oZzAMOyXfZE69tgXJeTL68f2gcbCKEILa7UEBhv-G9IvWAtdw8=",
+          "title": "mamp.info"
+        },
+        {
+          "id": 2,
+          "text": "The homepage states: *\"MAMP GmbH is the manufacturer of the award-winning MAMP software.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGe7MGTpM89_oVbb2BdKy53zGZT7PzfqRpcmj_GU4lUVj-4qMFh_oZzAMOyXfZE69tgXJeTL68f2gcbCKEILa7UEBhv-G9IvWAtdw8=",
+          "title": "mamp.info"
+        },
+        {
+          "id": 3,
+          "text": "The Terms of Service state: *\"These Terms of Service govern the use of MAMP PRO, MAMP Cloud, NAMO, and related products and services provided by MAMP GmbH, In den Niederwiesen 4a, 76744 Wörth am Rhein, Germany...\"*\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzg95c3b2qG0XfV54REMQ9-HP9DT7KX_0CjbbnZ8hernk7fCTOjqs3rmX7w2kfU6Jzu1KWri68qKLZzfAr3YRpc8jHlN3s1yidSwxPIEARyFsV0rD9qWEbDNPBPd4G-g==",
+          "title": "mamp.info"
+        },
+        {
+          "id": 4,
+          "text": "he Legal Notice (*Impressum*) confirms the operating entity and provider as **MAMP GmbH** (registered at Amtsgericht Landau, HRB 32431).",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFD-9YA9R2CzRfILrarHRrYGdqWYzGSpj_g-aTw8YpxW6VEdy3gAZ2MQ7bJV4ZqMcJMFstRvLZ8FHjXpXlXEptyIbK-LmjY4iWtv0lHpGhjI3g1TarRmhZBVHq2",
+          "title": "mamp.info"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "MAMP GmbH",
+        "evidence": "The homepage of mamp.info states that MAMP GmbH is the manufacturer of the award-winning MAMP software.",
+        "source": {
+          "id": 2,
+          "text": "The homepage states: *\"MAMP GmbH is the manufacturer of the award-winning MAMP software.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGe7MGTpM89_oVbb2BdKy53zGZT7PzfqRpcmj_GU4lUVj-4qMFh_oZzAMOyXfZE69tgXJeTL68f2gcbCKEILa7UEBhv-G9IvWAtdw8=",
+          "title": "mamp.info"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "MAMP",
+    "domain": "mamp.info",
+    "description": "MAMP GmbH is a developer based in Germany, renowned for its award-winning MAMP software, which provides a local server environment for PHP, MySQL, and Apache, catering primarily to web developers and designers."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "MAMP GmbH",
+  "evidence": "The homepage of mamp.info states that MAMP GmbH is the manufacturer of the award-winning MAMP software.",
+  "source": {
+    "id": 2,
+    "text": "The homepage states: *\"MAMP GmbH is the manufacturer of the award-winning MAMP software.\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGe7MGTpM89_oVbb2BdKy53zGZT7PzfqRpcmj_GU4lUVj-4qMFh_oZzAMOyXfZE69tgXJeTL68f2gcbCKEILa7UEBhv-G9IvWAtdw8=",
+    "title": "mamp.info"
+  },
+  "checked_at": "2026-11-05T08:47:30.225991+00:00"
+}

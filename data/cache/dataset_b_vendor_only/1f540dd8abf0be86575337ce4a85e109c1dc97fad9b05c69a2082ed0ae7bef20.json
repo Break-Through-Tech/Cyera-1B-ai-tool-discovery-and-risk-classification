@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Zenfolio** at **zenfolio.com** is **Zenfolio, Inc.**\n\n### Supporting Evidence\n* According to the **Zenfolio Privacy Policy** (`zenfolio.com/privacy`):\n  > *\"This Privacy Policy sets forth the terms and conditions under which Zenfolio, Inc., and our affiliate Photobooker (collectively, 'Zenfolio,' 'we,' 'us,' or 'our') collects, uses, and processes your personal information when you access or use any of our websites or services... Zenfolio offers two online platforms, one at www.zenfolio.com that allows photographers to exhibit, organize, print, sell, exchange, and share digital images, videos and related products...\"*\n* The official website footer and legal agreements (such as the Data Processing Agreement and API Terms) similarly designate **Zenfolio, Inc.** as the operating entity.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Zenfolio** at **zenfolio.com** is **Zenfolio, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVUkac_HfMHj5UaZDIFdLo0TxxbJPRBRGjXP9AwW98ySCLCN4-M334DnibeAg9VX0ZnxESQa9sPMYXXALguDOsK4iFIX8-8Qahq4uBWx-bctIig7r6_3ga",
+          "title": "zenfolio.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Zenfolio** at **zenfolio.com** is **Zenfolio, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_BCrKME1UOyVuNFUrG0XkWyiDywftC6jociuBB9pvBQZxL4mJ9f1ucyj7ZweQUoq_2ESXHl-EAwM2C3xFbvYywCFx2H7IGOtJ0H7r_tOU1g7Ns40Xyp-7",
+          "title": "zenfolio.com"
+        },
+        {
+          "id": 2,
+          "text": "Zenfolio offers two online platforms, one at www.zenfolio.com that allows photographers to exhibit, organize, print, sell, exchange, and share digital images, videos and related products...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVUkac_HfMHj5UaZDIFdLo0TxxbJPRBRGjXP9AwW98ySCLCN4-M334DnibeAg9VX0ZnxESQa9sPMYXXALguDOsK4iFIX8-8Qahq4uBWx-bctIig7r6_3ga",
+          "title": "zenfolio.com"
+        },
+        {
+          "id": 3,
+          "text": "The official website footer and legal agreements (such as the Data Processing Agreement and API Terms) similarly designate **Zenfolio, Inc.** as the operating entity",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNYIy2aIx0WEPpriXriD18MG5D-0fQi2RX9uEEJpt5ey1zaysDK4H31izFpi2crZrQ5pkfa0hXj7gHhFVUmBmFTnFIphOun8efjVDjUQujhec22E1upEsEOxr-FCvUuMQf",
+          "title": "zenfolio.com"
+        },
+        {
+          "id": 4,
+          "text": "The official website footer and legal agreements (such as the Data Processing Agreement and API Terms) similarly designate **Zenfolio, Inc.** as the operating entity",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZVj8hhkBiWmUKKvMWnhTGJGjK_Pq0kaqJVi7vceIZ_3-IZTHEBbo9KY0BOv2SfvZsKluWR-Bij7JKq-8Yvdf9A6-8oEfvd8D1GqTUOIthUJVdxQ4=",
+          "title": "zenfolio.com"
+        },
+        {
+          "id": 5,
+          "text": "The official website footer and legal agreements (such as the Data Processing Agreement and API Terms) similarly designate **Zenfolio, Inc.** as the operating entity",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_BCrKME1UOyVuNFUrG0XkWyiDywftC6jociuBB9pvBQZxL4mJ9f1ucyj7ZweQUoq_2ESXHl-EAwM2C3xFbvYywCFx2H7IGOtJ0H7r_tOU1g7Ns40Xyp-7",
+          "title": "zenfolio.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Zenfolio, Inc.",
+        "evidence": "Zenfolio, Inc. is directly stated as the vendor providing Zenfolio at zenfolio.com.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Zenfolio** at **zenfolio.com** is **Zenfolio, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVUkac_HfMHj5UaZDIFdLo0TxxbJPRBRGjXP9AwW98ySCLCN4-M334DnibeAg9VX0ZnxESQa9sPMYXXALguDOsK4iFIX8-8Qahq4uBWx-bctIig7r6_3ga",
+          "title": "zenfolio.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Zenfolio",
+    "domain": "zenfolio.com",
+    "description": "Zenfolio is a leading provider of business solutions for photographers, established in 2005. It offers comprehensive online tools such as a website builder, custom galleries, online proofing, contactless booking and payments, as well as an online store for prints and digital downloads. Photographers globally rely on Zenfolio to effectively manage and grow their businesses, while the company promotes a collaborative work culture and is at the forefront of innovations in the photography industry."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Zenfolio, Inc.",
+  "evidence": "Zenfolio, Inc. is directly stated as the vendor providing Zenfolio at zenfolio.com.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Zenfolio** at **zenfolio.com** is **Zenfolio, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVUkac_HfMHj5UaZDIFdLo0TxxbJPRBRGjXP9AwW98ySCLCN4-M334DnibeAg9VX0ZnxESQa9sPMYXXALguDOsK4iFIX8-8Qahq4uBWx-bctIig7r6_3ga",
+    "title": "zenfolio.com"
+  },
+  "checked_at": "2026-11-05T08:42:16.900519+00:00"
+}

@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor and developer providing **Experai** at **`experai.com`** is developer **Amritpal Chera**, operating under the product/brand name **ExperAI**.\n\n### Evidence\n* **Developer Statement:** In public developer launch announcements for `experai.com`, creator Amritpal Chera announced: *\"Just created ExperAI - a search engine for any AI expert; from school-work to life choices. Just describe the type of person you are looking for and it will create a chat window with that AI expert\"*. \n* **Directory / App Listings:** App registry and software directories (such as Softonic and SourceForge) list the developer/company name directly as **ExperAI** (or **experai**) for `experai.com`.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor and developer providing **Experai** at **`experai.com`** is developer **Amritpal Chera**, operating under the product/brand name **ExperAI**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkcjZGMnColxZDJ7REx2fGJV2rHuqx-U7S1ZkCH4iz9-myxVRSYkt2lPf5tg2AQrE0_rt061l7Fcr-rZs-4853l5Mkqs6zpeyC8SiT0x42ZzCoGt0tfQupcnIojp-R2cq_muyYv1-28MYxnJgiiSeeR39cFA==",
+          "title": "slashdot.org"
+        },
+        {
+          "id": 1,
+          "text": "The vendor and developer providing **Experai** at **`experai.com`** is developer **Amritpal Chera**, operating under the product/brand name **ExperAI**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiAV5fGcbNJD8vYLTVFWs3tp9crOmooBNkL6rhGVlHvomO6mgkKYd1z_01stAUXsUX1fUqpfi3KHsCpbI1HIGoNn1upVw-xUDqWs_QyBooahGixIzr011D4suV-C5g8ij2nk8Fi-5qEbBja57idGFnQyngcsHUjMHkax0OhnGD7if3bLyC",
+          "title": "reddit.com"
+        },
+        {
+          "id": 2,
+          "text": "Just describe the type of person you are looking for and it will create a chat window with that AI expert\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiAV5fGcbNJD8vYLTVFWs3tp9crOmooBNkL6rhGVlHvomO6mgkKYd1z_01stAUXsUX1fUqpfi3KHsCpbI1HIGoNn1upVw-xUDqWs_QyBooahGixIzr011D4suV-C5g8ij2nk8Fi-5qEbBja57idGFnQyngcsHUjMHkax0OhnGD7if3bLyC",
+          "title": "reddit.com"
+        },
+        {
+          "id": 3,
+          "text": "**Directory / App Listings:** App registry and software directories (such as Softonic and SourceForge) list the developer/company name directly as **ExperAI** (or **experai**) for `experai.com`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkcjZGMnColxZDJ7REx2fGJV2rHuqx-U7S1ZkCH4iz9-myxVRSYkt2lPf5tg2AQrE0_rt061l7Fcr-rZs-4853l5Mkqs6zpeyC8SiT0x42ZzCoGt0tfQupcnIojp-R2cq_muyYv1-28MYxnJgiiSeeR39cFA==",
+          "title": "slashdot.org"
+        },
+        {
+          "id": 4,
+          "text": "**Directory / App Listings:** App registry and software directories (such as Softonic and SourceForge) list the developer/company name directly as **ExperAI** (or **experai**) for `experai.com`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXmh7-pN3ADD-zSIXFkbwkZtxchnUI_OmWl0J1WS1xgzDAB0WKRxOPOTbBkh39-WYngEHBI_D2k6EZbu3zVUbJij0FQV6UEzOTrEBnoMbTKkbO-uihVLh19FG_l6U=",
+          "title": "softonic.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Amritpal Chera",
+        "evidence": "Passage 0 directly states that the vendor and developer providing Experai at experai.com is developer Amritpal Chera, operating under the product/brand name ExperAI.",
+        "source": {
+          "id": 0,
+          "text": "The vendor and developer providing **Experai** at **`experai.com`** is developer **Amritpal Chera**, operating under the product/brand name **ExperAI**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkcjZGMnColxZDJ7REx2fGJV2rHuqx-U7S1ZkCH4iz9-myxVRSYkt2lPf5tg2AQrE0_rt061l7Fcr-rZs-4853l5Mkqs6zpeyC8SiT0x42ZzCoGt0tfQupcnIojp-R2cq_muyYv1-28MYxnJgiiSeeR39cFA==",
+          "title": "slashdot.org"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Experai",
+    "domain": "experai.com",
+    "description": "Chat with AI experts on any topic."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Amritpal Chera",
+  "evidence": "Passage 0 directly states that the vendor and developer providing Experai at experai.com is developer Amritpal Chera, operating under the product/brand name ExperAI.",
+  "source": {
+    "id": 0,
+    "text": "The vendor and developer providing **Experai** at **`experai.com`** is developer **Amritpal Chera**, operating under the product/brand name **ExperAI**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkcjZGMnColxZDJ7REx2fGJV2rHuqx-U7S1ZkCH4iz9-myxVRSYkt2lPf5tg2AQrE0_rt061l7Fcr-rZs-4853l5Mkqs6zpeyC8SiT0x42ZzCoGt0tfQupcnIojp-R2cq_muyYv1-28MYxnJgiiSeeR39cFA==",
+    "title": "slashdot.org"
+  },
+  "checked_at": "2026-11-05T05:36:57.711437+00:00"
+}

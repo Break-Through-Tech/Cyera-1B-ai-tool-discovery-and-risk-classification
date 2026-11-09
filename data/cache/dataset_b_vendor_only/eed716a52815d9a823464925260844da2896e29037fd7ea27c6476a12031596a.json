@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "For the AI video recruiting software **Intervidy** at the domain **intervidy.com**, the direct provider is operating under the self-named provider brand **Intervidy**.\n\n### Evidence & Provider Statement\nOn the official product website at `intervidy.com`:\n* The footer copyright notice directly identifies the provider:  \n  > *\"© 2024 - Intervidy. Crafted by Intervidy.com.\"*\n* The site states:  \n  > *\"At Intervidy, we transform hiring into a science of precision.\"*\n\nNo distinct registered corporate legal entity or individual developer name is published on the site.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "For the AI video recruiting software **Intervidy** at the domain **intervidy.com**, the direct provider is operating under the self-named provider brand **Intervidy**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwB8aSbfkqiwNQeqISEdXfJG6hPw52SSkD2p58HDDx97pbuDhiYCyh7UUv2Zr4XC4pn84j7lbefRNRM3foTREs-GQlE9wZfKtio00H_KWqXg==",
+          "title": "intervidy.com"
+        },
+        {
+          "id": 1,
+          "text": "For the AI video recruiting software **Intervidy** at the domain **intervidy.com**, the direct provider is operating under the self-named provider brand **Intervidy**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGWuFRGDe_K62kRJZSK4mmVCfCsKPRSLGNvFBoYDXDOvY1O9B6-6GoxPILGz206tPjSFbbYz0EtB2Kn04u3yssuxVEBbAxUKR_aesLPIrqsQ==",
+          "title": "intervidy.com"
+        },
+        {
+          "id": 2,
+          "text": "rafted by Intervidy.com.\"*\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGWuFRGDe_K62kRJZSK4mmVCfCsKPRSLGNvFBoYDXDOvY1O9B6-6GoxPILGz206tPjSFbbYz0EtB2Kn04u3yssuxVEBbAxUKR_aesLPIrqsQ==",
+          "title": "intervidy.com"
+        },
+        {
+          "id": 3,
+          "text": "\"At Intervidy, we transform hiring into a science of precision.\"*\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwB8aSbfkqiwNQeqISEdXfJG6hPw52SSkD2p58HDDx97pbuDhiYCyh7UUv2Zr4XC4pn84j7lbefRNRM3foTREs-GQlE9wZfKtio00H_KWqXg==",
+          "title": "intervidy.com"
+        },
+        {
+          "id": 4,
+          "text": "o distinct registered corporate legal entity or individual developer name is published on the site.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGWuFRGDe_K62kRJZSK4mmVCfCsKPRSLGNvFBoYDXDOvY1O9B6-6GoxPILGz206tPjSFbbYz0EtB2Kn04u3yssuxVEBbAxUKR_aesLPIrqsQ==",
+          "title": "intervidy.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Intervidy",
+        "evidence": "Passage 0 directly states that for the AI video recruiting software Intervidy at the domain intervidy.com, the direct provider operates under the self-named provider brand Intervidy.",
+        "source": {
+          "id": 0,
+          "text": "For the AI video recruiting software **Intervidy** at the domain **intervidy.com**, the direct provider is operating under the self-named provider brand **Intervidy**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwB8aSbfkqiwNQeqISEdXfJG6hPw52SSkD2p58HDDx97pbuDhiYCyh7UUv2Zr4XC4pn84j7lbefRNRM3foTREs-GQlE9wZfKtio00H_KWqXg==",
+          "title": "intervidy.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Intervidy",
+    "domain": "intervidy.com",
+    "description": "Intervidy uses AI-powered video interviewing to streamline the recruitment process, providing automated candidate screening, insightful analytics, and a more engaging experience for both recruiters and applicants."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Intervidy",
+  "evidence": "Passage 0 directly states that for the AI video recruiting software Intervidy at the domain intervidy.com, the direct provider operates under the self-named provider brand Intervidy.",
+  "source": {
+    "id": 0,
+    "text": "For the AI video recruiting software **Intervidy** at the domain **intervidy.com**, the direct provider is operating under the self-named provider brand **Intervidy**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwB8aSbfkqiwNQeqISEdXfJG6hPw52SSkD2p58HDDx97pbuDhiYCyh7UUv2Zr4XC4pn84j7lbefRNRM3foTREs-GQlE9wZfKtio00H_KWqXg==",
+    "title": "intervidy.com"
+  },
+  "checked_at": "2026-11-05T07:25:12.053127+00:00"
+}

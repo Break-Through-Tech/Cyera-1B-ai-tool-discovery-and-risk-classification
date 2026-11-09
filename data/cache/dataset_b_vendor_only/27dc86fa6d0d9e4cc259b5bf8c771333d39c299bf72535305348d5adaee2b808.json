@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Atua** at **atua.app** is **DevLab Systems LLC**.\n\n### Supporting Evidence\nAccording to the official **Terms of Service** on `atua.app`:\n> *\"These Terms of Service (“Terms”) govern your use of Atua (“the App”), a macOS application developed and operated by DevLab Systems LLC (“we”, “us”, or “our”).\"*\n\nThe Terms of Service further state under Intellectual Property:\n> *\"Atua, including its design, code, and branding, is the intellectual property of DevLab Systems LLC.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Atua** at **atua.app** is **DevLab Systems LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3n8qLXOCekU9L_zzeOx7xBLfEC3N9Ln71KUe_m2znTn376jM1XKIGtiHCIcCHoUCpgLN5bDf7oVcMNlKCbibkaqxK_7IL0D5Y5Rulow==",
+          "title": "atua.app"
+        },
+        {
+          "id": 1,
+          "text": "*\"These Terms of Service (“Terms”) govern your use of Atua (“the App”), a macOS application developed and operated by DevLab Systems LLC (“we”, “us”, or “our”).\"*\n\nThe Terms of Servi",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3n8qLXOCekU9L_zzeOx7xBLfEC3N9Ln71KUe_m2znTn376jM1XKIGtiHCIcCHoUCpgLN5bDf7oVcMNlKCbibkaqxK_7IL0D5Y5Rulow==",
+          "title": "atua.app"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "DevLab Systems LLC",
+        "evidence": "Passage 1 cites the Terms of Service for Atua at atua.app, stating that Atua is developed and operated by DevLab Systems LLC.",
+        "source": {
+          "id": 1,
+          "text": "*\"These Terms of Service (“Terms”) govern your use of Atua (“the App”), a macOS application developed and operated by DevLab Systems LLC (“we”, “us”, or “our”).\"*\n\nThe Terms of Servi",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3n8qLXOCekU9L_zzeOx7xBLfEC3N9Ln71KUe_m2znTn376jM1XKIGtiHCIcCHoUCpgLN5bDf7oVcMNlKCbibkaqxK_7IL0D5Y5Rulow==",
+          "title": "atua.app"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Atua",
+    "domain": "atua.app",
+    "description": "Unlock the power of ChatGPT with a simple shortcut key."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "DevLab Systems LLC",
+  "evidence": "Passage 1 cites the Terms of Service for Atua at atua.app, stating that Atua is developed and operated by DevLab Systems LLC.",
+  "source": {
+    "id": 1,
+    "text": "*\"These Terms of Service (“Terms”) govern your use of Atua (“the App”), a macOS application developed and operated by DevLab Systems LLC (“we”, “us”, or “our”).\"*\n\nThe Terms of Servi",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3n8qLXOCekU9L_zzeOx7xBLfEC3N9Ln71KUe_m2znTn376jM1XKIGtiHCIcCHoUCpgLN5bDf7oVcMNlKCbibkaqxK_7IL0D5Y5Rulow==",
+    "title": "atua.app"
+  },
+  "checked_at": "2026-11-05T05:37:44.375937+00:00"
+}

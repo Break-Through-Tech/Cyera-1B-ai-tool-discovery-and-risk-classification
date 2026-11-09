@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "**Product & Domain:** FileZilla (`filezilla-project.org`)\n\n**Vendor / Developer:** **Tim Kosse** (operating as **The FileZilla Project**)\n\n**Provider Statement & Evidence:**\n* The official **Trademark Policy** on `filezilla-project.org` states:\n  > *\"The FileZilla project oversees the trademarks for the FileZilla names and logos.\"*  \n  and concludes with:  \n  > *\"Tim Kosse, FileZilla author and trademark owner.\"*\n* The site's official **Contact** page lists direct contact with the project lead/developer:\n  > *\"My mail address is tim.kosse@filezilla-project.org.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**Product & Domain:** FileZilla (`filezilla-project.org`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJUi6r7pbTbH69VNca5aDcxxkR2pVqnbwMoID98f9FXwBOv-LG6jrLATTeFKXEv-hqBJjuYBbRVH7OBTDkVd0MoYBquPTD0i3ufkaPXZkpsqfTkG8=",
+          "title": "filezilla-project.org"
+        },
+        {
+          "id": 1,
+          "text": "**Vendor / Developer:** **Tim Kosse** (operating as **The FileZilla Project**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwS8FFwCwjUn_3FOo3JEbed8Gf07D6K46MWnbu1s9cItQwuLAxKGIhlWcOVxr5pGC-hJaVH7yd191AwnFvdCYBviU3oe1FGg2GhaIwaJbbeyxIi6qIfKeotdCFNxGuhBoaJu210Nax",
+          "title": "filezilla-project.org"
+        },
+        {
+          "id": 2,
+          "text": "**Vendor / Developer:** **Tim Kosse** (operating as **The FileZilla Project**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhXC_2uauxP-j7aH0o9FE32mUpLl1MTc8QkhrDEGr2U8SgkVHdBWL6S2WndFBlNm0S6LMoRaJF5XkIsXPpUPEW2KXAbQQO9fR1uk-1MV7fPBCGLZOixPbY1cYOlokSxcj2Tmk-kKjWZw==",
+          "title": "filezilla-project.org"
+        },
+        {
+          "id": 3,
+          "text": "*\"Tim Kosse, FileZilla author and trademark owner.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwS8FFwCwjUn_3FOo3JEbed8Gf07D6K46MWnbu1s9cItQwuLAxKGIhlWcOVxr5pGC-hJaVH7yd191AwnFvdCYBviU3oe1FGg2GhaIwaJbbeyxIi6qIfKeotdCFNxGuhBoaJu210Nax",
+          "title": "filezilla-project.org"
+        },
+        {
+          "id": 4,
+          "text": "*\"Tim Kosse, FileZilla author and trademark owner.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhXC_2uauxP-j7aH0o9FE32mUpLl1MTc8QkhrDEGr2U8SgkVHdBWL6S2WndFBlNm0S6LMoRaJF5XkIsXPpUPEW2KXAbQQO9fR1uk-1MV7fPBCGLZOixPbY1cYOlokSxcj2Tmk-kKjWZw==",
+          "title": "filezilla-project.org"
+        },
+        {
+          "id": 5,
+          "text": "*\"My mail address is tim.kosse@filezilla-project.org.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0QvK-KXKYA89uVSMeZt7CK4flHortWItk-YUVsXWw27hwae54LC1b2CmscdycaycModoVpRrt-YO9X8T0UEYup8IiRWhPu5dpf5_YJtfQvod5PNo-KN5gWTjeXyWGAA==",
+          "title": "filezilla-project.org"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Tim Kosse",
+        "evidence": "Passage 3 identifies Tim Kosse as the FileZilla author and trademark owner.",
+        "source": {
+          "id": 3,
+          "text": "*\"Tim Kosse, FileZilla author and trademark owner.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwS8FFwCwjUn_3FOo3JEbed8Gf07D6K46MWnbu1s9cItQwuLAxKGIhlWcOVxr5pGC-hJaVH7yd191AwnFvdCYBviU3oe1FGg2GhaIwaJbbeyxIi6qIfKeotdCFNxGuhBoaJu210Nax",
+          "title": "filezilla-project.org"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "FileZilla",
+    "domain": "filezilla-project.org",
+    "description": "FileZilla is a free and open source FTP (File Transfer Protocol) solution that offers both client and server software for users to transfer files over the internet. Designed for ease of use, it serves both novice and experienced users, facilitating secure and efficient file management across platforms. FileZilla is available for multiple operating systems and supports various protocols, making it a versatile choice for individuals and organizations looking for reliable file transfer solutions."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Tim Kosse",
+  "evidence": "Passage 3 identifies Tim Kosse as the FileZilla author and trademark owner.",
+  "source": {
+    "id": 3,
+    "text": "*\"Tim Kosse, FileZilla author and trademark owner.\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwS8FFwCwjUn_3FOo3JEbed8Gf07D6K46MWnbu1s9cItQwuLAxKGIhlWcOVxr5pGC-hJaVH7yd191AwnFvdCYBviU3oe1FGg2GhaIwaJbbeyxIi6qIfKeotdCFNxGuhBoaJu210Nax",
+    "title": "filezilla-project.org"
+  },
+  "checked_at": "2026-11-05T09:12:49.714025+00:00"
+}

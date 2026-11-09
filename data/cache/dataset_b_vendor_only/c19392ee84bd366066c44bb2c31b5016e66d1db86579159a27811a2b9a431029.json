@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Hayden AI** at **hayden.ai** is **Hayden AI Technologies, Inc.**\n\n### Evidence\nAccording to the official **Terms of Use** for `hayden.ai`:\n> *\"The Website is operated by Hayden AI Technologies, Inc., (“HAYDEN AI”), through various agencies and service providers.\"*\n\nThis is also corroborated by the site's copyright and legal notices across `hayden.ai`, which state:\n> *\"Copyright © Hayden AI Technologies, Inc. All Rights Reserved. [...] Hayden AI and the Hayden AI logo are trademarks of Hayden AI Technologies, Inc. in the United States and other countries.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Hayden AI** at **hayden.ai** is **Hayden AI Technologies, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMDhYbGxnQl6KdHgcVV8IX0OnDwPtmgRl8YjVuRTvOwKi15h5Ow5DmMtPWIt3LRxnLiDfBCV054GWZjz44HokwM4PcTssnDli4Bk3k2EdsNPxyBTs-wXU=",
+          "title": "hayden.ai"
+        },
+        {
+          "id": 1,
+          "text": "*\"The Website is operated by Hayden AI Technologies, Inc., (“HAYDEN AI”), through various agencies and service providers.\"*\n\nTh",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMDhYbGxnQl6KdHgcVV8IX0OnDwPtmgRl8YjVuRTvOwKi15h5Ow5DmMtPWIt3LRxnLiDfBCV054GWZjz44HokwM4PcTssnDli4Bk3k2EdsNPxyBTs-wXU=",
+          "title": "hayden.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Hayden AI Technologies, Inc.",
+        "evidence": "Passage 1 explicitly states that the website is operated by Hayden AI Technologies, Inc.",
+        "source": {
+          "id": 1,
+          "text": "*\"The Website is operated by Hayden AI Technologies, Inc., (“HAYDEN AI”), through various agencies and service providers.\"*\n\nTh",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMDhYbGxnQl6KdHgcVV8IX0OnDwPtmgRl8YjVuRTvOwKi15h5Ow5DmMtPWIt3LRxnLiDfBCV054GWZjz44HokwM4PcTssnDli4Bk3k2EdsNPxyBTs-wXU=",
+          "title": "hayden.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Hayden AI",
+    "domain": "hayden.ai",
+    "description": "Hayden AI provides AI-powered computer vision solutions for smart cities, enabling automated traffic enforcement, curbside management, and mobility insights. It helps cities improve public transit, enforce traffic laws, and optimize urban planning."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Hayden AI Technologies, Inc.",
+  "evidence": "Passage 1 explicitly states that the website is operated by Hayden AI Technologies, Inc.",
+  "source": {
+    "id": 1,
+    "text": "*\"The Website is operated by Hayden AI Technologies, Inc., (“HAYDEN AI”), through various agencies and service providers.\"*\n\nTh",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMDhYbGxnQl6KdHgcVV8IX0OnDwPtmgRl8YjVuRTvOwKi15h5Ow5DmMtPWIt3LRxnLiDfBCV054GWZjz44HokwM4PcTssnDli4Bk3k2EdsNPxyBTs-wXU=",
+    "title": "hayden.ai"
+  },
+  "checked_at": "2026-11-05T07:45:00.884930+00:00"
+}

@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **FineVoice AI Voice Changer** at the domain **finevoice.fineshare.com** (and its parent domain `fineshare.com`) is **FineShare Co., Ltd.** (operating under the brand **Fineshare**).\n\n### Evidence:\n* **Terms of Use:** *\"FineShare Co., Ltd. (collectively, the “Campany”) makes it available for using this website (collectively, the “Site”) and the information posted on this website, including software, documents, text, data, icons, files, photos, videos and products (collectively, the “Content”), subject to the terms and conditions set forth in this document.\"*\n* **End-User License Agreement (EULA):** States the agreement is between the user and *\"FineShare Co., Ltd. (collectively as Fineshare, or Licensor), the company, and the developer of the program and software (hereinafter referred to as Software or Fineshare Software).\"*\n* **Privacy Policy:** States that the services are *\"hosted by Fineshare Co., Ltd.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **FineVoice AI Voice Changer** at the domain **finevoice.fineshare.com** (and its parent domain `fineshare.com`) is **FineShare Co., Ltd.** (operating under the brand **Fineshare**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKE8vh6xprXnjTExHcRk9rywV1XGRlxrxqDPdp_lodW_9fFdGjzktLTouzdT32AIeD6BwT3JW-0DQ00By_Hx4Fa8PTgUc2rA46CxgC9HVIXA==",
+          "title": "fineshare.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **FineVoice AI Voice Changer** at the domain **finevoice.fineshare.com** (and its parent domain `fineshare.com`) is **FineShare Co., Ltd.** (operating under the brand **Fineshare**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERZHwePQM_tHpyVBvt-j7q3RlZhjyu8nr0T5BIGOKv5tbpY3Us9YwPWC1RSy9I7Lj0hk_AjmHsYnkG5uWstTUUuKfcc86fM-uiFNab7tS4jV7sQrUMGZXZV-Q=",
+          "title": "fineshare.com"
+        },
+        {
+          "id": 2,
+          "text": "**Terms of Use:** *\"FineShare Co., Ltd. (collectively, the “Campany”) makes it available for using this website (collectively, the “Site”) and the information posted on this website, including software, documents, text, data, icons, files, photos, videos and products (collectively, the “Content”), subject to the terms and conditions set forth in this document.\"*\n* **End-Use",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERZHwePQM_tHpyVBvt-j7q3RlZhjyu8nr0T5BIGOKv5tbpY3Us9YwPWC1RSy9I7Lj0hk_AjmHsYnkG5uWstTUUuKfcc86fM-uiFNab7tS4jV7sQrUMGZXZV-Q=",
+          "title": "fineshare.com"
+        },
+        {
+          "id": 3,
+          "text": "icense Agreement (EULA):** States the agreement is between the user and *\"FineShare Co., Ltd. (collectively as Fineshare, or Licensor), the company, and the developer of the program and software (hereinafter referred to as Software or Fineshare Software).\"*\n* **Privacy",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHB7T4-6Q-h7RJgEJWDO8Xrolj9snwVmqYzmSO8yJdeiJZQMJ8YGvfQdbbcVBG1z0ov97k9VO-Yxgb-1WEpqor0mpR1Mzku-sfOp_7J3FjaA5CoKqjZyqIiEEtVnalxZ8fhxgGe0MD-5m9AuTUb7yk=",
+          "title": "fineshare.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "FineShare Co., Ltd.",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing FineVoice AI Voice Changer at the domain finevoice.fineshare.com is FineShare Co., Ltd. (operating under the brand Fineshare).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **FineVoice AI Voice Changer** at the domain **finevoice.fineshare.com** (and its parent domain `fineshare.com`) is **FineShare Co., Ltd.** (operating under the brand **Fineshare**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKE8vh6xprXnjTExHcRk9rywV1XGRlxrxqDPdp_lodW_9fFdGjzktLTouzdT32AIeD6BwT3JW-0DQ00By_Hx4Fa8PTgUc2rA46CxgC9HVIXA==",
+          "title": "fineshare.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "FineVoice AI Voice Changer",
+    "domain": "finevoice.fineshare.com",
+    "description": "Transform Your Voice into Any Voice You Like."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "FineShare Co., Ltd.",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing FineVoice AI Voice Changer at the domain finevoice.fineshare.com is FineShare Co., Ltd. (operating under the brand Fineshare).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **FineVoice AI Voice Changer** at the domain **finevoice.fineshare.com** (and its parent domain `fineshare.com`) is **FineShare Co., Ltd.** (operating under the brand **Fineshare**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKE8vh6xprXnjTExHcRk9rywV1XGRlxrxqDPdp_lodW_9fFdGjzktLTouzdT32AIeD6BwT3JW-0DQ00By_Hx4Fa8PTgUc2rA46CxgC9HVIXA==",
+    "title": "fineshare.com"
+  },
+  "checked_at": "2026-11-05T06:48:20.917195+00:00"
+}

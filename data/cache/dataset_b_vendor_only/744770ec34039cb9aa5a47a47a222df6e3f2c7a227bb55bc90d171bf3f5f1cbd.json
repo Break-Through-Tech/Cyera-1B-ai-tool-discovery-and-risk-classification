@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The operating vendor directly providing the Demand Sage analytics platform at **demandsage.com** is **Demand Sage, Inc.**.\n\n### Evidence\n* On the official product, security, and legal documentation pages at **demandsage.com** (e.g., Security & Data Privacy and Pricing pages), the copyright and entity statement states:\n  > *\"© 2021 Demand Sage, Inc. 45 School St, 2nd floor (Boston's Old City Hall). hello@demandsage.com\"* (also appearing as *\"© 2022 Demand Sage, Inc.\"*).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The operating vendor directly providing the Demand Sage analytics platform at **demandsage.com** is **Demand Sage, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcdsdWFTuKtVdSfW2CZNy3MLnSEbU-e9ppvwu9zqzPnUEsGTcsF0SrWeidOyJ3HPoAjAG-YqwJvUXhUfZsKpClj9E5sgTCwo3qzCRWob4wmBFL2JALoSwMXg==",
+          "title": "demandsage.com"
+        },
+        {
+          "id": 1,
+          "text": "5 School St, 2nd floor (Boston's Old City Hall). hello@demandsage.com\"* ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcdsdWFTuKtVdSfW2CZNy3MLnSEbU-e9ppvwu9zqzPnUEsGTcsF0SrWeidOyJ3HPoAjAG-YqwJvUXhUfZsKpClj9E5sgTCwo3qzCRWob4wmBFL2JALoSwMXg==",
+          "title": "demandsage.com"
+        },
+        {
+          "id": 2,
+          "text": "5 School St, 2nd floor (Boston's Old City Hall). hello@demandsage.com\"* (also appearing as *\"© 2022 Demand Sage, Inc.\"*).",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRR7VMLSdWbaa_Y3ACZZ62oaVyog9Ip24vdhZbKjAA-lS6QwCEj3st6V6iosMq6W5U_QICunitQpRfhwXyeV3WG5BNyVvaSaF1w-ZJatbrrHzI15TfFPIKeQ==",
+          "title": "demandsage.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Demand Sage, Inc.",
+        "evidence": "Passage 0 confirms that the operating vendor directly providing the Demand Sage analytics platform at demandsage.com is Demand Sage, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The operating vendor directly providing the Demand Sage analytics platform at **demandsage.com** is **Demand Sage, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcdsdWFTuKtVdSfW2CZNy3MLnSEbU-e9ppvwu9zqzPnUEsGTcsF0SrWeidOyJ3HPoAjAG-YqwJvUXhUfZsKpClj9E5sgTCwo3qzCRWob4wmBFL2JALoSwMXg==",
+          "title": "demandsage.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Demand Sage",
+    "domain": "demandsage.com",
+    "description": "Demand Sage was an analytics platform designed to help businesses by providing insights and data on demand trends. It supported decision-making through comprehensive reporting tools and was particularly useful for e-commerce businesses. Located online, it empowered users by simplifying data analysis and visual presentation."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Demand Sage, Inc.",
+  "evidence": "Passage 0 confirms that the operating vendor directly providing the Demand Sage analytics platform at demandsage.com is Demand Sage, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The operating vendor directly providing the Demand Sage analytics platform at **demandsage.com** is **Demand Sage, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcdsdWFTuKtVdSfW2CZNy3MLnSEbU-e9ppvwu9zqzPnUEsGTcsF0SrWeidOyJ3HPoAjAG-YqwJvUXhUfZsKpClj9E5sgTCwo3qzCRWob4wmBFL2JALoSwMXg==",
+    "title": "demandsage.com"
+  },
+  "checked_at": "2026-11-05T09:58:16.101924+00:00"
+}

@@ -1,0 +1,47 @@
+{
+  "attempts": [
+    {
+      "answer": "No vendor, operating company, or developer can be established for **How To Be Best Man** at **howtobebestman.com**. \n\nPublicly available web records and software aggregator profiles (such as SaaSHub) for `howtobebestman.com` list no associated company (\"—\"), and official Terms of Service, Privacy Policy, or About pages identifying an operating entity or published developer are nonexistent or unavailable [1.1]. Consequently, there is no verifiable documentation to identify a provider entity or brand.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "Publicly available web records and software aggregator profiles (such as SaaSHub) for `howtobebestman.com` list no associated company (\"—\"), ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDKUZNyVZQ6Hl2l0pdQTxFxj_clYyNiN9Lcq_Yswd-wYNypoDONuQbJxjVHKpLWVJ29WVLNxlW9thRpjaYVioemQcIW8Oz7sMHDIIFbRspGM7sxCvaCUj9dumnaK5UkJbZ5QHalrhRvvN1UMouJyzG38ak",
+          "title": "saashub.com"
+        }
+      ],
+      "result": {
+        "status": "unknown",
+        "vendor": "UNKNOWN",
+        "evidence": "Publicly available records and aggregator profiles list no associated company, and no operating entity or developer is identified in the provided text."
+      }
+    },
+    {
+      "answer": "No vendor (operating company, published developer, or explicitly supported provider brand) can be established for **How To Be Best Man** at the domain **howtobebestman.com**. \n\n### Reason:\n* **No Official Legal/Company Pages:** There are no accessible or indexed Terms of Service, Privacy Policy, About, or Contact pages for `howtobebestman.com` disclosing an entity or publisher.\n* **No Published Developer/Company in Software Directories:** Aggregator and comparison listings referencing `howtobebestman.com` (such as SaaSHub) list the tool's features but leave the company field blank (`Company: —`) and name no individual developer or parent entity.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "No vendor (operating company, published developer, or explicitly supported provider brand) can be established for **How To Be Best Man** at the domain **howtobebestman.com**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKx_dcsZvWHG1TULGguNSEG2XrfTSQYN8l8eYaGMCEUdbRVmjTdsE5hWpLo4YvXhpe3YgDgCY1kWs_VRBZ5JMqiCQ7qAJF6BxA8tWdwEAGcPGK8gJg7dBf_uOsqnV97v3ric9N5s4NhtFKlxV9F8rC5hr0",
+          "title": "saashub.com"
+        }
+      ],
+      "result": {
+        "status": "unknown",
+        "vendor": "UNKNOWN",
+        "evidence": "The provided evidence states that no vendor, operating company, published developer, or explicitly supported provider brand can be established for How To Be Best Man at howtobebestman.com."
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "How To Be Best Man",
+    "domain": "howtobebestman.com",
+    "description": "An AI-powered tool designed to help best men craft personalized, humorous, and heartfelt speeches quickly. It generates a full speech based on user-provided details about the couple and desired tone."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "unknown",
+  "vendor": "UNKNOWN",
+  "evidence": "The provided evidence states that no vendor, operating company, published developer, or explicitly supported provider brand can be established for How To Be Best Man at howtobebestman.com.",
+  "checked_at": "2026-11-05T05:54:18.677495+00:00"
+}

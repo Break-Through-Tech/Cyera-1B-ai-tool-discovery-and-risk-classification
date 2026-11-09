@@ -1,0 +1,43 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product **OpinionStage** at **opinionstage.com** is **Opinion Stage Ltd.**.\n\n### Evidence\nAccording to the official [Terms of Use](https://www.opinionstage.com/terms/) on **opinionstage.com**:\n> *\"These Terms of Use (the “Terms”) govern your access to and use of the services provided through the website https://www.opinionstage.com and the related applications (collectively, the “Services”) offered by **Opinion Stage Ltd.**, having a principal place of business at Zmora 8, Shoham, 6085000, Israel (“Opinion Stage”).\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product **OpinionStage** at **opinionstage.com** is **Opinion Stage Ltd.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIQeQf_j4ymHyVCStj7iasKZAPe6p7A1yJWWeA4mGmG6I5bsSo9deKmgpxgrwIRLGe4fSAZ5IHlDaczFan4IhFMKWl_Jzo6QoxC_MqtPC_T1cKLUjfqsrr-yq0tHDT5fNoKiI=",
+          "title": "opinionstage.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Opinion Stage Ltd.",
+        "evidence": "Passage 0 directly states that the vendor providing the software product OpinionStage at opinionstage.com is Opinion Stage Ltd.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the software product **OpinionStage** at **opinionstage.com** is **Opinion Stage Ltd.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIQeQf_j4ymHyVCStj7iasKZAPe6p7A1yJWWeA4mGmG6I5bsSo9deKmgpxgrwIRLGe4fSAZ5IHlDaczFan4IhFMKWl_Jzo6QoxC_MqtPC_T1cKLUjfqsrr-yq0tHDT5fNoKiI=",
+          "title": "opinionstage.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "OpinionStage",
+    "domain": "opinionstage.com",
+    "description": "Create your form, survey, or quiz with AI."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Opinion Stage Ltd.",
+  "evidence": "Passage 0 directly states that the vendor providing the software product OpinionStage at opinionstage.com is Opinion Stage Ltd.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the software product **OpinionStage** at **opinionstage.com** is **Opinion Stage Ltd.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIQeQf_j4ymHyVCStj7iasKZAPe6p7A1yJWWeA4mGmG6I5bsSo9deKmgpxgrwIRLGe4fSAZ5IHlDaczFan4IhFMKWl_Jzo6QoxC_MqtPC_T1cKLUjfqsrr-yq0tHDT5fNoKiI=",
+    "title": "opinionstage.com"
+  },
+  "checked_at": "2026-11-05T06:13:45.722082+00:00"
+}

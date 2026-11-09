@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Buster.so** (at **buster.so**) is **Sprint Labs, Inc.** (doing business as **Buster**).\n\n### Supporting Evidence:\nAccording to the official **Terms of Service** governing the platform at `buster.so`:\n* *\"Subject to and upon compliance with the terms set forth herein, Sprint Labs, Inc ('Buster') will provide access to the Platform Service...\"*\n* *\"Sprint Labs, Inc, doing business as 'Buster', will make reasonable efforts to ensure that the Buster platform and Platform Services are available...\"*\n* *\"‘Buster Platform’ means the data insight software-as-a-service platform operated through the Site by Sprint Labs, Inc.\"*\n* Subscription cancellation notices and administrative inquiries are directed to Sprint Labs, Inc at `founders@buster.so`.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Buster.so** (at **buster.so**) is **Sprint Labs, Inc.** (doing business as **Buster**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTpcK4f9YYRt6v_6d3Q9tU2f_vJx8y4pUAQpfLx8ZbgAwv957kFHmvlcuenuMgKeW6zw4JWHih_xA_cRASsOxqyChVMQpS7iRZh5vnHE9PlyJkYfRPjB3dY_Ubh1iWnCcUdRrk9kIMffaqJq25gJfF35D1eZVjgQgK7Dv_ymxxrLIjyyBlOd6YTnM7S-wDbcuF6SLTmKBtAeEYJbFFzDtiw-oFUxoW3zY5Jmk28Q==",
+          "title": "webflow.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Buster.so** (at **buster.so**) is **Sprint Labs, Inc.** (doing business as **Buster**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6HATOGZKoTSyAiJKZY78z02O_5i--hhPAAlQgbV1pKPyv0WEVP49dvQZKfji-CYv-r0LgI-jWe6irqDg7CD9M0DspUm6MCgk2_Ko2a5VVFMqp7MyM7BlEnFrWgSg1_3-d8gwLcpeYDmghO5jBuePInuH77Oq2iObbVZkx8knbRkBsdktMJmTSh8UU_-t71e58M__GB0kRLlnecKl9VdpqLZvuZwhoozmWQhWlrg==",
+          "title": "webflow.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"Subject to and upon compliance with the terms set forth herein, Sprint Labs, Inc ('Buster') will provide access to the Platform Service...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6HATOGZKoTSyAiJKZY78z02O_5i--hhPAAlQgbV1pKPyv0WEVP49dvQZKfji-CYv-r0LgI-jWe6irqDg7CD9M0DspUm6MCgk2_Ko2a5VVFMqp7MyM7BlEnFrWgSg1_3-d8gwLcpeYDmghO5jBuePInuH77Oq2iObbVZkx8knbRkBsdktMJmTSh8UU_-t71e58M__GB0kRLlnecKl9VdpqLZvuZwhoozmWQhWlrg==",
+          "title": "webflow.com"
+        },
+        {
+          "id": 3,
+          "text": "*\"Sprint Labs, Inc, doing business as 'Buster', will make reasonable efforts to ensure that the Buster platform and Platform Services are available...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6HATOGZKoTSyAiJKZY78z02O_5i--hhPAAlQgbV1pKPyv0WEVP49dvQZKfji-CYv-r0LgI-jWe6irqDg7CD9M0DspUm6MCgk2_Ko2a5VVFMqp7MyM7BlEnFrWgSg1_3-d8gwLcpeYDmghO5jBuePInuH77Oq2iObbVZkx8knbRkBsdktMJmTSh8UU_-t71e58M__GB0kRLlnecKl9VdpqLZvuZwhoozmWQhWlrg==",
+          "title": "webflow.com"
+        },
+        {
+          "id": 4,
+          "text": "*\"‘Buster Platform’ means the data insight software-as-a-service platform operated through the Site by Sprint Labs, Inc.\"*\n* S",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6HATOGZKoTSyAiJKZY78z02O_5i--hhPAAlQgbV1pKPyv0WEVP49dvQZKfji-CYv-r0LgI-jWe6irqDg7CD9M0DspUm6MCgk2_Ko2a5VVFMqp7MyM7BlEnFrWgSg1_3-d8gwLcpeYDmghO5jBuePInuH77Oq2iObbVZkx8knbRkBsdktMJmTSh8UU_-t71e58M__GB0kRLlnecKl9VdpqLZvuZwhoozmWQhWlrg==",
+          "title": "webflow.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Sprint Labs, Inc.",
+        "evidence": "Passage 0 directly states that the vendor providing Buster.so (at buster.so) is Sprint Labs, Inc. (doing business as Buster).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Buster.so** (at **buster.so**) is **Sprint Labs, Inc.** (doing business as **Buster**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTpcK4f9YYRt6v_6d3Q9tU2f_vJx8y4pUAQpfLx8ZbgAwv957kFHmvlcuenuMgKeW6zw4JWHih_xA_cRASsOxqyChVMQpS7iRZh5vnHE9PlyJkYfRPjB3dY_Ubh1iWnCcUdRrk9kIMffaqJq25gJfF35D1eZVjgQgK7Dv_ymxxrLIjyyBlOd6YTnM7S-wDbcuF6SLTmKBtAeEYJbFFzDtiw-oFUxoW3zY5Jmk28Q==",
+          "title": "webflow.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Buster.so",
+    "domain": "buster.so",
+    "description": "Embed AI-powered data experience into your web app."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Sprint Labs, Inc.",
+  "evidence": "Passage 0 directly states that the vendor providing Buster.so (at buster.so) is Sprint Labs, Inc. (doing business as Buster).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Buster.so** (at **buster.so**) is **Sprint Labs, Inc.** (doing business as **Buster**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTpcK4f9YYRt6v_6d3Q9tU2f_vJx8y4pUAQpfLx8ZbgAwv957kFHmvlcuenuMgKeW6zw4JWHih_xA_cRASsOxqyChVMQpS7iRZh5vnHE9PlyJkYfRPjB3dY_Ubh1iWnCcUdRrk9kIMffaqJq25gJfF35D1eZVjgQgK7Dv_ymxxrLIjyyBlOd6YTnM7S-wDbcuF6SLTmKBtAeEYJbFFzDtiw-oFUxoW3zY5Jmk28Q==",
+    "title": "webflow.com"
+  },
+  "checked_at": "2026-11-05T06:20:24.693222+00:00"
+}

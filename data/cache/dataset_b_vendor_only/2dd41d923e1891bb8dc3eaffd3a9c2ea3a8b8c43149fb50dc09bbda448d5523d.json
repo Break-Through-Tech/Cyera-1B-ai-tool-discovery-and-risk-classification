@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **Workday** at **workday.com** is directly provided and operated by **Workday, Inc.**\n\n### Provider Statement\nAccording to the official **Terms of Service** and **End User Agreement** hosted on the domain:\n> *\"Workday, Inc., its subsidiaries and affiliates (each “Workday”, “we”, “us” or “...)*\"  \n> *“Workday” means Workday, Inc. with its principal place of business at 6110 Stoneridge Mall Road, Pleasanton, CA 94588, USA.*\"",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **Workday** at **workday.com** is directly provided and operated by **Workday, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvc1QRw5H3NurKCKw7hIGv8zwKvJyR2YL89cPhno4jmJuT71qXyA3DcD_CoUNPtjf9gO97KKiIh6atwr-NOTZDeJYJwaaM2YUAqhZli_mHnG1H3ZyatYncgFSSUlUHdpvNvasPaHXzOkg=",
+          "title": "workday.com"
+        },
+        {
+          "id": 1,
+          "text": "The software product **Workday** at **workday.com** is directly provided and operated by **Workday, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcjaF98NsyAFBa-yKyTWoLi-fUcy_cytIF9zdwpd5CBLPDYm-wkj7hscfinPR6AfD45JVg6YM0J0cb3ugq790jSTHuTj-pbXvjRdXGHSA9NQ_NTi1l5-oxLYA306ozH_7mwef1UmOt_prUY1cVM4vsdA==",
+          "title": "workday.com"
+        },
+        {
+          "id": 2,
+          "text": "According to the official **Terms of Service** and **End User Agreement** hosted on the domain",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvc1QRw5H3NurKCKw7hIGv8zwKvJyR2YL89cPhno4jmJuT71qXyA3DcD_CoUNPtjf9gO97KKiIh6atwr-NOTZDeJYJwaaM2YUAqhZli_mHnG1H3ZyatYncgFSSUlUHdpvNvasPaHXzOkg=",
+          "title": "workday.com"
+        },
+        {
+          "id": 3,
+          "text": "According to the official **Terms of Service** and **End User Agreement** hosted on the domain",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcjaF98NsyAFBa-yKyTWoLi-fUcy_cytIF9zdwpd5CBLPDYm-wkj7hscfinPR6AfD45JVg6YM0J0cb3ugq790jSTHuTj-pbXvjRdXGHSA9NQ_NTi1l5-oxLYA306ozH_7mwef1UmOt_prUY1cVM4vsdA==",
+          "title": "workday.com"
+        },
+        {
+          "id": 4,
+          "text": "ay",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvc1QRw5H3NurKCKw7hIGv8zwKvJyR2YL89cPhno4jmJuT71qXyA3DcD_CoUNPtjf9gO97KKiIh6atwr-NOTZDeJYJwaaM2YUAqhZli_mHnG1H3ZyatYncgFSSUlUHdpvNvasPaHXzOkg=",
+          "title": "workday.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Workday, Inc.",
+        "evidence": "Passage 0 explicitly states that the software product Workday at workday.com is directly provided and operated by Workday, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The software product **Workday** at **workday.com** is directly provided and operated by **Workday, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvc1QRw5H3NurKCKw7hIGv8zwKvJyR2YL89cPhno4jmJuT71qXyA3DcD_CoUNPtjf9gO97KKiIh6atwr-NOTZDeJYJwaaM2YUAqhZli_mHnG1H3ZyatYncgFSSUlUHdpvNvasPaHXzOkg=",
+          "title": "workday.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Workday",
+    "domain": "workday.com",
+    "description": "Workday is a premier provider of cloud-based enterprise applications focusing on finance and human resources. The company offers solutions for financial management, human resources, planning, spend management, and analytics, integrating artificial intelligence and machine learning to support organizations in adapting to the evolving workplace landscape. With a global clientele of over 10,000 organizations, including a significant portion of the Fortune 500, Workday serves various industries effectively."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Workday, Inc.",
+  "evidence": "Passage 0 explicitly states that the software product Workday at workday.com is directly provided and operated by Workday, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The software product **Workday** at **workday.com** is directly provided and operated by **Workday, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvc1QRw5H3NurKCKw7hIGv8zwKvJyR2YL89cPhno4jmJuT71qXyA3DcD_CoUNPtjf9gO97KKiIh6atwr-NOTZDeJYJwaaM2YUAqhZli_mHnG1H3ZyatYncgFSSUlUHdpvNvasPaHXzOkg=",
+    "title": "workday.com"
+  },
+  "checked_at": "2026-11-05T09:02:59.334369+00:00"
+}

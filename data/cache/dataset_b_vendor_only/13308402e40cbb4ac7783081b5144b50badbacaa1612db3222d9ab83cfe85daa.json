@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software, services, and web properties at **esri.com** is **Environmental Systems Research Institute, Inc.** (commonly known as **Esri**).\n\n### Evidence\nAccording to the official **Esri Website Properties Terms of Use** governing `esri.com`:\n> *\"By accessing this Esri Website, You agree to be bound by this Esri Website Properties Terms of Use ('Terms of Use') between You and Environmental Systems Research Institute, Inc. ('Esri'), located at 380 New York Street, Redlands, California, 92373.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software, services, and web properties at **esri.com** is **Environmental Systems Research Institute, Inc.** (commonly known as **Esri**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMj5-3xTm2IR1yBeUpAmFeHokPDPImcGBxkbTPQwETuNRanbzN0XA7Rs000_Xc4yNIXan2Czx5n1OQwtIUx-UzE-ug6LbreQlkb3BbpbGq1oXUDzuGAy7qmSJWrmL_9sLzZt8C8TviTIeofcFdPB6QK-rexsW_VWYPfhLFbxuCtwuIYSIlS9sKZooN7vWJ1VcPf5l90rufY1U=",
+          "title": "esri.com"
+        },
+        {
+          "id": 1,
+          "text": "*\"By accessing this Esri Website, You agree to be bound by this Esri Website Properties Terms of Use ('Terms of Use') between You and Environmental Systems Research Institute, Inc. ('Esri'), located at 380 New York Street, Redlands, California, 92373.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMj5-3xTm2IR1yBeUpAmFeHokPDPImcGBxkbTPQwETuNRanbzN0XA7Rs000_Xc4yNIXan2Czx5n1OQwtIUx-UzE-ug6LbreQlkb3BbpbGq1oXUDzuGAy7qmSJWrmL_9sLzZt8C8TviTIeofcFdPB6QK-rexsW_VWYPfhLFbxuCtwuIYSIlS9sKZooN7vWJ1VcPf5l90rufY1U=",
+          "title": "esri.com"
+        },
+        {
+          "id": 2,
+          "text": "this Esri Website, You agree to be bound by this Esri Website Properties Terms of Use ('Terms of Use') between You and Environmental Systems Research Institute, Inc. ('Esri'), located at 380 New York Street, Redlands, California, 923",
+          "url": "https://www.esri.com/content/dam/esrisites/en-us/media/legal/terms-and-conditions/website-terms.pdf",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Environmental Systems Research Institute, Inc.",
+        "evidence": "The Esri Website Properties Terms of Use explicitly states that the agreement governing the website is between the user and Environmental Systems Research Institute, Inc. ('Esri').",
+        "source": {
+          "id": 1,
+          "text": "*\"By accessing this Esri Website, You agree to be bound by this Esri Website Properties Terms of Use ('Terms of Use') between You and Environmental Systems Research Institute, Inc. ('Esri'), located at 380 New York Street, Redlands, California, 92373.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMj5-3xTm2IR1yBeUpAmFeHokPDPImcGBxkbTPQwETuNRanbzN0XA7Rs000_Xc4yNIXan2Czx5n1OQwtIUx-UzE-ug6LbreQlkb3BbpbGq1oXUDzuGAy7qmSJWrmL_9sLzZt8C8TviTIeofcFdPB6QK-rexsW_VWYPfhLFbxuCtwuIYSIlS9sKZooN7vWJ1VcPf5l90rufY1U=",
+          "title": "esri.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Esri - Environmental Systems Research Institute",
+    "domain": "esri.com",
+    "description": "Esri, or Environmental Systems Research Institute, is the leading provider of geographic information system (GIS) software and location intelligence solutions worldwide. Established in 1969, Esri focuses on harnessing geospatial analytics and geographic science to assist various organizations in problem-solving through a geographic lens, utilizing advanced GIS technology to deliver impactful insights."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Environmental Systems Research Institute, Inc.",
+  "evidence": "The Esri Website Properties Terms of Use explicitly states that the agreement governing the website is between the user and Environmental Systems Research Institute, Inc. ('Esri').",
+  "source": {
+    "id": 1,
+    "text": "*\"By accessing this Esri Website, You agree to be bound by this Esri Website Properties Terms of Use ('Terms of Use') between You and Environmental Systems Research Institute, Inc. ('Esri'), located at 380 New York Street, Redlands, California, 92373.\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMj5-3xTm2IR1yBeUpAmFeHokPDPImcGBxkbTPQwETuNRanbzN0XA7Rs000_Xc4yNIXan2Czx5n1OQwtIUx-UzE-ug6LbreQlkb3BbpbGq1oXUDzuGAy7qmSJWrmL_9sLzZt8C8TviTIeofcFdPB6QK-rexsW_VWYPfhLFbxuCtwuIYSIlS9sKZooN7vWJ1VcPf5l90rufY1U=",
+    "title": "esri.com"
+  },
+  "checked_at": "2026-11-05T09:29:04.113586+00:00"
+}

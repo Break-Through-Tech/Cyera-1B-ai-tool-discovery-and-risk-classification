@@ -1,0 +1,43 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **DeepL** software product at **deepl.com** is **DeepL SE**.\n\n### Evidence\nAccording to the official *DeepL Pro – Terms and Conditions* on `deepl.com`:\n> \"DeepL SE, Maarweg 165, 50825 Cologne, Germany (“DeepL”) specialises in services based on machine learning, e.g., machine translation services, and provides its online services at deepl.com.\"",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **DeepL** software product at **deepl.com** is **DeepL SE**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBE-JD18eifJ-iwwpWtFSNvmgo6hNMlk3v1JZnIPQyqfFIc4fcZmVdxGl7Ki54NoYwFcckSlCTm1SK_WN9TqtGpZQy-lilnjTKtWKtBTFya8iqkczTNvv9Tss=",
+          "title": "deepl.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "DeepL SE",
+        "evidence": "Passage 0 directly states that the vendor providing the DeepL software product at deepl.com is DeepL SE.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the **DeepL** software product at **deepl.com** is **DeepL SE**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBE-JD18eifJ-iwwpWtFSNvmgo6hNMlk3v1JZnIPQyqfFIc4fcZmVdxGl7Ki54NoYwFcckSlCTm1SK_WN9TqtGpZQy-lilnjTKtWKtBTFya8iqkczTNvv9Tss=",
+          "title": "deepl.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "DeepL",
+    "domain": "deepl.com",
+    "description": "Accurate language translation for individuals and teams."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "DeepL SE",
+  "evidence": "Passage 0 directly states that the vendor providing the DeepL software product at deepl.com is DeepL SE.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the **DeepL** software product at **deepl.com** is **DeepL SE**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBE-JD18eifJ-iwwpWtFSNvmgo6hNMlk3v1JZnIPQyqfFIc4fcZmVdxGl7Ki54NoYwFcckSlCTm1SK_WN9TqtGpZQy-lilnjTKtWKtBTFya8iqkczTNvv9Tss=",
+    "title": "deepl.com"
+  },
+  "checked_at": "2026-11-05T07:55:05.628666+00:00"
+}

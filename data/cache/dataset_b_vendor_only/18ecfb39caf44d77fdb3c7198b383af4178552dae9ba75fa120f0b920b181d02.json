@@ -1,0 +1,103 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **Babel** at **babeljs.io** is an open-source project directly developed and provided by the **Babel Team** (originally created by **Sebastian McKenzie** and maintained by the Babel core maintainers and open-source contributors).\n\n### Supporting Evidence\n* **Official Website (`babeljs.io`):** The site and project announcements identify the developer/maintainer group as the *Babel Team*: *\"We're a small group of volunteers that spend their free time maintaining this project, funded by the community\"* and *\"We, the Babel core team... Reach out to us directly or by email at team@babeljs.io\"*.\n* **Official License & Repository (`github.com/babel/babel`):** The official MIT license states: *\"Copyright (c) 2014-present Sebastian McKenzie and other contributors\"*, and package distributions list the author/publisher as *\"The Babel Team\"*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **Babel** at **babeljs.io** is an open-source project directly developed and provided by the **Babel Team** (originally created by **Sebastian McKenzie** and maintained by the Babel core maintainers and open-source contributors)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6OiszfbZej0d1BaWcDpNYE86A_9uQYoGDmBAdKNnD00HyATgav_Dwf8gT1q6FtM3b6ejgbdw97yOCKH4oQBvbWn03FnXgplo4HCc6_Q==",
+          "title": "babeljs.io"
+        },
+        {
+          "id": 1,
+          "text": "The software product **Babel** at **babeljs.io** is an open-source project directly developed and provided by the **Babel Team** (originally created by **Sebastian McKenzie** and maintained by the Babel core maintainers and open-source contributors)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6dqQeMOjukeSBKtIzjxppSj_fTO-yOrV36Iv89mYV4eAu02EkItCpBktEJgth0wUOE8LA9h-Dgpzh9-SnxumITEOOVlwHKeZs3J8xJpp7z7AjUZbozby1B3RMct0r",
+          "title": "babeljs.io"
+        },
+        {
+          "id": 2,
+          "text": "The software product **Babel** at **babeljs.io** is an open-source project directly developed and provided by the **Babel Team** (originally created by **Sebastian McKenzie** and maintained by the Babel core maintainers and open-source contributors)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeaTudgghvNpw9yF_9cgcPZHqgxXiu8746vMMsxTenGA5qziYKEBUmLSM4KOSRxX1g0ua85BmZm1SCBGBcwC3A9toOTp2_6sjCL7vWeRCtGKJiQ2gm8lEq3lzy2tPyIVfNSvhd0Hg=",
+          "title": "github.com"
+        },
+        {
+          "id": 3,
+          "text": "The software product **Babel** at **babeljs.io** is an open-source project directly developed and provided by the **Babel Team** (originally created by **Sebastian McKenzie** and maintained by the Babel core maintainers and open-source contributors)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNtlxG_pLnC3blJuzrI-f94rHC1AVKLxXPbweoncZ9xZgs33BFGs0U3pJK7-N29uvb4qF9vaqp5uCsK8_dElKgFzF8qvZZMCWAX5dQtghBrJJNMXDRaYI0nTe0PCWPHESRxbjeZYxVuoVNL1iiO-GHUP37aMOft1a2toHXcgx2YPJvTi3x4xE=",
+          "title": "github.io"
+        },
+        {
+          "id": 4,
+          "text": "**Official Website (`babeljs.io`):** The site and project announcements identify the developer/maintainer group as the *Babel Team*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6dqQeMOjukeSBKtIzjxppSj_fTO-yOrV36Iv89mYV4eAu02EkItCpBktEJgth0wUOE8LA9h-Dgpzh9-SnxumITEOOVlwHKeZs3J8xJpp7z7AjUZbozby1B3RMct0r",
+          "title": "babeljs.io"
+        },
+        {
+          "id": 5,
+          "text": "**Official Website (`babeljs.io`):** The site and project announcements identify the developer/maintainer group as the *Babel Team*: *\"We're a small group of volunteers that spend their free time maintaining this project, funded by the community\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1G9m_JrcQBqzvLbY90k4v4_aRgSG9DOeejID80vMBEjnClZnlGScFyvFO31nk3pIF0yyRmhA4Ypzev3Euy4SKsZztq9BRuvWa",
+          "title": "babeljs.io"
+        },
+        {
+          "id": 6,
+          "text": "Reach out to us directly or by email at team@babeljs.io\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6dqQeMOjukeSBKtIzjxppSj_fTO-yOrV36Iv89mYV4eAu02EkItCpBktEJgth0wUOE8LA9h-Dgpzh9-SnxumITEOOVlwHKeZs3J8xJpp7z7AjUZbozby1B3RMct0r",
+          "title": "babeljs.io"
+        },
+        {
+          "id": 7,
+          "text": "Reach out to us directly or by email at team@babeljs.io\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEO6U_QtN-Hatb4MpNtsxVHs97_OQvypw-r0QrerkP0e1VEixz1K5ZCdciTdIMh1UWIm0HXK_syDMg84tL0EhZXEih0ry7dvZKrujL7hmFDnD8j2DLMMsf_UtGa1OkQGan0PxOhdZMH",
+          "title": "babeljs.io"
+        },
+        {
+          "id": 8,
+          "text": "**Official License & Repository (`github.com/babel/babel`):** The official MIT license states: *\"Copyright (c) 2014-present Sebastian McKenzie and other contributors\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeaTudgghvNpw9yF_9cgcPZHqgxXiu8746vMMsxTenGA5qziYKEBUmLSM4KOSRxX1g0ua85BmZm1SCBGBcwC3A9toOTp2_6sjCL7vWeRCtGKJiQ2gm8lEq3lzy2tPyIVfNSvhd0Hg=",
+          "title": "github.com"
+        },
+        {
+          "id": 9,
+          "text": "**Official License & Repository (`github.com/babel/babel`):** The official MIT license states: *\"Copyright (c) 2014-present Sebastian McKenzie and other contributors\"*, and package distributions list the author/publisher as *\"The Babel Team\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNtlxG_pLnC3blJuzrI-f94rHC1AVKLxXPbweoncZ9xZgs33BFGs0U3pJK7-N29uvb4qF9vaqp5uCsK8_dElKgFzF8qvZZMCWAX5dQtghBrJJNMXDRaYI0nTe0PCWPHESRxbjeZYxVuoVNL1iiO-GHUP37aMOft1a2toHXcgx2YPJvTi3x4xE=",
+          "title": "github.io"
+        },
+        {
+          "id": 10,
+          "text": "**Official License & Repository (`github.com/babel/babel`):** The official MIT license states: *\"Copyright (c) 2014-present Sebastian McKenzie and other contributors\"*, and package distributions list the author/publisher as *\"The Babel Team\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHe8gQLiYteWdEkyL1QcTmichCU3KYFBgwb1mnXh7_gFcT5BcS2r79dQRqoOiq4fBLG85eK4yg_b0xq2u_5A3-3OKj8_sNcXq_9fmHsaMpBJld5szLuFtbM2iSyAh_9",
+          "title": "torek.eu"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Babel Team",
+        "evidence": "Passage 0 explicitly states that Babel at babeljs.io is an open-source project directly developed and provided by the Babel Team.",
+        "source": {
+          "id": 0,
+          "text": "The software product **Babel** at **babeljs.io** is an open-source project directly developed and provided by the **Babel Team** (originally created by **Sebastian McKenzie** and maintained by the Babel core maintainers and open-source contributors)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6OiszfbZej0d1BaWcDpNYE86A_9uQYoGDmBAdKNnD00HyATgav_Dwf8gT1q6FtM3b6ejgbdw97yOCKH4oQBvbWn03FnXgplo4HCc6_Q==",
+          "title": "babeljs.io"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Babel",
+    "domain": "babeljs.io",
+    "description": "Babel is a widely-used JavaScript compiler that enables developers to use the latest JavaScript features by transforming them into a version compatible with older browsers and environments. It supports various plugins and integrations, making it a crucial tool for modern web development, especially for projects that aim for backward compatibility."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Babel Team",
+  "evidence": "Passage 0 explicitly states that Babel at babeljs.io is an open-source project directly developed and provided by the Babel Team.",
+  "source": {
+    "id": 0,
+    "text": "The software product **Babel** at **babeljs.io** is an open-source project directly developed and provided by the **Babel Team** (originally created by **Sebastian McKenzie** and maintained by the Babel core maintainers and open-source contributors)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6OiszfbZej0d1BaWcDpNYE86A_9uQYoGDmBAdKNnD00HyATgav_Dwf8gT1q6FtM3b6ejgbdw97yOCKH4oQBvbWn03FnXgplo4HCc6_Q==",
+    "title": "babeljs.io"
+  },
+  "checked_at": "2026-11-05T09:10:20.073940+00:00"
+}

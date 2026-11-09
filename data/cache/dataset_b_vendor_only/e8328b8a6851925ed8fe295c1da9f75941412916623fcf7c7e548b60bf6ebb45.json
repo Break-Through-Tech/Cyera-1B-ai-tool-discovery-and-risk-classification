@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **SpeakSpots** at **speakspots.com** is **SPEAKSPOTS LTD**.\n\n### Provider Statement & Evidence\n* **speakspots.com**: The official website footer states:\n  > *\"© 2019-2026 SPEAKSPOTS LTD.\"* *(and previously \"© 2019-2024 SPEAKSPOTS LTD. Cookie policy · Terms and Conditions · Privacy Policy.\")*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **SpeakSpots** at **speakspots.com** is **SPEAKSPOTS LTD**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFV6mZGW-oofriAdDA15AWSrJBWbnahXCOFsGekxVZqUYZutz0EArTtZqT68qzOunKaSAgPZzorzuoV542jzZExzyue9NE-RjZERiRqD_Z5wr4=",
+          "title": "speakspots.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **SpeakSpots** at **speakspots.com** is **SPEAKSPOTS LTD**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMVpPZ9jZ8gnMmppf8c8pyhyfSxUyBOezWlFhhmaw4W-LKv4pFaSsCiFI2-WAwkT6uSa6cjHByhHaJH8Io0S8jHt_pk8GhH39ZTRo1jwqWqYsGj50=",
+          "title": "speakspots.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"© 2019-2026 SPEAKSPOTS LTD.\"* ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFV6mZGW-oofriAdDA15AWSrJBWbnahXCOFsGekxVZqUYZutz0EArTtZqT68qzOunKaSAgPZzorzuoV542jzZExzyue9NE-RjZERiRqD_Z5wr4=",
+          "title": "speakspots.com"
+        },
+        {
+          "id": 3,
+          "text": "*\"© 2019-2026 SPEAKSPOTS LTD.\"* ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMU0JmY7OqFw-8c0gqyco1w3c0wXtu_f-Ay5CEOi2RCGIL3r4dEolW-obiraw4auS3yCZ-M50xlVmaJFsKM0C49O_Iiku_x1UIUXKJuJITTSahTWoQvw==",
+          "title": "speakspots.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "SPEAKSPOTS LTD",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing SpeakSpots at speakspots.com is SPEAKSPOTS LTD.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **SpeakSpots** at **speakspots.com** is **SPEAKSPOTS LTD**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFV6mZGW-oofriAdDA15AWSrJBWbnahXCOFsGekxVZqUYZutz0EArTtZqT68qzOunKaSAgPZzorzuoV542jzZExzyue9NE-RjZERiRqD_Z5wr4=",
+          "title": "speakspots.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "SpeakSpots",
+    "domain": "speakspots.com",
+    "description": "Plan your itinerary in 1 minute on WhatsApp, for free."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "SPEAKSPOTS LTD",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing SpeakSpots at speakspots.com is SPEAKSPOTS LTD.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **SpeakSpots** at **speakspots.com** is **SPEAKSPOTS LTD**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFV6mZGW-oofriAdDA15AWSrJBWbnahXCOFsGekxVZqUYZutz0EArTtZqT68qzOunKaSAgPZzorzuoV542jzZExzyue9NE-RjZERiRqD_Z5wr4=",
+    "title": "speakspots.com"
+  },
+  "checked_at": "2026-11-05T07:13:34.833869+00:00"
+}

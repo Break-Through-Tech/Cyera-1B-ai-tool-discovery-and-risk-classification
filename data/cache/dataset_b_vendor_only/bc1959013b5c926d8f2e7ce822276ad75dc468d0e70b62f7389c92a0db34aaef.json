@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **BambooHR** software service at **bamboohr.com** is **Bamboo HR LLC** (along with its subsidiary **BambooHR Payroll LLC**).\n\n### Evidence\nAccording to the official **BambooHR Terms of Service** (located at `bamboohr.com/legal/terms-of-service`):\n> *\"YOUR USE OF THE PROPRIETARY BAMBOOHR® SERVICE OFFERED AT BAMBOOHR.COM (THE “SERVICE”), IS SUBJECT TO THESE TERMS OF SERVICE... IN ORDER TO USE THE SERVICE, YOU MUST AGREE TO BE BOUND BY THE AGREEMENT BETWEEN YOU AND BAMBOO HR LLC, ITS SUBSIDIARIES AS APPLICABLE AND/OR BAMBOOHR PAYROLL LLC (COLLECTIVELY, “BAMBOOHR”, 'WE', 'US', AND 'OUR').\"*\n\nThe Terms of Service also specify the operating entity's contact details as:\n> *\"Bamboo HR LLC / BambooHR Payroll LLC, ATTN: Legal, 42 Future Way, Draper, UT 84020.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **BambooHR** software service at **bamboohr.com** is **Bamboo HR LLC** (along with its subsidiary **BambooHR Payroll LLC**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGETTqpR9xNasNcBs2j5D0thP65zrQ-eq_unS3-xAWN2b-Ghqk-ZTWo8B1Ie9VaoFFcBvL4dThMDqgkWRMmnRnX-k1CAh47HihEhzofiMyTx-WsWbLgyeRoK5d6i_QWMLlD2DSzZQ==",
+          "title": "bamboohr.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the **BambooHR** software service at **bamboohr.com** is **Bamboo HR LLC** (along with its subsidiary **BambooHR Payroll LLC**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJNA9UIf-htWasCp_Nx1wnpm72h2-3POXoisAT9YkwJ8fUdDj2MTTDDMCRvPJBOkcFvDEeLPNEV5lttg0Ub061VHYXKj-O7WeHN7UUb8DEawSzPgvlcoON6qUWicOznsp1mJ9yhg==",
+          "title": "bamboohr.com"
+        },
+        {
+          "id": 2,
+          "text": "DER TO USE THE SERVICE, YOU MUST AGREE TO BE BOUND BY THE AGREEMENT BETWEEN YOU AND BAMBOO HR LLC, ITS SUBSIDIARIES AS APPLICABLE AND/OR BAMBOOHR PAYROLL LLC (COLLECTIVELY, “BAMBOOHR”, 'WE', 'US', AND 'OUR').\"*\n\nThe Ter",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJNA9UIf-htWasCp_Nx1wnpm72h2-3POXoisAT9YkwJ8fUdDj2MTTDDMCRvPJBOkcFvDEeLPNEV5lttg0Ub061VHYXKj-O7WeHN7UUb8DEawSzPgvlcoON6qUWicOznsp1mJ9yhg==",
+          "title": "bamboohr.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Bamboo HR LLC",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing the BambooHR software service at bamboohr.com is Bamboo HR LLC.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the **BambooHR** software service at **bamboohr.com** is **Bamboo HR LLC** (along with its subsidiary **BambooHR Payroll LLC**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGETTqpR9xNasNcBs2j5D0thP65zrQ-eq_unS3-xAWN2b-Ghqk-ZTWo8B1Ie9VaoFFcBvL4dThMDqgkWRMmnRnX-k1CAh47HihEhzofiMyTx-WsWbLgyeRoK5d6i_QWMLlD2DSzZQ==",
+          "title": "bamboohr.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "BambooHR",
+    "domain": "bamboohr.com",
+    "description": "An HR software suite for employee records, onboarding, time off, and performance tracking aimed at small and mid-size businesses."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Bamboo HR LLC",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing the BambooHR software service at bamboohr.com is Bamboo HR LLC.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the **BambooHR** software service at **bamboohr.com** is **Bamboo HR LLC** (along with its subsidiary **BambooHR Payroll LLC**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGETTqpR9xNasNcBs2j5D0thP65zrQ-eq_unS3-xAWN2b-Ghqk-ZTWo8B1Ie9VaoFFcBvL4dThMDqgkWRMmnRnX-k1CAh47HihEhzofiMyTx-WsWbLgyeRoK5d6i_QWMLlD2DSzZQ==",
+    "title": "bamboohr.com"
+  },
+  "checked_at": "2026-11-05T07:59:23.719315+00:00"
+}

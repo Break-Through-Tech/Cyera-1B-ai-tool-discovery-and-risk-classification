@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **MailerLite** at **mailerlite.com** is **MailerLite, Inc.** (for customers outside the EEA, UK, and Switzerland) and **MailerLite Limited** (for customers within the EEA, UK, and Switzerland).\n\n### Evidence\nAccording to the official **MailerLite Terms of Use** (and mirrored in its **Privacy Policy**):\n> \"As used in these Terms, 'MailerLite' means:  \n> (a) **MailerLite Limited**, an Irish registered company at 88 Harcourt Street, Dublin 2, D02 DK18, Ireland, if the Customer's billing address or, for Customers on a free subscription plan, account country is located in the EEA, UK and Switzerland; or  \n> (b) **MailerLite, Inc.**, a Delaware corporation at 548 Market St, PMB 98174, San Francisco, CA 94104-5401, United States, if the Customer's billing address or, for Customers on a free subscription plan, account country is located anywhere else in the world.\"",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **MailerLite** at **mailerlite.com** is **MailerLite, Inc.** (for customers outside the EEA, UK, and Switzerland) and **MailerLite Limited** (for customers within the EEA, UK, and Switzerland)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9DsixOpy7CHi5SplK_wMjt8en6zjuFlh7xCvfZixIBfJA4u13shxsfRPNKTtRSJ7_69ZKiB6fEojfBdCh94ZkZgvnmlCN-XpO7NTntG0DJr2SvafXdum48A8u-FwuzqM61EEYQYs=",
+          "title": "mailerlite.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **MailerLite** at **mailerlite.com** is **MailerLite, Inc.** (for customers outside the EEA, UK, and Switzerland) and **MailerLite Limited** (for customers within the EEA, UK, and Switzerland)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSHLBM1_7xT2oo2I4vocAGSylBPGYenELMX0GxSMQC1YdUKFqM2o4_k8YQlMRsdCuABjUCxDbVgnG6ZJWnlicN2R0xUAYWSrt_uiBd0vHzPLtslSktmgzrfewOE_xKOYWaDwPS",
+          "title": "mailerlite.com"
+        },
+        {
+          "id": 2,
+          "text": "According to the official **MailerLite Terms of Use** (and mirrored in its **Privacy Policy**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9DsixOpy7CHi5SplK_wMjt8en6zjuFlh7xCvfZixIBfJA4u13shxsfRPNKTtRSJ7_69ZKiB6fEojfBdCh94ZkZgvnmlCN-XpO7NTntG0DJr2SvafXdum48A8u-FwuzqM61EEYQYs=",
+          "title": "mailerlite.com"
+        },
+        {
+          "id": 3,
+          "text": "According to the official **MailerLite Terms of Use** (and mirrored in its **Privacy Policy**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSHLBM1_7xT2oo2I4vocAGSylBPGYenELMX0GxSMQC1YdUKFqM2o4_k8YQlMRsdCuABjUCxDbVgnG6ZJWnlicN2R0xUAYWSrt_uiBd0vHzPLtslSktmgzrfewOE_xKOYWaDwPS",
+          "title": "mailerlite.com"
+        },
+        {
+          "id": 4,
+          "text": "(b) **MailerLite, Inc.**, a Delaware corporation at 548 Market St, PMB 98174, San Francisco, CA 94104-5401, United States, if the Customer's billing address or, for Customers on a free subscription plan, account country is located anywhere else in the world.\"",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9DsixOpy7CHi5SplK_wMjt8en6zjuFlh7xCvfZixIBfJA4u13shxsfRPNKTtRSJ7_69ZKiB6fEojfBdCh94ZkZgvnmlCN-XpO7NTntG0DJr2SvafXdum48A8u-FwuzqM61EEYQYs=",
+          "title": "mailerlite.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "MailerLite, Inc.",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing MailerLite at mailerlite.com is MailerLite, Inc. (and MailerLite Limited for EEA/UK/Switzerland customers).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **MailerLite** at **mailerlite.com** is **MailerLite, Inc.** (for customers outside the EEA, UK, and Switzerland) and **MailerLite Limited** (for customers within the EEA, UK, and Switzerland)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9DsixOpy7CHi5SplK_wMjt8en6zjuFlh7xCvfZixIBfJA4u13shxsfRPNKTtRSJ7_69ZKiB6fEojfBdCh94ZkZgvnmlCN-XpO7NTntG0DJr2SvafXdum48A8u-FwuzqM61EEYQYs=",
+          "title": "mailerlite.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "MailerLite",
+    "domain": "mailerlite.com",
+    "description": "MailerLite is an email marketing platform founded in 2010, originating from a web design agency established in 2005. Based globally, the company is committed to helping businesses enhance their email marketing efforts with a user-friendly yet powerful tool. With a dedicated team of over 130 professionals, MailerLite fosters a culture of trust and creativity, aiming to deliver exceptional products for businesses looking to grow through effective communication."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "MailerLite, Inc.",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing MailerLite at mailerlite.com is MailerLite, Inc. (and MailerLite Limited for EEA/UK/Switzerland customers).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **MailerLite** at **mailerlite.com** is **MailerLite, Inc.** (for customers outside the EEA, UK, and Switzerland) and **MailerLite Limited** (for customers within the EEA, UK, and Switzerland)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9DsixOpy7CHi5SplK_wMjt8en6zjuFlh7xCvfZixIBfJA4u13shxsfRPNKTtRSJ7_69ZKiB6fEojfBdCh94ZkZgvnmlCN-XpO7NTntG0DJr2SvafXdum48A8u-FwuzqM61EEYQYs=",
+    "title": "mailerlite.com"
+  },
+  "checked_at": "2026-11-05T09:49:57.663160+00:00"
+}

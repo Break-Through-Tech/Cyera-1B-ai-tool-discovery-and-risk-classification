@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "For the software product **Writastic** at the domain **writastic.com**:\n\n* **Direct Provider / Developer:** **Yuan** (independent software engineer, also known online as `0x2E` / `rook1e_dev`), operating under the brand **Writastic**.\n* **Provider Evidence & Citation:**\n  * The footer of the official website states: *\"Built with ❤️ by Yuan © 2024 Writastic.\"*\n  * The developer's GitHub profile (`0x2E` / Yuan) and developer announcements similarly identify **Writastic** (`writastic.com`) as an AI social media writing assistant created and operated by Yuan.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**Direct Provider / Developer:** **Yuan** (independent software engineer, also known online as `0x2E` / `rook1e_dev`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOkqJeoiJLaa-E98oh162Y17xac9q4nBXHrPIZ7CT8F7MUCS3Ib19K44QuwVHXx5pODutH0n6PDTiD_CVI_lCrvwfOuCSFKwmE6OTFXGNbbXPnWCYq3GEBknFMp3hqs-70OxHGy-8ENgfZgBQ1iKrlv4xeCq4f0kdLZBjOvFI4BhE=",
+          "title": "reddit.com"
+        },
+        {
+          "id": 1,
+          "text": "**Direct Provider / Developer:** **Yuan** (independent software engineer, also known online as `0x2E` / `rook1e_dev`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqnscZ6tu-C92P3Ydvv7i9J4BoU_w5Lv6505HcxxczbQNGHglFC0_m4OFaxbjLKrOphEPlSmiqz4uhMS4Dqcyi_4ktrPZ4A5CdxfUSnQ==",
+          "title": "github.com"
+        },
+        {
+          "id": 2,
+          "text": "**Direct Provider / Developer:** **Yuan** (independent software engineer, also known online as `0x2E` / `rook1e_dev`), operating under the brand **Writastic**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEz5kp2X_GNRqUOLNd2VwrBNVqnbz0y3AQW7OTO9Jqh993UNLEQAyyh8NVAysnyVL7bPOSyenprxIQcdCV6mIw838_US1LI9t5GMiPB",
+          "title": "writastic.com"
+        },
+        {
+          "id": 3,
+          "text": "The footer of the official website states: *\"Built with ❤️ by Yuan © 2024 Writastic.\"*\n  * ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEz5kp2X_GNRqUOLNd2VwrBNVqnbz0y3AQW7OTO9Jqh993UNLEQAyyh8NVAysnyVL7bPOSyenprxIQcdCV6mIw838_US1LI9t5GMiPB",
+          "title": "writastic.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Yuan",
+        "evidence": "Passage 2 identifies Yuan, an independent software engineer operating under the brand Writastic, as the direct provider and developer of the product.",
+        "source": {
+          "id": 2,
+          "text": "**Direct Provider / Developer:** **Yuan** (independent software engineer, also known online as `0x2E` / `rook1e_dev`), operating under the brand **Writastic**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEz5kp2X_GNRqUOLNd2VwrBNVqnbz0y3AQW7OTO9Jqh993UNLEQAyyh8NVAysnyVL7bPOSyenprxIQcdCV6mIw838_US1LI9t5GMiPB",
+          "title": "writastic.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Writastic",
+    "domain": "writastic.com",
+    "description": "Writastic helps you create engaging social media posts with AI-powered suggestions and templates. Boost your social media presence with its easy-to-use interface and diverse content options."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Yuan",
+  "evidence": "Passage 2 identifies Yuan, an independent software engineer operating under the brand Writastic, as the direct provider and developer of the product.",
+  "source": {
+    "id": 2,
+    "text": "**Direct Provider / Developer:** **Yuan** (independent software engineer, also known online as `0x2E` / `rook1e_dev`), operating under the brand **Writastic**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEz5kp2X_GNRqUOLNd2VwrBNVqnbz0y3AQW7OTO9Jqh993UNLEQAyyh8NVAysnyVL7bPOSyenprxIQcdCV6mIw838_US1LI9t5GMiPB",
+    "title": "writastic.com"
+  },
+  "checked_at": "2026-11-05T06:31:21.376978+00:00"
+}

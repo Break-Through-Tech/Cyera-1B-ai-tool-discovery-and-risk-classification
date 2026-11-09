@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The operating company directly providing the software products and services at **portswigger.net** (including the Burp Suite product family) is **PortSwigger Ltd**.\n\n### Supporting Evidence\n* **Website Terms of Use:** \n  > *\"These Website Terms of Use together with the documents referred to in it ('Terms') constitute the terms and conditions which govern the use by any visitor or user ('User') of the PortSwigger Ltd (Company registration no. 6719143) ('PortSwigger') website (portswigger.net) and associated websites, tools and products supplied by PortSwigger...\"*\n* **Legal Information:** \n  > *\"Burp Suite Community Edition, Burp Suite Professional, Burp Suite DAST and the Burp Suite Certified Practitioner certification are developed and licensed by PortSwigger Ltd.\"*\n* **Privacy Notice:** \n  > *\"PortSwigger Ltd is the controller and responsible for your personal data (collectively referred to as 'PortSwigger', 'we', 'us' or 'our' in this privacy notice).\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The operating company directly providing the software products and services at **portswigger.net** (including the Burp Suite product family) is **PortSwigger Ltd**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFtRKbk2v4_LGR8k1GAgzR5zYmmqMYOHORzNr9GSetK0bUJ_QstWwMougECN-slG9bYQY3sF-LHFKaA01GKqxBLmEkMiTsOLsa8MMXfAidnC_u0MQ==",
+          "title": "portswigger.net"
+        },
+        {
+          "id": 1,
+          "text": "The operating company directly providing the software products and services at **portswigger.net** (including the Burp Suite product family) is **PortSwigger Ltd**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEN32Oj4YsLnjQlA_pcmNrCrb3pTejgZRILJrF9mbEPKfhYzDHgOUZNcIvb4--MsdWL6poONgVL1d5Y-9flFtrvNZvCAYT9j1gRWmDZPI2Vga4TiTg0XXGQ-qtNS9YVl-YFZcdpedGgjPN4BXPE6Jk2fozpVEmessrKJPCPnn52MiIswgrwWXyb3TxTqOzc059U1g==",
+          "title": "portswigger.net"
+        },
+        {
+          "id": 2,
+          "text": "*\"These Website Terms of Use together with the documents referred to in it ('Terms') constitute the terms and conditions which govern the use by any visitor or user ('User') of the PortSwigger Ltd (Company registration no. 6719143) ('PortSwigger') website (portswigger.net) and associated websites, tools and products supplied by PortSwigger...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEN32Oj4YsLnjQlA_pcmNrCrb3pTejgZRILJrF9mbEPKfhYzDHgOUZNcIvb4--MsdWL6poONgVL1d5Y-9flFtrvNZvCAYT9j1gRWmDZPI2Vga4TiTg0XXGQ-qtNS9YVl-YFZcdpedGgjPN4BXPE6Jk2fozpVEmessrKJPCPnn52MiIswgrwWXyb3TxTqOzc059U1g==",
+          "title": "portswigger.net"
+        },
+        {
+          "id": 3,
+          "text": "*\"Burp Suite Community Edition, Burp Suite Professional, Burp Suite DAST and the Burp Suite Certified Practitioner certification are developed and licensed by PortSwigger Ltd.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFtRKbk2v4_LGR8k1GAgzR5zYmmqMYOHORzNr9GSetK0bUJ_QstWwMougECN-slG9bYQY3sF-LHFKaA01GKqxBLmEkMiTsOLsa8MMXfAidnC_u0MQ==",
+          "title": "portswigger.net"
+        },
+        {
+          "id": 4,
+          "text": "*\"PortSwigger Ltd is the controller and responsible for your personal data (collectively referred to as 'PortSwigger', 'we', 'us' or 'our' in this privacy notice).\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0itWui9jsa07zaRgwqq479wtLAO9UjtJBS0vNuwqIhjcBzP8WMp0PcJaBTPPqxa6ZJt4iTyVx1x-Dbr-h-T23O1SFlnkvNBSve7RXz5hgqSfdAR_H",
+          "title": "portswigger.net"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "PortSwigger Ltd",
+        "evidence": "Passage 0 directly states that PortSwigger Ltd is the operating company providing the software products and services at portswigger.net.",
+        "source": {
+          "id": 0,
+          "text": "The operating company directly providing the software products and services at **portswigger.net** (including the Burp Suite product family) is **PortSwigger Ltd**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFtRKbk2v4_LGR8k1GAgzR5zYmmqMYOHORzNr9GSetK0bUJ_QstWwMougECN-slG9bYQY3sF-LHFKaA01GKqxBLmEkMiTsOLsa8MMXfAidnC_u0MQ==",
+          "title": "portswigger.net"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "PortSwigger",
+    "domain": "portswigger.net",
+    "description": "PortSwigger is a leading provider of software tools designed for security testing of web applications. Based near Manchester, UK, the company is renowned for its Burp Suite, a standard toolkit leveraged by web security professionals globally. With a strong focus on the web security industry, PortSwigger continues to expand its team, seeking skilled developers in Java and .NET."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "PortSwigger Ltd",
+  "evidence": "Passage 0 directly states that PortSwigger Ltd is the operating company providing the software products and services at portswigger.net.",
+  "source": {
+    "id": 0,
+    "text": "The operating company directly providing the software products and services at **portswigger.net** (including the Burp Suite product family) is **PortSwigger Ltd**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFtRKbk2v4_LGR8k1GAgzR5zYmmqMYOHORzNr9GSetK0bUJ_QstWwMougECN-slG9bYQY3sF-LHFKaA01GKqxBLmEkMiTsOLsa8MMXfAidnC_u0MQ==",
+    "title": "portswigger.net"
+  },
+  "checked_at": "2026-11-05T08:53:31.753211+00:00"
+}

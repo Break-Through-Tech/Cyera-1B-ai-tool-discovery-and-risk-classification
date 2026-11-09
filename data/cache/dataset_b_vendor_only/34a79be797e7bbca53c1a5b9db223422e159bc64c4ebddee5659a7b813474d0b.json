@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **Open Collective** platform at **`opencollective.com`** is **OFi Technologies LLC**.\n\n### Provider Statement\nAccording to the official **Terms of Service** for the Open Collective platform on `opencollective.com`:\n\n> *\"These Terms of Service ('Terms') apply to your access to and use of the Open Collective Platform, accessible through opencollective.com and related domains, as well as other websites, applications, and online services (collectively, 'the Platform' or 'the Services'). The Platform is provided and operated by OFi Technologies LLC ('OFiTech', 'we', 'us', or 'our'), a company 100% owned and controlled by Open Finance Consortium Inc., a Delaware 501(c)(6) nonprofit corporation ('OFi Consortium' or 'OFiCo').\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **Open Collective** platform at **`opencollective.com`** is **OFi Technologies LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFc90ibgjPa_db4l1d451dI51feKj9vzfwLkSn5Iuxd6XqYWwwi2LR-zOMCv8Xr9XJ_L50lrcK34iFr8SFWtfp1uzV5P21aCx4U599IzK7_KT_p_6s=",
+          "title": "opencollective.com"
+        },
+        {
+          "id": 1,
+          "text": "The Platform is provided and operated by OFi Technologies LLC ('OFiTech', 'we', 'us', or 'our'), a company 100% owned and controlled by Open Finance Consortium Inc., a Delaware 501(c)(6) nonprofit corporation ('OFi Consortium' or 'OFiCo').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFc90ibgjPa_db4l1d451dI51feKj9vzfwLkSn5Iuxd6XqYWwwi2LR-zOMCv8Xr9XJ_L50lrcK34iFr8SFWtfp1uzV5P21aCx4U599IzK7_KT_p_6s=",
+          "title": "opencollective.com"
+        },
+        {
+          "id": 2,
+          "text": "apply to your access to and use of the Open Collective Platform, accessible through opencollective.com and related domains, as well as other websites, applications, and online services (collectively, 'the Platform' or 'the Services'). The Platform is provided and operated by OFi Technologies LLC ('OFiTech', 'we', 'us', or 'our'), a company 100% owned and controlled by Open Finance Consortium Inc., a Delaware 501(c)(6) nonprofit corporation ('OFi Consortium' or 'OFiCo",
+          "url": "https://github.com/Stars1233/opencollective-frontend",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "OFi Technologies LLC",
+        "evidence": "According to passage 0, OFi Technologies LLC is the vendor directly providing and operating the Open Collective platform at opencollective.com.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the **Open Collective** platform at **`opencollective.com`** is **OFi Technologies LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFc90ibgjPa_db4l1d451dI51feKj9vzfwLkSn5Iuxd6XqYWwwi2LR-zOMCv8Xr9XJ_L50lrcK34iFr8SFWtfp1uzV5P21aCx4U599IzK7_KT_p_6s=",
+          "title": "opencollective.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Open Collective",
+    "domain": "opencollective.com",
+    "description": "Open Collective provides a comprehensive legal and financial toolbox designed for grassroots groups and communities. It serves as a platform for fundraising, legal status, and money management, empowering organizations to manage their finances transparently and effectively."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "OFi Technologies LLC",
+  "evidence": "According to passage 0, OFi Technologies LLC is the vendor directly providing and operating the Open Collective platform at opencollective.com.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the **Open Collective** platform at **`opencollective.com`** is **OFi Technologies LLC**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFc90ibgjPa_db4l1d451dI51feKj9vzfwLkSn5Iuxd6XqYWwwi2LR-zOMCv8Xr9XJ_L50lrcK34iFr8SFWtfp1uzV5P21aCx4U599IzK7_KT_p_6s=",
+    "title": "opencollective.com"
+  },
+  "checked_at": "2026-11-05T08:41:15.186220+00:00"
+}

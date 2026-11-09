@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Jira** at **atlassian.com** is **Atlassian Pty Ltd**.\n\n### Evidence\n* **Exact Product and Domain:** Jira (`atlassian.com`)\n* **Provider Statement:** According to the official *Atlassian Customer Agreement* and *Atlassian Product-Specific Terms* (`atlassian.com/legal/product-terms`):\n  > *“‘Atlassian’ means the Atlassian entity that owns or operates the Products that Customer uses or accesses listed at https://www.atlassian.com/legal/product-terms.”*\n  > \n  > Under the Product-Specific Terms table specifying the contracting entity:  \n  > *“All Products not named elsewhere in this table, including Confluence and Jira: **Atlassian Pty Ltd**.”*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Jira** at **atlassian.com** is **Atlassian Pty Ltd**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHy8sBPQdGcqkroJ1DfrDuL1gHUY62uDfUXvaSmgBDnqo4DnDTCY3Vfcfs04WNX0hcKVgaWX-xgsmj1Ilk31PhiK1c9fj0tKWearrj6luwmtPy2twe0u0_w13pTXbfqmt0yvQ==",
+          "title": "atlassian.com"
+        },
+        {
+          "id": 1,
+          "text": "**Exact Product and Domain:** Jira (`atlassian.com`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSICRTsn1IjaBh5q6QuocfpBKLjtP3S2Y7ivFWHzfypt_mLYL2aQgg0p7s0UARKr_45Wo_f8kTGm5yUFuFu-PTc1g_lm7yfW8cgp-SdpaumU2pE8bHgJXs351AX0GURMoA",
+          "title": "atlassian.com"
+        },
+        {
+          "id": 2,
+          "text": "**Exact Product and Domain:** Jira (`atlassian.com`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHy8sBPQdGcqkroJ1DfrDuL1gHUY62uDfUXvaSmgBDnqo4DnDTCY3Vfcfs04WNX0hcKVgaWX-xgsmj1Ilk31PhiK1c9fj0tKWearrj6luwmtPy2twe0u0_w13pTXbfqmt0yvQ==",
+          "title": "atlassian.com"
+        },
+        {
+          "id": 3,
+          "text": "*“‘Atlassian’ means the Atlassian entity that owns or operates the Products that Customer uses or accesses listed at https://www.atlassian.com/legal/product-terms.”*\n  > \n  ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBaBiItaKhk7WBi3SySnxYhb9HEpSNQst8XiQjWzlRU8528Ei_JIHEXFQE1WE56oFbvl8Xc0jNf4IMB84nxXlTad1JYfRYfN57IT0VYutyCpmBqldGlmKq0K-W5N9c05d89Tv8dahO0hs_YlO4as34tQ==",
+          "title": "atlassian.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Atlassian Pty Ltd",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing Jira at atlassian.com is Atlassian Pty Ltd.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Jira** at **atlassian.com** is **Atlassian Pty Ltd**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHy8sBPQdGcqkroJ1DfrDuL1gHUY62uDfUXvaSmgBDnqo4DnDTCY3Vfcfs04WNX0hcKVgaWX-xgsmj1Ilk31PhiK1c9fj0tKWearrj6luwmtPy2twe0u0_w13pTXbfqmt0yvQ==",
+          "title": "atlassian.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Jira",
+    "domain": "atlassian.com",
+    "description": "An issue and project tracking tool used by software and business teams to plan, track, and manage work."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Atlassian Pty Ltd",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing Jira at atlassian.com is Atlassian Pty Ltd.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Jira** at **atlassian.com** is **Atlassian Pty Ltd**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHy8sBPQdGcqkroJ1DfrDuL1gHUY62uDfUXvaSmgBDnqo4DnDTCY3Vfcfs04WNX0hcKVgaWX-xgsmj1Ilk31PhiK1c9fj0tKWearrj6luwmtPy2twe0u0_w13pTXbfqmt0yvQ==",
+    "title": "atlassian.com"
+  },
+  "checked_at": "2026-11-05T08:01:29.533196+00:00"
+}

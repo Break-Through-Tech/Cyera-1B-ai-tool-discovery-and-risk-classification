@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Gumroad** at **gumroad.com** is **Gumroad, Inc.**.\n\n### Provider Statement\nAccording to the official [Gumroad Terms of Service Agreement](https://gumroad.com/terms):\n> *\"This Terms of Service applies to: (a) the website made available by Gumroad, Inc. ('Gumroad,' 'we,' 'us') available at www.gumroad.com (the 'Website'), (b) Gumroad's mobile application(s) (each, an 'Application' and collectively, with the Website, the 'Platform'), and (c) the products, services, features, technologies, and/or functionalities provided by Gumroad via the Platform (collectively, with the Platform, the 'Services').\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Gumroad** at **gumroad.com** is **Gumroad, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgTzwh-bbJIQIL3_92JcBvd6hjunLYTYW0GAgDwQU5uHmjmKLc6TMMIFVUZ1_OO2rX8RcJkgNmx8ayU7FoYGf3KACojE02NoXr-UTYuTQ4",
+          "title": "gumroad.com"
+        },
+        {
+          "id": 1,
+          "text": "*\"This Terms of Service applies to: (a) the website made available by Gumroad, Inc. ('Gumroad,' 'we,' 'us') available at www.gumroad.com (the 'Website'), (b) Gumroad's mobile application(s) (each, an 'Application' and collectively, with the Website, the 'Platform'), and (c) the products, services, features, technologies, and/or functionalities provided by Gumroad via the Platform (collectively, with the Platform, the 'Services').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgTzwh-bbJIQIL3_92JcBvd6hjunLYTYW0GAgDwQU5uHmjmKLc6TMMIFVUZ1_OO2rX8RcJkgNmx8ayU7FoYGf3KACojE02NoXr-UTYuTQ4",
+          "title": "gumroad.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Gumroad, Inc.",
+        "evidence": "Gumroad's Terms of Service states that the website available at www.gumroad.com and its associated services are made available by Gumroad, Inc.",
+        "source": {
+          "id": 1,
+          "text": "*\"This Terms of Service applies to: (a) the website made available by Gumroad, Inc. ('Gumroad,' 'we,' 'us') available at www.gumroad.com (the 'Website'), (b) Gumroad's mobile application(s) (each, an 'Application' and collectively, with the Website, the 'Platform'), and (c) the products, services, features, technologies, and/or functionalities provided by Gumroad via the Platform (collectively, with the Platform, the 'Services').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgTzwh-bbJIQIL3_92JcBvd6hjunLYTYW0GAgDwQU5uHmjmKLc6TMMIFVUZ1_OO2rX8RcJkgNmx8ayU7FoYGf3KACojE02NoXr-UTYuTQ4",
+          "title": "gumroad.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Gumroad",
+    "domain": "gumroad.com",
+    "description": "Gumroad is a platform that empowers creatives such as writers, designers, game developers, musicians, artists, and filmmakers to sell their work directly to their audience. By facilitating this direct sales approach, Gumroad helps creators earn a sustainable income from their creative endeavors."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Gumroad, Inc.",
+  "evidence": "Gumroad's Terms of Service states that the website available at www.gumroad.com and its associated services are made available by Gumroad, Inc.",
+  "source": {
+    "id": 1,
+    "text": "*\"This Terms of Service applies to: (a) the website made available by Gumroad, Inc. ('Gumroad,' 'we,' 'us') available at www.gumroad.com (the 'Website'), (b) Gumroad's mobile application(s) (each, an 'Application' and collectively, with the Website, the 'Platform'), and (c) the products, services, features, technologies, and/or functionalities provided by Gumroad via the Platform (collectively, with the Platform, the 'Services').\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgTzwh-bbJIQIL3_92JcBvd6hjunLYTYW0GAgDwQU5uHmjmKLc6TMMIFVUZ1_OO2rX8RcJkgNmx8ayU7FoYGf3KACojE02NoXr-UTYuTQ4",
+    "title": "gumroad.com"
+  },
+  "checked_at": "2026-11-05T08:17:00.357565+00:00"
+}

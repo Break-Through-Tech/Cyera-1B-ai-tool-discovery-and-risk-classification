@@ -1,0 +1,85 @@
+{
+  "attempts": [
+    {
+      "answer": "The evidence concerns the software product **Nano Banana.pro** (also presented as **Nano Banana** / **Nano Banana Pro**) hosted at the domain **`nanobanana.pro`**.\n\n### Provider Identification\n* **Vendor / Provider Brand:** **Nano Banana** (or **Nano Banana Pro**)\n* **Operating Company / Developer:** No legal corporate entity name or individual developer is published on `nanobanana.pro` (unlike other third-party wrappers such as `nanobanana-pro.me` operated by Yuan Liu Yang or `nanobanana-pro.com` operated by Mok Kam Kuen). Instead, the service operates directly under the provider brand.\n\n### Provider Statement & Evidence\n* The official website footer explicitly identifies the provider with the copyright notice: \n  > *\"© 2025 • Nano Banana All rights reserved.\"* (and on policy pages: *\"© 2025 • nano banana pro\"*).\n* Official support for the site is provided via **`support@nanobanana.pro`**.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The evidence concerns the software product **Nano Banana.pro** (also presented as **Nano Banana** / **Nano Banana Pro**) hosted at the domain **`nanobanana.pro`**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYINyS1Kl1M4GXAI4gG6zgVsyypXhlnSihk_RKj2pKE0pII8c1N8DN_rmwjRumfLSUsX-M20HPTe7AicFZPl3_RFj8B0vSk6ePyJOunA==",
+          "title": "nanobanana.pro"
+        },
+        {
+          "id": 1,
+          "text": "The evidence concerns the software product **Nano Banana.pro** (also presented as **Nano Banana** / **Nano Banana Pro**) hosted at the domain **`nanobanana.pro`**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGORmU_XSR2o4b7Gn1ZwRigmgu1LBHmwThOkeHAvmnKCQHTkXwbqmlS6vFo5dU9KkgbNvOXs7TWm7fgfmQca9UvvsPWXcIyfQ4IeMS-LjHUslfB-1yw3WH6AHQId6yRRvLmNvvRt5ALDLp3_qia-w==",
+          "title": "startupsintel.com"
+        },
+        {
+          "id": 2,
+          "text": "**Vendor / Provider Brand:** **Nano Banana** (or **Nano Banana Pro**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYINyS1Kl1M4GXAI4gG6zgVsyypXhlnSihk_RKj2pKE0pII8c1N8DN_rmwjRumfLSUsX-M20HPTe7AicFZPl3_RFj8B0vSk6ePyJOunA==",
+          "title": "nanobanana.pro"
+        },
+        {
+          "id": 3,
+          "text": "**Vendor / Provider Brand:** **Nano Banana** (or **Nano Banana Pro**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElCzQOMN1HPi0CSo14EG81NrqZFcePVv6StIoAXD2vgmCmrQzy1b6VoUJcsNk0b4niOMXOgFDyb_YQGxktpujuV9GFFpkZsgWM3lTUrTF9cDtpgm5VjVCd",
+          "title": "nanobanana-pro.pro"
+        },
+        {
+          "id": 4,
+          "text": "**Operating Company / Developer:** No legal corporate entity name or individual developer is published on `nanobanana.pro` (unlike other third-party wrappers such as `nanobanana-pro.me` operated by Yuan Liu Yang or `nanobanana-pro.com` operated by Mok Kam Kuen)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsiLj2JD_QPuGUeEgu9b8jshtVqSpiYXHtvdbbPkqB9C_JAMeFKXrpDPOLa6LyjAi9HF4XW8Bdksf9YXWO7by0cM3ipDLx6CR1J2KJ25_LkLouuMdvFAwp",
+          "title": "nanobanana-pro.com"
+        },
+        {
+          "id": 5,
+          "text": "**Operating Company / Developer:** No legal corporate entity name or individual developer is published on `nanobanana.pro` (unlike other third-party wrappers such as `nanobanana-pro.me` operated by Yuan Liu Yang or `nanobanana-pro.com` operated by Mok Kam Kuen)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6FX_gLLjOGJPhfZEq2m15_rCOiQmR8oxSiv29lVZn85-rDutc24-9CPBGjvzjLurFGRLmaP3efXEhTFBX11_Fnk6F9Gx3EWlEZmjuzRV1bUd_8rR7",
+          "title": "nanobanana-pro.me"
+        },
+        {
+          "id": 6,
+          "text": "*\"© 2025 • Nano Banana All rights reserved.\"* (and on policy pages: *\"© 2025 • nano banana pro\"*).\n* Off",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlxmEFtVEJvc0GnrcUkeObqDtEgW5gdGeJTAVYUTOklIfvRtsY9w3MLcbYnDmqf61RXlpFYbcnjEdM0yPdIuK9OKlzPgsKBJemoH49AQ==",
+          "title": "nanobanana.pro"
+        },
+        {
+          "id": 7,
+          "text": "*\"© 2025 • Nano Banana All rights reserved.\"* (and on policy pages: *\"© 2025 • nano banana pro\"*).\n* Off",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElCzQOMN1HPi0CSo14EG81NrqZFcePVv6StIoAXD2vgmCmrQzy1b6VoUJcsNk0b4niOMXOgFDyb_YQGxktpujuV9GFFpkZsgWM3lTUrTF9cDtpgm5VjVCd",
+          "title": "nanobanana-pro.pro"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Nano Banana",
+        "evidence": "Passage 2 identifies the vendor and provider brand for the product hosted at nanobanana.pro as Nano Banana (or Nano Banana Pro).",
+        "source": {
+          "id": 2,
+          "text": "**Vendor / Provider Brand:** **Nano Banana** (or **Nano Banana Pro**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYINyS1Kl1M4GXAI4gG6zgVsyypXhlnSihk_RKj2pKE0pII8c1N8DN_rmwjRumfLSUsX-M20HPTe7AicFZPl3_RFj8B0vSk6ePyJOunA==",
+          "title": "nanobanana.pro"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Nano Banana.pro",
+    "domain": "nanobanana.pro",
+    "description": "Create and edit images with unmatched context-awareness, character consistency, and visual precision."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Nano Banana",
+  "evidence": "Passage 2 identifies the vendor and provider brand for the product hosted at nanobanana.pro as Nano Banana (or Nano Banana Pro).",
+  "source": {
+    "id": 2,
+    "text": "**Vendor / Provider Brand:** **Nano Banana** (or **Nano Banana Pro**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYINyS1Kl1M4GXAI4gG6zgVsyypXhlnSihk_RKj2pKE0pII8c1N8DN_rmwjRumfLSUsX-M20HPTe7AicFZPl3_RFj8B0vSk6ePyJOunA==",
+    "title": "nanobanana.pro"
+  },
+  "checked_at": "2026-11-05T06:47:39.811502+00:00"
+}

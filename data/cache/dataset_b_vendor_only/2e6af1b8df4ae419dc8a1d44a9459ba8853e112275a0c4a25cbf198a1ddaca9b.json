@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product at **cookiebot.com** (Cookiebot CMP, formerly operated under Cybot A/S) is **Usercentrics A/S**.\n\n### Evidence & Provider Statements\n* **Terms of Service (`cookiebot.com/terms-of-service/`)**:\n  > *\"The Terms of Service (the 'Terms') govern your acquisition of services as well as all use of services on our website www.cookiebot.com... you agree that the Terms form part of the agreement between you and Usercentrics A/S ('Usercentrics') (the 'Agreement').\"*\n\n* **Company Information & Legal Notice (`cookiebot.com`)**:\n  > *\"Cookiebot is a brand name under Usercentrics A/S, headquartered in Denmark... Company registration number DK34624607.\"*\n  > *\"Cookiebot is a trademark of Usercentrics A/S. Usercentrics A/S is registered in Denmark. Company reg. no.: 34624607.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product at **cookiebot.com** (Cookiebot CMP, formerly operated under Cybot A/S) is **Usercentrics A/S**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4latbX4WvOmfvYE2q6fEUxS16E29OIH1JgqE0QN9qYLrACdYngiC9yc-UlSEC_g0kNZzTNodtkiAQ2d9nYbTOc5SkJNAn2kXPT07tpHKhwq4JGyIev0M22Bueq0vOHtvLl_uv",
+          "title": "cookiebot.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the software product at **cookiebot.com** (Cookiebot CMP, formerly operated under Cybot A/S) is **Usercentrics A/S**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZf4J1z7Cq9SYzdD6xcO5IeAtwOF204g4p0Ax09bxS304Xy1aO0kk-leOnprnvp1v5dhWIJi9g0Xbe9drOkSEP0Mz1_MgfR58c6gvDCjVeZdtpgQwtBNpeywJ4EKhOGpjO0cgBUCLr2TqrMQOcoOYMsUoozC99heB0NeEWxWts5Gur1zZDoGw=",
+          "title": "cookiebot.com"
+        },
+        {
+          "id": 2,
+          "text": "The vendor directly providing the software product at **cookiebot.com** (Cookiebot CMP, formerly operated under Cybot A/S) is **Usercentrics A/S**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElYFKFB_4ckr8puOCUJrLasPm5zdwS8Ik1UtwIE6kEKGthg-T_ij3y9xm1iy9W0pTtQs-S8GzsITlJQnrcyZP98nMOXvfs0v-LPRMJyC6dx74LXKLVVRZNo3MD-QHpMG_4pp-LScUDjOcgrkSo94ZGyX47I6We",
+          "title": "usercentrics.com"
+        },
+        {
+          "id": 3,
+          "text": "*\"The Terms of Service (the 'Terms') govern your acquisition of services as well as all use of services on our website www.cookiebot.com... you agree that the Terms form part of the agreement between you and Usercentrics A/S ('Usercentrics') (the 'Agreement').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4latbX4WvOmfvYE2q6fEUxS16E29OIH1JgqE0QN9qYLrACdYngiC9yc-UlSEC_g0kNZzTNodtkiAQ2d9nYbTOc5SkJNAn2kXPT07tpHKhwq4JGyIev0M22Bueq0vOHtvLl_uv",
+          "title": "cookiebot.com"
+        },
+        {
+          "id": 4,
+          "text": "Company registration number DK34624607.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZf4J1z7Cq9SYzdD6xcO5IeAtwOF204g4p0Ax09bxS304Xy1aO0kk-leOnprnvp1v5dhWIJi9g0Xbe9drOkSEP0Mz1_MgfR58c6gvDCjVeZdtpgQwtBNpeywJ4EKhOGpjO0cgBUCLr2TqrMQOcoOYMsUoozC99heB0NeEWxWts5Gur1zZDoGw=",
+          "title": "cookiebot.com"
+        },
+        {
+          "id": 5,
+          "text": "Company reg. no.: 34624607.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpZZawLN56Mb-Q_0G_gPeyC019SRXzMDRz8UB4jAkQQ38WiFP_hVzfwalVy3SUD9jHvXLuKOqpc07DbVr5bYBT4sNbhvexemVYjMevan1HVtqFaNyRX9s4gP7Ix3frUHu_q1RqAniUC9SofimK6cPU7cG4HsldF6ICbmiOGiht_DCKFDbYK-khB4BW_p2rLeILPeRwwEIcoOysoh-R",
+          "title": "cookiebot.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Usercentrics A/S",
+        "evidence": "Passage 3 states that the Terms of Service governing the acquisition and use of services on website www.cookiebot.com form part of the agreement between the user and Usercentrics A/S.",
+        "source": {
+          "id": 3,
+          "text": "*\"The Terms of Service (the 'Terms') govern your acquisition of services as well as all use of services on our website www.cookiebot.com... you agree that the Terms form part of the agreement between you and Usercentrics A/S ('Usercentrics') (the 'Agreement').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4latbX4WvOmfvYE2q6fEUxS16E29OIH1JgqE0QN9qYLrACdYngiC9yc-UlSEC_g0kNZzTNodtkiAQ2d9nYbTOc5SkJNAn2kXPT07tpHKhwq4JGyIev0M22Bueq0vOHtvLl_uv",
+          "title": "cookiebot.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Cybot",
+    "domain": "cookiebot.com",
+    "description": "Cybot A/S is a technology company specializing in cookie consent management through their flagship product, Cookiebot. Based in Denmark, the company offers a solution that scans websites to detect cookies and provides automated tools to ensure compliance with various privacy regulations. Their services enable businesses to manage user consent effectively and enhance transparency around data usage. Users can try Cookiebot for free to assess its functionality."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Usercentrics A/S",
+  "evidence": "Passage 3 states that the Terms of Service governing the acquisition and use of services on website www.cookiebot.com form part of the agreement between the user and Usercentrics A/S.",
+  "source": {
+    "id": 3,
+    "text": "*\"The Terms of Service (the 'Terms') govern your acquisition of services as well as all use of services on our website www.cookiebot.com... you agree that the Terms form part of the agreement between you and Usercentrics A/S ('Usercentrics') (the 'Agreement').\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4latbX4WvOmfvYE2q6fEUxS16E29OIH1JgqE0QN9qYLrACdYngiC9yc-UlSEC_g0kNZzTNodtkiAQ2d9nYbTOc5SkJNAn2kXPT07tpHKhwq4JGyIev0M22Bueq0vOHtvLl_uv",
+    "title": "cookiebot.com"
+  },
+  "checked_at": "2026-11-05T10:05:55.637814+00:00"
+}

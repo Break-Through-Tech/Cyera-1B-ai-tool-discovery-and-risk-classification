@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Appified.ai** (at **appified.ai**) is **Aster Labs** (founded by Patrick Dougherty). \n\n### Supporting Evidence:\n* **Aster Labs Official Website (`asterlabs.ai`)**: Lists **Appified.ai** under its *AI Agent Products*: \n  > *\"Appified.ai. Turn your OpenAI Assistant into an App.\"*\n* **Aster Labs GitHub Organization (`asterlabs-ai`)**: Confirms under *Our Products*: \n  > *\"Appified.ai, OpenAI Assistant deployment platform.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Appified.ai** (at **appified.ai**) is **Aster Labs**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGTpIptomkrOhdIwjIuplqtaXDBZzcgkBg_Td7Y39229UCsHPnS_5t8QtgVngLQo0aYKe5xNvlauTG7Ch5yLY2itnXDI6H7UA_ButuVr035QcAyZlj",
+          "title": "github.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Appified.ai** (at **appified.ai**) is **Aster Labs**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJK7AR1Iyz6JPKeXm64meFVrYFeIKBg0sK8RkwT4VRWq2QmbXOSVNaqJX5f1uoIa5B8ingtU2R9skGi5YEeG6EMCEJ-o0wo-ksU6bufpSfloiq5Zqod8nARyg4EpWgLzzrBzXHQWY6TVuJRhORvHrlzbGowSc=",
+          "title": "clubic.com"
+        },
+        {
+          "id": 2,
+          "text": "The vendor directly providing **Appified.ai** (at **appified.ai**) is **Aster Labs** (founded by Patrick Dougherty)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHvoLV6ReZXUry_fpnvDcTnHcalpP-29lpNrBQI96ftgDpN_Ftr0R2CQ2SmI6i57txy4g8ZZzvHM85D6mOblwGPSfEvRvMgWkmDaFNs95aUq7pIXc=",
+          "title": "asterlabs.ai"
+        },
+        {
+          "id": 3,
+          "text": "Turn your OpenAI Assistant into an App.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhhw9eF36JcWDok35dEmUmcBgT7n0cUwst9J1q8l8tyyQqX0UMJGpaUcV64CQ9lSApgsNKJ_lc1M0zdMM-GTuKsdbZ1PXwV2QVGOUlxnFD",
+          "title": "asterlabs.ai"
+        },
+        {
+          "id": 4,
+          "text": "*\"Appified.ai, OpenAI Assistant deployment platform.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGTpIptomkrOhdIwjIuplqtaXDBZzcgkBg_Td7Y39229UCsHPnS_5t8QtgVngLQo0aYKe5xNvlauTG7Ch5yLY2itnXDI6H7UA_ButuVr035QcAyZlj",
+          "title": "github.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Aster Labs",
+        "evidence": "Passage 2 states that the vendor directly providing Appified.ai (at appified.ai) is Aster Labs (founded by Patrick Dougherty).",
+        "source": {
+          "id": 2,
+          "text": "The vendor directly providing **Appified.ai** (at **appified.ai**) is **Aster Labs** (founded by Patrick Dougherty)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHvoLV6ReZXUry_fpnvDcTnHcalpP-29lpNrBQI96ftgDpN_Ftr0R2CQ2SmI6i57txy4g8ZZzvHM85D6mOblwGPSfEvRvMgWkmDaFNs95aUq7pIXc=",
+          "title": "asterlabs.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Appified.ai",
+    "domain": "appified.ai",
+    "description": "Turn your OpenAI Assistant into a Web App in 2 minutes"
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Aster Labs",
+  "evidence": "Passage 2 states that the vendor directly providing Appified.ai (at appified.ai) is Aster Labs (founded by Patrick Dougherty).",
+  "source": {
+    "id": 2,
+    "text": "The vendor directly providing **Appified.ai** (at **appified.ai**) is **Aster Labs** (founded by Patrick Dougherty)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHvoLV6ReZXUry_fpnvDcTnHcalpP-29lpNrBQI96ftgDpN_Ftr0R2CQ2SmI6i57txy4g8ZZzvHM85D6mOblwGPSfEvRvMgWkmDaFNs95aUq7pIXc=",
+    "title": "asterlabs.ai"
+  },
+  "checked_at": "2026-11-05T07:41:46.428149+00:00"
+}

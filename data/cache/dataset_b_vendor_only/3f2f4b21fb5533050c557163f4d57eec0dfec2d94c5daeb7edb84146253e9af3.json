@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product **Moz** at **moz.com** is **SEOmoz, Inc.** (operating as **Moz**, a Ziff Davis company).\n\n### Provider Statements & Evidence\n* **Terms of Use (`moz.com/terms`):**  \n  > *\"This Terms of Use ('TOU') is a legally binding contract between SEOmoz, Inc. ('Moz'), and you, as a user of Moz's sites.\"*\n* **Privacy Policy (`moz.com/privacy-policy`):**  \n  > *\"SEOmoz, Inc., including its affiliates, subsidiaries, and parent company, ('Moz') provides search engine optimization tools to enhance your marketing and research efforts... Moz owns and operates the interactive marketing websites, www.moz.com and www.getstat.com.\"*\n* **Website Footer (`moz.com`):**  \n  > *\"© 2021 - 2026 SEOMoz, Inc., a Ziff Davis company. All rights reserved. Moz is a registered trademark of SEOMoz, Inc.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product **Moz** at **moz.com** is **SEOmoz, Inc.** (operating as **Moz**, a Ziff Davis company)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZmP4p6feYhWd9FBQEPcaMh6TdEuOnPNH-RMp1vV-d5f9HrKOuKYyzlTjVwQWdb1E_ZFUUrhvnCbgOpKx8KknXlZQGAL_gYW1ofL0ZYa2ZR8RxJV0=",
+          "title": "moz.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the software product **Moz** at **moz.com** is **SEOmoz, Inc.** (operating as **Moz**, a Ziff Davis company)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuGztXDrXudhzoACv_UlRAjks9uJsdP3ayqF3-LqZW3gwU8KY6oCLi21Qjn2ghj6nSfxEmhYfi1QVNYY71LdjiUZnEfPssnh6RLxo=",
+          "title": "moz.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"This Terms of Use ('TOU') is a legally binding contract between SEOmoz, Inc. ('Moz'), and you, as a user of Moz's sites.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7QS4x4XjE5ONbWLYjR7soluJMTIsYcAXmTMN2eYDcsd59YaM3g76AuLKyJaKR3Bg1tKwPocT1siovyM_BacoEF4ELagdeEfEhfLlANBTsixJI",
+          "title": "moz.com"
+        },
+        {
+          "id": 3,
+          "text": "Moz owns and operates the interactive marketing websites, www.moz.com and www.getstat.com.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZmP4p6feYhWd9FBQEPcaMh6TdEuOnPNH-RMp1vV-d5f9HrKOuKYyzlTjVwQWdb1E_ZFUUrhvnCbgOpKx8KknXlZQGAL_gYW1ofL0ZYa2ZR8RxJV0=",
+          "title": "moz.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "SEOmoz, Inc.",
+        "evidence": "Passage 0 states that the vendor directly providing the software product Moz at moz.com is SEOmoz, Inc. (operating as Moz, a Ziff Davis company).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the software product **Moz** at **moz.com** is **SEOmoz, Inc.** (operating as **Moz**, a Ziff Davis company)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZmP4p6feYhWd9FBQEPcaMh6TdEuOnPNH-RMp1vV-d5f9HrKOuKYyzlTjVwQWdb1E_ZFUUrhvnCbgOpKx8KknXlZQGAL_gYW1ofL0ZYa2ZR8RxJV0=",
+          "title": "moz.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Moz",
+    "domain": "moz.com",
+    "description": "Moz is a leading provider of marketing analytics software specializing in SEO, link management, social media, and brand monitoring. Based in the United States, Moz develops tools such as Moz Pro and offers APIs that help marketers optimize their online presence. The company also fosters a vibrant online community dedicated to sharing knowledge and resources for inbound marketing, enabling professionals to improve their marketing strategies and outcomes."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "SEOmoz, Inc.",
+  "evidence": "Passage 0 states that the vendor directly providing the software product Moz at moz.com is SEOmoz, Inc. (operating as Moz, a Ziff Davis company).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the software product **Moz** at **moz.com** is **SEOmoz, Inc.** (operating as **Moz**, a Ziff Davis company)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZmP4p6feYhWd9FBQEPcaMh6TdEuOnPNH-RMp1vV-d5f9HrKOuKYyzlTjVwQWdb1E_ZFUUrhvnCbgOpKx8KknXlZQGAL_gYW1ofL0ZYa2ZR8RxJV0=",
+    "title": "moz.com"
+  },
+  "checked_at": "2026-11-05T08:37:53.037793+00:00"
+}

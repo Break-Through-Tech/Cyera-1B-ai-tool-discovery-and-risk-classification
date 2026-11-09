@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The operating company and vendor directly providing **AppBrain** at **appbrain.com** is **AppTornado GmbH**.\n\n### Evidence\n* **Privacy Policy (`appbrain.com`)**: *\"AppBrain is run by AppTornado GmbH, Uitikon Waldegg, Switzerland (commercial register number CH-020.4.041.130-8).\"*\n* **AppLinks Terms of Service (`appbrain.com`)**: *\"In this agreement, 'we', 'AppBrain', means AppTornado GmbH, a limited liability company, Stallikerstrasse 29, 8142 Uitikon, Switzerland.\"*\n* **Publishers Terms of Service (`appbrain.com`)**: Defines the AppBrain network, developer interface, and SDK as *\"any part of AppTornado's software and systems...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The operating company and vendor directly providing **AppBrain** at **appbrain.com** is **AppTornado GmbH**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAc59uz14fK_MWRkjeOUsl--yWPGLgEO4bLrg9tgX107xg2xCFTcGWIxzTKNQYdkgB4g6Ball8mJXmhHYzfrr1WdUgaRN0c1apvRzhusQ-6STkToUx9YTrKyo3",
+          "title": "appbrain.com"
+        },
+        {
+          "id": 1,
+          "text": "The operating company and vendor directly providing **AppBrain** at **appbrain.com** is **AppTornado GmbH**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHevm_0eEl4AJl79geTN6XWQl14UfD17sxuGCU5acZtXvjmV2hPu9C_0Dx1frRGtfQQ4OcBT0o4-j9fkxscqxiqtky5wa-5maAMkiSBXtpk9Jys3Ct5lTsmswO70vM=",
+          "title": "appbrain.com"
+        },
+        {
+          "id": 2,
+          "text": "**Privacy Policy (`appbrain.com`)**: *\"AppBrain is run by AppTornado GmbH, Uitikon Waldegg, Switzerland (commercial register number CH-020.4.041.130-8).\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAc59uz14fK_MWRkjeOUsl--yWPGLgEO4bLrg9tgX107xg2xCFTcGWIxzTKNQYdkgB4g6Ball8mJXmhHYzfrr1WdUgaRN0c1apvRzhusQ-6STkToUx9YTrKyo3",
+          "title": "appbrain.com"
+        },
+        {
+          "id": 3,
+          "text": "**AppLinks Terms of Service (`appbrain.com`)**: *\"In this agreement, 'we', 'AppBrain', means AppTornado GmbH, a limited liability company, Stallikerstrasse 29, 8142 Uitikon, Switzerland.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHevm_0eEl4AJl79geTN6XWQl14UfD17sxuGCU5acZtXvjmV2hPu9C_0Dx1frRGtfQQ4OcBT0o4-j9fkxscqxiqtky5wa-5maAMkiSBXtpk9Jys3Ct5lTsmswO70vM=",
+          "title": "appbrain.com"
+        },
+        {
+          "id": 4,
+          "text": "**Publishers Terms of Service (`appbrain.com`)**: Defines the AppBrain network, developer interface, and SDK as *\"any part of AppTornado's software and systems...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhB3DT5FCumXgqzLUcE28cRA5AVUqVYUubMupN-Mqm8-ffTPFMwdxAoLodnOKMxdhvbjWRVZLTWtBuCQEIYq962HsG8B6SkIFX-wOHijRqkp2rc7vtOQnaJyIZPjY_jDOu",
+          "title": "appbrain.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "AppTornado GmbH",
+        "evidence": "AppBrain's Privacy Policy specifies that AppBrain is run by AppTornado GmbH.",
+        "source": {
+          "id": 2,
+          "text": "**Privacy Policy (`appbrain.com`)**: *\"AppBrain is run by AppTornado GmbH, Uitikon Waldegg, Switzerland (commercial register number CH-020.4.041.130-8).\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAc59uz14fK_MWRkjeOUsl--yWPGLgEO4bLrg9tgX107xg2xCFTcGWIxzTKNQYdkgB4g6Ball8mJXmhHYzfrr1WdUgaRN0c1apvRzhusQ-6STkToUx9YTrKyo3",
+          "title": "appbrain.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "AppBrain",
+    "domain": "appbrain.com",
+    "description": "AppBrain is a platform that specializes in helping developers grow their Android app businesses. It offers services for monetization, advertising, and analytics, providing tools and insights to optimize app performance and increase revenue. Located online, AppBrain serves a global clientele of app developers looking to enhance their presence in the Android market."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "AppTornado GmbH",
+  "evidence": "AppBrain's Privacy Policy specifies that AppBrain is run by AppTornado GmbH.",
+  "source": {
+    "id": 2,
+    "text": "**Privacy Policy (`appbrain.com`)**: *\"AppBrain is run by AppTornado GmbH, Uitikon Waldegg, Switzerland (commercial register number CH-020.4.041.130-8).\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAc59uz14fK_MWRkjeOUsl--yWPGLgEO4bLrg9tgX107xg2xCFTcGWIxzTKNQYdkgB4g6Ball8mJXmhHYzfrr1WdUgaRN0c1apvRzhusQ-6STkToUx9YTrKyo3",
+    "title": "appbrain.com"
+  },
+  "checked_at": "2026-11-05T08:40:14.484981+00:00"
+}

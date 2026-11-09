@@ -1,0 +1,79 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **Thegist** (Slack conversation summarization at **thegist.ai**) was directly provided by **theGist, Inc.** (operating simply as **theGist**). \n\n### Evidence & Supporting Sources\n* **Company / Product Record**: Software and startup databases profile the product at `www.thegist.ai` under the corporate entity **theGist, Inc.**, founded by Itzik Ben-Bassat, Itay Dressler, and Nir Zohar.\n* **Product Functionality**: Media coverage and directory listings confirm the product domain and exact offering: *\"The Gist offers The Gist for Slack, a tool designed to increase workplace productivity by providing personalized summaries of Slack channel conversations using generative AI\"* and *\"TheGist's first product makes use of AI to scan Slack messages and supply a personalised abstract\"*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **Thegist** (Slack conversation summarization at **thegist.ai**) was directly provided by **theGist, Inc.** (operating simply as **theGist**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtGKobLOpUBWe-IMkxaJPyfxCB8TMd8CBysb82xe5lv84oQMFW51S6-FHomrWCUHP7Z46Oleof-89FwiMgVJ051kiDsaVoesvjePPvzHvu-OvSzcbjME9fRSTFsqUxiv-BjeZxtkmr6DDMXOVgEfdPifNZq0p2rd-WKl8Fw7IUCEc=",
+          "title": "thesaasnews.com"
+        },
+        {
+          "id": 1,
+          "text": "The software product **Thegist** (Slack conversation summarization at **thegist.ai**) was directly provided by **theGist, Inc.** (operating simply as **theGist**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENDGpYYr14wmSf2PacuaNL3gw4I2KZgmNPeujeDI61ji8XlEB9dHs-UojcciH65OmGb6f10ro41fuIlSZqO9Ohs8SyyAigpA0oMQuYnG3_tCbaxQXgpckJEik9jImsNMvgMxMwHAYj0m-4PjMj7A==",
+          "title": "calcalistech.com"
+        },
+        {
+          "id": 2,
+          "text": "The software product **Thegist** (Slack conversation summarization at **thegist.ai**) was directly provided by **theGist, Inc.** (operating simply as **theGist**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSHtOaX5JHU-0CpMtwCyB-F2EbPDcpMhGD0wi7MuFvJDU03uk6HNwUancb5X86iNXtCqY67Nfc_owNrQEKo7zHwMWJ8_caGtQCFZnmt59WvYRGFWxFI5i5oK62S3-_QG1WjwaGMU_8KVV31dajqx7EJWh0sWEZFcOjjSOUUJN5WNUq",
+          "title": "thesaasnews.com"
+        },
+        {
+          "id": 3,
+          "text": "**Company / Product Record**: Software and startup databases profile the product at `www.thegist.ai` under the corporate entity **theGist, Inc.**, founded by Itzik Ben-Bassat, Itay Dressler, and Nir Zohar",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtGKobLOpUBWe-IMkxaJPyfxCB8TMd8CBysb82xe5lv84oQMFW51S6-FHomrWCUHP7Z46Oleof-89FwiMgVJ051kiDsaVoesvjePPvzHvu-OvSzcbjME9fRSTFsqUxiv-BjeZxtkmr6DDMXOVgEfdPifNZq0p2rd-WKl8Fw7IUCEc=",
+          "title": "thesaasnews.com"
+        },
+        {
+          "id": 4,
+          "text": "**Company / Product Record**: Software and startup databases profile the product at `www.thegist.ai` under the corporate entity **theGist, Inc.**, founded by Itzik Ben-Bassat, Itay Dressler, and Nir Zohar",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENDGpYYr14wmSf2PacuaNL3gw4I2KZgmNPeujeDI61ji8XlEB9dHs-UojcciH65OmGb6f10ro41fuIlSZqO9Ohs8SyyAigpA0oMQuYnG3_tCbaxQXgpckJEik9jImsNMvgMxMwHAYj0m-4PjMj7A==",
+          "title": "calcalistech.com"
+        },
+        {
+          "id": 5,
+          "text": "**Product Functionality**: Media coverage and directory listings confirm the product domain and exact offering: *\"The Gist offers The Gist for Slack, a tool designed to increase workplace productivity by providing personalized summaries of Slack channel conversations using generative AI\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHValBde23uz7yFjrwHV7ZEKWkEa01f96wN0QN7C_vbaKq7eQohqvO_TXiaGlUrmdhsFsbTUfKIgLut3B8hIRc1rCLwLuvVMy32kfoNnSDoENuw3bkFKKk_P00NmFrPtfSo_hNqneDPG7olU_v3eNzXtR16",
+          "title": "startupnationcentral.org"
+        },
+        {
+          "id": 6,
+          "text": "**Product Functionality**: Media coverage and directory listings confirm the product domain and exact offering: *\"The Gist offers The Gist for Slack, a tool designed to increase workplace productivity by providing personalized summaries of Slack channel conversations using generative AI\"* and *\"TheGist's first product makes use of AI to scan Slack messages and supply a personalised abstract\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9zWMpg6hjuuJcHac3fHiYGDgLFyC6trWGU6t_fx45WHn-N1SyBVdr3VrhW9JPaHtnV-FYUnhj6XsDp08PGHyOF_yfOiziKYwcDyR0fhfV5uVpBX_d85xAF1DdjeCGGxVkhb4Tfem8umfP9G4ikqJub27I2uqX75e2V4Hp9GzW8z_FXDhqcr_r61QtXQgRb5L5qxS3wkVKXTgJVM0=",
+          "title": "medium.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "theGist",
+        "evidence": "The software product Thegist (Slack conversation summarization at thegist.ai) was directly provided by theGist, Inc. (operating simply as theGist)",
+        "source": {
+          "id": 0,
+          "text": "The software product **Thegist** (Slack conversation summarization at **thegist.ai**) was directly provided by **theGist, Inc.** (operating simply as **theGist**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtGKobLOpUBWe-IMkxaJPyfxCB8TMd8CBysb82xe5lv84oQMFW51S6-FHomrWCUHP7Z46Oleof-89FwiMgVJ051kiDsaVoesvjePPvzHvu-OvSzcbjME9fRSTFsqUxiv-BjeZxtkmr6DDMXOVgEfdPifNZq0p2rd-WKl8Fw7IUCEc=",
+          "title": "thesaasnews.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Thegist",
+    "domain": "thegist.ai",
+    "description": "Slack conversation summarization."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "theGist",
+  "evidence": "The software product Thegist (Slack conversation summarization at thegist.ai) was directly provided by theGist, Inc. (operating simply as theGist)",
+  "source": {
+    "id": 0,
+    "text": "The software product **Thegist** (Slack conversation summarization at **thegist.ai**) was directly provided by **theGist, Inc.** (operating simply as **theGist**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtGKobLOpUBWe-IMkxaJPyfxCB8TMd8CBysb82xe5lv84oQMFW51S6-FHomrWCUHP7Z46Oleof-89FwiMgVJ051kiDsaVoesvjePPvzHvu-OvSzcbjME9fRSTFsqUxiv-BjeZxtkmr6DDMXOVgEfdPifNZq0p2rd-WKl8Fw7IUCEc=",
+    "title": "thesaasnews.com"
+  },
+  "checked_at": "2026-11-05T05:39:10.329534+00:00"
+}

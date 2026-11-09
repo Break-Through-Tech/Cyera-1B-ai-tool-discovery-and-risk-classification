@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **Voicemod** software at **voicemod.net** is **Voicemod, Inc., Sucursal en España** (or **Voicemod, Inc.**).\n\n### Supporting Evidence\nAccording to the official Voicemod General Terms of Use:\n> *\"These terms of use (“Terms” or “TOU”), together with any product-specific terms and the Other Terms listed below, constitute the agreement between you and Voicemod, Inc., Sucursal en España (“Voicemod”, “us” or “we”) regarding your use of the Voicemod Products.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **Voicemod** software at **voicemod.net** is **Voicemod, Inc., Sucursal en España** ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGGMmvaSbgBOAd0aPL3FjVjF01lM2Pn9qPdTF3xq_tUC-h0tOmX9SAGyDCQKRbKxG7M9SRYiUA-_dHo96BYokaaDlvZXwB3lF0AkGCSh8YQRal6Sftk7wlKbzuMLM=",
+          "title": "voicemod.net"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the **Voicemod** software at **voicemod.net** is **Voicemod, Inc., Sucursal en España** ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsw9HfCXfOjZJbCi8qeQbHQzWUUhjHKwY1YIyd6ngoiKvloEwTtr4QeslV0hwu2lf9XO7IO0orrRhC5TYKWiM5cZpafYidy8qprZNrLAwucGO92xPDKSysmbV5xbkxtyw_F7sKvg==",
+          "title": "scribd.com"
+        },
+        {
+          "id": 2,
+          "text": "The vendor directly providing the **Voicemod** software at **voicemod.net** is **Voicemod, Inc., Sucursal en España** (or **Voicemod, Inc.**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsw9HfCXfOjZJbCi8qeQbHQzWUUhjHKwY1YIyd6ngoiKvloEwTtr4QeslV0hwu2lf9XO7IO0orrRhC5TYKWiM5cZpafYidy8qprZNrLAwucGO92xPDKSysmbV5xbkxtyw_F7sKvg==",
+          "title": "scribd.com"
+        },
+        {
+          "id": 3,
+          "text": "These terms of use (“Terms” or “TOU”), together with any product-specific terms and the Other Terms listed below, constitute the agreement between you and Voicemod, Inc., Sucursal en España (“Voicemod”, “us” or “we”) regarding your use of the Voicemod Product",
+          "url": "https://www.scribd.com/document/729959765/Terms",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Voicemod, Inc., Sucursal en España",
+        "evidence": "Passage 0 states that the vendor directly providing the Voicemod software at voicemod.net is Voicemod, Inc., Sucursal en España.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the **Voicemod** software at **voicemod.net** is **Voicemod, Inc., Sucursal en España** ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGGMmvaSbgBOAd0aPL3FjVjF01lM2Pn9qPdTF3xq_tUC-h0tOmX9SAGyDCQKRbKxG7M9SRYiUA-_dHo96BYokaaDlvZXwB3lF0AkGCSh8YQRal6Sftk7wlKbzuMLM=",
+          "title": "voicemod.net"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Voicemod",
+    "domain": "voicemod.net",
+    "description": "Voicemod is a real-time voice changer software that allows users to modify their voice in various ways, adding effects and filters for gaming, streaming, and communication."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Voicemod, Inc., Sucursal en España",
+  "evidence": "Passage 0 states that the vendor directly providing the Voicemod software at voicemod.net is Voicemod, Inc., Sucursal en España.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the **Voicemod** software at **voicemod.net** is **Voicemod, Inc., Sucursal en España** ",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGGMmvaSbgBOAd0aPL3FjVjF01lM2Pn9qPdTF3xq_tUC-h0tOmX9SAGyDCQKRbKxG7M9SRYiUA-_dHo96BYokaaDlvZXwB3lF0AkGCSh8YQRal6Sftk7wlKbzuMLM=",
+    "title": "voicemod.net"
+  },
+  "checked_at": "2026-11-05T05:27:47.472410+00:00"
+}

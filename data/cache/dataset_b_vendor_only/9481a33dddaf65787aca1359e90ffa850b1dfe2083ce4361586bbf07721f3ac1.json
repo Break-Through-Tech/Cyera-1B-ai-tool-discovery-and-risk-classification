@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **VirusTotal** at **virustotal.com** is **Chronicle Security Ireland Limited** (owned by **Chronicle LLC**, an indirect subsidiary of Alphabet Inc.).\n\n### Provider Statements & Evidence\n* **Terms of Service (`virustotal.com`):** \n  > *\"These Terms of Service govern your access to and use of www.virustotal.com (our “Site”) and our products and services (collectively, the 'Service')... Any reference to 'you' or 'your' means you as a user of the Service, any reference to 'we', 'us', 'our' or 'VirusTotal' is to Chronicle Security Ireland Limited ('CSIL'), an Irish Limited Company with registered number 507502, the company that owns VirusTotal. Both VirusTotal and CSIL are owned by Chronicle LLC.\"*\n\n* **Privacy Policy (`virustotal.com`):** \n  > *\"VirusTotal and virustotal.com is owned by Chronicle Security Ireland Limited ('CISL'), an Irish Limited Company with registered number 507502. CISL is owned by Chronicle LLC, a Delaware limited liability company incorporated in the United States ('Chronicle'). Chronicle is an indirect subsidiary of Alphabet, Inc.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **VirusTotal** at **virustotal.com** is **Chronicle Security Ireland Limited** (owned by **Chronicle LLC**, an indirect subsidiary of Alphabet Inc.)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1Yy_s-KdyFnRtNFB0I--8KxCFzkJndLwsxCzvJyllH6BvQ6hbGdaeLbGOESZ2A9WZgU6hetqIiMlQKrI32hfFtMaE-hsyWMZF11FNfZxiws7VhKhIc2PZv1JlSwYk0FBvImwl8mLraPJUTIvH_lId",
+          "title": "virustotal.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **VirusTotal** at **virustotal.com** is **Chronicle Security Ireland Limited** (owned by **Chronicle LLC**, an indirect subsidiary of Alphabet Inc.)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYqG5H8vJpI-ZoL-ijBd0SqA709nQjCY_XwuseuSpaGNekK3GDjXoK15XYhqkyo4XAjV3eIRlV_YoN_kSyN4YwvYmd3H2ex-3TFaeBWLaxbYHnx-JH-Q7psFNb4yk3rDIMWSWGy8GmD-a41xcFow==",
+          "title": "virustotal.com"
+        },
+        {
+          "id": 2,
+          "text": " VirusTotal and CSIL are owned by Chronicle LLC.\"*\n\n* ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1Yy_s-KdyFnRtNFB0I--8KxCFzkJndLwsxCzvJyllH6BvQ6hbGdaeLbGOESZ2A9WZgU6hetqIiMlQKrI32hfFtMaE-hsyWMZF11FNfZxiws7VhKhIc2PZv1JlSwYk0FBvImwl8mLraPJUTIvH_lId",
+          "title": "virustotal.com"
+        },
+        {
+          "id": 3,
+          "text": "VirusTotal and virustotal.com is owned by Chronicle Security Ireland Limited ('CISL'), an Irish Limited Company with registered number 507502. CISL is owned by Chronicle LLC, a Delaware limited liability company incorporated in the United States ('Chronicle'). Chronicle is an indirect subsidiary of Alphabet, In",
+          "url": "https://developers.virustotal.com/docs/privacy-policy",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Chronicle Security Ireland Limited",
+        "evidence": "According to the Privacy Policy text, VirusTotal and virustotal.com is owned by Chronicle Security Ireland Limited ('CISL'), which is owned by Chronicle LLC.",
+        "source": {
+          "id": 3,
+          "text": "VirusTotal and virustotal.com is owned by Chronicle Security Ireland Limited ('CISL'), an Irish Limited Company with registered number 507502. CISL is owned by Chronicle LLC, a Delaware limited liability company incorporated in the United States ('Chronicle'). Chronicle is an indirect subsidiary of Alphabet, In",
+          "url": "https://developers.virustotal.com/docs/privacy-policy",
+          "title": ""
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "VirusTotal",
+    "domain": "virustotal.com",
+    "description": "VirusTotal is a leading crowdsourced threat intelligence platform that aids security teams in proactively defending against cybersecurity threats. By providing contextual insights and advanced functionalities, it allows analysts to quickly assess unknown files, URLs, domains, and IP addresses. The platform integrates with APIs and offers a free public multi-antivirus scanning service, supporting over 2 million users across 232 countries. As a subsidiary of Google Cloud, VirusTotal leverages extensive partnerships and the latest technologies to deliver actionable intelligence and enhance security operations worldwide."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Chronicle Security Ireland Limited",
+  "evidence": "According to the Privacy Policy text, VirusTotal and virustotal.com is owned by Chronicle Security Ireland Limited ('CISL'), which is owned by Chronicle LLC.",
+  "source": {
+    "id": 3,
+    "text": "VirusTotal and virustotal.com is owned by Chronicle Security Ireland Limited ('CISL'), an Irish Limited Company with registered number 507502. CISL is owned by Chronicle LLC, a Delaware limited liability company incorporated in the United States ('Chronicle'). Chronicle is an indirect subsidiary of Alphabet, In",
+    "url": "https://developers.virustotal.com/docs/privacy-policy",
+    "title": ""
+  },
+  "checked_at": "2026-11-05T08:06:42.620661+00:00"
+}

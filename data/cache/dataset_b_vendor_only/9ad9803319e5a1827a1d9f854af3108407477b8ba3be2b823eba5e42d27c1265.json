@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Winston AI** at **gowinston.ai** is **Winston AI inc.**\n\n### Evidence\n* **Terms & Conditions:** *\"These Terms and Conditions constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and Winston AI inc (“Company”, “we”, “us”, or “our”), concerning your access to and use of the https://gowinston.ai website as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto (collectively, the “Site”).\"*\n* **Privacy Policy:** *\"This privacy notice for Winston AI inc. (“Company,” “we,” “us,” or “our”) describes how and why we might collect, store, use, and/or share (“process”) your information when you use our services (“Services”), such as when you: Visit our website at https://gowinston.ai...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Winston AI** at **gowinston.ai** is **Winston AI inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEZUD22IRCYCosrK-VWpNs7fvrvkz2gTX0Azn1tFB3u-AHZBc_32VA_0TG4ghz91hArO58daitijFvdqVqBBwpzWm4EzhyafBqvmv8IzDhqFSvjgvSpkiTm4o=",
+          "title": "gowinston.ai"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Winston AI** at **gowinston.ai** is **Winston AI inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAzCcHz_ebKR0KNtVOYU3YT-n1ZOVNc4tjRGuDIOqRHQbXv3pke5G6MNz6kKVkjCLO7OK0apQ62u0jHzyB4iSKCs68Y32QUrrKXy1fqROfMZqTvH6RIQsvZpU5Gw==",
+          "title": "gowinston.ai"
+        },
+        {
+          "id": 2,
+          "text": "**Terms & Conditions:** *\"These Terms and Conditions constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and Winston AI inc (“Company”, “we”, “us”, or “our”), concerning your access to and use of the https://gowinston.ai website as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto (collectively, the “Site”).\"*\n* **Privacy Policy:** *",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAzCcHz_ebKR0KNtVOYU3YT-n1ZOVNc4tjRGuDIOqRHQbXv3pke5G6MNz6kKVkjCLO7OK0apQ62u0jHzyB4iSKCs68Y32QUrrKXy1fqROfMZqTvH6RIQsvZpU5Gw==",
+          "title": "gowinston.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Winston AI inc.",
+        "evidence": "According to the Terms and Conditions cited for https://gowinston.ai, the agreement is made between the user and Winston AI inc (\"Company\", \"we\", \"us\", or \"our\").",
+        "source": {
+          "id": 2,
+          "text": "**Terms & Conditions:** *\"These Terms and Conditions constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and Winston AI inc (“Company”, “we”, “us”, or “our”), concerning your access to and use of the https://gowinston.ai website as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto (collectively, the “Site”).\"*\n* **Privacy Policy:** *",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAzCcHz_ebKR0KNtVOYU3YT-n1ZOVNc4tjRGuDIOqRHQbXv3pke5G6MNz6kKVkjCLO7OK0apQ62u0jHzyB4iSKCs68Y32QUrrKXy1fqROfMZqTvH6RIQsvZpU5Gw==",
+          "title": "gowinston.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Winston AI",
+    "domain": "gowinston.ai",
+    "description": "Content verification and plagiarism detection solution."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Winston AI inc.",
+  "evidence": "According to the Terms and Conditions cited for https://gowinston.ai, the agreement is made between the user and Winston AI inc (\"Company\", \"we\", \"us\", or \"our\").",
+  "source": {
+    "id": 2,
+    "text": "**Terms & Conditions:** *\"These Terms and Conditions constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and Winston AI inc (“Company”, “we”, “us”, or “our”), concerning your access to and use of the https://gowinston.ai website as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto (collectively, the “Site”).\"*\n* **Privacy Policy:** *",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAzCcHz_ebKR0KNtVOYU3YT-n1ZOVNc4tjRGuDIOqRHQbXv3pke5G6MNz6kKVkjCLO7OK0apQ62u0jHzyB4iSKCs68Y32QUrrKXy1fqROfMZqTvH6RIQsvZpU5Gw==",
+    "title": "gowinston.ai"
+  },
+  "checked_at": "2026-11-05T07:33:00.079144+00:00"
+}

@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "For **AI Meme Arena** at **aimemearena.com**:\n\n* **Developer / Initiator:** The project was created and started by **Vladimir Zakoulov** (founder of FunCorp) along with his team (\"команда Фанатиков\"). Zakoulov publicly identified himself as the initiator (*\"стартер @AIMemeArenaBot\"* / creator of the AI Meme Arena initiative), and the official Challenge page for the platform directs developers seeking compute grants to contact him directly (*\"По вопросам compute-грантов, напишите @vladimirzakoulov\"* / *\"Мы сделали AI Meme Arena\"*).\n* **Provider Brand:** Software directories such as G2 also catalog and attribute the software at `aimemearena.com` directly under the vendor/provider brand name **AI Meme Arena** (*\"Aimemearena by AI Meme Arena\"*).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "For **AI Meme Arena** at **aimemearena.com**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQtbbv4ZrxXXU8_AcNto7sJDRSKlP2HPVj4gbqeLLvFon8myP60IRDbBiAxeshiJbzPNXq4Wxv47WTzAYvgG9tkrTZONkWXnOGFD0oRYfKIsGxP9ipsspUljEw1zUe",
+          "title": "g2.com"
+        },
+        {
+          "id": 1,
+          "text": "**Developer / Initiator:** The project was created and started by **Vladimir Zakoulov** (founder of FunCorp)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWvgTAvP4d9mGZDfjcVeBxvnOfcbuIsytosHH65TQefRUcx-b_bnu0euDpPxrRd7SWd8uiyC-vZf_0FPNx-zSbBRifnmyla3ZmOu5GlR-HRszqr97NAyYWl-UR8dnf6BjGbvAu4oE0YA==",
+          "title": "kiprinfo.ru"
+        },
+        {
+          "id": 2,
+          "text": "**Developer / Initiator:** The project was created and started by **Vladimir Zakoulov** (founder of FunCorp)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6yZAy2pjN2ywpbkp_DG9ZIVx98ZiUdvK41h_2utQeOift08xp1sGNY21BbGKX2oUNlKCntDyUCGq61eFDBYOdGGLczwTZpCFiuBA4xCqVx-HhTQeFcV-cn20YnyJhgjrb09puqrVWvQ==",
+          "title": "kiprinfo.ru"
+        },
+        {
+          "id": 3,
+          "text": "**Developer / Initiator:** The project was created and started by **Vladimir Zakoulov** (founder of FunCorp) along with his team (\"команда Фанатиков\"). Zakoulov publi",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmMjX5aql_aERqbXJIJ4OYM00q8BqvwbFWLTsugzxu_CfQc2vFwF5kGS9rLS2o8ATA1kGCGeKCaJrG1D3T1M-q_cBlHT6UZ_t61NkTLypyiPzras1g6OD8RXoIVkI=",
+          "title": "vercel.app"
+        },
+        {
+          "id": 4,
+          "text": "y identified himself as the initiator (*\"стартер @AIMemeArenaBot\"* / creator of the AI Meme Arena initiative), and the official Chal",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6yZAy2pjN2ywpbkp_DG9ZIVx98ZiUdvK41h_2utQeOift08xp1sGNY21BbGKX2oUNlKCntDyUCGq61eFDBYOdGGLczwTZpCFiuBA4xCqVx-HhTQeFcV-cn20YnyJhgjrb09puqrVWvQ==",
+          "title": "kiprinfo.ru"
+        },
+        {
+          "id": 5,
+          "text": "y identified himself as the initiator (*\"стартер @AIMemeArenaBot\"* / creator of the AI Meme Arena initiative), and the official Challenge page for the platform directs developers seeking compute grants to contact him directly (*\"По вопросам compute-грантов, напишите @vladimirzakoulov\"* / *\"Мы сделали AI Meme Arena\"*).\n* **Provider Brand:** Software directories such as G2 a",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmMjX5aql_aERqbXJIJ4OYM00q8BqvwbFWLTsugzxu_CfQc2vFwF5kGS9rLS2o8ATA1kGCGeKCaJrG1D3T1M-q_cBlHT6UZ_t61NkTLypyiPzras1g6OD8RXoIVkI=",
+          "title": "vercel.app"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Vladimir Zakoulov",
+        "evidence": "Passage 3 specifies that the project was created and started by developer/initiator Vladimir Zakoulov along with his team.",
+        "source": {
+          "id": 3,
+          "text": "**Developer / Initiator:** The project was created and started by **Vladimir Zakoulov** (founder of FunCorp) along with his team (\"команда Фанатиков\"). Zakoulov publi",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmMjX5aql_aERqbXJIJ4OYM00q8BqvwbFWLTsugzxu_CfQc2vFwF5kGS9rLS2o8ATA1kGCGeKCaJrG1D3T1M-q_cBlHT6UZ_t61NkTLypyiPzras1g6OD8RXoIVkI=",
+          "title": "vercel.app"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "AI Meme Arena",
+    "domain": "aimemearena.com",
+    "description": "A platform where users create and share AI-generated memes through interactive contests."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Vladimir Zakoulov",
+  "evidence": "Passage 3 specifies that the project was created and started by developer/initiator Vladimir Zakoulov along with his team.",
+  "source": {
+    "id": 3,
+    "text": "**Developer / Initiator:** The project was created and started by **Vladimir Zakoulov** (founder of FunCorp) along with his team (\"команда Фанатиков\"). Zakoulov publi",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmMjX5aql_aERqbXJIJ4OYM00q8BqvwbFWLTsugzxu_CfQc2vFwF5kGS9rLS2o8ATA1kGCGeKCaJrG1D3T1M-q_cBlHT6UZ_t61NkTLypyiPzras1g6OD8RXoIVkI=",
+    "title": "vercel.app"
+  },
+  "checked_at": "2026-11-05T07:43:50.965254+00:00"
+}

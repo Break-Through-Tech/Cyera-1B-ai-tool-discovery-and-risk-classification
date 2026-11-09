@@ -1,0 +1,85 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on platform and industry directory records for the software product **Inkey** hosted at **inkey.ai**:\n\n* **Direct Vendor / Provider:** **Inkey.ai, Inc.** (also operating under the brand/developer name **Inkey** / **Inkey AI**)\n* **Provider Evidence:** \n  * Software catalog profiles directly identify the vendor and publisher as **Inkey.ai, Inc.** (*\"Inkey.ai by Inkey.ai, Inc.\"*, listing website `https://www.inkey.ai` and contact `support@inkey.ai`).\n  * Software review platforms (such as G2) record the vendor as **Inkey** (*\"Inkey. By Inkey\"*).\n  * Official developer channels and social presences identify the organization directly as **Inkey** / **Inkey AI** (`@inkey-ai` / `company/inkey-ai`) with official support at `support@inkey.ai`.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "Based on platform and industry directory records for the software product **Inkey** hosted at **inkey.ai**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhX1hjT9wgyJCtysXJD9Udok8kbClecGY0kI2Wu4dkh80Lk32cp5WqoZcYumsG6nvitLQgZ9jFu2vWn5I_bM1I3cXvz-sCFKwirlzDfYCTnw3GZfWpK_BugxZvbT5-QC1OdMEfwOM6rtuMzEZLIZoStyBKN-Lhlb9UxDoU1NEAcilwN6U_54tugwqBCE_zIo_XIokmR0klwhMbNFqO7vUuc1VMmXdteyDsKS4ArHKRUt1-_vzjq-gA3g==",
+          "title": "g2.com"
+        },
+        {
+          "id": 1,
+          "text": "Based on platform and industry directory records for the software product **Inkey** hosted at **inkey.ai**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5DzbhdvkiPuM3J_ytElVwlfIjuiqsNSYd6QWffy4tA-ziO8QdfSp-ehZluQbdl3YEtWXkb5sj2b4bOb8E-bbNKwpObRdADMpDkaSAk6_PzldQ4KwsEktK",
+          "title": "krain.ai"
+        },
+        {
+          "id": 2,
+          "text": "**Direct Vendor / Provider:** **Inkey.ai, Inc.** (also operating under the brand/developer name **Inkey** / **Inkey AI**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5DzbhdvkiPuM3J_ytElVwlfIjuiqsNSYd6QWffy4tA-ziO8QdfSp-ehZluQbdl3YEtWXkb5sj2b4bOb8E-bbNKwpObRdADMpDkaSAk6_PzldQ4KwsEktK",
+          "title": "krain.ai"
+        },
+        {
+          "id": 3,
+          "text": "**Direct Vendor / Provider:** **Inkey.ai, Inc.** (also operating under the brand/developer name **Inkey** / **Inkey AI**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzpzIoB_A_KJcl4wmYldBn9Kq5me1g95eR1VtXLgNNIN33byTMvprAHQE-uUsO7YqAmb-NlL7KOmA8MVht06HqgjiKokEE6W1AncaUCLngZnc=",
+          "title": "github.com"
+        },
+        {
+          "id": 4,
+          "text": "Software catalog profiles directly identify the vendor and publisher as **Inkey.ai, Inc.** (*\"Inkey.ai by Inkey.ai, Inc.\"*, listing website `https://www.inkey.ai` and contact `support@inkey.ai`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5DzbhdvkiPuM3J_ytElVwlfIjuiqsNSYd6QWffy4tA-ziO8QdfSp-ehZluQbdl3YEtWXkb5sj2b4bOb8E-bbNKwpObRdADMpDkaSAk6_PzldQ4KwsEktK",
+          "title": "krain.ai"
+        },
+        {
+          "id": 5,
+          "text": "Software catalog profiles directly identify the vendor and publisher as **Inkey.ai, Inc.** (*\"Inkey.ai by Inkey.ai, Inc.\"*, listing website `https://www.inkey.ai` and contact `support@inkey.ai`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5DzbhdvkiPuM3J_ytElVwlfIjuiqsNSYd6QWffy4tA-ziO8QdfSp-ehZluQbdl3YEtWXkb5sj2b4bOb8E-bbNKwpObRdADMpDkaSAk6_PzldQ4KwsEktK",
+          "title": "krain.ai"
+        },
+        {
+          "id": 6,
+          "text": "By Inkey\"*)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhX1hjT9wgyJCtysXJD9Udok8kbClecGY0kI2Wu4dkh80Lk32cp5WqoZcYumsG6nvitLQgZ9jFu2vWn5I_bM1I3cXvz-sCFKwirlzDfYCTnw3GZfWpK_BugxZvbT5-QC1OdMEfwOM6rtuMzEZLIZoStyBKN-Lhlb9UxDoU1NEAcilwN6U_54tugwqBCE_zIo_XIokmR0klwhMbNFqO7vUuc1VMmXdteyDsKS4ArHKRUt1-_vzjq-gA3g==",
+          "title": "g2.com"
+        },
+        {
+          "id": 7,
+          "text": "Official developer channels and social presences identify the organization directly as **Inkey** / **Inkey AI** (`@inkey-ai` / `company/inkey-ai`) with official support at `support@inkey.ai`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzpzIoB_A_KJcl4wmYldBn9Kq5me1g95eR1VtXLgNNIN33byTMvprAHQE-uUsO7YqAmb-NlL7KOmA8MVht06HqgjiKokEE6W1AncaUCLngZnc=",
+          "title": "github.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Inkey.ai, Inc.",
+        "evidence": "Software catalog profiles directly identify the vendor and publisher as Inkey.ai, Inc. (\"Inkey.ai by Inkey.ai, Inc.\", listing website https://www.inkey.ai and contact support@inkey.ai)",
+        "source": {
+          "id": 4,
+          "text": "Software catalog profiles directly identify the vendor and publisher as **Inkey.ai, Inc.** (*\"Inkey.ai by Inkey.ai, Inc.\"*, listing website `https://www.inkey.ai` and contact `support@inkey.ai`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5DzbhdvkiPuM3J_ytElVwlfIjuiqsNSYd6QWffy4tA-ziO8QdfSp-ehZluQbdl3YEtWXkb5sj2b4bOb8E-bbNKwpObRdADMpDkaSAk6_PzldQ4KwsEktK",
+          "title": "krain.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Inkey",
+    "domain": "inkey.ai",
+    "description": "Every student's personal AI tutor-Free Plagiarism Checker"
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Inkey.ai, Inc.",
+  "evidence": "Software catalog profiles directly identify the vendor and publisher as Inkey.ai, Inc. (\"Inkey.ai by Inkey.ai, Inc.\", listing website https://www.inkey.ai and contact support@inkey.ai)",
+  "source": {
+    "id": 4,
+    "text": "Software catalog profiles directly identify the vendor and publisher as **Inkey.ai, Inc.** (*\"Inkey.ai by Inkey.ai, Inc.\"*, listing website `https://www.inkey.ai` and contact `support@inkey.ai`)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5DzbhdvkiPuM3J_ytElVwlfIjuiqsNSYd6QWffy4tA-ziO8QdfSp-ehZluQbdl3YEtWXkb5sj2b4bOb8E-bbNKwpObRdADMpDkaSAk6_PzldQ4KwsEktK",
+    "title": "krain.ai"
+  },
+  "checked_at": "2026-11-05T06:39:29.074848+00:00"
+}

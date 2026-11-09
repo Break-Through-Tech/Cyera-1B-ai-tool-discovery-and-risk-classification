@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Canva** at **canva.com** is **Canva Pty Ltd** (along with its US affiliate, **Canva US, Inc.**, for US-based customers).\n\n### Provider Statements & Evidence:\n* **Canva Terms of Use** (under *Canva Contracting Entity*):\n  > \"The Canva entity contracting with you under these Terms and the address to which you should send legal notices depend on where your billing address [is]. If your billing address is in any country except for the United States: The Canva entity entering into these Terms is **Canva Pty Ltd**... If your billing address is in the United States: The Canva entity entering into these Terms is **Canva US, Inc.**\"\n* **Canva Privacy Policy**:\n  > \"By signing up, you understand and agree that **Canva Pty Ltd** (an entity in Australia) will receive and process your personal data.\"",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Canva** at **canva.com** is **Canva Pty Ltd** (along with its US affiliate, **Canva US, Inc.**, for US-based customers)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAvQwSYVwKeameViJxN-YWeE_9dCLa9SKW78705qsOBWbMHIZA0SPcsKkIGhFvq0ZiRbYz0IegrTZvuGwZWtKebowu-LJlPT482d6yZ3-v0AZZzClRzGDtL8wr4fwgbENh13NPjl6mkOTjWqxI",
+          "title": "canva.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Canva** at **canva.com** is **Canva Pty Ltd** (along with its US affiliate, **Canva US, Inc.**, for US-based customers)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAvQwSYVwKeameViJxN-YWeE_9dCLa9SKW78705qsOBWbMHIZA0SPcsKkIGhFvq0ZiRbYz0IegrTZvuGwZWtKebowu-LJlPT482d6yZ3-v0AZZzClRzGDtL8wr4fwgbENh13NPjl6mkOTjWqxI",
+          "title": "canva.com"
+        },
+        {
+          "id": 2,
+          "text": "**\"",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAvQwSYVwKeameViJxN-YWeE_9dCLa9SKW78705qsOBWbMHIZA0SPcsKkIGhFvq0ZiRbYz0IegrTZvuGwZWtKebowu-LJlPT482d6yZ3-v0AZZzClRzGDtL8wr4fwgbENh13NPjl6mkOTjWqxI",
+          "title": "canva.com"
+        },
+        {
+          "id": 3,
+          "text": "**\"",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAvQwSYVwKeameViJxN-YWeE_9dCLa9SKW78705qsOBWbMHIZA0SPcsKkIGhFvq0ZiRbYz0IegrTZvuGwZWtKebowu-LJlPT482d6yZ3-v0AZZzClRzGDtL8wr4fwgbENh13NPjl6mkOTjWqxI",
+          "title": "canva.com"
+        },
+        {
+          "id": 4,
+          "text": "\"By signing up, you understand and agree that **Canva Pty Ltd** (an entity in Australia) will receive and process your personal data.\"",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH57Qz0V3cISMmtVQHc7DUe5sIrBbLsQE7wFOXsIrubVmD1zHMfgPWClsCRMaU6qKAkjiT1bFxiTjOWD8733dZ1V2uy7WJ78V_jUX4MKba3_Va6sSgYt4zsLY7vOn7ju2xcdOWJ",
+          "title": "canva.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Canva Pty Ltd",
+        "evidence": "Passage 0 directly states that the vendor directly providing Canva at canva.com is Canva Pty Ltd (along with its US affiliate, Canva US, Inc., for US-based customers).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Canva** at **canva.com** is **Canva Pty Ltd** (along with its US affiliate, **Canva US, Inc.**, for US-based customers)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAvQwSYVwKeameViJxN-YWeE_9dCLa9SKW78705qsOBWbMHIZA0SPcsKkIGhFvq0ZiRbYz0IegrTZvuGwZWtKebowu-LJlPT482d6yZ3-v0AZZzClRzGDtL8wr4fwgbENh13NPjl6mkOTjWqxI",
+          "title": "canva.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Canva",
+    "domain": "canva.com",
+    "description": "Canva is a global online visual communications platform that aims to make design accessible to everyone. Launched in 2013, it features a user-friendly drag-and-drop interface and a wide array of templates for presentations, documents, websites, social media graphics, and more. With an extensive library of fonts, stock images, illustrations, and multimedia, Canva allows users to create beautiful designs on any device from anywhere in the world. The company is dedicated to empowering creativity and has a mission to positively impact the world as it grows."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Canva Pty Ltd",
+  "evidence": "Passage 0 directly states that the vendor directly providing Canva at canva.com is Canva Pty Ltd (along with its US affiliate, Canva US, Inc., for US-based customers).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Canva** at **canva.com** is **Canva Pty Ltd** (along with its US affiliate, **Canva US, Inc.**, for US-based customers)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAvQwSYVwKeameViJxN-YWeE_9dCLa9SKW78705qsOBWbMHIZA0SPcsKkIGhFvq0ZiRbYz0IegrTZvuGwZWtKebowu-LJlPT482d6yZ3-v0AZZzClRzGDtL8wr4fwgbENh13NPjl6mkOTjWqxI",
+    "title": "canva.com"
+  },
+  "checked_at": "2026-11-05T08:10:28.654800+00:00"
+}

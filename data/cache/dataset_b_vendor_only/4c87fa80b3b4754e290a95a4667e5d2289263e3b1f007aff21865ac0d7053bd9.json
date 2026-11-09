@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **HoneyBook** at **honeybook.com** is **HoneyBook, Inc.**\n\n### Provider Statement\nAccording to the official **HoneyBook Terms of Service** hosted on `honeybook.com`:\n\n> *\"HoneyBook, Inc. (“HoneyBook”, “we”, “us”, “our”) provides its services (described below) to you through its website located at www.HoneyBook.com (the “Site”) and through its mobile applications and related services (collectively, such services, including any new features and applications, and the Site, the “Service(s)”), subject to the following Terms of Service...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **HoneyBook** at **honeybook.com** is **HoneyBook, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqMUXBJjf4xnXeok_CVQZrvPkyULmq1V5nAwqWN1kZbIHio8JMgSvoL9jEQPlzx9Av6a7PGQIDxA4afmNWWOG0ZVUbALPi386PLB4BYrnovh3cU9tuhu7ugnUVdxEzzBmhlaDpSAc=",
+          "title": "honeybook.com"
+        },
+        {
+          "id": 1,
+          "text": "HoneyBook, Inc. (“HoneyBook”, “we”, “us”, “our”) provides its services (described below) to you through its website located at www.HoneyBook.com (the “Site”) and through its mobile applications and related services (collectively, such services, including any",
+          "url": "https://www.honeybook.com/legal/terms-of-service-original",
+          "title": ""
+        },
+        {
+          "id": 2,
+          "text": "the “Site”) and through its mobile applications and related services (collectively, such services, including any new features and applications, and the Site, the “Service(s)”), subject to the following Terms of Servic",
+          "url": "https://www.anyroad.com/end-user-terms",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "HoneyBook, Inc.",
+        "evidence": "Passage 1 states that HoneyBook, Inc. provides its services through its website located at www.HoneyBook.com.",
+        "source": {
+          "id": 1,
+          "text": "HoneyBook, Inc. (“HoneyBook”, “we”, “us”, “our”) provides its services (described below) to you through its website located at www.HoneyBook.com (the “Site”) and through its mobile applications and related services (collectively, such services, including any",
+          "url": "https://www.honeybook.com/legal/terms-of-service-original",
+          "title": ""
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "HoneyBook",
+    "domain": "honeybook.com",
+    "description": "HoneyBook is a client flow management platform designed specifically for independent businesses in the service sector. Based in San Francisco, it provides essential tools for billing, contracts, and client communication, allowing business owners to streamline their operations and deliver exceptional service. Trusted by over 100,000 service-based businesses in the U.S. and Canada, HoneyBook has facilitated over $9 billion in transactions since its inception in 2013. The platform aims to empower independent entrepreneurs by equipping them with the resources necessary to succeed in their fields."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "HoneyBook, Inc.",
+  "evidence": "Passage 1 states that HoneyBook, Inc. provides its services through its website located at www.HoneyBook.com.",
+  "source": {
+    "id": 1,
+    "text": "HoneyBook, Inc. (“HoneyBook”, “we”, “us”, “our”) provides its services (described below) to you through its website located at www.HoneyBook.com (the “Site”) and through its mobile applications and related services (collectively, such services, including any",
+    "url": "https://www.honeybook.com/legal/terms-of-service-original",
+    "title": ""
+  },
+  "checked_at": "2026-11-05T09:32:24.352252+00:00"
+}

@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "**Product & Domain:** PostgreSQL database system at `postgresql.org`.\n\n**Direct Vendor / Developer:** **PostgreSQL Global Development Group** (The PostgreSQL Global Development Group).\n\n**Provider Statement:**  \nAccording to the official PostgreSQL License and Legal Notice pages on `postgresql.org`, the software is provided and maintained by the developer group:\n> *\"PostgreSQL Database Management System (also known as Postgres, formerly as Postgres95). Portions Copyright © 1996–2026, The PostgreSQL Global Development Group.\"*  \n> *\"The PostgreSQL Global Development Group remains committed to making PostgreSQL available as free and open source software in perpetuity.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**Product & Domain:** PostgreSQL database system at `postgresql.org`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFt6EfJ9LQioXkYUmAIDB81h_D7NpYrMtw9S2kVHa8CR__0Nn3196FoXJ7CJVL5qzktuPaYN0eyBd08WVVA1UP1NrmQrKHpgClmS_lzdD0kxvXk9wbVeLCfGANfEiQuPhxxFpunpCV4VRoi-6OYrg==",
+          "title": "postgresql.org"
+        },
+        {
+          "id": 1,
+          "text": "**Product & Domain:** PostgreSQL database system at `postgresql.org`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKXA4WNeg7C_tG7ttYgW-6a43fsvncHJfwJv_0EoHA01aRwQlJgDvC5IBJKmLRHg6X0ekJVfhEK3CZTCAbjONFTsuRbIsFV_uCLeK6uRgNO2YHPVUlZIVfZP26Q0VAeg==",
+          "title": "postgresql.org"
+        },
+        {
+          "id": 2,
+          "text": "**Direct Vendor / Developer:** **PostgreSQL Global Development Group** (The PostgreSQL Global Development Group)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKXA4WNeg7C_tG7ttYgW-6a43fsvncHJfwJv_0EoHA01aRwQlJgDvC5IBJKmLRHg6X0ekJVfhEK3CZTCAbjONFTsuRbIsFV_uCLeK6uRgNO2YHPVUlZIVfZP26Q0VAeg==",
+          "title": "postgresql.org"
+        },
+        {
+          "id": 3,
+          "text": "According to the official PostgreSQL License and Legal Notice pages on `postgresql.org`, the software is provided and maintained by the developer group",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFt6EfJ9LQioXkYUmAIDB81h_D7NpYrMtw9S2kVHa8CR__0Nn3196FoXJ7CJVL5qzktuPaYN0eyBd08WVVA1UP1NrmQrKHpgClmS_lzdD0kxvXk9wbVeLCfGANfEiQuPhxxFpunpCV4VRoi-6OYrg==",
+          "title": "postgresql.org"
+        },
+        {
+          "id": 4,
+          "text": "According to the official PostgreSQL License and Legal Notice pages on `postgresql.org`, the software is provided and maintained by the developer group",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKXA4WNeg7C_tG7ttYgW-6a43fsvncHJfwJv_0EoHA01aRwQlJgDvC5IBJKmLRHg6X0ekJVfhEK3CZTCAbjONFTsuRbIsFV_uCLeK6uRgNO2YHPVUlZIVfZP26Q0VAeg==",
+          "title": "postgresql.org"
+        },
+        {
+          "id": 5,
+          "text": "Portions Copyright © 1996–2026, The PostgreSQL Global Development Group.\"*  \n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKXA4WNeg7C_tG7ttYgW-6a43fsvncHJfwJv_0EoHA01aRwQlJgDvC5IBJKmLRHg6X0ekJVfhEK3CZTCAbjONFTsuRbIsFV_uCLeK6uRgNO2YHPVUlZIVfZP26Q0VAeg==",
+          "title": "postgresql.org"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "PostgreSQL Global Development Group",
+        "evidence": "Passage 2 directly states that the developer and direct vendor is the PostgreSQL Global Development Group.",
+        "source": {
+          "id": 2,
+          "text": "**Direct Vendor / Developer:** **PostgreSQL Global Development Group** (The PostgreSQL Global Development Group)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKXA4WNeg7C_tG7ttYgW-6a43fsvncHJfwJv_0EoHA01aRwQlJgDvC5IBJKmLRHg6X0ekJVfhEK3CZTCAbjONFTsuRbIsFV_uCLeK6uRgNO2YHPVUlZIVfZP26Q0VAeg==",
+          "title": "postgresql.org"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "PostgreSQL Global Development Group",
+    "domain": "postgresql.org",
+    "description": "PostgreSQL is a robust open-source object-relational database system known for its reliability, data integrity, and advanced features. Developed over 15 years, it supports all major operating systems and is fully ACID compliant. The database encompasses a wide array of SQL:2008 data types and provides extensive compatibility with various programming languages including C/C++, Java, and Python. PostgreSQL is recognized for sophisticated capabilities such as Multi-Version Concurrency Control (MVCC), point-in-time recovery, and online backups, making it suitable for large-scale data management and concurrent users."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "PostgreSQL Global Development Group",
+  "evidence": "Passage 2 directly states that the developer and direct vendor is the PostgreSQL Global Development Group.",
+  "source": {
+    "id": 2,
+    "text": "**Direct Vendor / Developer:** **PostgreSQL Global Development Group** (The PostgreSQL Global Development Group)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKXA4WNeg7C_tG7ttYgW-6a43fsvncHJfwJv_0EoHA01aRwQlJgDvC5IBJKmLRHg6X0ekJVfhEK3CZTCAbjONFTsuRbIsFV_uCLeK6uRgNO2YHPVUlZIVfZP26Q0VAeg==",
+    "title": "postgresql.org"
+  },
+  "checked_at": "2026-11-05T08:59:05.345191+00:00"
+}

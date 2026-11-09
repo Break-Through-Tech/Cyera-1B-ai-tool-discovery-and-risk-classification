@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Yumpu** at **yumpu.com** is **i-Magazine AG**.\n\n### Supporting Evidence\n* **Imprint / Legal Notice:** Yumpu lists its operating entity as:\n  > *\"i-Magazine AG, Gewerbestrasse 3, CH-9444 Diepoldsau SG\"*\n* **Official Help Center (GDPR disclosure documentation):**\n  > *“We use YUMPU - Publishing digital magazines worldwide from i-magazine AG (Gewerbestrasse 3, 9444 Diepoldsau, Switzerland) on our website. Yumpu provides a digital platform for publishing magazines, brochures, and catalogs.”*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Yumpu** at **yumpu.com** is **i-Magazine AG**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKwOsEzQC1q9kDBowvUamyDIaGkFGFkBNB6qnWc6b1Z9bTO9cotVEj-aprKM0Bx22q-XNnhHq0xpcopVeRYP59P8nHwacCTD29cIPzm6h05jBLiurop-mY",
+          "title": "wikipedia.org"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Yumpu** at **yumpu.com** is **i-Magazine AG**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoCVa_EGelUfwxSn14UfZLlvcWqpmXCGQynCZnrJJKuR30B_8-YUoXTatLmw4CaqzQiRdFxqsfySpnThor2I5TxlzWovf-rYUnDOaVUf5YbWA4Cy4zmkA=",
+          "title": "yumpu.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"i-Magazine AG, Gewerbestrasse 3, CH-9444 Diepoldsau SG\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoCVa_EGelUfwxSn14UfZLlvcWqpmXCGQynCZnrJJKuR30B_8-YUoXTatLmw4CaqzQiRdFxqsfySpnThor2I5TxlzWovf-rYUnDOaVUf5YbWA4Cy4zmkA=",
+          "title": "yumpu.com"
+        },
+        {
+          "id": 3,
+          "text": "We use YUMPU - Publishing digital magazines worldwide from i-magazine AG (Gewerbestrasse 3, 9444 Diepoldsau, Switzerland) on our website. Yumpu provides a digital platform for publishing magazines, brochures, and cata",
+          "url": "http://helpcenter.yumpu.com/en/articles/2033031-gdpr-compliant-passage-embed-with-yumpu-com-domain",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "i-Magazine AG",
+        "evidence": "Passage 1 explicitly states that the vendor directly providing Yumpu at yumpu.com is i-Magazine AG.",
+        "source": {
+          "id": 1,
+          "text": "The vendor directly providing **Yumpu** at **yumpu.com** is **i-Magazine AG**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoCVa_EGelUfwxSn14UfZLlvcWqpmXCGQynCZnrJJKuR30B_8-YUoXTatLmw4CaqzQiRdFxqsfySpnThor2I5TxlzWovf-rYUnDOaVUf5YbWA4Cy4zmkA=",
+          "title": "yumpu.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Yumpu",
+    "domain": "yumpu.com",
+    "description": "Yumpu is a digital publishing platform that empowers publishers to maximize the potential of their print content online. With over 11 million users and 18 million monthly readers, Yumpu offers a cost-efficient and sustainable solution for digitizing print magazines, journals, and newspapers. The platform not only reduces printing and distribution costs but also enhances visibility and reach through digital channels. By providing innovative services like YUMPU News, Yumpu is committed to transforming the ePublishing landscape and promoting a sustainable future for digital media."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "i-Magazine AG",
+  "evidence": "Passage 1 explicitly states that the vendor directly providing Yumpu at yumpu.com is i-Magazine AG.",
+  "source": {
+    "id": 1,
+    "text": "The vendor directly providing **Yumpu** at **yumpu.com** is **i-Magazine AG**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoCVa_EGelUfwxSn14UfZLlvcWqpmXCGQynCZnrJJKuR30B_8-YUoXTatLmw4CaqzQiRdFxqsfySpnThor2I5TxlzWovf-rYUnDOaVUf5YbWA4Cy4zmkA=",
+    "title": "yumpu.com"
+  },
+  "checked_at": "2026-11-05T08:44:24.250373+00:00"
+}

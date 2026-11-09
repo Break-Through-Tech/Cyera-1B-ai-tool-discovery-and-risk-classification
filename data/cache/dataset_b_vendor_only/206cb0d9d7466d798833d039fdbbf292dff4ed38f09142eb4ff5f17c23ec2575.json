@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software platform at **udacity.com** is **Udacity, Inc.**\n\n### Provider Statement\nAccording to the official **Udacity Terms of Use** (and Terms of Service) governing **udacity.com**:\n> *\"Udacity, Inc. (collectively, 'we,' 'us' or 'Udacity') provides you access to the Udacity services ('Services') including its applications and websites, available at the entry-point URL https://www.udacity.com...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software platform at **udacity.com** is **Udacity, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMxm9xhzfGCkyTRk92qgBMtpnuY_gX6MVDZXs9t-k041ylrT5yKq5MLtY0COt5rnvt8yLHQhrlt8m7nn0L-BAaaca8eOjItVoYsY9katlaXXNav5orwFlmbaxfCj-O8uQbNtCj3MQ=",
+          "title": "udacity.com"
+        },
+        {
+          "id": 1,
+          "text": "*\"Udacity, Inc. (collectively, 'we,' 'us' or 'Udacity') provides you access to the Udacity services ('Services') including its applications and websites, available at the entry-point URL https://www.udacity.com...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMxm9xhzfGCkyTRk92qgBMtpnuY_gX6MVDZXs9t-k041ylrT5yKq5MLtY0COt5rnvt8yLHQhrlt8m7nn0L-BAaaca8eOjItVoYsY9katlaXXNav5orwFlmbaxfCj-O8uQbNtCj3MQ=",
+          "title": "udacity.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Udacity, Inc.",
+        "evidence": "Udacity's terms state that 'Udacity, Inc. (collectively, 'we,' 'us' or 'Udacity') provides you access to the Udacity services ('Services') including its applications and websites, available at the entry-point URL https://www.udacity.com'.",
+        "source": {
+          "id": 1,
+          "text": "*\"Udacity, Inc. (collectively, 'we,' 'us' or 'Udacity') provides you access to the Udacity services ('Services') including its applications and websites, available at the entry-point URL https://www.udacity.com...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMxm9xhzfGCkyTRk92qgBMtpnuY_gX6MVDZXs9t-k041ylrT5yKq5MLtY0COt5rnvt8yLHQhrlt8m7nn0L-BAaaca8eOjItVoYsY9katlaXXNav5orwFlmbaxfCj-O8uQbNtCj3MQ=",
+          "title": "udacity.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Udacity",
+    "domain": "udacity.com",
+    "description": "Udacity is an educational platform focused on providing online courses and training programs in technology and digital skills to help bridge the global talent gap. With personalized mentorship and a tailored curriculum, Udacity prepares learners for in-demand competencies to enhance their career prospects and workplace relevance. Based in the United States, Udacity has evolved over a decade to create solutions that support workforce development and innovation."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Udacity, Inc.",
+  "evidence": "Udacity's terms state that 'Udacity, Inc. (collectively, 'we,' 'us' or 'Udacity') provides you access to the Udacity services ('Services') including its applications and websites, available at the entry-point URL https://www.udacity.com'.",
+  "source": {
+    "id": 1,
+    "text": "*\"Udacity, Inc. (collectively, 'we,' 'us' or 'Udacity') provides you access to the Udacity services ('Services') including its applications and websites, available at the entry-point URL https://www.udacity.com...\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMxm9xhzfGCkyTRk92qgBMtpnuY_gX6MVDZXs9t-k041ylrT5yKq5MLtY0COt5rnvt8yLHQhrlt8m7nn0L-BAaaca8eOjItVoYsY9katlaXXNav5orwFlmbaxfCj-O8uQbNtCj3MQ=",
+    "title": "udacity.com"
+  },
+  "checked_at": "2026-11-05T08:23:01.692093+00:00"
+}

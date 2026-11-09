@@ -1,0 +1,79 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly operating and providing **Bitrix24** at **bitrix24.com** is **Alaio** (operating through regional legal entities, primarily **Alaio Inc.** and **Alaio Cloud Limited**).\n\n### Evidence and Provider Statement\n* **Bitrix24 Terms of Service and Privacy Policy:**\n  > *\"This Website is operated by Alaio. The Data Controllers are Alaio legal entities. Alaio will have the meaning according to the Contracting Party section of Bitrix24 Terms of Service (https://bitrix24.com/terms/)...\"*\n  > *\"These Terms of Service... are a legal agreement between you... and the applicable contracting entity ('Alaio', 'we', 'our', or 'us') as specified in the Contracting Entity Section herein regarding your access to and use of the Website, the Services, and the Products.\"*\n\n* **Contracting Entities by Region:**\n  * **Alaio Inc.** (Alexandria, Virginia, USA) – contracts with users in the United States and other global regions.\n  * **Alaio Cloud Limited** (Limassol, Cyprus) – contracts with users across Europe.\n  * **Bitrix24 India Private Limited** (India) and **ALAIO ME W.L.L.** (Bahrain / Middle East) for their respective regions.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly operating and providing **Bitrix24** at **bitrix24.com** is **Alaio** (operating through regional legal entities, primarily **Alaio Inc.** and **Alaio Cloud Limited**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGw8huZmH3IiGRNxAkAqxuAZX5SxHyFkOxUd4obu1EaOV0BrxmzF_6jZ1rYxjtk7iePgLx9E_d_ecUYIseYXUseT5l0WTTxEov6_nLY9ldu26s6AhoGWMA=",
+          "title": "bitrix24.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly operating and providing **Bitrix24** at **bitrix24.com** is **Alaio** (operating through regional legal entities, primarily **Alaio Inc.** and **Alaio Cloud Limited**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfQFN5j0UnHDfD0SsMujw5BnRbwuhzqgofR4xZDicPs_Ug3z571CVLoQSVW3g2ed7bA5PUoQ4pQ6Jy8FNGAfPT1SdadW_ihD4_MM3oig07FjNxOiSfRII0rn4cc41z_LI=",
+          "title": "bitrix24.com"
+        },
+        {
+          "id": 2,
+          "text": "Alaio will have the meaning according to the Contracting Party section of Bitrix24 Terms of Service (https://bitrix24.com/terms/)...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGw8huZmH3IiGRNxAkAqxuAZX5SxHyFkOxUd4obu1EaOV0BrxmzF_6jZ1rYxjtk7iePgLx9E_d_ecUYIseYXUseT5l0WTTxEov6_nLY9ldu26s6AhoGWMA=",
+          "title": "bitrix24.com"
+        },
+        {
+          "id": 3,
+          "text": "*\"These Terms of Service... are a legal agreement between you... and the applicable contracting entity ('Alaio', 'we', 'our', or 'us') as specified in the Contracting Entity Section herein regarding your access to and use of the Website, the Services, and the Products.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEk_QQKjOzJ-hiNWsJdfssuhjMlPKMJwzbAqGq4KCG4GX_HlcpgnBpwZqUuqrCOM8RVKh5GPsy-oZ6z8OFec8_CjOIqJlcQsv7zIJML0GWF5bAFEjis",
+          "title": "bitrix24.com"
+        },
+        {
+          "id": 4,
+          "text": "**Alaio Inc.** (Alexandria, Virginia, USA) – contracts with users in the United States and other global regions.\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsKMQsCQ-KtZ5h9s0Tx8PUsDMalG0TSf9MduHqTRmr95UCVF22yN5ZspX3h4J54O9jZE-nbpos6Vws2NgZTyWCFgLKT8xAjjaqbhgp3SL-FnwX2Q==",
+          "title": "bitrix24.com"
+        },
+        {
+          "id": 5,
+          "text": "**Alaio Inc.** (Alexandria, Virginia, USA) – contracts with users in the United States and other global regions.\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEccvumiqwi-DSvrXj2qbMVezuVJbj9ArRs8DWI6Vi0uPXQ2oRhy5zyqRTqi7DhXYF1P6kX7dRbhZHYnKYhZdTcfmJQ3lz2Zcp6g7x3B9pIOigl2A==",
+          "title": "bitrix24.es"
+        },
+        {
+          "id": 6,
+          "text": "Alaio Cloud Limited** (Limassol, Cyprus) – contracts with users across Europe.\n  ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsKMQsCQ-KtZ5h9s0Tx8PUsDMalG0TSf9MduHqTRmr95UCVF22yN5ZspX3h4J54O9jZE-nbpos6Vws2NgZTyWCFgLKT8xAjjaqbhgp3SL-FnwX2Q==",
+          "title": "bitrix24.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Alaio",
+        "evidence": "Passage 0 explicitly states that the vendor directly operating and providing Bitrix24 at bitrix24.com is Alaio.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly operating and providing **Bitrix24** at **bitrix24.com** is **Alaio** (operating through regional legal entities, primarily **Alaio Inc.** and **Alaio Cloud Limited**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGw8huZmH3IiGRNxAkAqxuAZX5SxHyFkOxUd4obu1EaOV0BrxmzF_6jZ1rYxjtk7iePgLx9E_d_ecUYIseYXUseT5l0WTTxEov6_nLY9ldu26s6AhoGWMA=",
+          "title": "bitrix24.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Bitrix24",
+    "domain": "bitrix24.com",
+    "description": "Bitrix24 is a comprehensive software platform designed to enhance efficiency for businesses and entrepreneurs by integrating CRM, contact centers, website building, e-commerce, marketing tools, and collaboration features. Launched in 2012 by Bitrix, Inc., the platform supports over 15 million organizations worldwide, ranging from small businesses to Fortune 500 companies. Available as both a cloud-based service and on-premise solution, Bitrix24 also includes project management tools, an intranet, file sharing, and HR functionalities, making it an all-in-one solution for organizational needs."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Alaio",
+  "evidence": "Passage 0 explicitly states that the vendor directly operating and providing Bitrix24 at bitrix24.com is Alaio.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly operating and providing **Bitrix24** at **bitrix24.com** is **Alaio** (operating through regional legal entities, primarily **Alaio Inc.** and **Alaio Cloud Limited**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGw8huZmH3IiGRNxAkAqxuAZX5SxHyFkOxUd4obu1EaOV0BrxmzF_6jZ1rYxjtk7iePgLx9E_d_ecUYIseYXUseT5l0WTTxEov6_nLY9ldu26s6AhoGWMA=",
+    "title": "bitrix24.com"
+  },
+  "checked_at": "2026-11-05T09:05:54.856747+00:00"
+}

@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product **Marblism** at **marblism.com** is **Marblism, Inc.** (with UK affiliate **Marblism UK Ltd**).\n\n### Supporting Evidence\nAccording to the official **Terms of Service** on `marblism.com`:\n> *\"By accessing and using Marblism, Inc (\\\"Company\\\", \\\"we\\\", \\\"our\\\", \\\"us\\\") AI Agent Platform, you agree to comply with and be bound by these Terms of Service (\\\"Terms\\\").\"*\n\nThe Terms also specify that users agree to *\"indemnify, defend, and hold harmless Marblism, Inc\"* under the governing laws of Delaware, United States.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product **Marblism** at **marblism.com** is **Marblism, Inc.** (with UK affiliate **Marblism UK Ltd**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF81HmK2YIyiwAZGOfa2SKxbNDhonW9z7NCsb0KtLqMT_tSNeYgyh7WZqCV1jZ1LBZflRlWCFXb6n2oeBdjMcsJpylTt4MgT3LJtX1BmZEyZF6JqoTjL3Fc43wLsip2",
+          "title": "marblism.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the software product **Marblism** at **marblism.com** is **Marblism, Inc.** (with UK affiliate **Marblism UK Ltd**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlHIq8OK1jkSx4NwtvMtd-_2ADk9U1UrXtwCIEJs1cbJrzmjLfd1EmVrZvdn_hf2rAkTCq5ycpQH6jFbvrCE5VKLglc5R_mcWQ8wiWXQ6bHbd33_IXUQbVMTUswasnHA==",
+          "title": "marblism.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"By accessing and using Marblism, Inc (\\\"Company\\\", \\\"we\\\", \\\"our\\\", \\\"us\\\") AI Agent Platform, you agree to comply with and be bound by these Terms of Service (\\\"Terms\\\").\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlHIq8OK1jkSx4NwtvMtd-_2ADk9U1UrXtwCIEJs1cbJrzmjLfd1EmVrZvdn_hf2rAkTCq5ycpQH6jFbvrCE5VKLglc5R_mcWQ8wiWXQ6bHbd33_IXUQbVMTUswasnHA==",
+          "title": "marblism.com"
+        },
+        {
+          "id": 3,
+          "text": "The Terms also specify that users agree to *\"indemnify, defend, and hold harmless Marblism, Inc\"* under the governing laws of Delaware, United States",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF81HmK2YIyiwAZGOfa2SKxbNDhonW9z7NCsb0KtLqMT_tSNeYgyh7WZqCV1jZ1LBZflRlWCFXb6n2oeBdjMcsJpylTt4MgT3LJtX1BmZEyZF6JqoTjL3Fc43wLsip2",
+          "title": "marblism.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Marblism, Inc.",
+        "evidence": "Passage 0 directly states that the vendor providing the software product Marblism at marblism.com is Marblism, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the software product **Marblism** at **marblism.com** is **Marblism, Inc.** (with UK affiliate **Marblism UK Ltd**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF81HmK2YIyiwAZGOfa2SKxbNDhonW9z7NCsb0KtLqMT_tSNeYgyh7WZqCV1jZ1LBZflRlWCFXb6n2oeBdjMcsJpylTt4MgT3LJtX1BmZEyZF6JqoTjL3Fc43wLsip2",
+          "title": "marblism.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Marblism",
+    "domain": "marblism.com",
+    "description": "Generate any software from a single prompt"
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Marblism, Inc.",
+  "evidence": "Passage 0 directly states that the vendor providing the software product Marblism at marblism.com is Marblism, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the software product **Marblism** at **marblism.com** is **Marblism, Inc.** (with UK affiliate **Marblism UK Ltd**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF81HmK2YIyiwAZGOfa2SKxbNDhonW9z7NCsb0KtLqMT_tSNeYgyh7WZqCV1jZ1LBZflRlWCFXb6n2oeBdjMcsJpylTt4MgT3LJtX1BmZEyZF6JqoTjL3Fc43wLsip2",
+    "title": "marblism.com"
+  },
+  "checked_at": "2026-11-05T07:49:01.129937+00:00"
+}

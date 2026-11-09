@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **OneNote** provided at **onenote.com** is directly developed and provided by **Microsoft** (Microsoft Corporation). \n\n### Evidence:\n* The official website at `onenote.com` brands the product directly as **Microsoft OneNote** and features Microsoft's legal and privacy links with the copyright notice: *\"Microsoft logo. Privacy Consumer Health Policy Terms of Use. ©Microsoft\"*.\n* The official **Microsoft Services Agreement** explicitly lists **OneNote.com** as a covered product/service provided directly under Microsoft's terms.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **OneNote** provided at **onenote.com** is directly developed and provided by **Microsoft** (Microsoft Corporation)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEeptyYpSuNYKxH7vp0zeYjicKt7LyA767JQiglz-O4K69K7Lg96xs-eVpAtjvacLQ_T9kQiBRmk1Mk9EoVf5MZMRbxpseoFIrwswXBxLKjf3LgoNRtcJcKIeR33_NBlMQGpT1Hnhj",
+          "title": "microsoft.com"
+        },
+        {
+          "id": 1,
+          "text": "The software product **OneNote** provided at **onenote.com** is directly developed and provided by **Microsoft** (Microsoft Corporation)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEt0jJaj5guDelLgZ1-oXxRygKbgD-K_JS-gOAzD03sfl03ur20uQPmNY4ynADmSclaBNLHTvNuk0DFQLDkzqzGbrgiLrUVuxaOs45ZkwjAuL_Uxfc3xSFld3Q=",
+          "title": "onenote.com"
+        },
+        {
+          "id": 2,
+          "text": "©Microsoft\"*.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEt0jJaj5guDelLgZ1-oXxRygKbgD-K_JS-gOAzD03sfl03ur20uQPmNY4ynADmSclaBNLHTvNuk0DFQLDkzqzGbrgiLrUVuxaOs45ZkwjAuL_Uxfc3xSFld3Q=",
+          "title": "onenote.com"
+        },
+        {
+          "id": 3,
+          "text": "he official **Microsoft Services Agreement** explicitly lists **OneNote.com** as a covered product/service provided directly under Microsoft's terms.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEeptyYpSuNYKxH7vp0zeYjicKt7LyA767JQiglz-O4K69K7Lg96xs-eVpAtjvacLQ_T9kQiBRmk1Mk9EoVf5MZMRbxpseoFIrwswXBxLKjf3LgoNRtcJcKIeR33_NBlMQGpT1Hnhj",
+          "title": "microsoft.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Microsoft",
+        "evidence": "OneNote provided at onenote.com is directly developed and provided by Microsoft (Microsoft Corporation).",
+        "source": {
+          "id": 1,
+          "text": "The software product **OneNote** provided at **onenote.com** is directly developed and provided by **Microsoft** (Microsoft Corporation)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEt0jJaj5guDelLgZ1-oXxRygKbgD-K_JS-gOAzD03sfl03ur20uQPmNY4ynADmSclaBNLHTvNuk0DFQLDkzqzGbrgiLrUVuxaOs45ZkwjAuL_Uxfc3xSFld3Q=",
+          "title": "onenote.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "OneNote",
+    "domain": "onenote.com",
+    "description": "OneNote is a versatile digital notebook application that allows users to create to-do lists, take notes during lectures, and document meetings. It helps individuals and teams organize their thoughts and information efficiently, making it an essential tool for students and professionals alike."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Microsoft",
+  "evidence": "OneNote provided at onenote.com is directly developed and provided by Microsoft (Microsoft Corporation).",
+  "source": {
+    "id": 1,
+    "text": "The software product **OneNote** provided at **onenote.com** is directly developed and provided by **Microsoft** (Microsoft Corporation)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEt0jJaj5guDelLgZ1-oXxRygKbgD-K_JS-gOAzD03sfl03ur20uQPmNY4ynADmSclaBNLHTvNuk0DFQLDkzqzGbrgiLrUVuxaOs45ZkwjAuL_Uxfc3xSFld3Q=",
+    "title": "onenote.com"
+  },
+  "checked_at": "2026-11-05T09:28:48.624300+00:00"
+}

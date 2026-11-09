@@ -1,0 +1,79 @@
+{
+  "attempts": [
+    {
+      "answer": "The software platform at **app.promptroi.io** (and its main domain **promptroi.io** / **promptroi.com**) is directly provided and operated by **Promptroi Inc.** (operating under the brand **PromptROI**).\n\n### Key Evidence & Disambiguation:\n* **Operating Entity:** The operating company is identified as **Promptroi Inc.** (registered out of Oxford, Massachusetts).\n* **Founders / Published Developers:** Official team and developer records document the platform's co-founders and key developers as **Keith Carpenter** (co-founder), **Hammad Khan** (co-founder), and **Muhammad Qaiser Tariq** (co-founder / developer).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software platform at **app.promptroi.io** (and its main domain **promptroi.io** / **promptroi.com**) is directly provided and operated by **Promptroi Inc.** (operating under the brand **PromptROI**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6gPELimZqNBJVc4wnIGpB8KmS_iHvUIAz0pHPjutA60km0Um4iJCiBXM5ylkmQJtg70wj45t73N_pX50Xx9HzdGdSEuFdow7RQWXli6Z78anE7f7OSgI=",
+          "title": "tenereteam.com"
+        },
+        {
+          "id": 1,
+          "text": "The software platform at **app.promptroi.io** (and its main domain **promptroi.io** / **promptroi.com**) is directly provided and operated by **Promptroi Inc.** (operating under the brand **PromptROI**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBbhO6DjGadKac1xa05oroz6jTSE0_LxJPxFIOzCkxsbQmo8EsBgWy6AJFx-lPXbwHzFs5D3xkFVgrLWxH7UqmvhvRkBS6xvMTpJk83dq-hinY6VI8A4YA2BZfDXTivHjH",
+          "title": "aeroleads.com"
+        },
+        {
+          "id": 2,
+          "text": "The software platform at **app.promptroi.io** (and its main domain **promptroi.io** / **promptroi.com**) is directly provided and operated by **Promptroi Inc.** (operating under the brand **PromptROI**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECstDBBPaKalsHMnbm8zzp2YhfS7VOnaZwmvTNv_wXb8KsX9i8BPAlmunDVPvz1fXP4q2QqU6R1nCbCZjbXNycNsRAXMgUvql9MusDv6e0U3ENbIrKxspDd9nV6gUFeJKPSimnTQ0=",
+          "title": "freelancermap.com"
+        },
+        {
+          "id": 3,
+          "text": "The software platform at **app.promptroi.io** (and its main domain **promptroi.io** / **promptroi.com**) is directly provided and operated by **Promptroi Inc.** (operating under the brand **PromptROI**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1t4A9HH6jUuDTYEkX8AwxLmgVSn1WJ8rNWJ0mnWVvctGAtilwPrrlo9smxEKs40fAhyNhhkpk2IIubVptJjjpoO4buLi-JkQGRRHWbvKfUqY=",
+          "title": "bosala.ai"
+        },
+        {
+          "id": 4,
+          "text": "**Operating Entity:** The operating company is identified as **Promptroi Inc.** (registered out of Oxford, Massachusetts)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBbhO6DjGadKac1xa05oroz6jTSE0_LxJPxFIOzCkxsbQmo8EsBgWy6AJFx-lPXbwHzFs5D3xkFVgrLWxH7UqmvhvRkBS6xvMTpJk83dq-hinY6VI8A4YA2BZfDXTivHjH",
+          "title": "aeroleads.com"
+        },
+        {
+          "id": 5,
+          "text": "**Operating Entity:** The operating company is identified as **Promptroi Inc.** (registered out of Oxford, Massachusetts)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPfGGZkt2eFqhPt5VnXw5ZNeOcFh_JyyjjQT8fLA2rE0J-YGC4qQ1LJNQY4JZ18KfsyPLCX2HW_9uE7tERmgpmruiFEQS8sXcJYy8KPRL09WhwScJnnPV27zIuysWMbtU4Kw==",
+          "title": "aeroleads.com"
+        },
+        {
+          "id": 6,
+          "text": "**Founders / Published Developers:** Official team and developer records document the platform's co-founders and key developers as **Keith Carpenter** (co-founder), **Hammad Khan** (co-founder), and **Muhammad Qaiser Tariq** (co-founder / developer)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1t4A9HH6jUuDTYEkX8AwxLmgVSn1WJ8rNWJ0mnWVvctGAtilwPrrlo9smxEKs40fAhyNhhkpk2IIubVptJjjpoO4buLi-JkQGRRHWbvKfUqY=",
+          "title": "bosala.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Promptroi Inc.",
+        "evidence": "Passage 0 states that the software platform at app.promptroi.io is directly provided and operated by Promptroi Inc. (operating under the brand PromptROI).",
+        "source": {
+          "id": 0,
+          "text": "The software platform at **app.promptroi.io** (and its main domain **promptroi.io** / **promptroi.com**) is directly provided and operated by **Promptroi Inc.** (operating under the brand **PromptROI**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6gPELimZqNBJVc4wnIGpB8KmS_iHvUIAz0pHPjutA60km0Um4iJCiBXM5ylkmQJtg70wj45t73N_pX50Xx9HzdGdSEuFdow7RQWXli6Z78anE7f7OSgI=",
+          "title": "tenereteam.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Promptroi",
+    "domain": "app.promptroi.io",
+    "description": "PromptROI empowers experts, coaches, and consultants to create and monetize personalized AI prompts"
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Promptroi Inc.",
+  "evidence": "Passage 0 states that the software platform at app.promptroi.io is directly provided and operated by Promptroi Inc. (operating under the brand PromptROI).",
+  "source": {
+    "id": 0,
+    "text": "The software platform at **app.promptroi.io** (and its main domain **promptroi.io** / **promptroi.com**) is directly provided and operated by **Promptroi Inc.** (operating under the brand **PromptROI**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6gPELimZqNBJVc4wnIGpB8KmS_iHvUIAz0pHPjutA60km0Um4iJCiBXM5ylkmQJtg70wj45t73N_pX50Xx9HzdGdSEuFdow7RQWXli6Z78anE7f7OSgI=",
+    "title": "tenereteam.com"
+  },
+  "checked_at": "2026-11-05T07:53:56.467933+00:00"
+}

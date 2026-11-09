@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Internet Information Services** at **iis.net** is **Microsoft Corporation** (Microsoft).\n\n### Supporting Evidence\n* **Terms of Use (`iis.net`):** State, *\"Microsoft provides you with access to a variety of resources on this web site... The Content, Software, Services and all other aspects of this web site are subject to these Terms of Use,\"* and identify the legal entity as *\"MICROSOFT CORPORATION\"*.\n* **Site Footer (`iis.net`):** Identifies ownership explicitly: *\"This site is managed by Microsoft | © Microsoft. All rights reserved.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Internet Information Services** at **iis.net** is **Microsoft Corporation** (Microsoft)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjraYnjS2MwXlk4i7esAAFd9berN5ks9amNB9fUXvGuR7YXDezamXxocCzgkWPYCkFq2AEu3PfzZCdoErWS2WYpm10e7iKRNQmxA==",
+          "title": "iis.net"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Internet Information Services** at **iis.net** is **Microsoft Corporation** (Microsoft)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpQhGk3ZXPAelcFJXiriE-HQrnQVT_hbJmZ2j0UjUd3jQmrd68Lwg788RX4RqLVFtdthwXLhynltc33OkIR1ikl0EBdV_W_Eqyw0QebYXV7RrTeh60RQ==",
+          "title": "iis.net"
+        },
+        {
+          "id": 2,
+          "text": "The Content, Software, Services and all other aspects of this web site are subject to these Terms of Use,\"* and identify the legal entity as *\"MICROSOFT CORPORATION\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpQhGk3ZXPAelcFJXiriE-HQrnQVT_hbJmZ2j0UjUd3jQmrd68Lwg788RX4RqLVFtdthwXLhynltc33OkIR1ikl0EBdV_W_Eqyw0QebYXV7RrTeh60RQ==",
+          "title": "iis.net"
+        },
+        {
+          "id": 3,
+          "text": "The Content, Software, Services and all other aspects of this web site are subject to these Terms of Use,\"* and identify the legal entity as *\"MICROSOFT CORPORATION\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpQhGk3ZXPAelcFJXiriE-HQrnQVT_hbJmZ2j0UjUd3jQmrd68Lwg788RX4RqLVFtdthwXLhynltc33OkIR1ikl0EBdV_W_Eqyw0QebYXV7RrTeh60RQ==",
+          "title": "iis.net"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Microsoft Corporation",
+        "evidence": "Passage 0 directly states that the vendor directly providing Internet Information Services at iis.net is Microsoft Corporation (Microsoft).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Internet Information Services** at **iis.net** is **Microsoft Corporation** (Microsoft)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjraYnjS2MwXlk4i7esAAFd9berN5ks9amNB9fUXvGuR7YXDezamXxocCzgkWPYCkFq2AEu3PfzZCdoErWS2WYpm10e7iKRNQmxA==",
+          "title": "iis.net"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Internet Information Services",
+    "domain": "iis.net",
+    "description": "Internet Information Services (IIS) is a flexible, secure, and manageable Web server for hosting anything on the Web, whether it be applications, websites, or services. Operated by Microsoft, IIS supports various programming languages and enables developers to build and manage web-based applications efficiently. The website serves as a resource hub for learning, downloading, and discussing IIS7 and other versions within the IIS community."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Microsoft Corporation",
+  "evidence": "Passage 0 directly states that the vendor directly providing Internet Information Services at iis.net is Microsoft Corporation (Microsoft).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Internet Information Services** at **iis.net** is **Microsoft Corporation** (Microsoft)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjraYnjS2MwXlk4i7esAAFd9berN5ks9amNB9fUXvGuR7YXDezamXxocCzgkWPYCkFq2AEu3PfzZCdoErWS2WYpm10e7iKRNQmxA==",
+    "title": "iis.net"
+  },
+  "checked_at": "2026-11-05T09:45:34.911699+00:00"
+}

@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Vercel** at **vercel.com** is **Vercel Inc.**.\n\n### Evidence\nAccording to the official **Vercel Terms of Service** (vercel.com/legal/terms):\n> *\"Subject to these Terms of Service (this \\\"Agreement\\\"), Vercel Inc. (\\\"Vercel\\\", \\\"we\\\", \\\"us\\\" and/or \\\"our\\\") provides access to Vercel's Services. “Services” means, collectively, any products or services made available by Vercel or its affiliates...\"*\n\nThis is also reinforced in their Enterprise Terms and Conditions:\n> *\"Vercel Inc. (\\\"Vercel\\\") provides access to Vercel's cloud platform, including, without limitation, this website, certain APIs, professional services (“Professional Services”) and other services...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Vercel** at **vercel.com** is **Vercel Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbs_qm045q8RYkjseWxmJpf6eKlU6lx1Dwe4Hr9wldmc7siWBQppU1caGCVj_RZ9LP4YoFMs6gUOf6WiEJ7pLJDJOnBLsnWLmuecuLqUmBgnp2wSc=",
+          "title": "vercel.com"
+        },
+        {
+          "id": 1,
+          "text": "“Services” means, collectively, any products or services made available by Vercel or its affiliates...\"*\n\nTh",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbs_qm045q8RYkjseWxmJpf6eKlU6lx1Dwe4Hr9wldmc7siWBQppU1caGCVj_RZ9LP4YoFMs6gUOf6WiEJ7pLJDJOnBLsnWLmuecuLqUmBgnp2wSc=",
+          "title": "vercel.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Vercel Inc.",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing Vercel at vercel.com is Vercel Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Vercel** at **vercel.com** is **Vercel Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbs_qm045q8RYkjseWxmJpf6eKlU6lx1Dwe4Hr9wldmc7siWBQppU1caGCVj_RZ9LP4YoFMs6gUOf6WiEJ7pLJDJOnBLsnWLmuecuLqUmBgnp2wSc=",
+          "title": "vercel.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Vercel",
+    "domain": "vercel.com",
+    "description": "Vercel offers a powerful Frontend Cloud platform designed to enhance the developer experience by providing the infrastructure necessary for building, scaling, and securing fast, personalized web applications. Notable clients include Under Armour, Nintendo, The Washington Post, and Zapier, who leverage Vercel to create innovative and dynamic online experiences."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Vercel Inc.",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing Vercel at vercel.com is Vercel Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Vercel** at **vercel.com** is **Vercel Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbs_qm045q8RYkjseWxmJpf6eKlU6lx1Dwe4Hr9wldmc7siWBQppU1caGCVj_RZ9LP4YoFMs6gUOf6WiEJ7pLJDJOnBLsnWLmuecuLqUmBgnp2wSc=",
+    "title": "vercel.com"
+  },
+  "checked_at": "2026-11-05T10:01:49.656281+00:00"
+}

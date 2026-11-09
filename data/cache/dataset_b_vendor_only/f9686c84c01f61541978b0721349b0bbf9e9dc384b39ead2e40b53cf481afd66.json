@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **Aqua Voice** at the domain **withaqua.com** is directly provided and operated by **Aqua Voice, Inc.**\n\n### Evidence\n* **Terms of Service (`withaqua.com/terms`):** \n  > *\"Please read these Terms of Service (\"Terms\") carefully before using the services offered by Aqua Voice, Inc. and/or one or more of its affiliates (\"Aqua Voice\", \"we\", \"us\", or \"our\").\"*\n* **Website Footer & Copyright (`withaqua.com`):** \n  > *\"© Aqua Voice, Inc.\"*\n* **App Store Listings:** The official application is published under the developer name **Aqua Voice, Inc.**",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **Aqua Voice** at the domain **withaqua.com** is directly provided and operated by **Aqua Voice, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVs-Mg5RtKHYqKQHmG_qPnw7Lf2JbCQG0Z0ik4ZCyJgFXsiNFzNCVpTLgicpD_ctxzni0I3UAta9spVbFlwHCKzRgyGpHfrDqkMFBo_YztrA==",
+          "title": "withaqua.com"
+        },
+        {
+          "id": 1,
+          "text": "The software product **Aqua Voice** at the domain **withaqua.com** is directly provided and operated by **Aqua Voice, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHO4DAlEj1VMsjhvlb-uzlY1IvvkOeAFXWZLuqg8rgZ6x3hnHupdT5MHDgVPLEv3zVBXtll-Q7kuGekZmPLXYStU9OErWUVflg66U8-ufJQ8pVjMsQRUM09TZD3npKFhS6N_RvK",
+          "title": "parrotnotes.app"
+        },
+        {
+          "id": 2,
+          "text": "*\"Please read these Terms of Service (\"Terms\") carefully before using the services offered by Aqua Voice, Inc. and/or one or more of its affiliates (\"Aqua Voice\", \"we\", \"us\", or \"our\").\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVs-Mg5RtKHYqKQHmG_qPnw7Lf2JbCQG0Z0ik4ZCyJgFXsiNFzNCVpTLgicpD_ctxzni0I3UAta9spVbFlwHCKzRgyGpHfrDqkMFBo_YztrA==",
+          "title": "withaqua.com"
+        },
+        {
+          "id": 3,
+          "text": "*\"© Aqua Voice, Inc.\"*\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1r8MlP1PetyzLELMP1ULUKBaeqkt3X3825FMS6jJY-wNpMP9S6kDdmFT6v2u8cQYnBz96o7lyp_LaOKq2YM9v176E245-mRsJFASA5x7dtJiP",
+          "title": "withaqua.com"
+        },
+        {
+          "id": 4,
+          "text": "*\"© Aqua Voice, Inc.\"*\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTlU5Hd8t7CFL3cVzrUlF33YKrwSj5pWjryXDvACfIvkPmla7wg5Zg3bguFzDm6S3tPORRfAU8qdNvb8KDDPy9vSp2_bNT32_HkI8=",
+          "title": "withaqua.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Aqua Voice, Inc.",
+        "evidence": "Passage 0 explicitly states that the software product Aqua Voice at the domain withaqua.com is directly provided and operated by Aqua Voice, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The software product **Aqua Voice** at the domain **withaqua.com** is directly provided and operated by **Aqua Voice, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVs-Mg5RtKHYqKQHmG_qPnw7Lf2JbCQG0Z0ik4ZCyJgFXsiNFzNCVpTLgicpD_ctxzni0I3UAta9spVbFlwHCKzRgyGpHfrDqkMFBo_YztrA==",
+          "title": "withaqua.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Aqua Voice",
+    "domain": "withaqua.com",
+    "description": "Create and edit documents using only your voice."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Aqua Voice, Inc.",
+  "evidence": "Passage 0 explicitly states that the software product Aqua Voice at the domain withaqua.com is directly provided and operated by Aqua Voice, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The software product **Aqua Voice** at the domain **withaqua.com** is directly provided and operated by **Aqua Voice, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVs-Mg5RtKHYqKQHmG_qPnw7Lf2JbCQG0Z0ik4ZCyJgFXsiNFzNCVpTLgicpD_ctxzni0I3UAta9spVbFlwHCKzRgyGpHfrDqkMFBo_YztrA==",
+    "title": "withaqua.com"
+  },
+  "checked_at": "2026-11-05T07:38:21.011952+00:00"
+}

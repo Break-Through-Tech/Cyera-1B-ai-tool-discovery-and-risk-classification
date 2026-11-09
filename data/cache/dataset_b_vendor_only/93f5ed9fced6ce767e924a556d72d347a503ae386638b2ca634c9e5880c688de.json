@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **AWeber** software product at **aweber.com** is **AWeber Systems, Inc.**.\n\n### Evidence:\n* **AWeber Privacy Policy:** *\"This Privacy Policy covers our collection, use and disclosure of information we collect through our website and Services, www.aweber.com owned and operated by AWeber Systems, Inc.\"*\n* **AWeber Service Agreement:** *\"All services provided by AWeber Systems, Inc. (AWeber or Company) may be used for lawful purposes only.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **AWeber** software product at **aweber.com** is **AWeber Systems, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDUnr-YBZcXZf-U8I1BUsfSYtF-kPOXvKh0p_ZLxnYut0j8fWCFznP54KjT2Rbrf5YY6VgfKJv1_rH3rLTX_8bu0FsRwiNctP--UAZYXDroyYsOtcLang=",
+          "title": "aweber.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the **AWeber** software product at **aweber.com** is **AWeber Systems, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRwryNgLGZNAEKyicUHGjp6eQ6Q6imPa0ij9zRVWAVHrag8AFtr9YK_-CUMWoNZiCg4e_8XvWaGq0AWTutAPaYXhET1SuEpQlJyCyB5zsBjNeHd913NLZpu6IFNR7dNEFc",
+          "title": "aweber.com"
+        },
+        {
+          "id": 2,
+          "text": "**AWeber Privacy Policy:** *\"This Privacy Policy covers our collection, use and disclosure of information we collect through our website and Services, www.aweber.com owned and operated by AWeber Systems, Inc.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDUnr-YBZcXZf-U8I1BUsfSYtF-kPOXvKh0p_ZLxnYut0j8fWCFznP54KjT2Rbrf5YY6VgfKJv1_rH3rLTX_8bu0FsRwiNctP--UAZYXDroyYsOtcLang=",
+          "title": "aweber.com"
+        },
+        {
+          "id": 3,
+          "text": "**AWeber Service Agreement:** *\"All services provided by AWeber Systems, Inc. (AWeber or Company) may be used for lawful purposes only.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRwryNgLGZNAEKyicUHGjp6eQ6Q6imPa0ij9zRVWAVHrag8AFtr9YK_-CUMWoNZiCg4e_8XvWaGq0AWTutAPaYXhET1SuEpQlJyCyB5zsBjNeHd913NLZpu6IFNR7dNEFc",
+          "title": "aweber.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "AWeber Systems, Inc.",
+        "evidence": "Passage 2 cites the AWeber Privacy Policy, stating that the website and Services at www.aweber.com are owned and operated by AWeber Systems, Inc.",
+        "source": {
+          "id": 2,
+          "text": "**AWeber Privacy Policy:** *\"This Privacy Policy covers our collection, use and disclosure of information we collect through our website and Services, www.aweber.com owned and operated by AWeber Systems, Inc.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDUnr-YBZcXZf-U8I1BUsfSYtF-kPOXvKh0p_ZLxnYut0j8fWCFznP54KjT2Rbrf5YY6VgfKJv1_rH3rLTX_8bu0FsRwiNctP--UAZYXDroyYsOtcLang=",
+          "title": "aweber.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "AWeber",
+    "domain": "aweber.com",
+    "description": "AWeber is a prominent email marketing service provider based in Chalfont, PA, serving over 100,000 small businesses, bloggers, and entrepreneurs globally. Since its establishment in 1998 by Tom Kulzer, AWeber has focused on empowering businesses with web-based tools to enhance customer communication and engagement through email campaigns. The company's mission is to develop innovative solutions that support their customers' growth, guided by core values that foster creativity and problem-solving within the team. AWeber has received multiple accolades for its workplace culture and customer service excellence."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "AWeber Systems, Inc.",
+  "evidence": "Passage 2 cites the AWeber Privacy Policy, stating that the website and Services at www.aweber.com are owned and operated by AWeber Systems, Inc.",
+  "source": {
+    "id": 2,
+    "text": "**AWeber Privacy Policy:** *\"This Privacy Policy covers our collection, use and disclosure of information we collect through our website and Services, www.aweber.com owned and operated by AWeber Systems, Inc.\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDUnr-YBZcXZf-U8I1BUsfSYtF-kPOXvKh0p_ZLxnYut0j8fWCFznP54KjT2Rbrf5YY6VgfKJv1_rH3rLTX_8bu0FsRwiNctP--UAZYXDroyYsOtcLang=",
+    "title": "aweber.com"
+  },
+  "checked_at": "2026-11-05T08:36:37.069575+00:00"
+}

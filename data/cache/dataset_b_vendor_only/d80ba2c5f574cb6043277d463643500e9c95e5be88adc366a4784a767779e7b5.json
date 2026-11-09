@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **PressReader** at **pressreader.com** is **PressReader Inc.** (operating alongside its affiliate **PressReader International Limited**, depending on the user's geographic location).\n\n### Supporting Evidence:\n* According to the official **PressReader Privacy Policy**:  \n  > *“‘PressReader’ or ‘We’ means PressReader Inc. or PressReader International Limited, depending on where you are located... We are the data controller.”*\n* PressReader's business and legal policies also state:  \n  > *“This website https://business.pressreader.com and any app developed for the website (‘Website’) and the PressReader for Business services on the Website are operated by PressReader Inc. (‘PressReader,’ ‘we,’ ‘us,’ or ‘our’).”*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **PressReader** at **pressreader.com** is **PressReader Inc.** (operating alongside its affiliate **PressReader International Limited**, depending on the user's geographic location)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7Ud5mmqtzl1CbU8mGU0LdV3BYnAaE-ORl8o-eULCSH_vHA_VMn7bED1yKrPY87KPSJWZeaDBg5mo65eAbD20Otg-zKYc0OxOn6AqszMzHRlynBaWJ8PAVJlJcD5kuleF_jUOwm5UtOSmJr1lviPvwUS0BUeVoktvRn2YlPA==",
+          "title": "pressreader.com"
+        },
+        {
+          "id": 1,
+          "text": " data controller.”*\n* PressRead",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7Ud5mmqtzl1CbU8mGU0LdV3BYnAaE-ORl8o-eULCSH_vHA_VMn7bED1yKrPY87KPSJWZeaDBg5mo65eAbD20Otg-zKYc0OxOn6AqszMzHRlynBaWJ8PAVJlJcD5kuleF_jUOwm5UtOSmJr1lviPvwUS0BUeVoktvRn2YlPA==",
+          "title": "pressreader.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "PressReader Inc.",
+        "evidence": "Passage 0 states that the vendor directly providing PressReader at pressreader.com is PressReader Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **PressReader** at **pressreader.com** is **PressReader Inc.** (operating alongside its affiliate **PressReader International Limited**, depending on the user's geographic location)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7Ud5mmqtzl1CbU8mGU0LdV3BYnAaE-ORl8o-eULCSH_vHA_VMn7bED1yKrPY87KPSJWZeaDBg5mo65eAbD20Otg-zKYc0OxOn6AqszMzHRlynBaWJ8PAVJlJcD5kuleF_jUOwm5UtOSmJr1lviPvwUS0BUeVoktvRn2YlPA==",
+          "title": "pressreader.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "PressReader",
+    "domain": "pressreader.com",
+    "description": "PressReader is a digital platform dedicated to enhancing the discovery of important stories by providing users with unlimited access to thousands of newspapers and magazines from around the globe. Available through a user-friendly app, it enables readers to browse content online or download complete issues. Users can choose a subscription model or enjoy sponsored access to the extensive range of publications."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "PressReader Inc.",
+  "evidence": "Passage 0 states that the vendor directly providing PressReader at pressreader.com is PressReader Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **PressReader** at **pressreader.com** is **PressReader Inc.** (operating alongside its affiliate **PressReader International Limited**, depending on the user's geographic location)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7Ud5mmqtzl1CbU8mGU0LdV3BYnAaE-ORl8o-eULCSH_vHA_VMn7bED1yKrPY87KPSJWZeaDBg5mo65eAbD20Otg-zKYc0OxOn6AqszMzHRlynBaWJ8PAVJlJcD5kuleF_jUOwm5UtOSmJr1lviPvwUS0BUeVoktvRn2YlPA==",
+    "title": "pressreader.com"
+  },
+  "checked_at": "2026-11-05T08:39:47.450543+00:00"
+}

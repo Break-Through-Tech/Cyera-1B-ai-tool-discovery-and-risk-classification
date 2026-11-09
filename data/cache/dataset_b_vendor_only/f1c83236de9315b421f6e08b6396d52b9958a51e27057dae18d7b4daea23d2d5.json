@@ -1,0 +1,43 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **Storytell.ai** at **storytell.ai** is provided by **Signal from Noise, Inc.**\n\n### Evidence\nAccording to the official **Terms of Service** on **storytell.ai**:\n> *\"These Terms of Service (\"Terms\") govern your access to and use of the Storytell SmartChat™ platform (\"Platform\"), provided by Signal from Noise, Inc. (\"Storytell,\" \"we,\" or \"us\").\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **Storytell.ai** at **storytell.ai** is provided by **Signal from Noise, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJwm0BNKunO64UAHTOJPX6GnX32DUtELWcJ-tkq9wEBw_DUVfaIXb7JH9UP9-phPXuI5UZJcY9YRvC4BrMcTW3nhXKjqC-qyYJk4kUdjkjdW8mXhkS5hyDUSLVNi4OBA==",
+          "title": "storytell.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Signal from Noise, Inc.",
+        "evidence": "Passage 0 explicitly states that the software product Storytell.ai at storytell.ai is provided by Signal from Noise, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The software product **Storytell.ai** at **storytell.ai** is provided by **Signal from Noise, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJwm0BNKunO64UAHTOJPX6GnX32DUtELWcJ-tkq9wEBw_DUVfaIXb7JH9UP9-phPXuI5UZJcY9YRvC4BrMcTW3nhXKjqC-qyYJk4kUdjkjdW8mXhkS5hyDUSLVNi4OBA==",
+          "title": "storytell.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Storytell.ai",
+    "domain": "storytell.ai",
+    "description": "Streamlined content browsing and summarization."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Signal from Noise, Inc.",
+  "evidence": "Passage 0 explicitly states that the software product Storytell.ai at storytell.ai is provided by Signal from Noise, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The software product **Storytell.ai** at **storytell.ai** is provided by **Signal from Noise, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJwm0BNKunO64UAHTOJPX6GnX32DUtELWcJ-tkq9wEBw_DUVfaIXb7JH9UP9-phPXuI5UZJcY9YRvC4BrMcTW3nhXKjqC-qyYJk4kUdjkjdW8mXhkS5hyDUSLVNi4OBA==",
+    "title": "storytell.ai"
+  },
+  "checked_at": "2026-11-05T05:48:24.855694+00:00"
+}

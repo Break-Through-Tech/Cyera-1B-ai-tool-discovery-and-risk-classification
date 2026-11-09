@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **Resume Photo** at **resumephoto.ai** is directly provided and operated by developer **Gobie Nanthakumar** (operating as **ResumePhoto.ai by Gobie Nanthakumar**).\n\n### Evidence & Provider Statements\n* **Terms of Service** (`resumephoto.ai/terms`):\n  > *\"Welcome to ResumePhoto.ai by Gobie Nanthakumar ('Company', 'we', 'our', 'us'). These Terms of Service... govern your use of our website located at https://ResumePhoto.ai (together or individually 'Service') operated by ResumePhoto.ai by Gobie Nanthakumar.\"*\n* **Privacy Policy** (`resumephoto.ai/privacy`):\n  > *\"ResumePhoto.ai by Gobie Nanthakumar ('we', 'us', or 'our') is committed to protecting your privacy... Service: The https://ResumePhoto.ai website operated by ResumePhoto.ai by Gobie Nanthakumar.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **Resume Photo** at **resumephoto.ai** is directly provided and operated by developer **Gobie Nanthakumar** (operating as **ResumePhoto.ai by Gobie Nanthakumar**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGd76FHlxZwqmAFle0JXbQ47RP9f88ZVSUnZBSxdqX5aoSOztGR3AmCb8QGsFwDSFrzr7mtmqRE4KuJbRkLD4aPH4ylFNysg6GVcwm-ScaS2Y6KyTpOjUugs-8eMP4Yag==",
+          "title": "resumephoto.ai"
+        },
+        {
+          "id": 1,
+          "text": "The software product **Resume Photo** at **resumephoto.ai** is directly provided and operated by developer **Gobie Nanthakumar** (operating as **ResumePhoto.ai by Gobie Nanthakumar**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGP_IXqRpjtT3GIHKZiQIOaYoCuin9QbHrzcPxzCMusaN4G1kFjHB8zBKipNtAKBXs6kxKoP-F2LukzobHYrvvyRUdxc-SUH0xnYNc6YUnvFaxHxFIiEQl1H29bffAYA-XG",
+          "title": "resumephoto.ai"
+        },
+        {
+          "id": 2,
+          "text": "These Terms of Service... govern your use of our website located at https://ResumePhoto.ai (together or individually 'Service') operated by ResumePhoto.ai by Gobie Nanthakumar.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGP_IXqRpjtT3GIHKZiQIOaYoCuin9QbHrzcPxzCMusaN4G1kFjHB8zBKipNtAKBXs6kxKoP-F2LukzobHYrvvyRUdxc-SUH0xnYNc6YUnvFaxHxFIiEQl1H29bffAYA-XG",
+          "title": "resumephoto.ai"
+        },
+        {
+          "id": 3,
+          "text": "Service: The https://ResumePhoto.ai website operated by ResumePhoto.ai by Gobie Nanthakumar.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGd76FHlxZwqmAFle0JXbQ47RP9f88ZVSUnZBSxdqX5aoSOztGR3AmCb8QGsFwDSFrzr7mtmqRE4KuJbRkLD4aPH4ylFNysg6GVcwm-ScaS2Y6KyTpOjUugs-8eMP4Yag==",
+          "title": "resumephoto.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Gobie Nanthakumar",
+        "evidence": "Passage 0 explicitly states that Resume Photo at resumephoto.ai is directly provided and operated by developer Gobie Nanthakumar (operating as ResumePhoto.ai by Gobie Nanthakumar).",
+        "source": {
+          "id": 0,
+          "text": "The software product **Resume Photo** at **resumephoto.ai** is directly provided and operated by developer **Gobie Nanthakumar** (operating as **ResumePhoto.ai by Gobie Nanthakumar**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGd76FHlxZwqmAFle0JXbQ47RP9f88ZVSUnZBSxdqX5aoSOztGR3AmCb8QGsFwDSFrzr7mtmqRE4KuJbRkLD4aPH4ylFNysg6GVcwm-ScaS2Y6KyTpOjUugs-8eMP4Yag==",
+          "title": "resumephoto.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Resume Photo",
+    "domain": "resumephoto.ai",
+    "description": "Get professional headshots easily with our AI technology."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Gobie Nanthakumar",
+  "evidence": "Passage 0 explicitly states that Resume Photo at resumephoto.ai is directly provided and operated by developer Gobie Nanthakumar (operating as ResumePhoto.ai by Gobie Nanthakumar).",
+  "source": {
+    "id": 0,
+    "text": "The software product **Resume Photo** at **resumephoto.ai** is directly provided and operated by developer **Gobie Nanthakumar** (operating as **ResumePhoto.ai by Gobie Nanthakumar**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGd76FHlxZwqmAFle0JXbQ47RP9f88ZVSUnZBSxdqX5aoSOztGR3AmCb8QGsFwDSFrzr7mtmqRE4KuJbRkLD4aPH4ylFNysg6GVcwm-ScaS2Y6KyTpOjUugs-8eMP4Yag==",
+    "title": "resumephoto.ai"
+  },
+  "checked_at": "2026-11-05T06:06:13.255897+00:00"
+}

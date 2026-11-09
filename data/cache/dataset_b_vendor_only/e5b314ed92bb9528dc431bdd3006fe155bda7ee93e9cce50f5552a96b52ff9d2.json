@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the identity verification and fraud prevention software at **veriff.com** is **Veriff OÜ**.\n\n### Evidence\n* According to the **Veriff Terms of Service** (and **Terms of Service for Starter Plans**): \n  > *\"These Veriff Terms of Service (“Terms of Service”) and the accompanying Order Form ... is entered into by and between Veriff OÜ, a private liability company with offices at Niine 11, Tallinn 10414, Estonia (“Veriff”), and the entity named on the applicable Order Form...\"*\n* According to the **End User Terms**: \n  > *\"Veriff OÜ and its affiliates (hereinafter 'Veriff', 'we' or 'us') is an identity verification and fraud prevention service provider. All Veriff's products, services and platforms necessary for this purpose are referred to as the 'Service' in this document.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the identity verification and fraud prevention software at **veriff.com** is **Veriff OÜ**.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGr-ypAo8HjlOw_IjpaW754e5N3BOjEP3X0OugTY7JPCpMAoheXOOlTED4DyCyhnqDeSKbkdpNUlfRh-2xkkM6qARinF7DT_PzofYtBOgNqqfWiBPQwUqoTc9EBmboXE4MUxHgAKDnAHOY=",
+          "title": "veriff.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the identity verification and fraud prevention software at **veriff.com** is **Veriff OÜ**.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFs4b47Yjg_Q5qe8w76p1ICXSvoOMW1XsBCwI7Lr0dQQ31VPPIn1S8nYZifOKg-S3vIIV78U83xXGI6qsAlJHphFuianuzwTlonkLAc99RS6jANcsnXq5C-3og=",
+          "title": "veriff.com"
+        },
+        {
+          "id": 2,
+          "text": "\"These Veriff Terms of Service (“Terms of Service”) and the accompanying Order Form ... is entered into by and between Veriff OÜ, a private liability company with offices at Niine 11, Tallinn 10414, Estonia (“Veriff”), and the entity named on the applicable Order Form...\"*\n* Accordi",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGr-ypAo8HjlOw_IjpaW754e5N3BOjEP3X0OugTY7JPCpMAoheXOOlTED4DyCyhnqDeSKbkdpNUlfRh-2xkkM6qARinF7DT_PzofYtBOgNqqfWiBPQwUqoTc9EBmboXE4MUxHgAKDnAHOY=",
+          "title": "veriff.com"
+        },
+        {
+          "id": 3,
+          "text": "\"These Veriff Terms of Service (“Terms of Service”) and the accompanying Order Form ... is entered into by and between Veriff OÜ, a private liability company with offices at Niine 11, Tallinn 10414, Estonia (“Veriff”), and the entity named on the applicable Order Form...\"*\n* Accordi",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKij4_Hd4VS5fECsKe3iSDjPGaBQkBPaD9lDFU4NH1rzsmsKmTXSeqlGv3ZY3u21w-nz6aJB43PognDDDDsWOWldSn1CwzKWzrmJx6fUj2kpA-iNaNTKSG-tenIS-Xs1xk52ipaUOLlGXMZw4z7LSZqT8=",
+          "title": "veriff.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Veriff OÜ",
+        "evidence": "Passage 0 states that the vendor directly providing the identity verification and fraud prevention software at veriff.com is Veriff OÜ.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the identity verification and fraud prevention software at **veriff.com** is **Veriff OÜ**.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGr-ypAo8HjlOw_IjpaW754e5N3BOjEP3X0OugTY7JPCpMAoheXOOlTED4DyCyhnqDeSKbkdpNUlfRh-2xkkM6qARinF7DT_PzofYtBOgNqqfWiBPQwUqoTc9EBmboXE4MUxHgAKDnAHOY=",
+          "title": "veriff.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Veriff",
+    "domain": "veriff.com",
+    "description": "Fraud prevention through secure identity verification."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Veriff OÜ",
+  "evidence": "Passage 0 states that the vendor directly providing the identity verification and fraud prevention software at veriff.com is Veriff OÜ.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the identity verification and fraud prevention software at **veriff.com** is **Veriff OÜ**.",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGr-ypAo8HjlOw_IjpaW754e5N3BOjEP3X0OugTY7JPCpMAoheXOOlTED4DyCyhnqDeSKbkdpNUlfRh-2xkkM6qARinF7DT_PzofYtBOgNqqfWiBPQwUqoTc9EBmboXE4MUxHgAKDnAHOY=",
+    "title": "veriff.com"
+  },
+  "checked_at": "2026-11-05T07:33:16.072948+00:00"
+}

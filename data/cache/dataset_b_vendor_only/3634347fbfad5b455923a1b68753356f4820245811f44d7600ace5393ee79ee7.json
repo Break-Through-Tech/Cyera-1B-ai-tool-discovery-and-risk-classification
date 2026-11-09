@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor providing **Floom** at **floom.ai** is **Floom AI, Inc.**\n\n### Evidence & Provider Statement\nAccording to the official legal policies on **floom.ai**:\n* **Privacy Policy:** *\"This Privacy Policy describes how Floom AI, Inc. ('Floom,' 'we,' 'us,' or 'our') collects, uses, and protects information in connection with the Floom platform (the 'Service').\"*\n* **Terms of Use:** Notes subscription usage is governed by terms executed with *\"Floom AI, Inc.\"*\n* **Copyright Notice:** *“© 2026 Floom AI, Inc. All rights reserved.”*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor providing **Floom** at **floom.ai** is **Floom AI, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdxYNZQu-PDX6wgPEJ-AJ8D0UztqfYyQoR0chR5bj8rY4Cry1Hb5ziA-11c96rDXh4KpWVEO-VnnDNw1XWIB32nOImPjIDGXMMXQckZjiK8zUGcQ==",
+          "title": "floom.vc"
+        },
+        {
+          "id": 1,
+          "text": "The vendor providing **Floom** at **floom.ai** is **Floom AI, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHv2qVrzP02MjJhNzSAs7BZvB5dNLjVW9xH0a5GnykGUO-GqBk2Ej35xDQWOpbavDd-yK24GUrLI2CZElMUY3mvLGdXUwEVNCdeQhzJ3kFIQbU=",
+          "title": "floom.vc"
+        },
+        {
+          "id": 2,
+          "text": "**Privacy Policy:** *\"This Privacy Policy describes how Floom AI, Inc. ('Floom,' 'we,' 'us,' or 'our') collects, uses, and protects information in connection with the Floom platform (the 'Service').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdxYNZQu-PDX6wgPEJ-AJ8D0UztqfYyQoR0chR5bj8rY4Cry1Hb5ziA-11c96rDXh4KpWVEO-VnnDNw1XWIB32nOImPjIDGXMMXQckZjiK8zUGcQ==",
+          "title": "floom.vc"
+        },
+        {
+          "id": 3,
+          "text": "**Terms of Use:** Notes subscription usage is governed by terms executed with *\"Floom AI, Inc.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHv2qVrzP02MjJhNzSAs7BZvB5dNLjVW9xH0a5GnykGUO-GqBk2Ej35xDQWOpbavDd-yK24GUrLI2CZElMUY3mvLGdXUwEVNCdeQhzJ3kFIQbU=",
+          "title": "floom.vc"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Floom AI, Inc.",
+        "evidence": "Passage 0 explicitly states that the vendor providing Floom at floom.ai is Floom AI, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor providing **Floom** at **floom.ai** is **Floom AI, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdxYNZQu-PDX6wgPEJ-AJ8D0UztqfYyQoR0chR5bj8rY4Cry1Hb5ziA-11c96rDXh4KpWVEO-VnnDNw1XWIB32nOImPjIDGXMMXQckZjiK8zUGcQ==",
+          "title": "floom.vc"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Floom",
+    "domain": "floom.ai",
+    "description": "Orchestrates & executes Generative AI pipelines"
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Floom AI, Inc.",
+  "evidence": "Passage 0 explicitly states that the vendor providing Floom at floom.ai is Floom AI, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor providing **Floom** at **floom.ai** is **Floom AI, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdxYNZQu-PDX6wgPEJ-AJ8D0UztqfYyQoR0chR5bj8rY4Cry1Hb5ziA-11c96rDXh4KpWVEO-VnnDNw1XWIB32nOImPjIDGXMMXQckZjiK8zUGcQ==",
+    "title": "floom.vc"
+  },
+  "checked_at": "2026-11-05T05:40:13.414668+00:00"
+}

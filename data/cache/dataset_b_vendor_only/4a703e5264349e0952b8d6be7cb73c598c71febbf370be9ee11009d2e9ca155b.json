@@ -1,0 +1,95 @@
+{
+  "attempts": [
+    {
+      "answer": "No operating company, individual developer, or provider brand can be established for **Philosophy** at the domain **`philosophy.fyi`** (also presented on-site as **Ask a Philosopher**). \n\nThe website operates anonymously without identifying an underlying corporate entity, publisher, or developer in its interface, headers, or metadata. Its footer only provides links to terms and privacy alongside a copyright and disclaimer statement:\n> *\"© 2026 Privacy Terms. AI-generated interpretations for informational exploration only. They are not the philosophers' own words and should not be relied on as professional, philosophical, or therapeutic advice.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "No operating company, individual developer, or provider brand can be established for **Philosophy** at the domain **`philosophy.fyi`** (also presented on-site as **Ask a Philosopher**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFj0Vk1jl8PJSC8jwMSxKeR4PX2ibkGbwdInqrv3WAUc1BcVGaI18OolxzzARCH7HOM-vmPOolUOTA83UVuvMmWnUAIiuN6MQVHx1PQ8Rv0194=",
+          "title": "philosophy.fyi"
+        },
+        {
+          "id": 1,
+          "text": "No operating company, individual developer, or provider brand can be established for **Philosophy** at the domain **`philosophy.fyi`** (also presented on-site as **Ask a Philosopher**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwe9s2l3okifoadCK0Ew0A0EQGVuhTlXYS_vCV1ZFb4eWYYDeKyf2k7k-C1sxyJAfTJ_b9RDFBh5gs_iTI2AEgDR5lHtYGPbd67u76sJ5WZkA=",
+          "title": "philosophy.fyi"
+        },
+        {
+          "id": 2,
+          "text": "The website operates anonymously without identifying an underlying corporate entity, publisher, or developer in its interface, headers, or metadata",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwe9s2l3okifoadCK0Ew0A0EQGVuhTlXYS_vCV1ZFb4eWYYDeKyf2k7k-C1sxyJAfTJ_b9RDFBh5gs_iTI2AEgDR5lHtYGPbd67u76sJ5WZkA=",
+          "title": "philosophy.fyi"
+        }
+      ],
+      "result": {
+        "status": "unknown",
+        "vendor": "UNKNOWN",
+        "evidence": "The search evidence explicitly confirms that no operating company, individual developer, or provider brand can be established for Philosophy at philosophy.fyi, as the website operates anonymously without identifying any corporate entity, publisher, or developer."
+      }
+    },
+    {
+      "answer": "No vendor, operating company, published developer, or provider brand can be established for the software product **Philosophy** (also titled **Ask a Philosopher** / **Ask a Philosopher Online**) at the domain **philosophy.fyi**.\n\n### Reason:\n* **No Company or Developer Disclosed:** The website at `philosophy.fyi` consists of a minimal interface allowing users to submit questions to AI personas styled after historical thinkers (including William Shakespeare, Socrates, Confucius, and Friedrich Nietzsche). Its footer contains only a standard disclaimer (*\"AI-generated interpretations for informational exploration only...\"*), a copyright year, and unlabeled links for privacy and terms, without naming an operating business entity, corporate owner, or individual developer.\n* **No Supported Provider Brand:** Public indexes and AI tool directories reference the site solely under the product names \"Ask a Philosopher\" or \"Philosophy\" without identifying any provider entity or publisher behind the service. WHOIS registration data is also not publicly attributed.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "No vendor, operating company, published developer, or provider brand can be established for the software product **Philosophy** (also titled **Ask a Philosopher** / **Ask a Philosopher Online**) at the domain **philosophy.fyi**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpdxMhGUxhTgNTbK3Pyhw7p93nprdv631mckbpVNJSeoQQR7WDbbU7NatLKPLLEFg2qySbBFg2efRaP9GbEVpaNPsJF_dzOoXfVBOjI6OB3w==",
+          "title": "philosophy.fyi"
+        },
+        {
+          "id": 1,
+          "text": "No vendor, operating company, published developer, or provider brand can be established for the software product **Philosophy** (also titled **Ask a Philosopher** / **Ask a Philosopher Online**) at the domain **philosophy.fyi**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7NDSrQD3VPU-_8rUtbIosvujReCLiBs8ZzI-B2uJ_FoJUb5UFYqTd6Wv8dciBXkEftXDbSlgmDi_zis9M2wyu2zGoK3cPyVM3sy7eogMvqlA=",
+          "title": "philosophy.fyi"
+        },
+        {
+          "id": 2,
+          "text": "**No Company or Developer Disclosed:** The website at `philosophy.fyi` consists of a minimal interface allowing users to submit questions to AI personas styled after historical thinkers (including William Shakespeare, Socrates, Confucius, and Friedrich Nietzsche)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7NDSrQD3VPU-_8rUtbIosvujReCLiBs8ZzI-B2uJ_FoJUb5UFYqTd6Wv8dciBXkEftXDbSlgmDi_zis9M2wyu2zGoK3cPyVM3sy7eogMvqlA=",
+          "title": "philosophy.fyi"
+        },
+        {
+          "id": 3,
+          "text": "Its footer contains only a standard disclaimer (*\"AI-generated interpretations for informational exploration only...\"*), a copyright year, and unlabeled links for privacy and terms, without naming an operating business entity, corporate owner, or individual developer",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7NDSrQD3VPU-_8rUtbIosvujReCLiBs8ZzI-B2uJ_FoJUb5UFYqTd6Wv8dciBXkEftXDbSlgmDi_zis9M2wyu2zGoK3cPyVM3sy7eogMvqlA=",
+          "title": "philosophy.fyi"
+        },
+        {
+          "id": 4,
+          "text": "**No Supported Provider Brand:** Public indexes and AI tool directories reference the site solely under the product names \"Ask a Philosopher\" or \"Philosophy\" without identifying any provider entity or publisher behind the service",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyDtzt5_DwiKZf7PfB3MztQXLfw_AdSPzr_Za1VwTez9N3O-bRftNjQURzToW6XtVLXAtG10h7aGvlofA7tyOrx9_9axJOV8_ySuBWFnV5D5FZqcKBpLE1AbaFvn3J",
+          "title": "tenereteam.com"
+        },
+        {
+          "id": 5,
+          "text": "**No Supported Provider Brand:** Public indexes and AI tool directories reference the site solely under the product names \"Ask a Philosopher\" or \"Philosophy\" without identifying any provider entity or publisher behind the service",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbYj9IDeB7JPNnI4OBJx5AYvP7uyfgRkRaonfOPu6-en1jrIAR2tIyLTmCQPBbF5DzmmOYoujhbwiPpJvWMQ9aLhzIvb0s0EOOKhdXYUg4hl_lHAoJFUEXASJyIi_ViyshPRHY",
+          "title": "likebookmark.com"
+        },
+        {
+          "id": 6,
+          "text": "WHOIS registration data is also not publicly attributed",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHB_GoFON3KkYS29hZLLEkiUixCc3YCRosCwcpXHhXfXsRbQer_bv70qmUwNjylYBTi3_aIb9w8HDKfb-J7V3KiNFDmwsTa-frmYiqDinaT2YwK-Vw6eJ2OYevPZpLpL0m6Q6Pv",
+          "title": "likebookmark.com"
+        }
+      ],
+      "result": {
+        "status": "unknown",
+        "vendor": "UNKNOWN",
+        "evidence": "No vendor, operating company, published developer, or provider brand is disclosed on philosophy.fyi or listed in public directories."
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Philosophy",
+    "domain": "philosophy.fyi",
+    "description": "Philosophy chatbot in Shakespearean style."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "unknown",
+  "vendor": "UNKNOWN",
+  "evidence": "No vendor, operating company, published developer, or provider brand is disclosed on philosophy.fyi or listed in public directories.",
+  "checked_at": "2026-11-05T06:00:33.068497+00:00"
+}

@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **OneAccord** at **oneaccord.ai** is directly provided by the operating company **In One Accord LTD**.\n\n### Evidence & Provider Statement\nAccording to the official **Terms of Service** for OneAccord at `oneaccord.ai`:\n> *\"If you have any questions about this Terms of Service, please contact the Company by email at hello@oneaccord.com, or please write to the following address: **In One Accord LTD**, The Manor House, Mill Lane, Southampton, Hampshire, United Kingdom, SO16 0YE.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **OneAccord** at **oneaccord.ai** is directly provided by the operating company **In One Accord LTD**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_lYLs5wb4SNh-3yzoCHDz27CqsNvtx7v99UjdAZxGiT2H2G66v2HEvamA70LmqQ_Q7hJhK3OXNRkJdvWAWzXz9PwUMIxmMWJG4jAhtW6jwRL7ow==",
+          "title": "oneaccord.ai"
+        },
+        {
+          "id": 1,
+          "text": "According to the official **Terms of Service** for OneAccord at `oneaccord.ai`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_lYLs5wb4SNh-3yzoCHDz27CqsNvtx7v99UjdAZxGiT2H2G66v2HEvamA70LmqQ_Q7hJhK3OXNRkJdvWAWzXz9PwUMIxmMWJG4jAhtW6jwRL7ow==",
+          "title": "oneaccord.ai"
+        },
+        {
+          "id": 2,
+          "text": "*\"If you have any questions about this Terms of Service, please contact the Company by email at hello@oneaccord.com, or please write to the following address: **In One Accord LTD**, The Manor House, Mill Lane, Southampton, Hampshire, United Kingdom, SO16 0YE.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_lYLs5wb4SNh-3yzoCHDz27CqsNvtx7v99UjdAZxGiT2H2G66v2HEvamA70LmqQ_Q7hJhK3OXNRkJdvWAWzXz9PwUMIxmMWJG4jAhtW6jwRL7ow==",
+          "title": "oneaccord.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "In One Accord LTD",
+        "evidence": "Passage 0 states that the software product OneAccord at oneaccord.ai is directly provided by the operating company In One Accord LTD.",
+        "source": {
+          "id": 0,
+          "text": "The software product **OneAccord** at **oneaccord.ai** is directly provided by the operating company **In One Accord LTD**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_lYLs5wb4SNh-3yzoCHDz27CqsNvtx7v99UjdAZxGiT2H2G66v2HEvamA70LmqQ_Q7hJhK3OXNRkJdvWAWzXz9PwUMIxmMWJG4jAhtW6jwRL7ow==",
+          "title": "oneaccord.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "OneAccord",
+    "domain": "oneaccord.ai",
+    "description": "Live AI Translation for Churches with a Human Touch"
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "In One Accord LTD",
+  "evidence": "Passage 0 states that the software product OneAccord at oneaccord.ai is directly provided by the operating company In One Accord LTD.",
+  "source": {
+    "id": 0,
+    "text": "The software product **OneAccord** at **oneaccord.ai** is directly provided by the operating company **In One Accord LTD**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_lYLs5wb4SNh-3yzoCHDz27CqsNvtx7v99UjdAZxGiT2H2G66v2HEvamA70LmqQ_Q7hJhK3OXNRkJdvWAWzXz9PwUMIxmMWJG4jAhtW6jwRL7ow==",
+    "title": "oneaccord.ai"
+  },
+  "checked_at": "2026-11-05T05:52:51.046350+00:00"
+}

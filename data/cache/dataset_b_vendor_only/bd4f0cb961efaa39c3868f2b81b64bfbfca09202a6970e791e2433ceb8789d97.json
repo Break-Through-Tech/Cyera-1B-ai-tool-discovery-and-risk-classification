@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "**Vendor:** **Zoom Communications, Inc.** (formerly **Zoom Video Communications, Inc.**)\n\n**Product & Domain:** Zoom Video Communications / Zoom platform software services provided at **zoom.com**.\n\n**Provider Statement / Citation:** \n* From the official **Zoom Terms of Service** (`zoom.com/terms`): \n  > *\"This Agreement is between you and Zoom Communications, Inc. and its affiliates (“Zoom,” “we,” “us,” or “our”) and governs your access to and use of our Services and Software...\"*\n* Corporate filings and site terms confirm that the operating entity—originally founded as Zoom Communications, Inc. and long operated as Zoom Video Communications, Inc.—formally reverted its corporate name to **Zoom Communications, Inc.**",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLmyxTah6v-KudCkbjgvRxwz4d-ri0lgzyUvHE2A0pqqDWTQdIkNpaeQwuB5vi2qUXkIwhIDzKSdvdm-afSC5ihcykHh3yKrSJx8byJbmR8JYaQ75UvuABZZfdGPNQUBHp5hEZEQ==",
+          "title": "sec.gov"
+        },
+        {
+          "id": 1,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2HShoufOvZ5wULimZRPZa-uE_PZaLI3eMbQrQ-MvXCXJvgIk3T1q08Ikrw0RrgMPH_NpPtdTNUei18RNjAU5VK5NUYzX65dd6p3zgvUa0Cj1kvGO5MYCxHGulVRURG6IvbE5q8uoXaFRED_LukAKJZDAzJi6jhn72ptEW7ElD76GxpyZOvjo=",
+          "title": "sec.gov"
+        },
+        {
+          "id": 2,
+          "text": "**Product & Domain:** Zoom Video Communications / Zoom platform software services provided at **zoom.com**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd0IUYdYwKz25qwbKjuxrfBp6SyUqPr_eNwQNhZkAt3CAUyam246_rg70_GrxD2-R6GmCSkhjVayeMWqmYpKJC9YNJlPt8rJVzpCGPgiPIyCiEvZ5w-C8bkUY=",
+          "title": "zoom.com"
+        },
+        {
+          "id": 3,
+          "text": "**Product & Domain:** Zoom Video Communications / Zoom platform software services provided at **zoom.com**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGseR1lLIF9Kv2rG6ZFVN-6Yj1Z-susLcQ5vHskSHfq6peBv6j7HrXC9xVhH8zJiTStTSOeOSU7VkAGriLYSk7lWYIo_dq6GRVTqQ==",
+          "title": "zoom.com"
+        },
+        {
+          "id": 4,
+          "text": "*\"This Agreement is between you and Zoom Communications, Inc. and its affiliates (“Zoom,” “we,” “us,” or “our”) and governs your access to and use of our Services and Software...\"*\n* Corporate fil",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd0IUYdYwKz25qwbKjuxrfBp6SyUqPr_eNwQNhZkAt3CAUyam246_rg70_GrxD2-R6GmCSkhjVayeMWqmYpKJC9YNJlPt8rJVzpCGPgiPIyCiEvZ5w-C8bkUY=",
+          "title": "zoom.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Zoom Communications, Inc.",
+        "evidence": "Passage 4 states that the agreement governing access to and use of the Services and Software is between the user and Zoom Communications, Inc.",
+        "source": {
+          "id": 4,
+          "text": "*\"This Agreement is between you and Zoom Communications, Inc. and its affiliates (“Zoom,” “we,” “us,” or “our”) and governs your access to and use of our Services and Software...\"*\n* Corporate fil",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd0IUYdYwKz25qwbKjuxrfBp6SyUqPr_eNwQNhZkAt3CAUyam246_rg70_GrxD2-R6GmCSkhjVayeMWqmYpKJC9YNJlPt8rJVzpCGPgiPIyCiEvZ5w-C8bkUY=",
+          "title": "zoom.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Zoom Video Communications",
+    "domain": "zoom.com",
+    "description": "Zoom Video Communications, Inc. is a leading provider of video conferencing solutions, specializing in online communication and collaboration tools. Headquartered in San Jose, California, the company offers a platform that enables users to conduct virtual meetings, webinars, and conferencing, facilitating communication across various devices. With a focus on enhancing remote work capabilities, Zoom has become a significant player in the telecommunications and software industry."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Zoom Communications, Inc.",
+  "evidence": "Passage 4 states that the agreement governing access to and use of the Services and Software is between the user and Zoom Communications, Inc.",
+  "source": {
+    "id": 4,
+    "text": "*\"This Agreement is between you and Zoom Communications, Inc. and its affiliates (“Zoom,” “we,” “us,” or “our”) and governs your access to and use of our Services and Software...\"*\n* Corporate fil",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd0IUYdYwKz25qwbKjuxrfBp6SyUqPr_eNwQNhZkAt3CAUyam246_rg70_GrxD2-R6GmCSkhjVayeMWqmYpKJC9YNJlPt8rJVzpCGPgiPIyCiEvZ5w-C8bkUY=",
+    "title": "zoom.com"
+  },
+  "checked_at": "2026-11-05T10:09:50.502338+00:00"
+}

@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Muskan.ai** (associated with **muskan.ai**) is **Revca Softech Private Limited**.\n\n### Evidence:\n* **Terms / Privacy Policy (`muskan.ai/privacy-policy`)**: Defines the provider and platform terms as:  \n  > *\"These terms of service ('agreement') describe the terms and conditions on which Muskan (subsidy of Revca Softech Pvt Limited), ('Muskan') makes available its proprietary software platform and related services to any customer...\"*\n* **App Store & Google Play Listings**: The official iOS and Android apps for **Muskan.ai** list **Revca Softech Private Limited** as the developer/publisher.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Muskan.ai** (associated with **muskan.ai**) is **Revca Softech Private Limited**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZSDNC48tIwogT_pci5mpqvtIKI49Fks5Lkqa0AtGhyJx6iOA_qVKG2WQLVZ-sY5YdGcRqIuY4-4fYRU7_M0ePeptRp039eOOKPRwxX3jCCgAg0_DIjww=",
+          "title": "muskan.ai"
+        },
+        {
+          "id": 1,
+          "text": "*\"These terms of service ('agreement') describe the terms and conditions on which Muskan (subsidy of Revca Softech Pvt Limited), ('Muskan') makes available its proprietary software platform and related services to any customer...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZSDNC48tIwogT_pci5mpqvtIKI49Fks5Lkqa0AtGhyJx6iOA_qVKG2WQLVZ-sY5YdGcRqIuY4-4fYRU7_M0ePeptRp039eOOKPRwxX3jCCgAg0_DIjww=",
+          "title": "muskan.ai"
+        },
+        {
+          "id": 2,
+          "text": "**App Store & Google Play Listings**: The official iOS and Android apps for **Muskan.ai** list **Revca Softech Private Limited** as the developer/publisher",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPE4mZ54u2A44s2ZF59owIrDJr8XbXYOsG92QLtgifdE6lnpOQ6HPEwxjxL2-rI8AI5yMTAOEOxh509fAybjcaPIQWZcUYMsAC4ockDrB8w6FzA2oPkZZoCWNrqhUuf4Z_-etrXEKGgYJ6zdpKEvTqQKE=",
+          "title": "apple.com"
+        },
+        {
+          "id": 3,
+          "text": "**App Store & Google Play Listings**: The official iOS and Android apps for **Muskan.ai** list **Revca Softech Private Limited** as the developer/publisher",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtjBXZHIxGw6fsXh_pn9hUbNY2r-jEyuna1siTQPi7eYhs-WIcwiedoQFc6Sqjc1GjKSFb4KlfsB4FXynb7TpXX-W2jD1KHhGL9KoepALoAj0uZZiQ0kVZyo0CkLvzaUIBumx0BfbdspRtHZEatupPeudUsjVWLCEzz-5axg==",
+          "title": "google.com"
+        },
+        {
+          "id": 4,
+          "text": "These terms of service ('agreement') describe the terms and conditions on which Muskan (subsidy of Revca Softech Pvt Limited), ('Muskan') makes available its proprietary software platform and related services to any customer...\"*\n* **",
+          "url": "https://muskan.ai/privacy-policy-2/",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Revca Softech Private Limited",
+        "evidence": "Muskan.ai's terms of service state that Muskan is a subsidiary of Revca Softech Pvt Limited, which makes available its proprietary software platform and related services.",
+        "source": {
+          "id": 4,
+          "text": "These terms of service ('agreement') describe the terms and conditions on which Muskan (subsidy of Revca Softech Pvt Limited), ('Muskan') makes available its proprietary software platform and related services to any customer...\"*\n* **",
+          "url": "https://muskan.ai/privacy-policy-2/",
+          "title": ""
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Muskan.ai",
+    "domain": "muskan.ai",
+    "description": "Muskan.ai is an AI-powered platform offering advanced solutions for dentists and patients, enhancing dental practice efficiency and patient care in India."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Revca Softech Private Limited",
+  "evidence": "Muskan.ai's terms of service state that Muskan is a subsidiary of Revca Softech Pvt Limited, which makes available its proprietary software platform and related services.",
+  "source": {
+    "id": 4,
+    "text": "These terms of service ('agreement') describe the terms and conditions on which Muskan (subsidy of Revca Softech Pvt Limited), ('Muskan') makes available its proprietary software platform and related services to any customer...\"*\n* **",
+    "url": "https://muskan.ai/privacy-policy-2/",
+    "title": ""
+  },
+  "checked_at": "2026-11-05T06:22:44.241343+00:00"
+}

@@ -1,0 +1,83 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on the official legal notice and terms of service for **XING** at **xing.com**, the software product and website are directly operated and provided by **XING SE & Co. KG** (represented by its personally liable partner, New Work SE).\n\n* **Operating / Provider statement:** \n  > *\"This website is operated by: XING SE & Co. KG, Baumwall 7, 20459 Hamburg Deutschland\"* (XING \"About this site\" / Legal Notice) and *“'XING' means the comprehensive service operated by XING SE & Co. KG ... rendered via websites (e.g. xing.com, xing.de...)”* (General Terms and Conditions for the use of the XING service).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "KG**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMBdb_IlHRUI-BZKPxJiGdss9V_0Wz9aPf3fkJMnERDWQ3kDISwTi9RKJSqqf4QJ7thU1a0CO8Wvxx2HjPhXN9SkWsHs9bL53f3TLmjJV0N5YyYLBQJEufi7n5pl_6Z5f9FbrJyI_ZkGEzLeutvt14UNCEpkm1ls4=",
+          "title": "xing.com"
+        },
+        {
+          "id": 1,
+          "text": "KG**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFytW0iVOnm232guzxzdi4FszIXoHBhHqDavqI-lSxJmi-rL8M6BdPZ3d0PCUMVw0EbbkI4BNa49QVBh9CUkVqIHmeLaZQ7RBD6EQmD60jaLWSx1KHxw4GE0B5e76VCia0=",
+          "title": "xing.com"
+        },
+        {
+          "id": 2,
+          "text": "KG** (represented by its personally liable partner, New Work SE)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFytW0iVOnm232guzxzdi4FszIXoHBhHqDavqI-lSxJmi-rL8M6BdPZ3d0PCUMVw0EbbkI4BNa49QVBh9CUkVqIHmeLaZQ7RBD6EQmD60jaLWSx1KHxw4GE0B5e76VCia0=",
+          "title": "xing.com"
+        },
+        {
+          "id": 3,
+          "text": "KG, Baumwall 7, 20459 Hamburg Deutschland\"* (XING \"About this site\" / Legal Notice)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFytW0iVOnm232guzxzdi4FszIXoHBhHqDavqI-lSxJmi-rL8M6BdPZ3d0PCUMVw0EbbkI4BNa49QVBh9CUkVqIHmeLaZQ7RBD6EQmD60jaLWSx1KHxw4GE0B5e76VCia0=",
+          "title": "xing.com"
+        }
+      ],
+      "result": {
+        "status": "unknown",
+        "vendor": "UNKNOWN",
+        "evidence": "The provided passages contain truncated text fragments ('KG**' and address information) that do not state the complete name of the operating company or clearly establish the provider relationship for XING."
+      }
+    },
+    {
+      "answer": "The software product and platform **XING** at **xing.com** is directly provided and operated by **XING SE & Co. KG** (represented by its personally liable partner, **New Work SE**).\n\n### Provider Statements & Citations\n* **Legal Notice / \"About this site\" (`xing.com`):** \n  > *\"This website is operated by: XING SE & Co. KG, Baumwall 7, 20459 Hamburg, Deutschland [...] Represented by its personally liable partner, New Work SE, Hamburg\"*\n* **General Terms and Conditions for the use of the XING service (`xing.com/terms`):**\n  > *“‘XING’ means the comprehensive service operated by XING SE & Co. KG (hereinafter ‘XING KG’) as described in detail below. [...] The XING service is rendered via websites (e.g. xing.com, xing.de, onlyfy.io, lebenslauf.com, bewerbung.com)... All websites, sub-domains, aliases, mobile applications [...] provided by XING KG and where the XING service is available are hereinafter referred to as ‘XING Websites’.”*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "KG**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdT_Lsdn9BnI6kkrn3XdN_N0YrVLzGz_jAqKS3cVAguma-6g_MODRDgnNOmAt6DCwwZEGPiVcevIacRCq4ANskCjj7ApksDsFBkSH3MgDJKUqFwx3-HGLSpBJkxgXbTswrt_WxLE0mzPKwbn1AnYFcTl6pIex1UEQ=",
+          "title": "xing.com"
+        },
+        {
+          "id": 1,
+          "text": "KG**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFftzn6F1wgZWhIx-j2AeALDLeKtaG2cQ1dHEzudUysPWFLjISLMdy86zniadfM0wIE_JIc7VdkGvFhT4B1AQfjxCcxpj4JSd1D_jjTnu2U5c4iXlPiMEGxrYUjOp341Lo=",
+          "title": "xing.com"
+        },
+        {
+          "id": 2,
+          "text": "KG** (represented by its personally liable partner, **New Work SE**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFftzn6F1wgZWhIx-j2AeALDLeKtaG2cQ1dHEzudUysPWFLjISLMdy86zniadfM0wIE_JIc7VdkGvFhT4B1AQfjxCcxpj4JSd1D_jjTnu2U5c4iXlPiMEGxrYUjOp341Lo=",
+          "title": "xing.com"
+        },
+        {
+          "id": 3,
+          "text": "Represented by its personally liable partner, New Work SE, Hamburg\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFftzn6F1wgZWhIx-j2AeALDLeKtaG2cQ1dHEzudUysPWFLjISLMdy86zniadfM0wIE_JIc7VdkGvFhT4B1AQfjxCcxpj4JSd1D_jjTnu2U5c4iXlPiMEGxrYUjOp341Lo=",
+          "title": "xing.com"
+        }
+      ],
+      "result": {
+        "status": "unknown",
+        "vendor": "UNKNOWN",
+        "evidence": "The available passages are fragmentary snippets that do not mention the product XING or connect it to an operating company or developer."
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "XING",
+    "domain": "xing.com",
+    "description": "XING is a leading job networking platform in the German-speaking region, supporting over 22 million members from Germany, Austria, and Switzerland. The platform promotes meaningful and satisfying work experiences, helping individuals and employers find the perfect job match. Additionally, XING offers inspiration and guidance for professional development. The company is part of New Work SE and operates in several locations including Hamburg, Vienna, Barcelona, Valencia, and Porto, employing a diverse workforce of over 500 individuals from more than 40 countries."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "unknown",
+  "vendor": "UNKNOWN",
+  "evidence": "The available passages are fragmentary snippets that do not mention the product XING or connect it to an operating company or developer.",
+  "checked_at": "2026-11-05T08:24:26.391230+00:00"
+}

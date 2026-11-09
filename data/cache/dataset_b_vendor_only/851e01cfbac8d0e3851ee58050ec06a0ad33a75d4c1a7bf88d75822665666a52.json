@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor and developer directly providing the software platform **Transpocket** at **transpocket.com** is **TransPocket**, created and published by the developer **Midori Glow** (**MidoriGlow**).\n\n### Evidence:\n* **Operating Company / Provider:** Company profiles identify **TransPocket** as the operating provider based in Singapore: \n  > *\"TransPocket is an unfunded company based in Singapore (Singapore), founded in 2025. It operates as a Provider of AI-powered platform converting audio and video files to text... Website: transpocket.com.\"*\n  > AlternativeTo similarly lists the developer as *\"Transpocket\"* (Singapore) for the official website `transpocket.com`.\n* **Published Developer:** Developer and launch platforms (DevHunt and Peerlist) list the maker/developer directly providing the project as **Midori Glow** / **@MidoriGlow**:\n  > *\"The maker. MidoriGlow. @MidoriGlow · launched TransPocket...\"*\n  > *\"Transpocket ... Midori Glow ... TransPocket was built to solve the pain of expensive, slow audio transcription services.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor and developer directly providing the software platform **Transpocket** at **transpocket.com** is **TransPocket**, created and published by the developer **Midori Glow** (**MidoriGlow**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfQ5oPaFAy7Dlyms0sQecNrE3YpTGRmDhohaA4LA0xATUrVzB8uKtqoHogxjOFBcL-Zn416eyEledxeov9OKU6nevTWE8Vj7gpUunfrpEur-cmII_ppOgMb_ktiKfa19X4WVz99M9g7dUgTwcjTq5dB_cLm0oQ921A8vJqZAOzfQOxKCj7sZQi0edg1-8=",
+          "title": "tracxn.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor and developer directly providing the software platform **Transpocket** at **transpocket.com** is **TransPocket**, created and published by the developer **Midori Glow** (**MidoriGlow**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEat9ZfiF1o6V1a55qg_OFGRQyhDGxnOnHLZGOvhjsY4xhKzLpmfq_qSHM5-QhTf6i3zR5W0WlDAZ82s5JSLynmFtF8JoyjHB0z4ppRPDGPXSdSDoCthN6lxw==",
+          "title": "devhunt.org"
+        },
+        {
+          "id": 2,
+          "text": "The vendor and developer directly providing the software platform **Transpocket** at **transpocket.com** is **TransPocket**, created and published by the developer **Midori Glow** (**MidoriGlow**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQED3s6NTEkp78LT1UepHHXpNvSdbrgA9n6_WbhrUI6JN89RrwSWbjmmQPAQXrUYPufAGzK7CD2i0VKiFwIjwT62cEj03D1KVSUz42B_Du7GumCzsXd378zFe1vSk0LpCvpFYQp56VhNYg==",
+          "title": "peerlist.io"
+        },
+        {
+          "id": 3,
+          "text": "Website: transpocket.com.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfQ5oPaFAy7Dlyms0sQecNrE3YpTGRmDhohaA4LA0xATUrVzB8uKtqoHogxjOFBcL-Zn416eyEledxeov9OKU6nevTWE8Vj7gpUunfrpEur-cmII_ppOgMb_ktiKfa19X4WVz99M9g7dUgTwcjTq5dB_cLm0oQ921A8vJqZAOzfQOxKCj7sZQi0edg1-8=",
+          "title": "tracxn.com"
+        },
+        {
+          "id": 4,
+          "text": "AlternativeTo similarly lists the developer as *\"Transpocket\"* (Singapore) for the official website `transpocket.com`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYTuIGoGxwnwg6enf_WzbGdob5FmwixFiFvBLq5uZR8PdBE2B_kHAc0p-ugCjfJcizBZxDFHMXJpUDWZFfZgBdw7FwubptVMxbaE8k7nJjt5AdOe5hW-nmlbh9hz-gup3sOf8P9Uo-KfM9",
+          "title": "alternativeto.net"
+        },
+        {
+          "id": 5,
+          "text": "@MidoriGlow · launched TransPocket...\"*\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEat9ZfiF1o6V1a55qg_OFGRQyhDGxnOnHLZGOvhjsY4xhKzLpmfq_qSHM5-QhTf6i3zR5W0WlDAZ82s5JSLynmFtF8JoyjHB0z4ppRPDGPXSdSDoCthN6lxw==",
+          "title": "devhunt.org"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Transpocket",
+        "evidence": "AlternativeTo lists the developer as Transpocket (Singapore) for the official website transpocket.com.",
+        "source": {
+          "id": 4,
+          "text": "AlternativeTo similarly lists the developer as *\"Transpocket\"* (Singapore) for the official website `transpocket.com`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYTuIGoGxwnwg6enf_WzbGdob5FmwixFiFvBLq5uZR8PdBE2B_kHAc0p-ugCjfJcizBZxDFHMXJpUDWZFfZgBdw7FwubptVMxbaE8k7nJjt5AdOe5hW-nmlbh9hz-gup3sOf8P9Uo-KfM9",
+          "title": "alternativeto.net"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Transpocket",
+    "domain": "transpocket.com",
+    "description": "Transpocket is an AI-powered speech-to-text platform that transforms audio and video into accurate transcripts"
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Transpocket",
+  "evidence": "AlternativeTo lists the developer as Transpocket (Singapore) for the official website transpocket.com.",
+  "source": {
+    "id": 4,
+    "text": "AlternativeTo similarly lists the developer as *\"Transpocket\"* (Singapore) for the official website `transpocket.com`",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYTuIGoGxwnwg6enf_WzbGdob5FmwixFiFvBLq5uZR8PdBE2B_kHAc0p-ugCjfJcizBZxDFHMXJpUDWZFfZgBdw7FwubptVMxbaE8k7nJjt5AdOe5hW-nmlbh9hz-gup3sOf8P9Uo-KfM9",
+    "title": "alternativeto.net"
+  },
+  "checked_at": "2026-11-05T06:50:40.098520+00:00"
+}

@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software suite at **freshworks.com** is **Freshworks Inc.**\n\n### Provider Statement\n* **Terms of Service:** *\"These Terms of Service (the “Agreement”) is entered into by and between Freshworks Inc., a Delaware corporation (“Freshworks”) and the person or entity placing an order for or accessing the Service or Software (“Customer”).\"*\n* **Website Terms of Use:** *\"Freshworks Inc. and its affiliates (“Freshworks” or “we” or “us” or “our”) provide www.freshworks.com as well as the other websites we operate...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software suite at **freshworks.com** is **Freshworks Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBArah503oknkiLGS9l1lRprOlfBUddJbNcVHNpm8I2J4IC90asm4oXwkkXnGwRqkXembseFVEKq_SHiL2G29VAKr7PN2_RaDCBnfAPI6LnRrEk3raFFY9Haqj",
+          "title": "freshworks.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the software suite at **freshworks.com** is **Freshworks Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuwaou9j6n_m1hEPnk-b4iIfVaU5fGmewZBnlEtl8czIIdYZyL9Lm5iBcS5kw0h8uMGEUBCm0zMFbm9KjzpKQ2r_AuoNzYhKqxu6ynKX7EyQrxZo2KWw==",
+          "title": "freshworks.com"
+        },
+        {
+          "id": 2,
+          "text": "**Terms of Service:** *\"These Terms of Service (the “Agreement”) is entered into by and between Freshworks Inc., a Delaware corporation (“Freshworks”) and the person or entity placing an order for or accessing the Service or Software (“Customer”).\"*\n* **Website",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuwaou9j6n_m1hEPnk-b4iIfVaU5fGmewZBnlEtl8czIIdYZyL9Lm5iBcS5kw0h8uMGEUBCm0zMFbm9KjzpKQ2r_AuoNzYhKqxu6ynKX7EyQrxZo2KWw==",
+          "title": "freshworks.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Freshworks Inc.",
+        "evidence": "Passage 0 directly states that the vendor directly providing the software suite at freshworks.com is Freshworks Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the software suite at **freshworks.com** is **Freshworks Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBArah503oknkiLGS9l1lRprOlfBUddJbNcVHNpm8I2J4IC90asm4oXwkkXnGwRqkXembseFVEKq_SHiL2G29VAKr7PN2_RaDCBnfAPI6LnRrEk3raFFY9Haqj",
+          "title": "freshworks.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Freshworks",
+    "domain": "freshworks.com",
+    "description": "Freshworks offers a suite of AI-powered business software, including CRM, customer service, IT service management, and marketing automation. It helps businesses streamline operations, enhance customer experiences, and improve employee productivity through a unified platform."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Freshworks Inc.",
+  "evidence": "Passage 0 directly states that the vendor directly providing the software suite at freshworks.com is Freshworks Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the software suite at **freshworks.com** is **Freshworks Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBArah503oknkiLGS9l1lRprOlfBUddJbNcVHNpm8I2J4IC90asm4oXwkkXnGwRqkXembseFVEKq_SHiL2G29VAKr7PN2_RaDCBnfAPI6LnRrEk3raFFY9Haqj",
+    "title": "freshworks.com"
+  },
+  "checked_at": "2026-11-05T05:58:33.908814+00:00"
+}

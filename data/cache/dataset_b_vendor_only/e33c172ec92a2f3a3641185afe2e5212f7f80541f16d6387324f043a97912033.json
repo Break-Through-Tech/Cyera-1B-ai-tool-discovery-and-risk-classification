@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "For the JavaScript framework **Backbone** (**backbonejs.org**), the directly published developers and providers are **Jeremy Ashkenas** and **DocumentCloud**. \n\nOn **backbonejs.org**, the project explicitly states:\n* *\"Backbone is an open-source component of DocumentCloud.\"*\n* *\"Backbone.js ... (c) 2010-2024 Jeremy Ashkenas and DocumentCloud. Backbone may be freely distributed under the MIT license.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "For the JavaScript framework **Backbone** (**backbonejs.org**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtUALTv0pn7vvz8V6q3YwRuRfBmnf00RbZBWPGLpQk6FThUhU4ytdebLdwj6OubHxig4mrY3_cKwM2vp2nqost1p3w7Yr62PVHEZY9",
+          "title": "backbonejs.org"
+        },
+        {
+          "id": 1,
+          "text": "For the JavaScript framework **Backbone** (**backbonejs.org**), the directly published developers and providers are **Jeremy Ashkenas** and **DocumentCloud**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyCPxJ2baH9ppgfDSR_r_Ifpt31CBIHl1fmglp6oz4BNm8_drDyZ-RWzEL9LBheiC7bIwWeKr9DN-Q6AJBZVWBoaB8C-xKsE7KM7N4XySjDEcnkEFdeB9HmufxAQx-",
+          "title": "backbonejs.org"
+        },
+        {
+          "id": 2,
+          "text": "*\"Backbone is an open-source component of DocumentCloud.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtUALTv0pn7vvz8V6q3YwRuRfBmnf00RbZBWPGLpQk6FThUhU4ytdebLdwj6OubHxig4mrY3_cKwM2vp2nqost1p3w7Yr62PVHEZY9",
+          "title": "backbonejs.org"
+        },
+        {
+          "id": 3,
+          "text": "*\"Backbone is an open-source component of DocumentCloud.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtUALTv0pn7vvz8V6q3YwRuRfBmnf00RbZBWPGLpQk6FThUhU4ytdebLdwj6OubHxig4mrY3_cKwM2vp2nqost1p3w7Yr62PVHEZY9",
+          "title": "backbonejs.org"
+        },
+        {
+          "id": 4,
+          "text": "Backbone may be freely distributed under the MIT license.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyCPxJ2baH9ppgfDSR_r_Ifpt31CBIHl1fmglp6oz4BNm8_drDyZ-RWzEL9LBheiC7bIwWeKr9DN-Q6AJBZVWBoaB8C-xKsE7KM7N4XySjDEcnkEFdeB9HmufxAQx-",
+          "title": "backbonejs.org"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Jeremy Ashkenas and DocumentCloud",
+        "evidence": "Passage 1 states that the directly published developers and providers for the JavaScript framework Backbone (backbonejs.org) are Jeremy Ashkenas and DocumentCloud.",
+        "source": {
+          "id": 1,
+          "text": "For the JavaScript framework **Backbone** (**backbonejs.org**), the directly published developers and providers are **Jeremy Ashkenas** and **DocumentCloud**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyCPxJ2baH9ppgfDSR_r_Ifpt31CBIHl1fmglp6oz4BNm8_drDyZ-RWzEL9LBheiC7bIwWeKr9DN-Q6AJBZVWBoaB8C-xKsE7KM7N4XySjDEcnkEFdeB9HmufxAQx-",
+          "title": "backbonejs.org"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Backbone",
+    "domain": "backbonejs.org",
+    "description": "Backbone.js is a JavaScript framework that enhances web applications by providing a structured approach through models, collections, and views. It facilitates key-value binding, custom events, and declarative event handling, enabling developers to connect seamlessly to existing APIs via a RESTful JSON interface."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Jeremy Ashkenas and DocumentCloud",
+  "evidence": "Passage 1 states that the directly published developers and providers for the JavaScript framework Backbone (backbonejs.org) are Jeremy Ashkenas and DocumentCloud.",
+  "source": {
+    "id": 1,
+    "text": "For the JavaScript framework **Backbone** (**backbonejs.org**), the directly published developers and providers are **Jeremy Ashkenas** and **DocumentCloud**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyCPxJ2baH9ppgfDSR_r_Ifpt31CBIHl1fmglp6oz4BNm8_drDyZ-RWzEL9LBheiC7bIwWeKr9DN-Q6AJBZVWBoaB8C-xKsE7KM7N4XySjDEcnkEFdeB9HmufxAQx-",
+    "title": "backbonejs.org"
+  },
+  "checked_at": "2026-11-05T09:02:46.953315+00:00"
+}

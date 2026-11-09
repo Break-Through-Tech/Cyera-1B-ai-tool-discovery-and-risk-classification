@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Adblock Plus** at **adblockplus.org** is **eyeo GmbH**.\n\n### Evidence\n* **Terms of Use** (`adblockplus.org/terms`): \n  > *\"For purposes of these Terms, “eyeo”, “we”, “us”, or “our” means eyeo GmbH, Kunibertsgasse 10, 50668 Cologne, Germany, Local Court Cologne HRB 73508, VAT ID: DE279292414, represented by the managing directors Till Faida...\"*\n* **Imprint** (`adblockplus.org/imprint`): Lists **eyeo GmbH** (Cologne, Germany) as the operating company behind the website and product.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Adblock Plus** at **adblockplus.org** is **eyeo GmbH**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMYDWW-AaNa_hVPcYTYiqOU-UWeyAUcXG6mQWehYPnZ6ZFJRqvRGswIS8OgPN61zznBta256FQtvvdIOdres9wtUV-Jz_wB4WPyAbXjLojgOiKYw==",
+          "title": "adblockplus.org"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Adblock Plus** at **adblockplus.org** is **eyeo GmbH**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnoeEADDQRr1xyHnnkJ1bASudFt5xxbbfdHnQvGNx2ieffQt-CS6dqw6-V4UagCWp34_HZhyOfRk4gR_7QwDF-1ESsfDzRhaFs7OfkzAVmzr4pSUHY",
+          "title": "adblockplus.org"
+        },
+        {
+          "id": 2,
+          "text": "*\"For purposes of these Terms, “eyeo”, “we”, “us”, or “our” means eyeo GmbH, Kunibertsgasse 10, 50668 Cologne, Germany, Local Court Cologne HRB 73508, VAT ID: DE279292414, represented by the managing directors Till Faida...\"*\n* **Imprint** (",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMYDWW-AaNa_hVPcYTYiqOU-UWeyAUcXG6mQWehYPnZ6ZFJRqvRGswIS8OgPN61zznBta256FQtvvdIOdres9wtUV-Jz_wB4WPyAbXjLojgOiKYw==",
+          "title": "adblockplus.org"
+        },
+        {
+          "id": 3,
+          "text": "For purposes of these Terms, “eyeo”, “we”, “us”, or “our” means eyeo GmbH, Kunibertsgasse 10, 50668 Cologne, Germany, Local Court Cologne HRB 73508, VAT ID: DE279292414, represented by the managing directors Till Faida...\"*\n* **",
+          "url": "https://adblockplus.org/terms",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "eyeo GmbH",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing Adblock Plus at adblockplus.org is eyeo GmbH.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Adblock Plus** at **adblockplus.org** is **eyeo GmbH**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMYDWW-AaNa_hVPcYTYiqOU-UWeyAUcXG6mQWehYPnZ6ZFJRqvRGswIS8OgPN61zznBta256FQtvvdIOdres9wtUV-Jz_wB4WPyAbXjLojgOiKYw==",
+          "title": "adblockplus.org"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Adblock Plus",
+    "domain": "adblockplus.org",
+    "description": "Adblock Plus is a widely-used ad blocking extension available for major web browsers such as Firefox, Chrome, Safari, and on mobile platforms like Android and iOS. It enables users to block intrusive ads, including pop-ups, enhancing their browsing experience on popular websites such as Facebook and YouTube."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "eyeo GmbH",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing Adblock Plus at adblockplus.org is eyeo GmbH.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Adblock Plus** at **adblockplus.org** is **eyeo GmbH**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMYDWW-AaNa_hVPcYTYiqOU-UWeyAUcXG6mQWehYPnZ6ZFJRqvRGswIS8OgPN61zznBta256FQtvvdIOdres9wtUV-Jz_wB4WPyAbXjLojgOiKYw==",
+    "title": "adblockplus.org"
+  },
+  "checked_at": "2026-11-05T09:45:19.386285+00:00"
+}

@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on software directory and publisher listings for **Healer** associated with **tryhealer.com** (described as an AI virtual clinic offering specialist access 24/7), the identified developer/provider is **tryhealer**.\n\n* **CNET Download:** Lists *Healer for Web Apps* / *Healer for Windows* as provided **\"By tryhealer\"**.\n* **Softonic:** Explicitly lists the application specifications with **\"Developer: tryhealer\"**.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "Based on software directory and publisher listings for **Healer** associated with **tryhealer.com** (described as an AI virtual clinic offering specialist access 24/7), the identified developer/provider is **tryhealer**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQ-5pU1R7nJVHzbN9gjeHuv4AvwDMbqO7kaIOhy4oOv0RpLI7nL2FF35_9yuD2dXcRFBrWJFo6VkgnJH7r2U4czwKyYUPkQ5ow9L40WtzQbhZEYXcDtF0KLzNts-U3lbRIquPl6IdeE8U9gmaYHABD",
+          "title": "cnet.com"
+        },
+        {
+          "id": 1,
+          "text": "Based on software directory and publisher listings for **Healer** associated with **tryhealer.com** (described as an AI virtual clinic offering specialist access 24/7), the identified developer/provider is **tryhealer**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTxtwaIwB_iwmdqdk9nQkXchJEWKrIQrt0VAV7wDvI6mK95jjv75cN7HtF4drY-AGtTXMiiuQP0Q5Vxbk3RRSNIEqXPiANMQIr4fHvbChK3Cx5AGX3",
+          "title": "softonic.com"
+        },
+        {
+          "id": 2,
+          "text": "**CNET Download:** Lists *Healer for Web Apps* / *Healer for Windows* as provided **\"By tryhealer\"**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQ-5pU1R7nJVHzbN9gjeHuv4AvwDMbqO7kaIOhy4oOv0RpLI7nL2FF35_9yuD2dXcRFBrWJFo6VkgnJH7r2U4czwKyYUPkQ5ow9L40WtzQbhZEYXcDtF0KLzNts-U3lbRIquPl6IdeE8U9gmaYHABD",
+          "title": "cnet.com"
+        },
+        {
+          "id": 3,
+          "text": "**CNET Download:** Lists *Healer for Web Apps* / *Healer for Windows* as provided **\"By tryhealer\"**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDoNgd0NiPNDSrhl56p71xv24mGLstkjIQ7Jjm6bE9BM7hwszuTTCYiOnfoNEvei2EtqOWYgjR7NGbTd7u9UVbl7dbBwPw6aSq6CTrrRX1jaU_m7_PSAYSDi49wXbOgB13EQaXTDvtLL2XDCdRhyM=",
+          "title": "cnet.com"
+        },
+        {
+          "id": 4,
+          "text": "**Softonic:** Explicitly lists the application specifications with **\"Developer: tryhealer\"**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTxtwaIwB_iwmdqdk9nQkXchJEWKrIQrt0VAV7wDvI6mK95jjv75cN7HtF4drY-AGtTXMiiuQP0Q5Vxbk3RRSNIEqXPiANMQIr4fHvbChK3Cx5AGX3",
+          "title": "softonic.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "tryhealer",
+        "evidence": "Softonic explicitly lists the application specifications for Healer with 'Developer: tryhealer'.",
+        "source": {
+          "id": 4,
+          "text": "**Softonic:** Explicitly lists the application specifications with **\"Developer: tryhealer\"**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTxtwaIwB_iwmdqdk9nQkXchJEWKrIQrt0VAV7wDvI6mK95jjv75cN7HtF4drY-AGtTXMiiuQP0Q5Vxbk3RRSNIEqXPiANMQIr4fHvbChK3Cx5AGX3",
+          "title": "softonic.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Healer",
+    "domain": "tryhealer.com",
+    "description": "AI specialists in your pocket 24/7"
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "tryhealer",
+  "evidence": "Softonic explicitly lists the application specifications for Healer with 'Developer: tryhealer'.",
+  "source": {
+    "id": 4,
+    "text": "**Softonic:** Explicitly lists the application specifications with **\"Developer: tryhealer\"**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTxtwaIwB_iwmdqdk9nQkXchJEWKrIQrt0VAV7wDvI6mK95jjv75cN7HtF4drY-AGtTXMiiuQP0Q5Vxbk3RRSNIEqXPiANMQIr4fHvbChK3Cx5AGX3",
+    "title": "softonic.com"
+  },
+  "checked_at": "2026-11-05T06:24:06.993381+00:00"
+}

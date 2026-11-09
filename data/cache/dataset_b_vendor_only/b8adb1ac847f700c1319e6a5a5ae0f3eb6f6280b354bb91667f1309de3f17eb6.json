@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "For the software product **Kubernetes** at the domain **kubernetes.io**:\n\n* **Vendor / Operating Entity:** **LF Projects, LLC** (operating as **Kubernetes a Series of LF Projects, LLC**, under **The Linux Foundation** / Cloud Native Computing Foundation).\n* **Published Developer / Authors:** **The Kubernetes Authors**.\n\n### Official Provider Statement\nFrom the official footer and policy notice across **kubernetes.io**:\n> *\"© The Kubernetes Authors | Documentation Distributed under CC BY 4.0. Copyright © Kubernetes a Series of LF Projects, LLC. For website terms of use, trademark policy and other project policies please see https://lfprojects.org/policies/.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "For the software product **Kubernetes** at the domain **kubernetes.io**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCg5gESYna3OE_GCPoq3BsXwVUudgdkaRzfMUGIotz7ieBj_9wkuxQYGqmQVYfZWPOmVrwpc4j5Rb_v1Y_SGUIVcn-zXsmqk31d26Q",
+          "title": "kubernetes.io"
+        },
+        {
+          "id": 1,
+          "text": "**Vendor / Operating Entity:** **LF Projects, LLC** (operating as **Kubernetes a Series of LF Projects, LLC**, under **The Linux Foundation** / Cloud Native Computing Foundation)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0fMGYKKXhbm09i_g1jeNIzu3WQ4Z0WYH0HKHG0Rp-LjzN8rZQEYWvpv18IfgpIhoLd9bJSAEANnPhXzo4NNvNAf8S3r6jUcf_L1R332DH5WVu14KGyvEFS_uhw967d4P1YP8=",
+          "title": "kubernetes.io"
+        },
+        {
+          "id": 2,
+          "text": "**Vendor / Operating Entity:** **LF Projects, LLC** (operating as **Kubernetes a Series of LF Projects, LLC**, under **The Linux Foundation** / Cloud Native Computing Foundation)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCg5gESYna3OE_GCPoq3BsXwVUudgdkaRzfMUGIotz7ieBj_9wkuxQYGqmQVYfZWPOmVrwpc4j5Rb_v1Y_SGUIVcn-zXsmqk31d26Q",
+          "title": "kubernetes.io"
+        },
+        {
+          "id": 3,
+          "text": "**Published Developer / Authors:** **The Kubernetes Authors**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0fMGYKKXhbm09i_g1jeNIzu3WQ4Z0WYH0HKHG0Rp-LjzN8rZQEYWvpv18IfgpIhoLd9bJSAEANnPhXzo4NNvNAf8S3r6jUcf_L1R332DH5WVu14KGyvEFS_uhw967d4P1YP8=",
+          "title": "kubernetes.io"
+        },
+        {
+          "id": 4,
+          "text": "**Published Developer / Authors:** **The Kubernetes Authors**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCg5gESYna3OE_GCPoq3BsXwVUudgdkaRzfMUGIotz7ieBj_9wkuxQYGqmQVYfZWPOmVrwpc4j5Rb_v1Y_SGUIVcn-zXsmqk31d26Q",
+          "title": "kubernetes.io"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "LF Projects, LLC",
+        "evidence": "Passage 1 identifies LF Projects, LLC (operating as Kubernetes a Series of LF Projects, LLC, under The Linux Foundation / Cloud Native Computing Foundation) as the Vendor / Operating Entity for Kubernetes.",
+        "source": {
+          "id": 1,
+          "text": "**Vendor / Operating Entity:** **LF Projects, LLC** (operating as **Kubernetes a Series of LF Projects, LLC**, under **The Linux Foundation** / Cloud Native Computing Foundation)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0fMGYKKXhbm09i_g1jeNIzu3WQ4Z0WYH0HKHG0Rp-LjzN8rZQEYWvpv18IfgpIhoLd9bJSAEANnPhXzo4NNvNAf8S3r6jUcf_L1R332DH5WVu14KGyvEFS_uhw967d4P1YP8=",
+          "title": "kubernetes.io"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Kubernetes",
+    "domain": "kubernetes.io",
+    "description": "Kubernetes (K8s) is an open-source platform designed for automating the deployment, scaling, and management of containerized applications. It organizes containers into logical groups for simpler management and discovery, leveraging over 15 years of production workload experience from Google. Kubernetes is built on principles that enable scalable performance, allowing organizations to efficiently manage resources without the need for extensive operational manpower."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "LF Projects, LLC",
+  "evidence": "Passage 1 identifies LF Projects, LLC (operating as Kubernetes a Series of LF Projects, LLC, under The Linux Foundation / Cloud Native Computing Foundation) as the Vendor / Operating Entity for Kubernetes.",
+  "source": {
+    "id": 1,
+    "text": "**Vendor / Operating Entity:** **LF Projects, LLC** (operating as **Kubernetes a Series of LF Projects, LLC**, under **The Linux Foundation** / Cloud Native Computing Foundation)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0fMGYKKXhbm09i_g1jeNIzu3WQ4Z0WYH0HKHG0Rp-LjzN8rZQEYWvpv18IfgpIhoLd9bJSAEANnPhXzo4NNvNAf8S3r6jUcf_L1R332DH5WVu14KGyvEFS_uhw967d4P1YP8=",
+    "title": "kubernetes.io"
+  },
+  "checked_at": "2026-11-05T09:50:56.904613+00:00"
+}

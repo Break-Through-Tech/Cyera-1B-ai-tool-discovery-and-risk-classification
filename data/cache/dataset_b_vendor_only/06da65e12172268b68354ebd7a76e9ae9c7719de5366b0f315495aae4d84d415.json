@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Babbel** at **babbel.com** is **Babbel GmbH** (formerly known as **Lesson Nine GmbH**).\n\n### Evidence & Provider Statement\nAccording to the official legal notices and terms on `babbel.com`:\n* **Imprint**: \n  > *\"Babbel GmbH. Andreasstraße 72, 10243 Berlin ... Amtsgericht Berlin-Charlottenburg: HRB 110215 [DE 257994711]\"*\n* **Terms & Conditions**: \n  > *\"These [...] Terms apply to all contracts between Babbel GmbH, Andreasstraße 72, 10243 Berlin, Germany (“Babbel”) and its customers [...]\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Babbel** at **babbel.com** is **Babbel GmbH** (formerly known as **Lesson Nine GmbH**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMemXrGolgbJtKcFPDV9wsg741u2etBSJi9egBKRaXzgIhXZNEO0KDXtvnHbNNWhUbxjXkrhLyfTZxju8VmG9QGVBDYcka3tvGQKYeyLYiCcstlupQUX90VkqvKk5y5ZlTiQ==",
+          "title": "babbel-giftshop.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Babbel** at **babbel.com** is **Babbel GmbH** (formerly known as **Lesson Nine GmbH**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqATdHYuPceYwL9zpXl7DjfUgl4myDgZp4QRqGC-ox1K4fRxcLs1NjSf3WoCOkbZPVhSXPdKgecn3vvm2bai1Z6W5sm4UVpJmatiY4B8LDu962o3yBaAIrgEt5vmDm2RfTf2ZZJxM3WrzMubEsw7mg-buOsJTKxJhP5zu3I9SpBffINwmLXEdEj60PRIrtM7kR6AT-OMtgeqZp5b5cp2LnhA==",
+          "title": "online-handelsregister.de"
+        },
+        {
+          "id": 2,
+          "text": "mtsgericht Berlin-Charlottenburg: HRB 110215 [DE 257994711]\"*\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaPYR1Ug7i1INHSjkLKBDlncf4NzZTUnbtzM32SVLfxC6vR4aT05T9Yn1Dj-1VUVUSVY5ryzuqfwTWrnDY78xUnTLkcfaWkrDxQKDU7TWsqT7fZyVTTekkTMhnvGIDytcvFQ==",
+          "title": "babbel-giftshop.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Babbel GmbH",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing Babbel at babbel.com is Babbel GmbH (formerly known as Lesson Nine GmbH).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Babbel** at **babbel.com** is **Babbel GmbH** (formerly known as **Lesson Nine GmbH**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMemXrGolgbJtKcFPDV9wsg741u2etBSJi9egBKRaXzgIhXZNEO0KDXtvnHbNNWhUbxjXkrhLyfTZxju8VmG9QGVBDYcka3tvGQKYeyLYiCcstlupQUX90VkqvKk5y5ZlTiQ==",
+          "title": "babbel-giftshop.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Babbel",
+    "domain": "babbel.com",
+    "description": "Babbel is a leading online language learning platform founded in 2007. With more than 1 million active subscribers, it offers meticulously designed courses that enable users to acquire practical language skills quickly. The company emphasizes effective learning, claiming that 73% of users can engage in basic conversations in their target language within just five hours. Babbel operates with a diverse team of 450 multilingual professionals across Berlin and New York, aiming to make language learning accessible and enjoyable."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Babbel GmbH",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing Babbel at babbel.com is Babbel GmbH (formerly known as Lesson Nine GmbH).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Babbel** at **babbel.com** is **Babbel GmbH** (formerly known as **Lesson Nine GmbH**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMemXrGolgbJtKcFPDV9wsg741u2etBSJi9egBKRaXzgIhXZNEO0KDXtvnHbNNWhUbxjXkrhLyfTZxju8VmG9QGVBDYcka3tvGQKYeyLYiCcstlupQUX90VkqvKk5y5ZlTiQ==",
+    "title": "babbel-giftshop.com"
+  },
+  "checked_at": "2026-11-05T08:22:21.069519+00:00"
+}

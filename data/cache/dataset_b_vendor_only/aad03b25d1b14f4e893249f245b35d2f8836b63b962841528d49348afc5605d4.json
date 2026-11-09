@@ -1,0 +1,79 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on the official legal terms and developer documentation for **BlazorData** at **`blazordata.net`**:\n\n* **Vendor / Provider:** **BlazorData.net** (founded and operated by developer **Michael Washington**).\n* **Evidence and Provider Statements:**\n  * **Terms of Service & Privacy Statement:** The official Terms of Service state: *\"These terms govern your use of BlazorData.net... By creating an account or using the service, you agree to them... © 2026 BlazorData.net\"*. The Privacy Statement specifies: *\"This Statement of Privacy applies to the BlazorData.Net Web site and governs data collection and usage... BlazorData.Net collects and uses your personal information to operate the BlazorData.Net Web site and deliver the services you have requested.\"*\n  * **Developer / Publisher Identification:** Microsoft Store and GitHub listings identify the publisher and developer directly as **BlazorData.net**, created and maintained by founder **Michael Washington**.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**Vendor / Provider:** **BlazorData.net** (founded and operated by developer **Michael Washington**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFtuE6Vl36FsXKoIA__Qgk_irR-ubtCGfxhZ-dpuTz4BwpjYnZllgdUsbxWxQ0oKJapdnpqTUOT8gOdfsnOOVW1r8SfA_CTLYRvMT_4p1SeP0bKz0Ijr-5oKYSuqRg3zkiqpXV-BzojU8I14N8=",
+          "title": "pydata.org"
+        },
+        {
+          "id": 1,
+          "text": "**Vendor / Provider:** **BlazorData.net** (founded and operated by developer **Michael Washington**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvTDMBc6bgoX-q-gSxabj-Z1mNappFe21C_KxquQ18YOCspRjoMd9Y_6fmhZiGFe-PC7H4_qCCUMpLgUH7ZAZgY--8_EGMZaF98CM9SdjPtjcmlGPU21eo",
+          "title": "blazordata.net"
+        },
+        {
+          "id": 2,
+          "text": "© 2026 BlazorData.net\"*.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvTDMBc6bgoX-q-gSxabj-Z1mNappFe21C_KxquQ18YOCspRjoMd9Y_6fmhZiGFe-PC7H4_qCCUMpLgUH7ZAZgY--8_EGMZaF98CM9SdjPtjcmlGPU21eo",
+          "title": "blazordata.net"
+        },
+        {
+          "id": 3,
+          "text": "lazorData.Net collects and uses your personal information to operate the BlazorData.Net Web site and deliver the services you have requested.\"*\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBfw8t3rewlmUSNlJ-4TMqHf58i6uItiyCptluih14qk2Nv0gUAqUGNMzXQ4aKroH-rHsLDshSZJ5D3eYSUmb0JkqI67dqyKODM5d9o8BGyGSodu9ijrx6du22UFzaF4UE6OIMhTPQzP1e",
+          "title": "blazordata.net"
+        },
+        {
+          "id": 4,
+          "text": "*Developer / Publisher Identification:** Microsoft Store and GitHub listings identify the publisher and developer directly as **BlazorData.net**, created and maintained by founder **Michael Washington**.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAvC-LEIyJo801n_Clpuxzh-DtjIIF2T9PDkfYduMvXf4mN-zohsjJPHXlv969eOury0CVT_khSoAaLIjWrlDQAsaVAsHA7_DAB0t9P3OkQBLlrUC0yCxyvdWCFydFJ122vmbVenFWXqM7lvfsle_neHs=",
+          "title": "microsoft.com"
+        },
+        {
+          "id": 5,
+          "text": "*Developer / Publisher Identification:** Microsoft Store and GitHub listings identify the publisher and developer directly as **BlazorData.net**, created and maintained by founder **Michael Washington**.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFtuE6Vl36FsXKoIA__Qgk_irR-ubtCGfxhZ-dpuTz4BwpjYnZllgdUsbxWxQ0oKJapdnpqTUOT8gOdfsnOOVW1r8SfA_CTLYRvMT_4p1SeP0bKz0Ijr-5oKYSuqRg3zkiqpXV-BzojU8I14N8=",
+          "title": "pydata.org"
+        },
+        {
+          "id": 6,
+          "text": "*Developer / Publisher Identification:** Microsoft Store and GitHub listings identify the publisher and developer directly as **BlazorData.net**, created and maintained by founder **Michael Washington**.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4DQBrvZLBgKoj6y5DrwAiZQGLJTrq41kv1lqTUgpbQMhOCqcdO4JRerZnf-b6L7VXhgZvEMPOWRuBzECCooPzgKU5Xz4pbfXVDbe8rp3aHjmqlWZE",
+          "title": "github.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "BlazorData.net",
+        "evidence": "Passage 1 identifies the vendor and provider as BlazorData.net, founded and operated by developer Michael Washington.",
+        "source": {
+          "id": 1,
+          "text": "**Vendor / Provider:** **BlazorData.net** (founded and operated by developer **Michael Washington**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvTDMBc6bgoX-q-gSxabj-Z1mNappFe21C_KxquQ18YOCspRjoMd9Y_6fmhZiGFe-PC7H4_qCCUMpLgUH7ZAZgY--8_EGMZaF98CM9SdjPtjcmlGPU21eo",
+          "title": "blazordata.net"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "BlazorData",
+    "domain": "blazordata.net",
+    "description": "BlazorData is an AI-powered tool that integrates advanced data analysis directly into Blazor applications. It enables users to query data using natural language, generate insights, create interactive visualizations, and build custom dashboards, enhancing decision-making within the Blazor environment."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "BlazorData.net",
+  "evidence": "Passage 1 identifies the vendor and provider as BlazorData.net, founded and operated by developer Michael Washington.",
+  "source": {
+    "id": 1,
+    "text": "**Vendor / Provider:** **BlazorData.net** (founded and operated by developer **Michael Washington**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvTDMBc6bgoX-q-gSxabj-Z1mNappFe21C_KxquQ18YOCspRjoMd9Y_6fmhZiGFe-PC7H4_qCCUMpLgUH7ZAZgY--8_EGMZaF98CM9SdjPtjcmlGPU21eo",
+    "title": "blazordata.net"
+  },
+  "checked_at": "2026-11-05T06:12:09.511713+00:00"
+}

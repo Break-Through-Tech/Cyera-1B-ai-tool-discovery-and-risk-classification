@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the product **Getfloorplan** at **getfloorplan.com** is **Getfloorplan** (also operating as **Getfloorplan.com**).\n\n### Evidence\n* **Privacy Policy (`getfloorplan.com`):** \n  > *\"This privacy policy (“Privacy Policy”) describes the collection of personal information by Getfloorplan. (“Company,” “we,” “us”, or “our”) from users (“you”, “your”) when using the services available on this and other websites we operate... For the purposes of EU data protection laws (\"Data Protection Legislation\"), Getfloorplan is a data controller (i.e., the company that is responsible for, and controls the processing of, your personal information).\"*\n\n* **Terms and Conditions (`getfloorplan.com`):** \n  > *\"Getfloorplan.com will provide User Getfloorplan and related services which are part of the free use subscription and services as described on the Getfloorplan website (Getfloorplan.com). Getfloorplan.com hereby grants to User subject to these terms and conditions a non-exclusive, non transferable license to use Getfloorplan...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the product **Getfloorplan** at **getfloorplan.com** is **Getfloorplan** (also operating as **Getfloorplan.com**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyIoeQoXHi-6t6cC3iZIJxv1FRwfGZ1OV6QhHc5-FOe0BjVJDIyHGSicpzLmTd4TtggOcajwMlmdLdSwi4fucf-schAFMbh45NwZNertNo-PZ7PBM9BevCkPMtajk=",
+          "title": "getfloorplan.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the product **Getfloorplan** at **getfloorplan.com** is **Getfloorplan** (also operating as **Getfloorplan.com**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGW25O73hCLax_60SahTbaTaAuk3GAOKCmzKveuqPuRJYu5pLdUI5nfkLM0KEgnWt-U8UBGiYtG-e9XsU1wldfekgBpfbuJjO2WqIt2YWo6uyimd5SNFVKwbUwtJVFQHMNbAfo=",
+          "title": "getfloorplan.com"
+        },
+        {
+          "id": 2,
+          "text": "protection laws (\"Data Protection Legislation\"), Getfloorplan is a data controller (i.e., the company that is responsible for, and controls the processing of, your personal information).\"*\n\n* **Terms and Conditions (",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyIoeQoXHi-6t6cC3iZIJxv1FRwfGZ1OV6QhHc5-FOe0BjVJDIyHGSicpzLmTd4TtggOcajwMlmdLdSwi4fucf-schAFMbh45NwZNertNo-PZ7PBM9BevCkPMtajk=",
+          "title": "getfloorplan.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Getfloorplan",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing the product Getfloorplan at getfloorplan.com is Getfloorplan (also operating as Getfloorplan.com).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the product **Getfloorplan** at **getfloorplan.com** is **Getfloorplan** (also operating as **Getfloorplan.com**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyIoeQoXHi-6t6cC3iZIJxv1FRwfGZ1OV6QhHc5-FOe0BjVJDIyHGSicpzLmTd4TtggOcajwMlmdLdSwi4fucf-schAFMbh45NwZNertNo-PZ7PBM9BevCkPMtajk=",
+          "title": "getfloorplan.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Getfloorplan",
+    "domain": "getfloorplan.com",
+    "description": "Quick and easy 3D floor plan creation."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Getfloorplan",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing the product Getfloorplan at getfloorplan.com is Getfloorplan (also operating as Getfloorplan.com).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the product **Getfloorplan** at **getfloorplan.com** is **Getfloorplan** (also operating as **Getfloorplan.com**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyIoeQoXHi-6t6cC3iZIJxv1FRwfGZ1OV6QhHc5-FOe0BjVJDIyHGSicpzLmTd4TtggOcajwMlmdLdSwi4fucf-schAFMbh45NwZNertNo-PZ7PBM9BevCkPMtajk=",
+    "title": "getfloorplan.com"
+  },
+  "checked_at": "2026-11-05T06:05:00.746650+00:00"
+}

@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **Intellectia** available at **intellectia.ai** (and distributed via official mobile app stores as *Intellectia: AI Trading Signal*) is provided and operated by **INTELLECTIA (HONG KONG) LIMITED**.\n\n### Evidence & Provider Statements\n* **Google Play Store Listing:** Under the official app listing for *Intellectia: AI Trading Signal* (which directs users to `intellectia.ai/terms-of-service` and `intellectia.ai/privacy`), the developer details state:\n  > **About the developer:** `INTELLECTIA (HONG KONG) LIMITED`  \n  > **Address:** `Rm A1 11/F SUCCESS COML BLDG 245-251 HENNESSY RD 灣仔 香港島 Hong Kong`\n* **Apple App Store Listing:** The registered developer and seller is explicitly identified as **`INTELLECTIA(HONG KONG)LIMITED`**.\n* **Corporate News Releases:** Platform launch announcements for *Intellectia.AI* officially list the source company as **`Intellectia (Hong Kong) Limited`**.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **Intellectia** available at **intellectia.ai** (and distributed via official mobile app stores as *Intellectia: AI Trading Signal*) is provided and operated by **INTELLECTIA (HONG KONG) LIMITED**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcu40z9Cs1jITeVAp6J5apXGRRKTei-1d9Us8efIm-FBonT1pQokfW4QPqMMhFoGMQyj6Vx6kz_DXKRmqmBrlA5qSozkUuVgkmvmbRoSTuU_-32x72oMwH6sJjFpOwhIeMEV2OsnZTR6IjAZf1JnG6QG9fO5QC6cjl9clv_Q0=",
+          "title": "apple.com"
+        },
+        {
+          "id": 1,
+          "text": "The software product **Intellectia** available at **intellectia.ai** (and distributed via official mobile app stores as *Intellectia: AI Trading Signal*) is provided and operated by **INTELLECTIA (HONG KONG) LIMITED**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERueJSh000g4PBMNk25MWaG4EVI3JsPYzVSsin4L7_b2aYMiembJC6M-dO3ALEH1ENCiFJI2unxyE0_d96Ev3Lrlobm8frB1Yt_j9zjVOnkS2dgkZ4vSFqQJJ0Z6m7AXYwIbZ_THWt99l7jPOKQ6x79aQHp7r9ApKEeQwC45gNBzTfXawBMg47",
+          "title": "google.com"
+        },
+        {
+          "id": 2,
+          "text": "**Google Play Store Listing:** Under the official app listing for *Intellectia: AI Trading Signal* (which directs users to `intellectia.ai/terms-of-service` and `intellectia.ai/privacy`), the developer details state",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExZ_dSn1M8v7427IfaFkfReTveOtBQhWHOt6_NRCXDD14TiqaAMvV1Cs8nRgpduKHC7FCQglje5Ga1ebIIn4GI1Pd9hSDv82LJhnYPOWq2ZhwapxAvPaKzr6IUT37ZZ7r1WR5KYIHGsIRCRsrMzfbLXsJhR7YGjUORIskEnBeHkOEQPzzxnWaS",
+          "title": "google.com"
+        },
+        {
+          "id": 3,
+          "text": "**Google Play Store Listing:** Under the official app listing for *Intellectia: AI Trading Signal* (which directs users to `intellectia.ai/terms-of-service` and `intellectia.ai/privacy`), the developer details state",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERueJSh000g4PBMNk25MWaG4EVI3JsPYzVSsin4L7_b2aYMiembJC6M-dO3ALEH1ENCiFJI2unxyE0_d96Ev3Lrlobm8frB1Yt_j9zjVOnkS2dgkZ4vSFqQJJ0Z6m7AXYwIbZ_THWt99l7jPOKQ6x79aQHp7r9ApKEeQwC45gNBzTfXawBMg47",
+          "title": "google.com"
+        },
+        {
+          "id": 4,
+          "text": "**Address:** `Rm A1 11/F SUCCESS COML BLDG 245-251 HENNESSY RD 灣仔 香港島 Hong Kong`\n* **Apple",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERueJSh000g4PBMNk25MWaG4EVI3JsPYzVSsin4L7_b2aYMiembJC6M-dO3ALEH1ENCiFJI2unxyE0_d96Ev3Lrlobm8frB1Yt_j9zjVOnkS2dgkZ4vSFqQJJ0Z6m7AXYwIbZ_THWt99l7jPOKQ6x79aQHp7r9ApKEeQwC45gNBzTfXawBMg47",
+          "title": "google.com"
+        },
+        {
+          "id": 5,
+          "text": "p Store Listing:** The registered developer and seller is explicitly identified as **`INTELLECTIA(HONG KONG)LIMITED`**.\n* **Corp",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcu40z9Cs1jITeVAp6J5apXGRRKTei-1d9Us8efIm-FBonT1pQokfW4QPqMMhFoGMQyj6Vx6kz_DXKRmqmBrlA5qSozkUuVgkmvmbRoSTuU_-32x72oMwH6sJjFpOwhIeMEV2OsnZTR6IjAZf1JnG6QG9fO5QC6cjl9clv_Q0=",
+          "title": "apple.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "INTELLECTIA (HONG KONG) LIMITED",
+        "evidence": "Passage 0 states that the software product Intellectia available at intellectia.ai is provided and operated by INTELLECTIA (HONG KONG) LIMITED.",
+        "source": {
+          "id": 0,
+          "text": "The software product **Intellectia** available at **intellectia.ai** (and distributed via official mobile app stores as *Intellectia: AI Trading Signal*) is provided and operated by **INTELLECTIA (HONG KONG) LIMITED**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcu40z9Cs1jITeVAp6J5apXGRRKTei-1d9Us8efIm-FBonT1pQokfW4QPqMMhFoGMQyj6Vx6kz_DXKRmqmBrlA5qSozkUuVgkmvmbRoSTuU_-32x72oMwH6sJjFpOwhIeMEV2OsnZTR6IjAZf1JnG6QG9fO5QC6cjl9clv_Q0=",
+          "title": "apple.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Intellectia",
+    "domain": "intellectia.ai",
+    "description": "AI-driven insights for smarter investment decisions."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "INTELLECTIA (HONG KONG) LIMITED",
+  "evidence": "Passage 0 states that the software product Intellectia available at intellectia.ai is provided and operated by INTELLECTIA (HONG KONG) LIMITED.",
+  "source": {
+    "id": 0,
+    "text": "The software product **Intellectia** available at **intellectia.ai** (and distributed via official mobile app stores as *Intellectia: AI Trading Signal*) is provided and operated by **INTELLECTIA (HONG KONG) LIMITED**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcu40z9Cs1jITeVAp6J5apXGRRKTei-1d9Us8efIm-FBonT1pQokfW4QPqMMhFoGMQyj6Vx6kz_DXKRmqmBrlA5qSozkUuVgkmvmbRoSTuU_-32x72oMwH6sJjFpOwhIeMEV2OsnZTR6IjAZf1JnG6QG9fO5QC6cjl9clv_Q0=",
+    "title": "apple.com"
+  },
+  "checked_at": "2026-11-05T05:44:18.862115+00:00"
+}

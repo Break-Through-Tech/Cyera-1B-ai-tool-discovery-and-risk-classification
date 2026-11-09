@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Constant Contact** at **constantcontact.com** is **Constant Contact, Inc.**.\n\n### Supporting Evidence\n* **API License Agreement & Product Terms:** The agreement specifies that it is a legal contract between the user and *\"Constant Contact, Inc. ('Constant Contact'), for use of certain of Constant Contact's Application Programming Interfaces ('APIs') that enable Developer to provide additional functionality for users of Constant Contact products or to integrate access to certain Constant Contact products... available at www.constantcontact.com (the 'Constant Contact Products')\"*.\n* **Website Terms & Ownership:** Official terms and notices across `constantcontact.com` confirm: *\"Constant Contact provides a variety of services, including digital marketing and customer relationship management services, that are subject to these Terms of Service\"* alongside the notice *\"© Constant Contact, Inc. ... Constant Contact® is a registered trademark of Constant Contact, Inc.\"*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Constant Contact** at **constantcontact.com** is **Constant Contact, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHctLeiaAOpAg5tTFfgXAhIRroeShBBryJ6kpom2cDjgQTIfgmKC_ZElGp8bpTuRGzYg12Pj_vHB7VOf5jNxfqkmQKqyY8PklC6KKHTfoFm0MpqKo9T4MNKPfUunFlG1m8m2nCAQgMxaRSAM-Ai-GkOQr39gpJhmESNQGXUMzrWHQ==",
+          "title": "constantcontact.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Constant Contact** at **constantcontact.com** is **Constant Contact, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0_Wilmayh7arrPJ6f3S1-xfAAsZlp8BiL1XVuV_u8BWhx1s43Fa_A4GmnPrgPzlufh_lSXujHzDnXzPLtwwjK8aYIVYPKanQcdxi0xGtFkr80mkQZcA==",
+          "title": "constantcontact.com"
+        },
+        {
+          "id": 2,
+          "text": "**API License Agreement & Product Terms:** The agreement specifies that it is a legal contract between the user and *\"Constant Contact, Inc. ('Constant Contact'), for use of certain of Constant Contact's Application Programming Interfaces ('APIs') that enable Developer to provide additional functionality for users of Constant Contact products or to integrate access to certain Constant Contact products... available at www.constantcontact.com (the 'Constant Contact Products')\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHctLeiaAOpAg5tTFfgXAhIRroeShBBryJ6kpom2cDjgQTIfgmKC_ZElGp8bpTuRGzYg12Pj_vHB7VOf5jNxfqkmQKqyY8PklC6KKHTfoFm0MpqKo9T4MNKPfUunFlG1m8m2nCAQgMxaRSAM-Ai-GkOQr39gpJhmESNQGXUMzrWHQ==",
+          "title": "constantcontact.com"
+        },
+        {
+          "id": 3,
+          "text": "**Website Terms & Ownership:** Official terms and notices across `constantcontact.com` confirm: *\"Constant Contact provides a variety of services, including digital marketing and customer relationship management services, that are subject to these Terms of Service\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKhiNqS-QdD54dF4wMQCCXP1hGuTzDjyuwoNzsZlhDNet7X1umzbV6yzk8ZVbYf_hGe1lvgZNu47zGQUixsaz3b-iw4MP5eeGU7loCYrss4c2-jPa-fl6zc4cCPw==",
+          "title": "constantcontact.com"
+        },
+        {
+          "id": 4,
+          "text": "and *\"Constant Contact, Inc. ('Constant Contact'), for use of certain of Constant Contact's Application Programming Interfaces ('APIs') that enable Developer to provide additional functionality for users of Constant Contact products or to integrate access to certain Constant Contact produ",
+          "url": "http://developer.constantcontact.com/home/api-terms-and-conditions.html",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Constant Contact, Inc.",
+        "evidence": "The agreement specifies that it is a legal contract between the user and Constant Contact, Inc. for APIs that provide functionality for or integrate access to Constant Contact products available at www.constantcontact.com.",
+        "source": {
+          "id": 2,
+          "text": "**API License Agreement & Product Terms:** The agreement specifies that it is a legal contract between the user and *\"Constant Contact, Inc. ('Constant Contact'), for use of certain of Constant Contact's Application Programming Interfaces ('APIs') that enable Developer to provide additional functionality for users of Constant Contact products or to integrate access to certain Constant Contact products... available at www.constantcontact.com (the 'Constant Contact Products')\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHctLeiaAOpAg5tTFfgXAhIRroeShBBryJ6kpom2cDjgQTIfgmKC_ZElGp8bpTuRGzYg12Pj_vHB7VOf5jNxfqkmQKqyY8PklC6KKHTfoFm0MpqKo9T4MNKPfUunFlG1m8m2nCAQgMxaRSAM-Ai-GkOQr39gpJhmESNQGXUMzrWHQ==",
+          "title": "constantcontact.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Constant Contact",
+    "domain": "constantcontact.com",
+    "description": "Constant Contact provides digital marketing solutions tailored for small businesses, offering tools to enhance customer engagement, drive sales, and grow a customer base. Their services include email marketing, social media management, and online survey options aimed at helping businesses establish strong connections and achieve impactful results."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Constant Contact, Inc.",
+  "evidence": "The agreement specifies that it is a legal contract between the user and Constant Contact, Inc. for APIs that provide functionality for or integrate access to Constant Contact products available at www.constantcontact.com.",
+  "source": {
+    "id": 2,
+    "text": "**API License Agreement & Product Terms:** The agreement specifies that it is a legal contract between the user and *\"Constant Contact, Inc. ('Constant Contact'), for use of certain of Constant Contact's Application Programming Interfaces ('APIs') that enable Developer to provide additional functionality for users of Constant Contact products or to integrate access to certain Constant Contact products... available at www.constantcontact.com (the 'Constant Contact Products')\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHctLeiaAOpAg5tTFfgXAhIRroeShBBryJ6kpom2cDjgQTIfgmKC_ZElGp8bpTuRGzYg12Pj_vHB7VOf5jNxfqkmQKqyY8PklC6KKHTfoFm0MpqKo9T4MNKPfUunFlG1m8m2nCAQgMxaRSAM-Ai-GkOQr39gpJhmESNQGXUMzrWHQ==",
+    "title": "constantcontact.com"
+  },
+  "checked_at": "2026-11-05T08:37:16.820047+00:00"
+}

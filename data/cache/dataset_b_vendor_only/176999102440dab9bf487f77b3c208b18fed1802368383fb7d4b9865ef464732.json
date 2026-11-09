@@ -1,0 +1,79 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software and podcast hosting services at **libsyn.com** is **Liberated Syndication, Inc.** (operating directly and through its wholly owned operating subsidiary, **Webmayhem, Inc. d/b/a Liberated Syndication**).\n\n### Evidence & Provider Statements\n* **Terms of Service & Beta Terms (`libsyn.com`):** \n  > *\"Beta Products and Services are the property of Liberated Syndication, Inc., a Nevada Corporation with offices at 5001 Baum Boulevard, Suite 770, Pittsburgh, Pennsylvania 15213, its affiliates and licensors. Liberated Syndication, Inc. ('Libsyn' or 'Company'), provides services through Libsyn-websites including Libsyn and LibsynPro podcast hosting platform...\"*\n* **GDPR & Legal Disclosures (`libsyn.com`):** \n  > *\"Webmayhem dba Liberated Syndication or Libsyn is a wholly owned subsidiary of Liberated Syndication, Inc. a Nevada, U.S. Corporation...\"* and *\"'Libsyn' as used herein means Webmayhem, Inc. doing business as Liberated Syndication and as Libsyn...\"*\n* **Privacy Policy (`libsyn.com`):** \n  > *\"This Privacy Policy describes our privacy practices associated with the website Libsyn.com, software products and online Services ('Services') of Liberated Syndication ('Libsyn')...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software and podcast hosting services at **libsyn.com** is **Liberated Syndication, Inc.** (operating directly and through its wholly owned operating subsidiary, **Webmayhem, Inc. d/b/a Liberated Syndication**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiTYXOi43jDzZgpXwxxStbXR-40lLc1zyWm6QiCyrSySm-PoBTWsrH2MFESWvx-yh0-xl5sASBDJRFRyplqccIGDGzeHfIj1lePpbjxcSz3G5y8fz6RzICvVWDiwSJqkAytxgsgzI=",
+          "title": "libsyn.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the software and podcast hosting services at **libsyn.com** is **Liberated Syndication, Inc.** (operating directly and through its wholly owned operating subsidiary, **Webmayhem, Inc. d/b/a Liberated Syndication**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFItakX0qzxIDyMMcdlK3A_wJ5IRIuMC3mg6Dr-Omu0IsVhgFZDLSaa6uJpnulLjgreTI2wn7M9laqtltp4fBWGclYWRcyJwOYhP-mMQ8wtpaF-Nu-g4G9Q32QScYNQ",
+          "title": "libsyn.com"
+        },
+        {
+          "id": 2,
+          "text": "Liberated Syndication, Inc. ('Libsyn' or 'Company'), provides services through Libsyn-websites including Libsyn and LibsynPro podcast hosting platform...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiTYXOi43jDzZgpXwxxStbXR-40lLc1zyWm6QiCyrSySm-PoBTWsrH2MFESWvx-yh0-xl5sASBDJRFRyplqccIGDGzeHfIj1lePpbjxcSz3G5y8fz6RzICvVWDiwSJqkAytxgsgzI=",
+          "title": "libsyn.com"
+        },
+        {
+          "id": 3,
+          "text": "*\"Webmayhem dba Liberated Syndication or Libsyn is a wholly owned subsidiary of Liberated Syndication, Inc. a Nevada, U.S. Corporation...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFItakX0qzxIDyMMcdlK3A_wJ5IRIuMC3mg6Dr-Omu0IsVhgFZDLSaa6uJpnulLjgreTI2wn7M9laqtltp4fBWGclYWRcyJwOYhP-mMQ8wtpaF-Nu-g4G9Q32QScYNQ",
+          "title": "libsyn.com"
+        },
+        {
+          "id": 4,
+          "text": "*\"Webmayhem dba Liberated Syndication or Libsyn is a wholly owned subsidiary of Liberated Syndication, Inc. a Nevada, U.S. Corporation...\"* and *\"'Libsyn' as used herein means Webmayhem, Inc. doing business as Liberated Syndication and as Libsyn...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHn_ytmCDMEOIGGdcLwXwkqVeR2px1s1eDR0nyMhDaE5Q2UnNxQ4kXe462qvANbHZfoAMoOVjC6tBbq6J07qDAfa0oLkE828yOnFK8Qt-KJ2xADws7tCoaso3FHM9RzCEy5Xp_PNUpR5InQztOwN3JNkVxVD4yROAofnDQChQuA34Zj",
+          "title": "libsyn.com"
+        },
+        {
+          "id": 5,
+          "text": "*\"This Privacy Policy describes our privacy practices associated with the website Libsyn.com, software products and online Services ('Services') of Liberated Syndication ('Libsyn')...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlxahb5p9a7r7PIpVeB8P2ayXb286k631ZH4OlOcsXohlWIa7UJYx_QR6Abn8GCB3x4t-6TnGzqCL5KGAbmB1tK8bKxBHpw9E6PtfQciO4xZg9C6N8-i5F5Oc14VoeCOkgv1gdwg==",
+          "title": "libsyn.com"
+        },
+        {
+          "id": 6,
+          "text": "Beta Products and Services are the property of Liberated Syndication, Inc., a Nevada Corporation with offices at 5001 Baum Boulevard, Suite 770, Pittsburgh, Pennsylvania 15213, its affiliates and licensors. Liberated Syndication, Inc. ('Libsyn' or 'Company'), provides services through Libsyn-websites including Libsyn and LibsynPro podcast hosting platform...\"*\n* **",
+          "url": "https://libsyn.com/tos-policies/tos-beta-testing/",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Liberated Syndication, Inc.",
+        "evidence": "Passage 6 states that Beta Products and Services are the property of Liberated Syndication, Inc., and that Liberated Syndication, Inc. ('Libsyn' or 'Company') provides services through Libsyn-websites including the Libsyn and LibsynPro podcast hosting platform.",
+        "source": {
+          "id": 6,
+          "text": "Beta Products and Services are the property of Liberated Syndication, Inc., a Nevada Corporation with offices at 5001 Baum Boulevard, Suite 770, Pittsburgh, Pennsylvania 15213, its affiliates and licensors. Liberated Syndication, Inc. ('Libsyn' or 'Company'), provides services through Libsyn-websites including Libsyn and LibsynPro podcast hosting platform...\"*\n* **",
+          "url": "https://libsyn.com/tos-policies/tos-beta-testing/",
+          "title": ""
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Libsyn - Liberated Syndication",
+    "domain": "libsyn.com",
+    "description": "Liberated Syndication (Libsyn) is a leading podcast hosting and publishing company, founded in 2004. It offers a comprehensive platform for podcast producers of all levels to establish their brand, build audiences, and monetize their content. With over 15,000 podcasts hosted and an audience reach exceeding 18 million monthly, Libsyn provides full-service hosting solutions and expert support, leveraging years of industry experience to deliver effective tools for growth in the podcasting space."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Liberated Syndication, Inc.",
+  "evidence": "Passage 6 states that Beta Products and Services are the property of Liberated Syndication, Inc., and that Liberated Syndication, Inc. ('Libsyn' or 'Company') provides services through Libsyn-websites including the Libsyn and LibsynPro podcast hosting platform.",
+  "source": {
+    "id": 6,
+    "text": "Beta Products and Services are the property of Liberated Syndication, Inc., a Nevada Corporation with offices at 5001 Baum Boulevard, Suite 770, Pittsburgh, Pennsylvania 15213, its affiliates and licensors. Liberated Syndication, Inc. ('Libsyn' or 'Company'), provides services through Libsyn-websites including Libsyn and LibsynPro podcast hosting platform...\"*\n* **",
+    "url": "https://libsyn.com/tos-policies/tos-beta-testing/",
+    "title": ""
+  },
+  "checked_at": "2026-11-05T08:39:28.592952+00:00"
+}

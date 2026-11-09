@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "For the software product **Tandem GPT** at the domain **tandem-gpt.com**, no registered legal corporate entity is designated; the product is directly created and provided by independent developers **Juan Herrera** and **Felipe Jaramillo**.\n\n### Provider Evidence\n* On the official website's \"Who did this?\" section at **tandem-gpt.com**, the creators state: \n  > *\"We are Juan and Felipe, two Colombian software engineers based in Austria. Learning German is difficult. But Felipe's ingenuity acknowledged this as an opportunity rather than an obstacle. He devised a plan to use A.I. to learn languages and very quickly created a prototype. He showed it to Juan, and Juan was sold immediately. Fast forward a few months later, and here we are.\"*\n* Associated developer listings and product documentation identify the co-founders by their full names as **Juan Herrera** and **Felipe Jaramillo**.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "For the software product **Tandem GPT** at the domain **tandem-gpt.com**, no registered legal corporate entity is designated; the product is directly created and provided by independent developers **Juan Herrera** and **Felipe Jaramillo**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlFGvJQX5KszygjSAYORVxSom0mQvDLVMyWVv6SeEkzyaY42o_3oa8jpSlZjT1vVcUdCItCmM8q_Rj_6oFHHAPG81anVA3KFfE6D2I5GtIEoJH9LUDTi0JIGvO",
+          "title": "aihunt.app"
+        },
+        {
+          "id": 1,
+          "text": "Fast forward a few months later, and here we are.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEAKMIWVQSiMPfLo_SWjO7qx-vDXr569UknkVG7q-xpktMgy8xlo0HUYYcKFnvAqptUy4ZwKX71uzoa0-5S_U_Ar_Mh0P8_i9BcDHdsOCfuQ==",
+          "title": "tandem-gpt.com"
+        },
+        {
+          "id": 2,
+          "text": "Associated developer listings and product documentation identify the co-founders by their full names as **Juan Herrera** and **Felipe Jaramillo**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgMjcEpgJW1mHG3xGRazo3ml3VyAuiz0xPLHIlRtexHqfrQ6y_68IkPJ2rCBOGg3Ry0Yqp8wj2ypVnm0OR-r3uybb9dBTeJs_othG-MVwzUgidA58pYLX35DPHtSy6W75Sg_Lflyqd1QMTIiBOrsAItCrAzgLk5MxF64cBy61zxrBHCT4g0oi6mOkVr82l5w==",
+          "title": "academichelp.net"
+        },
+        {
+          "id": 3,
+          "text": "Associated developer listings and product documentation identify the co-founders by their full names as **Juan Herrera** and **Felipe Jaramillo**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlFGvJQX5KszygjSAYORVxSom0mQvDLVMyWVv6SeEkzyaY42o_3oa8jpSlZjT1vVcUdCItCmM8q_Rj_6oFHHAPG81anVA3KFfE6D2I5GtIEoJH9LUDTi0JIGvO",
+          "title": "aihunt.app"
+        },
+        {
+          "id": 4,
+          "text": "Learning German is difficult. But Felipe's ingenuity acknowledged this as an opportunity rather than an obstacle. He devised a plan to use A.I. to learn languages and very quickly created a prototype. He showed it to Juan, and Juan was sold immediately. Fast forward a few months later, and here ",
+          "url": "https://www.tandem-gpt.com/",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Juan Herrera and Felipe Jaramillo",
+        "evidence": "Passage 0 explicitly states that for Tandem GPT at the domain tandem-gpt.com, the product is directly created and provided by independent developers Juan Herrera and Felipe Jaramillo.",
+        "source": {
+          "id": 0,
+          "text": "For the software product **Tandem GPT** at the domain **tandem-gpt.com**, no registered legal corporate entity is designated; the product is directly created and provided by independent developers **Juan Herrera** and **Felipe Jaramillo**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlFGvJQX5KszygjSAYORVxSom0mQvDLVMyWVv6SeEkzyaY42o_3oa8jpSlZjT1vVcUdCItCmM8q_Rj_6oFHHAPG81anVA3KFfE6D2I5GtIEoJH9LUDTi0JIGvO",
+          "title": "aihunt.app"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Tandem GPT",
+    "domain": "tandem-gpt.com",
+    "description": "Simulated language learning & conversation practice."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Juan Herrera and Felipe Jaramillo",
+  "evidence": "Passage 0 explicitly states that for Tandem GPT at the domain tandem-gpt.com, the product is directly created and provided by independent developers Juan Herrera and Felipe Jaramillo.",
+  "source": {
+    "id": 0,
+    "text": "For the software product **Tandem GPT** at the domain **tandem-gpt.com**, no registered legal corporate entity is designated; the product is directly created and provided by independent developers **Juan Herrera** and **Felipe Jaramillo**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlFGvJQX5KszygjSAYORVxSom0mQvDLVMyWVv6SeEkzyaY42o_3oa8jpSlZjT1vVcUdCItCmM8q_Rj_6oFHHAPG81anVA3KFfE6D2I5GtIEoJH9LUDTi0JIGvO",
+    "title": "aihunt.app"
+  },
+  "checked_at": "2026-11-05T07:40:02.606344+00:00"
+}

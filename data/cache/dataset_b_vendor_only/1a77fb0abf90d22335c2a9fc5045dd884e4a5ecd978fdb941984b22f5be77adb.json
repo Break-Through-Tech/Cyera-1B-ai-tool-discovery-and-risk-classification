@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly operating and providing the software and services for **Grafana Labs** at **grafana.com** is **Raintank, Inc.** (doing business as **Grafana Labs**).\n\n### Evidence & Provider Statements\n* **Privacy Policy (`grafana.com/legal/privacy-policy/`):** \n  > *\"Thank you for choosing to be part of our community at Raintank Inc., dba Grafana Labs (hereafter Grafana Labs), doing business as Grafana Labs (“Grafana Labs”, 'Grafana', 'we', 'us', or 'our')... This privacy policy applies to all personal information collected through our website (grafana.com), and/or any related services, sales, marketing or events...\"*\n\n* **Master Services Agreement (`grafana.com/legal/msa/`):** \n  > *\"Customer accepts this Master Services Agreement, which will be deemed a binding contract between Customer and Raintank, Inc. dba Grafana Labs (“Grafana Labs”).\"*\n\n* **Terms of Service (`grafana.com/legal/terms/`):** \n  > *\"These Grafana Labs Terms of Service (“Terms”) are a legal agreement between you (“You” or “Your”) and Grafana Labs and its affiliated companies (“We” or “Grafana” or “Grafana Labs”). They govern your access to and use of grafana.com (the “Site”) and any other Grafana Labs websites or services...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly operating and providing the software and services for **Grafana Labs** at **grafana.com** is **Raintank, Inc.** (doing business as **Grafana Labs**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFq2dYlVcFCZTq1nW9Hr4Rm7puOYcqUYz65gwYiEe7Ia4Z26rwZPr6mdsOgNQiUpOgCaBz1bzmnlsHKJ9xccS0muqmYEueH2-k7vLpZMPNwDVRbUo0t8zPE7hb2HkMoKw==",
+          "title": "grafana.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly operating and providing the software and services for **Grafana Labs** at **grafana.com** is **Raintank, Inc.** (doing business as **Grafana Labs**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyuGtagkRMfy2DvUV-a2PTY4q4JYKKe07iq-eT5bdJzhtTM6D61WX1sjy8NVoVjsG4L8E4RufW1_n71bVgN_zTlboVrLjAF_J2teKmGayn_ubyF4E=",
+          "title": "grafana.com"
+        },
+        {
+          "id": 2,
+          "text": " privacy policy applies to all personal information collected through our website (grafana.com), and/or any related services, sales, marketing or events...\"*\n\n* ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFq2dYlVcFCZTq1nW9Hr4Rm7puOYcqUYz65gwYiEe7Ia4Z26rwZPr6mdsOgNQiUpOgCaBz1bzmnlsHKJ9xccS0muqmYEueH2-k7vLpZMPNwDVRbUo0t8zPE7hb2HkMoKw==",
+          "title": "grafana.com"
+        },
+        {
+          "id": 3,
+          "text": "stomer accepts this Master Services Agreement, which will be deemed a binding contract between Customer and Raintank, Inc. dba Grafana Labs (“Grafana Labs”).\"*\n\n* **Te",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyuGtagkRMfy2DvUV-a2PTY4q4JYKKe07iq-eT5bdJzhtTM6D61WX1sjy8NVoVjsG4L8E4RufW1_n71bVgN_zTlboVrLjAF_J2teKmGayn_ubyF4E=",
+          "title": "grafana.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Raintank, Inc.",
+        "evidence": "Passage 0 confirms that the vendor directly operating and providing the software and services for Grafana Labs at grafana.com is Raintank, Inc. (doing business as Grafana Labs).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly operating and providing the software and services for **Grafana Labs** at **grafana.com** is **Raintank, Inc.** (doing business as **Grafana Labs**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFq2dYlVcFCZTq1nW9Hr4Rm7puOYcqUYz65gwYiEe7Ia4Z26rwZPr6mdsOgNQiUpOgCaBz1bzmnlsHKJ9xccS0muqmYEueH2-k7vLpZMPNwDVRbUo0t8zPE7hb2HkMoKw==",
+          "title": "grafana.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Grafana Labs",
+    "domain": "grafana.com",
+    "description": "Grafana Labs is a leading software company specializing in open-source solutions for visualizing time series data. Based in the United States, Grafana Labs develops tools that empower users to manage their monitoring systems effectively while promoting flexibility and cost-efficiency by avoiding vendor lock-in associated with proprietary systems."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Raintank, Inc.",
+  "evidence": "Passage 0 confirms that the vendor directly operating and providing the software and services for Grafana Labs at grafana.com is Raintank, Inc. (doing business as Grafana Labs).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly operating and providing the software and services for **Grafana Labs** at **grafana.com** is **Raintank, Inc.** (doing business as **Grafana Labs**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFq2dYlVcFCZTq1nW9Hr4Rm7puOYcqUYz65gwYiEe7Ia4Z26rwZPr6mdsOgNQiUpOgCaBz1bzmnlsHKJ9xccS0muqmYEueH2-k7vLpZMPNwDVRbUo0t8zPE7hb2HkMoKw==",
+    "title": "grafana.com"
+  },
+  "checked_at": "2026-11-05T08:50:30.882791+00:00"
+}

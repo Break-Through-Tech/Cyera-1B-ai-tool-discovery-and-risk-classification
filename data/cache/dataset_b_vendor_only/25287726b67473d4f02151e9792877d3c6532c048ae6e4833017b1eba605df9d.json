@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on the official legal documents and pages for **YTSummary** at **ytsummary.app**:\n\n* **Vendor / Provider:** **YTSummary** (operating under the provider brand **YTSummary.app**).\n* **Provider Statement:** The site's official Privacy Policy states:  \n  > *\"YTSummary.app (\"us\", \"we\", or \"our\") operates the https://ytsummary.app/ website (the \"Service\").\"*\n* **Additional Evidence:** \n  * The site's footer and terms designate the operating brand as **YTSummary.app** (*\"© Copyright 2026 YTSummary.app. All Rights Reserved.\"*).\n  * The associated Chrome Web Store extension is listed directly by the developer via `ytsummary.app` and `support@ytsummary.app`.\n  * No separate legal parent entity is published (Paddle is engaged strictly as a third-party Merchant of Record/payment processor).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**Vendor / Provider:** **YTSummary** (operating under the provider brand **YTSummary.app**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4ayQhZRStxKu0w60Ou2XD7AvdJVte6_TvaKnmhILs8AXJNqEridqFV6Eceq0OMCGRccEBtNWJwndOc1eBnm5rYvaUPJzwBPkVPDB_TEwgVRSVZw==",
+          "title": "ytsummary.app"
+        },
+        {
+          "id": 1,
+          "text": "**Vendor / Provider:** **YTSummary** (operating under the provider brand **YTSummary.app**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMy5_5NocdxX7X4N8YUmTj5di1CATmaqdQMGneFP5Dy4UYWElsWY2GKrmQ8Ci9RMBLMnfE44YSk-J6qEUWzzOrVaPvQzKDDgER_5WC-QjuKYvxRg==",
+          "title": "ytsummary.app"
+        },
+        {
+          "id": 2,
+          "text": "*\"YTSummary.app (\"us\", \"we\", or \"our\") operates the https://ytsummary.app/ website (the \"Service\").\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMy5_5NocdxX7X4N8YUmTj5di1CATmaqdQMGneFP5Dy4UYWElsWY2GKrmQ8Ci9RMBLMnfE44YSk-J6qEUWzzOrVaPvQzKDDgER_5WC-QjuKYvxRg==",
+          "title": "ytsummary.app"
+        },
+        {
+          "id": 3,
+          "text": ").",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4ayQhZRStxKu0w60Ou2XD7AvdJVte6_TvaKnmhILs8AXJNqEridqFV6Eceq0OMCGRccEBtNWJwndOc1eBnm5rYvaUPJzwBPkVPDB_TEwgVRSVZw==",
+          "title": "ytsummary.app"
+        },
+        {
+          "id": 4,
+          "text": "he associated Chrome Web Store extension is listed directly by the developer via `ytsummary.app` and `support@ytsummary.app`.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhVHOlX0lfFzoW8fx5qRSlfj3YC8hJiiyuSUqqfnUz4W9z5EZneMp9lYhL2u2WiYQIFtHJZAj5DaoXYakP5uda9z-IH4EXbIJbvvy0bTgbWaLtbKXF08v1ZoGeVFKUoWF2qjrijj8R5xUgInXMojHD05E1rPX2f9bwYtg_RJ99kfr05a5J7M1xig8Rze5mZyaOXw9O2TWw2BLrkjbCADM=",
+          "title": "google.com"
+        },
+        {
+          "id": 5,
+          "text": "o separate legal parent entity is published (Paddle is engaged strictly as a third-party Merchant of Record/payment processor).",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOepg0paAjJvS-Mxk931Q9yzvs8_TOrYzcuXGT62LIE2qpZfw8k25qa_4ohXquXxokGsyhNufAfm3KDQkSb-2TO7KE1_4qc0ZAFcYdQNbkdqfRzQ==",
+          "title": "ytsummary.app"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "YTSummary.app",
+        "evidence": "Passage 2 states that 'YTSummary.app (\"us\", \"we\", or \"our\") operates the https://ytsummary.app/ website (the \"Service\").'",
+        "source": {
+          "id": 2,
+          "text": "*\"YTSummary.app (\"us\", \"we\", or \"our\") operates the https://ytsummary.app/ website (the \"Service\").\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMy5_5NocdxX7X4N8YUmTj5di1CATmaqdQMGneFP5Dy4UYWElsWY2GKrmQ8Ci9RMBLMnfE44YSk-J6qEUWzzOrVaPvQzKDDgER_5WC-QjuKYvxRg==",
+          "title": "ytsummary.app"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "YTSummary",
+    "domain": "ytsummary.app",
+    "description": "Get concise YouTube summaries and key points instantly with ChatGPT."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "YTSummary.app",
+  "evidence": "Passage 2 states that 'YTSummary.app (\"us\", \"we\", or \"our\") operates the https://ytsummary.app/ website (the \"Service\").'",
+  "source": {
+    "id": 2,
+    "text": "*\"YTSummary.app (\"us\", \"we\", or \"our\") operates the https://ytsummary.app/ website (the \"Service\").\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMy5_5NocdxX7X4N8YUmTj5di1CATmaqdQMGneFP5Dy4UYWElsWY2GKrmQ8Ci9RMBLMnfE44YSk-J6qEUWzzOrVaPvQzKDDgER_5WC-QjuKYvxRg==",
+    "title": "ytsummary.app"
+  },
+  "checked_at": "2026-11-05T06:51:08.463904+00:00"
+}

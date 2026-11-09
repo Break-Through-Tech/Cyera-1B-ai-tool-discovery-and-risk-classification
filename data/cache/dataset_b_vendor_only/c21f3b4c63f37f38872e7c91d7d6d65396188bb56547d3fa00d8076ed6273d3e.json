@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Feedback Wizard** at **feedbackwizard.ai** is the design studio **tonik** (legally **TONIK SOBCZAK, ZIĘBA SPÓŁKA KOMANDYTOWA**, operating under the brand **tonik** / **@wearetonik**).\n\n### Evidence:\n* **Product & Domain:** Feedback Wizard (`feedbackwizard.ai`), an AI plugin for Figma that delivers instant UX/UI design feedback.\n* **Provider Statement:** The official website (`feedbackwizard.ai`) explicitly attributes development and provision of the tool with the footer statement: \n  > *\"created by @wearetonik\"*\n* **Operating Entity:** The handle `@wearetonik` belongs to **tonik** (`tonik.com`), a digital product design studio based in Poznań, Poland, registered legally as *TONIK SOBCZAK, ZIĘBA SPÓŁKA KOMANDYTOWA*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Feedback Wizard** at **feedbackwizard.ai** is the design studio **tonik** (legally **TONIK SOBCZAK, ZIĘBA SPÓŁKA KOMANDYTOWA**, operating under the brand **tonik** / **@wearetonik**).\n\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXSFzOi71RctxUw5E2m_IXhiFGrP4eO9Opt5i9aop_-eRiFKxezNZPwK4CqnUJ8aShMG0sK5OlKvWfg83M4B1u2FvqECDFOQjVqq3Sg9o=",
+          "title": "github.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Feedback Wizard** at **feedbackwizard.ai** is the design studio **tonik** (legally **TONIK SOBCZAK, ZIĘBA SPÓŁKA KOMANDYTOWA**, operating under the brand **tonik** / **@wearetonik**).\n\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEO5nAlLMRGXj87GH4bx29i9D5sA3UUiJv7ms57Zr7SUfXCOZWFerB3AXNliIqTiuBv8_r38_CmJXA_zlHWT4aB6x2TZh3xn_7l6f8duue_L5s8lg8Sfi6qIw0w-ctZAb6K9fgZrh15",
+          "title": "rejestr.io"
+        },
+        {
+          "id": 2,
+          "text": "roduct & Domain:** Feedback Wizard (`feedbackwizard.ai`), an AI plugin for Figma that delivers instant UX/UI design feedback.\n*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5OPGffnkuDU87vj0N38dfYO9pkiAs7PJxP2oOmrKGMdgM0uo5aX1XJJ7kkWsSwm4nYO7lle3QSo62ViPSvbJEze1XyqhPrhM5hA95Aq_obQ==",
+          "title": "feedbackwizard.ai"
+        },
+        {
+          "id": 3,
+          "text": "reated by @wearetonik\"*\n* ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5OPGffnkuDU87vj0N38dfYO9pkiAs7PJxP2oOmrKGMdgM0uo5aX1XJJ7kkWsSwm4nYO7lle3QSo62ViPSvbJEze1XyqhPrhM5hA95Aq_obQ==",
+          "title": "feedbackwizard.ai"
+        },
+        {
+          "id": 4,
+          "text": "perating Entity:** The handle `@wearetonik` belongs to **tonik** (`tonik.com`), a digital product design studio based in Poznań, Poland, re",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXSFzOi71RctxUw5E2m_IXhiFGrP4eO9Opt5i9aop_-eRiFKxezNZPwK4CqnUJ8aShMG0sK5OlKvWfg83M4B1u2FvqECDFOQjVqq3Sg9o=",
+          "title": "github.com"
+        },
+        {
+          "id": 5,
+          "text": "perating Entity:** The handle `@wearetonik` belongs to **tonik** (`tonik.com`), a digital product design studio based in Poznań, Poland, re",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKWOEuTUhpZXnikpziSPW9U3opQ-p2hWe1WWZ7jT-2SXXJqY-UPbakOQgPHpwoBhKSIx-rwhCbRhWzytOg3eW_a9LgyAkbMMpd2hXpaURIaXjICY2ji2QV8wFKGyVF_Ce_Aw==",
+          "title": "tonik.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "tonik",
+        "evidence": "Passage 0 directly states that the vendor providing Feedback Wizard at feedbackwizard.ai is the design studio tonik (legally TONIK SOBCZAK, ZIĘBA SPÓŁKA KOMANDYTOWA).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Feedback Wizard** at **feedbackwizard.ai** is the design studio **tonik** (legally **TONIK SOBCZAK, ZIĘBA SPÓŁKA KOMANDYTOWA**, operating under the brand **tonik** / **@wearetonik**).\n\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXSFzOi71RctxUw5E2m_IXhiFGrP4eO9Opt5i9aop_-eRiFKxezNZPwK4CqnUJ8aShMG0sK5OlKvWfg83M4B1u2FvqECDFOQjVqq3Sg9o=",
+          "title": "github.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Feedback Wizard",
+    "domain": "feedbackwizard.ai",
+    "description": "Feedback Wizard is an AI tool that provides instant, actionable feedback on various content types, including text, audio, video, and images. It helps users save time and improve their work by automating the review process."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "tonik",
+  "evidence": "Passage 0 directly states that the vendor providing Feedback Wizard at feedbackwizard.ai is the design studio tonik (legally TONIK SOBCZAK, ZIĘBA SPÓŁKA KOMANDYTOWA).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Feedback Wizard** at **feedbackwizard.ai** is the design studio **tonik** (legally **TONIK SOBCZAK, ZIĘBA SPÓŁKA KOMANDYTOWA**, operating under the brand **tonik** / **@wearetonik**).\n\n",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXSFzOi71RctxUw5E2m_IXhiFGrP4eO9Opt5i9aop_-eRiFKxezNZPwK4CqnUJ8aShMG0sK5OlKvWfg83M4B1u2FvqECDFOQjVqq3Sg9o=",
+    "title": "github.com"
+  },
+  "checked_at": "2026-11-05T07:33:47.726588+00:00"
+}

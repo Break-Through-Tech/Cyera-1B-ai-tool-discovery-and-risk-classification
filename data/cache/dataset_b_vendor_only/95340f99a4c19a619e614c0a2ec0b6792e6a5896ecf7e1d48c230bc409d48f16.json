@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Benchmark Email** at **benchmarkemail.com** is **Polaris Software, LLC** (historically operated as Benchmark Internet Group, LLC).\n\n### Evidence:\n* **Terms of Use:** \n  > *\"By accessing or using Benchmark Email, you agree to these Terms of Use ('Terms'), which constitute a legally binding agreement between you ('you' or 'User') and Polaris Software, LLC ('Polaris Software', 'Benchmark Email', 'we', 'us' or 'our').\"*\n* **Contact & Website Legal Notices:** \n  > *\"Benchmark Email is a registered trademark of: Polaris Software, LLC, 3636 S. Geyer Road, Suite 100, Saint Louis, MO 63127, USA\"* and *\"© Polaris Software, LLC Benchmark Email® is a registered trademark of Polaris Software, LLC.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Benchmark Email** at **benchmarkemail.com** is **Polaris Software, LLC** (historically operated as Benchmark Internet Group, LLC)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFtVrdN860ge2ByWTZhrrvqrDWWAjReF34pKUpjLreyMs_1wCutabCFfKVt2Fu7-_WMPMo2SBfEHPlEfqQyJ0Gk_malF5YQQ37iic_BYVIdBy4TsXzoB7v-okrlczkqSSt5xgyzeGYKBmK7sABm0utmPwIdPVY=",
+          "title": "benchmarkemail.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Benchmark Email** at **benchmarkemail.com** is **Polaris Software, LLC** (historically operated as Benchmark Internet Group, LLC)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrIqvkPfx1Lpg9fAdVc9udjZxhtIaKmrSMWls3yM6YgpAJUYNr9uRF-fiYps4B7Vt1nS9PqqsufPhBkboe9VrBw5LQ6BhZDZeBOU3umdHkqNA1xo2SnRsxVPBIs1g08Gdt3P3x",
+          "title": "benchmarkemail.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"By accessing or using Benchmark Email, you agree to these Terms of Use ('Terms'), which constitute a legally binding agreement between you ('you' or 'User') and Polaris Software, LLC ('Polaris Software', 'Benchmark Email', 'we', 'us' or 'our').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrIqvkPfx1Lpg9fAdVc9udjZxhtIaKmrSMWls3yM6YgpAJUYNr9uRF-fiYps4B7Vt1nS9PqqsufPhBkboe9VrBw5LQ6BhZDZeBOU3umdHkqNA1xo2SnRsxVPBIs1g08Gdt3P3x",
+          "title": "benchmarkemail.com"
+        },
+        {
+          "id": 3,
+          "text": "*\"By accessing or using Benchmark Email, you agree to these Terms of Use ('Terms'), which constitute a legally binding agreement between you ('you' or 'User') and Polaris Software, LLC ('Polaris Software', 'Benchmark Email', 'we', 'us' or 'our').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_zCD7veQ4eZPjqx_eiJOUZg5Y5hd90uot4mL7XcvbE7KTb7OcSJalI9iW0w_5Mecbpv7gMvwu8YS7o7o316y-fJSJv5FuX3CF07nm_8cKfonz52SQrYxKaFLKxkWrSZNyw7bl",
+          "title": "benchmarkemail.com"
+        },
+        {
+          "id": 4,
+          "text": "*\"Benchmark Email is a registered trademark of: Polaris Software, LLC, 3636 S. Geyer Road, Suite 100, Saint Louis, MO 63127, USA\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGa2l5QorU1qywPJWrr5IOzDTw-m_1X9DbbGf_ZhWmQZJRy9DgpF4rjj1-sYbZyRiVek2gsrqkAQq9nWg4f3crTaISTGcsukS80sD2HLQ_upc0OVfHtoa5QT0fUwSk=",
+          "title": "benchmarkemail.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Polaris Software, LLC",
+        "evidence": "According to the Terms of Use for Benchmark Email, using the service constitutes a legally binding agreement between the user and Polaris Software, LLC.",
+        "source": {
+          "id": 2,
+          "text": "*\"By accessing or using Benchmark Email, you agree to these Terms of Use ('Terms'), which constitute a legally binding agreement between you ('you' or 'User') and Polaris Software, LLC ('Polaris Software', 'Benchmark Email', 'we', 'us' or 'our').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrIqvkPfx1Lpg9fAdVc9udjZxhtIaKmrSMWls3yM6YgpAJUYNr9uRF-fiYps4B7Vt1nS9PqqsufPhBkboe9VrBw5LQ6BhZDZeBOU3umdHkqNA1xo2SnRsxVPBIs1g08Gdt3P3x",
+          "title": "benchmarkemail.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Benchmark Email",
+    "domain": "benchmarkemail.com",
+    "description": "Benchmark Email is a global email marketing platform dedicated to assisting businesses in building and nurturing customer relationships. With a focus on providing intelligent tools, Benchmark Email helps organizations effectively reach and engage their audience through email campaigns. The company operates internationally, serving a diverse clientele with its marketing solutions."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Polaris Software, LLC",
+  "evidence": "According to the Terms of Use for Benchmark Email, using the service constitutes a legally binding agreement between the user and Polaris Software, LLC.",
+  "source": {
+    "id": 2,
+    "text": "*\"By accessing or using Benchmark Email, you agree to these Terms of Use ('Terms'), which constitute a legally binding agreement between you ('you' or 'User') and Polaris Software, LLC ('Polaris Software', 'Benchmark Email', 'we', 'us' or 'our').\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrIqvkPfx1Lpg9fAdVc9udjZxhtIaKmrSMWls3yM6YgpAJUYNr9uRF-fiYps4B7Vt1nS9PqqsufPhBkboe9VrBw5LQ6BhZDZeBOU3umdHkqNA1xo2SnRsxVPBIs1g08Gdt3P3x",
+    "title": "benchmarkemail.com"
+  },
+  "checked_at": "2026-11-05T08:35:07.998403+00:00"
+}

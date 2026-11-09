@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor operating and directly providing **LearnMentalModels** at **learnmentalmodels.co** is **INDIEHACKER VENTURES** (built by developer **Sameed**).\n\n### Evidence\nAccording to the official Terms and Conditions on `learnmentalmodels.co`:\n> *\"Learn Mental Models co operated by INDIEHACKER VENTURES. INDIEHACKER VENTURES offers Learn Mental Models co and related services to you, a user, under the condition that you accept all of our set terms, including these Terms of Service and all related policies.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor operating and directly providing **LearnMentalModels** at **learnmentalmodels.co** is **INDIEHACKER VENTURES**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIdwj2TZdxJH-KqzBuhO_FQ5y_gYc3v5iK6G60UbWrtXA0peFqh6o5X9l2ZT_ET82ZGZ1yVk0E2nT1QkjMx_poU3votut_Em0LLqUU_yc-OgdMQIsOv47fVQV_iQ9twV9aTMbnUNbOWUennJcv",
+          "title": "learnmentalmodels.co"
+        },
+        {
+          "id": 1,
+          "text": "The vendor operating and directly providing **LearnMentalModels** at **learnmentalmodels.co** is **INDIEHACKER VENTURES** (built by developer **Sameed**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhckKroCuJjLdkQjekN9-N_2ns3rwEEtYZv6RWG6k-2wNXv_1-D95-4pAdSy4BkkBG_VAL9PG1UykvqhmEH6koBy4HV1OjtQvUASCfcKsE1xCjSiXl2A-3jepl",
+          "title": "learnmentalmodels.co"
+        },
+        {
+          "id": 2,
+          "text": "INDIEHACKER VENTURES offers Learn Mental Models co and related services to you, a user, under the condition that you accept all of our set terms, including these Terms of Service and all related policies.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIdwj2TZdxJH-KqzBuhO_FQ5y_gYc3v5iK6G60UbWrtXA0peFqh6o5X9l2ZT_ET82ZGZ1yVk0E2nT1QkjMx_poU3votut_Em0LLqUU_yc-OgdMQIsOv47fVQV_iQ9twV9aTMbnUNbOWUennJcv",
+          "title": "learnmentalmodels.co"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "INDIEHACKER VENTURES",
+        "evidence": "Passage 0 states that the vendor operating and directly providing LearnMentalModels at learnmentalmodels.co is INDIEHACKER VENTURES.",
+        "source": {
+          "id": 0,
+          "text": "The vendor operating and directly providing **LearnMentalModels** at **learnmentalmodels.co** is **INDIEHACKER VENTURES**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIdwj2TZdxJH-KqzBuhO_FQ5y_gYc3v5iK6G60UbWrtXA0peFqh6o5X9l2ZT_ET82ZGZ1yVk0E2nT1QkjMx_poU3votut_Em0LLqUU_yc-OgdMQIsOv47fVQV_iQ9twV9aTMbnUNbOWUennJcv",
+          "title": "learnmentalmodels.co"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "LearnMentalModels",
+    "domain": "learnmentalmodels.co",
+    "description": "Make decisions faster with the help of AI"
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "INDIEHACKER VENTURES",
+  "evidence": "Passage 0 states that the vendor operating and directly providing LearnMentalModels at learnmentalmodels.co is INDIEHACKER VENTURES.",
+  "source": {
+    "id": 0,
+    "text": "The vendor operating and directly providing **LearnMentalModels** at **learnmentalmodels.co** is **INDIEHACKER VENTURES**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIdwj2TZdxJH-KqzBuhO_FQ5y_gYc3v5iK6G60UbWrtXA0peFqh6o5X9l2ZT_ET82ZGZ1yVk0E2nT1QkjMx_poU3votut_Em0LLqUU_yc-OgdMQIsOv47fVQV_iQ9twV9aTMbnUNbOWUennJcv",
+    "title": "learnmentalmodels.co"
+  },
+  "checked_at": "2026-11-05T05:45:50.295318+00:00"
+}

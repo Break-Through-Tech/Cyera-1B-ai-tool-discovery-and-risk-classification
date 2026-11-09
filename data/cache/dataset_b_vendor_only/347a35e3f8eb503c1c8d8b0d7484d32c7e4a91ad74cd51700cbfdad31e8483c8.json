@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **WPML** software product at **wpml.org** is **OnTheGoSystems Limited**.\n\n### Provider Statement\nAccording to the official **WPML Privacy Policy**:\n> *\"This privacy notice for OnTheGoSystems Limited (\"we\", \"us\", or \"our\"), describes how and why we might collect, store, use, and/or share (\"process\") your information when you use our services (\"Services\"), such as when you: Visit our websites, use your WPML customer account, or use WPML and any related products, services, or features...\"*\n\nAdditionally, the *About WPML* page identifies OnTheGoSystems as *\"the company behind WPML and Toolset\"* registered in Hong Kong, and website pages carry the copyright notice *\"© OnTheGoSystems Limited\"*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **WPML** software product at **wpml.org** is **OnTheGoSystems Limited**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpxugoM7uspLGs5BVzeSBdWrroCJf4FoEFDnViALQPnjRYDmwmtYCN5EdxIYbNdfSXwizCLyjYUrQS7uOkIpMu8RvblJzeOan-Vp8AbbCZhP-gTw5JA3SHTz8EDz8RCOFpFPXhNUxpsdf8PQFy92WT8AgPhi8LDQ==",
+          "title": "wpml.org"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the **WPML** software product at **wpml.org** is **OnTheGoSystems Limited**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoGDWoJ2FJVezqD7IQIwi3g9psnC27D4bp5xyaCMMUOHjlq-lIpx-WuguarpxxBwcMOEOVJi_-HDLLnhTVOArtkP1CEeKnltfQBVb4QqbGNGJ7LsoodiuO8Yc0wdleJ4L0FgpD1nRsR3Xbh1rvTA8=",
+          "title": "wpml.org"
+        },
+        {
+          "id": 2,
+          "text": "*\"This privacy notice for OnTheGoSystems Limited (\"we\", \"us\", or \"our\"), describes how and why we might collect, store, use, and/or share (\"process\") your information when you use our services (\"Services\"), such as when you: Visit our websites, use your WPML customer account, or use WPML and any related products, services, or features...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpxugoM7uspLGs5BVzeSBdWrroCJf4FoEFDnViALQPnjRYDmwmtYCN5EdxIYbNdfSXwizCLyjYUrQS7uOkIpMu8RvblJzeOan-Vp8AbbCZhP-gTw5JA3SHTz8EDz8RCOFpFPXhNUxpsdf8PQFy92WT8AgPhi8LDQ==",
+          "title": "wpml.org"
+        },
+        {
+          "id": 3,
+          "text": "Additionally, the *About WPML* page identifies OnTheGoSystems as *\"the company behind WPML and Toolset\"* registered in Hong Kong",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0v4dlNJgpPsXBDPq__cdY3GhSx9QEqP2g-BILbwJZgi0YOm58c_D0ojkxXTbp2Rxs0cJdLx6RnB_fBVcPx0iBYCuFpBjf6pKbl3PGIfzmASgywHQ=",
+          "title": "wpml.org"
+        },
+        {
+          "id": 4,
+          "text": "Additionally, the *About WPML* page identifies OnTheGoSystems as *\"the company behind WPML and Toolset\"* registered in Hong Kong, and website pages carry the copyright notice *\"© OnTheGoSystems Limited\"*.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoGDWoJ2FJVezqD7IQIwi3g9psnC27D4bp5xyaCMMUOHjlq-lIpx-WuguarpxxBwcMOEOVJi_-HDLLnhTVOArtkP1CEeKnltfQBVb4QqbGNGJ7LsoodiuO8Yc0wdleJ4L0FgpD1nRsR3Xbh1rvTA8=",
+          "title": "wpml.org"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "OnTheGoSystems Limited",
+        "evidence": "Passage 0 directly identifies OnTheGoSystems Limited as the vendor providing the WPML software product at wpml.org.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the **WPML** software product at **wpml.org** is **OnTheGoSystems Limited**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpxugoM7uspLGs5BVzeSBdWrroCJf4FoEFDnViALQPnjRYDmwmtYCN5EdxIYbNdfSXwizCLyjYUrQS7uOkIpMu8RvblJzeOan-Vp8AbbCZhP-gTw5JA3SHTz8EDz8RCOFpFPXhNUxpsdf8PQFy92WT8AgPhi8LDQ==",
+          "title": "wpml.org"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "OnTheGoSystems",
+    "domain": "wpml.org",
+    "description": "OnTheGoSystems is a company that specializes in multilingual solutions for WordPress websites through their WPML plugin. This plugin enables the creation and management of multilingual content, serving a diverse range of users from corporate sites to individual blogs. The company focuses on enhancing online accessibility and usability for global audiences, making it a key player in the website localization sector."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "OnTheGoSystems Limited",
+  "evidence": "Passage 0 directly identifies OnTheGoSystems Limited as the vendor providing the WPML software product at wpml.org.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the **WPML** software product at **wpml.org** is **OnTheGoSystems Limited**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpxugoM7uspLGs5BVzeSBdWrroCJf4FoEFDnViALQPnjRYDmwmtYCN5EdxIYbNdfSXwizCLyjYUrQS7uOkIpMu8RvblJzeOan-Vp8AbbCZhP-gTw5JA3SHTz8EDz8RCOFpFPXhNUxpsdf8PQFy92WT8AgPhi8LDQ==",
+    "title": "wpml.org"
+  },
+  "checked_at": "2026-11-05T09:25:39.488017+00:00"
+}

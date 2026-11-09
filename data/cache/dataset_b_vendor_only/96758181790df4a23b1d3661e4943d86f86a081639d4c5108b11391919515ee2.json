@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on the official legal agreements and privacy documents for **Credly** at **credly.com**:\n\n* **Direct Vendor / Operating Company:** **Credly, Inc.** (operating as part of **Pearson** / **Pearson Workforce Skills**).\n* **Evidence and Provider Statements:**\n  * Credly’s *Workforce Skills User Terms of Service* states that the agreement applies to `Credly.com` and Credly-branded services, specifying for legal notices: *\"Attn: Legal Dept. Credly, Inc. 368 9th Avenue, 6th Floor New York, NY 10001. Or at legal@credly.com\"*.\n  * Credly's *Privacy Policy* specifies: *\"Pearson owns and operates Credly.com and YourAcclaim.com\"*.\n  * Following acquisition, the operating company confirmed: *\"[W]e will continue to operate as Credly, Inc., and with the Credly brand, as part of Pearson\"*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**Direct Vendor / Operating Company:** **Credly, Inc.** (operating as part of **Pearson** / **Pearson Workforce Skills**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrV_8Q6hXO4WrFOP-qJzS_oe28bLNdJNUnsYK_mZ5QDd90gjNjS7cc_OdNWYEkDktQ9t40P1yinjAXvdsw0qf7MrM3Z8lMQm3WW0MITSahyDMc3VaYFf8IfhMyQY0MRI-h6eY1SkTKmYJCwDuZe-ukliJqM_VQSOuFmVQo",
+          "title": "credly.com"
+        },
+        {
+          "id": 1,
+          "text": "**Direct Vendor / Operating Company:** **Credly, Inc.** (operating as part of **Pearson** / **Pearson Workforce Skills**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEl0nThWLMwUnZqvlHOlkkm9so_o4vg8-No5XHAqSBHZox8m5JLX07Z25GlXwpaTcFlPF22_FufIMMY1CbaPhnq794bArHZfKzxo8GIUXCQMrYykHp6x-dcuvFamUcmqCYtEDI=",
+          "title": "credly.com"
+        },
+        {
+          "id": 2,
+          "text": " at legal@credly.com\"*.\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEl0nThWLMwUnZqvlHOlkkm9so_o4vg8-No5XHAqSBHZox8m5JLX07Z25GlXwpaTcFlPF22_FufIMMY1CbaPhnq794bArHZfKzxo8GIUXCQMrYykHp6x-dcuvFamUcmqCYtEDI=",
+          "title": "credly.com"
+        },
+        {
+          "id": 3,
+          "text": "edly's *Privacy Policy* specifies: *\"Pearson owns and operates Credly.com and YourAcclaim.com\"*.\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdrlyyg0NGcajPKzxi4xkqiEICkGTbAzoXt3Cy9B4myJ9r8b3zXK0k4LaZs7WGTCaHgi1bJR_rNRva1PNBR4sppEvrkb-mO9wh0N5riolGegVnS6uehzVMcLqU",
+          "title": "credly.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Credly, Inc.",
+        "evidence": "Passage 0 identifies Credly, Inc. as the direct vendor and operating company for credly.com, operating as part of Pearson / Pearson Workforce Skills.",
+        "source": {
+          "id": 0,
+          "text": "**Direct Vendor / Operating Company:** **Credly, Inc.** (operating as part of **Pearson** / **Pearson Workforce Skills**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrV_8Q6hXO4WrFOP-qJzS_oe28bLNdJNUnsYK_mZ5QDd90gjNjS7cc_OdNWYEkDktQ9t40P1yinjAXvdsw0qf7MrM3Z8lMQm3WW0MITSahyDMc3VaYFf8IfhMyQY0MRI-h6eY1SkTKmYJCwDuZe-ukliJqM_VQSOuFmVQo",
+          "title": "credly.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Credly",
+    "domain": "credly.com",
+    "description": "Credly, a subsidiary of Pearson, specializes in connecting individuals with verified skills to suitable opportunities, while enabling organizations to enhance their human capital decision-making. Based in the United States, Credly focuses on fostering equitable career pathways through digital credentialing, allowing users to showcase their qualifications effectively."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Credly, Inc.",
+  "evidence": "Passage 0 identifies Credly, Inc. as the direct vendor and operating company for credly.com, operating as part of Pearson / Pearson Workforce Skills.",
+  "source": {
+    "id": 0,
+    "text": "**Direct Vendor / Operating Company:** **Credly, Inc.** (operating as part of **Pearson** / **Pearson Workforce Skills**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrV_8Q6hXO4WrFOP-qJzS_oe28bLNdJNUnsYK_mZ5QDd90gjNjS7cc_OdNWYEkDktQ9t40P1yinjAXvdsw0qf7MrM3Z8lMQm3WW0MITSahyDMc3VaYFf8IfhMyQY0MRI-h6eY1SkTKmYJCwDuZe-ukliJqM_VQSOuFmVQo",
+    "title": "credly.com"
+  },
+  "checked_at": "2026-11-05T08:19:22.646856+00:00"
+}

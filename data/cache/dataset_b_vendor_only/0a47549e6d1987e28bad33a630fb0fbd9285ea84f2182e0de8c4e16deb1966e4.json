@@ -1,0 +1,143 @@
+{
+  "attempts": [
+    {
+      "answer": "No provider can be established for the specified software product at **telegram.com**.\n\n### Explanation\n* **Domain Mismatch:** The supplied domain **`telegram.com`** belongs to *The Worcester Telegram & Gazette*, a local newspaper publication operated by **USA TODAY Co., Inc.** (formerly Gannett). Its Terms of Service state: *\"USA TODAY Co., Inc. and our affiliates (collectively, 'USA TODAY Co.' 'we', 'our' 'us') publish USA TODAY along with hundreds of local media brands... The Worcester Telegram & Gazette\"*. It does not host or provide the instant messaging software.\n* **Disambiguation:** The cloud-based instant messaging application described in the record operates at **`telegram.org`** (not `telegram.com`). For the messaging service at `telegram.org`, the direct operating entity/seller is **Telegram FZ-LLC** (headquartered in Dubai, UAE, and listed as the seller on the Apple App Store).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "No provider can be established for the specified software product at **telegram.com**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEP2eQHfwZb2rzX5Pij1J91YxzD-Ir3J7BIjxaJ221LmQH2xECtFqu8uAoHtbPF-jmqdBVP2CcgL6ggoQLWaxC6LHIcYUdXZfFp6WOshrC6vIPAiMGw23-A5t5nrKIOtTgo",
+          "title": "github.com"
+        },
+        {
+          "id": 1,
+          "text": "**Domain Mismatch:** The supplied domain **`telegram.com`** belongs to *The Worcester Telegram & Gazette*, a local newspaper publication operated by **USA TODAY Co., Inc.** (formerly Gannett)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1-VhMqL0I288LfcInVnYDX8X_o53lipuYXY4hYpjOz95QXIZfpLEIwPmS8HDa7D09XRcbgvKZAnEOn_bWZ9T7LvyylfTwIRmdYp495gX6NWtN4f8=",
+          "title": "telegram.com"
+        },
+        {
+          "id": 2,
+          "text": "**Domain Mismatch:** The supplied domain **`telegram.com`** belongs to *The Worcester Telegram & Gazette*, a local newspaper publication operated by **USA TODAY Co., Inc.** (formerly Gannett)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqsMN3Lq0UOsyHQRtJFY_OMVmiBzbzUVnhMK6zl1Yji39ytVD6m6XanudD5NB32BTkJ_ykVEhbc1m8E6et2C1zka9mndbiCgxhYNygQgd_AXc5UZkb8kJuhyFzLxl1gn_1l3O0qp0OGA==",
+          "title": "wikipedia.org"
+        },
+        {
+          "id": 3,
+          "text": "The Worcester Telegram & Gazette\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1-VhMqL0I288LfcInVnYDX8X_o53lipuYXY4hYpjOz95QXIZfpLEIwPmS8HDa7D09XRcbgvKZAnEOn_bWZ9T7LvyylfTwIRmdYp495gX6NWtN4f8=",
+          "title": "telegram.com"
+        },
+        {
+          "id": 4,
+          "text": "It does not host or provide the instant messaging software",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEP2eQHfwZb2rzX5Pij1J91YxzD-Ir3J7BIjxaJ221LmQH2xECtFqu8uAoHtbPF-jmqdBVP2CcgL6ggoQLWaxC6LHIcYUdXZfFp6WOshrC6vIPAiMGw23-A5t5nrKIOtTgo",
+          "title": "github.com"
+        },
+        {
+          "id": 5,
+          "text": "**Disambiguation:** The cloud-based instant messaging application described in the record operates at **`telegram.org`** (not `telegram.com`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEP2eQHfwZb2rzX5Pij1J91YxzD-Ir3J7BIjxaJ221LmQH2xECtFqu8uAoHtbPF-jmqdBVP2CcgL6ggoQLWaxC6LHIcYUdXZfFp6WOshrC6vIPAiMGw23-A5t5nrKIOtTgo",
+          "title": "github.com"
+        },
+        {
+          "id": 6,
+          "text": "For the messaging service at `telegram.org`, the direct operating entity/seller is **Telegram FZ-LLC** (headquartered in Dubai, UAE, and listed as the seller on the Apple App Store)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGyLQ-02JbChHtsP8eHPK78EVSFRrHZWG8XovceUmuZqLwLWEUipvTOje5G80WlRQ5gLDpE10XaJ2G-YClFwm3bfWBQiku2pm6H56s-dmItEcj0J9c8nmfIQ7rFBSWChvgPrll-xKt",
+          "title": "wikipedia.org"
+        },
+        {
+          "id": 7,
+          "text": "For the messaging service at `telegram.org`, the direct operating entity/seller is **Telegram FZ-LLC** (headquartered in Dubai, UAE, and listed as the seller on the Apple App Store)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKrPu3zPKjjJjI7A83YWy9aQRjwKQ64ImZ9Z4SdOZvyoN7U_WtcaHSNooWVopYH9qZVI9hYv-MSPUf1suyv0F_jIneysGimk48Ke0BcbqAmBrNqrfz0IroBrUzYQUWCe146527zDJAmm2w9rLKtwkXKZQ=",
+          "title": "apple.com"
+        }
+      ],
+      "result": {
+        "status": "unknown",
+        "vendor": "UNKNOWN",
+        "evidence": "The provided domain telegram.com belongs to The Worcester Telegram & Gazette newspaper and does not host or provide the Telegram instant messaging application, which operates at telegram.org."
+      }
+    },
+    {
+      "answer": "No vendor can be established directly providing the described software product at **telegram.com** due to a domain mismatch:\n\n* **telegram.com**: This domain is not affiliated with the messaging app; it is the official website for *The Worcester Telegram & Gazette*, a Massachusetts daily newspaper operated by **USA TODAY Co., Inc. / Gannett**.\n* **Telegram Messenger (the described product)**: The cloud-based instant messaging platform described in the record is hosted at **telegram.org** (and mobile app stores). It is provided by **Telegram FZ-LLC** and **Telegram Messenger Inc.** under the brand **Telegram**. \n  * *Provider statements*: Telegram's legal terms define the provider as *\"Telegram Messenger Inc. ('Telegram')\"'*, and official app store listings identify the developer/seller as **Telegram FZ-LLC**.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "No vendor can be established directly providing the described software product at **telegram.com** due to a domain mismatch",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7syJ3YcY4m1DLJactB5u8VZ4gqSHF4bxIVdUeZVzwZpHaLpgC5KxiLZValFGN3nVwQDVLB6GkDcxN5ZJUOKw90F99shel-1lh9hE0pW4LJ_3sm_7dXz9KL6FiK6Y616IXgr-xoyOQWw==",
+          "title": "wikipedia.org"
+        },
+        {
+          "id": 1,
+          "text": "/ Gannett**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0c2cn7o3qpj2TyLfEhnCuMhrq-CXub1KwviV7Dt0AVSDCcpMPtiH2yVOKibvnCXzE0tTIENha9irHm65UuC5DnjR3fV4DYrRRfkjDmhRL0nh1T_rUuFghZQz3Wt8=",
+          "title": "telegram.com"
+        },
+        {
+          "id": 2,
+          "text": "/ Gannett**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7syJ3YcY4m1DLJactB5u8VZ4gqSHF4bxIVdUeZVzwZpHaLpgC5KxiLZValFGN3nVwQDVLB6GkDcxN5ZJUOKw90F99shel-1lh9hE0pW4LJ_3sm_7dXz9KL6FiK6Y616IXgr-xoyOQWw==",
+          "title": "wikipedia.org"
+        },
+        {
+          "id": 3,
+          "text": "/ Gannett**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzicwUe54DMFH9i-DOOSGsmYTdhWTb1jF5W1I_UVTDLWBNZ1jXrMPT9NtLiwjHnNUPG-b2t_v0oA4KirD4exAPzhuFN1bSZAn8cy93M40kWb4bs38jEa2_U0DjfeUYuRygPSBf2g==",
+          "title": "telegram.com"
+        },
+        {
+          "id": 4,
+          "text": "**Telegram Messenger (the described product)**: The cloud-based instant messaging platform described in the record is hosted at **telegram.org** (and mobile app stores)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFALBbWVRAJHuvQxMiyNBbSPHotUQEDuomQq20UXS6n5UpF58GKHV6LhhJVqytA3Mj-5LULdIQ6YoTIPDkSerWrcYLYqNRIBK_ipqjzerd8_2LBDzJpBEFrzLo1dO2y4qs=",
+          "title": "youtube.com"
+        },
+        {
+          "id": 5,
+          "text": "**Telegram Messenger (the described product)**: The cloud-based instant messaging platform described in the record is hosted at **telegram.org** (and mobile app stores)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFO8vzR6piY73rPtcT-JfgO2yQP3ebLlX0yNdiL2jAwuMOYwZThPe_onoVV0cuvQ2jpxMfKro8mrX1VB__NxmKDfnEp1LKJx4c5tvKQJ5xH7pA9lphwWzil5bJHtB-emdrHTlEAOLpZqCBXCgIDtl2BZ_WalDOZKt5LT6TEnwCIVUG77wyVnZjbSia--9f7CfNJkEDKyyS01K1f",
+          "title": "reddit.com"
+        },
+        {
+          "id": 6,
+          "text": "It is provided by **Telegram FZ-LLC** and **Telegram Messenger Inc.** under the brand **Telegram**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHK4wqE6kS4KvjjCBRZnU0LTyLmALdCLgKD6Zq7WLSVjQjLKHtr0TaQEWMvEUxK9gILJVn3_uS98vfjOxW5Yt0nFSNet3-2-qpfqz1meYer1ldYlZA2",
+          "title": "telegram.org"
+        },
+        {
+          "id": 7,
+          "text": "It is provided by **Telegram FZ-LLC** and **Telegram Messenger Inc.** under the brand **Telegram**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGG45mTwes7-h4b4V0QYnOh5R5cF1nFWeyxLjWY9YuVLlshdjZNFKoalCoQiPAQzeI3CjDZW5pIIv4n-MI5fL3qi6xLDADu9w8d7o5O1FhNORKbPgQeEm7nm0AhThD-LNS_yVQeYr1orCChrxxlET6yQA==",
+          "title": "apple.com"
+        },
+        {
+          "id": 8,
+          "text": "*Provider statements*: Telegram's legal terms define the provider as *\"Telegram Messenger Inc. ('Telegram')\"'*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHw7j0tvUsgS6fB1Qms8cool4wrbpnDuxu6xVUP_1bK4H1pmCfqx0uOaLs6UAjNsUyhCOCM_pUrUkK6KC44YL1QbehmPJQYypUPunywQwiEYkqnQWlIzWHHySKprOLDu7lbZ_d1Yw==",
+          "title": "telegram.org"
+        },
+        {
+          "id": 9,
+          "text": "*Provider statements*: Telegram's legal terms define the provider as *\"Telegram Messenger Inc. ('Telegram')\"'*, and official app store listings identify the developer/seller as **Telegram FZ-LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGG45mTwes7-h4b4V0QYnOh5R5cF1nFWeyxLjWY9YuVLlshdjZNFKoalCoQiPAQzeI3CjDZW5pIIv4n-MI5fL3qi6xLDADu9w8d7o5O1FhNORKbPgQeEm7nm0AhThD-LNS_yVQeYr1orCChrxxlET6yQA==",
+          "title": "apple.com"
+        }
+      ],
+      "result": {
+        "status": "unknown",
+        "vendor": "UNKNOWN",
+        "evidence": "No vendor can be established directly providing the described Telegram messaging application at the domain telegram.com due to a domain mismatch; telegram.com belongs to a newspaper rather than the instant messaging service."
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Telegram",
+    "domain": "telegram.com",
+    "description": "Telegram is a cloud-based instant messaging application renowned for its emphasis on speed and security. It offers both private and group messaging, along with media sharing, voice and video call capabilities. Developed by brothers Nikolai and Pavel Durov, Telegram provides encrypted messaging with optional end-to-end encryption for added security. It operates worldwide, with its headquarters in Dubai, UAE."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "unknown",
+  "vendor": "UNKNOWN",
+  "evidence": "No vendor can be established directly providing the described Telegram messaging application at the domain telegram.com due to a domain mismatch; telegram.com belongs to a newspaper rather than the instant messaging service.",
+  "checked_at": "2026-11-05T09:57:00.106282+00:00"
+}

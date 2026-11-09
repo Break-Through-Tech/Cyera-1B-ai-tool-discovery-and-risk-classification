@@ -1,0 +1,79 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **InVision** visual collaboration platform at the domain **invisionapp.com** is **InVisionApp, Inc.** (or **InVisionApp Inc.**).\n\n### Evidence & Provider Statements\n* **Publisher & Legal Attestation:** Official developer/partner disclosures (such as the Microsoft 365 App Certification directory for the InVision software) list:\n  * **Partner Company Name:** `InVisionApp, Inc.`\n  * **Company Website:** `https://www.invisionapp.com`\n  * **App Terms of Use / Terms of Service:** `https://www.invisionapp.com/legal/terms-of-service`\n* **Copyright & Terms Notices:** Site documentation and associated service notices on `invisionapp.com` designate the operating entity and copyright owner as `InVisionApp Inc.` (e.g., *\"© InVisionApp Inc. All rights reserved. Terms of Service Privacy Policy Security.\"*).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHx0MbROcuXXDd9y7MQL9hY_zMF0Ew1eb3aAj0EgcU5K7ghDMxKEU7gsKyLJHnSj3ojxZjJ5eqzo-Q0-XRM8PnFxA_Xl042e2zkvU1BVIDgppoWIxKpm6iamM6wbPgKZ_xrW0JjmKOUPG7--RVnQQ6nqy5Xpra5knWoy0yDp1-JG9J3gPohJjGFzxM0NJBmk-OuaCOAvBw=",
+          "title": "microsoft.com"
+        },
+        {
+          "id": 1,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIFSpzhsQr7fAqCtESuFE7Vc7oIjFh1Dr4tpi2zOKhe-LyC9rot83T2t0TN9lHugDHREqcm4YbOT2SRvC9UaTZy8F3lg9QeRZUs5T6FzDDln-nuNJLYAGDsJ8R0r0lnT4CE9UXHBZmrrCEtfuPodwzH1xTW9icBVbDznTMOQQ=",
+          "title": "publicmediastack.com"
+        },
+        {
+          "id": 2,
+          "text": "**Partner Company Name:** `InVisionApp, Inc.`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKb7PBkIwT0J6WogHJ-BTd3knUn2_9qOtQxAQk0HjRUS-H9bLxnAju1O5qk6c0HIV4imj-35uMa_Puhb5eD82-2K8ZDz7s47HowRudS-YZ07Fdd-nh0bOD7udOYAxbrrDSd3ajkxOwy4tCydQgudpR2DjVkjy624-1AdiH8Hpca7UrMar4VC0RHLxtZjTJZiB6c-d7q-8=",
+          "title": "microsoft.com"
+        },
+        {
+          "id": 3,
+          "text": "**Company Website:** `https://www.invisionapp.com`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKb7PBkIwT0J6WogHJ-BTd3knUn2_9qOtQxAQk0HjRUS-H9bLxnAju1O5qk6c0HIV4imj-35uMa_Puhb5eD82-2K8ZDz7s47HowRudS-YZ07Fdd-nh0bOD7udOYAxbrrDSd3ajkxOwy4tCydQgudpR2DjVkjy624-1AdiH8Hpca7UrMar4VC0RHLxtZjTJZiB6c-d7q-8=",
+          "title": "microsoft.com"
+        },
+        {
+          "id": 4,
+          "text": "**App Terms of Use / Terms of Service:** `https://www.invisionapp.com/legal/terms-of-service`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKb7PBkIwT0J6WogHJ-BTd3knUn2_9qOtQxAQk0HjRUS-H9bLxnAju1O5qk6c0HIV4imj-35uMa_Puhb5eD82-2K8ZDz7s47HowRudS-YZ07Fdd-nh0bOD7udOYAxbrrDSd3ajkxOwy4tCydQgudpR2DjVkjy624-1AdiH8Hpca7UrMar4VC0RHLxtZjTJZiB6c-d7q-8=",
+          "title": "microsoft.com"
+        },
+        {
+          "id": 5,
+          "text": ").",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0TMAwmwU0G64otmhML_8j5-8AVMCW3Esa1DPhLQmU9JyQo9DgN_g9e-TIfxKS1EkeUmp4DvKlPNymF9MF-tFOrPA7-SizAO3ECmjHOjEqVinohaYX93LKvITi1wflgnHNtQRMeuxwgCKTtbJU7mtadFPf58w7NpZV",
+          "title": "oracle.com"
+        },
+        {
+          "id": 6,
+          "text": ").",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExaPahVp9gFfv4GOEThvzNg7Q8mWn7y6C7Gn0PIgoMNxWD1OinN4AVIvxXIRsd0GgCvl0vJoWmbrB14fUvivs3OGinWwSHO_JrCptY9OCmS-shdWNAaOJZmdMs_6DGCAqNw3jQx8dNUCtk-I3y-owb8KlNvHtRtTcmevBqqp-BgsfvgryxTk3mtUyV9OzNcUA7D9g=",
+          "title": "tistory.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "InVisionApp, Inc.",
+        "evidence": "Passage 2 lists the Partner Company Name as InVisionApp, Inc., which corresponds to the tool's domain invisionapp.com.",
+        "source": {
+          "id": 2,
+          "text": "**Partner Company Name:** `InVisionApp, Inc.`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKb7PBkIwT0J6WogHJ-BTd3knUn2_9qOtQxAQk0HjRUS-H9bLxnAju1O5qk6c0HIV4imj-35uMa_Puhb5eD82-2K8ZDz7s47HowRudS-YZ07Fdd-nh0bOD7udOYAxbrrDSd3ajkxOwy4tCydQgudpR2DjVkjy624-1AdiH8Hpca7UrMar4VC0RHLxtZjTJZiB6c-d7q-8=",
+          "title": "microsoft.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "InVision",
+    "domain": "invisionapp.com",
+    "description": "InVision is a visual collaboration platform that enhances teamwork and productivity for organizations globally. With over 7 million users, it empowers teams to brainstorm, create, and develop new ideas collaboratively using tools like Freehand, an online whiteboard. InVision caters to a diverse clientele, including all Fortune 100 companies, helping them streamline processes and improve workflows for greater impact."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "InVisionApp, Inc.",
+  "evidence": "Passage 2 lists the Partner Company Name as InVisionApp, Inc., which corresponds to the tool's domain invisionapp.com.",
+  "source": {
+    "id": 2,
+    "text": "**Partner Company Name:** `InVisionApp, Inc.`",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKb7PBkIwT0J6WogHJ-BTd3knUn2_9qOtQxAQk0HjRUS-H9bLxnAju1O5qk6c0HIV4imj-35uMa_Puhb5eD82-2K8ZDz7s47HowRudS-YZ07Fdd-nh0bOD7udOYAxbrrDSd3ajkxOwy4tCydQgudpR2DjVkjy624-1AdiH8Hpca7UrMar4VC0RHLxtZjTJZiB6c-d7q-8=",
+    "title": "microsoft.com"
+  },
+  "checked_at": "2026-11-05T09:39:01.492783+00:00"
+}

@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Trustpilot** at **trustpilot.com** is **Trustpilot A/S**.\n\n### Provider Statement & Evidence\nAccording to Trustpilot's official **Privacy Policy**:\n> *\"When we say 'Trustpilot', 'we', 'our', or 'us', we mean **Trustpilot A/S**, Pilestraede 58, 5th floor, DK-1112 Copenhagen K, which is the entity responsible for processing your personal data. When we say 'website', 'platform' or 'service', we mean all of Trustpilot's websites, applications and other services to include **www.trustpilot.com** and business.trustpilot.com.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Trustpilot** at **trustpilot.com** is **Trustpilot A/S**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0Sz6-vl9adk8nju9Q59_hJ60IBXbFVhCQAGUZjBsdN9U6EgYFsNfTAzhFPLgZz3Tcv-xbbsVXRg4IueBXKQbgWFPMeIC5f5oa8KSnU3Od8Z5-RWOIk6Ac4XxMOUQ2_VlKMkUDaGFc0SBp-X2kGtyRc2yTgLfqYVY6dgbj-JDpTAo49g==",
+          "title": "trustpilot.com"
+        },
+        {
+          "id": 1,
+          "text": "When we say 'website', 'platform' or 'service', we mean all of Trustpilot's websites, applications and other services to include **www.trustpilot.com** and business.trustpilot.com.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0Sz6-vl9adk8nju9Q59_hJ60IBXbFVhCQAGUZjBsdN9U6EgYFsNfTAzhFPLgZz3Tcv-xbbsVXRg4IueBXKQbgWFPMeIC5f5oa8KSnU3Od8Z5-RWOIk6Ac4XxMOUQ2_VlKMkUDaGFc0SBp-X2kGtyRc2yTgLfqYVY6dgbj-JDpTAo49g==",
+          "title": "trustpilot.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Trustpilot A/S",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing Trustpilot at trustpilot.com is Trustpilot A/S.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Trustpilot** at **trustpilot.com** is **Trustpilot A/S**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0Sz6-vl9adk8nju9Q59_hJ60IBXbFVhCQAGUZjBsdN9U6EgYFsNfTAzhFPLgZz3Tcv-xbbsVXRg4IueBXKQbgWFPMeIC5f5oa8KSnU3Od8Z5-RWOIk6Ac4XxMOUQ2_VlKMkUDaGFc0SBp-X2kGtyRc2yTgLfqYVY6dgbj-JDpTAo49g==",
+          "title": "trustpilot.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Trustpilot",
+    "domain": "trustpilot.com",
+    "description": "Trustpilot is a leading review platform founded in 2007, dedicated to fostering trust between consumers and businesses through transparent feedback. With over 300 million reviews and a monthly active user base of 67 million worldwide, Trustpilot supports companies in enhancing their reputation and understanding customer perceptions. The company is headquartered in Copenhagen and has offices in major cities including Amsterdam, New York, and London."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Trustpilot A/S",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing Trustpilot at trustpilot.com is Trustpilot A/S.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Trustpilot** at **trustpilot.com** is **Trustpilot A/S**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0Sz6-vl9adk8nju9Q59_hJ60IBXbFVhCQAGUZjBsdN9U6EgYFsNfTAzhFPLgZz3Tcv-xbbsVXRg4IueBXKQbgWFPMeIC5f5oa8KSnU3Od8Z5-RWOIk6Ac4XxMOUQ2_VlKMkUDaGFc0SBp-X2kGtyRc2yTgLfqYVY6dgbj-JDpTAo49g==",
+    "title": "trustpilot.com"
+  },
+  "checked_at": "2026-11-05T08:41:48.619619+00:00"
+}

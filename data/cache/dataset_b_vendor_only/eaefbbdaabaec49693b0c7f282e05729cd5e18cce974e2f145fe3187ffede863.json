@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **SkinCareLens** at **skincarelens.com** operates under the provider brand/entity **SkinCareLens**, developed by **Qi long Zhang** (timzhangql).\n\n### Evidence and Citations\n* **Official Terms of Service & Privacy Policy:** Under the definitions section, the official site policies state:\n  > *\"Company (referred to as either 'the Company', 'We', 'Us' or 'Our' in this Agreement) refers to SkinCareLens.\"* (e.g., *«Εταιρεία (αναφέρεται είτε ως \"η Εταιρεία\", \"εμείς\", \"μας\" ή \"δική μας\" σε αυτή τη Συμφωνία) αναφέρεται στην SkinCareLens»*).\n  > The footer also asserts: *«© SkinCareLens. All rights reserved.»*\n* **Published Developer & Contact:** The contact point listed directly on `skincarelens.com` is `timzhangql@gmail.com`, identifying developer **Qi long Zhang** (`@timzhangql`) as the author and maintainer behind the software.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **SkinCareLens** at **skincarelens.com** operates under the provider brand/entity **SkinCareLens**, developed by **Qi long Zhang** (timzhangql)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfIeZ2eaNVXHVPftwBY8TglY-mA6b5f3pujkK8ROCj9pFOPLa77nMujaiNHt_3cic415PeH33E72UA5YMBDMA02oN4b9Pu6Bknbu9jWzOL83M-UrkG806VpBsOW_N-XXpMSA==",
+          "title": "skincarelens.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **SkinCareLens** at **skincarelens.com** operates under the provider brand/entity **SkinCareLens**, developed by **Qi long Zhang** (timzhangql)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFBOsqNoZG4U4qSnciIZh6nMa9rh6WEGyD8rDwbIBu8FX4dtwa_tCr2WbK1uBq7Rcd83BGFyItTerax6mymDZWtWoiyWNSQR6MIalgQqlh17UG1FCfN6Q7xqo=",
+          "title": "skincarelens.com"
+        },
+        {
+          "id": 2,
+          "text": "The vendor directly providing **SkinCareLens** at **skincarelens.com** operates under the provider brand/entity **SkinCareLens**, developed by **Qi long Zhang** (timzhangql)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7MWzQ-T4C2KMb9e9dd-0NU39K6iGLVLjwewsQkBELfQ1iAsuxrZRsuEn1iVN6pxfeijZpQVqHQUMwaiO6GewO7X70PS5FBubV31Y7J_3o5an7lO8IU_Qp8bTeFdLs9nBKHSUfaw==",
+          "title": "poweredbyai.app"
+        },
+        {
+          "id": 3,
+          "text": "*\"Company (referred to as either 'the Company', 'We', 'Us' or 'Our' in this Agreement) refers to SkinCareLens.\"* (e.g., *«Εταιρεία (αναφέρεται είτε ως \"η Εταιρεία\", \"εμείς\", \"μας\" ή \"δική μας\" σε αυτή τη Συμφωνία) αναφέρεται στην SkinCareLens»*).\n  > The footer also asserts: *«© SkinCareLens. All rights reserved.»*\n* **Publi",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfIeZ2eaNVXHVPftwBY8TglY-mA6b5f3pujkK8ROCj9pFOPLa77nMujaiNHt_3cic415PeH33E72UA5YMBDMA02oN4b9Pu6Bknbu9jWzOL83M-UrkG806VpBsOW_N-XXpMSA==",
+          "title": "skincarelens.com"
+        },
+        {
+          "id": 4,
+          "text": "d directly on `skincare",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErQ_42tymIHqS07DOxWtZfXUlcHHfEEOrrdkySYFPwMIURmwOPuMYf73vrdkydTwc-Z93566NWYwxhDTAeI-x5-_nIkYAS-NwPjAj4zwSyxXElFgl6P_HNoXUu13rDzboHkGPBE0eSDscnTOOKR8vrjQ==",
+          "title": "skincarelens.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "SkinCareLens",
+        "evidence": "According to the official site terms, 'Company' refers directly to SkinCareLens, with the footer asserting copyright to SkinCareLens.",
+        "source": {
+          "id": 3,
+          "text": "*\"Company (referred to as either 'the Company', 'We', 'Us' or 'Our' in this Agreement) refers to SkinCareLens.\"* (e.g., *«Εταιρεία (αναφέρεται είτε ως \"η Εταιρεία\", \"εμείς\", \"μας\" ή \"δική μας\" σε αυτή τη Συμφωνία) αναφέρεται στην SkinCareLens»*).\n  > The footer also asserts: *«© SkinCareLens. All rights reserved.»*\n* **Publi",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfIeZ2eaNVXHVPftwBY8TglY-mA6b5f3pujkK8ROCj9pFOPLa77nMujaiNHt_3cic415PeH33E72UA5YMBDMA02oN4b9Pu6Bknbu9jWzOL83M-UrkG806VpBsOW_N-XXpMSA==",
+          "title": "skincarelens.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "SkinCareLens",
+    "domain": "skincarelens.com",
+    "description": "AI analyzes 14+ skin concerns and recommends custom Korean skin care routines"
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "SkinCareLens",
+  "evidence": "According to the official site terms, 'Company' refers directly to SkinCareLens, with the footer asserting copyright to SkinCareLens.",
+  "source": {
+    "id": 3,
+    "text": "*\"Company (referred to as either 'the Company', 'We', 'Us' or 'Our' in this Agreement) refers to SkinCareLens.\"* (e.g., *«Εταιρεία (αναφέρεται είτε ως \"η Εταιρεία\", \"εμείς\", \"μας\" ή \"δική μας\" σε αυτή τη Συμφωνία) αναφέρεται στην SkinCareLens»*).\n  > The footer also asserts: *«© SkinCareLens. All rights reserved.»*\n* **Publi",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfIeZ2eaNVXHVPftwBY8TglY-mA6b5f3pujkK8ROCj9pFOPLa77nMujaiNHt_3cic415PeH33E72UA5YMBDMA02oN4b9Pu6Bknbu9jWzOL83M-UrkG806VpBsOW_N-XXpMSA==",
+    "title": "skincarelens.com"
+  },
+  "checked_at": "2026-11-05T07:27:39.231335+00:00"
+}

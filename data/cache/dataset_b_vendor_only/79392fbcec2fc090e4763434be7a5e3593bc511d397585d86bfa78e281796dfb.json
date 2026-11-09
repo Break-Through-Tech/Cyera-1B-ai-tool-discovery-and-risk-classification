@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **Salesforce** platform at **salesforce.com** is **Salesforce, Inc.** (historically **salesforce.com, inc.**).\n\n### Evidence\nAccording to the official **Salesforce Privacy Statement** at `salesforce.com`:\n> *\"Salesforce, Inc. and/or its affiliated entities (“Salesforce”, “we”, “us”, or the “Company”) are responsible for the processing of your Personal Data as described in this Privacy Statement, unless specified otherwise, and act as the controller of such Personal Data.\"*\n\nAdditional official legal documents identify the entity as:\n> *\"salesforce.com, inc., a Delaware corporation with its principal place of business at Salesforce Tower, 415 Mission Street, 3rd Floor, San Francisco, California 94105.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **Salesforce** platform at **salesforce.com** is **Salesforce, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_iEyR3xF5LrfS3zJRWjPvgkQLbMrELSd6bMZlqe8zVxlXww4DuUKWpg3ixqqHs7l4WMvXDx3TZs8AVKyv1hmDKm8CerWdnkLOZChvgESAPvggCxKctfr-HA6aHWhIvGD3jskZ_Zl2BcZA8m0z0eAuGQ==",
+          "title": "salesforce.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the **Salesforce** platform at **salesforce.com** is **Salesforce, Inc.** (historically **salesforce.com, inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrKs1thLXe6A7AZvM6DIrMtc4tql93kV9QR9w77cC-rtL9g0sxG64bEC55gEtzWGk917kXE24Jox75oCMawK_FaFiXrpyz4fpBDODbgUOVSx_szsSOVB-u_qCsIlYvLLXgkbj1xkrZNbYFdiUKmFKSHtmqPZ9JKb9HRUIs",
+          "title": "salesforce.com"
+        },
+        {
+          "id": 2,
+          "text": "The vendor directly providing the **Salesforce** platform at **salesforce.com** is **Salesforce, Inc.** (historically **salesforce.com, inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEyF2z9U5Q7dFzNfpEMbjpjVgYJ4TcEiMxn90SwXYLS7qg9BSRRpXhaAZLz696oOSG6BBHB-BK7TrOs7Fvs82BhjuQ0iYrR_sbACXDR3-q9nHFW2qxo-K55zqPu-0jjA-GJRmVxIluMjh07csEoMwHyQBs02ZkjfTkQ7nI48F113ii-tbwuevhohYEI",
+          "title": "cloudfront.net"
+        },
+        {
+          "id": 3,
+          "text": "*\"Salesforce, Inc. and/or its affiliated entities (“Salesforce”, “we”, “us”, or the “Company”) are responsible for the processing of your Personal Data as described in this Privacy Statement, unless specified otherwise, and act as the controller of such Personal Data.\"*\n\nAdditional off",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_iEyR3xF5LrfS3zJRWjPvgkQLbMrELSd6bMZlqe8zVxlXww4DuUKWpg3ixqqHs7l4WMvXDx3TZs8AVKyv1hmDKm8CerWdnkLOZChvgESAPvggCxKctfr-HA6aHWhIvGD3jskZ_Zl2BcZA8m0z0eAuGQ==",
+          "title": "salesforce.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Salesforce, Inc.",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing the Salesforce platform at salesforce.com is Salesforce, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the **Salesforce** platform at **salesforce.com** is **Salesforce, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_iEyR3xF5LrfS3zJRWjPvgkQLbMrELSd6bMZlqe8zVxlXww4DuUKWpg3ixqqHs7l4WMvXDx3TZs8AVKyv1hmDKm8CerWdnkLOZChvgESAPvggCxKctfr-HA6aHWhIvGD3jskZ_Zl2BcZA8m0z0eAuGQ==",
+          "title": "salesforce.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Salesforce",
+    "domain": "salesforce.com",
+    "description": "Salesforce is a leading customer relationship management (CRM) platform based in San Francisco, California. The company provides a comprehensive suite of services that integrate CRM, data management, artificial intelligence, and security solutions, enabling businesses to connect with their customers effectively. Salesforce focuses on delivering innovative cloud-based solutions that help organizations improve sales, service, and marketing, fostering stronger customer relationships."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Salesforce, Inc.",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing the Salesforce platform at salesforce.com is Salesforce, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the **Salesforce** platform at **salesforce.com** is **Salesforce, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_iEyR3xF5LrfS3zJRWjPvgkQLbMrELSd6bMZlqe8zVxlXww4DuUKWpg3ixqqHs7l4WMvXDx3TZs8AVKyv1hmDKm8CerWdnkLOZChvgESAPvggCxKctfr-HA6aHWhIvGD3jskZ_Zl2BcZA8m0z0eAuGQ==",
+    "title": "salesforce.com"
+  },
+  "checked_at": "2026-11-05T08:57:15.589752+00:00"
+}

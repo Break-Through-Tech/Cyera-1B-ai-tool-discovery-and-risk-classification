@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Cognito Forms** at **cognitoforms.com** is **Cognito, LLC**.\n\n### Evidence\nAccording to the official [Terms of Service](https://www.cognitoforms.com/terms) for Cognito Forms at `cognitoforms.com`:\n> *\"Cognito Forms (“Cognito Forms” or the “Service”) is an online form building service offered through the URL www.cognitoforms.com... Cognito Forms is owned and operated by Cognito, LLC, a South Carolina limited liability corporation (“Cognito Forms,” “we,” or “us”).\"*\n\nThis is also corroborated by the [Privacy Policy](https://www.cognitoforms.com/privacy), which states that the policy applies to *\"websites and services provided by Cognito, LLC (“Cognito Forms”, “us” “we” or “our”)\"*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Cognito Forms** at **cognitoforms.com** is **Cognito, LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzwBonNNWg1M89W6RBWlFzDjQlsAwx5LhG0-sWcK-RhaWZqtvmMo93pwbYq4TGvyozGDh8JytSDMOYbfe2bYjesMxIfrwNZjcNhBs9P08HpTccbLI3Fxo0HqDJOWduHP8=",
+          "title": "cognitoforms.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Cognito Forms** at **cognitoforms.com** is **Cognito, LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0--n4_LsC-QaeTcRsah5kzwj70rvqkPhYpf75Hy9Tr_EactCIrzQnLsi7oqGGsJYGlzPmKKFGG1LTIjSAAsOmpQHGnfArnsPDO_qqKLK_TMG13EBcs2a4XAxRGYrW",
+          "title": "cognitoforms.com"
+        },
+        {
+          "id": 2,
+          "text": "Forms is owned and operated by Cognito, LLC, a South Carolina limited liability corporation (“Cognito Forms,” “we,” or “us”).\"*\n\nThis is also corro",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0--n4_LsC-QaeTcRsah5kzwj70rvqkPhYpf75Hy9Tr_EactCIrzQnLsi7oqGGsJYGlzPmKKFGG1LTIjSAAsOmpQHGnfArnsPDO_qqKLK_TMG13EBcs2a4XAxRGYrW",
+          "title": "cognitoforms.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Cognito, LLC",
+        "evidence": "Passage 2 states that Forms is owned and operated by Cognito, LLC, a South Carolina limited liability corporation.",
+        "source": {
+          "id": 2,
+          "text": "Forms is owned and operated by Cognito, LLC, a South Carolina limited liability corporation (“Cognito Forms,” “we,” or “us”).\"*\n\nThis is also corro",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0--n4_LsC-QaeTcRsah5kzwj70rvqkPhYpf75Hy9Tr_EactCIrzQnLsi7oqGGsJYGlzPmKKFGG1LTIjSAAsOmpQHGnfArnsPDO_qqKLK_TMG13EBcs2a4XAxRGYrW",
+          "title": "cognitoforms.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Cognito Forms",
+    "domain": "cognitoforms.com",
+    "description": "Cognito Forms is an online form builder that enables users to create, publish, and manage various types of forms, including registration forms, payment forms, and surveys without requiring any coding skills. The platform allows for unlimited form creation, easy website embedding, and provides access to form submissions from any device."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Cognito, LLC",
+  "evidence": "Passage 2 states that Forms is owned and operated by Cognito, LLC, a South Carolina limited liability corporation.",
+  "source": {
+    "id": 2,
+    "text": "Forms is owned and operated by Cognito, LLC, a South Carolina limited liability corporation (“Cognito Forms,” “we,” or “us”).\"*\n\nThis is also corro",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0--n4_LsC-QaeTcRsah5kzwj70rvqkPhYpf75Hy9Tr_EactCIrzQnLsi7oqGGsJYGlzPmKKFGG1LTIjSAAsOmpQHGnfArnsPDO_qqKLK_TMG13EBcs2a4XAxRGYrW",
+    "title": "cognitoforms.com"
+  },
+  "checked_at": "2026-11-05T09:22:09.679167+00:00"
+}

@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software solutions and services at **bio-key.com** (including PortalGuard IDaaS and related biometric IAM tools) is **BIO-key International, Inc.**\n\n### Evidence and Provider Statement\n* **Legal Entity Statement:** Under the site's *Vulnerability Reporting Policy*, the company identifies its operating corporate entity: *\"...and BIO-key International, Inc. will not recommend or pursue legal action related to your research.\"*\n* **Copyright and Policies:** The website footer and legal policies state: *“© 2026 BIO-key International®. All rights reserved”* and reference communications from *“BIO-key International”*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software solutions and services at **bio-key.com** (including PortalGuard IDaaS and related biometric IAM tools) is **BIO-key International, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdRD_vJsx_Ydrto3Ejo6_swpmtgupNjJXrZs_6VgfjKGPDV1b-1xOHH0rswEpHnpXNx_WidHnhO6jgda8zIwflp0PGy14r6e0a8LGJGLBeU5cycCRQDkCq2dx9sGWwz-KWE1zBfg==",
+          "title": "bio-key.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the software solutions and services at **bio-key.com** (including PortalGuard IDaaS and related biometric IAM tools) is **BIO-key International, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCYuxS9xBWJ78YGhF8q-c0aNKKRYZAOv4naPWwVVKo5iXKIA3_w9ujwZL7tfUC75sZ8UceycEJsxcuykCCnyIUcTTtS_2hRw4aUQitaPnM18EffVRs8RULHsfR7wVmeDK_8r8gMg==",
+          "title": "bio-key.com"
+        },
+        {
+          "id": 2,
+          "text": "**Legal Entity Statement:** Under the site's *Vulnerability Reporting Policy*, the company identifies its operating corporate entity: *\"...and BIO-key International, Inc. will not recommend or pursue legal action related to your research.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdRD_vJsx_Ydrto3Ejo6_swpmtgupNjJXrZs_6VgfjKGPDV1b-1xOHH0rswEpHnpXNx_WidHnhO6jgda8zIwflp0PGy14r6e0a8LGJGLBeU5cycCRQDkCq2dx9sGWwz-KWE1zBfg==",
+          "title": "bio-key.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "BIO-key International, Inc.",
+        "evidence": "Passage 0 explicitly identifies BIO-key International, Inc. as the vendor directly providing the software solutions and services at bio-key.com.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the software solutions and services at **bio-key.com** (including PortalGuard IDaaS and related biometric IAM tools) is **BIO-key International, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdRD_vJsx_Ydrto3Ejo6_swpmtgupNjJXrZs_6VgfjKGPDV1b-1xOHH0rswEpHnpXNx_WidHnhO6jgda8zIwflp0PGy14r6e0a8LGJGLBeU5cycCRQDkCq2dx9sGWwz-KWE1zBfg==",
+          "title": "bio-key.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "BIO-key International",
+    "domain": "bio-key.com",
+    "description": "BIO-key International specializes in Identity and Access Management (IAM) solutions, providing secure authentication tools for employees, customers, and suppliers. Their flagship product, the PortalGuard IDaaS platform, integrates Identity-Bound Biometrics to eliminate passwords and enhance security. Trusted by over 1,000 customers, including AT&T and numerous educational institutions, BIO-key aims to streamline access management while significantly reducing password-related support requests. With a focus on ease of use and productivity, their offerings include multi-factor authentication methods and mobile biometric solutions."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "BIO-key International, Inc.",
+  "evidence": "Passage 0 explicitly identifies BIO-key International, Inc. as the vendor directly providing the software solutions and services at bio-key.com.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the software solutions and services at **bio-key.com** (including PortalGuard IDaaS and related biometric IAM tools) is **BIO-key International, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdRD_vJsx_Ydrto3Ejo6_swpmtgupNjJXrZs_6VgfjKGPDV1b-1xOHH0rswEpHnpXNx_WidHnhO6jgda8zIwflp0PGy14r6e0a8LGJGLBeU5cycCRQDkCq2dx9sGWwz-KWE1zBfg==",
+    "title": "bio-key.com"
+  },
+  "checked_at": "2026-11-05T08:29:41.310208+00:00"
+}

@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Rex Fit** at **rex.fit** is **BabylonAI Inc.** (for users outside the EEA and Switzerland) and **BabylonAI GmbH** (for users resident in the EEA or Switzerland).\n\n### Evidence:\n* According to the official **Terms of Service** and **Privacy Policy** on `rex.fit` under the section *\"Who are we?\"*:\n  > *\"‘Rex,’ ‘our,’ ‘we,’ or ‘us’ in these Terms refers to:*\n  > * * **BabylonAI GmbH**, a company incorporated in the Swiss Confederation with its registered office at 59 Luegislandstrasse, 8051 Zurich, Switzerland, and company number CHE-465.721.733, which provides you the Services if you are resident in the EEA or Switzerland.*\n  > * * **BabylonAI Inc.**, a Delaware company with its registered office at 1111B S Governors Ave, 19904 Dover, DE, United States, and company number 92-1567418, which provides you the Services if you're not a resident of the EEA or Switzerland.\"*\n* The website footer across `rex.fit` also displays: *\"Copyright © BabylonAI Inc. www.rex.fit\"*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Rex Fit** at **rex.fit** is **BabylonAI Inc.** (for users outside the EEA and Switzerland) and **BabylonAI GmbH** (for users resident in the EEA or Switzerland)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdlS-4LYwgBXkBIjP8jNuKKQFqvM2EN9mTebD4b7xSZzyDrIKdUW_VGn9sG9lGS6DrqCtA8V3sufB9wwe66UBansKEN3SWVDpuGAXrIxUIhcLIEx-4o-Y=",
+          "title": "rex.fit"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Rex Fit** at **rex.fit** is **BabylonAI Inc.** (for users outside the EEA and Switzerland) and **BabylonAI GmbH** (for users resident in the EEA or Switzerland)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpdyFmSfomCJnZ1925hvlOiLZfYumPNHjb4wRzovRpWss5yqZN2V3RAz4vpTEn5nhEGqBIWxz-X2jbYaNnIlKjnvTAULAeHW0mX_f-9XSo-wzDU52xg20d9w==",
+          "title": "rex.fit"
+        },
+        {
+          "id": 2,
+          "text": "Inc.**, a Delaware company with its registered office at 1111B S Governors Ave, 19904 Dover, DE, United States, and company number 92-1567418, which provides you the Services if you're not a resident of the EEA or Switzerland.\"*\n* The website f",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdlS-4LYwgBXkBIjP8jNuKKQFqvM2EN9mTebD4b7xSZzyDrIKdUW_VGn9sG9lGS6DrqCtA8V3sufB9wwe66UBansKEN3SWVDpuGAXrIxUIhcLIEx-4o-Y=",
+          "title": "rex.fit"
+        },
+        {
+          "id": 3,
+          "text": "Inc.**, a Delaware company with its registered office at 1111B S Governors Ave, 19904 Dover, DE, United States, and company number 92-1567418, which provides you the Services if you're not a resident of the EEA or Switzerland.\"*\n* The website f",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpdyFmSfomCJnZ1925hvlOiLZfYumPNHjb4wRzovRpWss5yqZN2V3RAz4vpTEn5nhEGqBIWxz-X2jbYaNnIlKjnvTAULAeHW0mX_f-9XSo-wzDU52xg20d9w==",
+          "title": "rex.fit"
+        },
+        {
+          "id": 4,
+          "text": "and company number CHE-465.721.733, which provides you the Services if you are resident in the EEA or Switzerland.*\n  > * * **BabylonAI Inc.**, a Delaware company with its registered office at 1111B S Governors Ave, 19904 Dover, DE, United States, and company numb",
+          "url": "https://mealplan.rex.fit/privacy-policy",
+          "title": ""
+        },
+        {
+          "id": 5,
+          "text": "a Delaware company with its registered office at 1111B S Governors Ave, 19904 Dover, DE, United States, and company number 92-1567418, which provides you the Services if you're not a resident of the EEA or Switzerland.\"*\n* ",
+          "url": "https://www.rex.fit/privacy-policy",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "BabylonAI Inc.",
+        "evidence": "Passage 0 directly states that the vendor providing Rex Fit at rex.fit is BabylonAI Inc. (for users outside the EEA and Switzerland) and BabylonAI GmbH (for users resident in the EEA or Switzerland).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Rex Fit** at **rex.fit** is **BabylonAI Inc.** (for users outside the EEA and Switzerland) and **BabylonAI GmbH** (for users resident in the EEA or Switzerland)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdlS-4LYwgBXkBIjP8jNuKKQFqvM2EN9mTebD4b7xSZzyDrIKdUW_VGn9sG9lGS6DrqCtA8V3sufB9wwe66UBansKEN3SWVDpuGAXrIxUIhcLIEx-4o-Y=",
+          "title": "rex.fit"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Rex Fit",
+    "domain": "rex.fit",
+    "description": "Custom health coach for achieving fitness goals."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "BabylonAI Inc.",
+  "evidence": "Passage 0 directly states that the vendor providing Rex Fit at rex.fit is BabylonAI Inc. (for users outside the EEA and Switzerland) and BabylonAI GmbH (for users resident in the EEA or Switzerland).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Rex Fit** at **rex.fit** is **BabylonAI Inc.** (for users outside the EEA and Switzerland) and **BabylonAI GmbH** (for users resident in the EEA or Switzerland)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdlS-4LYwgBXkBIjP8jNuKKQFqvM2EN9mTebD4b7xSZzyDrIKdUW_VGn9sG9lGS6DrqCtA8V3sufB9wwe66UBansKEN3SWVDpuGAXrIxUIhcLIEx-4o-Y=",
+    "title": "rex.fit"
+  },
+  "checked_at": "2026-11-05T07:52:52.829636+00:00"
+}

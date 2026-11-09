@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **Addy AI** software product at **addy.so** is **Addy AI, Inc.**.\n\n### Evidence:\n* The official website footer across **addy.so** (including its Privacy Policy and Terms of Service pages) explicitly states:  \n  > *\"Copyright © 2026 Addy AI, Inc.\"*\n* Official marketplace listings (such as the Microsoft 365 App Certification for Addy AI linking to `addy.so`) confirm the partner company name as **Addy AI, Inc.**",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **Addy AI** software product at **addy.so** is **Addy AI, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOvcUKFaVRecVtxtSJ3j3HVfS5o4-lek6Hp4dKamR5qPO5C6QScbgdrrE24ha-GtRAeZ8F04Bhh63cqGmiPr5tgT1UbfbCIW9rguoF_Xb6VceV06ogB-9IMyXxmlqHEHWw2c-GdFw8NiYTHR4ihDXkInw7L-m_rIYq1MsQ6kDfwIL3EDlpgIB0Sw==",
+          "title": "microsoft.com"
+        },
+        {
+          "id": 1,
+          "text": "*\"Copyright © 2026 Addy AI, Inc.\"*\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpWMoBG4P9DsUqeEiRjySTPNMqslOdyIGE2d6apZEDryWsxRzE8t2X0zHm8zOdyTCmf_-0dJghNUYyxawyGNb0auvRukbgcLOmrp6y0qm1spjX82A=",
+          "title": "addy.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"Copyright © 2026 Addy AI, Inc.\"*\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBt6QGq_TI8hMYi1BLWW5Gbr_00f7_HHDSmdUGy15wWLdTzqwFcL9BmHPfrI-Nm2qK9HlLMFHcEeYIvSDxvXf-HOcBJLtU0EjYIcX64_NCudNgg2Du",
+          "title": "addy.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Addy AI, Inc.",
+        "evidence": "Passage 0 directly states that the vendor providing the Addy AI software product at addy.so is Addy AI, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the **Addy AI** software product at **addy.so** is **Addy AI, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOvcUKFaVRecVtxtSJ3j3HVfS5o4-lek6Hp4dKamR5qPO5C6QScbgdrrE24ha-GtRAeZ8F04Bhh63cqGmiPr5tgT1UbfbCIW9rguoF_Xb6VceV06ogB-9IMyXxmlqHEHWw2c-GdFw8NiYTHR4ihDXkInw7L-m_rIYq1MsQ6kDfwIL3EDlpgIB0Sw==",
+          "title": "microsoft.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Addy AI",
+    "domain": "addy.so",
+    "description": "Write Emails 10x Faster with Your AI Assistant, Addy"
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Addy AI, Inc.",
+  "evidence": "Passage 0 directly states that the vendor providing the Addy AI software product at addy.so is Addy AI, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the **Addy AI** software product at **addy.so** is **Addy AI, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOvcUKFaVRecVtxtSJ3j3HVfS5o4-lek6Hp4dKamR5qPO5C6QScbgdrrE24ha-GtRAeZ8F04Bhh63cqGmiPr5tgT1UbfbCIW9rguoF_Xb6VceV06ogB-9IMyXxmlqHEHWw2c-GdFw8NiYTHR4ihDXkInw7L-m_rIYq1MsQ6kDfwIL3EDlpgIB0Sw==",
+    "title": "microsoft.com"
+  },
+  "checked_at": "2026-11-05T05:46:50.068357+00:00"
+}

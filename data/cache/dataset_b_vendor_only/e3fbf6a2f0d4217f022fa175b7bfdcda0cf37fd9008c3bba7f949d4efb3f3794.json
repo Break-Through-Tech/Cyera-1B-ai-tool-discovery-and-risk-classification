@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the product at **quicksprout.com** is **Quick Sprout, LLC** (operating as **Quick Sprout**).\n\n### Evidence\n* **Privacy Policy (`quicksprout.com`):** Under *Definitions*, the policy specifies:  \n  > *\"We/us (either capitalized or not) – Quick Sprout, LLC.\"*\n* **Terms of Service (`quicksprout.com`):**  \n  > *\"The following terms and conditions govern all use of the QuickSprout.com website and all content, services, features, activities and products available at or through the website... The Services are owned and operated by Quick Sprout (“Quick Sprout”, “us” or “we”).\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the product at **quicksprout.com** is **Quick Sprout, LLC** (operating as **Quick Sprout**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-7khJ8Mz8ZoajoazGnKsY3nW42qvhzAmVyaxLqXjwgf1emQMBLsgZJWmNIfU02XWyFT5U8FHP_DuE0ta3qCq8vMe6nyQxp57CK8PWJ5q6Vj3VANsSy9RK",
+          "title": "quicksprout.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the product at **quicksprout.com** is **Quick Sprout, LLC** (operating as **Quick Sprout**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHTNcOZwEJNcSQZ35429slHg4dMJfUhD4Dsew_AGZzZ5BkxyMEUTezIVn0scW1ojs-lH4S-_OUxA3teOGbRrFTNrDrfpwz3kBmj_5pXnKU0CsKnLlhToSyvJ0=",
+          "title": "quicksprout.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"We/us (either capitalized or not) – Quick Sprout, LLC.\"*\n*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHTNcOZwEJNcSQZ35429slHg4dMJfUhD4Dsew_AGZzZ5BkxyMEUTezIVn0scW1ojs-lH4S-_OUxA3teOGbRrFTNrDrfpwz3kBmj_5pXnKU0CsKnLlhToSyvJ0=",
+          "title": "quicksprout.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Quick Sprout, LLC",
+        "evidence": "Passage 0 states that the vendor directly providing the product at quicksprout.com is Quick Sprout, LLC (operating as Quick Sprout).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the product at **quicksprout.com** is **Quick Sprout, LLC** (operating as **Quick Sprout**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-7khJ8Mz8ZoajoazGnKsY3nW42qvhzAmVyaxLqXjwgf1emQMBLsgZJWmNIfU02XWyFT5U8FHP_DuE0ta3qCq8vMe6nyQxp57CK8PWJ5q6Vj3VANsSy9RK",
+          "title": "quicksprout.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Quick Sprout",
+    "domain": "quicksprout.com",
+    "description": "Quick Sprout is a SaaS company specializing in software solutions designed to assist content creators in boosting their web traffic and improving conversion rates. Co-founded by notable entrepreneurs Neil Patel and Hiten Shah, the company focuses on providing tools that empower users to enhance their online presence and marketing effectiveness."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Quick Sprout, LLC",
+  "evidence": "Passage 0 states that the vendor directly providing the product at quicksprout.com is Quick Sprout, LLC (operating as Quick Sprout).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the product at **quicksprout.com** is **Quick Sprout, LLC** (operating as **Quick Sprout**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-7khJ8Mz8ZoajoazGnKsY3nW42qvhzAmVyaxLqXjwgf1emQMBLsgZJWmNIfU02XWyFT5U8FHP_DuE0ta3qCq8vMe6nyQxp57CK8PWJ5q6Vj3VANsSy9RK",
+    "title": "quicksprout.com"
+  },
+  "checked_at": "2026-11-05T09:51:51.392567+00:00"
+}

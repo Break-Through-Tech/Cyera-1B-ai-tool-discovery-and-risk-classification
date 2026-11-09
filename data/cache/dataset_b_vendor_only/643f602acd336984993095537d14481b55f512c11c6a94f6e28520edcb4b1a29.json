@@ -1,0 +1,79 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Mailmaker by Mailscribe** at **mailscribe.com** is **Airscarp LLC** (operating under the brand **Mailscribe**).\n\n### Evidence and Citations:\n* **Operating Company Portfolio**: On the official portfolio website of Airscarp LLC (`airscarp.com`), the company explicitly lists Mailscribe among its software products: *\"We build small, focused software for people who care about their work. Selected work — Screpy, Mailscribe, SpySeller, SEO Checklist, Backlinkscan. © Airscarp LLC.\"*\n* **Corporate Registration & Domain Records**: WHOIS registration data and business directory records for `mailscribe.com` list the operating organization as **Airscarp LLC** at its corporate address (*1007 N Orange St. 4th Floor Suite #1533, Wilmington, DE 19801*).\n* **Site Terms of Service & Privacy Policy**: On `mailscribe.com`, the Terms of Service identify the provider brand: *\"These Terms of Service ('Terms') govern your access to and use of Mailscribe ('Mailscribe', 'we', 'us', 'our'), including mailscribe.com, our tools, checklists, and related content...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Mailmaker by Mailscribe** at **mailscribe.com** is **Airscarp LLC** (operating under the brand **Mailscribe**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAIHBdwnZkwX0mwUHoczVSP-MPIWWxQaGUJUwif54YG7Fsa2DWHS7xyjMjttMpRHozVdYD0fgJmJRFwqBMRjI4orRdfFiw9dXUug==",
+          "title": "airscarp.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Mailmaker by Mailscribe** at **mailscribe.com** is **Airscarp LLC** (operating under the brand **Mailscribe**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAIHBdwnZkwX0mwUHoczVSP-MPIWWxQaGUJUwif54YG7Fsa2DWHS7xyjMjttMpRHozVdYD0fgJmJRFwqBMRjI4orRdfFiw9dXUug==",
+          "title": "airscarp.com"
+        },
+        {
+          "id": 2,
+          "text": "Airscarp LLC.\"*\n* ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAIHBdwnZkwX0mwUHoczVSP-MPIWWxQaGUJUwif54YG7Fsa2DWHS7xyjMjttMpRHozVdYD0fgJmJRFwqBMRjI4orRdfFiw9dXUug==",
+          "title": "airscarp.com"
+        },
+        {
+          "id": 3,
+          "text": "Airscarp LLC.\"*\n* ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAIHBdwnZkwX0mwUHoczVSP-MPIWWxQaGUJUwif54YG7Fsa2DWHS7xyjMjttMpRHozVdYD0fgJmJRFwqBMRjI4orRdfFiw9dXUug==",
+          "title": "airscarp.com"
+        },
+        {
+          "id": 4,
+          "text": "orporate Registration & Domain Records**: WHOIS registration data and business directory records for `mailscribe.com` list the operating organization as **Airscarp LLC** at its corporate address (*1007 N Orange St. 4th Floor Suite #1533, Wilmington, DE 19801*).\n*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkJGo70eOrCV2wI3tZl5p29DMky8-fil6K2cd-DuslK3P9ug2CcbHuNbrySxAa3gJxYItXvnyUybXNlu3lQyWQEOCatY3uogjgWX99xT3F5fnYJc-jJDUYY69Z7UkP5wc4_JYWAQ==",
+          "title": "trustpilot.com"
+        },
+        {
+          "id": 5,
+          "text": "orporate Registration & Domain Records**: WHOIS registration data and business directory records for `mailscribe.com` list the operating organization as **Airscarp LLC** at its corporate address (*1007 N Orange St. 4th Floor Suite #1533, Wilmington, DE 19801*).\n*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrNGH3kOvhhOC3R4Tv-_l9V4e3L3YIjnt0XADfPvNmnyclFYGsOP8glxONiNCF5DCo5ZHUCAokDyVRuwC1d9cmgwZJbCySCII-ScaipiIvtfKxrYnc1HIlR5XGTtyQV7bhDaads_fzlGF-CCw7PVp6rAFt",
+          "title": "scam-detector.com"
+        },
+        {
+          "id": 6,
+          "text": "orporate Registration & Domain Records**: WHOIS registration data and business directory records for `mailscribe.com` list the operating organization as **Airscarp LLC** at its corporate address (*1007 N Orange St. 4th Floor Suite #1533, Wilmington, DE 19801*).\n*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHC-cNiZF2go7ncqaHWD3XmGlpzIYBBpjMOztqnbUn-rrdCbuHiKvESR-cG3tVKztDLhgBOobKVdC4faXpBEDV-VuLw1zZafb-8ClJbJVYptQ1kyUM6n3wzAEOgf_ZK5YZ0AF_AGHvHShEo9vtn3PMmEif7RoK8ERw1NYh-UxOAOV4XQAkkdKHgEF8dqRP1fHyNnsc=",
+          "title": "google.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Airscarp LLC",
+        "evidence": "Passage 0 directly states that the vendor providing Mailmaker by Mailscribe at mailscribe.com is Airscarp LLC (operating under the brand Mailscribe).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Mailmaker by Mailscribe** at **mailscribe.com** is **Airscarp LLC** (operating under the brand **Mailscribe**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAIHBdwnZkwX0mwUHoczVSP-MPIWWxQaGUJUwif54YG7Fsa2DWHS7xyjMjttMpRHozVdYD0fgJmJRFwqBMRjI4orRdfFiw9dXUug==",
+          "title": "airscarp.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Mailmaker by Mailscribe",
+    "domain": "mailscribe.com",
+    "description": "Mailmaker by Mailscribe is an AI-powered tool that generates high-converting email marketing campaigns in seconds. It helps users overcome writer's block, create various email types, and tailor content with specific tones and audience targeting."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Airscarp LLC",
+  "evidence": "Passage 0 directly states that the vendor providing Mailmaker by Mailscribe at mailscribe.com is Airscarp LLC (operating under the brand Mailscribe).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Mailmaker by Mailscribe** at **mailscribe.com** is **Airscarp LLC** (operating under the brand **Mailscribe**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAIHBdwnZkwX0mwUHoczVSP-MPIWWxQaGUJUwif54YG7Fsa2DWHS7xyjMjttMpRHozVdYD0fgJmJRFwqBMRjI4orRdfFiw9dXUug==",
+    "title": "airscarp.com"
+  },
+  "checked_at": "2026-11-05T06:27:35.848774+00:00"
+}

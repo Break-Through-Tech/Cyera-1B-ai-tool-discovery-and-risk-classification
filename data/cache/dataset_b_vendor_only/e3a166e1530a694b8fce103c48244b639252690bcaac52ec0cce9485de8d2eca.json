@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **OpenSearch Project** at **opensearch.org** is **The Linux Foundation** (via the **OpenSearch Software Foundation** / **OpenSearch Project a Series of LF Projects, LLC**).\n\n### Provider Statement & Evidence\nAccording to the official site footer and policy notices across **opensearch.org**:\n> *\"© Copyright The Linux Foundation. The OpenSearch Project is a project of The Linux Foundation. ... The OpenSearch Project supports the OpenSearch open source project, which has been established as OpenSearch Project a Series of LF Projects, LLC.\"*\n\nAdditionally, the project's Terms of Service and governance documentation note that the initiative is organized under the Linux Foundation's **OpenSearch Software Foundation**.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **OpenSearch Project** at **opensearch.org** is **The Linux Foundation** (via the **OpenSearch Software Foundation** / **OpenSearch Project a Series of LF Projects, LLC**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERH3AJ6q_RPOgqy_D1ZEPCCnkYXc5_BLv2adweVVfhqiDE1RVQG72j_I697q2H_RPfzCSi-N6WNSGsCiUH8RukbCe07AzGIn5cmB_6cLwF-PmOY8WMcw==",
+          "title": "opensearch.org"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the **OpenSearch Project** at **opensearch.org** is **The Linux Foundation** (via the **OpenSearch Software Foundation** / **OpenSearch Project a Series of LF Projects, LLC**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsUME-m19sWuDRsP7KSlYjUw1L3mtMcwPBxKxi6Ep7_5lW_ocnYObxogwFSqfV-6X-W69OSS0oqfJSvVgKXkOfrmEouDlNM6m3i2gwnfS5wBMgMLBmc6E9V5jpAP0=",
+          "title": "opensearch.org"
+        },
+        {
+          "id": 2,
+          "text": "The vendor directly providing the **OpenSearch Project** at **opensearch.org** is **The Linux Foundation** (via the **OpenSearch Software Foundation** / **OpenSearch Project a Series of LF Projects, LLC**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGO5UOyq3211NNU6i3yjFCtaF36V1cQ1JIW6osJH7hWzt2DII68FkWMAHX48xaPt5svCtnCBGAyF73ih4j4U51fGRSUd4ZdZMrju4TWcfisw9U72H09iok3TJ8FoO3OMODXCTCXclrXq8h_cavJ-h1bycg8MI-OCEMNafEbUgeXsLa783C9pf6XRp8CRsHFudes2nr1NY5fIJGYbBbPT5pldLrT8BZmqacKLS5N6cU3dYglbJZPq-cPlRbZ77vcgHRA2C79zKmLvF5QGg==",
+          "title": "linuxfoundation.org"
+        },
+        {
+          "id": 3,
+          "text": "he OpenSearch Project supports the OpenSearch open source project, which has been established as OpenSearch Project a Series of LF Projects, LLC.\"*\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsUME-m19sWuDRsP7KSlYjUw1L3mtMcwPBxKxi6Ep7_5lW_ocnYObxogwFSqfV-6X-W69OSS0oqfJSvVgKXkOfrmEouDlNM6m3i2gwnfS5wBMgMLBmc6E9V5jpAP0=",
+          "title": "opensearch.org"
+        },
+        {
+          "id": 4,
+          "text": "dditionally, the project's Terms of Service and governance documentation note that the initiative is organized under the Linux Foundation's **OpenSearch Software Foundation**.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERH3AJ6q_RPOgqy_D1ZEPCCnkYXc5_BLv2adweVVfhqiDE1RVQG72j_I697q2H_RPfzCSi-N6WNSGsCiUH8RukbCe07AzGIn5cmB_6cLwF-PmOY8WMcw==",
+          "title": "opensearch.org"
+        },
+        {
+          "id": 5,
+          "text": "dditionally, the project's Terms of Service and governance documentation note that the initiative is organized under the Linux Foundation's **OpenSearch Software Foundation**.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETnI71P8eJWope0nUn_fsaQnsZjibP7bkImTcqkH6L6BR8K6mfnhuQkeEvfxkfRfCh1KN5MxE-5b0kwZIj6Mnsim2pICpNEduEpglbqnNwuu7QIc10wt2M",
+          "title": "opensearch.org"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "The Linux Foundation",
+        "evidence": "Passage 0 explicitly identifies The Linux Foundation as the vendor directly providing the OpenSearch Project at opensearch.org, operating via the OpenSearch Software Foundation / OpenSearch Project a Series of LF Projects, LLC.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the **OpenSearch Project** at **opensearch.org** is **The Linux Foundation** (via the **OpenSearch Software Foundation** / **OpenSearch Project a Series of LF Projects, LLC**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERH3AJ6q_RPOgqy_D1ZEPCCnkYXc5_BLv2adweVVfhqiDE1RVQG72j_I697q2H_RPfzCSi-N6WNSGsCiUH8RukbCe07AzGIn5cmB_6cLwF-PmOY8WMcw==",
+          "title": "opensearch.org"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "OpenSearch Project",
+    "domain": "opensearch.org",
+    "description": "OpenSearch is an open-source search and analytics suite that is community-driven, designed to provide powerful search capabilities and data visualization tools. It is developed as an alternative to proprietary solutions and aims to facilitate the integration of search into various applications. The project fosters collaboration among developers and users, ensuring continuous improvement and innovation in search technology."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "The Linux Foundation",
+  "evidence": "Passage 0 explicitly identifies The Linux Foundation as the vendor directly providing the OpenSearch Project at opensearch.org, operating via the OpenSearch Software Foundation / OpenSearch Project a Series of LF Projects, LLC.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the **OpenSearch Project** at **opensearch.org** is **The Linux Foundation** (via the **OpenSearch Software Foundation** / **OpenSearch Project a Series of LF Projects, LLC**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERH3AJ6q_RPOgqy_D1ZEPCCnkYXc5_BLv2adweVVfhqiDE1RVQG72j_I697q2H_RPfzCSi-N6WNSGsCiUH8RukbCe07AzGIn5cmB_6cLwF-PmOY8WMcw==",
+    "title": "opensearch.org"
+  },
+  "checked_at": "2026-11-05T09:01:50.076039+00:00"
+}

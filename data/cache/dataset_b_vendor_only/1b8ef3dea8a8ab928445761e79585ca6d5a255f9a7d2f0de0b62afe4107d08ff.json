@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **ProductionCrate** at **productioncrate.com** is **ProductionCrate Studios LLC** (successor-in-interest to **ProductionCrate LLC**).\n\n### Evidence\n* According to the **ProductionCrate Studios LLC Terms of Use and Limited License Agreement** on `productioncrate.com`:\n  > *\"These terms of use (hereinafter “Terms of Use”) govern your access to and use of the www.ProductionCrate.com website and the other websites formerly operated by ProductionCrate LLC and now operated by ProductionCrate Studios LLC... You acknowledge and agree that ProductionCrate Studios LLC is the successor-in-interest to ProductionCrate LLC...\"*\n* The platform's Privacy Policy also confirms:\n  > *\"By use of the www.ProductionCrate.com website, which is owned and operated by ProductionCrate LLC...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **ProductionCrate** at **productioncrate.com** is **ProductionCrate Studios LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2JXtdUriRXB2hzwqGqIqKZ5_laN1udf9jzfSiheE5rtJF18vOuCKMEZw7SKmUcXaB9yktXpQXeTNw86_hGcib2n5tEAAQAR3ephvlIjObmbHDffL1KtglPVrjPA5RUoQ=",
+          "title": "productioncrate.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **ProductionCrate** at **productioncrate.com** is **ProductionCrate Studios LLC** (successor-in-interest to **ProductionCrate LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2JXtdUriRXB2hzwqGqIqKZ5_laN1udf9jzfSiheE5rtJF18vOuCKMEZw7SKmUcXaB9yktXpQXeTNw86_hGcib2n5tEAAQAR3ephvlIjObmbHDffL1KtglPVrjPA5RUoQ=",
+          "title": "productioncrate.com"
+        },
+        {
+          "id": 2,
+          "text": "acknowledge and agree that ProductionCrate Studios LLC is the successor-in-interest to ProductionCrate LLC...\"*\n* T",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2JXtdUriRXB2hzwqGqIqKZ5_laN1udf9jzfSiheE5rtJF18vOuCKMEZw7SKmUcXaB9yktXpQXeTNw86_hGcib2n5tEAAQAR3ephvlIjObmbHDffL1KtglPVrjPA5RUoQ=",
+          "title": "productioncrate.com"
+        },
+        {
+          "id": 3,
+          "text": "These terms of use (hereinafter “Terms of Use”) govern your access to and use of the www.ProductionCrate.com website and the other websites formerly operated by ProductionCrate LLC and now operated by ProductionCrate Studios LLC... ",
+          "url": "https://www.productioncrate.com/terms.html",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "ProductionCrate Studios LLC",
+        "evidence": "Passage 3 explicitly states that the terms of use govern access to and use of www.ProductionCrate.com, which is 'now operated by ProductionCrate Studios LLC'.",
+        "source": {
+          "id": 3,
+          "text": "These terms of use (hereinafter “Terms of Use”) govern your access to and use of the www.ProductionCrate.com website and the other websites formerly operated by ProductionCrate LLC and now operated by ProductionCrate Studios LLC... ",
+          "url": "https://www.productioncrate.com/terms.html",
+          "title": ""
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "ProductionCrate",
+    "domain": "productioncrate.com",
+    "description": "ProductionCrate is a versatile platform offering a wide range of video production elements including original VFX, music, and other resources designed to streamline the post-production process. It provides exclusive downloadable content that caters to video creators seeking to enhance their productions efficiently. The service supports both individuals and professionals in the video production industry, and it offers a mobile app, subscription options, and a free trial to new users."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "ProductionCrate Studios LLC",
+  "evidence": "Passage 3 explicitly states that the terms of use govern access to and use of www.ProductionCrate.com, which is 'now operated by ProductionCrate Studios LLC'.",
+  "source": {
+    "id": 3,
+    "text": "These terms of use (hereinafter “Terms of Use”) govern your access to and use of the www.ProductionCrate.com website and the other websites formerly operated by ProductionCrate LLC and now operated by ProductionCrate Studios LLC... ",
+    "url": "https://www.productioncrate.com/terms.html",
+    "title": ""
+  },
+  "checked_at": "2026-11-05T08:39:59.898656+00:00"
+}

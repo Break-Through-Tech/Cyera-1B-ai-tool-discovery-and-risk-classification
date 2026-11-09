@@ -1,0 +1,79 @@
+{
+  "attempts": [
+    {
+      "answer": "For the customer support chatbot software **GPTBricks** associated with **gptbricks.com**:\n\n* **Published Developer / Operating Individual:** **Daniel Keane**, who identifies himself directly on `gptbricks.com`'s homepage and About page as the creator and developer running the site:  \n  > *\"I am Daniel Keane, the person behind this site. GPT Bricks is built for curious minds who want to explore AI and evolving tech trends... That thought eventually became GPT Bricks...\"*\n* **Provider Brand / Publisher:** **GPTBricks** (or **GPT Bricks**), which is credited as the software developer/publisher in software repository listings (e.g., CNET Download lists the tool as *\"By gptbricks\"*) and holds the site copyright (*\"Copyright © 2026 GPT Bricks\"*). \n\nNo separate incorporated operating entity is formally disclosed.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**Published Developer / Operating Individual:** **Daniel Keane**, who identifies himself directly on `gptbricks.com`'s homepage and About page as the creator and developer running the site",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzN_gcAajofaAv_liEuug_Lo2rI0Sup8WrJ1UYCVD8HoJfuE0j8yeU2xssNfGAE-4tY_YRSO71ENmDLhfWYjVzEH0mbfWOmXCOf0JK6QGe",
+          "title": "gptbricks.com"
+        },
+        {
+          "id": 1,
+          "text": "**Published Developer / Operating Individual:** **Daniel Keane**, who identifies himself directly on `gptbricks.com`'s homepage and About page as the creator and developer running the site",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHb7Luo2jfyCRvfnvhBRgWAMGRhwTjgLboWA-6-z_dr8CzLyUIcco6CMOwCZ2Z-vpUki9lDxWmFXzAUzjQV4NIG4OyumIHabJm96dto3IDqVbECjfXn",
+          "title": "gptbricks.com"
+        },
+        {
+          "id": 2,
+          "text": "That thought eventually became GPT Bricks...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzN_gcAajofaAv_liEuug_Lo2rI0Sup8WrJ1UYCVD8HoJfuE0j8yeU2xssNfGAE-4tY_YRSO71ENmDLhfWYjVzEH0mbfWOmXCOf0JK6QGe",
+          "title": "gptbricks.com"
+        },
+        {
+          "id": 3,
+          "text": "That thought eventually became GPT Bricks...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHb7Luo2jfyCRvfnvhBRgWAMGRhwTjgLboWA-6-z_dr8CzLyUIcco6CMOwCZ2Z-vpUki9lDxWmFXzAUzjQV4NIG4OyumIHabJm96dto3IDqVbECjfXn",
+          "title": "gptbricks.com"
+        },
+        {
+          "id": 4,
+          "text": "**Provider Brand / Publisher:** **GPTBricks** (or **GPT Bricks**), which is credited as the software developer/publisher in software repository listings (e.g., CNET Download lists the tool as *\"By gptbricks\"*)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmlK22OcXZVD4AKU5fkhmY649DW7CNNeAvuK97Rue-lgjYxd17iLucfb6gAAwDHyRefqntCxHbXcvSkFXj2N3P98tYrA1UWFknF1ZjsAG_To8nDgUZhBIaG4pJc6mMxEtYBb2uiH7TkS-QBEQjReswC9REq3IA",
+          "title": "cnet.com"
+        },
+        {
+          "id": 5,
+          "text": "**Provider Brand / Publisher:** **GPTBricks** (or **GPT Bricks**), which is credited as the software developer/publisher in software repository listings (e.g., CNET Download lists the tool as *\"By gptbricks\"*) and holds the site copyright (*\"Copyright © 2026 GPT Bricks\"*).",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHb7Luo2jfyCRvfnvhBRgWAMGRhwTjgLboWA-6-z_dr8CzLyUIcco6CMOwCZ2Z-vpUki9lDxWmFXzAUzjQV4NIG4OyumIHabJm96dto3IDqVbECjfXn",
+          "title": "gptbricks.com"
+        },
+        {
+          "id": 6,
+          "text": "o separate incorporated operating entity is formally disclosed.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjqKnFt0fTiQvCgbp-QtvPjud4_XVdD4AcqAfkeOoKGX7-j3aNIUhMhN6PnL6qbdsSS3wXlyI2kC4wIPUUdJydsLlB9bAXG5MgdW9rX09YveKUPZjf_gJrh7iiG1rrcnGg62RE",
+          "title": "likebookmark.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Daniel Keane",
+        "evidence": "Daniel Keane is identified directly on gptbricks.com's homepage and About page as the creator and developer running the site.",
+        "source": {
+          "id": 0,
+          "text": "**Published Developer / Operating Individual:** **Daniel Keane**, who identifies himself directly on `gptbricks.com`'s homepage and About page as the creator and developer running the site",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzN_gcAajofaAv_liEuug_Lo2rI0Sup8WrJ1UYCVD8HoJfuE0j8yeU2xssNfGAE-4tY_YRSO71ENmDLhfWYjVzEH0mbfWOmXCOf0JK6QGe",
+          "title": "gptbricks.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "GPTBricks",
+    "domain": "gptbricks.com",
+    "description": "Customer support chatbots"
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Daniel Keane",
+  "evidence": "Daniel Keane is identified directly on gptbricks.com's homepage and About page as the creator and developer running the site.",
+  "source": {
+    "id": 0,
+    "text": "**Published Developer / Operating Individual:** **Daniel Keane**, who identifies himself directly on `gptbricks.com`'s homepage and About page as the creator and developer running the site",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzN_gcAajofaAv_liEuug_Lo2rI0Sup8WrJ1UYCVD8HoJfuE0j8yeU2xssNfGAE-4tY_YRSO71ENmDLhfWYjVzEH0mbfWOmXCOf0JK6QGe",
+    "title": "gptbricks.com"
+  },
+  "checked_at": "2026-11-05T07:47:22.858731+00:00"
+}

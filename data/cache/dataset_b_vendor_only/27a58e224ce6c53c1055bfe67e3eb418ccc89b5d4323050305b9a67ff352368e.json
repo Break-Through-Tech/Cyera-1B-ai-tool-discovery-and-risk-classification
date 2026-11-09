@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The operating vendor directly providing the software platform **Semrush** at **semrush.com** is **Semrush Inc.**.\n\n### Supporting Evidence\nAccording to the official **Semrush Terms of Service** (as well as its Website Terms of Use and Privacy Policy):\n> *\"These Terms of Service (the “Agreement”) are a legally binding agreement between the user or subscriber of the Services (“Customer” or “you”) and **Semrush Inc.**, a Delaware corporation with its principal place of business at 800 Boylston Street, Suite 2475, Boston, MA 02199, USA (“Semrush”, “SEMRush”, “we”, or “us”). ... The “Services” consist of a suite of online marketing and management tools and toolkits located at https://www.semrush.com/ or another URL we designate (the “Website”)...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The operating vendor directly providing the software platform **Semrush** at **semrush.com** is **Semrush Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1tzco1Lv2OFIT2BMiYTpqIwHE2tR6C-WzXeVK4EoYF-9T9p62ee-CJ9GEvs3y7WfcIZSg-bd_N-9xfSASApCajhr4mxFCUcVhxSvKEH8whH2F6kSHZeI0NcADDPFaKJVvPTPn_d15JTB2EW4w",
+          "title": "semrush.com"
+        },
+        {
+          "id": 1,
+          "text": "According to the official **Semrush Terms of Service** (as well as its Website Terms of Use and Privacy Policy)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdPUUqI_AS3bodtdS8YJUn0g11BzDUIzitAr8l3PPxktGnC45Ergo5mY5GA12KgJ2-rdczWrZ8UcTckeMihLGXjGkJK6P4FJmWqR2etORElIRqE9sz3s7Iv5k7VRxfxN3zONTIeeMkcs6AG1uxPb07dw==",
+          "title": "semrush.com"
+        },
+        {
+          "id": 2,
+          "text": "According to the official **Semrush Terms of Service** (as well as its Website Terms of Use and Privacy Policy)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPlv-DonebyNMusN4Rj3IR73DpfISJiHURKKqEcs0ON1ydxtXrUxvHPvM7wFYAz0EUSMP5xzEUJRGqgKGdbSf6KbQbSbwWRAQhJvpBGnJ8iRle5GTw9oubUEEQjJVh-ZwDJZLoMxdFQTSEtAlkw9wHZ7s2AS76vQFMbx8=",
+          "title": "semrush.com"
+        },
+        {
+          "id": 3,
+          "text": "According to the official **Semrush Terms of Service** (as well as its Website Terms of Use and Privacy Policy)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1tzco1Lv2OFIT2BMiYTpqIwHE2tR6C-WzXeVK4EoYF-9T9p62ee-CJ9GEvs3y7WfcIZSg-bd_N-9xfSASApCajhr4mxFCUcVhxSvKEH8whH2F6kSHZeI0NcADDPFaKJVvPTPn_d15JTB2EW4w",
+          "title": "semrush.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Semrush Inc.",
+        "evidence": "Passage 0 directly states that the operating vendor providing the software platform Semrush at semrush.com is Semrush Inc.",
+        "source": {
+          "id": 0,
+          "text": "The operating vendor directly providing the software platform **Semrush** at **semrush.com** is **Semrush Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1tzco1Lv2OFIT2BMiYTpqIwHE2tR6C-WzXeVK4EoYF-9T9p62ee-CJ9GEvs3y7WfcIZSg-bd_N-9xfSASApCajhr4mxFCUcVhxSvKEH8whH2F6kSHZeI0NcADDPFaKJVvPTPn_d15JTB2EW4w",
+          "title": "semrush.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Semrush",
+    "domain": "semrush.com",
+    "description": "Semrush is a prominent online visibility management SaaS platform that assists digital marketers in enhancing their online marketing strategies. Established in 2008, the company has evolved into a comprehensive marketing suite featuring over 55 tools designed to facilitate effective marketing practices. With a goal to ensure fair online competition, Semrush serves millions of users globally and provides valuable data to major media outlets like Bloomberg and The Washington Post."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Semrush Inc.",
+  "evidence": "Passage 0 directly states that the operating vendor providing the software platform Semrush at semrush.com is Semrush Inc.",
+  "source": {
+    "id": 0,
+    "text": "The operating vendor directly providing the software platform **Semrush** at **semrush.com** is **Semrush Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1tzco1Lv2OFIT2BMiYTpqIwHE2tR6C-WzXeVK4EoYF-9T9p62ee-CJ9GEvs3y7WfcIZSg-bd_N-9xfSASApCajhr4mxFCUcVhxSvKEH8whH2F6kSHZeI0NcADDPFaKJVvPTPn_d15JTB2EW4w",
+    "title": "semrush.com"
+  },
+  "checked_at": "2026-11-05T08:49:56.811824+00:00"
+}

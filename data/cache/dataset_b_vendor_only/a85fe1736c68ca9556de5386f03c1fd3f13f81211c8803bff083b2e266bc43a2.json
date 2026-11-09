@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **Docker** software and platform at **docker.com** is **Docker, Inc.**\n\n### Provider Statement\nAccording to the official Docker Privacy Policy on docker.com:\n> *\"Docker, Inc., (“Docker” or “we”) provides this Privacy Policy to inform users of our policies and procedures regarding the collection, use and disclosure of information and/or personal data received from users of our websites (“Website”), services, applications, or software (“Services”)...\"*\n\nThis directly covers the software, services, and websites offered under `docker.com` (including Docker Desktop and Docker Hub).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **Docker** software and platform at **docker.com** is **Docker, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdu7NJoAzCnBVcAvXjMJ7kjwJq8OxcYosdqOanndnh_S34seEmMYz2MUYoTn0-oSO03VILAQeeo_iqIxISJBTCIjG-2cec0s0teNVXAGpvhclVXG_Z5Y2ChsU=",
+          "title": "docker.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the **Docker** software and platform at **docker.com** is **Docker, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9kAqiNEFYaavhl0MzQGsiV_7nkrs26LsO64cYXPgn5NB3XN4Xr04mzFdmQZmXwJdrzxNMQ6OQYOP3AfWccLNGIRRHP4gJmzadFCyTVry7FqF_R0g=",
+          "title": "docker.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"Docker, Inc., (“Docker” or “we”) provides this Privacy Policy to inform users of our policies and procedures regarding the collection, use and disclosure of information and/or personal data received from users of our websites (“Website”), services, applications, or software (“Services”)...\"*\n\nThis directly ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdu7NJoAzCnBVcAvXjMJ7kjwJq8OxcYosdqOanndnh_S34seEmMYz2MUYoTn0-oSO03VILAQeeo_iqIxISJBTCIjG-2cec0s0teNVXAGpvhclVXG_Z5Y2ChsU=",
+          "title": "docker.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Docker, Inc.",
+        "evidence": "Passage 0 directly states that the vendor providing the Docker software and platform at docker.com is Docker, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the **Docker** software and platform at **docker.com** is **Docker, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdu7NJoAzCnBVcAvXjMJ7kjwJq8OxcYosdqOanndnh_S34seEmMYz2MUYoTn0-oSO03VILAQeeo_iqIxISJBTCIjG-2cec0s0teNVXAGpvhclVXG_Z5Y2ChsU=",
+          "title": "docker.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Docker",
+    "domain": "docker.com",
+    "description": "Docker provides innovative solutions that simplify the development process for application creators by streamlining workflows and offering an integrated development pipeline. With tools like Docker Desktop and Docker Hub, Docker serves millions of developers globally, enhancing the agility and efficiency of app development."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Docker, Inc.",
+  "evidence": "Passage 0 directly states that the vendor providing the Docker software and platform at docker.com is Docker, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the **Docker** software and platform at **docker.com** is **Docker, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdu7NJoAzCnBVcAvXjMJ7kjwJq8OxcYosdqOanndnh_S34seEmMYz2MUYoTn0-oSO03VILAQeeo_iqIxISJBTCIjG-2cec0s0teNVXAGpvhclVXG_Z5Y2ChsU=",
+    "title": "docker.com"
+  },
+  "checked_at": "2026-11-05T09:26:38.742930+00:00"
+}

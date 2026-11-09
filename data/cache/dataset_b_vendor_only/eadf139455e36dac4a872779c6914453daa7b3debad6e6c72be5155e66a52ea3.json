@@ -1,0 +1,79 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product **Glitch** at **glitch.com** is **Glitch, Inc.** (formerly known as Fog Creek Software, Inc., and acquired by Fastly, Inc. in 2022).\n\n### Evidence & Citations\n* **Glitch Corporate Announcement / Legal Documentation**: \n  * In announcing its rebrand from Fog Creek, the company stated: *\"We've renamed Fog Creek to Glitch, Inc. to represent our single-minded focus on Glitch\"*.\n  * Glitch's legal notices and data terms define the provider and domain: *\"GLITCH, INC. (“GLITCH”) SERVICES... 'Website' means glitch.com and glitch.com [related sites]\"* with official legal records designating **Glitch, Inc.** (228 Park Avenue South, Suite 52723, New York, NY) as the operating entity.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product **Glitch** at **glitch.com** is **Glitch, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_mg-yM7wXXSWft4-0obow-SuM56MG3dBcZtaURkqzur6ZXW934RbccrY3l-AFVzTz0wimfXTofo9PmTl5tnNaz_jvp_Evo69rF4IXQWs46CU-e4W8LRRzK83HXARpn9pbdWx0IyU1Mzg_aQ==",
+          "title": "glitch.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the software product **Glitch** at **glitch.com** is **Glitch, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwhz9JJYZgpxhnmw3QF7xmaCmF2sURexGnEwxNY-eMIg38PTRAZk2_cAzIpFyNYxESIU6CYwu4ujz2sJHkdke_WeFIOsy7eENyR9p8QHz12WW2rG7cNoKLpeUH4RcxQxkW6xSSLIAkN14bgVRzCrmKfESY9Khu0CiwZHwmgxn7kaYqcgNyDAA=",
+          "title": "21stgenedtechtools.com"
+        },
+        {
+          "id": 2,
+          "text": "The vendor directly providing the software product **Glitch** at **glitch.com** is **Glitch, Inc.** (formerly known as Fog Creek Software, Inc., and acquired by Fastly, Inc. in 2022)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_mg-yM7wXXSWft4-0obow-SuM56MG3dBcZtaURkqzur6ZXW934RbccrY3l-AFVzTz0wimfXTofo9PmTl5tnNaz_jvp_Evo69rF4IXQWs46CU-e4W8LRRzK83HXARpn9pbdWx0IyU1Mzg_aQ==",
+          "title": "glitch.com"
+        },
+        {
+          "id": 3,
+          "text": "The vendor directly providing the software product **Glitch** at **glitch.com** is **Glitch, Inc.** (formerly known as Fog Creek Software, Inc., and acquired by Fastly, Inc. in 2022)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwhz9JJYZgpxhnmw3QF7xmaCmF2sURexGnEwxNY-eMIg38PTRAZk2_cAzIpFyNYxESIU6CYwu4ujz2sJHkdke_WeFIOsy7eENyR9p8QHz12WW2rG7cNoKLpeUH4RcxQxkW6xSSLIAkN14bgVRzCrmKfESY9Khu0CiwZHwmgxn7kaYqcgNyDAA=",
+          "title": "21stgenedtechtools.com"
+        },
+        {
+          "id": 4,
+          "text": "In announcing its rebrand from Fog Creek, the company stated: *\"We've renamed Fog Creek to Glitch, Inc. to represent our single-minded focus on Glitch\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_mg-yM7wXXSWft4-0obow-SuM56MG3dBcZtaURkqzur6ZXW934RbccrY3l-AFVzTz0wimfXTofo9PmTl5tnNaz_jvp_Evo69rF4IXQWs46CU-e4W8LRRzK83HXARpn9pbdWx0IyU1Mzg_aQ==",
+          "title": "glitch.com"
+        },
+        {
+          "id": 5,
+          "text": "site' means glitch.com and glitch.com [related sites]\"* wit",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERqXDjDckOLDpkh7sjc6dXFfBH9JZSuI_YFpQVy-oRw5Ke_Bc93rT3xTDVQ7lpvhlw1V2gRUtnZBQ22SeoPaL4B_eXf5P-9S-VhnSrCrLgm0EpL1LT6R7uE7nK0C-B9Z_MRfH01eg=",
+          "title": "datallog.com"
+        },
+        {
+          "id": 6,
+          "text": "site' means glitch.com and glitch.com [related sites]\"* wit",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgkMR9RvS9vLaI3I56aTwFMhHZwn1FqFtE0oy43MInigy5Z2p8jBxk1xrBtCCtqmmpNS7hQu_xDBIn9arVgTJVXV03od49M9vCB7DUAHHgubHbn_cvfW2c6GFrs3xKTZOcU_q2VYw=",
+          "title": "datallog.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Glitch, Inc.",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing the software product Glitch at glitch.com is Glitch, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the software product **Glitch** at **glitch.com** is **Glitch, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_mg-yM7wXXSWft4-0obow-SuM56MG3dBcZtaURkqzur6ZXW934RbccrY3l-AFVzTz0wimfXTofo9PmTl5tnNaz_jvp_Evo69rF4IXQWs46CU-e4W8LRRzK83HXARpn9pbdWx0IyU1Mzg_aQ==",
+          "title": "glitch.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Glitch",
+    "domain": "glitch.com",
+    "description": "Glitch is an innovative platform that enables users to build websites and applications effortlessly. It fosters a vibrant community of creators, ranging from beginners to seasoned developers. Originally founded as Fog Creek Software, Glitch has roots in creating impactful software solutions such as Trello and Stack Overflow, making it a significant player in the tech industry."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Glitch, Inc.",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing the software product Glitch at glitch.com is Glitch, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the software product **Glitch** at **glitch.com** is **Glitch, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_mg-yM7wXXSWft4-0obow-SuM56MG3dBcZtaURkqzur6ZXW934RbccrY3l-AFVzTz0wimfXTofo9PmTl5tnNaz_jvp_Evo69rF4IXQWs46CU-e4W8LRRzK83HXARpn9pbdWx0IyU1Mzg_aQ==",
+    "title": "glitch.com"
+  },
+  "checked_at": "2026-11-05T08:54:49.487714+00:00"
+}

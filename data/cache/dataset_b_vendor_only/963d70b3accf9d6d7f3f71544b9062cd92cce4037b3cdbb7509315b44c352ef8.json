@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Uptime Robot** at the domain **uptimerobot.com** is **UptimeRobot s. r. o.**\n\n### Evidence\n* **Terms of Service** (`uptimerobot.com/terms`):  \n  > *\"The following terms and conditions govern all use of the UptimeRobot products (Web App and iOS/Android mobile apps) and all content, services and products available at or through the website or mobile apps. The products are owned and operated by UptimeRobot s. r. o. ('UptimeRobot' -a trademark of the company-).\"*\n\n* **Privacy Policy** (`uptimerobot.com/privacy`):  \n  > *\"UptimeRobot (a service by UptimeRobot s. r. o.) operates several websites including uptimerobot.com, uptimerobot.com/api/ and uptimerobot.com/blog/.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Uptime Robot** at the domain **uptimerobot.com** is **UptimeRobot s. r. o.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3bjRpGuTFBKXz20NOX6ENpbBch6voFbfGGHkHkkzt4sO0QPT3WrUhGqbMRMfXHV_BaS5GzLfV_NhRO-nQCcgyf--gbpyU-eNRqmtm_ArBSiI=",
+          "title": "uptimerobot.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Uptime Robot** at the domain **uptimerobot.com** is **UptimeRobot s. r. o.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4pAaAzN9fLasfE5cug-WqCk8iNQFDaJIQYtceMO9-347A2wmX7kCcGq0DF6YxWccl2v1JVC2OR5Ozg1QMFj1x8PtZinE48iIsyvJJDA9R1Zcb8g==",
+          "title": "uptimerobot.com"
+        },
+        {
+          "id": 2,
+          "text": "('UptimeRobot' -a trademark of the company-).\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4pAaAzN9fLasfE5cug-WqCk8iNQFDaJIQYtceMO9-347A2wmX7kCcGq0DF6YxWccl2v1JVC2OR5Ozg1QMFj1x8PtZinE48iIsyvJJDA9R1Zcb8g==",
+          "title": "uptimerobot.com"
+        },
+        {
+          "id": 3,
+          "text": "*\"UptimeRobot (a service by UptimeRobot s. r. o.) operates several websites including uptimerobot.com, uptimerobot.com/api/ and uptimerobot.com/blog/.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFE9gdPvFi4KJSQImMNs92SKRt9j2NNeaJpPKlDcHrd9CB0LDmL8cqSNEynUbWZwOtUS8_kGBC-I_ckOM2Vy7c_fIix60jcu7d0SCZgucBcivOQJQk0",
+          "title": "uptimerobot.com"
+        },
+        {
+          "id": 4,
+          "text": "*\"UptimeRobot (a service by UptimeRobot s. r. o.) operates several websites including uptimerobot.com, uptimerobot.com/api/ and uptimerobot.com/blog/.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFE9gdPvFi4KJSQImMNs92SKRt9j2NNeaJpPKlDcHrd9CB0LDmL8cqSNEynUbWZwOtUS8_kGBC-I_ckOM2Vy7c_fIix60jcu7d0SCZgucBcivOQJQk0",
+          "title": "uptimerobot.com"
+        },
+        {
+          "id": 5,
+          "text": "The following terms and conditions govern all use of the UptimeRobot products (Web App and iOS/Android mobile apps) and all content, services and products available at or through the website or mobile apps. The products are owned and operated by ",
+          "url": "https://uptimerobot.com/terms/",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "UptimeRobot s. r. o.",
+        "evidence": "Passage 3 explicitly states that UptimeRobot is a service by UptimeRobot s. r. o., which operates several websites including uptimerobot.com.",
+        "source": {
+          "id": 3,
+          "text": "*\"UptimeRobot (a service by UptimeRobot s. r. o.) operates several websites including uptimerobot.com, uptimerobot.com/api/ and uptimerobot.com/blog/.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFE9gdPvFi4KJSQImMNs92SKRt9j2NNeaJpPKlDcHrd9CB0LDmL8cqSNEynUbWZwOtUS8_kGBC-I_ckOM2Vy7c_fIix60jcu7d0SCZgucBcivOQJQk0",
+          "title": "uptimerobot.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Uptime Robot",
+    "domain": "uptimerobot.com",
+    "description": "UptimeRobot is an online service specializing in uptime monitoring for websites and servers. It provides users with real-time alerts about downtime incidents and performance metrics, catering to over 400,000 users who rely on its monitoring capabilities. UptimeRobot is designed to help businesses maintain optimal online presence by ensuring their digital assets are always running smoothly."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "UptimeRobot s. r. o.",
+  "evidence": "Passage 3 explicitly states that UptimeRobot is a service by UptimeRobot s. r. o., which operates several websites including uptimerobot.com.",
+  "source": {
+    "id": 3,
+    "text": "*\"UptimeRobot (a service by UptimeRobot s. r. o.) operates several websites including uptimerobot.com, uptimerobot.com/api/ and uptimerobot.com/blog/.\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFE9gdPvFi4KJSQImMNs92SKRt9j2NNeaJpPKlDcHrd9CB0LDmL8cqSNEynUbWZwOtUS8_kGBC-I_ckOM2Vy7c_fIix60jcu7d0SCZgucBcivOQJQk0",
+    "title": "uptimerobot.com"
+  },
+  "checked_at": "2026-11-05T08:32:16.447910+00:00"
+}

@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Wolfram Alpha** at **wolframalpha.com** is **Wolfram Alpha LLC** (a subsidiary of Wolfram Research, Inc.).\n\n* **Provider Statement / Citation:** In its official Terms of Use and service notices, the operating entity is identified as:  \n  > *\"Wolfram Alpha LLC is based in the State of Illinois, in the United States of America, and these Terms of Use are to be interpreted under and governed by the laws of...\"*  \n  Furthermore, the website and product disclosures state: *\"© Wolfram Alpha LLC—A Wolfram Research Company\"*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Wolfram Alpha** at **wolframalpha.com** is **Wolfram Alpha LLC** (a subsidiary of Wolfram Research, Inc.)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoH0sk8UtOie790cb9KBN6A1pUKyQWJr5gAhYc-B0X7GoTmoD5apibS5oAIRRzhLUkArAuSRQTlIWlUUiXFGrlZOpbBSd2av4nmPcREJVaA0JriTM010iSFIONDq5F8F0=",
+          "title": "wikipedia.org"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Wolfram Alpha** at **wolframalpha.com** is **Wolfram Alpha LLC** (a subsidiary of Wolfram Research, Inc.)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGyeKy5mWofZpVFnD79jeUa1uUVmmp924KY662rlNnKGLCz2YLK4sRthExi4UqxwzVi27FuIsOLXqEuLhT2UZQ6P5D4ljFQDDXX0F3tMH3xsVBbQ7scNSgOMiA4nRWQOtEo0DNLSwnB5oWpygcdJUQplJe8pwSEfOJHzrCiFeH0Eq4t-4u9suAqKOt1ZTWW7kq0VGxorA==",
+          "title": "google.com"
+        },
+        {
+          "id": 2,
+          "text": "The vendor directly providing **Wolfram Alpha** at **wolframalpha.com** is **Wolfram Alpha LLC** (a subsidiary of Wolfram Research, Inc.)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnCEIbBcUFHavc_5VpZZ-V9IejIg63ITbe2sFIaXF36q8yVincvCMFCVJ6gfrqf9HKUHmKBHA5RF1sYCTG2Sm5h9bhf8RhzFjXGQAuuI2nAsRoXG_ENx_43x2rRTgSbyONjAQF6HBs4mJATvjHBbDlvx0T5od8CTTnjbNB8OBSL1eLx3niUq8Ts4AkVgOAyYC8UWBGvHeelkuH",
+          "title": "businessinsider.com"
+        },
+        {
+          "id": 3,
+          "text": "*\"Wolfram Alpha LLC is based in the State of Illinois, in the United States of America, and these Terms of Use are to be interpreted under and governed by the laws of...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdvBRLgOVLthPnBbwOxi8GSizOXysZx50Y_qkRnYWz8Uq98XXk2JSmcuKMc2vnqf4CyMV8Ov1VDOa7K4K2uFhpZLv3hJlwmqYFXyWl_OnL62wotbbZ417zeg0Z9XaRi7KId3v3yZCGsQ4q5oyC2WrXThDBkF2b5_OCR-g0mONHY8elEe6lNvEd4CQ-OqB3_Z-r6Nd2TV4-0TqOM02zEPWzeBKCK69fO3pEgqwOet-dsKi3e9pnThn0zDk_h__7_zGhJEOm2lia-6655-xIp6Ll8d1HA2OaY-_ts-DG4kUkMtT_9Pb4mNy3ggh6uAHL5AWtHwTJEbCrI_4wrSUPivhLwErZJ7s=",
+          "title": "61.135.169"
+        },
+        {
+          "id": 4,
+          "text": "*\"Wolfram Alpha LLC is based in the State of Illinois, in the United States of America, and these Terms of Use are to be interpreted under and governed by the laws of...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEll1TFwp-IDR74Pchf9dVunvG5o0xKekNb3FsbxL-6toryTYxHDojCbihQI0roGl5fLh9-hF-nV1Ds060eJNnzSowK_mERs0f3oNVU4VIWryeuhCmTsEAS7S6CyQQr1TWW8u2lV5m_fZ4flX4UNuADu2CRzjX6N3D0EqETApFqvZAVjUto3SXveFketIjOC51Zu7PJ-oM1Ed3CeAJKDfilkiJ0siIsdLVXAYr2wEA7L90EHQqN_Od1gNF2xQo1nsgmaNA-F06CzxVKOfsxmuybra-bPv4dcA4ebrLOu7dLDnqGQis56m19qpCdtAvMav1YBIQNQ7XLpv6pi4K9PwsGmUgwYcVM0k6IUvlm2IpvkbG08m0h04jL7K9TIcNt2Ah2dP-HncxtiJPnG1iPCpmEYYw0shmgjt8wmOTC-yqUpllVvXy0CfjVm2lGC6nP1ExEBSk7ai0hi_Vgiw==",
+          "title": "61.135.169"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Wolfram Alpha LLC",
+        "evidence": "Passage 0 directly states that the vendor providing Wolfram Alpha at wolframalpha.com is Wolfram Alpha LLC.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Wolfram Alpha** at **wolframalpha.com** is **Wolfram Alpha LLC** (a subsidiary of Wolfram Research, Inc.)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoH0sk8UtOie790cb9KBN6A1pUKyQWJr5gAhYc-B0X7GoTmoD5apibS5oAIRRzhLUkArAuSRQTlIWlUUiXFGrlZOpbBSd2av4nmPcREJVaA0JriTM010iSFIONDq5F8F0=",
+          "title": "wikipedia.org"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Wolfram Alpha",
+    "domain": "wolframalpha.com",
+    "description": "Wolfram|Alpha is a computational knowledge engine designed to provide definitive answers to factual queries by collecting and curating systematic knowledge. The platform aims to make all objective data and computational models accessible to users, helping them compute answers about a vast array of subjects. Based in Champaign, Illinois, Wolfram|Alpha serves individuals and organizations with its innovative approach to data computation."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Wolfram Alpha LLC",
+  "evidence": "Passage 0 directly states that the vendor providing Wolfram Alpha at wolframalpha.com is Wolfram Alpha LLC.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Wolfram Alpha** at **wolframalpha.com** is **Wolfram Alpha LLC** (a subsidiary of Wolfram Research, Inc.)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoH0sk8UtOie790cb9KBN6A1pUKyQWJr5gAhYc-B0X7GoTmoD5apibS5oAIRRzhLUkArAuSRQTlIWlUUiXFGrlZOpbBSd2av4nmPcREJVaA0JriTM010iSFIONDq5F8F0=",
+    "title": "wikipedia.org"
+  },
+  "checked_at": "2026-11-05T09:59:33.873054+00:00"
+}

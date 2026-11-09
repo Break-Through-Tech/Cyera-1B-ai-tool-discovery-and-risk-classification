@@ -1,0 +1,95 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the digital publishing platform **Issuu** at **issuu.com** is **Bending Spoons Operations S.p.A.** (under parent company **Bending Spoons S.p.A.**, which acquired **Issuu, Inc.**).\n\n### Evidence\n* **Terms of Service** (`issuu.com/legal/terms`):\n  > \"These Terms of Service (“Terms”) constitute a legally binding agreement between you and **Bending Spoons Operations S.p.A.** (referred to in these Terms as “we”, “us” or “our”). These Terms govern your access to and use of Issuu, the websites where these Terms are posted, and the content, products, and services that we make available to you in relation to Issuu (collectively, the “Service”).\"\n* **Privacy Policy** (`issuu.com/legal/privacy`):\n  > \"This Privacy Policy ('Privacy Policy') applies to the processing of personal data of users ('user' or 'you') by **Bending Spoons S.p.A.** ('we' or 'us'), the parent company of **Issuu Inc.**, in connection to the use of the Issuu's website https://issuu.com/ ('Website'), services and platform ('Services').\"",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuOJgIr7We0UqeCo1H9nGozSNiI89ebNQBDPdpZGIZhTYIM-10h7beSFrerdh9jqB57jHd8RUYsfnDAQk4qOhacc1BZBV22c3fJ0wioMyPMYKZ",
+          "title": "issuu.com"
+        },
+        {
+          "id": 1,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPri44c9JIpNeEannk8mIPXC_ERMMSRQlS1SmNatBo9ewEzHDVUhGEVIPOjfFHMH_6Tkq9vRyubyAuBUCekhSx2m7ynnQRNMJcV-DQt2XdUZkdYrY=",
+          "title": "issuu.com"
+        },
+        {
+          "id": 2,
+          "text": "rn your access to and use of Issuu, the websites where these Terms are posted, and the content, products, and services that we make available to you in relation to Issuu (collectively, the “Service”).\"\n* **Privacy Policy*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuOJgIr7We0UqeCo1H9nGozSNiI89ebNQBDPdpZGIZhTYIM-10h7beSFrerdh9jqB57jHd8RUYsfnDAQk4qOhacc1BZBV22c3fJ0wioMyPMYKZ",
+          "title": "issuu.com"
+        }
+      ],
+      "result": {
+        "status": "unknown",
+        "vendor": "UNKNOWN",
+        "evidence": "The provided passages contain truncated text fragments and do not mention or identify the vendor or operating company for Issuu."
+      }
+    },
+    {
+      "answer": "The vendor directly operating and providing the digital publishing software and service **Issuu** at **issuu.com** is **Bending Spoons Operations S.p.A.** (part of **Bending Spoons S.p.A.**, alongside its subsidiary **Issuu, Inc.**).\n\n### Supporting Evidence\nAccording to the official **Terms of Service** governing the platform at **issuu.com**:\n> *\"These Terms of Service (“Terms”) constitute a legally binding agreement between you and **Bending Spoons Operations S.p.A.** (referred to in these Terms as “we”, “us” or “our”). These Terms govern your access to and use of Issuu, the websites where these Terms are posted, and the content, products, and services that we make available to you in relation to Issuu (collectively, the “Service”).\"*\n\nAdditionally:\n* The **Privacy Policy** states that it applies to the processing of personal data *\"by Bending Spoons S.p.A. ('we' or 'us'), the parent company of Issuu Inc., in connection to the use of the Issuu's website https://issuu.com/ ('Website'), services and platform ('Services').\"*\n* The **issuu.com** site footer is copyrighted by *\"Bending Spoons Operations S.p.A. Sole shareholder company subject to the management and coordination of Bending Spoons S.p.A.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcRCgB9i5IYsPvYLxhHufMLCCuEFQpqwlnpIDbz-NGlixmayztuKO6Y98kF7-Psd4n3ccoXzDL0ZUyN0YeS5ilSgITRWvytGbsINkfUvgb9Nx6zMRp",
+          "title": "issuu.com"
+        },
+        {
+          "id": 1,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbsJYfqpirhD2Z9gRSAM5X85t8H8DYg8pHSbQN6JHKpWym6EG4YFp1trcLukvTydlv9LvLUNxQl86l1OIf6_Xt88Ctm0s9buXGlbO7lhqYVAGfZ0Vv",
+          "title": "issuu.com"
+        },
+        {
+          "id": 2,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFx6BIUrSUdtp2zOZoagge2PNkrAz2vKXp5fEY-RTum5x9X5J5aXcFvUNwxZDVuOMsdhahuP6LExNcFFRdQln_oQmmOBcrmCQmxd_Y9R07Z6Ded4w==",
+          "title": "issuu.com"
+        },
+        {
+          "id": 3,
+          "text": "rn your access to and use of Issuu, the websites where these Terms are posted, and the content, products, and services that we make available to you in relation to Issuu (collectively, the “Service”).\"*\n\nAdditionally:\n* Th",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFx6BIUrSUdtp2zOZoagge2PNkrAz2vKXp5fEY-RTum5x9X5J5aXcFvUNwxZDVuOMsdhahuP6LExNcFFRdQln_oQmmOBcrmCQmxd_Y9R07Z6Ded4w==",
+          "title": "issuu.com"
+        },
+        {
+          "id": 4,
+          "text": "** states that it applies to the processing of personal data *\"by Bending Spoons S.p.A. ('we' or 'us'), the parent company of Issuu Inc., in connection to the use of the Issuu's website https://issuu.com/ ('Website'), services and platform ('Services').\"*\n* The **issuu.com**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcRCgB9i5IYsPvYLxhHufMLCCuEFQpqwlnpIDbz-NGlixmayztuKO6Y98kF7-Psd4n3ccoXzDL0ZUyN0YeS5ilSgITRWvytGbsINkfUvgb9Nx6zMRp",
+          "title": "issuu.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Bending Spoons S.p.A.",
+        "evidence": "Passage 4 states that personal data processing applies 'by Bending Spoons S.p.A. ('we' or 'us'), the parent company of Issuu Inc., in connection to the use of the Issuu's website https://issuu.com/ ('Website'), services and platform ('Services').'",
+        "source": {
+          "id": 4,
+          "text": "** states that it applies to the processing of personal data *\"by Bending Spoons S.p.A. ('we' or 'us'), the parent company of Issuu Inc., in connection to the use of the Issuu's website https://issuu.com/ ('Website'), services and platform ('Services').\"*\n* The **issuu.com**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcRCgB9i5IYsPvYLxhHufMLCCuEFQpqwlnpIDbz-NGlixmayztuKO6Y98kF7-Psd4n3ccoXzDL0ZUyN0YeS5ilSgITRWvytGbsINkfUvgb9Nx6zMRp",
+          "title": "issuu.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Issuu",
+    "domain": "issuu.com",
+    "description": "Issuu is a leading digital publishing platform based in Palo Alto, California, that empowers innovative content creators to publish their work digitally. With over 5 billion monthly page views and more than 80 million engaged readers, Issuu offers publishers the tools necessary to reach, understand, and monetize a global audience on any device. The platform focuses on enhancing content discovery and sharing for readers worldwide."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Bending Spoons S.p.A.",
+  "evidence": "Passage 4 states that personal data processing applies 'by Bending Spoons S.p.A. ('we' or 'us'), the parent company of Issuu Inc., in connection to the use of the Issuu's website https://issuu.com/ ('Website'), services and platform ('Services').'",
+  "source": {
+    "id": 4,
+    "text": "** states that it applies to the processing of personal data *\"by Bending Spoons S.p.A. ('we' or 'us'), the parent company of Issuu Inc., in connection to the use of the Issuu's website https://issuu.com/ ('Website'), services and platform ('Services').\"*\n* The **issuu.com**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcRCgB9i5IYsPvYLxhHufMLCCuEFQpqwlnpIDbz-NGlixmayztuKO6Y98kF7-Psd4n3ccoXzDL0ZUyN0YeS5ilSgITRWvytGbsINkfUvgb9Nx6zMRp",
+    "title": "issuu.com"
+  },
+  "checked_at": "2026-11-05T08:14:12.090153+00:00"
+}

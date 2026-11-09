@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product at **embed.ly** (**Embedly**) is **Embedly LLC**.\n\n### Evidence:\n* **Terms of Service:**\n  > \"Embedly LLC (“Embedly”, “we”, or “us”) provides access to and use of pro.embed.ly, api.embed.ly, and related websites (“Site”), the Embedly application programming interfaces (“APIs”), Embedly proprietary technology, software code, content and other products and services offered by Embedly (collectively, the 'Services') subject to these Terms of Service...\"\n* **Privacy Policy:**\n  > \"...by using pro.embed.ly, api.embed.ly, and related websites (the “Site”) or the services (the “Services”) provided by Embedly LLC (“Embedly”, “we” or “us”), you are accepting the practices described in this Privacy Policy.\"\n* **Customer Service:**\n  > \"Embedly LLC is located at 611 South DuPont Highway, Suite 102, Dover DE 19901.\"",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product at **embed.ly** (**Embedly**) is **Embedly LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTwaOGO-0MPwWqFr7RzS6yBWlwzK9vt8J2vgRQtDOcLYaslYJ5oUaF0Z1nRZSRHO0zBjt5R0KBlvV71mDiJXLUBs6UECr2QrxZXIufwh8fCiwS",
+          "title": "embed.ly"
+        },
+        {
+          "id": 1,
+          "text": "\"Embedly LLC (“Embedly”, “we”, or “us”) provides access to and use of pro.embed.ly, api.embed.ly, and related websites (“Site”), the Embedly application programming interfaces (“APIs”), Embedly proprietary technology, software code, content and other products and services offered by Embedly (collectively, the 'Services') subject to these Terms of Service...\"\n* **Privacy Policy:",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTwaOGO-0MPwWqFr7RzS6yBWlwzK9vt8J2vgRQtDOcLYaslYJ5oUaF0Z1nRZSRHO0zBjt5R0KBlvV71mDiJXLUBs6UECr2QrxZXIufwh8fCiwS",
+          "title": "embed.ly"
+        },
+        {
+          "id": 2,
+          "text": "ed.ly, api.embed.ly, and related websites (the “Site”) or the services (the “Services”) provided by Embedly LLC (“Embedly”, “we” or “us”), you are accepting the practices described in this Privacy Policy.\"\n* **Customer Service:**\n  > \"Embedly LL",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_e0nzYDJYyKrAmUeK21GrCb_nRlZFzF0bVGykr5RvAwWuqH_UiK5xBzYUm_8EyHsBJKAZho5og8n5TL7txrVvMJEoRSxc4oOcIRSvvurArDCXf-o=",
+          "title": "embed.ly"
+        },
+        {
+          "id": 3,
+          "text": "Embedly LLC (“Embedly”, “we”, or “us”) provides access to and use of pro.embed.ly, api.embed.ly, and related websites (“Site”), the Embedly application programming interfaces (“APIs”), Embedly proprietary technology, software code, content and other products and services offered by Embedly (collectively, the 'Services') subject to these Terms of Serv",
+          "url": "https://embed.ly/legal/terms",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Embedly LLC",
+        "evidence": "Passage 3 states that Embedly LLC provides access to and use of pro.embed.ly, api.embed.ly, and related websites, as well as Embedly application programming interfaces (APIs), software code, and services.",
+        "source": {
+          "id": 3,
+          "text": "Embedly LLC (“Embedly”, “we”, or “us”) provides access to and use of pro.embed.ly, api.embed.ly, and related websites (“Site”), the Embedly application programming interfaces (“APIs”), Embedly proprietary technology, software code, content and other products and services offered by Embedly (collectively, the 'Services') subject to these Terms of Serv",
+          "url": "https://embed.ly/legal/terms",
+          "title": ""
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Embedly",
+    "domain": "embed.ly",
+    "description": "Embedly offers a range of tools, plugins, and APIs that transform traditional URLs into engaging multimedia content such as videos and images. The company facilitates content embedding and link previews for web applications, enabling businesses to enhance user engagement through targeted content and custom advertising solutions."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Embedly LLC",
+  "evidence": "Passage 3 states that Embedly LLC provides access to and use of pro.embed.ly, api.embed.ly, and related websites, as well as Embedly application programming interfaces (APIs), software code, and services.",
+  "source": {
+    "id": 3,
+    "text": "Embedly LLC (“Embedly”, “we”, or “us”) provides access to and use of pro.embed.ly, api.embed.ly, and related websites (“Site”), the Embedly application programming interfaces (“APIs”), Embedly proprietary technology, software code, content and other products and services offered by Embedly (collectively, the 'Services') subject to these Terms of Serv",
+    "url": "https://embed.ly/legal/terms",
+    "title": ""
+  },
+  "checked_at": "2026-11-05T08:30:26.814565+00:00"
+}

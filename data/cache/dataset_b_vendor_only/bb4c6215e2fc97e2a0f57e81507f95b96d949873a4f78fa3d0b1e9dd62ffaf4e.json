@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product at **undetectable.ai** is **Undetectable Inc.** (doing business as **Undetectable AI**).\n\n### Official Provider Statement\nAccording to the official **Terms of Service** hosted on `undetectable.ai`:\n> *\"We are Undetectable Inc., doing business as Undetectable AI ('Company,' 'we,' 'us,' 'our'). We operate the website https://undetectable.ai (the 'Site'), as well as any other related products and services that refer or link to these legal terms...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product at **undetectable.ai** is **Undetectable Inc.** (doing business as **Undetectable AI**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM8jwcium0W6rx-sG60XSregI5V_Br0AmFq5evf5SAF5j3BIy0mJs0EGyyTYBlByZ8mnebIVsjQqZy_t9GVrn09v3TbTFcDOmlmD4QiNRaWiqs",
+          "title": "undetectable.ai"
+        },
+        {
+          "id": 1,
+          "text": "We operate the website https://undetectable.ai (the 'Site'), as well as any other related products and services that refer or link to these legal terms...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM8jwcium0W6rx-sG60XSregI5V_Br0AmFq5evf5SAF5j3BIy0mJs0EGyyTYBlByZ8mnebIVsjQqZy_t9GVrn09v3TbTFcDOmlmD4QiNRaWiqs",
+          "title": "undetectable.ai"
+        },
+        {
+          "id": 2,
+          "text": "We operate the website https://undetectable.ai (the 'Site'), as well as any other related products and services that refer or link to these legal terms...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM8jwcium0W6rx-sG60XSregI5V_Br0AmFq5evf5SAF5j3BIy0mJs0EGyyTYBlByZ8mnebIVsjQqZy_t9GVrn09v3TbTFcDOmlmD4QiNRaWiqs",
+          "title": "undetectable.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Undetectable Inc.",
+        "evidence": "Passage 0 states that the vendor directly providing the software product at undetectable.ai is Undetectable Inc. (doing business as Undetectable AI).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the software product at **undetectable.ai** is **Undetectable Inc.** (doing business as **Undetectable AI**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM8jwcium0W6rx-sG60XSregI5V_Br0AmFq5evf5SAF5j3BIy0mJs0EGyyTYBlByZ8mnebIVsjQqZy_t9GVrn09v3TbTFcDOmlmD4QiNRaWiqs",
+          "title": "undetectable.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Undetectable",
+    "domain": "undetectable.ai",
+    "description": "Check and humanize AI-generated content."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Undetectable Inc.",
+  "evidence": "Passage 0 states that the vendor directly providing the software product at undetectable.ai is Undetectable Inc. (doing business as Undetectable AI).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the software product at **undetectable.ai** is **Undetectable Inc.** (doing business as **Undetectable AI**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM8jwcium0W6rx-sG60XSregI5V_Br0AmFq5evf5SAF5j3BIy0mJs0EGyyTYBlByZ8mnebIVsjQqZy_t9GVrn09v3TbTFcDOmlmD4QiNRaWiqs",
+    "title": "undetectable.ai"
+  },
+  "checked_at": "2026-11-05T07:07:38.632832+00:00"
+}

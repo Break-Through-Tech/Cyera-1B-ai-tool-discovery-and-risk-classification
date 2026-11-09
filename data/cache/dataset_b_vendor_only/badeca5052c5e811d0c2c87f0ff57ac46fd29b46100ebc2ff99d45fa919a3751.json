@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The software platform **Renderforest** provided at **renderforest.com** is directly operated by **Renderforest LLC**.\n\n### Supporting Evidence\nAccording to the official **Terms and Conditions** and **Privacy Policy** of `renderforest.com`:\n* *\"Company (referred to as either 'the Company', 'Renderforest', 'We', 'Us' or 'Our' in this Agreement) refers to Renderforest LLC, a company organised and existing under the laws of the Republic of Armenia, with its registered address at: Paruyr Sevak 11/1 building, 0035, Yerevan, Armenia.\"*\n* *\"For the purposes of the GDPR and UK GDPR, Renderforest LLC is the controller of your personal data.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software platform **Renderforest** provided at **renderforest.com** is directly operated by **Renderforest LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH46SNCALJilejSVgnf2ruWXccm0hAuHZnC7XGxfWfoqmYs_TwSuZMBzMTLpb-yzj_RNHzn6CDju2V16EZxYi5w9u-gkt9nShwWjHjzcBFWGOwHwCXcAklPCJ8rrw1dM4yVJxY9eLJ3",
+          "title": "renderforest.com"
+        },
+        {
+          "id": 1,
+          "text": "*\"Company (referred to as either 'the Company', 'Renderforest', 'We', 'Us' or 'Our' in this Agreement) refers to Renderforest LLC, a company organised and existing under the laws of the Republic of Armenia, with its registered address at: Paruyr Sevak 11/1 building, 0035, Yerevan, Armenia.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH46SNCALJilejSVgnf2ruWXccm0hAuHZnC7XGxfWfoqmYs_TwSuZMBzMTLpb-yzj_RNHzn6CDju2V16EZxYi5w9u-gkt9nShwWjHjzcBFWGOwHwCXcAklPCJ8rrw1dM4yVJxY9eLJ3",
+          "title": "renderforest.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"Company (referred to as either 'the Company', 'Renderforest', 'We', 'Us' or 'Our' in this Agreement) refers to Renderforest LLC, a company organised and existing under the laws of the Republic of Armenia, with its registered address at: Paruyr Sevak 11/1 building, 0035, Yerevan, Armenia.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFA5QUeH33_XNPq_NZE6So24MnIlMk16SdubLb9FMifMk7OCDF-z8MpoYNoV62YF4T9dAO5mK6uxL0Rv7YHtT4nW8Z0zItt0MGaCEjsI93SCi3u28gsDK1oir_c1X8s25YE",
+          "title": "renderforest.com"
+        },
+        {
+          "id": 3,
+          "text": "*\"For the purposes of the GDPR and UK GDPR, Renderforest LLC is the controller of your personal data.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFA5QUeH33_XNPq_NZE6So24MnIlMk16SdubLb9FMifMk7OCDF-z8MpoYNoV62YF4T9dAO5mK6uxL0Rv7YHtT4nW8Z0zItt0MGaCEjsI93SCi3u28gsDK1oir_c1X8s25YE",
+          "title": "renderforest.com"
+        },
+        {
+          "id": 4,
+          "text": "referred to as either 'the Company', 'Renderforest', 'We', 'Us' or 'Our' in this Agreement) refers to Renderforest LLC, a company organised and existing under the laws of the Republic of Armenia, with its registered address at: Paruyr Sevak 11/1 building, 0035, Yerevan, Armenia",
+          "url": "https://www.renderforest.com/privacy-policy",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Renderforest LLC",
+        "evidence": "Passage 0 explicitly states that the software platform Renderforest provided at renderforest.com is directly operated by Renderforest LLC.",
+        "source": {
+          "id": 0,
+          "text": "The software platform **Renderforest** provided at **renderforest.com** is directly operated by **Renderforest LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH46SNCALJilejSVgnf2ruWXccm0hAuHZnC7XGxfWfoqmYs_TwSuZMBzMTLpb-yzj_RNHzn6CDju2V16EZxYi5w9u-gkt9nShwWjHjzcBFWGOwHwCXcAklPCJ8rrw1dM4yVJxY9eLJ3",
+          "title": "renderforest.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Renderforest",
+    "domain": "renderforest.com",
+    "description": "Renderforest is an all-in-one branding platform that provides users with a comprehensive suite of online tools to create high-quality videos, graphics, logos, mockups, and websites easily and efficiently. It features an online logo maker for unique brand development, a video editor for producing engaging animations and slideshows, and a graphic maker for designing professional visuals. Additionally, users can create responsive websites with customizable templates without any coding skills, enhancing their creative process seamlessly."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Renderforest LLC",
+  "evidence": "Passage 0 explicitly states that the software platform Renderforest provided at renderforest.com is directly operated by Renderforest LLC.",
+  "source": {
+    "id": 0,
+    "text": "The software platform **Renderforest** provided at **renderforest.com** is directly operated by **Renderforest LLC**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH46SNCALJilejSVgnf2ruWXccm0hAuHZnC7XGxfWfoqmYs_TwSuZMBzMTLpb-yzj_RNHzn6CDju2V16EZxYi5w9u-gkt9nShwWjHjzcBFWGOwHwCXcAklPCJ8rrw1dM4yVJxY9eLJ3",
+    "title": "renderforest.com"
+  },
+  "checked_at": "2026-11-05T08:09:57.966050+00:00"
+}

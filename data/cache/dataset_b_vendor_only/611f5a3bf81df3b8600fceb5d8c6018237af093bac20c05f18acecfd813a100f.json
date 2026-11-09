@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly operating and providing the **Transifex** software platform at **transifex.com** is **Transifex Opco LLC** (doing business as **Transifex**, part of XTM Group).\n\n### Provider Statement\nFrom the official **Transifex Terms of Service** (under *General Term*):\n> *\"These Terms are a legal agreement between you and Transifex Opco LLC which will apply to you in respect of any and all Services offered from the Website.\"*\n\nAdditionally, the **Transifex Privacy Policy** states:\n> *\"We — meaning Transifex, doing business as Transifex (also 'we,' 'us,' 'our,' and 'Transifex') — take very seriously the respect and protection of your privacy and security...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly operating and providing the **Transifex** software platform at **transifex.com** is **Transifex Opco LLC** (doing business as **Transifex**, part of XTM Group)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7tesuJwS7y3sThshCsmiTihKBfYv0xM6OIYsdjYScGixUaZGdIqKW2zvKx5kEgCNjMZPxfwyXHF_Y59fFAfMu9dNMuuI7WpGihvlXSxLhuQR840g_03p-fKaS540c",
+          "title": "transifex.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly operating and providing the **Transifex** software platform at **transifex.com** is **Transifex Opco LLC** (doing business as **Transifex**, part of XTM Group)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVtz-jJf89eZq1-MI3dSYKYhviM_rwNnHW8iiQrdvZPcj7PMqDkh58m7wD7vV9XWJ_E45wnHLv4_aLQjClrdHu-op2j2Cd9WsalTS1cjnSbayc5Fg8En-tPXY9I-OMam9MGdpr7iO7M_8QaNg9yXx_Ghh1fBlbcn7aAhCyA0MtBiv2",
+          "title": "transifex.com"
+        },
+        {
+          "id": 2,
+          "text": "The vendor directly operating and providing the **Transifex** software platform at **transifex.com** is **Transifex Opco LLC** (doing business as **Transifex**, part of XTM Group)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtCnSIN-Nr3JAK-QSruY1rufjnGSCqSuATs4QoK4fyCon_kwp3bC6ZJPbhi5tHs6aEMSNtADPPDt6vUC-F2ya7-ljcBIwtAHeBm4J6KqMTOa8S_945qHP8MMMdJw==",
+          "title": "transifex.com"
+        },
+        {
+          "id": 3,
+          "text": "*\"These Terms are a legal agreement between you and Transifex Opco LLC which will apply to you in respect of any and all Services offered from the Website.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtCnSIN-Nr3JAK-QSruY1rufjnGSCqSuATs4QoK4fyCon_kwp3bC6ZJPbhi5tHs6aEMSNtADPPDt6vUC-F2ya7-ljcBIwtAHeBm4J6KqMTOa8S_945qHP8MMMdJw==",
+          "title": "transifex.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Transifex Opco LLC",
+        "evidence": "Passage 0 explicitly identifies Transifex Opco LLC as the vendor directly operating and providing the Transifex software platform at transifex.com.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly operating and providing the **Transifex** software platform at **transifex.com** is **Transifex Opco LLC** (doing business as **Transifex**, part of XTM Group)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7tesuJwS7y3sThshCsmiTihKBfYv0xM6OIYsdjYScGixUaZGdIqKW2zvKx5kEgCNjMZPxfwyXHF_Y59fFAfMu9dNMuuI7WpGihvlXSxLhuQR840g_03p-fKaS540c",
+          "title": "transifex.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Transifex",
+    "domain": "transifex.com",
+    "description": "Transifex is a Localization Automation Platform designed for developers and marketers to efficiently publish and manage digital content across various languages. The cloud-based system supports agile development environments, streamlining continuous localization workflows for faster content delivery and updates. With operations on two continents, Transifex supports a diverse client base in nearly 50 countries and manages localization for over 40,000 projects in more than 150 languages, enhancing user experiences for companies like Atlassian, HubSpot, and Vodafone."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Transifex Opco LLC",
+  "evidence": "Passage 0 explicitly identifies Transifex Opco LLC as the vendor directly operating and providing the Transifex software platform at transifex.com.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly operating and providing the **Transifex** software platform at **transifex.com** is **Transifex Opco LLC** (doing business as **Transifex**, part of XTM Group)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7tesuJwS7y3sThshCsmiTihKBfYv0xM6OIYsdjYScGixUaZGdIqKW2zvKx5kEgCNjMZPxfwyXHF_Y59fFAfMu9dNMuuI7WpGihvlXSxLhuQR840g_03p-fKaS540c",
+    "title": "transifex.com"
+  },
+  "checked_at": "2026-11-05T09:36:07.796835+00:00"
+}

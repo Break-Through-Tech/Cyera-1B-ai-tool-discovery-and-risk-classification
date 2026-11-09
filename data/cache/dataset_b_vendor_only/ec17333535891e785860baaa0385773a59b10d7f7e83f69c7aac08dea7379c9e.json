@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Vault AI** at **vault-ai.com** is **Osiris Technologies Ltd.** (operating with its subsidiary **Vault Analytics LLC**).\n\n### Evidence\n* **Terms of Use (`vault-ai.com/terms-of-use`):** \n  > *\"Thank you for visiting the website (the 'Website') of Osiris Technologies Ltd. ('We', 'us' or 'Vault').\"*\n* **Privacy Policy (`vault-ai.com/privacy-policy`):** \n  > *\"Welcome to Osiris Technologies Ltd. ('Vault').\"* and *\"This Privacy Policy applies to Osiris Technologies Ltd. and its subsidiaries, including Vault Analytics LLC.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Vault AI** at **vault-ai.com** is **Osiris Technologies Ltd.** (operating with its subsidiary **Vault Analytics LLC**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbMVKzRKFci0sw5POXKWY_6ctKnkPUPDkHxJFmNBPbrt7RzUzx-nDLRG1_FgTsXnxp0PpkIMywZ5d5m94ww_aTCM4elxdtCc9Zc9HX24mFLMw=",
+          "title": "vault-ai.com"
+        },
+        {
+          "id": 1,
+          "text": "*\"Thank you for visiting the website (the 'Website') of Osiris Technologies Ltd. ('We', 'us' or 'Vault').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEd36nTDrrRKrWmZvm6hQqkvLzPsbsVo-nvON356-0Q_b1Ryz9C5aYTOk655IMJbsoNeaSNkjFY1UHxjOMBhOyMylOLMUgZbXCNiWSoGeZ5",
+          "title": "vault-ai.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"Welcome to Osiris Technologies Ltd. ('Vault').\"* and *\"This Privacy Policy applies to Osiris Technologies Ltd. and its subsidiaries, including Vault Analytics LLC.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbMVKzRKFci0sw5POXKWY_6ctKnkPUPDkHxJFmNBPbrt7RzUzx-nDLRG1_FgTsXnxp0PpkIMywZ5d5m94ww_aTCM4elxdtCc9Zc9HX24mFLMw=",
+          "title": "vault-ai.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Osiris Technologies Ltd.",
+        "evidence": "Passage 0 directly states that the vendor providing Vault AI at vault-ai.com is Osiris Technologies Ltd. (operating with its subsidiary Vault Analytics LLC).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Vault AI** at **vault-ai.com** is **Osiris Technologies Ltd.** (operating with its subsidiary **Vault Analytics LLC**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbMVKzRKFci0sw5POXKWY_6ctKnkPUPDkHxJFmNBPbrt7RzUzx-nDLRG1_FgTsXnxp0PpkIMywZ5d5m94ww_aTCM4elxdtCc9Zc9HX24mFLMw=",
+          "title": "vault-ai.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Vault AI",
+    "domain": "vault-ai.com",
+    "description": "Vault AI is a tool that streamlines content-related workflows, offering on-demand coverage-like summaries, audience insights, and instant comps to enhance development, marketing, and sales strategies."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Osiris Technologies Ltd.",
+  "evidence": "Passage 0 directly states that the vendor providing Vault AI at vault-ai.com is Osiris Technologies Ltd. (operating with its subsidiary Vault Analytics LLC).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Vault AI** at **vault-ai.com** is **Osiris Technologies Ltd.** (operating with its subsidiary **Vault Analytics LLC**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbMVKzRKFci0sw5POXKWY_6ctKnkPUPDkHxJFmNBPbrt7RzUzx-nDLRG1_FgTsXnxp0PpkIMywZ5d5m94ww_aTCM4elxdtCc9Zc9HX24mFLMw=",
+    "title": "vault-ai.com"
+  },
+  "checked_at": "2026-11-05T05:42:17.147026+00:00"
+}

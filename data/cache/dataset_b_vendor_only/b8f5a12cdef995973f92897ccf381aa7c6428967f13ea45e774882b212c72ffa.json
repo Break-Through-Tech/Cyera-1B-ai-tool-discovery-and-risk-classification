@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Payscale** at **payscale.com** is **Payscale, Inc.** (also stylized as **PayScale, Inc.**).\n\n### Evidence\n* **Privacy Policy (`payscale.com/privacy`):** Explicitly states, *\"This site is owned and operated by PayScale, Inc.\"*\n* **Payfactors Free Terms of Use (`payscale.com`):** Identifies the agreement as being *\"by and between Payscale, Inc. (‘Payscale’) and the party accepting the Agreement (‘Customer’) and govern Customer's use of the Services.\"*\n* **Website Footer & Notices:** Affirms the operating entity with *“© Payscale, Inc. All rights reserved.”*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFREMHeVTSjX_URlXJbjx4huZvYMsjoOGDhTHrE8Ki48Kga7GDIAYwYkMLypgyTBIkX37KrHHlVhIXw7B3n8g7emxtdlwdy0qub2-27Bc9jMRGfghjM8qAnB49vsEFvRcI4ZCXZiXwMjYGZ28dA4kGVWQ==",
+          "title": "payscale.com"
+        },
+        {
+          "id": 1,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpW8ELkW6knnWaKKg-xCRb8apvk3QAhrocfVzayHJu9ziufw22PLCLCaZGV_PP7mwo00cHsSExr0dv7h_cwHuxnGgo49GyGkaoXX9ipOYpm8V-A-Efj2X92h3kHJzpNQ==",
+          "title": "payscale.com"
+        },
+        {
+          "id": 2,
+          "text": "**Privacy Policy (`payscale.com/privacy`):** Explicitly states, *\"This site is owned and operated by PayScale, Inc.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpW8ELkW6knnWaKKg-xCRb8apvk3QAhrocfVzayHJu9ziufw22PLCLCaZGV_PP7mwo00cHsSExr0dv7h_cwHuxnGgo49GyGkaoXX9ipOYpm8V-A-Efj2X92h3kHJzpNQ==",
+          "title": "payscale.com"
+        },
+        {
+          "id": 3,
+          "text": "**Payfactors Free Terms of Use (`payscale.com`):** Identifies the agreement as being *\"by and between Payscale, Inc. (‘Payscale’) and the party accepting the Agreement (‘Customer’) and govern Customer's use of the Services.\"*\n* **Web",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFREMHeVTSjX_URlXJbjx4huZvYMsjoOGDhTHrE8Ki48Kga7GDIAYwYkMLypgyTBIkX37KrHHlVhIXw7B3n8g7emxtdlwdy0qub2-27Bc9jMRGfghjM8qAnB49vsEFvRcI4ZCXZiXwMjYGZ28dA4kGVWQ==",
+          "title": "payscale.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "PayScale, Inc.",
+        "evidence": "According to the Privacy Policy on payscale.com/privacy, the site is explicitly stated to be owned and operated by PayScale, Inc.",
+        "source": {
+          "id": 2,
+          "text": "**Privacy Policy (`payscale.com/privacy`):** Explicitly states, *\"This site is owned and operated by PayScale, Inc.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpW8ELkW6knnWaKKg-xCRb8apvk3QAhrocfVzayHJu9ziufw22PLCLCaZGV_PP7mwo00cHsSExr0dv7h_cwHuxnGgo49GyGkaoXX9ipOYpm8V-A-Efj2X92h3kHJzpNQ==",
+          "title": "payscale.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Payscale",
+    "domain": "payscale.com",
+    "description": "Payscale is a leading company in compensation management, dedicated to helping job seekers, employees, and organizations ensure fair and appropriate pay practices. With a reach that includes over 50% of the Fortune 500 companies across 198 countries, Payscale offers a blend of robust data, expert services, and scalable software solutions for effective compensation decision-making. Notable clients include Angel City Football Club, Target, Gainsight, and eBay."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "PayScale, Inc.",
+  "evidence": "According to the Privacy Policy on payscale.com/privacy, the site is explicitly stated to be owned and operated by PayScale, Inc.",
+  "source": {
+    "id": 2,
+    "text": "**Privacy Policy (`payscale.com/privacy`):** Explicitly states, *\"This site is owned and operated by PayScale, Inc.\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpW8ELkW6knnWaKKg-xCRb8apvk3QAhrocfVzayHJu9ziufw22PLCLCaZGV_PP7mwo00cHsSExr0dv7h_cwHuxnGgo49GyGkaoXX9ipOYpm8V-A-Efj2X92h3kHJzpNQ==",
+    "title": "payscale.com"
+  },
+  "checked_at": "2026-11-05T08:28:32.401130+00:00"
+}

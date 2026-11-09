@@ -1,0 +1,79 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Prospre** at **prospre.io** is **Prospre Nutrition Inc.**.\n\n### Evidence:\n* The official mobile app listings on the Apple App Store and Google Play Store for the product (directing users to `support@prospre.io` and `prospre.io/terms-of-service`) identify the developer and operating entity as **Prospre Nutrition Inc.**.\n* Specifically, the Apple App Store listing notes: *\"Developer: Prospre Nutrition Inc.\"* and *\"The developer, Prospre Nutrition Inc., indicated that the app's privacy practices may include handling of data...\"*.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Prospre** at **prospre.io** is **Prospre Nutrition Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDofHHEvgB9kwonaRFyQReBRp89LxlEtdq8ssLF4b9kPzQsEPrRsC8uU3lz76BlPjygdpG-eSlVelYxHszELzcWnYYn8VK08TLbVS2balNQXdoxqRojFFLb4NvL9ublRaJOn28tHjpjimH9mpbvD93EFd6Ev8RucnZJmburyb6vsdZU7QwyGQIw2y6Gg==",
+          "title": "apple.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Prospre** at **prospre.io** is **Prospre Nutrition Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9Jgl46AJzhes_4t_CnFup7qiALfSeprblmi5fRTjnNvSyxeRZX74VGDNlhcqwwnlOayPxvPohDYxKZyFZOUDF4XKgWKs-2865yi4UrtdNfsL2tdee0EqeJGCQSs4oURd3_lkrptDSNmc8CRZhfK6zY2uBKbJwwhT_71lXFoptVufwSrUIPKZ9S2XSFnyc",
+          "title": "canada.ca"
+        },
+        {
+          "id": 2,
+          "text": "The official mobile app listings on the Apple App Store and Google Play Store for the product (directing users to `support@prospre.io` and `prospre.io/terms-of-service`) identify the developer and operating entity as **Prospre Nutrition Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDofHHEvgB9kwonaRFyQReBRp89LxlEtdq8ssLF4b9kPzQsEPrRsC8uU3lz76BlPjygdpG-eSlVelYxHszELzcWnYYn8VK08TLbVS2balNQXdoxqRojFFLb4NvL9ublRaJOn28tHjpjimH9mpbvD93EFd6Ev8RucnZJmburyb6vsdZU7QwyGQIw2y6Gg==",
+          "title": "apple.com"
+        },
+        {
+          "id": 3,
+          "text": "The official mobile app listings on the Apple App Store and Google Play Store for the product (directing users to `support@prospre.io` and `prospre.io/terms-of-service`) identify the developer and operating entity as **Prospre Nutrition Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHB7wDgPqaJqrXCJcjgvxaJE-Bm2223ueWsVKEZHJpJ7_AjcJCqyFF54YKJ5_eT_T4L70TT5W3lBu3ZahBdMUsU4JNYdmUKFus4PFIoCbtGZZQdeK7PKMuFAbPoF3iPuaMY7kBO3o8BiovjSfegTIa0C7hWlH7dIqvOVnU9W4fSmyd3ZJIO",
+          "title": "apple.com"
+        },
+        {
+          "id": 4,
+          "text": "The official mobile app listings on the Apple App Store and Google Play Store for the product (directing users to `support@prospre.io` and `prospre.io/terms-of-service`) identify the developer and operating entity as **Prospre Nutrition Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFq3UjFatyK3xiofj6jPbCI07KECagLeFLxr19foqh6kk4pZo8uUZ5xE2pvwIUwyK-iT2IUkwppnZ1VKJ-7Q4MNhZ-3lai0_F7ykhakZylADHH6JtnTi77tbdNmtqxJlZSHuXLBXh4kvByf_sb73-_rzyTQhILjSw==",
+          "title": "google.com"
+        },
+        {
+          "id": 5,
+          "text": "Specifically, the Apple App Store listing notes: *\"Developer: Prospre Nutrition Inc.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGh4YHjpIdBQMXV67jGBWrAXS31NxZPVCoZ-8O68o2yZtP7ZCp1WworV7eADlK5usEev0EXrX0qHmK-YkkkAolT5EBv1OOFWOC12BJjr9feFg-6EgwRtNSBT4dwPPwgWNMMLNDsuZECyzl0BnepP9Osg6C0FQ=",
+          "title": "apple.com"
+        },
+        {
+          "id": 6,
+          "text": "Specifically, the Apple App Store listing notes: *\"Developer: Prospre Nutrition Inc.\"* and *\"The developer, Prospre Nutrition Inc., indicated that the app's privacy practices may include handling of data...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEd-mIEuQtTbv0VuBx6WpuiWoNR-VWginGSKz9xFREO6rFi4b9yQ6TumQwDNow0vNIBVs7mf2Rg7ZZcxLa7srkldwrUgiMg5rVx9fQ_-T4lLUX94NN-YTf3ig4AWzWY4gqO5Q6vq85YeS9c2FivR1TR3Y73liU=",
+          "title": "apple.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Prospre Nutrition Inc.",
+        "evidence": "The official mobile app listings for the product directing users to support@prospre.io and prospre.io/terms-of-service identify the developer and operating entity as Prospre Nutrition Inc.",
+        "source": {
+          "id": 2,
+          "text": "The official mobile app listings on the Apple App Store and Google Play Store for the product (directing users to `support@prospre.io` and `prospre.io/terms-of-service`) identify the developer and operating entity as **Prospre Nutrition Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDofHHEvgB9kwonaRFyQReBRp89LxlEtdq8ssLF4b9kPzQsEPrRsC8uU3lz76BlPjygdpG-eSlVelYxHszELzcWnYYn8VK08TLbVS2balNQXdoxqRojFFLb4NvL9ublRaJOn28tHjpjimH9mpbvD93EFd6Ev8RucnZJmburyb6vsdZU7QwyGQIw2y6Gg==",
+          "title": "apple.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Prospre",
+    "domain": "prospre.io",
+    "description": "Track personalized meals with fitness coaching."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Prospre Nutrition Inc.",
+  "evidence": "The official mobile app listings for the product directing users to support@prospre.io and prospre.io/terms-of-service identify the developer and operating entity as Prospre Nutrition Inc.",
+  "source": {
+    "id": 2,
+    "text": "The official mobile app listings on the Apple App Store and Google Play Store for the product (directing users to `support@prospre.io` and `prospre.io/terms-of-service`) identify the developer and operating entity as **Prospre Nutrition Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDofHHEvgB9kwonaRFyQReBRp89LxlEtdq8ssLF4b9kPzQsEPrRsC8uU3lz76BlPjygdpG-eSlVelYxHszELzcWnYYn8VK08TLbVS2balNQXdoxqRojFFLb4NvL9ublRaJOn28tHjpjimH9mpbvD93EFd6Ev8RucnZJmburyb6vsdZU7QwyGQIw2y6Gg==",
+    "title": "apple.com"
+  },
+  "checked_at": "2026-11-05T07:20:06.688667+00:00"
+}

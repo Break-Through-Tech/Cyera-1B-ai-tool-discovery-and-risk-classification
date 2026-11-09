@@ -1,0 +1,85 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the product at **agentprod.com** is **AgentProd, Inc.**\n\n### Evidence & Supporting Statements:\n* **Legal Entity and Provider Identity:** Legal disclosures and terms across products operated under the company's ecosystem (including contact email `info@agentprod.com` and repository records linked directly to `https://agentprod.com/`) identify the corporate entity as **AgentProd, Inc.** (based in San Francisco, California):\n  * *\"YourGM is software provided by AgentProd, Inc.\"* (contact: `info@agentprod.com`)\n  * *\"© 2026 AgentProd, Inc.\"*\n  * *\"...operated by AgentProd Inc., at San Francisco, California, United States.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the product at **agentprod.com** is **AgentProd, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWNaURglDfDC-9RkM7IgoFiIHw-yUckDKzZMA2BlvzAjRumnBkJpM0NYZ7Gx37GWzTJUIgnhl3tdaepO4xImSiRwB4F5fJBsuTiFaLKBc=",
+          "title": "yourgm.app"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the product at **agentprod.com** is **AgentProd, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBTarubN5dtKwlh7OvdeCBAdKx9Mm6q7ZrbxjSdmMvFJyRsg-IuK7JwaQtfbHLl6MBFpRHtqZf2lkrSLn5vj4VjeQ1iO3XhzUmz6iJv0Fo8KaWFFRBsNki1zWn2O1sOn3w",
+          "title": "getlatka.com"
+        },
+        {
+          "id": 2,
+          "text": "**Legal Entity and Provider Identity:** Legal disclosures and terms across products operated under the company's ecosystem (including contact email `info@agentprod.com` and repository records linked directly to `https://agentprod.com/`) identify the corporate entity as **AgentProd, Inc.** (based in San Francisco, California)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIZPIXZFkAVZaqnTrzKkX7uQiu8ACVDCmv0X_PfKsTkg9cZU_57pCpB1HGIAVz9ZeOHO6_NpPKlN3HCAhEnZiPcEtdbfBDfoF_l_ixU21cIpX8",
+          "title": "github.com"
+        },
+        {
+          "id": 3,
+          "text": "**Legal Entity and Provider Identity:** Legal disclosures and terms across products operated under the company's ecosystem (including contact email `info@agentprod.com` and repository records linked directly to `https://agentprod.com/`) identify the corporate entity as **AgentProd, Inc.** (based in San Francisco, California)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWKvYVSesXUZ218-7sMydz2cgrn8L3ki7OLOPWFcJpNwUF7QecGq2GeUcYshUJhg9OKTtPEvMwJ88R4QCfjqHIkC7vSc5G1x5R-CtSA90_kN1s4UU=",
+          "title": "yourgm.app"
+        },
+        {
+          "id": 4,
+          "text": "**Legal Entity and Provider Identity:** Legal disclosures and terms across products operated under the company's ecosystem (including contact email `info@agentprod.com` and repository records linked directly to `https://agentprod.com/`) identify the corporate entity as **AgentProd, Inc.** (based in San Francisco, California)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmZbTh0PCMKDDbBDiVCwF11KjDApHvtyCgG8b5LGuU_DlPfrI56KzTcZpQB5wQvTZJnPMWzx4TBUzTyc3Z6Rnx52xf3zeDNwJAnzhDAgp5FWqFNrzsVdZk5duirUXnP1_VAA==",
+          "title": "muzecmo.com"
+        },
+        {
+          "id": 5,
+          "text": "*\"YourGM is software provided by AgentProd, Inc.\"* (contact: `info@agentprod.com`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWNaURglDfDC-9RkM7IgoFiIHw-yUckDKzZMA2BlvzAjRumnBkJpM0NYZ7Gx37GWzTJUIgnhl3tdaepO4xImSiRwB4F5fJBsuTiFaLKBc=",
+          "title": "yourgm.app"
+        },
+        {
+          "id": 6,
+          "text": "*\"YourGM is software provided by AgentProd, Inc.\"* (contact: `info@agentprod.com`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWKvYVSesXUZ218-7sMydz2cgrn8L3ki7OLOPWFcJpNwUF7QecGq2GeUcYshUJhg9OKTtPEvMwJ88R4QCfjqHIkC7vSc5G1x5R-CtSA90_kN1s4UU=",
+          "title": "yourgm.app"
+        },
+        {
+          "id": 7,
+          "text": "*\"© 2026 AgentProd, Inc.\"*\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3MYIJezmBTwlrOgcPsvekLHeojnOQXlpvayS3VdKPHb6INIX5E_0E-JhAMcuVjWacxeZCrOdBFk9BzOO6Ci1StFXIEYu8LLa0CDcF2XBn4LfWe6A=",
+          "title": "yourgm.app"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "AgentProd, Inc.",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing the product at agentprod.com is AgentProd, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the product at **agentprod.com** is **AgentProd, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWNaURglDfDC-9RkM7IgoFiIHw-yUckDKzZMA2BlvzAjRumnBkJpM0NYZ7Gx37GWzTJUIgnhl3tdaepO4xImSiRwB4F5fJBsuTiFaLKBc=",
+          "title": "yourgm.app"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "AgentProd",
+    "domain": "agentprod.com",
+    "description": "AgentProd is an AI-powered sales assistant designed to automate and optimize sales processes, improving lead generation, engagement, and conversion rates."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "AgentProd, Inc.",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing the product at agentprod.com is AgentProd, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the product at **agentprod.com** is **AgentProd, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWNaURglDfDC-9RkM7IgoFiIHw-yUckDKzZMA2BlvzAjRumnBkJpM0NYZ7Gx37GWzTJUIgnhl3tdaepO4xImSiRwB4F5fJBsuTiFaLKBc=",
+    "title": "yourgm.app"
+  },
+  "checked_at": "2026-11-05T06:33:29.678832+00:00"
+}

@@ -1,0 +1,85 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **NetSuite** at **netsuite.com** is **Oracle** (specifically **Oracle America, Inc.**, operating as **Oracle NetSuite**).\n\n### Evidence and Citation:\n* **Operating Entity and Contracts:** According to Oracle's *NetSuite Main Terms of Service* and related NetSuite Cloud Services agreements covering the NetSuite business application suite (at `netsuite.com` / `oracle.com`), the service is provided under agreement with **Oracle America, Inc.**:\n  > *\"Oracle America, Inc. MAIN TERMS OF SERVICE ... 'Cloud Service' means, collectively, the NetSuite online business application suite (and any optionally procured modules)...\"*\n* **Domain Ownership and Branding:** Pages across **netsuite.com** are published and maintained under the **Oracle NetSuite** brand, displaying the footer copyright notice *\"© Oracle\"* and linking directly to Oracle's unified Terms of Use and Privacy policies.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **NetSuite** at **netsuite.com** is **Oracle** (specifically **Oracle America, Inc.**, operating as **Oracle NetSuite**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9NdMZZKqkPhCu4gyGK0si-8JM0K5mEMRHZf3zk4aTLGtP1sJH6CMgh9p6y6t9FRcCirJUobhDi6RuKpaXjbs1qInJkhWr7MLq-OXiSlgp-aNSUXNiDUrdmSxiIQ5yuzvkS-4Fi660AQRX9kxKv6qPiFExijD3x6RTo6k=",
+          "title": "netsuite.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **NetSuite** at **netsuite.com** is **Oracle** (specifically **Oracle America, Inc.**, operating as **Oracle NetSuite**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGahRyhaJ2MkrWQiKtDy4npYzoCcfygKS7xvaN70__1swYZt2ODBzevgWi2Z_YkBxIDh97q_cvA35EWJJAm3oNLD0U6q67VZtiY4BgAlv0EjSPuV6kNwLpgZEsqBtkc1UCRJE5CCpLvf5RhXbEl-Xe-e3prjch0V9Uc9_E=",
+          "title": "oracle.com"
+        },
+        {
+          "id": 2,
+          "text": "**Operating Entity and Contracts:** According to Oracle's *NetSuite Main Terms of Service* and related NetSuite Cloud Services agreements covering the NetSuite business application suite (at `netsuite.com` / `oracle.com`), the service is provided under agreement with **Oracle America, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF28Sf057LOcUHZM1EDg0SnWnljtvwhpm4jmlKAfxQG_RA1_l-2pWdH8o3I_d1ENt5aqJ5d409zvnjVm-o_eY9PqsfUBXgV3e3nsrpYAR20R694nArQVvhKgamiY4edxURONfDe-YSyDew=",
+          "title": "oracle.com"
+        },
+        {
+          "id": 3,
+          "text": "**Operating Entity and Contracts:** According to Oracle's *NetSuite Main Terms of Service* and related NetSuite Cloud Services agreements covering the NetSuite business application suite (at `netsuite.com` / `oracle.com`), the service is provided under agreement with **Oracle America, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGahRyhaJ2MkrWQiKtDy4npYzoCcfygKS7xvaN70__1swYZt2ODBzevgWi2Z_YkBxIDh97q_cvA35EWJJAm3oNLD0U6q67VZtiY4BgAlv0EjSPuV6kNwLpgZEsqBtkc1UCRJE5CCpLvf5RhXbEl-Xe-e3prjch0V9Uc9_E=",
+          "title": "oracle.com"
+        },
+        {
+          "id": 4,
+          "text": "'Cloud Service' means, collectively, the NetSuite online business application suite (and any optionally procured modules)...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGahRyhaJ2MkrWQiKtDy4npYzoCcfygKS7xvaN70__1swYZt2ODBzevgWi2Z_YkBxIDh97q_cvA35EWJJAm3oNLD0U6q67VZtiY4BgAlv0EjSPuV6kNwLpgZEsqBtkc1UCRJE5CCpLvf5RhXbEl-Xe-e3prjch0V9Uc9_E=",
+          "title": "oracle.com"
+        },
+        {
+          "id": 5,
+          "text": "'Cloud Service' means, collectively, the NetSuite online business application suite (and any optionally procured modules)...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGahRyhaJ2MkrWQiKtDy4npYzoCcfygKS7xvaN70__1swYZt2ODBzevgWi2Z_YkBxIDh97q_cvA35EWJJAm3oNLD0U6q67VZtiY4BgAlv0EjSPuV6kNwLpgZEsqBtkc1UCRJE5CCpLvf5RhXbEl-Xe-e3prjch0V9Uc9_E=",
+          "title": "oracle.com"
+        },
+        {
+          "id": 6,
+          "text": "**Domain Ownership and Branding:** Pages across **netsuite.com** are published and maintained under the **Oracle NetSuite** brand, displaying the footer copyright notice *\"© Oracle\"* and linking directly to Oracle's unified Terms of Use and Privacy policies.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9NdMZZKqkPhCu4gyGK0si-8JM0K5mEMRHZf3zk4aTLGtP1sJH6CMgh9p6y6t9FRcCirJUobhDi6RuKpaXjbs1qInJkhWr7MLq-OXiSlgp-aNSUXNiDUrdmSxiIQ5yuzvkS-4Fi660AQRX9kxKv6qPiFExijD3x6RTo6k=",
+          "title": "netsuite.com"
+        },
+        {
+          "id": 7,
+          "text": "**Domain Ownership and Branding:** Pages across **netsuite.com** are published and maintained under the **Oracle NetSuite** brand, displaying the footer copyright notice *\"© Oracle\"* and linking directly to Oracle's unified Terms of Use and Privacy policies.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYg2tbJMLZvL1rpu19xZDCMtOZvVxWSbrxWCLtjXGpfBNq4aKyn2USmXZHkF4AYk2KmIuI2UOimiKOG596xditYH9i2uRBToZluqbEXAxli55gVdvBVfXBBcnUbw24wsZwI5H7226RGyCgbVZByDctE8SX50EzwBVG2GuKn7GMgeTC_TVH9-N25AtE2eQUuTadN6XI5lDcz2-hC76g5E9cO6jECtJ4FmX_q3_9ViJEO_OLLv7_4httcycridcS9WqnuMotHu8=",
+          "title": "netsuite.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Oracle",
+        "evidence": "Passage 0 directly states that the vendor providing NetSuite at netsuite.com is Oracle (specifically Oracle America, Inc., operating as Oracle NetSuite).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **NetSuite** at **netsuite.com** is **Oracle** (specifically **Oracle America, Inc.**, operating as **Oracle NetSuite**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9NdMZZKqkPhCu4gyGK0si-8JM0K5mEMRHZf3zk4aTLGtP1sJH6CMgh9p6y6t9FRcCirJUobhDi6RuKpaXjbs1qInJkhWr7MLq-OXiSlgp-aNSUXNiDUrdmSxiIQ5yuzvkS-4Fi660AQRX9kxKv6qPiFExijD3x6RTo6k=",
+          "title": "netsuite.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "NetSuite",
+    "domain": "netsuite.com",
+    "description": "A cloud ERP system for accounting, inventory, order management, and financial reporting."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Oracle",
+  "evidence": "Passage 0 directly states that the vendor providing NetSuite at netsuite.com is Oracle (specifically Oracle America, Inc., operating as Oracle NetSuite).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **NetSuite** at **netsuite.com** is **Oracle** (specifically **Oracle America, Inc.**, operating as **Oracle NetSuite**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9NdMZZKqkPhCu4gyGK0si-8JM0K5mEMRHZf3zk4aTLGtP1sJH6CMgh9p6y6t9FRcCirJUobhDi6RuKpaXjbs1qInJkhWr7MLq-OXiSlgp-aNSUXNiDUrdmSxiIQ5yuzvkS-4Fi660AQRX9kxKv6qPiFExijD3x6RTo6k=",
+    "title": "netsuite.com"
+  },
+  "checked_at": "2026-11-05T07:58:46.208534+00:00"
+}

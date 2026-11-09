@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly operating and providing **Matomo** at **matomo.org** is **InnoCraft Limited**.\n\n### Provider Evidence\nAccording to the official [Website Terms of Use](https://matomo.org/terms-of-use/) on `matomo.org`:\n> *\"Welcome to this Matomo® Analytics website (“Website”) operated by **InnoCraft Limited**, a New Zealand registered company founded by the creators of Matomo Analytics.\"*\n\nAdditionally, official documentation and service terms identify the provider:\n> *\"Matomo is provided by **InnoCraft Limited**, a New Zealand company...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly operating and providing **Matomo** at **matomo.org** is **InnoCraft Limited**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9ma25prfBQPTm0F9Bz64r4uJIHxej-Zser4bp_Xp7eiRlnyud6-pg5ioU53Bf-ruWfn64PRBBqyWB9y03h54_SWZuh-WX4AF0vr9m6VrvKdBAykNad8jdwZa0_yNVswUgTrNZFAEfg38flGgOi0r3nOFGcXXSEex_kzSQi_H-Xok=",
+          "title": "matomo.org"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly operating and providing **Matomo** at **matomo.org** is **InnoCraft Limited**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4TA0TCYcd4BrPUXiKT2EiIwI2uViEOT3uoR9jp8OFG2fCxp8IT2DE4dSKenl5yF8qu1yE-GDksIVXx4ujuixKdjFaArTEV1Hq8AYC_KS8pnAtefiTl_U=",
+          "title": "matomo.org"
+        },
+        {
+          "id": 2,
+          "text": "*\"Welcome to this Matomo® Analytics website (“Website”) operated by **InnoCraft Limited**, a New Zealand registered company founded by the creators of Matomo Analytics.\"*\n\nAdd",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4TA0TCYcd4BrPUXiKT2EiIwI2uViEOT3uoR9jp8OFG2fCxp8IT2DE4dSKenl5yF8qu1yE-GDksIVXx4ujuixKdjFaArTEV1Hq8AYC_KS8pnAtefiTl_U=",
+          "title": "matomo.org"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "InnoCraft Limited",
+        "evidence": "Passage 2 directly quotes the website terms stating that the Matomo Analytics website is operated by InnoCraft Limited, a New Zealand registered company founded by the creators of Matomo Analytics.",
+        "source": {
+          "id": 2,
+          "text": "*\"Welcome to this Matomo® Analytics website (“Website”) operated by **InnoCraft Limited**, a New Zealand registered company founded by the creators of Matomo Analytics.\"*\n\nAdd",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4TA0TCYcd4BrPUXiKT2EiIwI2uViEOT3uoR9jp8OFG2fCxp8IT2DE4dSKenl5yF8qu1yE-GDksIVXx4ujuixKdjFaArTEV1Hq8AYC_KS8pnAtefiTl_U=",
+          "title": "matomo.org"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Matomo",
+    "domain": "matomo.org",
+    "description": "Founded in 2007, Matomo is an open source web analytics platform that empowers website owners to manage their own data. With over 1.4 million installations across more than 190 countries and support for over 50 languages, Matomo is recognized as a leading solution in web analytics, prioritizing user privacy and data control."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "InnoCraft Limited",
+  "evidence": "Passage 2 directly quotes the website terms stating that the Matomo Analytics website is operated by InnoCraft Limited, a New Zealand registered company founded by the creators of Matomo Analytics.",
+  "source": {
+    "id": 2,
+    "text": "*\"Welcome to this Matomo® Analytics website (“Website”) operated by **InnoCraft Limited**, a New Zealand registered company founded by the creators of Matomo Analytics.\"*\n\nAdd",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4TA0TCYcd4BrPUXiKT2EiIwI2uViEOT3uoR9jp8OFG2fCxp8IT2DE4dSKenl5yF8qu1yE-GDksIVXx4ujuixKdjFaArTEV1Hq8AYC_KS8pnAtefiTl_U=",
+    "title": "matomo.org"
+  },
+  "checked_at": "2026-11-05T09:15:34.654637+00:00"
+}

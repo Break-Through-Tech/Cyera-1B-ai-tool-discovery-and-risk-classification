@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **BetterUp** software platform at **betterup.com** is **BetterUp, Inc.**\n\n### Evidence:\n* **Terms and Conditions:** *\"By accessing, downloading and/or using all or any part of the BetterUp Services, you ('You' and, where applicable, 'Your') indicate Your acceptance of the following terms from BetterUp, Inc. ('BetterUp').\"*\n* **Privacy Notice:** *\"BetterUp, Inc. and its subsidiaries and affiliates ('BetterUp', 'we,' 'us,' or 'our') provide the BetterUp Human Transformation Platform...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **BetterUp** software platform at **betterup.com** is **BetterUp, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7xAk4bbWDmcNZivwk0EoAz3egV9a1SJFPi3vaRrLn9j4jiJ8HCiO9LkFyLYHTphfZfn5ZQ69lztQtrbbcZb1wkaykrfMMoCXvPdMIzsoUtlLA-TqVB1D4Uyrduh2IiOTQ1Q==",
+          "title": "betterup.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the **BetterUp** software platform at **betterup.com** is **BetterUp, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKUhWTMSDt4woNT_p3albJafF2bkSGDeUfxFSvYiLqyBBtCoTs_QxXzAEq7vDgCYt_iwm-XAStQf3TwZUNCl4Kg-sKIthzP-MplqBW-w0n1YYXO_18AYqY9OnYsG3aoAQZnYjJKfFm0ax8eZ8bTi4c6K8Fr7JL56o4jd3NrJCfqPYPPoF6JqDV1fJPGp3gncH2SRJbvqqo5JFEHa7uLG4P3J5XkBY7uzz873Eo",
+          "title": "hubspotusercontent-na1.net"
+        },
+        {
+          "id": 2,
+          "text": "**Terms and Conditions:** *\"By accessing, downloading and/or using all or any part of the BetterUp Services, you ('You' and, where applicable, 'Your') indicate Your acceptance of the following terms from BetterUp, Inc. ('BetterUp').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7xAk4bbWDmcNZivwk0EoAz3egV9a1SJFPi3vaRrLn9j4jiJ8HCiO9LkFyLYHTphfZfn5ZQ69lztQtrbbcZb1wkaykrfMMoCXvPdMIzsoUtlLA-TqVB1D4Uyrduh2IiOTQ1Q==",
+          "title": "betterup.com"
+        },
+        {
+          "id": 3,
+          "text": "**Privacy Notice:** *\"BetterUp, Inc. and its subsidiaries and affiliates ('BetterUp', 'we,' 'us,' or 'our') provide the BetterUp Human Transformation Platform...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKUhWTMSDt4woNT_p3albJafF2bkSGDeUfxFSvYiLqyBBtCoTs_QxXzAEq7vDgCYt_iwm-XAStQf3TwZUNCl4Kg-sKIthzP-MplqBW-w0n1YYXO_18AYqY9OnYsG3aoAQZnYjJKfFm0ax8eZ8bTi4c6K8Fr7JL56o4jd3NrJCfqPYPPoF6JqDV1fJPGp3gncH2SRJbvqqo5JFEHa7uLG4P3J5XkBY7uzz873Eo",
+          "title": "hubspotusercontent-na1.net"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "BetterUp, Inc.",
+        "evidence": "BetterUp's Terms and Conditions state that accessing or using BetterUp Services constitutes acceptance of terms from BetterUp, Inc.",
+        "source": {
+          "id": 2,
+          "text": "**Terms and Conditions:** *\"By accessing, downloading and/or using all or any part of the BetterUp Services, you ('You' and, where applicable, 'Your') indicate Your acceptance of the following terms from BetterUp, Inc. ('BetterUp').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7xAk4bbWDmcNZivwk0EoAz3egV9a1SJFPi3vaRrLn9j4jiJ8HCiO9LkFyLYHTphfZfn5ZQ69lztQtrbbcZb1wkaykrfMMoCXvPdMIzsoUtlLA-TqVB1D4Uyrduh2IiOTQ1Q==",
+          "title": "betterup.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "BetterUp",
+    "domain": "betterup.com",
+    "description": "BetterUp is a professional coaching platform that focuses on enhancing people's experience and personal development through immersive learning and actionable insights. Their services cater to a wide audience, aiming to foster professional growth and well-being for individuals and organizations alike."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "BetterUp, Inc.",
+  "evidence": "BetterUp's Terms and Conditions state that accessing or using BetterUp Services constitutes acceptance of terms from BetterUp, Inc.",
+  "source": {
+    "id": 2,
+    "text": "**Terms and Conditions:** *\"By accessing, downloading and/or using all or any part of the BetterUp Services, you ('You' and, where applicable, 'Your') indicate Your acceptance of the following terms from BetterUp, Inc. ('BetterUp').\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7xAk4bbWDmcNZivwk0EoAz3egV9a1SJFPi3vaRrLn9j4jiJ8HCiO9LkFyLYHTphfZfn5ZQ69lztQtrbbcZb1wkaykrfMMoCXvPdMIzsoUtlLA-TqVB1D4Uyrduh2IiOTQ1Q==",
+    "title": "betterup.com"
+  },
+  "checked_at": "2026-11-05T08:04:57.331816+00:00"
+}

@@ -1,0 +1,43 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Flaticon** at **flaticon.com** is **Freepik Company, S.L.U.**\n\n### Provider Statement\nAccording to the official **Flaticon Terms of Use**:\n> *\"This website is operated by Freepik Company, S.L.U, registered in the Commercial Registry of Málaga, volume 4994, sheet 217, page number MA-113059, with Tax Number B-93183366 and registered office at 13 Molina Lario St., 5th floor, 29015, Málaga, Spain ('Company').\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Flaticon** at **flaticon.com** is **Freepik Company, S.L.U.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE66qGHn7wtdoUnoc-7iIj43trrhYQPk4nJ7ttsHIK0cOIZRwm4IY_KSh2grh-R5k_BdNP9TS3J1KdZdAU3Dh494ihNaucr2v_2fZuGjEy1NAALRg==",
+          "title": "flaticon.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Freepik Company, S.L.U.",
+        "evidence": "Passage 0 explicitly identifies Freepik Company, S.L.U. as the vendor directly providing Flaticon at flaticon.com.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Flaticon** at **flaticon.com** is **Freepik Company, S.L.U.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE66qGHn7wtdoUnoc-7iIj43trrhYQPk4nJ7ttsHIK0cOIZRwm4IY_KSh2grh-R5k_BdNP9TS3J1KdZdAU3Dh494ihNaucr2v_2fZuGjEy1NAALRg==",
+          "title": "flaticon.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Flaticon",
+    "domain": "flaticon.com",
+    "description": "Flaticon is the largest online database of free vector icons, providing a comprehensive tool for users to search, select, and convert icons into various formats such as SVG, source, and PNG. Founded by Alejandro Sánchez Blanes, Flaticon is dedicated to enhancing design projects by making the process of finding and utilizing icons more efficient and accessible."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Freepik Company, S.L.U.",
+  "evidence": "Passage 0 explicitly identifies Freepik Company, S.L.U. as the vendor directly providing Flaticon at flaticon.com.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Flaticon** at **flaticon.com** is **Freepik Company, S.L.U.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE66qGHn7wtdoUnoc-7iIj43trrhYQPk4nJ7ttsHIK0cOIZRwm4IY_KSh2grh-R5k_BdNP9TS3J1KdZdAU3Dh494ihNaucr2v_2fZuGjEy1NAALRg==",
+    "title": "flaticon.com"
+  },
+  "checked_at": "2026-11-05T08:09:43.784135+00:00"
+}

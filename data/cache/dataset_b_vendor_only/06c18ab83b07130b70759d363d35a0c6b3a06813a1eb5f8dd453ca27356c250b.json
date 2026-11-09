@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **SAP S/4HANA** at **sap.com** is **SAP SE**.\n\n### Provider Statement\nAccording to the official **Terms of Use for SAP Websites** on `sap.com`:\n> *\"SAP SE, a European Company (Societas Europaea, SE) established under the laws of Germany and European Union, with business address at Dietmar-Hopp-Allee 16, 69190 Walldorf, Germany, together with its Affiliates (collectively 'SAP') have created, own, and operate multiple websites...\"*\n\nAdditionally, the copyright and legal notices on `sap.com` specify:\n> *\"SAP and other SAP products and services mentioned herein as well as their respective logos are trademarks or registered trademarks of SAP SE (or an SAP affiliate company) in Germany and other countries.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **SAP S/4HANA** at **sap.com** is **SAP SE**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUOoKU8z556qb2myJuchF1YIft6jPUVPirIPqp3-A8UupmiNdvITTnyCU3b4n1bKXkxydYmXlXkY1geE8yjbKbojlKfhyPMhHsaeoTkW3Hm3uScx5f5IjNg1Jt-K6Z-YyPbSyh6i1Q",
+          "title": "sap.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **SAP S/4HANA** at **sap.com** is **SAP SE**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUOoKU8z556qb2myJuchF1YIft6jPUVPirIPqp3-A8UupmiNdvITTnyCU3b4n1bKXkxydYmXlXkY1geE8yjbKbojlKfhyPMhHsaeoTkW3Hm3uScx5f5IjNg1Jt-K6Z-YyPbSyh6i1Q",
+          "title": "sap.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"SAP SE, a European Company (Societas Europaea, SE) established under the laws of Germany and European Union, with business address at Dietmar-Hopp-Allee 16, 69190 Walldorf, Germany, together with its Affiliates (collectively 'SAP') have created, own, and operate multiple websites...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUOoKU8z556qb2myJuchF1YIft6jPUVPirIPqp3-A8UupmiNdvITTnyCU3b4n1bKXkxydYmXlXkY1geE8yjbKbojlKfhyPMhHsaeoTkW3Hm3uScx5f5IjNg1Jt-K6Z-YyPbSyh6i1Q",
+          "title": "sap.com"
+        },
+        {
+          "id": 3,
+          "text": "*\"SAP SE, a European Company (Societas Europaea, SE) established under the laws of Germany and European Union, with business address at Dietmar-Hopp-Allee 16, 69190 Walldorf, Germany, together with its Affiliates (collectively 'SAP') have created, own, and operate multiple websites...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUOoKU8z556qb2myJuchF1YIft6jPUVPirIPqp3-A8UupmiNdvITTnyCU3b4n1bKXkxydYmXlXkY1geE8yjbKbojlKfhyPMhHsaeoTkW3Hm3uScx5f5IjNg1Jt-K6Z-YyPbSyh6i1Q",
+          "title": "sap.com"
+        },
+        {
+          "id": 4,
+          "text": "*\"SAP and other SAP products and services mentioned herein as well as their respective logos are trademarks or registered trademarks of SAP SE (or an SAP affiliate company) in Germany and other countries.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_Vk6x0YtMSR4drrg426KumROEXYuIge0Vbkx8LfOYMundQkHxUIEMQ8P80c9h0hqxr2opRe2jBfClOAYbmXQM_PD-NpJsVX15OUntfkevikeow8dAZBBR3Fhb6UfUvZXvuNO6",
+          "title": "sap.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "SAP SE",
+        "evidence": "The vendor directly providing SAP S/4HANA at sap.com is SAP SE.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **SAP S/4HANA** at **sap.com** is **SAP SE**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUOoKU8z556qb2myJuchF1YIft6jPUVPirIPqp3-A8UupmiNdvITTnyCU3b4n1bKXkxydYmXlXkY1geE8yjbKbojlKfhyPMhHsaeoTkW3Hm3uScx5f5IjNg1Jt-K6Z-YyPbSyh6i1Q",
+          "title": "sap.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "SAP S/4HANA",
+    "domain": "sap.com",
+    "description": "An enterprise resource planning suite covering finance, supply chain, manufacturing, and procurement."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "SAP SE",
+  "evidence": "The vendor directly providing SAP S/4HANA at sap.com is SAP SE.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **SAP S/4HANA** at **sap.com** is **SAP SE**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUOoKU8z556qb2myJuchF1YIft6jPUVPirIPqp3-A8UupmiNdvITTnyCU3b4n1bKXkxydYmXlXkY1geE8yjbKbojlKfhyPMhHsaeoTkW3Hm3uScx5f5IjNg1Jt-K6Z-YyPbSyh6i1Q",
+    "title": "sap.com"
+  },
+  "checked_at": "2026-11-05T07:58:24.190706+00:00"
+}

@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Qoder** at **qoder.com** is **BRIGHT ZENITH PRIVATE LIMITED**.\n\n### Evidence\nAccording to the official **Terms of Service** for Qoder hosted at `qoder.com`:\n> *\"Before you access our services, please read these terms of service (\"Terms\") which govern your access to and use of the services, including but not limited to the websites, applications, products, third-party services, software, integrated development environment (IDE), tools, content, and documentation (collectively, the \"Services\"), provided by **BRIGHT ZENITH PRIVATE LIMITED** (\"we\", \"us\", or \"our\").\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Qoder** at **qoder.com** is **BRIGHT ZENITH PRIVATE LIMITED**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERzkbE1YAUjQkWSrsdR400ysiP2hJD6lYGXTa5_BvcmiGutt0PNZlCgeO4LauQfCw9U4JvoOa3iZf2SeUFlU3hOpJP9lCsE4NmUvQn_Zaucw5sA0KX5Q==",
+          "title": "qoder.com"
+        },
+        {
+          "id": 1,
+          "text": "*\"Before you access our services, please read these terms of service (\"Terms\") which govern your access to and use of the services, including but not limited to the websites, applications, products, third-party services, software, integrated development environment (IDE), tools, content, and documentation (collectively, the \"Services\"), provided by **BRIGHT ZENITH PRIVATE LIMITED** (\"we\", \"us\", or \"our\").\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERzkbE1YAUjQkWSrsdR400ysiP2hJD6lYGXTa5_BvcmiGutt0PNZlCgeO4LauQfCw9U4JvoOa3iZf2SeUFlU3hOpJP9lCsE4NmUvQn_Zaucw5sA0KX5Q==",
+          "title": "qoder.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "BRIGHT ZENITH PRIVATE LIMITED",
+        "evidence": "According to the Terms of Service for qoder.com, the services, websites, applications, products, software, and tools are provided by BRIGHT ZENITH PRIVATE LIMITED.",
+        "source": {
+          "id": 1,
+          "text": "*\"Before you access our services, please read these terms of service (\"Terms\") which govern your access to and use of the services, including but not limited to the websites, applications, products, third-party services, software, integrated development environment (IDE), tools, content, and documentation (collectively, the \"Services\"), provided by **BRIGHT ZENITH PRIVATE LIMITED** (\"we\", \"us\", or \"our\").\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERzkbE1YAUjQkWSrsdR400ysiP2hJD6lYGXTa5_BvcmiGutt0PNZlCgeO4LauQfCw9U4JvoOa3iZf2SeUFlU3hOpJP9lCsE4NmUvQn_Zaucw5sA0KX5Q==",
+          "title": "qoder.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Qoder",
+    "domain": "qoder.com",
+    "description": "Agentic Coding Platform for Real Software"
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "BRIGHT ZENITH PRIVATE LIMITED",
+  "evidence": "According to the Terms of Service for qoder.com, the services, websites, applications, products, software, and tools are provided by BRIGHT ZENITH PRIVATE LIMITED.",
+  "source": {
+    "id": 1,
+    "text": "*\"Before you access our services, please read these terms of service (\"Terms\") which govern your access to and use of the services, including but not limited to the websites, applications, products, third-party services, software, integrated development environment (IDE), tools, content, and documentation (collectively, the \"Services\"), provided by **BRIGHT ZENITH PRIVATE LIMITED** (\"we\", \"us\", or \"our\").\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERzkbE1YAUjQkWSrsdR400ysiP2hJD6lYGXTa5_BvcmiGutt0PNZlCgeO4LauQfCw9U4JvoOa3iZf2SeUFlU3hOpJP9lCsE4NmUvQn_Zaucw5sA0KX5Q==",
+    "title": "qoder.com"
+  },
+  "checked_at": "2026-11-05T07:46:20.818687+00:00"
+}

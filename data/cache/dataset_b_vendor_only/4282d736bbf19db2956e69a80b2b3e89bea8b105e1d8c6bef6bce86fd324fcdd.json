@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The operating vendor directly providing **Codeberg** at **codeberg.org** is **Codeberg e.V.**, a German registered non-profit association (*eingetragener Verein*) based in Berlin, Germany.\n\n### Official Statement / Evidence:\nAccording to the official Codeberg documentation (*What is Codeberg?*):\n> *\"Codeberg is a democratic community-driven, non-profit software development platform operated by **Codeberg e.V.** and centered around Codeberg.org, a Forgejo-based software forge.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The operating vendor directly providing **Codeberg** at **codeberg.org** is **Codeberg e.V.**, a German registered non-profit association (*eingetragener Verein*) based in Berlin, Germany",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLQMLua9E9ZHBSPzzGULfHqSCf0j3XIcLm8ud-OUDc9fXx2idBqmU3_A6Ia0vZ70GR6A09wIrK9GMqURYuLEzAMV3ZOL2-zwi-wzHfHBID0Yzm0JZAQ3F-OxRkFA==",
+          "title": "wikipedia.org"
+        },
+        {
+          "id": 1,
+          "text": "The operating vendor directly providing **Codeberg** at **codeberg.org** is **Codeberg e.V.**, a German registered non-profit association (*eingetragener Verein*) based in Berlin, Germany",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGveNisqtRbdflooFKFiFXxq7QdT-EvRDjGX_yFrcZRg9Vxi-wC8xoTz3phiBvq1hOXnsAnDnLb-cvKxH1JUwtvkbdCDkWzA3A6aL-YhxMP66nM-vq5i5OW34QBMp9hO1ZQQRnNZV4I",
+          "title": "europeanalternative.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"Codeberg is a democratic community-driven, non-profit software development platform operated by **Codeberg e.V.** and centered around Codeberg.org, a Forgejo-based software forge.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFjcj3n0jE2BnR8AIzxXe9ZtGl_cloLbrUyAVRlZD7W3v8s245A90K8mb4O1-KnNKkWzAAQCVla4B5vht9byylVx5BkoX622YSn5Tx4YX3H84uduG6jGlIrZC7hklALuCVHEaGbnbmlkPMpCRfRYU4kg==",
+          "title": "codeberg.org"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Codeberg e.V.",
+        "evidence": "Codeberg is explicitly documented as a software development platform operated by Codeberg e.V. and centered around Codeberg.org.",
+        "source": {
+          "id": 2,
+          "text": "*\"Codeberg is a democratic community-driven, non-profit software development platform operated by **Codeberg e.V.** and centered around Codeberg.org, a Forgejo-based software forge.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFjcj3n0jE2BnR8AIzxXe9ZtGl_cloLbrUyAVRlZD7W3v8s245A90K8mb4O1-KnNKkWzAAQCVla4B5vht9byylVx5BkoX622YSn5Tx4YX3H84uduG6jGlIrZC7hklALuCVHEaGbnbmlkPMpCRfRYU4kg==",
+          "title": "codeberg.org"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Codeberg",
+    "domain": "codeberg.org",
+    "description": "Codeberg is a non-profit organization dedicated to providing a secure and supportive platform for open-source code. Its mission is to preserve the freedom and integrity of free software, ensuring that it remains accessible and safe for developers and users alike. Based online, Codeberg serves a global community of programmers and contributors to the open-source movement."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Codeberg e.V.",
+  "evidence": "Codeberg is explicitly documented as a software development platform operated by Codeberg e.V. and centered around Codeberg.org.",
+  "source": {
+    "id": 2,
+    "text": "*\"Codeberg is a democratic community-driven, non-profit software development platform operated by **Codeberg e.V.** and centered around Codeberg.org, a Forgejo-based software forge.\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFjcj3n0jE2BnR8AIzxXe9ZtGl_cloLbrUyAVRlZD7W3v8s245A90K8mb4O1-KnNKkWzAAQCVla4B5vht9byylVx5BkoX622YSn5Tx4YX3H84uduG6jGlIrZC7hklALuCVHEaGbnbmlkPMpCRfRYU4kg==",
+    "title": "codeberg.org"
+  },
+  "checked_at": "2026-11-05T08:53:15.388069+00:00"
+}

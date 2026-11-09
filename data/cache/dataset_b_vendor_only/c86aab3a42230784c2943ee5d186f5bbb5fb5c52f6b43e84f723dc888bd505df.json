@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Element** at **element.io** is **Element Creations Limited** (trading as **Element**, formerly known as New Vector Limited).\n\nAccording to the official **Element Terms of Use** and **Privacy Policy**:\n> *\"The Element platform is provided by Element Creations Limited formerly known as New Vector. Limited (a company registered in England and Wales under company number 10873661... trading as Element)\"* and refers to *\"the Element chat app instances exposed on https://element.io (or subdomains) by Element Creations Ltd (trading as Element), and hosted instances via EMS and/or ESS.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Element** at **element.io** is **Element Creations Limited** (trading as **Element**, formerly known as New Vector Limited)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGt997RNrBfxWB3f6_EXUAbw4k2-4k52e4GWsYbTKobwtdrROiPoFHQnDLtx_SGcjPmC-6lDaqbf1lqUYtELEfoq2X9PmvyupoykA9JfC5qPq4CrwI=",
+          "title": "element.io"
+        },
+        {
+          "id": 1,
+          "text": "Limited (a company registered in England and Wales under company number 10873661... trading as Element)\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGt997RNrBfxWB3f6_EXUAbw4k2-4k52e4GWsYbTKobwtdrROiPoFHQnDLtx_SGcjPmC-6lDaqbf1lqUYtELEfoq2X9PmvyupoykA9JfC5qPq4CrwI=",
+          "title": "element.io"
+        },
+        {
+          "id": 2,
+          "text": "Limited (a company registered in England and Wales under company number 10873661... trading as Element)\"* and refers to *\"the Element chat app instances exposed on https://element.io (or subdomains) by Element Creations Ltd (trading as Element), and hosted instances via EMS and/or ESS.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTwJAfeNwrtg1yfezxio8TmFJ50pd2wGs2NzX4oV01igsRLoHXUjur26lk9hRBLtaOQKei2Lii834pv_BQCCjlcPNWmLGyec5dhE9vF_cQ0rAlMVsy",
+          "title": "element.io"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Element Creations Limited",
+        "evidence": "Passage 0 directly states that the vendor directly providing Element at element.io is Element Creations Limited (trading as Element, formerly known as New Vector Limited).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Element** at **element.io** is **Element Creations Limited** (trading as **Element**, formerly known as New Vector Limited)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGt997RNrBfxWB3f6_EXUAbw4k2-4k52e4GWsYbTKobwtdrROiPoFHQnDLtx_SGcjPmC-6lDaqbf1lqUYtELEfoq2X9PmvyupoykA9JfC5qPq4CrwI=",
+          "title": "element.io"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Element",
+    "domain": "element.io",
+    "description": "Element is a Matrix-based end-to-end encrypted messaging and collaboration platform that prioritizes user sovereignty over data. It offers both self-hosting options and services through Element Matrix Services, allowing users to maintain control of their information. Utilizing the open Matrix network, Element ensures interoperability with other messaging and collaboration tools, making it a versatile option for secure communication."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Element Creations Limited",
+  "evidence": "Passage 0 directly states that the vendor directly providing Element at element.io is Element Creations Limited (trading as Element, formerly known as New Vector Limited).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Element** at **element.io** is **Element Creations Limited** (trading as **Element**, formerly known as New Vector Limited)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGt997RNrBfxWB3f6_EXUAbw4k2-4k52e4GWsYbTKobwtdrROiPoFHQnDLtx_SGcjPmC-6lDaqbf1lqUYtELEfoq2X9PmvyupoykA9JfC5qPq4CrwI=",
+    "title": "element.io"
+  },
+  "checked_at": "2026-11-05T09:37:52.749047+00:00"
+}

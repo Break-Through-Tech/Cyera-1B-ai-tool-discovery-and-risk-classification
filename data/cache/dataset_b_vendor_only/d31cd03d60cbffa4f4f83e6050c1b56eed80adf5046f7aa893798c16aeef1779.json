@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on the official website and legal disclosures for **WordStream** at **wordstream.com**:\n\n* **Operating Company / Vendor:** **WordStream, Inc.** (operating as part of **LocaliQ** / **WordStream by LocaliQ**).\n\n### Official Provider Statement\nThe official Privacy Policy covering **wordstream.com** explicitly identifies the operating entity:\n> *\"This Privacy Policy describes how ReachLocal, Inc. d/b/a LocaliQ, ReachLocal Canada, Inc. d/b/a LocaliQ, **Wordstream, Inc.** and the LocaliQ division of USA TODAY Media Corp. ('LocaliQ', 'we','us') may collect, use, share, retain and transfer information... through the following business channels: LOCALiQ.com and **Wordstream.com** (the 'Websites').\"*\n\nAdditionally, the site's About page states:\n> *\"WordStream is now WordStream by LocaliQ, serving businesses and communities across the country as a part of the USA TODAY NETWORK.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**Operating Company / Vendor:** **WordStream, Inc.** (operating as part of **LocaliQ** / **WordStream by LocaliQ**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQICED64MX9AirdHsz4EUs2wEdp1ulctPWG5-qwnItC1z7MnRTR7TezG4AfC6INsBYbEeWGIvoMlKX9w0lYNVcZZevDD8MJe0t_6T3fsbmQmHwqrvXw3j2coDUlqat3g==",
+          "title": "wordstream.com"
+        },
+        {
+          "id": 1,
+          "text": "**Operating Company / Vendor:** **WordStream, Inc.** (operating as part of **LocaliQ** / **WordStream by LocaliQ**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0OPPqpV3pZ6n7-fkM7WGigKiF_fQ-zeEXWxzpcu4Si9tc9DGPLoXDLbiHAItbaNRm6TaqTgwCK17dTN3-I_bivbzKCnvh2_QxEuQE_IoRdBpB25O9IvJl4w==",
+          "title": "wordstream.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"This Privacy Policy describes how ReachLocal, Inc. d/b/a LocaliQ, ReachLocal Canada, Inc. d/b/a LocaliQ, **Wordstream, Inc.** and the LocaliQ division of USA TODAY Media Corp. ('LocaliQ', 'we','us') may collect, use, share, retain and transfer information... through the following business channels: LOCALiQ.com and **Wordstream.com** (the 'Websites').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQICED64MX9AirdHsz4EUs2wEdp1ulctPWG5-qwnItC1z7MnRTR7TezG4AfC6INsBYbEeWGIvoMlKX9w0lYNVcZZevDD8MJe0t_6T3fsbmQmHwqrvXw3j2coDUlqat3g==",
+          "title": "wordstream.com"
+        },
+        {
+          "id": 3,
+          "text": "*\"WordStream is now WordStream by LocaliQ, serving businesses and communities across the country as a part of the USA TODAY NETWORK.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0OPPqpV3pZ6n7-fkM7WGigKiF_fQ-zeEXWxzpcu4Si9tc9DGPLoXDLbiHAItbaNRm6TaqTgwCK17dTN3-I_bivbzKCnvh2_QxEuQE_IoRdBpB25O9IvJl4w==",
+          "title": "wordstream.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "WordStream, Inc.",
+        "evidence": "Passage 0 identifies WordStream, Inc. (operating as part of LocaliQ / WordStream by LocaliQ) as the Operating Company / Vendor for wordstream.com.",
+        "source": {
+          "id": 0,
+          "text": "**Operating Company / Vendor:** **WordStream, Inc.** (operating as part of **LocaliQ** / **WordStream by LocaliQ**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQICED64MX9AirdHsz4EUs2wEdp1ulctPWG5-qwnItC1z7MnRTR7TezG4AfC6INsBYbEeWGIvoMlKX9w0lYNVcZZevDD8MJe0t_6T3fsbmQmHwqrvXw3j2coDUlqat3g==",
+          "title": "wordstream.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "WordStream",
+    "domain": "wordstream.com",
+    "description": "WordStream Inc. is a leader in digital marketing solutions, specializing in software and services designed to enhance the performance of paid search and social media campaigns. Their flagship product, WordStream Advisor, streamlines campaign management for platforms such as Google AdWords, Bing, and Facebook, using automation to implement industry best practices. The company also offers managed PPC marketing services through a skilled team of experts. Known for its innovative approach, WordStream provides valuable resources including blogs, PPC University, and free tools like the AdWords Performance Grader, benefiting thousands of clients globally while achieving significant sales increases and cost reductions for their customers."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "WordStream, Inc.",
+  "evidence": "Passage 0 identifies WordStream, Inc. (operating as part of LocaliQ / WordStream by LocaliQ) as the Operating Company / Vendor for wordstream.com.",
+  "source": {
+    "id": 0,
+    "text": "**Operating Company / Vendor:** **WordStream, Inc.** (operating as part of **LocaliQ** / **WordStream by LocaliQ**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQICED64MX9AirdHsz4EUs2wEdp1ulctPWG5-qwnItC1z7MnRTR7TezG4AfC6INsBYbEeWGIvoMlKX9w0lYNVcZZevDD8MJe0t_6T3fsbmQmHwqrvXw3j2coDUlqat3g==",
+    "title": "wordstream.com"
+  },
+  "checked_at": "2026-11-05T08:11:30.186776+00:00"
+}

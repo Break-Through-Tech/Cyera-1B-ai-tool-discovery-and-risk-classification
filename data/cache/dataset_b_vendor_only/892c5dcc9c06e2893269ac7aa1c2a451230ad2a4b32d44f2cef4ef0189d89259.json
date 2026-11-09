@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product **Klaviyo** at **klaviyo.com** is **Klaviyo, Inc.**.\n\n### Evidence\n* **Privacy Notice** (`klaviyo.com`):\n  > \"When we use the terms “Klaviyo”, “Klaviyo Group”, “we”, “us”, or “our” in this Privacy Notice, we are referring to **Klaviyo, Inc.** and its affiliates. When we use the term “Service” or “Services,” we are referring to all of the services and product offerings that we offer as a controller, our website https://www.klaviyo.com/ or any other Klaviyo Group product or service that posts or links to this Privacy Notice.\"\n* **API Terms of Use & Partner Agreements** (`klaviyo.com`):\n  > \"Under these API Terms, “Klaviyo” means **Klaviyo, Inc.**, and we may refer to Klaviyo as “we,” “our,” or “us.”\"\n* **Modern Slavery Statement** (`klaviyo.com`):\n  > \"**Klaviyo, Inc.** is a Delaware corporation... Our SaaS platform is developed and maintained by our employees...\"",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product **Klaviyo** at **klaviyo.com** is **Klaviyo, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTVZvA8VHeNHAniYgc3FyqCvf8Rb4XRDPWYjkN_ftkwaND6s8LkXS9t583uFs1OUQUiXGaBkoPNJ1awxKYP2TqyIDZ-YsFlXZAuEitdN7qD7ip2qvC2RJCoGKGN7Dnolz9DYEU_fz4d2p9MGjgnFURMxnZrfc=",
+          "title": "klaviyo.com"
+        },
+        {
+          "id": 1,
+          "text": " “Service” or “Services,” we are referring to all of the services and product offerings that we offer as a controller, our website https://www.klaviyo.com/ or any other Klaviyo Group product or service that posts or links to this Privacy Notice.\"\n* **API Terms of Use & Part",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTVZvA8VHeNHAniYgc3FyqCvf8Rb4XRDPWYjkN_ftkwaND6s8LkXS9t583uFs1OUQUiXGaBkoPNJ1awxKYP2TqyIDZ-YsFlXZAuEitdN7qD7ip2qvC2RJCoGKGN7Dnolz9DYEU_fz4d2p9MGjgnFURMxnZrfc=",
+          "title": "klaviyo.com"
+        },
+        {
+          "id": 2,
+          "text": "viyo” means **Klaviyo, Inc.**, and we may refer to Klaviyo as “we,” “our,” or “us.”\"\n* **Modern Slavery Statement** (`klaviyo.co",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQkHHj6T8xhXEM5m7pJwQ4z-2YRetg_ejf9xC5ar_oPyWyTEY3CKyxrslhJS6W2QWYHCsmPXteC8OUIrdMOBwg3Dalpo-0DNqPhpdGdK7hXux9DVaRQZaeM8AM2Q==",
+          "title": "klaviyo.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Klaviyo, Inc.",
+        "evidence": "Passage 0 directly states that the vendor providing the software product Klaviyo at klaviyo.com is Klaviyo, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the software product **Klaviyo** at **klaviyo.com** is **Klaviyo, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTVZvA8VHeNHAniYgc3FyqCvf8Rb4XRDPWYjkN_ftkwaND6s8LkXS9t583uFs1OUQUiXGaBkoPNJ1awxKYP2TqyIDZ-YsFlXZAuEitdN7qD7ip2qvC2RJCoGKGN7Dnolz9DYEU_fz4d2p9MGjgnFURMxnZrfc=",
+          "title": "klaviyo.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Klaviyo",
+    "domain": "klaviyo.com",
+    "description": "Klaviyo is a SaaS platform that empowers businesses to manage and utilize their first-party data effectively to enhance customer relationships. With over 350 integrations, it allows users to analyze, store, and engage audiences through targeted messaging via email, SMS, and push notifications. Trusted by over 146,000 businesses including renowned brands, Klaviyo focuses on helping companies achieve measurable outcomes and drive growth."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Klaviyo, Inc.",
+  "evidence": "Passage 0 directly states that the vendor providing the software product Klaviyo at klaviyo.com is Klaviyo, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the software product **Klaviyo** at **klaviyo.com** is **Klaviyo, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTVZvA8VHeNHAniYgc3FyqCvf8Rb4XRDPWYjkN_ftkwaND6s8LkXS9t583uFs1OUQUiXGaBkoPNJ1awxKYP2TqyIDZ-YsFlXZAuEitdN7qD7ip2qvC2RJCoGKGN7Dnolz9DYEU_fz4d2p9MGjgnFURMxnZrfc=",
+    "title": "klaviyo.com"
+  },
+  "checked_at": "2026-11-05T09:49:12.077352+00:00"
+}

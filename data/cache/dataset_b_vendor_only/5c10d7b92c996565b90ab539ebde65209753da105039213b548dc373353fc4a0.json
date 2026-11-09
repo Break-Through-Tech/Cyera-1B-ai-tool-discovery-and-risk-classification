@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Telestream** at **telestream.net** is **Telestream 2 LLC**.\n\n### Supporting Evidence:\n* **Terms of Use (`telestream.net`):** \n  > *\"These Terms of Use (“Terms of Use”) create a contract between you (or, if applicable, your company or employer) (“you”) and Telestream 2 LLC and its affiliates (“Telestream” or “we”). These Terms of Use, together with any documents that these Terms of Use expressly incorporate by reference, govern your access to and use of www.telestream.net and all associated sites affiliated with www.telestream.net...\"*\n\n* **Privacy Policy (`telestream.net`):** \n  > *\"The information we collect through the Site and Services is controlled by Telestream 2 LLC, which is headquartered in the United States at 310 Providence Mine Road, Suite 100, Nevada City, California 95959, USA.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Telestream** at **telestream.net** is **Telestream 2 LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUpeWE2KU-5Yicb2X2f0MdvggizkvVH3rP7_4dzX6NNEhPX8ilRaCMbpZltzpfnAe0FzGqOs8aNWP9vhqIccyGJ8mHvFs272INHen7zl5QlhGF8dBdTcf3mjfJbdFpPcQxTvWPc7JOztE=",
+          "title": "telestream.net"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Telestream** at **telestream.net** is **Telestream 2 LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTNGOsal0KIHmsvburWbrRccR-aZGg89GKduumES0LU76Zvz6PfJwGwSs91rRdT4LVQW7LtEWAhKSoqefyKEjMWMzELuWlnURVxTgNyOnAlQhtiMBazp6A7ytQEZBnTJU8Xws=",
+          "title": "telestream.net"
+        },
+        {
+          "id": 2,
+          "text": "se, together with any documents that these Terms of Use expressly incorporate by reference, govern your access to and use of www.telestream.net and all associated sites affiliated with www.telestream.net...\"*\n\n* **Privacy Po",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUpeWE2KU-5Yicb2X2f0MdvggizkvVH3rP7_4dzX6NNEhPX8ilRaCMbpZltzpfnAe0FzGqOs8aNWP9vhqIccyGJ8mHvFs272INHen7zl5QlhGF8dBdTcf3mjfJbdFpPcQxTvWPc7JOztE=",
+          "title": "telestream.net"
+        },
+        {
+          "id": 3,
+          "text": "LLC and its affiliates (“Telestream” or “we”). These Terms of Use, together with any documents that these Terms of Use expressly incorporate by reference, govern your access to and use of www.telestream.net and all associated sites affiliated with www.telestream.ne",
+          "url": "https://www.telestream.net/company/terms-of-use.htm",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Telestream 2 LLC",
+        "evidence": "Passage 0 confirms that the vendor directly providing Telestream at telestream.net is Telestream 2 LLC.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Telestream** at **telestream.net** is **Telestream 2 LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUpeWE2KU-5Yicb2X2f0MdvggizkvVH3rP7_4dzX6NNEhPX8ilRaCMbpZltzpfnAe0FzGqOs8aNWP9vhqIccyGJ8mHvFs272INHen7zl5QlhGF8dBdTcf3mjfJbdFpPcQxTvWPc7JOztE=",
+          "title": "telestream.net"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Telestream",
+    "domain": "telestream.net",
+    "description": "Telestream is a leading innovator in the digital video industry, providing solutions for media processing, workflow orchestration, live capture, streaming, and video quality assurance. With nearly 25 years of experience, the company offers both on-premises and cloud-based solutions, enabling reliable video content delivery to various audiences. Telestream is headquartered in Nevada City, California, and Westwood, Massachusetts, and serves a wide range of video and audio applications."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Telestream 2 LLC",
+  "evidence": "Passage 0 confirms that the vendor directly providing Telestream at telestream.net is Telestream 2 LLC.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Telestream** at **telestream.net** is **Telestream 2 LLC**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUpeWE2KU-5Yicb2X2f0MdvggizkvVH3rP7_4dzX6NNEhPX8ilRaCMbpZltzpfnAe0FzGqOs8aNWP9vhqIccyGJ8mHvFs272INHen7zl5QlhGF8dBdTcf3mjfJbdFpPcQxTvWPc7JOztE=",
+    "title": "telestream.net"
+  },
+  "checked_at": "2026-11-05T08:38:47.911558+00:00"
+}

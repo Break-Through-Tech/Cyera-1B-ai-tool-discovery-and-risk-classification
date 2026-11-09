@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Komoot** at **komoot.com** is **komoot GmbH**.\n\n### Evidence\n* **Imprint & Corporate Information:** Lists the operating entity as registered at Amtsgericht Cottbus (HRB 19363 CB), with the site footer identifying the entity as `© komoot GmbH`.\n* **Privacy Policy:** Explicitly identifies the controller and responsible operating company: *\"Responsible for processing your personal data: komoot GmbH. Friedrich-Wilhelm-Boelcke-Straße 2 14473 Potsdam.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Komoot** at **komoot.com** is **komoot GmbH**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoc_0-xXm1W_4u1dBk_MbFcPYG72MIRU9ApFqmM1QF-jNaCCSxCKBdljBmSs7FhfYaB4V-MhLFAZu2u9sSAhZF90jdidet4C9z9eiZv6SXJ_fzdGZhafp1OJwRxZYKTUcH",
+          "title": "komoot.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Komoot** at **komoot.com** is **komoot GmbH**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxkA64lb7KVQGx_jT0AtV3TbXrqIDZkDG1GjKKRecNCZmvmlIH4o5iQvf4iFyxqjM779jv66hrpzkf1x0_xGDl_6mFe8iNI3E3ZEV0zgC_N80zW55i0CqX",
+          "title": "komoot.business"
+        },
+        {
+          "id": 2,
+          "text": "**Imprint & Corporate Information:** Lists the operating entity as registered at Amtsgericht Cottbus (HRB 19363 CB), with the site footer identifying the entity as `© komoot GmbH`.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEoAoi6RLSWyap5DLx_kV3IChF2S7mwmi5riXLJMokaukf60rOJzYlCJ8eYV0V-FOFf4ZA09oxyn-Ss3QC3qd5U9hO4MCWjF2V1TYpITny-Qo9XWl0=",
+          "title": "komoot.com"
+        },
+        {
+          "id": 3,
+          "text": "**Imprint & Corporate Information:** Lists the operating entity as registered at Amtsgericht Cottbus (HRB 19363 CB), with the site footer identifying the entity as `© komoot GmbH`.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoc_0-xXm1W_4u1dBk_MbFcPYG72MIRU9ApFqmM1QF-jNaCCSxCKBdljBmSs7FhfYaB4V-MhLFAZu2u9sSAhZF90jdidet4C9z9eiZv6SXJ_fzdGZhafp1OJwRxZYKTUcH",
+          "title": "komoot.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "komoot GmbH",
+        "evidence": "The vendor directly providing Komoot at komoot.com is komoot GmbH",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Komoot** at **komoot.com** is **komoot GmbH**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoc_0-xXm1W_4u1dBk_MbFcPYG72MIRU9ApFqmM1QF-jNaCCSxCKBdljBmSs7FhfYaB4V-MhLFAZu2u9sSAhZF90jdidet4C9z9eiZv6SXJ_fzdGZhafp1OJwRxZYKTUcH",
+          "title": "komoot.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Komoot",
+    "domain": "komoot.com",
+    "description": "Komoot is an innovative app designed for outdoor enthusiasts, allowing users to discover, plan, and share their adventures effortlessly. By leveraging community insights and recommendations, Komoot aims to inspire and facilitate outdoor exploration, making these experiences accessible to everyone."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "komoot GmbH",
+  "evidence": "The vendor directly providing Komoot at komoot.com is komoot GmbH",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Komoot** at **komoot.com** is **komoot GmbH**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoc_0-xXm1W_4u1dBk_MbFcPYG72MIRU9ApFqmM1QF-jNaCCSxCKBdljBmSs7FhfYaB4V-MhLFAZu2u9sSAhZF90jdidet4C9z9eiZv6SXJ_fzdGZhafp1OJwRxZYKTUcH",
+    "title": "komoot.com"
+  },
+  "checked_at": "2026-11-05T08:51:30.744814+00:00"
+}

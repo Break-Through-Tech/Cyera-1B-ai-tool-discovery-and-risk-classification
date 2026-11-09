@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **HubSpot** platform at **hubspot.com** is **HubSpot, Inc.**\n\n### Supporting Evidence\n* According to the **HubSpot Customer Terms of Service** (Jurisdiction Specific Terms), the primary operating entity is identified as follows:\n  > *\"Customer Location: North America or South America... HubSpot Contracting Entity: HubSpot, Inc., Two Canal Park, Cambridge, MA 02141, U.S.A., Attention: Legal\"*\n* Furthermore, HubSpot's Terms specify: \n  > *\"You are contracting with HubSpot, Inc. and this Agreement is governed by the laws applicable to you... or the laws of the Commonwealth of Massachusetts, U.S.A.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **HubSpot** platform at **hubspot.com** is **HubSpot, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYFQHBUWusUcESWX7YLuHmlOloQ-p8kXOOi_NagEj4I6DMtr5-MXL86FXpjqwfQdCNcNeJn84Ru8sVOxgd13IJigroyEkGQjvmzWU7YbtHvSf_LbXGyAjWD5Pkr2RZ8Jk=",
+          "title": "hubspot.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the **HubSpot** platform at **hubspot.com** is **HubSpot, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiu2qP5YgZeWraLA2Z7mbwCLi637iseqTEmxrN2ck_G2rKuOzMYs0R6E7SIgqZ3EviaXDGlJdrY7dwSOvoB7wqjRIz4n-q4m-fw-6-Yp_aa0bxA6fYf5vJqNeXdQ==",
+          "title": "hubspot.com"
+        },
+        {
+          "id": 2,
+          "text": "HubSpot Contracting Entity: HubSpot, Inc., Two Canal Park, Cambridge, MA 02141, U.S.A., Attention: Legal\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYFQHBUWusUcESWX7YLuHmlOloQ-p8kXOOi_NagEj4I6DMtr5-MXL86FXpjqwfQdCNcNeJn84Ru8sVOxgd13IJigroyEkGQjvmzWU7YbtHvSf_LbXGyAjWD5Pkr2RZ8Jk=",
+          "title": "hubspot.com"
+        },
+        {
+          "id": 3,
+          "text": "*\"You are contracting with HubSpot, Inc. and this Agreement is governed by the laws applicable to you... or the laws of the Commonwealth of Massachusetts, U.S.A.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEi1eOn4A6HK585_danRJkBsTK1X-tO2ocpjCiG76HbkqG2bAaFZqheCRSQ7gQZBsXYbco4Uj8yp0X5WpLiUKYk5dHmmpxFF7Dc7Qc3k-uJG4UeM-kQqvPUEQCZqEnLsDz84OawPaA=",
+          "title": "hubspot.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "HubSpot, Inc.",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing the HubSpot platform at hubspot.com is HubSpot, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the **HubSpot** platform at **hubspot.com** is **HubSpot, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYFQHBUWusUcESWX7YLuHmlOloQ-p8kXOOi_NagEj4I6DMtr5-MXL86FXpjqwfQdCNcNeJn84Ru8sVOxgd13IJigroyEkGQjvmzWU7YbtHvSf_LbXGyAjWD5Pkr2RZ8Jk=",
+          "title": "hubspot.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "HubSpot",
+    "domain": "hubspot.com",
+    "description": "HubSpot is a comprehensive customer relationship management (CRM) platform based in Massachusetts, offering a wide range of tools for marketing, sales, and customer service. The platform is designed to help businesses automate marketing processes, manage customer interactions, and streamline meeting scheduling, improving overall efficiency and engagement."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "HubSpot, Inc.",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing the HubSpot platform at hubspot.com is HubSpot, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the **HubSpot** platform at **hubspot.com** is **HubSpot, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYFQHBUWusUcESWX7YLuHmlOloQ-p8kXOOi_NagEj4I6DMtr5-MXL86FXpjqwfQdCNcNeJn84Ru8sVOxgd13IJigroyEkGQjvmzWU7YbtHvSf_LbXGyAjWD5Pkr2RZ8Jk=",
+    "title": "hubspot.com"
+  },
+  "checked_at": "2026-11-05T09:20:05.059958+00:00"
+}

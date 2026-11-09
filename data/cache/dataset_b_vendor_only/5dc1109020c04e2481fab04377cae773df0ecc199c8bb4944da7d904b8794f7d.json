@@ -1,0 +1,43 @@
+{
+  "attempts": [
+    {
+      "answer": "The operating company and vendor directly providing **iLovePDF** at **ilovepdf.com** is **ILOVEPDF, S.L.**\n\n### Provider Statement\nAccording to the official **Terms and Conditions** of iLovePDF (`ilovepdf.com/help/terms`):\n> *\"OUR DATA. **ILOVEPDF, S.L.**, a Spanish company with registered address in Barcelona (Spain), C/ Sabino de Arana, number 60, premise 2, post code 08028, registered in the Mercantile Registry of Barcelona, volume 45735, sheet 156, page 497300, registration 1, and NIF (tax identification number) B-66921552 (hereinafter, “ILOVEPDF” or “we”)... authorizes, in accordance with these Terms and Conditions of Use, the use of the services provided through the software or computer programs – Software as a service (SaaS) – owned by ILOVEPDF that you contract...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The operating company and vendor directly providing **iLovePDF** at **ilovepdf.com** is **ILOVEPDF, S.L.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8Kg918eZLMujLymD6xQ9OFSOwHPzx4ZapHloojwP5zZf9PgfmBg1UjKhJD2QVHqsmwzmL1mpdk-nh0rIKqTZ2LAXtf2hTXa8_wkcEijWb2P0V7fbi7gLsqA==",
+          "title": "ilovepdf.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "ILOVEPDF, S.L.",
+        "evidence": "Passage 0 directly states that the operating company and vendor providing iLovePDF at ilovepdf.com is ILOVEPDF, S.L.",
+        "source": {
+          "id": 0,
+          "text": "The operating company and vendor directly providing **iLovePDF** at **ilovepdf.com** is **ILOVEPDF, S.L.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8Kg918eZLMujLymD6xQ9OFSOwHPzx4ZapHloojwP5zZf9PgfmBg1UjKhJD2QVHqsmwzmL1mpdk-nh0rIKqTZ2LAXtf2hTXa8_wkcEijWb2P0V7fbi7gLsqA==",
+          "title": "ilovepdf.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "iLovePDF",
+    "domain": "ilovepdf.com",
+    "description": "iLovePDF is an online platform dedicated to simplifying PDF management. Established in February 2010, it offers a suite of tools that allow users to merge, split, compress, convert, and modify PDF files effectively. With a focus on user experience, iLovePDF caters to both casual users and professionals seeking efficient solutions for their PDF-related tasks. The platform continually updates its features to meet user needs, ensuring that managing PDFs is quick and easy. It is accessible worldwide, providing services that save users time and enhance productivity."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "ILOVEPDF, S.L.",
+  "evidence": "Passage 0 directly states that the operating company and vendor providing iLovePDF at ilovepdf.com is ILOVEPDF, S.L.",
+  "source": {
+    "id": 0,
+    "text": "The operating company and vendor directly providing **iLovePDF** at **ilovepdf.com** is **ILOVEPDF, S.L.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8Kg918eZLMujLymD6xQ9OFSOwHPzx4ZapHloojwP5zZf9PgfmBg1UjKhJD2QVHqsmwzmL1mpdk-nh0rIKqTZ2LAXtf2hTXa8_wkcEijWb2P0V7fbi7gLsqA==",
+    "title": "ilovepdf.com"
+  },
+  "checked_at": "2026-11-05T09:28:35.875979+00:00"
+}

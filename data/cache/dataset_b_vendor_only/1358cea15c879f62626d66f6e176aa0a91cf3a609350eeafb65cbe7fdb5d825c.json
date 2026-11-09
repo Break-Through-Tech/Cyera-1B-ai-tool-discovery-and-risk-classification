@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product at **clientreports.ai** is **M&A Deal Platform Ltd**.\n\n### Evidence\nAccording to the provider's official Privacy and Data Protection Policy governing the product websites:\n> *\"Welcome to M&A Deal Platform Ltd's Privacy and Data Protection Policy (“Privacy Policy”). At M&A Deal Platform Ltd (“we”, “us”, or “our”) we are committed to protecting and respecting your privacy... This privacy policy applies to our primary website, madealplatform.com and product websites: clientreports.ai, valuation.expert, madeal.app and corporatefinance.app. Who is Your Data Controller. M&A Deal Platform Ltd is your Data Controller and responsible for your Personal Data.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product at **clientreports.ai** is **M&A Deal Platform Ltd**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8rKCVO_q2vwoXaqBsXeKPQl9Ze5QnPQSKwcJHXbebmFOu1OGLfqTvQcQxSpu6Cmx27VQ3Gmj7u-O-q9W81G2nRd_qrn385ttcXlRmHK9Npd1mruMmGrQ2YNqEMtf5Mw==",
+          "title": "madealplatform.com"
+        },
+        {
+          "id": 1,
+          "text": "According to the provider's official Privacy and Data Protection Policy governing the product websites",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8rKCVO_q2vwoXaqBsXeKPQl9Ze5QnPQSKwcJHXbebmFOu1OGLfqTvQcQxSpu6Cmx27VQ3Gmj7u-O-q9W81G2nRd_qrn385ttcXlRmHK9Npd1mruMmGrQ2YNqEMtf5Mw==",
+          "title": "madealplatform.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "M&A Deal Platform Ltd",
+        "evidence": "Passage 0 states that the vendor directly providing the software product at clientreports.ai is M&A Deal Platform Ltd.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the software product at **clientreports.ai** is **M&A Deal Platform Ltd**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8rKCVO_q2vwoXaqBsXeKPQl9Ze5QnPQSKwcJHXbebmFOu1OGLfqTvQcQxSpu6Cmx27VQ3Gmj7u-O-q9W81G2nRd_qrn385ttcXlRmHK9Npd1mruMmGrQ2YNqEMtf5Mw==",
+          "title": "madealplatform.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Client Reports",
+    "domain": "clientreports.ai",
+    "description": "ClientReports.ai automates the creation of professional business reports from various data sources, saving time and improving client communication."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "M&A Deal Platform Ltd",
+  "evidence": "Passage 0 states that the vendor directly providing the software product at clientreports.ai is M&A Deal Platform Ltd.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the software product at **clientreports.ai** is **M&A Deal Platform Ltd**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8rKCVO_q2vwoXaqBsXeKPQl9Ze5QnPQSKwcJHXbebmFOu1OGLfqTvQcQxSpu6Cmx27VQ3Gmj7u-O-q9W81G2nRd_qrn385ttcXlRmHK9Npd1mruMmGrQ2YNqEMtf5Mw==",
+    "title": "madealplatform.com"
+  },
+  "checked_at": "2026-11-05T05:40:50.371474+00:00"
+}

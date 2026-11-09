@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Webex** at **webex.com** is **Cisco Systems, Inc.**\n\n### Evidence & Citations\n* **Terms of Service & Governing Entity:** Official agreements and sign-up pages for Webex services specify Cisco as the contracting entity: *\"By accessing and using Site and Perks, you agree to be bound by the Terms of Service with Cisco Systems, Inc. ('Cisco')... to provide customers of Cisco Webex (available at www.webex.com)\"* and *\"By signing up you understand and agree to the Cisco's Terms of Use... © Cisco and/or its affiliates. All rights reserved.\"*\n* **General Terms & Privacy:** Use of Webex cloud collaboration services is licensed and operated directly under the Cisco General Terms and the Cisco Online Privacy Statement.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Webex** at **webex.com** is **Cisco Systems, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOOrn_1Jtn3sGn3-0B5xFJaJ60YS1n_wLVFBDI0FPos5jK-gknfFB-x_Bd9ZqPHnyx_XcBzwtJhB42iLdejv1LVSr6P5EVS_hU1Bw2-2GWLv1yPDNn7fQdXvsKrI_-0fGFl5Bx4mg=",
+          "title": "webex.com"
+        },
+        {
+          "id": 1,
+          "text": "**Terms of Service & Governing Entity:** Official agreements and sign-up pages for Webex services specify Cisco as the contracting entity: *\"By accessing and using Site and Perks, you agree to be bound by the Terms of Service with Cisco Systems, Inc. ('Cisco')... to provide customers of Cisco Webex (available at www.webex.com)\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOOrn_1Jtn3sGn3-0B5xFJaJ60YS1n_wLVFBDI0FPos5jK-gknfFB-x_Bd9ZqPHnyx_XcBzwtJhB42iLdejv1LVSr6P5EVS_hU1Bw2-2GWLv1yPDNn7fQdXvsKrI_-0fGFl5Bx4mg=",
+          "title": "webex.com"
+        },
+        {
+          "id": 2,
+          "text": "ll rights reserved.\"*\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkht-2J2o-K-4fTrX9XhoGX2lznsLISpxJ18mpWBFtUg3a3BUGtzVR7KxmFQIGw8fPBN4DSUWwdU5DE89DQsr6Xzo7TQyPFu1gj6KamOjj",
+          "title": "webex.com"
+        },
+        {
+          "id": 3,
+          "text": "*General Terms & Privacy:** Use of Webex cloud collaboration services is licensed and operated directly under the Cisco General Terms and the Cisco Online Privacy Statement.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoa7MBY7J9en_vnz39DiTUTSh7tywlmDnaloSv9gksYUCYJCsCK38WNHnP-CrXXvISojUs0JYCTRjSIWnSyH-yaO7TrXjC-4K4KCJkku2BRZB44gvwnzfC8i3EePpgPJwk5Q==",
+          "title": "webexinteract.com"
+        },
+        {
+          "id": 4,
+          "text": "*General Terms & Privacy:** Use of Webex cloud collaboration services is licensed and operated directly under the Cisco General Terms and the Cisco Online Privacy Statement.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_euMSWweXRgZzTACgEUrBS1AlYJP7hWC_QdwziXkd20X4zdSz0ktswHcj8qqi0-VoXCJW62qsh3bJk2BQes6vv1sxyuiHtBcAG4_iOWVPrpR_24-lywN7SFElhvmOo-r8VMgRANRUkMt8JJQP3UZG",
+          "title": "webex.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Cisco Systems, Inc.",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing Webex at webex.com is Cisco Systems, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Webex** at **webex.com** is **Cisco Systems, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOOrn_1Jtn3sGn3-0B5xFJaJ60YS1n_wLVFBDI0FPos5jK-gknfFB-x_Bd9ZqPHnyx_XcBzwtJhB42iLdejv1LVSr6P5EVS_hU1Bw2-2GWLv1yPDNn7fQdXvsKrI_-0fGFl5Bx4mg=",
+          "title": "webex.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Webex",
+    "domain": "webex.com",
+    "description": "Webex is a prominent provider of cloud-based collaboration solutions, offering services such as video conferencing, voice calls, messaging, and specialized event hosting. Their products enhance customer experience through integrated contact center solutions and purpose-built collaboration devices. Focused on people-first experiences, Webex employs AI and machine learning to surpass challenges of geography and communication, all while ensuring high security and privacy. They integrate seamlessly with various leading business applications, promoting efficient collaboration across organizations."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Cisco Systems, Inc.",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing Webex at webex.com is Cisco Systems, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Webex** at **webex.com** is **Cisco Systems, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOOrn_1Jtn3sGn3-0B5xFJaJ60YS1n_wLVFBDI0FPos5jK-gknfFB-x_Bd9ZqPHnyx_XcBzwtJhB42iLdejv1LVSr6P5EVS_hU1Bw2-2GWLv1yPDNn7fQdXvsKrI_-0fGFl5Bx4mg=",
+    "title": "webex.com"
+  },
+  "checked_at": "2026-11-05T08:04:08.539385+00:00"
+}

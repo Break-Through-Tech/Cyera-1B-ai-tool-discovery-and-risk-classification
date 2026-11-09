@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Craveo** (specifically the Remy AI food ordering agent at **remy.craveo.in** / **craveo.in**) is **Craveo Labs Private Limited** (operating and published also as **Craveo Labs**).\n\n### Supporting Evidence\n* **Official Terms & Privacy Policy (`craveo.in`):** The legal documentation specifies that the website and services at `craveo.in` are operated by **Craveo Labs Private Limited** (*\"Company Name: Craveo Labs Private Limited Product Name: LLMLab... Address: 2nd & 3rd Floor, 235, 13th Cross Rd, Indira Nagar II Stage, Hoysala Nagar, Indiranagar, Bengaluru, Karnataka 560038, India Contact Email: hello@craveo.in\"* and *“© Craveo Labs Pvt Ltd”*).\n* **Product & Domain Link:** Craveo's application updates for Remy AI direct early-access users directly to `https://remy.craveo.in/request_access`.\n* **Application Listings:** Store and APK distribution listings for *Craveo* and *Craveo: Remy AI Food Delivery* list the developer/publisher directly as **Craveo Labs**.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Craveo** (specifically the Remy AI food ordering agent at **remy.craveo.in** / **craveo.in**) is **Craveo Labs Private Limited** (operating and published also as **Craveo Labs**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHaHb3Cc7hwZOS7HlWeGpFN150rIm1ouB1nTKPYGnPZm0kZCdRUMSQZrV5NNmwaV-emaC0Ye7upj0JY5m_wsPqcpTJPWgq0jg4sA4nwN5kkMbJBbdSYh8CXcA==",
+          "title": "tryllmlab.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Craveo** (specifically the Remy AI food ordering agent at **remy.craveo.in** / **craveo.in**) is **Craveo Labs Private Limited** (operating and published also as **Craveo Labs**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-TLh6-CR8K0-VFDcaQml9MOXsXjyYdeHk_AIb2sl3gCewPbfdyV3gXiICJCPhNh8xaqUYx1KjlJLUy4BgF5GDqQQekrEseOwxy077zSZmyeXIx0guBN4DWn-hJN0auSp8J1D5",
+          "title": "apk.gold"
+        },
+        {
+          "id": 2,
+          "text": "Address: 2nd & 3rd Floor, 235, 13th Cross Rd, Indira Nagar II Stage, Hoysala Nagar, Indiranagar, Bengaluru, Karnataka 560038, India Contact Email: hello@craveo.in\"* and *“© Craveo Labs Pvt Ltd”*).\n* *",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHaHb3Cc7hwZOS7HlWeGpFN150rIm1ouB1nTKPYGnPZm0kZCdRUMSQZrV5NNmwaV-emaC0Ye7upj0JY5m_wsPqcpTJPWgq0jg4sA4nwN5kkMbJBbdSYh8CXcA==",
+          "title": "tryllmlab.com"
+        },
+        {
+          "id": 3,
+          "text": "Address: 2nd & 3rd Floor, 235, 13th Cross Rd, Indira Nagar II Stage, Hoysala Nagar, Indiranagar, Bengaluru, Karnataka 560038, India Contact Email: hello@craveo.in\"* and *“© Craveo Labs Pvt Ltd”*).\n* *",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHc6znQwuwRyL6IdPgTS_6CEyIhiXWrxgoH-bjqH1jZ23phFaUBLKINamVbisWNvTNp58j6w-DYKDM0oglO9_yfxKFpXtjmuKAHilKu",
+          "title": "tryllmlab.com"
+        },
+        {
+          "id": 4,
+          "text": "duct & Domain Link:** Craveo's application updates for Remy AI direct early-access users directly to `https://remy.craveo.in/request_access`.\n* *",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-TLh6-CR8K0-VFDcaQml9MOXsXjyYdeHk_AIb2sl3gCewPbfdyV3gXiICJCPhNh8xaqUYx1KjlJLUy4BgF5GDqQQekrEseOwxy077zSZmyeXIx0guBN4DWn-hJN0auSp8J1D5",
+          "title": "apk.gold"
+        },
+        {
+          "id": 5,
+          "text": "duct & Domain Link:** Craveo's application updates for Remy AI direct early-access users directly to `https://remy.craveo.in/request_access`.\n* *",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLCVcSIke0V93_JA13KUfWhwBwLwhgxc7Lkn-uXPI8RkOK_BZenGt0JVXgUHqf-zwMBnKmru7E0BNPocolBfWOu_DnfgGgm1-cAN5UK_tRE8yHPlxYNnzuspRIzc3WR8ZXu3HykEIa_Zk2JS7AkPKvV0EUwZF0fFRPyirtzCTEsWDWk-0u2g==",
+          "title": "apkpure.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Craveo Labs Private Limited",
+        "evidence": "Passage 0 states that the vendor directly providing Craveo (specifically the Remy AI food ordering agent at remy.craveo.in / craveo.in) is Craveo Labs Private Limited (also operating and published as Craveo Labs).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Craveo** (specifically the Remy AI food ordering agent at **remy.craveo.in** / **craveo.in**) is **Craveo Labs Private Limited** (operating and published also as **Craveo Labs**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHaHb3Cc7hwZOS7HlWeGpFN150rIm1ouB1nTKPYGnPZm0kZCdRUMSQZrV5NNmwaV-emaC0Ye7upj0JY5m_wsPqcpTJPWgq0jg4sA4nwN5kkMbJBbdSYh8CXcA==",
+          "title": "tryllmlab.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Craveo",
+    "domain": "remy.craveo.in",
+    "description": "Craveo is an AI-powered food ordering agent called Remy that provides hands-free meal discovery and ordering through natural language, voice, or image interactions."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Craveo Labs Private Limited",
+  "evidence": "Passage 0 states that the vendor directly providing Craveo (specifically the Remy AI food ordering agent at remy.craveo.in / craveo.in) is Craveo Labs Private Limited (also operating and published as Craveo Labs).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Craveo** (specifically the Remy AI food ordering agent at **remy.craveo.in** / **craveo.in**) is **Craveo Labs Private Limited** (operating and published also as **Craveo Labs**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHaHb3Cc7hwZOS7HlWeGpFN150rIm1ouB1nTKPYGnPZm0kZCdRUMSQZrV5NNmwaV-emaC0Ye7upj0JY5m_wsPqcpTJPWgq0jg4sA4nwN5kkMbJBbdSYh8CXcA==",
+    "title": "tryllmlab.com"
+  },
+  "checked_at": "2026-11-05T07:44:13.511614+00:00"
+}

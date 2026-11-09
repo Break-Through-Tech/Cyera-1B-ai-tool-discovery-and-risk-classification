@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on the official website and legal documentation for **Traderstats** (**traderstats.app**):\n\n* **Vendor / Provider:** **Alex Porter** (operating directly under the brand/entity **Traderstats** / **Traderstats.app**).\n* **Evidence and Provider Statements:**\n  * The official **Terms and Conditions** on `traderstats.app` state: *\"Traderstats.app (“we,” “us,” “our”) provides the Traderstats site and related services (“Site”) to you, subject to your compliance with these Terms of Service (“Terms”)\"*.\n  * The software is developed and run by founder/developer **Alex Porter**, as publicly identified on the domain's tools and apps (*\"App by Alex Porter\"*) and in related official project publications. No separate corporate registration is designated.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**Vendor / Provider:** **Alex Porter** (operating directly under the brand/entity **Traderstats** / **Traderstats.app**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2B0k7AybvPH-8YPu0QFEq3Fy1lwrHvBc0CB32-OkahdUtpxrw-ngxxzqDsHNptL0GPLJWhixobXQ68eu0Sezxr0u82P49LGzfSp63JvHAVepdjf-luoXv6UHJhYtgpaWETfLjhr72ltHx-I5DUSKHvrjBtul3bC32UP-wdKE=",
+          "title": "beehiiv.com"
+        },
+        {
+          "id": 1,
+          "text": "**Vendor / Provider:** **Alex Porter** (operating directly under the brand/entity **Traderstats** / **Traderstats.app**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELrLMhD1abh9A2vCFTE1xWArc9wwuJyBFK4p0mFhYu79SXidnDFVqIAJpBDcXx_4LiNI87pco-jXALjahkTuil7cbRoz5Ou6eTS03gHuhKicy3lAF2jGqr8iA7BcHq866D3MKEZQ==",
+          "title": "traderstats.app"
+        },
+        {
+          "id": 2,
+          "text": "**Vendor / Provider:** **Alex Porter** (operating directly under the brand/entity **Traderstats** / **Traderstats.app**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG-AGM_uDE9ypVucXxMneawssJVyLqzl-RKvrWLN4_MQoivul2mz2zk3bYGEAwPfY1bgVtBluN13XD5upyqCJLW73ALs9wlNM8bCAhGPxLPIbR7AFhY5GoSq9p-BGs10j1WQ==",
+          "title": "traderstats.app"
+        },
+        {
+          "id": 3,
+          "text": "The official **Terms and Conditions** on `traderstats.app` state: *\"Traderstats.app (“we,” “us,” “our”) provides the Traderstats site and related services (“Site”) to you, subject to your compliance with these Terms of Service (“Terms”)\"*.\n  * The software i",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG-AGM_uDE9ypVucXxMneawssJVyLqzl-RKvrWLN4_MQoivul2mz2zk3bYGEAwPfY1bgVtBluN13XD5upyqCJLW73ALs9wlNM8bCAhGPxLPIbR7AFhY5GoSq9p-BGs10j1WQ==",
+          "title": "traderstats.app"
+        },
+        {
+          "id": 4,
+          "text": "loped and run by founder/developer **Alex Porter**, as publicly identified on the domain's tools and apps (*\"App by Alex Porter\"*) and in related offi",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELrLMhD1abh9A2vCFTE1xWArc9wwuJyBFK4p0mFhYu79SXidnDFVqIAJpBDcXx_4LiNI87pco-jXALjahkTuil7cbRoz5Ou6eTS03gHuhKicy3lAF2jGqr8iA7BcHq866D3MKEZQ==",
+          "title": "traderstats.app"
+        },
+        {
+          "id": 5,
+          "text": "loped and run by founder/developer **Alex Porter**, as publicly identified on the domain's tools and apps (*\"App by Alex Porter\"*) and in related official project publications. No separate corpor",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2B0k7AybvPH-8YPu0QFEq3Fy1lwrHvBc0CB32-OkahdUtpxrw-ngxxzqDsHNptL0GPLJWhixobXQ68eu0Sezxr0u82P49LGzfSp63JvHAVepdjf-luoXv6UHJhYtgpaWETfLjhr72ltHx-I5DUSKHvrjBtul3bC32UP-wdKE=",
+          "title": "beehiiv.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Alex Porter",
+        "evidence": "Passage 1 identifies Alex Porter as the vendor/provider operating directly under the brand/entity Traderstats / Traderstats.app.",
+        "source": {
+          "id": 1,
+          "text": "**Vendor / Provider:** **Alex Porter** (operating directly under the brand/entity **Traderstats** / **Traderstats.app**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELrLMhD1abh9A2vCFTE1xWArc9wwuJyBFK4p0mFhYu79SXidnDFVqIAJpBDcXx_4LiNI87pco-jXALjahkTuil7cbRoz5Ou6eTS03gHuhKicy3lAF2jGqr8iA7BcHq866D3MKEZQ==",
+          "title": "traderstats.app"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Traderstats",
+    "domain": "traderstats.app",
+    "description": "AI trading tool with all you need to track, review, and improve your trading."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Alex Porter",
+  "evidence": "Passage 1 identifies Alex Porter as the vendor/provider operating directly under the brand/entity Traderstats / Traderstats.app.",
+  "source": {
+    "id": 1,
+    "text": "**Vendor / Provider:** **Alex Porter** (operating directly under the brand/entity **Traderstats** / **Traderstats.app**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELrLMhD1abh9A2vCFTE1xWArc9wwuJyBFK4p0mFhYu79SXidnDFVqIAJpBDcXx_4LiNI87pco-jXALjahkTuil7cbRoz5Ou6eTS03gHuhKicy3lAF2jGqr8iA7BcHq866D3MKEZQ==",
+    "title": "traderstats.app"
+  },
+  "checked_at": "2026-11-05T05:45:33.666071+00:00"
+}

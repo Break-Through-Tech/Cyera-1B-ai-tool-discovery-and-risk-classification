@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software products and services at **balsamiq.com** is **Balsamiq Studios, LLC** (collaborating with its research and software development affiliate, **Balsamiq S.r.l.**).\n\n### Evidence & Provider Statements\n* **Domain & Product:** `balsamiq.com` (Balsamiq / Balsamiq Wireframes products, plugins, and websites).\n* **Terms of Service:**\n  > *\"These Terms of Service (“Terms”) are a legal agreement between you — either as an individual or on behalf of the organization you represent (“you”) — and Balsamiq Studios, LLC (“Balsamiq,” “we,” “us,” or “our”). ... The Terms govern your access to and use of Balsamiq products, plugins, and websites\"*.\n* **Privacy Policy (\"Who we are\"):**\n  > *\"Our corporate group consists of: GJMG Holdings S.r.l. (Italy) — our parent holding company... Balsamiq S.r.l. (Italy) — our research and software development entity, based in Bologna, Italy. Balsamiq Studios, LLC (USA) — our sales, marketing, and distribution entity, based in Sacramento, California.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software products and services at **balsamiq.com** is **Balsamiq Studios, LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFysMAidsn8NzxPZies3J8sBLcBOriHYznv3iRD7gqNSxUjKWBT5FuxpqQx2bm49hlyhZ3SI0ytHVIED2HoFIwrbJTYqHOGZYQES8fvsHaZmsKGxCx5sBnLog==",
+          "title": "balsamiq.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the software products and services at **balsamiq.com** is **Balsamiq Studios, LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2G7hLmYzGr2QONBi3GPKOMN6SN7tTUZoVyF4op7dNjPGZFYyO-LHsHWRQV99wNWkBAIc4_T8S1n89EaWVW6zpbcF7KeI_qysPVAFYblSKTXc548il",
+          "title": "balsamiq.com"
+        },
+        {
+          "id": 2,
+          "text": "**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFysMAidsn8NzxPZies3J8sBLcBOriHYznv3iRD7gqNSxUjKWBT5FuxpqQx2bm49hlyhZ3SI0ytHVIED2HoFIwrbJTYqHOGZYQES8fvsHaZmsKGxCx5sBnLog==",
+          "title": "balsamiq.com"
+        },
+        {
+          "id": 3,
+          "text": "**Domain & Product:** `balsamiq.com` (Balsamiq / Balsamiq Wireframes products, plugins, and websites)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2G7hLmYzGr2QONBi3GPKOMN6SN7tTUZoVyF4op7dNjPGZFYyO-LHsHWRQV99wNWkBAIc4_T8S1n89EaWVW6zpbcF7KeI_qysPVAFYblSKTXc548il",
+          "title": "balsamiq.com"
+        },
+        {
+          "id": 4,
+          "text": " to and use of Balsamiq products, plugins, and websites\"*.\n* **Privacy Policy (\"Who w",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2G7hLmYzGr2QONBi3GPKOMN6SN7tTUZoVyF4op7dNjPGZFYyO-LHsHWRQV99wNWkBAIc4_T8S1n89EaWVW6zpbcF7KeI_qysPVAFYblSKTXc548il",
+          "title": "balsamiq.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Balsamiq Studios, LLC",
+        "evidence": "The vendor directly providing the software products and services at **balsamiq.com** is **Balsamiq Studios, LLC**",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the software products and services at **balsamiq.com** is **Balsamiq Studios, LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFysMAidsn8NzxPZies3J8sBLcBOriHYznv3iRD7gqNSxUjKWBT5FuxpqQx2bm49hlyhZ3SI0ytHVIED2HoFIwrbJTYqHOGZYQES8fvsHaZmsKGxCx5sBnLog==",
+          "title": "balsamiq.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Balsamiq",
+    "domain": "balsamiq.com",
+    "description": "Balsamiq is a software company founded in 2008, specializing in user interface design tools. Their main product, Balsamiq Wireframes, allows users to quickly sketch out interfaces for websites, desktop, and mobile applications. The software focuses on the ideation phase, helping teams to stay organized and prioritize structure over visual details. Balsamiq Wireframes facilitates collaboration and feedback, enabling a more interactive prototyping experience."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Balsamiq Studios, LLC",
+  "evidence": "The vendor directly providing the software products and services at **balsamiq.com** is **Balsamiq Studios, LLC**",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the software products and services at **balsamiq.com** is **Balsamiq Studios, LLC**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFysMAidsn8NzxPZies3J8sBLcBOriHYznv3iRD7gqNSxUjKWBT5FuxpqQx2bm49hlyhZ3SI0ytHVIED2HoFIwrbJTYqHOGZYQES8fvsHaZmsKGxCx5sBnLog==",
+    "title": "balsamiq.com"
+  },
+  "checked_at": "2026-11-05T09:41:26.864740+00:00"
+}

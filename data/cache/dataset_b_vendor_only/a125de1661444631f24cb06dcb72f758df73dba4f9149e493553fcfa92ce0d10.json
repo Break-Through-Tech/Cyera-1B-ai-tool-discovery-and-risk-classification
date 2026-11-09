@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product at **overlap.ai** is **Vastly, Inc.**.\n\n### Supporting Evidence\nOn the official **overlap.ai** website (including its Contact page and website-wide footers), the provider states:\n> *\"Mailing address. Vastly, Inc. 651 North Broad Street Suite 201 Middletown, DE 19709 United States. These are the addresses published in our Terms of Service and Privacy Policy. The Terms also give a postal contact for questions about them: Overlap (Vastly, Inc.), 78 S Park, San Francisco, CA.\"*\n\nThe site pages and legal notices are copyrighted under **© Vastly, Inc.**.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product at **overlap.ai** is **Vastly, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2BGVsik7jGjfl-bwvKo8c9PO-dmvHEqsHa6Oi_EKP2gqJ3cDps0r78lZ6gSO8IL4El5KBYeNqQWWuRyLZnBd6vdXvnW8N9K0Tyd-U6YvRRg==",
+          "title": "overlap.ai"
+        },
+        {
+          "id": 1,
+          "text": "The Terms also give a postal contact for questions about them: Overlap (Vastly, Inc.), 78 S Park, San Francisco, CA.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2BGVsik7jGjfl-bwvKo8c9PO-dmvHEqsHa6Oi_EKP2gqJ3cDps0r78lZ6gSO8IL4El5KBYeNqQWWuRyLZnBd6vdXvnW8N9K0Tyd-U6YvRRg==",
+          "title": "overlap.ai"
+        },
+        {
+          "id": 2,
+          "text": "The site pages and legal notices are copyrighted under **© Vastly, Inc.**.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2BGVsik7jGjfl-bwvKo8c9PO-dmvHEqsHa6Oi_EKP2gqJ3cDps0r78lZ6gSO8IL4El5KBYeNqQWWuRyLZnBd6vdXvnW8N9K0Tyd-U6YvRRg==",
+          "title": "overlap.ai"
+        },
+        {
+          "id": 3,
+          "text": "The site pages and legal notices are copyrighted under **© Vastly, Inc.**.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEi5XLVXL7Ts6hDEUnZegig-dFKbVzL-Qsbt6q_X5pBrAh1_YvUWbeTn4zbvh6R6i2_FDsNbOJ_USweN17S_5SU7g7ymNwdPS9k",
+          "title": "overlap.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Vastly, Inc.",
+        "evidence": "Passage 0 directly states that the vendor providing the software product at overlap.ai is Vastly, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the software product at **overlap.ai** is **Vastly, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2BGVsik7jGjfl-bwvKo8c9PO-dmvHEqsHa6Oi_EKP2gqJ3cDps0r78lZ6gSO8IL4El5KBYeNqQWWuRyLZnBd6vdXvnW8N9K0Tyd-U6YvRRg==",
+          "title": "overlap.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Overlap - AI that clips, edits, and posts",
+    "domain": "overlap.ai",
+    "description": "Overlap.ai is an AI-powered video editing tool that simplifies the process of clipping, editing, and posting videos across various platforms. It automates tedious tasks, allowing users to quickly create and share engaging video content."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Vastly, Inc.",
+  "evidence": "Passage 0 directly states that the vendor providing the software product at overlap.ai is Vastly, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the software product at **overlap.ai** is **Vastly, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2BGVsik7jGjfl-bwvKo8c9PO-dmvHEqsHa6Oi_EKP2gqJ3cDps0r78lZ6gSO8IL4El5KBYeNqQWWuRyLZnBd6vdXvnW8N9K0Tyd-U6YvRRg==",
+    "title": "overlap.ai"
+  },
+  "checked_at": "2026-11-05T07:06:55.044508+00:00"
+}

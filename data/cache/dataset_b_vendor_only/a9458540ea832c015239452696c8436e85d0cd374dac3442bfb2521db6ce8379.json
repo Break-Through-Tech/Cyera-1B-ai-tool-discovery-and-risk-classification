@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product **Monday** (the work management platform and related services) at **monday.com** is **monday.com Ltd.**\n\n### Supporting Evidence:\n* **monday.com Terms of Service:**  \n  > *\"These Terms are between monday.com Ltd. (6 Yitzhak Sadeh St., Tel-Aviv 6777506, Israel) (“monday.com”, “us”, “we” or “our”) and you, either individually, or on behalf of your employer or any other entity which you represent... governing your access, use, registration and receipt of: (i) www.monday.com and any related website owned or operated by monday.com (“Sites”); (ii) monday.com Services...\"*\n* **monday.com Privacy Policy:**  \n  > *\"This Privacy Policy describes how we - monday.com Ltd. (together with its affiliates companies - 'monday.com', 'we', 'our' or 'us') collect, store, use and disclose personal data regarding individuals... who: (i) visit or otherwise interact with our websites ('Visitors'), available at www.monday.com... (ii) use our cloud-based visual work management platform, via the Sites, or the monday.com desktop or mobile applications...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product **Monday** (the work management platform and related services) at **monday.com** is **monday.com Ltd.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_fKgV1fhSkxDrlOO3I8cL3t8ILUwA9w-VxkEXzCphY3iZgPGjsYvd8KdO0gDwmqFyG4gDutodsa4kZmHU-7hJ7rdygbEra-JWuORIvkGef0b03gbILNbzJWAS1c7cuPlCWCwOK12sCRXHScSnL57ZvfN9rBueryX3jH4Fa14DsVPk0zDEh-YeYTS2kgkIKbP9",
+          "title": "monday.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the software product **Monday** (the work management platform and related services) at **monday.com** is **monday.com Ltd.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgV04o6ETfQTIkQZrjC-9C8uaEeBBOBqd7_1Hvw4qW_oFHciQwSX_YiIvUW08YvUbNak4qGez9Bm0oFEXoYBoBSrHPeNHZj7tG_ZdaJWhbcma5l4OuMjm32iM6hz4Agxvssxxf3TBKqzdRLrpAEiUKj2R1laGmkxNDt6F_eOz-sMfjRE1-uWcZn5AgS6YuQHaNONhTUVkM0NIG8bElfGTEGC8=",
+          "title": "destinyhosted.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"These Terms are between monday.com Ltd. (6 Yitzhak Sadeh St., Tel-Aviv 6777506, Israel) (“monday.com”, “us”, “we” or “our”) and you, either individually, or on behalf of your employer or any other entity which you represent... governing your access, use, registration and receipt of: (i) www.monday.com and any related website owned or operated by monday.com (“Sites”); (ii) monday.com Services...\"*\n* **monday.com Priv",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgV04o6ETfQTIkQZrjC-9C8uaEeBBOBqd7_1Hvw4qW_oFHciQwSX_YiIvUW08YvUbNak4qGez9Bm0oFEXoYBoBSrHPeNHZj7tG_ZdaJWhbcma5l4OuMjm32iM6hz4Agxvssxxf3TBKqzdRLrpAEiUKj2R1laGmkxNDt6F_eOz-sMfjRE1-uWcZn5AgS6YuQHaNONhTUVkM0NIG8bElfGTEGC8=",
+          "title": "destinyhosted.com"
+        },
+        {
+          "id": 3,
+          "text": "monday.com Privacy Policy:**  \n  > *\"This Privacy Policy describes how we - monday.com Ltd. (together with its affiliates companies - 'monday.com', 'we', 'our' or 'us') collect, store, use and disclose personal data regarding individuals",
+          "url": "https://l.monday.com/wp-content/uploads/2020/11/monday.com-Privacy-Policy-November-2020-1.pdf",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "monday.com Ltd.",
+        "evidence": "Passage 0 directly states that the vendor providing the software product Monday at monday.com is monday.com Ltd.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the software product **Monday** (the work management platform and related services) at **monday.com** is **monday.com Ltd.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_fKgV1fhSkxDrlOO3I8cL3t8ILUwA9w-VxkEXzCphY3iZgPGjsYvd8KdO0gDwmqFyG4gDutodsa4kZmHU-7hJ7rdygbEra-JWuORIvkGef0b03gbILNbzJWAS1c7cuPlCWCwOK12sCRXHScSnL57ZvfN9rBueryX3jH4Fa14DsVPk0zDEh-YeYTS2kgkIKbP9",
+          "title": "monday.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Monday",
+    "domain": "monday.com",
+    "description": "monday.com is a low-code, no-code work operating system that enables organizations to create customized work management tools and applications tailored to their specific needs. The platform enhances collaboration by connecting teams to processes and systems, fostering a transparent business environment. Headquartered in Tel Aviv with multiple global offices, monday.com serves over 186,000 customers across 200 industries worldwide."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "monday.com Ltd.",
+  "evidence": "Passage 0 directly states that the vendor providing the software product Monday at monday.com is monday.com Ltd.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the software product **Monday** (the work management platform and related services) at **monday.com** is **monday.com Ltd.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_fKgV1fhSkxDrlOO3I8cL3t8ILUwA9w-VxkEXzCphY3iZgPGjsYvd8KdO0gDwmqFyG4gDutodsa4kZmHU-7hJ7rdygbEra-JWuORIvkGef0b03gbILNbzJWAS1c7cuPlCWCwOK12sCRXHScSnL57ZvfN9rBueryX3jH4Fa14DsVPk0zDEh-YeYTS2kgkIKbP9",
+    "title": "monday.com"
+  },
+  "checked_at": "2026-11-05T09:11:03.073479+00:00"
+}

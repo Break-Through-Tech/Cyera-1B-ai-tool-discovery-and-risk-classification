@@ -1,0 +1,79 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on product directory and corporate registry records for **Breve AI** at **breveai.com**:\n\n* **Operating Company / Vendor:** **Alphabetx AI Tech Solutions Private Limited** (also operating under the brand/company name **Breve**)\n* **Evidence & Provider Statement:** \n  * Technical and directory records identify the company behind the platform as **Breve**, with its web platform service and account authentication hosted directly at `breve.alphabetx.ai/login`.\n  * Industry and startup databases (including Tracxn and YNOS) track **BreveAI** (`breveai.com`) as an AI technology company established in 2023 in Coimbatore, Tamil Nadu, India, matching the incorporation and registered office details of **Alphabetx AI Tech Solutions Private Limited**.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**Operating Company / Vendor:** **Alphabetx AI Tech Solutions Private Limited**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQES7QIv2r3UslHc-8V5N0A595h1vmi7nW0SclsMywW3LzzRur-PI4VJ_x61yM0kyTFnXbZoKmi5kL1XALzlwsRPfrkcdv3MjU3l_BZqLi9K03Y9eAGGu9kPTZ74I5JTYl5tycFZLHyJXU_IVnTEHg_L0DSrgN_Jj3aQnZaqUpV4JJA8aZvdUSkxobtyCCqelLeJF1jnYqc0JpM=",
+          "title": "falconebiz.com"
+        },
+        {
+          "id": 1,
+          "text": "**Operating Company / Vendor:** **Alphabetx AI Tech Solutions Private Limited** (also operating under the brand/company name **Breve**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIxYjYaQs6HlKvZbK8zdH-tD_CVlBcL6bCiOmgImjgBob-ksjAyfAdaX_2le0fqgx0JcCx7IE0tvepTAvO54HoTz-LOCAfQvFrEpAlSSoD9jMAwxR7g70f73Xpaw==",
+          "title": "cxwl.com"
+        },
+        {
+          "id": 2,
+          "text": "Technical and directory records identify the company behind the platform as **Breve**, with its web platform service and account authentication hosted directly at `breve.alphabetx.ai/login`",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIxYjYaQs6HlKvZbK8zdH-tD_CVlBcL6bCiOmgImjgBob-ksjAyfAdaX_2le0fqgx0JcCx7IE0tvepTAvO54HoTz-LOCAfQvFrEpAlSSoD9jMAwxR7g70f73Xpaw==",
+          "title": "cxwl.com"
+        },
+        {
+          "id": 3,
+          "text": "Industry and startup databases (including Tracxn and YNOS) track **BreveAI** (`breveai.com`) as an AI technology company established in 2023 in Coimbatore, Tamil Nadu, India",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHap7u87M-TqPbDYDhZnA267dinEmdf0LhEavMzuZnormDVpXOiuYfimo6xurwEGGK2qesKgO9Mrp4WpIfZQd658ErgAD6UR56wYOA7LzhI1iRlfieHmg9CgSgPV-reXMfX6ww3koSGJk8gQMsg4oJ1doWMMIKcmfAIy4pdlY3hvMTO9DHrfE4Vr63sxrRzLHc8zmjG2_jOtK2AckZPobnf45f3Yd6EyxVgmmhNiL7971a8-l2M6nTo_ZLdmhPqziVHNL216EXS9azWHg==",
+          "title": "tracxn.com"
+        },
+        {
+          "id": 4,
+          "text": "Industry and startup databases (including Tracxn and YNOS) track **BreveAI** (`breveai.com`) as an AI technology company established in 2023 in Coimbatore, Tamil Nadu, India",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGR2by3Tqylpq_fMM_ZRkAW-jHCyziorEHU0m8vUvuarhAAzzpbdhntVwilPn6Eo6o5s7jUdhIy9m7YKeKSzGd75DL8w8lNPipQ44TbWX6e-R-LkvQlzJNYPkfKtJH78XdKVWNGPDxXg7hVGszmtpP9pJ7KLpSGSAIgZ0G_-_gySSBm_G5wLg==",
+          "title": "ynos.in"
+        },
+        {
+          "id": 5,
+          "text": "Industry and startup databases (including Tracxn and YNOS) track **BreveAI** (`breveai.com`) as an AI technology company established in 2023 in Coimbatore, Tamil Nadu, India, matching the incorporation and registered office details of **Alphabetx AI Tech Solutions Private Limited**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQES7QIv2r3UslHc-8V5N0A595h1vmi7nW0SclsMywW3LzzRur-PI4VJ_x61yM0kyTFnXbZoKmi5kL1XALzlwsRPfrkcdv3MjU3l_BZqLi9K03Y9eAGGu9kPTZ74I5JTYl5tycFZLHyJXU_IVnTEHg_L0DSrgN_Jj3aQnZaqUpV4JJA8aZvdUSkxobtyCCqelLeJF1jnYqc0JpM=",
+          "title": "falconebiz.com"
+        },
+        {
+          "id": 6,
+          "text": "Industry and startup databases (including Tracxn and YNOS) track **BreveAI** (`breveai.com`) as an AI technology company established in 2023 in Coimbatore, Tamil Nadu, India, matching the incorporation and registered office details of **Alphabetx AI Tech Solutions Private Limited**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHj16UbQLz9_OtikNtn-1EI2UktB1ucnckxueUYtnktQDwdMVUDRjcKA_YFHzKKHt7HStDyvbNMI6BcqX3ObCNItYOuc5mYyWIofFGQnvHwox6Zmm-MqHAm5N0mdBXN-mmjk2Qio3hd_Cnn3gU=",
+          "title": "zaubacorp.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Alphabetx AI Tech Solutions Private Limited",
+        "evidence": "Industry and startup databases track BreveAI (breveai.com) as matching the incorporation and registered office details of Alphabetx AI Tech Solutions Private Limited.",
+        "source": {
+          "id": 5,
+          "text": "Industry and startup databases (including Tracxn and YNOS) track **BreveAI** (`breveai.com`) as an AI technology company established in 2023 in Coimbatore, Tamil Nadu, India, matching the incorporation and registered office details of **Alphabetx AI Tech Solutions Private Limited**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQES7QIv2r3UslHc-8V5N0A595h1vmi7nW0SclsMywW3LzzRur-PI4VJ_x61yM0kyTFnXbZoKmi5kL1XALzlwsRPfrkcdv3MjU3l_BZqLi9K03Y9eAGGu9kPTZ74I5JTYl5tycFZLHyJXU_IVnTEHg_L0DSrgN_Jj3aQnZaqUpV4JJA8aZvdUSkxobtyCCqelLeJF1jnYqc0JpM=",
+          "title": "falconebiz.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Breve AI",
+    "domain": "breveai.com",
+    "description": "Build enterprise AI platform with full-stack generative AI"
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Alphabetx AI Tech Solutions Private Limited",
+  "evidence": "Industry and startup databases track BreveAI (breveai.com) as matching the incorporation and registered office details of Alphabetx AI Tech Solutions Private Limited.",
+  "source": {
+    "id": 5,
+    "text": "Industry and startup databases (including Tracxn and YNOS) track **BreveAI** (`breveai.com`) as an AI technology company established in 2023 in Coimbatore, Tamil Nadu, India, matching the incorporation and registered office details of **Alphabetx AI Tech Solutions Private Limited**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQES7QIv2r3UslHc-8V5N0A595h1vmi7nW0SclsMywW3LzzRur-PI4VJ_x61yM0kyTFnXbZoKmi5kL1XALzlwsRPfrkcdv3MjU3l_BZqLi9K03Y9eAGGu9kPTZ74I5JTYl5tycFZLHyJXU_IVnTEHg_L0DSrgN_Jj3aQnZaqUpV4JJA8aZvdUSkxobtyCCqelLeJF1jnYqc0JpM=",
+    "title": "falconebiz.com"
+  },
+  "checked_at": "2026-11-05T07:21:09.848929+00:00"
+}

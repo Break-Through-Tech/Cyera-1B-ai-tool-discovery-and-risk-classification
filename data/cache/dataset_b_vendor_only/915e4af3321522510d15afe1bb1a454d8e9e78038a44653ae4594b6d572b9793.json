@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product **Smartsheet** at **smartsheet.com** is **Smartsheet Inc.**\n\n### Evidence:\n* **Smartsheet User Agreement**: States that the agreement governs access to and use of *\"Smartsheet Inc. ('Smartsheet') Services\"* and the *\"services provided by Smartsheet Inc.\"*\n* **Smartsheet Privacy Notice**: States that on *\"our website, including www.smartsheet.com ('Site'), 'we' (or 'our,' 'us') refers to Smartsheet Inc. (including any relevant affiliates)\"* in relation to the provision of its *\"Online Services and applications and any related downloadable software ('Services').\"*\n* **Smartsheet Site Terms**: Affirms that the terms apply to the use of websites including `www.smartsheet.com` owned and provisioned by *\"Smartsheet Inc. and its affiliates and subsidiaries (collectively, 'Smartsheet').\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product **Smartsheet** at **smartsheet.com** is **Smartsheet Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHybfnHCnP4BtItCeDTS6W1ODOKKj2jh64OYAwjJD8kDX3FBStYKkCJCcsm2QZEMCRzw_FurC1fWKeersWNLqntFNxhc3Klx0R7tRo58uZDPDixP3Mi24lWP7fnsvU=",
+          "title": "smartsheet.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the software product **Smartsheet** at **smartsheet.com** is **Smartsheet Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGd4Mn21NfAqDNDiLw1DqyfpkwhhsEDEBdM0_-rzl1c1CJ9WX_PveRkXUFGNR2mf90_0vpzo9RKozbred3IP8QONlexHyEDIWAw-ECQdlxrDQVBaZfWyS26Zn1F-0QoKeWdEV85",
+          "title": "smartsheet.com"
+        },
+        {
+          "id": 2,
+          "text": "**Smartsheet User Agreement**: States that the agreement governs access to and use of *\"Smartsheet Inc. ('Smartsheet') Services\"* and the *\"services provided by Smartsheet Inc.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGd4Mn21NfAqDNDiLw1DqyfpkwhhsEDEBdM0_-rzl1c1CJ9WX_PveRkXUFGNR2mf90_0vpzo9RKozbred3IP8QONlexHyEDIWAw-ECQdlxrDQVBaZfWyS26Zn1F-0QoKeWdEV85",
+          "title": "smartsheet.com"
+        },
+        {
+          "id": 3,
+          "text": "**Smartsheet User Agreement**: States that the agreement governs access to and use of *\"Smartsheet Inc. ('Smartsheet') Services\"* and the *\"services provided by Smartsheet Inc.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnK9Sb8qd0QPzgOdfwqT-MOiSqnPVgZSGEjaj9ZpLEAK899t3dXx3oepOT-9rFhwIxs6tzET70lvAAwfyG8B054w8EzdRQm1q-flZ8-ZtBafpah1zVTSBl-0uaDgtC9zTJhqI3IawoLkgIWZ2AfaaX0VKvv2sLu2NshXuwFacw3kQeAlKRKFZij_cX2jpu__-gDw==",
+          "title": "smartsheet.com"
+        },
+        {
+          "id": 4,
+          "text": "**Smartsheet Privacy Notice**: States that on *\"our website, including www.smartsheet.com ('Site'), 'we' (or 'our,' 'us') refers to Smartsheet Inc. (including any relevant affiliates)\"* in relation to the provision of its *\"Online Services and applications and any related downloadable software ('Services').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHybfnHCnP4BtItCeDTS6W1ODOKKj2jh64OYAwjJD8kDX3FBStYKkCJCcsm2QZEMCRzw_FurC1fWKeersWNLqntFNxhc3Klx0R7tRo58uZDPDixP3Mi24lWP7fnsvU=",
+          "title": "smartsheet.com"
+        },
+        {
+          "id": 5,
+          "text": "**Smartsheet Site Terms**: Affirms that the terms apply to the use of websites including `www.smartsheet.com` owned and provisioned by *\"Smartsheet Inc. and its affiliates and subsidiaries (collectively, 'Smartsheet').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHR_-hQscywyIm3R1Oo9AL6W-_DnJSDW798r3logIDWbc3HHZx4EqCQ-dD3cXwOzcPLkoMQww88B6JqaDpE9ZmxYFVs5azQ4Djc-Bgi63tljR0N0qD58fbuNCrtgQ-JtMQ=",
+          "title": "smartsheet.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Smartsheet Inc.",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing the software product Smartsheet at smartsheet.com is Smartsheet Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the software product **Smartsheet** at **smartsheet.com** is **Smartsheet Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHybfnHCnP4BtItCeDTS6W1ODOKKj2jh64OYAwjJD8kDX3FBStYKkCJCcsm2QZEMCRzw_FurC1fWKeersWNLqntFNxhc3Klx0R7tRo58uZDPDixP3Mi24lWP7fnsvU=",
+          "title": "smartsheet.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Smartsheet",
+    "domain": "smartsheet.com",
+    "description": "Smartsheet is a leading enterprise work management platform that enhances organizational efficiency by aligning people and technology. With a focus on driving innovation, it serves millions of users worldwide, including over 75% of Fortune 500 companies. The platform is designed to implement, manage, and automate processes across various departments seamlessly, backed by enterprise-grade security features."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Smartsheet Inc.",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing the software product Smartsheet at smartsheet.com is Smartsheet Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the software product **Smartsheet** at **smartsheet.com** is **Smartsheet Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHybfnHCnP4BtItCeDTS6W1ODOKKj2jh64OYAwjJD8kDX3FBStYKkCJCcsm2QZEMCRzw_FurC1fWKeersWNLqntFNxhc3Klx0R7tRo58uZDPDixP3Mi24lWP7fnsvU=",
+    "title": "smartsheet.com"
+  },
+  "checked_at": "2026-11-05T09:42:10.917547+00:00"
+}

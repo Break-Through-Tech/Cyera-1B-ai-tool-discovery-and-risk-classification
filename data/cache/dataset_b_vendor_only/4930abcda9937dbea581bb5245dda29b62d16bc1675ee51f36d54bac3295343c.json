@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor and operating entity directly providing **Home Assistant** at **`home-assistant.io`** is the **Open Home Foundation**.\n\n### Supporting Evidence:\nAccording to the official Privacy Policy on `home-assistant.io`:\n> *\"We, the Open Home Foundation, Grabenstrasse 25, 6340 Baar, Switzerland (“we”, “us”), operate the Home Assistant project and are responsible for the processing of personal data described in this privacy policy, unless stated otherwise. This privacy policy applies to the non-commercial Home Assistant websites and services operated by the Open Home Foundation, including “home-assistant.io”...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor and operating entity directly providing **Home Assistant** at **`home-assistant.io`** is the **Open Home Foundation**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWyTnmrcP12FFH2Crnw_a87lzXoyflgR-zQ7Xx772yTq4-i7q3YPhSb9hjIEeAQ81urio9qqfK0BnZVN-26Htuv4-gbwgcTmO33xFliPV8Co4tHNbGP7KyU8gRAg==",
+          "title": "home-assistant.io"
+        },
+        {
+          "id": 1,
+          "text": "The vendor and operating entity directly providing **Home Assistant** at **`home-assistant.io`** is the **Open Home Foundation**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF76-edd6bTrcY9xYDJjg4qkJj9MLaK_lF-IO5LD_EmLUddNVrxJ4NfAM6WX_NbxudP9Kn79XfdcIKYa7zGT0pYNxDLHwR6yF6w2t6Z2d6P8_ZfAT_kOFtXzRL-95fI52HUJ1uxyRjXdFjq",
+          "title": "home-assistant.io"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Open Home Foundation",
+        "evidence": "Passage 0 explicitly identifies the Open Home Foundation as the vendor and operating entity directly providing Home Assistant at home-assistant.io.",
+        "source": {
+          "id": 0,
+          "text": "The vendor and operating entity directly providing **Home Assistant** at **`home-assistant.io`** is the **Open Home Foundation**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWyTnmrcP12FFH2Crnw_a87lzXoyflgR-zQ7Xx772yTq4-i7q3YPhSb9hjIEeAQ81urio9qqfK0BnZVN-26Htuv4-gbwgcTmO33xFliPV8Co4tHNbGP7KyU8gRAg==",
+          "title": "home-assistant.io"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Home Assistant",
+    "domain": "home-assistant.io",
+    "description": "Home Assistant is an open-source home automation platform that emphasizes local control and user privacy. It is developed by a global community of passionate DIY enthusiasts and tinkerers, allowing users to automate their homes with complete control and minimal reliance on cloud services."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Open Home Foundation",
+  "evidence": "Passage 0 explicitly identifies the Open Home Foundation as the vendor and operating entity directly providing Home Assistant at home-assistant.io.",
+  "source": {
+    "id": 0,
+    "text": "The vendor and operating entity directly providing **Home Assistant** at **`home-assistant.io`** is the **Open Home Foundation**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWyTnmrcP12FFH2Crnw_a87lzXoyflgR-zQ7Xx772yTq4-i7q3YPhSb9hjIEeAQ81urio9qqfK0BnZVN-26Htuv4-gbwgcTmO33xFliPV8Co4tHNbGP7KyU8gRAg==",
+    "title": "home-assistant.io"
+  },
+  "checked_at": "2026-11-05T09:59:47.118736+00:00"
+}

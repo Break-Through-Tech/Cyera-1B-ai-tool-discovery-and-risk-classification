@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **jQuery UI** at **jqueryui.com** is the **OpenJS Foundation** (along with the jQuery contributors).\n\n### Evidence:\nThe official site notices and terms on **jqueryui.com** state:\n> *\"Copyright OpenJS Foundation and jQuery contributors. All rights reserved. See jQuery License for more information. The OpenJS Foundation has registered trademarks and uses trademarks... OpenJS Foundation Terms of Use, Privacy, Code of Conduct, and Cookie Policies also apply.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **jQuery UI** at **jqueryui.com** is the **OpenJS Foundation** (along with the jQuery contributors)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGj-VgX0HpX3r-Y4bFIPwkJj1VpCk7YHMGTQIuDlT3A66rVeKkXtXnYYUyk2THbaE_FAAlUZXGuWB2p0su42T0FTmxvqtJ_3ppThzXFziFRgqY=",
+          "title": "jqueryui.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **jQuery UI** at **jqueryui.com** is the **OpenJS Foundation** (along with the jQuery contributors)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqDijibjSNPWFnmCVpv25G_okBgAvBage8WMpLKz5h-fDIio27S9qqjyA3KaVMXa51iTYAjcc-NuFhYhhXXxzvNkh5QBmkgNknVbRw0ycvX8Q=",
+          "title": "openjsf.org"
+        },
+        {
+          "id": 2,
+          "text": "The official site notices and terms on **jqueryui.com** state",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGj-VgX0HpX3r-Y4bFIPwkJj1VpCk7YHMGTQIuDlT3A66rVeKkXtXnYYUyk2THbaE_FAAlUZXGuWB2p0su42T0FTmxvqtJ_3ppThzXFziFRgqY=",
+          "title": "jqueryui.com"
+        },
+        {
+          "id": 3,
+          "text": "OpenJS Foundation Terms of Use, Privacy, Code of Conduct, and Cookie Policies also apply.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGj-VgX0HpX3r-Y4bFIPwkJj1VpCk7YHMGTQIuDlT3A66rVeKkXtXnYYUyk2THbaE_FAAlUZXGuWB2p0su42T0FTmxvqtJ_3ppThzXFziFRgqY=",
+          "title": "jqueryui.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "OpenJS Foundation",
+        "evidence": "Passage 0 explicitly identifies that the vendor directly providing jQuery UI at jqueryui.com is the OpenJS Foundation.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **jQuery UI** at **jqueryui.com** is the **OpenJS Foundation** (along with the jQuery contributors)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGj-VgX0HpX3r-Y4bFIPwkJj1VpCk7YHMGTQIuDlT3A66rVeKkXtXnYYUyk2THbaE_FAAlUZXGuWB2p0su42T0FTmxvqtJ_3ppThzXFziFRgqY=",
+          "title": "jqueryui.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "jQuery UI",
+    "domain": "jqueryui.com",
+    "description": "jQuery UI is a collection of user interface components, including interactions, effects, widgets, and themes, designed for enhancing web applications built with the jQuery JavaScript Library. It offers tools for developers looking to create interactive web experiences, making it easy to incorporate features like date pickers and various UI enhancements."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "OpenJS Foundation",
+  "evidence": "Passage 0 explicitly identifies that the vendor directly providing jQuery UI at jqueryui.com is the OpenJS Foundation.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **jQuery UI** at **jqueryui.com** is the **OpenJS Foundation** (along with the jQuery contributors)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGj-VgX0HpX3r-Y4bFIPwkJj1VpCk7YHMGTQIuDlT3A66rVeKkXtXnYYUyk2THbaE_FAAlUZXGuWB2p0su42T0FTmxvqtJ_3ppThzXFziFRgqY=",
+    "title": "jqueryui.com"
+  },
+  "checked_at": "2026-11-05T09:48:02.594949+00:00"
+}

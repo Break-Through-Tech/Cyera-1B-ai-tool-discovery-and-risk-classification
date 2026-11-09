@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **FullContact** at **fullcontact.com** is **J2 Martech Corp.** (a Ziff Davis company).\n\n### Provider Statement\n* From the **Services Agreement** at `fullcontact.com`:\n  > *\"These terms including the URL links referenced herein and any exhibits or addenda attached hereto (“Services Agreement”), together with the applicable Order Form(s) form the full legal agreement (“Agreement”) between Customer and **J2 Martech Corp.**, a Delaware corporation (“FullContact”, “us”, or “our”) regarding the FullContact Data Services...\"*\n* From the **Website Terms of Use** at `fullcontact.com`:\n  > *\"These Website Terms of Use (this “Terms of Use”) sets forth a legally binding agreement between **J2 Martech Corp.** (“FullContact,” “us,” “we,” or “our”) and you...\"*\n* From the website footer and copyright notice:\n  > *\"© J2 Martech Corp., a Ziff Davis company. All rights reserved. FullContact is a registered trademark of J2 Martech Corp.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **FullContact** at **fullcontact.com** is **J2 Martech Corp.** (a Ziff Davis company)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbr9os3CGloAJX5-xOx7X26wam4MF8kIFskCQSFug9ptLzkONfyz2OWZoF-oxTnWsvOIkLNcR8pltYxoFhDQLwLDGhW3vB_bKsi_OkgE7YYPoUv2_hOEccS2--rnVeV0jGCQ==",
+          "title": "fullcontact.com"
+        },
+        {
+          "id": 1,
+          "text": "*\"These terms including the URL links referenced herein and any exhibits or addenda attached hereto (“Services Agreement”), together with the applicable Order Form(s) form the full legal agreement (“Agreement”) between Customer and **J2 Martech Corp.**, a Delaware corporation (“FullContact”, “us”, or “our”) regarding the FullContact Data Services...\"*\n* From the **Websit",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH43t1UJ5DJNqev6-CsxrfW3mwhXEYNwXmpii6V-ZlAiUGWjgTtFOkPbuHAqZ0BrBUNh464Bl8TLjRif2cWlZ12FJ5Np8YfYBu0FNWxDH2g0CnT5hwIvfVAKaqHvvF0yjTDJj2MEwJnlP9gN1FU",
+          "title": "fullcontact.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"These terms including the URL links referenced herein and any exhibits or addenda attached hereto (“Services Agreement”), together with the applicable Order Form(s) form the full legal agreement (“Agreement”) between Customer and **J2 Martech Corp.**, a Delaware corporation (“FullContact”, “us”, or “our”) regarding the FullContact Data Services...\"*\n* From the **Websit",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH43t1UJ5DJNqev6-CsxrfW3mwhXEYNwXmpii6V-ZlAiUGWjgTtFOkPbuHAqZ0BrBUNh464Bl8TLjRif2cWlZ12FJ5Np8YfYBu0FNWxDH2g0CnT5hwIvfVAKaqHvvF0yjTDJj2MEwJnlP9gN1FU",
+          "title": "fullcontact.com"
+        },
+        {
+          "id": 3,
+          "text": "s of Use (this “Terms of Use”) sets forth a legally binding agreement between **J2 Martech Corp.** (“FullContact,” “us,” “we,” or “our”) and you...\"*\n* From the website footer and copyright",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgqgtUWF2phJv1dPwoCqprooKxqn0sJl6Qvs3dUXNpN4YeVxVUNVS9eV3f3h5-oDBxHQ2pKKYVsI1Szr4KjKvKdi4IJxLNGuM0XSRXMnGgoNXLef0Ku7rRg4enURTWBGK1xlQ9Gc5W",
+          "title": "fullcontact.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "J2 Martech Corp.",
+        "evidence": "Passage 0 states that the vendor directly providing FullContact at fullcontact.com is J2 Martech Corp. (a Ziff Davis company).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **FullContact** at **fullcontact.com** is **J2 Martech Corp.** (a Ziff Davis company)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbr9os3CGloAJX5-xOx7X26wam4MF8kIFskCQSFug9ptLzkONfyz2OWZoF-oxTnWsvOIkLNcR8pltYxoFhDQLwLDGhW3vB_bKsi_OkgE7YYPoUv2_hOEccS2--rnVeV0jGCQ==",
+          "title": "fullcontact.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "FullContact",
+    "domain": "fullcontact.com",
+    "description": "FullContact is a privacy-focused Identity Resolution SaaS platform that facilitates trust between consumers and brands through real-time data management. The company is dedicated to enhancing the consumer journey, improving brand experiences, and increasing conversion rates by providing transparency in data usage and safeguarding consumer information."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "J2 Martech Corp.",
+  "evidence": "Passage 0 states that the vendor directly providing FullContact at fullcontact.com is J2 Martech Corp. (a Ziff Davis company).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **FullContact** at **fullcontact.com** is **J2 Martech Corp.** (a Ziff Davis company)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbr9os3CGloAJX5-xOx7X26wam4MF8kIFskCQSFug9ptLzkONfyz2OWZoF-oxTnWsvOIkLNcR8pltYxoFhDQLwLDGhW3vB_bKsi_OkgE7YYPoUv2_hOEccS2--rnVeV0jGCQ==",
+    "title": "fullcontact.com"
+  },
+  "checked_at": "2026-11-05T09:33:04.227282+00:00"
+}

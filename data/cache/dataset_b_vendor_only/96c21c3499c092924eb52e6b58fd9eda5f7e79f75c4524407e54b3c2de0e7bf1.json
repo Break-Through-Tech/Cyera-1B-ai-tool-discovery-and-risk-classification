@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product **TermsFeed** at **termsfeed.com** is **TermsFeed**. \n\n### Evidence:\n* **Terms of Use & Sale (`termsfeed.com`):**\n  > *\"This web page represents our Terms of Use and Sale ('Agreement') regarding our website, located at TermsFeed.com, and the tools we provide you (the 'Website' or the 'Service'). [...] The terms, 'we' and 'our' as used in this Agreement refer to TermsFeed.\"*\n* **Website Notice & Copyright:** \n  > *\"Copyright © 2012 - 2026 TermsFeed®. All rights reserved.\"*\n* **About Page (`termsfeed.com/about`):** \n  > *\"TermsFeed was founded in 2012 with the mission to bring high-quality cost-effective legal solutions for all online businesses from websites to mobile applications...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product **TermsFeed** at **termsfeed.com** is **TermsFeed**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEun7QxW5La9W2H33jghWNb8dlYIFkS8Y34NtXGhXHiDWX5f5QRNlzqOi1vdEm1u8-MFY2xUIsGkH61BmG-u4MyD9EjcXNKa5SF8DCXTgTavJfDOts_Y4fz",
+          "title": "termsfeed.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the software product **TermsFeed** at **termsfeed.com** is **TermsFeed**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGo0Eimovp8osaqoC-WUMKTqCVY-YGpycaYn5kDbU860chh6FTim-aa-ywO3Bw3xWcHGpU7EahzkzyybiQvOg03eAbasRpZ4UN4JcG50SVEs5j0ExKz6A==",
+          "title": "termsfeed.com"
+        },
+        {
+          "id": 2,
+          "text": "The vendor directly providing the software product **TermsFeed** at **termsfeed.com** is **TermsFeed**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDtUkDlO-nzTTdd4aza0vqNI6-8xFp5z_614g3hDEU9EOgJBja-YEId8S70T4kB_fpMXh7VuFL-PqhyV4oFh3It3ka4IbwFfA8Q8hj3mpzpeyWPHtd9te8d5hbCWPA_e4FGIONBEKBQMgYycw0mdNr",
+          "title": "qservicesit.com"
+        },
+        {
+          "id": 3,
+          "text": "The terms, 'we' and 'our' as used in this Agreement refer to TermsFeed.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDtUkDlO-nzTTdd4aza0vqNI6-8xFp5z_614g3hDEU9EOgJBja-YEId8S70T4kB_fpMXh7VuFL-PqhyV4oFh3It3ka4IbwFfA8Q8hj3mpzpeyWPHtd9te8d5hbCWPA_e4FGIONBEKBQMgYycw0mdNr",
+          "title": "qservicesit.com"
+        },
+        {
+          "id": 4,
+          "text": "l rights reserved.\"*\n*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEun7QxW5La9W2H33jghWNb8dlYIFkS8Y34NtXGhXHiDWX5f5QRNlzqOi1vdEm1u8-MFY2xUIsGkH61BmG-u4MyD9EjcXNKa5SF8DCXTgTavJfDOts_Y4fz",
+          "title": "termsfeed.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "TermsFeed",
+        "evidence": "Passage 0 states that the vendor directly providing the software product TermsFeed at termsfeed.com is TermsFeed.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the software product **TermsFeed** at **termsfeed.com** is **TermsFeed**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEun7QxW5La9W2H33jghWNb8dlYIFkS8Y34NtXGhXHiDWX5f5QRNlzqOi1vdEm1u8-MFY2xUIsGkH61BmG-u4MyD9EjcXNKa5SF8DCXTgTavJfDOts_Y4fz",
+          "title": "termsfeed.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "TermsFeed",
+    "domain": "termsfeed.com",
+    "description": "TermsFeed is a comprehensive compliance software platform that helps businesses create and manage essential legal documents, including Privacy Policies and Terms and Conditions. It also offers tools for user consent management through its Consent Management Platform (CMP), ensuring that companies remain compliant with data protection regulations."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "TermsFeed",
+  "evidence": "Passage 0 states that the vendor directly providing the software product TermsFeed at termsfeed.com is TermsFeed.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the software product **TermsFeed** at **termsfeed.com** is **TermsFeed**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEun7QxW5La9W2H33jghWNb8dlYIFkS8Y34NtXGhXHiDWX5f5QRNlzqOi1vdEm1u8-MFY2xUIsGkH61BmG-u4MyD9EjcXNKa5SF8DCXTgTavJfDOts_Y4fz",
+    "title": "termsfeed.com"
+  },
+  "checked_at": "2026-11-05T09:19:07.929347+00:00"
+}

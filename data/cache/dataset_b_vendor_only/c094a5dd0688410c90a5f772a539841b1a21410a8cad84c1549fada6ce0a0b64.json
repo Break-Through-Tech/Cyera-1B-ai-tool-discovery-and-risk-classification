@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on the official legal agreements and notices on **parallels.com** for the software and services product **Parallels**:\n\n* **Vendor / Operating Company:** **Parallels International GmbH**\n\n### Supporting Statements\n* **Website Terms of Services:** *\"These Services are provided by Parallels International GmbH (“We” or “Us”). These Terms constitute an agreement between the user (“You”) and Us and govern Your use of the Services.\"*\n* **End User License Agreement (EULA):** *\"This EULA is a legal contract between you and Parallels International GmbH and governs Your use of Parallels software, services (including software-as-a-service offerings), and related documentation (collectively, the “Software”).\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**Vendor / Operating Company:** **Parallels International GmbH**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBjnN_7F0U4kSdv9CW5OHJXADNJnbvwwvLO6B8Q4TqxV0P4qLpwe0c9TWOkzqKnFrZA77SQLdBa6kkKjCWu80ue4LF06BjVvOisjSo-1irm7fG2BVTx-OSB9LWNDFxQnrbyA==",
+          "title": "parallels.com"
+        },
+        {
+          "id": 1,
+          "text": "**Vendor / Operating Company:** **Parallels International GmbH**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpWzP2L4Qh87FFh6PwK9Arkwdw5m7I_0jimQLHPYOop6wu3NA8e3hdPWiKTS3Y3YSzsAzB8ETEr3hOnKQl2cCRrm2KXuQ7uz3a_AVpKcJIrY03j-u26OAlgEZh5PBAB3wn",
+          "title": "parallels.com"
+        },
+        {
+          "id": 2,
+          "text": "rms constitute an agreement between the user (“You”) and Us and govern Your use of the Services.\"*\n* **End Use",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBjnN_7F0U4kSdv9CW5OHJXADNJnbvwwvLO6B8Q4TqxV0P4qLpwe0c9TWOkzqKnFrZA77SQLdBa6kkKjCWu80ue4LF06BjVvOisjSo-1irm7fG2BVTx-OSB9LWNDFxQnrbyA==",
+          "title": "parallels.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Parallels International GmbH",
+        "evidence": "Passage 0 directly identifies Parallels International GmbH as the Vendor / Operating Company for Parallels.",
+        "source": {
+          "id": 0,
+          "text": "**Vendor / Operating Company:** **Parallels International GmbH**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBjnN_7F0U4kSdv9CW5OHJXADNJnbvwwvLO6B8Q4TqxV0P4qLpwe0c9TWOkzqKnFrZA77SQLdBa6kkKjCWu80ue4LF06BjVvOisjSo-1irm7fG2BVTx-OSB9LWNDFxQnrbyA==",
+          "title": "parallels.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Parallels",
+    "domain": "parallels.com",
+    "description": "Parallels is a technology company that specializes in desktop and server virtualization software. They offer solutions for web hosting and cloud infrastructure, enabling businesses to efficiently manage virtual environments and enhance productivity."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Parallels International GmbH",
+  "evidence": "Passage 0 directly identifies Parallels International GmbH as the Vendor / Operating Company for Parallels.",
+  "source": {
+    "id": 0,
+    "text": "**Vendor / Operating Company:** **Parallels International GmbH**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBjnN_7F0U4kSdv9CW5OHJXADNJnbvwwvLO6B8Q4TqxV0P4qLpwe0c9TWOkzqKnFrZA77SQLdBa6kkKjCWu80ue4LF06BjVvOisjSo-1irm7fG2BVTx-OSB9LWNDFxQnrbyA==",
+    "title": "parallels.com"
+  },
+  "checked_at": "2026-11-05T10:02:16.619131+00:00"
+}

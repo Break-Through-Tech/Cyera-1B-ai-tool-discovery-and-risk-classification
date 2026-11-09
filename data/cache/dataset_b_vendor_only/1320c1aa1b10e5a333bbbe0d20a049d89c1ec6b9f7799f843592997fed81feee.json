@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **Prezi** software product at **prezi.com** is **Prezi Inc.**\n\n### Supporting Evidence:\nAccording to the **Prezi Terms of Service** (prezi.com/terms-of-use/):\n> *\"This is a binding legal agreement between the natural person or legal person (“Customer” or “you”) agreeing to these Terms of Service (“Terms”) and Prezi Inc. (“Prezi,” “us,” or “we”). By accepting these Terms, signing an Order, or using the services subject to these Terms of Service (collectively the “Service(s)” or “Prezi Service(s)”)...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **Prezi** software product at **prezi.com** is **Prezi Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHibvKwEOvfFgSXmS5tGbrS7mfxL275ahFsQHAEF6BYWuonqayM0ViAm-Q6rjhHM6tgH6AFBagSvaLqtGdv5n3La0_pqkoLHwHNSllIJZjSF2WWYZmDK9BsBzAP2ecvqQ==",
+          "title": "prezi.com"
+        },
+        {
+          "id": 1,
+          "text": "agreement between the natural person or legal person (“Customer” or “you”) agreeing to these Terms of Service (“Terms”) and Prezi Inc. (“Prezi,” “us,” or “we”). By accepting these Terms, signing an Order, or using the services subject to these Terms of Service (collect",
+          "url": "https://prezi.com/legal/terms-of-service",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Prezi Inc.",
+        "evidence": "According to the Prezi Terms of Service on prezi.com, the agreement to use the Prezi Service is made directly with Prezi Inc.",
+        "source": {
+          "id": 1,
+          "text": "agreement between the natural person or legal person (“Customer” or “you”) agreeing to these Terms of Service (“Terms”) and Prezi Inc. (“Prezi,” “us,” or “we”). By accepting these Terms, signing an Order, or using the services subject to these Terms of Service (collect",
+          "url": "https://prezi.com/legal/terms-of-service",
+          "title": ""
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Prezi",
+    "domain": "prezi.com",
+    "description": "Prezi is a leading presentation software company that specializes in enhancing visual storytelling through innovative technology. Founded in 2009, it has empowered over 150 million users globally, including students and business leaders, to create visually engaging presentations quickly and effectively with the aid of Prezi AI. With a virtual-first operation and base locations in Budapest and Riga, Prezi serves a diverse clientele across more than 180 countries, making presentations that captivate and inspire."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Prezi Inc.",
+  "evidence": "According to the Prezi Terms of Service on prezi.com, the agreement to use the Prezi Service is made directly with Prezi Inc.",
+  "source": {
+    "id": 1,
+    "text": "agreement between the natural person or legal person (“Customer” or “you”) agreeing to these Terms of Service (“Terms”) and Prezi Inc. (“Prezi,” “us,” or “we”). By accepting these Terms, signing an Order, or using the services subject to these Terms of Service (collect",
+    "url": "https://prezi.com/legal/terms-of-service",
+    "title": ""
+  },
+  "checked_at": "2026-11-05T09:08:09.234240+00:00"
+}

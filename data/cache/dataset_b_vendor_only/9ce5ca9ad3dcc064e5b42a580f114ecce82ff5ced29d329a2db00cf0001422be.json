@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **Gitter** at the domain **`gitter.im`** is directly provided and operated by **New Vector Ltd.** (trading as **Element**).\n\n### Evidence and Provider Statement:\n* The official website footer at **`gitter.im`** explicitly states:\n  > *\"Copyright © [Year] New Vector Ltd.\"*\n* In late 2020, New Vector Ltd. acquired Gitter from GitLab to migrate and integrate the chat platform onto the Matrix network, operating the service and its `gitter.im` homeserver.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **Gitter** at the domain **`gitter.im`** is directly provided and operated by **New Vector Ltd.** (trading as **Element**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXGIyUVl10HSZYK7gUa4zJ_ooepQOVTsum57pVGyEY_-j2u_vdiS-N-zc2BWfSaB7AdrOsdHWRStxMxNU0iYSdyNWK9c03viRJBc5I3u_cv2XKPncAvQoJODg=",
+          "title": "wikipedia.org"
+        },
+        {
+          "id": 1,
+          "text": "The software product **Gitter** at the domain **`gitter.im`** is directly provided and operated by **New Vector Ltd.** (trading as **Element**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMzzhk8n58gbnk3HeOUhkSKer2Jxm6se6Vj4b-ru7F1t6FQNVsnH5Ii9d5r9_8GoWVwmKn_mbVKc00m-21aKCgpqWbu_mKjA==",
+          "title": "gitter.im"
+        },
+        {
+          "id": 2,
+          "text": "The official website footer at **`gitter.im`** explicitly states",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMzzhk8n58gbnk3HeOUhkSKer2Jxm6se6Vj4b-ru7F1t6FQNVsnH5Ii9d5r9_8GoWVwmKn_mbVKc00m-21aKCgpqWbu_mKjA==",
+          "title": "gitter.im"
+        },
+        {
+          "id": 3,
+          "text": "n late 2020, New Vector Ltd. acquired Gitter from GitLab to migrate and integrate the chat platform onto the Matrix network, operating the service and its `gitter.im` homeserver.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXGIyUVl10HSZYK7gUa4zJ_ooepQOVTsum57pVGyEY_-j2u_vdiS-N-zc2BWfSaB7AdrOsdHWRStxMxNU0iYSdyNWK9c03viRJBc5I3u_cv2XKPncAvQoJODg=",
+          "title": "wikipedia.org"
+        },
+        {
+          "id": 4,
+          "text": "n late 2020, New Vector Ltd. acquired Gitter from GitLab to migrate and integrate the chat platform onto the Matrix network, operating the service and its `gitter.im` homeserver.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaZmsbz1yLAY1h5at6LdVzOiEi1qYFeEtVkNiPFYF1Swj6BVbE7yzVSNYnAQrtfOaz3GzahXO1LHtpfBGqrummxt7o07UYqvhs1_i7VRAbotWO81pNtYhc7WlDzo63lPNtUZJr3UaZJ37FvyRYcSCkj0N3TQ==",
+          "title": "matrix.org"
+        },
+        {
+          "id": 5,
+          "text": "n late 2020, New Vector Ltd. acquired Gitter from GitLab to migrate and integrate the chat platform onto the Matrix network, operating the service and its `gitter.im` homeserver.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXDaJFDGGNC7PC8G1smoKdY1zTp2D3E0JUSmMvNVmuMjun35mfhJv5VeWAGoFYsL5XPzrgbmNhlJlwpCitckOB1U8Sxy4zFkI=",
+          "title": "gitter.im"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "New Vector Ltd.",
+        "evidence": "Passage 1 states that the software product Gitter at the domain gitter.im is directly provided and operated by New Vector Ltd. (trading as Element).",
+        "source": {
+          "id": 1,
+          "text": "The software product **Gitter** at the domain **`gitter.im`** is directly provided and operated by **New Vector Ltd.** (trading as **Element**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMzzhk8n58gbnk3HeOUhkSKer2Jxm6se6Vj4b-ru7F1t6FQNVsnH5Ii9d5r9_8GoWVwmKn_mbVKc00m-21aKCgpqWbu_mKjA==",
+          "title": "gitter.im"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Gitter",
+    "domain": "gitter.im",
+    "description": "Gitter is a professional chat platform designed specifically for developers, hosting over 40,000 communities. It offers unlimited users and integrations for public communities while providing a free plan for private teams of up to 25 users, with a paid option for larger groups. The platform facilitates collaboration and communication within developer communities, enhancing productivity in both open source and proprietary projects."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "New Vector Ltd.",
+  "evidence": "Passage 1 states that the software product Gitter at the domain gitter.im is directly provided and operated by New Vector Ltd. (trading as Element).",
+  "source": {
+    "id": 1,
+    "text": "The software product **Gitter** at the domain **`gitter.im`** is directly provided and operated by **New Vector Ltd.** (trading as **Element**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMzzhk8n58gbnk3HeOUhkSKer2Jxm6se6Vj4b-ru7F1t6FQNVsnH5Ii9d5r9_8GoWVwmKn_mbVKc00m-21aKCgpqWbu_mKjA==",
+    "title": "gitter.im"
+  },
+  "checked_at": "2026-11-05T09:43:56.630990+00:00"
+}

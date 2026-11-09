@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **ProQuest** platform and services at **proquest.com** is **ProQuest LLC**.\n\n### Supporting Evidence\nAccording to the official ProQuest Privacy Policy and Terms documents:\n* **Privacy Policy:** *\"This Privacy Policy describes the privacy practices of ProQuest LLC and its subsidiary companies, including the global businesses operating under the following business names and brands ('ProQuest', 'we', 'our' or 'us') with respect to how we collect, use, store, disclose and transfer the information you provide when you interact with us through our websites, brands, and applications (the 'ProQuest Services')... The ProQuest Services include, but are not limited to: 360 Services, Dialog, ProQuest... ProQuest LLC is the data controller for all data described by this policy...\"*\n* **Standard Terms & Conditions:** *\"‘Agreement’ shall mean any contract Rider executed by 'Customer' and accepted by ProQuest LLC or its subsidiaries and affiliates ('ProQuest').\"*\n* **Terms of Use:** *\"The material available on this website is the intellectual property of ProQuest LLC and its licensors.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **ProQuest** platform and services at **proquest.com** is **ProQuest LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5rU1-Cj7VNh_sFShWy25gXconxgn9ITa3icQj2oc5fDlWFohMg5H_9cDySnYeP7Vi04MxlmsF4UfV9MayYvmaDLaaTn2QFF4I73fRq0vCXKLnR52Cx7WQKzrtXH8-EvFjUOiNNXz-9z0=",
+          "title": "proquest.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the **ProQuest** platform and services at **proquest.com** is **ProQuest LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5rU1-Cj7VNh_sFShWy25gXconxgn9ITa3icQj2oc5fDlWFohMg5H_9cDySnYeP7Vi04MxlmsF4UfV9MayYvmaDLaaTn2QFF4I73fRq0vCXKLnR52Cx7WQKzrtXH8-EvFjUOiNNXz-9z0=",
+          "title": "proquest.com"
+        },
+        {
+          "id": 2,
+          "text": "ProQuest LLC is the data controller for all data described by this policy...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5rU1-Cj7VNh_sFShWy25gXconxgn9ITa3icQj2oc5fDlWFohMg5H_9cDySnYeP7Vi04MxlmsF4UfV9MayYvmaDLaaTn2QFF4I73fRq0vCXKLnR52Cx7WQKzrtXH8-EvFjUOiNNXz-9z0=",
+          "title": "proquest.com"
+        },
+        {
+          "id": 3,
+          "text": "**Standard Terms & Conditions:** *\"‘Agreement’ shall mean any contract Rider executed by 'Customer' and accepted by ProQuest LLC or its subsidiaries and affiliates ('ProQuest').\"*\n* *",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvL5UYKaNf-aU5Ob8Y42TbsuNgTESU061Kei9iFmUtSUPUhg4pbGLN0WQmu4VTVC4wl0y-KvPcmgdgI2-TQtM8VbIcO8IRFP4HZvD95SUUeL1h61OlFjSb3bjEDs54W62yuiqwNNEuUjZjhTikN0O2Drg62F1toRGGyF-DChiSWxyXkCGCzhCxdJRGiCuN4_sKFYHcQWPk",
+          "title": "proquest.com"
+        },
+        {
+          "id": 4,
+          "text": "This Privacy Policy describes the privacy practices of ProQuest LLC and its subsidiary companies, including the global businesses operating under the following business names and brands ('ProQuest', 'we', 'our' or 'us') with respect to how we collect, use, store, disclose and transfer the information you provide when you interact with us through our websites, brands, and applications",
+          "url": "https://about.proquest.com/en/about/privacy-policy/",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "ProQuest LLC",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing the ProQuest platform and services at proquest.com is ProQuest LLC.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the **ProQuest** platform and services at **proquest.com** is **ProQuest LLC**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5rU1-Cj7VNh_sFShWy25gXconxgn9ITa3icQj2oc5fDlWFohMg5H_9cDySnYeP7Vi04MxlmsF4UfV9MayYvmaDLaaTn2QFF4I73fRq0vCXKLnR52Cx7WQKzrtXH8-EvFjUOiNNXz-9z0=",
+          "title": "proquest.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "ProQuest",
+    "domain": "proquest.com",
+    "description": "ProQuest, a part of Clarivate, specializes in providing comprehensive content and tools to enhance research and learning. The company curates a vast archive of indexed documents to support knowledge advancement in various communities. By streamlining workflows, ProQuest facilitates efficient access to information, allowing users to derive insights and make impactful discoveries. With various affiliates like Ex Libris and Alexander Street, ProQuest is dedicated to improving the research experience and fostering educational outcomes."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "ProQuest LLC",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing the ProQuest platform and services at proquest.com is ProQuest LLC.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the **ProQuest** platform and services at **proquest.com** is **ProQuest LLC**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5rU1-Cj7VNh_sFShWy25gXconxgn9ITa3icQj2oc5fDlWFohMg5H_9cDySnYeP7Vi04MxlmsF4UfV9MayYvmaDLaaTn2QFF4I73fRq0vCXKLnR52Cx7WQKzrtXH8-EvFjUOiNNXz-9z0=",
+    "title": "proquest.com"
+  },
+  "checked_at": "2026-11-05T08:19:51.093232+00:00"
+}

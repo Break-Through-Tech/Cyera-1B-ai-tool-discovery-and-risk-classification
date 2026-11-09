@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product **Respired** at **respired.io** is **Respired.io, Corp.** (which later transitioned to **Mora AI**).\n\n### Evidence:\n* **Terms of Service (`respired.io`):**  \n  > *\"We are Respired.io, Corp. ('Company,' 'we,' 'us,' 'our'), a company registered in Lewes, Delaware, United States. We operate the website www.respired.io (the 'Site'), the mobile application app.respired.io (the 'App'), as well as any other related products and services...\"*\n* **Privacy Policy (`respired.io`):**  \n  > *\"This privacy notice for Respired.io, Corp. ('Company,' 'we,' 'us,' or 'our'), describes how and why we might collect, store, use, and/or share ('process') your information when you use our services ('Services'), such as when you: Visit our website at http://www.respired.io...\"*\n* **Website Footer (`respired.io`):**  \n  > *\"© Mora AI (formerly respired.io, Corp.) - All Rights Reserved.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product **Respired** at **respired.io** is **Respired.io, Corp.** (which later transitioned to **Mora AI**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqnAlxpiUfb5B9tX_y24YFAQU3lvlovNiqDHbfODw82Ip63Xm_x627aamLOaO3EGwpIck0QYsuRIuWBRxotYJQVs4ovbdd4_xxZ9j2DN79zJEVUdYHtJ4UDIk=",
+          "title": "respired.io"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the software product **Respired** at **respired.io** is **Respired.io, Corp.** (which later transitioned to **Mora AI**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4MtNKH2kp4a6xJ4r1hr1Ui2kM94tiojnVrpvnDG3_qYo6yLDLjtcVRScJCcMUvz9XFpSHbnoI3l9tueVdEvy864LK1qGRknA7U2JXlpwd",
+          "title": "respired.io"
+        },
+        {
+          "id": 2,
+          "text": "We operate the website www.respired.io (the 'Site'), the mobile application app.respired.io (the 'App'), as well as any other related products and services...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqnAlxpiUfb5B9tX_y24YFAQU3lvlovNiqDHbfODw82Ip63Xm_x627aamLOaO3EGwpIck0QYsuRIuWBRxotYJQVs4ovbdd4_xxZ9j2DN79zJEVUdYHtJ4UDIk=",
+          "title": "respired.io"
+        },
+        {
+          "id": 3,
+          "text": "*\"This privacy notice for Respired.io, Corp. ('Company,' 'we,' 'us,' or 'our'), describes how and why we might collect, store, use, and/or share ('process') your information when you use our services ('Services'), such as when you: Visit our website at http://www.respired.io...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXnCprk_3JZr4a2dDC34T-BAydzXAUo4rAUpW2DAgCDMLxK5HtHIibs2QyJqhQaa9LBH5-5OGwas2tejgfkn9cWpHnIb11GD-cX2JVssC0_kY=",
+          "title": "respired.io"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Respired.io, Corp.",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing the software product Respired at respired.io is Respired.io, Corp. (which later transitioned to Mora AI).",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the software product **Respired** at **respired.io** is **Respired.io, Corp.** (which later transitioned to **Mora AI**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqnAlxpiUfb5B9tX_y24YFAQU3lvlovNiqDHbfODw82Ip63Xm_x627aamLOaO3EGwpIck0QYsuRIuWBRxotYJQVs4ovbdd4_xxZ9j2DN79zJEVUdYHtJ4UDIk=",
+          "title": "respired.io"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Respired",
+    "domain": "respired.io",
+    "description": "AI-powered social media management for better audience connection"
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Respired.io, Corp.",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing the software product Respired at respired.io is Respired.io, Corp. (which later transitioned to Mora AI).",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the software product **Respired** at **respired.io** is **Respired.io, Corp.** (which later transitioned to **Mora AI**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqnAlxpiUfb5B9tX_y24YFAQU3lvlovNiqDHbfODw82Ip63Xm_x627aamLOaO3EGwpIck0QYsuRIuWBRxotYJQVs4ovbdd4_xxZ9j2DN79zJEVUdYHtJ4UDIk=",
+    "title": "respired.io"
+  },
+  "checked_at": "2026-11-05T06:29:37.442013+00:00"
+}

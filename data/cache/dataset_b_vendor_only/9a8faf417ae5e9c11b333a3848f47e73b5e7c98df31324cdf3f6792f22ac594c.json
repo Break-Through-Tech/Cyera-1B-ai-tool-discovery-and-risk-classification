@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Teacher AI** at **yourteacher.ai** is **Teacher AI Inc.**.\n\n### Evidence:\n* **Legal Terms / Privacy Policy (`yourteacher.ai`):** States the operating entity as: \n  > *\"TEACHER AI INC. (Legal address: 8 The Green, Dover, DE, 19901, USA, registration number: 16805) (hereinafter - « TEACHER AI », « We », « Us », « Our »)\"*.\n* **Google Play and Apple App Store listings:** List the developer and seller for the corresponding mobile app (*Teacher AI – Speaking Practice* / *Teacher AI - Language Practice*) linking directly to `yourteacher.ai` as **Teacher AI Inc.**.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Teacher AI** at **yourteacher.ai** is **Teacher AI Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqar_D_JiOHr9taXOL5IOcK2NPO4-B8L9va0NjDZ3t0C-wSxdApZJne4Z6aIe6DWvvzn8ZlCKmmq4IKlATcQP0uWjkuP9Aat3gp-gCWJqmjr9gspKl0uO1awex2FoAtjxgSsnnm4KNt9lXcbVDwxuV3IuPu9HiEs7L9qYUTg==",
+          "title": "apple.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **Teacher AI** at **yourteacher.ai** is **Teacher AI Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGShY_vddvX16rcHqNbJY4XAbVptOqOMDrVKbnPwcU0Lk8uiNABU969hCm-uhedoinWPqa1e1Fe73IkbnuuFWhbC_0HWnpejtSWSHcMfKa-zoBGjfBT77kvHQYnSZM=",
+          "title": "yourteacher.ai"
+        },
+        {
+          "id": 2,
+          "text": "(Legal address: 8 The Green, Dover, DE, 19901, USA, registration number: 16805) (hereinafter - « TEACHER AI », « We », « Us », « Our »)\"*.\n* **Go",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGShY_vddvX16rcHqNbJY4XAbVptOqOMDrVKbnPwcU0Lk8uiNABU969hCm-uhedoinWPqa1e1Fe73IkbnuuFWhbC_0HWnpejtSWSHcMfKa-zoBGjfBT77kvHQYnSZM=",
+          "title": "yourteacher.ai"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Teacher AI Inc.",
+        "evidence": "Passage 1 explicitly states that the vendor directly providing Teacher AI at yourteacher.ai is Teacher AI Inc.",
+        "source": {
+          "id": 1,
+          "text": "The vendor directly providing **Teacher AI** at **yourteacher.ai** is **Teacher AI Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGShY_vddvX16rcHqNbJY4XAbVptOqOMDrVKbnPwcU0Lk8uiNABU969hCm-uhedoinWPqa1e1Fe73IkbnuuFWhbC_0HWnpejtSWSHcMfKa-zoBGjfBT77kvHQYnSZM=",
+          "title": "yourteacher.ai"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Teacher AI",
+    "domain": "yourteacher.ai",
+    "description": "Your personal AI language teacher on the go!"
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Teacher AI Inc.",
+  "evidence": "Passage 1 explicitly states that the vendor directly providing Teacher AI at yourteacher.ai is Teacher AI Inc.",
+  "source": {
+    "id": 1,
+    "text": "The vendor directly providing **Teacher AI** at **yourteacher.ai** is **Teacher AI Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGShY_vddvX16rcHqNbJY4XAbVptOqOMDrVKbnPwcU0Lk8uiNABU969hCm-uhedoinWPqa1e1Fe73IkbnuuFWhbC_0HWnpejtSWSHcMfKa-zoBGjfBT77kvHQYnSZM=",
+    "title": "yourteacher.ai"
+  },
+  "checked_at": "2026-11-05T07:36:08.993976+00:00"
+}

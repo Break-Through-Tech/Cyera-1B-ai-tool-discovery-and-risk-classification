@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "For **BuddyPress** at **buddypress.org**, the software product and website are provided as part of the **WordPress.org** network and developed by **The BuddyPress Community** (an open-source contributor project).\n\n### Supporting Evidence and Citations\n* **Network & Website Operator:** The official Privacy Policy of `buddypress.org` states:  \n  > *\"BuddyPress.org is part of the WordPress.org network of websites. You will find the full collective privacy policy on the WordPress.org Privacy Page.\"*  \n  The collective policy confirms:  \n  > *\"WordPress.org websites (collectively “WordPress.org” in this document) refer to sites hosted on the WordPress.org, WordPress.net, WordCamp.org, BuddyPress.org, bbPress.org, and other related domains and subdomains thereof.\"*\n* **Published Developer / Project Community:** The About page of `buddypress.org` states:  \n  > *\"BuddyPress is a GPL licensed open-source project made possible by thousands of contributors and believers around the world... Everything from the core code, to the documentation, themes and plugin extensions are all built by the BuddyPress community.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "For **BuddyPress** at **buddypress.org**, the software product and website are provided as part of the **WordPress.org** network and developed by **The BuddyPress Community** (an open-source contributor project)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLso5-_aeJLlMyydht015xTAX5fjOgkzaiXh8V5CHvf4JvoIVlRA_HBcVBKoCGZ0UltMHZuLSO-ugXoXNjeLOp0klRxnDsNECkfiUef2gCxC_SSo8Y3jeGz0Dv",
+          "title": "buddypress.org"
+        },
+        {
+          "id": 1,
+          "text": "For **BuddyPress** at **buddypress.org**, the software product and website are provided as part of the **WordPress.org** network and developed by **The BuddyPress Community** (an open-source contributor project)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-vSBQ5X-hbcBs9IwQqqszfLpln12geDEO05UPHm6o82Z_-Ao4iIg0KMIV4-enO3rhEVjfRQ-crEiwCPvTImtj5hsF94ON8RYKlWh0tCQs3DIlBQ==",
+          "title": "buddypress.org"
+        },
+        {
+          "id": 2,
+          "text": "For **BuddyPress** at **buddypress.org**, the software product and website are provided as part of the **WordPress.org** network and developed by **The BuddyPress Community** (an open-source contributor project)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-yurchTNDTgMNOxghMBDg1z8pJau2Nk4VmGKohwEMgXD_65hmp9yDTBeLpYqr1Q2wn92XYOErhcsyA64v8DtVBU29knRFSknRJDBsinfKRBeGKC-IaNp1UFY=",
+          "title": "wordpress.org"
+        },
+        {
+          "id": 3,
+          "text": "For **BuddyPress** at **buddypress.org**, the software product and website are provided as part of the **WordPress.org** network and developed by **The BuddyPress Community** (an open-source contributor project)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNHpn2KmToky8A_L3MeQUR7Zb5HRBlnRYKZhZUpLKXqsBVBkcGbdTRrcqBpZXNIf5fYLRMHbH9Fo0qe3n12DXbgtUL6JMg26Dgs_XkHL4UsF2njs-S5KxRUrQ37BAZqw==",
+          "title": "wordpress.org"
+        },
+        {
+          "id": 4,
+          "text": "You will find the full collective privacy policy on the WordPress.org Privacy Page.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLso5-_aeJLlMyydht015xTAX5fjOgkzaiXh8V5CHvf4JvoIVlRA_HBcVBKoCGZ0UltMHZuLSO-ugXoXNjeLOp0klRxnDsNECkfiUef2gCxC_SSo8Y3jeGz0Dv",
+          "title": "buddypress.org"
+        },
+        {
+          "id": 5,
+          "text": "*\"WordPress.org websites (collectively “WordPress.org” in this document) refer to sites hosted on the WordPress.org, WordPress.net, WordCamp.org, BuddyPress.org, bbPress.org, and other related domains and subdomains thereof.\"*\n* *",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-yurchTNDTgMNOxghMBDg1z8pJau2Nk4VmGKohwEMgXD_65hmp9yDTBeLpYqr1Q2wn92XYOErhcsyA64v8DtVBU29knRFSknRJDBsinfKRBeGKC-IaNp1UFY=",
+          "title": "wordpress.org"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "WordPress.org",
+        "evidence": "BuddyPress at buddypress.org is provided as part of the WordPress.org network and developed by The BuddyPress Community.",
+        "source": {
+          "id": 0,
+          "text": "For **BuddyPress** at **buddypress.org**, the software product and website are provided as part of the **WordPress.org** network and developed by **The BuddyPress Community** (an open-source contributor project)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLso5-_aeJLlMyydht015xTAX5fjOgkzaiXh8V5CHvf4JvoIVlRA_HBcVBKoCGZ0UltMHZuLSO-ugXoXNjeLOp0klRxnDsNECkfiUef2gCxC_SSo8Y3jeGz0Dv",
+          "title": "buddypress.org"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "BuddyPress",
+    "domain": "buddypress.org",
+    "description": "BuddyPress is a versatile software platform specializing in building online communities, facilitating team collaboration, and enhancing group interactions. It provides users with tools to create engaging social networking sites equipped with features tailored for community building."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "WordPress.org",
+  "evidence": "BuddyPress at buddypress.org is provided as part of the WordPress.org network and developed by The BuddyPress Community.",
+  "source": {
+    "id": 0,
+    "text": "For **BuddyPress** at **buddypress.org**, the software product and website are provided as part of the **WordPress.org** network and developed by **The BuddyPress Community** (an open-source contributor project)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLso5-_aeJLlMyydht015xTAX5fjOgkzaiXh8V5CHvf4JvoIVlRA_HBcVBKoCGZ0UltMHZuLSO-ugXoXNjeLOp0klRxnDsNECkfiUef2gCxC_SSo8Y3jeGz0Dv",
+    "title": "buddypress.org"
+  },
+  "checked_at": "2026-11-05T09:05:04.878045+00:00"
+}

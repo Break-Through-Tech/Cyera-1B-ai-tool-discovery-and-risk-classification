@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **Amplitude** at **amplitude.com** is directly provided by **Amplitude, Inc.**.\n\n### Evidence\n* **Terms of Service:** *\"Thank you for using the Amplitude Services (defined below) provided by Amplitude, Inc. with its offices at 201 3rd Street, Suite 200, San Francisco, CA 94103 ('Amplitude').\"*\n* **Privacy Notice:** *\"Amplitude, Inc. is a cloud-based product analytics platform that helps customers build better products... Amplitude, Inc. and its subsidiaries and/or affiliates ('Amplitude,' 'we,' or 'us') treat Personal Data that we gather about you in the course of our business, including when you access or use our Website or Product...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **Amplitude** at **amplitude.com** is directly provided by **Amplitude, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiW9AxWgphKbfV3U5Jw1gmmwzLjTVHfF4RDRpItuTAiHUIUVPnju_EYV6VFWj85uuEnME8EKnzkKvS_VSbq0ZOrX-nYySXhhTFd4zWksUfDc0=",
+          "title": "amplitude.com"
+        },
+        {
+          "id": 1,
+          "text": "The software product **Amplitude** at **amplitude.com** is directly provided by **Amplitude, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoA8CzG9GT5lSLjP8LZsQLMkUe4UsS_nOIhL6JeOBl2ZNAxXeDN507vxhwyhSJQoGEjSrGOukEZxAlJ3yvCgPTinzdHht32Z6ukiSWnmDdT5g=",
+          "title": "amplitude.com"
+        },
+        {
+          "id": 2,
+          "text": "**Terms of Service:** *\"Thank you for using the Amplitude Services (defined below) provided by Amplitude, Inc. with its offices at 201 3rd Street, Suite 200, San Francisco, CA 94103 ('Amplitude').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoA8CzG9GT5lSLjP8LZsQLMkUe4UsS_nOIhL6JeOBl2ZNAxXeDN507vxhwyhSJQoGEjSrGOukEZxAlJ3yvCgPTinzdHht32Z6ukiSWnmDdT5g=",
+          "title": "amplitude.com"
+        },
+        {
+          "id": 3,
+          "text": "Amplitude, Inc. and its subsidiaries and/or affiliates ('Amplitude,' 'we,' or 'us') treat Personal Data that we gather about you in the course of our business, including when you access or use our Website or Product...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGw3HFJUu-npau9R5CWrHvPn-koIztsdsF6fBEF6EcnijOlULhKjtcnUTw2KEZfItUmtTgAxghNk7YsRDmdbPVIh4XBnjHNZYaG7APxlWZ7Cp5jcA==",
+          "title": "amplitude.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Amplitude, Inc.",
+        "evidence": "According to the Terms of Service, the Amplitude Services are provided by Amplitude, Inc.",
+        "source": {
+          "id": 2,
+          "text": "**Terms of Service:** *\"Thank you for using the Amplitude Services (defined below) provided by Amplitude, Inc. with its offices at 201 3rd Street, Suite 200, San Francisco, CA 94103 ('Amplitude').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoA8CzG9GT5lSLjP8LZsQLMkUe4UsS_nOIhL6JeOBl2ZNAxXeDN507vxhwyhSJQoGEjSrGOukEZxAlJ3yvCgPTinzdHht32Z6ukiSWnmDdT5g=",
+          "title": "amplitude.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Amplitude",
+    "domain": "amplitude.com",
+    "description": "Amplitude is a leading product analytics company that empowers businesses to understand user behavior and optimize their digital products. With its innovative platform, Amplitude offers insights that help companies drive growth and improve user engagement. The company is located in San Francisco, California, and serves clients across various industries through its comprehensive analytics solutions."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Amplitude, Inc.",
+  "evidence": "According to the Terms of Service, the Amplitude Services are provided by Amplitude, Inc.",
+  "source": {
+    "id": 2,
+    "text": "**Terms of Service:** *\"Thank you for using the Amplitude Services (defined below) provided by Amplitude, Inc. with its offices at 201 3rd Street, Suite 200, San Francisco, CA 94103 ('Amplitude').\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoA8CzG9GT5lSLjP8LZsQLMkUe4UsS_nOIhL6JeOBl2ZNAxXeDN507vxhwyhSJQoGEjSrGOukEZxAlJ3yvCgPTinzdHht32Z6ukiSWnmDdT5g=",
+    "title": "amplitude.com"
+  },
+  "checked_at": "2026-11-05T09:19:35.695185+00:00"
+}

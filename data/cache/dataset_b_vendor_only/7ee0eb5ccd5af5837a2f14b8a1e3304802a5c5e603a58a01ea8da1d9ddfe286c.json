@@ -1,0 +1,79 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **WooCommerce** at **woocommerce.com** is **WooCommerce, Inc.** (for users outside designated countries) and **WooCommerce Ireland Ltd.** (for users in Europe, Australia, Canada, Japan, Mexico, New Zealand, and Russia), operating under parent company **Automattic Inc.**\n\n### Provider Statement & Evidence\nFrom the governing Terms of Service (under *Who's Who - Woo Services*):\n> *\"Woo services includes WooCommerce, WooPayments, WooCommerce Shipping, WooCommerce Tax, MailPoet, and other products or services available at WooCommerce.com... If you reside outside of the Designated Countries: **WooCommerce, Inc.** If you reside in the Designated Countries: **WooCommerce Ireland Ltd.**\"*\n\nAdditionally, official legal and policy documentation on `woocommerce.com` confirms:\n> *\"If you reside in Australia, Canada, Japan, Mexico, New Zealand, Russia, or any countries located in Europe (including the UK and the ROI), your agreement is with WooCommerce Ireland Ltd. ... If you reside anywhere else, your agreement is with WooCommerce Inc.\"*\n> *“© WooCommerce, Inc. ... An Automattic creation.”*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **WooCommerce** at **woocommerce.com** is **WooCommerce, Inc.** (for users outside designated countries) and **WooCommerce Ireland Ltd.** (for users in Europe, Australia, Canada, Japan, Mexico, New Zealand, and Russia), operating under parent company **Automattic Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-R9kc0cskDyrAzN9J0JZ57gGcJhb0yALWLzSg7q9X1ilZnoK3-ls_wPnzwFg8EDhPC9NbAjzM5ZqoZaeZLsI18sx2T-eQ_cJ3qKmm7-ekqWZ0x6LvTjbMPMo5YvnU2g93861frYB8NSHW3RreBEq4pVDl5lMmKl2ThkjI6Wn-NCmBxs7pW-xqxR7P_w==",
+          "title": "woocommerce.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing **WooCommerce** at **woocommerce.com** is **WooCommerce, Inc.** (for users outside designated countries) and **WooCommerce Ireland Ltd.** (for users in Europe, Australia, Canada, Japan, Mexico, New Zealand, and Russia), operating under parent company **Automattic Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnZP82fA9BO_xfPOwl_fkfLa2YIbUaB55AbHLJlzfX9YNyN8ALhcDzaaghqgUP9eKfwTfwplI-e0jn9jIXa9mEcqn7w1kXTMC0WebDvSY_DKldyiCMg3lFtlRgzxsQJsUMS0FKeBKroCWM-70FtEvjyCQdXdS7FocdBmGoRbgruikYnhV-kXk1D_o3l6LRZsi552Poo6ZeK3LxxZZ53d335IQfVFg=",
+          "title": "github.com"
+        },
+        {
+          "id": 2,
+          "text": "From the governing Terms of Service (under *Who's Who - Woo Services*)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnZP82fA9BO_xfPOwl_fkfLa2YIbUaB55AbHLJlzfX9YNyN8ALhcDzaaghqgUP9eKfwTfwplI-e0jn9jIXa9mEcqn7w1kXTMC0WebDvSY_DKldyiCMg3lFtlRgzxsQJsUMS0FKeBKroCWM-70FtEvjyCQdXdS7FocdBmGoRbgruikYnhV-kXk1D_o3l6LRZsi552Poo6ZeK3LxxZZ53d335IQfVFg=",
+          "title": "github.com"
+        },
+        {
+          "id": 3,
+          "text": "**\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnZP82fA9BO_xfPOwl_fkfLa2YIbUaB55AbHLJlzfX9YNyN8ALhcDzaaghqgUP9eKfwTfwplI-e0jn9jIXa9mEcqn7w1kXTMC0WebDvSY_DKldyiCMg3lFtlRgzxsQJsUMS0FKeBKroCWM-70FtEvjyCQdXdS7FocdBmGoRbgruikYnhV-kXk1D_o3l6LRZsi552Poo6ZeK3LxxZZ53d335IQfVFg=",
+          "title": "github.com"
+        },
+        {
+          "id": 4,
+          "text": "Additionally, official legal and policy documentation on `woocommerce.com` confirms",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAd5UDYE_b4mNiA5Vlo3JGaBFOoYESooAHSsXa51KQyXcP1WvMicYOAbUBqPFVfpGjf17RRmnjJuROOUyKb_0_TFmNaYPrK3bmWtJcdfe-aYaMfvud-lV0dA3JFnUj7I7wmFxX8xYbhmEoLx6_KlH7",
+          "title": "woocommerce.com"
+        },
+        {
+          "id": 5,
+          "text": "Additionally, official legal and policy documentation on `woocommerce.com` confirms",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8i-52HDx6aakgT3xg7H3eN-BT7e79l1uqX5IHMds_4ZcYzvevKcn9jYvYA9LugfN8Cz7ZUxhBt-hjESWbcvbV7hmHS8BBRZhX06BkOxAVHSgqS178V_GwPemrXLJawiOAZLrqFcEm21qHpuVdxrrLHIjQWMn4jIW0zW0Z80SsxMIxppQmVnwcI_6zMg==",
+          "title": "woocommerce.com"
+        },
+        {
+          "id": 6,
+          "text": "If you reside anywhere else, your agreement is with WooCommerce Inc.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8i-52HDx6aakgT3xg7H3eN-BT7e79l1uqX5IHMds_4ZcYzvevKcn9jYvYA9LugfN8Cz7ZUxhBt-hjESWbcvbV7hmHS8BBRZhX06BkOxAVHSgqS178V_GwPemrXLJawiOAZLrqFcEm21qHpuVdxrrLHIjQWMn4jIW0zW0Z80SsxMIxppQmVnwcI_6zMg==",
+          "title": "woocommerce.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "WooCommerce, Inc.",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing WooCommerce at woocommerce.com is WooCommerce, Inc. (and WooCommerce Ireland Ltd. in certain designated countries), operating under parent company Automattic Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **WooCommerce** at **woocommerce.com** is **WooCommerce, Inc.** (for users outside designated countries) and **WooCommerce Ireland Ltd.** (for users in Europe, Australia, Canada, Japan, Mexico, New Zealand, and Russia), operating under parent company **Automattic Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-R9kc0cskDyrAzN9J0JZ57gGcJhb0yALWLzSg7q9X1ilZnoK3-ls_wPnzwFg8EDhPC9NbAjzM5ZqoZaeZLsI18sx2T-eQ_cJ3qKmm7-ekqWZ0x6LvTjbMPMo5YvnU2g93861frYB8NSHW3RreBEq4pVDl5lMmKl2ThkjI6Wn-NCmBxs7pW-xqxR7P_w==",
+          "title": "woocommerce.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "WooCommerce",
+    "domain": "woocommerce.com",
+    "description": "WooCommerce is an open-source ecommerce platform integrated with WordPress, designed to empower merchants in establishing and expanding their online stores rapidly. It offers a comprehensive suite of tools that support businesses from initial sales to sustained revenue growth, catering to millions of users. The platform's flexibility and scalability enable diverse ecommerce needs, fostering long-term success for online retailers."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "WooCommerce, Inc.",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing WooCommerce at woocommerce.com is WooCommerce, Inc. (and WooCommerce Ireland Ltd. in certain designated countries), operating under parent company Automattic Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **WooCommerce** at **woocommerce.com** is **WooCommerce, Inc.** (for users outside designated countries) and **WooCommerce Ireland Ltd.** (for users in Europe, Australia, Canada, Japan, Mexico, New Zealand, and Russia), operating under parent company **Automattic Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-R9kc0cskDyrAzN9J0JZ57gGcJhb0yALWLzSg7q9X1ilZnoK3-ls_wPnzwFg8EDhPC9NbAjzM5ZqoZaeZLsI18sx2T-eQ_cJ3qKmm7-ekqWZ0x6LvTjbMPMo5YvnU2g93861frYB8NSHW3RreBEq4pVDl5lMmKl2ThkjI6Wn-NCmBxs7pW-xqxR7P_w==",
+    "title": "woocommerce.com"
+  },
+  "checked_at": "2026-11-05T08:19:00.679239+00:00"
+}

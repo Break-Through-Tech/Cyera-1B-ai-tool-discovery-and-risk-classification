@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor and developer directly providing **Aposting** at **aposting.com** is independent developer **Samuel Whitehall**. No formal corporate entity is published for the platform.\n\n### Supporting Evidence:\n* **Product / Domain:** Aposting (`aposting.com`).\n* **Developer Statement:** In a public release announcement on Hacker News (*Show HN: I Built an AI to Auto-Write LinkedIn Posts (aposting.com)*), developer Samuel Whitehall announced:\n  > *\"Hey HN, I built an AI that automates LinkedIn content creation—from generating post ideas to writing full posts in seconds... Try it here: https://aposting.com.\"*\n  > *\"I built this tool to make LinkedIn posting effortless, but I know it's not perfect yet.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor and developer directly providing **Aposting** at **aposting.com** is independent developer **Samuel Whitehall**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaSLLFIvGhBoyx0GLlARiMD6ZiNcpwPaouHuWYrbAczB8AJAdp7y4A-BIXk5y1zkIBQh2Jhq77ye14WxKopRm-sdW1w_m7N6Mt6uHYcm4Du4C62oXZwkYWo__y02itaatuVgs=",
+          "title": "ycombinator.com"
+        },
+        {
+          "id": 1,
+          "text": "No formal corporate entity is published for the platform",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaSLLFIvGhBoyx0GLlARiMD6ZiNcpwPaouHuWYrbAczB8AJAdp7y4A-BIXk5y1zkIBQh2Jhq77ye14WxKopRm-sdW1w_m7N6Mt6uHYcm4Du4C62oXZwkYWo__y02itaatuVgs=",
+          "title": "ycombinator.com"
+        },
+        {
+          "id": 2,
+          "text": "**Product / Domain:** Aposting (`aposting.com`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaSLLFIvGhBoyx0GLlARiMD6ZiNcpwPaouHuWYrbAczB8AJAdp7y4A-BIXk5y1zkIBQh2Jhq77ye14WxKopRm-sdW1w_m7N6Mt6uHYcm4Du4C62oXZwkYWo__y02itaatuVgs=",
+          "title": "ycombinator.com"
+        },
+        {
+          "id": 3,
+          "text": "y it here: https://aposting.com.\"*\n ",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaSLLFIvGhBoyx0GLlARiMD6ZiNcpwPaouHuWYrbAczB8AJAdp7y4A-BIXk5y1zkIBQh2Jhq77ye14WxKopRm-sdW1w_m7N6Mt6uHYcm4Du4C62oXZwkYWo__y02itaatuVgs=",
+          "title": "ycombinator.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Samuel Whitehall",
+        "evidence": "Passage 0 directly states that independent developer Samuel Whitehall is the vendor and developer providing Aposting at aposting.com.",
+        "source": {
+          "id": 0,
+          "text": "The vendor and developer directly providing **Aposting** at **aposting.com** is independent developer **Samuel Whitehall**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaSLLFIvGhBoyx0GLlARiMD6ZiNcpwPaouHuWYrbAczB8AJAdp7y4A-BIXk5y1zkIBQh2Jhq77ye14WxKopRm-sdW1w_m7N6Mt6uHYcm4Du4C62oXZwkYWo__y02itaatuVgs=",
+          "title": "ycombinator.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Aposting",
+    "domain": "aposting.com",
+    "description": "Aposting is an AI-powered platform designed to streamline social media content creation, helping users generate engaging posts, compelling captions, and relevant hashtags quickly and efficiently across various platforms."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Samuel Whitehall",
+  "evidence": "Passage 0 directly states that independent developer Samuel Whitehall is the vendor and developer providing Aposting at aposting.com.",
+  "source": {
+    "id": 0,
+    "text": "The vendor and developer directly providing **Aposting** at **aposting.com** is independent developer **Samuel Whitehall**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaSLLFIvGhBoyx0GLlARiMD6ZiNcpwPaouHuWYrbAczB8AJAdp7y4A-BIXk5y1zkIBQh2Jhq77ye14WxKopRm-sdW1w_m7N6Mt6uHYcm4Du4C62oXZwkYWo__y02itaatuVgs=",
+    "title": "ycombinator.com"
+  },
+  "checked_at": "2026-11-05T06:28:53.346398+00:00"
+}

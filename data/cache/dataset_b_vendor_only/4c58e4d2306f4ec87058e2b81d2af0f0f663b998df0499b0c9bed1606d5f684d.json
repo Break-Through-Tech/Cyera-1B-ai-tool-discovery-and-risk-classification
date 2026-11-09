@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the **Mixpanel** analytics platform at **mixpanel.com** is **Mixpanel, Inc.**.\n\n### Supporting Evidence:\n* According to Mixpanel's Privacy Statement at `mixpanel.com/legal/privacy-policy`:\n  > *\"This Privacy Statement reflects Mixpanel, Inc.'s (collectively with its subsidiaries and affiliated companies, 'Mixpanel,' 'we,' 'our,' and 'us') commitment to privacy and data protection. This Privacy Statement describes how we collect and process data about visitors to our websites (the 'Site'), users of our web and mobile applications ('Applications') including individuals who use Mixpanel's data analytics platform and professional services (collectively the 'Services').\"*\n* Mixpanel's legal agreements and terms similarly confirm the contracting provider for its Application Services is **Mixpanel, Inc.**.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the **Mixpanel** analytics platform at **mixpanel.com** is **Mixpanel, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGTdxM4Y4eYPBHXkN7VD6hTHawVA4055c6QuhgNu9a38IV2monHYHO1m20NpugUcHtjXFaIQFXOccDc13dNMcNF8ehuodrcEX30FrkbKmSfTeSHZyY41C5rMI5NNko2mA=",
+          "title": "mixpanel.com"
+        },
+        {
+          "id": 1,
+          "text": "This Privacy Statement describes how we collect and process data about visitors to our websites (the 'Site'), users of our web and mobile applications ('Applications') including individuals who use Mixpanel's data analytics platform and professional services (collectively the 'Services').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGTdxM4Y4eYPBHXkN7VD6hTHawVA4055c6QuhgNu9a38IV2monHYHO1m20NpugUcHtjXFaIQFXOccDc13dNMcNF8ehuodrcEX30FrkbKmSfTeSHZyY41C5rMI5NNko2mA=",
+          "title": "mixpanel.com"
+        },
+        {
+          "id": 2,
+          "text": "Mixpanel's legal agreements and terms similarly confirm the contracting provider for its Application Services is **Mixpanel, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHaFUUllGewTOQagScK9Rmp43bIRH_h1ynfYI3PhbIJSwACNutFu9RlmdWNvAgyHQ3kFg6zsf89xwmn-M95zkejgyuPQPndB3JGBawlXkb7bF6Js_j_uquLeG9hB9jardxOscFnrXYoSqLSJ5psKhpcIpp5G3H3",
+          "title": "mixpanel.com"
+        },
+        {
+          "id": 3,
+          "text": "This Privacy Statement reflects Mixpanel, Inc.'s (collectively with its subsidiaries and affiliated companies, 'Mixpanel,' 'we,' 'our,' and 'us') commitment to privacy and data protection. This Privacy Statement describes how we collect and process data about visitors to our websites (the 'Site'), users of our web and mobile applications ('Applications') including individuals who use Mixpanel's data analytics platform and professional services (collectively the",
+          "url": "https://mixpanel.com/legal/privacy-policy",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Mixpanel, Inc.",
+        "evidence": "Passage 0 explicitly states that the vendor directly providing the Mixpanel analytics platform at mixpanel.com is Mixpanel, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the **Mixpanel** analytics platform at **mixpanel.com** is **Mixpanel, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGTdxM4Y4eYPBHXkN7VD6hTHawVA4055c6QuhgNu9a38IV2monHYHO1m20NpugUcHtjXFaIQFXOccDc13dNMcNF8ehuodrcEX30FrkbKmSfTeSHZyY41C5rMI5NNko2mA=",
+          "title": "mixpanel.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Mixpanel",
+    "domain": "mixpanel.com",
+    "description": "Mixpanel is an event analytics platform based in San Francisco that provides businesses with powerful real-time analytical tools to gain insights from customer and revenue data. It allows users to visualize user interactions with digital products and understand behaviors like conversion and retention. Mixpanel serves over 8,000 clients globally, including major companies such as Uber and Yelp, enabling teams to collaborate and make data-driven decisions effectively."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Mixpanel, Inc.",
+  "evidence": "Passage 0 explicitly states that the vendor directly providing the Mixpanel analytics platform at mixpanel.com is Mixpanel, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the **Mixpanel** analytics platform at **mixpanel.com** is **Mixpanel, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGTdxM4Y4eYPBHXkN7VD6hTHawVA4055c6QuhgNu9a38IV2monHYHO1m20NpugUcHtjXFaIQFXOccDc13dNMcNF8ehuodrcEX30FrkbKmSfTeSHZyY41C5rMI5NNko2mA=",
+    "title": "mixpanel.com"
+  },
+  "checked_at": "2026-11-05T08:02:24.160286+00:00"
+}

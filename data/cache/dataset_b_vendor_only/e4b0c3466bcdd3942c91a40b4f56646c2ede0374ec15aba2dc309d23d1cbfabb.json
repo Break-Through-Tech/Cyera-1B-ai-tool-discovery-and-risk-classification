@@ -1,0 +1,85 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software, services, and website at **matrix.org** for **Matrix Foundation** is **The Matrix.org Foundation C.I.C.** (also referred to as **The Matrix.org Foundation**).\n\n### Supporting Evidence\n* **About Page (`matrix.org/about`):** \n  > *\"The evolution of Matrix is managed through an open governance process, looked after by The Matrix.org Foundation - a non-profit UK Community Interest Company, incorporated to act as the neutral guardian of the standard on behalf of the whole Matrix community.\"*\n* **Terms of Service / Terms of Use (`matrix.org`):** \n  > *\"Where you read The Matrix.org Foundation C.I.C., The Matrix.org Foundation, or The Foundation, it refers to the Community Interest Company incorporated on 29 October 2018 to be the neutral custodian of the Matrix protocol...\"*\n  > *\"Postal address: The Matrix.org Foundation (the 'Foundation'), 14 Turnham Green Terrace Mews, London, United Kingdom, W4 1QU.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software, services, and website at **matrix.org** for **Matrix Foundation** is **The Matrix.org Foundation C.I.C.** (also referred to as **The Matrix.org Foundation**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNW3CnpokrejG--b1Ea2vX7_N091_JKXz-4vdMv_NUFd0lNaPqTV2Ld7QfixT4v_LTJhHmf-9z97uLURgyX1rnAIL-smvIkbPjcBdu1trtz5lEDcHR8UkPhJUIi4M=",
+          "title": "matrix.org"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the software, services, and website at **matrix.org** for **Matrix Foundation** is **The Matrix.org Foundation C.I.C.** (also referred to as **The Matrix.org Foundation**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnrO2qypHDKL3hJ0HjEfg-c84X-r2CiImYS58fugvd55hTx68TpG7zJsWw1ow8p49w2NyXd2SPDiAtUIUck2xWDOnApSlCgcUB4rwvPUPe",
+          "title": "matrix.org"
+        },
+        {
+          "id": 2,
+          "text": "The vendor directly providing the software, services, and website at **matrix.org** for **Matrix Foundation** is **The Matrix.org Foundation C.I.C.** (also referred to as **The Matrix.org Foundation**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUEB6xFlRJD1gXmeubXFTs1efIN_YLKo4XFuK-stjUJLK9Jnlxd5g0yZlH88DPbMiScA51gzgECfx0oRkQ9yw0ZBZokzn8YiKnKtJaVyyU69VxN1SWHTTk6yjKQrHToJk52EVMgs3otPId9RskBtn-owvH49zQ9BoTCPHj9R_xP4ejTI1JsoIMXxxCvCl7-w==",
+          "title": "github.com"
+        },
+        {
+          "id": 3,
+          "text": "*\"The evolution of Matrix is managed through an open governance process, looked after by The Matrix.org Foundation - a non-profit UK Community Interest Company, incorporated to act as the neutral guardian of the standard on behalf of the whole Matrix community.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnrO2qypHDKL3hJ0HjEfg-c84X-r2CiImYS58fugvd55hTx68TpG7zJsWw1ow8p49w2NyXd2SPDiAtUIUck2xWDOnApSlCgcUB4rwvPUPe",
+          "title": "matrix.org"
+        },
+        {
+          "id": 4,
+          "text": "*\"Where you read The Matrix.org Foundation C.I.C., The Matrix.org Foundation, or The Foundation, it refers to the Community Interest Company incorporated on 29 October 2018 to be the neutral custodian of the Matrix protocol...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUEB6xFlRJD1gXmeubXFTs1efIN_YLKo4XFuK-stjUJLK9Jnlxd5g0yZlH88DPbMiScA51gzgECfx0oRkQ9yw0ZBZokzn8YiKnKtJaVyyU69VxN1SWHTTk6yjKQrHToJk52EVMgs3otPId9RskBtn-owvH49zQ9BoTCPHj9R_xP4ejTI1JsoIMXxxCvCl7-w==",
+          "title": "github.com"
+        },
+        {
+          "id": 5,
+          "text": "*\"Postal address: The Matrix.org Foundation (the 'Foundation'), 14 Turnham Green Terrace Mews, London, United Kingdom, W4 1QU.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNW3CnpokrejG--b1Ea2vX7_N091_JKXz-4vdMv_NUFd0lNaPqTV2Ld7QfixT4v_LTJhHmf-9z97uLURgyX1rnAIL-smvIkbPjcBdu1trtz5lEDcHR8UkPhJUIi4M=",
+          "title": "matrix.org"
+        },
+        {
+          "id": 6,
+          "text": "The evolution of Matrix is managed through an open governance process, looked after by The Matrix.org Foundation - a non-profit UK Community Interest Company, incorporated to act as the neutral guardian of the standard on behalf of the whole Matrix com",
+          "url": "https://matrix.org/foundation/about/",
+          "title": ""
+        },
+        {
+          "id": 7,
+          "text": "Where you read The Matrix.org Foundation C.I.C., The Matrix.org Foundation, or The Foundation, it refers to the Community Interest Company incorporated on 29 October 2018 to be the neutral custodian of the Matrix proto",
+          "url": "https://t2bot.io/docs/legal/privacy-v1/",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "The Matrix.org Foundation C.I.C.",
+        "evidence": "Passage 0 explicitly identifies The Matrix.org Foundation C.I.C. as the vendor directly providing the software, services, and website at matrix.org for Matrix Foundation.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing the software, services, and website at **matrix.org** for **Matrix Foundation** is **The Matrix.org Foundation C.I.C.** (also referred to as **The Matrix.org Foundation**)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNW3CnpokrejG--b1Ea2vX7_N091_JKXz-4vdMv_NUFd0lNaPqTV2Ld7QfixT4v_LTJhHmf-9z97uLURgyX1rnAIL-smvIkbPjcBdu1trtz5lEDcHR8UkPhJUIi4M=",
+          "title": "matrix.org"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Matrix Foundation",
+    "domain": "matrix.org",
+    "description": "The Matrix.org Foundation is dedicated to supporting the Matrix protocol, which facilitates decentralized and secure communication. As a neutral custodian, the foundation works to maintain a unified and open communication standard, allowing users to control their own conversations without being confined to centralized services. They advocate for privacy rights in communication and aim to provide accessible and open networks for all users globally."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "The Matrix.org Foundation C.I.C.",
+  "evidence": "Passage 0 explicitly identifies The Matrix.org Foundation C.I.C. as the vendor directly providing the software, services, and website at matrix.org for Matrix Foundation.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing the software, services, and website at **matrix.org** for **Matrix Foundation** is **The Matrix.org Foundation C.I.C.** (also referred to as **The Matrix.org Foundation**)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNW3CnpokrejG--b1Ea2vX7_N091_JKXz-4vdMv_NUFd0lNaPqTV2Ld7QfixT4v_LTJhHmf-9z97uLURgyX1rnAIL-smvIkbPjcBdu1trtz5lEDcHR8UkPhJUIi4M=",
+    "title": "matrix.org"
+  },
+  "checked_at": "2026-11-05T08:05:34.607063+00:00"
+}

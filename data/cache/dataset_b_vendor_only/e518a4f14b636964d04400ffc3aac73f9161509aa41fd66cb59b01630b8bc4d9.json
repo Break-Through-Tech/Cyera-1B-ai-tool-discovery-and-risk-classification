@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Spreaker** at **spreaker.com** is **Spreaker, Inc.**\n\n### Evidence\nAccording to the Spreaker [Terms of Service](https://www.spreaker.com/terms):\n> *\"Owner of Spreaker and related Services*  \n> *Spreaker, Inc.*  \n> *20880 Stone Oak Parkway San Antonio, TX 78258\"*\n\nIts [Privacy Policy](https://www.spreaker.com/privacy) similarly identifies the operating entity:\n> *\"Spreaker, Inc. respects your privacy and is committed to treating your personal information in a transparent manner.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Spreaker** at **spreaker.com** is **Spreaker, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGh6p3cTzCq2I5Tt8WKKgNcvjRqciAtE0Xd0beYBN7dz-blHt0bVbeYxjSyV7Bur1nw5KjxXaJyAg6z0K9yhxpckv7hBwH9qimXkUNQYL83h6-3ro4=",
+          "title": "spreaker.com"
+        },
+        {
+          "id": 1,
+          "text": "*20880 Stone Oak Parkway San Antonio, TX 78258\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGh6p3cTzCq2I5Tt8WKKgNcvjRqciAtE0Xd0beYBN7dz-blHt0bVbeYxjSyV7Bur1nw5KjxXaJyAg6z0K9yhxpckv7hBwH9qimXkUNQYL83h6-3ro4=",
+          "title": "spreaker.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"Spreaker, Inc. respects your privacy and is committed to treating your personal information in a transparent manner.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8x2H7bL1kJQCD0pNLj2FKPoiEp1T3a2betkZ7A3q36XqeTPCoQUQl4vNv1VwdFNGcJWsGe9MnmLzPOxVf-ZDV_3Zv-tyT_a25rNtJhGS5hTWuabZaMQ==",
+          "title": "spreaker.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Spreaker, Inc.",
+        "evidence": "Passage 0 states directly that the vendor providing Spreaker at spreaker.com is Spreaker, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Spreaker** at **spreaker.com** is **Spreaker, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGh6p3cTzCq2I5Tt8WKKgNcvjRqciAtE0Xd0beYBN7dz-blHt0bVbeYxjSyV7Bur1nw5KjxXaJyAg6z0K9yhxpckv7hBwH9qimXkUNQYL83h6-3ro4=",
+          "title": "spreaker.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Spreaker",
+    "domain": "spreaker.com",
+    "description": "Spreaker, founded in 2010, is a comprehensive platform for creating, distributing, and analyzing podcasts. It caters to both new and established podcasters, radio hosts, and broadcasters with user-friendly web and mobile applications. The platform facilitates live audio streaming, audience engagement, and content sharing across social networks, all while providing detailed analytics to its users. Spreaker enhances the listening experience by allowing users to discover diverse podcasts and follow their favorite creators. With a freemium model, it offers both free and premium features, accommodating various user needs."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Spreaker, Inc.",
+  "evidence": "Passage 0 states directly that the vendor providing Spreaker at spreaker.com is Spreaker, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Spreaker** at **spreaker.com** is **Spreaker, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGh6p3cTzCq2I5Tt8WKKgNcvjRqciAtE0Xd0beYBN7dz-blHt0bVbeYxjSyV7Bur1nw5KjxXaJyAg6z0K9yhxpckv7hBwH9qimXkUNQYL83h6-3ro4=",
+    "title": "spreaker.com"
+  },
+  "checked_at": "2026-11-05T08:38:33.183308+00:00"
+}

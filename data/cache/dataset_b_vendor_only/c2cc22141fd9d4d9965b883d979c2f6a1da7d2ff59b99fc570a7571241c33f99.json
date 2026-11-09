@@ -1,0 +1,73 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor providing **CopyReadyNow** at **copyreadynow.com** is **VIRTPRODUCTGROUP LTD**. \n\n### Evidence:\n* **Operating Entity Profile:** SaaS company tracking records identify **VIRTPRODUCTGROUP LTD** (based in London, UK) as the company operating `copyreadynow.com`:\n  > *\"Create content pieces with great accuracy, thanks to our highly-targeted AI-powered copywriting tool. CopyReadyNow is designed to help tech marketers and writers produce content, without the 'written by AI' feel. ... copyreadynow.com\"*\n* **Leadership and Developers:** VIRTPRODUCTGROUP LTD is led by CEO Tim Meredith, who developed and launched CopyReadyNow alongside co-founders Jim Freeman and Kateryna Novozhylova (also the team behind the agency Fractional Teams / Next Generation ICT Ltd).",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor providing **CopyReadyNow** at **copyreadynow.com** is **VIRTPRODUCTGROUP LTD**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF808fNLDalDIuHiJojt4OSTG9J6IsfK_wmYTRm1xNbF-NuFYBw0u73C-8KG2L8elYFS7bKzIY5YohlX9cI6HTjx4Z54g6-sly7G8agBepTY0d5Is39oqehfYSKJP4LSlYGF7PIETObXgqdKNYkdKKK",
+          "title": "getlatka.com"
+        },
+        {
+          "id": 1,
+          "text": "CopyReadyNow is designed to help tech marketers and writers produce content, without the 'written by AI' feel. ... copyreadynow.com\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF808fNLDalDIuHiJojt4OSTG9J6IsfK_wmYTRm1xNbF-NuFYBw0u73C-8KG2L8elYFS7bKzIY5YohlX9cI6HTjx4Z54g6-sly7G8agBepTY0d5Is39oqehfYSKJP4LSlYGF7PIETObXgqdKNYkdKKK",
+          "title": "getlatka.com"
+        },
+        {
+          "id": 2,
+          "text": "**Leadership and Developers:** VIRTPRODUCTGROUP LTD is led by CEO Tim Meredith",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAtQzA-WCy3gaX2wG9I9ykn4dlIf14DHV8uOB0-JiBOHk4zn-hwH73RQz3o5myUU2eKFRr_dM-UCBTbFf4KlguQVfcb3Rd5P6O-8eGz3qa5cCLMuJ_kej946ZfDYBCbXcrWw==",
+          "title": "getlatka.com"
+        },
+        {
+          "id": 3,
+          "text": "**Leadership and Developers:** VIRTPRODUCTGROUP LTD is led by CEO Tim Meredith, who developed and launched CopyReadyNow alongside co-founders Jim Freeman and Kateryna Novozhylova (also the team behind the agency Fractional Teams / Next Generation ICT Ltd)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfR0HkOFp8gdwQiDfECsN2YtFAiUawxBE6yRt13XQ8_9KHdTm8U-Ue3MKZrAJObV4mjkX0FyzD5nm55X0_JMTcJ3MCb7plNsSI4QcmFDdXL4sGCpKgocj7u57czVK3pTNZZSREi55ZqtkX",
+          "title": "spotify.com"
+        },
+        {
+          "id": 4,
+          "text": "**Leadership and Developers:** VIRTPRODUCTGROUP LTD is led by CEO Tim Meredith, who developed and launched CopyReadyNow alongside co-founders Jim Freeman and Kateryna Novozhylova (also the team behind the agency Fractional Teams / Next Generation ICT Ltd)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG5m164lC3hcN6dwd8BicVvDnVO5QDhTc2uv5jT7YXKQyZqCbKDV4BoGhxZIh5T_zX3MQgZIsuCmmLCvJpXI3kz6ZBc7T8G0XIEL6o0lk6IV_AtRrYOx-qQm3qiIK5xezNqAHyW8Re7yzx3g==",
+          "title": "azariangrowthagency.com"
+        },
+        {
+          "id": 5,
+          "text": "**Leadership and Developers:** VIRTPRODUCTGROUP LTD is led by CEO Tim Meredith, who developed and launched CopyReadyNow alongside co-founders Jim Freeman and Kateryna Novozhylova (also the team behind the agency Fractional Teams / Next Generation ICT Ltd)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYC5bzH-i4GjlW2f7QaKb6w40Q2suGZRwO6arauCZ-MCKQLOk04FAzQ9u3lhrqgjtP03XJitrSKLHoC9RUfW8rjRimndQJNu1FFNcOaco3vISCKVumyPHmW9tQYbg=",
+          "title": "fractionalteams.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "VIRTPRODUCTGROUP LTD",
+        "evidence": "Passage 0 states directly that the vendor providing CopyReadyNow at copyreadynow.com is VIRTPRODUCTGROUP LTD.",
+        "source": {
+          "id": 0,
+          "text": "The vendor providing **CopyReadyNow** at **copyreadynow.com** is **VIRTPRODUCTGROUP LTD**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF808fNLDalDIuHiJojt4OSTG9J6IsfK_wmYTRm1xNbF-NuFYBw0u73C-8KG2L8elYFS7bKzIY5YohlX9cI6HTjx4Z54g6-sly7G8agBepTY0d5Is39oqehfYSKJP4LSlYGF7PIETObXgqdKNYkdKKK",
+          "title": "getlatka.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "CopyReadyNow",
+    "domain": "copyreadynow.com",
+    "description": "Produce faster, better AI content with a human touch."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "VIRTPRODUCTGROUP LTD",
+  "evidence": "Passage 0 states directly that the vendor providing CopyReadyNow at copyreadynow.com is VIRTPRODUCTGROUP LTD.",
+  "source": {
+    "id": 0,
+    "text": "The vendor providing **CopyReadyNow** at **copyreadynow.com** is **VIRTPRODUCTGROUP LTD**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF808fNLDalDIuHiJojt4OSTG9J6IsfK_wmYTRm1xNbF-NuFYBw0u73C-8KG2L8elYFS7bKzIY5YohlX9cI6HTjx4Z54g6-sly7G8agBepTY0d5Is39oqehfYSKJP4LSlYGF7PIETObXgqdKNYkdKKK",
+    "title": "getlatka.com"
+  },
+  "checked_at": "2026-11-05T07:11:59.845268+00:00"
+}

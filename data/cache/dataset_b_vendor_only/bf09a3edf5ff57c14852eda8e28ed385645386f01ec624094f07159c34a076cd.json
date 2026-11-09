@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing the software product **SurveySparrow** at the domain **surveysparrow.com** is **SurveySparrow Inc.**\n\n### Evidence:\n* **Privacy Policy (`surveysparrow.com/legal/privacy-policy/`):**  \n  > *\"This Privacy Policy specifies the types of Personal Information SurveySparrow Inc., obtains through the SurveySparrow.com website, our product, and services offered by us...\"*\n* **Terms of Service (`surveysparrow.com/legal/terms-of-service/`):**  \n  > *\"Any notices required or permitted to be given under this Agreement or related to Our services should be addressed to: SurveySparrow Inc., 2261 Market Street, STE 22625, San Francisco, CA 94114, USA.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing the software product **SurveySparrow** at the domain **surveysparrow.com** is **SurveySparrow Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHz32Ey3yKRq7q9FDRreK_BofKZKEwxwoSpmwzAkg3tEE2C6V8sJe7gK2dByefmuPipHyv12_y753WV1vcwZreqKuJ2GUYp5hdNsfhzuBjwCgdFImG7V2KJkENIeHJlK4uEsVeZ",
+          "title": "surveysparrow.com"
+        },
+        {
+          "id": 1,
+          "text": "The vendor directly providing the software product **SurveySparrow** at the domain **surveysparrow.com** is **SurveySparrow Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAn_qx81i2B31ms7m4N0XIzIfwYvuLKXcGFp-NXubKxEdPjokJ9qHq1wEF4kYqr9vW1JwQBavp3qV-mshe2Sa0hpfrvhGHg_yR6RAhP2mmeu6ucfl1rtuVbOgEaVEho7VbxRyfvBM=",
+          "title": "surveysparrow.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"This Privacy Policy specifies the types of Personal Information SurveySparrow Inc., obtains through the SurveySparrow.com website, our product, and services offered by us...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHz32Ey3yKRq7q9FDRreK_BofKZKEwxwoSpmwzAkg3tEE2C6V8sJe7gK2dByefmuPipHyv12_y753WV1vcwZreqKuJ2GUYp5hdNsfhzuBjwCgdFImG7V2KJkENIeHJlK4uEsVeZ",
+          "title": "surveysparrow.com"
+        },
+        {
+          "id": 3,
+          "text": "*\"Any notices required or permitted to be given under this Agreement or related to Our services should be addressed to: SurveySparrow Inc., 2261 Market Street, STE 22625, San Francisco, CA 94114, USA.\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAn_qx81i2B31ms7m4N0XIzIfwYvuLKXcGFp-NXubKxEdPjokJ9qHq1wEF4kYqr9vW1JwQBavp3qV-mshe2Sa0hpfrvhGHg_yR6RAhP2mmeu6ucfl1rtuVbOgEaVEho7VbxRyfvBM=",
+          "title": "surveysparrow.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "SurveySparrow Inc.",
+        "evidence": "Passage 2 quotes the privacy policy stating that SurveySparrow Inc. obtains personal information through the SurveySparrow.com website, products, and services offered by them.",
+        "source": {
+          "id": 2,
+          "text": "*\"This Privacy Policy specifies the types of Personal Information SurveySparrow Inc., obtains through the SurveySparrow.com website, our product, and services offered by us...\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHz32Ey3yKRq7q9FDRreK_BofKZKEwxwoSpmwzAkg3tEE2C6V8sJe7gK2dByefmuPipHyv12_y753WV1vcwZreqKuJ2GUYp5hdNsfhzuBjwCgdFImG7V2KJkENIeHJlK4uEsVeZ",
+          "title": "surveysparrow.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "SurveySparrow",
+    "domain": "surveysparrow.com",
+    "description": "SurveySparrow is an experience management platform based in India that specializes in collecting and analyzing customer feedback in real-time. The platform offers a variety of survey types, including chat-like surveys, classic surveys, and offline surveys, making it easy for businesses to gather insights to enhance customer satisfaction and engagement. With features like NPS surveys, extensive report filtering, and over 1500 integrations, SurveySparrow allows for seamless survey creation and management. The platform also supports customization and branding options, providing businesses with tailored solutions to meet their specific feedback needs."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "SurveySparrow Inc.",
+  "evidence": "Passage 2 quotes the privacy policy stating that SurveySparrow Inc. obtains personal information through the SurveySparrow.com website, products, and services offered by them.",
+  "source": {
+    "id": 2,
+    "text": "*\"This Privacy Policy specifies the types of Personal Information SurveySparrow Inc., obtains through the SurveySparrow.com website, our product, and services offered by us...\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHz32Ey3yKRq7q9FDRreK_BofKZKEwxwoSpmwzAkg3tEE2C6V8sJe7gK2dByefmuPipHyv12_y753WV1vcwZreqKuJ2GUYp5hdNsfhzuBjwCgdFImG7V2KJkENIeHJlK4uEsVeZ",
+    "title": "surveysparrow.com"
+  },
+  "checked_at": "2026-11-05T09:09:42.879505+00:00"
+}

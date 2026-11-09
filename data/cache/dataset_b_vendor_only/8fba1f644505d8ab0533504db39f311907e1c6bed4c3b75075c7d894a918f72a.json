@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "Based on published developer and product directory records for **Upsend** at **upsend.co**:\n\n* **Developer / Provider:** **Suraj Vathsa** (also operating under the brand **Upsend**).\n* **Evidence:**\n  * Software catalog listings (such as CNET Download) directly credit **Suraj Vathsa** as the publisher/developer behind **Upsend** (*\"Find Suraj Vathsa software downloads at CNET Download.com... Upsend. Subscription. Master Coding Interviews with Upsend's AI Tools\"*).\n  * The tool was launched and announced by the developer (handle `svathsa` / \"SV\") on platforms including Hacker News and Reddit (*\"I'm SV, co-creator of Upsend (https://www.upsend.co) – an online platform that enables candidates to participate in mock coding...\"*).\n  * Support and contact channels for the platform operate directly under the brand contact `team@upsend.co`.",
+      "passages": [
+        {
+          "id": 0,
+          "text": "**Developer / Provider:** **Suraj Vathsa**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFx_6XudTmmbcecnRrTu1x3DvMUZb1ktBml73vXB1wBXgApiYp263mCFkpInQSIl8kdeapb2-YUjoRVC_-SUISeIcPhy2SPOW9ugGgIvl3v43MAnuvZqN210Hb1prV9w0LiNOrSdCwdv4rZw3w8iOEl_8IvMQ==",
+          "title": "cnet.com"
+        },
+        {
+          "id": 1,
+          "text": "**Developer / Provider:** **Suraj Vathsa** (also operating under the brand **Upsend**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNfaeToPUVVkh3c1KR21o6loVhDXu7LuwUgJ75D-eFgCjqSUW_xy0pmrvrRUhfYx85njj9ODoqWpdg0au-w63q8Z4E1PbHDFj1WFf4ScOdmeApl7ESZnMjqBKxmsKsTngooCM=",
+          "title": "startupideasai.com"
+        },
+        {
+          "id": 2,
+          "text": "Master Coding Interviews with Upsend's AI Tools\"*)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFx_6XudTmmbcecnRrTu1x3DvMUZb1ktBml73vXB1wBXgApiYp263mCFkpInQSIl8kdeapb2-YUjoRVC_-SUISeIcPhy2SPOW9ugGgIvl3v43MAnuvZqN210Hb1prV9w0LiNOrSdCwdv4rZw3w8iOEl_8IvMQ==",
+          "title": "cnet.com"
+        },
+        {
+          "id": 3,
+          "text": ".\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwuyFO_xc8FaQnen7hkPPh8U93_PiRtIpuid7onBs8Q_kwuv0H6uAt3tJIB1N-5JSlGsXFOBcWN-O1__5yt4VkviEYtDqYew9-Ooh28wjYDwg7qW9vndnK4mOCi1EMAxXjL-s=",
+          "title": "ycombinator.com"
+        },
+        {
+          "id": 4,
+          "text": ".\n",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlzWLYeIr-6jANxmhtCXTm8T4i4tj_fH4tO1ptVU5HaoGsLks_FzcmFZaF2x0MfK2bgyyKOhXMYypAZpHHJpjZbf8ChFLHaCdlerrDvITcasUNdxpgS_inEiXU--RDeHTLdaMZdEwqxWktL_WflIX7Nplox5scN3AVurvc8d6s2su29RBAXiGlDFrrCdyznzky",
+          "title": "reddit.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Suraj Vathsa",
+        "evidence": "Passage 0 explicitly identifies Suraj Vathsa as the developer and provider of Upsend.",
+        "source": {
+          "id": 0,
+          "text": "**Developer / Provider:** **Suraj Vathsa**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFx_6XudTmmbcecnRrTu1x3DvMUZb1ktBml73vXB1wBXgApiYp263mCFkpInQSIl8kdeapb2-YUjoRVC_-SUISeIcPhy2SPOW9ugGgIvl3v43MAnuvZqN210Hb1prV9w0LiNOrSdCwdv4rZw3w8iOEl_8IvMQ==",
+          "title": "cnet.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Upsend",
+    "domain": "upsend.co",
+    "description": "Ace technical coding interviews with autonomous mock interviews."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Suraj Vathsa",
+  "evidence": "Passage 0 explicitly identifies Suraj Vathsa as the developer and provider of Upsend.",
+  "source": {
+    "id": 0,
+    "text": "**Developer / Provider:** **Suraj Vathsa**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFx_6XudTmmbcecnRrTu1x3DvMUZb1ktBml73vXB1wBXgApiYp263mCFkpInQSIl8kdeapb2-YUjoRVC_-SUISeIcPhy2SPOW9ugGgIvl3v43MAnuvZqN210Hb1prV9w0LiNOrSdCwdv4rZw3w8iOEl_8IvMQ==",
+    "title": "cnet.com"
+  },
+  "checked_at": "2026-11-05T05:35:52.389492+00:00"
+}

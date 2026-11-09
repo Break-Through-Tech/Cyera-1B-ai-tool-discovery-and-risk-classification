@@ -1,0 +1,67 @@
+{
+  "attempts": [
+    {
+      "answer": "The software product **LiveChat** at **livechat.com** is directly provided by **Text, Inc.** (part of **Text S.A.**, formerly known as LiveChat Software S.A.).\n\n### Provider Statement & Evidence:\n* **Terms of Use**:\n  > *\"These Terms of Use along with our Privacy Policy and Data Processing Addendum (the “DPA”) incorporated herein, constitute the agreement (the “Agreement”) established by and between Text, Inc. with its principal office in Boston, Massachusetts, address: 101 Arch Street, 8th Floor, Boston MA 02110, United States of America (referred to as 'Text', 'we' or 'us' or 'the Company')...\"*\n* **Contact & Legal Notices (`livechat.com`)**:\n  > *\"U.S. Office: Text, Inc. 101 Arch Street, 8th Floor, Boston MA 02110, United States of America. European Office: TEXT SA, ul. Zwycięska 47, 53-033 Wroclaw, Poland.\"*\n  > *\"Copyright © Text, Inc. All rights reserved.\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The software product **LiveChat** at **livechat.com** is directly provided by **Text, Inc.** (part of **Text S.A.**, formerly known as LiveChat Software S.A.)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExs8dsXV8nq4W4eXnGOeQ7grPBQ-rNHiX8-sPAF4No5I-CQ_3T5FJM-uPiPVaNXH2a4XFe9fYBtoAf-Gb0qsMSlS_gI-7B8euMsUMVUoBlgWJnWA8=",
+          "title": "livechat.com"
+        },
+        {
+          "id": 1,
+          "text": "The software product **LiveChat** at **livechat.com** is directly provided by **Text, Inc.** (part of **Text S.A.**, formerly known as LiveChat Software S.A.)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMg0SzlpaHmOoMEofwVL9_jLadhtlU0tleJZSULUzRlVhLFQxKshMBOTqQkBn8nACq10UoaYIaPk436fRD1QXNfo6R6YkM2lKH4ToIBjn300Rzd0tLI8g=",
+          "title": "livechat.com"
+        },
+        {
+          "id": 2,
+          "text": "*\"These Terms of Use along with our Privacy Policy and Data Processing Addendum (the “DPA”) incorporated herein, constitute the agreement (the “Agreement”) established by and between Text, Inc. with its principal office in Boston, Massachusetts, address: 101 Arch Street, 8th Floor, Boston MA 02110, United States of America (referred to as 'Text', 'we' or 'us' or 'the Company')...\"*\n* **Con",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERmuqhYsxYvYpc05WZvUN2nG5b2j4mqBPwLRSU7vwx6TZVUsmIObSZRVqSdyjQU9cvpIkm6B3NzjkRjqfGGjyr7x5XNLrUB4t6nJq0iZB4Lwxsk0l1Z8Q76sh0rmk=",
+          "title": "text.com"
+        },
+        {
+          "id": 3,
+          "text": "a 47, 53-033 Wroclaw, Poland.\"*\n  > *\"Co",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMg0SzlpaHmOoMEofwVL9_jLadhtlU0tleJZSULUzRlVhLFQxKshMBOTqQkBn8nACq10UoaYIaPk436fRD1QXNfo6R6YkM2lKH4ToIBjn300Rzd0tLI8g=",
+          "title": "livechat.com"
+        },
+        {
+          "id": 4,
+          "text": "Data Processing Addendum (the “DPA”) incorporated herein, constitute the agreement (the “Agreement”) established by and between Text, Inc. with its principal office in Boston, Massachusetts, address: 101 Arch Street, 8th Floor, Boston MA 02110, United States of America (referred to as",
+          "url": "https://www.chatbot.com/legal/terms-of-use/",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Text, Inc.",
+        "evidence": "The software product LiveChat at livechat.com is directly provided by Text, Inc. (part of Text S.A., formerly known as LiveChat Software S.A.)",
+        "source": {
+          "id": 0,
+          "text": "The software product **LiveChat** at **livechat.com** is directly provided by **Text, Inc.** (part of **Text S.A.**, formerly known as LiveChat Software S.A.)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExs8dsXV8nq4W4eXnGOeQ7grPBQ-rNHiX8-sPAF4No5I-CQ_3T5FJM-uPiPVaNXH2a4XFe9fYBtoAf-Gb0qsMSlS_gI-7B8euMsUMVUoBlgWJnWA8=",
+          "title": "livechat.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "LiveChat",
+    "domain": "livechat.com",
+    "description": "LiveChat is a real-time customer service software designed to enhance online sales and support for businesses. Operating globally, it provides a web-based platform, along with desktop and mobile applications, to connect companies with their website visitors efficiently. With over 30,000 clients, including notable brands, LiveChat facilitates engaging customer interactions, aiding in purchase decisions, and expediting the sales process. The service is priced competitively, with various plans available to accommodate different business needs."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Text, Inc.",
+  "evidence": "The software product LiveChat at livechat.com is directly provided by Text, Inc. (part of Text S.A., formerly known as LiveChat Software S.A.)",
+  "source": {
+    "id": 0,
+    "text": "The software product **LiveChat** at **livechat.com** is directly provided by **Text, Inc.** (part of **Text S.A.**, formerly known as LiveChat Software S.A.)",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExs8dsXV8nq4W4eXnGOeQ7grPBQ-rNHiX8-sPAF4No5I-CQ_3T5FJM-uPiPVaNXH2a4XFe9fYBtoAf-Gb0qsMSlS_gI-7B8euMsUMVUoBlgWJnWA8=",
+    "title": "livechat.com"
+  },
+  "checked_at": "2026-11-05T09:02:22.076452+00:00"
+}

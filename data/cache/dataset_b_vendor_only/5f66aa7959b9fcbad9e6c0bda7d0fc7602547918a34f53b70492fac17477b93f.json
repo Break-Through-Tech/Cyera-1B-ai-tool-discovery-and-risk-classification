@@ -1,0 +1,49 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Mapbox** at **mapbox.com** is **Mapbox, Inc.**\n\n### Provider Statement\nAccording to the official Mapbox Terms of Service (`mapbox.com/legal/tos`):\n> *\"This website, www.mapbox.com (the \"site\"), is owned and operated by Mapbox, Inc. and our direct and indirect wholly-owned subsidiaries (\"Mapbox\", \"we\" or “us”). By using the site, services and our proprietary software and related data we make available to you via the site or a third-party marketplace (“Marketplace”), or map content we make available to you through the services (all the foregoing collectively, \"Services\") ...\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Mapbox** at **mapbox.com** is **Mapbox, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFE0UfKOtHgSSVHtgXxAnY3A8d1_EGWhGh-5TaKgJtom5kezQK091enaVh_Mt0jJfC48H9BAeJrkG8hA8z9iI-pLukfSyJz5ViigR_Bt7TXeDeNVgXk6g==",
+          "title": "mapbox.com"
+        },
+        {
+          "id": 1,
+          "text": "and our proprietary software and related data we make available to you via the site or a third-party marketplace (“Marketplace”), or map content we make available to you through the services (all the foregoing collectively, \"Serv",
+          "url": "https://github.com/graceboniface/OpenCloudMap",
+          "title": ""
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Mapbox, Inc.",
+        "evidence": "Passage 0 directly states that the vendor providing Mapbox at mapbox.com is Mapbox, Inc.",
+        "source": {
+          "id": 0,
+          "text": "The vendor directly providing **Mapbox** at **mapbox.com** is **Mapbox, Inc.**",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFE0UfKOtHgSSVHtgXxAnY3A8d1_EGWhGh-5TaKgJtom5kezQK091enaVh_Mt0jJfC48H9BAeJrkG8hA8z9iI-pLukfSyJz5ViigR_Bt7TXeDeNVgXk6g==",
+          "title": "mapbox.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Mapbox",
+    "domain": "mapbox.com",
+    "description": "Mapbox is a top real-time location platform that empowers businesses to integrate location awareness in their applications. With over 3.5 million registered developers, it offers a comprehensive suite of tools for navigation and geolocation, enabling organizations to create tailored experiences for users, vehicles, and packages. The platform is recognized for its flexibility, security, and compliance with privacy standards."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Mapbox, Inc.",
+  "evidence": "Passage 0 directly states that the vendor providing Mapbox at mapbox.com is Mapbox, Inc.",
+  "source": {
+    "id": 0,
+    "text": "The vendor directly providing **Mapbox** at **mapbox.com** is **Mapbox, Inc.**",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFE0UfKOtHgSSVHtgXxAnY3A8d1_EGWhGh-5TaKgJtom5kezQK091enaVh_Mt0jJfC48H9BAeJrkG8hA8z9iI-pLukfSyJz5ViigR_Bt7TXeDeNVgXk6g==",
+    "title": "mapbox.com"
+  },
+  "checked_at": "2026-11-05T09:39:47.386750+00:00"
+}

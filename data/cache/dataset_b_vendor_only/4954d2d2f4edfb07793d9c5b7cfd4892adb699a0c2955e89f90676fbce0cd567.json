@@ -1,0 +1,61 @@
+{
+  "attempts": [
+    {
+      "answer": "The vendor directly providing **Flipsnack** at **flipsnack.com** is **Flipsnack, Inc.** (formerly Flipsnack LLC).\n\n### Supporting Evidence\nAccording to the official **Terms of Service** for Flipsnack (`legal.flipsnack.com/terms-of-service`):\n> *\"Legal entity update. Please note that Flipsnack LLC has converted to and now operates as Flipsnack, Inc... 1. Overview. Flipsnack and the services provided ('Services') are maintained and operated by Flipsnack, Inc. ('us', 'we', 'our', 'the Company').\"*",
+      "passages": [
+        {
+          "id": 0,
+          "text": "The vendor directly providing **Flipsnack** at **flipsnack.com** is **Flipsnack, Inc.** (formerly Flipsnack LLC)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEaF3Lbtn96n7wa22YnofGakY8syxdNsDGz4qJfSZglX4dK6v0gb3ZT8uXmN_N0T32JeqKDCXaj23u6I7jxXIkCz6y0bGTDCt_iQslTg8yKLIYhVERu-VnlXkeoSNNtMUbEw==",
+          "title": "flipsnack.com"
+        },
+        {
+          "id": 1,
+          "text": "According to the official **Terms of Service** for Flipsnack (`legal.flipsnack.com/terms-of-service`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEaF3Lbtn96n7wa22YnofGakY8syxdNsDGz4qJfSZglX4dK6v0gb3ZT8uXmN_N0T32JeqKDCXaj23u6I7jxXIkCz6y0bGTDCt_iQslTg8yKLIYhVERu-VnlXkeoSNNtMUbEw==",
+          "title": "flipsnack.com"
+        },
+        {
+          "id": 2,
+          "text": "According to the official **Terms of Service** for Flipsnack (`legal.flipsnack.com/terms-of-service`)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHg3mVjDfl9J7i_xYsFoVJ8pMbJHDMA_UYqb-Atd1dI1hbLYYjyNnESpGzRkgtANFXUXZeAU8vRktnk9VaiFK-k3nRONioN_KeQN5MiarKlm4_1dvVHDcHtM2ma",
+          "title": "flipsnack.com"
+        },
+        {
+          "id": 3,
+          "text": "Flipsnack and the services provided ('Services') are maintained and operated by Flipsnack, Inc. ('us', 'we', 'our', 'the Company').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEaF3Lbtn96n7wa22YnofGakY8syxdNsDGz4qJfSZglX4dK6v0gb3ZT8uXmN_N0T32JeqKDCXaj23u6I7jxXIkCz6y0bGTDCt_iQslTg8yKLIYhVERu-VnlXkeoSNNtMUbEw==",
+          "title": "flipsnack.com"
+        }
+      ],
+      "result": {
+        "status": "found",
+        "vendor": "Flipsnack, Inc.",
+        "evidence": "Passage 3 explicitly states that 'Flipsnack and the services provided ('Services') are maintained and operated by Flipsnack, Inc.'",
+        "source": {
+          "id": 3,
+          "text": "Flipsnack and the services provided ('Services') are maintained and operated by Flipsnack, Inc. ('us', 'we', 'our', 'the Company').\"*",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEaF3Lbtn96n7wa22YnofGakY8syxdNsDGz4qJfSZglX4dK6v0gb3ZT8uXmN_N0T32JeqKDCXaj23u6I7jxXIkCz6y0bGTDCt_iQslTg8yKLIYhVERu-VnlXkeoSNNtMUbEw==",
+          "title": "flipsnack.com"
+        }
+      }
+    }
+  ],
+  "record": {
+    "tool_name": "Flipsnack",
+    "domain": "flipsnack.com",
+    "description": "Flipsnack is a digital publishing platform that enables users to create, publish, and share interactive online flipbooks from PDFs. Offering features such as multimedia support, online forms, and shopping widgets, Flipsnack caters to a variety of publishing needs, making it accessible on all devices, including smartphones and tablets, and allowing easy embedding on websites."
+  },
+  "model": "gemini-3.8-flash",
+  "version": "vendor-only-1",
+  "status": "found",
+  "vendor": "Flipsnack, Inc.",
+  "evidence": "Passage 3 explicitly states that 'Flipsnack and the services provided ('Services') are maintained and operated by Flipsnack, Inc.'",
+  "source": {
+    "id": 3,
+    "text": "Flipsnack and the services provided ('Services') are maintained and operated by Flipsnack, Inc. ('us', 'we', 'our', 'the Company').\"*",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEaF3Lbtn96n7wa22YnofGakY8syxdNsDGz4qJfSZglX4dK6v0gb3ZT8uXmN_N0T32JeqKDCXaj23u6I7jxXIkCz6y0bGTDCt_iQslTg8yKLIYhVERu-VnlXkeoSNNtMUbEw==",
+    "title": "flipsnack.com"
+  },
+  "checked_at": "2026-11-05T08:14:34.688257+00:00"
+}
