@@ -1,0 +1,32 @@
+{
+  "input_rows": 16762,
+  "output_rows": 16743,
+  "excluded_rows": 19,
+  "exclusions": {
+    "missing_or_invalid_domain": 19
+  },
+  "retained_missing_descriptions": 530,
+  "retained_historical_status_not_active": 2704,
+  "shared_host_rows": 6,
+  "schema": [
+    "tool_id",
+    "tool_name",
+    "domain",
+    "description",
+    "is_ai_tool",
+    "category",
+    "vendor",
+    "approved_status",
+    "enterprise_plan_available",
+    "sso_available",
+    "data_retention",
+    "training_on_customer_data",
+    "admin_controls_available",
+    "risk_label"
+  ],
+  "label_policy": "All retained Kaggle tools assumed AI by user instruction; no verification performed.",
+  "category_policy": "Preserved original categories; not mapped to a new taxonomy.",
+  "unknown_policy": "Vendor and all approval/security/retention/training/admin/risk fields left blank.",
+  "retention_policy": "Missing descriptions and historical site failures retained for lookup. Invalid domains quarantined. Exact normalized name+host+path+nontracking query+fragment duplicates removed.",
+  "input_sha256": "a7d86e4cb4e569cc230d80e96622013e638eebe424fd20d029350e765eb8c32f"
+}
