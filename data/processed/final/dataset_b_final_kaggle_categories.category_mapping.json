@@ -1,0 +1,31 @@
+{
+  "input_rows": 697,
+  "kaggle_rows": 16762,
+  "status_counts": {
+    "mapped": 306,
+    "non_ai_unchanged": 391
+  },
+  "changed_categories": 306,
+  "ai_category_counts": {
+    "Ai And Machine Learning": 28,
+    "Business And Finance": 18,
+    "Communication And Support": 31,
+    "Creative And Entertainment": 13,
+    "Data And Analytics": 14,
+    "Education And Learning": 4,
+    "Industry Specific": 7,
+    "Marketing And Sales": 23,
+    "Media And Content Creation": 78,
+    "Operations And Management": 26,
+    "Personal And Lifestyle": 5,
+    "Security And Privacy": 8,
+    "Specialized Technologies": 20,
+    "Technology And Development": 31
+  },
+  "dataset_written": true,
+  "policy": "Original Kaggle categories are project ground truth; only AI-row categories are updated. Non-AI categories preserved and excluded from AI category training.",
+  "source_sha256": {
+    "data\\processed\\final\\dataset_b_final_fixed.csv": "555faee01160a802bf138895d7550262325e5063182072974773071e1e5a7f3b",
+    "data\\raw\\kaggle.csv": "a7d86e4cb4e569cc230d80e96622013e638eebe424fd20d029350e765eb8c32f"
+  }
+}

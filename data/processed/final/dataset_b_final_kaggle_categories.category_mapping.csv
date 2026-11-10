@@ -1,0 +1,698 @@
+﻿tool_id,tool_name,domain,old_category,new_category,status,match_method,kaggle_rows
+tool_02906,FlashAI,flashai.me,Productivity,Ai And Machine Learning,mapped,original_row_id_validated_by_name_and_host,2906
+tool_00510,Voicemod,voicemod.net,Other,Ai And Machine Learning,mapped,original_row_id_validated_by_name_and_host,510
+tool_07220,Focal,getfocal.co,Research / Search,Ai And Machine Learning,mapped,original_row_id_validated_by_name_and_host,7220
+tool_06490,Dolly AI,dollyai.app,General AI Assistants,Ai And Machine Learning,mapped,original_row_id_validated_by_name_and_host,6490
+tool_05911,Diglot,diglot.ai,Content Generation,Ai And Machine Learning,mapped,original_row_id_validated_by_name_and_host,5911
+tool_03600,AI Essay Checker,essaycheck.ai,Content Generation,Ai And Machine Learning,mapped,original_row_id_validated_by_name_and_host,3600
+tool_15588,Prompt Sloth Write Better AI Prompts,promptsloth.com,Productivity,Ai And Machine Learning,mapped,original_row_id_validated_by_name_and_host,15588
+tool_02175,EasyChat AI,easychat-ai.app,General AI Assistants,Ai And Machine Learning,mapped,original_row_id_validated_by_name_and_host,2175
+tool_11468,PatternedAI,patterned.ai,Image / Video Generation,Ai And Machine Learning,mapped,original_row_id_validated_by_name_and_host,11468
+tool_00799,unrav.io,unrav.io,Content Generation,Ai And Machine Learning,mapped,original_row_id_validated_by_name_and_host,799
+tool_02434,Alter,alterhq.com,Productivity,Ai And Machine Learning,mapped,original_row_id_validated_by_name_and_host,2434
+tool_05781,HeyScience,heyscience.ai,Research / Search,Ai And Machine Learning,mapped,original_row_id_validated_by_name_and_host,5781
+tool_06127,Rad AI,radai.com,Other,Ai And Machine Learning,mapped,original_row_id_validated_by_name_and_host,6127
+tool_00550,Bomml,bomml.ai,AI Infrastructure / Model Platforms,Ai And Machine Learning,mapped,original_row_id_validated_by_name_and_host,550
+tool_11382,Rephrase.info,rephrase.info,Content Generation,Ai And Machine Learning,mapped,original_row_id_validated_by_name_and_host,11382
+tool_05846,Upsend,upsend.co,Coding / Developer Tools,Ai And Machine Learning,mapped,original_row_id_validated_by_name_and_host,5846
+tool_12324,NotesOllama,smallest.app,Productivity,Ai And Machine Learning,mapped,original_row_id_validated_by_name_and_host,12324
+tool_07266,Experai,experai.com,General AI Assistants,Ai And Machine Learning,mapped,original_row_id_validated_by_name_and_host,7266
+tool_00080,Dubbing AI,dubbingai.io,Other,Ai And Machine Learning,mapped,original_row_id_validated_by_name_and_host,80
+tool_04121,Atua,atua.app,Productivity,Ai And Machine Learning,mapped,original_row_id_validated_by_name_and_host,4121
+tool_11503,All Voice Lab,allvoicelab.com,Content Generation,Ai And Machine Learning,mapped,original_row_id_validated_by_name_and_host,11503
+tool_05696,Thegist,thegist.ai,Productivity,Ai And Machine Learning,mapped,original_row_id_validated_by_name_and_host,5696
+tool_02398,photes.io,photes.io,Productivity,Ai And Machine Learning,mapped,original_row_id_validated_by_name_and_host,2398
+tool_10000,CitizenPortal,citizenportal.ai,Research / Search,Ai And Machine Learning,mapped,original_row_id_validated_by_name_and_host,10000
+tool_02493,Floik,floik.com,Content Generation,Ai And Machine Learning,mapped,original_row_id_validated_by_name_and_host,2493
+tool_09335,OpenSesame,opensesame.dev,AI Infrastructure / Model Platforms,Ai And Machine Learning,mapped,original_row_id_validated_by_name_and_host,9335
+tool_08911,Floom,floom.ai,AI Infrastructure / Model Platforms,Ai And Machine Learning,mapped,original_row_id_validated_by_name_and_host,8911
+tool_06932,Pop-Plan,pop-plan.com,Other,Ai And Machine Learning,mapped,original_row_id_validated_by_name_and_host,6932
+tool_02169,Client Reports,clientreports.ai,Data Analytics,Business And Finance,mapped,original_row_id_validated_by_name_and_host,2169
+tool_05797,Octocom,octocom.ai,Customer Support,Business And Finance,mapped,original_row_id_validated_by_name_and_host,5797
+tool_01484,Validator AI,validatorai.com,Productivity,Business And Finance,mapped,original_row_id_validated_by_name_and_host,1484
+tool_14706,Accio,accio.com,Productivity,Business And Finance,mapped,original_row_id_validated_by_name_and_host,14706
+tool_15223,Vault AI,vault-ai.com,Sales / Marketing,Business And Finance,mapped,original_row_id_validated_by_name_and_host,15223
+tool_05599,Zefort,zefort.com,Productivity,Business And Finance,mapped,original_row_id_validated_by_name_and_host,5599
+tool_11766,Sixfold,sixfold.ai,Productivity,Business And Finance,mapped,original_row_id_validated_by_name_and_host,11766
+tool_01359,Tray.io,tray.io,Productivity,Business And Finance,mapped,original_row_id_validated_by_name_and_host,1359
+tool_00941,Excel Formula GPT,excelformulagpt.com,Productivity,Business And Finance,mapped,original_row_id_validated_by_name_and_host,941
+tool_03523,Checkr,checkr.com,Productivity,Business And Finance,mapped,original_row_id_validated_by_name_and_host,3523
+tool_04484,Atticus,askatticus.ai,Productivity,Business And Finance,mapped,original_row_id_validated_by_name_and_host,4484
+tool_01520,Intellectia,intellectia.ai,Data Analytics,Business And Finance,mapped,original_row_id_validated_by_name_and_host,1520
+tool_15043,Franchise AI Assistant,wefranch.com,General AI Assistants,Business And Finance,mapped,original_row_id_validated_by_name_and_host,15043
+tool_03545,TaxGPT.com,taxgpt.com,Productivity,Business And Finance,mapped,original_row_id_validated_by_name_and_host,3545
+tool_15369,Traderstats,traderstats.app,Data Analytics,Business And Finance,mapped,original_row_id_validated_by_name_and_host,15369
+tool_05815,LearnMentalModels,learnmentalmodels.co,Productivity,Business And Finance,mapped,original_row_id_validated_by_name_and_host,5815
+tool_04401,Tovie,tovie.ai,Customer Support,Business And Finance,mapped,original_row_id_validated_by_name_and_host,4401
+tool_07422,AI-signals,ai-signals.com,Data Analytics,Business And Finance,mapped,original_row_id_validated_by_name_and_host,7422
+tool_06239,Addy AI,addy.so,Content Generation,Communication And Support,mapped,original_row_id_validated_by_name_and_host,6239
+tool_06356,Aivia,aivia.ai,Productivity,Communication And Support,mapped,original_row_id_validated_by_name_and_host,6356
+tool_03823,TalkTonic AI,talktonic.ai,General AI Assistants,Communication And Support,mapped,original_row_id_validated_by_name_and_host,3823
+tool_04652,Storytell.ai,storytell.ai,Research / Search,Communication And Support,mapped,original_row_id_validated_by_name_and_host,4652
+tool_12821,Verbeloquence,verbeloquence.ai,Productivity,Communication And Support,mapped,original_row_id_validated_by_name_and_host,12821
+tool_12343,Knobi,knobi.io,Research / Search,Communication And Support,mapped,original_row_id_validated_by_name_and_host,12343
+tool_01369,ChatSpot,chatspot.ai,General AI Assistants,Communication And Support,mapped,original_row_id_validated_by_name_and_host,1369
+tool_09339,Thrivebase,thrivebase.ai,Customer Support,Communication And Support,mapped,original_row_id_validated_by_name_and_host,9339
+tool_13304,SubEasy.ai,subeasy.ai,Meeting / Transcription Tools,Communication And Support,mapped,original_row_id_validated_by_name_and_host,13304
+tool_07909,JobSynergy,jobsynergy.ai,Productivity,Communication And Support,mapped,original_row_id_validated_by_name_and_host,7909
+tool_04723,Agent 360,agent360.ai,Customer Support,Communication And Support,mapped,original_row_id_validated_by_name_and_host,4723
+tool_11504,Aloware,aloware.com,Customer Support,Communication And Support,mapped,original_row_id_validated_by_name_and_host,11504
+tool_12397,Memoirji,memoirji.com,Content Generation,Communication And Support,mapped,original_row_id_validated_by_name_and_host,12397
+tool_03992,Voyager minedojo,voyager.minedojo.org,Other,Communication And Support,mapped,original_row_id_validated_by_name_and_host,3992
+tool_12363,OneAccord,oneaccord.ai,Meeting / Transcription Tools,Communication And Support,mapped,original_row_id_validated_by_name_and_host,12363
+tool_05660,Almo Chat,almochat.com,Customer Support,Communication And Support,mapped,original_row_id_validated_by_name_and_host,5660
+tool_14182,How To Be Best Man,howtobebestman.com,Content Generation,Communication And Support,mapped,original_row_id_validated_by_name_and_host,14182
+tool_04179,Word WandAI,wordwandai.com,Customer Support,Communication And Support,mapped,original_row_id_validated_by_name_and_host,4179
+tool_15355,Dreamjourney AI,dreamjourneyai.com,General AI Assistants,Communication And Support,mapped,original_row_id_validated_by_name_and_host,15355
+tool_00574,MacGaiver,macgaiver.app,Productivity,Communication And Support,mapped,original_row_id_validated_by_name_and_host,574
+tool_01307,AIChatting,aichatting.net,Content Generation,Communication And Support,mapped,original_row_id_validated_by_name_and_host,1307
+tool_09974,HereAfter AI,hereafter.ai,Other,Communication And Support,mapped,original_row_id_validated_by_name_and_host,9974
+tool_05484,Wedspeech.AI,wedspeech.ai,Content Generation,Communication And Support,mapped,original_row_id_validated_by_name_and_host,5484
+tool_11790,Yuma,yuma.ai,Customer Support,Communication And Support,mapped,original_row_id_validated_by_name_and_host,11790
+tool_08554,Web2Chat,web2chat.ai,Customer Support,Communication And Support,mapped,original_row_id_validated_by_name_and_host,8554
+tool_06775,IntelliChat,intellichat.io,Customer Support,Communication And Support,mapped,original_row_id_validated_by_name_and_host,6775
+tool_07826,Mentalyc,mentalyc.com,Productivity,Communication And Support,mapped,original_row_id_validated_by_name_and_host,7826
+tool_04380,Metaview,metaview.ai,Meeting / Transcription Tools,Communication And Support,mapped,original_row_id_validated_by_name_and_host,4380
+tool_09844,Freshworks,freshworks.com,Customer Support,Customer Support,non_ai_unchanged,,
+tool_04593,Chat Thing,chatthing.ai,Customer Support,Communication And Support,mapped,original_row_id_validated_by_name_and_host,4593
+tool_13729,Philosophy,philosophy.fyi,General AI Assistants,Communication And Support,mapped,original_row_id_validated_by_name_and_host,13729
+tool_10246,BotGPT,bot.wordgptpro.com,Customer Support,Communication And Support,mapped,original_row_id_validated_by_name_and_host,10246
+tool_15955,ReelBuzz,reelbuzz.ai,Image / Video Generation,Creative And Entertainment,mapped,original_row_id_validated_by_name_and_host,15955
+tool_15773,Malibu,malibuai.xyz,Image / Video Generation,Creative And Entertainment,mapped,original_row_id_validated_by_name_and_host,15773
+tool_15644,Patience,patience.ai,Image / Video Generation,Creative And Entertainment,mapped,original_row_id_validated_by_name_and_host,15644
+tool_07985,Getfloorplan,getfloorplan.com,Productivity,Creative And Entertainment,mapped,original_row_id_validated_by_name_and_host,7985
+tool_16540,PicAI,picai.so,Image / Video Generation,Creative And Entertainment,mapped,original_row_id_validated_by_name_and_host,16540
+tool_05114,Resume Photo,resumephoto.ai,Image / Video Generation,Creative And Entertainment,mapped,original_row_id_validated_by_name_and_host,5114
+tool_02337,PhotoFuse,photofuse.ai,Image / Video Generation,Creative And Entertainment,mapped,original_row_id_validated_by_name_and_host,2337
+tool_08707,Imagined with AI,imagined-with.ai,Image / Video Generation,Creative And Entertainment,mapped,original_row_id_validated_by_name_and_host,8707
+tool_09148,Photify AI,photify.ai,Image / Video Generation,Creative And Entertainment,mapped,original_row_id_validated_by_name_and_host,9148
+tool_15912,Gpt twit-bot,twitter-bot.com,Other,Creative And Entertainment,mapped,original_row_id_validated_by_name_and_host,15912
+tool_03226,Sivi,sivi.ai,Image / Video Generation,Creative And Entertainment,mapped,original_row_id_validated_by_name_and_host,3226
+tool_15712,Diffusion Art,diffusionart.ai,Image / Video Generation,Creative And Entertainment,mapped,original_row_id_validated_by_name_and_host,15712
+tool_15696,LogoMate,ailogogenerator.sh,Image / Video Generation,Creative And Entertainment,mapped,original_row_id_validated_by_name_and_host,15696
+tool_11394,PaperChat,paperchat.io,Productivity,Data And Analytics,mapped,original_row_id_validated_by_name_and_host,11394
+tool_04876,ChatwithpdfAI,chatwithpdf.ai,Productivity,Data And Analytics,mapped,original_row_id_validated_by_name_and_host,4876
+tool_11956,BlazorData,blazordata.net,Coding / Developer Tools,Data And Analytics,mapped,original_row_id_validated_by_name_and_host,11956
+tool_11554,Markovml,markovml.com,AI Infrastructure / Model Platforms,Data And Analytics,mapped,original_row_id_validated_by_name_and_host,11554
+tool_02163,Chat With Your Database,chat-with-your-database.vercel.app,Data Analytics,Data And Analytics,mapped,original_row_id_validated_by_name_and_host,2163
+tool_05934,Pizi AI,pizi.ai,Productivity,Data And Analytics,mapped,original_row_id_validated_by_name_and_host,5934
+tool_03249,OpinionStage,opinionstage.com,Productivity,Data And Analytics,mapped,original_row_id_validated_by_name_and_host,3249
+tool_09302,Websheet AI,websheet.cc,Data Analytics,Data And Analytics,mapped,original_row_id_validated_by_name_and_host,9302
+tool_05199,Airwiz,airwiz.softr.app,Data Analytics,Data And Analytics,mapped,original_row_id_validated_by_name_and_host,5199
+tool_03513,KlearStack,klearstack.com,Productivity,Data And Analytics,mapped,original_row_id_validated_by_name_and_host,3513
+tool_10605,Docuchat,docuchat.io,Productivity,Data And Analytics,mapped,original_row_id_validated_by_name_and_host,10605
+tool_02067,Product Genius,productgenius.guru,Data Analytics,Data And Analytics,mapped,original_row_id_validated_by_name_and_host,2067
+tool_15208,ParaphrasingTool,paraphrasingtool.ai,Content Generation,Data And Analytics,mapped,original_row_id_validated_by_name_and_host,15208
+tool_06007,Buster.so,buster.so,Data Analytics,Data And Analytics,mapped,original_row_id_validated_by_name_and_host,6007
+tool_11647,Learniverse,learniverse.pro,Productivity,Education And Learning,mapped,original_row_id_validated_by_name_and_host,11647
+tool_13910,TutorAI,tutorai.me,Productivity,Education And Learning,mapped,original_row_id_validated_by_name_and_host,13910
+tool_08584,Foxus AI,foxus-ai.onrender.com,Content Generation,Education And Learning,mapped,original_row_id_validated_by_name_and_host,8584
+tool_15147,Pandatron AICoach,pandatron.ai,Productivity,Education And Learning,mapped,original_row_id_validated_by_name_and_host,15147
+tool_15342,OnChat,onchat.ai,Customer Support,Industry Specific,mapped,original_row_id_validated_by_name_and_host,15342
+tool_00060,Muskan.ai,muskan.ai,Other,Industry Specific,mapped,original_row_id_validated_by_name_and_host,60
+tool_08114,Docus AI,docus.ai,Other,Industry Specific,mapped,original_row_id_validated_by_name_and_host,8114
+tool_14745,Sage AI,labworks.ai,Other,Industry Specific,mapped,original_row_id_validated_by_name_and_host,14745
+tool_01670,Healer,tryhealer.com,Other,Industry Specific,mapped,original_row_id_validated_by_name_and_host,1670
+tool_07344,Ada Health,ada.com,Other,Industry Specific,mapped,original_row_id_validated_by_name_and_host,7344
+tool_00950,AskLegal.bot,asklegal.bot,Other,Industry Specific,mapped,original_row_id_validated_by_name_and_host,950
+tool_15483,Roast My Landing Page,roastmylandingpage.io,Sales / Marketing,Marketing And Sales,mapped,original_row_id_validated_by_name_and_host,15483
+tool_02533,KIVA by Wellows,wellows.com,Sales / Marketing,Marketing And Sales,mapped,original_row_id_validated_by_name_and_host,2533
+tool_02035,Double,usedouble.com,Sales / Marketing,Marketing And Sales,mapped,original_row_id_validated_by_name_and_host,2035
+tool_03718,StrawPoll,strawpoll.ai,Data Analytics,Marketing And Sales,mapped,original_row_id_validated_by_name_and_host,3718
+tool_03882,ClassPoint AI,ai.classpoint.io,Content Generation,Marketing And Sales,mapped,original_row_id_validated_by_name_and_host,3882
+tool_15098,Mailmaker by Mailscribe,mailscribe.com,Sales / Marketing,Marketing And Sales,mapped,original_row_id_validated_by_name_and_host,15098
+tool_04881,GetWebsite.Report,getwebsite.report,Sales / Marketing,Marketing And Sales,mapped,original_row_id_validated_by_name_and_host,4881
+tool_07649,Outranking,outranking.io,Content Generation,Marketing And Sales,mapped,original_row_id_validated_by_name_and_host,7649
+tool_11915,Aposting,aposting.com,Content Generation,Marketing And Sales,mapped,original_row_id_validated_by_name_and_host,11915
+tool_14954,Semrush outline builder,semrush.com,Content Generation,Marketing And Sales,mapped,original_row_id_validated_by_name_and_host,14954
+tool_05867,Respired,respired.io,Sales / Marketing,Marketing And Sales,mapped,original_row_id_validated_by_name_and_host,5867
+tool_14639,Exolyt,exolyt.com,Sales / Marketing,Marketing And Sales,mapped,original_row_id_validated_by_name_and_host,14639
+tool_12793,TweetyAI,tweetyai.com,Content Generation,Marketing And Sales,mapped,original_row_id_validated_by_name_and_host,12793
+tool_03439,EmailWritr,emailwritr.com,Content Generation,Marketing And Sales,mapped,original_row_id_validated_by_name_and_host,3439
+tool_01879,Writastic,writastic.com,Content Generation,Marketing And Sales,mapped,original_row_id_validated_by_name_and_host,1879
+tool_09634,TreeBrain,treebrain.ai,Content Generation,Marketing And Sales,mapped,original_row_id_validated_by_name_and_host,9634
+tool_00714,Locales.ai,locales.ai,Productivity,Marketing And Sales,mapped,original_row_id_validated_by_name_and_host,714
+tool_15182,Swantide AI Assistant,swantide.com,Sales / Marketing,Marketing And Sales,mapped,original_row_id_validated_by_name_and_host,15182
+tool_06779,BekiAI,beki.io,Sales / Marketing,Marketing And Sales,mapped,original_row_id_validated_by_name_and_host,6779
+tool_06419,Buzzi.ai,buzzi.ai,Content Generation,Marketing And Sales,mapped,original_row_id_validated_by_name_and_host,6419
+tool_00289,AgentProd,agentprod.com,Sales / Marketing,Marketing And Sales,mapped,original_row_id_validated_by_name_and_host,289
+tool_01701,Cclarity,get.cclarity.io,Content Generation,Marketing And Sales,mapped,original_row_id_validated_by_name_and_host,1701
+tool_00986,Trendhopper,trendhopper.ai,Data Analytics,Marketing And Sales,mapped,original_row_id_validated_by_name_and_host,986
+tool_15697,Ai Music Generator,aimusicgenerator.dev,Content Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,15697
+tool_06199,Exemplary AI,exemplary.ai,Meeting / Transcription Tools,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,6199
+tool_01329,ChatSlide,chatslide.ai,Productivity,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,1329
+tool_09427,BlueGPT,bluegpt.app,AI Infrastructure / Model Platforms,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,9427
+tool_04367,Lumiere3D,lumiere3d.ai,Image / Video Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,4367
+tool_05119,Genmo,alpha.genmo.ai,Image / Video Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,5119
+tool_03952,MatchPhotos,matchphotos.io,Research / Search,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,3952
+tool_09827,Inkey,inkey.ai,Productivity,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,9827
+tool_02514,Deep Image,deep-image.ai,Image / Video Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,2514
+tool_13289,MyEssayTyper,myessaytyper.ai,Content Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,13289
+tool_16685,Vocal Remover,vocalremover.com,Other,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,16685
+tool_15978,4oImageAPI.io,4oimageapi.io,Image / Video Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,15978
+tool_08693,Humanize.im,humanize.im,Content Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,8693
+tool_04496,Dream3d,dream3d.com,Image / Video Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,4496
+tool_14310,Unbound ML E-commerce AI Assistant,unboundcontent.ai,Content Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,14310
+tool_08694,HumanizerPro,humanizerpro.ai,Content Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,8694
+tool_14640,MicMonster,micmonster.com,Content Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,14640
+tool_03586,Elephas,elephas.app,Content Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,3586
+tool_01788,Aura AI,auraai.app,Image / Video Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,1788
+tool_01832,Reeler AI,reelerai.com,Image / Video Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,1832
+tool_12103,Listen2.AI - Smart News,listen2.ai,Research / Search,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,12103
+tool_06584,EasyMedia,easymedia.app,Image / Video Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,6584
+tool_08629,AISEO Art,art.aiseo.ai,Image / Video Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,8629
+tool_15724,HiDream Pro,hidream.pro,Image / Video Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,15724
+tool_13379,StoriesForKids.ai,storiesforkids.ai,Content Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,13379
+tool_00988,Scenario,scenario.gg,Image / Video Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,988
+tool_12036,Nano Banana.pro,nanobanana.pro,Image / Video Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,12036
+tool_01859,Dream Machine AI,dream-machine-ai.com,Image / Video Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,1859
+tool_14530,FineVoice AI Voice Changer,finevoice.fineshare.com,Content Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,14530
+tool_15711,Stable Diffusion,stablediffusionweb.com,Image / Video Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,15711
+tool_02068,SpiritMe,spiritme.tech,Image / Video Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,2068
+tool_03615,DocuWriter.ai,docuwriter.ai,Coding / Developer Tools,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,3615
+tool_08364,Akuma,akuma.ai,Image / Video Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,8364
+tool_03429,Mindgrasp,mindgrasp.ai,Productivity,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,3429
+tool_16580,Transpocket,transpocket.com,Meeting / Transcription Tools,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,16580
+tool_01420,YTSummary,ytsummary.app,Productivity,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,1420
+tool_15709,GeminiAIVideo,geminiaivideo.com,Image / Video Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,15709
+tool_15652,AIVideoGenerator.me,aivideogenerator.me,Image / Video Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,15652
+tool_01857,Nubee,nubeeai.xyz,Image / Video Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,1857
+tool_12019,WOXO,short.woxo.tech,Image / Video Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,12019
+tool_09852,Blockadelabs,blockadelabs.com,Image / Video Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,9852
+tool_15334,Brain.fm,my.brain.fm,Content Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,15334
+tool_00249,AiChatPilot,aichatpilot.com,Content Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,249
+tool_13801,AI Outpainting Image,ai-outpainting.com,Image / Video Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,13801
+tool_15568,Calvin - AI Shorts Maker,humanion.ai,Image / Video Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,15568
+tool_04329,FocalML,focalml.com,Image / Video Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,4329
+tool_08839,MythBlender,mythblender.com,Content Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,8839
+tool_03945,Graph Maker,graphmaker.ai,Data Analytics,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,3945
+tool_15729,AI Song Generator,ai-song.ai,Content Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,15729
+tool_07386,Growtake AI Ads,growtake.com,Sales / Marketing,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,7386
+tool_16335,Voice Cleaner AI,voicecleaner.ai,Other,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,16335
+tool_01087,Capsule,capsule.video,Image / Video Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,1087
+tool_00034,VideoWeb AI,videoweb.ai,Image / Video Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,34
+tool_04929,Huemint,huemint.com,Other,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,4929
+tool_14306,Make Illustrations,makeillustrations.com,Image / Video Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,14306
+tool_08442,Deleo,deleo.io,Image / Video Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,8442
+tool_05272,Upscayl,upscayl.org,Image / Video Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,5272
+tool_07828,Elai.io,elai.io,Image / Video Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,7828
+tool_13393,Zizoto,zizoto.com,Image / Video Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,13393
+tool_13181,Paper Pilot,paperpilot.xyz,Research / Search,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,13181
+tool_02911,EssayFlow,essayflow.ai,Content Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,2911
+tool_03578,Whatmore,whatmore.ai,Image / Video Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,3578
+tool_05493,Brisk Write,briskwrite.com,Content Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,5493
+tool_01071,"Overlap - AI that clips, edits, and posts",overlap.ai,Image / Video Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,1071
+tool_13475,FuturiBooks,futuribooks.ai,Content Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,13475
+tool_09880,Huxli,huxli.ai,Content Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,9880
+tool_01051,Undetectable,undetectable.ai,Content Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,1051
+tool_00923,DraGAN,vcai.mpi-inf.mpg.de,Image / Video Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,923
+tool_09250,WriteBot.io,writebot.io,Content Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,9250
+tool_16543,Magi-1,magi-1.video,Image / Video Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,16543
+tool_15627,Flux Image AI,fluximageai.com,Image / Video Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,15627
+tool_01045,Academic Help,academichelp.net,Content Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,1045
+tool_01488,Warpvideo AI,warpvideo.ai,Image / Video Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,1488
+tool_15607,Flux Kontext AI,fluxkontext.io,Image / Video Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,15607
+tool_03468,Pet Portrait AI,petportrait.ai,Image / Video Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,3468
+tool_01264,CopyReadyNow,copyreadynow.com,Content Generation,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,1264
+tool_01241,Ask Klem,myklem.com,Other,Media And Content Creation,mapped,original_row_id_validated_by_name_and_host,1241
+tool_09961,ForEva,foreva.ai,Other,Operations And Management,mapped,original_row_id_validated_by_name_and_host,9961
+tool_02575,BabelOn,babelontrip.com,Productivity,Operations And Management,mapped,original_row_id_validated_by_name_and_host,2575
+tool_05764,SpeakSpots,speakspots.com,Productivity,Operations And Management,mapped,original_row_id_validated_by_name_and_host,5764
+tool_15294,Online Gantt,onlinegantt.com,Productivity,Operations And Management,mapped,original_row_id_validated_by_name_and_host,15294
+tool_16368,Scrumbuiss,scrumbuiss.com,Productivity,Operations And Management,mapped,original_row_id_validated_by_name_and_host,16368
+tool_14509,Just Resignation Letters,resign.ai,Content Generation,Operations And Management,mapped,original_row_id_validated_by_name_and_host,14509
+tool_13988,Amie - AI Note Taker,amie.so,Productivity,Operations And Management,mapped,original_row_id_validated_by_name_and_host,13988
+tool_07604,Littlecook,littlecook.io,Productivity,Operations And Management,mapped,original_row_id_validated_by_name_and_host,7604
+tool_06161,Smartcat,smartcat.com,Productivity,Operations And Management,mapped,original_row_id_validated_by_name_and_host,6161
+tool_04659,Eightfold,eightfold.ai,Productivity,Operations And Management,mapped,original_row_id_validated_by_name_and_host,4659
+tool_05601,CareerPen,careerpen.org,Content Generation,Operations And Management,mapped,original_row_id_validated_by_name_and_host,5601
+tool_02843,Voxpad,voxpad.net,Productivity,Operations And Management,mapped,original_row_id_validated_by_name_and_host,2843
+tool_16096,Deepbrain AI,deepbrain.io,Productivity,Operations And Management,mapped,original_row_id_validated_by_name_and_host,16096
+tool_11258,Prospre,prospre.io,Other,Operations And Management,mapped,original_row_id_validated_by_name_and_host,11258
+tool_01528,Breve AI,breveai.com,AI Infrastructure / Model Platforms,Operations And Management,mapped,original_row_id_validated_by_name_and_host,1528
+tool_11269,Novoresume,novoresume.com,Content Generation,Operations And Management,mapped,original_row_id_validated_by_name_and_host,11269
+tool_15338,Voiset,voiset.io,Productivity,Operations And Management,mapped,original_row_id_validated_by_name_and_host,15338
+tool_13953,Hermeso,hermeso.app,Other,Operations And Management,mapped,original_row_id_validated_by_name_and_host,13953
+tool_02089,Bange,bange.io,Content Generation,Operations And Management,mapped,original_row_id_validated_by_name_and_host,2089
+tool_13200,Renovate AI,renovateai.app,Image / Video Generation,Operations And Management,mapped,original_row_id_validated_by_name_and_host,13200
+tool_12406,MindPlexa,mindplexa.com,Productivity,Operations And Management,mapped,original_row_id_validated_by_name_and_host,12406
+tool_02875,OnlyPans,onlypans.app,Other,Operations And Management,mapped,original_row_id_validated_by_name_and_host,2875
+tool_05711,Reppls,reppls.com,Productivity,Operations And Management,mapped,original_row_id_validated_by_name_and_host,5711
+tool_06780,Intervidy,intervidy.com,Productivity,Operations And Management,mapped,original_row_id_validated_by_name_and_host,6780
+tool_03372,ApplyPro,applypro.ai,Content Generation,Operations And Management,mapped,original_row_id_validated_by_name_and_host,3372
+tool_13332,Bahia AI,bahia.ai,Research / Search,Operations And Management,mapped,original_row_id_validated_by_name_and_host,13332
+tool_15288,SkinCareLens,skincarelens.com,Other,Personal And Lifestyle,mapped,original_row_id_validated_by_name_and_host,15288
+tool_14551,Sayfli,sayfli.com,General AI Assistants,Personal And Lifestyle,mapped,original_row_id_validated_by_name_and_host,14551
+tool_15379,MGAI,agmi.co,Productivity,Personal And Lifestyle,mapped,original_row_id_validated_by_name_and_host,15379
+tool_16088,Imajinn.ai,imajinn.ai,Image / Video Generation,Personal And Lifestyle,mapped,original_row_id_validated_by_name_and_host,16088
+tool_14696,Idyll,getidyll.in,General AI Assistants,Personal And Lifestyle,mapped,original_row_id_validated_by_name_and_host,14696
+tool_15000,isFake.ai,isfake.ai,Other,Security And Privacy,mapped,original_row_id_validated_by_name_and_host,15000
+tool_03222,Trinka AI,trinka.ai,Productivity,Security And Privacy,mapped,original_row_id_validated_by_name_and_host,3222
+tool_06561,ClicKarma,clickarma.io,Sales / Marketing,Security And Privacy,mapped,original_row_id_validated_by_name_and_host,6561
+tool_02545,Duplichecker,duplichecker.com,Productivity,Security And Privacy,mapped,original_row_id_validated_by_name_and_host,2545
+tool_02446,Winston AI,gowinston.ai,Other,Security And Privacy,mapped,original_row_id_validated_by_name_and_host,2446
+tool_13111,Veriff,veriff.com,Other,Security And Privacy,mapped,original_row_id_validated_by_name_and_host,13111
+tool_06667,Feedback Wizard,feedbackwizard.ai,Productivity,Security And Privacy,mapped,original_row_id_validated_by_name_and_host,6667
+tool_04816,BaziAI,bazi-ai.com,Other,Specialized Technologies,mapped,original_row_id_validated_by_name_and_host,4816
+tool_03595,IELTS CHAMP,ieltschamp.com,Other,Specialized Technologies,mapped,original_row_id_validated_by_name_and_host,3595
+tool_13235,Ocelot,ocelotbot.com,Customer Support,Specialized Technologies,mapped,original_row_id_validated_by_name_and_host,13235
+tool_06252,Teacher AI,yourteacher.ai,Other,Specialized Technologies,mapped,original_row_id_validated_by_name_and_host,6252
+tool_03470,Niah AI,askniah.com,General AI Assistants,Specialized Technologies,mapped,original_row_id_validated_by_name_and_host,3470
+tool_12634,RollSummary,rollsummary.com,Productivity,Specialized Technologies,mapped,original_row_id_validated_by_name_and_host,12634
+tool_04491,Aqua Voice,withaqua.com,Productivity,Specialized Technologies,mapped,original_row_id_validated_by_name_and_host,4491
+tool_09272,Template Prompts,templateprompts.com,Productivity,Specialized Technologies,mapped,original_row_id_validated_by_name_and_host,9272
+tool_09042,Tandem GPT,tandem-gpt.com,Other,Specialized Technologies,mapped,original_row_id_validated_by_name_and_host,9042
+tool_04181,MostlyAI,mostly.ai,AI Infrastructure / Model Platforms,Specialized Technologies,mapped,original_row_id_validated_by_name_and_host,4181
+tool_01477,Appified.ai,appified.ai,Coding / Developer Tools,Specialized Technologies,mapped,original_row_id_validated_by_name_and_host,1477
+tool_07713,KnowNotes,knownotes.ai,Meeting / Transcription Tools,Specialized Technologies,mapped,original_row_id_validated_by_name_and_host,7713
+tool_04752,GitMind,gitmind.com,Productivity,Specialized Technologies,mapped,original_row_id_validated_by_name_and_host,4752
+tool_00748,AI Meme Arena,aimemearena.com,Content Generation,Specialized Technologies,mapped,original_row_id_validated_by_name_and_host,748
+tool_00072,Craveo,remy.craveo.in,Productivity,Specialized Technologies,mapped,original_row_id_validated_by_name_and_host,72
+tool_06117,Monic,beta.monic.ai,Other,Specialized Technologies,mapped,original_row_id_validated_by_name_and_host,6117
+tool_14084,Hayden AI,hayden.ai,Other,Specialized Technologies,mapped,original_row_id_validated_by_name_and_host,14084
+tool_01996,IAsk,iask.ai,Research / Search,Specialized Technologies,mapped,original_row_id_validated_by_name_and_host,1996
+tool_11794,Suki,suki.ai,Productivity,Specialized Technologies,mapped,original_row_id_validated_by_name_and_host,11794
+tool_02566,CompliantChatGPT,compliantchatgpt.com,General AI Assistants,Specialized Technologies,mapped,original_row_id_validated_by_name_and_host,2566
+tool_11443,Sutro,withsutro.com,Coding / Developer Tools,Technology And Development,mapped,original_row_id_validated_by_name_and_host,11443
+tool_15284,Qoder,qoder.com,Coding / Developer Tools,Technology And Development,mapped,original_row_id_validated_by_name_and_host,15284
+tool_08419,GPTBricks,gptbricks.com,Customer Support,Technology And Development,mapped,original_row_id_validated_by_name_and_host,8419
+tool_00121,Grsai AI,grsai.com,AI Infrastructure / Model Platforms,Technology And Development,mapped,original_row_id_validated_by_name_and_host,121
+tool_01277,Landingi,landingi.com,Sales / Marketing,Technology And Development,mapped,original_row_id_validated_by_name_and_host,1277
+tool_00591,Code Fundi,codefundi.app,Coding / Developer Tools,Technology And Development,mapped,original_row_id_validated_by_name_and_host,591
+tool_11456,Marblism,marblism.com,Coding / Developer Tools,Technology And Development,mapped,original_row_id_validated_by_name_and_host,11456
+tool_02583,Boundary AI,boundaryml.com,AI Infrastructure / Model Platforms,Technology And Development,mapped,original_row_id_validated_by_name_and_host,2583
+tool_08445,Delta Driven,getdeltadriven.com,Other,Technology And Development,mapped,original_row_id_validated_by_name_and_host,8445
+tool_05851,Question AI.io,questionai.io,General AI Assistants,Technology And Development,mapped,original_row_id_validated_by_name_and_host,5851
+tool_06918,Pico,picoapps.xyz,AI Infrastructure / Model Platforms,Technology And Development,mapped,original_row_id_validated_by_name_and_host,6918
+tool_06771,Solo AI,soloist.ai,Coding / Developer Tools,Technology And Development,mapped,original_row_id_validated_by_name_and_host,6771
+tool_14952,OpenLayer,openlayer.com,AI Infrastructure / Model Platforms,Technology And Development,mapped,original_row_id_validated_by_name_and_host,14952
+tool_04610,CourseAI,courseai.com,Content Generation,Technology And Development,mapped,original_row_id_validated_by_name_and_host,4610
+tool_14649,Dust,dust.tt,AI Infrastructure / Model Platforms,Technology And Development,mapped,original_row_id_validated_by_name_and_host,14649
+tool_01797,Macaly,macaly.com,Coding / Developer Tools,Technology And Development,mapped,original_row_id_validated_by_name_and_host,1797
+tool_06674,Prompteasy,prompteasy.ai,AI Infrastructure / Model Platforms,Technology And Development,mapped,original_row_id_validated_by_name_and_host,6674
+tool_11581,Rex Fit,rex.fit,Other,Technology And Development,mapped,original_row_id_validated_by_name_and_host,11581
+tool_07936,Autoblocks,autoblocks.ai,AI Infrastructure / Model Platforms,Technology And Development,mapped,original_row_id_validated_by_name_and_host,7936
+tool_16310,Promptroi,app.promptroi.io,Productivity,Technology And Development,mapped,original_row_id_validated_by_name_and_host,16310
+tool_02687,TiramAi,tiram.ai,AI Infrastructure / Model Platforms,Technology And Development,mapped,original_row_id_validated_by_name_and_host,2687
+tool_04371,Diffblue Cover,diffblue.com,Coding / Developer Tools,Technology And Development,mapped,original_row_id_validated_by_name_and_host,4371
+tool_03159,Jam,jam.dev,Coding / Developer Tools,Technology And Development,mapped,original_row_id_validated_by_name_and_host,3159
+tool_00426,LearningStudioAI,courseai.co,Content Generation,Technology And Development,mapped,original_row_id_validated_by_name_and_host,426
+tool_03205,DeepL,deepl.com,Productivity,Technology And Development,mapped,original_row_id_validated_by_name_and_host,3205
+tool_16018,CodewpAI,telex.automattic.ai,Coding / Developer Tools,Technology And Development,mapped,original_row_id_validated_by_name_and_host,16018
+tool_08058,TestSprite,testsprite.com,Coding / Developer Tools,Technology And Development,mapped,original_row_id_validated_by_name_and_host,8058
+tool_14698,Keywords Everwhere,keywordseverywhere.com,Sales / Marketing,Technology And Development,mapped,original_row_id_validated_by_name_and_host,14698
+tool_15196,Roboflow,roboflow.com,AI Infrastructure / Model Platforms,Technology And Development,mapped,original_row_id_validated_by_name_and_host,15196
+tool_01844,Clarify AI,clarify-ai.com,Productivity,Technology And Development,mapped,original_row_id_validated_by_name_and_host,1844
+tool_00626,RockettAI,rockettai.com,Productivity,Technology And Development,mapped,original_row_id_validated_by_name_and_host,626
+claude_00023,Power BI,powerbi.microsoft.com,Data Analytics,Data Analytics,non_ai_unchanged,,
+claude_00002,Salesforce Sales Cloud,salesforce.com,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+claude_00007,Microsoft Teams,microsoft.com,Productivity,Productivity,non_ai_unchanged,,
+claude_00005,Zoom,zoom.us,Meeting / Transcription Tools,Meeting / Transcription Tools,non_ai_unchanged,,
+claude_00008,SAP S/4HANA,sap.com,Productivity,Productivity,non_ai_unchanged,,
+claude_00009,NetSuite,netsuite.com,Productivity,Productivity,non_ai_unchanged,,
+claude_00025,Concur Expense,concur.com,Productivity,Productivity,non_ai_unchanged,,
+claude_00026,BambooHR,bamboohr.com,Productivity,Productivity,non_ai_unchanged,,
+claude_00027,Greenhouse,greenhouse.com,Productivity,Productivity,non_ai_unchanged,,
+claude_00020,PagerDuty,pagerduty.com,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+claude_00010,ServiceNow,servicenow.com,Productivity,Productivity,non_ai_unchanged,,
+claude_00006,Confluence,atlassian.com,Productivity,Productivity,non_ai_unchanged,,
+claude_00011,HubSpot Marketing Hub,hubspot.com,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+claude_00021,Splunk Enterprise,splunk.com,Data Analytics,Data Analytics,non_ai_unchanged,,
+claude_00024,Coupa,coupa.com,Productivity,Productivity,non_ai_unchanged,,
+claude_00003,Jira,atlassian.com,Productivity,Productivity,non_ai_unchanged,,
+claude_00018,GitHub Enterprise,github.com,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00193,Plausible Analytics,plausible.io,Data Analytics,Data Analytics,non_ai_unchanged,,
+saas_00202,Mixpanel,mixpanel.com,Data Analytics,Data Analytics,non_ai_unchanged,,
+saas_00107,Alexa,alexa.com,Data Analytics,Data Analytics,non_ai_unchanged,,
+saas_00472,Architizer,architizer.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00284,Auphonic,auphonic.com,Other,Media And Content Creation,mapped,normalized_name_and_host,7243
+saas_00436,Meltwater,meltwater.com,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00251,Webex,webex.com,Meeting / Transcription Tools,Meeting / Transcription Tools,non_ai_unchanged,,
+saas_00125,Box,box.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00366,Backblaze,backblaze.com,Other,Other,non_ai_unchanged,,
+saas_00453,BetterUp,betterup.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00031,Matrix,matrix.to,Productivity,Productivity,non_ai_unchanged,,
+saas_00307,Matrix Foundation,matrix.org,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00470,Tripwire,tripwire.com,Other,Other,non_ai_unchanged,,
+saas_00248,NordVPN,nordvpn.com,Other,Other,non_ai_unchanged,,
+saas_00080,VirusTotal,virustotal.com,Other,Other,non_ai_unchanged,,
+saas_00347,Authy,authy.com,Other,Other,non_ai_unchanged,,
+saas_00126,Avast,avast.com,Other,Other,non_ai_unchanged,,
+saas_00469,Nmap,nmap.org,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00302,Bitwarden,bitwarden.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00065,Crunchbase,crunchbase.com,Research / Search,Research / Search,non_ai_unchanged,,
+saas_00226,Coolors,coolors.co,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00161,Font Awesome,fontawesome.com,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00099,Flaticon,flaticon.com,Other,Other,non_ai_unchanged,,
+saas_00363,Renderforest,renderforest.com,Image / Video Generation,Image / Video Generation,non_ai_unchanged,,
+saas_00217,Venngage,venngage.com,Other,Other,non_ai_unchanged,,
+saas_00015,Canva,canva.com,Content Generation,Content Generation,non_ai_unchanged,,
+saas_00160,Crazy Egg,crazyegg.com,Data Analytics,Data Analytics,non_ai_unchanged,,
+saas_00056,ClickFunnels,clickfunnels.com,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00173,WordStream,wordstream.com,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00168,Yoast,yoast.com,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00203,Instapaper,instapaper.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00020,Scribd,scribd.com,Other,Other,non_ai_unchanged,,
+saas_00403,Playbuzz,playbuzz.com,Content Generation,Content Generation,non_ai_unchanged,,
+saas_00151,Buzzsprout,buzzsprout.com,Other,Other,non_ai_unchanged,,
+saas_00009,Patreon,patreon.com,Other,Other,non_ai_unchanged,,
+saas_00014,Issuu,issuu.com,Content Generation,Content Generation,non_ai_unchanged,,
+saas_00115,Flipsnack,flipsnack.com,Content Generation,Content Generation,non_ai_unchanged,,
+saas_00422,Sellfy,sellfy.com,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00223,Ecwid,ecwid.com,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00291,Oberlo,oberlo.com,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00384,OpenCart,opencart.com,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00012,Shopify,shopify.com,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00315,Digistore24,digistore24.com,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00076,Gumroad,gumroad.com,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00081,Snipfeed,snipfeed.co,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00147,PrestaShop,prestashop.com,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00175,Payhip,payhip.com,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00138,BigCommerce,bigcommerce.com,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00333,Invaluable,invaluable.com,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00055,WooCommerce,woocommerce.com,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00271,Credly,credly.com,Other,Other,non_ai_unchanged,,
+saas_00185,edX,edx.org,Other,Other,non_ai_unchanged,,
+saas_00201,ProQuest,proquest.com,Research / Search,Research / Search,non_ai_unchanged,,
+saas_00364,FutureLearn,futurelearn.com,Other,Other,non_ai_unchanged,,
+saas_00491,Smore,smore.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00486,Memrise,memrise.com,Other,Other,non_ai_unchanged,,
+saas_00337,Smart Insights,smartinsights.com,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00194,Duolingo,duolingo.com,Other,Other,non_ai_unchanged,,
+saas_00357,DataCamp,datacamp.com,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00186,Quizlet,quizlet.com,Other,Other,non_ai_unchanged,,
+saas_00104,Skillshare,skillshare.com,Other,Other,non_ai_unchanged,,
+saas_00381,Codecademy,codecademy.com,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00412,Babbel,babbel.com,Other,Other,non_ai_unchanged,,
+saas_00047,Skype,skype.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00136,Udacity,udacity.com,Other,Other,non_ai_unchanged,,
+saas_00426,Kahoot!,kahoot.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00063,XING,xing.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00208,Cvent,cvent.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00281,TradingView,tradingview.com,Data Analytics,Data Analytics,non_ai_unchanged,,
+saas_00179,Xero,xero.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00013,Stripe,stripe.com,Other,Other,non_ai_unchanged,,
+saas_00132,Intrepid Geophysics,intrepid-geophysics.com,Data Analytics,Data Analytics,non_ai_unchanged,,
+saas_00440,IcoMoon,icomoon.io,Other,Other,non_ai_unchanged,,
+saas_00415,PicMonkey,picmonkey.com,Other,Other,non_ai_unchanged,,
+saas_00211,Icons8,icons8.com,Other,Other,non_ai_unchanged,,
+saas_00156,Calm,calm.com,Other,Other,non_ai_unchanged,,
+saas_00192,Headspace,headspace.com,Other,Other,non_ai_unchanged,,
+saas_00093,WP Engine,wpengine.com,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00174,Payscale,payscale.com,Data Analytics,Data Analytics,non_ai_unchanged,,
+saas_00424,Files.fm,files.fm,Productivity,Productivity,non_ai_unchanged,,
+saas_00046,Diigo,diigo.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00159,DocumentCloud,documentcloud.org,Research / Search,Research / Search,non_ai_unchanged,,
+saas_00134,BIO-key International,bio-key.com,Other,Other,non_ai_unchanged,,
+saas_00432,ITRS Uptrends,uptrends.com,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00443,Embedly,embed.ly,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00450,Intense Debate,intensedebate.com,Other,Other,non_ai_unchanged,,
+saas_00429,Discourse,discourse.org,Productivity,Productivity,non_ai_unchanged,,
+saas_00243,WebPageTest,webpagetest.org,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00485,TunnelBear,tunnelbear.com,Other,Other,non_ai_unchanged,,
+saas_00274,SendGrid,sendgrid.com,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00268,Uptime Robot,uptimerobot.com,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00479,PrintFriendly,printfriendly.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00345,Proton VPN,protonvpn.com,Other,Other,non_ai_unchanged,,
+saas_00062,Iubenda,iubenda.com,Other,Other,non_ai_unchanged,,
+saas_00490,Termly,termly.io,Other,Other,non_ai_unchanged,,
+saas_00362,КонсультантПлюс,consultant.ru,Research / Search,Research / Search,non_ai_unchanged,,
+saas_00428,CourtListener,courtlistener.com,Research / Search,Research / Search,non_ai_unchanged,,
+saas_00435,Bazaarvoice,bazaarvoice.com,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00101,CoSchedule,coschedule.com,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00487,Sendinblue,sendinblue.com,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00411,Benchmark Email,benchmarkemail.com,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00128,GetResponse,getresponse.com,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00200,Litmus,litmus.com,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00474,Yotpo,yotpo.com,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00355,Later,later.com,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00224,AWeber,aweber.com,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00187,Campaign Monitor,campaignmonitor.com,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00066,Constant Contact,constantcontact.com,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00279,ShareThis,sharethis.com,Data Analytics,Data Analytics,non_ai_unchanged,,
+saas_00049,Moz,moz.com,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00045,Bitly,bitly.com,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00017,Mailchimp,mailchimp.com,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00114,Spreaker,spreaker.com,Other,Other,non_ai_unchanged,,
+saas_00421,Telestream,telestream.net,Other,Other,non_ai_unchanged,,
+saas_00006,Vimeo,vimeo.com,Other,Other,non_ai_unchanged,,
+saas_00390,Libsyn - Liberated Syndication,libsyn.com,Other,Other,non_ai_unchanged,,
+saas_00228,PressReader,pressreader.com,Other,Other,non_ai_unchanged,,
+saas_00133,ProductionCrate,productioncrate.com,Image / Video Generation,Image / Video Generation,non_ai_unchanged,,
+saas_00408,AppBrain,appbrain.com,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00085,Epidemic Sound,epidemicsound.com,Other,Other,non_ai_unchanged,,
+saas_00105,Unicode Consortium,unicode.org,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00276,OpenID Foundation,openid.net,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00240,Open Collective,opencollective.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00145,StatCounter,statcounter.com,Data Analytics,Data Analytics,non_ai_unchanged,,
+saas_00051,Trustpilot,trustpilot.com,Customer Support,Customer Support,non_ai_unchanged,,
+saas_00087,Buy Me a Coffee,buymeacoffee.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00417,Zenfolio,zenfolio.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00297,SmugMug,smugmug.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00197,VSCO,vsco.co,Other,Other,non_ai_unchanged,,
+saas_00188,Podbean,podbean.com,Other,Other,non_ai_unchanged,,
+saas_00137,Substack,substack.com,Content Generation,Content Generation,non_ai_unchanged,,
+saas_00352,Core - Connecting Repositories,core.ac.uk,Research / Search,Research / Search,non_ai_unchanged,,
+saas_00053,Yumpu,yumpu.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00320,Calaméo,calameo.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00483,Schedulicity,schedulicity.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00451,Figshare,figshare.com,Research / Search,Research / Search,non_ai_unchanged,,
+saas_00398,Q1 Labs,securityintelligence.com,Other,Other,non_ai_unchanged,,
+saas_00001,LinkedIn,linkedin.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00419,Diaspora,joindiaspora.com,Other,Other,non_ai_unchanged,,
+saas_00272,World Time Buddy,worldtimebuddy.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00463,MAMP,mamp.info,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00041,Figma,figma.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00365,BrowserStack,browserstack.com,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00356,ImageMagick Studio,imagemagick.org,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00350,Qiita,qiita.com,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00070,CodePen,codepen.io,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00044,Semrush,semrush.com,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00244,Blackbaud,blackbaud.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00498,Grafana Labs,grafana.com,Data Analytics,Data Analytics,non_ai_unchanged,,
+saas_00213,Splunk,splunk.com,Data Analytics,Data Analytics,non_ai_unchanged,,
+saas_00439,phpMyAdmin,phpmyadmin.net,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00462,Komoot,komoot.com,Other,Other,non_ai_unchanged,,
+saas_00117,ActiveCampaign,activecampaign.com,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00116,Qualtrics,qualtrics.com,Data Analytics,Data Analytics,non_ai_unchanged,,
+saas_00306,Netlify,netlify.com,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00264,Pipedrive,pipedrive.com,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00167,Codeberg,codeberg.org,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00270,PortSwigger,portswigger.net,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00057,Twilio,twilio.com,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00262,Jitsi,jitsi.org,Meeting / Transcription Tools,Meeting / Transcription Tools,non_ai_unchanged,,
+saas_00442,Glitch,glitch.com,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00311,SQLite,sqlite.org,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00488,Gitee,gitee.com,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00040,Buffer,buffer.com,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00351,Teamup Solutions,teamup.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00309,Moment.js,momentjs.com,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00024,Salesforce,salesforce.com,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00406,PhantomJS,phantomjs.org,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00144,Ticket Tailor,tickettailor.com,Other,Other,non_ai_unchanged,,
+saas_00280,Streamlabs,streamlabs.com,Image / Video Generation,Image / Video Generation,non_ai_unchanged,,
+saas_00278,OptinMonster,optinmonster.com,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00131,Hotjar,hotjar.com,Data Analytics,Data Analytics,non_ai_unchanged,,
+saas_00242,PostgreSQL Global Development Group,postgresql.org,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00484,Crisp Instant Messaging,crisp.chat,Customer Support,Customer Support,non_ai_unchanged,,
+saas_00430,Data-Driven Documents,d3js.org,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00232,Git,git-scm.com,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00005,WordPress,wordpress.org,Content Generation,Content Generation,non_ai_unchanged,,
+saas_00162,AVG Technologies,avg.com,Other,Other,non_ai_unchanged,,
+saas_00266,DocuSign,docusign.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00170,New Relic,newrelic.com,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00459,OpenSearch Project,opensearch.org,Data Analytics,Data Analytics,non_ai_unchanged,,
+saas_00376,LiveChat,livechat.com,Customer Support,Customer Support,non_ai_unchanged,,
+saas_00313,Backbone,backbonejs.org,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00359,Workday,workday.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00425,SpeedCurve,speedcurve.com,Data Analytics,Data Analytics,non_ai_unchanged,,
+saas_00100,Webflow,webflow.com,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00499,Claris,claris.com,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00177,Basecamp,basecamp.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00135,Unreal Engine,unrealengine.com,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00323,BuddyPress,buddypress.org,Productivity,Productivity,non_ai_unchanged,,
+saas_00441,Jobber,getjobber.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00410,Pitch,pitch.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00190,Bitrix24,bitrix24.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00374,Make,make.com,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00324,POWR,powr.io,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00277,Gpg Communications,gnupg.org,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00301,Vue Technology,vuejs.org,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00496,HelloBar,hellobar.com,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00058,Jotform,jotform.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00113,Prezi,prezi.com,Content Generation,Content Generation,non_ai_unchanged,,
+saas_00050,GitLab,gitlab.com,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00342,Nextcloud,nextcloud.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00431,Inkscape Project,inkscape.org,Content Generation,Content Generation,non_ai_unchanged,,
+saas_00480,SurveySparrow,surveysparrow.com,Customer Support,Customer Support,non_ai_unchanged,,
+saas_00077,Npm,npmjs.com,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00318,Babel,babeljs.io,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00372,Ghostery,ghostery.com,Other,Other,non_ai_unchanged,,
+saas_00339,Monday,monday.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00036,Notion,notion.so,Productivity,Productivity,non_ai_unchanged,,
+saas_00344,Lovefield,google.github.io,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00254,Plesk,plesk.com,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00317,Mouseflow,mouseflow.com,Data Analytics,Data Analytics,non_ai_unchanged,,
+saas_00298,FileZilla,filezilla-project.org,Productivity,Productivity,non_ai_unchanged,,
+saas_00367,CoffeeScript,coffeescript.org,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00155,MySQL,mysql.com,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00321,RealVNC,realvnc.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00148,1Password,1password.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00400,RescueTime,rescuetime.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00241,Dashlane,dashlane.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00088,Ahrefs,ahrefs.com,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00178,Mindbody,mindbodyonline.com,Other,Other,non_ai_unchanged,,
+saas_00269,Matomo,matomo.org,Data Analytics,Data Analytics,non_ai_unchanged,,
+saas_00054,Airtable,airtable.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00471,Composer,getcomposer.org,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00445,Clockify,clockify.me,Productivity,Productivity,non_ai_unchanged,,
+saas_00416,Help Scout,helpscout.com,Customer Support,Customer Support,non_ai_unchanged,,
+saas_00290,Doodle,doodle.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00312,TermsFeed,termsfeed.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00310,OnlyOffice,onlyoffice.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00500,Amplitude,amplitude.com,Data Analytics,Data Analytics,non_ai_unchanged,,
+saas_00261,WPForms,wpforms.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00034,HubSpot,hubspot.com,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00383,Ghost,ghost.org,Content Generation,Content Generation,non_ai_unchanged,,
+saas_00078,Padlet,padlet.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00343,Microsoft Office,office.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00092,Loom,loom.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00139,Intelli-CTi,intellicti.com,Customer Support,Customer Support,non_ai_unchanged,,
+saas_00252,Akismet,akismet.com,Other,Security And Privacy,mapped,normalized_name_and_host,11502
+saas_00221,Cognito Forms,cognitoforms.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00098,jQuery,jquery.com,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00184,Optimizely,optimizely.com,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00206,Elementor,elementor.com,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00358,Todoist,todoist.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00021,Trello,trello.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00210,WinZip International,winzip.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00427,CCleaner,ccleaner.com,Other,Other,non_ai_unchanged,,
+saas_00452,Crowdin,crowdin.com,Other,Other,non_ai_unchanged,,
+saas_00497,OpenLayers,openlayers.org,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00489,OnTheGoSystems,wpml.org,Productivity,Productivity,non_ai_unchanged,,
+saas_00230,MuseScore,musescore.com,Other,Other,non_ai_unchanged,,
+saas_00454,ESET North America,eset.com,Other,Other,non_ai_unchanged,,
+saas_00089,Docker,docker.com,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00285,GeoGebra,geogebra.org,Other,Other,non_ai_unchanged,,
+saas_00182,Zstandard,facebook.github.io,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00071,Zapier,zapier.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00222,PyPI - Python Package Index,pypi.org,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00214,Harvest,getharvest.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00195,iLovePDF,ilovepdf.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00237,OneNote,onenote.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00152,Esri - Environmental Systems Research Institute,esri.com,Data Analytics,Data Analytics,non_ai_unchanged,,
+saas_00149,NGINX,nginx.org,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00084,LastPass,lastpass.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00032,Slack,slack.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00038,Bitbucket,bitbucket.org,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00348,ZoomInfo,zoominfo.com,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00460,HoneyBook,honeybook.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00030,Calendly,calendly.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00404,FullContact,fullcontact.com,Data Analytics,Data Analytics,non_ai_unchanged,,
+saas_00409,Slides,slides.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00048,Hootsuite,hootsuite.com,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00476,DocSend,docsend.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00456,Rank Math,rankmath.com,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00322,MariaDB,mariadb.com,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00231,Sass,sass-lang.com,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00477,Write.as,write.as,Content Generation,Content Generation,non_ai_unchanged,,
+saas_00402,Transifex,transifex.com,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00035,Zendesk,zendesk.com,Customer Support,Customer Support,non_ai_unchanged,,
+saas_00434,Postman,postman.com,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00029,Evernote,evernote.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00273,Sentry,sentry.io,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00294,Leaflet,leafletjs.com,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00467,Element,element.io,Productivity,Productivity,non_ai_unchanged,,
+saas_00423,Underscore,underscorejs.org,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00299,SketchUp,sketchup.com,Other,Other,non_ai_unchanged,,
+saas_00332,InVision,invisionapp.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00438,Packagist Mirror,packagist.org,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00140,Mapbox,mapbox.com,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00387,AdGuard,adguard.com,Other,Other,non_ai_unchanged,,
+saas_00336,Smallpdf,smallpdf.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00060,Asana,asana.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00235,AfterShip,aftership.com,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00461,Balsamiq,balsamiq.com,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00369,Wordfence,wordfence.com,Other,Other,non_ai_unchanged,,
+saas_00371,MongoDB,mongodb.com,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00204,Smartsheet,smartsheet.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00189,Jetpack,jetpack.com,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00382,Segment,segment.com,Data Analytics,Data Analytics,non_ai_unchanged,,
+saas_00258,Auth0,auth0.com,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00169,Gitter,gitter.im,Productivity,Productivity,non_ai_unchanged,,
+saas_00328,GTmetrix,gtmetrix.com,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00218,Zotero,zotero.org,Research / Search,Research / Search,non_ai_unchanged,,
+saas_00265,Joomla,joomla.org,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00448,Sketch,sketch.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00283,Adblock Plus,adblockplus.org,Other,Other,non_ai_unchanged,,
+saas_00446,Internet Information Services,iis.net,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00103,Tawk,tawk.to,Customer Support,Customer Support,non_ai_unchanged,,
+saas_00379,MooTools,mootools.net,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00361,Infogram,infogram.com,Data Analytics,Data Analytics,non_ai_unchanged,,
+saas_00260,Lucidchart,lucidchart.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00396,Veeqo,veeqo.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00075,IFTTT - If This Then That,ifttt.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00229,TypeScript,typescriptlang.org,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00275,jQuery UI,jqueryui.com,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00163,HackMD,hackmd.io,Productivity,Productivity,non_ai_unchanged,,
+saas_00095,Strava,strava.com,Other,Other,non_ai_unchanged,,
+saas_00296,Chartbeat,chartbeat.com,Data Analytics,Data Analytics,non_ai_unchanged,,
+saas_00392,Klaviyo,klaviyo.com,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00334,OneLogin,onelogin.com,Other,Other,non_ai_unchanged,,
+saas_00259,MailerLite,mailerlite.com,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00154,Unity,unity.com,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00142,Tableau,tableau.com,Data Analytics,Data Analytics,non_ai_unchanged,,
+saas_00385,Kubernetes,kubernetes.io,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00386,Redis,redis.io,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00176,Okta,okta.com,Other,Other,non_ai_unchanged,,
+saas_00331,Quick Sprout,quicksprout.com,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00227,FreshBooks,freshbooks.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00360,Windy,windy.com,Other,Other,non_ai_unchanged,,
+saas_00475,Ivanti,ivanti.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00143,ClickUp,clickup.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00216,Digital Inspiration,labnol.org,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00127,JSFiddle,jsfiddle.net,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00353,Next.js,nextjs.org,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00267,OnlyFans,onlyfans.com,Other,Other,non_ai_unchanged,,
+saas_00067,Telegram Messenger,telegram.org,Productivity,Productivity,non_ai_unchanged,,
+saas_00288,Cloudinary,cloudinary.com,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00064,Animoto,animoto.com,Image / Video Generation,Image / Video Generation,non_ai_unchanged,,
+saas_00112,Weebly,weebly.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00008,Linktree,linktr.ee,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00388,Telegram,telegram.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00215,Tinify,tinypng.com,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00256,Jivo,jivochat.com,Customer Support,Customer Support,non_ai_unchanged,,
+saas_00263,Brightcove,brightcove.com,Other,Other,non_ai_unchanged,,
+saas_00373,Demand Sage,demandsage.com,Data Analytics,Data Analytics,non_ai_unchanged,,
+saas_00368,JWT,jwt.io,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00447,Podium,podium.com,Customer Support,Customer Support,non_ai_unchanged,,
+saas_00196,Wolfram Alpha,wolframalpha.com,Research / Search,Research / Search,non_ai_unchanged,,
+saas_00401,Home Assistant,home-assistant.io,Other,Other,non_ai_unchanged,,
+saas_00180,AddToAny,addtoany.com,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00165,Mega,mega.nz,Productivity,Productivity,non_ai_unchanged,,
+saas_00025,Foursquare,foursquare.com,Data Analytics,Data Analytics,non_ai_unchanged,,
+saas_00253,Crowdcast,crowdcast.io,Meeting / Transcription Tools,Meeting / Transcription Tools,non_ai_unchanged,,
+saas_00481,Vercel,vercel.com,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00212,F5 Networks,f5.com,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00209,Parallels,parallels.com,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00191,LottieFiles,lottiefiles.com,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00121,AMP - Accelerated Mobile Pages,amp.dev,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00325,Mendeley,mendeley.com,Research / Search,Research / Search,non_ai_unchanged,,
+saas_00022,Discord,discord.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00073,CoreFiling,corefiling.com,Data Analytics,Data Analytics,non_ai_unchanged,,
+saas_00305,Wistia,wistia.com,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00205,AppsFlyer,appsflyer.com,Sales / Marketing,Sales / Marketing,non_ai_unchanged,,
+saas_00234,TeamViewer,teamviewer.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00375,Pingdom,pingdom.com,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00349,Cybot,cookiebot.com,Other,Other,non_ai_unchanged,,
+saas_00010,Dropbox,dropbox.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00052,Disqus,disqus.com,Customer Support,Customer Support,non_ai_unchanged,,
+saas_00300,FIDO Alliance,fidoalliance.org,Other,Other,non_ai_unchanged,,
+saas_00028,GoDaddy,godaddy.com,Other,Other,non_ai_unchanged,,
+saas_00250,What3words,what3words.com,Other,Other,non_ai_unchanged,,
+saas_00039,StreamElements,streamelements.com,Content Generation,Content Generation,non_ai_unchanged,,
+saas_00433,Bubble,bubble.io,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
+saas_00090,WeTransfer,wetransfer.com,Productivity,Productivity,non_ai_unchanged,,
+saas_00468,Zoom Video Communications,zoom.com,Meeting / Transcription Tools,Meeting / Transcription Tools,non_ai_unchanged,,
+saas_00397,3CX,3cx.com,Customer Support,Customer Support,non_ai_unchanged,,
+saas_00026,Wix,wix.com,Coding / Developer Tools,Coding / Developer Tools,non_ai_unchanged,,
