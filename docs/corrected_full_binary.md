@@ -15,7 +15,7 @@ Input: `data/processed/corrected_labels_2026-11-05/all_corrected.csv`, 17,292 so
 | Retained across splits | 16,674 |
 | Total input | 17,292 |
 
-Before deduplication, opposite labels sharing an exact normalized name or description are quarantined. None remained in this actual input after the approved review. Same-name/host duplicates with the same label retain one representative: prefer assistant-source-reviewed records, then the longer description, then deterministic ID order. Different names with shared descriptions are grouped rather than automatically collapsed into a single product.
+Before deduplication, opposite labels sharing an exact normalized name or description are quarantined. None remained in this actual input after the approved review. Same-name/host duplicates with the same label retain one representative: prefer records reviewed against official sources, then the longer description, then deterministic ID order. Different names with shared descriptions are grouped rather than automatically collapsed into a single product.
 
 Split groups connect exact normalized names, descriptions, hosts, conservative host families, and known normalized vendor strings. Connections are transitive. Grouping does not assert that unrelated hosted products have the same vendor; grouping shared hosts conservatively keeps them together. Host-family handling includes common multi-part suffixes but is not a full public-suffix or corporate-ownership database. Uncached ownership relationships and unrecognized aliases may remain. Vendor strings are used only for grouping and never as predictor inputs.
 
@@ -65,7 +65,7 @@ AI                         21              2,407
 
 The detector identifies 70 of 73 conventional examples. Conventional precision is lower because 21 AI-labeled records are predicted conventional. High overall accuracy alone is misleading given the class imbalance. Brier score is 0.00750 and log loss 0.03464; scores remain uncalibrated, and prevalence affects these aggregate probability metrics.
 
-These results measure agreement with primarily source-assigned labels, supplemented by limited assistant source review. They do not establish real-world AI-detection accuracy. Conventional-source descriptions tend to be written differently and may be longer than AI-source descriptions, allowing source-style artifacts to influence classification. Exact grouping does not prove all semantic duplicates/aliases are removed. The 73 conventional test examples still limit precision. Scores are not governance-risk probabilities or proof that conventional products lack AI features.
+These results measure agreement with primarily source-assigned labels, supplemented by limited review against official sources. They do not establish real-world AI-detection accuracy. Conventional-source descriptions tend to be written differently and may be longer than AI-source descriptions, allowing source-style artifacts to influence classification. Exact grouping does not prove all semantic duplicates/aliases are removed. The 73 conventional test examples still limit precision. Scores are not governance-risk probabilities or proof that conventional products lack AI features.
 
 ## Manual diagnostic checks
 
