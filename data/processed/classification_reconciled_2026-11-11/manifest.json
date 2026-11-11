@@ -1,0 +1,53 @@
+{
+  "version": "reconciled-full-2026-11-11",
+  "seed": 20261111,
+  "input_sha256": "7ee066d571e439eca15efdbca1a706c347ac185457e43a1939d00a5844c62534",
+  "input_rows": 17292,
+  "split_counts": {
+    "train": {
+      "rows": 11676,
+      "classes": {
+        "1": 11330,
+        "0": 346
+      },
+      "groups": 11099
+    },
+    "validation": {
+      "rows": 2502,
+      "classes": {
+        "1": 2428,
+        "0": 74
+      },
+      "groups": 2378
+    },
+    "test": {
+      "rows": 2502,
+      "classes": {
+        "1": 2428,
+        "0": 74
+      },
+      "groups": 2379
+    }
+  },
+  "excluded_rows": 612,
+  "exclusions": {
+    "duplicate_name_and_host": 35,
+    "missing_name_or_description": 528,
+    "unresolved_label": 30,
+    "invalid_domain": 19
+  },
+  "outputs_sha256": {
+    "train.csv": "5d912a506b31b7db586af6fca04e8f3a604f2510c91e7fc9b21d17bc6c34054e",
+    "validation.csv": "4b89fad1b4668a5809aa84f39ffc091278d32702b2a885e528801e6c367e202f",
+    "test.csv": "082726ffb38bddd3cb3eef9a3bc97f743a64a5c0544a751c3f9c50f5e45b5958",
+    "excluded_records.csv": "da6928f062c67970e27298bc1c5c9e4dab729eace8ed2551df136f11fe96a81b"
+  },
+  "feature": "description only; no names, vendor, review, category or governance predictor features",
+  "grouping": "Transitive host, conservative host family, exact normalized name/description, and known normalized vendor; no vendor ownership inference for uncached records",
+  "limitations": [
+    "Labels mostly source-assigned; not independently human verified.",
+    "Splits are new, but many products were seen in earlier experiments or label review.",
+    "Source-dependent description style and length can confound prediction.",
+    "Grouping is conservative, not a complete global ownership/alias database."
+  ]
+}

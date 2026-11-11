@@ -1,0 +1,1942 @@
+{
+  "company": "Summit Financial",
+  "synthetic_activity": true,
+  "synthetic_scenario_applied": true,
+  "inputs": {
+    "activity": {
+      "file": "summit_financial_usage (1).csv",
+      "sha256": "b4f412dc01fa2e4fb16dee79b4d645d564a8a8473c65505065eb4cca23c413a5"
+    },
+    "metadata": {
+      "file": "dataset_b_master.csv",
+      "sha256": "be55b869bcd873931842d692ecb53c73009e8032bf3770b8d8caa994768b377c"
+    },
+    "policy": {
+      "file": "policy.json",
+      "sha256": "181fb959f3dd38cf5308a52fe7f3dc760c37af6b15ccf2c5889cf3eba2d1231a"
+    },
+    "synthetic_scenarios": {
+      "file": "synthetic_scenarios.json",
+      "sha256": "97b1345e6da90e4728b31cd63abfec845241c1e60048b45ce3c3580d9365cb5e"
+    },
+    "classification_catalog": {
+      "file": "all_corrected.csv",
+      "sha256": "c2face9704386301cd4e044ecb3cef93c3153729a2f32988417527c533236ebe"
+    }
+  },
+  "policy_version": "demo-1.0",
+  "application_count": 22,
+  "applications": [
+    {
+      "application_key": "chatgpt.com",
+      "application_names": [
+        "ChatGPT"
+      ],
+      "unique_users": 378,
+      "departments": [
+        "Compliance",
+        "Finance",
+        "HR",
+        "IT",
+        "Operations",
+        "Sales"
+      ],
+      "events": 1243,
+      "first_seen": "2026-09-01T08:40:00+00:00",
+      "last_seen": "2026-09-30T18:45:00+00:00",
+      "upload_observations": 1243,
+      "download_observations": 1243,
+      "total_bytes_uploaded": 3914488126,
+      "total_bytes_downloaded": 9158063738,
+      "mean_bytes_uploaded": 3149226.167337088,
+      "max_bytes_uploaded": 9995754,
+      "mean_bytes_downloaded": 7367710.167337088,
+      "risk_score": 95,
+      "uncapped_risk_score": 95,
+      "risk_level": "high",
+      "assessment_status": "complete",
+      "needs_review": true,
+      "unknown_fields": [],
+      "metadata": {
+        "approved_status": "unapproved",
+        "data_retention": "indefinite",
+        "sso_available": false,
+        "training_on_customer_data": true,
+        "admin_controls_available": false,
+        "enterprise_plan_available": false
+      },
+      "metadata_source": "synthetic_company_scenario",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "unapproved",
+          "points": 25,
+          "evidence": {
+            "approved_status": "unapproved"
+          },
+          "explanation": "Explicitly unapproved in this company scenario."
+        },
+        {
+          "rule": "no_sso",
+          "points": 10,
+          "evidence": {
+            "sso_available": false
+          },
+          "explanation": "SSO unavailable in supplied metadata."
+        },
+        {
+          "rule": "no_admin_controls",
+          "points": 10,
+          "evidence": {
+            "admin_controls_available": false
+          },
+          "explanation": "Administrative controls unavailable in supplied metadata."
+        },
+        {
+          "rule": "no_enterprise_plan",
+          "points": 5,
+          "evidence": {
+            "enterprise_plan_available": false
+          },
+          "explanation": "Enterprise plan unavailable in supplied metadata."
+        },
+        {
+          "rule": "customer_data_training",
+          "points": 20,
+          "evidence": {
+            "training_on_customer_data": true
+          },
+          "explanation": "Supplied policy indicates customer content may be used for model training."
+        },
+        {
+          "rule": "long_retention",
+          "points": 10,
+          "evidence": {
+            "data_retention": "indefinite",
+            "threshold_days": 90
+          },
+          "explanation": "Retention exceeds the configured review threshold."
+        },
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 378,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "metadata_match": true,
+      "company": "Summit Financial",
+      "detection": {
+        "is_ai_tool": 1,
+        "method": "catalog_label",
+        "model_ai_score": null,
+        "record_ids": [
+          "ai_catalog:tool_00001",
+          "non_ai_catalog:saas_00157"
+        ],
+        "needs_review": true,
+        "reason": "Supplied catalog label; not independent verification."
+      }
+    },
+    {
+      "application_key": "documind-ai.com",
+      "application_names": [
+        "DocuMind AI"
+      ],
+      "unique_users": 84,
+      "departments": [
+        "Finance"
+      ],
+      "events": 120,
+      "first_seen": "2026-09-04T10:34:00+00:00",
+      "last_seen": "2026-09-29T18:44:00+00:00",
+      "upload_observations": 120,
+      "download_observations": 120,
+      "total_bytes_uploaded": 953803761,
+      "total_bytes_downloaded": 300642538,
+      "mean_bytes_uploaded": 7948364.675,
+      "max_bytes_uploaded": 14941791,
+      "mean_bytes_downloaded": 2505354.4833333334,
+      "risk_score": 55,
+      "uncapped_risk_score": 55,
+      "risk_level": "high",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": "unapproved",
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "synthetic_company_scenario",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "unapproved",
+          "points": 25,
+          "evidence": {
+            "approved_status": "unapproved"
+          },
+          "explanation": "Explicitly unapproved in this company scenario."
+        },
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "large_upload",
+          "points": 15,
+          "evidence": {
+            "mean_bytes_uploaded": 7948364.675,
+            "max_bytes_uploaded": 14941791,
+            "mean_threshold": 5000000,
+            "single_threshold": 10000000
+          },
+          "explanation": "Upload volume exceeds a configured threshold; this does not establish data leakage."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 84,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "metadata_match": false,
+      "company": "Summit Financial",
+      "detection": {
+        "is_ai_tool": null,
+        "method": "unknown",
+        "model_ai_score": null,
+        "record_ids": [],
+        "needs_review": true,
+        "reason": "No exact catalog identity or supplied description. Names alone are not classified."
+      }
+    },
+    {
+      "application_key": "atlassian.com",
+      "application_names": [
+        "Jira"
+      ],
+      "unique_users": 222,
+      "departments": [
+        "Compliance",
+        "Finance",
+        "HR",
+        "IT",
+        "Operations",
+        "Sales"
+      ],
+      "events": 344,
+      "first_seen": "2026-09-01T08:14:00+00:00",
+      "last_seen": "2026-09-30T18:59:00+00:00",
+      "upload_observations": 344,
+      "download_observations": 344,
+      "total_bytes_uploaded": 1024670118,
+      "total_bytes_downloaded": 2183732778,
+      "mean_bytes_uploaded": 2978692.2034883723,
+      "max_bytes_uploaded": 9977187,
+      "mean_bytes_downloaded": 6348060.401162791,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 222,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "metadata_match": false,
+      "company": "Summit Financial",
+      "detection": {
+        "is_ai_tool": null,
+        "method": "unresolved_catalog",
+        "model_ai_score": null,
+        "record_ids": [
+          "non_ai_catalog:claude_00003",
+          "non_ai_catalog:claude_00006",
+          "non_ai_catalog:saas_00122"
+        ],
+        "needs_review": true,
+        "reason": "Ambiguous product scope or unresolved label; no automatic override."
+      }
+    },
+    {
+      "application_key": "claude.ai",
+      "application_names": [
+        "Claude"
+      ],
+      "unique_users": 377,
+      "departments": [
+        "Compliance",
+        "Finance",
+        "HR",
+        "IT",
+        "Operations",
+        "Sales"
+      ],
+      "events": 1240,
+      "first_seen": "2026-09-01T08:05:00+00:00",
+      "last_seen": "2026-09-30T18:58:00+00:00",
+      "upload_observations": 1240,
+      "download_observations": 1240,
+      "total_bytes_uploaded": 3819536242,
+      "total_bytes_downloaded": 8284616450,
+      "mean_bytes_uploaded": 3080271.162903226,
+      "max_bytes_uploaded": 9981058,
+      "mean_bytes_downloaded": 6681142.298387097,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "dataset_b",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 377,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "metadata_match": true,
+      "company": "Summit Financial",
+      "detection": {
+        "is_ai_tool": 1,
+        "method": "catalog_label",
+        "model_ai_score": null,
+        "record_ids": [
+          "ai_catalog:tool_00002"
+        ],
+        "needs_review": true,
+        "reason": "Supplied catalog label; not independent verification."
+      }
+    },
+    {
+      "application_key": "code.visualstudio.com",
+      "application_names": [
+        "VS Code"
+      ],
+      "unique_users": 255,
+      "departments": [
+        "Compliance",
+        "Finance",
+        "HR",
+        "IT",
+        "Operations",
+        "Sales"
+      ],
+      "events": 615,
+      "first_seen": "2026-09-01T08:21:00+00:00",
+      "last_seen": "2026-09-30T18:40:00+00:00",
+      "upload_observations": 615,
+      "download_observations": 615,
+      "total_bytes_uploaded": 1847668445,
+      "total_bytes_downloaded": 4492645075,
+      "mean_bytes_uploaded": 3004338.9349593497,
+      "max_bytes_uploaded": 9987122,
+      "mean_bytes_downloaded": 7305113.943089431,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 255,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "metadata_match": false,
+      "company": "Summit Financial",
+      "detection": {
+        "is_ai_tool": null,
+        "method": "unknown",
+        "model_ai_score": null,
+        "record_ids": [],
+        "needs_review": true,
+        "reason": "No exact catalog identity or supplied description. Names alone are not classified."
+      }
+    },
+    {
+      "application_key": "cursor.com",
+      "application_names": [
+        "Cursor"
+      ],
+      "unique_users": 111,
+      "departments": [
+        "Compliance",
+        "Finance",
+        "HR",
+        "IT",
+        "Operations",
+        "Sales"
+      ],
+      "events": 151,
+      "first_seen": "2026-09-01T08:35:00+00:00",
+      "last_seen": "2026-09-30T17:14:00+00:00",
+      "upload_observations": 151,
+      "download_observations": 151,
+      "total_bytes_uploaded": 431127986,
+      "total_bytes_downloaded": 992952094,
+      "mean_bytes_uploaded": 2855152.2251655627,
+      "max_bytes_uploaded": 9968659,
+      "mean_bytes_downloaded": 6575841.682119206,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "complete",
+      "needs_review": true,
+      "unknown_fields": [],
+      "metadata": {
+        "approved_status": "approved",
+        "data_retention": "30_days",
+        "sso_available": true,
+        "training_on_customer_data": false,
+        "admin_controls_available": true,
+        "enterprise_plan_available": true
+      },
+      "metadata_source": "synthetic_company_scenario",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 111,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "metadata_match": false,
+      "company": "Summit Financial",
+      "detection": {
+        "is_ai_tool": null,
+        "method": "unknown",
+        "model_ai_score": null,
+        "record_ids": [],
+        "needs_review": true,
+        "reason": "No exact catalog identity or supplied description. Names alone are not classified."
+      }
+    },
+    {
+      "application_key": "docs.google.com",
+      "application_names": [
+        "Google Docs"
+      ],
+      "unique_users": 367,
+      "departments": [
+        "Compliance",
+        "Finance",
+        "HR",
+        "IT",
+        "Operations",
+        "Sales"
+      ],
+      "events": 4712,
+      "first_seen": "2026-09-01T08:00:00+00:00",
+      "last_seen": "2026-09-30T18:59:00+00:00",
+      "upload_observations": 4712,
+      "download_observations": 4712,
+      "total_bytes_uploaded": 14444094337,
+      "total_bytes_downloaded": 32961413771,
+      "mean_bytes_uploaded": 3065385.0460526315,
+      "max_bytes_uploaded": 9998021,
+      "mean_bytes_downloaded": 6995206.657682513,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 367,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "metadata_match": false,
+      "company": "Summit Financial",
+      "detection": {
+        "is_ai_tool": null,
+        "method": "unknown",
+        "model_ai_score": null,
+        "record_ids": [],
+        "needs_review": true,
+        "reason": "No exact catalog identity or supplied description. Names alone are not classified."
+      }
+    },
+    {
+      "application_key": "drive.google.com",
+      "application_names": [
+        "Google Drive"
+      ],
+      "unique_users": 367,
+      "departments": [
+        "Compliance",
+        "Finance",
+        "HR",
+        "IT",
+        "Operations",
+        "Sales"
+      ],
+      "events": 4791,
+      "first_seen": "2026-09-01T08:02:00+00:00",
+      "last_seen": "2026-09-30T18:55:00+00:00",
+      "upload_observations": 4791,
+      "download_observations": 4791,
+      "total_bytes_uploaded": 14311757454,
+      "total_bytes_downloaded": 34130794854,
+      "mean_bytes_uploaded": 2987217.1684408267,
+      "max_bytes_uploaded": 9999154,
+      "mean_bytes_downloaded": 7123939.648090169,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 367,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "metadata_match": false,
+      "company": "Summit Financial",
+      "detection": {
+        "is_ai_tool": null,
+        "method": "unknown",
+        "model_ai_score": null,
+        "record_ids": [],
+        "needs_review": true,
+        "reason": "No exact catalog identity or supplied description. Names alone are not classified."
+      }
+    },
+    {
+      "application_key": "gemini.google.com",
+      "application_names": [
+        "Gemini"
+      ],
+      "unique_users": 377,
+      "departments": [
+        "Compliance",
+        "Finance",
+        "HR",
+        "IT",
+        "Operations",
+        "Sales"
+      ],
+      "events": 1326,
+      "first_seen": "2026-09-01T08:08:00+00:00",
+      "last_seen": "2026-09-30T18:46:00+00:00",
+      "upload_observations": 1326,
+      "download_observations": 1326,
+      "total_bytes_uploaded": 4006192966,
+      "total_bytes_downloaded": 9603069889,
+      "mean_bytes_uploaded": 3021261.6636500754,
+      "max_bytes_uploaded": 9969865,
+      "mean_bytes_downloaded": 7242134.154600302,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "dataset_b",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 377,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "metadata_match": true,
+      "company": "Summit Financial",
+      "detection": {
+        "is_ai_tool": 1,
+        "method": "catalog_label",
+        "model_ai_score": null,
+        "record_ids": [
+          "ai_catalog:tool_00003"
+        ],
+        "needs_review": true,
+        "reason": "Supplied catalog label; not independent verification."
+      }
+    },
+    {
+      "application_key": "github.com",
+      "application_names": [
+        "GitHub"
+      ],
+      "unique_users": 241,
+      "departments": [
+        "Compliance",
+        "Finance",
+        "HR",
+        "IT",
+        "Operations",
+        "Sales"
+      ],
+      "events": 568,
+      "first_seen": "2026-09-01T09:15:00+00:00",
+      "last_seen": "2026-09-30T18:48:00+00:00",
+      "upload_observations": 568,
+      "download_observations": 568,
+      "total_bytes_uploaded": 1708377789,
+      "total_bytes_downloaded": 4081914230,
+      "mean_bytes_uploaded": 3007707.375,
+      "max_bytes_uploaded": 9983907,
+      "mean_bytes_downloaded": 7186468.714788732,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "dataset_b",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 241,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "metadata_match": true,
+      "company": "Summit Financial",
+      "detection": {
+        "is_ai_tool": null,
+        "method": "unresolved_catalog",
+        "model_ai_score": null,
+        "record_ids": [
+          "ai_catalog:tool_11509",
+          "non_ai_catalog:claude_00018",
+          "non_ai_catalog:saas_00004"
+        ],
+        "needs_review": true,
+        "reason": "Ambiguous product scope or unresolved label; no automatic override."
+      }
+    },
+    {
+      "application_key": "github.com/copilot",
+      "application_names": [
+        "GitHub Copilot"
+      ],
+      "unique_users": 121,
+      "departments": [
+        "Compliance",
+        "Finance",
+        "HR",
+        "IT",
+        "Operations",
+        "Sales"
+      ],
+      "events": 174,
+      "first_seen": "2026-09-01T08:54:00+00:00",
+      "last_seen": "2026-09-30T16:39:00+00:00",
+      "upload_observations": 174,
+      "download_observations": 174,
+      "total_bytes_uploaded": 507553247,
+      "total_bytes_downloaded": 1161321648,
+      "mean_bytes_uploaded": 2916972.6839080458,
+      "max_bytes_uploaded": 9897402,
+      "mean_bytes_downloaded": 6674262.344827586,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 121,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "metadata_match": false,
+      "company": "Summit Financial",
+      "detection": {
+        "is_ai_tool": null,
+        "method": "unknown",
+        "model_ai_score": null,
+        "record_ids": [],
+        "needs_review": true,
+        "reason": "No exact catalog identity or supplied description. Names alone are not classified."
+      }
+    },
+    {
+      "application_key": "grammarly.com",
+      "application_names": [
+        "Grammarly"
+      ],
+      "unique_users": 147,
+      "departments": [
+        "Compliance",
+        "Finance",
+        "HR",
+        "IT",
+        "Operations",
+        "Sales"
+      ],
+      "events": 296,
+      "first_seen": "2026-09-01T08:54:00+00:00",
+      "last_seen": "2026-09-30T18:20:00+00:00",
+      "upload_observations": 296,
+      "download_observations": 296,
+      "total_bytes_uploaded": 793324733,
+      "total_bytes_downloaded": 2237471432,
+      "mean_bytes_uploaded": 2680151.125,
+      "max_bytes_uploaded": 9922791,
+      "mean_bytes_downloaded": 7559025.108108108,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "dataset_b",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 147,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "metadata_match": true,
+      "company": "Summit Financial",
+      "detection": {
+        "is_ai_tool": 1,
+        "method": "catalog_label",
+        "model_ai_score": null,
+        "record_ids": [
+          "ai_catalog:tool_01658",
+          "non_ai_catalog:saas_00120"
+        ],
+        "needs_review": true,
+        "reason": "Supplied catalog label; not independent verification."
+      }
+    },
+    {
+      "application_key": "jasper.ai",
+      "application_names": [
+        "Jasper"
+      ],
+      "unique_users": 101,
+      "departments": [
+        "Compliance",
+        "Finance",
+        "HR",
+        "IT",
+        "Operations",
+        "Sales"
+      ],
+      "events": 110,
+      "first_seen": "2026-09-01T11:40:00+00:00",
+      "last_seen": "2026-09-30T15:09:00+00:00",
+      "upload_observations": 110,
+      "download_observations": 110,
+      "total_bytes_uploaded": 340630165,
+      "total_bytes_downloaded": 820325867,
+      "mean_bytes_uploaded": 3096637.8636363638,
+      "max_bytes_uploaded": 9996050,
+      "mean_bytes_downloaded": 7457507.881818182,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "dataset_b",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 101,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "metadata_match": true,
+      "company": "Summit Financial",
+      "detection": {
+        "is_ai_tool": null,
+        "method": "unresolved_catalog",
+        "model_ai_score": null,
+        "record_ids": [
+          "ai_catalog:tool_00395",
+          "non_ai_catalog:saas_00303"
+        ],
+        "needs_review": true,
+        "reason": "Ambiguous product scope or unresolved label; no automatic override."
+      }
+    },
+    {
+      "application_key": "linkedin.com",
+      "application_names": [
+        "LinkedIn"
+      ],
+      "unique_users": 233,
+      "departments": [
+        "Compliance",
+        "Finance",
+        "HR",
+        "IT",
+        "Operations",
+        "Sales"
+      ],
+      "events": 617,
+      "first_seen": "2026-09-01T08:05:00+00:00",
+      "last_seen": "2026-09-30T18:12:00+00:00",
+      "upload_observations": 617,
+      "download_observations": 617,
+      "total_bytes_uploaded": 1868112489,
+      "total_bytes_downloaded": 4514011881,
+      "mean_bytes_uploaded": 3027734.990275527,
+      "max_bytes_uploaded": 9985614,
+      "mean_bytes_downloaded": 7316064.636952998,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 233,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "metadata_match": false,
+      "company": "Summit Financial",
+      "detection": {
+        "is_ai_tool": 0,
+        "method": "catalog_label",
+        "model_ai_score": null,
+        "record_ids": [
+          "non_ai_catalog:saas_00001"
+        ],
+        "needs_review": true,
+        "reason": "Supplied catalog label; not independent verification."
+      }
+    },
+    {
+      "application_key": "midjourney.com",
+      "application_names": [
+        "Midjourney"
+      ],
+      "unique_users": 100,
+      "departments": [
+        "Compliance",
+        "Finance",
+        "HR",
+        "IT",
+        "Operations",
+        "Sales"
+      ],
+      "events": 110,
+      "first_seen": "2026-09-01T08:34:00+00:00",
+      "last_seen": "2026-09-30T18:59:00+00:00",
+      "upload_observations": 110,
+      "download_observations": 110,
+      "total_bytes_uploaded": 337812912,
+      "total_bytes_downloaded": 704475789,
+      "mean_bytes_uploaded": 3071026.4727272727,
+      "max_bytes_uploaded": 9944559,
+      "mean_bytes_downloaded": 6404325.3545454545,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "dataset_b",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 100,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "metadata_match": true,
+      "company": "Summit Financial",
+      "detection": {
+        "is_ai_tool": null,
+        "method": "unresolved_catalog",
+        "model_ai_score": null,
+        "record_ids": [
+          "ai_catalog:tool_06091",
+          "non_ai_catalog:saas_00420"
+        ],
+        "needs_review": true,
+        "reason": "Ambiguous product scope or unresolved label; no automatic override."
+      }
+    },
+    {
+      "application_key": "office.com",
+      "application_names": [
+        "Microsoft Excel"
+      ],
+      "unique_users": 279,
+      "departments": [
+        "Compliance",
+        "Finance",
+        "HR",
+        "IT",
+        "Operations",
+        "Sales"
+      ],
+      "events": 2058,
+      "first_seen": "2026-09-01T08:09:00+00:00",
+      "last_seen": "2026-09-30T18:49:00+00:00",
+      "upload_observations": 2058,
+      "download_observations": 2058,
+      "total_bytes_uploaded": 6181511357,
+      "total_bytes_downloaded": 14414215638,
+      "mean_bytes_uploaded": 3003649.8333333335,
+      "max_bytes_uploaded": 9987546,
+      "mean_bytes_downloaded": 7003992.049562682,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 279,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "metadata_match": false,
+      "company": "Summit Financial",
+      "detection": {
+        "is_ai_tool": 0,
+        "method": "catalog_label",
+        "model_ai_score": null,
+        "record_ids": [
+          "non_ai_catalog:saas_00343"
+        ],
+        "needs_review": true,
+        "reason": "Supplied catalog label; not independent verification."
+      }
+    },
+    {
+      "application_key": "perplexity.ai",
+      "application_names": [
+        "Perplexity"
+      ],
+      "unique_users": 175,
+      "departments": [
+        "Compliance",
+        "Finance",
+        "HR",
+        "IT",
+        "Operations",
+        "Sales"
+      ],
+      "events": 377,
+      "first_seen": "2026-09-01T09:02:00+00:00",
+      "last_seen": "2026-09-30T18:58:00+00:00",
+      "upload_observations": 377,
+      "download_observations": 377,
+      "total_bytes_uploaded": 1213813578,
+      "total_bytes_downloaded": 2556378019,
+      "mean_bytes_uploaded": 3219664.6631299737,
+      "max_bytes_uploaded": 9998187,
+      "mean_bytes_downloaded": 6780843.551724138,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "dataset_b",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 175,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "metadata_match": true,
+      "company": "Summit Financial",
+      "detection": {
+        "is_ai_tool": 1,
+        "method": "catalog_label",
+        "model_ai_score": null,
+        "record_ids": [
+          "ai_catalog:tool_00007"
+        ],
+        "needs_review": true,
+        "reason": "Supplied catalog label; not independent verification."
+      }
+    },
+    {
+      "application_key": "salesforce.com",
+      "application_names": [
+        "Salesforce"
+      ],
+      "unique_users": 245,
+      "departments": [
+        "Compliance",
+        "Finance",
+        "HR",
+        "IT",
+        "Operations",
+        "Sales"
+      ],
+      "events": 704,
+      "first_seen": "2026-09-01T08:19:00+00:00",
+      "last_seen": "2026-09-30T18:53:00+00:00",
+      "upload_observations": 704,
+      "download_observations": 704,
+      "total_bytes_uploaded": 2011137990,
+      "total_bytes_downloaded": 4959594081,
+      "mean_bytes_uploaded": 2856730.0994318184,
+      "max_bytes_uploaded": 9958475,
+      "mean_bytes_downloaded": 7044877.955965909,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 245,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "metadata_match": false,
+      "company": "Summit Financial",
+      "detection": {
+        "is_ai_tool": null,
+        "method": "unresolved_catalog",
+        "model_ai_score": null,
+        "record_ids": [
+          "non_ai_catalog:claude_00002",
+          "non_ai_catalog:saas_00024"
+        ],
+        "needs_review": true,
+        "reason": "Ambiguous product scope or unresolved label; no automatic override."
+      }
+    },
+    {
+      "application_key": "slack.com",
+      "application_names": [
+        "Slack"
+      ],
+      "unique_users": 309,
+      "departments": [
+        "Compliance",
+        "Finance",
+        "HR",
+        "IT",
+        "Operations",
+        "Sales"
+      ],
+      "events": 1535,
+      "first_seen": "2026-09-01T08:05:00+00:00",
+      "last_seen": "2026-09-30T18:59:00+00:00",
+      "upload_observations": 1535,
+      "download_observations": 1535,
+      "total_bytes_uploaded": 4591160727,
+      "total_bytes_downloaded": 10940295544,
+      "mean_bytes_uploaded": 2990984.186970684,
+      "max_bytes_uploaded": 9997187,
+      "mean_bytes_downloaded": 7127228.36742671,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "dataset_b",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 309,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "metadata_match": true,
+      "company": "Summit Financial",
+      "detection": {
+        "is_ai_tool": null,
+        "method": "unresolved_catalog",
+        "model_ai_score": null,
+        "record_ids": [
+          "ai_catalog:tool_14948",
+          "non_ai_catalog:claude_00001",
+          "non_ai_catalog:saas_00032"
+        ],
+        "needs_review": true,
+        "reason": "Ambiguous product scope or unresolved label; no automatic override."
+      }
+    },
+    {
+      "application_key": "teams.microsoft.com",
+      "application_names": [
+        "Microsoft Teams"
+      ],
+      "unique_users": 287,
+      "departments": [
+        "Compliance",
+        "Finance",
+        "HR",
+        "IT",
+        "Operations",
+        "Sales"
+      ],
+      "events": 1573,
+      "first_seen": "2026-09-01T08:00:00+00:00",
+      "last_seen": "2026-09-30T18:42:00+00:00",
+      "upload_observations": 1573,
+      "download_observations": 1573,
+      "total_bytes_uploaded": 4547357228,
+      "total_bytes_downloaded": 11174542862,
+      "mean_bytes_uploaded": 2890881.89955499,
+      "max_bytes_uploaded": 9996528,
+      "mean_bytes_downloaded": 7103968.761602035,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 287,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "metadata_match": false,
+      "company": "Summit Financial",
+      "detection": {
+        "is_ai_tool": null,
+        "method": "unknown",
+        "model_ai_score": null,
+        "record_ids": [],
+        "needs_review": true,
+        "reason": "No exact catalog identity or supplied description. Names alone are not classified."
+      }
+    },
+    {
+      "application_key": "workday.com",
+      "application_names": [
+        "Workday"
+      ],
+      "unique_users": 241,
+      "departments": [
+        "Compliance",
+        "Finance",
+        "HR",
+        "IT",
+        "Operations",
+        "Sales"
+      ],
+      "events": 840,
+      "first_seen": "2026-09-01T08:15:00+00:00",
+      "last_seen": "2026-09-30T18:53:00+00:00",
+      "upload_observations": 840,
+      "download_observations": 840,
+      "total_bytes_uploaded": 2569663907,
+      "total_bytes_downloaded": 5736458437,
+      "mean_bytes_uploaded": 3059123.6988095236,
+      "max_bytes_uploaded": 9976667,
+      "mean_bytes_downloaded": 6829117.186904762,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 241,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "metadata_match": false,
+      "company": "Summit Financial",
+      "detection": {
+        "is_ai_tool": 0,
+        "method": "catalog_label",
+        "model_ai_score": null,
+        "record_ids": [
+          "non_ai_catalog:claude_00004",
+          "non_ai_catalog:saas_00359"
+        ],
+        "needs_review": true,
+        "reason": "Supplied catalog label; not independent verification."
+      }
+    },
+    {
+      "application_key": "zoom.us",
+      "application_names": [
+        "Zoom"
+      ],
+      "unique_users": 292,
+      "departments": [
+        "Compliance",
+        "Finance",
+        "HR",
+        "IT",
+        "Operations",
+        "Sales"
+      ],
+      "events": 1616,
+      "first_seen": "2026-09-01T08:28:00+00:00",
+      "last_seen": "2026-09-30T18:52:00+00:00",
+      "upload_observations": 1616,
+      "download_observations": 1616,
+      "total_bytes_uploaded": 4716256876,
+      "total_bytes_downloaded": 11392614739,
+      "mean_bytes_uploaded": 2918475.7896039602,
+      "max_bytes_uploaded": 9998183,
+      "mean_bytes_downloaded": 7049885.3582920795,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "dataset_b",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 292,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "metadata_match": true,
+      "company": "Summit Financial",
+      "detection": {
+        "is_ai_tool": null,
+        "method": "unresolved_catalog",
+        "model_ai_score": null,
+        "record_ids": [
+          "ai_catalog:tool_06319",
+          "non_ai_catalog:claude_00005"
+        ],
+        "needs_review": true,
+        "reason": "Ambiguous product scope or unresolved label; no automatic override."
+      }
+    }
+  ],
+  "limitations": [
+    "Catalog policies are mostly missing; missing values add no points and remain unknown.",
+    "Synthetic scenarios do not assert real vendor policies or enterprise approval.",
+    "Thresholds are demonstration policy choices, not learned or validated security cutoffs.",
+    "Catalog labels are mostly source assignments; all detections request review.",
+    "Unknown applications need supplied descriptions; no website enrichment is performed.",
+    "AI classification and governance priority are separate; unknown tools are retained.",
+    "No updated purpose-category classifier or conversational assistant is integrated.",
+    "Description model is experimental and its scores are uncalibrated."
+  ],
+  "detection_counts": {
+    "ai": 5,
+    "conventional": 3,
+    "unknown": 14
+  },
+  "review_queue": [
+    "chatgpt.com",
+    "documind-ai.com",
+    "atlassian.com",
+    "claude.ai",
+    "code.visualstudio.com",
+    "cursor.com",
+    "docs.google.com",
+    "drive.google.com",
+    "gemini.google.com",
+    "github.com",
+    "github.com/copilot",
+    "grammarly.com",
+    "jasper.ai",
+    "linkedin.com",
+    "midjourney.com",
+    "office.com",
+    "perplexity.ai",
+    "salesforce.com",
+    "slack.com",
+    "teams.microsoft.com",
+    "workday.com",
+    "zoom.us"
+  ]
+}

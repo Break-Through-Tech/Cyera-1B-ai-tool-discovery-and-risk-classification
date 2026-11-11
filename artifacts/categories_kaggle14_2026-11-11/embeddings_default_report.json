@@ -1,0 +1,99 @@
+{
+  "Ai And Machine Learning": {
+    "precision": 0.11764705882352941,
+    "recall": 0.07142857142857142,
+    "f1-score": 0.08888888888888889,
+    "support": 28.0
+  },
+  "Business And Finance": {
+    "precision": 0.5882352941176471,
+    "recall": 0.5555555555555556,
+    "f1-score": 0.5714285714285714,
+    "support": 18.0
+  },
+  "Communication And Support": {
+    "precision": 0.34375,
+    "recall": 0.3548387096774194,
+    "f1-score": 0.3492063492063492,
+    "support": 31.0
+  },
+  "Creative And Entertainment": {
+    "precision": 0.3103448275862069,
+    "recall": 0.6923076923076923,
+    "f1-score": 0.42857142857142855,
+    "support": 13.0
+  },
+  "Data And Analytics": {
+    "precision": 0.2222222222222222,
+    "recall": 0.2857142857142857,
+    "f1-score": 0.25,
+    "support": 14.0
+  },
+  "Education And Learning": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4.0
+  },
+  "Industry Specific": {
+    "precision": 0.3333333333333333,
+    "recall": 0.7142857142857143,
+    "f1-score": 0.45454545454545453,
+    "support": 7.0
+  },
+  "Marketing And Sales": {
+    "precision": 0.53125,
+    "recall": 0.7391304347826086,
+    "f1-score": 0.6181818181818182,
+    "support": 23.0
+  },
+  "Media And Content Creation": {
+    "precision": 0.7592592592592593,
+    "recall": 0.5256410256410257,
+    "f1-score": 0.6212121212121212,
+    "support": 78.0
+  },
+  "Operations And Management": {
+    "precision": 0.4444444444444444,
+    "recall": 0.46153846153846156,
+    "f1-score": 0.4528301886792453,
+    "support": 26.0
+  },
+  "Personal And Lifestyle": {
+    "precision": 0.16666666666666666,
+    "recall": 0.2,
+    "f1-score": 0.18181818181818182,
+    "support": 5.0
+  },
+  "Security And Privacy": {
+    "precision": 0.5555555555555556,
+    "recall": 0.625,
+    "f1-score": 0.5882352941176471,
+    "support": 8.0
+  },
+  "Specialized Technologies": {
+    "precision": 0.3125,
+    "recall": 0.25,
+    "f1-score": 0.2777777777777778,
+    "support": 20.0
+  },
+  "Technology And Development": {
+    "precision": 0.5333333333333333,
+    "recall": 0.5161290322580645,
+    "f1-score": 0.5245901639344263,
+    "support": 31.0
+  },
+  "accuracy": 0.45098039215686275,
+  "macro avg": {
+    "precision": 0.37275299966729986,
+    "recall": 0.4279692487992427,
+    "f1-score": 0.38623473131156494,
+    "support": 306.0
+  },
+  "weighted avg": {
+    "precision": 0.47410185958539375,
+    "recall": 0.45098039215686275,
+    "f1-score": 0.45010582624571654,
+    "support": 306.0
+  }
+}

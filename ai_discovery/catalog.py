@@ -9,6 +9,8 @@ hostname-only domain may omit. Both input formats are supported. Optional
 
 Kaggle entries are AI by project assumption. Finalized labels override that
 assumption only for the same normalized name + host + product path identity.
+An optional full correction export applies checked source-record/product-scope
+resolutions to both inputs; unresolved corrected labels remain ambiguous.
 Conflicting finalized labels remain ambiguous. Absence never means non-AI.
 No fuzzy names, inferred domain aliases, or parent-domain collapsing.
 """
@@ -46,8 +48,15 @@ def identity_endpoint(value):
     return host,authority,path.rstrip('/')
 
 
-def load_catalog(ai_catalog, known_tools, catalog_context=None):
+def load_catalog(ai_catalog, known_tools, catalog_context=None, corrections=None):
     """Return an indexed catalog and input warnings; never writes files."""
+    corrected={}
+    if corrections:
+        _,correction_rows=read_csv(corrections)
+        for item in correction_rows:
+            tid=item["source_record_id"]
+            if tid in corrected:raise ValueError("Duplicate source record in correction export: "+tid)
+            corrected[tid]=item
     context={}
     if catalog_context:
         fields,rows=read_csv(catalog_context)
@@ -76,11 +85,22 @@ def load_catalog(ai_catalog, known_tools, catalog_context=None):
             else:
                 value=r['is_ai_tool'].strip().lower()
                 if value not in ('true','false','1','0'):
-                    warnings.append({'source':source,'tool_id':tid,'reason':'unresolved label'});continue
-                label=value in ('true','1')
+                    warnings.append({'source':source,'tool_id':tid,'reason':'unresolved label','retained':True})
+                    label=None
+                else:label=value in ('true','1')
+            if tid in corrected:
+                correction=corrected[tid]
+                correction_host=identity_endpoint(correction['domain'])[0]
+                if correction_host!=host or name.casefold() not in {clean_name(correction['tool_name']).casefold(),clean_name(correction['original_tool_name']).casefold()}:
+                    raise ValueError('Correction/source identity mismatch: '+tid)
+                name=clean_name(correction['tool_name'])
+                value=correction['is_ai_tool']
+                label={'1':True,'0':False,'':None}[value]
             records.append(dict(tool_id=tid,tool_name=name,name_key=name.casefold(),domain=host,
                                 authority=authority,path=product_path,is_ai_tool=label,
-                                category=r['Category'].strip() if raw else r['category'].strip(),source=source))
+                                category=r['Category'].strip() if raw else r['category'].strip(),source=source,
+                                label_method=corrected[tid].get('label_method','corrected_export') if tid in corrected else source,
+                                evidence_url=corrected[tid].get('review_evidence_url','') if tid in corrected else ''))
     # Only an exact identity can override a source assumption, not a whole host.
     identities=defaultdict(list)
     for r in records:identities[(r['name_key'],r['authority'],r['path'])].append(r)
@@ -125,28 +145,32 @@ def match_applications(applications,catalog):
                     observed_endpoint=app['observed_endpoint'],event_count=app['event_count'],
                     status='unknown',is_ai_tool=None,category=None,match_method=method,reason=reason,candidates=[])
         if selected:
-            if len(labels)!=1 or len(identities)!=1:
+            if None in labels:
+                result.update(status='ambiguous',reason='unresolved_corrected_label')
+            elif len(labels)!=1 or len(identities)!=1:
                 result.update(status='ambiguous',reason='conflicting_labels_or_multiple_products')
             else:
                 ai=next(iter(labels));cats={r['category'] for r in selected if r['category']}
                 result.update(status='known_ai' if ai else 'known_non_ai',is_ai_tool=ai,
                               category=next(iter(cats)) if ai and len(cats)==1 else None,
                               reason='matched_catalog_record' if not ai or len(cats)==1 else 'label_matched_category_unresolved')
-            result['candidates']=[{k:r[k] for k in ['tool_id','tool_name','domain','path','is_ai_tool','category','source']} for r in selected]
+            result['candidates']=[{**{k:r[k] for k in ['tool_id','tool_name','domain','path','is_ai_tool','category','source']},
+                'label_method':r.get('label_method',r['source']),'evidence_url':r.get('evidence_url','')} for r in selected]
         results.append(result)
     return results
 
 
-def discover_known(activity_path,ai_catalog,known_tools,catalog_context=None):
+def discover_known(activity_path,ai_catalog,known_tools,catalog_context=None,corrections=None):
     """Import this from the future pipeline; all outputs remain in memory."""
     ingestion=extract_applications(activity_path)
-    catalog=load_catalog(ai_catalog,known_tools,catalog_context)
+    catalog=load_catalog(ai_catalog,known_tools,catalog_context,corrections)
     matches=match_applications(ingestion['applications'],catalog)
     return {'ingestion':ingestion,'matches':matches,
             'unresolved':[r for r in matches if r['status'] in ('unknown','ambiguous')],
             'catalog_warnings':catalog['warnings'],
             'summary':{'applications':len(matches),'status_counts':dict(Counter(r['status'] for r in matches)),
-                       'catalog_records_loaded':catalog['loaded_records'],'catalog_rows_skipped':len(catalog['warnings']),
+                       'catalog_records_loaded':catalog['loaded_records'],'catalog_rows_skipped':sum(not w.get('retained',False) for w in catalog['warnings']),
+                       'catalog_unresolved_labels_retained':sum(w.get('retained',False) for w in catalog['warnings']),
                        'rejected_activity_events':ingestion['summary']['rejected_events']}}
 
 
@@ -169,8 +193,9 @@ def main():
     p.add_argument('--ai-catalog',type=Path,required=True)
     p.add_argument('--known-tools',type=Path,required=True)
     p.add_argument('--catalog-context',type=Path)
+    p.add_argument('--corrections',type=Path)
     a=p.parse_args()
-    try:print_results(discover_known(a.activity,a.ai_catalog,a.known_tools,a.catalog_context))
+    try:print_results(discover_known(a.activity,a.ai_catalog,a.known_tools,a.catalog_context,a.corrections))
     except (ValueError,OSError,csv.Error) as exc:p.exit(1,f'Error: {exc}\n')
 
 

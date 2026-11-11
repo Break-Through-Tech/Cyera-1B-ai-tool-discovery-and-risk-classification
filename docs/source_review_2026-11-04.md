@@ -1,6 +1,6 @@
 # Source and code review — November 4, 2026
 
-This review was performed by the Codex assistant using official product information and the repository code. It covers all 30 negative seed descriptions, a deterministic sample of 12 reviewed AI training examples (one per category), and all three errors in the original selected-model test predictions: 43 distinct applications. It is an assistant source review, not independent human verification or a fresh benchmark.
+This review uses official product information and the repository code. It covers all 30 negative seed descriptions, a deterministic sample of 12 reviewed AI training examples (one per category), and all three errors in the original selected-model test predictions: 43 distinct applications. It is a source-based review, not independent human verification or a fresh benchmark.
 
 ## Outcome
 

@@ -1,3 +1,7 @@
+# Current backend location
+
+See [backend_release.md](backend_release.md) for the active data/models, combined reporting and current results. `ai_discovery/report.py` is now integrated and `pipeline.json` names its releases. All training code stays in `modeling/`, all saved models in `artifacts/`. The obsolete `discovery/` wrapper is removed. The following records the earlier cleanup-only stage and is retained as history.
+
 # Repository map — cleanup on main
 
 ```text

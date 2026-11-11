@@ -1,5 +1,8 @@
 """Tune C and class_weight with nested grouped cross-validation.
 
+Legacy 12-category reproduction. Use python -m modeling.train_categories for the
+active original-Kaggle 14-category comparison.
+
 Keep train_category_model.py and train_category_embeddings.py beside this file.
 Uses the encoder saved by the previous embedding run. No data or old outputs changed.
 """

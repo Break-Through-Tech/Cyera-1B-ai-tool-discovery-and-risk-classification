@@ -1,4 +1,7 @@
 """Compare frozen local sentence embeddings to the existing TF-IDF experiment.
+
+Legacy 12-category reproduction. Use python -m modeling.train_categories for the
+active original-Kaggle 14-category comparison.
 Keep train_category_model.py beside this script. No API key needed.
 First use downloads the pretrained encoder; encoding and classifier training are local.
 """
