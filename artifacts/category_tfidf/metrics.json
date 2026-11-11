@@ -1,0 +1,175 @@
+{
+  "evaluation": "Out-of-fold predictions; fixed hyperparameters; not a separate final holdout.",
+  "training_rows": 306,
+  "excluded_rows": 391,
+  "category_counts": {
+    "Productivity": 65,
+    "Other": 35,
+    "Research / Search": 10,
+    "General AI Assistants": 13,
+    "Content Generation": 52,
+    "Image / Video Generation": 53,
+    "AI Infrastructure / Model Platforms": 16,
+    "Coding / Developer Tools": 14,
+    "Data Analytics": 12,
+    "Customer Support": 15,
+    "Sales / Marketing": 15,
+    "Meeting / Transcription Tools": 6
+  },
+  "groups_per_category": {
+    "AI Infrastructure / Model Platforms": 16,
+    "Coding / Developer Tools": 14,
+    "Content Generation": 52,
+    "Customer Support": 15,
+    "Data Analytics": 12,
+    "General AI Assistants": 13,
+    "Image / Video Generation": 53,
+    "Meeting / Transcription Tools": 6,
+    "Other": 35,
+    "Productivity": 65,
+    "Research / Search": 10,
+    "Sales / Marketing": 15
+  },
+  "folds": [
+    {
+      "fold": 1,
+      "training_rows": 245,
+      "validation_rows": 61,
+      "accuracy": 0.45901639344262296,
+      "macro_f1": 0.3055555555555555
+    },
+    {
+      "fold": 2,
+      "training_rows": 244,
+      "validation_rows": 62,
+      "accuracy": 0.3387096774193548,
+      "macro_f1": 0.25710497835497836
+    },
+    {
+      "fold": 3,
+      "training_rows": 245,
+      "validation_rows": 61,
+      "accuracy": 0.4262295081967213,
+      "macro_f1": 0.35195165945165946
+    },
+    {
+      "fold": 4,
+      "training_rows": 245,
+      "validation_rows": 61,
+      "accuracy": 0.4098360655737705,
+      "macro_f1": 0.28840380521195463
+    },
+    {
+      "fold": 5,
+      "training_rows": 245,
+      "validation_rows": 61,
+      "accuracy": 0.4098360655737705,
+      "macro_f1": 0.3658730158730159
+    }
+  ],
+  "accuracy": 0.4084967320261438,
+  "macro_f1": 0.3172857198434929,
+  "weighted_f1": 0.40013977855261423,
+  "majority_baseline_accuracy": 0.21241830065359477,
+  "majority_baseline_macro_f1": 0.029200359389038633,
+  "classification_report": {
+    "AI Infrastructure / Model Platforms": {
+      "precision": 0.35714285714285715,
+      "recall": 0.3125,
+      "f1-score": 0.3333333333333333,
+      "support": 16.0
+    },
+    "Coding / Developer Tools": {
+      "precision": 0.2777777777777778,
+      "recall": 0.35714285714285715,
+      "f1-score": 0.3125,
+      "support": 14.0
+    },
+    "Content Generation": {
+      "precision": 0.4461538461538462,
+      "recall": 0.5576923076923077,
+      "f1-score": 0.49572649572649574,
+      "support": 52.0
+    },
+    "Customer Support": {
+      "precision": 0.47058823529411764,
+      "recall": 0.5333333333333333,
+      "f1-score": 0.5,
+      "support": 15.0
+    },
+    "Data Analytics": {
+      "precision": 0.08333333333333333,
+      "recall": 0.08333333333333333,
+      "f1-score": 0.08333333333333333,
+      "support": 12.0
+    },
+    "General AI Assistants": {
+      "precision": 0.2727272727272727,
+      "recall": 0.23076923076923078,
+      "f1-score": 0.25,
+      "support": 13.0
+    },
+    "Image / Video Generation": {
+      "precision": 0.5625,
+      "recall": 0.6792452830188679,
+      "f1-score": 0.6153846153846154,
+      "support": 53.0
+    },
+    "Meeting / Transcription Tools": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 6.0
+    },
+    "Other": {
+      "precision": 0.35,
+      "recall": 0.4,
+      "f1-score": 0.37333333333333335,
+      "support": 35.0
+    },
+    "Productivity": {
+      "precision": 0.5454545454545454,
+      "recall": 0.27692307692307694,
+      "f1-score": 0.3673469387755102,
+      "support": 65.0
+    },
+    "Research / Search": {
+      "precision": 0.3,
+      "recall": 0.3,
+      "f1-score": 0.3,
+      "support": 10.0
+    },
+    "Sales / Marketing": {
+      "precision": 0.15789473684210525,
+      "recall": 0.2,
+      "f1-score": 0.17647058823529413,
+      "support": 15.0
+    },
+    "accuracy": 0.4084967320261438,
+    "macro avg": {
+      "precision": 0.3186310503938213,
+      "recall": 0.3275782851844173,
+      "f1-score": 0.3172857198434929,
+      "support": 306.0
+    },
+    "weighted avg": {
+      "precision": 0.41598993197783646,
+      "recall": 0.4084967320261438,
+      "f1-score": 0.40013977855261423,
+      "support": 306.0
+    }
+  },
+  "seed": 42,
+  "input_sha256": "555faee01160a802bf138895d7550262325e5063182072974773071e1e5a7f3b",
+  "versions": {
+    "python": "3.14.2",
+    "scikit_learn": "1.9.1",
+    "numpy": "2.5.3"
+  },
+  "limitations": [
+    "Small categories have unstable estimates.",
+    "Scores are not calibrated confidence guarantees.",
+    "Exact identity/description grouping does not detect every near duplicate.",
+    "Existing category labels are treated as targets, not independently verified."
+  ]
+}

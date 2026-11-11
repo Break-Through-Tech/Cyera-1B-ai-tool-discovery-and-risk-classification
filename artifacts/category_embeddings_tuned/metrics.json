@@ -1,0 +1,199 @@
+{
+  "comparison": [
+    {
+      "model": "tfidf",
+      "accuracy": 0.4084967320261438,
+      "macro_f1": 0.3172857198434929,
+      "weighted_f1": 0.40013977855261423
+    },
+    {
+      "model": "embeddings_default",
+      "accuracy": 0.5555555555555556,
+      "macro_f1": 0.5039685890149445,
+      "weighted_f1": 0.5457586164543563
+    },
+    {
+      "model": "embeddings_tuned_nested_cv",
+      "accuracy": 0.5882352941176471,
+      "macro_f1": 0.5182002835550669,
+      "weighted_f1": 0.5810153194249128
+    }
+  ],
+  "outer_folds": [
+    {
+      "fold": 1,
+      "best_params": {
+        "C": 1.0,
+        "class_weight": "balanced"
+      },
+      "inner_folds": 3,
+      "best_inner_macro_f1": 0.45804863635438525,
+      "outer_accuracy": 0.5573770491803278,
+      "outer_macro_f1": 0.4685747933510082
+    },
+    {
+      "fold": 2,
+      "best_params": {
+        "C": 100.0,
+        "class_weight": null
+      },
+      "inner_folds": 3,
+      "best_inner_macro_f1": 0.49389809620969854,
+      "outer_accuracy": 0.532258064516129,
+      "outer_macro_f1": 0.40129974695192083
+    },
+    {
+      "fold": 3,
+      "best_params": {
+        "C": 10.0,
+        "class_weight": "balanced"
+      },
+      "inner_folds": 3,
+      "best_inner_macro_f1": 0.4774987594670683,
+      "outer_accuracy": 0.6229508196721312,
+      "outer_macro_f1": 0.5960842901060293
+    },
+    {
+      "fold": 4,
+      "best_params": {
+        "C": 10.0,
+        "class_weight": "balanced"
+      },
+      "inner_folds": 3,
+      "best_inner_macro_f1": 0.49043215127108947,
+      "outer_accuracy": 0.639344262295082,
+      "outer_macro_f1": 0.46699633699633697
+    },
+    {
+      "fold": 5,
+      "best_params": {
+        "C": 10.0,
+        "class_weight": "balanced"
+      },
+      "inner_folds": 3,
+      "best_inner_macro_f1": 0.488516259005039,
+      "outer_accuracy": 0.5901639344262295,
+      "outer_macro_f1": 0.5071168029501363
+    }
+  ],
+  "final_best_params": {
+    "C": 100.0,
+    "class_weight": "balanced"
+  },
+  "final_selection_inner_macro_f1": 0.4845752547979129,
+  "final_selection_inner_folds": 3,
+  "classification_report": {
+    "AI Infrastructure / Model Platforms": {
+      "precision": 0.6153846153846154,
+      "recall": 0.5,
+      "f1-score": 0.5517241379310345,
+      "support": 16.0
+    },
+    "Coding / Developer Tools": {
+      "precision": 0.5,
+      "recall": 0.5714285714285714,
+      "f1-score": 0.5333333333333333,
+      "support": 14.0
+    },
+    "Content Generation": {
+      "precision": 0.7058823529411765,
+      "recall": 0.6923076923076923,
+      "f1-score": 0.6990291262135923,
+      "support": 52.0
+    },
+    "Customer Support": {
+      "precision": 0.7142857142857143,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.6896551724137931,
+      "support": 15.0
+    },
+    "Data Analytics": {
+      "precision": 0.5454545454545454,
+      "recall": 0.5,
+      "f1-score": 0.5217391304347826,
+      "support": 12.0
+    },
+    "General AI Assistants": {
+      "precision": 0.4117647058823529,
+      "recall": 0.5384615384615384,
+      "f1-score": 0.4666666666666667,
+      "support": 13.0
+    },
+    "Image / Video Generation": {
+      "precision": 0.7878787878787878,
+      "recall": 0.9811320754716981,
+      "f1-score": 0.8739495798319328,
+      "support": 53.0
+    },
+    "Meeting / Transcription Tools": {
+      "precision": 0.3333333333333333,
+      "recall": 0.3333333333333333,
+      "f1-score": 0.3333333333333333,
+      "support": 6.0
+    },
+    "Other": {
+      "precision": 0.4642857142857143,
+      "recall": 0.37142857142857144,
+      "f1-score": 0.4126984126984127,
+      "support": 35.0
+    },
+    "Productivity": {
+      "precision": 0.5272727272727272,
+      "recall": 0.4461538461538462,
+      "f1-score": 0.48333333333333334,
+      "support": 65.0
+    },
+    "Research / Search": {
+      "precision": 0.3,
+      "recall": 0.3,
+      "f1-score": 0.3,
+      "support": 10.0
+    },
+    "Sales / Marketing": {
+      "precision": 0.3157894736842105,
+      "recall": 0.4,
+      "f1-score": 0.35294117647058826,
+      "support": 15.0
+    },
+    "accuracy": 0.5882352941176471,
+    "macro avg": {
+      "precision": 0.5184443308669314,
+      "recall": 0.5250760246043266,
+      "f1-score": 0.5182002835550669,
+      "support": 306.0
+    },
+    "weighted avg": {
+      "precision": 0.5822936691858565,
+      "recall": 0.5882352941176471,
+      "f1-score": 0.5810153194249128,
+      "support": 306.0
+    }
+  },
+  "input_sha256": "555faee01160a802bf138895d7550262325e5063182072974773071e1e5a7f3b",
+  "training_rows": 306,
+  "excluded_rows": 391,
+  "encoder": "sentence-transformers/all-MiniLM-L6-v2",
+  "encoder_frozen": true,
+  "normalization": true,
+  "search_grid": {
+    "C": [
+      0.01,
+      0.1,
+      1.0,
+      10.0,
+      100.0
+    ],
+    "class_weight": [
+      null,
+      "balanced"
+    ]
+  },
+  "seed": 42,
+  "versions": {
+    "python": "3.14.2",
+    "sklearn": "1.9.1",
+    "sentence_transformers": "6.2.0"
+  },
+  "evaluation_note": "Nested outer-fold predictions evaluate the tuning procedure. Final selection score is not a test score. Prior experiments inspected these outer folds; use fresh labeled data for final confirmation.",
+  "probability_note": "Uncalibrated scores, not guarantees. No automatic acceptance threshold selected."
+}
