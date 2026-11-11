@@ -1,48 +1,54 @@
-# Integrated discovery and governance reports
+# Shared enterprise discovery reports
 
-`python -m discovery.report` joins enterprise usage aggregates, corrected catalog AI labels and explainable governance assessments. Outputs contain application names, departments, distinct user counts, transfer volumes, detection evidence, risk reasons and an ordered review queue. Employee identifiers are not exported.
+## Active foundation
 
-This is a backend integration, not the final dashboard or conversational assistant. The corrected binary model and its test results are preserved without retraining or threshold changes. This branch builds on the training work in PR #19.
+`ai_discovery.report` calls Sadit's `discover_known`, which uses `extract_applications` and catalog matching. No second ingestion or matching implementation is used by the reporting entry point. `python -m discovery.report` delegates to this same backend for compatibility. Older helper functions remain only for the paused, uncommitted upload draft.
 
-## Detection rules
+The integration preserves normalized name plus endpoint identity, paths, query/fragment distinctions during ingestion, all accepted events, rejected rows with reasons, invalid/missing metric counts, observed name variants, catalog candidates and source-row-to-application mappings. Repeated event IDs are counted as accepted rows, as in Sadit's ingestion; a separate repeated-ID count makes that explicit. Applications are not collapsed by hostname. Endpoints differing only in query/fragment can therefore remain separate in activity.
 
-Exact normalized hostname plus path is required. Parent domains never automatically inherit an AI feature's label. A catalog identity is accepted only when all matching records agree on product name and a resolved binary label. Multiple product scopes, conflicting labels and unresolved labels stay unknown. Even catalog detections request review because most labels are inherited source assignments.
+Governance receives only each application's accepted source rows. Valid transfer observations determine totals/means/maxima; missing/invalid observations remain gaps. Missing employee, department and timestamp observations also mark evidence incomplete. No employee identifiers are exported, although source-row mappings can be joined back to the input. Duplicate events can affect totals; input quality still matters.
 
-Unknown tools can optionally use the description-only classifier when a separate CSV with `domain,description` is supplied and `--model artifacts/corrected_full_binary` is enabled. Descriptions must come from supplied evidence; the pipeline does not invent them or infer AI from application names. Model predictions remain experimental and uncalibrated. Empty or unrecognized vocabulary does not establish a conventional classification. Ambiguous catalog identities require scope resolution rather than an automatic model override.
+## Classification and categories
 
-Governance is calculated independently for every observed application, including unknown and conventional ones. The baseline Dataset B policy metadata has missing security controls; these remain unknown. Corrected classification labels and vendor names are not treated as security evidence. Company approval applies only through an explicitly supplied fictional scenario overlay. Reports hash source inputs and, when enabled, verify and identify the saved model.
+Defaults are the raw Kaggle catalog, preserving product paths, and `dataset_b_final_kaggle_categories.csv` as Sadit's finalized known-tool input. His matching rules and per-product overrides are retained. Raw catalog entries carry source-assigned AI labels; these are not independently verified. Unknown and ambiguous records stay visible.
 
-## Generated reports
+The accepted catalog category is displayed with `category_source=catalog_assignment`. The older 12-category models are not invoked against the newer 14-category scheme. Category-model retraining and evaluation remain future work. The six newly resolved labels are reflected in the finalized lookup subset; the full corrected training dataset and frozen binary model have not been relabeled or retrained in this integration.
 
-| Report | Application identities | Catalog AI | Catalog conventional | Unknown or ambiguous |
-|---|---:|---:|---:|---:|
-| `artifacts/discovery/summit-observed.json` | 22 | 5 | 3 | 14 |
-| `artifacts/discovery/novatech-observed.json` | 21 | 5 | 3 | 13 |
-| `artifacts/discovery/summit-fictional-policy.json` | 22 | 5 | 3 | 14 |
+Optionally, a supplied `domain,description` CSV and `--model artifacts/corrected_full_binary` allow the existing description-only model to assess unmatched applications. A description endpoint must identify exactly one observed product scope. Ambiguous catalog matches are not automatically overridden. Predictions remain experimental, uncalibrated and marked for review. The frozen model/hash and original evaluation remain unchanged.
 
-These counts measure conservative identity coverage, not classifier accuracy or the actual number of AI applications. No descriptions were invented for the included reports, so no model predictions were needed. Known real-world tools such as Cursor may remain unknown due to missing exact catalog identities. Slack/Zoom-style shared-domain ambiguity is deliberately visible.
+## Governance evidence
 
-DocuMind appears in 120 Summit events, with 84 Finance users. Its observed governance score is 30 (medium); AI detection and vendor controls remain unknown. The explicitly fictional unapproved overlay adds 25 points, yielding 55 (high). Neither output asserts a breach or verified vendor policy.
+Scores use accepted activity and, optionally, the explicitly synthetic company overlay in `governance/synthetic_scenarios.json`. The generated catalog governance columns and stored risk labels are not imported. An endpoint shared by multiple observed product scopes does not receive a broad endpoint-only scenario override. Unknown controls remain unknown. Medium/high priorities are policy demonstration choices, not breach probabilities.
+
+Sadit's `ai_discovery.enrich` remains available as a separate evidence-collection stage. No enrichment, Gemini, Jev or other network/API calls are made by this reporting integration. Cited enrichment reports are not automatically converted into verified identities or descriptions.
+
+## Sample results
+
+| Company | Accepted events | Rejected events | Application identities | Catalog AI | Conventional | Unresolved |
+|---|---:|---:|---:|---:|---:|---:|
+| Summit Financial | 25,120 | 0 | 22 | 6 | 7 | 9 |
+| NovaTech | 30,000 | 0 | 21 | 6 | 7 | 8 |
+
+These counts measure catalog-matching coverage, not model accuracy or actual AI use in every event. Checked-in `artifacts/discovery_shared/*-summary.json` files omit repetitive event mappings; full CLI reports retain them. Historical reports in `artifacts/discovery/` used earlier matching rules and are preserved rather than silently rewritten.
+
+DocuMind remains unknown in the catalog, with 84 Finance users, observed priority 30 (medium), and unknown vendor controls. Explicit fictional unapproved status produces 55 (high). Unknown identity does not suppress behavioral investigation.
 
 ## Run
 
-Install `modeling/requirements.txt` before enabling the optional classifier. Catalog-only reporting uses Python's standard library.
-
 ```bash
-python -m discovery.report --company 'Summit Financial' \
+python -m ai_discovery.report --company 'Summit Financial' \
   --activity 'data/raw/summit_financial_usage (1).csv' \
-  --out /tmp/summit-discovery.json
+  --out /tmp/summit-shared.json
 
-# Optional supplied descriptions and trusted local model:
-python -m discovery.report --company 'Summit Financial' \
-  --activity 'data/raw/summit_financial_usage (1).csv' \
-  --descriptions /path/to/product_descriptions.csv \
-  --model artifacts/corrected_full_binary \
-  --out /tmp/summit-with-descriptions.json
+python -m ai_discovery.report --company NovaTech \
+  --activity data/raw/novatech_usage.csv \
+  --out /tmp/novatech-shared.json
 
-python -m unittest discover -s tests
+# Optional: --descriptions /path/to/descriptions.csv
+#           --model artifacts/corrected_full_binary
+#           --scenarios governance/synthetic_scenarios.json
 ```
 
-Existing outputs are not overwritten. Invalid events and duplicate supplied-description identities fail explicitly. Tests cover shared-domain ambiguity, path separation, unseen-description routing, unknown retention, company policy scope, and the existing preparation/model/governance behavior: 72 tests pass.
+New output paths are required; reports are not overwritten. Catalog-only reporting uses the standard library. Optional model inference requires `modeling/requirements.txt`; the newly expanded root requirements are not needed for this backend.
 
-Next: build an evidence-backed alias/description table for unresolved activity identities, then expose these reports in a dashboard. Category refresh, retrieval/RAG and Jev comparison remain separate unfinished work.
+Validation: 75 active-backend tests pass, including accepted/rejected accounting, repeated events, missing/invalid metrics, shared endpoints, description-model routing and the existing preparation/model/governance checks. Paused uncommitted dashboard/upload tests are excluded from this backend validation. Dashboard work remains paused and is not part of the integration commit.
