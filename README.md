@@ -202,3 +202,7 @@ Cite relevant papers, articles, or resources that supported your project.
 ## 🙏 **Acknowledgements** (Optional but encouraged)
 
 Thank your Challenge Advisor, host company representatives, TA, and others who supported your project.
+
+## Integrated enterprise discovery reports
+
+The [discovery reporting backend](docs/discovery_reports.md) now combines corrected catalog detection, optional description-model predictions, company activity and explained governance priority in one JSON report. Unknown and ambiguous applications remain visible in the review queue. Included NovaTech and Summit reports use synthetic activity; fictional policy overlays are explicitly marked. This is not yet a dashboard or RAG assistant.

@@ -11,7 +11,10 @@ import numpy as np
 import sklearn
 from sklearn.metrics import brier_score_loss,log_loss
 from sklearn.utils.class_weight import compute_sample_weight
-from train_baseline import ROOT,estimator,metrics
+try:
+    from .train_baseline import ROOT,estimator,metrics
+except ImportError:  # Direct script invocation.
+    from train_baseline import ROOT,estimator,metrics
 
 DATA=ROOT/'data/processed/classification_corrected_full'
 OUT=ROOT/'artifacts/corrected_full_binary'
