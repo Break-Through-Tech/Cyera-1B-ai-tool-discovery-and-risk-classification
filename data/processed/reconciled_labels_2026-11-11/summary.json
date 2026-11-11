@@ -1,0 +1,65 @@
+{
+  "version": "reconciled-2026-11-11",
+  "rows": 17292,
+  "class_counts": {
+    "1": 16741,
+    "0": 521,
+    "unresolved": 30
+  },
+  "changes": [
+    {
+      "record_id": "ai_catalog:tool_09844",
+      "old_label": "",
+      "new_label": "0",
+      "reason": "The row represents the broad business-software suite, not the specific Freddy AI product.",
+      "evidence_url": "https://www.freshworks.com/assets/resources/AI-in-ITSM.pdf"
+    },
+    {
+      "record_id": "ai_catalog:tool_14954",
+      "old_label": "",
+      "new_label": "1",
+      "reason": "The named Outline Builder is a specific feature that uses AI to generate content outlines. Historical product evidence; not a claim of current availability.",
+      "evidence_url": "https://www.semrush.com/news/243009-build-seo-optimized-content-faster-with-the-content-outline-builder-from-semrush/"
+    },
+    {
+      "record_id": "non_ai_catalog:saas_00036",
+      "old_label": "",
+      "new_label": "0",
+      "reason": "The supplied row describes the general docs/wiki/project workspace, not Notion AI.",
+      "evidence_url": "https://www.notion.com/product/projects"
+    },
+    {
+      "record_id": "non_ai_catalog:saas_00054",
+      "old_label": "",
+      "new_label": "0",
+      "reason": "The supplied row describes the general spreadsheet/database application platform, not Airtable AI or Omni. The current platform offers AI functionality.",
+      "evidence_url": "https://www.airtable.com/platform/ai"
+    },
+    {
+      "record_id": "non_ai_catalog:saas_00447",
+      "old_label": "",
+      "new_label": "0",
+      "reason": "The supplied row describes general communications, reviews and payments, not Podium AI Employee. Current Podium offers AI functionality. This is not the similarly named podcast product.",
+      "evidence_url": "https://www.podium.com/product/payments"
+    },
+    {
+      "record_id": "non_ai_catalog:saas_00433",
+      "old_label": "",
+      "new_label": "0",
+      "reason": "The supplied row describes the general no-code development platform, not the specific AI App Builder. Current Bubble offers AI generation functionality.",
+      "evidence_url": "https://manual.bubble.io/help-guides/ai"
+    }
+  ],
+  "audit_digest_matches_original_crlf": true,
+  "input_sha256": {
+    "source": "c2face9704386301cd4e044ecb3cef93c3153729a2f32988417527c533236ebe",
+    "resolved_subset": "347fb53dffccc804ecade46c9a8af8d4df290cf5186140225447d5e858951d08",
+    "resolution_audit": "7c1c196e6fc5af689f1cef001469906f39716c8a1b1d1f27198df65e72697827"
+  },
+  "output_sha256": {
+    "all_corrected.csv": "7ee066d571e439eca15efdbca1a706c347ac185457e43a1939d00a5844c62534",
+    "unresolved.csv": "38df85fb4449b89d1ae19eb2f7471f96a3acf02dc59aac3913f13d12138d7b67"
+  },
+  "independently_human_verified": false,
+  "note": "Six documented scope decisions propagated; all other labels and source files preserved."
+}
