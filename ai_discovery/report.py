@@ -11,9 +11,11 @@ from .catalog import discover_known, identity_endpoint
 from governance import risk
 
 ROOT = Path(__file__).resolve().parents[1]
-CATALOG = ROOT/'data/raw/kaggle.csv'
-KNOWN = ROOT/'data/processed/final/dataset_b_final_kaggle_categories.csv'
-SETTINGS = json.loads((Path(__file__).with_name('pipeline.json')).read_text())
+SETTINGS_PATH = Path(__file__).with_name('pipeline.json')
+SETTINGS = json.loads(SETTINGS_PATH.read_text())
+CATALOG = ROOT/SETTINGS['ai_catalog']
+KNOWN = ROOT/SETTINGS['known_tools']
+POLICY_PATH = ROOT/SETTINGS['policy']
 CORRECTIONS = ROOT/SETTINGS['corrections']
 
 
@@ -63,7 +65,7 @@ def run(company,activity,catalog=CATALOG,descriptions=None,model=None,scenarios=
         overlays=fixture['companies'][company]
         for key,values in overlays.items():
             if set(values)-set(risk.FIELDS):raise ValueError('Scenario may override governance fields only')
-    policy=json.loads(risk.POLICY.read_text());risk.validate_policy(policy)
+    policy=json.loads(POLICY_PATH.read_text());risk.validate_policy(policy)
     matches={m['application_id']:m for m in discovery['matches']}
     category_predictor=None
     results=[]
@@ -104,7 +106,7 @@ def run(company,activity,catalog=CATALOG,descriptions=None,model=None,scenarios=
         results.append(result)
     results.sort(key=lambda r:(-r['risk_score'],r['application_id']))
     labels=Counter('ai' if a['detection']['is_ai_tool']==1 else 'conventional' if a['detection']['is_ai_tool']==0 else 'unknown' for a in results)
-    paths={'activity':activity,'ai_catalog':catalog,'known_tools':known_tools,'policy':risk.POLICY}
+    paths={'activity':activity,'ai_catalog':catalog,'known_tools':known_tools,'policy':POLICY_PATH,'runtime_settings':SETTINGS_PATH}
     if corrections:paths['corrections']=corrections
     if category_model:paths['category_model_config']=Path(category_model)/'model_config.json'
     if descriptions:paths['descriptions']=descriptions
