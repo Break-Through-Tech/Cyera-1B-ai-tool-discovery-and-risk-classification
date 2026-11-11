@@ -1,0 +1,3194 @@
+{
+  "company": "NovaTech",
+  "synthetic_activity": true,
+  "synthetic_scenario_applied": false,
+  "application_count": 21,
+  "applications": [
+    {
+      "application_id": "app_0d4fc2e5b6a6ee692bff153c4002da9a3cd6c974cf5c9fbbf03f300dc60c7f23",
+      "application_key": "github.com",
+      "application_names": [
+        "GitHub"
+      ],
+      "unique_users": 372,
+      "departments": [
+        "Customer Support",
+        "Engineering",
+        "Finance",
+        "HR",
+        "Marketing",
+        "Sales"
+      ],
+      "events": 3498,
+      "first_seen": "2026-09-01T08:01:00+00:00",
+      "last_seen": "2026-09-30T18:54:00+00:00",
+      "invalid_or_missing_timestamps": 0,
+      "upload_observations": 3498,
+      "download_observations": 3498,
+      "total_bytes_uploaded": 10361251392,
+      "total_bytes_downloaded": 24470329455,
+      "mean_bytes_uploaded": 2962050.140651801,
+      "max_bytes_uploaded": 9999690,
+      "mean_bytes_downloaded": 6995520.141509434,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 372,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "company": "NovaTech",
+      "detection": {
+        "is_ai_tool": null,
+        "method": "unknown",
+        "catalog_status": "unknown",
+        "model_ai_score": null,
+        "reason": "host_present_but_product_not_resolved",
+        "candidates": [],
+        "needs_review": true
+      },
+      "category": null,
+      "category_source": "unresolved",
+      "observed_identity": {
+        "application_id": "app_0d4fc2e5b6a6ee692bff153c4002da9a3cd6c974cf5c9fbbf03f300dc60c7f23",
+        "application_name": "GitHub",
+        "normalized_name": "github",
+        "domain": "github.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "github.com",
+        "event_count": 3498,
+        "departments": "[\"Customer Support\", \"Engineering\", \"Finance\", \"HR\", \"Marketing\", \"Sales\"]",
+        "name_variants": "[\"GitHub\"]",
+        "raw_domain_variants": "[\"github.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 372,
+        "total_session_duration_seconds": 12818845,
+        "session_duration_seconds_observed_events": 3498,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 10361251392,
+        "bytes_uploaded_observed_events": 3498,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 24470329455,
+        "bytes_downloaded_observed_events": 3498,
+        "bytes_downloaded_invalid_events": 0
+      }
+    },
+    {
+      "application_id": "app_16fb473cfaddf3ba88ec0c0917e9035a05c98c88ab7c9a910b67e4c8b9e4fc9d",
+      "application_key": "claude.ai",
+      "application_names": [
+        "Claude"
+      ],
+      "unique_users": 493,
+      "departments": [
+        "Customer Support",
+        "Engineering",
+        "Finance",
+        "HR",
+        "Marketing",
+        "Sales"
+      ],
+      "events": 2445,
+      "first_seen": "2026-09-01T08:03:00+00:00",
+      "last_seen": "2026-09-30T18:59:00+00:00",
+      "invalid_or_missing_timestamps": 0,
+      "upload_observations": 2445,
+      "download_observations": 2445,
+      "total_bytes_uploaded": 7520536074,
+      "total_bytes_downloaded": 16754483567,
+      "mean_bytes_uploaded": 3075883.8748466256,
+      "max_bytes_uploaded": 9989481,
+      "mean_bytes_downloaded": 6852549.516155419,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 493,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "company": "NovaTech",
+      "detection": {
+        "is_ai_tool": 1,
+        "method": "name_and_host",
+        "catalog_status": "known_ai",
+        "model_ai_score": null,
+        "reason": "matched_catalog_record",
+        "candidates": [
+          {
+            "tool_id": "tool_00002",
+            "tool_name": "Claude",
+            "domain": "claude.ai",
+            "path": "",
+            "is_ai_tool": true,
+            "category": "Operations And Management",
+            "source": "ai_catalog"
+          }
+        ],
+        "needs_review": true
+      },
+      "category": "Operations And Management",
+      "category_source": "catalog_assignment",
+      "observed_identity": {
+        "application_id": "app_16fb473cfaddf3ba88ec0c0917e9035a05c98c88ab7c9a910b67e4c8b9e4fc9d",
+        "application_name": "Claude",
+        "normalized_name": "claude",
+        "domain": "claude.ai",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "claude.ai",
+        "event_count": 2445,
+        "departments": "[\"Customer Support\", \"Engineering\", \"Finance\", \"HR\", \"Marketing\", \"Sales\"]",
+        "name_variants": "[\"Claude\"]",
+        "raw_domain_variants": "[\"claude.ai\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 493,
+        "total_session_duration_seconds": 8777674,
+        "session_duration_seconds_observed_events": 2445,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 7520536074,
+        "bytes_uploaded_observed_events": 2445,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 16754483567,
+        "bytes_downloaded_observed_events": 2445,
+        "bytes_downloaded_invalid_events": 0
+      }
+    },
+    {
+      "application_id": "app_1cd3877a479691c0c760e9ba585b38d3debdfff6d59b8437539302fcb9938d62",
+      "application_key": "jasper.ai",
+      "application_names": [
+        "Jasper"
+      ],
+      "unique_users": 242,
+      "departments": [
+        "Customer Support",
+        "Engineering",
+        "Finance",
+        "HR",
+        "Marketing",
+        "Sales"
+      ],
+      "events": 477,
+      "first_seen": "2026-09-01T09:23:00+00:00",
+      "last_seen": "2026-09-30T17:10:00+00:00",
+      "invalid_or_missing_timestamps": 0,
+      "upload_observations": 477,
+      "download_observations": 477,
+      "total_bytes_uploaded": 1429451634,
+      "total_bytes_downloaded": 3194875151,
+      "mean_bytes_uploaded": 2996753.9496855345,
+      "max_bytes_uploaded": 9998449,
+      "mean_bytes_downloaded": 6697851.469601677,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 242,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "company": "NovaTech",
+      "detection": {
+        "is_ai_tool": 1,
+        "method": "unique_product_host",
+        "catalog_status": "known_ai",
+        "model_ai_score": null,
+        "reason": "matched_catalog_record",
+        "candidates": [
+          {
+            "tool_id": "tool_00395",
+            "tool_name": "Jasper.ai",
+            "domain": "jasper.ai",
+            "path": "",
+            "is_ai_tool": true,
+            "category": "Media And Content Creation",
+            "source": "ai_catalog"
+          }
+        ],
+        "needs_review": true
+      },
+      "category": "Media And Content Creation",
+      "category_source": "catalog_assignment",
+      "observed_identity": {
+        "application_id": "app_1cd3877a479691c0c760e9ba585b38d3debdfff6d59b8437539302fcb9938d62",
+        "application_name": "Jasper",
+        "normalized_name": "jasper",
+        "domain": "jasper.ai",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "jasper.ai",
+        "event_count": 477,
+        "departments": "[\"Customer Support\", \"Engineering\", \"Finance\", \"HR\", \"Marketing\", \"Sales\"]",
+        "name_variants": "[\"Jasper\"]",
+        "raw_domain_variants": "[\"jasper.ai\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 242,
+        "total_session_duration_seconds": 1746498,
+        "session_duration_seconds_observed_events": 477,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 1429451634,
+        "bytes_uploaded_observed_events": 477,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 3194875151,
+        "bytes_downloaded_observed_events": 477,
+        "bytes_downloaded_invalid_events": 0
+      }
+    },
+    {
+      "application_id": "app_34f8b1ca14ad669df00ab25c6fe0d335bbaa5b5bc41d04bb9ef431170a82355d",
+      "application_key": "linkedin.com",
+      "application_names": [
+        "LinkedIn"
+      ],
+      "unique_users": 301,
+      "departments": [
+        "Customer Support",
+        "Engineering",
+        "Finance",
+        "HR",
+        "Marketing",
+        "Sales"
+      ],
+      "events": 855,
+      "first_seen": "2026-09-01T08:59:00+00:00",
+      "last_seen": "2026-09-30T18:22:00+00:00",
+      "invalid_or_missing_timestamps": 0,
+      "upload_observations": 855,
+      "download_observations": 855,
+      "total_bytes_uploaded": 2570123625,
+      "total_bytes_downloaded": 6106260898,
+      "mean_bytes_uploaded": 3005992.543859649,
+      "max_bytes_uploaded": 9995210,
+      "mean_bytes_downloaded": 7141825.611695906,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 301,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "company": "NovaTech",
+      "detection": {
+        "is_ai_tool": 0,
+        "method": "name_and_host",
+        "catalog_status": "known_non_ai",
+        "model_ai_score": null,
+        "reason": "matched_catalog_record",
+        "candidates": [
+          {
+            "tool_id": "saas_00001",
+            "tool_name": "LinkedIn",
+            "domain": "linkedin.com",
+            "path": "",
+            "is_ai_tool": false,
+            "category": "Productivity",
+            "source": "finalized"
+          }
+        ],
+        "needs_review": true
+      },
+      "category": null,
+      "category_source": "unresolved",
+      "observed_identity": {
+        "application_id": "app_34f8b1ca14ad669df00ab25c6fe0d335bbaa5b5bc41d04bb9ef431170a82355d",
+        "application_name": "LinkedIn",
+        "normalized_name": "linkedin",
+        "domain": "linkedin.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "linkedin.com",
+        "event_count": 855,
+        "departments": "[\"Customer Support\", \"Engineering\", \"Finance\", \"HR\", \"Marketing\", \"Sales\"]",
+        "name_variants": "[\"LinkedIn\"]",
+        "raw_domain_variants": "[\"linkedin.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 301,
+        "total_session_duration_seconds": 3125461,
+        "session_duration_seconds_observed_events": 855,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 2570123625,
+        "bytes_uploaded_observed_events": 855,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 6106260898,
+        "bytes_downloaded_observed_events": 855,
+        "bytes_downloaded_invalid_events": 0
+      }
+    },
+    {
+      "application_id": "app_393113e5be3e4a46a9d1ed071da1fddcd16232c3adce72103b2c91d42ea4a7a3",
+      "application_key": "zoom.us",
+      "application_names": [
+        "Zoom"
+      ],
+      "unique_users": 328,
+      "departments": [
+        "Customer Support",
+        "Engineering",
+        "Finance",
+        "HR",
+        "Marketing",
+        "Sales"
+      ],
+      "events": 1180,
+      "first_seen": "2026-09-01T08:38:00+00:00",
+      "last_seen": "2026-09-30T18:59:00+00:00",
+      "invalid_or_missing_timestamps": 0,
+      "upload_observations": 1180,
+      "download_observations": 1180,
+      "total_bytes_uploaded": 3617371936,
+      "total_bytes_downloaded": 8032802736,
+      "mean_bytes_uploaded": 3065569.4372881358,
+      "max_bytes_uploaded": 9995308,
+      "mean_bytes_downloaded": 6807459.945762712,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 328,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "company": "NovaTech",
+      "detection": {
+        "is_ai_tool": 0,
+        "method": "name_and_host",
+        "catalog_status": "known_non_ai",
+        "model_ai_score": null,
+        "reason": "matched_catalog_record",
+        "candidates": [
+          {
+            "tool_id": "claude_00005",
+            "tool_name": "Zoom",
+            "domain": "zoom.us",
+            "path": "",
+            "is_ai_tool": false,
+            "category": "Meeting / Transcription Tools",
+            "source": "finalized"
+          }
+        ],
+        "needs_review": true
+      },
+      "category": null,
+      "category_source": "unresolved",
+      "observed_identity": {
+        "application_id": "app_393113e5be3e4a46a9d1ed071da1fddcd16232c3adce72103b2c91d42ea4a7a3",
+        "application_name": "Zoom",
+        "normalized_name": "zoom",
+        "domain": "zoom.us",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "zoom.us",
+        "event_count": 1180,
+        "departments": "[\"Customer Support\", \"Engineering\", \"Finance\", \"HR\", \"Marketing\", \"Sales\"]",
+        "name_variants": "[\"Zoom\"]",
+        "raw_domain_variants": "[\"zoom.us\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 328,
+        "total_session_duration_seconds": 4382253,
+        "session_duration_seconds_observed_events": 1180,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 3617371936,
+        "bytes_uploaded_observed_events": 1180,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 8032802736,
+        "bytes_downloaded_observed_events": 1180,
+        "bytes_downloaded_invalid_events": 0
+      }
+    },
+    {
+      "application_id": "app_4302bec2786f78d6f70e39f77769c2a212c4e08bfb1485164639710be64258ae",
+      "application_key": "atlassian.com",
+      "application_names": [
+        "Jira"
+      ],
+      "unique_users": 269,
+      "departments": [
+        "Customer Support",
+        "Engineering",
+        "Finance",
+        "HR",
+        "Marketing",
+        "Sales"
+      ],
+      "events": 469,
+      "first_seen": "2026-09-01T09:54:00+00:00",
+      "last_seen": "2026-09-30T18:05:00+00:00",
+      "invalid_or_missing_timestamps": 0,
+      "upload_observations": 469,
+      "download_observations": 469,
+      "total_bytes_uploaded": 1473415019,
+      "total_bytes_downloaded": 3356719260,
+      "mean_bytes_uploaded": 3141609.8486140724,
+      "max_bytes_uploaded": 9912145,
+      "mean_bytes_downloaded": 7157183.923240938,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 269,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "company": "NovaTech",
+      "detection": {
+        "is_ai_tool": 0,
+        "method": "name_and_host",
+        "catalog_status": "known_non_ai",
+        "model_ai_score": null,
+        "reason": "matched_catalog_record",
+        "candidates": [
+          {
+            "tool_id": "claude_00003",
+            "tool_name": "Jira",
+            "domain": "atlassian.com",
+            "path": "",
+            "is_ai_tool": false,
+            "category": "Productivity",
+            "source": "finalized"
+          }
+        ],
+        "needs_review": true
+      },
+      "category": null,
+      "category_source": "unresolved",
+      "observed_identity": {
+        "application_id": "app_4302bec2786f78d6f70e39f77769c2a212c4e08bfb1485164639710be64258ae",
+        "application_name": "Jira",
+        "normalized_name": "jira",
+        "domain": "atlassian.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "atlassian.com",
+        "event_count": 469,
+        "departments": "[\"Customer Support\", \"Engineering\", \"Finance\", \"HR\", \"Marketing\", \"Sales\"]",
+        "name_variants": "[\"Jira\"]",
+        "raw_domain_variants": "[\"atlassian.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 269,
+        "total_session_duration_seconds": 1713373,
+        "session_duration_seconds_observed_events": 469,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 1473415019,
+        "bytes_uploaded_observed_events": 469,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 3356719260,
+        "bytes_downloaded_observed_events": 469,
+        "bytes_downloaded_invalid_events": 0
+      }
+    },
+    {
+      "application_id": "app_4a8ceff02924c8d92c4acfe24d1fef7a44e3ef4c39496c1288bcd96a0d491a5c",
+      "application_key": "office.com",
+      "application_names": [
+        "Microsoft Excel"
+      ],
+      "unique_users": 282,
+      "departments": [
+        "Customer Support",
+        "Engineering",
+        "Finance",
+        "HR",
+        "Marketing",
+        "Sales"
+      ],
+      "events": 939,
+      "first_seen": "2026-09-01T08:06:00+00:00",
+      "last_seen": "2026-09-30T18:58:00+00:00",
+      "invalid_or_missing_timestamps": 0,
+      "upload_observations": 939,
+      "download_observations": 939,
+      "total_bytes_uploaded": 3059667322,
+      "total_bytes_downloaded": 6747108331,
+      "mean_bytes_uploaded": 3258431.6528221513,
+      "max_bytes_uploaded": 9999973,
+      "mean_bytes_downloaded": 7185418.8828541,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 282,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "company": "NovaTech",
+      "detection": {
+        "is_ai_tool": 0,
+        "method": "unique_product_host",
+        "catalog_status": "known_non_ai",
+        "model_ai_score": null,
+        "reason": "matched_catalog_record",
+        "candidates": [
+          {
+            "tool_id": "saas_00343",
+            "tool_name": "Microsoft Office",
+            "domain": "office.com",
+            "path": "",
+            "is_ai_tool": false,
+            "category": "Productivity",
+            "source": "finalized"
+          }
+        ],
+        "needs_review": true
+      },
+      "category": null,
+      "category_source": "unresolved",
+      "observed_identity": {
+        "application_id": "app_4a8ceff02924c8d92c4acfe24d1fef7a44e3ef4c39496c1288bcd96a0d491a5c",
+        "application_name": "Microsoft Excel",
+        "normalized_name": "microsoft excel",
+        "domain": "office.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "office.com",
+        "event_count": 939,
+        "departments": "[\"Customer Support\", \"Engineering\", \"Finance\", \"HR\", \"Marketing\", \"Sales\"]",
+        "name_variants": "[\"Microsoft Excel\"]",
+        "raw_domain_variants": "[\"office.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 282,
+        "total_session_duration_seconds": 3368787,
+        "session_duration_seconds_observed_events": 939,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 3059667322,
+        "bytes_uploaded_observed_events": 939,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 6747108331,
+        "bytes_downloaded_observed_events": 939,
+        "bytes_downloaded_invalid_events": 0
+      }
+    },
+    {
+      "application_id": "app_790138a465d345920ef03fcb93ae095cd75ae8f3d2fac2565d5dd80d8dca8b64",
+      "application_key": "drive.google.com",
+      "application_names": [
+        "Google Drive"
+      ],
+      "unique_users": 348,
+      "departments": [
+        "Customer Support",
+        "Engineering",
+        "Finance",
+        "HR",
+        "Marketing",
+        "Sales"
+      ],
+      "events": 1740,
+      "first_seen": "2026-09-01T08:19:00+00:00",
+      "last_seen": "2026-09-30T18:50:00+00:00",
+      "invalid_or_missing_timestamps": 0,
+      "upload_observations": 1740,
+      "download_observations": 1740,
+      "total_bytes_uploaded": 5251057051,
+      "total_bytes_downloaded": 12157681789,
+      "mean_bytes_uploaded": 3017848.8798850575,
+      "max_bytes_uploaded": 9999198,
+      "mean_bytes_downloaded": 6987173.441954023,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 348,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "company": "NovaTech",
+      "detection": {
+        "is_ai_tool": null,
+        "method": "unknown",
+        "catalog_status": "unknown",
+        "model_ai_score": null,
+        "reason": "no_matching_identity",
+        "candidates": [],
+        "needs_review": true
+      },
+      "category": null,
+      "category_source": "unresolved",
+      "observed_identity": {
+        "application_id": "app_790138a465d345920ef03fcb93ae095cd75ae8f3d2fac2565d5dd80d8dca8b64",
+        "application_name": "Google Drive",
+        "normalized_name": "google drive",
+        "domain": "drive.google.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "drive.google.com",
+        "event_count": 1740,
+        "departments": "[\"Customer Support\", \"Engineering\", \"Finance\", \"HR\", \"Marketing\", \"Sales\"]",
+        "name_variants": "[\"Google Drive\"]",
+        "raw_domain_variants": "[\"drive.google.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 348,
+        "total_session_duration_seconds": 6257885,
+        "session_duration_seconds_observed_events": 1740,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 5251057051,
+        "bytes_uploaded_observed_events": 1740,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 12157681789,
+        "bytes_downloaded_observed_events": 1740,
+        "bytes_downloaded_invalid_events": 0
+      }
+    },
+    {
+      "application_id": "app_7c50300353797d72a036f39fb3538b392082256d4cf368fad5dcd5cfb0ac661c",
+      "application_key": "midjourney.com",
+      "application_names": [
+        "Midjourney"
+      ],
+      "unique_users": 255,
+      "departments": [
+        "Customer Support",
+        "Engineering",
+        "Finance",
+        "HR",
+        "Marketing",
+        "Sales"
+      ],
+      "events": 453,
+      "first_seen": "2026-09-01T08:35:00+00:00",
+      "last_seen": "2026-09-30T18:18:00+00:00",
+      "invalid_or_missing_timestamps": 0,
+      "upload_observations": 453,
+      "download_observations": 453,
+      "total_bytes_uploaded": 1395234879,
+      "total_bytes_downloaded": 3429972011,
+      "mean_bytes_uploaded": 3079988.695364238,
+      "max_bytes_uploaded": 9960933,
+      "mean_bytes_downloaded": 7571682.143487859,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 255,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "company": "NovaTech",
+      "detection": {
+        "is_ai_tool": null,
+        "method": "unknown",
+        "catalog_status": "unknown",
+        "model_ai_score": null,
+        "reason": "host_present_but_product_not_resolved",
+        "candidates": [],
+        "needs_review": true
+      },
+      "category": null,
+      "category_source": "unresolved",
+      "observed_identity": {
+        "application_id": "app_7c50300353797d72a036f39fb3538b392082256d4cf368fad5dcd5cfb0ac661c",
+        "application_name": "Midjourney",
+        "normalized_name": "midjourney",
+        "domain": "midjourney.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "midjourney.com",
+        "event_count": 453,
+        "departments": "[\"Customer Support\", \"Engineering\", \"Finance\", \"HR\", \"Marketing\", \"Sales\"]",
+        "name_variants": "[\"Midjourney\"]",
+        "raw_domain_variants": "[\"midjourney.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 255,
+        "total_session_duration_seconds": 1649577,
+        "session_duration_seconds_observed_events": 453,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 1395234879,
+        "bytes_uploaded_observed_events": 453,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 3429972011,
+        "bytes_downloaded_observed_events": 453,
+        "bytes_downloaded_invalid_events": 0
+      }
+    },
+    {
+      "application_id": "app_7e69132e0967e8eb047fd7b29dbe4a11a63dd46cfbb6689d91cad788933da11a",
+      "application_key": "slack.com",
+      "application_names": [
+        "Slack"
+      ],
+      "unique_users": 314,
+      "departments": [
+        "Customer Support",
+        "Engineering",
+        "Finance",
+        "HR",
+        "Marketing",
+        "Sales"
+      ],
+      "events": 1124,
+      "first_seen": "2026-09-01T08:52:00+00:00",
+      "last_seen": "2026-09-30T18:40:00+00:00",
+      "invalid_or_missing_timestamps": 0,
+      "upload_observations": 1124,
+      "download_observations": 1124,
+      "total_bytes_uploaded": 3492382713,
+      "total_bytes_downloaded": 7994052321,
+      "mean_bytes_uploaded": 3107102.0578291817,
+      "max_bytes_uploaded": 9992674,
+      "mean_bytes_downloaded": 7112146.193060499,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 314,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "company": "NovaTech",
+      "detection": {
+        "is_ai_tool": 0,
+        "method": "name_and_host",
+        "catalog_status": "known_non_ai",
+        "model_ai_score": null,
+        "reason": "matched_catalog_record",
+        "candidates": [
+          {
+            "tool_id": "saas_00032",
+            "tool_name": "Slack",
+            "domain": "slack.com",
+            "path": "",
+            "is_ai_tool": false,
+            "category": "Productivity",
+            "source": "finalized"
+          }
+        ],
+        "needs_review": true
+      },
+      "category": null,
+      "category_source": "unresolved",
+      "observed_identity": {
+        "application_id": "app_7e69132e0967e8eb047fd7b29dbe4a11a63dd46cfbb6689d91cad788933da11a",
+        "application_name": "Slack",
+        "normalized_name": "slack",
+        "domain": "slack.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "slack.com",
+        "event_count": 1124,
+        "departments": "[\"Customer Support\", \"Engineering\", \"Finance\", \"HR\", \"Marketing\", \"Sales\"]",
+        "name_variants": "[\"Slack\"]",
+        "raw_domain_variants": "[\"slack.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 314,
+        "total_session_duration_seconds": 4110496,
+        "session_duration_seconds_observed_events": 1124,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 3492382713,
+        "bytes_uploaded_observed_events": 1124,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 7994052321,
+        "bytes_downloaded_observed_events": 1124,
+        "bytes_downloaded_invalid_events": 0
+      }
+    },
+    {
+      "application_id": "app_81138b923c56ede71dcff8f6588e4362f4efa501fcd0cd12222b63d07283467b",
+      "application_key": "docs.google.com",
+      "application_names": [
+        "Google Docs"
+      ],
+      "unique_users": 351,
+      "departments": [
+        "Customer Support",
+        "Engineering",
+        "Finance",
+        "HR",
+        "Marketing",
+        "Sales"
+      ],
+      "events": 1757,
+      "first_seen": "2026-09-01T08:34:00+00:00",
+      "last_seen": "2026-09-30T18:58:00+00:00",
+      "invalid_or_missing_timestamps": 0,
+      "upload_observations": 1757,
+      "download_observations": 1757,
+      "total_bytes_uploaded": 5093008591,
+      "total_bytes_downloaded": 12368804367,
+      "mean_bytes_uploaded": 2898695.8400682984,
+      "max_bytes_uploaded": 9987161,
+      "mean_bytes_downloaded": 7039729.292544109,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 351,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "company": "NovaTech",
+      "detection": {
+        "is_ai_tool": null,
+        "method": "unknown",
+        "catalog_status": "unknown",
+        "model_ai_score": null,
+        "reason": "no_matching_identity",
+        "candidates": [],
+        "needs_review": true
+      },
+      "category": null,
+      "category_source": "unresolved",
+      "observed_identity": {
+        "application_id": "app_81138b923c56ede71dcff8f6588e4362f4efa501fcd0cd12222b63d07283467b",
+        "application_name": "Google Docs",
+        "normalized_name": "google docs",
+        "domain": "docs.google.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "docs.google.com",
+        "event_count": 1757,
+        "departments": "[\"Customer Support\", \"Engineering\", \"Finance\", \"HR\", \"Marketing\", \"Sales\"]",
+        "name_variants": "[\"Google Docs\"]",
+        "raw_domain_variants": "[\"docs.google.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 351,
+        "total_session_duration_seconds": 6430683,
+        "session_duration_seconds_observed_events": 1757,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 5093008591,
+        "bytes_uploaded_observed_events": 1757,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 12368804367,
+        "bytes_downloaded_observed_events": 1757,
+        "bytes_downloaded_invalid_events": 0
+      }
+    },
+    {
+      "application_id": "app_823b08aa130691796057b19a38888334c9f68199dbb310e59b22c91b50c16290",
+      "application_key": "cursor.com",
+      "application_names": [
+        "Cursor"
+      ],
+      "unique_users": 332,
+      "departments": [
+        "Customer Support",
+        "Engineering",
+        "Finance",
+        "HR",
+        "Marketing",
+        "Sales"
+      ],
+      "events": 984,
+      "first_seen": "2026-09-01T08:04:00+00:00",
+      "last_seen": "2026-09-30T18:54:00+00:00",
+      "invalid_or_missing_timestamps": 0,
+      "upload_observations": 984,
+      "download_observations": 984,
+      "total_bytes_uploaded": 2934688838,
+      "total_bytes_downloaded": 7198813062,
+      "mean_bytes_uploaded": 2982407.3556910567,
+      "max_bytes_uploaded": 9982386,
+      "mean_bytes_downloaded": 7315866.932926829,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 332,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "company": "NovaTech",
+      "detection": {
+        "is_ai_tool": null,
+        "method": "unknown",
+        "catalog_status": "unknown",
+        "model_ai_score": null,
+        "reason": "name_present_but_domain_differs",
+        "candidates": [],
+        "needs_review": true
+      },
+      "category": null,
+      "category_source": "unresolved",
+      "observed_identity": {
+        "application_id": "app_823b08aa130691796057b19a38888334c9f68199dbb310e59b22c91b50c16290",
+        "application_name": "Cursor",
+        "normalized_name": "cursor",
+        "domain": "cursor.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "cursor.com",
+        "event_count": 984,
+        "departments": "[\"Customer Support\", \"Engineering\", \"Finance\", \"HR\", \"Marketing\", \"Sales\"]",
+        "name_variants": "[\"Cursor\"]",
+        "raw_domain_variants": "[\"cursor.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 332,
+        "total_session_duration_seconds": 3469575,
+        "session_duration_seconds_observed_events": 984,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 2934688838,
+        "bytes_uploaded_observed_events": 984,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 7198813062,
+        "bytes_downloaded_observed_events": 984,
+        "bytes_downloaded_invalid_events": 0
+      }
+    },
+    {
+      "application_id": "app_96a58c1e329dc62b90c833b30aa8824c7c6d8ac9e6816c7c1707e2fbe7a5a3bf",
+      "application_key": "salesforce.com",
+      "application_names": [
+        "Salesforce"
+      ],
+      "unique_users": 317,
+      "departments": [
+        "Customer Support",
+        "Engineering",
+        "Finance",
+        "HR",
+        "Marketing",
+        "Sales"
+      ],
+      "events": 952,
+      "first_seen": "2026-09-01T08:20:00+00:00",
+      "last_seen": "2026-09-30T18:36:00+00:00",
+      "invalid_or_missing_timestamps": 0,
+      "upload_observations": 952,
+      "download_observations": 952,
+      "total_bytes_uploaded": 2812989933,
+      "total_bytes_downloaded": 6965121645,
+      "mean_bytes_uploaded": 2954821.3581932774,
+      "max_bytes_uploaded": 9961467,
+      "mean_bytes_downloaded": 7316304.24894958,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 317,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "company": "NovaTech",
+      "detection": {
+        "is_ai_tool": 0,
+        "method": "name_and_host",
+        "catalog_status": "known_non_ai",
+        "model_ai_score": null,
+        "reason": "matched_catalog_record",
+        "candidates": [
+          {
+            "tool_id": "saas_00024",
+            "tool_name": "Salesforce",
+            "domain": "salesforce.com",
+            "path": "",
+            "is_ai_tool": false,
+            "category": "Sales / Marketing",
+            "source": "finalized"
+          }
+        ],
+        "needs_review": true
+      },
+      "category": null,
+      "category_source": "unresolved",
+      "observed_identity": {
+        "application_id": "app_96a58c1e329dc62b90c833b30aa8824c7c6d8ac9e6816c7c1707e2fbe7a5a3bf",
+        "application_name": "Salesforce",
+        "normalized_name": "salesforce",
+        "domain": "salesforce.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "salesforce.com",
+        "event_count": 952,
+        "departments": "[\"Customer Support\", \"Engineering\", \"Finance\", \"HR\", \"Marketing\", \"Sales\"]",
+        "name_variants": "[\"Salesforce\"]",
+        "raw_domain_variants": "[\"salesforce.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 317,
+        "total_session_duration_seconds": 3463406,
+        "session_duration_seconds_observed_events": 952,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 2812989933,
+        "bytes_uploaded_observed_events": 952,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 6965121645,
+        "bytes_downloaded_observed_events": 952,
+        "bytes_downloaded_invalid_events": 0
+      }
+    },
+    {
+      "application_id": "app_9c7ac443384f8f2bcdd050372dd9952e5f37c22c236933526f68b8a9a1268687",
+      "application_key": "gemini.google.com",
+      "application_names": [
+        "Gemini"
+      ],
+      "unique_users": 492,
+      "departments": [
+        "Customer Support",
+        "Engineering",
+        "Finance",
+        "HR",
+        "Marketing",
+        "Sales"
+      ],
+      "events": 2414,
+      "first_seen": "2026-09-01T08:04:00+00:00",
+      "last_seen": "2026-09-30T18:54:00+00:00",
+      "invalid_or_missing_timestamps": 0,
+      "upload_observations": 2414,
+      "download_observations": 2414,
+      "total_bytes_uploaded": 7355797673,
+      "total_bytes_downloaded": 16806784084,
+      "mean_bytes_uploaded": 3047140.7096106047,
+      "max_bytes_uploaded": 9999983,
+      "mean_bytes_downloaded": 6962213.787903894,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 492,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "company": "NovaTech",
+      "detection": {
+        "is_ai_tool": 1,
+        "method": "unique_product_host",
+        "catalog_status": "known_ai",
+        "model_ai_score": null,
+        "reason": "matched_catalog_record",
+        "candidates": [
+          {
+            "tool_id": "tool_00003",
+            "tool_name": "Google Gemini",
+            "domain": "gemini.google.com",
+            "path": "",
+            "is_ai_tool": true,
+            "category": "Ai And Machine Learning",
+            "source": "ai_catalog"
+          }
+        ],
+        "needs_review": true
+      },
+      "category": "Ai And Machine Learning",
+      "category_source": "catalog_assignment",
+      "observed_identity": {
+        "application_id": "app_9c7ac443384f8f2bcdd050372dd9952e5f37c22c236933526f68b8a9a1268687",
+        "application_name": "Gemini",
+        "normalized_name": "gemini",
+        "domain": "gemini.google.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "gemini.google.com",
+        "event_count": 2414,
+        "departments": "[\"Customer Support\", \"Engineering\", \"Finance\", \"HR\", \"Marketing\", \"Sales\"]",
+        "name_variants": "[\"Gemini\"]",
+        "raw_domain_variants": "[\"gemini.google.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 492,
+        "total_session_duration_seconds": 8771585,
+        "session_duration_seconds_observed_events": 2414,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 7355797673,
+        "bytes_uploaded_observed_events": 2414,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 16806784084,
+        "bytes_downloaded_observed_events": 2414,
+        "bytes_downloaded_invalid_events": 0
+      }
+    },
+    {
+      "application_id": "app_a254e36a3a3228d577cd9ebd56f97c66a95d45a09f213c77995067b67d35fef0",
+      "application_key": "workday.com",
+      "application_names": [
+        "Workday"
+      ],
+      "unique_users": 281,
+      "departments": [
+        "Customer Support",
+        "Engineering",
+        "Finance",
+        "HR",
+        "Marketing",
+        "Sales"
+      ],
+      "events": 905,
+      "first_seen": "2026-09-01T08:01:00+00:00",
+      "last_seen": "2026-09-30T17:59:00+00:00",
+      "invalid_or_missing_timestamps": 0,
+      "upload_observations": 905,
+      "download_observations": 905,
+      "total_bytes_uploaded": 2757554056,
+      "total_bytes_downloaded": 6194201803,
+      "mean_bytes_uploaded": 3047021.0563535914,
+      "max_bytes_uploaded": 9977764,
+      "mean_bytes_downloaded": 6844421.881767956,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 281,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "company": "NovaTech",
+      "detection": {
+        "is_ai_tool": 0,
+        "method": "name_and_host",
+        "catalog_status": "known_non_ai",
+        "model_ai_score": null,
+        "reason": "matched_catalog_record",
+        "candidates": [
+          {
+            "tool_id": "saas_00359",
+            "tool_name": "Workday",
+            "domain": "workday.com",
+            "path": "",
+            "is_ai_tool": false,
+            "category": "Productivity",
+            "source": "finalized"
+          }
+        ],
+        "needs_review": true
+      },
+      "category": null,
+      "category_source": "unresolved",
+      "observed_identity": {
+        "application_id": "app_a254e36a3a3228d577cd9ebd56f97c66a95d45a09f213c77995067b67d35fef0",
+        "application_name": "Workday",
+        "normalized_name": "workday",
+        "domain": "workday.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "workday.com",
+        "event_count": 905,
+        "departments": "[\"Customer Support\", \"Engineering\", \"Finance\", \"HR\", \"Marketing\", \"Sales\"]",
+        "name_variants": "[\"Workday\"]",
+        "raw_domain_variants": "[\"workday.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 281,
+        "total_session_duration_seconds": 3195179,
+        "session_duration_seconds_observed_events": 905,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 2757554056,
+        "bytes_uploaded_observed_events": 905,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 6194201803,
+        "bytes_downloaded_observed_events": 905,
+        "bytes_downloaded_invalid_events": 0
+      }
+    },
+    {
+      "application_id": "app_a41717927a77162d6f55b73303b010267a11e496fb72c2bacbc4ffe7cccc148f",
+      "application_key": "code.visualstudio.com",
+      "application_names": [
+        "VS Code"
+      ],
+      "unique_users": 373,
+      "departments": [
+        "Customer Support",
+        "Engineering",
+        "Finance",
+        "HR",
+        "Marketing",
+        "Sales"
+      ],
+      "events": 3432,
+      "first_seen": "2026-09-01T08:00:00+00:00",
+      "last_seen": "2026-09-30T18:57:00+00:00",
+      "invalid_or_missing_timestamps": 0,
+      "upload_observations": 3432,
+      "download_observations": 3432,
+      "total_bytes_uploaded": 10315081881,
+      "total_bytes_downloaded": 23141750898,
+      "mean_bytes_uploaded": 3005559.9886363638,
+      "max_bytes_uploaded": 9998474,
+      "mean_bytes_downloaded": 6742934.410839161,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 373,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "company": "NovaTech",
+      "detection": {
+        "is_ai_tool": null,
+        "method": "unknown",
+        "catalog_status": "unknown",
+        "model_ai_score": null,
+        "reason": "no_matching_identity",
+        "candidates": [],
+        "needs_review": true
+      },
+      "category": null,
+      "category_source": "unresolved",
+      "observed_identity": {
+        "application_id": "app_a41717927a77162d6f55b73303b010267a11e496fb72c2bacbc4ffe7cccc148f",
+        "application_name": "VS Code",
+        "normalized_name": "vs code",
+        "domain": "code.visualstudio.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "code.visualstudio.com",
+        "event_count": 3432,
+        "departments": "[\"Customer Support\", \"Engineering\", \"Finance\", \"HR\", \"Marketing\", \"Sales\"]",
+        "name_variants": "[\"VS Code\"]",
+        "raw_domain_variants": "[\"code.visualstudio.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 373,
+        "total_session_duration_seconds": 12290462,
+        "session_duration_seconds_observed_events": 3432,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 10315081881,
+        "bytes_uploaded_observed_events": 3432,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 23141750898,
+        "bytes_downloaded_observed_events": 3432,
+        "bytes_downloaded_invalid_events": 0
+      }
+    },
+    {
+      "application_id": "app_a4e9915bc883fd2738e22856141a76b4b65b12490224b9b3bdce26c5f39b3518",
+      "application_key": "perplexity.ai",
+      "application_names": [
+        "Perplexity"
+      ],
+      "unique_users": 304,
+      "departments": [
+        "Customer Support",
+        "Engineering",
+        "Finance",
+        "HR",
+        "Marketing",
+        "Sales"
+      ],
+      "events": 903,
+      "first_seen": "2026-09-01T08:26:00+00:00",
+      "last_seen": "2026-09-30T18:54:00+00:00",
+      "invalid_or_missing_timestamps": 0,
+      "upload_observations": 903,
+      "download_observations": 903,
+      "total_bytes_uploaded": 2723453501,
+      "total_bytes_downloaded": 6204005337,
+      "mean_bytes_uploaded": 3016006.091915836,
+      "max_bytes_uploaded": 9983838,
+      "mean_bytes_downloaded": 6870437.803986711,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 304,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "company": "NovaTech",
+      "detection": {
+        "is_ai_tool": 1,
+        "method": "name_and_host",
+        "catalog_status": "known_ai",
+        "model_ai_score": null,
+        "reason": "matched_catalog_record",
+        "candidates": [
+          {
+            "tool_id": "tool_00007",
+            "tool_name": "Perplexity",
+            "domain": "perplexity.ai",
+            "path": "",
+            "is_ai_tool": true,
+            "category": "Specialized Technologies",
+            "source": "ai_catalog"
+          }
+        ],
+        "needs_review": true
+      },
+      "category": "Specialized Technologies",
+      "category_source": "catalog_assignment",
+      "observed_identity": {
+        "application_id": "app_a4e9915bc883fd2738e22856141a76b4b65b12490224b9b3bdce26c5f39b3518",
+        "application_name": "Perplexity",
+        "normalized_name": "perplexity",
+        "domain": "perplexity.ai",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "perplexity.ai",
+        "event_count": 903,
+        "departments": "[\"Customer Support\", \"Engineering\", \"Finance\", \"HR\", \"Marketing\", \"Sales\"]",
+        "name_variants": "[\"Perplexity\"]",
+        "raw_domain_variants": "[\"perplexity.ai\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 304,
+        "total_session_duration_seconds": 3279650,
+        "session_duration_seconds_observed_events": 903,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 2723453501,
+        "bytes_uploaded_observed_events": 903,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 6204005337,
+        "bytes_downloaded_observed_events": 903,
+        "bytes_downloaded_invalid_events": 0
+      }
+    },
+    {
+      "application_id": "app_aed5234c07b5262a80ee8f9538152fe2d494e929b589e35a81135faf5d0deca9",
+      "application_key": "grammarly.com",
+      "application_names": [
+        "Grammarly"
+      ],
+      "unique_users": 317,
+      "departments": [
+        "Customer Support",
+        "Engineering",
+        "Finance",
+        "HR",
+        "Marketing",
+        "Sales"
+      ],
+      "events": 1044,
+      "first_seen": "2026-09-01T08:04:00+00:00",
+      "last_seen": "2026-09-30T18:37:00+00:00",
+      "invalid_or_missing_timestamps": 0,
+      "upload_observations": 1044,
+      "download_observations": 1044,
+      "total_bytes_uploaded": 3227582398,
+      "total_bytes_downloaded": 7494000604,
+      "mean_bytes_uploaded": 3091554.021072797,
+      "max_bytes_uploaded": 9986915,
+      "mean_bytes_downloaded": 7178161.498084291,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 317,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "company": "NovaTech",
+      "detection": {
+        "is_ai_tool": 1,
+        "method": "name_and_host",
+        "catalog_status": "known_ai",
+        "model_ai_score": null,
+        "reason": "matched_catalog_record",
+        "candidates": [
+          {
+            "tool_id": "tool_01658",
+            "tool_name": "Grammarly",
+            "domain": "grammarly.com",
+            "path": "",
+            "is_ai_tool": true,
+            "category": "Security And Privacy",
+            "source": "ai_catalog"
+          }
+        ],
+        "needs_review": true
+      },
+      "category": "Security And Privacy",
+      "category_source": "catalog_assignment",
+      "observed_identity": {
+        "application_id": "app_aed5234c07b5262a80ee8f9538152fe2d494e929b589e35a81135faf5d0deca9",
+        "application_name": "Grammarly",
+        "normalized_name": "grammarly",
+        "domain": "grammarly.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "grammarly.com",
+        "event_count": 1044,
+        "departments": "[\"Customer Support\", \"Engineering\", \"Finance\", \"HR\", \"Marketing\", \"Sales\"]",
+        "name_variants": "[\"Grammarly\"]",
+        "raw_domain_variants": "[\"grammarly.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 317,
+        "total_session_duration_seconds": 3746298,
+        "session_duration_seconds_observed_events": 1044,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 3227582398,
+        "bytes_uploaded_observed_events": 1044,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 7494000604,
+        "bytes_downloaded_observed_events": 1044,
+        "bytes_downloaded_invalid_events": 0
+      }
+    },
+    {
+      "application_id": "app_d7883b7a5020a8df76690760e4632545b1f12666f93aa453f2ce55e919af998e",
+      "application_key": "github.com/copilot",
+      "application_names": [
+        "GitHub Copilot"
+      ],
+      "unique_users": 317,
+      "departments": [
+        "Customer Support",
+        "Engineering",
+        "Finance",
+        "HR",
+        "Marketing",
+        "Sales"
+      ],
+      "events": 957,
+      "first_seen": "2026-09-01T08:04:00+00:00",
+      "last_seen": "2026-09-30T18:53:00+00:00",
+      "invalid_or_missing_timestamps": 0,
+      "upload_observations": 957,
+      "download_observations": 957,
+      "total_bytes_uploaded": 2948191676,
+      "total_bytes_downloaded": 6704391743,
+      "mean_bytes_uploaded": 3080660.0585161964,
+      "max_bytes_uploaded": 9995132,
+      "mean_bytes_downloaded": 7005634.00522466,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 317,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "company": "NovaTech",
+      "detection": {
+        "is_ai_tool": null,
+        "method": "unknown",
+        "catalog_status": "unknown",
+        "model_ai_score": null,
+        "reason": "host_present_but_product_not_resolved",
+        "candidates": [],
+        "needs_review": true
+      },
+      "category": null,
+      "category_source": "unresolved",
+      "observed_identity": {
+        "application_id": "app_d7883b7a5020a8df76690760e4632545b1f12666f93aa453f2ce55e919af998e",
+        "application_name": "GitHub Copilot",
+        "normalized_name": "github copilot",
+        "domain": "github.com",
+        "url_path": "/copilot",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "github.com/copilot",
+        "event_count": 957,
+        "departments": "[\"Customer Support\", \"Engineering\", \"Finance\", \"HR\", \"Marketing\", \"Sales\"]",
+        "name_variants": "[\"GitHub Copilot\"]",
+        "raw_domain_variants": "[\"github.com/copilot\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 317,
+        "total_session_duration_seconds": 3421775,
+        "session_duration_seconds_observed_events": 957,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 2948191676,
+        "bytes_uploaded_observed_events": 957,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 6704391743,
+        "bytes_downloaded_observed_events": 957,
+        "bytes_downloaded_invalid_events": 0
+      }
+    },
+    {
+      "application_id": "app_dd92109cc601540df42c7df0df3fbd6548f5608e73dc4aa42c1189e566c4c52d",
+      "application_key": "chatgpt.com",
+      "application_names": [
+        "ChatGPT"
+      ],
+      "unique_users": 494,
+      "departments": [
+        "Customer Support",
+        "Engineering",
+        "Finance",
+        "HR",
+        "Marketing",
+        "Sales"
+      ],
+      "events": 2253,
+      "first_seen": "2026-09-01T08:08:00+00:00",
+      "last_seen": "2026-09-30T18:24:00+00:00",
+      "invalid_or_missing_timestamps": 0,
+      "upload_observations": 2253,
+      "download_observations": 2253,
+      "total_bytes_uploaded": 6786822260,
+      "total_bytes_downloaded": 15460626050,
+      "mean_bytes_uploaded": 3012348.983577452,
+      "max_bytes_uploaded": 9996300,
+      "mean_bytes_downloaded": 6862239.70261873,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 494,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "company": "NovaTech",
+      "detection": {
+        "is_ai_tool": 1,
+        "method": "name_and_host",
+        "catalog_status": "known_ai",
+        "model_ai_score": null,
+        "reason": "matched_catalog_record",
+        "candidates": [
+          {
+            "tool_id": "tool_00001",
+            "tool_name": "ChatGPT",
+            "domain": "chatgpt.com",
+            "path": "",
+            "is_ai_tool": true,
+            "category": "Communication And Support",
+            "source": "ai_catalog"
+          }
+        ],
+        "needs_review": true
+      },
+      "category": "Communication And Support",
+      "category_source": "catalog_assignment",
+      "observed_identity": {
+        "application_id": "app_dd92109cc601540df42c7df0df3fbd6548f5608e73dc4aa42c1189e566c4c52d",
+        "application_name": "ChatGPT",
+        "normalized_name": "chatgpt",
+        "domain": "chatgpt.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "chatgpt.com",
+        "event_count": 2253,
+        "departments": "[\"Customer Support\", \"Engineering\", \"Finance\", \"HR\", \"Marketing\", \"Sales\"]",
+        "name_variants": "[\"ChatGPT\"]",
+        "raw_domain_variants": "[\"chatgpt.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 494,
+        "total_session_duration_seconds": 8254352,
+        "session_duration_seconds_observed_events": 2253,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 6786822260,
+        "bytes_uploaded_observed_events": 2253,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 15460626050,
+        "bytes_downloaded_observed_events": 2253,
+        "bytes_downloaded_invalid_events": 0
+      }
+    },
+    {
+      "application_id": "app_f489d4b1012f5559a46748ae37e6c653712915858b8ae1810f96a84247830431",
+      "application_key": "teams.microsoft.com",
+      "application_names": [
+        "Microsoft Teams"
+      ],
+      "unique_users": 339,
+      "departments": [
+        "Customer Support",
+        "Engineering",
+        "Finance",
+        "HR",
+        "Marketing",
+        "Sales"
+      ],
+      "events": 1219,
+      "first_seen": "2026-09-01T08:01:00+00:00",
+      "last_seen": "2026-09-30T18:51:00+00:00",
+      "invalid_or_missing_timestamps": 0,
+      "upload_observations": 1219,
+      "download_observations": 1219,
+      "total_bytes_uploaded": 3682007466,
+      "total_bytes_downloaded": 8793838770,
+      "mean_bytes_uploaded": 3020514.7383100903,
+      "max_bytes_uploaded": 9996222,
+      "mean_bytes_downloaded": 7213977.662018048,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 339,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "company": "NovaTech",
+      "detection": {
+        "is_ai_tool": null,
+        "method": "unknown",
+        "catalog_status": "unknown",
+        "model_ai_score": null,
+        "reason": "name_present_but_domain_differs",
+        "candidates": [],
+        "needs_review": true
+      },
+      "category": null,
+      "category_source": "unresolved",
+      "observed_identity": {
+        "application_id": "app_f489d4b1012f5559a46748ae37e6c653712915858b8ae1810f96a84247830431",
+        "application_name": "Microsoft Teams",
+        "normalized_name": "microsoft teams",
+        "domain": "teams.microsoft.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "teams.microsoft.com",
+        "event_count": 1219,
+        "departments": "[\"Customer Support\", \"Engineering\", \"Finance\", \"HR\", \"Marketing\", \"Sales\"]",
+        "name_variants": "[\"Microsoft Teams\"]",
+        "raw_domain_variants": "[\"teams.microsoft.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 339,
+        "total_session_duration_seconds": 4421656,
+        "session_duration_seconds_observed_events": 1219,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 3682007466,
+        "bytes_uploaded_observed_events": 1219,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 8793838770,
+        "bytes_downloaded_observed_events": 1219,
+        "bytes_downloaded_invalid_events": 0
+      }
+    }
+  ],
+  "detection_counts": {
+    "ai": 6,
+    "conventional": 7,
+    "unknown": 8
+  },
+  "review_queue": [
+    "app_0d4fc2e5b6a6ee692bff153c4002da9a3cd6c974cf5c9fbbf03f300dc60c7f23",
+    "app_16fb473cfaddf3ba88ec0c0917e9035a05c98c88ab7c9a910b67e4c8b9e4fc9d",
+    "app_1cd3877a479691c0c760e9ba585b38d3debdfff6d59b8437539302fcb9938d62",
+    "app_34f8b1ca14ad669df00ab25c6fe0d335bbaa5b5bc41d04bb9ef431170a82355d",
+    "app_393113e5be3e4a46a9d1ed071da1fddcd16232c3adce72103b2c91d42ea4a7a3",
+    "app_4302bec2786f78d6f70e39f77769c2a212c4e08bfb1485164639710be64258ae",
+    "app_4a8ceff02924c8d92c4acfe24d1fef7a44e3ef4c39496c1288bcd96a0d491a5c",
+    "app_790138a465d345920ef03fcb93ae095cd75ae8f3d2fac2565d5dd80d8dca8b64",
+    "app_7c50300353797d72a036f39fb3538b392082256d4cf368fad5dcd5cfb0ac661c",
+    "app_7e69132e0967e8eb047fd7b29dbe4a11a63dd46cfbb6689d91cad788933da11a",
+    "app_81138b923c56ede71dcff8f6588e4362f4efa501fcd0cd12222b63d07283467b",
+    "app_823b08aa130691796057b19a38888334c9f68199dbb310e59b22c91b50c16290",
+    "app_96a58c1e329dc62b90c833b30aa8824c7c6d8ac9e6816c7c1707e2fbe7a5a3bf",
+    "app_9c7ac443384f8f2bcdd050372dd9952e5f37c22c236933526f68b8a9a1268687",
+    "app_a254e36a3a3228d577cd9ebd56f97c66a95d45a09f213c77995067b67d35fef0",
+    "app_a41717927a77162d6f55b73303b010267a11e496fb72c2bacbc4ffe7cccc148f",
+    "app_a4e9915bc883fd2738e22856141a76b4b65b12490224b9b3bdce26c5f39b3518",
+    "app_aed5234c07b5262a80ee8f9538152fe2d494e929b589e35a81135faf5d0deca9",
+    "app_d7883b7a5020a8df76690760e4632545b1f12666f93aa453f2ce55e919af998e",
+    "app_dd92109cc601540df42c7df0df3fbd6548f5608e73dc4aa42c1189e566c4c52d",
+    "app_f489d4b1012f5559a46748ae37e6c653712915858b8ae1810f96a84247830431"
+  ],
+  "ingestion": {
+    "applications": [
+      {
+        "application_id": "app_dd92109cc601540df42c7df0df3fbd6548f5608e73dc4aa42c1189e566c4c52d",
+        "application_name": "ChatGPT",
+        "normalized_name": "chatgpt",
+        "domain": "chatgpt.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "chatgpt.com",
+        "event_count": 2253,
+        "departments": "[\"Customer Support\", \"Engineering\", \"Finance\", \"HR\", \"Marketing\", \"Sales\"]",
+        "name_variants": "[\"ChatGPT\"]",
+        "raw_domain_variants": "[\"chatgpt.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 494,
+        "total_session_duration_seconds": 8254352,
+        "session_duration_seconds_observed_events": 2253,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 6786822260,
+        "bytes_uploaded_observed_events": 2253,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 15460626050,
+        "bytes_downloaded_observed_events": 2253,
+        "bytes_downloaded_invalid_events": 0
+      },
+      {
+        "application_id": "app_16fb473cfaddf3ba88ec0c0917e9035a05c98c88ab7c9a910b67e4c8b9e4fc9d",
+        "application_name": "Claude",
+        "normalized_name": "claude",
+        "domain": "claude.ai",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "claude.ai",
+        "event_count": 2445,
+        "departments": "[\"Customer Support\", \"Engineering\", \"Finance\", \"HR\", \"Marketing\", \"Sales\"]",
+        "name_variants": "[\"Claude\"]",
+        "raw_domain_variants": "[\"claude.ai\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 493,
+        "total_session_duration_seconds": 8777674,
+        "session_duration_seconds_observed_events": 2445,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 7520536074,
+        "bytes_uploaded_observed_events": 2445,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 16754483567,
+        "bytes_downloaded_observed_events": 2445,
+        "bytes_downloaded_invalid_events": 0
+      },
+      {
+        "application_id": "app_823b08aa130691796057b19a38888334c9f68199dbb310e59b22c91b50c16290",
+        "application_name": "Cursor",
+        "normalized_name": "cursor",
+        "domain": "cursor.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "cursor.com",
+        "event_count": 984,
+        "departments": "[\"Customer Support\", \"Engineering\", \"Finance\", \"HR\", \"Marketing\", \"Sales\"]",
+        "name_variants": "[\"Cursor\"]",
+        "raw_domain_variants": "[\"cursor.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 332,
+        "total_session_duration_seconds": 3469575,
+        "session_duration_seconds_observed_events": 984,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 2934688838,
+        "bytes_uploaded_observed_events": 984,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 7198813062,
+        "bytes_downloaded_observed_events": 984,
+        "bytes_downloaded_invalid_events": 0
+      },
+      {
+        "application_id": "app_9c7ac443384f8f2bcdd050372dd9952e5f37c22c236933526f68b8a9a1268687",
+        "application_name": "Gemini",
+        "normalized_name": "gemini",
+        "domain": "gemini.google.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "gemini.google.com",
+        "event_count": 2414,
+        "departments": "[\"Customer Support\", \"Engineering\", \"Finance\", \"HR\", \"Marketing\", \"Sales\"]",
+        "name_variants": "[\"Gemini\"]",
+        "raw_domain_variants": "[\"gemini.google.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 492,
+        "total_session_duration_seconds": 8771585,
+        "session_duration_seconds_observed_events": 2414,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 7355797673,
+        "bytes_uploaded_observed_events": 2414,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 16806784084,
+        "bytes_downloaded_observed_events": 2414,
+        "bytes_downloaded_invalid_events": 0
+      },
+      {
+        "application_id": "app_0d4fc2e5b6a6ee692bff153c4002da9a3cd6c974cf5c9fbbf03f300dc60c7f23",
+        "application_name": "GitHub",
+        "normalized_name": "github",
+        "domain": "github.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "github.com",
+        "event_count": 3498,
+        "departments": "[\"Customer Support\", \"Engineering\", \"Finance\", \"HR\", \"Marketing\", \"Sales\"]",
+        "name_variants": "[\"GitHub\"]",
+        "raw_domain_variants": "[\"github.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 372,
+        "total_session_duration_seconds": 12818845,
+        "session_duration_seconds_observed_events": 3498,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 10361251392,
+        "bytes_uploaded_observed_events": 3498,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 24470329455,
+        "bytes_downloaded_observed_events": 3498,
+        "bytes_downloaded_invalid_events": 0
+      },
+      {
+        "application_id": "app_d7883b7a5020a8df76690760e4632545b1f12666f93aa453f2ce55e919af998e",
+        "application_name": "GitHub Copilot",
+        "normalized_name": "github copilot",
+        "domain": "github.com",
+        "url_path": "/copilot",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "github.com/copilot",
+        "event_count": 957,
+        "departments": "[\"Customer Support\", \"Engineering\", \"Finance\", \"HR\", \"Marketing\", \"Sales\"]",
+        "name_variants": "[\"GitHub Copilot\"]",
+        "raw_domain_variants": "[\"github.com/copilot\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 317,
+        "total_session_duration_seconds": 3421775,
+        "session_duration_seconds_observed_events": 957,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 2948191676,
+        "bytes_uploaded_observed_events": 957,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 6704391743,
+        "bytes_downloaded_observed_events": 957,
+        "bytes_downloaded_invalid_events": 0
+      },
+      {
+        "application_id": "app_81138b923c56ede71dcff8f6588e4362f4efa501fcd0cd12222b63d07283467b",
+        "application_name": "Google Docs",
+        "normalized_name": "google docs",
+        "domain": "docs.google.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "docs.google.com",
+        "event_count": 1757,
+        "departments": "[\"Customer Support\", \"Engineering\", \"Finance\", \"HR\", \"Marketing\", \"Sales\"]",
+        "name_variants": "[\"Google Docs\"]",
+        "raw_domain_variants": "[\"docs.google.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 351,
+        "total_session_duration_seconds": 6430683,
+        "session_duration_seconds_observed_events": 1757,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 5093008591,
+        "bytes_uploaded_observed_events": 1757,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 12368804367,
+        "bytes_downloaded_observed_events": 1757,
+        "bytes_downloaded_invalid_events": 0
+      },
+      {
+        "application_id": "app_790138a465d345920ef03fcb93ae095cd75ae8f3d2fac2565d5dd80d8dca8b64",
+        "application_name": "Google Drive",
+        "normalized_name": "google drive",
+        "domain": "drive.google.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "drive.google.com",
+        "event_count": 1740,
+        "departments": "[\"Customer Support\", \"Engineering\", \"Finance\", \"HR\", \"Marketing\", \"Sales\"]",
+        "name_variants": "[\"Google Drive\"]",
+        "raw_domain_variants": "[\"drive.google.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 348,
+        "total_session_duration_seconds": 6257885,
+        "session_duration_seconds_observed_events": 1740,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 5251057051,
+        "bytes_uploaded_observed_events": 1740,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 12157681789,
+        "bytes_downloaded_observed_events": 1740,
+        "bytes_downloaded_invalid_events": 0
+      },
+      {
+        "application_id": "app_aed5234c07b5262a80ee8f9538152fe2d494e929b589e35a81135faf5d0deca9",
+        "application_name": "Grammarly",
+        "normalized_name": "grammarly",
+        "domain": "grammarly.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "grammarly.com",
+        "event_count": 1044,
+        "departments": "[\"Customer Support\", \"Engineering\", \"Finance\", \"HR\", \"Marketing\", \"Sales\"]",
+        "name_variants": "[\"Grammarly\"]",
+        "raw_domain_variants": "[\"grammarly.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 317,
+        "total_session_duration_seconds": 3746298,
+        "session_duration_seconds_observed_events": 1044,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 3227582398,
+        "bytes_uploaded_observed_events": 1044,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 7494000604,
+        "bytes_downloaded_observed_events": 1044,
+        "bytes_downloaded_invalid_events": 0
+      },
+      {
+        "application_id": "app_1cd3877a479691c0c760e9ba585b38d3debdfff6d59b8437539302fcb9938d62",
+        "application_name": "Jasper",
+        "normalized_name": "jasper",
+        "domain": "jasper.ai",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "jasper.ai",
+        "event_count": 477,
+        "departments": "[\"Customer Support\", \"Engineering\", \"Finance\", \"HR\", \"Marketing\", \"Sales\"]",
+        "name_variants": "[\"Jasper\"]",
+        "raw_domain_variants": "[\"jasper.ai\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 242,
+        "total_session_duration_seconds": 1746498,
+        "session_duration_seconds_observed_events": 477,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 1429451634,
+        "bytes_uploaded_observed_events": 477,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 3194875151,
+        "bytes_downloaded_observed_events": 477,
+        "bytes_downloaded_invalid_events": 0
+      },
+      {
+        "application_id": "app_4302bec2786f78d6f70e39f77769c2a212c4e08bfb1485164639710be64258ae",
+        "application_name": "Jira",
+        "normalized_name": "jira",
+        "domain": "atlassian.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "atlassian.com",
+        "event_count": 469,
+        "departments": "[\"Customer Support\", \"Engineering\", \"Finance\", \"HR\", \"Marketing\", \"Sales\"]",
+        "name_variants": "[\"Jira\"]",
+        "raw_domain_variants": "[\"atlassian.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 269,
+        "total_session_duration_seconds": 1713373,
+        "session_duration_seconds_observed_events": 469,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 1473415019,
+        "bytes_uploaded_observed_events": 469,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 3356719260,
+        "bytes_downloaded_observed_events": 469,
+        "bytes_downloaded_invalid_events": 0
+      },
+      {
+        "application_id": "app_34f8b1ca14ad669df00ab25c6fe0d335bbaa5b5bc41d04bb9ef431170a82355d",
+        "application_name": "LinkedIn",
+        "normalized_name": "linkedin",
+        "domain": "linkedin.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "linkedin.com",
+        "event_count": 855,
+        "departments": "[\"Customer Support\", \"Engineering\", \"Finance\", \"HR\", \"Marketing\", \"Sales\"]",
+        "name_variants": "[\"LinkedIn\"]",
+        "raw_domain_variants": "[\"linkedin.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 301,
+        "total_session_duration_seconds": 3125461,
+        "session_duration_seconds_observed_events": 855,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 2570123625,
+        "bytes_uploaded_observed_events": 855,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 6106260898,
+        "bytes_downloaded_observed_events": 855,
+        "bytes_downloaded_invalid_events": 0
+      },
+      {
+        "application_id": "app_4a8ceff02924c8d92c4acfe24d1fef7a44e3ef4c39496c1288bcd96a0d491a5c",
+        "application_name": "Microsoft Excel",
+        "normalized_name": "microsoft excel",
+        "domain": "office.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "office.com",
+        "event_count": 939,
+        "departments": "[\"Customer Support\", \"Engineering\", \"Finance\", \"HR\", \"Marketing\", \"Sales\"]",
+        "name_variants": "[\"Microsoft Excel\"]",
+        "raw_domain_variants": "[\"office.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 282,
+        "total_session_duration_seconds": 3368787,
+        "session_duration_seconds_observed_events": 939,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 3059667322,
+        "bytes_uploaded_observed_events": 939,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 6747108331,
+        "bytes_downloaded_observed_events": 939,
+        "bytes_downloaded_invalid_events": 0
+      },
+      {
+        "application_id": "app_f489d4b1012f5559a46748ae37e6c653712915858b8ae1810f96a84247830431",
+        "application_name": "Microsoft Teams",
+        "normalized_name": "microsoft teams",
+        "domain": "teams.microsoft.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "teams.microsoft.com",
+        "event_count": 1219,
+        "departments": "[\"Customer Support\", \"Engineering\", \"Finance\", \"HR\", \"Marketing\", \"Sales\"]",
+        "name_variants": "[\"Microsoft Teams\"]",
+        "raw_domain_variants": "[\"teams.microsoft.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 339,
+        "total_session_duration_seconds": 4421656,
+        "session_duration_seconds_observed_events": 1219,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 3682007466,
+        "bytes_uploaded_observed_events": 1219,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 8793838770,
+        "bytes_downloaded_observed_events": 1219,
+        "bytes_downloaded_invalid_events": 0
+      },
+      {
+        "application_id": "app_7c50300353797d72a036f39fb3538b392082256d4cf368fad5dcd5cfb0ac661c",
+        "application_name": "Midjourney",
+        "normalized_name": "midjourney",
+        "domain": "midjourney.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "midjourney.com",
+        "event_count": 453,
+        "departments": "[\"Customer Support\", \"Engineering\", \"Finance\", \"HR\", \"Marketing\", \"Sales\"]",
+        "name_variants": "[\"Midjourney\"]",
+        "raw_domain_variants": "[\"midjourney.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 255,
+        "total_session_duration_seconds": 1649577,
+        "session_duration_seconds_observed_events": 453,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 1395234879,
+        "bytes_uploaded_observed_events": 453,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 3429972011,
+        "bytes_downloaded_observed_events": 453,
+        "bytes_downloaded_invalid_events": 0
+      },
+      {
+        "application_id": "app_a4e9915bc883fd2738e22856141a76b4b65b12490224b9b3bdce26c5f39b3518",
+        "application_name": "Perplexity",
+        "normalized_name": "perplexity",
+        "domain": "perplexity.ai",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "perplexity.ai",
+        "event_count": 903,
+        "departments": "[\"Customer Support\", \"Engineering\", \"Finance\", \"HR\", \"Marketing\", \"Sales\"]",
+        "name_variants": "[\"Perplexity\"]",
+        "raw_domain_variants": "[\"perplexity.ai\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 304,
+        "total_session_duration_seconds": 3279650,
+        "session_duration_seconds_observed_events": 903,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 2723453501,
+        "bytes_uploaded_observed_events": 903,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 6204005337,
+        "bytes_downloaded_observed_events": 903,
+        "bytes_downloaded_invalid_events": 0
+      },
+      {
+        "application_id": "app_96a58c1e329dc62b90c833b30aa8824c7c6d8ac9e6816c7c1707e2fbe7a5a3bf",
+        "application_name": "Salesforce",
+        "normalized_name": "salesforce",
+        "domain": "salesforce.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "salesforce.com",
+        "event_count": 952,
+        "departments": "[\"Customer Support\", \"Engineering\", \"Finance\", \"HR\", \"Marketing\", \"Sales\"]",
+        "name_variants": "[\"Salesforce\"]",
+        "raw_domain_variants": "[\"salesforce.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 317,
+        "total_session_duration_seconds": 3463406,
+        "session_duration_seconds_observed_events": 952,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 2812989933,
+        "bytes_uploaded_observed_events": 952,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 6965121645,
+        "bytes_downloaded_observed_events": 952,
+        "bytes_downloaded_invalid_events": 0
+      },
+      {
+        "application_id": "app_7e69132e0967e8eb047fd7b29dbe4a11a63dd46cfbb6689d91cad788933da11a",
+        "application_name": "Slack",
+        "normalized_name": "slack",
+        "domain": "slack.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "slack.com",
+        "event_count": 1124,
+        "departments": "[\"Customer Support\", \"Engineering\", \"Finance\", \"HR\", \"Marketing\", \"Sales\"]",
+        "name_variants": "[\"Slack\"]",
+        "raw_domain_variants": "[\"slack.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 314,
+        "total_session_duration_seconds": 4110496,
+        "session_duration_seconds_observed_events": 1124,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 3492382713,
+        "bytes_uploaded_observed_events": 1124,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 7994052321,
+        "bytes_downloaded_observed_events": 1124,
+        "bytes_downloaded_invalid_events": 0
+      },
+      {
+        "application_id": "app_a41717927a77162d6f55b73303b010267a11e496fb72c2bacbc4ffe7cccc148f",
+        "application_name": "VS Code",
+        "normalized_name": "vs code",
+        "domain": "code.visualstudio.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "code.visualstudio.com",
+        "event_count": 3432,
+        "departments": "[\"Customer Support\", \"Engineering\", \"Finance\", \"HR\", \"Marketing\", \"Sales\"]",
+        "name_variants": "[\"VS Code\"]",
+        "raw_domain_variants": "[\"code.visualstudio.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 373,
+        "total_session_duration_seconds": 12290462,
+        "session_duration_seconds_observed_events": 3432,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 10315081881,
+        "bytes_uploaded_observed_events": 3432,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 23141750898,
+        "bytes_downloaded_observed_events": 3432,
+        "bytes_downloaded_invalid_events": 0
+      },
+      {
+        "application_id": "app_a254e36a3a3228d577cd9ebd56f97c66a95d45a09f213c77995067b67d35fef0",
+        "application_name": "Workday",
+        "normalized_name": "workday",
+        "domain": "workday.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "workday.com",
+        "event_count": 905,
+        "departments": "[\"Customer Support\", \"Engineering\", \"Finance\", \"HR\", \"Marketing\", \"Sales\"]",
+        "name_variants": "[\"Workday\"]",
+        "raw_domain_variants": "[\"workday.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 281,
+        "total_session_duration_seconds": 3195179,
+        "session_duration_seconds_observed_events": 905,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 2757554056,
+        "bytes_uploaded_observed_events": 905,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 6194201803,
+        "bytes_downloaded_observed_events": 905,
+        "bytes_downloaded_invalid_events": 0
+      },
+      {
+        "application_id": "app_393113e5be3e4a46a9d1ed071da1fddcd16232c3adce72103b2c91d42ea4a7a3",
+        "application_name": "Zoom",
+        "normalized_name": "zoom",
+        "domain": "zoom.us",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "zoom.us",
+        "event_count": 1180,
+        "departments": "[\"Customer Support\", \"Engineering\", \"Finance\", \"HR\", \"Marketing\", \"Sales\"]",
+        "name_variants": "[\"Zoom\"]",
+        "raw_domain_variants": "[\"zoom.us\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 328,
+        "total_session_duration_seconds": 4382253,
+        "session_duration_seconds_observed_events": 1180,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 3617371936,
+        "bytes_uploaded_observed_events": 1180,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 8032802736,
+        "bytes_downloaded_observed_events": 1180,
+        "bytes_downloaded_invalid_events": 0
+      }
+    ],
+    "rejected_rows": [],
+    "summary": {
+      "input_file": "novatech_usage.csv",
+      "input_sha256": "3fc0deafbb6f2fc53a0f44914a873ad7fc7e1e374f2c5c57b54ee02d52a6056d",
+      "input_rows": 30000,
+      "accepted_events": 30000,
+      "rejected_events": 0,
+      "unique_applications": 21,
+      "unique_hostnames": 20,
+      "rejection_reasons": {},
+      "invalid_metrics": {
+        "session_duration_seconds": 0,
+        "bytes_uploaded": 0,
+        "bytes_downloaded": 0
+      },
+      "identity_policy": "Case-folded normalized name plus normalized endpoint; product paths/subdomains preserved; aliases not merged.",
+      "metric_policy": "Nonnegative integer metrics only; blanks are missing; invalid values excluded from totals and counted.",
+      "source_row_policy": "1-based data-record index, excluding header; join to original records using this index.",
+      "event_policy": "All accepted records count; no duplicate event-ID removal.",
+      "scope": "Extraction only; no AI labels or categories assigned."
+    },
+    "event_map_note": "30000 source-row mappings omitted from this checked-in summary; full CLI reports retain them."
+  },
+  "catalog_warnings": [
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16744",
+      "reason": "invalid_endpoint: invalid_hostname"
+    },
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16745",
+      "reason": "invalid_endpoint: invalid_hostname"
+    },
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16746",
+      "reason": "invalid_endpoint: invalid_hostname"
+    },
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16747",
+      "reason": "invalid_endpoint: invalid_hostname"
+    },
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16748",
+      "reason": "invalid_endpoint: invalid_hostname"
+    },
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16749",
+      "reason": "invalid_endpoint: invalid_hostname"
+    },
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16750",
+      "reason": "invalid_endpoint: invalid_hostname"
+    },
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16751",
+      "reason": "invalid_endpoint: invalid_hostname"
+    },
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16752",
+      "reason": "invalid_endpoint: invalid_hostname"
+    },
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16753",
+      "reason": "invalid_endpoint: invalid_hostname"
+    },
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16754",
+      "reason": "invalid_endpoint: invalid_hostname"
+    },
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16755",
+      "reason": "invalid_endpoint: invalid_hostname"
+    },
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16756",
+      "reason": "invalid_endpoint: invalid_hostname"
+    },
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16757",
+      "reason": "invalid_endpoint: invalid_hostname"
+    },
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16758",
+      "reason": "invalid_endpoint: invalid_hostname"
+    },
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16759",
+      "reason": "invalid_endpoint: invalid_hostname"
+    },
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16760",
+      "reason": "invalid_endpoint: invalid_hostname"
+    },
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16761",
+      "reason": "invalid_endpoint: invalid_hostname"
+    },
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16762",
+      "reason": "invalid_endpoint: invalid_hostname"
+    }
+  ],
+  "repeated_nonempty_event_ids": 0,
+  "inputs": {
+    "activity": {
+      "file": "novatech_usage.csv",
+      "sha256": "3fc0deafbb6f2fc53a0f44914a873ad7fc7e1e374f2c5c57b54ee02d52a6056d"
+    },
+    "ai_catalog": {
+      "file": "kaggle.csv",
+      "sha256": "d0b038ab063916ed466d3aa4ff9afdcc6375899770a0ba26de209feb66a37ae2"
+    },
+    "known_tools": {
+      "file": "dataset_b_final_kaggle_categories.csv",
+      "sha256": "61957c48fbe6143331d13f9b2dc57380708ed0d86a0d0e9d1f8009dd2fb33858"
+    },
+    "policy": {
+      "file": "policy.json",
+      "sha256": "181fb959f3dd38cf5308a52fe7f3dc760c37af6b15ccf2c5889cf3eba2d1231a"
+    }
+  },
+  "limitations": [
+    "Sadit ingestion counts every accepted record, including repeated event IDs; rejected rows are reported separately.",
+    "Application identity includes name and endpoint; it is not simply a hostname count.",
+    "Catalog categories and labels are supplied assignments, not independently verified truth.",
+    "Unknown or ambiguous applications remain visible; models require supplied descriptions.",
+    "Governance uses accepted activity and explicit company synthetic overlays only; no generated catalog controls are imported.",
+    "Low priority with incomplete evidence is not assurance of safety. No web/API calls occur.",
+    "The saved binary model is unchanged; the older 12-category models are not used with the new 14-category catalog."
+  ]
+}

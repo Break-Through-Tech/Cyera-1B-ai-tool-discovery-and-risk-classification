@@ -3,7 +3,7 @@
 **Update:** The user-approved recommendations have now been applied to a separate [corrected-label export](corrected_labels.md). Original source labels remain unchanged; no training run has occurred. The review-layer descriptions below describe the preserved evidence records.
 
 
-Reviewed on **November 5, 2026**. This is an assistant source review, not independent human verification. The original source-membership labels and model artifacts are unchanged. No paid model API or classification model supplied the decisions.
+Reviewed on **November 5, 2026**. This is a source-based review, not independent human verification. The original source-membership labels and model artifacts are unchanged. No paid model API or classification model supplied the decisions.
 
 The research examined all **201 flagged records**, including both sides of each possible conflict, using their original product URLs from the context files—not just bare domains. A total of **203 unique research URLs were attempted**, including alternate official documentation for blocked or outdated links. Some requests failed, some pages were accessible only through official search-result excerpts, and some successful pages did not resolve identity. A successful HTTP response alone does not verify a label. Raw downloaded HTML/text stays outside the repository; paraphrased findings, source URLs, retrieval method, date and extracted-text fingerprints are recorded here. Fingerprints cannot reconstruct a changed page.
 
