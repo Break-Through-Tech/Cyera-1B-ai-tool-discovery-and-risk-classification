@@ -2,7 +2,7 @@
 
 ## Active foundation
 
-`ai_discovery.report` calls Sadit's `discover_known`, which uses `extract_applications` and catalog matching. No second ingestion or matching implementation is used by the reporting entry point. `python -m discovery.report` delegates to this same backend for compatibility. Older helper functions remain only for the paused, uncommitted upload draft.
+`ai_discovery.report` calls Sadit's `discover_known`, which uses `extract_applications` and catalog matching. No second ingestion or matching implementation is used by the reporting entry point. The duplicate `discovery/` package has been removed; use `python -m ai_discovery.report` as the single reporting entry point.
 
 The integration preserves normalized name plus endpoint identity, paths, query/fragment distinctions during ingestion, all accepted events, rejected rows with reasons, invalid/missing metric counts, observed name variants, catalog candidates and source-row-to-application mappings. Repeated event IDs are counted as accepted rows, as in Sadit's ingestion; a separate repeated-ID count makes that explicit. Applications are not collapsed by hostname. Endpoints differing only in query/fragment can therefore remain separate in activity.
 
@@ -29,7 +29,7 @@ Sadit's `ai_discovery.enrich` remains available as a separate evidence-collectio
 | Summit Financial | 25,120 | 0 | 22 | 6 | 7 | 9 |
 | NovaTech | 30,000 | 0 | 21 | 6 | 7 | 8 |
 
-These counts measure catalog-matching coverage, not model accuracy or actual AI use in every event. Checked-in `artifacts/discovery_shared/*-summary.json` files omit repetitive event mappings; full CLI reports retain them. Historical reports in `artifacts/discovery/` used earlier matching rules and are preserved rather than silently rewritten.
+These counts measure catalog-matching coverage, not model accuracy or actual AI use in every event. Checked-in `artifacts/discovery_shared/*-summary.json` files omit repetitive event mappings; full CLI reports retain them. Historical reports in `artifacts/historical/discovery/` used earlier matching rules and are preserved rather than silently rewritten.
 
 DocuMind remains unknown in the catalog, with 84 Finance users, observed priority 30 (medium), and unknown vendor controls. Explicit fictional unapproved status produces 55 (high). Unknown identity does not suppress behavioral investigation.
 
@@ -51,4 +51,4 @@ python -m ai_discovery.report --company NovaTech \
 
 New output paths are required; reports are not overwritten. Catalog-only reporting uses the standard library. Optional model inference requires `modeling/requirements.txt`; the newly expanded root requirements are not needed for this backend.
 
-Validation: 75 active-backend tests pass, including accepted/rejected accounting, repeated events, missing/invalid metrics, shared endpoints, description-model routing and the existing preparation/model/governance checks. Paused uncommitted dashboard/upload tests are excluded from this backend validation. Dashboard work remains paused and is not part of the integration commit.
+Validation: 74 active-backend tests pass, including accepted/rejected accounting, repeated events, missing/invalid metrics, shared endpoints, description-model routing and the existing preparation/model/governance checks. The paused dashboard/upload draft is stored outside the repository and is not part of this backend.
