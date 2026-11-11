@@ -1,0 +1,2502 @@
+record_id,tool_name,expected_is_ai_tool,predicted_is_ai_tool,model_ai_score
+ai_catalog:tool_00002,Claude,1,1,0.9968437529308639
+ai_catalog:tool_00007,Perplexity,1,1,0.9667523462653085
+ai_catalog:tool_00018,MiniMax Audio,1,1,0.9928280558209982
+ai_catalog:tool_00021,Virly,1,1,0.9995118369331706
+ai_catalog:tool_00027,Latam-GPT,1,1,0.9787710939054982
+ai_catalog:tool_00036,Zyka,1,1,0.96926269322444
+ai_catalog:tool_00040,Serge,1,1,0.9736562404741852
+ai_catalog:tool_00041,AI Detector Pro,1,1,0.9939631850703335
+ai_catalog:tool_00042,Bhagavad-Gita-AI,1,1,0.9700748353462869
+ai_catalog:tool_00043,Claros,1,1,0.9901370590194775
+ai_catalog:tool_00045,Sanctum,1,1,0.9960325534160195
+ai_catalog:tool_00047,Chatbot UI,1,1,0.9995328771999473
+ai_catalog:tool_00050,Photopea,1,1,0.9656339120005104
+ai_catalog:tool_00053,AI Box,1,1,0.997734741748581
+ai_catalog:tool_00054,CogniSpark,1,1,0.9808604996610236
+ai_catalog:tool_00067,Dia - your AI Dost,1,1,0.9987853679892283
+ai_catalog:tool_00075,Meta.ai,1,1,0.9850807785450095
+ai_catalog:tool_00091,MemoryPlugin,1,1,0.9995781353182955
+ai_catalog:tool_00096,Artificial Studio,1,1,0.9892213999528798
+ai_catalog:tool_00102,Recraft,1,1,0.9640692692632156
+ai_catalog:tool_00104,Synthesis Tutor,1,1,0.9954043106363801
+ai_catalog:tool_00121,Grsai AI,1,1,0.9752689019667319
+ai_catalog:tool_00132,BlitzVideo,1,1,0.9966190593755482
+ai_catalog:tool_00134,VibeHost,1,1,0.875341925439525
+ai_catalog:tool_00146,Cerebras,1,1,0.9449313473961535
+ai_catalog:tool_00152,typewrAIter,1,1,0.9978457644403156
+ai_catalog:tool_00155,Slazzer 3.0,1,1,0.9947444476664734
+ai_catalog:tool_00172,PocketPal,1,1,0.9908329536880858
+ai_catalog:tool_00175,Hulk Helper,1,1,0.9940615397088006
+ai_catalog:tool_00187,OneInbox,1,1,0.9599025047162486
+ai_catalog:tool_00188,Snowflake Cortex,1,1,0.9946348062549815
+ai_catalog:tool_00191,AI Therapy Call,1,1,0.9984572098874669
+ai_catalog:tool_00194,File ChatAI,1,1,0.94670358366289
+ai_catalog:tool_00208,PromptDrive.ai,1,1,0.9959981109940579
+ai_catalog:tool_00219,Torri.AI,1,1,0.9884123209169412
+ai_catalog:tool_00224,RapportBuilder,1,1,0.970737281433207
+ai_catalog:tool_00232,Flot.ai,1,1,0.9995168582775555
+ai_catalog:tool_00234,Heights,1,1,0.9777701387010671
+ai_catalog:tool_00243,BYOB - Akaike,1,1,0.9984122319593832
+ai_catalog:tool_00248,GEN2D,1,1,0.9936072576671158
+ai_catalog:tool_00251,VMagic,1,1,0.5221769920790593
+ai_catalog:tool_00255,WordGenie,1,1,0.9984103888284088
+ai_catalog:tool_00258,JetBrains Air / AI development tools,1,1,0.8979191553707123
+ai_catalog:tool_00271,Alfred Chat,1,1,0.9972074429605501
+ai_catalog:tool_00272,LLaMa2 Perplexity,1,1,0.9901392715673573
+ai_catalog:tool_00277,Skillflow,1,1,0.9992894960332088
+ai_catalog:tool_00282,Involve.me,1,1,0.9981428011732497
+ai_catalog:tool_00286,Arcane,1,1,0.9947681071577009
+ai_catalog:tool_00288,Applyish,1,1,0.9898952137212997
+ai_catalog:tool_00291,Leiga,1,1,0.9869249471165179
+ai_catalog:tool_00293,Gentrace,1,1,0.9971095250287735
+ai_catalog:tool_00294,Dashbot,1,1,0.9952750181017637
+ai_catalog:tool_00307,GPTKit,1,1,0.9996794034449032
+ai_catalog:tool_00308,Magika,1,1,0.9979691238800843
+ai_catalog:tool_00315,MemFree,1,1,0.7751081858739777
+ai_catalog:tool_00320,TalkBud,1,1,0.9915837979887949
+ai_catalog:tool_00334,Gab AI,1,1,0.9994651996277041
+ai_catalog:tool_00336,Chromatic Lens,1,1,0.9985278828431609
+ai_catalog:tool_00339,S10 AI,1,1,0.9971747031991643
+ai_catalog:tool_00340,Manifest AI,1,1,0.9937257937077302
+ai_catalog:tool_00369,SkimIt,1,1,0.9977232197522312
+ai_catalog:tool_00378,Klue,1,1,0.9936483789631106
+ai_catalog:tool_00383,Squad GPT,1,1,0.9916182752468118
+ai_catalog:tool_00385,Ocoya,1,1,0.9997776093750959
+ai_catalog:tool_00395,Jasper.ai,1,1,0.9866120191081594
+ai_catalog:tool_00397,Article Forge,1,1,0.9967078414927784
+ai_catalog:tool_00428,Outfit Anyone,1,1,0.988743344843397
+ai_catalog:tool_00432,Voicv,1,1,0.9805832578277074
+ai_catalog:tool_00433,Gaxu,1,1,0.999732620461001
+ai_catalog:tool_00435,Aithor,1,1,0.999862049752712
+ai_catalog:tool_00438,Flatlogic,1,1,0.9908941703556621
+ai_catalog:tool_00443,&AI,1,1,0.9993829597555388
+ai_catalog:tool_00447,Forethought,1,1,0.9954880767808356
+ai_catalog:tool_00454,Larq,1,1,0.9997740997798038
+ai_catalog:tool_00456,Flutura,1,1,0.5843612192320404
+ai_catalog:tool_00465,Dart,1,1,0.9754408378542994
+ai_catalog:tool_00477,Openmart,1,1,0.9718055615609376
+ai_catalog:tool_00479,AiAssistWorks - GPT Gemini Claude AI for Sheets Docs Slides,1,1,0.9979797710029837
+ai_catalog:tool_00484,BurnerPage,1,1,0.9943220289306657
+ai_catalog:tool_00487,Coursebot,1,1,0.9920732591357352
+ai_catalog:tool_00492,Antispace,1,1,0.9996535120725216
+ai_catalog:tool_00497,Olly,1,1,0.9994108417261557
+ai_catalog:tool_00499,Education CoPilot,1,1,0.9900076345220743
+ai_catalog:tool_00510,Voicemod,1,0,0.4060926881618151
+ai_catalog:tool_00521,Freed AI,1,1,0.9940264515895593
+ai_catalog:tool_00531,Infr,1,1,0.9908764693220987
+ai_catalog:tool_00535,Zoo by Replicate,1,1,0.9960393790485924
+ai_catalog:tool_00537,Imagine by Meta,1,1,0.9989824199022154
+ai_catalog:tool_00546,LeetPilot,1,1,0.9995608334708643
+ai_catalog:tool_00549,Doc2Lang,1,1,0.9970841626946502
+ai_catalog:tool_00550,Bomml,1,1,0.9812999050862984
+ai_catalog:tool_00555,Styledrop,1,1,0.993776878579432
+ai_catalog:tool_00556,Succeed AI,1,1,0.9993839749754119
+ai_catalog:tool_00558,LAYLY,1,1,0.9465677713923214
+ai_catalog:tool_00574,MacGaiver,1,1,0.9999557685794417
+ai_catalog:tool_00582,Curiosity.AI,1,1,0.9917333894501335
+ai_catalog:tool_00585,AutoRecruiter,1,1,0.9905582287893754
+ai_catalog:tool_00594,Landbot AI,1,1,0.9990136265586891
+ai_catalog:tool_00604,Kuki AI,1,1,0.9933720827440227
+ai_catalog:tool_00605,Hints,1,1,0.9964938541288608
+ai_catalog:tool_00615,MetaSpark,1,1,0.9999224259979711
+ai_catalog:tool_00628,AIChatOne,1,1,0.9923648618026611
+ai_catalog:tool_00629,AI Face Analyzer,1,1,0.9950690745904736
+ai_catalog:tool_00631,MagicBlog,1,1,0.9971091138206188
+ai_catalog:tool_00662,Perplexity Comet,1,1,0.9802560063677568
+ai_catalog:tool_00673,Magic AI Avatars,1,1,0.9998638693251157
+ai_catalog:tool_00683,DeepReview,1,1,0.9980825605742637
+ai_catalog:tool_00685,Your Blogging Assistant,1,1,0.9963200065279892
+ai_catalog:tool_00688,Sequential,1,1,0.9983355683320723
+ai_catalog:tool_00697,Sharpsell,1,1,0.9947050574642249
+ai_catalog:tool_00705,FreePlanTour,1,1,0.9868559905550586
+ai_catalog:tool_00713,AIDE AI,1,1,0.9954374169300774
+ai_catalog:tool_00715,Amy Pro,1,1,0.9935214619421927
+ai_catalog:tool_00720,Accento AI,1,1,0.9961775616652863
+ai_catalog:tool_00724,Magic Travel,1,1,0.9985886521875343
+ai_catalog:tool_00726,MightyMeld,1,1,0.9918593490766382
+ai_catalog:tool_00729,HealthKey,1,1,0.9613276482001183
+ai_catalog:tool_00742,CodeParrot,1,1,0.9945310124401419
+ai_catalog:tool_00754,Hyrable,1,1,0.9956519347680968
+ai_catalog:tool_00757,Complexity,1,1,0.999641733798006
+ai_catalog:tool_00766,Infinite Drum Machine,1,1,0.9974894803204695
+ai_catalog:tool_00768,JoyPlanet,1,1,0.989113865696837
+ai_catalog:tool_00770,Designpro,1,1,0.9834558193590599
+ai_catalog:tool_00774,Dating AI Pro,1,1,0.974435132935186
+ai_catalog:tool_00777,Avtrs,1,1,0.9995870577625245
+ai_catalog:tool_00788,Courses AI,1,1,0.978287917814582
+ai_catalog:tool_00794,Face to All,1,1,0.9986217193428973
+ai_catalog:tool_00801,Kiwi Video,1,1,0.9916483344960022
+ai_catalog:tool_00811,Agentops,1,1,0.9899084188776927
+ai_catalog:tool_00819,TradeSage - Pine Script Generator,1,1,0.9984649048566809
+ai_catalog:tool_00828,Swatle,1,1,0.9982211572930915
+ai_catalog:tool_00830,PackageAI,1,1,0.9987410663506704
+ai_catalog:tool_00832,Munch,1,1,0.9993315591993184
+ai_catalog:tool_00833,FixMeBot,1,1,0.9985207246625011
+ai_catalog:tool_00838,AITWO.CO,1,1,0.9962150940871229
+ai_catalog:tool_00840,Muzaic for Canva,1,1,0.9990738206312048
+ai_catalog:tool_00844,Defog,1,1,0.9981091467962268
+ai_catalog:tool_00849,AI Omnichannel Customer Support Platform by BlueTweak,1,1,0.9968008876406327
+ai_catalog:tool_00867,Aisera,1,1,0.9969545455553247
+ai_catalog:tool_00894,Voicepanel,1,1,0.9589837976669985
+ai_catalog:tool_00896,VoiceChanger,1,0,0.3058533841238453
+ai_catalog:tool_00897,Airlight,1,1,0.9738611825161921
+ai_catalog:tool_00900,AI Math GPTs,1,1,0.9996321601629553
+ai_catalog:tool_00908,PostBoost,1,1,0.9967790210993318
+ai_catalog:tool_00914,SMM Agent,1,1,0.9955233628272998
+ai_catalog:tool_00920,Caption My Photos,1,1,0.9928242093467515
+ai_catalog:tool_00934,Uini,1,1,0.9992406729547304
+ai_catalog:tool_00937,ChatAINet,1,1,0.9873873409276402
+ai_catalog:tool_00939,TextFX,1,1,0.9951651335972383
+ai_catalog:tool_00940,AI Excel Bot,1,1,0.9970927609883325
+ai_catalog:tool_00944,Brayden.ai,1,1,0.9709328887467052
+ai_catalog:tool_00945,Castello,1,1,0.9910675233290006
+ai_catalog:tool_00952,AI Interior,1,1,0.9594437240442688
+ai_catalog:tool_00957,AI Room Styles,1,1,0.9883080016071436
+ai_catalog:tool_00967,HumanEcho,1,1,0.9992848909954812
+ai_catalog:tool_00968,Wingman,1,1,0.9899604545071444
+ai_catalog:tool_00977,Yolt,1,1,0.9979153478582977
+ai_catalog:tool_00980,Study Squeeze,1,1,0.9904129593366994
+ai_catalog:tool_00982,IA-ID,1,1,0.999332905544193
+ai_catalog:tool_00989,Manja,1,1,0.9996545814592732
+ai_catalog:tool_01020,Piggy Quiz maker,1,1,0.9617070614928903
+ai_catalog:tool_01021,Trancy,1,1,0.9825520385164435
+ai_catalog:tool_01023,William AI,1,1,0.9949640989378207
+ai_catalog:tool_01033,Gendo,1,1,0.9988048201462195
+ai_catalog:tool_01034,Requstory,1,1,0.986328050542792
+ai_catalog:tool_01035,ACE by Braineous,1,1,0.999614147410028
+ai_catalog:tool_01049,Langbase,1,1,0.9961581516644454
+ai_catalog:tool_01056,Testsigma,1,1,0.9963280929244371
+ai_catalog:tool_01059,Adzviser,1,1,0.9915003757739658
+ai_catalog:tool_01070,BlitzBear,1,1,0.992992439049186
+ai_catalog:tool_01073,The Reply Project,1,1,0.9939568105200814
+ai_catalog:tool_01075,Secta AI,1,1,0.9942728777564019
+ai_catalog:tool_01076,Securitybulldog,1,1,0.6913340150442975
+ai_catalog:tool_01083,Caper,1,1,0.9995584267450762
+ai_catalog:tool_01092,Generavitae,1,1,0.9989015455688567
+ai_catalog:tool_01102,WizAI,1,1,0.9971965708463311
+ai_catalog:tool_01103,Datascale,1,1,0.9988613577153416
+ai_catalog:tool_01106,Healing Journey,1,1,0.9997241653629688
+ai_catalog:tool_01112,CerebrasCoder,1,1,0.9963420878422985
+ai_catalog:tool_01113,ChatGPT WhatsApp,1,1,0.9983314611635171
+ai_catalog:tool_01116,Bongocat,1,1,0.6226908752392627
+ai_catalog:tool_01121,Altermind,1,1,0.9861937308811801
+ai_catalog:tool_01134,MAILE for iPhone,1,1,0.9792038337543147
+ai_catalog:tool_01138,CodeReviewBot,1,1,0.9997035477344665
+ai_catalog:tool_01146,Pixelvibe,1,1,0.9978645642193924
+ai_catalog:tool_01154,Doctrine,1,1,0.9905809511003777
+ai_catalog:tool_01157,Summarize.ing,1,1,0.9986685390322528
+ai_catalog:tool_01158,GoPDF,1,1,0.9951911521507513
+ai_catalog:tool_01159,Myst News,1,1,0.9910883006684015
+ai_catalog:tool_01160,My AI Tarot,1,1,0.9950474840705993
+ai_catalog:tool_01161,Interview Bot AI,1,1,0.9898112886319975
+ai_catalog:tool_01166,PostPortal AI,1,1,0.9975468697761993
+ai_catalog:tool_01171,Homework.AI,1,1,0.9826588626881395
+ai_catalog:tool_01178,OpenAI Operator,1,1,0.9283063330596711
+ai_catalog:tool_01185,RestorePhotos,1,1,0.9930513397118781
+ai_catalog:tool_01187,DIY Websites AI,1,1,0.998437141564941
+ai_catalog:tool_01205,Voice Flux,1,1,0.9951231438710523
+ai_catalog:tool_01224,Litespace,1,1,0.9590084446807382
+ai_catalog:tool_01225,FaceApp,1,1,0.9958215690775213
+ai_catalog:tool_01234,No-Code Scraper,1,1,0.9959315928024368
+ai_catalog:tool_01244,Mwalimu.io,1,1,0.9977478116359398
+ai_catalog:tool_01252,Interviews Chat,1,1,0.9992065515776447
+ai_catalog:tool_01256,Typewise,1,1,0.9987964054770109
+ai_catalog:tool_01263,AI Voice Detector,1,1,0.9964356759871591
+ai_catalog:tool_01276,OneShot,1,1,0.9977297614382877
+ai_catalog:tool_01281,ContentStudio AI,1,1,0.9921577211101018
+ai_catalog:tool_01283,Hyro,1,1,0.9971842386833465
+ai_catalog:tool_01285,AI Lawyer,1,1,0.9978499603619718
+ai_catalog:tool_01288,Enterpret,1,1,0.9984315328242174
+ai_catalog:tool_01290,PresetAI,1,1,0.9881585502009372
+ai_catalog:tool_01293,EduWriter,1,1,0.999351501457571
+ai_catalog:tool_01297,Lamini,1,1,0.9921350901499716
+ai_catalog:tool_01305,Likewise Learn,1,1,0.9948125510885352
+ai_catalog:tool_01306,Paradime,1,1,0.998816910128003
+ai_catalog:tool_01311,Spin Rewriter,1,1,0.9989266397151321
+ai_catalog:tool_01312,EarnBetter,1,1,0.9977355999622527
+ai_catalog:tool_01324,GoEnhance,1,1,0.9948188397404354
+ai_catalog:tool_01325,fAIshion,1,1,0.9884884049975715
+ai_catalog:tool_01341,AI Barbie,1,1,0.9983059909036966
+ai_catalog:tool_01342,Summify,1,1,0.999523510525241
+ai_catalog:tool_01345,AIdea Catalyst,1,1,0.9219975877082068
+ai_catalog:tool_01347,UserCall,1,1,0.997373048216571
+ai_catalog:tool_01350,LowDifficulty,1,1,0.9994566967853735
+ai_catalog:tool_01353,Foliko,1,1,0.9859139108781139
+ai_catalog:tool_01356,Geniea,1,1,0.9992698909913988
+ai_catalog:tool_01363,AutoThread AI,1,1,0.9976475095831147
+ai_catalog:tool_01364,Backsy.ai,1,1,0.9916441683346228
+ai_catalog:tool_01366,Lilybank,1,1,0.9980954730530059
+ai_catalog:tool_01367,MindPal,1,1,0.999799792477645
+ai_catalog:tool_01375,Eternal AI,1,1,0.9956631919538997
+ai_catalog:tool_01382,Ecrett Music,1,1,0.9970761509273928
+ai_catalog:tool_01388,AI Ghostwriter,1,1,0.9975230518629163
+ai_catalog:tool_01398,Talently.ai,1,1,0.9951025389332707
+ai_catalog:tool_01401,Voiceglow,1,1,0.9997879979055154
+ai_catalog:tool_01403,Blogmuse,1,1,0.999675037508811
+ai_catalog:tool_01411,Brandsnap,1,1,0.9933783851682993
+ai_catalog:tool_01422,GitPack,1,1,0.986143185833093
+ai_catalog:tool_01425,AI Meal Planner,1,1,0.9876645217335759
+ai_catalog:tool_01433,Kansei,1,1,0.9989240048663954
+ai_catalog:tool_01434,Legal Assist AI,1,1,0.9946582377863126
+ai_catalog:tool_01436,LinkedBase,1,1,0.995121446028047
+ai_catalog:tool_01437,Mailzen.ai — Inbox Zen. Draft ✍️ Declutter 🗂️ Done.,1,1,0.9995439094663857
+ai_catalog:tool_01466,YTSummarizer,1,1,0.9993838933546898
+ai_catalog:tool_01469,TextWise,1,1,0.9854601292428007
+ai_catalog:tool_01475,AI Talk Tutor,1,1,0.9998531892669242
+ai_catalog:tool_01480,zenAI,1,1,0.9853704423009219
+ai_catalog:tool_01486,Voice Design AI,1,1,0.9897206782859526
+ai_catalog:tool_01495,Eve Coach,1,1,0.9914322423206093
+ai_catalog:tool_01497,Realistics AI,1,1,0.9967214511185766
+ai_catalog:tool_01505,Spellbook,1,1,0.9850950123485225
+ai_catalog:tool_01506,Proseable,1,1,0.9925216243767231
+ai_catalog:tool_01509,Fusion App,1,1,0.8888621236427937
+ai_catalog:tool_01511,Hookle,1,1,0.9835193636503529
+ai_catalog:tool_01516,LanguageTool,1,1,0.9564837167552419
+ai_catalog:tool_01517,TextCortex,1,1,0.9983055765792945
+ai_catalog:tool_01522,Try it on AI,1,1,0.9992946585998248
+ai_catalog:tool_01531,Cohesive AI,1,1,0.9980747777387318
+ai_catalog:tool_01545,Buddygpt,1,1,0.9388129560097184
+ai_catalog:tool_01550,Intellecs,1,1,0.9976262611153753
+ai_catalog:tool_01562,Learnt,1,1,0.9856486570499514
+ai_catalog:tool_01570,Vocaldo,1,1,0.9889531025855118
+ai_catalog:tool_01573,Inbox Dog,1,1,0.9981358536697144
+ai_catalog:tool_01575,Max AI: Enterprise AI Agent Platform,1,1,0.9996945038974892
+ai_catalog:tool_01588,Bardeen,1,1,0.9862358207150381
+ai_catalog:tool_01589,SuperCoder 2.0,1,1,0.9293815947938627
+ai_catalog:tool_01597,Glyf.space,1,1,0.997758637959036
+ai_catalog:tool_01602,Flair,1,1,0.9968160881167789
+ai_catalog:tool_01603,HearthPage,1,1,0.9957692541644197
+ai_catalog:tool_01606,Vektor,1,1,0.9998299817559616
+ai_catalog:tool_01610,Talent Llama,1,1,0.9933205302277114
+ai_catalog:tool_01619,Adrenaline Json,1,1,0.9580498339632315
+ai_catalog:tool_01628,Matrices,1,1,0.9981200136994258
+ai_catalog:tool_01633,AI Code Mentor,1,1,0.9924170480335557
+ai_catalog:tool_01641,Clay,1,1,0.9940322044664952
+ai_catalog:tool_01660,CustomGPT.ai,1,1,0.9992866925962213
+ai_catalog:tool_01661,Botowski,1,1,0.999673961369278
+ai_catalog:tool_01669,Glimmer.com,1,1,0.9988662793924742
+ai_catalog:tool_01675,Voclip,1,1,0.999472389780378
+ai_catalog:tool_01681,ContractReader,1,1,0.9961574633802828
+ai_catalog:tool_01688,Mygoodtape,1,1,0.985929656705164
+ai_catalog:tool_01689,heyCLI,1,1,0.98665847068051
+ai_catalog:tool_01696,TryOnHub,1,1,0.9996488233729389
+ai_catalog:tool_01697,ChatDB,1,1,0.9995676143110332
+ai_catalog:tool_01702,Anonchatgpt,1,1,0.9902646037119898
+ai_catalog:tool_01713,Confi AI,1,1,0.9895214836225242
+ai_catalog:tool_01714,Content Idea Pro,1,1,0.997798842507571
+ai_catalog:tool_01715,Slick.is,1,1,0.9877430917860768
+ai_catalog:tool_01716,JS2TS,1,1,0.9689268780629999
+ai_catalog:tool_01719,FantasyGF,1,1,0.9996545022325433
+ai_catalog:tool_01728,Mailteorite,1,1,0.9991600239235375
+ai_catalog:tool_01732,SkillsUp,1,1,0.9806578784115659
+ai_catalog:tool_01733,Explorerg,1,1,0.9864403918017001
+ai_catalog:tool_01738,Cool Gift Ideas,1,1,0.9998452998793466
+ai_catalog:tool_01753,Dreamy.ai,1,1,0.9928262238949135
+ai_catalog:tool_01755,Webtune AI,1,1,0.9937442350823038
+ai_catalog:tool_01756,CV Match Pro,1,1,0.9929216670049597
+ai_catalog:tool_01757,Listener,1,1,0.9976981268731068
+ai_catalog:tool_01760,cookAIfood,1,1,0.9990421400028573
+ai_catalog:tool_01779,Starcycle,1,1,0.9063917710439611
+ai_catalog:tool_01781,Hunchbank,1,1,0.9904580799493462
+ai_catalog:tool_01782,Imgex.ai,1,1,0.9965255523568617
+ai_catalog:tool_01789,CalorieAI,1,1,0.8410187607198517
+ai_catalog:tool_01796,LogoAI.ai,1,1,0.9965954753923026
+ai_catalog:tool_01798,MagickSEO,1,1,0.9986921895842517
+ai_catalog:tool_01799,EdgeTrace,1,1,0.9750632839229366
+ai_catalog:tool_01822,Star Method Coach,1,1,0.9990997438927673
+ai_catalog:tool_01831,Reedr,1,1,0.9402959174989324
+ai_catalog:tool_01832,Reeler AI,1,1,0.999406242834813
+ai_catalog:tool_01833,Removebackgroundai,1,1,0.9978004797342053
+ai_catalog:tool_01834,ArxivPaperAI,1,1,0.9886081323254776
+ai_catalog:tool_01856,Humanizar Texto,1,1,0.9996635210049802
+ai_catalog:tool_01857,Nubee,1,1,0.9991477332584493
+ai_catalog:tool_01866,TweetDetective,1,1,0.9993412695248526
+ai_catalog:tool_01870,ZygoteAI,1,1,0.9776084669229219
+ai_catalog:tool_01879,Writastic,1,1,0.9984343494562368
+ai_catalog:tool_01893,Morgan by Atris,1,1,0.9903589909985306
+ai_catalog:tool_01912,AICartel,1,1,0.9993914435407801
+ai_catalog:tool_01913,Billabex,1,1,0.942231137191002
+ai_catalog:tool_01914,Evolup,1,1,0.9997987030337108
+ai_catalog:tool_01917,Dioptify,1,1,0.9998334465629821
+ai_catalog:tool_01921,SpeechFlow,1,1,0.5096192269553966
+ai_catalog:tool_01922,MindOne,1,1,0.9884187324009045
+ai_catalog:tool_01935,Botika,1,1,0.9958424314961523
+ai_catalog:tool_01943,Dubformer,1,1,0.9960921485566265
+ai_catalog:tool_01947,Parseur,1,1,0.9967833164620405
+ai_catalog:tool_01961,Revision,1,1,0.9985746700535777
+ai_catalog:tool_01969,IRL PLAYground,1,1,0.9539439127912005
+ai_catalog:tool_01971,AI Coloring Page Generator Online by Mimi Panda,1,1,0.9985646336250152
+ai_catalog:tool_01973,My Voice AI,1,1,0.9861020760830439
+ai_catalog:tool_01992,Oscilar,1,1,0.9921693701391925
+ai_catalog:tool_01997,AutoJobs,1,1,0.9925530363348175
+ai_catalog:tool_02001,InSummary,1,1,0.993357446370242
+ai_catalog:tool_02002,Kaiden AI,1,1,0.9981989617418586
+ai_catalog:tool_02003,Kaba,1,1,0.9915551379755925
+ai_catalog:tool_02006,Superagent,1,1,0.9996306038954431
+ai_catalog:tool_02009,Chatfuel AI,1,1,0.9932924620665886
+ai_catalog:tool_02013,My-Legacy.ai,1,1,0.9897049404658108
+ai_catalog:tool_02016,DREAM.page,1,1,0.997497082932126
+ai_catalog:tool_02029,Vi Labs,1,1,0.9924262680210297
+ai_catalog:tool_02045,GPT Researcher,1,1,0.9974638325522445
+ai_catalog:tool_02050,Jsonify,1,0,0.47278615603550184
+ai_catalog:tool_02059,OpenRouter,1,1,0.9954135785185478
+ai_catalog:tool_02065,FinWise,1,1,0.998419064694799
+ai_catalog:tool_02087,TheySaid,1,1,0.9333101455716438
+ai_catalog:tool_02097,Pansophic,1,1,0.9694442841855264
+ai_catalog:tool_02104,Asksia AI,1,1,0.9956144753159827
+ai_catalog:tool_02121,AI Summarizer,1,1,0.9711252935013226
+ai_catalog:tool_02122,CupidBot,1,1,0.987352485553922
+ai_catalog:tool_02124,Vahan,1,1,0.9978115208179297
+ai_catalog:tool_02128,Ask Command,1,1,0.9997239381250527
+ai_catalog:tool_02136,Architect AI,1,1,0.9651355869726667
+ai_catalog:tool_02147,BlipCut,1,1,0.9843205744996111
+ai_catalog:tool_02151,Lyricallabs,1,1,0.9998868727638177
+ai_catalog:tool_02155,BrandSocial,1,1,0.9983138203264783
+ai_catalog:tool_02168,Cheeta,1,1,0.9982068203409968
+ai_catalog:tool_02176,AnimeBuilder,1,1,0.998544360075894
+ai_catalog:tool_02182,Planitly,1,1,0.9997460881730332
+ai_catalog:tool_02183,AI Recipe Writer,1,1,0.999388848198438
+ai_catalog:tool_02185,The PR Creator,1,1,0.9908140354431737
+ai_catalog:tool_02188,DishGen,1,1,0.9995997292491245
+ai_catalog:tool_02194,ClipBuddy,1,1,0.9970537365900971
+ai_catalog:tool_02216,Driver AI,1,1,0.9557548668660661
+ai_catalog:tool_02224,Wingman,1,1,0.9981100458759293
+ai_catalog:tool_02226,EmailComposer,1,1,0.9938259921987612
+ai_catalog:tool_02234,AVCLabs,1,1,0.990936622252331
+ai_catalog:tool_02245,Flexbe.AI,1,1,0.9869271168070546
+ai_catalog:tool_02258,AddSubtitle,1,1,0.9934346177280435
+ai_catalog:tool_02260,AI Suggests,1,1,0.9960588803889043
+ai_catalog:tool_02269,AI2DocReview,1,1,0.9983782108156221
+ai_catalog:tool_02270,AI Fortunist,1,1,0.9981957349637185
+ai_catalog:tool_02281,Illuminate,1,1,0.7371055894586899
+ai_catalog:tool_02293,LogoGen,1,1,0.9984493967481176
+ai_catalog:tool_02296,CloneDub,1,1,0.9883544480407545
+ai_catalog:tool_02298,ChatGPT Sugar,1,1,0.9986902954595092
+ai_catalog:tool_02302,ZippyNotes,1,1,0.9974931995447299
+ai_catalog:tool_02309,NewsCord,1,1,0.9960655286066863
+ai_catalog:tool_02317,Memorable,1,1,0.9878430651012854
+ai_catalog:tool_02335,Mymealplan,1,1,0.9936554471953675
+ai_catalog:tool_02338,Podwise,1,1,0.9964301069732762
+ai_catalog:tool_02346,wAnywhere,1,1,0.8277244534068274
+ai_catalog:tool_02394,TTSynth,1,1,0.9561336820513906
+ai_catalog:tool_02419,Wingman,1,1,0.9944672138863685
+ai_catalog:tool_02432,TeachCatalystAI,1,1,0.9805371358520946
+ai_catalog:tool_02456,LogoAi,1,1,0.9677787758029425
+ai_catalog:tool_02457,RAVATAR,1,1,0.9878593985797879
+ai_catalog:tool_02463,Aire,1,1,0.9956888425195851
+ai_catalog:tool_02470,NeuroForge,1,1,0.943490046969027
+ai_catalog:tool_02484,Doc Dog,1,1,0.9980240607889972
+ai_catalog:tool_02487,Eva AI,1,1,0.999893405580413
+ai_catalog:tool_02490,Supermeme.ai,1,1,0.9956460745721634
+ai_catalog:tool_02491,UniDub,1,1,0.9908548792109563
+ai_catalog:tool_02497,Zefi,1,1,0.9973108145352263
+ai_catalog:tool_02501,Respond.io,1,1,0.9588850956109549
+ai_catalog:tool_02511,Gaga AI,1,1,0.997345748515889
+ai_catalog:tool_02512,Watermarkly,1,1,0.9774703081660582
+ai_catalog:tool_02520,Easy-Peasy.AI,1,1,0.9990902741646502
+ai_catalog:tool_02533,KIVA by Wellows,1,1,0.9622996853750483
+ai_catalog:tool_02547,TravAI,1,1,0.997862689677666
+ai_catalog:tool_02549,Albus.org,1,1,0.9961685096838355
+ai_catalog:tool_02551,Social Champ AI Suite,1,1,0.9939738495717482
+ai_catalog:tool_02557,Fintwit,1,1,0.9991446141966082
+ai_catalog:tool_02561,BrainyPdf,1,1,0.9972821485054298
+ai_catalog:tool_02562,Pocket LLM,1,1,0.9961771995724726
+ai_catalog:tool_02567,UiPath,1,1,0.997823779068038
+ai_catalog:tool_02571,Cogniflow,1,1,0.9832043458021152
+ai_catalog:tool_02574,Pod,1,1,0.9311435379406818
+ai_catalog:tool_02577,Backlinker.AI,1,1,0.9988953927669463
+ai_catalog:tool_02582,Kindroid,1,1,0.9998677262228168
+ai_catalog:tool_02585,AskYourDatabase,1,1,0.9968981447157146
+ai_catalog:tool_02590,DippyAI,1,1,0.9411004219868805
+ai_catalog:tool_02592,H2O.ai,1,1,0.9865226697889993
+ai_catalog:tool_02593,echowin,1,1,0.9912818970746983
+ai_catalog:tool_02605,FormWise,1,1,0.9692281854719791
+ai_catalog:tool_02608,Gryphon,1,1,0.8663270264602307
+ai_catalog:tool_02611,Abacus,1,1,0.9960671984756685
+ai_catalog:tool_02630,AI Business Plan,1,1,0.992535140035104
+ai_catalog:tool_02632,HappyRobot,1,1,0.9870655171143606
+ai_catalog:tool_02643,Remesh,1,1,0.9927150167186425
+ai_catalog:tool_02647,Neus.ai,1,1,0.9942403411216925
+ai_catalog:tool_02654,LangSmith,1,1,0.9925272881704629
+ai_catalog:tool_02656,Careerflow,1,1,0.9911891071849424
+ai_catalog:tool_02663,Zelig,1,1,0.8142260537350939
+ai_catalog:tool_02665,Gorgias,1,1,0.9869419936662382
+ai_catalog:tool_02671,Salesify AI Sales Coach,1,1,0.999250596855028
+ai_catalog:tool_02674,Link Whisper,1,1,0.9956780673961881
+ai_catalog:tool_02683,Syncly,1,1,0.989662947038263
+ai_catalog:tool_02688,Tome,1,1,0.9917105296603475
+ai_catalog:tool_02701,1Flow,1,0,0.3187470090002762
+ai_catalog:tool_02704,GPT Workspace,1,1,0.9912921257826582
+ai_catalog:tool_02713,Hedra,1,1,0.9964281974574174
+ai_catalog:tool_02716,Workato,1,0,0.3146085633822481
+ai_catalog:tool_02718,Pika Labs,1,1,0.9935170366498821
+ai_catalog:tool_02731,4GPA,1,1,0.9883914335180273
+ai_catalog:tool_02737,Accio,1,1,0.9976511705816262
+ai_catalog:tool_02739,AI Time Tracking,1,1,0.8465877819630333
+ai_catalog:tool_02741,Dr. Oracle,1,1,0.9942447191707173
+ai_catalog:tool_02749,AI Singing,1,1,0.9966414591793823
+ai_catalog:tool_02767,Another Wrapper,1,1,0.9868697133016456
+ai_catalog:tool_02768,NSWR,1,1,0.9994446174341372
+ai_catalog:tool_02772,Ebsynth,1,1,0.9965721196028207
+ai_catalog:tool_02773,Chat Jams,1,1,0.9914458143654247
+ai_catalog:tool_02774,askCHAD.io,1,1,0.9984525737433164
+ai_catalog:tool_02791,CreateMyTest,1,1,0.9965128872974086
+ai_catalog:tool_02795,AI Agents Verse,1,1,0.9996685883582902
+ai_catalog:tool_02796,bestcity.io,1,1,0.9750181519366632
+ai_catalog:tool_02802,Smartli,1,1,0.999621522875527
+ai_catalog:tool_02809,TemplateAI,1,1,0.9994025445177989
+ai_catalog:tool_02814,Branition,1,1,0.997014304798041
+ai_catalog:tool_02844,Coloring Pages AI,1,1,0.9995617854522646
+ai_catalog:tool_02846,Toastful,1,1,0.9994659508058884
+ai_catalog:tool_02849,Pet Booth,1,1,0.9997579423784972
+ai_catalog:tool_02853,MiniGPT-4,1,1,0.9973746782909233
+ai_catalog:tool_02867,Celvox,1,1,0.9899326213700824
+ai_catalog:tool_02876,Khroma,1,1,0.9996771213785346
+ai_catalog:tool_02880,AIStudio,1,1,0.9911612585667314
+ai_catalog:tool_02881,Kingshiper,1,1,0.9723464793476555
+ai_catalog:tool_02889,Elessar,1,1,0.9969590877710716
+ai_catalog:tool_02891,CopyPenAi,1,1,0.9997682303154912
+ai_catalog:tool_02896,Moderated,1,1,0.9994373521533568
+ai_catalog:tool_02898,Chat Matt Rickard,1,1,0.9987462611741239
+ai_catalog:tool_02901,Leawo PhotoIns,1,1,0.9961560886499681
+ai_catalog:tool_02915,Filechat,1,1,0.9998796711560872
+ai_catalog:tool_02926,DreamGift,1,1,0.9955096242753632
+ai_catalog:tool_02931,X Beast,1,1,0.9993050292592226
+ai_catalog:tool_02934,Iconlab,1,1,0.9997468197769406
+ai_catalog:tool_02946,Ink Studio AI,1,1,0.9999239136431517
+ai_catalog:tool_02947,AI ICON Online,1,1,0.996059453315433
+ai_catalog:tool_02962,checklist.gg,1,1,0.9994205572894127
+ai_catalog:tool_02969,HumanizeAI.io,1,1,0.9970101109972686
+ai_catalog:tool_02973,Rewriteit,1,1,0.9999740150498655
+ai_catalog:tool_02978,GrammarBot,1,1,0.9943078850843737
+ai_catalog:tool_02985,Kai App,1,1,0.998002672701815
+ai_catalog:tool_02989,Kortix Suna,1,1,0.9975745417792514
+ai_catalog:tool_03000,Coolmindmaps,1,1,0.9961268079481908
+ai_catalog:tool_03020,Keyword Caddy,1,1,0.996913243997915
+ai_catalog:tool_03022,OnTimeAi,1,1,0.9988705824275597
+ai_catalog:tool_03038,Pagechat,1,1,0.997075400050207
+ai_catalog:tool_03039,AI Holiday Cards,1,1,0.99750251342996
+ai_catalog:tool_03047,Quillminds,1,1,0.9993391148405544
+ai_catalog:tool_03051,Iris Fun,1,1,0.9959100549920783
+ai_catalog:tool_03065,GPTNext,1,1,0.9976211791895188
+ai_catalog:tool_03071,Koxy AI,1,1,0.99690749492056
+ai_catalog:tool_03074,SheetyAI,1,1,0.9989727025678807
+ai_catalog:tool_03078,Image Effects,1,1,0.999606512431967
+ai_catalog:tool_03081,Loukoum,1,1,0.9991898422056741
+ai_catalog:tool_03082,Babel Dish,1,1,0.9898035064594402
+ai_catalog:tool_03097,Coachify,1,1,0.9874835631678236
+ai_catalog:tool_03101,Snowball Club,1,1,0.9970883884463715
+ai_catalog:tool_03104,Coverposts,1,1,0.9979455031508496
+ai_catalog:tool_03112,TryHairstyle,1,1,0.9939901387196318
+ai_catalog:tool_03120,AIAnalyzer.io,1,1,0.9999667081497575
+ai_catalog:tool_03132,Vocalremover,1,1,0.9976706720034425
+ai_catalog:tool_03135,WADeck,1,1,0.9891607505908779
+ai_catalog:tool_03141,XAnswer,1,1,0.997258199537772
+ai_catalog:tool_03160,Pi Exchange,1,1,0.9868110986122576
+ai_catalog:tool_03162,Lalamu,1,1,0.9984799426977887
+ai_catalog:tool_03172,Insightio,1,1,0.9986657849587068
+ai_catalog:tool_03181,Walter AI,1,1,0.9969105515047173
+ai_catalog:tool_03182,Beey,1,1,0.9947056397206776
+ai_catalog:tool_03191,Hei.io,1,1,0.9947593163143761
+ai_catalog:tool_03193,PixAI Art,1,1,0.9978130190039624
+ai_catalog:tool_03198,myBrandgen,1,1,0.9919382028300773
+ai_catalog:tool_03214,Summie,1,1,0.9869552304840918
+ai_catalog:tool_03221,GoSales,1,1,0.9946200283973896
+ai_catalog:tool_03223,InterviewGPT.io,1,1,0.9984792359266098
+ai_catalog:tool_03231,Rank Math Content AI,1,1,0.9994442713336997
+ai_catalog:tool_03232,Aiblocks,1,1,0.9997923640252486
+ai_catalog:tool_03254,Pitch Patterns,1,1,0.9936516346601206
+ai_catalog:tool_03259,DataLine,1,1,0.9979716616728077
+ai_catalog:tool_03266,AI-Sprinter,1,1,0.9998970995376123
+ai_catalog:tool_03273,ModelsLab,1,1,0.9980787896752574
+ai_catalog:tool_03291,Keytrends,1,1,0.992389547594155
+ai_catalog:tool_03297,Lemonado,1,1,0.9945258005914858
+ai_catalog:tool_03301,InkdropAI,1,1,0.9901614148814469
+ai_catalog:tool_03309,Youscan,1,1,0.99633207397024
+ai_catalog:tool_03318,Exactly.AI,1,1,0.982527956683427
+ai_catalog:tool_03348,Scene,1,1,0.8215441057288216
+ai_catalog:tool_03378,Repodex,1,1,0.9960133437902187
+ai_catalog:tool_03384,LIDA,1,1,0.9929392186008779
+ai_catalog:tool_03394,Bubble AI App Builder,1,1,0.9986547688247749
+ai_catalog:tool_03397,FluxAI,1,1,0.9998669119392348
+ai_catalog:tool_03402,Forefront,1,1,0.9989154997899727
+ai_catalog:tool_03412,Copysmith,1,1,0.9956264944187221
+ai_catalog:tool_03420,Dupdub,1,1,0.9985957276369654
+ai_catalog:tool_03423,Imagineapp,1,1,0.9977073983142917
+ai_catalog:tool_03427,TermScout,1,1,0.9864905161178604
+ai_catalog:tool_03434,10Web,1,1,0.7795748428047148
+ai_catalog:tool_03436,Loom AI,1,1,0.9795455003022856
+ai_catalog:tool_03438,One AI,1,1,0.9998400126522259
+ai_catalog:tool_03448,DSNR,1,1,0.9957401590547457
+ai_catalog:tool_03451,CoSchedule Headline Studio,1,1,0.9985773022231389
+ai_catalog:tool_03467,Dorik AI,1,1,0.997671602199268
+ai_catalog:tool_03468,Pet Portrait AI,1,1,0.998667981313171
+ai_catalog:tool_03470,Niah AI,1,1,0.9995492698557417
+ai_catalog:tool_03475,Metabob,1,1,0.5735711115482847
+ai_catalog:tool_03476,Brisk Teaching,1,1,0.9958181233547566
+ai_catalog:tool_03489,Haptik,1,1,0.9997170292401909
+ai_catalog:tool_03492,Lebesgue,1,1,0.9709975708035625
+ai_catalog:tool_03495,MindMap AI,1,1,0.9995350928621084
+ai_catalog:tool_03510,Scribbler,1,1,0.9942529519103792
+ai_catalog:tool_03511,Arc Max,1,1,0.999297962160583
+ai_catalog:tool_03516,Anycode AI,1,1,0.8622915575584792
+ai_catalog:tool_03533,ArcaNotes,1,1,0.9967928677857499
+ai_catalog:tool_03547,HeyFriday,1,1,0.999230736213875
+ai_catalog:tool_03566,Auri.AI,1,1,0.9960860626709643
+ai_catalog:tool_03571,CoPilot.Live,1,1,0.9909390400553689
+ai_catalog:tool_03573,Mermaid Chart,1,1,0.989886849212569
+ai_catalog:tool_03576,VOZIQ AI,1,1,0.9964528809629715
+ai_catalog:tool_03577,Wand,1,1,0.9965359235415766
+ai_catalog:tool_03579,Abel,1,1,0.9877160688420108
+ai_catalog:tool_03583,MyFoodPlanet,1,1,0.9989323174133006
+ai_catalog:tool_03587,Zubtitle,1,1,0.9986751287648244
+ai_catalog:tool_03588,Motionbear,1,1,0.9977690202072851
+ai_catalog:tool_03598,NOTRELOAD AI,1,1,0.9404071849712612
+ai_catalog:tool_03606,LTX Studio,1,1,0.9898085021422642
+ai_catalog:tool_03612,Automix.ai,1,1,0.999486332863577
+ai_catalog:tool_03626,Anonysis,1,1,0.9138247491638897
+ai_catalog:tool_03630,ChaturGPT,1,1,0.9979492212803424
+ai_catalog:tool_03631,AssistED AI,1,1,0.9995849389889165
+ai_catalog:tool_03636,LunaGPT,1,1,0.9998852157826494
+ai_catalog:tool_03650,Vitsi AI,1,1,0.9954555763515763
+ai_catalog:tool_03651,Blinkn.shop,1,1,0.998412165298352
+ai_catalog:tool_03655,Allclues,1,1,0.9859931041773322
+ai_catalog:tool_03671,Supreme Plans,1,1,0.9946098280811498
+ai_catalog:tool_03682,ChitChat,1,1,0.9998288239366238
+ai_catalog:tool_03688,CodingFleet,1,1,0.9985000508939704
+ai_catalog:tool_03697,ContentOwl,1,1,0.9989583294009391
+ai_catalog:tool_03714,Ghost Craft,1,1,0.9993117470164202
+ai_catalog:tool_03716,Cramd,1,1,0.9564713127924539
+ai_catalog:tool_03722,QRCodeCreator.io,1,1,0.9812468454599128
+ai_catalog:tool_03738,20paths,1,1,0.9786471065163697
+ai_catalog:tool_03770,DashChat,1,1,0.9820865168383314
+ai_catalog:tool_03771,Delfiny AI,1,1,0.9929525997544656
+ai_catalog:tool_03772,Disney AI Poster,1,1,0.9937905390758546
+ai_catalog:tool_03774,AIColors,1,1,0.9935774867646789
+ai_catalog:tool_03782,Draft1,1,1,0.9990096968309431
+ai_catalog:tool_03784,Campana,1,1,0.9951245055554565
+ai_catalog:tool_03797,ToDo.is,1,1,0.9933811038576096
+ai_catalog:tool_03802,Atlas AI,1,1,0.9969889530544288
+ai_catalog:tool_03808,CreatorsAGI,1,1,0.9974160988966929
+ai_catalog:tool_03813,ChatTab,1,1,0.9843550346342121
+ai_catalog:tool_03817,Rupa.AI,1,1,0.9969395263624533
+ai_catalog:tool_03828,CelebU,1,1,0.9996372545467497
+ai_catalog:tool_03834,Fast Resume AI,1,1,0.9992470510447671
+ai_catalog:tool_03854,Mememes,1,1,0.9982321411891315
+ai_catalog:tool_03861,WorkoutPro,1,1,0.9967575811639566
+ai_catalog:tool_03862,AvatarAI,1,1,0.9985829042411175
+ai_catalog:tool_03863,Logorax,1,1,0.9981057711670107
+ai_catalog:tool_03882,ClassPoint AI,1,1,0.9921063775577417
+ai_catalog:tool_03891,Aiappideas,1,1,0.9979823732700943
+ai_catalog:tool_03909,Intellyverse,1,1,0.9937176787577935
+ai_catalog:tool_03912,Docsium,1,1,0.9771702020518206
+ai_catalog:tool_03924,Textie,1,1,0.9987410254960315
+ai_catalog:tool_03925,Corpora,1,1,0.9961487692348173
+ai_catalog:tool_03939,NeonLingo,1,1,0.9788723751577117
+ai_catalog:tool_03944,Linkedra,1,1,0.9735057650176163
+ai_catalog:tool_03945,Graph Maker,1,1,0.999727125284409
+ai_catalog:tool_03952,MatchPhotos,1,1,0.9980097639394307
+ai_catalog:tool_03953,TweetStorm.ai,1,1,0.9995352539965011
+ai_catalog:tool_03954,Mega SEO,1,1,0.9958430289063286
+ai_catalog:tool_03960,Molmo AI,1,1,0.983678880894943
+ai_catalog:tool_03964,CaptionCreator,1,1,0.9868952504174914
+ai_catalog:tool_03967,Hachi,1,1,0.9986921463161769
+ai_catalog:tool_03971,Nodeland,1,1,0.9497628259626295
+ai_catalog:tool_03991,OpenAdapt.AI,1,1,0.9083848030555836
+ai_catalog:tool_03993,SpeechBrain,1,1,0.9885408265670879
+ai_catalog:tool_03995,Convolo,1,1,0.9928477918892148
+ai_catalog:tool_04014,PoemGenerator.io,1,1,0.9937349974632402
+ai_catalog:tool_04022,Floodcraft,1,1,0.9970644337857247
+ai_catalog:tool_04025,Realchar,1,1,0.9108090027872139
+ai_catalog:tool_04029,Hirematch,1,1,0.976023120595744
+ai_catalog:tool_04037,ChatOCR,1,1,0.9968348082680576
+ai_catalog:tool_04038,Scene Dreamer,1,1,0.998215137560241
+ai_catalog:tool_04041,Burrow AI,1,1,0.9979512501549324
+ai_catalog:tool_04048,Glam Graph,1,1,0.9967169737460788
+ai_catalog:tool_04051,Sono Lyric,1,1,0.9965354842715486
+ai_catalog:tool_04057,Unspam,1,1,0.9999274252718485
+ai_catalog:tool_04066,CoverDesign AI,1,1,0.9983991356710004
+ai_catalog:tool_04067,Outermode,1,1,0.9911692385937955
+ai_catalog:tool_04082,LeiaPix,1,1,0.9979972365247495
+ai_catalog:tool_04090,InboxChat,1,1,0.9998641678128147
+ai_catalog:tool_04098,TurboLens,1,1,0.9993747246741761
+ai_catalog:tool_04106,Avatarize,1,1,0.9976427481094169
+ai_catalog:tool_04107,Lumiere,1,1,0.9988840372713299
+ai_catalog:tool_04120,AI Tarot Chat,1,1,0.9983515985657992
+ai_catalog:tool_04122,Devoid AI,1,1,0.9998498455739042
+ai_catalog:tool_04125,ClarityAI,1,1,0.9998802973631857
+ai_catalog:tool_04126,AutomaticDocs,1,1,0.9977260077735722
+ai_catalog:tool_04139,Helper AI,1,1,0.9986537777433915
+ai_catalog:tool_04146,Yodi,1,1,0.9995073460978838
+ai_catalog:tool_04154,Copywriting AI,1,1,0.9996860370323273
+ai_catalog:tool_04156,Datr,1,1,0.9966353662081514
+ai_catalog:tool_04167,YT Copycat,1,1,0.9899604486029567
+ai_catalog:tool_04175,Zeligate,1,1,0.9978600292988542
+ai_catalog:tool_04181,MostlyAI,1,1,0.9678073249520532
+ai_catalog:tool_04182,Spark Mail,1,1,0.9686944472857235
+ai_catalog:tool_04184,Marple,1,1,0.9426083642123121
+ai_catalog:tool_04185,Tagify,1,1,0.989588931212561
+ai_catalog:tool_04187,Tended,1,1,0.9946655314601809
+ai_catalog:tool_04188,Contractify,1,1,0.9913451724059832
+ai_catalog:tool_04191,AskCodi,1,1,0.9979123780143774
+ai_catalog:tool_04193,Photo Lab,1,1,0.9679946393569241
+ai_catalog:tool_04202,BestChat,1,1,0.8993442429313971
+ai_catalog:tool_04203,EasyAudit,1,1,0.9943926155568106
+ai_catalog:tool_04215,Apify,1,1,0.9935080810374484
+ai_catalog:tool_04217,ContextMinds,1,1,0.9992488842548177
+ai_catalog:tool_04224,Harpa,1,1,0.9209812640754071
+ai_catalog:tool_04228,ForVoyez,1,1,0.9989425329637339
+ai_catalog:tool_04229,WhisperBot,1,1,0.9965220867947557
+ai_catalog:tool_04235,Typedesk,1,1,0.9963350870027206
+ai_catalog:tool_04241,Mailbutler,1,1,0.9979544665932893
+ai_catalog:tool_04256,Magicroll,1,1,0.9997656399327932
+ai_catalog:tool_04276,DevGPT,1,1,0.8852355844819368
+ai_catalog:tool_04279,Qolaba AI,1,1,0.9934623564432289
+ai_catalog:tool_04287,Spikes Studio,1,1,0.9892992322426016
+ai_catalog:tool_04290,Embermail,1,1,0.9974569081972685
+ai_catalog:tool_04298,The Interview,1,1,0.9354975112929591
+ai_catalog:tool_04305,PDF Talk,1,1,0.9962733943372919
+ai_catalog:tool_04311,Recall,1,1,0.9967711932999135
+ai_catalog:tool_04312,Talentech,1,1,0.9989101667220514
+ai_catalog:tool_04334,Query Vary,1,1,0.9914467528549812
+ai_catalog:tool_04340,Dezbor,1,1,0.9951140873859301
+ai_catalog:tool_04343,Koteshen,1,1,0.9994435799075618
+ai_catalog:tool_04346,Gluecharm,1,1,0.9773395734744932
+ai_catalog:tool_04351,The Visualizer,1,1,0.9992908073438068
+ai_catalog:tool_04354,Legly,1,1,0.9981642175717392
+ai_catalog:tool_04361,WhisperIt,1,1,0.9985535125999045
+ai_catalog:tool_04369,WebSpellChecker,1,1,0.7528054600508886
+ai_catalog:tool_04370,Hocoos,1,1,0.9967819671269041
+ai_catalog:tool_04371,Diffblue Cover,1,1,0.9985273883860655
+ai_catalog:tool_04385,Clippie AI,1,1,0.992050043763063
+ai_catalog:tool_04387,FastBots,1,1,0.9998163024117664
+ai_catalog:tool_04391,Charisma AI,1,1,0.9952252950134676
+ai_catalog:tool_04405,Flick - AI assistant,1,1,0.9993978409123423
+ai_catalog:tool_04413,GPT Trainer,1,1,0.9940448633109779
+ai_catalog:tool_04418,Growparabolic,1,1,0.998402358104636
+ai_catalog:tool_04445,Grit.io,1,1,0.9916735088857462
+ai_catalog:tool_04464,Helpfull,1,1,0.9834553126205514
+ai_catalog:tool_04471,Desku,1,1,0.9886379066191926
+ai_catalog:tool_04475,AskToSell,1,1,0.9918021515254266
+ai_catalog:tool_04491,Aqua Voice,1,1,0.9977589754367313
+ai_catalog:tool_04501,Lexy.so,1,1,0.9931891441603016
+ai_catalog:tool_04503,Haddock,1,1,0.9941835381987713
+ai_catalog:tool_04504,Scisummary,1,1,0.9942861549573426
+ai_catalog:tool_04509,Luw AI,1,1,0.9992944143179752
+ai_catalog:tool_04515,Napkin,1,1,0.9949871765358625
+ai_catalog:tool_04530,HiSolver,1,1,0.9724041616153074
+ai_catalog:tool_04532,Leena AI,1,1,0.6832157246062527
+ai_catalog:tool_04533,Fora Day,1,1,0.9909992587967759
+ai_catalog:tool_04538,Fable,1,1,0.9748917280488718
+ai_catalog:tool_04541,Datature,1,1,0.9869121561420707
+ai_catalog:tool_04559,Dynaboard AI,1,1,0.9514313186468017
+ai_catalog:tool_04560,Alle-AI,1,1,0.999176559886561
+ai_catalog:tool_04581,Inventory365,1,0,0.3895790388212899
+ai_catalog:tool_04582,Iris Dating,1,1,0.9664709208535924
+ai_catalog:tool_04584,Jupid,1,1,0.988233268866626
+ai_catalog:tool_04600,Mealpractice,1,1,0.9940154488163541
+ai_catalog:tool_04623,CodeBaby,1,1,0.9982880313285635
+ai_catalog:tool_04631,RamenLegal,1,1,0.9660154858996394
+ai_catalog:tool_04635,Groupthink,1,1,0.9098751580535319
+ai_catalog:tool_04643,SalesTarget,1,1,0.9987310606922777
+ai_catalog:tool_04645,Duolingo Max AI features,1,1,0.990078220446531
+ai_catalog:tool_04655,Supanote,1,1,0.9976831910942956
+ai_catalog:tool_04659,Eightfold,1,1,0.930475743991456
+ai_catalog:tool_04682,ChainGPT,1,1,0.8871394761237198
+ai_catalog:tool_04695,Koolio,1,1,0.9364743524098277
+ai_catalog:tool_04701,Zegashop,1,1,0.9992661586511815
+ai_catalog:tool_04704,IzTalk,1,1,0.9820691874190113
+ai_catalog:tool_04710,AI map,1,1,0.9912112969118707
+ai_catalog:tool_04711,Subtxt,1,1,0.9953818694267712
+ai_catalog:tool_04713,Aayde,1,1,0.8422153191779038
+ai_catalog:tool_04716,ChatterBox,1,1,0.9944877253475591
+ai_catalog:tool_04723,Agent 360,1,1,0.9973931691386586
+ai_catalog:tool_04724,AI Surge,1,1,0.995466856914287
+ai_catalog:tool_04734,Cliclic,1,1,0.9994750159725861
+ai_catalog:tool_04740,Accentra,1,1,0.9993622852461734
+ai_catalog:tool_04742,Post Cheetah,1,1,0.9970835251834431
+ai_catalog:tool_04748,Opinionate,1,1,0.9992910797617421
+ai_catalog:tool_04749,Hashtag AI,1,1,0.9998918807459182
+ai_catalog:tool_04766,AppFlowy,1,1,0.9997662547707532
+ai_catalog:tool_04773,Dr.Change,1,1,0.9940711638089298
+ai_catalog:tool_04777,Ask AI Questions,1,1,0.976375633131702
+ai_catalog:tool_04798,AI Recruiter,1,1,0.9953395470620564
+ai_catalog:tool_04801,DocUp,1,1,0.9981403569090327
+ai_catalog:tool_04817,What If App,1,1,0.9994249736935331
+ai_catalog:tool_04822,HappyChat AI,1,1,0.9969612277564174
+ai_catalog:tool_04824,Hashtag Guru,1,1,0.9996557117073264
+ai_catalog:tool_04829,Brandity.ai,1,1,0.9949750340941509
+ai_catalog:tool_04831,Dypt,1,1,0.9897416106352787
+ai_catalog:tool_04836,Emet Insights,1,1,0.9979613976419837
+ai_catalog:tool_04857,AI Text Detector,1,1,0.9996874231531083
+ai_catalog:tool_04858,ChromaForgeAI,1,1,0.9996931698490888
+ai_catalog:tool_04874,Texthub,1,1,0.998587746346323
+ai_catalog:tool_04875,Content Cloud,1,1,0.9972404704595194
+ai_catalog:tool_04881,GetWebsite.Report,1,1,0.9994280191757453
+ai_catalog:tool_04885,Image Gen,1,1,0.9846599024011832
+ai_catalog:tool_04886,Ink With AI,1,1,0.9997163947456879
+ai_catalog:tool_04895,ChatWebpage,1,1,0.9998003855525672
+ai_catalog:tool_04901,CreateBookAI,1,1,0.9988626443044736
+ai_catalog:tool_04907,Holoworld,1,1,0.9939594066098902
+ai_catalog:tool_04931,Merlu,1,1,0.9903290541612593
+ai_catalog:tool_04933,Corgi,1,1,0.9977473331221447
+ai_catalog:tool_04935,IcongeniusAI,1,1,0.9959797796975072
+ai_catalog:tool_04936,IntelliPlugin,1,1,0.9962411765497601
+ai_catalog:tool_04943,SuitUp,1,1,0.9923779101635476
+ai_catalog:tool_04950,DataDripper,1,1,0.9898726654773111
+ai_catalog:tool_04969,Wikivec,1,1,0.9927880393055206
+ai_catalog:tool_04971,Documator,1,1,0.9951614471447141
+ai_catalog:tool_04998,Ghola,1,1,0.9926900314251857
+ai_catalog:tool_05002,LocaleScan,1,1,0.9866970862981791
+ai_catalog:tool_05007,Kesem,1,1,0.9908329536880858
+ai_catalog:tool_05023,CallZen,1,1,0.9760345261995902
+ai_catalog:tool_05025,WizBoard,1,1,0.972860359522111
+ai_catalog:tool_05030,NailDesignsAI,1,1,0.9986089288673198
+ai_catalog:tool_05031,CHCKR,1,1,0.99717479805679
+ai_catalog:tool_05033,NoStress,1,1,0.9970793328894796
+ai_catalog:tool_05034,Talefy,1,1,0.9932405954936533
+ai_catalog:tool_05038,IG Leads,1,1,0.7159761716917791
+ai_catalog:tool_05045,FinNews,1,1,0.8725490735179984
+ai_catalog:tool_05048,FitAction,1,1,0.9937019928247841
+ai_catalog:tool_05068,Apollo Writes,1,1,0.996798057458248
+ai_catalog:tool_05072,Quick Post,1,1,0.995066090620229
+ai_catalog:tool_05074,AIwriter,1,1,0.9972567423208243
+ai_catalog:tool_05075,KidsColoringPage,1,1,0.9991754041951749
+ai_catalog:tool_05078,Waveformer,1,1,0.9994803730829671
+ai_catalog:tool_05081,ProductPics.ai,1,1,0.9978594801020979
+ai_catalog:tool_05087,Brandix,1,1,0.9996614904204421
+ai_catalog:tool_05095,DeepBeat,1,1,0.9975161097286681
+ai_catalog:tool_05104,Writebot,1,1,0.9996534234249054
+ai_catalog:tool_05113,Botroast,1,1,0.9980512324856494
+ai_catalog:tool_05127,Hazel AI,1,1,0.9990307024443127
+ai_catalog:tool_05132,Hypertxt,1,1,0.9997214381984502
+ai_catalog:tool_05135,Chordai,1,1,0.9934850738785348
+ai_catalog:tool_05136,Aiken,1,1,0.9984401555175493
+ai_catalog:tool_05147,Flavored Resume,1,1,0.9974997404952404
+ai_catalog:tool_05180,Prompt.Cafe,1,1,0.9969119008624834
+ai_catalog:tool_05183,Localai,1,1,0.9857097253911503
+ai_catalog:tool_05190,Vecentor,1,1,0.9995345993747172
+ai_catalog:tool_05195,Mathly,1,1,0.9999203733166884
+ai_catalog:tool_05211,MyPersonas,1,1,0.9853046273689778
+ai_catalog:tool_05216,Buildai,1,1,0.995975932094927
+ai_catalog:tool_05218,CreateGirls AI,1,1,0.9642040572034717
+ai_catalog:tool_05246,Cold Pitch,1,1,0.996420255173704
+ai_catalog:tool_05249,Nomi AI,1,1,0.999113271668185
+ai_catalog:tool_05267,PrayerAI,1,1,0.9739432772381755
+ai_catalog:tool_05271,MyAutoBio,1,1,0.9942355093202006
+ai_catalog:tool_05277,Socrates - Chat with Docs on Windows or Mac,1,1,0.9924606270537626
+ai_catalog:tool_05295,Muse Pro,1,1,0.9945367847404488
+ai_catalog:tool_05299,Rebuzz AI,1,1,0.9982121265611487
+ai_catalog:tool_05309,AIjudge,1,1,0.9680892000582964
+ai_catalog:tool_05314,Nostalgia Photo,1,1,0.9972233750596958
+ai_catalog:tool_05317,Fuzzy Match,1,1,0.9992101741853856
+ai_catalog:tool_05319,Hairgen.ai,1,1,0.9998234855070394
+ai_catalog:tool_05321,SUPIR,1,1,0.99876975245912
+ai_catalog:tool_05332,GoWhisper,1,1,0.9945428176969751
+ai_catalog:tool_05333,Vibe AI,1,1,0.9991932998220663
+ai_catalog:tool_05341,Bundle of Joy,1,1,0.9929855273199619
+ai_catalog:tool_05342,Feed Monky,1,1,0.9961426806130182
+ai_catalog:tool_05357,NicheFind,1,1,0.9803369056827032
+ai_catalog:tool_05358,Dev Radar,1,1,0.999092765422483
+ai_catalog:tool_05359,CandideAI,1,1,0.9724029497378247
+ai_catalog:tool_05362,BoldDesk,1,1,0.999246863827403
+ai_catalog:tool_05373,BunniAI,1,1,0.9974831722436815
+ai_catalog:tool_05387,Telescope AI,1,1,0.9995188594517457
+ai_catalog:tool_05393,AI Detect,1,1,0.9945263130041848
+ai_catalog:tool_05397,WriteFastAI,1,1,0.9941043517033885
+ai_catalog:tool_05401,Journable,1,1,0.696172102187956
+ai_catalog:tool_05409,xPassportPhoto,1,1,0.9977050835541554
+ai_catalog:tool_05414,Echonote,1,1,0.9985260947236888
+ai_catalog:tool_05427,CalcLeads,1,1,0.9998439380349129
+ai_catalog:tool_05433,Tune Chat,1,1,0.9946354939826604
+ai_catalog:tool_05436,Braincast,1,1,0.9912492571672117
+ai_catalog:tool_05465,GPTMyDay,1,1,0.9964269087415789
+ai_catalog:tool_05467,AI Pokémon Generator,1,1,0.980317259936675
+ai_catalog:tool_05470,CheckMyIdea,1,1,0.9937134897841132
+ai_catalog:tool_05476,MeGPT,1,1,0.839185857178025
+ai_catalog:tool_05480,Carbonate,1,1,0.9902139338546985
+ai_catalog:tool_05481,Dashai,1,1,0.9943810326767092
+ai_catalog:tool_05494,Writelyai,1,1,0.986644662999135
+ai_catalog:tool_05495,Textoni,1,1,0.9997264315306374
+ai_catalog:tool_05497,Devra,1,1,0.999924409397138
+ai_catalog:tool_05500,Heal AI,1,1,0.9999183008750668
+ai_catalog:tool_05502,Swipe Insight,1,1,0.9947829189766711
+ai_catalog:tool_05504,Magnet,1,1,0.9996729076785237
+ai_catalog:tool_05530,MagicBrief,1,1,0.9964078578574698
+ai_catalog:tool_05531,Promo AI,1,1,0.9898303417983736
+ai_catalog:tool_05532,Getgenerative.ai,1,1,0.9998061084655252
+ai_catalog:tool_05557,Wishpond,1,1,0.9759641728445458
+ai_catalog:tool_05558,Looka,1,1,0.9851505392478875
+ai_catalog:tool_05563,LeaseLens,1,1,0.9992767552448025
+ai_catalog:tool_05569,Vanity AI,1,1,0.9899113940166625
+ai_catalog:tool_05570,Splutter AI,1,1,0.9970266847700678
+ai_catalog:tool_05587,Certainly,1,1,0.9899104167928122
+ai_catalog:tool_05589,Curvedo,1,1,0.9990169591602192
+ai_catalog:tool_05608,Palette,1,1,0.9856469061614159
+ai_catalog:tool_05615,Gamelight - AI-Backed Mobile Marketing,1,1,0.9891916359343863
+ai_catalog:tool_05622,BeatandRaise,1,1,0.9976864729865352
+ai_catalog:tool_05645,StoriesOnBoard,1,1,0.9191029985129071
+ai_catalog:tool_05647,CronbotAI,1,1,0.9570367969711314
+ai_catalog:tool_05653,Dubdub,1,1,0.9982784809980152
+ai_catalog:tool_05661,3DAiLY,1,1,0.9955927955314143
+ai_catalog:tool_05663,Waspnote,1,1,0.9950494522003852
+ai_catalog:tool_05669,Poster studio,1,1,0.99707879830679
+ai_catalog:tool_05683,ChatMaxima,1,1,0.9974979662011918
+ai_catalog:tool_05692,Imagen AI,1,1,0.9989671013703989
+ai_catalog:tool_05695,Varolio,1,1,0.9988570738919808
+ai_catalog:tool_05699,Userdesk,1,1,0.9996594203577105
+ai_catalog:tool_05717,IKI AI,1,1,0.9775929851101548
+ai_catalog:tool_05722,Databutton,1,1,0.884427577246573
+ai_catalog:tool_05725,Inedit,1,1,0.996265555242208
+ai_catalog:tool_05726,WebWave AI,1,1,0.9988609610147423
+ai_catalog:tool_05734,ArtHeart,1,1,0.9792641751508366
+ai_catalog:tool_05738,Artiphoria,1,1,0.9968689753652116
+ai_catalog:tool_05740,GraphLogic.AI,1,1,0.9967626414609165
+ai_catalog:tool_05743,Character GPT,1,1,0.9983965541976505
+ai_catalog:tool_05746,Broken Bear,1,1,0.9973682289234651
+ai_catalog:tool_05767,Travelandz,1,1,0.9919891848814059
+ai_catalog:tool_05773,Delibr AI,1,1,0.9979949049472531
+ai_catalog:tool_05783,Manatal,1,0,0.2873692299474355
+ai_catalog:tool_05799,Trint,1,1,0.9821666447173754
+ai_catalog:tool_05800,Assistr,1,1,0.999667795514079
+ai_catalog:tool_05804,Draftsmith,1,1,0.991908058549384
+ai_catalog:tool_05811,Resume Worded,1,1,0.9931603306115856
+ai_catalog:tool_05812,Type Prompt,1,1,0.9997277941992014
+ai_catalog:tool_05813,PDFAI.io,1,1,0.969865284452321
+ai_catalog:tool_05817,NLSQL,1,1,0.9946879733721569
+ai_catalog:tool_05853,Lowtech,1,1,0.9990512740931441
+ai_catalog:tool_05868,B12.io,1,1,0.9999211550164553
+ai_catalog:tool_05883,Custom Craft Bot,1,1,0.9984784372523752
+ai_catalog:tool_05886,Observo,1,1,0.9972565749059863
+ai_catalog:tool_05895,AODocs,1,1,0.9693181643084209
+ai_catalog:tool_05907,IP Author,1,1,0.9997112469456618
+ai_catalog:tool_05913,Finiite,1,1,0.9860689539733083
+ai_catalog:tool_05915,bottest.ai,1,0,0.34972884324462133
+ai_catalog:tool_05923,MLflow,1,1,0.9990048194993647
+ai_catalog:tool_05931,Broadcast,1,1,0.9959138778967512
+ai_catalog:tool_05932,ChatAI,1,1,0.9805618462426601
+ai_catalog:tool_05938,Codapt,1,1,0.9694601106137286
+ai_catalog:tool_05941,Codeaid,1,1,0.993087485898435
+ai_catalog:tool_05942,Codespell,1,1,0.988760023430632
+ai_catalog:tool_05953,Me4U,1,1,0.9931463479939783
+ai_catalog:tool_05956,Diyva,1,1,0.9997179652941629
+ai_catalog:tool_05964,VideoGen,1,1,0.9974038792012299
+ai_catalog:tool_05966,Kamoto,1,1,0.9873487169433071
+ai_catalog:tool_05967,Leia,1,1,0.9141513413481269
+ai_catalog:tool_05971,Playbook.com,1,1,0.9949565499787076
+ai_catalog:tool_05979,StyleMyRide,1,1,0.9778692679033508
+ai_catalog:tool_05983,Amplitude AI agents,1,1,0.9975439275256763
+ai_catalog:tool_05989,RikiGPT,1,1,0.6693780311188524
+ai_catalog:tool_05993,Mendable,1,1,0.9989519043173798
+ai_catalog:tool_06005,Neferdata,1,1,0.9920489466688909
+ai_catalog:tool_06006,AWeber AI Email Generator,1,1,0.9969559726500435
+ai_catalog:tool_06013,Convai,1,1,0.9888749444231872
+ai_catalog:tool_06020,Ex-Human,1,1,0.9964260056165394
+ai_catalog:tool_06023,On model,1,1,0.9959502108808445
+ai_catalog:tool_06032,Assembo,1,1,0.9982838755257003
+ai_catalog:tool_06038,DoWhile,1,1,0.9913880751552417
+ai_catalog:tool_06040,Pollfish,1,1,0.9852780165475742
+ai_catalog:tool_06045,Inbenta,1,1,0.5421876378248084
+ai_catalog:tool_06047,Visionati,1,1,0.9910640042356356
+ai_catalog:tool_06053,HeyCloud,1,1,0.8870948775251227
+ai_catalog:tool_06079,Wurkzen,1,1,0.9934213656048582
+ai_catalog:tool_06090,Meta AI Studio,1,1,0.9901071379225489
+ai_catalog:tool_06094,Mood Magic,1,1,0.9961732053846873
+ai_catalog:tool_06111,Outfit,1,1,0.9741584752303805
+ai_catalog:tool_06114,Caseyak,1,1,0.9854241874271088
+ai_catalog:tool_06116,Nureply,1,1,0.9983028198488196
+ai_catalog:tool_06122,Potpie,1,1,0.9976006855842646
+ai_catalog:tool_06124,VettedAI,1,1,0.9979982279737221
+ai_catalog:tool_06126,Profound,1,1,0.9992450018469095
+ai_catalog:tool_06130,Lingostar,1,1,0.9990084516569432
+ai_catalog:tool_06136,Backtrack,1,1,0.9853719556558818
+ai_catalog:tool_06140,RegexMy,1,1,0.9687374444732205
+ai_catalog:tool_06144,Notably,1,1,0.9835336914400342
+ai_catalog:tool_06167,StockNewsAI,1,1,0.9974041434679481
+ai_catalog:tool_06171,Strella,1,1,0.9951612927539666
+ai_catalog:tool_06173,Subconscious AI,1,1,0.9889675090882802
+ai_catalog:tool_06179,scalerX,1,1,0.9997294300690686
+ai_catalog:tool_06184,Talkit,1,1,0.9878373933438332
+ai_catalog:tool_06186,Teabot,1,1,0.9864006749732076
+ai_catalog:tool_06188,Tettra,1,0,0.4272872270567126
+ai_catalog:tool_06190,Feeling Great App,1,1,0.8850077869527261
+ai_catalog:tool_06191,Tiered,1,1,0.9973670343891607
+ai_catalog:tool_06197,TrainerRoad,1,1,0.9298632451053502
+ai_catalog:tool_06208,Traycer,1,1,0.996353121051675
+ai_catalog:tool_06209,Swell AI,1,1,0.9951729441781675
+ai_catalog:tool_06215,Vectorize,1,1,0.9988517981405987
+ai_catalog:tool_06220,MarsX,1,1,0.9994123536705787
+ai_catalog:tool_06221,Okio,1,1,0.9833574290388147
+ai_catalog:tool_06228,Magai,1,1,0.9855062481169631
+ai_catalog:tool_06237,Wonders Pro,1,1,0.9636132338405222
+ai_catalog:tool_06244,Viinyx AI,1,1,0.9941178153411256
+ai_catalog:tool_06275,Rehance,1,1,0.996650051496072
+ai_catalog:tool_06282,Campedia,1,1,0.9987691963898078
+ai_catalog:tool_06293,Folderr,1,1,0.9998571473132777
+ai_catalog:tool_06295,PhotoKit,1,1,0.9745964694716122
+ai_catalog:tool_06297,Chaturji,1,1,0.9964068735398511
+ai_catalog:tool_06307,Alayna AI,1,1,0.9988862284694436
+ai_catalog:tool_06316,CVGrader,1,1,0.9937008442482723
+ai_catalog:tool_06323,Code Sensei,1,1,0.9718467948867258
+ai_catalog:tool_06324,Talkitout,1,1,0.9909975223708313
+ai_catalog:tool_06329,Artifact Bin,1,0,0.2609554468711716
+ai_catalog:tool_06332,Asker-I,1,1,0.9863945551724475
+ai_catalog:tool_06347,Questflow,1,1,0.9966429466486577
+ai_catalog:tool_06356,Aivia,1,1,0.9937769698470206
+ai_catalog:tool_06358,Proteus,1,1,0.9948528941205209
+ai_catalog:tool_06364,Doogle AI,1,1,0.9491964855674538
+ai_catalog:tool_06371,Easyoutlines,1,1,0.9929882516744675
+ai_catalog:tool_06372,Adori,1,1,0.9989493935066212
+ai_catalog:tool_06390,Book by Anyone,1,1,0.9974816931218071
+ai_catalog:tool_06391,Book Wizard AI,1,1,0.9985305030446228
+ai_catalog:tool_06396,Autron,1,1,0.9999608268019087
+ai_catalog:tool_06399,Brandwise,1,1,0.9818627009216538
+ai_catalog:tool_06418,Beaseness,1,1,0.9949369108296603
+ai_catalog:tool_06419,Buzzi.ai,1,1,0.9997414642204515
+ai_catalog:tool_06424,Cerebrella,1,1,0.9933117402480913
+ai_catalog:tool_06427,ChattyPage,1,1,0.9994539046171477
+ai_catalog:tool_06428,Makeweb.ai,1,1,0.9983794018967345
+ai_catalog:tool_06436,Layla,1,1,0.9780392025004642
+ai_catalog:tool_06447,CleverSchool,1,1,0.9989014156674444
+ai_catalog:tool_06457,Colorings,1,0,0.4987571570906961
+ai_catalog:tool_06461,CommentGuard,1,1,0.9829959655176254
+ai_catalog:tool_06484,ToastwithAI,1,1,0.9995073545126617
+ai_catalog:tool_06492,AI Photo Wizard,1,1,0.9995481250528141
+ai_catalog:tool_06493,Steppit,1,1,0.9941564350404116
+ai_catalog:tool_06519,Shorts Generator,1,1,0.9977299783470498
+ai_catalog:tool_06527,CharGen,1,1,0.999431410803188
+ai_catalog:tool_06541,ChatofAI,1,1,0.9966354914460965
+ai_catalog:tool_06545,AI-Portrait,1,1,0.9977274979948282
+ai_catalog:tool_06548,Nava,1,1,0.9969016554908117
+ai_catalog:tool_06557,Dating Photo AI,1,1,0.9622995568830045
+ai_catalog:tool_06560,Bestlook AI,1,1,0.9985106156124858
+ai_catalog:tool_06565,Diffusely,1,1,0.9864299941166916
+ai_catalog:tool_06571,Sommel-ai,1,1,0.9739068763414392
+ai_catalog:tool_06583,Genius PDF,1,1,0.997973293547905
+ai_catalog:tool_06598,Parallel,1,1,0.9824288072173614
+ai_catalog:tool_06608,MakePodcast,1,1,0.9988069780255396
+ai_catalog:tool_06611,Opax,1,1,0.9984735739077145
+ai_catalog:tool_06622,InsertChatGPT,1,1,0.9988282007350312
+ai_catalog:tool_06638,TuboGPT,1,1,0.997103087535396
+ai_catalog:tool_06639,Promptreply,1,1,0.9727358163418618
+ai_catalog:tool_06647,Moemate,1,1,0.9864595736611307
+ai_catalog:tool_06648,Pictura,1,1,0.9903101835537802
+ai_catalog:tool_06668,QnAYoutube,1,1,0.9935213131459824
+ai_catalog:tool_06673,CollegeGrantWizard,1,1,0.9970029058633971
+ai_catalog:tool_06683,Hiwriter,1,1,0.9981666654630843
+ai_catalog:tool_06690,WhitePaperGPT,1,1,0.9981757984108962
+ai_catalog:tool_06713,BulkGenerate,1,1,0.9847959484084216
+ai_catalog:tool_06714,GeoFinderAI,1,1,0.9802191332149216
+ai_catalog:tool_06716,Dopepics,1,1,0.9995615916758198
+ai_catalog:tool_06717,The Listly,1,1,0.9837307659533095
+ai_catalog:tool_06719,AIndLeads,1,1,0.9857637981466887
+ai_catalog:tool_06738,DavinciAI,1,1,0.9617831797197142
+ai_catalog:tool_06741,HolyTextAI,1,1,0.9725795063828045
+ai_catalog:tool_06744,IMGFX.DEV | Nano Banana,1,1,0.995231254105925
+ai_catalog:tool_06757,AILogoArt,1,1,0.9959092689614102
+ai_catalog:tool_06764,Pitches.ai,1,1,0.9954710969262645
+ai_catalog:tool_06769,BannerBot,1,1,0.9999081055930236
+ai_catalog:tool_06776,Amanu,1,1,0.9957365557174576
+ai_catalog:tool_06782,Inweave,1,1,0.9291145109530594
+ai_catalog:tool_06783,InYourDreams,1,1,0.9884892360539098
+ai_catalog:tool_06786,ToDoIt,1,1,0.9758957893593687
+ai_catalog:tool_06811,Article Factory,1,1,0.9969778956046802
+ai_catalog:tool_06812,Lingo Champion,1,1,0.9956670258280951
+ai_catalog:tool_06816,TranslateI18N - A Visual Studio Extension for i18n gpt translator,1,1,0.9917896134935884
+ai_catalog:tool_06817,Beatopia,1,1,0.992179907812999
+ai_catalog:tool_06835,ArnoldAI,1,1,0.989006921256584
+ai_catalog:tool_06845,Merton,1,1,0.9970846282461772
+ai_catalog:tool_06850,Meditator.pro,1,1,0.9933601117105064
+ai_catalog:tool_06865,Potion,1,1,0.9999098007639146
+ai_catalog:tool_06910,Dataing,1,1,0.998074769026199
+ai_catalog:tool_06921,PixPal AI,1,1,0.9971876086301308
+ai_catalog:tool_06931,Polychat,1,1,0.5864760260474343
+ai_catalog:tool_06932,Pop-Plan,1,1,0.9849350585499529
+ai_catalog:tool_06934,ICD AI,1,1,0.9979496790349361
+ai_catalog:tool_06936,Prism Clips,1,1,0.999492569171524
+ai_catalog:tool_06949,QuotesMaker,1,1,0.7181514015258074
+ai_catalog:tool_06955,Muah AI,1,1,0.9867350644080717
+ai_catalog:tool_06963,ReplyPulse,1,1,0.9663612958135085
+ai_catalog:tool_06971,Beesly,1,1,0.9999972974136552
+ai_catalog:tool_06976,Glowup AI,1,1,0.9992698471475328
+ai_catalog:tool_06980,BuniAI,1,1,0.9980764016761148
+ai_catalog:tool_06992,Shortspilot AI,1,1,0.9998765105362565
+ai_catalog:tool_06995,Dankgpt,1,1,0.9914872640240592
+ai_catalog:tool_07014,Babbl AI,1,1,0.9924698822842889
+ai_catalog:tool_07018,Kili,1,1,0.9569177104147321
+ai_catalog:tool_07021,Dashtoon,1,1,0.9977443902481351
+ai_catalog:tool_07022,FuseBase AI,1,1,0.9987747604793314
+ai_catalog:tool_07028,RecapioGPT,1,1,0.9828396400426525
+ai_catalog:tool_07030,Supafit,1,1,0.9955872957083076
+ai_catalog:tool_07032,Flowshot,1,1,0.9996932047157684
+ai_catalog:tool_07036,Blizzy,1,1,0.999986096038148
+ai_catalog:tool_07038,Fanfuel,1,1,0.9998186995465425
+ai_catalog:tool_07041,SurveyNoodle,1,1,0.9982243421208291
+ai_catalog:tool_07049,Hubit Plan,1,1,0.9667218153697715
+ai_catalog:tool_07050,Mavex,1,1,0.9968917280905772
+ai_catalog:tool_07067,AnimeMakerAI,1,1,0.99602478932243
+ai_catalog:tool_07070,Pixel Dojo,1,1,0.9970127885506078
+ai_catalog:tool_07077,Sage Marketer,1,1,0.9976396142741968
+ai_catalog:tool_07079,GreetsApp,1,1,0.9998954301065331
+ai_catalog:tool_07081,Storylist,1,1,0.9987025562369268
+ai_catalog:tool_07089,Vtopia.ai,1,1,0.9953037765418791
+ai_catalog:tool_07091,Foku,1,1,0.9972668253372119
+ai_catalog:tool_07097,Inca FM,1,1,0.9937132718947612
+ai_catalog:tool_07107,CheapIntern,1,1,0.9998042193891521
+ai_catalog:tool_07108,ROSA,1,1,0.9986018538519724
+ai_catalog:tool_07121,Tars Prime,1,1,0.9997846521091931
+ai_catalog:tool_07138,AISong.Fun,1,1,0.9998325787528322
+ai_catalog:tool_07155,OI Avatar,1,1,0.994783019091374
+ai_catalog:tool_07161,AI-girlfriend,1,1,0.9922713055663444
+ai_catalog:tool_07163,CGDream,1,1,0.999865270412796
+ai_catalog:tool_07166,Adola,1,1,0.9977819054869416
+ai_catalog:tool_07172,Wayin AI,1,1,0.9875511164229536
+ai_catalog:tool_07177,Humane AI pin,1,1,0.906931654101037
+ai_catalog:tool_07184,CueTap,1,1,0.9996751351293958
+ai_catalog:tool_07186,Sola Solutions,1,1,0.9837446133326846
+ai_catalog:tool_07192,Speechson,1,1,0.9964118597656739
+ai_catalog:tool_07196,Aili,1,1,0.9503087379759836
+ai_catalog:tool_07204,SinCode AI,1,1,0.9994229493935122
+ai_catalog:tool_07211,TattoosAI,1,1,0.9999172911686769
+ai_catalog:tool_07213,HEDWiG,1,1,0.9990765505049205
+ai_catalog:tool_07214,PitchPal,1,1,0.9987997597987613
+ai_catalog:tool_07223,Clickmajic,1,1,0.9966750026504617
+ai_catalog:tool_07228,Smartwriter,1,1,0.9914956324724605
+ai_catalog:tool_07232,Retouch Pro,1,1,0.9993777300252416
+ai_catalog:tool_07240,DXYFER,1,1,0.9813762106560924
+ai_catalog:tool_07241,Yep AI,1,1,0.9894805350176246
+ai_catalog:tool_07252,StoryChief,1,1,0.9672793027132235
+ai_catalog:tool_07275,DraftAid,1,1,0.9987770445300527
+ai_catalog:tool_07282,SalesBop,1,1,0.9883496992629095
+ai_catalog:tool_07298,Krater,1,1,0.9764186041325994
+ai_catalog:tool_07301,AppAsap,1,1,0.9965481950464898
+ai_catalog:tool_07308,Vocalo,1,1,0.9978734817436079
+ai_catalog:tool_07313,Lettria,1,1,0.9653566918406854
+ai_catalog:tool_07318,Roast Dating,1,1,0.997895400752796
+ai_catalog:tool_07322,Looti,1,1,0.9665890236882102
+ai_catalog:tool_07325,Suzan,1,1,0.9954122567843917
+ai_catalog:tool_07326,Adaptiv Me,1,1,0.9999015551982082
+ai_catalog:tool_07342,Writesparkle,1,1,0.9928938979214239
+ai_catalog:tool_07348,SmartflowAI,1,1,0.9986701604454981
+ai_catalog:tool_07349,WeMake,1,1,0.9660340681264963
+ai_catalog:tool_07353,Kua.ai,1,1,0.9921273226463233
+ai_catalog:tool_07356,LightPDF,1,1,0.9984002443723923
+ai_catalog:tool_07357,Vertexshare,1,1,0.957914132270617
+ai_catalog:tool_07373,HyreSnap,1,1,0.9969419904506541
+ai_catalog:tool_07375,MagikKraft,1,1,0.9681198857425725
+ai_catalog:tool_07384,Forewrite,1,1,0.9964373876254952
+ai_catalog:tool_07392,hirex.ai,1,1,0.9782547747351442
+ai_catalog:tool_07418,EverSQL,1,1,0.9744244158663764
+ai_catalog:tool_07424,Videotok,1,1,0.9982767771952997
+ai_catalog:tool_07427,FakeYou,1,1,0.9996776541834417
+ai_catalog:tool_07429,Flowsage,1,1,0.9955380538825144
+ai_catalog:tool_07435,Vitalentum,1,1,0.9999699081096091
+ai_catalog:tool_07444,Ringly,1,1,0.9974265777851541
+ai_catalog:tool_07456,ResuMetrics,1,1,0.9971610366498179
+ai_catalog:tool_07474,ChatWithCloud,1,1,0.9869751247383513
+ai_catalog:tool_07476,InstaGraph,1,1,0.9977318678535723
+ai_catalog:tool_07478,Ethiack,1,1,0.9682505704808214
+ai_catalog:tool_07480,MeetGeek,1,1,0.9949615191166552
+ai_catalog:tool_07484,TeleportHQ,1,1,0.9987192818515084
+ai_catalog:tool_07502,Adpost AI Chatbot,1,1,0.998986703910686
+ai_catalog:tool_07509,TapTalent,1,1,0.9983585440429285
+ai_catalog:tool_07513,Manus,1,1,0.9997311188397234
+ai_catalog:tool_07521,Harpy Chat,1,1,0.9183142308840058
+ai_catalog:tool_07527,Frank AI,1,1,0.9997540766589873
+ai_catalog:tool_07540,SPEAX,1,1,0.9764830315141952
+ai_catalog:tool_07548,BuildKeeper,1,1,0.9404771883043297
+ai_catalog:tool_07562,Botcast AI,1,1,0.9935793588814376
+ai_catalog:tool_07563,InsightBase,1,1,0.9945128868582724
+ai_catalog:tool_07570,InvictaAI,1,1,0.9996159058101239
+ai_catalog:tool_07573,Tweetify It,1,1,0.9980601780245973
+ai_catalog:tool_07576,Sense 2.0,1,1,0.994397576434737
+ai_catalog:tool_07577,Glorify,1,1,0.9909658876970491
+ai_catalog:tool_07579,AcademyOcean,1,1,0.9962571162007421
+ai_catalog:tool_07581,Strollr,1,1,0.971437184486141
+ai_catalog:tool_07582,Insightmonk,1,1,0.9953106509674727
+ai_catalog:tool_07586,Extra Blu,1,1,0.999634867538382
+ai_catalog:tool_07598,EZAi AI,1,1,0.9985762478835833
+ai_catalog:tool_07599,K8sGPT,1,1,0.9830900658953258
+ai_catalog:tool_07603,LaunchLemonade,1,1,0.9920832014951821
+ai_catalog:tool_07608,CleeAI,1,1,0.9979890694207999
+ai_catalog:tool_07609,AutoPredict,1,1,0.9998418119705679
+ai_catalog:tool_07612,Quizalize,1,1,0.7173589062353491
+ai_catalog:tool_07614,TransLinguist,1,1,0.7010880544542607
+ai_catalog:tool_07621,Woord,1,1,0.9931163320721558
+ai_catalog:tool_07622,Writtal,1,1,0.9999767203701635
+ai_catalog:tool_07626,Wondering,1,1,0.9999014306380694
+ai_catalog:tool_07627,Writerly AI,1,1,0.999688594347695
+ai_catalog:tool_07629,Skills AI Chat,1,1,0.9998070119604487
+ai_catalog:tool_07633,ThoughtSpot Sage,1,1,0.9970648564639056
+ai_catalog:tool_07634,Panjaya,1,1,0.982975238898678
+ai_catalog:tool_07645,Soundry AI,1,1,0.9951726992585175
+ai_catalog:tool_07650,Instantly,1,1,0.9058900030018667
+ai_catalog:tool_07652,Hippist,1,1,0.999961440214852
+ai_catalog:tool_07658,ContractPower,1,1,0.9991778443456684
+ai_catalog:tool_07665,Hawke AI,1,1,0.9952301565869097
+ai_catalog:tool_07678,Momentic,1,1,0.988068205474614
+ai_catalog:tool_07686,SalesBlink,1,1,0.9998393250419523
+ai_catalog:tool_07689,CustomersAI,1,1,0.9965879755108193
+ai_catalog:tool_07691,Kanaries,1,1,0.9949414653088311
+ai_catalog:tool_07699,Circleback,1,1,0.9971001197961974
+ai_catalog:tool_07701,Matilda,1,1,0.9877541018073781
+ai_catalog:tool_07709,Giftpack AI,1,1,0.9933573693642411
+ai_catalog:tool_07711,Peek,1,1,0.9990479108006421
+ai_catalog:tool_07723,iMocha,1,1,0.9977329291805634
+ai_catalog:tool_07735,Univer.se,1,1,0.9978716022330522
+ai_catalog:tool_07739,Prezo,1,1,0.9981910100734287
+ai_catalog:tool_07745,HeyGen,1,1,0.998559528060826
+ai_catalog:tool_07750,Vox by Marr Labs,1,1,0.9988288732684243
+ai_catalog:tool_07758,Databass,1,1,0.9916928791343508
+ai_catalog:tool_07762,ProMind,1,1,0.9931371480393775
+ai_catalog:tool_07772,Heartstring AI,1,1,0.9994640937096327
+ai_catalog:tool_07779,Sendbird,1,1,0.9996176384717929
+ai_catalog:tool_07784,Slidecast,1,1,0.9992312562263479
+ai_catalog:tool_07786,Automateed,1,1,0.9999021202150538
+ai_catalog:tool_07788,Reok Pro,1,1,0.989927151712879
+ai_catalog:tool_07803,UBIAI,1,1,0.9944808088184112
+ai_catalog:tool_07805,Ranked,1,1,0.9985824348343196
+ai_catalog:tool_07810,Lion Browser,1,1,0.9970260427193314
+ai_catalog:tool_07828,Elai.io,1,1,0.999783306876251
+ai_catalog:tool_07832,Exuber,1,1,0.9967773708121236
+ai_catalog:tool_07835,VectorShift,1,1,0.9851933889315411
+ai_catalog:tool_07845,Maastr,1,1,0.9730005965410139
+ai_catalog:tool_07853,Musicfy,1,1,0.9936861226182054
+ai_catalog:tool_07854,Memory Lane,1,1,0.9906238693867411
+ai_catalog:tool_07868,NameSnack,1,1,0.9941067986181964
+ai_catalog:tool_07871,Ryrob,1,1,0.9921355633883016
+ai_catalog:tool_07876,Aragon,1,1,0.997809021498364
+ai_catalog:tool_07883,Gru AI,1,1,0.9990057732715582
+ai_catalog:tool_07896,Dezgo,1,1,0.9997487813796792
+ai_catalog:tool_07897,I IMAGINE,1,1,0.9939392251792742
+ai_catalog:tool_07908,Invoke,1,1,0.9907429579322385
+ai_catalog:tool_07913,Kollegio AI,1,1,0.98598235149105
+ai_catalog:tool_07915,Kuizu,1,1,0.9976872924883795
+ai_catalog:tool_07922,Linkbot,1,1,0.9948591443662443
+ai_catalog:tool_07924,Littlebird,1,1,0.9907823086806979
+ai_catalog:tool_07927,Regie,1,1,0.997122195460522
+ai_catalog:tool_07930,FlyCode,1,1,0.9978819080076388
+ai_catalog:tool_07935,Paxton AI,1,1,0.9894080372917776
+ai_catalog:tool_07954,Espresso,1,1,0.9977441430347015
+ai_catalog:tool_07965,Ask Jules,1,1,0.9988953475616213
+ai_catalog:tool_07983,Pulse Hero,1,1,0.9573451571342475
+ai_catalog:tool_07986,Qura,1,1,0.99393551887776
+ai_catalog:tool_07991,Symbl,1,1,0.8622752672720219
+ai_catalog:tool_08003,Reform,1,1,0.9896537921162243
+ai_catalog:tool_08011,Loman,1,1,0.9994317317938308
+ai_catalog:tool_08031,Unthread,1,1,0.9926026317784892
+ai_catalog:tool_08033,Hex.tech,1,1,0.9980994139739086
+ai_catalog:tool_08039,Sounds Studio,1,1,0.9866775624457776
+ai_catalog:tool_08052,Talking Tree,1,1,0.996422857104633
+ai_catalog:tool_08056,Squigl,1,1,0.992492747307816
+ai_catalog:tool_08069,Parsers VC,1,1,0.9936184058936972
+ai_catalog:tool_08075,Fliki,1,1,0.9996337728921851
+ai_catalog:tool_08079,Fitbod,1,1,0.9872654732255483
+ai_catalog:tool_08087,UserTesting,1,1,0.9678884785778522
+ai_catalog:tool_08096,Vantage Discovery,1,1,0.9975761549147842
+ai_catalog:tool_08097,Vectr,1,1,0.8418872897939421
+ai_catalog:tool_08110,Brewit,1,1,0.9998092585003252
+ai_catalog:tool_08112,Potis,1,1,0.9892187289506477
+ai_catalog:tool_08120,McAnswers,1,1,0.9986718779463721
+ai_catalog:tool_08124,Asseter,1,1,0.9971513298493704
+ai_catalog:tool_08132,DigenAI,1,1,0.9988116496970468
+ai_catalog:tool_08135,AI App Icons,1,1,0.9985712651288847
+ai_catalog:tool_08143,AI PDF Summarizer,1,1,0.9982015290263709
+ai_catalog:tool_08148,CallBud,1,1,0.9991932321183735
+ai_catalog:tool_08166,Kidotail AI,1,1,0.9999387584524937
+ai_catalog:tool_08173,Review Radar,1,1,0.9637661213379398
+ai_catalog:tool_08191,TaskAGI,1,1,0.9428563232841344
+ai_catalog:tool_08193,Diffusion.gg,1,1,0.9937043825840772
+ai_catalog:tool_08195,Artypa,1,1,0.9972956531138668
+ai_catalog:tool_08199,xMagic,1,1,0.9759634997599382
+ai_catalog:tool_08212,Vidix,1,1,0.9996220275869111
+ai_catalog:tool_08226,Yacss,1,1,0.9777881798323861
+ai_catalog:tool_08232,COUNT,1,1,0.9949457313064862
+ai_catalog:tool_08235,Axcent,1,1,0.9784328720468973
+ai_catalog:tool_08251,SkyMusic,1,1,0.9999339250868672
+ai_catalog:tool_08262,Castpush,1,1,0.9632281081520415
+ai_catalog:tool_08290,The DocGPT,1,1,0.9972631741810682
+ai_catalog:tool_08296,Winchat,1,1,0.9930119628717553
+ai_catalog:tool_08298,ColossalChat,1,1,0.9999301300672393
+ai_catalog:tool_08302,ChatPDF.ae,1,1,0.988206293422042
+ai_catalog:tool_08307,Mochi,1,1,0.9997350760886491
+ai_catalog:tool_08309,BlogSmith,1,1,0.9471415422097681
+ai_catalog:tool_08320,Opinoz,1,1,0.9912640031048946
+ai_catalog:tool_08321,Joi AI,1,1,0.9890427205352628
+ai_catalog:tool_08330,Rochat,1,1,0.9981665042856873
+ai_catalog:tool_08358,Emma AI,1,1,0.9999288392567847
+ai_catalog:tool_08363,BeGenieUs,1,1,0.9973605370261305
+ai_catalog:tool_08368,Edge Dance,1,1,0.9976822909674098
+ai_catalog:tool_08377,Beemer,1,1,0.989896555768037
+ai_catalog:tool_08379,Orb Producer,1,1,0.9895558232790871
+ai_catalog:tool_08385,JocondeAI,1,1,0.99983220073517
+ai_catalog:tool_08386,LegenDraw,1,1,0.9993291371138707
+ai_catalog:tool_08393,Taleblocks,1,1,0.99921837167432
+ai_catalog:tool_08405,Lexy,1,1,0.9954885227077089
+ai_catalog:tool_08420,Faqmy.website,1,1,0.9849729882170002
+ai_catalog:tool_08424,DollMe,1,1,0.9966631266624535
+ai_catalog:tool_08428,Iconik,1,1,0.9846561186804978
+ai_catalog:tool_08436,Neuralmind,1,1,0.9931567947347838
+ai_catalog:tool_08439,DatePlanner,1,1,0.9907488131637551
+ai_catalog:tool_08443,The Trip Boutique,1,1,0.9991076517600114
+ai_catalog:tool_08448,Roast My Desk,1,1,0.9864924791502827
+ai_catalog:tool_08451,Shuttle,1,1,0.994619977533151
+ai_catalog:tool_08468,Vestium AI,1,1,0.9954222716875674
+ai_catalog:tool_08485,Eddie AI,1,1,0.9977108742203168
+ai_catalog:tool_08493,Klarity,1,1,0.9949128463799252
+ai_catalog:tool_08508,Regex,1,1,0.9940671996434638
+ai_catalog:tool_08513,AIby.email,1,1,0.9898157299866701
+ai_catalog:tool_08514,Therapise,1,1,0.9973682289234651
+ai_catalog:tool_08518,Glitching,1,1,0.9955840219786176
+ai_catalog:tool_08519,Linked Forge,1,1,0.99857760913842
+ai_catalog:tool_08532,Prompt Genie,1,1,0.9981215143533216
+ai_catalog:tool_08533,ChatViz,1,1,0.99405713327838
+ai_catalog:tool_08536,Endless Academy,1,1,0.9978223948476785
+ai_catalog:tool_08544,Viroll,1,1,0.9953176353709563
+ai_catalog:tool_08549,BrainyAI,1,1,0.9985207194313074
+ai_catalog:tool_08567,Allie,1,1,0.8356537957897965
+ai_catalog:tool_08585,SmoothAI.Chat,1,1,0.9972157347623308
+ai_catalog:tool_08588,Steve AI,1,1,0.9993479373012035
+ai_catalog:tool_08591,Gaslighting Check,1,1,0.9899198304789891
+ai_catalog:tool_08593,Boostrbot,1,1,0.9990020066534832
+ai_catalog:tool_08599,Sketch2App,1,1,0.998900136689998
+ai_catalog:tool_08604,Profile Avatar AI,1,1,0.996765931328323
+ai_catalog:tool_08607,Slides Bot,1,1,0.9977793240485413
+ai_catalog:tool_08611,MonsterImage,1,1,0.9995143790836407
+ai_catalog:tool_08621,Terapulse,1,1,0.9973002774884551
+ai_catalog:tool_08627,SaaS Forge,1,1,0.9994661590212903
+ai_catalog:tool_08633,BingBangAI,1,1,0.9981011633172315
+ai_catalog:tool_08638,Beatsbrew,1,1,0.9967063609760455
+ai_catalog:tool_08643,BuzzWorthy,1,1,0.9963775151799431
+ai_catalog:tool_08647,Logolivery,1,1,0.9966811617008474
+ai_catalog:tool_08650,Welltested,1,1,0.9958168101216409
+ai_catalog:tool_08652,ChatKG,1,1,0.9540530129933207
+ai_catalog:tool_08654,Post Parrot,1,1,0.9964379226778542
+ai_catalog:tool_08657,Flawless.is,1,1,0.9993926303537908
+ai_catalog:tool_08668,GitHub Spark,1,1,0.9589179179153796
+ai_catalog:tool_08672,GoThumbnails,1,1,0.9956209022989365
+ai_catalog:tool_08675,Chat Ever After,1,1,0.9928170887148884
+ai_catalog:tool_08681,Harmoniq AI,1,1,0.9942668013791514
+ai_catalog:tool_08685,Applicado,1,1,0.982893523463046
+ai_catalog:tool_08687,HoldSpeak,1,1,0.935490895014918
+ai_catalog:tool_08690,RemodelAI,1,1,0.9810640609062724
+ai_catalog:tool_08691,Glowup AI,1,1,0.9868831386786968
+ai_catalog:tool_08697,HeroST,1,1,0.9957294043087777
+ai_catalog:tool_08701,Stable Diffusion API,1,1,0.9988915915423094
+ai_catalog:tool_08702,Pixelcode,1,1,0.9889837630693031
+ai_catalog:tool_08704,PixelVibe,1,1,0.9993438749626353
+ai_catalog:tool_08705,IDjpg,1,1,0.9993438749626353
+ai_catalog:tool_08710,Practicetalking,1,1,0.9896899991797186
+ai_catalog:tool_08711,Brance,1,1,0.9971194510556562
+ai_catalog:tool_08718,Decision,1,1,0.9890419231497415
+ai_catalog:tool_08733,Nunchi,1,1,0.9755306473568236
+ai_catalog:tool_08735,Innhold.ai,1,1,0.9989800987718747
+ai_catalog:tool_08739,GasbyAI,1,1,0.9922302049004862
+ai_catalog:tool_08742,Qaiz,1,1,0.9977109085961683
+ai_catalog:tool_08744,Lovegenius,1,1,0.9971141053493704
+ai_catalog:tool_08748,Warmest,1,1,0.9996754567056841
+ai_catalog:tool_08762,Jack-O-Lantern Ai,1,1,0.9941896898734626
+ai_catalog:tool_08764,JoJo,1,1,0.9867870738313049
+ai_catalog:tool_08769,VocaBuddy,1,1,0.9925379296660118
+ai_catalog:tool_08771,LeadTalk,1,1,0.9988053118477019
+ai_catalog:tool_08772,Legal AI,1,1,0.9932437967957416
+ai_catalog:tool_08774,Fleso,1,1,0.9962417716322637
+ai_catalog:tool_08785,LogoPicture AI,1,1,0.9929389977155676
+ai_catalog:tool_08801,AngryGF,1,1,0.9886262419041256
+ai_catalog:tool_08808,PicWonderful,1,1,0.999904746553258
+ai_catalog:tool_08814,AI Baby Generator,1,1,0.9958772850823324
+ai_catalog:tool_08822,Semafind,1,1,0.9868156107297459
+ai_catalog:tool_08844,Outpost CRM,1,1,0.9981356156415805
+ai_catalog:tool_08891,Officely AI,1,1,0.9983961703020088
+ai_catalog:tool_08893,AssortMail,1,1,0.9822712293388971
+ai_catalog:tool_08911,Floom,1,1,0.9990893010062589
+ai_catalog:tool_08914,OwnAI,1,1,0.9574065916942851
+ai_catalog:tool_08923,Chaperoned,1,1,0.997398887565423
+ai_catalog:tool_08926,TuneGPT,1,1,0.9933617777629733
+ai_catalog:tool_08930,DilGPT,1,1,0.9984152360323421
+ai_catalog:tool_08937,Guidenco,1,1,0.997090967619468
+ai_catalog:tool_08953,Prepair.dev,1,1,0.9857681211549245
+ai_catalog:tool_08961,Creatie,1,1,0.9992750153949707
+ai_catalog:tool_08969,NOLU,1,1,0.9658007347860271
+ai_catalog:tool_08972,Mapwith.ai,1,1,0.99602800591571
+ai_catalog:tool_08981,Deeper,1,1,0.9992331389770207
+ai_catalog:tool_08990,Taste Bud,1,1,0.9873347528366614
+ai_catalog:tool_09000,Reply Boy,1,1,0.9909080098351284
+ai_catalog:tool_09002,TuneBlades,1,1,0.9918628344634349
+ai_catalog:tool_09007,DeftGPT,1,1,0.9966123736921693
+ai_catalog:tool_09021,Scourhead,1,1,0.7820590635183201
+ai_catalog:tool_09026,Upreach,1,1,0.9959646819874209
+ai_catalog:tool_09030,ThemeAI,1,1,0.9978831374253948
+ai_catalog:tool_09031,FlixFind,1,1,0.9979116819077949
+ai_catalog:tool_09040,Bezly,1,1,0.9868568124774798
+ai_catalog:tool_09041,Groupt,1,1,0.9927891959622919
+ai_catalog:tool_09045,Hackers Dev,1,1,0.9868867944791387
+ai_catalog:tool_09047,ChatSMB,1,1,0.9891587795051255
+ai_catalog:tool_09048,Smart Palette,1,1,0.998374359210033
+ai_catalog:tool_09068,Architectgpt,1,1,0.9871703914025368
+ai_catalog:tool_09079,FoldSum,1,1,0.9439170742017462
+ai_catalog:tool_09091,Weekly Workout,1,1,0.9935769392475019
+ai_catalog:tool_09094,Endoftext,1,1,0.9381648495475907
+ai_catalog:tool_09096,Talk to Tala,1,1,0.9990928341101124
+ai_catalog:tool_09104,TestScribe AI,1,1,0.9970855840656221
+ai_catalog:tool_09109,TextSmith,1,1,0.9992194350204587
+ai_catalog:tool_09115,Devv,1,1,0.9934651142858784
+ai_catalog:tool_09117,GOPilotX,1,1,0.9847930606367163
+ai_catalog:tool_09119,TheraPulse,1,1,0.9759388374288954
+ai_catalog:tool_09123,Voice Vault,1,1,0.9951053201595189
+ai_catalog:tool_09129,OdysseyGPT,1,1,0.9992878958651632
+ai_catalog:tool_09138,AudioBot,1,1,0.9991709988983767
+ai_catalog:tool_09141,GPTURER,1,1,0.9942729079243474
+ai_catalog:tool_09144,Chat2Design,1,1,0.9998314453591487
+ai_catalog:tool_09146,AIPetAvatar,1,1,0.9983839646771574
+ai_catalog:tool_09147,Cognify Studio,1,1,0.9999008707459589
+ai_catalog:tool_09149,BrickCenter,1,1,0.9995491672205168
+ai_catalog:tool_09163,Wondercraft,1,1,0.9949387648284572
+ai_catalog:tool_09174,SeeDream 4,1,1,0.9987360983733002
+ai_catalog:tool_09181,Undetected,1,1,0.9422266443662115
+ai_catalog:tool_09183,Arcanium,1,1,0.9344314044486254
+ai_catalog:tool_09192,Genzart,1,1,0.9963624647827625
+ai_catalog:tool_09205,HeroPack,1,1,0.9843117333332544
+ai_catalog:tool_09208,Validated AI,1,1,0.9947032486891974
+ai_catalog:tool_09211,Verdikta,1,1,0.9904732056578041
+ai_catalog:tool_09217,VideoTube,1,1,0.9971965526464376
+ai_catalog:tool_09223,Twinning,1,1,0.9753836925105864
+ai_catalog:tool_09231,WooTechy VoxDo,1,1,0.9980827485957388
+ai_catalog:tool_09241,WhisperClip,1,1,0.9904003677066898
+ai_catalog:tool_09259,CalGPT,1,1,0.9997038722501994
+ai_catalog:tool_09260,Prismix,1,1,0.9997126452598444
+ai_catalog:tool_09262,Check Typo,1,1,0.9999461105545837
+ai_catalog:tool_09263,Travel Buddy AI,1,1,0.9999520004399612
+ai_catalog:tool_09265,Wondertales,1,1,0.9717133966441462
+ai_catalog:tool_09272,Template Prompts,1,1,0.9998457076699634
+ai_catalog:tool_09273,SkillMe,1,1,0.9990434457320447
+ai_catalog:tool_09278,KeyPush,1,1,0.9992578523310239
+ai_catalog:tool_09288,Blend AI,1,1,0.9961055683995548
+ai_catalog:tool_09299,Released,1,1,0.991137429841681
+ai_catalog:tool_09305,Oscar,1,1,0.9935320975864905
+ai_catalog:tool_09311,GetGenie,1,1,0.9965384139128411
+ai_catalog:tool_09319,Tubly,1,1,0.9927356080664679
+ai_catalog:tool_09326,Ultra-Attention,1,1,0.9846719255980783
+ai_catalog:tool_09344,Paragraph AI,1,1,0.9995282305743396
+ai_catalog:tool_09346,ZetaForge,1,1,0.994227571883651
+ai_catalog:tool_09347,AroundDeal,1,1,0.996216301911898
+ai_catalog:tool_09349,Sulie,1,1,0.9996913080892457
+ai_catalog:tool_09358,Unschooler,1,1,0.9450178716605322
+ai_catalog:tool_09364,Zendiary,1,1,0.9995833333713006
+ai_catalog:tool_09370,Flytrap AI,1,1,0.9965441744678637
+ai_catalog:tool_09373,Scope Money,1,1,0.99997416107038
+ai_catalog:tool_09377,CopyFrog,1,1,0.9969789357681931
+ai_catalog:tool_09378,Powder,1,1,0.9815326289993703
+ai_catalog:tool_09382,SourceAI,1,1,0.9870879288050337
+ai_catalog:tool_09383,Blogster,1,1,0.9997911216795182
+ai_catalog:tool_09384,Mexty,1,1,0.9963440545739662
+ai_catalog:tool_09389,SnapCall,1,1,0.980996880975632
+ai_catalog:tool_09410,SnackzAI,1,1,0.9967218536848839
+ai_catalog:tool_09415,RhetorAI,1,1,0.9987042544852737
+ai_catalog:tool_09417,PencilsOut,1,1,0.9995371734354725
+ai_catalog:tool_09425,Videoleap,1,1,0.9735059405732871
+ai_catalog:tool_09428,Yarnit,1,1,0.9474578577415919
+ai_catalog:tool_09449,FeedLens,1,1,0.9817169687454116
+ai_catalog:tool_09450,Floworks,1,1,0.9912754335546515
+ai_catalog:tool_09452,UberCreate,1,1,0.9981424355775201
+ai_catalog:tool_09453,Bogar,1,1,0.9985923448023669
+ai_catalog:tool_09456,Hybrid Chat,1,1,0.9870884382200514
+ai_catalog:tool_09469,TutorBin,1,1,0.994885572155161
+ai_catalog:tool_09473,DreamUp,1,1,0.9985467113463368
+ai_catalog:tool_09480,Kypso,1,1,0.9713244653583558
+ai_catalog:tool_09482,Pecan AI,1,1,0.9965295752606186
+ai_catalog:tool_09485,Tiledesk,1,1,0.9994507261391166
+ai_catalog:tool_09486,Arthemy,1,1,0.9980874911165925
+ai_catalog:tool_09488,Dende Quiz Maker,1,1,0.9990846001309545
+ai_catalog:tool_09491,MisterCMO,1,1,0.9635048695799711
+ai_catalog:tool_09492,Equixly,1,1,0.6294628353185149
+ai_catalog:tool_09504,Duckduckgoose,1,1,0.9976535449048475
+ai_catalog:tool_09514,Veg3,1,1,0.9764586567475662
+ai_catalog:tool_09517,Instantapply,1,1,0.9809111428468268
+ai_catalog:tool_09540,ProNoto,1,1,0.9992107239806669
+ai_catalog:tool_09543,Mindreader,1,1,0.9989381537124784
+ai_catalog:tool_09544,Newroom,1,1,0.9830304295342397
+ai_catalog:tool_09548,OnlyPrompts,1,1,0.9948029506132072
+ai_catalog:tool_09560,Pixly.app,1,1,0.9998383686513843
+ai_catalog:tool_09575,Emplibot,1,1,0.993837846336715
+ai_catalog:tool_09584,Smallpdf AI PDF Assistant,1,1,0.9991125585625324
+ai_catalog:tool_09601,Pikzels,1,1,0.9979657087769863
+ai_catalog:tool_09626,VERBATIK,1,1,0.9910019692806756
+ai_catalog:tool_09628,Mila,1,1,0.9844528767424804
+ai_catalog:tool_09629,Superflows,1,1,0.9998955892609188
+ai_catalog:tool_09630,Luxi,1,1,0.9960054622180654
+ai_catalog:tool_09635,Outbase,1,1,0.9118542421925867
+ai_catalog:tool_09636,BeyondWords,1,1,0.9936804818131197
+ai_catalog:tool_09641,Snap Enhancer,1,1,0.9938775157277621
+ai_catalog:tool_09648,V7Labs,1,1,0.964291283949509
+ai_catalog:tool_09650,Re-View,1,1,0.9594731906542266
+ai_catalog:tool_09662,Affil.ai,1,1,0.9836195557841163
+ai_catalog:tool_09669,Pluto,1,1,0.9994232361638469
+ai_catalog:tool_09672,Traversaal,1,1,0.9999875560636009
+ai_catalog:tool_09686,Shader App,1,1,0.998778993209365
+ai_catalog:tool_09693,Aura.com,1,1,0.7267460285942202
+ai_catalog:tool_09712,ShadowDo,1,1,0.9988394001322332
+ai_catalog:tool_09713,Raizer,1,1,0.9665278066224398
+ai_catalog:tool_09717,Potion,1,1,0.9984234830529384
+ai_catalog:tool_09718,Search Candy,1,1,0.9999423128776472
+ai_catalog:tool_09721,Fal.ai,1,1,0.9961135994413433
+ai_catalog:tool_09723,Tradytics,1,1,0.9685420702817364
+ai_catalog:tool_09726,AgentX,1,1,0.99834927278034
+ai_catalog:tool_09735,AskGen.ie,1,1,0.9943946837076085
+ai_catalog:tool_09740,Autonoma,1,1,0.998416237738743
+ai_catalog:tool_09743,ComfyUI,1,1,0.9410953755762084
+ai_catalog:tool_09745,Papertalk,1,1,0.996757128446124
+ai_catalog:tool_09750,Sisense,1,1,0.9998417742320902
+ai_catalog:tool_09751,Rephrase,1,1,0.9990308495754362
+ai_catalog:tool_09766,Distribute,1,1,0.9849297978892017
+ai_catalog:tool_09776,Insight7,1,1,0.9970833010972642
+ai_catalog:tool_09782,Decipher,1,1,0.9952786395055263
+ai_catalog:tool_09783,VoiceDrop,1,1,0.9963534971043834
+ai_catalog:tool_09786,OtisAI,1,1,0.9670660404530286
+ai_catalog:tool_09787,Muraena,1,1,0.9977046522292271
+ai_catalog:tool_09792,Archbee,1,1,0.9815668888458134
+ai_catalog:tool_09794,Dresma,1,1,0.9929113163581906
+ai_catalog:tool_09802,Anakin,1,1,0.9954454652081566
+ai_catalog:tool_09805,Relicx,1,1,0.9935781241681039
+ai_catalog:tool_09812,Elythea,1,1,0.8518212147416939
+ai_catalog:tool_09834,Fastrak AI,1,1,0.9685424335714864
+ai_catalog:tool_09841,Forloop,1,1,0.9318387742842177
+ai_catalog:tool_09846,COHEZION,1,1,0.9920876551948736
+ai_catalog:tool_09847,SOAP Note AI,1,1,0.9984916987023066
+ai_catalog:tool_09860,Kintsugi,1,1,0.9736628436002532
+ai_catalog:tool_09863,Grain AI,1,1,0.9992462620318959
+ai_catalog:tool_09867,HomeScore,1,1,0.9932189689384383
+ai_catalog:tool_09872,Hubflo,1,1,0.6739968398709486
+ai_catalog:tool_09874,Baseten,1,1,0.9997487813796792
+ai_catalog:tool_09884,GoLinks,1,1,0.9086518277005106
+ai_catalog:tool_09886,ViGi,1,1,0.9996347015945781
+ai_catalog:tool_09898,Legaliser,1,1,0.9935426139288499
+ai_catalog:tool_09901,Lighthouz AI,1,1,0.8578118634789904
+ai_catalog:tool_09903,Dreamup,1,1,0.9974732503583186
+ai_catalog:tool_09904,Lindy,1,1,0.9926822823559183
+ai_catalog:tool_09915,March Health,1,1,0.9528729872706417
+ai_catalog:tool_09919,Emvoice,1,1,0.9782067473567612
+ai_catalog:tool_09927,Cast.app,1,1,0.9956446261331994
+ai_catalog:tool_09950,Sprig,1,1,0.9694221951061539
+ai_catalog:tool_09954,ifalloo,1,1,0.9986156400254754
+ai_catalog:tool_09968,SPREEV,1,1,0.7234900798694806
+ai_catalog:tool_09971,Poseidon,1,1,0.989243903419521
+ai_catalog:tool_09972,PowderFi,1,1,0.9808343282177288
+ai_catalog:tool_09974,HereAfter AI,1,1,0.9981254700297617
+ai_catalog:tool_09978,Empy,1,1,0.9861525347924699
+ai_catalog:tool_09979,QRev,1,1,0.9973422025770334
+ai_catalog:tool_09983,Dreamwave,1,1,0.9975919358575048
+ai_catalog:tool_10000,CitizenPortal,1,1,0.9963598480938551
+ai_catalog:tool_10013,CommodityAI,1,1,0.999642892691655
+ai_catalog:tool_10021,Story.com,1,1,0.9932423439708689
+ai_catalog:tool_10023,InboxPro,1,1,0.9979856381238154
+ai_catalog:tool_10027,Bloon AI,1,1,0.999756250148325
+ai_catalog:tool_10029,Deepswap,1,1,0.8898338254753232
+ai_catalog:tool_10031,StoryBee,1,1,0.9910754208016869
+ai_catalog:tool_10036,Tars,1,1,0.9936936109888753
+ai_catalog:tool_10039,Siena CX,1,1,0.6323703442587639
+ai_catalog:tool_10042,PerfectBot,1,1,0.9956225871663508
+ai_catalog:tool_10050,Lotlinx,1,1,0.9880384201885798
+ai_catalog:tool_10056,Augxlabs,1,1,0.9975855208858626
+ai_catalog:tool_10060,FGenEds,1,1,0.9968680039981945
+ai_catalog:tool_10081,Wordtune,1,1,0.9993445385824268
+ai_catalog:tool_10086,Maia,1,1,0.999400233921612
+ai_catalog:tool_10095,JotBot,1,1,0.9999792536310115
+ai_catalog:tool_10096,MyCody,1,1,0.997021876148188
+ai_catalog:tool_10098,Zetta,1,1,0.7917431571908675
+ai_catalog:tool_10099,Zivy,1,1,0.9965871136938099
+ai_catalog:tool_10114,CloudStudio,1,1,0.9947956810059235
+ai_catalog:tool_10119,UltraAI,1,1,0.9996759850780512
+ai_catalog:tool_10124,AI Hug,1,1,0.9682858062953341
+ai_catalog:tool_10134,Flowlist,1,1,0.9836040187652011
+ai_catalog:tool_10142,SaaSQuick,1,1,0.9998255140030275
+ai_catalog:tool_10146,FileFolder,1,1,0.9969748129227333
+ai_catalog:tool_10162,Walles,1,1,0.9962131440937008
+ai_catalog:tool_10176,Chat GPT Photos,1,1,0.9846705835068542
+ai_catalog:tool_10182,Write Panda,1,1,0.9970059269691205
+ai_catalog:tool_10190,MAIHEM,1,1,0.9998555237011015
+ai_catalog:tool_10204,ChatRealtor,1,1,0.9924725094491633
+ai_catalog:tool_10219,Automina,1,1,0.9174330682024359
+ai_catalog:tool_10220,Otto Engineer,1,1,0.9674430786985397
+ai_catalog:tool_10222,Axon,1,1,0.9901896143749652
+ai_catalog:tool_10235,CompanyDocsGPT,1,1,0.9997714137339334
+ai_catalog:tool_10236,AdCopy,1,1,0.9990871751408582
+ai_catalog:tool_10240,Podify.io,1,1,0.9991076065881738
+ai_catalog:tool_10242,insMind,1,1,0.9995944668822321
+ai_catalog:tool_10267,UserSketch,1,1,0.9720722637508385
+ai_catalog:tool_10287,Fiction Fusion,1,1,0.9953487384777027
+ai_catalog:tool_10290,ComicSpin,1,1,0.9949137748605829
+ai_catalog:tool_10293,Pricein,1,1,0.9928429026930888
+ai_catalog:tool_10305,PDF2Anki,1,1,0.9934076906161107
+ai_catalog:tool_10307,TTSVox,1,1,0.9969281651839194
+ai_catalog:tool_10326,Artroom,1,1,0.9974897354497991
+ai_catalog:tool_10348,Limnr,1,1,0.999186954389174
+ai_catalog:tool_10352,Headshot Studio,1,1,0.9994692134809969
+ai_catalog:tool_10358,HiddenArt,1,1,0.9986033741557718
+ai_catalog:tool_10364,FacelessVideos.AI,1,1,0.9895659858396184
+ai_catalog:tool_10373,Polarr Copilot,1,1,0.9986104428443556
+ai_catalog:tool_10379,Snape,1,1,0.9994185138215115
+ai_catalog:tool_10380,Seedley,1,1,0.9998580857830528
+ai_catalog:tool_10381,Toolbuilder,1,1,0.9971579507603358
+ai_catalog:tool_10389,Blozum,1,1,0.9926212773148769
+ai_catalog:tool_10392,ChatbotGPT,1,1,0.9972655897480023
+ai_catalog:tool_10394,SuperDash,1,1,0.9975038777166956
+ai_catalog:tool_10401,EverLearns,1,1,0.9977259779700812
+ai_catalog:tool_10411,DealCoach,1,1,0.9960999896084923
+ai_catalog:tool_10431,LatextAI,1,1,0.9980834627643727
+ai_catalog:tool_10435,Lina.Place,1,1,0.9995593848329438
+ai_catalog:tool_10455,DubWiz,1,1,0.995978000494972
+ai_catalog:tool_10457,niia by navan.ai,1,1,0.9756841635049782
+ai_catalog:tool_10463,Eleven Music,1,1,0.9977229299323942
+ai_catalog:tool_10467,Emmo,1,1,0.991803472965932
+ai_catalog:tool_10510,Zelma,1,1,0.9908859291505284
+ai_catalog:tool_10512,Neverscene,1,1,0.9953211393089517
+ai_catalog:tool_10521,Kiti,1,1,0.9944570547583679
+ai_catalog:tool_10536,Shapemate,1,1,0.996632755081551
+ai_catalog:tool_10537,Flexi Cards,1,1,0.9960376321177783
+ai_catalog:tool_10544,NeuralPix,1,1,0.9981517802609854
+ai_catalog:tool_10545,CheckforAi,1,1,0.9804343965856526
+ai_catalog:tool_10546,Askailawyer,1,1,0.9745829873621504
+ai_catalog:tool_10552,Tensor.Art,1,1,0.993123785237898
+ai_catalog:tool_10559,RedCom,1,1,0.997920219038082
+ai_catalog:tool_10563,Visionmorpher,1,1,0.9998497648089775
+ai_catalog:tool_10564,Stable Audio,1,1,0.9968390376712314
+ai_catalog:tool_10571,Wiseses,1,1,0.9996672175298734
+ai_catalog:tool_10574,Ideas Generator,1,1,0.9997448909102212
+ai_catalog:tool_10577,Typingflow,1,1,0.9962869017588539
+ai_catalog:tool_10580,Deepdreamgenerator,1,1,0.9995736477978101
+ai_catalog:tool_10588,SquadGPT,1,1,0.9904639277359042
+ai_catalog:tool_10609,Giftassistant,1,1,0.9910869641675205
+ai_catalog:tool_10630,Twixify,1,1,0.9990904793126467
+ai_catalog:tool_10668,inker.ai,1,1,0.9987186877955897
+ai_catalog:tool_10671,InstaBotGPT,1,1,0.99839283211352
+ai_catalog:tool_10676,InstantMind,1,1,0.9967361812170868
+ai_catalog:tool_10677,InstaRoom,1,1,0.9487781327248415
+ai_catalog:tool_10680,eBook Chessvision,1,1,0.9955769598395922
+ai_catalog:tool_10689,IsOn24,1,0,0.3369651576611458
+ai_catalog:tool_10694,Kaomoji,1,1,0.9855225522584301
+ai_catalog:tool_10697,Klyra AI,1,1,0.9969398706029575
+ai_catalog:tool_10706,Parlay,1,1,0.9996282549198383
+ai_catalog:tool_10715,Image Recursor,1,1,0.9711917279344966
+ai_catalog:tool_10726,LoRA Tag,1,1,0.9996586374404757
+ai_catalog:tool_10731,MagicTrips,1,1,0.9861594178577395
+ai_catalog:tool_10745,MCP Showcase,1,1,0.561455680795299
+ai_catalog:tool_10755,Twinsync,1,1,0.9899977071127826
+ai_catalog:tool_10760,MultipleChat,1,1,0.9674170173378687
+ai_catalog:tool_10762,My Hacker News,1,1,0.9930509577152699
+ai_catalog:tool_10764,MyMathSolver,1,1,0.9862391911597252
+ai_catalog:tool_10767,Generative Press,1,1,0.9941759549920799
+ai_catalog:tool_10841,ReAPI,1,1,0.9977260019423551
+ai_catalog:tool_10842,WiseWriter,1,1,0.9817730183561608
+ai_catalog:tool_10847,Epicmatic,1,1,0.9913846857834225
+ai_catalog:tool_10859,Personalities.ME,1,1,0.9927613128480953
+ai_catalog:tool_10860,Pixiboo,1,1,0.9956566423239178
+ai_catalog:tool_10863,ElfMessages,1,1,0.9952717136153557
+ai_catalog:tool_10864,RingleDingle,1,1,0.9979099028985495
+ai_catalog:tool_10867,Lucid Beads,1,1,0.9990590518088878
+ai_catalog:tool_10868,PhotogenicAI,1,1,0.9987367783490786
+ai_catalog:tool_10878,Pawtrait Studio,1,1,0.968077498470213
+ai_catalog:tool_10891,Roamr,1,1,0.9842386858212618
+ai_catalog:tool_10893,Scispace,1,1,0.9290427943404943
+ai_catalog:tool_10900,Speqy AI,1,1,0.992353269007012
+ai_catalog:tool_10902,Stocknear,1,1,0.9960819422232668
+ai_catalog:tool_10913,PromptVibe,1,1,0.9973136511681575
+ai_catalog:tool_10928,QuickScreen,1,1,0.9972458258784125
+ai_catalog:tool_10931,Rabbit Reader,1,1,0.9895053264172844
+ai_catalog:tool_10936,Listingcopy,1,1,0.9936324936449564
+ai_catalog:tool_10937,Smartbids,1,1,0.9938973780026926
+ai_catalog:tool_10944,Recruit CRM,1,1,0.8662166350304195
+ai_catalog:tool_10948,Unscreen,1,1,0.9258332325203503
+ai_catalog:tool_10954,AutoRepurpose AI,1,1,0.994374677969398
+ai_catalog:tool_10958,SceneryAI,1,1,0.9998473165137297
+ai_catalog:tool_10960,ChatYourExcel,1,1,0.9986651865008233
+ai_catalog:tool_10965,Goaler,1,1,0.9993988639660757
+ai_catalog:tool_10979,Options Elevated,1,1,0.9639000137293853
+ai_catalog:tool_10980,ragobble,1,1,0.9990796620022364
+ai_catalog:tool_10983,Sequel,1,1,0.9961304360757192
+ai_catalog:tool_10986,DeckBird,1,1,0.9952518894526762
+ai_catalog:tool_10998,PandaChat,1,1,0.9971034734619899
+ai_catalog:tool_11003,SmartDoc AI,1,1,0.9971217306209462
+ai_catalog:tool_11006,SmartVisuals,1,1,0.998689217350409
+ai_catalog:tool_11011,Sonar by Perplexity,1,1,0.9659252412147972
+ai_catalog:tool_11012,Lemonfox,1,1,0.9989549285005981
+ai_catalog:tool_11015,Spreadsite,1,1,0.9984910001639307
+ai_catalog:tool_11037,ContractCrab,1,1,0.9964978128867336
+ai_catalog:tool_11039,Papper,1,1,0.997514120789577
+ai_catalog:tool_11048,TalkText,1,1,0.9209518571143889
+ai_catalog:tool_11049,Tami Reader,1,1,0.9910853354565677
+ai_catalog:tool_11051,TeamCheck,1,1,0.9908414780876548
+ai_catalog:tool_11062,Thinkercan,1,1,0.9844814897972104
+ai_catalog:tool_11064,Thumbspot,1,1,0.9927242198961023
+ai_catalog:tool_11070,RankRaven,1,1,0.9964785744296615
+ai_catalog:tool_11071,HumanizeAI Tools,1,1,0.9996635210049802
+ai_catalog:tool_11089,Storynest,1,1,0.9999574698604896
+ai_catalog:tool_11092,Lectura,1,1,0.9966501034669635
+ai_catalog:tool_11093,Gatekeep,1,1,0.9987086545822602
+ai_catalog:tool_11094,Weploy,1,1,0.9950093699048244
+ai_catalog:tool_11102,Knowmore,1,1,0.9912583157862694
+ai_catalog:tool_11104,MiniFigureAI,1,1,0.9994625237918935
+ai_catalog:tool_11107,Tygra,1,1,0.9900916608398163
+ai_catalog:tool_11108,SDK vercel,1,1,0.99762675107532
+ai_catalog:tool_11110,JotPro,1,1,0.9973827544865057
+ai_catalog:tool_11123,HelpyAI,1,1,0.9983749706125397
+ai_catalog:tool_11126,Fitnetic,1,1,0.9906925418390676
+ai_catalog:tool_11138,Fliz,1,1,0.9973246893386519
+ai_catalog:tool_11144,UseResume,1,1,0.9987282064069627
+ai_catalog:tool_11148,VanChat,1,1,0.9966625068324872
+ai_catalog:tool_11154,Verisquad,1,1,0.9864136200743753
+ai_catalog:tool_11165,Hairpaca,1,1,0.9963179594519511
+ai_catalog:tool_11189,YouNeedAnAISocialClone,1,1,0.9969901381745272
+ai_catalog:tool_11190,Meeko,1,1,0.9975789084771217
+ai_catalog:tool_11214,ZoomScape,1,1,0.9842896354898348
+ai_catalog:tool_11218,Tango,1,1,0.9376154095873256
+ai_catalog:tool_11219,QuantPlus,1,1,0.999606176400968
+ai_catalog:tool_11222,PatientNotes,1,1,0.9953785416993078
+ai_catalog:tool_11224,ScreenApp,1,1,0.9797227630958232
+ai_catalog:tool_11234,Open Knowledge Maps,1,1,0.9896331298626022
+ai_catalog:tool_11240,iplan,1,1,0.986399883987756
+ai_catalog:tool_11245,Perfectly Clear,1,1,0.9899379118546845
+ai_catalog:tool_11247,Penseum,1,1,0.9973062861116182
+ai_catalog:tool_11248,Younet,1,1,0.9993803367741695
+ai_catalog:tool_11249,Tootler,1,1,0.9973945002660474
+ai_catalog:tool_11251,PrivateGPT,1,1,0.9864645970358077
+ai_catalog:tool_11253,QPNnotes,1,1,0.9985226195176515
+ai_catalog:tool_11254,Cognosys,1,1,0.9997852715850457
+ai_catalog:tool_11263,OctoComics,1,1,0.9371152627610084
+ai_catalog:tool_11268,Pixop,1,1,0.9803620565499276
+ai_catalog:tool_11291,MYSMMAI,1,1,0.990737431595189
+ai_catalog:tool_11293,Yuzzit,1,1,0.9993205137772628
+ai_catalog:tool_11316,Scrip AI,1,1,0.9973075112174796
+ai_catalog:tool_11318,The Clueless Company,1,1,0.9988729652628602
+ai_catalog:tool_11321,Unicody,1,1,0.9959074558694898
+ai_catalog:tool_11328,GoCodeo,1,1,0.9310034481435671
+ai_catalog:tool_11345,Macha,1,1,0.9961217654753098
+ai_catalog:tool_11358,Connexun,1,1,0.9785559163709977
+ai_catalog:tool_11370,Bonfire - AI-Powered Concierge Bot,1,1,0.9998276884151178
+ai_catalog:tool_11382,Rephrase.info,1,1,0.9919578268822493
+ai_catalog:tool_11385,Pixie,1,1,0.9858255938107182
+ai_catalog:tool_11396,Extracta,1,1,0.9990279834917927
+ai_catalog:tool_11399,SocialSense,1,1,0.9976247937626259
+ai_catalog:tool_11411,PopAi,1,1,0.9997851126117222
+ai_catalog:tool_11417,Sleek,1,1,0.9941626738866027
+ai_catalog:tool_11422,Showzone,1,1,0.9982290832767986
+ai_catalog:tool_11426,Reeheld,1,1,0.9956133602988789
+ai_catalog:tool_11431,Opteam Plans,1,1,0.9990542776191951
+ai_catalog:tool_11434,Chapple,1,1,0.9992803349023417
+ai_catalog:tool_11438,AI VisionBoard,1,1,0.9919515428084369
+ai_catalog:tool_11444,Convergence,1,1,0.5721803842439165
+ai_catalog:tool_11452,Zappr,1,1,0.9928517255638936
+ai_catalog:tool_11459,Mentio,1,1,0.9943671391424197
+ai_catalog:tool_11465,WordUp App,1,1,0.9972663195876458
+ai_catalog:tool_11467,Powtoon - Unified AI Video Platform,1,1,0.9822216198923275
+ai_catalog:tool_11468,PatternedAI,1,1,0.996353778549202
+ai_catalog:tool_11469,PaceAI,1,1,0.7252890230113173
+ai_catalog:tool_11475,Attio Automations,1,1,0.9718603102694873
+ai_catalog:tool_11476,Tactful,1,1,0.9589995195098546
+ai_catalog:tool_11478,Pencil,1,1,0.9936035924836882
+ai_catalog:tool_11481,TeleWizard,1,1,0.9950567599285527
+ai_catalog:tool_11487,Exante,1,1,0.9910820251642694
+ai_catalog:tool_11498,HowToWrite,1,1,0.9999569428793437
+ai_catalog:tool_11503,All Voice Lab,1,1,0.998475854639567
+ai_catalog:tool_11504,Aloware,1,1,0.8943900268050421
+ai_catalog:tool_11506,ZonTools,1,1,0.9953749941127333
+ai_catalog:tool_11523,Yellow,1,1,0.9895744178399574
+ai_catalog:tool_11524,Presbot,1,1,0.9986448323417291
+ai_catalog:tool_11530,Numerous,1,1,0.9985838859818088
+ai_catalog:tool_11535,BIK,1,1,0.986599720736603
+ai_catalog:tool_11550,BotMagic,1,1,0.9969339792979172
+ai_catalog:tool_11551,ChaiGPT,1,1,0.9987110605701985
+ai_catalog:tool_11567,Cuppa,1,1,0.9997061970415353
+ai_catalog:tool_11571,Storyd,1,1,0.9909964880659256
+ai_catalog:tool_11577,Visily,1,1,0.9966716184759821
+ai_catalog:tool_11596,Octoparse,1,1,0.9860896227353669
+ai_catalog:tool_11601,Allofus,1,1,0.9411102465683054
+ai_catalog:tool_11622,HireVue,1,1,0.9972954797829837
+ai_catalog:tool_11639,Tiipe,1,1,0.9754626572796856
+ai_catalog:tool_11642,Streamroutine,1,1,0.9989385506402583
+ai_catalog:tool_11645,WorkMagic,1,1,0.9994610739708495
+ai_catalog:tool_11656,Tangia,1,1,0.9756574433390428
+ai_catalog:tool_11667,Supademo,1,1,0.9917989780325787
+ai_catalog:tool_11671,Kerplunk,1,1,0.979982501459633
+ai_catalog:tool_11685,Luppa AI,1,1,0.9972115574911262
+ai_catalog:tool_11690,MeddiPop,1,1,0.984649640085556
+ai_catalog:tool_11695,Rewatch,1,1,0.9821712600475752
+ai_catalog:tool_11698,Mirai,1,1,0.925690524652141
+ai_catalog:tool_11728,Synaptiq,1,1,0.9959136121220117
+ai_catalog:tool_11738,Plutis,1,1,0.9948056910990537
+ai_catalog:tool_11741,GPTZero,1,1,0.9898879196206515
+ai_catalog:tool_11749,Replit,1,1,0.9962198326090068
+ai_catalog:tool_11759,Overwatch,1,1,0.9338222340649464
+ai_catalog:tool_11760,MagnaPlay,1,1,0.9989924072521832
+ai_catalog:tool_11761,REimagineHome,1,1,0.9996239435673758
+ai_catalog:tool_11765,DTiQ,1,1,0.9934769246776679
+ai_catalog:tool_11766,Sixfold,1,1,0.9989337163728393
+ai_catalog:tool_11778,Supermoon,1,1,0.9956958653577327
+ai_catalog:tool_11780,Qventus,1,1,0.9951482615345645
+ai_catalog:tool_11781,Roundtable,1,1,0.9752664967662756
+ai_catalog:tool_11784,Solaracloud,1,1,0.5138151975435347
+ai_catalog:tool_11785,Open CX,1,1,0.9993542365568591
+ai_catalog:tool_11787,Spur,1,1,0.9689926462973593
+ai_catalog:tool_11793,Structurely,1,1,0.9828662647684481
+ai_catalog:tool_11805,Threekit,1,1,0.97927717833716
+ai_catalog:tool_11810,Raia,1,1,0.9988379122129422
+ai_catalog:tool_11817,SheetGod,1,1,0.9924579247873556
+ai_catalog:tool_11819,Power Personas,1,1,0.9999171907937073
+ai_catalog:tool_11839,Beloga,1,1,0.999295955721816
+ai_catalog:tool_11843,1of10,1,1,0.9937007627002521
+ai_catalog:tool_11849,Percy Lab,1,0,0.4328099918231927
+ai_catalog:tool_11852,PentaPrompt,1,1,0.9893483417539541
+ai_catalog:tool_11857,Stammer,1,1,0.9861444868033225
+ai_catalog:tool_11859,StoorAI,1,1,0.9860563612008016
+ai_catalog:tool_11860,SheetMagic,1,1,0.9929111339352189
+ai_catalog:tool_11869,AI Product Shot,1,1,0.9985321078752999
+ai_catalog:tool_11880,Writemyessays,1,1,0.9958126733453603
+ai_catalog:tool_11888,LastApply,1,1,0.999847372538383
+ai_catalog:tool_11890,Pixel-Art.ai,1,1,0.9997848309182964
+ai_catalog:tool_11896,GPT for Slides,1,1,0.9998868583103173
+ai_catalog:tool_11899,Reachout,1,1,0.9997609583752933
+ai_catalog:tool_11901,AITextHumanize,1,1,0.9483025793780245
+ai_catalog:tool_11904,AlloBot,1,1,0.9744250156413792
+ai_catalog:tool_11917,Magic Avatars,1,1,0.9983195813795223
+ai_catalog:tool_11923,Roboweb,1,1,0.9112290807361045
+ai_catalog:tool_11930,tak.chat,1,1,0.9999598386042908
+ai_catalog:tool_11935,Hemingway,1,1,0.9959490951027096
+ai_catalog:tool_11941,Omnigpt,1,1,0.9802099807434246
+ai_catalog:tool_11942,Time off,1,1,0.9396654205904186
+ai_catalog:tool_11951,AI Baby Generator,1,1,0.9857151094821918
+ai_catalog:tool_11958,BodyMax AI,1,1,0.989882797501708
+ai_catalog:tool_11969,StoryScroll,1,1,0.9901355990032333
+ai_catalog:tool_11972,Heeps,1,1,0.9909871900920036
+ai_catalog:tool_11978,AI Girlfriend WTF,1,1,0.9979184746471543
+ai_catalog:tool_11984,Chooch,1,1,0.9489400914762149
+ai_catalog:tool_11985,Chronicle,1,1,0.9995783377047655
+ai_catalog:tool_11991,Unfig,1,1,0.8238637639423473
+ai_catalog:tool_11994,CogniCircuit AI,1,1,0.8964935446529293
+ai_catalog:tool_11999,ComputerX,1,1,0.9865863690211767
+ai_catalog:tool_12001,EternitAI,1,1,0.9761827921066526
+ai_catalog:tool_12006,Strut,1,1,0.99689742484108
+ai_catalog:tool_12018,ParsePrompt,1,1,0.998642795627531
+ai_catalog:tool_12033,ZipWP,1,1,0.9964653546070713
+ai_catalog:tool_12037,Reporfy,1,1,0.9994691489072358
+ai_catalog:tool_12055,GeniePM,1,1,0.9846451110927832
+ai_catalog:tool_12065,Makemytale,1,1,0.9733418075298439
+ai_catalog:tool_12079,Stockmusic,1,1,0.9968571538239555
+ai_catalog:tool_12092,DentroChat,1,1,0.8384297157952242
+ai_catalog:tool_12098,DiffRhythm,1,1,0.9404986950531201
+ai_catalog:tool_12099,Dreamora,1,1,0.9998988451540693
+ai_catalog:tool_12102,Zodiac-Chat,1,1,0.999707838889379
+ai_catalog:tool_12112,ChibiAI,1,1,0.9965626507387253
+ai_catalog:tool_12125,LandingPage.fyi,1,1,0.9986820600219245
+ai_catalog:tool_12129,FixRel,1,1,0.9999190543748844
+ai_catalog:tool_12132,Eloquent,1,1,0.94832238777547
+ai_catalog:tool_12147,Typee Chat,1,1,0.9951009453187353
+ai_catalog:tool_12149,Vispunk,1,1,0.9958044542397826
+ai_catalog:tool_12150,Photoeditor,1,1,0.9967972737063013
+ai_catalog:tool_12156,SiteCompanion,1,1,0.9933968193139733
+ai_catalog:tool_12166,Unboard,1,1,0.9879419296649837
+ai_catalog:tool_12179,Feedbase,1,1,0.9939218328921325
+ai_catalog:tool_12182,FinalFrame,1,1,0.992926628380884
+ai_catalog:tool_12190,Flect,1,1,0.9766551460159861
+ai_catalog:tool_12194,Foxloop,1,1,0.9546124127425007
+ai_catalog:tool_12195,Embedstore,1,1,0.984910953773393
+ai_catalog:tool_12208,Robopost AI,1,1,0.9993473192682296
+ai_catalog:tool_12212,QRfiddle,1,1,0.9980211657674508
+ai_catalog:tool_12216,Phec,1,1,0.9991105448480542
+ai_catalog:tool_12222,Neural Actors,1,1,0.9996854960621979
+ai_catalog:tool_12234,SongBot AI,1,1,0.9895532597018879
+ai_catalog:tool_12237,Wishes AI,1,1,0.9930525068204363
+ai_catalog:tool_12259,Virtual Face,1,1,0.9987416190022249
+ai_catalog:tool_12268,Inpilot,1,1,0.9998913309496804
+ai_catalog:tool_12285,IconGeneratorAI,1,1,0.9996941655191038
+ai_catalog:tool_12289,Sadik,1,1,0.9915699696046261
+ai_catalog:tool_12303,Miranda,1,1,0.9950241352403563
+ai_catalog:tool_12305,Parsepolicy,1,1,0.9913518282578725
+ai_catalog:tool_12314,HelloRAG,1,1,0.992714038676934
+ai_catalog:tool_12322,Venixs,1,1,0.9929428561805648
+ai_catalog:tool_12324,NotesOllama,1,1,0.9788424166975066
+ai_catalog:tool_12327,Intern Guys,1,1,0.9899442909409293
+ai_catalog:tool_12339,KickBot,1,0,0.05896090126468209
+ai_catalog:tool_12344,Kotae,1,1,0.9615273291981039
+ai_catalog:tool_12357,letterpal,1,1,0.992236664459432
+ai_catalog:tool_12358,Prelto,1,1,0.9983341696085504
+ai_catalog:tool_12368,LooksMax AI,1,1,0.9768241067785479
+ai_catalog:tool_12375,Magicreply.io,1,1,0.9963211555766333
+ai_catalog:tool_12381,MakeTheDocs,1,1,0.9881605023903747
+ai_catalog:tool_12385,Mailyr,1,1,0.9935858427937477
+ai_catalog:tool_12391,BulkContent,1,1,0.9982859921854629
+ai_catalog:tool_12399,Merlio,1,1,0.9976659308373758
+ai_catalog:tool_12401,Migaku,1,1,0.9825520385164435
+ai_catalog:tool_12409,Minduck,1,1,0.9977359365695451
+ai_catalog:tool_12415,MovieWiser,1,1,0.9904274166293816
+ai_catalog:tool_12427,NoEffort AI,1,1,0.9970492662829932
+ai_catalog:tool_12511,Oji,1,1,0.9658028278606375
+ai_catalog:tool_12512,Omention,1,1,0.8500118094625655
+ai_catalog:tool_12513,Omnipilot,1,1,0.9826297087342718
+ai_catalog:tool_12519,OpenArtist,1,1,0.9981014365689146
+ai_catalog:tool_12521,Rewin,1,1,0.9991818447602494
+ai_catalog:tool_12522,WorkGPT,1,1,0.9998135519819369
+ai_catalog:tool_12550,Social Plans,1,1,0.994049692702568
+ai_catalog:tool_12558,GrapeGPT,1,1,0.9961864886956322
+ai_catalog:tool_12566,Photolapse,1,1,0.9959178284843473
+ai_catalog:tool_12571,Pinster AI,1,1,0.9991864094243882
+ai_catalog:tool_12578,PlayThis,1,1,0.9876143377911142
+ai_catalog:tool_12591,Pitch Avatar,1,1,0.997815881835844
+ai_catalog:tool_12599,QuickVid,1,1,0.9926209822613632
+ai_catalog:tool_12602,Rainforest.zone,1,1,0.8486514346755992
+ai_catalog:tool_12628,UNA,1,1,0.999798193212704
+ai_catalog:tool_12631,RobiAI,1,1,0.8433810946219146
+ai_catalog:tool_12632,OneClick,1,1,0.9865756078091662
+ai_catalog:tool_12638,Saifs,1,1,0.9952781818715682
+ai_catalog:tool_12642,FuturePerfect,1,1,0.9926228329676111
+ai_catalog:tool_12646,Intrvuz,1,1,0.9731968159987682
+ai_catalog:tool_12649,OpenL,1,1,0.9850508440264647
+ai_catalog:tool_12652,Seedance,1,1,0.9980281044729826
+ai_catalog:tool_12657,Shivon AI,1,1,0.9990287423330094
+ai_catalog:tool_12658,Valemtimes,1,1,0.9998174587990146
+ai_catalog:tool_12674,SnoozyStory,1,1,0.9501324777268597
+ai_catalog:tool_12676,SmiliMedia,1,1,0.998253394885658
+ai_catalog:tool_12679,Whatthebeat,1,1,0.9911763266486462
+ai_catalog:tool_12683,Lid,1,1,0.9997881860272612
+ai_catalog:tool_12684,Spectre,1,1,0.9999513024056048
+ai_catalog:tool_12694,Stealth Interview,1,1,0.999602563590691
+ai_catalog:tool_12706,SubShort,1,1,0.9988846643635008
+ai_catalog:tool_12713,Summarize AI,1,1,0.9997307975144966
+ai_catalog:tool_12717,SuperCarousels,1,1,0.9988993234487878
+ai_catalog:tool_12731,Talespinner,1,1,0.9885158620256798
+ai_catalog:tool_12733,TattooMakerPro,1,1,0.9429018263002028
+ai_catalog:tool_12739,Tidepool,1,1,0.9962823947232236
+ai_catalog:tool_12743,TextWisely,1,1,0.988913611292883
+ai_catalog:tool_12748,Prisms,1,1,0.9982458128261926
+ai_catalog:tool_12761,PlanTripAI,1,1,0.9994031800822505
+ai_catalog:tool_12762,Swing Savvy,1,1,0.9995952090776206
+ai_catalog:tool_12763,PNGMaker,1,1,0.9977733174425502
+ai_catalog:tool_12767,Postcrest,1,1,0.9997679461854062
+ai_catalog:tool_12769,TextFlip.ai,1,1,0.9997926933759818
+ai_catalog:tool_12775,NewProfilePic App,1,1,0.9938128898177603
+ai_catalog:tool_12791,World of Gami,1,1,0.9997916429346413
+ai_catalog:tool_12802,Blythe Doll AI Generator,1,1,0.9997664998842971
+ai_catalog:tool_12803,Stable UI,1,1,0.9994265216387556
+ai_catalog:tool_12817,StockPhotoAI,1,1,0.9993209314550057
+ai_catalog:tool_12818,Shotrate,1,1,0.9990180730910203
+ai_catalog:tool_12825,Video Studio,1,1,0.9989052230513281
+ai_catalog:tool_12828,Dreamhouse AI,1,1,0.8663058930722797
+ai_catalog:tool_12851,Xsaas,1,1,0.9759808665860683
+ai_catalog:tool_12870,Gptmatch.me,1,1,0.9997987325942814
+ai_catalog:tool_12872,Hiccup App,1,1,0.993919367097132
+ai_catalog:tool_12874,Prepar,1,1,0.9994251073595251
+ai_catalog:tool_12882,Midjourney prompt generator,1,1,0.9999581887909238
+ai_catalog:tool_12890,AI Fundraising Letter Generator,1,1,0.9987010098406444
+ai_catalog:tool_12901,ChatGPT Mac Desktop App,1,1,0.9935739344116432
+ai_catalog:tool_12909,TurboPush,1,1,0.7331390394701619
+ai_catalog:tool_12947,InfiHeal,1,1,0.9038115931336103
+ai_catalog:tool_12955,Revent.ai,1,1,0.9986413316440002
+ai_catalog:tool_12959,PortfolioGPT,1,1,0.9989102825984014
+ai_catalog:tool_12962,Webullar,1,1,0.9925859117701954
+ai_catalog:tool_12973,Trendata,1,1,0.9962153773298343
+ai_catalog:tool_12982,Typeboss,1,1,0.9987595069615806
+ai_catalog:tool_12984,Openkoda,1,1,0.9790000728496112
+ai_catalog:tool_12989,There's An AI For That,1,1,0.9949239399849209
+ai_catalog:tool_12993,Relogoai,1,1,0.999875903538465
+ai_catalog:tool_13020,FASHN Virtual Try-On,1,1,0.9375205401229835
+ai_catalog:tool_13039,Jupitrr,1,1,0.9968400320118536
+ai_catalog:tool_13048,PMI Infinity,1,1,0.9991734369753966
+ai_catalog:tool_13063,Sage AI by Braze,1,1,0.960239707809893
+ai_catalog:tool_13085,Jaq n Jil - Your Writing Assistant,1,1,0.9948598529217936
+ai_catalog:tool_13108,swsh,1,1,0.9877379337148566
+ai_catalog:tool_13110,Flyhomes,1,0,0.2569725755431449
+ai_catalog:tool_13117,Free AI Essay Writer,1,1,0.9923867896906539
+ai_catalog:tool_13120,Panna Resume Builder,1,1,0.9989890464412453
+ai_catalog:tool_13123,HeyWire AI,1,1,0.9985242427325313
+ai_catalog:tool_13125,Immersity AI,1,1,0.9670727761003531
+ai_catalog:tool_13128,Posturenet,1,1,0.9907242897137335
+ai_catalog:tool_13131,Watto,1,1,0.9984210769500669
+ai_catalog:tool_13135,Jeeva,1,1,0.9706735875600482
+ai_catalog:tool_13137,Keymate.AI,1,1,0.8837350056424698
+ai_catalog:tool_13140,LexCheck,1,1,0.9993667819321456
+ai_catalog:tool_13149,Sibyl,1,1,0.9937073556372562
+ai_catalog:tool_13153,Narratize,1,1,0.9988860699468975
+ai_catalog:tool_13178,VerbiAI,1,1,0.9986301299589285
+ai_catalog:tool_13188,Supportlogic,1,1,0.9948046641942668
+ai_catalog:tool_13194,Quickchat AI,1,1,0.9842065571126465
+ai_catalog:tool_13208,Runware,1,1,0.5365879584847837
+ai_catalog:tool_13209,FlowCog,1,1,0.9956794896598193
+ai_catalog:tool_13221,Evoto,1,1,0.9906118207904626
+ai_catalog:tool_13222,Skail,1,1,0.9968535960451189
+ai_catalog:tool_13224,Klaviyo SMS Assistant,1,1,0.9978015680196444
+ai_catalog:tool_13234,Carepatron Medical Transcription,1,1,0.9997798736627619
+ai_catalog:tool_13236,SupportAI,1,1,0.9829324799392174
+ai_catalog:tool_13253,Naria,1,1,0.9985652021432623
+ai_catalog:tool_13268,Zixflow,1,1,0.9908826639812396
+ai_catalog:tool_13270,SylphAI,1,1,0.9981535813059708
+ai_catalog:tool_13274,Nubrain,1,1,0.9888230479910074
+ai_catalog:tool_13278,Essay Writer by Papertyper,1,1,0.9957737144821294
+ai_catalog:tool_13279,Segment Anything by Meta,1,1,0.9950778089658038
+ai_catalog:tool_13281,RubricPro,1,1,0.9994487614378229
+ai_catalog:tool_13282,TMate,1,1,0.9977129491699521
+ai_catalog:tool_13307,AlphaDev,1,1,0.9971458793345289
+ai_catalog:tool_13313,Henna Designs,1,1,0.9944785663401996
+ai_catalog:tool_13319,Blogcast,1,1,0.9981670113473471
+ai_catalog:tool_13325,Studio Momento,1,1,0.9980635870888516
+ai_catalog:tool_13328,Workorb,1,1,0.9958488658251093
+ai_catalog:tool_13340,Zenbots,1,1,0.9998590035369698
+ai_catalog:tool_13342,Boxchat,1,1,0.9225245521142935
+ai_catalog:tool_13346,IMAGINaiTION,1,1,0.9938852636286648
+ai_catalog:tool_13354,DocsChat,1,1,0.998391692908992
+ai_catalog:tool_13364,Pixelicious,1,1,0.9816631545998127
+ai_catalog:tool_13369,Wonderplan,1,1,0.9994167646136942
+ai_catalog:tool_13377,Speakable,1,1,0.9983179581387255
+ai_catalog:tool_13381,NanoBananaFree.com,1,1,0.9993957435797723
+ai_catalog:tool_13391,AI Portrait Generator,1,1,0.9999008455311007
+ai_catalog:tool_13400,What To Read After,1,1,0.9988667961626649
+ai_catalog:tool_13404,Traivl,1,1,0.987045491562374
+ai_catalog:tool_13409,Revisor,1,1,0.996000743599343
+ai_catalog:tool_13410,Substratus,1,1,0.9963760066713334
+ai_catalog:tool_13417,OctiAI,1,1,0.9958281661228385
+ai_catalog:tool_13420,EasyRead,1,1,0.9989417895211143
+ai_catalog:tool_13427,BeautyAI Face Swap,1,1,0.9950080658827385
+ai_catalog:tool_13429,Sologo,1,1,0.9998859350212784
+ai_catalog:tool_13440,Oneimg,1,1,0.9915180841648643
+ai_catalog:tool_13446,Talenter,1,1,0.9968439003565177
+ai_catalog:tool_13448,Pontus,1,1,0.9103814716715978
+ai_catalog:tool_13454,VoiceCheap,1,1,0.9918446705020205
+ai_catalog:tool_13461,FaviCraft,1,1,0.9964107715099595
+ai_catalog:tool_13462,Feedbuck AI,1,1,0.997652703835182
+ai_catalog:tool_13472,Fluently,1,1,0.995665462984644
+ai_catalog:tool_13478,GitHub - BenderV/generate,1,1,0.9994619817001931
+ai_catalog:tool_13479,Paird.ai,1,1,0.9993793782410565
+ai_catalog:tool_13481,Ideatum,1,1,0.9963315215895971
+ai_catalog:tool_13484,Tess Design,1,1,0.9790368943246904
+ai_catalog:tool_13486,SmartPlate,1,1,0.9998015104829717
+ai_catalog:tool_13498,AI Writer by Picsart,1,1,0.996766581325642
+ai_catalog:tool_13502,WarpSound,1,1,0.9902660015030076
+ai_catalog:tool_13512,TheBookSum,1,1,0.9894725403887847
+ai_catalog:tool_13513,SumyAI,1,1,0.9985685906004433
+ai_catalog:tool_13528,Blue - ChatGPT for Mac,1,1,0.9973149891374825
+ai_catalog:tool_13534,Fontjoy,1,1,0.9914768272760652
+ai_catalog:tool_13536,TravelFeed,1,1,0.9967392285377016
+ai_catalog:tool_13537,Home-Imagine,1,1,0.9968475925393928
+ai_catalog:tool_13550,ChatGPT Prompt Generator,1,1,0.9982028092113513
+ai_catalog:tool_13552,StoryWiz,1,1,0.9858549479632673
+ai_catalog:tool_13554,Relume Site Builder,1,1,0.9984015095834043
+ai_catalog:tool_13557,RappingAI,1,1,0.9687079620466179
+ai_catalog:tool_13575,Jinnee for Fintech,1,1,0.9993652051018581
+ai_catalog:tool_13597,LocalFile.io,1,0,0.4833974781039499
+ai_catalog:tool_13613,Timmy,1,1,0.9985652926243676
+ai_catalog:tool_13628,TheFinAdvisor,1,1,0.9994952474719242
+ai_catalog:tool_13630,Nex : AI Knowledge Copilot,1,1,0.996999567498023
+ai_catalog:tool_13707,Ohboiler-Unlimited AI,1,1,0.9540593668745505
+ai_catalog:tool_13710,AI Playground by Vercel,1,1,0.9854889410747701
+ai_catalog:tool_13714,Reword,1,1,0.9978890538082401
+ai_catalog:tool_13715,Shopia,1,1,0.993412928104438
+ai_catalog:tool_13716,PanoPulse,1,1,0.9853727052437989
+ai_catalog:tool_13718,PDFPeer,1,1,0.9915814379541855
+ai_catalog:tool_13728,Travelplan,1,1,0.9963436676538184
+ai_catalog:tool_13732,Generai,1,1,0.9622777877582704
+ai_catalog:tool_13738,PowerPM,1,1,0.9980691838155674
+ai_catalog:tool_13742,Soofy,1,1,0.9984793235161639
+ai_catalog:tool_13747,Magic Crystal Ball,1,1,0.9966732932729375
+ai_catalog:tool_13752,Promptly AI,1,1,0.9981646972376206
+ai_catalog:tool_13755,Pygma,1,1,0.9478896217419384
+ai_catalog:tool_13756,Next.js AI Chatbot,1,1,0.9965833369977128
+ai_catalog:tool_13757,Spellforge,1,1,0.9801697691974568
+ai_catalog:tool_13758,Quarter,1,1,0.9864748026154738
+ai_catalog:tool_13764,Springboard,1,1,0.9921428851351116
+ai_catalog:tool_13766,RapidTextAI,1,1,0.99769829962063
+ai_catalog:tool_13786,Retellio,1,1,0.9952194442728431
+ai_catalog:tool_13787,Harry Potter Name Generator,1,1,0.9975856270260276
+ai_catalog:tool_13790,Revivoto,1,1,0.8088145589607169
+ai_catalog:tool_13816,Shram,1,1,0.9797559917904032
+ai_catalog:tool_13823,Skriptify,1,1,0.9964387472977696
+ai_catalog:tool_13838,Songtell,1,1,0.8494697592063039
+ai_catalog:tool_13842,PseudoEditor,1,1,0.9852094091240722
+ai_catalog:tool_13849,Parrot AI,1,1,0.9933332955590045
+ai_catalog:tool_13867,Swapper - AI Fashion Model & E-commerce Assistant,1,1,0.9733067345015295
+ai_catalog:tool_13868,SwiftResume,1,1,0.9870657533550337
+ai_catalog:tool_13882,ThinkerNotes,1,1,0.9993869965879071
+ai_catalog:tool_13884,Teachable Machine,1,1,0.9972643265401369
+ai_catalog:tool_13891,Zomani,1,1,0.9998434202293593
+ai_catalog:tool_13902,Tripsei,1,1,0.9857491911669823
+ai_catalog:tool_13918,AI-Powered QR code,1,1,0.9998965839546663
+ai_catalog:tool_13924,Twin Pics,1,1,0.9991796125205915
+ai_catalog:tool_13925,AISaver,1,1,0.9975303699257888
+ai_catalog:tool_13931,Zecoba,1,1,0.9942573986358302
+ai_catalog:tool_13935,Pickup-lines,1,1,0.9933703408197532
+ai_catalog:tool_13947,Wyd?,1,1,0.9989842022387053
+ai_catalog:tool_13965,Catalyst,1,1,0.9130736145547668
+ai_catalog:tool_13972,bntr - AI-Powered Virtual Agents,1,1,0.9918405970562303
+ai_catalog:tool_13974,AI Tutor by SoundOcean,1,1,0.9910662648535645
+ai_catalog:tool_13975,Secur3D,1,1,0.971101116632965
+ai_catalog:tool_13988,Amie - AI Note Taker,1,1,0.9947295412082922
+ai_catalog:tool_13989,Bliro - Bot-free AI Meeting Assistant,1,1,0.9200204750457261
+ai_catalog:tool_13991,Pollinations,1,1,0.9977393624112487
+ai_catalog:tool_13998,StorySeed,1,1,0.9875943505886728
+ai_catalog:tool_14004,AI Product Title Generator,1,1,0.9915770383495809
+ai_catalog:tool_14007,The Cat's Eye Smart Systems,1,1,0.9821166051730174
+ai_catalog:tool_14010,Free Rizz AI Generator,1,1,0.9947926224562686
+ai_catalog:tool_14013,Simple Analytics AI,1,1,0.9978348215815886
+ai_catalog:tool_14018,Ordemio,1,1,0.9085032142458435
+ai_catalog:tool_14035,Multytude - for creators,1,1,0.9933023202976826
+ai_catalog:tool_14042,Albus,1,1,0.998647169703285
+ai_catalog:tool_14044,AI Photoshoot - Aiphoria.io,1,1,0.9879253195754548
+ai_catalog:tool_14051,Buddy by NerualWave,1,1,0.998880729362882
+ai_catalog:tool_14055,Worknet,1,1,0.998425749030189
+ai_catalog:tool_14075,Fundraising with Evalyze Ai,1,1,0.9924115187788385
+ai_catalog:tool_14079,Buffer AI assistant,1,1,0.9989356572954015
+ai_catalog:tool_14080,Wirestock Discord Bot,1,1,0.9933608469088284
+ai_catalog:tool_14088,Houseware's AI Agents,1,1,0.9616769756010533
+ai_catalog:tool_14091,On1,1,1,0.9851722986799822
+ai_catalog:tool_14094,InterviewAI,1,1,0.9787429032181086
+ai_catalog:tool_14096,Jotform AI Quiz Generator,1,1,0.9899737420932141
+ai_catalog:tool_14101,SidenoteAI,1,1,0.9966999425452348
+ai_catalog:tool_14103,Mutiny,1,1,0.9803739730494091
+ai_catalog:tool_14119,YouLearn,1,1,0.9982476850567126
+ai_catalog:tool_14122,Zoviz,1,1,0.9929493604050423
+ai_catalog:tool_14128,Cleanup pictures,1,1,0.9957984314512455
+ai_catalog:tool_14131,Sendforsign,1,1,0.9562100202122524
+ai_catalog:tool_14134,Powerly,1,1,0.9987265873399613
+ai_catalog:tool_14135,Solda AI,1,1,0.9843798081187991
+ai_catalog:tool_14142,Ask Steve,1,1,0.9995589706372459
+ai_catalog:tool_14143,Trellis AI,1,1,0.9442555008477803
+ai_catalog:tool_14146,Buoy Symptom Checker,1,1,0.9964218128836484
+ai_catalog:tool_14150,Khan Academy - Khan Labs,1,1,0.9981754364994077
+ai_catalog:tool_14151,Scite,1,1,0.9975818736179975
+ai_catalog:tool_14152,SolidGrids,1,1,0.9963624279591713
+ai_catalog:tool_14154,AI For Developers,1,1,0.9968783603775527
+ai_catalog:tool_14158,Stable Attribution,1,1,0.9974832341593226
+ai_catalog:tool_14172,AIChief,1,1,0.9902412435079609
+ai_catalog:tool_14196,WebscrapeAi,1,1,0.9986755945311473
+ai_catalog:tool_14198,App Quality Copilot,1,1,0.9879092686944402
+ai_catalog:tool_14201,Nuro.video,1,1,0.9823426730593794
+ai_catalog:tool_14216,Competitor Analyzer,1,1,0.9822036288341681
+ai_catalog:tool_14222,Tweet to Video by RepurposePie,1,1,0.9975932534598293
+ai_catalog:tool_14231,RecipeWrangle,1,1,0.9996482777980772
+ai_catalog:tool_14234,PromptInterface.ai,1,1,0.9991153925750339
+ai_catalog:tool_14243,Prompt Hunt,1,1,0.9930639763537138
+ai_catalog:tool_14259,AiMatchPro,1,1,0.9987739183335235
+ai_catalog:tool_14265,TLDRAI,1,1,0.9961400316060178
+ai_catalog:tool_14267,AI Icon Generator,1,1,0.9994100102843095
+ai_catalog:tool_14271,Eloovor - AI Career Coach,1,1,0.9967478100970736
+ai_catalog:tool_14280,Poolplannerai,1,1,0.999901632788311
+ai_catalog:tool_14281,Tech Vetting,1,1,0.9805075437205031
+ai_catalog:tool_14284,Suinfy,1,1,0.9925989075094874
+ai_catalog:tool_14301,Verticle,1,1,0.9981954246157266
+ai_catalog:tool_14314,AI ColoringPage Online,1,1,0.9995846030250229
+ai_catalog:tool_14315,WPTurbo,1,1,0.9958192237931024
+ai_catalog:tool_14318,TolyGPT,1,1,0.9951718040756546
+ai_catalog:tool_14328,Halloweenie by StyleOf,1,1,0.9928091624038891
+ai_catalog:tool_14339,CCAI's Virtual Assistant,1,1,0.9989882467373208
+ai_catalog:tool_14344,Inpodcast AI,1,1,0.9945500159975994
+ai_catalog:tool_14371,Mintly,1,1,0.9991421119087645
+ai_catalog:tool_14373,Model Playground AI,1,1,0.806281917140728
+ai_catalog:tool_14380,Niddam,1,1,0.9965475891625584
+ai_catalog:tool_14425,TodoVex,1,1,0.996372008624309
+ai_catalog:tool_14428,OverChat AI Writer,1,1,0.9972416198719682
+ai_catalog:tool_14443,NilgAI,1,1,0.994223793229503
+ai_catalog:tool_14447,Fathom Podcast Player,1,1,0.9885542202635588
+ai_catalog:tool_14450,Podverse,1,1,0.9573568474066598
+ai_catalog:tool_14451,Pokemon Coloring Pages,1,1,0.7425933563104291
+ai_catalog:tool_14457,QSourcer,1,1,0.998924805061518
+ai_catalog:tool_14460,Rankwave – Boost Your Brand’s Visibility in AI Answers 🚀,1,1,0.9974524793937873
+ai_catalog:tool_14461,Siml.ai,1,1,0.9911978253051902
+ai_catalog:tool_14464,Refont,1,1,0.997872273144296
+ai_catalog:tool_14468,review.legal,1,1,0.990576309163114
+ai_catalog:tool_14469,Video Repair by Onerecovery,1,1,0.9991696963922678
+ai_catalog:tool_14471,AI Receipt Tracker,1,1,0.9989660572618873
+ai_catalog:tool_14477,Searcholic,1,1,0.9906677486116164
+ai_catalog:tool_14484,Pebble,1,1,0.9555565140688469
+ai_catalog:tool_14497,Onboardix,1,1,0.9870196362692246
+ai_catalog:tool_14503,Taskheat AI Assistant,1,1,0.9897202435930088
+ai_catalog:tool_14508,Grasp AI Summarizer Tool,1,1,0.9893121362052921
+ai_catalog:tool_14512,Image to Prompt Generator,1,1,0.9990351697796175
+ai_catalog:tool_14514,Automated Bulk Image Upscaler,1,1,0.9944348551225294
+ai_catalog:tool_14532,ScribeBuddy,1,1,0.9974104833394041
+ai_catalog:tool_14534,Let Me Summarize That For You,1,1,0.9972310269943299
+ai_catalog:tool_14535,TranslateImage,1,1,0.9963927870844739
+ai_catalog:tool_14539,Undetectable AI Pro,1,1,0.9984775332230262
+ai_catalog:tool_14544,SlashDreamer,1,1,0.997913637287953
+ai_catalog:tool_14547,Vidsembly,1,1,0.9538785999394181
+ai_catalog:tool_14554,Lucere Datascience,1,1,0.9990801942049204
+ai_catalog:tool_14557,TechInterviewer,1,1,0.9994389087349449
+ai_catalog:tool_14561,MyNeo AI,1,1,0.9944274568952003
+ai_catalog:tool_14563,FYRAN,1,1,0.997974639351953
+ai_catalog:tool_14564,SmartleadAI,1,1,0.995609319272198
+ai_catalog:tool_14574,Taxly,1,1,0.9429482330873391
+ai_catalog:tool_14575,Doogle AI,1,1,0.9935372284208204
+ai_catalog:tool_14577,Futurwise,1,1,0.9953611829457836
+ai_catalog:tool_14583,GLEAP,1,1,0.9987898691237603
+ai_catalog:tool_14586,Hemingway Editor Plus,1,1,0.9724451530376383
+ai_catalog:tool_14590,Webleadr,1,1,0.8834929398642797
+ai_catalog:tool_14592,Hostinger | Horizons,1,1,0.998488326233803
+ai_catalog:tool_14599,Autumn AI,1,1,0.9992436504609592
+ai_catalog:tool_14602,Venngage AI Valentine Card Maker,1,1,0.9988643206056963
+ai_catalog:tool_14603,Review Butler,1,1,0.999817710000559
+ai_catalog:tool_14611,Secoda AI,1,1,0.9803723724999515
+ai_catalog:tool_14631,First Book AI,1,1,0.9938473896444058
+ai_catalog:tool_14664,Laion,1,1,0.9778882408493392
+ai_catalog:tool_14700,MedGPT,1,1,0.9935297261530018
+ai_catalog:tool_14705,Qure AI | AI assistance for Accelerated Healthcare,1,1,0.9708424151429381
+ai_catalog:tool_14706,Accio,1,1,0.9993420129745624
+ai_catalog:tool_14709,Bahasa.ai,1,1,0.8304115457586708
+ai_catalog:tool_14711,JobWinner,1,1,0.9886179962313595
+ai_catalog:tool_14720,Dataset Marketplace,1,1,0.9878444563209583
+ai_catalog:tool_14728,Wordlift,1,1,0.9995641101654867
+ai_catalog:tool_14740,Rupert AI,1,1,0.9998364662021384
+ai_catalog:tool_14746,Writekit,1,1,0.9999363383983174
+ai_catalog:tool_14748,Mybrandnewlogo,1,1,0.9965461225574773
+ai_catalog:tool_14751,Spectate,1,1,0.9724843198303126
+ai_catalog:tool_14755,Sista.AI,1,1,0.9964902296392657
+ai_catalog:tool_14760,Writefull,1,1,0.9977096259864429
+ai_catalog:tool_14773,Consistent Character AI,1,1,0.9961259303207691
+ai_catalog:tool_14776,Loopple - AI Website Builder,1,1,0.9814820390754236
+ai_catalog:tool_14790,Stock AI,1,1,0.9983399563143773
+ai_catalog:tool_14794,MayaAI,1,1,0.9903042208532363
+ai_catalog:tool_14799,Vivgrid,1,1,0.9973723554240161
+ai_catalog:tool_14806,Pandachat,1,1,0.999644491441625
+ai_catalog:tool_14817,Nutshell Summaries,1,1,0.9999314601628058
+ai_catalog:tool_14819,RepliQ,1,1,0.9983033263332065
+ai_catalog:tool_14828,Eagle,1,1,0.9792004240266371
+ai_catalog:tool_14831,ChatGenius,1,1,0.9774126453611028
+ai_catalog:tool_14833,PromptIdeas,1,1,0.9960314467618889
+ai_catalog:tool_14839,Shufti Pro,1,1,0.9874564177346591
+ai_catalog:tool_14849,Layercode,1,1,0.9997800758831735
+ai_catalog:tool_14856,AutoenhanceAI,1,1,0.9924187126254517
+ai_catalog:tool_14857,Envision,1,1,0.9024952586306008
+ai_catalog:tool_14860,Post Genie,1,1,0.9974078763428083
+ai_catalog:tool_14867,KAI Conversations,1,1,0.9183989878847006
+ai_catalog:tool_14868,Forecast,1,1,0.9911429961476482
+ai_catalog:tool_14876,Shuttle,1,1,0.9950521594168633
+ai_catalog:tool_14880,Wondercraft AI,1,1,0.9998413407700615
+ai_catalog:tool_14882,aijobs.com,1,1,0.9976869746226031
+ai_catalog:tool_14883,Portday,1,1,0.9962292942347742
+ai_catalog:tool_14884,MySocialPulse,1,1,0.9452318858720578
+ai_catalog:tool_14898,NextCardAI,1,1,0.9992526578497357
+ai_catalog:tool_14906,Trendspider,1,1,0.9999438500444142
+ai_catalog:tool_14908,Reccopilot,1,1,0.9988046544311318
+ai_catalog:tool_14915,ZeroPath,1,1,0.9981163703280912
+ai_catalog:tool_14927,Macabacus,1,1,0.9993439260084859
+ai_catalog:tool_14932,Gradescope,1,1,0.9980834831453403
+ai_catalog:tool_14940,Avatier,1,1,0.9623671913606583
+ai_catalog:tool_14943,SuperBooking,1,1,0.9978862561941505
+ai_catalog:tool_14944,Deeto,1,1,0.9792882229222402
+ai_catalog:tool_14952,OpenLayer,1,1,0.9984910330075933
+ai_catalog:tool_14957,Bika.ai,1,1,0.988699645799742
+ai_catalog:tool_14995,Deepgram ASR,1,1,0.99345111709799
+ai_catalog:tool_14998,FlutterFlow AI Gen,1,1,0.9615737529455642
+ai_catalog:tool_15012,Snack Prompt,1,1,0.9938374632974304
+ai_catalog:tool_15018,Weblium,1,1,0.995029476884217
+ai_catalog:tool_15022,Ask Cladwell,1,1,0.9994733215460804
+ai_catalog:tool_15026,AtomicMail,1,1,0.9858881007405743
+ai_catalog:tool_15038,VidIq,1,1,0.997864188874637
+ai_catalog:tool_15044,Email Tracker,1,1,0.9892109886879756
+ai_catalog:tool_15047,Thesys,1,1,0.996280830773911
+ai_catalog:tool_15054,Cuppa,1,1,0.992465466638943
+ai_catalog:tool_15055,Dreamup,1,1,0.9985090939905862
+ai_catalog:tool_15058,Topicmojo,1,1,0.9998913204716051
+ai_catalog:tool_15059,Olostep,1,1,0.9928309551498865
+ai_catalog:tool_15069,Hathr AI,1,1,0.9960622564815741
+ai_catalog:tool_15076,Alli AI,1,1,0.9985742563449327
+ai_catalog:tool_15081,SDF,1,1,0.9922181755156945
+ai_catalog:tool_15085,Thekeys,1,1,0.9988440207028209
+ai_catalog:tool_15090,Star Method Coach,1,1,0.9961715135255883
+ai_catalog:tool_15107,Mintly,1,1,0.9988109961508067
+ai_catalog:tool_15130,PDF Guru - AI PDF Summarizer,1,1,0.9653531427155432
+ai_catalog:tool_15148,AIPRM,1,1,0.9988991608164559
+ai_catalog:tool_15153,HalloAI,1,1,0.9984606602097844
+ai_catalog:tool_15156,LandinAI,1,1,0.989116205774154
+ai_catalog:tool_15160,Langfinity,1,1,0.8634017795644693
+ai_catalog:tool_15168,Caffeinated CX,1,1,0.9995975211477256
+ai_catalog:tool_15170,Elsa Speak,1,1,0.9989340792474111
+ai_catalog:tool_15174,Dart,1,1,0.9997265799031398
+ai_catalog:tool_15183,Turing,1,1,0.9593833964488528
+ai_catalog:tool_15185,Ground,1,1,0.9623129722888218
+ai_catalog:tool_15189,InsertChatGPT,1,1,0.9996131200454027
+ai_catalog:tool_15194,HeliconeAI,1,1,0.9961685224984158
+ai_catalog:tool_15195,LPagery AI Rank Tracker,1,1,0.9985314703408076
+ai_catalog:tool_15196,Roboflow,1,1,0.9919077925588127
+ai_catalog:tool_15229,FlotAI,1,1,0.9981251510595571
+ai_catalog:tool_15233,ABTesting,1,1,0.9996991873685891
+ai_catalog:tool_15244,Replicate Codex,1,1,0.9975047720882779
+ai_catalog:tool_15246,Assistant Marketer,1,1,0.99140795277027
+ai_catalog:tool_15250,ADHDPlanner,1,1,0.9818583701866455
+ai_catalog:tool_15255,Pawss,1,1,0.9944873696133555
+ai_catalog:tool_15257,Genbaz,1,1,0.998597987460361
+ai_catalog:tool_15262,daisy | SSENSELESS,1,1,0.9990572030592735
+ai_catalog:tool_15264,Theee.ai,1,1,0.9153435886578368
+ai_catalog:tool_15272,Captioner.io,1,1,0.9915377153292568
+ai_catalog:tool_15279,Visio Studio,1,1,0.9923120552609029
+ai_catalog:tool_15284,Qoder,1,1,0.7066666050824814
+ai_catalog:tool_15288,SkinCareLens,1,1,0.9976937223444823
+ai_catalog:tool_15302,FluxyAI,1,1,0.9969886716928289
+ai_catalog:tool_15315,MenuPhotoAI,1,1,0.9969543142997163
+ai_catalog:tool_15322,AIImageEditor,1,1,0.9996889822271303
+ai_catalog:tool_15338,Voiset,1,1,0.9892953169717335
+ai_catalog:tool_15345,SlideBuild: Ai Slides Maker,1,1,0.9981663405424693
+ai_catalog:tool_15352,CVnomist,1,1,0.9972357196370637
+ai_catalog:tool_15353,PovChat AI,1,1,0.9979731719265214
+ai_catalog:tool_15366,InstaSalesAI,1,1,0.9982799662431203
+ai_catalog:tool_15369,Traderstats,1,1,0.998055522803682
+ai_catalog:tool_15383,WebCopilot,1,1,0.9988526231956213
+ai_catalog:tool_15384,Segmentle,1,1,0.9941500732665599
+ai_catalog:tool_15387,Maya,1,1,0.9973784079405326
+ai_catalog:tool_15396,AI Roguelite,1,1,0.9974911335892988
+ai_catalog:tool_15412,PowerPM.ai,1,1,0.9995740548952629
+ai_catalog:tool_15416,Crypto AI Assistant by ASCN,1,1,0.9997532477295856
+ai_catalog:tool_15418,Discord DiscMeet,1,1,0.9993105295381802
+ai_catalog:tool_15420,Tabirim,1,1,0.9990306659059732
+ai_catalog:tool_15421,AIMath,1,1,0.9996007769472319
+ai_catalog:tool_15430,Menubot,1,1,0.9997478807868969
+ai_catalog:tool_15433,Cat Music Life,1,1,0.999543468251094
+ai_catalog:tool_15434,120.dev,1,1,0.9979045899823018
+ai_catalog:tool_15435,Athena News API,1,1,0.9866513328048988
+ai_catalog:tool_15456,Discova AI,1,1,0.9999851793024226
+ai_catalog:tool_15459,Waver 1.0,1,1,0.9999086760735493
+ai_catalog:tool_15461,Atai - Automated Testing AI,1,1,0.9999649734722811
+ai_catalog:tool_15470,Tekmatix,1,1,0.9273198230061186
+ai_catalog:tool_15474,LoveGenius Sidekick,1,1,0.9995483779767889
+ai_catalog:tool_15484,AI Flashcard Generator,1,1,0.9982455668909145
+ai_catalog:tool_15496,Thiggle,1,1,0.9254566698174834
+ai_catalog:tool_15500,Gutenberg Hub,1,1,0.9959287656214697
+ai_catalog:tool_15512,Amto AI,1,1,0.9915105967455748
+ai_catalog:tool_15517,Owlity,1,1,0.9885753219490861
+ai_catalog:tool_15519,SalesMirror.ai,1,1,0.9495546453917213
+ai_catalog:tool_15531,Unblur Image,1,1,0.9985021342046807
+ai_catalog:tool_15538,BLDscan,1,1,0.999221617339458
+ai_catalog:tool_15560,Softr Studio,1,1,0.9979911697466863
+ai_catalog:tool_15561,webdone,1,1,0.9987793722485585
+ai_catalog:tool_15578,HammerAI,1,1,0.9871154645252407
+ai_catalog:tool_15580,Entar.io,1,1,0.9961834542806999
+ai_catalog:tool_15584,Vogue Veo 3 Generator,1,1,0.9988475442464455
+ai_catalog:tool_15598,AI Image Merger,1,1,0.9976500408929493
+ai_catalog:tool_15599,Sagify,1,1,0.9920458226799842
+ai_catalog:tool_15614,HD Photo Converter,1,1,0.9918314648563166
+ai_catalog:tool_15618,GitSeek,1,1,0.9977898760069215
+ai_catalog:tool_15619,CopyFish,1,1,0.9971449550983617
+ai_catalog:tool_15620,AIPromptCopy,1,1,0.9988279844757582
+ai_catalog:tool_15621,Coresite,1,1,0.9994485449104565
+ai_catalog:tool_15626,Apple Calendar Generator,1,1,0.9989490356501592
+ai_catalog:tool_15633,Wombo,1,1,0.9997670306716251
+ai_catalog:tool_15635,Jaqnjil,1,1,0.9976556166204711
+ai_catalog:tool_15636,Nano-Banana.com,1,1,0.9982372309480454
+ai_catalog:tool_15645,Y2KStylePortraits,1,1,0.9976750183859353
+ai_catalog:tool_15657,Ocoya,1,1,0.9990530335758249
+ai_catalog:tool_15658,SocialRails,1,1,0.9977804111912334
+ai_catalog:tool_15659,Wodka.ai,1,1,0.9986775722601616
+ai_catalog:tool_15664,Sound Effect Generator,1,1,0.9998253427740502
+ai_catalog:tool_15674,ConceptMap,1,1,0.9977005525842169
+ai_catalog:tool_15679,Change Style AI,1,1,0.9814195727740006
+ai_catalog:tool_15685,Profile Picture AI,1,1,0.9991185952194285
+ai_catalog:tool_15695,Drawnaq,1,1,0.9830021324045126
+ai_catalog:tool_15696,LogoMate,1,1,0.9999615856872522
+ai_catalog:tool_15703,Meloflow AI,1,1,0.9997653442377225
+ai_catalog:tool_15706,Hitpaw AI,1,1,0.9992074873014507
+ai_catalog:tool_15709,GeminiAIVideo,1,1,0.999842796127724
+ai_catalog:tool_15710,AIBlocks,1,1,0.999866120081424
+ai_catalog:tool_15713,My Color Elf,1,1,0.9952444941508761
+ai_catalog:tool_15724,HiDream Pro,1,1,0.9997214857847966
+ai_catalog:tool_15728,ColoringPagesPrintable,1,1,0.995599034343328
+ai_catalog:tool_15740,AI LinkedIn Banners,1,1,0.9991109891510681
+ai_catalog:tool_15759,ShopMate,1,1,0.9942251513329989
+ai_catalog:tool_15766,Deeto,1,1,0.9962417826121146
+ai_catalog:tool_15786,AI Accounting Apps,1,1,0.9862684782659953
+ai_catalog:tool_15789,Shopia,1,1,0.9969481450236897
+ai_catalog:tool_15790,TryOnHaul AI,1,1,0.9913938292181319
+ai_catalog:tool_15799,Free Japanese Name Generator,1,1,0.9971260523406277
+ai_catalog:tool_15800,AI Tools Marketer,1,1,0.9946035707102903
+ai_catalog:tool_15807,Draw AI,1,1,0.9854988917166426
+ai_catalog:tool_15808,DreamzAR AI Landscape Design Ideas,1,1,0.9930397566306794
+ai_catalog:tool_15823,NanoImage,1,1,0.9982291703227656
+ai_catalog:tool_15830,Picsman AI,1,1,0.9997421529554854
+ai_catalog:tool_15835,AI Barbie,1,1,0.99947365452746
+ai_catalog:tool_15864,VideoProc Converter,1,1,0.9963420090470789
+ai_catalog:tool_15880,Google Whisk,1,1,0.9992991182713148
+ai_catalog:tool_15887,Toyify Me,1,1,0.9916142940683894
+ai_catalog:tool_15888,ArcaneLand,1,1,0.9941260267519464
+ai_catalog:tool_15897,Facebook Post Scheduler,1,1,0.8898163534604168
+ai_catalog:tool_15900,Thumbr.ai,1,1,0.9980138363827626
+ai_catalog:tool_15901,Mechanic For a Chat,1,1,0.9941589345791978
+ai_catalog:tool_15912,Gpt twit-bot,1,1,0.9941591098804131
+ai_catalog:tool_15915,LinkGrid,1,1,0.9963774567425919
+ai_catalog:tool_15933,AI Image Describer,1,1,0.9994539407247419
+ai_catalog:tool_15934,HDPhotoConverter,1,1,0.9998811636337248
+ai_catalog:tool_15936,AI Toolz Dir,1,1,0.9953373895683721
+ai_catalog:tool_15959,PhotoG,1,1,0.9993550186824721
+ai_catalog:tool_15961,Ask AI,1,1,0.9997226433510016
+ai_catalog:tool_15976,MusicLM,1,1,0.9991132390625097
+ai_catalog:tool_15986,SinfulX AI,1,1,0.9993559779114208
+ai_catalog:tool_16001,ChatGPTPromptGenerator,1,1,0.9977262099730312
+ai_catalog:tool_16011,Tripper,1,1,0.9983168322504892
+ai_catalog:tool_16012,Stitch,1,1,0.9687702560868768
+ai_catalog:tool_16031,Pokeit,1,1,0.9926837567166533
+ai_catalog:tool_16033,GET3D (Nvidia),1,1,0.9982495260253852
+ai_catalog:tool_16041,Marketeam.ai,1,1,0.9982947500094695
+ai_catalog:tool_16055,Intelli Gift,1,1,0.9993379173002881
+ai_catalog:tool_16066,Brandled,1,1,0.9954756951650029
+ai_catalog:tool_16067,AI Tools For Me,1,1,0.9977290161010579
+ai_catalog:tool_16073,Waifu2x,1,1,0.9723429048963217
+ai_catalog:tool_16079,How Hot Am I,1,1,0.9910333942223531
+ai_catalog:tool_16089,ImgKits AI Clothes Changer,1,1,0.9695027568418998
+ai_catalog:tool_16092,Subject Line Generator,1,1,0.9896977809419559
+ai_catalog:tool_16094,Infatuated.ai,1,1,0.9984794998456077
+ai_catalog:tool_16100,AIAcceptPhotoAnalyzer,1,1,0.9951888380077598
+ai_catalog:tool_16106,Dream,1,1,0.9989527572936513
+ai_catalog:tool_16108,ToolSmart Free Paraphrasing Tool,1,1,0.9984131464907782
+ai_catalog:tool_16112,Interm AI - Interview Terminator,1,1,0.9880597890687192
+ai_catalog:tool_16114,Rissun,1,1,0.9703841957594517
+ai_catalog:tool_16118,Jeeves.ai,1,1,0.9989287109008006
+ai_catalog:tool_16119,AI Test Kitchen,1,1,0.9870651712584327
+ai_catalog:tool_16121,JustDoneAIDetector,1,1,0.9994657230242612
+ai_catalog:tool_16135,Turbo-Learn,1,1,0.9985771780238767
+ai_catalog:tool_16136,Farm3D,1,1,0.9918453117855055
+ai_catalog:tool_16139,Maskara.ai,1,1,0.9982635373375343
+ai_catalog:tool_16143,Lexikon AI: Real Roleplay,1,1,0.9099824463868373
+ai_catalog:tool_16157,EasyVideo,1,1,0.9995596374590968
+ai_catalog:tool_16186,Montessori Activities at Home,1,1,0.6171984772789298
+ai_catalog:tool_16193,MysticLabs AI,1,1,0.8823715648592091
+ai_catalog:tool_16194,StartupNameGenerator,1,1,0.9958461290496562
+ai_catalog:tool_16244,Whisper Notes,1,1,0.999416336697522
+ai_catalog:tool_16249,SeedreamPro,1,1,0.9976213493749717
+ai_catalog:tool_16254,Deepfakes Web,1,1,0.9319031082763866
+ai_catalog:tool_16271,Palo - Youtube AI Assistant,1,1,0.9873948615001088
+ai_catalog:tool_16277,SupportBuddy,1,1,0.9901003873043664
+ai_catalog:tool_16283,Picture To Summary AI,1,1,0.9924652444211047
+ai_catalog:tool_16326,Recipioai,1,1,0.9979001184323402
+ai_catalog:tool_16332,Seedance AI Video,1,1,0.998492884528116
+ai_catalog:tool_16334,Video Watermark Remover AI,1,1,0.9997434246441156
+ai_catalog:tool_16348,ResumeBuildAI,1,1,0.9929210576399758
+ai_catalog:tool_16370,Sdf,1,1,0.9477937866638342
+ai_catalog:tool_16374,Soulmate Drawing,1,1,0.9962458066225004
+ai_catalog:tool_16392,Youtube Summarizer,1,1,0.9858912544091016
+ai_catalog:tool_16396,Smart Calendars AI — Plan fast & easy,1,1,0.9833487257638454
+ai_catalog:tool_16398,SmutFinder,1,1,0.9870404674922344
+ai_catalog:tool_16403,Influsfera,1,1,0.9899562855869463
+ai_catalog:tool_16404,Podpally,1,1,0.9513196265431605
+ai_catalog:tool_16417,Go/NoGo,1,1,0.9921075233907433
+ai_catalog:tool_16426,SubtitlesDog,1,1,0.9777990421877393
+ai_catalog:tool_16433,Slidebomb Summarizer AI,1,1,0.9991197249207635
+ai_catalog:tool_16446,Diabetes Plate Scan,1,1,0.9359569578157827
+ai_catalog:tool_16448,Tatship AI Tattoo Generator,1,1,0.8886210695131042
+ai_catalog:tool_16453,Blakify,1,1,0.7651331854592408
+ai_catalog:tool_16456,DreamFusion,1,1,0.9979050815328704
+ai_catalog:tool_16461,Gately,1,1,0.9731850221424064
+ai_catalog:tool_16463,Angry Email Translator,1,1,0.9253233485958515
+ai_catalog:tool_16473,Turbo0,1,1,0.9829214563068845
+ai_catalog:tool_16477,Podwise,1,1,0.9990729856519966
+ai_catalog:tool_16479,ChatGenius,1,1,0.9967725499711866
+ai_catalog:tool_16481,Summarizer AI Extension,1,1,0.9916064881926796
+ai_catalog:tool_16483,Testudy,1,1,0.9966343844807339
+ai_catalog:tool_16504,ABA Rocks,1,1,0.9513854604655125
+ai_catalog:tool_16514,Image to Image.tech,1,1,0.9999523217982134
+ai_catalog:tool_16522,Image Editor Online,1,1,0.9995773314717302
+ai_catalog:tool_16537,AI Humanizer Text,1,1,0.9998444330427008
+ai_catalog:tool_16546,Bylo.ai,1,1,0.9977301366669716
+ai_catalog:tool_16553,Lucy Edit AI,1,1,0.9993915534749993
+ai_catalog:tool_16564,AI Kissing Video Generator,1,1,0.9982823952140962
+ai_catalog:tool_16569,Musicfy,1,1,0.999723027901938
+ai_catalog:tool_16576,Italian Brainrot,1,1,0.9992294088249846
+ai_catalog:tool_16579,TuCanChat,1,1,0.9960724677860532
+ai_catalog:tool_16582,FloppyData,1,1,0.9879758928887376
+ai_catalog:tool_16593,daisy | Labubufy,1,1,0.9905675436856206
+ai_catalog:tool_16594,FluxProWeb | AI Talking Baby Generator,1,1,0.9989650732161713
+ai_catalog:tool_16603,Onda,1,1,0.9997656370000245
+ai_catalog:tool_16604,RepurposingBot,1,1,0.9906495425259892
+ai_catalog:tool_16609,PromptBuilder.cc,1,1,0.9996752808059326
+ai_catalog:tool_16619,Make A Craft,1,1,0.9915663972703366
+ai_catalog:tool_16620,Quick MVP,1,1,0.9991597905935535
+ai_catalog:tool_16622,Avido.ai,1,1,0.998198767119997
+ai_catalog:tool_16625,Md2Card,1,1,0.9987726863634125
+ai_catalog:tool_16629,AISaree,1,1,0.9967732190777332
+ai_catalog:tool_16632,AI Action Figure Generator,1,1,0.999349690182397
+ai_catalog:tool_16636,Glotera AI,1,1,0.9734869813083729
+ai_catalog:tool_16648,Yarnit,1,1,0.9999675753468645
+ai_catalog:tool_16651,SparkIcon AI,1,1,0.9998844759426063
+ai_catalog:tool_16665,Free AI Video Upscaler,1,1,0.9990639927306607
+ai_catalog:tool_16670,PeakGPT,1,1,0.9898036543497306
+ai_catalog:tool_16675,Transcript and Convert Video to Text,1,1,0.9929701676774111
+ai_catalog:tool_16678,Vibe Videoing,1,1,0.9998786864135653
+ai_catalog:tool_16685,Vocal Remover,1,1,0.9872151226073037
+ai_catalog:tool_16689,SteosVoice,1,1,0.9989081309382649
+ai_catalog:tool_16705,Whatwordisthat,1,1,0.9934921826454743
+ai_catalog:tool_16714,Writefull Academizer,1,1,0.9818534107670625
+ai_catalog:tool_16725,AIRVAGO AI,1,1,0.9998823902268352
+ai_catalog:tool_16728,Abook.ai,1,1,0.9914094650364137
+ai_catalog:tool_16730,AstroChart AI,1,1,0.9990829092228886
+ai_catalog:tool_16743,MCP Explorer,1,1,0.9994673204372724
+non_ai_catalog:claude_00003,Jira,0,1,0.6414241093731016
+non_ai_catalog:claude_00006,Confluence,0,1,0.9520613035051506
+non_ai_catalog:saas_00014,Issuu,0,0,0.0002806942815458994
+non_ai_catalog:saas_00025,Foursquare,0,0,0.00017601835995822025
+non_ai_catalog:saas_00029,Evernote,0,0,0.0011585724295279033
+non_ai_catalog:saas_00040,Buffer,0,0,0.0064850330910582055
+non_ai_catalog:saas_00053,Yumpu,0,0,0.005169002964339949
+non_ai_catalog:saas_00056,ClickFunnels,0,0,0.0005395719803163119
+non_ai_catalog:saas_00058,Jotform,0,0,0.0013602022557802171
+non_ai_catalog:saas_00065,Crunchbase,0,0,0.005814855694752264
+non_ai_catalog:saas_00072,Relative Wave,0,0,0.00760181189633381
+non_ai_catalog:saas_00081,Snipfeed,0,0,0.05624487712444374
+non_ai_catalog:saas_00083,SimilarWeb,0,0,0.01253781617501112
+non_ai_catalog:saas_00092,Loom,0,0,0.02141045392463943
+non_ai_catalog:saas_00094,Nowhere,0,0,0.025633144037455546
+non_ai_catalog:saas_00095,Strava,0,0,0.00014971183757819925
+non_ai_catalog:saas_00097,Hugging Face,0,0,0.005254332104222074
+non_ai_catalog:saas_00101,CoSchedule,0,0,0.022055764107104997
+non_ai_catalog:saas_00113,Prezi,0,0,0.00013569661753581657
+non_ai_catalog:saas_00122,Atlassian,0,0,8.845816946932266e-05
+non_ai_catalog:saas_00145,StatCounter,0,0,0.0028111747130965216
+non_ai_catalog:saas_00157,ChatGPT,1,0,0.2091925001323311
+non_ai_catalog:saas_00167,Codeberg,0,0,0.00032782476335954793
+non_ai_catalog:saas_00175,Payhip,0,0,0.005674789873615338
+non_ai_catalog:saas_00178,Mindbody,0,0,3.350507194392193e-05
+non_ai_catalog:saas_00182,Zstandard,0,0,0.009657633486013123
+non_ai_catalog:saas_00194,Duolingo,0,0,0.00012346139355662363
+non_ai_catalog:saas_00214,Harvest,0,0,0.0002521432854733424
+non_ai_catalog:saas_00216,Digital Inspiration,0,0,0.018749453370351107
+non_ai_catalog:saas_00217,Venngage,0,1,0.690719748291581
+non_ai_catalog:saas_00222,PyPI - Python Package Index,0,0,0.00565681975343108
+non_ai_catalog:saas_00224,AWeber,0,0,9.491837523237101e-05
+non_ai_catalog:saas_00230,MuseScore,0,0,0.0007334981546023398
+non_ai_catalog:saas_00235,AfterShip,0,0,0.00182821850446273
+non_ai_catalog:saas_00238,Scoop.it,0,0,0.002800226183008303
+non_ai_catalog:saas_00244,Blackbaud,0,0,0.0002561093599751684
+non_ai_catalog:saas_00259,MailerLite,0,0,0.0027377254939098946
+non_ai_catalog:saas_00264,Pipedrive,0,0,0.0003614317871475817
+non_ai_catalog:saas_00273,Sentry,0,0,0.0038082671709140435
+non_ai_catalog:saas_00290,Doodle,0,0,0.001811313032071198
+non_ai_catalog:saas_00303,Jasper,1,0,0.0207688194326674
+non_ai_catalog:saas_00308,Steinberg Media Technologies,0,0,0.011169440772374726
+non_ai_catalog:saas_00313,Backbone,0,0,0.2307509404990336
+non_ai_catalog:saas_00315,Digistore24,0,0,0.0048656320544718185
+non_ai_catalog:saas_00331,Quick Sprout,0,0,0.00020185561402026592
+non_ai_catalog:saas_00332,InVision,0,0,0.013434038167699315
+non_ai_catalog:saas_00333,Invaluable,0,0,5.605326270623592e-05
+non_ai_catalog:saas_00336,Smallpdf,0,0,1.9826985006644564e-05
+non_ai_catalog:saas_00341,Check Point Software,0,0,0.013392894498842359
+non_ai_catalog:saas_00344,Lovefield,0,0,0.04071004948639
+non_ai_catalog:saas_00346,BlackBerry,0,0,0.00035898998102295063
+non_ai_catalog:saas_00361,Infogram,0,0,0.016367196900998172
+non_ai_catalog:saas_00378,Muck Rack,0,0,0.010715107320079685
+non_ai_catalog:saas_00386,Redis,0,0,0.008453653089735873
+non_ai_catalog:saas_00389,You,1,0,0.36585179518659
+non_ai_catalog:saas_00392,Klaviyo,0,0,0.0037425167878728017
+non_ai_catalog:saas_00395,Stability AI,1,0,0.0078030124244494415
+non_ai_catalog:saas_00415,PicMonkey,0,0,0.27459444891084495
+non_ai_catalog:saas_00421,Telestream,0,0,0.0009797420753205825
+non_ai_catalog:saas_00423,Underscore,0,0,0.01454720143833913
+non_ai_catalog:saas_00426,Kahoot!,0,0,0.008335669017020127
+non_ai_catalog:saas_00427,CCleaner,0,0,0.004044586438192664
+non_ai_catalog:saas_00430,Data-Driven Documents,0,0,0.10918201133281866
+non_ai_catalog:saas_00438,Packagist Mirror,0,0,0.1673102552360746
+non_ai_catalog:saas_00448,Sketch,0,0,6.769233381174824e-05
+non_ai_catalog:saas_00453,BetterUp,0,0,0.06587254942283091
+non_ai_catalog:saas_00456,Rank Math,0,0,0.044321904474273074
+non_ai_catalog:saas_00458,Dynatrace,0,0,0.021380530861608654
+non_ai_catalog:saas_00461,Balsamiq,0,0,0.004278252307351761
+non_ai_catalog:saas_00462,Komoot,0,0,0.1369434644041093
+non_ai_catalog:saas_00480,SurveySparrow,0,0,0.0038752262848041853
+non_ai_catalog:saas_00482,AdRoll,0,0,0.004074947033236645
+non_ai_catalog:saas_00485,TunnelBear,0,0,0.00019396155244943617
+non_ai_catalog:saas_00486,Memrise,0,0,0.002936624592516523
+non_ai_catalog:saas_00493,LangChain,1,0,0.0011613027939737874
+non_ai_catalog:saas_00497,OpenLayers,0,0,0.05909035352309257
+non_ai_catalog:saas_00499,Claris,0,0,0.0007659094783271133
+non_ai_catalog:saas_00500,Amplitude,0,0,0.00017489469512769855
