@@ -1,8 +1,8 @@
 """Train a local description -> AI-tool-category classifier (no API calls).
 
 Install: python -m pip install scikit-learn numpy joblib
-Train: python train_category_model.py train --input dataset_b_final_fixed.csv --out-dir models/category
-Predict: python train_category_model.py predict --model models/category/category_model.joblib --text "AI assistant that completes and debugs code"
+Train: python train_category_model.py train --input dataset_b_final_fixed.csv --out-dir artifacts/category_tfidf
+Predict: python train_category_model.py predict --model artifacts/category_tfidf/category_model.joblib --text "AI assistant that completes and debugs code"
 
 Evaluation uses grouped cross-validation, fitting TF-IDF only on training folds.
 The saved final pipeline is then fitted on all eligible AI rows. CV estimates

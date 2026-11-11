@@ -59,7 +59,7 @@ python3 -m governance.risk --company 'Summit Financial' \
   --out /tmp/summit-synthetic-scenario.json
 
 python3 -m governance.risk --company NovaTech \
-  --activity 'data/raw/novatech_usage (1).csv' \
+  --activity 'data/raw/novatech_usage.csv' \
   --scenarios governance/synthetic_scenarios.json \
   --out /tmp/novatech-synthetic-scenario.json
 
