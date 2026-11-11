@@ -1,0 +1,4 @@
+event_id,timestamp,employee_id,department,application_name,domain,event_type,bytes_uploaded,bytes_downloaded
+example_001,2026-11-01T09:00:00Z,fictional_01,Engineering,Example Code Helper,new-code-helper.example,browser_visit,12000000,1000
+example_002,2026-11-01T10:00:00Z,fictional_02,Engineering,Example Code Helper,new-code-helper.example,browser_visit,2000,1000
+example_003,2026-11-01T11:00:00Z,fictional_03,Finance,Example File Storage,new-file-storage.example,browser_visit,2000,1000

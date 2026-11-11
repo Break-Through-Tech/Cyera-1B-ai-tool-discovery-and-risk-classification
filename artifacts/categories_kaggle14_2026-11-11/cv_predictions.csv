@@ -1,0 +1,307 @@
+﻿tool_id,tool_name,group,fold,actual_category,tfidf_prediction,embeddings_default_prediction,embeddings_tuned_prediction
+tool_02906,FlashAI,0,3,Ai And Machine Learning,Communication And Support,Communication And Support,Communication And Support
+tool_00510,Voicemod,1,1,Ai And Machine Learning,Personal And Lifestyle,Communication And Support,Communication And Support
+tool_07220,Focal,2,2,Ai And Machine Learning,Technology And Development,Specialized Technologies,Specialized Technologies
+tool_06490,Dolly AI,3,4,Ai And Machine Learning,Media And Content Creation,Personal And Lifestyle,Specialized Technologies
+tool_05911,Diglot,4,3,Ai And Machine Learning,Media And Content Creation,Media And Content Creation,Media And Content Creation
+tool_03600,AI Essay Checker,5,1,Ai And Machine Learning,Security And Privacy,Security And Privacy,Security And Privacy
+tool_15588,Prompt Sloth Write Better AI Prompts,6,2,Ai And Machine Learning,Technology And Development,Technology And Development,Technology And Development
+tool_02175,EasyChat AI,7,2,Ai And Machine Learning,Technology And Development,Communication And Support,Communication And Support
+tool_11468,PatternedAI,8,3,Ai And Machine Learning,Technology And Development,Technology And Development,Technology And Development
+tool_00799,unrav.io,9,4,Ai And Machine Learning,Media And Content Creation,Media And Content Creation,Media And Content Creation
+tool_02434,Alter,10,3,Ai And Machine Learning,Technology And Development,Ai And Machine Learning,Ai And Machine Learning
+tool_05781,HeyScience,11,1,Ai And Machine Learning,Industry Specific,Operations And Management,Operations And Management
+tool_06127,Rad AI,12,1,Ai And Machine Learning,Communication And Support,Media And Content Creation,Media And Content Creation
+tool_00550,Bomml,13,4,Ai And Machine Learning,Technology And Development,Operations And Management,Ai And Machine Learning
+tool_11382,Rephrase.info,14,3,Ai And Machine Learning,Communication And Support,Data And Analytics,Data And Analytics
+tool_05846,Upsend,15,2,Ai And Machine Learning,Operations And Management,Technology And Development,Technology And Development
+tool_12324,NotesOllama,16,4,Ai And Machine Learning,Ai And Machine Learning,Specialized Technologies,Ai And Machine Learning
+tool_07266,Experai,17,1,Ai And Machine Learning,Data And Analytics,Data And Analytics,Data And Analytics
+tool_00080,Dubbing AI,18,2,Ai And Machine Learning,Personal And Lifestyle,Communication And Support,Media And Content Creation
+tool_04121,Atua,19,2,Ai And Machine Learning,Media And Content Creation,Communication And Support,Communication And Support
+tool_11503,All Voice Lab,20,3,Ai And Machine Learning,Media And Content Creation,Ai And Machine Learning,Ai And Machine Learning
+tool_05696,Thegist,21,4,Ai And Machine Learning,Ai And Machine Learning,Communication And Support,Ai And Machine Learning
+tool_02398,photes.io,22,1,Ai And Machine Learning,Specialized Technologies,Creative And Entertainment,Creative And Entertainment
+tool_10000,CitizenPortal,23,4,Ai And Machine Learning,Communication And Support,Security And Privacy,Data And Analytics
+tool_02493,Floik,24,3,Ai And Machine Learning,Media And Content Creation,Media And Content Creation,Media And Content Creation
+tool_09335,OpenSesame,25,1,Ai And Machine Learning,Technology And Development,Operations And Management,Operations And Management
+tool_08911,Floom,26,2,Ai And Machine Learning,Business And Finance,Operations And Management,Operations And Management
+tool_06932,Pop-Plan,27,4,Ai And Machine Learning,Operations And Management,Operations And Management,Operations And Management
+tool_02169,Client Reports,28,3,Business And Finance,Communication And Support,Business And Finance,Business And Finance
+tool_05797,Octocom,29,3,Business And Finance,Marketing And Sales,Communication And Support,Communication And Support
+tool_01484,Validator AI,30,1,Business And Finance,Business And Finance,Business And Finance,Business And Finance
+tool_14706,Accio,31,1,Business And Finance,Creative And Entertainment,Business And Finance,Business And Finance
+tool_15223,Vault AI,32,2,Business And Finance,Marketing And Sales,Ai And Machine Learning,Media And Content Creation
+tool_05599,Zefort,33,3,Business And Finance,Operations And Management,Technology And Development,Technology And Development
+tool_11766,Sixfold,34,4,Business And Finance,Ai And Machine Learning,Business And Finance,Business And Finance
+tool_01359,Tray.io,35,2,Business And Finance,Marketing And Sales,Operations And Management,Operations And Management
+tool_00941,Excel Formula GPT,36,1,Business And Finance,Specialized Technologies,Technology And Development,Technology And Development
+tool_03523,Checkr,37,2,Business And Finance,Technology And Development,Security And Privacy,Security And Privacy
+tool_04484,Atticus,38,3,Business And Finance,Data And Analytics,Technology And Development,Technology And Development
+tool_01520,Intellectia,39,4,Business And Finance,Marketing And Sales,Business And Finance,Business And Finance
+tool_15043,Franchise AI Assistant,40,3,Business And Finance,Communication And Support,Business And Finance,Business And Finance
+tool_03545,TaxGPT.com,41,1,Business And Finance,Marketing And Sales,Business And Finance,Business And Finance
+tool_15369,Traderstats,42,2,Business And Finance,Technology And Development,Business And Finance,Business And Finance
+tool_05815,LearnMentalModels,43,1,Business And Finance,Operations And Management,Business And Finance,Business And Finance
+tool_04401,Tovie,44,2,Business And Finance,Communication And Support,Communication And Support,Communication And Support
+tool_07422,AI-signals,45,4,Business And Finance,Technology And Development,Business And Finance,Business And Finance
+tool_06239,Addy AI,46,4,Communication And Support,Operations And Management,Data And Analytics,Operations And Management
+tool_06356,Aivia,47,3,Communication And Support,Operations And Management,Ai And Machine Learning,Ai And Machine Learning
+tool_03823,TalkTonic AI,48,3,Communication And Support,Ai And Machine Learning,Personal And Lifestyle,Personal And Lifestyle
+tool_04652,Storytell.ai,49,4,Communication And Support,Ai And Machine Learning,Marketing And Sales,Marketing And Sales
+tool_12821,Verbeloquence,50,2,Communication And Support,Marketing And Sales,Communication And Support,Communication And Support
+tool_12343,Knobi,51,1,Communication And Support,Data And Analytics,Marketing And Sales,Marketing And Sales
+tool_01369,ChatSpot,52,1,Communication And Support,Data And Analytics,Data And Analytics,Data And Analytics
+tool_09339,Thrivebase,53,4,Communication And Support,Communication And Support,Business And Finance,Communication And Support
+tool_13304,SubEasy.ai,54,3,Communication And Support,Marketing And Sales,Media And Content Creation,Media And Content Creation
+tool_07909,JobSynergy,55,1,Communication And Support,Operations And Management,Operations And Management,Operations And Management
+tool_04723,Agent 360,56,2,Communication And Support,Communication And Support,Communication And Support,Communication And Support
+tool_11504,Aloware,57,3,Communication And Support,Communication And Support,Communication And Support,Communication And Support
+tool_12397,Memoirji,58,2,Communication And Support,Communication And Support,Communication And Support,Communication And Support
+tool_03992,Voyager minedojo,59,4,Communication And Support,Technology And Development,Specialized Technologies,Specialized Technologies
+tool_12363,OneAccord,60,3,Communication And Support,Media And Content Creation,Media And Content Creation,Media And Content Creation
+tool_05660,Almo Chat,61,1,Communication And Support,Marketing And Sales,Communication And Support,Communication And Support
+tool_14182,How To Be Best Man,62,2,Communication And Support,Operations And Management,Personal And Lifestyle,Communication And Support
+tool_04179,Word WandAI,63,4,Communication And Support,Communication And Support,Communication And Support,Communication And Support
+tool_15355,Dreamjourney AI,64,2,Communication And Support,Media And Content Creation,Communication And Support,Communication And Support
+tool_00574,MacGaiver,65,1,Communication And Support,Specialized Technologies,Industry Specific,Industry Specific
+tool_01307,AIChatting,66,3,Communication And Support,Media And Content Creation,Marketing And Sales,Marketing And Sales
+tool_09974,HereAfter AI,67,4,Communication And Support,Communication And Support,Industry Specific,Communication And Support
+tool_05484,Wedspeech.AI,68,1,Communication And Support,Media And Content Creation,Personal And Lifestyle,Personal And Lifestyle
+tool_11790,Yuma,69,2,Communication And Support,Communication And Support,Business And Finance,Technology And Development
+tool_08554,Web2Chat,70,2,Communication And Support,Communication And Support,Communication And Support,Communication And Support
+tool_06775,IntelliChat,71,3,Communication And Support,Communication And Support,Communication And Support,Communication And Support
+tool_07826,Mentalyc,72,3,Communication And Support,Industry Specific,Specialized Technologies,Specialized Technologies
+tool_04380,Metaview,73,4,Communication And Support,Media And Content Creation,Operations And Management,Operations And Management
+tool_04593,Chat Thing,74,4,Communication And Support,Data And Analytics,Data And Analytics,Data And Analytics
+tool_13729,Philosophy,75,1,Communication And Support,Communication And Support,Communication And Support,Communication And Support
+tool_10246,BotGPT,76,1,Communication And Support,Technology And Development,Communication And Support,Communication And Support
+tool_15955,ReelBuzz,77,4,Creative And Entertainment,Media And Content Creation,Media And Content Creation,Ai And Machine Learning
+tool_15773,Malibu,78,3,Creative And Entertainment,Media And Content Creation,Media And Content Creation,Media And Content Creation
+tool_15644,Patience,79,4,Creative And Entertainment,Creative And Entertainment,Creative And Entertainment,Media And Content Creation
+tool_07985,Getfloorplan,80,1,Creative And Entertainment,Marketing And Sales,Media And Content Creation,Media And Content Creation
+tool_16540,PicAI,81,2,Creative And Entertainment,Media And Content Creation,Creative And Entertainment,Creative And Entertainment
+tool_05114,Resume Photo,82,2,Creative And Entertainment,Technology And Development,Creative And Entertainment,Creative And Entertainment
+tool_02337,PhotoFuse,83,3,Creative And Entertainment,Media And Content Creation,Creative And Entertainment,Creative And Entertainment
+tool_08707,Imagined with AI,84,4,Creative And Entertainment,Data And Analytics,Creative And Entertainment,Creative And Entertainment
+tool_09148,Photify AI,85,4,Creative And Entertainment,Creative And Entertainment,Creative And Entertainment,Creative And Entertainment
+tool_15912,Gpt twit-bot,86,1,Creative And Entertainment,Operations And Management,Marketing And Sales,Marketing And Sales
+tool_03226,Sivi,87,2,Creative And Entertainment,Media And Content Creation,Creative And Entertainment,Technology And Development
+tool_15712,Diffusion Art,88,3,Creative And Entertainment,Creative And Entertainment,Creative And Entertainment,Creative And Entertainment
+tool_15696,LogoMate,89,1,Creative And Entertainment,Marketing And Sales,Creative And Entertainment,Creative And Entertainment
+tool_11394,PaperChat,90,2,Data And Analytics,Data And Analytics,Communication And Support,Communication And Support
+tool_04876,ChatwithpdfAI,91,3,Data And Analytics,Ai And Machine Learning,Ai And Machine Learning,Ai And Machine Learning
+tool_11956,BlazorData,92,1,Data And Analytics,Marketing And Sales,Data And Analytics,Data And Analytics
+tool_11554,Markovml,93,4,Data And Analytics,Marketing And Sales,Business And Finance,Operations And Management
+tool_02163,Chat With Your Database,94,1,Data And Analytics,Specialized Technologies,Data And Analytics,Data And Analytics
+tool_05934,Pizi AI,95,2,Data And Analytics,Ai And Machine Learning,Data And Analytics,Data And Analytics
+tool_03249,OpinionStage,96,3,Data And Analytics,Media And Content Creation,Specialized Technologies,Specialized Technologies
+tool_09302,Websheet AI,97,4,Data And Analytics,Marketing And Sales,Operations And Management,Operations And Management
+tool_05199,Airwiz,98,2,Data And Analytics,Data And Analytics,Data And Analytics,Specialized Technologies
+tool_03513,KlearStack,99,3,Data And Analytics,Specialized Technologies,Business And Finance,Business And Finance
+tool_10605,Docuchat,100,4,Data And Analytics,Technology And Development,Communication And Support,Communication And Support
+tool_02067,Product Genius,101,1,Data And Analytics,Communication And Support,Marketing And Sales,Marketing And Sales
+tool_15208,ParaphrasingTool,102,2,Data And Analytics,Creative And Entertainment,Ai And Machine Learning,Ai And Machine Learning
+tool_06007,Buster.so,103,4,Data And Analytics,Specialized Technologies,Marketing And Sales,Marketing And Sales
+tool_11647,Learniverse,104,3,Education And Learning,Technology And Development,Marketing And Sales,Marketing And Sales
+tool_13910,TutorAI,105,3,Education And Learning,Communication And Support,Specialized Technologies,Specialized Technologies
+tool_08584,Foxus AI,106,1,Education And Learning,Marketing And Sales,Marketing And Sales,Marketing And Sales
+tool_15147,Pandatron AICoach,107,2,Education And Learning,Operations And Management,Operations And Management,Operations And Management
+tool_15342,OnChat,108,3,Industry Specific,Industry Specific,Communication And Support,Communication And Support
+tool_00060,Muskan.ai,109,4,Industry Specific,Communication And Support,Industry Specific,Specialized Technologies
+tool_08114,Docus AI,110,1,Industry Specific,Industry Specific,Industry Specific,Industry Specific
+tool_14745,Sage AI,111,4,Industry Specific,Industry Specific,Industry Specific,Industry Specific
+tool_01670,Healer,112,1,Industry Specific,Operations And Management,Industry Specific,Industry Specific
+tool_07344,Ada Health,113,2,Industry Specific,Industry Specific,Industry Specific,Specialized Technologies
+tool_00950,AskLegal.bot,114,2,Industry Specific,Technology And Development,Specialized Technologies,Specialized Technologies
+tool_15483,Roast My Landing Page,115,3,Marketing And Sales,Communication And Support,Marketing And Sales,Marketing And Sales
+tool_02533,KIVA by Wellows,116,4,Marketing And Sales,Marketing And Sales,Marketing And Sales,Marketing And Sales
+tool_02035,Double,117,4,Marketing And Sales,Data And Analytics,Marketing And Sales,Marketing And Sales
+tool_03718,StrawPoll,118,2,Marketing And Sales,Data And Analytics,Data And Analytics,Data And Analytics
+tool_03882,ClassPoint AI,119,1,Marketing And Sales,Specialized Technologies,Specialized Technologies,Specialized Technologies
+tool_15098,Mailmaker by Mailscribe,120,3,Marketing And Sales,Marketing And Sales,Marketing And Sales,Marketing And Sales
+tool_04881,GetWebsite.Report,121,2,Marketing And Sales,Specialized Technologies,Marketing And Sales,Marketing And Sales
+tool_07649,Outranking,122,3,Marketing And Sales,Marketing And Sales,Marketing And Sales,Marketing And Sales
+tool_11915,Aposting,123,3,Marketing And Sales,Marketing And Sales,Marketing And Sales,Marketing And Sales
+tool_14954,Semrush outline builder,124,1,Marketing And Sales,Marketing And Sales,Marketing And Sales,Marketing And Sales
+tool_05867,Respired,125,1,Marketing And Sales,Marketing And Sales,Marketing And Sales,Marketing And Sales
+tool_14639,Exolyt,126,4,Marketing And Sales,Marketing And Sales,Marketing And Sales,Business And Finance
+tool_12793,TweetyAI,127,2,Marketing And Sales,Marketing And Sales,Marketing And Sales,Marketing And Sales
+tool_03439,EmailWritr,128,1,Marketing And Sales,Marketing And Sales,Marketing And Sales,Marketing And Sales
+tool_01879,Writastic,129,3,Marketing And Sales,Marketing And Sales,Marketing And Sales,Marketing And Sales
+tool_09634,TreeBrain,130,4,Marketing And Sales,Business And Finance,Marketing And Sales,Marketing And Sales
+tool_00714,Locales.ai,131,1,Marketing And Sales,Communication And Support,Industry Specific,Industry Specific
+tool_15182,Swantide AI Assistant,132,2,Marketing And Sales,Data And Analytics,Communication And Support,Communication And Support
+tool_06779,BekiAI,133,4,Marketing And Sales,Technology And Development,Creative And Entertainment,Ai And Machine Learning
+tool_06419,Buzzi.ai,134,3,Marketing And Sales,Marketing And Sales,Marketing And Sales,Marketing And Sales
+tool_00289,AgentProd,135,1,Marketing And Sales,Marketing And Sales,Business And Finance,Business And Finance
+tool_01701,Cclarity,136,2,Marketing And Sales,Marketing And Sales,Marketing And Sales,Marketing And Sales
+tool_00986,Trendhopper,137,3,Marketing And Sales,Communication And Support,Marketing And Sales,Marketing And Sales
+tool_15697,Ai Music Generator,138,4,Media And Content Creation,Creative And Entertainment,Media And Content Creation,Media And Content Creation
+tool_06199,Exemplary AI,139,2,Media And Content Creation,Media And Content Creation,Media And Content Creation,Media And Content Creation
+tool_01329,ChatSlide,140,4,Media And Content Creation,Industry Specific,Media And Content Creation,Operations And Management
+tool_09427,BlueGPT,141,3,Media And Content Creation,Technology And Development,Ai And Machine Learning,Ai And Machine Learning
+tool_04367,Lumiere3D,142,2,Media And Content Creation,Media And Content Creation,Media And Content Creation,Media And Content Creation
+tool_05119,Genmo,143,4,Media And Content Creation,Media And Content Creation,Media And Content Creation,Media And Content Creation
+tool_03952,MatchPhotos,144,3,Media And Content Creation,Communication And Support,Creative And Entertainment,Creative And Entertainment
+tool_09827,Inkey,145,2,Media And Content Creation,Specialized Technologies,Education And Learning,Education And Learning
+tool_02514,Deep Image,146,1,Media And Content Creation,Media And Content Creation,Creative And Entertainment,Creative And Entertainment
+tool_13289,MyEssayTyper,147,3,Media And Content Creation,Media And Content Creation,Ai And Machine Learning,Ai And Machine Learning
+tool_16685,Vocal Remover,148,3,Media And Content Creation,Media And Content Creation,Media And Content Creation,Media And Content Creation
+tool_15978,4oImageAPI.io,149,1,Media And Content Creation,Media And Content Creation,Media And Content Creation,Media And Content Creation
+tool_08693,Humanize.im,150,4,Media And Content Creation,Media And Content Creation,Communication And Support,Communication And Support
+tool_04496,Dream3d,151,1,Media And Content Creation,Media And Content Creation,Creative And Entertainment,Creative And Entertainment
+tool_14310,Unbound ML E-commerce AI Assistant,152,1,Media And Content Creation,Technology And Development,Media And Content Creation,Media And Content Creation
+tool_08694,HumanizerPro,153,1,Media And Content Creation,Marketing And Sales,Communication And Support,Communication And Support
+tool_14640,MicMonster,154,4,Media And Content Creation,Media And Content Creation,Media And Content Creation,Media And Content Creation
+tool_03586,Elephas,155,2,Media And Content Creation,Industry Specific,Industry Specific,Communication And Support
+tool_01788,Aura AI,156,2,Media And Content Creation,Media And Content Creation,Media And Content Creation,Ai And Machine Learning
+tool_01832,Reeler AI,157,4,Media And Content Creation,Media And Content Creation,Media And Content Creation,Media And Content Creation
+tool_12103,Listen2.AI - Smart News,158,2,Media And Content Creation,Business And Finance,Ai And Machine Learning,Ai And Machine Learning
+tool_06584,EasyMedia,159,3,Media And Content Creation,Media And Content Creation,Media And Content Creation,Media And Content Creation
+tool_08629,AISEO Art,160,3,Media And Content Creation,Specialized Technologies,Creative And Entertainment,Creative And Entertainment
+tool_15724,HiDream Pro,161,4,Media And Content Creation,Creative And Entertainment,Creative And Entertainment,Creative And Entertainment
+tool_13379,StoriesForKids.ai,162,1,Media And Content Creation,Operations And Management,Media And Content Creation,Media And Content Creation
+tool_00988,Scenario,163,2,Media And Content Creation,Media And Content Creation,Media And Content Creation,Media And Content Creation
+tool_12036,Nano Banana.pro,164,3,Media And Content Creation,Creative And Entertainment,Creative And Entertainment,Creative And Entertainment
+tool_01859,Dream Machine AI,165,1,Media And Content Creation,Media And Content Creation,Media And Content Creation,Media And Content Creation
+tool_14530,FineVoice AI Voice Changer,166,4,Media And Content Creation,Ai And Machine Learning,Ai And Machine Learning,Ai And Machine Learning
+tool_15711,Stable Diffusion,167,4,Media And Content Creation,Creative And Entertainment,Creative And Entertainment,Creative And Entertainment
+tool_02068,SpiritMe,168,2,Media And Content Creation,Media And Content Creation,Media And Content Creation,Media And Content Creation
+tool_03615,DocuWriter.ai,169,3,Media And Content Creation,Technology And Development,Technology And Development,Technology And Development
+tool_08364,Akuma,170,1,Media And Content Creation,Creative And Entertainment,Media And Content Creation,Media And Content Creation
+tool_03429,Mindgrasp,171,2,Media And Content Creation,Ai And Machine Learning,Ai And Machine Learning,Communication And Support
+tool_16580,Transpocket,172,3,Media And Content Creation,Communication And Support,Media And Content Creation,Media And Content Creation
+tool_01420,YTSummary,173,4,Media And Content Creation,Media And Content Creation,Communication And Support,Ai And Machine Learning
+tool_15709,GeminiAIVideo,174,1,Media And Content Creation,Media And Content Creation,Media And Content Creation,Media And Content Creation
+tool_15652,AIVideoGenerator.me,175,2,Media And Content Creation,Media And Content Creation,Media And Content Creation,Media And Content Creation
+tool_01857,Nubee,176,1,Media And Content Creation,Creative And Entertainment,Creative And Entertainment,Creative And Entertainment
+tool_12019,WOXO,177,3,Media And Content Creation,Creative And Entertainment,Media And Content Creation,Media And Content Creation
+tool_09852,Blockadelabs,178,4,Media And Content Creation,Specialized Technologies,Technology And Development,Media And Content Creation
+tool_15334,Brain.fm,179,2,Media And Content Creation,Media And Content Creation,Media And Content Creation,Media And Content Creation
+tool_00249,AiChatPilot,180,4,Media And Content Creation,Technology And Development,Technology And Development,Technology And Development
+tool_13801,AI Outpainting Image,181,3,Media And Content Creation,Ai And Machine Learning,Creative And Entertainment,Creative And Entertainment
+tool_15568,Calvin - AI Shorts Maker,182,1,Media And Content Creation,Media And Content Creation,Media And Content Creation,Media And Content Creation
+tool_04329,FocalML,183,2,Media And Content Creation,Technology And Development,Media And Content Creation,Media And Content Creation
+tool_08839,MythBlender,184,3,Media And Content Creation,Communication And Support,Media And Content Creation,Media And Content Creation
+tool_03945,Graph Maker,185,1,Media And Content Creation,Media And Content Creation,Data And Analytics,Data And Analytics
+tool_15729,AI Song Generator,186,4,Media And Content Creation,Specialized Technologies,Media And Content Creation,Media And Content Creation
+tool_07386,Growtake AI Ads,187,1,Media And Content Creation,Marketing And Sales,Marketing And Sales,Marketing And Sales
+tool_16335,Voice Cleaner AI,188,2,Media And Content Creation,Media And Content Creation,Media And Content Creation,Media And Content Creation
+tool_01087,Capsule,189,2,Media And Content Creation,Media And Content Creation,Media And Content Creation,Media And Content Creation
+tool_00034,VideoWeb AI,190,4,Media And Content Creation,Media And Content Creation,Media And Content Creation,Media And Content Creation
+tool_04929,Huemint,191,2,Media And Content Creation,Data And Analytics,Creative And Entertainment,Media And Content Creation
+tool_14306,Make Illustrations,192,1,Media And Content Creation,Technology And Development,Creative And Entertainment,Creative And Entertainment
+tool_08442,Deleo,193,3,Media And Content Creation,Media And Content Creation,Media And Content Creation,Media And Content Creation
+tool_05272,Upscayl,194,3,Media And Content Creation,Media And Content Creation,Media And Content Creation,Media And Content Creation
+tool_07828,Elai.io,195,4,Media And Content Creation,Creative And Entertainment,Media And Content Creation,Media And Content Creation
+tool_13393,Zizoto,196,1,Media And Content Creation,Media And Content Creation,Creative And Entertainment,Creative And Entertainment
+tool_13181,Paper Pilot,197,4,Media And Content Creation,Communication And Support,Data And Analytics,Data And Analytics
+tool_02911,EssayFlow,198,2,Media And Content Creation,Media And Content Creation,Ai And Machine Learning,Ai And Machine Learning
+tool_03578,Whatmore,199,3,Media And Content Creation,Media And Content Creation,Media And Content Creation,Media And Content Creation
+tool_05493,Brisk Write,200,4,Media And Content Creation,Business And Finance,Technology And Development,Media And Content Creation
+tool_01071,"Overlap - AI that clips, edits, and posts",201,3,Media And Content Creation,Media And Content Creation,Media And Content Creation,Media And Content Creation
+tool_13475,FuturiBooks,202,1,Media And Content Creation,Media And Content Creation,Media And Content Creation,Media And Content Creation
+tool_09880,Huxli,203,1,Media And Content Creation,Media And Content Creation,Specialized Technologies,Specialized Technologies
+tool_01051,Undetectable,204,2,Media And Content Creation,Marketing And Sales,Security And Privacy,Security And Privacy
+tool_00923,DraGAN,205,2,Media And Content Creation,Operations And Management,Media And Content Creation,Media And Content Creation
+tool_09250,WriteBot.io,206,4,Media And Content Creation,Marketing And Sales,Communication And Support,Communication And Support
+tool_16543,Magi-1,207,3,Media And Content Creation,Media And Content Creation,Media And Content Creation,Media And Content Creation
+tool_15627,Flux Image AI,208,1,Media And Content Creation,Creative And Entertainment,Creative And Entertainment,Creative And Entertainment
+tool_01045,Academic Help,209,2,Media And Content Creation,Communication And Support,Ai And Machine Learning,Ai And Machine Learning
+tool_01488,Warpvideo AI,210,3,Media And Content Creation,Media And Content Creation,Media And Content Creation,Media And Content Creation
+tool_15607,Flux Kontext AI,211,4,Media And Content Creation,Industry Specific,Media And Content Creation,Media And Content Creation
+tool_03468,Pet Portrait AI,212,1,Media And Content Creation,Media And Content Creation,Creative And Entertainment,Creative And Entertainment
+tool_01264,CopyReadyNow,213,2,Media And Content Creation,Communication And Support,Media And Content Creation,Media And Content Creation
+tool_01241,Ask Klem,214,3,Media And Content Creation,Media And Content Creation,Creative And Entertainment,Creative And Entertainment
+tool_09961,ForEva,215,3,Operations And Management,Operations And Management,Operations And Management,Operations And Management
+tool_02575,BabelOn,216,3,Operations And Management,Ai And Machine Learning,Operations And Management,Operations And Management
+tool_05764,SpeakSpots,217,4,Operations And Management,Industry Specific,Operations And Management,Operations And Management
+tool_15294,Online Gantt,218,1,Operations And Management,Industry Specific,Data And Analytics,Data And Analytics
+tool_16368,Scrumbuiss,219,4,Operations And Management,Operations And Management,Technology And Development,Technology And Development
+tool_14509,Just Resignation Letters,220,4,Operations And Management,Specialized Technologies,Communication And Support,Communication And Support
+tool_13988,Amie - AI Note Taker,221,2,Operations And Management,Marketing And Sales,Communication And Support,Communication And Support
+tool_07604,Littlecook,222,1,Operations And Management,Operations And Management,Specialized Technologies,Specialized Technologies
+tool_06161,Smartcat,223,3,Operations And Management,Operations And Management,Marketing And Sales,Marketing And Sales
+tool_04659,Eightfold,224,2,Operations And Management,Business And Finance,Operations And Management,Operations And Management
+tool_05601,CareerPen,225,4,Operations And Management,Operations And Management,Operations And Management,Operations And Management
+tool_02843,Voxpad,226,2,Operations And Management,Communication And Support,Ai And Machine Learning,Ai And Machine Learning
+tool_16096,Deepbrain AI,227,1,Operations And Management,Media And Content Creation,Operations And Management,Operations And Management
+tool_11258,Prospre,228,1,Operations And Management,Technology And Development,Technology And Development,Technology And Development
+tool_01528,Breve AI,229,3,Operations And Management,Business And Finance,Business And Finance,Business And Finance
+tool_11269,Novoresume,230,1,Operations And Management,Operations And Management,Operations And Management,Operations And Management
+tool_15338,Voiset,231,2,Operations And Management,Ai And Machine Learning,Industry Specific,Operations And Management
+tool_13953,Hermeso,232,4,Operations And Management,Operations And Management,Operations And Management,Operations And Management
+tool_02089,Bange,233,3,Operations And Management,Operations And Management,Operations And Management,Operations And Management
+tool_13200,Renovate AI,234,4,Operations And Management,Marketing And Sales,Creative And Entertainment,Creative And Entertainment
+tool_12406,MindPlexa,235,3,Operations And Management,Operations And Management,Data And Analytics,Data And Analytics
+tool_02875,OnlyPans,236,1,Operations And Management,Operations And Management,Operations And Management,Operations And Management
+tool_05711,Reppls,237,1,Operations And Management,Data And Analytics,Operations And Management,Operations And Management
+tool_06780,Intervidy,238,2,Operations And Management,Communication And Support,Data And Analytics,Technology And Development
+tool_03372,ApplyPro,239,3,Operations And Management,Operations And Management,Operations And Management,Operations And Management
+tool_13332,Bahia AI,240,2,Operations And Management,Data And Analytics,Industry Specific,Operations And Management
+tool_15288,SkinCareLens,241,4,Personal And Lifestyle,Technology And Development,Creative And Entertainment,Specialized Technologies
+tool_14551,Sayfli,242,2,Personal And Lifestyle,Ai And Machine Learning,Industry Specific,Ai And Machine Learning
+tool_15379,MGAI,243,1,Personal And Lifestyle,Ai And Machine Learning,Personal And Lifestyle,Personal And Lifestyle
+tool_16088,Imajinn.ai,244,4,Personal And Lifestyle,Communication And Support,Media And Content Creation,Media And Content Creation
+tool_14696,Idyll,245,4,Personal And Lifestyle,Ai And Machine Learning,Communication And Support,Communication And Support
+tool_15000,isFake.ai,246,3,Security And Privacy,Media And Content Creation,Media And Content Creation,Media And Content Creation
+tool_03222,Trinka AI,247,2,Security And Privacy,Ai And Machine Learning,Specialized Technologies,Specialized Technologies
+tool_06561,ClicKarma,248,2,Security And Privacy,Security And Privacy,Security And Privacy,Security And Privacy
+tool_02545,Duplichecker,249,3,Security And Privacy,Security And Privacy,Security And Privacy,Security And Privacy
+tool_02446,Winston AI,250,4,Security And Privacy,Security And Privacy,Security And Privacy,Security And Privacy
+tool_13111,Veriff,251,1,Security And Privacy,Security And Privacy,Security And Privacy,Security And Privacy
+tool_06667,Feedback Wizard,252,2,Security And Privacy,Marketing And Sales,Data And Analytics,Data And Analytics
+tool_04816,BaziAI,253,4,Specialized Technologies,Operations And Management,Operations And Management,Operations And Management
+tool_03595,IELTS CHAMP,254,1,Specialized Technologies,Media And Content Creation,Ai And Machine Learning,Ai And Machine Learning
+tool_13235,Ocelot,255,3,Specialized Technologies,Media And Content Creation,Specialized Technologies,Specialized Technologies
+tool_06252,Teacher AI,256,4,Specialized Technologies,Specialized Technologies,Specialized Technologies,Specialized Technologies
+tool_03470,Niah AI,257,1,Specialized Technologies,Data And Analytics,Industry Specific,Industry Specific
+tool_12634,RollSummary,258,4,Specialized Technologies,Marketing And Sales,Marketing And Sales,Marketing And Sales
+tool_04491,Aqua Voice,259,2,Specialized Technologies,Media And Content Creation,Ai And Machine Learning,Ai And Machine Learning
+tool_09272,Template Prompts,260,3,Specialized Technologies,Industry Specific,Personal And Lifestyle,Personal And Lifestyle
+tool_09042,Tandem GPT,261,2,Specialized Technologies,Ai And Machine Learning,Specialized Technologies,Specialized Technologies
+tool_04181,MostlyAI,262,1,Specialized Technologies,Data And Analytics,Technology And Development,Technology And Development
+tool_01477,Appified.ai,263,3,Specialized Technologies,Ai And Machine Learning,Technology And Development,Technology And Development
+tool_07713,KnowNotes,264,4,Specialized Technologies,Operations And Management,Specialized Technologies,Ai And Machine Learning
+tool_04752,GitMind,265,1,Specialized Technologies,Marketing And Sales,Operations And Management,Operations And Management
+tool_00748,AI Meme Arena,266,2,Specialized Technologies,Media And Content Creation,Marketing And Sales,Marketing And Sales
+tool_00072,Craveo,267,3,Specialized Technologies,Communication And Support,Operations And Management,Operations And Management
+tool_06117,Monic,268,3,Specialized Technologies,Operations And Management,Specialized Technologies,Specialized Technologies
+tool_14084,Hayden AI,269,4,Specialized Technologies,Marketing And Sales,Creative And Entertainment,Creative And Entertainment
+tool_01996,IAsk,270,4,Specialized Technologies,Data And Analytics,Data And Analytics,Data And Analytics
+tool_11794,Suki,271,2,Specialized Technologies,Industry Specific,Industry Specific,Specialized Technologies
+tool_02566,CompliantChatGPT,272,4,Specialized Technologies,Security And Privacy,Industry Specific,Industry Specific
+tool_11443,Sutro,273,1,Technology And Development,Specialized Technologies,Technology And Development,Technology And Development
+tool_15284,Qoder,274,1,Technology And Development,Technology And Development,Technology And Development,Technology And Development
+tool_08419,GPTBricks,275,1,Technology And Development,Communication And Support,Communication And Support,Communication And Support
+tool_00121,Grsai AI,276,4,Technology And Development,Technology And Development,Media And Content Creation,Media And Content Creation
+tool_01277,Landingi,277,1,Technology And Development,Technology And Development,Marketing And Sales,Marketing And Sales
+tool_00591,Code Fundi,278,3,Technology And Development,Technology And Development,Technology And Development,Technology And Development
+tool_11456,Marblism,279,2,Technology And Development,Media And Content Creation,Technology And Development,Technology And Development
+tool_02583,Boundary AI,280,3,Technology And Development,Communication And Support,Technology And Development,Technology And Development
+tool_08445,Delta Driven,281,4,Technology And Development,Operations And Management,Education And Learning,Operations And Management
+tool_05851,Question AI.io,282,1,Technology And Development,Industry Specific,Data And Analytics,Data And Analytics
+tool_06918,Pico,283,2,Technology And Development,Technology And Development,Technology And Development,Technology And Development
+tool_06771,Solo AI,284,3,Technology And Development,Media And Content Creation,Marketing And Sales,Marketing And Sales
+tool_14952,OpenLayer,285,2,Technology And Development,Creative And Entertainment,Technology And Development,Technology And Development
+tool_04610,CourseAI,286,1,Technology And Development,Marketing And Sales,Technology And Development,Technology And Development
+tool_14649,Dust,287,3,Technology And Development,Communication And Support,Technology And Development,Technology And Development
+tool_01797,Macaly,288,4,Technology And Development,Technology And Development,Technology And Development,Technology And Development
+tool_06674,Prompteasy,289,2,Technology And Development,Technology And Development,Business And Finance,Business And Finance
+tool_11581,Rex Fit,290,2,Technology And Development,Industry Specific,Operations And Management,Operations And Management
+tool_07936,Autoblocks,291,1,Technology And Development,Ai And Machine Learning,Technology And Development,Technology And Development
+tool_16310,Promptroi,292,3,Technology And Development,Specialized Technologies,Operations And Management,Operations And Management
+tool_02687,TiramAi,293,4,Technology And Development,Technology And Development,Technology And Development,Technology And Development
+tool_04371,Diffblue Cover,294,1,Technology And Development,Media And Content Creation,Technology And Development,Technology And Development
+tool_03159,Jam,295,2,Technology And Development,Business And Finance,Technology And Development,Technology And Development
+tool_00426,LearningStudioAI,296,4,Technology And Development,Creative And Entertainment,Education And Learning,Education And Learning
+tool_03205,DeepL,297,2,Technology And Development,Communication And Support,Communication And Support,Communication And Support
+tool_16018,CodewpAI,298,3,Technology And Development,Communication And Support,Marketing And Sales,Marketing And Sales
+tool_08058,TestSprite,299,2,Technology And Development,Technology And Development,Technology And Development,Technology And Development
+tool_14698,Keywords Everwhere,300,1,Technology And Development,Ai And Machine Learning,Ai And Machine Learning,Ai And Machine Learning
+tool_15196,Roboflow,301,4,Technology And Development,Media And Content Creation,Media And Content Creation,Media And Content Creation
+tool_01844,Clarify AI,302,4,Technology And Development,Ai And Machine Learning,Technology And Development,Ai And Machine Learning
+tool_00626,RockettAI,303,4,Technology And Development,Media And Content Creation,Education And Learning,Media And Content Creation
+saas_00284,Auphonic,304,2,Media And Content Creation,Media And Content Creation,Media And Content Creation,Media And Content Creation
+saas_00252,Akismet,305,3,Security And Privacy,Ai And Machine Learning,Security And Privacy,Security And Privacy

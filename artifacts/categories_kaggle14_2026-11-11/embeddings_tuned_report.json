@@ -1,0 +1,99 @@
+{
+  "Ai And Machine Learning": {
+    "precision": 0.2,
+    "recall": 0.17857142857142858,
+    "f1-score": 0.18867924528301888,
+    "support": 28.0
+  },
+  "Business And Finance": {
+    "precision": 0.6666666666666666,
+    "recall": 0.5555555555555556,
+    "f1-score": 0.6060606060606061,
+    "support": 18.0
+  },
+  "Communication And Support": {
+    "precision": 0.4117647058823529,
+    "recall": 0.45161290322580644,
+    "f1-score": 0.4307692307692308,
+    "support": 31.0
+  },
+  "Creative And Entertainment": {
+    "precision": 0.2916666666666667,
+    "recall": 0.5384615384615384,
+    "f1-score": 0.3783783783783784,
+    "support": 13.0
+  },
+  "Data And Analytics": {
+    "precision": 0.1875,
+    "recall": 0.21428571428571427,
+    "f1-score": 0.2,
+    "support": 14.0
+  },
+  "Education And Learning": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4.0
+  },
+  "Industry Specific": {
+    "precision": 0.42857142857142855,
+    "recall": 0.42857142857142855,
+    "f1-score": 0.42857142857142855,
+    "support": 7.0
+  },
+  "Marketing And Sales": {
+    "precision": 0.5161290322580645,
+    "recall": 0.6956521739130435,
+    "f1-score": 0.5925925925925926,
+    "support": 23.0
+  },
+  "Media And Content Creation": {
+    "precision": 0.7241379310344828,
+    "recall": 0.5384615384615384,
+    "f1-score": 0.6176470588235294,
+    "support": 78.0
+  },
+  "Operations And Management": {
+    "precision": 0.4375,
+    "recall": 0.5384615384615384,
+    "f1-score": 0.4827586206896552,
+    "support": 26.0
+  },
+  "Personal And Lifestyle": {
+    "precision": 0.25,
+    "recall": 0.2,
+    "f1-score": 0.2222222222222222,
+    "support": 5.0
+  },
+  "Security And Privacy": {
+    "precision": 0.625,
+    "recall": 0.625,
+    "f1-score": 0.625,
+    "support": 8.0
+  },
+  "Specialized Technologies": {
+    "precision": 0.25,
+    "recall": 0.25,
+    "f1-score": 0.25,
+    "support": 20.0
+  },
+  "Technology And Development": {
+    "precision": 0.5,
+    "recall": 0.4838709677419355,
+    "f1-score": 0.4918032786885246,
+    "support": 31.0
+  },
+  "accuracy": 0.45751633986928103,
+  "macro avg": {
+    "precision": 0.39206688793426153,
+    "recall": 0.4070360562321091,
+    "f1-score": 0.39389161871994194,
+    "support": 306.0
+  },
+  "weighted avg": {
+    "precision": 0.47797417944981946,
+    "recall": 0.45751633986928103,
+    "f1-score": 0.46071801292820863,
+    "support": 306.0
+  }
+}

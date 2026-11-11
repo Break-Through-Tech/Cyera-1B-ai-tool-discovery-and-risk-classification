@@ -11,13 +11,13 @@ The approved recommendations from the November 5 review are applied in a **separ
 
 Thirty binary labels changed: 13 conventional-source records become 1 and 17 AI-source records become 0. The 36 unresolved records have a blank corrected label and are also listed in `unresolved.csv`; they are not treated as conventional and are excluded from binary preparation.
 
-Forty-two supported feature/product scopes have corrected names. Forty-three descriptions were replaced with capability-focused paraphrases: the 42 scoped records plus the missing AdRoll description. The paraphrases and reviewed scope names are explicitly assistant-authored. Examples include HubSpot Campaign Assistant, ClickUp Brain, Fotor AI Image Generator and Xero JAX. This avoids attaching a feature-specific positive label to an unchanged broad platform name or unrelated description. Source-domain fields are retained; a shared domain still does not imply the same application.
+Forty-two supported feature/product scopes have corrected names. Forty-three descriptions were replaced with capability-focused paraphrases: the 42 scoped records plus the missing AdRoll description. The paraphrases and reviewed scope names are research-derived annotations, not verbatim vendor statements. Examples include HubSpot Campaign Assistant, ClickUp Brain, Fotor AI Image Generator and Xero JAX. This avoids attaching a feature-specific positive label to an unchanged broad platform name or unrelated description. Source-domain fields are retained; a shared domain still does not imply the same application.
 
-Each row records `source_is_ai_tool`, original name, review status, evidence URL and whether scope/description changed. The original description is stored on changed rows; unchanged descriptions remain directly available in both exports. `label_method` distinguishes source assignments from assistant source review. The original `potential_label_conflict` flag is historical provenance, not a newly computed conflict status.
+Each row records `source_is_ai_tool`, original name, review status, evidence URL and whether scope/description changed. The original description is stored on changed rows; unchanged descriptions remain directly available in both exports. `label_method` distinguishes source assignments from review against official sources; existing provenance codes are retained for reproducibility. The original `potential_label_conflict` flag is historical provenance, not a newly computed conflict status.
 
 `eligible_for_binary_preparation` is false for unresolved records or missing descriptions. There are **16,728** records passing this basic gate. The remaining labeled records with missing descriptions retain their assigned labels but need description repair before text modeling. Passing this gate does not establish training/test readiness: duplicate and related identities still need grouping, unresolved relationships must be handled, and fresh train/validation/test splits must be created. No model has been retrained or evaluated here.
 
-Most unflagged labels remain source-assigned and unverified. The reviewed labels are assistant judgments against official product sources, not independently human-verified ground truth. This export applies the user's approved recommendations; it does not claim that every catalog record was researched.
+Most unflagged labels remain source-assigned and unverified. The reviewed labels are judgments based on official product sources, not independently human-verified ground truth. This export applies the user's approved recommendations; it does not claim that every catalog record was researched.
 
 ```bash
 python3 preprocessing_scripts/apply_conflict_review.py
@@ -56,3 +56,10 @@ python3 -m governance.risk --company 'Summit Financial' \
 ```
 
 Vendor research now defaults to `data/processed/vendor_research/dataset_b_vendor_enriched.csv`, so rerunning it does not overwrite corrected labels in the final export. Its cited cache is the reconciliation input; run the application command afterward. Blank/unknown vendors need further research, not guesses. Vendor names, synthetic governance fields and prior risk labels are enrichment for investigation, **not predictor inputs for the binary classifier**. Training splits, retraining and the Jev benchmark are still pending.
+
+
+**Training update:** [Grouped full-data preparation and binary retraining](corrected_full_binary.md) now use this export. Earlier mentions of pending splitting/training describe the enrichment stage; the original corrected export itself remains unsplit. Jev comparison remains pending.
+
+## November 11 reconciliation
+
+The six later documented subset resolutions are now propagated into a separate full release, `data/processed/reconciled_labels_2026-11-11/`: 16,741 AI, 521 conventional and 30 unresolved. This historical November 5 export is unchanged. New grouped splits, binary training and aligned 14-category modeling are described in [the backend release guide](backend_release.md).

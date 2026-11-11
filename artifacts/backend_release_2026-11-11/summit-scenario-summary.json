@@ -1,0 +1,3439 @@
+{
+  "company": "Summit Financial",
+  "synthetic_activity": true,
+  "synthetic_scenario_applied": true,
+  "application_count": 22,
+  "applications": [
+    {
+      "application_id": "app_dd92109cc601540df42c7df0df3fbd6548f5608e73dc4aa42c1189e566c4c52d",
+      "application_key": "chatgpt.com",
+      "application_names": [
+        "ChatGPT"
+      ],
+      "unique_users": 378,
+      "departments": [
+        "Compliance",
+        "Finance",
+        "HR",
+        "IT",
+        "Operations",
+        "Sales"
+      ],
+      "events": 1243,
+      "first_seen": "2026-09-01T08:40:00+00:00",
+      "last_seen": "2026-09-30T18:45:00+00:00",
+      "invalid_or_missing_timestamps": 0,
+      "upload_observations": 1243,
+      "download_observations": 1243,
+      "total_bytes_uploaded": 3914488126,
+      "total_bytes_downloaded": 9158063738,
+      "mean_bytes_uploaded": 3149226.167337088,
+      "max_bytes_uploaded": 9995754,
+      "mean_bytes_downloaded": 7367710.167337088,
+      "risk_score": 95,
+      "uncapped_risk_score": 95,
+      "risk_level": "high",
+      "assessment_status": "complete",
+      "needs_review": true,
+      "unknown_fields": [],
+      "metadata": {
+        "approved_status": "unapproved",
+        "data_retention": "indefinite",
+        "sso_available": false,
+        "training_on_customer_data": true,
+        "admin_controls_available": false,
+        "enterprise_plan_available": false
+      },
+      "metadata_source": "synthetic_company_scenario",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "unapproved",
+          "points": 25,
+          "evidence": {
+            "approved_status": "unapproved"
+          },
+          "explanation": "Explicitly unapproved in this company scenario."
+        },
+        {
+          "rule": "no_sso",
+          "points": 10,
+          "evidence": {
+            "sso_available": false
+          },
+          "explanation": "SSO unavailable in supplied metadata."
+        },
+        {
+          "rule": "no_admin_controls",
+          "points": 10,
+          "evidence": {
+            "admin_controls_available": false
+          },
+          "explanation": "Administrative controls unavailable in supplied metadata."
+        },
+        {
+          "rule": "no_enterprise_plan",
+          "points": 5,
+          "evidence": {
+            "enterprise_plan_available": false
+          },
+          "explanation": "Enterprise plan unavailable in supplied metadata."
+        },
+        {
+          "rule": "customer_data_training",
+          "points": 20,
+          "evidence": {
+            "training_on_customer_data": true
+          },
+          "explanation": "Supplied policy indicates customer content may be used for model training."
+        },
+        {
+          "rule": "long_retention",
+          "points": 10,
+          "evidence": {
+            "data_retention": "indefinite",
+            "threshold_days": 90
+          },
+          "explanation": "Retention exceeds the configured review threshold."
+        },
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 378,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "company": "Summit Financial",
+      "detection": {
+        "is_ai_tool": 1,
+        "method": "name_and_host",
+        "catalog_status": "known_ai",
+        "model_ai_score": null,
+        "reason": "matched_catalog_record",
+        "candidates": [
+          {
+            "tool_id": "tool_00001",
+            "tool_name": "ChatGPT",
+            "domain": "chatgpt.com",
+            "path": "",
+            "is_ai_tool": true,
+            "category": "Communication And Support",
+            "source": "ai_catalog",
+            "label_method": "assistant_official_source_review",
+            "evidence_url": "https://openai.com/chatgpt/overview/"
+          }
+        ],
+        "needs_review": true
+      },
+      "category": "Communication And Support",
+      "category_source": "catalog_assignment",
+      "observed_identity": {
+        "application_id": "app_dd92109cc601540df42c7df0df3fbd6548f5608e73dc4aa42c1189e566c4c52d",
+        "application_name": "ChatGPT",
+        "normalized_name": "chatgpt",
+        "domain": "chatgpt.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "chatgpt.com",
+        "event_count": 1243,
+        "departments": "[\"Compliance\", \"Finance\", \"HR\", \"IT\", \"Operations\", \"Sales\"]",
+        "name_variants": "[\"ChatGPT\"]",
+        "raw_domain_variants": "[\"chatgpt.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 378,
+        "total_session_duration_seconds": 4497376,
+        "session_duration_seconds_observed_events": 1243,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 3914488126,
+        "bytes_uploaded_observed_events": 1243,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 9158063738,
+        "bytes_downloaded_observed_events": 1243,
+        "bytes_downloaded_invalid_events": 0
+      },
+      "purpose_prediction": null
+    },
+    {
+      "application_id": "app_dc9ef5775b9e5314d3ca0fa7b9ab0b8e092f99a6ce1db1fbf822d6200414b560",
+      "application_key": "documind-ai.com",
+      "application_names": [
+        "DocuMind AI"
+      ],
+      "unique_users": 84,
+      "departments": [
+        "Finance"
+      ],
+      "events": 120,
+      "first_seen": "2026-09-04T10:34:00+00:00",
+      "last_seen": "2026-09-29T18:44:00+00:00",
+      "invalid_or_missing_timestamps": 0,
+      "upload_observations": 120,
+      "download_observations": 120,
+      "total_bytes_uploaded": 953803761,
+      "total_bytes_downloaded": 300642538,
+      "mean_bytes_uploaded": 7948364.675,
+      "max_bytes_uploaded": 14941791,
+      "mean_bytes_downloaded": 2505354.4833333334,
+      "risk_score": 55,
+      "uncapped_risk_score": 55,
+      "risk_level": "high",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": "unapproved",
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "synthetic_company_scenario",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "unapproved",
+          "points": 25,
+          "evidence": {
+            "approved_status": "unapproved"
+          },
+          "explanation": "Explicitly unapproved in this company scenario."
+        },
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "large_upload",
+          "points": 15,
+          "evidence": {
+            "mean_bytes_uploaded": 7948364.675,
+            "max_bytes_uploaded": 14941791,
+            "mean_threshold": 5000000,
+            "single_threshold": 10000000
+          },
+          "explanation": "Upload volume exceeds a configured threshold; this does not establish data leakage."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 84,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "company": "Summit Financial",
+      "detection": {
+        "is_ai_tool": null,
+        "method": "unknown",
+        "catalog_status": "unknown",
+        "model_ai_score": null,
+        "reason": "no_matching_identity",
+        "candidates": [],
+        "needs_review": true
+      },
+      "category": null,
+      "category_source": "unresolved",
+      "observed_identity": {
+        "application_id": "app_dc9ef5775b9e5314d3ca0fa7b9ab0b8e092f99a6ce1db1fbf822d6200414b560",
+        "application_name": "DocuMind AI",
+        "normalized_name": "documind ai",
+        "domain": "documind-ai.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "documind-ai.com",
+        "event_count": 120,
+        "departments": "[\"Finance\"]",
+        "name_variants": "[\"DocuMind AI\"]",
+        "raw_domain_variants": "[\"documind-ai.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 84,
+        "total_session_duration_seconds": 232743,
+        "session_duration_seconds_observed_events": 120,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 953803761,
+        "bytes_uploaded_observed_events": 120,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 300642538,
+        "bytes_downloaded_observed_events": 120,
+        "bytes_downloaded_invalid_events": 0
+      },
+      "purpose_prediction": null
+    },
+    {
+      "application_id": "app_0d4fc2e5b6a6ee692bff153c4002da9a3cd6c974cf5c9fbbf03f300dc60c7f23",
+      "application_key": "github.com",
+      "application_names": [
+        "GitHub"
+      ],
+      "unique_users": 241,
+      "departments": [
+        "Compliance",
+        "Finance",
+        "HR",
+        "IT",
+        "Operations",
+        "Sales"
+      ],
+      "events": 568,
+      "first_seen": "2026-09-01T09:15:00+00:00",
+      "last_seen": "2026-09-30T18:48:00+00:00",
+      "invalid_or_missing_timestamps": 0,
+      "upload_observations": 568,
+      "download_observations": 568,
+      "total_bytes_uploaded": 1708377789,
+      "total_bytes_downloaded": 4081914230,
+      "mean_bytes_uploaded": 3007707.375,
+      "max_bytes_uploaded": 9983907,
+      "mean_bytes_downloaded": 7186468.714788732,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 241,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "company": "Summit Financial",
+      "detection": {
+        "is_ai_tool": null,
+        "method": "unknown",
+        "catalog_status": "unknown",
+        "model_ai_score": null,
+        "reason": "host_present_but_product_not_resolved",
+        "candidates": [],
+        "needs_review": true
+      },
+      "category": null,
+      "category_source": "unresolved",
+      "observed_identity": {
+        "application_id": "app_0d4fc2e5b6a6ee692bff153c4002da9a3cd6c974cf5c9fbbf03f300dc60c7f23",
+        "application_name": "GitHub",
+        "normalized_name": "github",
+        "domain": "github.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "github.com",
+        "event_count": 568,
+        "departments": "[\"Compliance\", \"Finance\", \"HR\", \"IT\", \"Operations\", \"Sales\"]",
+        "name_variants": "[\"GitHub\"]",
+        "raw_domain_variants": "[\"github.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 241,
+        "total_session_duration_seconds": 2122595,
+        "session_duration_seconds_observed_events": 568,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 1708377789,
+        "bytes_uploaded_observed_events": 568,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 4081914230,
+        "bytes_downloaded_observed_events": 568,
+        "bytes_downloaded_invalid_events": 0
+      },
+      "purpose_prediction": null
+    },
+    {
+      "application_id": "app_16fb473cfaddf3ba88ec0c0917e9035a05c98c88ab7c9a910b67e4c8b9e4fc9d",
+      "application_key": "claude.ai",
+      "application_names": [
+        "Claude"
+      ],
+      "unique_users": 377,
+      "departments": [
+        "Compliance",
+        "Finance",
+        "HR",
+        "IT",
+        "Operations",
+        "Sales"
+      ],
+      "events": 1240,
+      "first_seen": "2026-09-01T08:05:00+00:00",
+      "last_seen": "2026-09-30T18:58:00+00:00",
+      "invalid_or_missing_timestamps": 0,
+      "upload_observations": 1240,
+      "download_observations": 1240,
+      "total_bytes_uploaded": 3819536242,
+      "total_bytes_downloaded": 8284616450,
+      "mean_bytes_uploaded": 3080271.162903226,
+      "max_bytes_uploaded": 9981058,
+      "mean_bytes_downloaded": 6681142.298387097,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 377,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "company": "Summit Financial",
+      "detection": {
+        "is_ai_tool": 1,
+        "method": "name_and_host",
+        "catalog_status": "known_ai",
+        "model_ai_score": null,
+        "reason": "matched_catalog_record",
+        "candidates": [
+          {
+            "tool_id": "tool_00002",
+            "tool_name": "Claude",
+            "domain": "claude.ai",
+            "path": "",
+            "is_ai_tool": true,
+            "category": "Operations And Management",
+            "source": "ai_catalog",
+            "label_method": "source_dataset_membership",
+            "evidence_url": ""
+          }
+        ],
+        "needs_review": true
+      },
+      "category": "Operations And Management",
+      "category_source": "catalog_assignment",
+      "observed_identity": {
+        "application_id": "app_16fb473cfaddf3ba88ec0c0917e9035a05c98c88ab7c9a910b67e4c8b9e4fc9d",
+        "application_name": "Claude",
+        "normalized_name": "claude",
+        "domain": "claude.ai",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "claude.ai",
+        "event_count": 1240,
+        "departments": "[\"Compliance\", \"Finance\", \"HR\", \"IT\", \"Operations\", \"Sales\"]",
+        "name_variants": "[\"Claude\"]",
+        "raw_domain_variants": "[\"claude.ai\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 377,
+        "total_session_duration_seconds": 4323484,
+        "session_duration_seconds_observed_events": 1240,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 3819536242,
+        "bytes_uploaded_observed_events": 1240,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 8284616450,
+        "bytes_downloaded_observed_events": 1240,
+        "bytes_downloaded_invalid_events": 0
+      },
+      "purpose_prediction": null
+    },
+    {
+      "application_id": "app_1cd3877a479691c0c760e9ba585b38d3debdfff6d59b8437539302fcb9938d62",
+      "application_key": "jasper.ai",
+      "application_names": [
+        "Jasper"
+      ],
+      "unique_users": 101,
+      "departments": [
+        "Compliance",
+        "Finance",
+        "HR",
+        "IT",
+        "Operations",
+        "Sales"
+      ],
+      "events": 110,
+      "first_seen": "2026-09-01T11:40:00+00:00",
+      "last_seen": "2026-09-30T15:09:00+00:00",
+      "invalid_or_missing_timestamps": 0,
+      "upload_observations": 110,
+      "download_observations": 110,
+      "total_bytes_uploaded": 340630165,
+      "total_bytes_downloaded": 820325867,
+      "mean_bytes_uploaded": 3096637.8636363638,
+      "max_bytes_uploaded": 9996050,
+      "mean_bytes_downloaded": 7457507.881818182,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 101,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "company": "Summit Financial",
+      "detection": {
+        "is_ai_tool": 1,
+        "method": "unique_product_host",
+        "catalog_status": "known_ai",
+        "model_ai_score": null,
+        "reason": "matched_catalog_record",
+        "candidates": [
+          {
+            "tool_id": "tool_00395",
+            "tool_name": "Jasper.ai",
+            "domain": "jasper.ai",
+            "path": "",
+            "is_ai_tool": true,
+            "category": "Media And Content Creation",
+            "source": "ai_catalog",
+            "label_method": "assistant_official_source_review",
+            "evidence_url": "https://www.jasper.ai"
+          }
+        ],
+        "needs_review": true
+      },
+      "category": "Media And Content Creation",
+      "category_source": "catalog_assignment",
+      "observed_identity": {
+        "application_id": "app_1cd3877a479691c0c760e9ba585b38d3debdfff6d59b8437539302fcb9938d62",
+        "application_name": "Jasper",
+        "normalized_name": "jasper",
+        "domain": "jasper.ai",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "jasper.ai",
+        "event_count": 110,
+        "departments": "[\"Compliance\", \"Finance\", \"HR\", \"IT\", \"Operations\", \"Sales\"]",
+        "name_variants": "[\"Jasper\"]",
+        "raw_domain_variants": "[\"jasper.ai\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 101,
+        "total_session_duration_seconds": 367077,
+        "session_duration_seconds_observed_events": 110,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 340630165,
+        "bytes_uploaded_observed_events": 110,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 820325867,
+        "bytes_downloaded_observed_events": 110,
+        "bytes_downloaded_invalid_events": 0
+      },
+      "purpose_prediction": null
+    },
+    {
+      "application_id": "app_34f8b1ca14ad669df00ab25c6fe0d335bbaa5b5bc41d04bb9ef431170a82355d",
+      "application_key": "linkedin.com",
+      "application_names": [
+        "LinkedIn"
+      ],
+      "unique_users": 233,
+      "departments": [
+        "Compliance",
+        "Finance",
+        "HR",
+        "IT",
+        "Operations",
+        "Sales"
+      ],
+      "events": 617,
+      "first_seen": "2026-09-01T08:05:00+00:00",
+      "last_seen": "2026-09-30T18:12:00+00:00",
+      "invalid_or_missing_timestamps": 0,
+      "upload_observations": 617,
+      "download_observations": 617,
+      "total_bytes_uploaded": 1868112489,
+      "total_bytes_downloaded": 4514011881,
+      "mean_bytes_uploaded": 3027734.990275527,
+      "max_bytes_uploaded": 9985614,
+      "mean_bytes_downloaded": 7316064.636952998,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 233,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "company": "Summit Financial",
+      "detection": {
+        "is_ai_tool": 0,
+        "method": "name_and_host",
+        "catalog_status": "known_non_ai",
+        "model_ai_score": null,
+        "reason": "matched_catalog_record",
+        "candidates": [
+          {
+            "tool_id": "saas_00001",
+            "tool_name": "LinkedIn",
+            "domain": "linkedin.com",
+            "path": "",
+            "is_ai_tool": false,
+            "category": "Productivity",
+            "source": "finalized",
+            "label_method": "source_dataset_membership",
+            "evidence_url": ""
+          }
+        ],
+        "needs_review": true
+      },
+      "category": null,
+      "category_source": "unresolved",
+      "observed_identity": {
+        "application_id": "app_34f8b1ca14ad669df00ab25c6fe0d335bbaa5b5bc41d04bb9ef431170a82355d",
+        "application_name": "LinkedIn",
+        "normalized_name": "linkedin",
+        "domain": "linkedin.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "linkedin.com",
+        "event_count": 617,
+        "departments": "[\"Compliance\", \"Finance\", \"HR\", \"IT\", \"Operations\", \"Sales\"]",
+        "name_variants": "[\"LinkedIn\"]",
+        "raw_domain_variants": "[\"linkedin.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 233,
+        "total_session_duration_seconds": 2179652,
+        "session_duration_seconds_observed_events": 617,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 1868112489,
+        "bytes_uploaded_observed_events": 617,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 4514011881,
+        "bytes_downloaded_observed_events": 617,
+        "bytes_downloaded_invalid_events": 0
+      },
+      "purpose_prediction": null
+    },
+    {
+      "application_id": "app_393113e5be3e4a46a9d1ed071da1fddcd16232c3adce72103b2c91d42ea4a7a3",
+      "application_key": "zoom.us",
+      "application_names": [
+        "Zoom"
+      ],
+      "unique_users": 292,
+      "departments": [
+        "Compliance",
+        "Finance",
+        "HR",
+        "IT",
+        "Operations",
+        "Sales"
+      ],
+      "events": 1616,
+      "first_seen": "2026-09-01T08:28:00+00:00",
+      "last_seen": "2026-09-30T18:52:00+00:00",
+      "invalid_or_missing_timestamps": 0,
+      "upload_observations": 1616,
+      "download_observations": 1616,
+      "total_bytes_uploaded": 4716256876,
+      "total_bytes_downloaded": 11392614739,
+      "mean_bytes_uploaded": 2918475.7896039602,
+      "max_bytes_uploaded": 9998183,
+      "mean_bytes_downloaded": 7049885.3582920795,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 292,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "company": "Summit Financial",
+      "detection": {
+        "is_ai_tool": 0,
+        "method": "name_and_host",
+        "catalog_status": "known_non_ai",
+        "model_ai_score": null,
+        "reason": "matched_catalog_record",
+        "candidates": [
+          {
+            "tool_id": "claude_00005",
+            "tool_name": "Zoom",
+            "domain": "zoom.us",
+            "path": "",
+            "is_ai_tool": false,
+            "category": "Meeting / Transcription Tools",
+            "source": "finalized",
+            "label_method": "assistant_official_source_review",
+            "evidence_url": "https://zoom.us"
+          }
+        ],
+        "needs_review": true
+      },
+      "category": null,
+      "category_source": "unresolved",
+      "observed_identity": {
+        "application_id": "app_393113e5be3e4a46a9d1ed071da1fddcd16232c3adce72103b2c91d42ea4a7a3",
+        "application_name": "Zoom",
+        "normalized_name": "zoom",
+        "domain": "zoom.us",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "zoom.us",
+        "event_count": 1616,
+        "departments": "[\"Compliance\", \"Finance\", \"HR\", \"IT\", \"Operations\", \"Sales\"]",
+        "name_variants": "[\"Zoom\"]",
+        "raw_domain_variants": "[\"zoom.us\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 292,
+        "total_session_duration_seconds": 5830976,
+        "session_duration_seconds_observed_events": 1616,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 4716256876,
+        "bytes_uploaded_observed_events": 1616,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 11392614739,
+        "bytes_downloaded_observed_events": 1616,
+        "bytes_downloaded_invalid_events": 0
+      },
+      "purpose_prediction": null
+    },
+    {
+      "application_id": "app_4302bec2786f78d6f70e39f77769c2a212c4e08bfb1485164639710be64258ae",
+      "application_key": "atlassian.com",
+      "application_names": [
+        "Jira"
+      ],
+      "unique_users": 222,
+      "departments": [
+        "Compliance",
+        "Finance",
+        "HR",
+        "IT",
+        "Operations",
+        "Sales"
+      ],
+      "events": 344,
+      "first_seen": "2026-09-01T08:14:00+00:00",
+      "last_seen": "2026-09-30T18:59:00+00:00",
+      "invalid_or_missing_timestamps": 0,
+      "upload_observations": 344,
+      "download_observations": 344,
+      "total_bytes_uploaded": 1024670118,
+      "total_bytes_downloaded": 2183732778,
+      "mean_bytes_uploaded": 2978692.2034883723,
+      "max_bytes_uploaded": 9977187,
+      "mean_bytes_downloaded": 6348060.401162791,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 222,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "company": "Summit Financial",
+      "detection": {
+        "is_ai_tool": 0,
+        "method": "name_and_host",
+        "catalog_status": "known_non_ai",
+        "model_ai_score": null,
+        "reason": "matched_catalog_record",
+        "candidates": [
+          {
+            "tool_id": "claude_00003",
+            "tool_name": "Jira",
+            "domain": "atlassian.com",
+            "path": "",
+            "is_ai_tool": false,
+            "category": "Productivity",
+            "source": "finalized",
+            "label_method": "source_dataset_membership",
+            "evidence_url": ""
+          }
+        ],
+        "needs_review": true
+      },
+      "category": null,
+      "category_source": "unresolved",
+      "observed_identity": {
+        "application_id": "app_4302bec2786f78d6f70e39f77769c2a212c4e08bfb1485164639710be64258ae",
+        "application_name": "Jira",
+        "normalized_name": "jira",
+        "domain": "atlassian.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "atlassian.com",
+        "event_count": 344,
+        "departments": "[\"Compliance\", \"Finance\", \"HR\", \"IT\", \"Operations\", \"Sales\"]",
+        "name_variants": "[\"Jira\"]",
+        "raw_domain_variants": "[\"atlassian.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 222,
+        "total_session_duration_seconds": 1230368,
+        "session_duration_seconds_observed_events": 344,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 1024670118,
+        "bytes_uploaded_observed_events": 344,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 2183732778,
+        "bytes_downloaded_observed_events": 344,
+        "bytes_downloaded_invalid_events": 0
+      },
+      "purpose_prediction": null
+    },
+    {
+      "application_id": "app_4a8ceff02924c8d92c4acfe24d1fef7a44e3ef4c39496c1288bcd96a0d491a5c",
+      "application_key": "office.com",
+      "application_names": [
+        "Microsoft Excel"
+      ],
+      "unique_users": 279,
+      "departments": [
+        "Compliance",
+        "Finance",
+        "HR",
+        "IT",
+        "Operations",
+        "Sales"
+      ],
+      "events": 2058,
+      "first_seen": "2026-09-01T08:09:00+00:00",
+      "last_seen": "2026-09-30T18:49:00+00:00",
+      "invalid_or_missing_timestamps": 0,
+      "upload_observations": 2058,
+      "download_observations": 2058,
+      "total_bytes_uploaded": 6181511357,
+      "total_bytes_downloaded": 14414215638,
+      "mean_bytes_uploaded": 3003649.8333333335,
+      "max_bytes_uploaded": 9987546,
+      "mean_bytes_downloaded": 7003992.049562682,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 279,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "company": "Summit Financial",
+      "detection": {
+        "is_ai_tool": 0,
+        "method": "unique_product_host",
+        "catalog_status": "known_non_ai",
+        "model_ai_score": null,
+        "reason": "matched_catalog_record",
+        "candidates": [
+          {
+            "tool_id": "saas_00343",
+            "tool_name": "Microsoft Office",
+            "domain": "office.com",
+            "path": "",
+            "is_ai_tool": false,
+            "category": "Productivity",
+            "source": "finalized",
+            "label_method": "source_dataset_membership",
+            "evidence_url": ""
+          }
+        ],
+        "needs_review": true
+      },
+      "category": null,
+      "category_source": "unresolved",
+      "observed_identity": {
+        "application_id": "app_4a8ceff02924c8d92c4acfe24d1fef7a44e3ef4c39496c1288bcd96a0d491a5c",
+        "application_name": "Microsoft Excel",
+        "normalized_name": "microsoft excel",
+        "domain": "office.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "office.com",
+        "event_count": 2058,
+        "departments": "[\"Compliance\", \"Finance\", \"HR\", \"IT\", \"Operations\", \"Sales\"]",
+        "name_variants": "[\"Microsoft Excel\"]",
+        "raw_domain_variants": "[\"office.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 279,
+        "total_session_duration_seconds": 7439818,
+        "session_duration_seconds_observed_events": 2058,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 6181511357,
+        "bytes_uploaded_observed_events": 2058,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 14414215638,
+        "bytes_downloaded_observed_events": 2058,
+        "bytes_downloaded_invalid_events": 0
+      },
+      "purpose_prediction": null
+    },
+    {
+      "application_id": "app_790138a465d345920ef03fcb93ae095cd75ae8f3d2fac2565d5dd80d8dca8b64",
+      "application_key": "drive.google.com",
+      "application_names": [
+        "Google Drive"
+      ],
+      "unique_users": 367,
+      "departments": [
+        "Compliance",
+        "Finance",
+        "HR",
+        "IT",
+        "Operations",
+        "Sales"
+      ],
+      "events": 4791,
+      "first_seen": "2026-09-01T08:02:00+00:00",
+      "last_seen": "2026-09-30T18:55:00+00:00",
+      "invalid_or_missing_timestamps": 0,
+      "upload_observations": 4791,
+      "download_observations": 4791,
+      "total_bytes_uploaded": 14311757454,
+      "total_bytes_downloaded": 34130794854,
+      "mean_bytes_uploaded": 2987217.1684408267,
+      "max_bytes_uploaded": 9999154,
+      "mean_bytes_downloaded": 7123939.648090169,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 367,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "company": "Summit Financial",
+      "detection": {
+        "is_ai_tool": null,
+        "method": "unknown",
+        "catalog_status": "unknown",
+        "model_ai_score": null,
+        "reason": "no_matching_identity",
+        "candidates": [],
+        "needs_review": true
+      },
+      "category": null,
+      "category_source": "unresolved",
+      "observed_identity": {
+        "application_id": "app_790138a465d345920ef03fcb93ae095cd75ae8f3d2fac2565d5dd80d8dca8b64",
+        "application_name": "Google Drive",
+        "normalized_name": "google drive",
+        "domain": "drive.google.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "drive.google.com",
+        "event_count": 4791,
+        "departments": "[\"Compliance\", \"Finance\", \"HR\", \"IT\", \"Operations\", \"Sales\"]",
+        "name_variants": "[\"Google Drive\"]",
+        "raw_domain_variants": "[\"drive.google.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 367,
+        "total_session_duration_seconds": 17460747,
+        "session_duration_seconds_observed_events": 4791,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 14311757454,
+        "bytes_uploaded_observed_events": 4791,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 34130794854,
+        "bytes_downloaded_observed_events": 4791,
+        "bytes_downloaded_invalid_events": 0
+      },
+      "purpose_prediction": null
+    },
+    {
+      "application_id": "app_7c50300353797d72a036f39fb3538b392082256d4cf368fad5dcd5cfb0ac661c",
+      "application_key": "midjourney.com",
+      "application_names": [
+        "Midjourney"
+      ],
+      "unique_users": 100,
+      "departments": [
+        "Compliance",
+        "Finance",
+        "HR",
+        "IT",
+        "Operations",
+        "Sales"
+      ],
+      "events": 110,
+      "first_seen": "2026-09-01T08:34:00+00:00",
+      "last_seen": "2026-09-30T18:59:00+00:00",
+      "invalid_or_missing_timestamps": 0,
+      "upload_observations": 110,
+      "download_observations": 110,
+      "total_bytes_uploaded": 337812912,
+      "total_bytes_downloaded": 704475789,
+      "mean_bytes_uploaded": 3071026.4727272727,
+      "max_bytes_uploaded": 9944559,
+      "mean_bytes_downloaded": 6404325.3545454545,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 100,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "company": "Summit Financial",
+      "detection": {
+        "is_ai_tool": null,
+        "method": "unknown",
+        "catalog_status": "unknown",
+        "model_ai_score": null,
+        "reason": "host_present_but_product_not_resolved",
+        "candidates": [],
+        "needs_review": true
+      },
+      "category": null,
+      "category_source": "unresolved",
+      "observed_identity": {
+        "application_id": "app_7c50300353797d72a036f39fb3538b392082256d4cf368fad5dcd5cfb0ac661c",
+        "application_name": "Midjourney",
+        "normalized_name": "midjourney",
+        "domain": "midjourney.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "midjourney.com",
+        "event_count": 110,
+        "departments": "[\"Compliance\", \"Finance\", \"HR\", \"IT\", \"Operations\", \"Sales\"]",
+        "name_variants": "[\"Midjourney\"]",
+        "raw_domain_variants": "[\"midjourney.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 100,
+        "total_session_duration_seconds": 378706,
+        "session_duration_seconds_observed_events": 110,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 337812912,
+        "bytes_uploaded_observed_events": 110,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 704475789,
+        "bytes_downloaded_observed_events": 110,
+        "bytes_downloaded_invalid_events": 0
+      },
+      "purpose_prediction": null
+    },
+    {
+      "application_id": "app_7e69132e0967e8eb047fd7b29dbe4a11a63dd46cfbb6689d91cad788933da11a",
+      "application_key": "slack.com",
+      "application_names": [
+        "Slack"
+      ],
+      "unique_users": 309,
+      "departments": [
+        "Compliance",
+        "Finance",
+        "HR",
+        "IT",
+        "Operations",
+        "Sales"
+      ],
+      "events": 1535,
+      "first_seen": "2026-09-01T08:05:00+00:00",
+      "last_seen": "2026-09-30T18:59:00+00:00",
+      "invalid_or_missing_timestamps": 0,
+      "upload_observations": 1535,
+      "download_observations": 1535,
+      "total_bytes_uploaded": 4591160727,
+      "total_bytes_downloaded": 10940295544,
+      "mean_bytes_uploaded": 2990984.186970684,
+      "max_bytes_uploaded": 9997187,
+      "mean_bytes_downloaded": 7127228.36742671,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 309,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "company": "Summit Financial",
+      "detection": {
+        "is_ai_tool": 0,
+        "method": "name_and_host",
+        "catalog_status": "known_non_ai",
+        "model_ai_score": null,
+        "reason": "matched_catalog_record",
+        "candidates": [
+          {
+            "tool_id": "saas_00032",
+            "tool_name": "Slack",
+            "domain": "slack.com",
+            "path": "",
+            "is_ai_tool": false,
+            "category": "Productivity",
+            "source": "finalized",
+            "label_method": "assistant_official_source_review",
+            "evidence_url": "https://slack.com"
+          }
+        ],
+        "needs_review": true
+      },
+      "category": null,
+      "category_source": "unresolved",
+      "observed_identity": {
+        "application_id": "app_7e69132e0967e8eb047fd7b29dbe4a11a63dd46cfbb6689d91cad788933da11a",
+        "application_name": "Slack",
+        "normalized_name": "slack",
+        "domain": "slack.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "slack.com",
+        "event_count": 1535,
+        "departments": "[\"Compliance\", \"Finance\", \"HR\", \"IT\", \"Operations\", \"Sales\"]",
+        "name_variants": "[\"Slack\"]",
+        "raw_domain_variants": "[\"slack.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 309,
+        "total_session_duration_seconds": 5513344,
+        "session_duration_seconds_observed_events": 1535,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 4591160727,
+        "bytes_uploaded_observed_events": 1535,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 10940295544,
+        "bytes_downloaded_observed_events": 1535,
+        "bytes_downloaded_invalid_events": 0
+      },
+      "purpose_prediction": null
+    },
+    {
+      "application_id": "app_81138b923c56ede71dcff8f6588e4362f4efa501fcd0cd12222b63d07283467b",
+      "application_key": "docs.google.com",
+      "application_names": [
+        "Google Docs"
+      ],
+      "unique_users": 367,
+      "departments": [
+        "Compliance",
+        "Finance",
+        "HR",
+        "IT",
+        "Operations",
+        "Sales"
+      ],
+      "events": 4712,
+      "first_seen": "2026-09-01T08:00:00+00:00",
+      "last_seen": "2026-09-30T18:59:00+00:00",
+      "invalid_or_missing_timestamps": 0,
+      "upload_observations": 4712,
+      "download_observations": 4712,
+      "total_bytes_uploaded": 14444094337,
+      "total_bytes_downloaded": 32961413771,
+      "mean_bytes_uploaded": 3065385.0460526315,
+      "max_bytes_uploaded": 9998021,
+      "mean_bytes_downloaded": 6995206.657682513,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 367,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "company": "Summit Financial",
+      "detection": {
+        "is_ai_tool": null,
+        "method": "unknown",
+        "catalog_status": "unknown",
+        "model_ai_score": null,
+        "reason": "no_matching_identity",
+        "candidates": [],
+        "needs_review": true
+      },
+      "category": null,
+      "category_source": "unresolved",
+      "observed_identity": {
+        "application_id": "app_81138b923c56ede71dcff8f6588e4362f4efa501fcd0cd12222b63d07283467b",
+        "application_name": "Google Docs",
+        "normalized_name": "google docs",
+        "domain": "docs.google.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "docs.google.com",
+        "event_count": 4712,
+        "departments": "[\"Compliance\", \"Finance\", \"HR\", \"IT\", \"Operations\", \"Sales\"]",
+        "name_variants": "[\"Google Docs\"]",
+        "raw_domain_variants": "[\"docs.google.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 367,
+        "total_session_duration_seconds": 16995369,
+        "session_duration_seconds_observed_events": 4712,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 14444094337,
+        "bytes_uploaded_observed_events": 4712,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 32961413771,
+        "bytes_downloaded_observed_events": 4712,
+        "bytes_downloaded_invalid_events": 0
+      },
+      "purpose_prediction": null
+    },
+    {
+      "application_id": "app_823b08aa130691796057b19a38888334c9f68199dbb310e59b22c91b50c16290",
+      "application_key": "cursor.com",
+      "application_names": [
+        "Cursor"
+      ],
+      "unique_users": 111,
+      "departments": [
+        "Compliance",
+        "Finance",
+        "HR",
+        "IT",
+        "Operations",
+        "Sales"
+      ],
+      "events": 151,
+      "first_seen": "2026-09-01T08:35:00+00:00",
+      "last_seen": "2026-09-30T17:14:00+00:00",
+      "invalid_or_missing_timestamps": 0,
+      "upload_observations": 151,
+      "download_observations": 151,
+      "total_bytes_uploaded": 431127986,
+      "total_bytes_downloaded": 992952094,
+      "mean_bytes_uploaded": 2855152.2251655627,
+      "max_bytes_uploaded": 9968659,
+      "mean_bytes_downloaded": 6575841.682119206,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "complete",
+      "needs_review": true,
+      "unknown_fields": [],
+      "metadata": {
+        "approved_status": "approved",
+        "data_retention": "30_days",
+        "sso_available": true,
+        "training_on_customer_data": false,
+        "admin_controls_available": true,
+        "enterprise_plan_available": true
+      },
+      "metadata_source": "synthetic_company_scenario",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 111,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "company": "Summit Financial",
+      "detection": {
+        "is_ai_tool": null,
+        "method": "unknown",
+        "catalog_status": "unknown",
+        "model_ai_score": null,
+        "reason": "name_present_but_domain_differs",
+        "candidates": [],
+        "needs_review": true
+      },
+      "category": null,
+      "category_source": "unresolved",
+      "observed_identity": {
+        "application_id": "app_823b08aa130691796057b19a38888334c9f68199dbb310e59b22c91b50c16290",
+        "application_name": "Cursor",
+        "normalized_name": "cursor",
+        "domain": "cursor.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "cursor.com",
+        "event_count": 151,
+        "departments": "[\"Compliance\", \"Finance\", \"HR\", \"IT\", \"Operations\", \"Sales\"]",
+        "name_variants": "[\"Cursor\"]",
+        "raw_domain_variants": "[\"cursor.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 111,
+        "total_session_duration_seconds": 549078,
+        "session_duration_seconds_observed_events": 151,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 431127986,
+        "bytes_uploaded_observed_events": 151,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 992952094,
+        "bytes_downloaded_observed_events": 151,
+        "bytes_downloaded_invalid_events": 0
+      },
+      "purpose_prediction": null
+    },
+    {
+      "application_id": "app_96a58c1e329dc62b90c833b30aa8824c7c6d8ac9e6816c7c1707e2fbe7a5a3bf",
+      "application_key": "salesforce.com",
+      "application_names": [
+        "Salesforce"
+      ],
+      "unique_users": 245,
+      "departments": [
+        "Compliance",
+        "Finance",
+        "HR",
+        "IT",
+        "Operations",
+        "Sales"
+      ],
+      "events": 704,
+      "first_seen": "2026-09-01T08:19:00+00:00",
+      "last_seen": "2026-09-30T18:53:00+00:00",
+      "invalid_or_missing_timestamps": 0,
+      "upload_observations": 704,
+      "download_observations": 704,
+      "total_bytes_uploaded": 2011137990,
+      "total_bytes_downloaded": 4959594081,
+      "mean_bytes_uploaded": 2856730.0994318184,
+      "max_bytes_uploaded": 9958475,
+      "mean_bytes_downloaded": 7044877.955965909,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 245,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "company": "Summit Financial",
+      "detection": {
+        "is_ai_tool": 0,
+        "method": "name_and_host",
+        "catalog_status": "known_non_ai",
+        "model_ai_score": null,
+        "reason": "matched_catalog_record",
+        "candidates": [
+          {
+            "tool_id": "saas_00024",
+            "tool_name": "Salesforce",
+            "domain": "salesforce.com",
+            "path": "",
+            "is_ai_tool": false,
+            "category": "Sales / Marketing",
+            "source": "finalized",
+            "label_method": "source_dataset_membership",
+            "evidence_url": ""
+          }
+        ],
+        "needs_review": true
+      },
+      "category": null,
+      "category_source": "unresolved",
+      "observed_identity": {
+        "application_id": "app_96a58c1e329dc62b90c833b30aa8824c7c6d8ac9e6816c7c1707e2fbe7a5a3bf",
+        "application_name": "Salesforce",
+        "normalized_name": "salesforce",
+        "domain": "salesforce.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "salesforce.com",
+        "event_count": 704,
+        "departments": "[\"Compliance\", \"Finance\", \"HR\", \"IT\", \"Operations\", \"Sales\"]",
+        "name_variants": "[\"Salesforce\"]",
+        "raw_domain_variants": "[\"salesforce.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 245,
+        "total_session_duration_seconds": 2546572,
+        "session_duration_seconds_observed_events": 704,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 2011137990,
+        "bytes_uploaded_observed_events": 704,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 4959594081,
+        "bytes_downloaded_observed_events": 704,
+        "bytes_downloaded_invalid_events": 0
+      },
+      "purpose_prediction": null
+    },
+    {
+      "application_id": "app_9c7ac443384f8f2bcdd050372dd9952e5f37c22c236933526f68b8a9a1268687",
+      "application_key": "gemini.google.com",
+      "application_names": [
+        "Gemini"
+      ],
+      "unique_users": 377,
+      "departments": [
+        "Compliance",
+        "Finance",
+        "HR",
+        "IT",
+        "Operations",
+        "Sales"
+      ],
+      "events": 1326,
+      "first_seen": "2026-09-01T08:08:00+00:00",
+      "last_seen": "2026-09-30T18:46:00+00:00",
+      "invalid_or_missing_timestamps": 0,
+      "upload_observations": 1326,
+      "download_observations": 1326,
+      "total_bytes_uploaded": 4006192966,
+      "total_bytes_downloaded": 9603069889,
+      "mean_bytes_uploaded": 3021261.6636500754,
+      "max_bytes_uploaded": 9969865,
+      "mean_bytes_downloaded": 7242134.154600302,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 377,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "company": "Summit Financial",
+      "detection": {
+        "is_ai_tool": 1,
+        "method": "unique_product_host",
+        "catalog_status": "known_ai",
+        "model_ai_score": null,
+        "reason": "matched_catalog_record",
+        "candidates": [
+          {
+            "tool_id": "tool_00003",
+            "tool_name": "Google Gemini",
+            "domain": "gemini.google.com",
+            "path": "",
+            "is_ai_tool": true,
+            "category": "Ai And Machine Learning",
+            "source": "ai_catalog",
+            "label_method": "source_dataset_membership",
+            "evidence_url": ""
+          }
+        ],
+        "needs_review": true
+      },
+      "category": "Ai And Machine Learning",
+      "category_source": "catalog_assignment",
+      "observed_identity": {
+        "application_id": "app_9c7ac443384f8f2bcdd050372dd9952e5f37c22c236933526f68b8a9a1268687",
+        "application_name": "Gemini",
+        "normalized_name": "gemini",
+        "domain": "gemini.google.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "gemini.google.com",
+        "event_count": 1326,
+        "departments": "[\"Compliance\", \"Finance\", \"HR\", \"IT\", \"Operations\", \"Sales\"]",
+        "name_variants": "[\"Gemini\"]",
+        "raw_domain_variants": "[\"gemini.google.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 377,
+        "total_session_duration_seconds": 4746655,
+        "session_duration_seconds_observed_events": 1326,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 4006192966,
+        "bytes_uploaded_observed_events": 1326,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 9603069889,
+        "bytes_downloaded_observed_events": 1326,
+        "bytes_downloaded_invalid_events": 0
+      },
+      "purpose_prediction": null
+    },
+    {
+      "application_id": "app_a254e36a3a3228d577cd9ebd56f97c66a95d45a09f213c77995067b67d35fef0",
+      "application_key": "workday.com",
+      "application_names": [
+        "Workday"
+      ],
+      "unique_users": 241,
+      "departments": [
+        "Compliance",
+        "Finance",
+        "HR",
+        "IT",
+        "Operations",
+        "Sales"
+      ],
+      "events": 840,
+      "first_seen": "2026-09-01T08:15:00+00:00",
+      "last_seen": "2026-09-30T18:53:00+00:00",
+      "invalid_or_missing_timestamps": 0,
+      "upload_observations": 840,
+      "download_observations": 840,
+      "total_bytes_uploaded": 2569663907,
+      "total_bytes_downloaded": 5736458437,
+      "mean_bytes_uploaded": 3059123.6988095236,
+      "max_bytes_uploaded": 9976667,
+      "mean_bytes_downloaded": 6829117.186904762,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 241,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "company": "Summit Financial",
+      "detection": {
+        "is_ai_tool": 0,
+        "method": "name_and_host",
+        "catalog_status": "known_non_ai",
+        "model_ai_score": null,
+        "reason": "matched_catalog_record",
+        "candidates": [
+          {
+            "tool_id": "saas_00359",
+            "tool_name": "Workday",
+            "domain": "workday.com",
+            "path": "",
+            "is_ai_tool": false,
+            "category": "Productivity",
+            "source": "finalized",
+            "label_method": "source_dataset_membership",
+            "evidence_url": ""
+          }
+        ],
+        "needs_review": true
+      },
+      "category": null,
+      "category_source": "unresolved",
+      "observed_identity": {
+        "application_id": "app_a254e36a3a3228d577cd9ebd56f97c66a95d45a09f213c77995067b67d35fef0",
+        "application_name": "Workday",
+        "normalized_name": "workday",
+        "domain": "workday.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "workday.com",
+        "event_count": 840,
+        "departments": "[\"Compliance\", \"Finance\", \"HR\", \"IT\", \"Operations\", \"Sales\"]",
+        "name_variants": "[\"Workday\"]",
+        "raw_domain_variants": "[\"workday.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 241,
+        "total_session_duration_seconds": 3006700,
+        "session_duration_seconds_observed_events": 840,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 2569663907,
+        "bytes_uploaded_observed_events": 840,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 5736458437,
+        "bytes_downloaded_observed_events": 840,
+        "bytes_downloaded_invalid_events": 0
+      },
+      "purpose_prediction": null
+    },
+    {
+      "application_id": "app_a41717927a77162d6f55b73303b010267a11e496fb72c2bacbc4ffe7cccc148f",
+      "application_key": "code.visualstudio.com",
+      "application_names": [
+        "VS Code"
+      ],
+      "unique_users": 255,
+      "departments": [
+        "Compliance",
+        "Finance",
+        "HR",
+        "IT",
+        "Operations",
+        "Sales"
+      ],
+      "events": 615,
+      "first_seen": "2026-09-01T08:21:00+00:00",
+      "last_seen": "2026-09-30T18:40:00+00:00",
+      "invalid_or_missing_timestamps": 0,
+      "upload_observations": 615,
+      "download_observations": 615,
+      "total_bytes_uploaded": 1847668445,
+      "total_bytes_downloaded": 4492645075,
+      "mean_bytes_uploaded": 3004338.9349593497,
+      "max_bytes_uploaded": 9987122,
+      "mean_bytes_downloaded": 7305113.943089431,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 255,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "company": "Summit Financial",
+      "detection": {
+        "is_ai_tool": null,
+        "method": "unknown",
+        "catalog_status": "unknown",
+        "model_ai_score": null,
+        "reason": "no_matching_identity",
+        "candidates": [],
+        "needs_review": true
+      },
+      "category": null,
+      "category_source": "unresolved",
+      "observed_identity": {
+        "application_id": "app_a41717927a77162d6f55b73303b010267a11e496fb72c2bacbc4ffe7cccc148f",
+        "application_name": "VS Code",
+        "normalized_name": "vs code",
+        "domain": "code.visualstudio.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "code.visualstudio.com",
+        "event_count": 615,
+        "departments": "[\"Compliance\", \"Finance\", \"HR\", \"IT\", \"Operations\", \"Sales\"]",
+        "name_variants": "[\"VS Code\"]",
+        "raw_domain_variants": "[\"code.visualstudio.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 255,
+        "total_session_duration_seconds": 2182263,
+        "session_duration_seconds_observed_events": 615,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 1847668445,
+        "bytes_uploaded_observed_events": 615,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 4492645075,
+        "bytes_downloaded_observed_events": 615,
+        "bytes_downloaded_invalid_events": 0
+      },
+      "purpose_prediction": null
+    },
+    {
+      "application_id": "app_a4e9915bc883fd2738e22856141a76b4b65b12490224b9b3bdce26c5f39b3518",
+      "application_key": "perplexity.ai",
+      "application_names": [
+        "Perplexity"
+      ],
+      "unique_users": 175,
+      "departments": [
+        "Compliance",
+        "Finance",
+        "HR",
+        "IT",
+        "Operations",
+        "Sales"
+      ],
+      "events": 377,
+      "first_seen": "2026-09-01T09:02:00+00:00",
+      "last_seen": "2026-09-30T18:58:00+00:00",
+      "invalid_or_missing_timestamps": 0,
+      "upload_observations": 377,
+      "download_observations": 377,
+      "total_bytes_uploaded": 1213813578,
+      "total_bytes_downloaded": 2556378019,
+      "mean_bytes_uploaded": 3219664.6631299737,
+      "max_bytes_uploaded": 9998187,
+      "mean_bytes_downloaded": 6780843.551724138,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 175,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "company": "Summit Financial",
+      "detection": {
+        "is_ai_tool": 1,
+        "method": "name_and_host",
+        "catalog_status": "known_ai",
+        "model_ai_score": null,
+        "reason": "matched_catalog_record",
+        "candidates": [
+          {
+            "tool_id": "tool_00007",
+            "tool_name": "Perplexity",
+            "domain": "perplexity.ai",
+            "path": "",
+            "is_ai_tool": true,
+            "category": "Specialized Technologies",
+            "source": "ai_catalog",
+            "label_method": "source_dataset_membership",
+            "evidence_url": ""
+          }
+        ],
+        "needs_review": true
+      },
+      "category": "Specialized Technologies",
+      "category_source": "catalog_assignment",
+      "observed_identity": {
+        "application_id": "app_a4e9915bc883fd2738e22856141a76b4b65b12490224b9b3bdce26c5f39b3518",
+        "application_name": "Perplexity",
+        "normalized_name": "perplexity",
+        "domain": "perplexity.ai",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "perplexity.ai",
+        "event_count": 377,
+        "departments": "[\"Compliance\", \"Finance\", \"HR\", \"IT\", \"Operations\", \"Sales\"]",
+        "name_variants": "[\"Perplexity\"]",
+        "raw_domain_variants": "[\"perplexity.ai\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 175,
+        "total_session_duration_seconds": 1306925,
+        "session_duration_seconds_observed_events": 377,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 1213813578,
+        "bytes_uploaded_observed_events": 377,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 2556378019,
+        "bytes_downloaded_observed_events": 377,
+        "bytes_downloaded_invalid_events": 0
+      },
+      "purpose_prediction": null
+    },
+    {
+      "application_id": "app_aed5234c07b5262a80ee8f9538152fe2d494e929b589e35a81135faf5d0deca9",
+      "application_key": "grammarly.com",
+      "application_names": [
+        "Grammarly"
+      ],
+      "unique_users": 147,
+      "departments": [
+        "Compliance",
+        "Finance",
+        "HR",
+        "IT",
+        "Operations",
+        "Sales"
+      ],
+      "events": 296,
+      "first_seen": "2026-09-01T08:54:00+00:00",
+      "last_seen": "2026-09-30T18:20:00+00:00",
+      "invalid_or_missing_timestamps": 0,
+      "upload_observations": 296,
+      "download_observations": 296,
+      "total_bytes_uploaded": 793324733,
+      "total_bytes_downloaded": 2237471432,
+      "mean_bytes_uploaded": 2680151.125,
+      "max_bytes_uploaded": 9922791,
+      "mean_bytes_downloaded": 7559025.108108108,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 147,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "company": "Summit Financial",
+      "detection": {
+        "is_ai_tool": 1,
+        "method": "name_and_host",
+        "catalog_status": "known_ai",
+        "model_ai_score": null,
+        "reason": "matched_catalog_record",
+        "candidates": [
+          {
+            "tool_id": "tool_01658",
+            "tool_name": "Grammarly",
+            "domain": "grammarly.com",
+            "path": "",
+            "is_ai_tool": true,
+            "category": "Security And Privacy",
+            "source": "ai_catalog",
+            "label_method": "assistant_official_source_review",
+            "evidence_url": "https://www.grammarly.com"
+          }
+        ],
+        "needs_review": true
+      },
+      "category": "Security And Privacy",
+      "category_source": "catalog_assignment",
+      "observed_identity": {
+        "application_id": "app_aed5234c07b5262a80ee8f9538152fe2d494e929b589e35a81135faf5d0deca9",
+        "application_name": "Grammarly",
+        "normalized_name": "grammarly",
+        "domain": "grammarly.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "grammarly.com",
+        "event_count": 296,
+        "departments": "[\"Compliance\", \"Finance\", \"HR\", \"IT\", \"Operations\", \"Sales\"]",
+        "name_variants": "[\"Grammarly\"]",
+        "raw_domain_variants": "[\"grammarly.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 147,
+        "total_session_duration_seconds": 1041783,
+        "session_duration_seconds_observed_events": 296,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 793324733,
+        "bytes_uploaded_observed_events": 296,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 2237471432,
+        "bytes_downloaded_observed_events": 296,
+        "bytes_downloaded_invalid_events": 0
+      },
+      "purpose_prediction": null
+    },
+    {
+      "application_id": "app_d7883b7a5020a8df76690760e4632545b1f12666f93aa453f2ce55e919af998e",
+      "application_key": "github.com/copilot",
+      "application_names": [
+        "GitHub Copilot"
+      ],
+      "unique_users": 121,
+      "departments": [
+        "Compliance",
+        "Finance",
+        "HR",
+        "IT",
+        "Operations",
+        "Sales"
+      ],
+      "events": 174,
+      "first_seen": "2026-09-01T08:54:00+00:00",
+      "last_seen": "2026-09-30T16:39:00+00:00",
+      "invalid_or_missing_timestamps": 0,
+      "upload_observations": 174,
+      "download_observations": 174,
+      "total_bytes_uploaded": 507553247,
+      "total_bytes_downloaded": 1161321648,
+      "mean_bytes_uploaded": 2916972.6839080458,
+      "max_bytes_uploaded": 9897402,
+      "mean_bytes_downloaded": 6674262.344827586,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 121,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "company": "Summit Financial",
+      "detection": {
+        "is_ai_tool": null,
+        "method": "unknown",
+        "catalog_status": "unknown",
+        "model_ai_score": null,
+        "reason": "host_present_but_product_not_resolved",
+        "candidates": [],
+        "needs_review": true
+      },
+      "category": null,
+      "category_source": "unresolved",
+      "observed_identity": {
+        "application_id": "app_d7883b7a5020a8df76690760e4632545b1f12666f93aa453f2ce55e919af998e",
+        "application_name": "GitHub Copilot",
+        "normalized_name": "github copilot",
+        "domain": "github.com",
+        "url_path": "/copilot",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "github.com/copilot",
+        "event_count": 174,
+        "departments": "[\"Compliance\", \"Finance\", \"HR\", \"IT\", \"Operations\", \"Sales\"]",
+        "name_variants": "[\"GitHub Copilot\"]",
+        "raw_domain_variants": "[\"github.com/copilot\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 121,
+        "total_session_duration_seconds": 624918,
+        "session_duration_seconds_observed_events": 174,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 507553247,
+        "bytes_uploaded_observed_events": 174,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 1161321648,
+        "bytes_downloaded_observed_events": 174,
+        "bytes_downloaded_invalid_events": 0
+      },
+      "purpose_prediction": null
+    },
+    {
+      "application_id": "app_f489d4b1012f5559a46748ae37e6c653712915858b8ae1810f96a84247830431",
+      "application_key": "teams.microsoft.com",
+      "application_names": [
+        "Microsoft Teams"
+      ],
+      "unique_users": 287,
+      "departments": [
+        "Compliance",
+        "Finance",
+        "HR",
+        "IT",
+        "Operations",
+        "Sales"
+      ],
+      "events": 1573,
+      "first_seen": "2026-09-01T08:00:00+00:00",
+      "last_seen": "2026-09-30T18:42:00+00:00",
+      "invalid_or_missing_timestamps": 0,
+      "upload_observations": 1573,
+      "download_observations": 1573,
+      "total_bytes_uploaded": 4547357228,
+      "total_bytes_downloaded": 11174542862,
+      "mean_bytes_uploaded": 2890881.89955499,
+      "max_bytes_uploaded": 9996528,
+      "mean_bytes_downloaded": 7103968.761602035,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance",
+              "hr"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        },
+        {
+          "rule": "broad_adoption",
+          "points": 5,
+          "evidence": {
+            "unique_users": 287,
+            "threshold": 50
+          },
+          "explanation": "Broad adoption increases the scope of governance review."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "company": "Summit Financial",
+      "detection": {
+        "is_ai_tool": null,
+        "method": "unknown",
+        "catalog_status": "unknown",
+        "model_ai_score": null,
+        "reason": "name_present_but_domain_differs",
+        "candidates": [],
+        "needs_review": true
+      },
+      "category": null,
+      "category_source": "unresolved",
+      "observed_identity": {
+        "application_id": "app_f489d4b1012f5559a46748ae37e6c653712915858b8ae1810f96a84247830431",
+        "application_name": "Microsoft Teams",
+        "normalized_name": "microsoft teams",
+        "domain": "teams.microsoft.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "teams.microsoft.com",
+        "event_count": 1573,
+        "departments": "[\"Compliance\", \"Finance\", \"HR\", \"IT\", \"Operations\", \"Sales\"]",
+        "name_variants": "[\"Microsoft Teams\"]",
+        "raw_domain_variants": "[\"teams.microsoft.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 287,
+        "total_session_duration_seconds": 5808481,
+        "session_duration_seconds_observed_events": 1573,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 4547357228,
+        "bytes_uploaded_observed_events": 1573,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 11174542862,
+        "bytes_downloaded_observed_events": 1573,
+        "bytes_downloaded_invalid_events": 0
+      },
+      "purpose_prediction": null
+    }
+  ],
+  "detection_counts": {
+    "ai": 6,
+    "conventional": 7,
+    "unknown": 9
+  },
+  "review_queue": [
+    "app_dd92109cc601540df42c7df0df3fbd6548f5608e73dc4aa42c1189e566c4c52d",
+    "app_dc9ef5775b9e5314d3ca0fa7b9ab0b8e092f99a6ce1db1fbf822d6200414b560",
+    "app_0d4fc2e5b6a6ee692bff153c4002da9a3cd6c974cf5c9fbbf03f300dc60c7f23",
+    "app_16fb473cfaddf3ba88ec0c0917e9035a05c98c88ab7c9a910b67e4c8b9e4fc9d",
+    "app_1cd3877a479691c0c760e9ba585b38d3debdfff6d59b8437539302fcb9938d62",
+    "app_34f8b1ca14ad669df00ab25c6fe0d335bbaa5b5bc41d04bb9ef431170a82355d",
+    "app_393113e5be3e4a46a9d1ed071da1fddcd16232c3adce72103b2c91d42ea4a7a3",
+    "app_4302bec2786f78d6f70e39f77769c2a212c4e08bfb1485164639710be64258ae",
+    "app_4a8ceff02924c8d92c4acfe24d1fef7a44e3ef4c39496c1288bcd96a0d491a5c",
+    "app_790138a465d345920ef03fcb93ae095cd75ae8f3d2fac2565d5dd80d8dca8b64",
+    "app_7c50300353797d72a036f39fb3538b392082256d4cf368fad5dcd5cfb0ac661c",
+    "app_7e69132e0967e8eb047fd7b29dbe4a11a63dd46cfbb6689d91cad788933da11a",
+    "app_81138b923c56ede71dcff8f6588e4362f4efa501fcd0cd12222b63d07283467b",
+    "app_823b08aa130691796057b19a38888334c9f68199dbb310e59b22c91b50c16290",
+    "app_96a58c1e329dc62b90c833b30aa8824c7c6d8ac9e6816c7c1707e2fbe7a5a3bf",
+    "app_9c7ac443384f8f2bcdd050372dd9952e5f37c22c236933526f68b8a9a1268687",
+    "app_a254e36a3a3228d577cd9ebd56f97c66a95d45a09f213c77995067b67d35fef0",
+    "app_a41717927a77162d6f55b73303b010267a11e496fb72c2bacbc4ffe7cccc148f",
+    "app_a4e9915bc883fd2738e22856141a76b4b65b12490224b9b3bdce26c5f39b3518",
+    "app_aed5234c07b5262a80ee8f9538152fe2d494e929b589e35a81135faf5d0deca9",
+    "app_d7883b7a5020a8df76690760e4632545b1f12666f93aa453f2ce55e919af998e",
+    "app_f489d4b1012f5559a46748ae37e6c653712915858b8ae1810f96a84247830431"
+  ],
+  "ingestion": {
+    "applications": [
+      {
+        "application_id": "app_dd92109cc601540df42c7df0df3fbd6548f5608e73dc4aa42c1189e566c4c52d",
+        "application_name": "ChatGPT",
+        "normalized_name": "chatgpt",
+        "domain": "chatgpt.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "chatgpt.com",
+        "event_count": 1243,
+        "departments": "[\"Compliance\", \"Finance\", \"HR\", \"IT\", \"Operations\", \"Sales\"]",
+        "name_variants": "[\"ChatGPT\"]",
+        "raw_domain_variants": "[\"chatgpt.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 378,
+        "total_session_duration_seconds": 4497376,
+        "session_duration_seconds_observed_events": 1243,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 3914488126,
+        "bytes_uploaded_observed_events": 1243,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 9158063738,
+        "bytes_downloaded_observed_events": 1243,
+        "bytes_downloaded_invalid_events": 0
+      },
+      {
+        "application_id": "app_16fb473cfaddf3ba88ec0c0917e9035a05c98c88ab7c9a910b67e4c8b9e4fc9d",
+        "application_name": "Claude",
+        "normalized_name": "claude",
+        "domain": "claude.ai",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "claude.ai",
+        "event_count": 1240,
+        "departments": "[\"Compliance\", \"Finance\", \"HR\", \"IT\", \"Operations\", \"Sales\"]",
+        "name_variants": "[\"Claude\"]",
+        "raw_domain_variants": "[\"claude.ai\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 377,
+        "total_session_duration_seconds": 4323484,
+        "session_duration_seconds_observed_events": 1240,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 3819536242,
+        "bytes_uploaded_observed_events": 1240,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 8284616450,
+        "bytes_downloaded_observed_events": 1240,
+        "bytes_downloaded_invalid_events": 0
+      },
+      {
+        "application_id": "app_823b08aa130691796057b19a38888334c9f68199dbb310e59b22c91b50c16290",
+        "application_name": "Cursor",
+        "normalized_name": "cursor",
+        "domain": "cursor.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "cursor.com",
+        "event_count": 151,
+        "departments": "[\"Compliance\", \"Finance\", \"HR\", \"IT\", \"Operations\", \"Sales\"]",
+        "name_variants": "[\"Cursor\"]",
+        "raw_domain_variants": "[\"cursor.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 111,
+        "total_session_duration_seconds": 549078,
+        "session_duration_seconds_observed_events": 151,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 431127986,
+        "bytes_uploaded_observed_events": 151,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 992952094,
+        "bytes_downloaded_observed_events": 151,
+        "bytes_downloaded_invalid_events": 0
+      },
+      {
+        "application_id": "app_dc9ef5775b9e5314d3ca0fa7b9ab0b8e092f99a6ce1db1fbf822d6200414b560",
+        "application_name": "DocuMind AI",
+        "normalized_name": "documind ai",
+        "domain": "documind-ai.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "documind-ai.com",
+        "event_count": 120,
+        "departments": "[\"Finance\"]",
+        "name_variants": "[\"DocuMind AI\"]",
+        "raw_domain_variants": "[\"documind-ai.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 84,
+        "total_session_duration_seconds": 232743,
+        "session_duration_seconds_observed_events": 120,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 953803761,
+        "bytes_uploaded_observed_events": 120,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 300642538,
+        "bytes_downloaded_observed_events": 120,
+        "bytes_downloaded_invalid_events": 0
+      },
+      {
+        "application_id": "app_9c7ac443384f8f2bcdd050372dd9952e5f37c22c236933526f68b8a9a1268687",
+        "application_name": "Gemini",
+        "normalized_name": "gemini",
+        "domain": "gemini.google.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "gemini.google.com",
+        "event_count": 1326,
+        "departments": "[\"Compliance\", \"Finance\", \"HR\", \"IT\", \"Operations\", \"Sales\"]",
+        "name_variants": "[\"Gemini\"]",
+        "raw_domain_variants": "[\"gemini.google.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 377,
+        "total_session_duration_seconds": 4746655,
+        "session_duration_seconds_observed_events": 1326,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 4006192966,
+        "bytes_uploaded_observed_events": 1326,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 9603069889,
+        "bytes_downloaded_observed_events": 1326,
+        "bytes_downloaded_invalid_events": 0
+      },
+      {
+        "application_id": "app_0d4fc2e5b6a6ee692bff153c4002da9a3cd6c974cf5c9fbbf03f300dc60c7f23",
+        "application_name": "GitHub",
+        "normalized_name": "github",
+        "domain": "github.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "github.com",
+        "event_count": 568,
+        "departments": "[\"Compliance\", \"Finance\", \"HR\", \"IT\", \"Operations\", \"Sales\"]",
+        "name_variants": "[\"GitHub\"]",
+        "raw_domain_variants": "[\"github.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 241,
+        "total_session_duration_seconds": 2122595,
+        "session_duration_seconds_observed_events": 568,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 1708377789,
+        "bytes_uploaded_observed_events": 568,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 4081914230,
+        "bytes_downloaded_observed_events": 568,
+        "bytes_downloaded_invalid_events": 0
+      },
+      {
+        "application_id": "app_d7883b7a5020a8df76690760e4632545b1f12666f93aa453f2ce55e919af998e",
+        "application_name": "GitHub Copilot",
+        "normalized_name": "github copilot",
+        "domain": "github.com",
+        "url_path": "/copilot",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "github.com/copilot",
+        "event_count": 174,
+        "departments": "[\"Compliance\", \"Finance\", \"HR\", \"IT\", \"Operations\", \"Sales\"]",
+        "name_variants": "[\"GitHub Copilot\"]",
+        "raw_domain_variants": "[\"github.com/copilot\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 121,
+        "total_session_duration_seconds": 624918,
+        "session_duration_seconds_observed_events": 174,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 507553247,
+        "bytes_uploaded_observed_events": 174,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 1161321648,
+        "bytes_downloaded_observed_events": 174,
+        "bytes_downloaded_invalid_events": 0
+      },
+      {
+        "application_id": "app_81138b923c56ede71dcff8f6588e4362f4efa501fcd0cd12222b63d07283467b",
+        "application_name": "Google Docs",
+        "normalized_name": "google docs",
+        "domain": "docs.google.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "docs.google.com",
+        "event_count": 4712,
+        "departments": "[\"Compliance\", \"Finance\", \"HR\", \"IT\", \"Operations\", \"Sales\"]",
+        "name_variants": "[\"Google Docs\"]",
+        "raw_domain_variants": "[\"docs.google.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 367,
+        "total_session_duration_seconds": 16995369,
+        "session_duration_seconds_observed_events": 4712,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 14444094337,
+        "bytes_uploaded_observed_events": 4712,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 32961413771,
+        "bytes_downloaded_observed_events": 4712,
+        "bytes_downloaded_invalid_events": 0
+      },
+      {
+        "application_id": "app_790138a465d345920ef03fcb93ae095cd75ae8f3d2fac2565d5dd80d8dca8b64",
+        "application_name": "Google Drive",
+        "normalized_name": "google drive",
+        "domain": "drive.google.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "drive.google.com",
+        "event_count": 4791,
+        "departments": "[\"Compliance\", \"Finance\", \"HR\", \"IT\", \"Operations\", \"Sales\"]",
+        "name_variants": "[\"Google Drive\"]",
+        "raw_domain_variants": "[\"drive.google.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 367,
+        "total_session_duration_seconds": 17460747,
+        "session_duration_seconds_observed_events": 4791,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 14311757454,
+        "bytes_uploaded_observed_events": 4791,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 34130794854,
+        "bytes_downloaded_observed_events": 4791,
+        "bytes_downloaded_invalid_events": 0
+      },
+      {
+        "application_id": "app_aed5234c07b5262a80ee8f9538152fe2d494e929b589e35a81135faf5d0deca9",
+        "application_name": "Grammarly",
+        "normalized_name": "grammarly",
+        "domain": "grammarly.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "grammarly.com",
+        "event_count": 296,
+        "departments": "[\"Compliance\", \"Finance\", \"HR\", \"IT\", \"Operations\", \"Sales\"]",
+        "name_variants": "[\"Grammarly\"]",
+        "raw_domain_variants": "[\"grammarly.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 147,
+        "total_session_duration_seconds": 1041783,
+        "session_duration_seconds_observed_events": 296,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 793324733,
+        "bytes_uploaded_observed_events": 296,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 2237471432,
+        "bytes_downloaded_observed_events": 296,
+        "bytes_downloaded_invalid_events": 0
+      },
+      {
+        "application_id": "app_1cd3877a479691c0c760e9ba585b38d3debdfff6d59b8437539302fcb9938d62",
+        "application_name": "Jasper",
+        "normalized_name": "jasper",
+        "domain": "jasper.ai",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "jasper.ai",
+        "event_count": 110,
+        "departments": "[\"Compliance\", \"Finance\", \"HR\", \"IT\", \"Operations\", \"Sales\"]",
+        "name_variants": "[\"Jasper\"]",
+        "raw_domain_variants": "[\"jasper.ai\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 101,
+        "total_session_duration_seconds": 367077,
+        "session_duration_seconds_observed_events": 110,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 340630165,
+        "bytes_uploaded_observed_events": 110,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 820325867,
+        "bytes_downloaded_observed_events": 110,
+        "bytes_downloaded_invalid_events": 0
+      },
+      {
+        "application_id": "app_4302bec2786f78d6f70e39f77769c2a212c4e08bfb1485164639710be64258ae",
+        "application_name": "Jira",
+        "normalized_name": "jira",
+        "domain": "atlassian.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "atlassian.com",
+        "event_count": 344,
+        "departments": "[\"Compliance\", \"Finance\", \"HR\", \"IT\", \"Operations\", \"Sales\"]",
+        "name_variants": "[\"Jira\"]",
+        "raw_domain_variants": "[\"atlassian.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 222,
+        "total_session_duration_seconds": 1230368,
+        "session_duration_seconds_observed_events": 344,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 1024670118,
+        "bytes_uploaded_observed_events": 344,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 2183732778,
+        "bytes_downloaded_observed_events": 344,
+        "bytes_downloaded_invalid_events": 0
+      },
+      {
+        "application_id": "app_34f8b1ca14ad669df00ab25c6fe0d335bbaa5b5bc41d04bb9ef431170a82355d",
+        "application_name": "LinkedIn",
+        "normalized_name": "linkedin",
+        "domain": "linkedin.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "linkedin.com",
+        "event_count": 617,
+        "departments": "[\"Compliance\", \"Finance\", \"HR\", \"IT\", \"Operations\", \"Sales\"]",
+        "name_variants": "[\"LinkedIn\"]",
+        "raw_domain_variants": "[\"linkedin.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 233,
+        "total_session_duration_seconds": 2179652,
+        "session_duration_seconds_observed_events": 617,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 1868112489,
+        "bytes_uploaded_observed_events": 617,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 4514011881,
+        "bytes_downloaded_observed_events": 617,
+        "bytes_downloaded_invalid_events": 0
+      },
+      {
+        "application_id": "app_4a8ceff02924c8d92c4acfe24d1fef7a44e3ef4c39496c1288bcd96a0d491a5c",
+        "application_name": "Microsoft Excel",
+        "normalized_name": "microsoft excel",
+        "domain": "office.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "office.com",
+        "event_count": 2058,
+        "departments": "[\"Compliance\", \"Finance\", \"HR\", \"IT\", \"Operations\", \"Sales\"]",
+        "name_variants": "[\"Microsoft Excel\"]",
+        "raw_domain_variants": "[\"office.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 279,
+        "total_session_duration_seconds": 7439818,
+        "session_duration_seconds_observed_events": 2058,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 6181511357,
+        "bytes_uploaded_observed_events": 2058,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 14414215638,
+        "bytes_downloaded_observed_events": 2058,
+        "bytes_downloaded_invalid_events": 0
+      },
+      {
+        "application_id": "app_f489d4b1012f5559a46748ae37e6c653712915858b8ae1810f96a84247830431",
+        "application_name": "Microsoft Teams",
+        "normalized_name": "microsoft teams",
+        "domain": "teams.microsoft.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "teams.microsoft.com",
+        "event_count": 1573,
+        "departments": "[\"Compliance\", \"Finance\", \"HR\", \"IT\", \"Operations\", \"Sales\"]",
+        "name_variants": "[\"Microsoft Teams\"]",
+        "raw_domain_variants": "[\"teams.microsoft.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 287,
+        "total_session_duration_seconds": 5808481,
+        "session_duration_seconds_observed_events": 1573,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 4547357228,
+        "bytes_uploaded_observed_events": 1573,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 11174542862,
+        "bytes_downloaded_observed_events": 1573,
+        "bytes_downloaded_invalid_events": 0
+      },
+      {
+        "application_id": "app_7c50300353797d72a036f39fb3538b392082256d4cf368fad5dcd5cfb0ac661c",
+        "application_name": "Midjourney",
+        "normalized_name": "midjourney",
+        "domain": "midjourney.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "midjourney.com",
+        "event_count": 110,
+        "departments": "[\"Compliance\", \"Finance\", \"HR\", \"IT\", \"Operations\", \"Sales\"]",
+        "name_variants": "[\"Midjourney\"]",
+        "raw_domain_variants": "[\"midjourney.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 100,
+        "total_session_duration_seconds": 378706,
+        "session_duration_seconds_observed_events": 110,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 337812912,
+        "bytes_uploaded_observed_events": 110,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 704475789,
+        "bytes_downloaded_observed_events": 110,
+        "bytes_downloaded_invalid_events": 0
+      },
+      {
+        "application_id": "app_a4e9915bc883fd2738e22856141a76b4b65b12490224b9b3bdce26c5f39b3518",
+        "application_name": "Perplexity",
+        "normalized_name": "perplexity",
+        "domain": "perplexity.ai",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "perplexity.ai",
+        "event_count": 377,
+        "departments": "[\"Compliance\", \"Finance\", \"HR\", \"IT\", \"Operations\", \"Sales\"]",
+        "name_variants": "[\"Perplexity\"]",
+        "raw_domain_variants": "[\"perplexity.ai\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 175,
+        "total_session_duration_seconds": 1306925,
+        "session_duration_seconds_observed_events": 377,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 1213813578,
+        "bytes_uploaded_observed_events": 377,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 2556378019,
+        "bytes_downloaded_observed_events": 377,
+        "bytes_downloaded_invalid_events": 0
+      },
+      {
+        "application_id": "app_96a58c1e329dc62b90c833b30aa8824c7c6d8ac9e6816c7c1707e2fbe7a5a3bf",
+        "application_name": "Salesforce",
+        "normalized_name": "salesforce",
+        "domain": "salesforce.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "salesforce.com",
+        "event_count": 704,
+        "departments": "[\"Compliance\", \"Finance\", \"HR\", \"IT\", \"Operations\", \"Sales\"]",
+        "name_variants": "[\"Salesforce\"]",
+        "raw_domain_variants": "[\"salesforce.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 245,
+        "total_session_duration_seconds": 2546572,
+        "session_duration_seconds_observed_events": 704,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 2011137990,
+        "bytes_uploaded_observed_events": 704,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 4959594081,
+        "bytes_downloaded_observed_events": 704,
+        "bytes_downloaded_invalid_events": 0
+      },
+      {
+        "application_id": "app_7e69132e0967e8eb047fd7b29dbe4a11a63dd46cfbb6689d91cad788933da11a",
+        "application_name": "Slack",
+        "normalized_name": "slack",
+        "domain": "slack.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "slack.com",
+        "event_count": 1535,
+        "departments": "[\"Compliance\", \"Finance\", \"HR\", \"IT\", \"Operations\", \"Sales\"]",
+        "name_variants": "[\"Slack\"]",
+        "raw_domain_variants": "[\"slack.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 309,
+        "total_session_duration_seconds": 5513344,
+        "session_duration_seconds_observed_events": 1535,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 4591160727,
+        "bytes_uploaded_observed_events": 1535,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 10940295544,
+        "bytes_downloaded_observed_events": 1535,
+        "bytes_downloaded_invalid_events": 0
+      },
+      {
+        "application_id": "app_a41717927a77162d6f55b73303b010267a11e496fb72c2bacbc4ffe7cccc148f",
+        "application_name": "VS Code",
+        "normalized_name": "vs code",
+        "domain": "code.visualstudio.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "code.visualstudio.com",
+        "event_count": 615,
+        "departments": "[\"Compliance\", \"Finance\", \"HR\", \"IT\", \"Operations\", \"Sales\"]",
+        "name_variants": "[\"VS Code\"]",
+        "raw_domain_variants": "[\"code.visualstudio.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 255,
+        "total_session_duration_seconds": 2182263,
+        "session_duration_seconds_observed_events": 615,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 1847668445,
+        "bytes_uploaded_observed_events": 615,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 4492645075,
+        "bytes_downloaded_observed_events": 615,
+        "bytes_downloaded_invalid_events": 0
+      },
+      {
+        "application_id": "app_a254e36a3a3228d577cd9ebd56f97c66a95d45a09f213c77995067b67d35fef0",
+        "application_name": "Workday",
+        "normalized_name": "workday",
+        "domain": "workday.com",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "workday.com",
+        "event_count": 840,
+        "departments": "[\"Compliance\", \"Finance\", \"HR\", \"IT\", \"Operations\", \"Sales\"]",
+        "name_variants": "[\"Workday\"]",
+        "raw_domain_variants": "[\"workday.com\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 241,
+        "total_session_duration_seconds": 3006700,
+        "session_duration_seconds_observed_events": 840,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 2569663907,
+        "bytes_uploaded_observed_events": 840,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 5736458437,
+        "bytes_downloaded_observed_events": 840,
+        "bytes_downloaded_invalid_events": 0
+      },
+      {
+        "application_id": "app_393113e5be3e4a46a9d1ed071da1fddcd16232c3adce72103b2c91d42ea4a7a3",
+        "application_name": "Zoom",
+        "normalized_name": "zoom",
+        "domain": "zoom.us",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "zoom.us",
+        "event_count": 1616,
+        "departments": "[\"Compliance\", \"Finance\", \"HR\", \"IT\", \"Operations\", \"Sales\"]",
+        "name_variants": "[\"Zoom\"]",
+        "raw_domain_variants": "[\"zoom.us\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 292,
+        "total_session_duration_seconds": 5830976,
+        "session_duration_seconds_observed_events": 1616,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 4716256876,
+        "bytes_uploaded_observed_events": 1616,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 11392614739,
+        "bytes_downloaded_observed_events": 1616,
+        "bytes_downloaded_invalid_events": 0
+      }
+    ],
+    "rejected_rows": [],
+    "summary": {
+      "input_file": "summit_financial_usage (1).csv",
+      "input_sha256": "b4f412dc01fa2e4fb16dee79b4d645d564a8a8473c65505065eb4cca23c413a5",
+      "input_rows": 25120,
+      "accepted_events": 25120,
+      "rejected_events": 0,
+      "unique_applications": 22,
+      "unique_hostnames": 21,
+      "rejection_reasons": {},
+      "invalid_metrics": {
+        "session_duration_seconds": 0,
+        "bytes_uploaded": 0,
+        "bytes_downloaded": 0
+      },
+      "identity_policy": "Case-folded normalized name plus normalized endpoint; product paths/subdomains preserved; aliases not merged.",
+      "metric_policy": "Nonnegative integer metrics only; blanks are missing; invalid values excluded from totals and counted.",
+      "source_row_policy": "1-based data-record index, excluding header; join to original records using this index.",
+      "event_policy": "All accepted records count; no duplicate event-ID removal.",
+      "scope": "Extraction only; no AI labels or categories assigned."
+    },
+    "event_map_note": "25120 mappings omitted only from this checked-in summary. Full CLI reports retain them."
+  },
+  "catalog_warnings": [
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16744",
+      "reason": "invalid_endpoint: invalid_hostname"
+    },
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16745",
+      "reason": "invalid_endpoint: invalid_hostname"
+    },
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16746",
+      "reason": "invalid_endpoint: invalid_hostname"
+    },
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16747",
+      "reason": "invalid_endpoint: invalid_hostname"
+    },
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16748",
+      "reason": "invalid_endpoint: invalid_hostname"
+    },
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16749",
+      "reason": "invalid_endpoint: invalid_hostname"
+    },
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16750",
+      "reason": "invalid_endpoint: invalid_hostname"
+    },
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16751",
+      "reason": "invalid_endpoint: invalid_hostname"
+    },
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16752",
+      "reason": "invalid_endpoint: invalid_hostname"
+    },
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16753",
+      "reason": "invalid_endpoint: invalid_hostname"
+    },
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16754",
+      "reason": "invalid_endpoint: invalid_hostname"
+    },
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16755",
+      "reason": "invalid_endpoint: invalid_hostname"
+    },
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16756",
+      "reason": "invalid_endpoint: invalid_hostname"
+    },
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16757",
+      "reason": "invalid_endpoint: invalid_hostname"
+    },
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16758",
+      "reason": "invalid_endpoint: invalid_hostname"
+    },
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16759",
+      "reason": "invalid_endpoint: invalid_hostname"
+    },
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16760",
+      "reason": "invalid_endpoint: invalid_hostname"
+    },
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16761",
+      "reason": "invalid_endpoint: invalid_hostname"
+    },
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16762",
+      "reason": "invalid_endpoint: invalid_hostname"
+    }
+  ],
+  "repeated_nonempty_event_ids": 0,
+  "inputs": {
+    "activity": {
+      "file": "summit_financial_usage (1).csv",
+      "sha256": "b4f412dc01fa2e4fb16dee79b4d645d564a8a8473c65505065eb4cca23c413a5"
+    },
+    "ai_catalog": {
+      "file": "kaggle.csv",
+      "sha256": "d0b038ab063916ed466d3aa4ff9afdcc6375899770a0ba26de209feb66a37ae2"
+    },
+    "known_tools": {
+      "file": "dataset_b_final_kaggle_categories.csv",
+      "sha256": "61957c48fbe6143331d13f9b2dc57380708ed0d86a0d0e9d1f8009dd2fb33858"
+    },
+    "policy": {
+      "file": "policy.json",
+      "sha256": "181fb959f3dd38cf5308a52fe7f3dc760c37af6b15ccf2c5889cf3eba2d1231a"
+    },
+    "corrections": {
+      "file": "all_corrected.csv",
+      "sha256": "7ee066d571e439eca15efdbca1a706c347ac185457e43a1939d00a5844c62534"
+    },
+    "scenarios": {
+      "file": "synthetic_scenarios.json",
+      "sha256": "97b1345e6da90e4728b31cd63abfec845241c1e60048b45ce3c3580d9365cb5e"
+    },
+    "runtime_settings": {
+      "file": "pipeline.json",
+      "sha256": "9b963a44bc489f737b061028e755a0d0b90db5fe6b493506c3c8cc09b7d71544"
+    }
+  },
+  "limitations": [
+    "Sadit ingestion counts every accepted record, including repeated event IDs; rejected rows are reported separately.",
+    "Application identity includes name and endpoint; it is not simply a hostname count.",
+    "Catalog categories and labels are supplied assignments, not independently verified truth.",
+    "Unknown or ambiguous applications remain visible; models require supplied descriptions.",
+    "Governance uses accepted activity and explicit company synthetic overlays only; no generated catalog controls are imported.",
+    "Low priority with incomplete evidence is not assurance of safety. No web/API calls occur.",
+    "The reconciled binary and 14-category models remain experimental; catalog categories are supplied labels."
+  ]
+}

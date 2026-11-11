@@ -1,0 +1,128 @@
+{
+  "taxonomy": "original_kaggle_14",
+  "categories": [
+    "Ai And Machine Learning",
+    "Business And Finance",
+    "Communication And Support",
+    "Creative And Entertainment",
+    "Data And Analytics",
+    "Education And Learning",
+    "Industry Specific",
+    "Marketing And Sales",
+    "Media And Content Creation",
+    "Operations And Management",
+    "Personal And Lifestyle",
+    "Security And Privacy",
+    "Specialized Technologies",
+    "Technology And Development"
+  ],
+  "input_sha256": "61957c48fbe6143331d13f9b2dc57380708ed0d86a0d0e9d1f8009dd2fb33858",
+  "rows": 306,
+  "excluded_rows": 391,
+  "category_counts": {
+    "Ai And Machine Learning": 28,
+    "Business And Finance": 18,
+    "Communication And Support": 31,
+    "Creative And Entertainment": 13,
+    "Data And Analytics": 14,
+    "Education And Learning": 4,
+    "Industry Specific": 7,
+    "Marketing And Sales": 23,
+    "Media And Content Creation": 78,
+    "Operations And Management": 26,
+    "Personal And Lifestyle": 5,
+    "Security And Privacy": 8,
+    "Specialized Technologies": 20,
+    "Technology And Development": 31
+  },
+  "outer_folds": 4,
+  "inner_folds": 2,
+  "seed": 42,
+  "fold_policy": "First of up to 100 sequential seeds meeting training-category/group coverage, using labels/groups only; no model-score selection.",
+  "comparison": {
+    "tfidf": {
+      "accuracy": 0.3202614379084967,
+      "macro_f1": 0.24369037286435521,
+      "weighted_f1": 0.3120306437147147
+    },
+    "embeddings_default": {
+      "accuracy": 0.45098039215686275,
+      "macro_f1": 0.38623473131156494,
+      "weighted_f1": 0.45010582624571654
+    },
+    "embeddings_tuned": {
+      "accuracy": 0.45751633986928103,
+      "macro_f1": 0.39389161871994194,
+      "weighted_f1": 0.46071801292820863
+    }
+  },
+  "majority_baseline": {
+    "accuracy": 0.2549019607843137,
+    "macro_f1": 0.029017857142857144,
+    "weighted_f1": 0.10355392156862746
+  },
+  "selected_family": "embeddings_tuned",
+  "selection_rule": "Exploratory highest outer grouped-CV macro F1; family selection reuses these estimates.",
+  "outer_tuning": [
+    {
+      "outer_fold": 1,
+      "selected": {
+        "C": 1.0,
+        "class_weight": "balanced"
+      },
+      "inner_macro_f1": 0.3316637448400279
+    },
+    {
+      "outer_fold": 2,
+      "selected": {
+        "C": 10.0,
+        "class_weight": "balanced"
+      },
+      "inner_macro_f1": 0.35617701276314717
+    },
+    {
+      "outer_fold": 3,
+      "selected": {
+        "C": 1.0,
+        "class_weight": "balanced"
+      },
+      "inner_macro_f1": 0.27930202077746397
+    },
+    {
+      "outer_fold": 4,
+      "selected": {
+        "C": 10.0,
+        "class_weight": "balanced"
+      },
+      "inner_macro_f1": 0.2795013584071269
+    }
+  ],
+  "final_tuned_params": {
+    "C": 1.0,
+    "class_weight": "balanced"
+  },
+  "model_sha256": {
+    "tfidf.joblib": "a1d4845fdbddeac90c264ee922a56d8464c7bfe29af48f4d3db395ced05227ac",
+    "embeddings_default.joblib": "7af823a92d632b799b512b110bee7cd5e6dbb1d61c9839acfe7b31cba4d4926a",
+    "embeddings_tuned.joblib": "7af823a92d632b799b512b110bee7cd5e6dbb1d61c9839acfe7b31cba4d4926a"
+  },
+  "encoder_path": "artifacts/category_embeddings/encoder",
+  "encoder_sha256": "e1f3e362141dab6ebfa635d9e904b6a9f1d1b567b97ad248edf0d195564e3675",
+  "encoder_frozen": true,
+  "probabilities_calibrated": false,
+  "independent_final_test": false,
+  "versions": {
+    "python": "3.12.5",
+    "sklearn": "1.7.2",
+    "numpy": "2.5.4",
+    "sentence_transformers": "6.2.0"
+  },
+  "limitations": [
+    "Only 306 labeled AI records; smallest category has four examples.",
+    "Existing Kaggle categories can be noisy and are not independently verified.",
+    "Nested tuning protects outer folds from parameter selection, but family comparison is exploratory.",
+    "Many products were seen in earlier experiments; this is not a fresh independent benchmark.",
+    "Final deployment models are refitted on all eligible records after cross-validation.",
+    "Scores are uncalibrated; suggestions always request review."
+  ]
+}

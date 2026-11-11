@@ -1,0 +1,497 @@
+{
+  "company": "Example Enterprise",
+  "synthetic_activity": true,
+  "synthetic_scenario_applied": false,
+  "application_count": 2,
+  "applications": [
+    {
+      "application_id": "app_09238b67bf3afc3f8963c9fa3f5076a9bc0d464c489a49a1c6b4969bcd917b29",
+      "application_key": "new-code-helper.example",
+      "application_names": [
+        "Example Code Helper"
+      ],
+      "unique_users": 2,
+      "departments": [
+        "Engineering"
+      ],
+      "events": 2,
+      "first_seen": "2026-11-01T09:00:00+00:00",
+      "last_seen": "2026-11-01T10:00:00+00:00",
+      "invalid_or_missing_timestamps": 0,
+      "upload_observations": 2,
+      "download_observations": 2,
+      "total_bytes_uploaded": 12002000,
+      "total_bytes_downloaded": 2000,
+      "mean_bytes_uploaded": 6001000.0,
+      "max_bytes_uploaded": 12000000,
+      "mean_bytes_downloaded": 1000.0,
+      "risk_score": 15,
+      "uncapped_risk_score": 15,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "large_upload",
+          "points": 15,
+          "evidence": {
+            "mean_bytes_uploaded": 6001000.0,
+            "max_bytes_uploaded": 12000000,
+            "mean_threshold": 5000000,
+            "single_threshold": 10000000
+          },
+          "explanation": "Upload volume exceeds a configured threshold; this does not establish data leakage."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "company": "Example Enterprise",
+      "detection": {
+        "is_ai_tool": 1,
+        "method": "description_model",
+        "catalog_status": "unknown",
+        "model_ai_score": 0.9978064365272911,
+        "reason": "no_matching_identity",
+        "candidates": [],
+        "needs_review": true,
+        "caveat": "Uncalibrated primary-purpose classifier; does not predict optional AI features or governance risk."
+      },
+      "category": "Education And Learning",
+      "category_source": "experimental_model",
+      "observed_identity": {
+        "application_id": "app_09238b67bf3afc3f8963c9fa3f5076a9bc0d464c489a49a1c6b4969bcd917b29",
+        "application_name": "Example Code Helper",
+        "normalized_name": "example code helper",
+        "domain": "new-code-helper.example",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "new-code-helper.example",
+        "event_count": 2,
+        "departments": "[\"Engineering\"]",
+        "name_variants": "[\"Example Code Helper\"]",
+        "raw_domain_variants": "[\"new-code-helper.example\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 2,
+        "total_session_duration_seconds": "",
+        "session_duration_seconds_observed_events": 0,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 12002000,
+        "bytes_uploaded_observed_events": 2,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 2000,
+        "bytes_downloaded_observed_events": 2,
+        "bytes_downloaded_invalid_events": 0
+      },
+      "purpose_prediction": {
+        "category": "Education And Learning",
+        "model_score": 0.12085723439151654,
+        "family": "embeddings_tuned",
+        "taxonomy": "original_kaggle_14",
+        "needs_review": true,
+        "top_categories": [
+          {
+            "category": "Education And Learning",
+            "model_score": 0.12085723439151654
+          },
+          {
+            "category": "Technology And Development",
+            "model_score": 0.11173452600437034
+          },
+          {
+            "category": "Ai And Machine Learning",
+            "model_score": 0.09908714507616653
+          }
+        ],
+        "caveat": "Experimental purpose suggestion, not independently verified; scores are uncalibrated."
+      }
+    },
+    {
+      "application_id": "app_ad0f3311f25c9f5072845265f6911b4cd34decac9a61e6e9d9804b83901e1b09",
+      "application_key": "new-file-storage.example",
+      "application_names": [
+        "Example File Storage"
+      ],
+      "unique_users": 1,
+      "departments": [
+        "Finance"
+      ],
+      "events": 1,
+      "first_seen": "2026-11-01T11:00:00+00:00",
+      "last_seen": "2026-11-01T11:00:00+00:00",
+      "invalid_or_missing_timestamps": 0,
+      "upload_observations": 1,
+      "download_observations": 1,
+      "total_bytes_uploaded": 2000,
+      "total_bytes_downloaded": 1000,
+      "mean_bytes_uploaded": 2000.0,
+      "max_bytes_uploaded": 2000,
+      "mean_bytes_downloaded": 1000.0,
+      "risk_score": 10,
+      "uncapped_risk_score": 10,
+      "risk_level": "low",
+      "assessment_status": "incomplete",
+      "needs_review": true,
+      "unknown_fields": [
+        "approved_status",
+        "sso_available",
+        "data_retention",
+        "training_on_customer_data",
+        "admin_controls_available",
+        "enterprise_plan_available"
+      ],
+      "metadata": {
+        "approved_status": null,
+        "data_retention": null,
+        "sso_available": null,
+        "training_on_customer_data": null,
+        "admin_controls_available": null,
+        "enterprise_plan_available": null
+      },
+      "metadata_source": "unknown",
+      "policy_version": "demo-1.0",
+      "reasons": [
+        {
+          "rule": "sensitive_department",
+          "points": 10,
+          "evidence": {
+            "departments": [
+              "finance"
+            ]
+          },
+          "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed."
+        }
+      ],
+      "caveat": "Observed-evidence governance priority, not breach probability. Low with incomplete evidence is not an assurance of safety.",
+      "company": "Example Enterprise",
+      "detection": {
+        "is_ai_tool": 1,
+        "method": "description_model",
+        "catalog_status": "unknown",
+        "model_ai_score": 0.8792602890091854,
+        "reason": "no_matching_identity",
+        "candidates": [],
+        "needs_review": true,
+        "caveat": "Uncalibrated primary-purpose classifier; does not predict optional AI features or governance risk."
+      },
+      "category": "Communication And Support",
+      "category_source": "experimental_model",
+      "observed_identity": {
+        "application_id": "app_ad0f3311f25c9f5072845265f6911b4cd34decac9a61e6e9d9804b83901e1b09",
+        "application_name": "Example File Storage",
+        "normalized_name": "example file storage",
+        "domain": "new-file-storage.example",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "new-file-storage.example",
+        "event_count": 1,
+        "departments": "[\"Finance\"]",
+        "name_variants": "[\"Example File Storage\"]",
+        "raw_domain_variants": "[\"new-file-storage.example\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 1,
+        "total_session_duration_seconds": "",
+        "session_duration_seconds_observed_events": 0,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 2000,
+        "bytes_uploaded_observed_events": 1,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 1000,
+        "bytes_downloaded_observed_events": 1,
+        "bytes_downloaded_invalid_events": 0
+      },
+      "purpose_prediction": {
+        "category": "Communication And Support",
+        "model_score": 0.10633014386243221,
+        "family": "embeddings_tuned",
+        "taxonomy": "original_kaggle_14",
+        "needs_review": true,
+        "top_categories": [
+          {
+            "category": "Communication And Support",
+            "model_score": 0.10633014386243221
+          },
+          {
+            "category": "Data And Analytics",
+            "model_score": 0.09838274895213352
+          },
+          {
+            "category": "Media And Content Creation",
+            "model_score": 0.09811576075891158
+          }
+        ],
+        "caveat": "Experimental purpose suggestion, not independently verified; scores are uncalibrated."
+      }
+    }
+  ],
+  "detection_counts": {
+    "ai": 2,
+    "conventional": 0,
+    "unknown": 0
+  },
+  "review_queue": [
+    "app_09238b67bf3afc3f8963c9fa3f5076a9bc0d464c489a49a1c6b4969bcd917b29",
+    "app_ad0f3311f25c9f5072845265f6911b4cd34decac9a61e6e9d9804b83901e1b09"
+  ],
+  "ingestion": {
+    "applications": [
+      {
+        "application_id": "app_09238b67bf3afc3f8963c9fa3f5076a9bc0d464c489a49a1c6b4969bcd917b29",
+        "application_name": "Example Code Helper",
+        "normalized_name": "example code helper",
+        "domain": "new-code-helper.example",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "new-code-helper.example",
+        "event_count": 2,
+        "departments": "[\"Engineering\"]",
+        "name_variants": "[\"Example Code Helper\"]",
+        "raw_domain_variants": "[\"new-code-helper.example\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 2,
+        "total_session_duration_seconds": "",
+        "session_duration_seconds_observed_events": 0,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 12002000,
+        "bytes_uploaded_observed_events": 2,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 2000,
+        "bytes_downloaded_observed_events": 2,
+        "bytes_downloaded_invalid_events": 0
+      },
+      {
+        "application_id": "app_ad0f3311f25c9f5072845265f6911b4cd34decac9a61e6e9d9804b83901e1b09",
+        "application_name": "Example File Storage",
+        "normalized_name": "example file storage",
+        "domain": "new-file-storage.example",
+        "url_path": "",
+        "url_query": "",
+        "url_fragment": "",
+        "observed_endpoint": "new-file-storage.example",
+        "event_count": 1,
+        "departments": "[\"Finance\"]",
+        "name_variants": "[\"Example File Storage\"]",
+        "raw_domain_variants": "[\"new-file-storage.example\"]",
+        "events_missing_employee_id": 0,
+        "events_missing_department": 0,
+        "unique_employee_count": 1,
+        "total_session_duration_seconds": "",
+        "session_duration_seconds_observed_events": 0,
+        "session_duration_seconds_invalid_events": 0,
+        "total_bytes_uploaded": 2000,
+        "bytes_uploaded_observed_events": 1,
+        "bytes_uploaded_invalid_events": 0,
+        "total_bytes_downloaded": 1000,
+        "bytes_downloaded_observed_events": 1,
+        "bytes_downloaded_invalid_events": 0
+      }
+    ],
+    "event_map": [
+      {
+        "source_row": 1,
+        "event_id": "example_001",
+        "application_id": "app_09238b67bf3afc3f8963c9fa3f5076a9bc0d464c489a49a1c6b4969bcd917b29"
+      },
+      {
+        "source_row": 2,
+        "event_id": "example_002",
+        "application_id": "app_09238b67bf3afc3f8963c9fa3f5076a9bc0d464c489a49a1c6b4969bcd917b29"
+      },
+      {
+        "source_row": 3,
+        "event_id": "example_003",
+        "application_id": "app_ad0f3311f25c9f5072845265f6911b4cd34decac9a61e6e9d9804b83901e1b09"
+      }
+    ],
+    "rejected_rows": [],
+    "summary": {
+      "input_file": "unseen_activity.csv",
+      "input_sha256": "81a077f889677bab363b2832d954e105f56ebb9eb8eda6f533919fa8acaed53b",
+      "input_rows": 3,
+      "accepted_events": 3,
+      "rejected_events": 0,
+      "unique_applications": 2,
+      "unique_hostnames": 2,
+      "rejection_reasons": {},
+      "invalid_metrics": {
+        "session_duration_seconds": 0,
+        "bytes_uploaded": 0,
+        "bytes_downloaded": 0
+      },
+      "identity_policy": "Case-folded normalized name plus normalized endpoint; product paths/subdomains preserved; aliases not merged.",
+      "metric_policy": "Nonnegative integer metrics only; blanks are missing; invalid values excluded from totals and counted.",
+      "source_row_policy": "1-based data-record index, excluding header; join to original records using this index.",
+      "event_policy": "All accepted records count; no duplicate event-ID removal.",
+      "scope": "Extraction only; no AI labels or categories assigned."
+    }
+  },
+  "catalog_warnings": [
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16744",
+      "reason": "invalid_endpoint: invalid_hostname"
+    },
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16745",
+      "reason": "invalid_endpoint: invalid_hostname"
+    },
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16746",
+      "reason": "invalid_endpoint: invalid_hostname"
+    },
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16747",
+      "reason": "invalid_endpoint: invalid_hostname"
+    },
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16748",
+      "reason": "invalid_endpoint: invalid_hostname"
+    },
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16749",
+      "reason": "invalid_endpoint: invalid_hostname"
+    },
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16750",
+      "reason": "invalid_endpoint: invalid_hostname"
+    },
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16751",
+      "reason": "invalid_endpoint: invalid_hostname"
+    },
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16752",
+      "reason": "invalid_endpoint: invalid_hostname"
+    },
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16753",
+      "reason": "invalid_endpoint: invalid_hostname"
+    },
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16754",
+      "reason": "invalid_endpoint: invalid_hostname"
+    },
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16755",
+      "reason": "invalid_endpoint: invalid_hostname"
+    },
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16756",
+      "reason": "invalid_endpoint: invalid_hostname"
+    },
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16757",
+      "reason": "invalid_endpoint: invalid_hostname"
+    },
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16758",
+      "reason": "invalid_endpoint: invalid_hostname"
+    },
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16759",
+      "reason": "invalid_endpoint: invalid_hostname"
+    },
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16760",
+      "reason": "invalid_endpoint: invalid_hostname"
+    },
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16761",
+      "reason": "invalid_endpoint: invalid_hostname"
+    },
+    {
+      "source": "ai_catalog",
+      "tool_id": "tool_16762",
+      "reason": "invalid_endpoint: invalid_hostname"
+    }
+  ],
+  "repeated_nonempty_event_ids": 0,
+  "inputs": {
+    "activity": {
+      "file": "unseen_activity.csv",
+      "sha256": "81a077f889677bab363b2832d954e105f56ebb9eb8eda6f533919fa8acaed53b"
+    },
+    "ai_catalog": {
+      "file": "kaggle.csv",
+      "sha256": "d0b038ab063916ed466d3aa4ff9afdcc6375899770a0ba26de209feb66a37ae2"
+    },
+    "known_tools": {
+      "file": "dataset_b_final_kaggle_categories.csv",
+      "sha256": "61957c48fbe6143331d13f9b2dc57380708ed0d86a0d0e9d1f8009dd2fb33858"
+    },
+    "policy": {
+      "file": "policy.json",
+      "sha256": "181fb959f3dd38cf5308a52fe7f3dc760c37af6b15ccf2c5889cf3eba2d1231a"
+    },
+    "corrections": {
+      "file": "all_corrected.csv",
+      "sha256": "7ee066d571e439eca15efdbca1a706c347ac185457e43a1939d00a5844c62534"
+    },
+    "category_model_config": {
+      "file": "model_config.json",
+      "sha256": "63231f06516af489105ade64938a75d2ab18829878a8fba3145b0c8e1c558c7e"
+    },
+    "descriptions": {
+      "file": "unseen_descriptions.csv",
+      "sha256": "87460d3c6bbe1e6fc807e51db7b479991b2c54c8691ba08341bd137e57371d8e"
+    },
+    "runtime_settings": {
+      "file": "pipeline.json",
+      "sha256": "9b963a44bc489f737b061028e755a0d0b90db5fe6b493506c3c8cc09b7d71544"
+    }
+  },
+  "limitations": [
+    "Sadit ingestion counts every accepted record, including repeated event IDs; rejected rows are reported separately.",
+    "Application identity includes name and endpoint; it is not simply a hostname count.",
+    "Catalog categories and labels are supplied assignments, not independently verified truth.",
+    "Unknown or ambiguous applications remain visible; models require supplied descriptions.",
+    "Governance uses accepted activity and explicit company synthetic overlays only; no generated catalog controls are imported.",
+    "Low priority with incomplete evidence is not assurance of safety. No web/API calls occur.",
+    "The reconciled binary and 14-category models remain experimental; catalog categories are supplied labels."
+  ],
+  "model_sha256": "44ff5e2923bfcb98426f3658be4352cdc82cca4d45442ce33a2269d87c07d5a6",
+  "diagnostic_note": "Previously known handwritten diagnostic examples, not an independent benchmark. Coding helper is AI but its purpose suggestion is wrong; file storage is incorrectly predicted AI. No tuning used these results.",
+  "expected_diagnostic_labels": {
+    "new-code-helper.example": 1,
+    "new-file-storage.example": 0
+  }
+}

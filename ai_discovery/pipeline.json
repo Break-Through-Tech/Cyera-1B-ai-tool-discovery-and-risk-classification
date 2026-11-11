@@ -1,0 +1,11 @@
+{
+  "version": "backend-2026-11-11",
+  "ai_catalog": "data/raw/kaggle.csv",
+  "known_tools": "data/processed/final/dataset_b_final_kaggle_categories.csv",
+  "corrections": "data/processed/reconciled_labels_2026-11-11/all_corrected.csv",
+  "binary_model": "artifacts/reconciled_binary_2026-11-11",
+  "category_model": "artifacts/categories_kaggle14_2026-11-11",
+  "taxonomy": "original_kaggle_14",
+  "policy": "governance/policy.json",
+  "network_calls_automatic": false
+}

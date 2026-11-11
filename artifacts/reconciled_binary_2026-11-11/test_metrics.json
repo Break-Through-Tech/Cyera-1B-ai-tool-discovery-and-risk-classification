@@ -1,0 +1,112 @@
+{
+  "selected_C": 10.0,
+  "selection_config_sha256": "a37894c0ecdf56f20dda36f3b40d78045d4f59cedfdc100ff10a700a4dd6aa0d",
+  "test_rows": 2502,
+  "test_class_counts": {
+    "0": 74,
+    "1": 2428
+  },
+  "binary": {
+    "accuracy": 0.9944044764188649,
+    "balanced_accuracy": 0.9774644908499933,
+    "macro_f1": 0.9536843107387662,
+    "confusion_matrix": [
+      [
+        71,
+        3
+      ],
+      [
+        11,
+        2417
+      ]
+    ],
+    "confusion_matrix_label_order": [
+      "non_ai",
+      "ai"
+    ],
+    "per_class": {
+      "non_ai": {
+        "precision": 0.8658536585365854,
+        "recall": 0.9594594594594594,
+        "f1-score": 0.9102564102564102,
+        "support": 74.0
+      },
+      "ai": {
+        "precision": 0.9987603305785124,
+        "recall": 0.9954695222405272,
+        "f1-score": 0.9971122112211221,
+        "support": 2428.0
+      },
+      "accuracy": 0.9944044764188649,
+      "macro avg": {
+        "precision": 0.9323069945575488,
+        "recall": 0.9774644908499933,
+        "f1-score": 0.9536843107387662,
+        "support": 2502.0
+      },
+      "weighted avg": {
+        "precision": 0.994829437800294,
+        "recall": 0.9944044764188649,
+        "f1-score": 0.9945433346138525,
+        "support": 2502.0
+      }
+    },
+    "brier_score": 0.0041529912278638345,
+    "log_loss": 0.022630782790618163
+  },
+  "majority_class": {
+    "accuracy": 0.9704236610711431,
+    "balanced_accuracy": 0.5,
+    "macro_f1": 0.4924949290060852,
+    "confusion_matrix": [
+      [
+        0,
+        74
+      ],
+      [
+        0,
+        2428
+      ]
+    ],
+    "confusion_matrix_label_order": [
+      "non_ai",
+      "ai"
+    ],
+    "per_class": {
+      "non_ai": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 74.0
+      },
+      "ai": {
+        "precision": 0.9704236610711431,
+        "recall": 1.0,
+        "f1-score": 0.9849898580121704,
+        "support": 2428.0
+      },
+      "accuracy": 0.9704236610711431,
+      "macro avg": {
+        "precision": 0.48521183053557154,
+        "recall": 0.5,
+        "f1-score": 0.4924949290060852,
+        "support": 2502.0
+      },
+      "weighted avg": {
+        "precision": 0.9417220819667208,
+        "recall": 0.9704236610711431,
+        "f1-score": 0.9558574641301159,
+        "support": 2502.0
+      }
+    }
+  },
+  "test_used_for_selection": false,
+  "independently_verified_accuracy": false,
+  "caveats": [
+    "Labels are mostly inherited source assignments with limited assistant source review.",
+    "Description length/style differs by source; high scores can reflect dataset-origin artifacts.",
+    "Grouped splits reduce exact overlaps; incomplete alias/vendor coverage remains possible.",
+    "Test products may have appeared in earlier experiments and research; not a newly collected independent benchmark.",
+    "Uncalibrated model scores are not governance-risk probabilities."
+  ]
+}
