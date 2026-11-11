@@ -3231,6 +3231,10 @@
     "corrections": {
       "file": "all_corrected.csv",
       "sha256": "7ee066d571e439eca15efdbca1a706c347ac185457e43a1939d00a5844c62534"
+    },
+    "runtime_settings": {
+      "file": "pipeline.json",
+      "sha256": "9b963a44bc489f737b061028e755a0d0b90db5fe6b493506c3c8cc09b7d71544"
     }
   },
   "limitations": [

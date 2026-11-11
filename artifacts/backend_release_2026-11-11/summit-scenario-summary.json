@@ -3421,6 +3421,10 @@
     "scenarios": {
       "file": "synthetic_scenarios.json",
       "sha256": "97b1345e6da90e4728b31cd63abfec845241c1e60048b45ce3c3580d9365cb5e"
+    },
+    "runtime_settings": {
+      "file": "pipeline.json",
+      "sha256": "9b963a44bc489f737b061028e755a0d0b90db5fe6b493506c3c8cc09b7d71544"
     }
   },
   "limitations": [

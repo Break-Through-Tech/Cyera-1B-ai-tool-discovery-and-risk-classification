@@ -473,6 +473,10 @@
     "descriptions": {
       "file": "unseen_descriptions.csv",
       "sha256": "87460d3c6bbe1e6fc807e51db7b479991b2c54c8691ba08341bd137e57371d8e"
+    },
+    "runtime_settings": {
+      "file": "pipeline.json",
+      "sha256": "9b963a44bc489f737b061028e755a0d0b90db5fe6b493506c3c8cc09b7d71544"
     }
   },
   "limitations": [
