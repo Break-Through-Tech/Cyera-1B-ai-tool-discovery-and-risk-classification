@@ -1,0 +1,74 @@
+{
+  "policy": "Classify the named product scope represented by the supplied row: true for a specific AI-focused product/feature; false for a broad conventional application/suite. False does not mean no AI features exist. These are dataset-scope decisions, not current domain-wide AI capability judgments.",
+  "changes": [
+    {
+      "tool_id": "tool_09844",
+      "tool_name": "Freshworks",
+      "old_label": "",
+      "new_label": "false",
+      "reason": "The row represents the broad business-software suite, not the specific Freddy AI product.",
+      "reference_url": "https://www.freshworks.com/assets/resources/AI-in-ITSM.pdf",
+      "decision_type": "supplied_product_scope_policy",
+      "review_date": "2026-11-10"
+    },
+    {
+      "tool_id": "tool_14954",
+      "tool_name": "Semrush outline builder",
+      "old_label": "",
+      "new_label": "true",
+      "reason": "The named Outline Builder is a specific feature that uses AI to generate content outlines. Historical product evidence; not a claim of current availability.",
+      "reference_url": "https://www.semrush.com/news/243009-build-seo-optimized-content-faster-with-the-content-outline-builder-from-semrush/",
+      "decision_type": "supplied_product_scope_policy",
+      "review_date": "2026-11-10"
+    },
+    {
+      "tool_id": "saas_00036",
+      "tool_name": "Notion",
+      "old_label": "",
+      "new_label": "false",
+      "reason": "The supplied row describes the general docs/wiki/project workspace, not Notion AI.",
+      "reference_url": "https://www.notion.com/product/projects",
+      "decision_type": "supplied_product_scope_policy",
+      "review_date": "2026-11-10"
+    },
+    {
+      "tool_id": "saas_00054",
+      "tool_name": "Airtable",
+      "old_label": "",
+      "new_label": "false",
+      "reason": "The supplied row describes the general spreadsheet/database application platform, not Airtable AI or Omni. The current platform offers AI functionality.",
+      "reference_url": "https://www.airtable.com/platform/ai",
+      "decision_type": "supplied_product_scope_policy",
+      "review_date": "2026-11-10"
+    },
+    {
+      "tool_id": "saas_00447",
+      "tool_name": "Podium",
+      "old_label": "",
+      "new_label": "false",
+      "reason": "The supplied row describes general communications, reviews and payments, not Podium AI Employee. Current Podium offers AI functionality. This is not the similarly named podcast product.",
+      "reference_url": "https://www.podium.com/product/payments",
+      "decision_type": "supplied_product_scope_policy",
+      "review_date": "2026-11-10"
+    },
+    {
+      "tool_id": "saas_00433",
+      "tool_name": "Bubble",
+      "old_label": "",
+      "new_label": "false",
+      "reason": "The supplied row describes the general no-code development platform, not the specific AI App Builder. Current Bubble offers AI generation functionality.",
+      "reference_url": "https://manual.bubble.io/help-guides/ai",
+      "decision_type": "supplied_product_scope_policy",
+      "review_date": "2026-11-10"
+    }
+  ],
+  "rows": 697,
+  "counts": {
+    "true": 306,
+    "false": 391
+  },
+  "input_sha256": "638a3bae8a86098df951212d83a90f9305635f78e2be7aab57e696cd9faa6da6",
+  "output_sha256": "555faee01160a802bf138895d7550262325e5063182072974773071e1e5a7f3b",
+  "scope": "Six labels only. Original descriptions/categories and synthetic governance fields preserved. Other labels not re-reviewed.",
+  "regeneration": "Run after reconcile_vendor_enrichment.py; its old review inputs otherwise recreate blank labels."
+}
