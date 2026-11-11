@@ -15,8 +15,12 @@ import sklearn
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, f1_score
 from sklearn.model_selection import GridSearchCV, StratifiedGroupKFold
-from train_category_model import load_training, write_csv, CATEGORIES
-from train_category_embeddings import load_folds
+try:
+    from .train_category_model import load_training, write_csv, CATEGORIES
+    from .train_category_embeddings import load_folds
+except ImportError:
+    from train_category_model import load_training, write_csv, CATEGORIES
+    from train_category_embeddings import load_folds
 
 
 def macro_scorer(estimator, X, y):
@@ -47,9 +51,9 @@ def search(X,y,groups,seed,inner_folds,c_values,jobs):
 def main():
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument('--input',type=Path,required=True)
-    p.add_argument('--baseline-dir',type=Path,default=Path('models/category'))
-    p.add_argument('--embedding-dir',type=Path,default=Path('models/category_embeddings'))
-    p.add_argument('--out-dir',type=Path,default=Path('models/category_embeddings_tuned'))
+    p.add_argument('--baseline-dir',type=Path,default=Path('artifacts/category_tfidf'))
+    p.add_argument('--embedding-dir',type=Path,default=Path('artifacts/category_embeddings'))
+    p.add_argument('--out-dir',type=Path,default=Path('artifacts/category_embeddings_tuned'))
     p.add_argument('--inner-folds',type=int,default=3)
     p.add_argument('--c-values',type=float,nargs='+',default=[0.01,0.1,1.0,10.0,100.0])
     p.add_argument('--seed',type=int,default=42)

@@ -1,0 +1,142 @@
+{
+  "encoder": "sentence-transformers/all-MiniLM-L6-v2",
+  "encoder_frozen": true,
+  "normalization": true,
+  "classifier_C": 1.0,
+  "class_weight": "balanced",
+  "training_rows": 306,
+  "folds": [
+    {
+      "fold": 1,
+      "accuracy": 0.5573770491803278,
+      "macro_f1": 0.4685747933510082
+    },
+    {
+      "fold": 2,
+      "accuracy": 0.4838709677419355,
+      "macro_f1": 0.439468005708415
+    },
+    {
+      "fold": 3,
+      "accuracy": 0.5901639344262295,
+      "macro_f1": 0.5666497367155262
+    },
+    {
+      "fold": 4,
+      "accuracy": 0.6065573770491803,
+      "macro_f1": 0.49067288075908766
+    },
+    {
+      "fold": 5,
+      "accuracy": 0.5409836065573771,
+      "macro_f1": 0.4536315536315536
+    }
+  ],
+  "comparison": [
+    {
+      "model": "tfidf",
+      "accuracy": 0.4084967320261438,
+      "macro_f1": 0.3172857198434929,
+      "weighted_f1": 0.40013977855261423
+    },
+    {
+      "model": "embeddings",
+      "accuracy": 0.5555555555555556,
+      "macro_f1": 0.5039685890149445,
+      "weighted_f1": 0.5457586164543563
+    }
+  ],
+  "classification_report": {
+    "AI Infrastructure / Model Platforms": {
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1-score": 0.5,
+      "support": 16.0
+    },
+    "Coding / Developer Tools": {
+      "precision": 0.5,
+      "recall": 0.7142857142857143,
+      "f1-score": 0.5882352941176471,
+      "support": 14.0
+    },
+    "Content Generation": {
+      "precision": 0.725,
+      "recall": 0.5576923076923077,
+      "f1-score": 0.6304347826086957,
+      "support": 52.0
+    },
+    "Customer Support": {
+      "precision": 0.6470588235294118,
+      "recall": 0.7333333333333333,
+      "f1-score": 0.6875,
+      "support": 15.0
+    },
+    "Data Analytics": {
+      "precision": 0.42857142857142855,
+      "recall": 0.5,
+      "f1-score": 0.46153846153846156,
+      "support": 12.0
+    },
+    "General AI Assistants": {
+      "precision": 0.3333333333333333,
+      "recall": 0.6923076923076923,
+      "f1-score": 0.45,
+      "support": 13.0
+    },
+    "Image / Video Generation": {
+      "precision": 0.7727272727272727,
+      "recall": 0.9622641509433962,
+      "f1-score": 0.8571428571428571,
+      "support": 53.0
+    },
+    "Meeting / Transcription Tools": {
+      "precision": 0.25,
+      "recall": 0.5,
+      "f1-score": 0.3333333333333333,
+      "support": 6.0
+    },
+    "Other": {
+      "precision": 0.5357142857142857,
+      "recall": 0.42857142857142855,
+      "f1-score": 0.47619047619047616,
+      "support": 35.0
+    },
+    "Productivity": {
+      "precision": 0.64,
+      "recall": 0.24615384615384617,
+      "f1-score": 0.35555555555555557,
+      "support": 65.0
+    },
+    "Research / Search": {
+      "precision": 0.25,
+      "recall": 0.4,
+      "f1-score": 0.3076923076923077,
+      "support": 10.0
+    },
+    "Sales / Marketing": {
+      "precision": 0.32,
+      "recall": 0.5333333333333333,
+      "f1-score": 0.4,
+      "support": 15.0
+    },
+    "accuracy": 0.5555555555555556,
+    "macro avg": {
+      "precision": 0.4918670953229776,
+      "recall": 0.5639951505517543,
+      "f1-score": 0.5039685890149445,
+      "support": 306.0
+    },
+    "weighted avg": {
+      "precision": 0.594727510730971,
+      "recall": 0.5555555555555556,
+      "f1-score": 0.5457586164543563,
+      "support": 306.0
+    }
+  },
+  "input_sha256": "555faee01160a802bf138895d7550262325e5063182072974773071e1e5a7f3b",
+  "versions": {
+    "sklearn": "1.9.1",
+    "sentence_transformers": "6.2.0"
+  },
+  "note": "Same held-out folds as baseline. CV is for model comparison, not an untouched final test. Probabilities are uncalibrated."
+}

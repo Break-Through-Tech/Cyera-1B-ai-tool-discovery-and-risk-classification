@@ -1,0 +1,18 @@
+                                     precision    recall  f1-score   support
+
+AI Infrastructure / Model Platforms       0.36      0.31      0.33        16
+           Coding / Developer Tools       0.28      0.36      0.31        14
+                 Content Generation       0.45      0.56      0.50        52
+                   Customer Support       0.47      0.53      0.50        15
+                     Data Analytics       0.08      0.08      0.08        12
+              General AI Assistants       0.27      0.23      0.25        13
+           Image / Video Generation       0.56      0.68      0.62        53
+      Meeting / Transcription Tools       0.00      0.00      0.00         6
+                              Other       0.35      0.40      0.37        35
+                       Productivity       0.55      0.28      0.37        65
+                  Research / Search       0.30      0.30      0.30        10
+                  Sales / Marketing       0.16      0.20      0.18        15
+
+                           accuracy                           0.41       306
+                          macro avg       0.32      0.33      0.32       306
+                       weighted avg       0.42      0.41      0.40       306
