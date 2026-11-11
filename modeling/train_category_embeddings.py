@@ -12,7 +12,10 @@ import numpy as np
 import sklearn
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, f1_score
-from train_category_model import load_training, write_csv, CATEGORIES
+try:
+    from .train_category_model import load_training, write_csv, CATEGORIES
+except ImportError:
+    from train_category_model import load_training, write_csv, CATEGORIES
 
 
 def load_folds(path, rows, groups):
