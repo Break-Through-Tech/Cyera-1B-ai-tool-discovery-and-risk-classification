@@ -28,9 +28,10 @@ class DiscoveryTests(unittest.TestCase):
         doc = apps['documind-ai.com']
         self.assertEqual(doc['risk_score'],30)
         self.assertIsNone(doc['detection']['is_ai_tool'])
-        self.assertIn('documind-ai.com',result['review_queue'])
+        self.assertIn(doc['application_id'],result['review_queue'])
         self.assertEqual(sum(result['detection_counts'].values()),22)
-        self.assertNotIn('employee_id',str(result))
+        self.assertNotIn('S0001',str(result))
+        self.assertEqual(len(result['ingestion']['event_map']),25120)
 
     def test_company_overlay_is_explicit_and_scoped(self):
         result = run('Summit Financial',ROOT/'data/raw/summit_financial_usage (1).csv',

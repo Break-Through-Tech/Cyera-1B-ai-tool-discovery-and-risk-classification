@@ -206,3 +206,7 @@ Thank your Challenge Advisor, host company representatives, TA, and others who s
 ## Integrated enterprise discovery reports
 
 The [discovery reporting backend](docs/discovery_reports.md) now combines corrected catalog detection, optional description-model predictions, company activity and explained governance priority in one JSON report. Unknown and ambiguous applications remain visible in the review queue. Included NovaTech and Summit reports use synthetic activity; fictional policy overlays are explicitly marked. This is not yet a dashboard or RAG assistant.
+
+## Shared discovery pipeline
+
+Active reporting now uses `ai_discovery.ingest` and `ai_discovery.catalog` for application identities, retained/rejected records and catalog matching. Run `python -m ai_discovery.report` to attach explained governance scores and optional frozen binary predictions. See [the integration guide](docs/discovery_reports.md). Existing reports under `artifacts/discovery/` are historical; updated sample summaries are in `artifacts/discovery_shared/`.
