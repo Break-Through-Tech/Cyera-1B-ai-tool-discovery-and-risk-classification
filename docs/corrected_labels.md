@@ -59,3 +59,7 @@ Vendor research now defaults to `data/processed/vendor_research/dataset_b_vendor
 
 
 **Training update:** [Grouped full-data preparation and binary retraining](corrected_full_binary.md) now use this export. Earlier mentions of pending splitting/training describe the enrichment stage; the original corrected export itself remains unsplit. Jev comparison remains pending.
+
+## November 11 reconciliation
+
+The six later documented subset resolutions are now propagated into a separate full release, `data/processed/reconciled_labels_2026-11-11/`: 16,741 AI, 521 conventional and 30 unresolved. This historical November 5 export is unchanged. New grouped splits, binary training and aligned 14-category modeling are described in [the backend release guide](backend_release.md).

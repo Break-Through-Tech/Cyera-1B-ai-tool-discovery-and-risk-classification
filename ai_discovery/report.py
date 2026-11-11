@@ -13,6 +13,8 @@ from governance import risk
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG = ROOT/'data/raw/kaggle.csv'
 KNOWN = ROOT/'data/processed/final/dataset_b_final_kaggle_categories.csv'
+SETTINGS = json.loads((Path(__file__).with_name('pipeline.json')).read_text())
+CORRECTIONS = ROOT/SETTINGS['corrections']
 
 
 def usage_summary(app, events):
@@ -40,9 +42,9 @@ def usage_summary(app, events):
         mean_bytes_downloaded=sum(downloads)/len(downloads) if downloads else None)
 
 
-def run(company,activity,catalog=CATALOG,descriptions=None,model=None,scenarios=None,known_tools=KNOWN,catalog_context=None):
+def run(company,activity,catalog=CATALOG,descriptions=None,model=None,scenarios=None,known_tools=KNOWN,catalog_context=None,corrections=CORRECTIONS,category_model=None):
     if not company.strip():raise ValueError('Company is required')
-    discovery=discover_known(activity,catalog,known_tools,catalog_context)
+    discovery=discover_known(activity,catalog,known_tools,catalog_context,corrections)
     ingestion=discovery['ingestion']
     # source_row is a data-record index, not an event ID: repeats remain separate.
     rows=risk.read_csv(activity);events=defaultdict(list)
@@ -63,6 +65,7 @@ def run(company,activity,catalog=CATALOG,descriptions=None,model=None,scenarios=
             if set(values)-set(risk.FIELDS):raise ValueError('Scenario may override governance fields only')
     policy=json.loads(risk.POLICY.read_text());risk.validate_policy(policy)
     matches={m['application_id']:m for m in discovery['matches']}
+    category_predictor=None
     results=[]
     for app in ingestion['applications']:
         match=matches[app['application_id']]
@@ -83,6 +86,15 @@ def run(company,activity,catalog=CATALOG,descriptions=None,model=None,scenarios=
         result.update(company=company,detection=detection,
             category=match['category'],category_source='catalog_assignment' if match['category'] else 'unresolved',
             observed_identity=app,needs_review=True)
+        result['purpose_prediction']=None
+        if detection['is_ai_tool']==1 and not match['category'] and text and category_model:
+            if category_predictor is None:
+                from modeling.predict_categories import CategoryPredictor
+                category_predictor=CategoryPredictor(category_model)
+            purpose=category_predictor.predict(text)
+            result['purpose_prediction']=purpose
+            result['category']=purpose['category']
+            result['category_source']='experimental_model' if purpose['category'] else 'unresolved'
         gaps=[]
         if app['events_missing_employee_id']:gaps.append('employee_id')
         if app['events_missing_department']:gaps.append('department')
@@ -93,6 +105,8 @@ def run(company,activity,catalog=CATALOG,descriptions=None,model=None,scenarios=
     results.sort(key=lambda r:(-r['risk_score'],r['application_id']))
     labels=Counter('ai' if a['detection']['is_ai_tool']==1 else 'conventional' if a['detection']['is_ai_tool']==0 else 'unknown' for a in results)
     paths={'activity':activity,'ai_catalog':catalog,'known_tools':known_tools,'policy':risk.POLICY}
+    if corrections:paths['corrections']=corrections
+    if category_model:paths['category_model_config']=Path(category_model)/'model_config.json'
     if descriptions:paths['descriptions']=descriptions
     if scenarios:paths['scenarios']=scenarios
     if catalog_context:paths['catalog_context']=catalog_context
@@ -109,7 +123,7 @@ def run(company,activity,catalog=CATALOG,descriptions=None,model=None,scenarios=
             'Unknown or ambiguous applications remain visible; models require supplied descriptions.',
             'Governance uses accepted activity and explicit company synthetic overlays only; no generated catalog controls are imported.',
             'Low priority with incomplete evidence is not assurance of safety. No web/API calls occur.',
-            'The saved binary model is unchanged; the older 12-category models are not used with the new 14-category catalog.'])
+            'The reconciled binary and 14-category models remain experimental; catalog categories are supplied labels.'])
     if model:
         from modeling.train_corrected_binary import verified
         report['model_sha256']=verified(model)['model_sha256']
@@ -121,11 +135,13 @@ def main():
     p.add_argument('--company',required=True);p.add_argument('--activity',type=Path,required=True)
     p.add_argument('--catalog',type=Path,default=CATALOG);p.add_argument('--known-tools',type=Path,default=KNOWN)
     p.add_argument('--catalog-context',type=Path);p.add_argument('--descriptions',type=Path)
-    p.add_argument('--model',type=Path);p.add_argument('--scenarios',type=Path)
+    p.add_argument('--model',type=Path,default=ROOT/SETTINGS['binary_model']);p.add_argument('--scenarios',type=Path)
+    p.add_argument('--corrections',type=Path,default=CORRECTIONS)
+    p.add_argument('--category-model',type=Path,default=ROOT/SETTINGS['category_model'])
     p.add_argument('--out',type=Path,required=True)
     a=p.parse_args()
     if a.out.exists():p.error('Output exists; choose a new file')
-    result=run(a.company,a.activity,a.catalog,a.descriptions,a.model,a.scenarios,a.known_tools,a.catalog_context)
+    result=run(a.company,a.activity,a.catalog,a.descriptions,a.model,a.scenarios,a.known_tools,a.catalog_context,a.corrections,a.category_model)
     a.out.parent.mkdir(parents=True,exist_ok=True);a.out.write_text(json.dumps(result,indent=2,allow_nan=False)+'\n')
     print(json.dumps({'applications':result['application_count'],'detection_counts':result['detection_counts'],
                       'ingestion':result['ingestion']['summary']},indent=2))

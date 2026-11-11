@@ -1,4 +1,6 @@
-# Binary classifier trained on the corrected full dataset
+# Historical binary classifier trained on the corrected full dataset
+
+**Historical release:** the active reconciled model and new results are in [backend_release.md](backend_release.md). This experiment remains unchanged for reproduction.
 
 This experiment prepares new grouped splits and trains TF-IDF + Logistic Regression from scratch on the full corrected team-data export. It preserves source labels, corrections, vendor research, earlier datasets and saved model experiments. It does not train a new category model, call Jev, or change governance scoring.
 

@@ -1,5 +1,8 @@
 """Train a local description -> AI-tool-category classifier (no API calls).
 
+Legacy 12-category reproduction. Use python -m modeling.train_categories for the
+active original-Kaggle 14-category comparison.
+
 Install: python -m pip install scikit-learn numpy joblib
 Train: python train_category_model.py train --input dataset_b_final_fixed.csv --out-dir artifacts/category_tfidf
 Predict: python train_category_model.py predict --model artifacts/category_tfidf/category_model.joblib --text "AI assistant that completes and debugs code"
@@ -55,7 +58,8 @@ def write_csv(path, rows, fields):
         w.writerows(rows)
 
 
-def load_training(path):
+def load_training(path,categories=None):
+    categories = list(categories) if categories is not None else CATEGORIES
     with path.open(encoding='utf-8-sig', newline='') as f:
         reader = csv.DictReader(f)
         required = {'tool_id','tool_name','domain','description','is_ai_tool','category'}
@@ -77,7 +81,7 @@ def load_training(path):
             reason = 'unresolved_or_invalid_ai_label'
         elif not r['description'].strip():
             reason = 'missing_description'
-        elif r['category'].strip() not in CATEGORIES:
+        elif r['category'].strip() not in categories:
             reason = 'missing_or_unknown_category'
         else:
             reason = ''
@@ -87,8 +91,8 @@ def load_training(path):
             r['description'] = ' '.join(r['description'].split())
             r['category'] = r['category'].strip()
             selected.append(r)
-    if set(r['category'] for r in selected) != set(CATEGORIES):
-        raise ValueError('Need eligible examples for all 12 categories; inspect missing labels/descriptions.')
+    if set(r['category'] for r in selected) != set(categories):
+        raise ValueError(f'Need eligible examples for all {len(categories)} categories; inspect missing labels/descriptions.')
     # Union related rows, including transitive connections. No group crosses folds.
     parent = list(range(len(selected)))
     def find(i):

@@ -6,9 +6,9 @@ A prototype for discovering AI applications in fictional enterprise activity, cl
 
 | Folder | Job | Key files |
 |---|---|---|
-| `ai_discovery/` | Extract applications, match catalogs, optionally collect cited research | `ingest.py`, `catalog.py`, `enrich.py` |
+| `ai_discovery/` | Ingest, match, optionally research, and produce combined findings | `report.py`, `pipeline.json`, `ingest.py`, `catalog.py`, `enrich.py` |
 | `governance/` | Explainable risk calculations and fictional policy scenarios | `risk.py`, `policy.json`, `synthetic_scenarios.json` |
-| `modeling/` | All model training, comparison and prediction code | `train_category_model.py`, `train_category_embeddings.py`, `tune_category_embeddings.py`; earlier baseline/embedding code |
+| `modeling/` | All model training, comparison and prediction code | `train_categories.py`, `predict_categories.py`, `train_corrected_binary.py`; earlier reproduction scripts |
 | `preprocessing_scripts/` | Cleaning, labeling, category mapping and data enrichment | `apply_conflict_review.py`, `fix_final_ai_labels.py`, `map_kaggle_categories.py` |
 | `data/` | Source datasets, prepared tables and evidence | `raw/`, `processed/`, `reviews/`, `cache/` |
 | `artifacts/` | All saved models and experiment outputs | See below |
@@ -16,32 +16,36 @@ A prototype for discovering AI applications in fictional enterprise activity, cl
 | `docs/` | Explanations, limitations and history | [Repository map](docs/repository_map.md) |
 | `notebooks/` | Exploratory analysis and earlier experiments | `eda.ipynb` |
 
-## Current discovery workflow
+## Current integrated workflow
 
 ```mermaid
 flowchart LR
-    A[Activity CSV] --> B[ai_discovery/ingest.py]
-    B --> C[ai_discovery/catalog.py]
-    D[AI catalog and finalized known tools] --> C
-    C --> E[Known AI / conventional / ambiguous / unknown]
-    E --> F[Optional ai_discovery/enrich.py research]
-    G[Activity plus supplied policy evidence] --> H[governance/risk.py]
-    H --> I[Explained risk report]
+    A[Activity CSV] --> B[Ingest and catalog matching]
+    C[Reconciled full labels] --> B
+    D[Supplied product descriptions] --> E[Binary prediction for unmatched identities]
+    B --> E
+    E --> F[14-category purpose suggestions]
+    B --> G[Explainable risk assessment]
+    F --> H[Combined JSON findings]
+    G --> H
 ```
 
-Ingestion preserves accepted/rejected record details and source-row mappings. Catalog matching preserves product paths and uncertainty. Enrichment collects cited reports for review; it does not automatically establish identities or classify unknowns. Governance is currently a separate command on `main`.
+`ai_discovery/report.py` coordinates Sadit's ingestion/catalog matching, optional description-based predictions and the governance engine. `ai_discovery/pipeline.json` names the active data/model versions. Unknown and ambiguous applications remain visible; a model does not automatically override ambiguous identities. Enrichment is a separate optional research command. No web/API calls occur automatically.
 
 ```bash
-# Standard-library-only catalog matching; run from the repository root.
-python -m ai_discovery.catalog \
-  --activity data/raw/novatech_usage.csv \
-  --ai-catalog data/raw/kaggle.csv \
-  --known-tools data/processed/final/dataset_b_final_kaggle_categories.csv
-
-python -m governance.risk --company 'Summit Financial' \
+python -m pip install -r modeling/requirements-pipeline.txt
+python -m ai_discovery.report --company 'Summit Financial' \
   --activity 'data/raw/summit_financial_usage (1).csv' \
-  --out /tmp/summit-risk.json
+  --out /tmp/summit-current.json
+
+# Also exercise unfamiliar applications with supplied descriptions:
+python -m ai_discovery.report --company 'Example Enterprise' \
+  --activity data/examples/unseen_activity.csv \
+  --descriptions data/examples/unseen_descriptions.csv \
+  --out /tmp/example-current.json
 ```
+
+Read [the release guide](docs/backend_release.md) for results, limitations, preparation/reproduction commands and known diagnostic failures. The dashboard remains paused.
 
 ## Saved models
 
@@ -49,6 +53,9 @@ All checked-in saved models now live under `artifacts/`; the old `models/` direc
 
 | Directory | Contents |
 |---|---|
+| `artifacts/reconciled_binary_2026-11-11/` | Active description-only binary model, config and test results |
+| `artifacts/categories_kaggle14_2026-11-11/` | Active 14-category comparison, three classifiers and selected runtime config |
+| `artifacts/backend_release_2026-11-11/` | Current company report summaries and known diagnostic failures |
 | `artifacts/category_tfidf/` | Sadit's TF-IDF + Logistic Regression category experiment |
 | `artifacts/category_embeddings/` | Sadit's default MiniLM embedding/category experiment |
 | `artifacts/category_embeddings_tuned/` | Sadit's tuned embedding/category experiment |
@@ -56,9 +63,9 @@ All checked-in saved models now live under `artifacts/`; the old `models/` direc
 | `artifacts/embeddings/` | Earlier binary/category embeddings and similarity experiment |
 | `artifacts/governance/` | Standalone example risk reports |
 
-Category comparisons used 306 eligible AI records and 12 purpose categories. The later lookup data uses 14 original Kaggle categories. These are different label schemes: saved category models need alignment/retraining before being used with that lookup taxonomy. Cross-validation results are not an independent final benchmark.
+The new comparison uses 306 eligible AI records and the same 14 original Kaggle categories as lookup. Tuned embeddings achieved 45.75% cross-validation accuracy (macro F1 0.3939). The new binary test score is 99.44% (macro F1 0.9537), against mostly source-assigned labels. These do not establish real-world reliability: the saved diagnostic examples include a false AI prediction for plain file storage and an incorrect coding-helper purpose suggestion. Earlier 12-category and binary experiments remain historical; their scores are not directly comparable. All model predictions request review.
 
-Moved scripts support module execution:
+Active category training uses `python -m modeling.train_categories`. Earlier category scripts remain available for 12-category reproduction:
 
 ```bash
 python -m modeling.train_category_model --help
@@ -74,15 +81,15 @@ python -m modeling.tune_category_embeddings --help
 - `data/processed/final/dataset_b_final_kaggle_categories.csv`: the same subset mapped to 14 original Kaggle categories.
 - `data/processed/kaggle_dataset_b/`: prepared catalog/context and a separate synthetic-governance-filled version. Generated security settings are fictional, not verified vendor policies or company approvals.
 
-The later six subset resolutions have not been propagated into the full corrected export. Source-assigned labels and original Kaggle categories are not independently verified truth. Unknown does not mean conventional or safe.
+The later six resolutions are propagated only in the new reconciled release; historical exports remain unchanged. Source-assigned labels and original Kaggle categories are not independently verified truth. Unknown does not mean conventional or safe.
 
-## Work not merged by this cleanup
+## Current releases and unfinished work
 
-- [PR #19](https://github.com/Break-Through-Tech/Cyera-1B-ai-tool-discovery-and-risk-classification/pull/19): new grouped full-data binary experiment.
-- `shared-discovery-backend`: combined reporting using the shared ingestion/catalog pipeline, optional frozen binary predictions and risk assessment.
-- Dashboard/upload draft: paused, stored outside the repository, not published.
-
-This cleanup moves files and updates paths/documentation only. It does not merge those features, retrain models, change dataset labels or alter risk rules. Jev comparison and the RAG assistant remain unfinished.
+- New full export: `data/processed/reconciled_labels_2026-11-11/`, with 16,741 AI, 521 conventional and 30 unresolved. This propagates the six documented subset resolutions while preserving older source releases.
+- New grouped binary splits: `data/processed/classification_reconciled_2026-11-11/`, 16,680 retained applications; 612 set aside with reasons.
+- `artifacts/corrected_full_binary/` and `classification_corrected_full/` preserve the earlier PR #19 experiment. It is not the active model.
+- Current examples: `artifacts/backend_release_2026-11-11/`. Older shared/combined reports remain historical.
+- Dashboard/upload draft: paused outside the repository. Retrieval/RAG and Jev comparison remain unfinished. Independent representative validation and stronger purpose labels are still needed.
 
 ## Setup, tests and documentation
 
@@ -92,6 +99,7 @@ The root `requirements.txt` records the broader team environment. Earlier binary
 python -m unittest discover -s tests
 ```
 
+- [Current backend release, results and limitations](docs/backend_release.md)
 - [Repository map and cleanup details](docs/repository_map.md)
 - [Corrected labels and vendor provenance](docs/corrected_labels.md)
 - [Governance engine](docs/governance_risk.md)

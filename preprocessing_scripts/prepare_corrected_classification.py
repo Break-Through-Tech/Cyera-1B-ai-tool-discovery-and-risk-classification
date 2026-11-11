@@ -47,7 +47,7 @@ def prepare(raw,seed=SEED):
         for k in [('name',norm(r['tool_name'])),('description',norm(r['description']))]:sets[k].add(r['is_ai_tool'])
     conflict_keys={k for k,v in sets.items() if len(v)>1}
     unique={}
-    for r in sorted(candidates,key=lambda r:(r['label_method']!='assistant_official_source_review',-len(r['description']),r['record_id'])):
+    for r in sorted(candidates,key=lambda r:(r['label_method'] not in ('assistant_official_source_review','official_source_scope_resolution'),-len(r['description']),r['record_id'])):
         if ('name',norm(r['tool_name'])) in conflict_keys or ('description',norm(r['description'])) in conflict_keys:
             omit(r,'remaining_cross_label_name_or_description');continue
         key=(norm(r['tool_name']),r['domain'])
@@ -99,13 +99,13 @@ def validate(splits):
     ids=[r['record_id'] for rows in splits.values() for r in rows]
     if len(ids)!=len(set(ids)):raise ValueError('Duplicate IDs')
 
-def build():
-    data=SOURCE.read_bytes();raw=list(csv.DictReader(io.StringIO(data.decode('utf-8-sig'))))
-    splits,excluded=prepare(raw)
+def build(source=SOURCE,version="corrected-full-2026-11-09",seed=SEED):
+    data=Path(source).read_bytes();raw=list(csv.DictReader(io.StringIO(data.decode('utf-8-sig'))))
+    splits,excluded=prepare(raw,seed=seed)
     files={s+'.csv':csv_bytes(rows,FIELDS) for s,rows in splits.items()}
     files['excluded_records.csv']=csv_bytes(excluded,['record_id','reason'])
     if sum(map(len,splits.values()))+len(excluded)!=len(raw):raise ValueError('Input accounting failed')
-    manifest=dict(version='corrected-full-2026-11-09',seed=SEED,input_sha256=sha(data),input_rows=len(raw),
+    manifest=dict(version=version,seed=seed,input_sha256=sha(data),input_rows=len(raw),
         split_counts={s:dict(rows=len(rows),classes=dict(Counter(r['is_ai_tool'] for r in rows)),groups=len({r['group_id'] for r in rows})) for s,rows in splits.items()},
         excluded_rows=len(excluded),exclusions=dict(Counter(r['reason'] for r in excluded)),
         outputs_sha256={name:sha(b) for name,b in files.items()},
@@ -116,14 +116,14 @@ def build():
     return files,manifest
 
 def main():
-    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--freeze',action='store_true');a=p.parse_args()
-    files,m=build();existing=OUT/'manifest.json'
+    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--freeze',action='store_true');p.add_argument('--source',type=Path,default=SOURCE);p.add_argument('--out',type=Path,default=OUT);p.add_argument('--version',default='corrected-full-2026-11-09');p.add_argument('--seed',type=int,default=SEED);a=p.parse_args()
+    files,m=build(a.source,a.version,a.seed);out=a.out;existing=out/'manifest.json'
     if existing.exists() and existing.read_bytes()!=files['manifest.json']:raise SystemExit('Frozen dataset changed; create a new version')
     if a.freeze:
-        OUT.mkdir(parents=True,exist_ok=True)
-        for name,b in files.items():(OUT/name).write_bytes(b)
+        out.mkdir(parents=True,exist_ok=True)
+        for name,b in files.items():(out/name).write_bytes(b)
     else:
         for name,b in files.items():
-            if not (OUT/name).exists() or (OUT/name).read_bytes()!=b:raise SystemExit('Does not reproduce: '+name)
+            if not (out/name).exists() or (out/name).read_bytes()!=b:raise SystemExit('Does not reproduce: '+name)
     print(json.dumps(m,indent=2))
 if __name__=='__main__':main()
