@@ -115,7 +115,9 @@ The separate `data/cache/category_embeddings` directory contains `encoder/`,
 `encoder_source.json`, and fingerprinted `.npy` embedding matrices plus `.json`
 metadata. Encoder files and matrices are hashed before reuse. Do not run concurrent
 writers against one cache. Choose a new `--embedding-cache` for a different encoder
-or to recover from an interrupted encoder download.
+or to recover from an interrupted encoder download. Trained `.joblib` outputs,
+encoder weights, and this cache are gitignored — train locally; GitHub keeps the
+code and prepared inputs, not the model binaries.
 
 Long inputs are token-chunked at the encoder's context length, embedded, averaged
 and normalized, rather than silently dropping the end of a functionality report.

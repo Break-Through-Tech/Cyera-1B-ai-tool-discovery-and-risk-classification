@@ -1,7 +1,0 @@
-{
-  "source": {
-    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
-    "requested_revision": null
-  },
-  "snapshot_sha256": "260465b2add077adb2ad012643a910227346d194a2c8bb2724aabe0ce3049233"
-}
