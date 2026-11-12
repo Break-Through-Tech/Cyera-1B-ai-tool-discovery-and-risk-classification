@@ -7,6 +7,16 @@
 .venv/
 .venv-*/
 
-# Local downloaded encoder and derived full-catalog vectors
+# Trained model weights / bundles — train locally, do not push
+*.joblib
+*.safetensors
+*.npy
+
+# Downloaded encoders, trained run outputs, and embedding caches
 /artifacts/embedding_cache/
+/artifacts/**/encoder/
+/data/cache/category_embeddings/
+/models/categories/
+/models/ai_detection/embeddings/
+
 **/__pycache__/

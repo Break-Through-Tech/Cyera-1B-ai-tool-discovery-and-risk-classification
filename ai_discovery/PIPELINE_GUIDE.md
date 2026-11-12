@@ -612,6 +612,9 @@ The separate `data/cache/category_embeddings/` contains the local encoder,
 `encoder_source.json`, and fingerprinted `.npy` matrices/JSON metadata. These are
 feature caches, not category-decision caches. Keep the encoder with an embedding
 model; its `.joblib` alone is insufficient. Do not run concurrent cache writers.
+Trained model bundles (`.joblib`), encoder weights (`.safetensors`), embedding
+matrices (`.npy`), and category run output dirs are gitignored so teammates train
+on their own machines; the repo keeps training code and prepared data.
 
 An identical completed training command verifies its artifacts and exits without
 retraining. Changed or incomplete runs require a new output directory. Normal
