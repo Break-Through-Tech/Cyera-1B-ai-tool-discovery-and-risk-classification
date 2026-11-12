@@ -1,0 +1,25 @@
+{
+  "winner": "tfidf",
+  "criterion": "development pooled out-of-fold macro-F1",
+  "selected_configs": {
+    "tfidf": {
+      "model": "tfidf",
+      "C": 2.0,
+      "class_weight": "balanced",
+      "cv_macro_f1": 0.7130470239599446,
+      "cv_group_weighted_macro_f1": 0.709975112210444,
+      "cv_accuracy": 0.7474446019547862,
+      "seconds": 20.89
+    },
+    "embeddings": {
+      "model": "embeddings",
+      "C": 2.0,
+      "class_weight": "none",
+      "cv_macro_f1": 0.5644262881765364,
+      "cv_group_weighted_macro_f1": 0.55955447017741,
+      "cv_accuracy": 0.6450048496605237,
+      "seconds": 2.88
+    }
+  },
+  "test_used_for_selection": false
+}

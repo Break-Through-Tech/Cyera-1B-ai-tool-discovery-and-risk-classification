@@ -1,0 +1,1108 @@
+[
+  {
+    "application_name": "cursor",
+    "endpoint": "cursor.com",
+    "report_index": 0,
+    "is_ai_tool": true,
+    "ai_classification_status": "classified",
+    "preparation_status": "ready_for_category_model",
+    "category": null,
+    "category_source": null,
+    "candidate_model_text": "Cursor is an integrated development environment (IDE) and software development platform designed to assist engineers with building, navigating, and debugging codebases. Available as a native desktop application across macOS, Windows, and Linux, it provides code editing, file navigation, and terminal execution. The platform also offers command-line tools (CLI), cloud agent environments, and integrations with source control systems such as GitHub, GitLab, Bitbucket, and Azure DevOps.\nAI is central to Cursor's product architecture rather than an optional add-on. Documented AI capabilities include: - Agent and Composer: Autonomous workflows capable of searching repositories, planning changes, editing across multiple files, and executing shell commands from natural-language instructions. - Codebase Understanding & Chat: Semantic code indexing to answer questions, explain architectures, and assist with debugging. - Code Review & Automated Workflows: Features such as Bugbot for automated pull-request reviews, automated tracking of AI-generated commits, and cloud-hosted agent tasks. - Model Orchestration: Support for routing queries across frontier large language models (including Claude, Gemini, and Grok).",
+    "model_input": "Cursor is an integrated development environment (IDE) and software development platform designed to assist engineers with building, navigating, and debugging codebases. Available as a native desktop application across macOS, Windows, and Linux, it provides code editing, file navigation, and terminal execution. The platform also offers command-line tools (CLI), cloud agent environments, and integrations with source control systems such as GitHub, GitLab, Bitbucket, and Azure DevOps.\nAI is central to Cursor's product architecture rather than an optional add-on. Documented AI capabilities include: - Agent and Composer: Autonomous workflows capable of searching repositories, planning changes, editing across multiple files, and executing shell commands from natural-language instructions. - Codebase Understanding & Chat: Semantic code indexing to answer questions, explain architectures, and assist with debugging. - Code Review & Automated Workflows: Features such as Bugbot for automated pull-request reviews, automated tracking of AI-generated commits, and cloud-hosted agent tasks. - Model Orchestration: Support for routing queries across frontier large language models (including Claude, Gemini, and Grok).",
+    "description_only_text": "Cursor is an integrated development environment (IDE) and software development platform designed to assist engineers with building, navigating, and debugging codebases. Available as a native desktop application across macOS, Windows, and Linux, it provides code editing, file navigation, and terminal execution. The platform also offers command-line tools (CLI), cloud agent environments, and integrations with source control systems such as GitHub, GitLab, Bitbucket, and Azure DevOps.",
+    "extraction_status": "extracted",
+    "sections": {
+      "description": [
+        {
+          "text": "Cursor is an integrated development environment (IDE) and software development platform designed to assist engineers with building, navigating, and debugging codebases. Available as a native desktop application across macOS, Windows, and Linux, it provides code editing, file navigation, and terminal execution. The platform also offers command-line tools (CLI), cloud agent environments, and integrations with source control systems such as GitHub, GitLab, Bitbucket, and Azure DevOps.",
+          "block_index": 0,
+          "start": 293,
+          "end": 782,
+          "citations": [
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4FeWrWs0AIiXZin1HR4AVg4vWz3nKamblKhSJEZQyR55TV-FtHb1r9z9O0t2_f2yXI5X0luiCygS-S-ZQGxTzyC_wtfCZTl-KDKnY3w==",
+              "title": "cursor.com",
+              "start_index": 294,
+              "end_index": 461
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1daHrntUSOIuqqSg8Pmz_G5QuouRPF6Ew_d5l7pxeBttweO4o6zoHfC0clOZ3zbNkzDwwWImMf6fOJ_f9xP8wasNhrS9dPSlurEIUGxWE_dKdnE4bgf88jg97bAQs1iQac_sA",
+              "title": "wikipedia.org",
+              "start_index": 294,
+              "end_index": 461
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3SDtWrsAAOs4y4myB5MAhcBQI166x5MgiMxhIs4qprikfbsljfdW7X1T5c4amWvhkZLLBqwi_vKdb8nJTtjmbThvJ4CVU2cFSaA2-Zl4a4F3-LGcm7Cj0Mk13x02gg5LQbChJHw==",
+              "title": "cursor.com",
+              "start_index": 463,
+              "end_index": 604
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1daHrntUSOIuqqSg8Pmz_G5QuouRPF6Ew_d5l7pxeBttweO4o6zoHfC0clOZ3zbNkzDwwWImMf6fOJ_f9xP8wasNhrS9dPSlurEIUGxWE_dKdnE4bgf88jg97bAQs1iQac_sA",
+              "title": "wikipedia.org",
+              "start_index": 463,
+              "end_index": 604
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1ylFirHPq_i6sDGg1yrKWjysgbG057jOZcV_h3ceX2Ef7W2EGHuLTx0Q4fjHaMBGwvOMzy-vocWuYob8H4hINWZpU9Zsv4ZM9jTgxlVaWL4mR990Mt9HKHL6dwpkvPgfh9dvS",
+              "title": "cursor.com",
+              "start_index": 463,
+              "end_index": 604
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4FeWrWs0AIiXZin1HR4AVg4vWz3nKamblKhSJEZQyR55TV-FtHb1r9z9O0t2_f2yXI5X0luiCygS-S-ZQGxTzyC_wtfCZTl-KDKnY3w==",
+              "title": "cursor.com",
+              "start_index": 606,
+              "end_index": 779
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGESaOdQRhI2DoFond84VJWP80WzECBb59iKz-goQ2t-d-SRi2mGRCySIVcM8MkFLmifLGGj-B--eSxZFqHgJV3ARQOQqcvHmK_L4qC2OJL_V0=",
+              "title": "cursor.com",
+              "start_index": 606,
+              "end_index": 779
+            }
+          ]
+        }
+      ],
+      "functionality": [
+        {
+          "text": "AI is central to Cursor's product architecture rather than an optional add-on. Documented AI capabilities include: - Agent and Composer: Autonomous workflows capable of searching repositories, planning changes, editing across multiple files, and executing shell commands from natural-language instructions. - Codebase Understanding & Chat: Semantic code indexing to answer questions, explain architectures, and assist with debugging. - Code Review & Automated Workflows: Features such as Bugbot for automated pull-request reviews, automated tracking of AI-generated commits, and cloud-hosted agent tasks. - Model Orchestration: Support for routing queries across frontier large language models (including Claude, Gemini, and Grok).",
+          "block_index": 0,
+          "start": 805,
+          "end": 1555,
+          "citations": [
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMPsO0HdJTnSguXFyIAWG_Ekl14Cg85VXYjie0gHq5bfafuUugKi-nvTEQCUMR0HReSKozcB9pEF1J4Ens4J4T56Tb7NsiojMiXQWWJftoVQg=",
+              "title": "cursor.com",
+              "start_index": 806,
+              "end_index": 883
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4FeWrWs0AIiXZin1HR4AVg4vWz3nKamblKhSJEZQyR55TV-FtHb1r9z9O0t2_f2yXI5X0luiCygS-S-ZQGxTzyC_wtfCZTl-KDKnY3w==",
+              "title": "cursor.com",
+              "start_index": 806,
+              "end_index": 883
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4FeWrWs0AIiXZin1HR4AVg4vWz3nKamblKhSJEZQyR55TV-FtHb1r9z9O0t2_f2yXI5X0luiCygS-S-ZQGxTzyC_wtfCZTl-KDKnY3w==",
+              "title": "cursor.com",
+              "start_index": 923,
+              "end_index": 1115
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1daHrntUSOIuqqSg8Pmz_G5QuouRPF6Ew_d5l7pxeBttweO4o6zoHfC0clOZ3zbNkzDwwWImMf6fOJ_f9xP8wasNhrS9dPSlurEIUGxWE_dKdnE4bgf88jg97bAQs1iQac_sA",
+              "title": "wikipedia.org",
+              "start_index": 923,
+              "end_index": 1115
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZaFSM7rN3PwiD2tpLRAUOiCM9h7hF_CTC6bc15Ix987q0dwz5O6ra971H4QUJsR9GFrLAs-CzPYbvJya-oLMIOPESCkrjuXOeKc1lXRf9_67sZgDfcwRKtyt1mw==",
+              "title": "cursor.com",
+              "start_index": 923,
+              "end_index": 1115
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4FeWrWs0AIiXZin1HR4AVg4vWz3nKamblKhSJEZQyR55TV-FtHb1r9z9O0t2_f2yXI5X0luiCygS-S-ZQGxTzyC_wtfCZTl-KDKnY3w==",
+              "title": "cursor.com",
+              "start_index": 1119,
+              "end_index": 1246
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1ylFirHPq_i6sDGg1yrKWjysgbG057jOZcV_h3ceX2Ef7W2EGHuLTx0Q4fjHaMBGwvOMzy-vocWuYob8H4hINWZpU9Zsv4ZM9jTgxlVaWL4mR990Mt9HKHL6dwpkvPgfh9dvS",
+              "title": "cursor.com",
+              "start_index": 1119,
+              "end_index": 1246
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGESaOdQRhI2DoFond84VJWP80WzECBb59iKz-goQ2t-d-SRi2mGRCySIVcM8MkFLmifLGGj-B--eSxZFqHgJV3ARQOQqcvHmK_L4qC2OJL_V0=",
+              "title": "cursor.com",
+              "start_index": 1250,
+              "end_index": 1421
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4VCS8Flm2RP2EXYRQNBBzbrVGzNz4I-tUxEn2SALD30ukcQTxaH0b82-lszwdUYF6vpzIMK1BjpRfeN4EgSGTiUL011K1IGEk-6jFpsyZSrDD3tbgD0Dgx_shXPfL68I=",
+              "title": "cursor.com",
+              "start_index": 1250,
+              "end_index": 1421
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4FeWrWs0AIiXZin1HR4AVg4vWz3nKamblKhSJEZQyR55TV-FtHb1r9z9O0t2_f2yXI5X0luiCygS-S-ZQGxTzyC_wtfCZTl-KDKnY3w==",
+              "title": "cursor.com",
+              "start_index": 1425,
+              "end_index": 1552
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4VCS8Flm2RP2EXYRQNBBzbrVGzNz4I-tUxEn2SALD30ukcQTxaH0b82-lszwdUYF6vpzIMK1BjpRfeN4EgSGTiUL011K1IGEk-6jFpsyZSrDD3tbgD0Dgx_shXPfL68I=",
+              "title": "cursor.com",
+              "start_index": 1425,
+              "end_index": 1552
+            }
+          ]
+        }
+      ]
+    },
+    "text_contract_version": "purpose-description-functionality-v1",
+    "potential_training_overlap": [
+      {
+        "source_id": "raw_12476",
+        "group_id": "group_c326fb4cbd6fbffa",
+        "same_endpoint": false
+      },
+      {
+        "source_id": "raw_15754",
+        "group_id": "group_c326fb4cbd6fbffa",
+        "same_endpoint": false
+      }
+    ],
+    "note": "Preview only: catalog identity resolution/category reuse must precede model inference. No discovery labels changed."
+  },
+  {
+    "application_name": "github",
+    "endpoint": "github.com",
+    "report_index": 0,
+    "is_ai_tool": false,
+    "ai_classification_status": "classified",
+    "preparation_status": "not_applicable",
+    "category": null,
+    "category_source": null,
+    "candidate_model_text": "GitHub is a cloud-based development and source code hosting platform built around the Git version control system. It enables software teams and individuals to store, manage, and collaborate on repositories, review code via pull requests, and track tasks through GitHub Issues and Projects. The platform also provides integrated automation for continuous integration and continuous deployment (CI/CD) via GitHub Actions, code security and secret scanning, package management, and web hosting via GitHub Pages.\nGitHub offers AI functionality primarily via GitHub Copilot, an AI-powered developer assistant and suite of tools. Documented capabilities include code suggestions and completion, chat-based troubleshooting, automated pull request summaries, agentic workflow automation, and security fix suggestions (Copilot Autofix). This AI functionality is an optional add-on and workflow enhancement; it is not the central requirement for the platform's core Git repository hosting, tracking, and collaboration capabilities.",
+    "model_input": null,
+    "description_only_text": "GitHub is a cloud-based development and source code hosting platform built around the Git version control system. It enables software teams and individuals to store, manage, and collaborate on repositories, review code via pull requests, and track tasks through GitHub Issues and Projects. The platform also provides integrated automation for continuous integration and continuous deployment (CI/CD) via GitHub Actions, code security and secret scanning, package management, and web hosting via GitHub Pages.",
+    "extraction_status": "extracted",
+    "sections": {
+      "description": [
+        {
+          "text": "GitHub is a cloud-based development and source code hosting platform built around the Git version control system. It enables software teams and individuals to store, manage, and collaborate on repositories, review code via pull requests, and track tasks through GitHub Issues and Projects. The platform also provides integrated automation for continuous integration and continuous deployment (CI/CD) via GitHub Actions, code security and secret scanning, package management, and web hosting via GitHub Pages.",
+          "block_index": 0,
+          "start": 264,
+          "end": 775,
+          "citations": [
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFg4_4XIyy43Ii28y8kbRrPhx84emSO_b4nQy984UsTz6KE5d-z64FVmSyZnQ2w-9-Kr5DeCDQG14PsB9-wkDu9RSN_35XBp8ZajmZcHRXb3cFa7fuZhwzXw_sRcYFu2MLjLdMyz5MpHW-UgJXChwg8DvbYi6PaUbNCr-5lwIc=",
+              "title": "github.com",
+              "start_index": 265,
+              "end_index": 377
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7012qdLIlj8s1MKtGWdHk8yUHc620xT1AalB8yCTwYCApgPHROmb2s9chZfcd6L7TMgiLxkuo3iCNaoW_vA6kX77gGCUxNRReQpPrKBQhWJEcYxfRMNKzLiLM_HyjrZAzY_gzvAQ=",
+              "title": "coursera.org",
+              "start_index": 265,
+              "end_index": 377
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFg4_4XIyy43Ii28y8kbRrPhx84emSO_b4nQy984UsTz6KE5d-z64FVmSyZnQ2w-9-Kr5DeCDQG14PsB9-wkDu9RSN_35XBp8ZajmZcHRXb3cFa7fuZhwzXw_sRcYFu2MLjLdMyz5MpHW-UgJXChwg8DvbYi6PaUbNCr-5lwIc=",
+              "title": "github.com",
+              "start_index": 379,
+              "end_index": 553
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0skezb1Q4ojngbrxIeg9heOEGR3khS5o9mrrzRA45Uzcs0SierqpQ38X9rCik70Nw0usi0PThI9o2Vkor9QZv4WYO-lYdod9GIMqXjFASXDE=",
+              "title": "github.com",
+              "start_index": 379,
+              "end_index": 553
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFg4_4XIyy43Ii28y8kbRrPhx84emSO_b4nQy984UsTz6KE5d-z64FVmSyZnQ2w-9-Kr5DeCDQG14PsB9-wkDu9RSN_35XBp8ZajmZcHRXb3cFa7fuZhwzXw_sRcYFu2MLjLdMyz5MpHW-UgJXChwg8DvbYi6PaUbNCr-5lwIc=",
+              "title": "github.com",
+              "start_index": 555,
+              "end_index": 772
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0skezb1Q4ojngbrxIeg9heOEGR3khS5o9mrrzRA45Uzcs0SierqpQ38X9rCik70Nw0usi0PThI9o2Vkor9QZv4WYO-lYdod9GIMqXjFASXDE=",
+              "title": "github.com",
+              "start_index": 555,
+              "end_index": 772
+            }
+          ]
+        }
+      ],
+      "functionality": [
+        {
+          "text": "GitHub offers AI functionality primarily via GitHub Copilot, an AI-powered developer assistant and suite of tools. Documented capabilities include code suggestions and completion, chat-based troubleshooting, automated pull request summaries, agentic workflow automation, and security fix suggestions (Copilot Autofix). This AI functionality is an optional add-on and workflow enhancement; it is not the central requirement for the platform's core Git repository hosting, tracking, and collaboration capabilities.",
+          "block_index": 0,
+          "start": 798,
+          "end": 1317,
+          "citations": [
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0skezb1Q4ojngbrxIeg9heOEGR3khS5o9mrrzRA45Uzcs0SierqpQ38X9rCik70Nw0usi0PThI9o2Vkor9QZv4WYO-lYdod9GIMqXjFASXDE=",
+              "title": "github.com",
+              "start_index": 799,
+              "end_index": 916
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0skezb1Q4ojngbrxIeg9heOEGR3khS5o9mrrzRA45Uzcs0SierqpQ38X9rCik70Nw0usi0PThI9o2Vkor9QZv4WYO-lYdod9GIMqXjFASXDE=",
+              "title": "github.com",
+              "start_index": 799,
+              "end_index": 916
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFg4_4XIyy43Ii28y8kbRrPhx84emSO_b4nQy984UsTz6KE5d-z64FVmSyZnQ2w-9-Kr5DeCDQG14PsB9-wkDu9RSN_35XBp8ZajmZcHRXb3cFa7fuZhwzXw_sRcYFu2MLjLdMyz5MpHW-UgJXChwg8DvbYi6PaUbNCr-5lwIc=",
+              "title": "github.com",
+              "start_index": 918,
+              "end_index": 1120
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0skezb1Q4ojngbrxIeg9heOEGR3khS5o9mrrzRA45Uzcs0SierqpQ38X9rCik70Nw0usi0PThI9o2Vkor9QZv4WYO-lYdod9GIMqXjFASXDE=",
+              "title": "github.com",
+              "start_index": 918,
+              "end_index": 1120
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFssCaaRJ6o1FAdk8H79AFYrJM5ffQN11x5OP--Quy8IGNYjuljoPGiGc6znX6091JYPezNEMB7ZzQvMvS-PqvfUs9YWX4H4JJg4SXOJq3xV-0=",
+              "title": "github.com",
+              "start_index": 918,
+              "end_index": 1120
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFg4_4XIyy43Ii28y8kbRrPhx84emSO_b4nQy984UsTz6KE5d-z64FVmSyZnQ2w-9-Kr5DeCDQG14PsB9-wkDu9RSN_35XBp8ZajmZcHRXb3cFa7fuZhwzXw_sRcYFu2MLjLdMyz5MpHW-UgJXChwg8DvbYi6PaUbNCr-5lwIc=",
+              "title": "github.com",
+              "start_index": 1122,
+              "end_index": 1314
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0skezb1Q4ojngbrxIeg9heOEGR3khS5o9mrrzRA45Uzcs0SierqpQ38X9rCik70Nw0usi0PThI9o2Vkor9QZv4WYO-lYdod9GIMqXjFASXDE=",
+              "title": "github.com",
+              "start_index": 1122,
+              "end_index": 1314
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0skezb1Q4ojngbrxIeg9heOEGR3khS5o9mrrzRA45Uzcs0SierqpQ38X9rCik70Nw0usi0PThI9o2Vkor9QZv4WYO-lYdod9GIMqXjFASXDE=",
+              "title": "github.com",
+              "start_index": 1122,
+              "end_index": 1314
+            }
+          ]
+        }
+      ]
+    },
+    "text_contract_version": "purpose-description-functionality-v1",
+    "potential_training_overlap": [],
+    "note": "Preview only: catalog identity resolution/category reuse must precede model inference. No discovery labels changed."
+  },
+  {
+    "application_name": "github copilot",
+    "endpoint": "github.com/copilot",
+    "report_index": 0,
+    "is_ai_tool": true,
+    "ai_classification_status": "classified",
+    "preparation_status": "ready_for_category_model",
+    "category": null,
+    "category_source": null,
+    "candidate_model_text": "GitHub Copilot is an AI-powered developer assistant designed to assist engineers throughout the software development lifecycle. It provides real-time code completions, generates multi-step implementation plans, answers natural language questions about codebases, and automates pull request reviews. Copilot operates natively across several surfaces, including integrated development environments (IDEs), command-line interfaces (CLI), dedicated desktop applications, and directly within GitHub.com.\nAI capabilities are central and foundational to GitHub Copilot, not an optional secondary feature. The product relies on underlying large language models to deliver its core capabilities, which GitHub documents across assistive and agentic categories: real-time code generation, interactive contextual chat, automated test generation, pull request explanation and review, and autonomous agent tasks (such as editing files, running tools via the Model Context Protocol [MCP], and submitting changes for developer review).",
+    "model_input": "GitHub Copilot is an AI-powered developer assistant designed to assist engineers throughout the software development lifecycle. It provides real-time code completions, generates multi-step implementation plans, answers natural language questions about codebases, and automates pull request reviews. Copilot operates natively across several surfaces, including integrated development environments (IDEs), command-line interfaces (CLI), dedicated desktop applications, and directly within GitHub.com.\nAI capabilities are central and foundational to GitHub Copilot, not an optional secondary feature. The product relies on underlying large language models to deliver its core capabilities, which GitHub documents across assistive and agentic categories: real-time code generation, interactive contextual chat, automated test generation, pull request explanation and review, and autonomous agent tasks (such as editing files, running tools via the Model Context Protocol [MCP], and submitting changes for developer review).",
+    "description_only_text": "GitHub Copilot is an AI-powered developer assistant designed to assist engineers throughout the software development lifecycle. It provides real-time code completions, generates multi-step implementation plans, answers natural language questions about codebases, and automates pull request reviews. Copilot operates natively across several surfaces, including integrated development environments (IDEs), command-line interfaces (CLI), dedicated desktop applications, and directly within GitHub.com.",
+    "extraction_status": "extracted",
+    "sections": {
+      "description": [
+        {
+          "text": "GitHub Copilot is an AI-powered developer assistant designed to assist engineers throughout the software development lifecycle. It provides real-time code completions, generates multi-step implementation plans, answers natural language questions about codebases, and automates pull request reviews. Copilot operates natively across several surfaces, including integrated development environments (IDEs), command-line interfaces (CLI), dedicated desktop applications, and directly within GitHub.com.",
+          "block_index": 0,
+          "start": 551,
+          "end": 1052,
+          "citations": [
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFy4tP9BXndgFNdGb4bUA-4GhmeaNMEgzoN7R9zkwBRyVpWn5DjUI5v3kuw_AE1FxvHbBkJIy9qvHn_M9yBrAcwZ6AJ5lg4ELBG0NCJEHERB9Nusq3dQ2OaJQVU-tqE6x5EcIZnlQvRAolzhLBIVLGHrJQ4IWIv8L3dwRY8HFU3q90=",
+              "title": "github.com",
+              "start_index": 552,
+              "end_index": 678
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWhEy3O12myOyFD0G4gOn2dsY2q9SLgprh4hBJLHwkopQDUVilj4Hnn9ejETcQ5o40Fkbryij62bNPdLUTxMmTD0hAwsJvRuokplDYNnLxFeZ4Ysw9",
+              "title": "github.com",
+              "start_index": 552,
+              "end_index": 678
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiROjEOgO-3Va5wesXvxAizSqhBiWQmqvhmxTz8NnHrUyLEU815_PvmRbVuweZc47T6TWoPuj6SkJKQJIKL6zrc0vHEvm1cSPyIwpA2VjJcrM6cvVpmjwX6AB4TmbeYlk7tdF5vf7KqUs-X-zn_oO204eKzQWb_8SJkFRnY_4=",
+              "title": "github.com",
+              "start_index": 680,
+              "end_index": 849
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFy4tP9BXndgFNdGb4bUA-4GhmeaNMEgzoN7R9zkwBRyVpWn5DjUI5v3kuw_AE1FxvHbBkJIy9qvHn_M9yBrAcwZ6AJ5lg4ELBG0NCJEHERB9Nusq3dQ2OaJQVU-tqE6x5EcIZnlQvRAolzhLBIVLGHrJQ4IWIv8L3dwRY8HFU3q90=",
+              "title": "github.com",
+              "start_index": 680,
+              "end_index": 849
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiROjEOgO-3Va5wesXvxAizSqhBiWQmqvhmxTz8NnHrUyLEU815_PvmRbVuweZc47T6TWoPuj6SkJKQJIKL6zrc0vHEvm1cSPyIwpA2VjJcrM6cvVpmjwX6AB4TmbeYlk7tdF5vf7KqUs-X-zn_oO204eKzQWb_8SJkFRnY_4=",
+              "title": "github.com",
+              "start_index": 851,
+              "end_index": 1049
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxajCs1nVReFVcLNzxeKO94VHfwXLM166BCEJ1KjWmR_nIdkM9_8E0E7VYhh5a4vTtrXnNlbvWjFRDPIodiIkiSqdvstTMVe-H5y98VGxkSGX5FoEU3DDAAGITPlmVMQPa7U_TALoYldBvnzTff4FGeYjK_wBkvzRBm2fdxvPgeAZoRzfk",
+              "title": "github.com",
+              "start_index": 851,
+              "end_index": 1049
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGINsjOWXXim4CPNHYp8FF0Z51IscQFfmH3eSxzDvdmzDJMBn2EyMrd2bmcTvAPAjfmvifO-FKiVYipROOtwzucngFZPMhrZrPn_nflsD--UqYHq72EqZarf2cyn3gtosT",
+              "title": "github.com",
+              "start_index": 851,
+              "end_index": 1049
+            }
+          ]
+        }
+      ],
+      "functionality": [
+        {
+          "text": "AI capabilities are central and foundational to GitHub Copilot, not an optional secondary feature. The product relies on underlying large language models to deliver its core capabilities, which GitHub documents across assistive and agentic categories: real-time code generation, interactive contextual chat, automated test generation, pull request explanation and review, and autonomous agent tasks (such as editing files, running tools via the Model Context Protocol [MCP], and submitting changes for developer review).",
+          "block_index": 0,
+          "start": 1072,
+          "end": 1595,
+          "citations": [
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFy4tP9BXndgFNdGb4bUA-4GhmeaNMEgzoN7R9zkwBRyVpWn5DjUI5v3kuw_AE1FxvHbBkJIy9qvHn_M9yBrAcwZ6AJ5lg4ELBG0NCJEHERB9Nusq3dQ2OaJQVU-tqE6x5EcIZnlQvRAolzhLBIVLGHrJQ4IWIv8L3dwRY8HFU3q90=",
+              "title": "github.com",
+              "start_index": 1073,
+              "end_index": 1170
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWhEy3O12myOyFD0G4gOn2dsY2q9SLgprh4hBJLHwkopQDUVilj4Hnn9ejETcQ5o40Fkbryij62bNPdLUTxMmTD0hAwsJvRuokplDYNnLxFeZ4Ysw9",
+              "title": "github.com",
+              "start_index": 1073,
+              "end_index": 1170
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiROjEOgO-3Va5wesXvxAizSqhBiWQmqvhmxTz8NnHrUyLEU815_PvmRbVuweZc47T6TWoPuj6SkJKQJIKL6zrc0vHEvm1cSPyIwpA2VjJcrM6cvVpmjwX6AB4TmbeYlk7tdF5vf7KqUs-X-zn_oO204eKzQWb_8SJkFRnY_4=",
+              "title": "github.com",
+              "start_index": 1172,
+              "end_index": 1592
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFy4tP9BXndgFNdGb4bUA-4GhmeaNMEgzoN7R9zkwBRyVpWn5DjUI5v3kuw_AE1FxvHbBkJIy9qvHn_M9yBrAcwZ6AJ5lg4ELBG0NCJEHERB9Nusq3dQ2OaJQVU-tqE6x5EcIZnlQvRAolzhLBIVLGHrJQ4IWIv8L3dwRY8HFU3q90=",
+              "title": "github.com",
+              "start_index": 1172,
+              "end_index": 1592
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOGDHc433EsnOp_dTLNl5e6urVQnRJxJ17XNOlKybPKUGgsqk-yV45SIEe-rwXKTAMuWp-TcsGbGFSQI9LDU4kE32IehxURIrcEy1PRUj4rMN4JSgGqNyWd_2IKEjYLIl39H-Qm6ikr1utURO_PTcHMM-64F5SKsifEK63fdUgsa4Nu8W8xPYO_XULEPWeYpt4GOlQDOZy-96iOtObIQufnMl-Rk4G",
+              "title": "github.com",
+              "start_index": 1172,
+              "end_index": 1592
+            }
+          ]
+        }
+      ]
+    },
+    "text_contract_version": "purpose-description-functionality-v1",
+    "potential_training_overlap": [],
+    "note": "Preview only: catalog identity resolution/category reuse must precede model inference. No discovery labels changed."
+  },
+  {
+    "application_name": "google docs",
+    "endpoint": "docs.google.com",
+    "report_index": 0,
+    "is_ai_tool": false,
+    "ai_classification_status": "classified",
+    "preparation_status": "not_applicable",
+    "category": null,
+    "category_source": null,
+    "candidate_model_text": "Google Docs is a cloud-based word processor and document editing software included as part of Google Workspace and available to personal Google accounts. It enables users to create, format, and store text documents directly within a web browser without local software installation. The platform offers core features such as real-time multi-user co-authoring, commenting, suggestion modes, automated version history, and file import/export support across common document formats. ---\nGoogle Docs includes generative AI features powered by Gemini for Google Workspace (incorporating writing assistance features like \"Help me write\"). Documented AI capabilities include generating initial text drafts from prompts, summarizing long documents, rewriting or adjusting the tone of existing text, proofreading, and generating contextual templates. These AI capabilities are optional features; the core word processing, formatting, and real-time collaboration tools function independently, and generative AI features require an eligible Google Workspace plan or Google AI add-on subscription. ---",
+    "model_input": null,
+    "description_only_text": "Google Docs is a cloud-based word processor and document editing software included as part of Google Workspace and available to personal Google accounts. It enables users to create, format, and store text documents directly within a web browser without local software installation. The platform offers core features such as real-time multi-user co-authoring, commenting, suggestion modes, automated version history, and file import/export support across common document formats. ---",
+    "extraction_status": "extracted",
+    "sections": {
+      "description": [
+        {
+          "text": "Google Docs is a cloud-based word processor and document editing software included as part of Google Workspace and available to personal Google accounts. It enables users to create, format, and store text documents directly within a web browser without local software installation. The platform offers core features such as real-time multi-user co-authoring, commenting, suggestion modes, automated version history, and file import/export support across common document formats. ---",
+          "block_index": 0,
+          "start": 534,
+          "end": 1020,
+          "citations": [
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpsHO-myhb32C9q0JKK-dKvD_DAn4OKw1b1YgjRh3djZ4KBhJ8qpyel4HE-aGVV_PBI20JF2m3k0wCsdwEe8nNNedf8ZX-aSi7qfGPjXLEf82A5peha9Oi5cXk7F5Cv756dbTQ_XN24pGd_DO1AeBDvu9xWpljwqMGxV64zwKaqnoLFMSSXg==",
+              "title": "google.com",
+              "start_index": 535,
+              "end_index": 687
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGc8wmVVT4LKB8zFaAEzjsMzDkcetXFb0d42YEXYebDOzCNr2KHzDtS2Z6vz5L1UbhvLoQT42_jgZDz0GyYR6uhAOrbL1fOO-MWl2gcef6EejPG91i8MZkFPL-fY9c=",
+              "title": "google.com",
+              "start_index": 535,
+              "end_index": 687
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHthmC-fBpbP2o5s5KO9Zv_gygAXie04EYxhAfecNLPNfN7oXK3pV1GMDpu63uVIoqb8sdRioWkRye3Y1rVqRJePo-wAcgjhaV9vS6dxzZh3Q2sB-K93VtMd4yKhb96dIUZA8y2itotW4SFpuN_qFPqff8CBL0w0RbYU1fmLUYzwlz3sqfR8UtxdrM=",
+              "title": "google.com",
+              "start_index": 689,
+              "end_index": 815
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpsHO-myhb32C9q0JKK-dKvD_DAn4OKw1b1YgjRh3djZ4KBhJ8qpyel4HE-aGVV_PBI20JF2m3k0wCsdwEe8nNNedf8ZX-aSi7qfGPjXLEf82A5peha9Oi5cXk7F5Cv756dbTQ_XN24pGd_DO1AeBDvu9xWpljwqMGxV64zwKaqnoLFMSSXg==",
+              "title": "google.com",
+              "start_index": 689,
+              "end_index": 815
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHthmC-fBpbP2o5s5KO9Zv_gygAXie04EYxhAfecNLPNfN7oXK3pV1GMDpu63uVIoqb8sdRioWkRye3Y1rVqRJePo-wAcgjhaV9vS6dxzZh3Q2sB-K93VtMd4yKhb96dIUZA8y2itotW4SFpuN_qFPqff8CBL0w0RbYU1fmLUYzwlz3sqfR8UtxdrM=",
+              "title": "google.com",
+              "start_index": 817,
+              "end_index": 1012
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8rrvRVJnYdwPCiZJNVNkNY44TL3x5seMtsFpudECwpgYc1W1_c0ydWELjqigYwOXCiCeFEqm98VK_ITK8tdavAJ1ZnGqFgP87qANxGei1bmNkXSIPxkR4iecW0C_NNm1EqbgRkUaRP8V2aeORU8LNP_TkY-orB-dCrW5bmbjeQzPc-yU1Wpw=",
+              "title": "hamdenlibrary.org",
+              "start_index": 817,
+              "end_index": 1012
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFv1WRTwJ3HQ-Xi4VIMhWTAwuaN6J_d_XCNR18RqScXo_UDfMkYL8Zjw7aiaPzCXfTX_xFZ8hfu1z5hOz_6QCawlolW1_Wsr92Lc_Q9AggeMbUb-VsXNia74YAFLBw5rUj1MqZlV1ujJtHnqUGU",
+              "title": "google.com",
+              "start_index": 817,
+              "end_index": 1012
+            }
+          ]
+        }
+      ],
+      "functionality": [
+        {
+          "text": "Google Docs includes generative AI features powered by Gemini for Google Workspace (incorporating writing assistance features like \"Help me write\"). Documented AI capabilities include generating initial text drafts from prompts, summarizing long documents, rewriting or adjusting the tone of existing text, proofreading, and generating contextual templates. These AI capabilities are optional features; the core word processing, formatting, and real-time collaboration tools function independently, and generative AI features require an eligible Google Workspace plan or Google AI add-on subscription. ---",
+          "block_index": 0,
+          "start": 1043,
+          "end": 1662,
+          "citations": [
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvAoD8a00wpFoZ_mBt_JpDhm-D6FFFMckKqZb2WFD0pqAVd0rFC9G7kJbO22RA_WsGtXaIDRx3VPrZLkbzjVGTtH3GUZV5v4iuNvpemjw_JyJ812vtrZaO4VZM1F9gBb_eB1UjKCr7xcu0hQ==",
+              "title": "google.com",
+              "start_index": 1044,
+              "end_index": 1195
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFv1WRTwJ3HQ-Xi4VIMhWTAwuaN6J_d_XCNR18RqScXo_UDfMkYL8Zjw7aiaPzCXfTX_xFZ8hfu1z5hOz_6QCawlolW1_Wsr92Lc_Q9AggeMbUb-VsXNia74YAFLBw5rUj1MqZlV1ujJtHnqUGU",
+              "title": "google.com",
+              "start_index": 1044,
+              "end_index": 1195
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvAoD8a00wpFoZ_mBt_JpDhm-D6FFFMckKqZb2WFD0pqAVd0rFC9G7kJbO22RA_WsGtXaIDRx3VPrZLkbzjVGTtH3GUZV5v4iuNvpemjw_JyJ812vtrZaO4VZM1F9gBb_eB1UjKCr7xcu0hQ==",
+              "title": "google.com",
+              "start_index": 1197,
+              "end_index": 1404
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhYa8sAaksYS-jgoP01MG5f9Ifhfv-ka9XYe0U3HkHrhYsadJ8Qpcc_-mQk2XgwXnGKvrLWz89cf_ZmSJTZU6fkznkU7s4FxZBvg7oN0lT6t0MA1LF6fJWVZVOr3KQ6Y33",
+              "title": "google.com",
+              "start_index": 1197,
+              "end_index": 1404
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFv1WRTwJ3HQ-Xi4VIMhWTAwuaN6J_d_XCNR18RqScXo_UDfMkYL8Zjw7aiaPzCXfTX_xFZ8hfu1z5hOz_6QCawlolW1_Wsr92Lc_Q9AggeMbUb-VsXNia74YAFLBw5rUj1MqZlV1ujJtHnqUGU",
+              "title": "google.com",
+              "start_index": 1197,
+              "end_index": 1404
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpsHO-myhb32C9q0JKK-dKvD_DAn4OKw1b1YgjRh3djZ4KBhJ8qpyel4HE-aGVV_PBI20JF2m3k0wCsdwEe8nNNedf8ZX-aSi7qfGPjXLEf82A5peha9Oi5cXk7F5Cv756dbTQ_XN24pGd_DO1AeBDvu9xWpljwqMGxV64zwKaqnoLFMSSXg==",
+              "title": "google.com",
+              "start_index": 1408,
+              "end_index": 1654
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvAoD8a00wpFoZ_mBt_JpDhm-D6FFFMckKqZb2WFD0pqAVd0rFC9G7kJbO22RA_WsGtXaIDRx3VPrZLkbzjVGTtH3GUZV5v4iuNvpemjw_JyJ812vtrZaO4VZM1F9gBb_eB1UjKCr7xcu0hQ==",
+              "title": "google.com",
+              "start_index": 1408,
+              "end_index": 1654
+            }
+          ]
+        }
+      ]
+    },
+    "text_contract_version": "purpose-description-functionality-v1",
+    "potential_training_overlap": [],
+    "note": "Preview only: catalog identity resolution/category reuse must precede model inference. No discovery labels changed."
+  },
+  {
+    "application_name": "google drive",
+    "endpoint": "drive.google.com",
+    "report_index": 0,
+    "is_ai_tool": false,
+    "ai_classification_status": "classified",
+    "preparation_status": "not_applicable",
+    "category": null,
+    "category_source": null,
+    "candidate_model_text": "Google Drive is a cloud-based storage, file synchronization, and collaboration service designed for individuals and enterprise organizations. It serves as a centralized repository where users can upload, organize, search, and securely share files and folders across web and mobile platforms. In business and enterprise environments, it provides team collaboration spaces (Shared Drives), integration with Google Docs editors (Docs, Sheets, Slides), and administrative security features such as Data Loss Prevention (DLP) and access controls.\nGoogle Drive incorporates machine learning and generative artificial intelligence capabilities, primarily through features branded as Gemini in Google Drive (and legacy algorithmic tools such as \"Quick Access\"). Documented capabilities include: * Using a Gemini side panel or file-viewer integration to search across stored content, summarize documents (such as PDFs), and synthesize data from multiple files. * Assisting with enterprise content categorization and security labeling. AI functionality is optional and supplementary, not central to the application's core operation. Google Drive functions independently as a file storage and management tool; Gemini capabilities require eligible Google Workspace or Google AI licensing and can be turned on or off by administrators.",
+    "model_input": null,
+    "description_only_text": "Google Drive is a cloud-based storage, file synchronization, and collaboration service designed for individuals and enterprise organizations. It serves as a centralized repository where users can upload, organize, search, and securely share files and folders across web and mobile platforms. In business and enterprise environments, it provides team collaboration spaces (Shared Drives), integration with Google Docs editors (Docs, Sheets, Slides), and administrative security features such as Data Loss Prevention (DLP) and access controls.",
+    "extraction_status": "extracted",
+    "sections": {
+      "description": [
+        {
+          "text": "Google Drive is a cloud-based storage, file synchronization, and collaboration service designed for individuals and enterprise organizations. It serves as a centralized repository where users can upload, organize, search, and securely share files and folders across web and mobile platforms. In business and enterprise environments, it provides team collaboration spaces (Shared Drives), integration with Google Docs editors (Docs, Sheets, Slides), and administrative security features such as Data Loss Prevention (DLP) and access controls.",
+          "block_index": 0,
+          "start": 330,
+          "end": 874,
+          "citations": [
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6hbGtgKqqJL8zmpSoUOZ6j40uHVy32WhCPGVvrdLaNGDiAennQkoN64XcZfUBXSptXZ7pIXZy03iH1q9Hm3rB-eA7Wm8jrPm3iYU7BTCvR2RrB39pbuwV6U4Ngl_AyEPMMaPsNA-Yf6V0WWtYzGw359G_",
+              "title": "spin.ai",
+              "start_index": 333,
+              "end_index": 473
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsu8ZFcsXIIyVf_mkV2SwkdV2mhNmP0Uo2MymUOFjdHj8Eyut0Nb2tnWaDlqyJM0vQRCpNfeuvKeayBFyZUGCXDphaRC0C4JewDpi82s-CrFG0AthjJ4lOIT4NRHYprtd5SNw9bmGdKr98b0qqwXZ8XcJDbH8eg2zSAB0=",
+              "title": "xfanatical.com",
+              "start_index": 333,
+              "end_index": 473
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6hbGtgKqqJL8zmpSoUOZ6j40uHVy32WhCPGVvrdLaNGDiAennQkoN64XcZfUBXSptXZ7pIXZy03iH1q9Hm3rB-eA7Wm8jrPm3iYU7BTCvR2RrB39pbuwV6U4Ngl_AyEPMMaPsNA-Yf6V0WWtYzGw359G_",
+              "title": "spin.ai",
+              "start_index": 475,
+              "end_index": 623
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsu8ZFcsXIIyVf_mkV2SwkdV2mhNmP0Uo2MymUOFjdHj8Eyut0Nb2tnWaDlqyJM0vQRCpNfeuvKeayBFyZUGCXDphaRC0C4JewDpi82s-CrFG0AthjJ4lOIT4NRHYprtd5SNw9bmGdKr98b0qqwXZ8XcJDbH8eg2zSAB0=",
+              "title": "xfanatical.com",
+              "start_index": 475,
+              "end_index": 623
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSNyN2cTp7NNtb2JyMGoVUyrhiKLFjfnO0EpZ69Qbfik_uNgeqimXDND_6S5c-ygrZjmAtUsQABKkWpWVEblacQteLJo0KPJGc30UX8WO6U9qoFbZKHdg2Rr5eGSIPn70nbj-9CCp7wXARTws3d9V6bfdZkDbBIV8i87irCDKq4xNbOoL4w0G6dsyuBK5ONUkWWMtINScY",
+              "title": "google.com",
+              "start_index": 625,
+              "end_index": 873
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHj2hopoxBtuL6CVmGXtZlZ3INc1lo8ilfwT85m2l6A0Z_8rfGMxUVI04jemGZL7aryAn1-PO3KsRw0i_BH1CFeD7NgeOi6LKO2J3TumRbiA37q_YB4uoGZvYV3nBaDOfSAg3oChhlt83na2c9z1qNpgMU2y53vyzXLesA_FI5sjzX73HVW_8oq56lmvhWIJw==",
+              "title": "google.com",
+              "start_index": 625,
+              "end_index": 873
+            }
+          ]
+        }
+      ],
+      "functionality": [
+        {
+          "text": "Google Drive incorporates machine learning and generative artificial intelligence capabilities, primarily through features branded as Gemini in Google Drive (and legacy algorithmic tools such as \"Quick Access\"). Documented capabilities include: * Using a Gemini side panel or file-viewer integration to search across stored content, summarize documents (such as PDFs), and synthesize data from multiple files. * Assisting with enterprise content categorization and security labeling. AI functionality is optional and supplementary, not central to the application's core operation. Google Drive functions independently as a file storage and management tool; Gemini capabilities require eligible Google Workspace or Google AI licensing and can be turned on or off by administrators.",
+          "block_index": 0,
+          "start": 897,
+          "end": 1689,
+          "citations": [
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6hbGtgKqqJL8zmpSoUOZ6j40uHVy32WhCPGVvrdLaNGDiAennQkoN64XcZfUBXSptXZ7pIXZy03iH1q9Hm3rB-eA7Wm8jrPm3iYU7BTCvR2RrB39pbuwV6U4Ngl_AyEPMMaPsNA-Yf6V0WWtYzGw359G_",
+              "title": "spin.ai",
+              "start_index": 900,
+              "end_index": 1114
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYQFuCTkALdEcR6-cyz_3boypzA3UPCALL3K3VU1M1Ymet2SGiKTR3wLXaKruAriZr19mPE6mlMrgJoP_ztTiQeq3yRe7WiTPPDzIcumulfKiqyJXbHV04Da3fyniskcFy6liFUg==",
+              "title": "google.com",
+              "start_index": 900,
+              "end_index": 1114
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAprQSMxCAmeU9WTUvTc3EcYkCrn-FSfKYqAtJauMUQkE48XnDcKNpobgGESNQ1JbKdJb6qjkrxExPqC0mm6QPHZsIe6Kz56iJhV0Xf0WJJAri8vngoZ8rh0PCiqluJZmf",
+              "title": "youtube.com",
+              "start_index": 1151,
+              "end_index": 1312
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYQFuCTkALdEcR6-cyz_3boypzA3UPCALL3K3VU1M1Ymet2SGiKTR3wLXaKruAriZr19mPE6mlMrgJoP_ztTiQeq3yRe7WiTPPDzIcumulfKiqyJXbHV04Da3fyniskcFy6liFUg==",
+              "title": "google.com",
+              "start_index": 1151,
+              "end_index": 1312
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGK3Vg-4lV5IWShItkJGNqsR0JwU43n_He3xtTF46miliYYUmVhbwXNBcSUJRPuneKrszrZKYt5afBcf5gneXnV9qNQ-goawbl6lLdiV7WLnQzuEc2tlpBu6KoFLkYn-Hamw65D3MbFE9L_F4=",
+              "title": "google.com",
+              "start_index": 1151,
+              "end_index": 1312
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHj2hopoxBtuL6CVmGXtZlZ3INc1lo8ilfwT85m2l6A0Z_8rfGMxUVI04jemGZL7aryAn1-PO3KsRw0i_BH1CFeD7NgeOi6LKO2J3TumRbiA37q_YB4uoGZvYV3nBaDOfSAg3oChhlt83na2c9z1qNpgMU2y53vyzXLesA_FI5sjzX73HVW_8oq56lmvhWIJw==",
+              "title": "google.com",
+              "start_index": 1316,
+              "end_index": 1386
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSNyN2cTp7NNtb2JyMGoVUyrhiKLFjfnO0EpZ69Qbfik_uNgeqimXDND_6S5c-ygrZjmAtUsQABKkWpWVEblacQteLJo0KPJGc30UX8WO6U9qoFbZKHdg2Rr5eGSIPn70nbj-9CCp7wXARTws3d9V6bfdZkDbBIV8i87irCDKq4xNbOoL4w0G6dsyuBK5ONUkWWMtINScY",
+              "title": "google.com",
+              "start_index": 1389,
+              "end_index": 1488
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYQFuCTkALdEcR6-cyz_3boypzA3UPCALL3K3VU1M1Ymet2SGiKTR3wLXaKruAriZr19mPE6mlMrgJoP_ztTiQeq3yRe7WiTPPDzIcumulfKiqyJXbHV04Da3fyniskcFy6liFUg==",
+              "title": "google.com",
+              "start_index": 1389,
+              "end_index": 1488
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSNyN2cTp7NNtb2JyMGoVUyrhiKLFjfnO0EpZ69Qbfik_uNgeqimXDND_6S5c-ygrZjmAtUsQABKkWpWVEblacQteLJo0KPJGc30UX8WO6U9qoFbZKHdg2Rr5eGSIPn70nbj-9CCp7wXARTws3d9V6bfdZkDbBIV8i87irCDKq4xNbOoL4w0G6dsyuBK5ONUkWWMtINScY",
+              "title": "google.com",
+              "start_index": 1490,
+              "end_index": 1688
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYQFuCTkALdEcR6-cyz_3boypzA3UPCALL3K3VU1M1Ymet2SGiKTR3wLXaKruAriZr19mPE6mlMrgJoP_ztTiQeq3yRe7WiTPPDzIcumulfKiqyJXbHV04Da3fyniskcFy6liFUg==",
+              "title": "google.com",
+              "start_index": 1490,
+              "end_index": 1688
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7L-8wTqmN2FDYhBkfss7iFAFhI8saQaanTXz9YXA28waYwpXXtCy4-tYlm3-_LL931bsiR8wKl7NEvPmNvNU2lcXl9QUFoc0Eq0xwatf7cZj8z0UMBz5viShReyZx-NbPDubkbadsquuRAgk=",
+              "title": "google.com",
+              "start_index": 1490,
+              "end_index": 1688
+            }
+          ]
+        }
+      ]
+    },
+    "text_contract_version": "purpose-description-functionality-v1",
+    "potential_training_overlap": [],
+    "note": "Preview only: catalog identity resolution/category reuse must precede model inference. No discovery labels changed."
+  },
+  {
+    "application_name": "microsoft excel",
+    "endpoint": "office.com",
+    "report_index": 0,
+    "is_ai_tool": false,
+    "ai_classification_status": "classified",
+    "preparation_status": "not_applicable",
+    "category": null,
+    "category_source": null,
+    "candidate_model_text": "Microsoft Excel is a spreadsheet and data analysis software application developed by Microsoft, available as a desktop program, mobile application, and web application. It provides a grid interface for organizing data, performing complex calculations, and automating workflows using formulas and built-in functions. Users can model and summarize information using tools like PivotTables, charts, and data queries, as well as collaborate on shared workbooks in real time.\nMicrosoft Excel integrates generative AI capabilities via Microsoft Copilot in Excel (as well as legacy automated insight tools such as Analyze Data). Copilot assists users in generating formulas, uncovering trends, summarizing datasets, and creating charts or PivotTables through natural-language prompts. AI functionality is an optional add-on feature that requires an eligible Microsoft 365 subscription and Copilot license; the core spreadsheet calculations, data modeling, and editing functions operate independently without AI.",
+    "model_input": null,
+    "description_only_text": "Microsoft Excel is a spreadsheet and data analysis software application developed by Microsoft, available as a desktop program, mobile application, and web application. It provides a grid interface for organizing data, performing complex calculations, and automating workflows using formulas and built-in functions. Users can model and summarize information using tools like PivotTables, charts, and data queries, as well as collaborate on shared workbooks in real time.",
+    "extraction_status": "extracted",
+    "sections": {
+      "description": [
+        {
+          "text": "Microsoft Excel is a spreadsheet and data analysis software application developed by Microsoft, available as a desktop program, mobile application, and web application. It provides a grid interface for organizing data, performing complex calculations, and automating workflows using formulas and built-in functions. Users can model and summarize information using tools like PivotTables, charts, and data queries, as well as collaborate on shared workbooks in real time.",
+          "block_index": 0,
+          "start": 449,
+          "end": 922,
+          "citations": [
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtXzHellnybO92vl6ZcPmR4p6TBkeBsJlijv3egNqqJuR94QS21yZoAsdjtjh0SDTqgM-E00C4ArOQmGYBLKu5g45izVonqVPbEOWf_Vn-PyO51JYRcPk=",
+              "title": "office.com",
+              "start_index": 450,
+              "end_index": 617
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGpmR0NBWArMEQTCkAm2Q2CaWq7yIY-b9auTHwjuqtOl_am-yzfHwgHIDogTaKWqo3MzhEBU0mWSkz1W-D9SwF-NYAGm8IvfFlE0o5lUqwfzczR9k=",
+              "title": "office.com",
+              "start_index": 450,
+              "end_index": 617
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGpmR0NBWArMEQTCkAm2Q2CaWq7yIY-b9auTHwjuqtOl_am-yzfHwgHIDogTaKWqo3MzhEBU0mWSkz1W-D9SwF-NYAGm8IvfFlE0o5lUqwfzczR9k=",
+              "title": "office.com",
+              "start_index": 619,
+              "end_index": 764
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3ELar7DmcwABi2Q7BvJHuhq-6Zepfv4_wsz6G2KbLkP0Xng-hFmwvfldFkHCWR8OaSy1euiOAT-iAKZzsJoXvIP4c083_Ro9G2G_IJAvmojTrWkLzsa6FxZxldXMQU0O5",
+              "title": "office.com",
+              "start_index": 619,
+              "end_index": 764
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGpmR0NBWArMEQTCkAm2Q2CaWq7yIY-b9auTHwjuqtOl_am-yzfHwgHIDogTaKWqo3MzhEBU0mWSkz1W-D9SwF-NYAGm8IvfFlE0o5lUqwfzczR9k=",
+              "title": "office.com",
+              "start_index": 766,
+              "end_index": 919
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3ELar7DmcwABi2Q7BvJHuhq-6Zepfv4_wsz6G2KbLkP0Xng-hFmwvfldFkHCWR8OaSy1euiOAT-iAKZzsJoXvIP4c083_Ro9G2G_IJAvmojTrWkLzsa6FxZxldXMQU0O5",
+              "title": "office.com",
+              "start_index": 766,
+              "end_index": 919
+            }
+          ]
+        }
+      ],
+      "functionality": [
+        {
+          "text": "Microsoft Excel integrates generative AI capabilities via Microsoft Copilot in Excel (as well as legacy automated insight tools such as Analyze Data). Copilot assists users in generating formulas, uncovering trends, summarizing datasets, and creating charts or PivotTables through natural-language prompts. AI functionality is an optional add-on feature that requires an eligible Microsoft 365 subscription and Copilot license; the core spreadsheet calculations, data modeling, and editing functions operate independently without AI.",
+          "block_index": 0,
+          "start": 945,
+          "end": 1485,
+          "citations": [
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwsGY2b76tAmVhx3qkCHHXhkWMFSKhhEjQWvXRgFK5apSOutXN4fb9GsddjJ_NruCLj2b6NJLT02vkIohdHyfOBgOcOdUjY22tJO9fkKv0rjgkCf8AeAzF6pHNNYyAY0miNGY0IuGQFBp5P1SWlA==",
+              "title": "office.com",
+              "start_index": 946,
+              "end_index": 1099
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuNonAFeJVa3aurOpHIvqAgZmuL3ehAziWXsKQ_Muox0UbQpwmKzOb2uMVdsePF3DcX4xEd469aGxnAEEcyq2JwZZf1MqVHf0Y8TaZxazbxRFl-ym5e9nCMFMILs_i_NaD9qEgk13vqqJpIjaCAal4UPjoh-vM4FHgNO4uf9qbue5_nnoUYRp9wsukT3iSv-Z1J3cF8IcT0OyiwjEwq43DO3Q=",
+              "title": "microsoft.com",
+              "start_index": 946,
+              "end_index": 1099
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuNonAFeJVa3aurOpHIvqAgZmuL3ehAziWXsKQ_Muox0UbQpwmKzOb2uMVdsePF3DcX4xEd469aGxnAEEcyq2JwZZf1MqVHf0Y8TaZxazbxRFl-ym5e9nCMFMILs_i_NaD9qEgk13vqqJpIjaCAal4UPjoh-vM4FHgNO4uf9qbue5_nnoUYRp9wsukT3iSv-Z1J3cF8IcT0OyiwjEwq43DO3Q=",
+              "title": "microsoft.com",
+              "start_index": 1101,
+              "end_index": 1255
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPIRfM9e0p8t_ldFuq7btVbTBmrvYucM3L3uxCl-RW0M15pgkfynzQzfyqAOrBByn3n2N1t9EwtZposma7JeV2ZdWh1O4SO4xUBQxDv4gZNrg63Et5PD_p4tWMPb2nldl7",
+              "title": "youtube.com",
+              "start_index": 1101,
+              "end_index": 1255
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwsGY2b76tAmVhx3qkCHHXhkWMFSKhhEjQWvXRgFK5apSOutXN4fb9GsddjJ_NruCLj2b6NJLT02vkIohdHyfOBgOcOdUjY22tJO9fkKv0rjgkCf8AeAzF6pHNNYyAY0miNGY0IuGQFBp5P1SWlA==",
+              "title": "office.com",
+              "start_index": 1257,
+              "end_index": 1482
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuNonAFeJVa3aurOpHIvqAgZmuL3ehAziWXsKQ_Muox0UbQpwmKzOb2uMVdsePF3DcX4xEd469aGxnAEEcyq2JwZZf1MqVHf0Y8TaZxazbxRFl-ym5e9nCMFMILs_i_NaD9qEgk13vqqJpIjaCAal4UPjoh-vM4FHgNO4uf9qbue5_nnoUYRp9wsukT3iSv-Z1J3cF8IcT0OyiwjEwq43DO3Q=",
+              "title": "microsoft.com",
+              "start_index": 1257,
+              "end_index": 1482
+            }
+          ]
+        }
+      ]
+    },
+    "text_contract_version": "purpose-description-functionality-v1",
+    "potential_training_overlap": [],
+    "note": "Preview only: catalog identity resolution/category reuse must precede model inference. No discovery labels changed."
+  },
+  {
+    "application_name": "microsoft teams",
+    "endpoint": "teams.microsoft.com",
+    "report_index": 0,
+    "is_ai_tool": false,
+    "ai_classification_status": "classified",
+    "preparation_status": "not_applicable",
+    "category": null,
+    "category_source": null,
+    "candidate_model_text": "Microsoft Teams is a cloud-based communication and collaboration platform integrated into the Microsoft 365 suite. Its primary purpose is to provide unified workspace communication through persistent 1:1 and channel-based chat, VoIP calling, and video conferencing. It also functions as a hub for real-time collaboration, integrating with Microsoft 365 apps (such as SharePoint, OneDrive, and Planner) for file sharing, calendar coordination, and workflow orchestration.\nMicrosoft Teams incorporates both standard baseline AI features and optional generative AI add-ons: * Standard Platform AI: Teams includes built-in AI-powered capabilities that do not require add-on licenses, such as AI voice isolation (background noise reduction and speaker detection), video feed optimization (auto-brightness, facial framing), and suggested chat replies. * Optional AI Add-ons: Advanced generative AI capabilities—including automated meeting summaries, action-item extraction, chat Q&A, and task-tailored agents—are provided through Microsoft Copilot in Teams or Teams Premium. These advanced features are optional and depend on additional licensing; they are not mandatory for core Teams communication.",
+    "model_input": null,
+    "description_only_text": "Microsoft Teams is a cloud-based communication and collaboration platform integrated into the Microsoft 365 suite. Its primary purpose is to provide unified workspace communication through persistent 1:1 and channel-based chat, VoIP calling, and video conferencing. It also functions as a hub for real-time collaboration, integrating with Microsoft 365 apps (such as SharePoint, OneDrive, and Planner) for file sharing, calendar coordination, and workflow orchestration.",
+    "extraction_status": "extracted",
+    "sections": {
+      "description": [
+        {
+          "text": "Microsoft Teams is a cloud-based communication and collaboration platform integrated into the Microsoft 365 suite. Its primary purpose is to provide unified workspace communication through persistent 1:1 and channel-based chat, VoIP calling, and video conferencing. It also functions as a hub for real-time collaboration, integrating with Microsoft 365 apps (such as SharePoint, OneDrive, and Planner) for file sharing, calendar coordination, and workflow orchestration.",
+          "block_index": 0,
+          "start": 370,
+          "end": 843,
+          "citations": [
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqsSG-W001X7foZCpLrZQRsavbtuKTa2RXcrDz45uhYcx-yS0EMhJwFXTHgdMVpI5UR1Rx_Pw6OC7fospL2gWvp0BFfD7e10A-TN3FoM8DvCcpF7kc-pr2ufdN8ithXlzSZBvb2rP5KtX8rXwBVhklp_DwO7iT0Z8RnBNsuEW4NGGdxi1wA_qHrgAwTkT9G63J",
+              "title": "microsoft.com",
+              "start_index": 371,
+              "end_index": 484
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvJ76qAn49GWI8Jl0Zdrq72OiUuMNOiM0qIyKYYh13tbmoz-X8vuxxWxWq43xe12H9H-lWMRi8mgDLNj5wSUsIciOZdmt0Rx2546p7yvEyKT9j8UouAhcyU9AMLqart8hWA5KA0Gf9",
+              "title": "netify.ai",
+              "start_index": 371,
+              "end_index": 484
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqsSG-W001X7foZCpLrZQRsavbtuKTa2RXcrDz45uhYcx-yS0EMhJwFXTHgdMVpI5UR1Rx_Pw6OC7fospL2gWvp0BFfD7e10A-TN3FoM8DvCcpF7kc-pr2ufdN8ithXlzSZBvb2rP5KtX8rXwBVhklp_DwO7iT0Z8RnBNsuEW4NGGdxi1wA_qHrgAwTkT9G63J",
+              "title": "microsoft.com",
+              "start_index": 486,
+              "end_index": 635
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBX_TttThMjZqvqzAlZc-C99QZOC8RTnpVikYbMKwIBreJieedNJPMitFmT6faDpFD0Xh_Yfl2fHgxq2nbqR9tqpX-HEafHjQNJcrn0LHckXgdu_Reyvy7jBLV5bwM1QlerDNgVrMf4ZLuhX6deMk57pVyPNSAduY1XFGVHpvhTAU=",
+              "title": "microsoft.com",
+              "start_index": 486,
+              "end_index": 635
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4h7R64lnuKOQAKq5KW9leZ-SM3FVZkgLl82G7zTTwlPdlvpapJSRJaHl4gCgry1ZLRWhy6XNRiOqTFH_8k353WvRoVWSU8VTXxxr2m421jV6hu_wTSGxRbqRFoxVRndRNuPW-PJEYr1E8qYLo4w==",
+              "title": "microsoft.com",
+              "start_index": 486,
+              "end_index": 635
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqsSG-W001X7foZCpLrZQRsavbtuKTa2RXcrDz45uhYcx-yS0EMhJwFXTHgdMVpI5UR1Rx_Pw6OC7fospL2gWvp0BFfD7e10A-TN3FoM8DvCcpF7kc-pr2ufdN8ithXlzSZBvb2rP5KtX8rXwBVhklp_DwO7iT0Z8RnBNsuEW4NGGdxi1wA_qHrgAwTkT9G63J",
+              "title": "microsoft.com",
+              "start_index": 637,
+              "end_index": 840
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4h7R64lnuKOQAKq5KW9leZ-SM3FVZkgLl82G7zTTwlPdlvpapJSRJaHl4gCgry1ZLRWhy6XNRiOqTFH_8k353WvRoVWSU8VTXxxr2m421jV6hu_wTSGxRbqRFoxVRndRNuPW-PJEYr1E8qYLo4w==",
+              "title": "microsoft.com",
+              "start_index": 637,
+              "end_index": 840
+            }
+          ]
+        }
+      ],
+      "functionality": [
+        {
+          "text": "Microsoft Teams incorporates both standard baseline AI features and optional generative AI add-ons: * Standard Platform AI: Teams includes built-in AI-powered capabilities that do not require add-on licenses, such as AI voice isolation (background noise reduction and speaker detection), video feed optimization (auto-brightness, facial framing), and suggested chat replies. * Optional AI Add-ons: Advanced generative AI capabilities—including automated meeting summaries, action-item extraction, chat Q&A, and task-tailored agents—are provided through Microsoft Copilot in Teams or Teams Premium. These advanced features are optional and depend on additional licensing; they are not mandatory for core Teams communication.",
+          "block_index": 0,
+          "start": 867,
+          "end": 1610,
+          "citations": [
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBX_TttThMjZqvqzAlZc-C99QZOC8RTnpVikYbMKwIBreJieedNJPMitFmT6faDpFD0Xh_Yfl2fHgxq2nbqR9tqpX-HEafHjQNJcrn0LHckXgdu_Reyvy7jBLV5bwM1QlerDNgVrMf4ZLuhX6deMk57pVyPNSAduY1XFGVHpvhTAU=",
+              "title": "microsoft.com",
+              "start_index": 970,
+              "end_index": 1245
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBX_TttThMjZqvqzAlZc-C99QZOC8RTnpVikYbMKwIBreJieedNJPMitFmT6faDpFD0Xh_Yfl2fHgxq2nbqR9tqpX-HEafHjQNJcrn0LHckXgdu_Reyvy7jBLV5bwM1QlerDNgVrMf4ZLuhX6deMk57pVyPNSAduY1XFGVHpvhTAU=",
+              "title": "microsoft.com",
+              "start_index": 1250,
+              "end_index": 1485
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQKT8YoytLhIW-H_TkOcvtzcmY4F7YISVZEhQJ6G2uYoMyrMbEi83p5CBOK60ysMoxz4UGt-w1_ef7tNNjrk97H_RoOsM9b287im0cGt5YbXzQLJP9H3FEOQCBdgme7GvR9DP77VTY0hinhukivBrtMm0O--qedmnaFMOs7hFY1MLkCLOxIkJruQ2XUxrbcIsw_0gfLnBLZ0O8uoImRW7PtllErQ==",
+              "title": "microsoft.com",
+              "start_index": 1250,
+              "end_index": 1485
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4h7R64lnuKOQAKq5KW9leZ-SM3FVZkgLl82G7zTTwlPdlvpapJSRJaHl4gCgry1ZLRWhy6XNRiOqTFH_8k353WvRoVWSU8VTXxxr2m421jV6hu_wTSGxRbqRFoxVRndRNuPW-PJEYr1E8qYLo4w==",
+              "title": "microsoft.com",
+              "start_index": 1250,
+              "end_index": 1485
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBX_TttThMjZqvqzAlZc-C99QZOC8RTnpVikYbMKwIBreJieedNJPMitFmT6faDpFD0Xh_Yfl2fHgxq2nbqR9tqpX-HEafHjQNJcrn0LHckXgdu_Reyvy7jBLV5bwM1QlerDNgVrMf4ZLuhX6deMk57pVyPNSAduY1XFGVHpvhTAU=",
+              "title": "microsoft.com",
+              "start_index": 1487,
+              "end_index": 1611
+            }
+          ]
+        }
+      ]
+    },
+    "text_contract_version": "purpose-description-functionality-v1",
+    "potential_training_overlap": [],
+    "note": "Preview only: catalog identity resolution/category reuse must precede model inference. No discovery labels changed."
+  },
+  {
+    "application_name": "midjourney",
+    "endpoint": "midjourney.com",
+    "report_index": 0,
+    "is_ai_tool": true,
+    "ai_classification_status": "classified",
+    "preparation_status": "ready_for_category_model",
+    "category": null,
+    "category_source": null,
+    "candidate_model_text": "Midjourney is a generative media platform developed and hosted by Midjourney, Inc. that creates visual media from natural language text prompts. The service allows users to generate, upscale, remix, and modify images either via its dedicated web interface or through commands in Discord. Documented platform features include prompt-based generation, region variation (inpainting), panning, style referencing, and character consistency controls.\nArtificial intelligence is the central, core functionality of Midjourney rather than an optional add-on. Documented capabilities center entirely on proprietary generative machine learning models (such as the Midjourney Image and Video model families) designed to parse user text inputs (prompts) and reference images to synthesize media. Additional documented generative features include parameter tuning, image remixing, style referencing (--sref), and character referencing (--cref).",
+    "model_input": "Midjourney is a generative media platform developed and hosted by Midjourney, Inc. that creates visual media from natural language text prompts. The service allows users to generate, upscale, remix, and modify images either via its dedicated web interface or through commands in Discord. Documented platform features include prompt-based generation, region variation (inpainting), panning, style referencing, and character consistency controls.\nArtificial intelligence is the central, core functionality of Midjourney rather than an optional add-on. Documented capabilities center entirely on proprietary generative machine learning models (such as the Midjourney Image and Video model families) designed to parse user text inputs (prompts) and reference images to synthesize media. Additional documented generative features include parameter tuning, image remixing, style referencing (--sref), and character referencing (--cref).",
+    "description_only_text": "Midjourney is a generative media platform developed and hosted by Midjourney, Inc. that creates visual media from natural language text prompts. The service allows users to generate, upscale, remix, and modify images either via its dedicated web interface or through commands in Discord. Documented platform features include prompt-based generation, region variation (inpainting), panning, style referencing, and character consistency controls.",
+    "extraction_status": "extracted",
+    "sections": {
+      "description": [
+        {
+          "text": "Midjourney is a generative media platform developed and hosted by Midjourney, Inc. that creates visual media from natural language text prompts. The service allows users to generate, upscale, remix, and modify images either via its dedicated web interface or through commands in Discord. Documented platform features include prompt-based generation, region variation (inpainting), panning, style referencing, and character consistency controls.",
+          "block_index": 0,
+          "start": 346,
+          "end": 793,
+          "citations": [
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrYewaDK7JnKUYBf65a1wfppsSWDKq_gLiYOhzCPYBPYsnCNwq6a99DBdGjpT7kfghKR2eqUip_PGuMINwqEHj1n5O0dgi3G_5FFDiHwqjz-7Ey2v6hICDo2AqC_Lh",
+              "title": "wikipedia.org",
+              "start_index": 347,
+              "end_index": 490
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6JAoyG4eeYP2pzbkdReltjfZwBTTRcAyUqkRfXVo-glQRqr2Lsc-ibGxoqwri52xUunTX_DRvOC2xR99H0WVCVKuZxrxXcWUPr6fyYuqRXwAhLD7SvyokWP96Ap1nQunOj0Foil1zIDowDSisEtxYe_CtpABj9PpCpS846fgSmmpZRA==",
+              "title": "midjourney.com",
+              "start_index": 347,
+              "end_index": 490
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrYewaDK7JnKUYBf65a1wfppsSWDKq_gLiYOhzCPYBPYsnCNwq6a99DBdGjpT7kfghKR2eqUip_PGuMINwqEHj1n5O0dgi3G_5FFDiHwqjz-7Ey2v6hICDo2AqC_Lh",
+              "title": "wikipedia.org",
+              "start_index": 492,
+              "end_index": 633
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6JAoyG4eeYP2pzbkdReltjfZwBTTRcAyUqkRfXVo-glQRqr2Lsc-ibGxoqwri52xUunTX_DRvOC2xR99H0WVCVKuZxrxXcWUPr6fyYuqRXwAhLD7SvyokWP96Ap1nQunOj0Foil1zIDowDSisEtxYe_CtpABj9PpCpS846fgSmmpZRA==",
+              "title": "midjourney.com",
+              "start_index": 492,
+              "end_index": 633
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrYewaDK7JnKUYBf65a1wfppsSWDKq_gLiYOhzCPYBPYsnCNwq6a99DBdGjpT7kfghKR2eqUip_PGuMINwqEHj1n5O0dgi3G_5FFDiHwqjz-7Ey2v6hICDo2AqC_Lh",
+              "title": "wikipedia.org",
+              "start_index": 635,
+              "end_index": 790
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrYewaDK7JnKUYBf65a1wfppsSWDKq_gLiYOhzCPYBPYsnCNwq6a99DBdGjpT7kfghKR2eqUip_PGuMINwqEHj1n5O0dgi3G_5FFDiHwqjz-7Ey2v6hICDo2AqC_Lh",
+              "title": "wikipedia.org",
+              "start_index": 635,
+              "end_index": 790
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAHOAv5ebioFfsrliAOJRBgcnjqR49fnBJJYX2fdDhY7GVxAhKHgjvi8UvOqYhcqKEzlAcJNIc_nmUdNSI1Jmjhhn05yrtHlj_1IpyBP9cZPa0qQ45-g==",
+              "title": "notion.site",
+              "start_index": 635,
+              "end_index": 790
+            }
+          ]
+        }
+      ],
+      "functionality": [
+        {
+          "text": "Artificial intelligence is the central, core functionality of Midjourney rather than an optional add-on. Documented capabilities center entirely on proprietary generative machine learning models (such as the Midjourney Image and Video model families) designed to parse user text inputs (prompts) and reference images to synthesize media. Additional documented generative features include parameter tuning, image remixing, style referencing (--sref), and character referencing (--cref).",
+          "block_index": 0,
+          "start": 816,
+          "end": 1308,
+          "citations": [
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrYewaDK7JnKUYBf65a1wfppsSWDKq_gLiYOhzCPYBPYsnCNwq6a99DBdGjpT7kfghKR2eqUip_PGuMINwqEHj1n5O0dgi3G_5FFDiHwqjz-7Ey2v6hICDo2AqC_Lh",
+              "title": "wikipedia.org",
+              "start_index": 817,
+              "end_index": 920
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpLAfitgJL4KwCzxM5o6A0wT3JxdQozumVW76SwiZsHkl-J4MI3S3d_8ZpKuPKb2qbJYKebZNaGo-neEmtPcjh7XNTbT0IYXovFXXncEmbEhDE6kYvigbDjE3nfJO6tPxVHveS1uCPM0_munJFwL5DC3LXQ47DZLrnQo_aQ0h4TZ0=",
+              "title": "midjourney.com",
+              "start_index": 817,
+              "end_index": 920
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrYewaDK7JnKUYBf65a1wfppsSWDKq_gLiYOhzCPYBPYsnCNwq6a99DBdGjpT7kfghKR2eqUip_PGuMINwqEHj1n5O0dgi3G_5FFDiHwqjz-7Ey2v6hICDo2AqC_Lh",
+              "title": "wikipedia.org",
+              "start_index": 922,
+              "end_index": 1153
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6JAoyG4eeYP2pzbkdReltjfZwBTTRcAyUqkRfXVo-glQRqr2Lsc-ibGxoqwri52xUunTX_DRvOC2xR99H0WVCVKuZxrxXcWUPr6fyYuqRXwAhLD7SvyokWP96Ap1nQunOj0Foil1zIDowDSisEtxYe_CtpABj9PpCpS846fgSmmpZRA==",
+              "title": "midjourney.com",
+              "start_index": 922,
+              "end_index": 1153
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRsgd8HcMXEvRSEFcxltqOoqONzVRE6nhmvaDVOYnxDlt7qiL91ZIUK9dPjrEaSycjRH1kTi6eEmYzHB1kg2zC5vi7KpvyDtdV4_okmHsWJcc82WTm_om7kpZgvJ1lKQiCzsRCla_tuOOEyaqheA6UiIPz-luubynmDxnbwX-LBKw8_6VmoLoA124eY2B-9WgEVPJfkw==",
+              "title": "midjourney.com",
+              "start_index": 922,
+              "end_index": 1153
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrYewaDK7JnKUYBf65a1wfppsSWDKq_gLiYOhzCPYBPYsnCNwq6a99DBdGjpT7kfghKR2eqUip_PGuMINwqEHj1n5O0dgi3G_5FFDiHwqjz-7Ey2v6hICDo2AqC_Lh",
+              "title": "wikipedia.org",
+              "start_index": 1155,
+              "end_index": 1305
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAHOAv5ebioFfsrliAOJRBgcnjqR49fnBJJYX2fdDhY7GVxAhKHgjvi8UvOqYhcqKEzlAcJNIc_nmUdNSI1Jmjhhn05yrtHlj_1IpyBP9cZPa0qQ45-g==",
+              "title": "notion.site",
+              "start_index": 1155,
+              "end_index": 1305
+            }
+          ]
+        }
+      ]
+    },
+    "text_contract_version": "purpose-description-functionality-v1",
+    "potential_training_overlap": [],
+    "note": "Preview only: catalog identity resolution/category reuse must precede model inference. No discovery labels changed."
+  },
+  {
+    "application_name": "vs code",
+    "endpoint": "code.visualstudio.com",
+    "report_index": 0,
+    "is_ai_tool": false,
+    "ai_classification_status": "classified",
+    "preparation_status": "not_applicable",
+    "category": null,
+    "category_source": null,
+    "candidate_model_text": "Visual Studio Code is a cross-platform source code editor developed by Microsoft for Windows, macOS, and Linux. It provides tools across the software development lifecycle, including syntax highlighting, IntelliSense code completion, an integrated terminal, interactive debugging, and built-in Git source control. VS Code functions as an extensible workbench that developers can customize with language runtimes, toolchains, remote development environments, and community-built extensions. ---\nVS Code documents integrations for AI-assisted development, such as inline code suggestions, an integrated chat panel, and agent-based workflows that can inspect codebases, execute terminal commands, and draft file edits. These AI capabilities are optional features rather than central to the editor's operation. The core editor operates fully as a traditional text and code editor without an AI account, assistant, or internet-connected language model. Advanced AI workflows operate via external extensions or agent harnesses (such as GitHub Copilot or third-party model providers via custom API keys) rather than being mandatory platform dependencies. ---",
+    "model_input": null,
+    "description_only_text": "Visual Studio Code is a cross-platform source code editor developed by Microsoft for Windows, macOS, and Linux. It provides tools across the software development lifecycle, including syntax highlighting, IntelliSense code completion, an integrated terminal, interactive debugging, and built-in Git source control. VS Code functions as an extensible workbench that developers can customize with language runtimes, toolchains, remote development environments, and community-built extensions. ---",
+    "extraction_status": "extracted",
+    "sections": {
+      "description": [
+        {
+          "text": "Visual Studio Code is a cross-platform source code editor developed by Microsoft for Windows, macOS, and Linux. It provides tools across the software development lifecycle, including syntax highlighting, IntelliSense code completion, an integrated terminal, interactive debugging, and built-in Git source control. VS Code functions as an extensible workbench that developers can customize with language runtimes, toolchains, remote development environments, and community-built extensions. ---",
+          "block_index": 0,
+          "start": 320,
+          "end": 817,
+          "citations": [
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3DexY5MJPbtefCR6ahq0PxKI4oBmZM12a5WgLR8woHwtLGJnPqIZnVaO249IknY5bKkCNCqrb84VlEmwx9SkYoF0cQcmdXb1hkX31ULUgBVjVKNF_Wfk0U1dDiSut2Q==",
+              "title": "visualstudio.com",
+              "start_index": 321,
+              "end_index": 431
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHL70dWolG176kWHC8zIRoKOr6pe9B-CUyUg7rT6VhRT8JdONG7BwmskqiZGwN0KOjDQLE75UF05XtihV1DJ4GtJpdE3w6Ck6s7aLxn9AV2BB9fQtFhBxxV3-LOH9D_dcONP91Rdbn2vO5cKQbp_a8b-oERgKL0yDKD",
+              "title": "visualstudio.com",
+              "start_index": 321,
+              "end_index": 431
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHL70dWolG176kWHC8zIRoKOr6pe9B-CUyUg7rT6VhRT8JdONG7BwmskqiZGwN0KOjDQLE75UF05XtihV1DJ4GtJpdE3w6Ck6s7aLxn9AV2BB9fQtFhBxxV3-LOH9D_dcONP91Rdbn2vO5cKQbp_a8b-oERgKL0yDKD",
+              "title": "visualstudio.com",
+              "start_index": 433,
+              "end_index": 633
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzp1Ezmp5lc7BKnz21umDveNLayzEFuYgx2NuDv7J420rzWCB1mglle0YeRoUZvAZDbAaXms2oA_A42D9w-_g_ddnrGHfm1ODC-IF3KXbg2rjJx788Hq3r1XNJ3jSg8YBawebHygmowksmSQ==",
+              "title": "visualstudio.com",
+              "start_index": 433,
+              "end_index": 633
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHL70dWolG176kWHC8zIRoKOr6pe9B-CUyUg7rT6VhRT8JdONG7BwmskqiZGwN0KOjDQLE75UF05XtihV1DJ4GtJpdE3w6Ck6s7aLxn9AV2BB9fQtFhBxxV3-LOH9D_dcONP91Rdbn2vO5cKQbp_a8b-oERgKL0yDKD",
+              "title": "visualstudio.com",
+              "start_index": 635,
+              "end_index": 809
+            }
+          ]
+        }
+      ],
+      "functionality": [
+        {
+          "text": "VS Code documents integrations for AI-assisted development, such as inline code suggestions, an integrated chat panel, and agent-based workflows that can inspect codebases, execute terminal commands, and draft file edits. These AI capabilities are optional features rather than central to the editor's operation. The core editor operates fully as a traditional text and code editor without an AI account, assistant, or internet-connected language model. Advanced AI workflows operate via external extensions or agent harnesses (such as GitHub Copilot or third-party model providers via custom API keys) rather than being mandatory platform dependencies. ---",
+          "block_index": 0,
+          "start": 840,
+          "end": 1507,
+          "citations": [
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGn04AiNjkoF5oS5yoc5ZYzJDC2wNwodNCUXZckHbTB88Y3nBvnvDqAEegMEX_yHV394CHWYjM8KYsU4oF_z325Ewi9vdrMOijai-7IoyahDi49CgZnjnHYXAf1_QFowYw6a4Utwkt2A6AFQbiciD7AZUn4asfk2lzy6dynZyA=",
+              "title": "visualstudio.com",
+              "start_index": 841,
+              "end_index": 1061
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtSDLC0GR1SxYGoYGtkn_RQ23j1zeEs9yCT1V4dVYeTs3667NWBZhcbHWmjkurEoYvcUj15_fOlYgjEd08GaJfAzZ_Nmvx-BzLiRhvKhAHYWadk-t7dKzQvTMY1RKFoSahLpvW--OhhQ==",
+              "title": "visualstudio.com",
+              "start_index": 841,
+              "end_index": 1061
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFZuOxAZutGuA51X2byxGpE8Du1wnL8vatq7BbNbj29Lj-Pv-bCZmfoZGe-lYrk2fKAC_TQvTFFIbyGpZyX3b60A2zYj49qzx07Q_xO6oko7WpnRrszHWGhKV3nr6wwHzdNqYwpGOO4kV7CcOKaG0=",
+              "title": "visualstudio.com",
+              "start_index": 841,
+              "end_index": 1061
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCqn6FAWoeo8Pq7CzdO1_4vifQVyCP2SCcPH-7av7WdW4t191T8SkbjOVhDaOW2JyeD5AorWo-8exh3t03JMxMnn343blKJ7jRV10hDX-llxpTxtI0TslCKiUSlM11FhT0Sip0Y8xG_e1glYK8XQ-2WeKpyaCfRhfwHOt5SU3zEA==",
+              "title": "visualstudio.com",
+              "start_index": 1065,
+              "end_index": 1158
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCqn6FAWoeo8Pq7CzdO1_4vifQVyCP2SCcPH-7av7WdW4t191T8SkbjOVhDaOW2JyeD5AorWo-8exh3t03JMxMnn343blKJ7jRV10hDX-llxpTxtI0TslCKiUSlM11FhT0Sip0Y8xG_e1glYK8XQ-2WeKpyaCfRhfwHOt5SU3zEA==",
+              "title": "visualstudio.com",
+              "start_index": 1160,
+              "end_index": 1299
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtSDLC0GR1SxYGoYGtkn_RQ23j1zeEs9yCT1V4dVYeTs3667NWBZhcbHWmjkurEoYvcUj15_fOlYgjEd08GaJfAzZ_Nmvx-BzLiRhvKhAHYWadk-t7dKzQvTMY1RKFoSahLpvW--OhhQ==",
+              "title": "visualstudio.com",
+              "start_index": 1301,
+              "end_index": 1499
+            }
+          ]
+        }
+      ]
+    },
+    "text_contract_version": "purpose-description-functionality-v1",
+    "potential_training_overlap": [],
+    "note": "Preview only: catalog identity resolution/category reuse must precede model inference. No discovery labels changed."
+  }
+]

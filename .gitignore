@@ -3,6 +3,10 @@
 .env.*
 !.env.example
 
+# Local virtual environments (never commit these)
+.venv/
+.venv-*/
+
 # Local downloaded encoder and derived full-catalog vectors
 /artifacts/embedding_cache/
 **/__pycache__/

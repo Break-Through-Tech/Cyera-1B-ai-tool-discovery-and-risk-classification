@@ -1,0 +1,3054 @@
+{
+  "winner": "tfidf",
+  "selection": "development_cv_only",
+  "labels": [
+    "Ai And Machine Learning",
+    "Business And Finance",
+    "Communication And Support",
+    "Creative And Entertainment",
+    "Data And Analytics",
+    "Education And Learning",
+    "Industry Specific",
+    "Marketing And Sales",
+    "Media And Content Creation",
+    "Operations And Management",
+    "Personal And Lifestyle",
+    "Security And Privacy",
+    "Specialized Technologies",
+    "Technology And Development"
+  ],
+  "development_rows": 13403,
+  "test_rows": 3348,
+  "models": {
+    "tfidf": {
+      "development_cv": {
+        "model": "tfidf",
+        "C": 2.0,
+        "class_weight": "balanced",
+        "cv_macro_f1": 0.7130470239599446,
+        "cv_group_weighted_macro_f1": 0.709975112210444,
+        "cv_accuracy": 0.7474446019547862,
+        "seconds": 20.89
+      },
+      "test": {
+        "rows": 3348,
+        "groups": 3274,
+        "accuracy": 0.7613500597371565,
+        "macro_f1": 0.734984245473966,
+        "group_weighted_macro_f1": 0.7328432276385123,
+        "per_category": {
+          "Ai And Machine Learning": {
+            "precision": 0.6296296296296297,
+            "recall": 0.5396825396825397,
+            "f1-score": 0.5811965811965812,
+            "support": 252.0
+          },
+          "Business And Finance": {
+            "precision": 0.7525252525252525,
+            "recall": 0.764102564102564,
+            "f1-score": 0.7582697201017812,
+            "support": 195.0
+          },
+          "Communication And Support": {
+            "precision": 0.8249336870026526,
+            "recall": 0.7641277641277642,
+            "f1-score": 0.7933673469387755,
+            "support": 407.0
+          },
+          "Creative And Entertainment": {
+            "precision": 0.7094594594594594,
+            "recall": 0.8677685950413223,
+            "f1-score": 0.7806691449814126,
+            "support": 121.0
+          },
+          "Data And Analytics": {
+            "precision": 0.680628272251309,
+            "recall": 0.7926829268292683,
+            "f1-score": 0.7323943661971831,
+            "support": 164.0
+          },
+          "Education And Learning": {
+            "precision": 0.581081081081081,
+            "recall": 0.8958333333333334,
+            "f1-score": 0.7049180327868853,
+            "support": 48.0
+          },
+          "Industry Specific": {
+            "precision": 0.6666666666666666,
+            "recall": 0.7941176470588235,
+            "f1-score": 0.7248322147651006,
+            "support": 68.0
+          },
+          "Marketing And Sales": {
+            "precision": 0.7363344051446945,
+            "recall": 0.8207885304659498,
+            "f1-score": 0.7762711864406779,
+            "support": 279.0
+          },
+          "Media And Content Creation": {
+            "precision": 0.8760631834750912,
+            "recall": 0.8383720930232558,
+            "f1-score": 0.8568033273915627,
+            "support": 860.0
+          },
+          "Operations And Management": {
+            "precision": 0.7549019607843137,
+            "recall": 0.7451612903225806,
+            "f1-score": 0.75,
+            "support": 310.0
+          },
+          "Personal And Lifestyle": {
+            "precision": 0.6833333333333333,
+            "recall": 0.8723404255319149,
+            "f1-score": 0.7663551401869159,
+            "support": 47.0
+          },
+          "Security And Privacy": {
+            "precision": 0.6808510638297872,
+            "recall": 0.8205128205128205,
+            "f1-score": 0.7441860465116279,
+            "support": 39.0
+          },
+          "Specialized Technologies": {
+            "precision": 0.632183908045977,
+            "recall": 0.5392156862745098,
+            "f1-score": 0.582010582010582,
+            "support": 204.0
+          },
+          "Technology And Development": {
+            "precision": 0.7514619883040936,
+            "recall": 0.7259887005649718,
+            "f1-score": 0.7385057471264368,
+            "support": 354.0
+          },
+          "accuracy": 0.7613500597371565,
+          "macro avg": {
+            "precision": 0.7114324208238101,
+            "recall": 0.7700496369194013,
+            "f1-score": 0.734984245473966,
+            "support": 3348.0
+          },
+          "weighted avg": {
+            "precision": 0.7641499766763286,
+            "recall": 0.7613500597371565,
+            "f1-score": 0.7604709098123364,
+            "support": 3348.0
+          }
+        },
+        "confusion_matrix": [
+          [
+            136,
+            8,
+            19,
+            0,
+            7,
+            4,
+            3,
+            6,
+            23,
+            17,
+            2,
+            4,
+            5,
+            18
+          ],
+          [
+            4,
+            149,
+            5,
+            1,
+            6,
+            1,
+            3,
+            8,
+            3,
+            3,
+            0,
+            4,
+            2,
+            6
+          ],
+          [
+            10,
+            7,
+            311,
+            1,
+            7,
+            4,
+            8,
+            9,
+            7,
+            13,
+            12,
+            0,
+            14,
+            4
+          ],
+          [
+            0,
+            1,
+            1,
+            105,
+            0,
+            0,
+            1,
+            2,
+            8,
+            2,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            10,
+            2,
+            3,
+            0,
+            130,
+            1,
+            0,
+            6,
+            6,
+            1,
+            0,
+            0,
+            1,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            43,
+            0,
+            2,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            2,
+            0,
+            1,
+            0,
+            2,
+            54,
+            0,
+            2,
+            1,
+            0,
+            0,
+            6,
+            0
+          ],
+          [
+            4,
+            8,
+            8,
+            2,
+            1,
+            0,
+            0,
+            229,
+            18,
+            1,
+            0,
+            0,
+            2,
+            6
+          ],
+          [
+            14,
+            2,
+            6,
+            33,
+            6,
+            5,
+            2,
+            32,
+            721,
+            10,
+            1,
+            3,
+            14,
+            11
+          ],
+          [
+            8,
+            9,
+            9,
+            0,
+            9,
+            1,
+            5,
+            6,
+            11,
+            231,
+            1,
+            0,
+            7,
+            13
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            41,
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            32,
+            0,
+            2
+          ],
+          [
+            12,
+            7,
+            5,
+            4,
+            8,
+            3,
+            5,
+            4,
+            13,
+            10,
+            3,
+            2,
+            110,
+            18
+          ],
+          [
+            18,
+            2,
+            9,
+            1,
+            15,
+            10,
+            0,
+            7,
+            9,
+            14,
+            0,
+            2,
+            10,
+            257
+          ]
+        ],
+        "subsets": {
+          "description_plus_primary_task": {
+            "rows": 3246,
+            "groups": 3210,
+            "accuracy": 0.7587800369685767,
+            "macro_f1": 0.7323319292326579,
+            "group_weighted_macro_f1": 0.7320322812697934,
+            "per_category": {
+              "Ai And Machine Learning": {
+                "precision": 0.6280193236714976,
+                "recall": 0.5327868852459017,
+                "f1-score": 0.5764966740576497,
+                "support": 244.0
+              },
+              "Business And Finance": {
+                "precision": 0.7393617021276596,
+                "recall": 0.7513513513513513,
+                "f1-score": 0.7453083109919572,
+                "support": 185.0
+              },
+              "Communication And Support": {
+                "precision": 0.8206521739130435,
+                "recall": 0.7645569620253164,
+                "f1-score": 0.7916120576671035,
+                "support": 395.0
+              },
+              "Creative And Entertainment": {
+                "precision": 0.7191780821917808,
+                "recall": 0.8677685950413223,
+                "f1-score": 0.7865168539325843,
+                "support": 121.0
+              },
+              "Data And Analytics": {
+                "precision": 0.6808510638297872,
+                "recall": 0.7950310559006211,
+                "f1-score": 0.7335243553008596,
+                "support": 161.0
+              },
+              "Education And Learning": {
+                "precision": 0.581081081081081,
+                "recall": 0.8958333333333334,
+                "f1-score": 0.7049180327868853,
+                "support": 48.0
+              },
+              "Industry Specific": {
+                "precision": 0.6582278481012658,
+                "recall": 0.8,
+                "f1-score": 0.7222222222222222,
+                "support": 65.0
+              },
+              "Marketing And Sales": {
+                "precision": 0.7248322147651006,
+                "recall": 0.8181818181818182,
+                "f1-score": 0.7686832740213523,
+                "support": 264.0
+              },
+              "Media And Content Creation": {
+                "precision": 0.8746898263027295,
+                "recall": 0.83729216152019,
+                "f1-score": 0.8555825242718447,
+                "support": 842.0
+              },
+              "Operations And Management": {
+                "precision": 0.7466216216216216,
+                "recall": 0.7391304347826086,
+                "f1-score": 0.7428571428571429,
+                "support": 299.0
+              },
+              "Personal And Lifestyle": {
+                "precision": 0.6949152542372882,
+                "recall": 0.8723404255319149,
+                "f1-score": 0.7735849056603774,
+                "support": 47.0
+              },
+              "Security And Privacy": {
+                "precision": 0.6739130434782609,
+                "recall": 0.8157894736842105,
+                "f1-score": 0.7380952380952381,
+                "support": 38.0
+              },
+              "Specialized Technologies": {
+                "precision": 0.6319018404907976,
+                "recall": 0.5309278350515464,
+                "f1-score": 0.5770308123249299,
+                "support": 194.0
+              },
+              "Technology And Development": {
+                "precision": 0.7530487804878049,
+                "recall": 0.7201166180758017,
+                "f1-score": 0.736214605067064,
+                "support": 343.0
+              },
+              "accuracy": 0.7587800369685767,
+              "macro avg": {
+                "precision": 0.7090924183071229,
+                "recall": 0.767221924980424,
+                "f1-score": 0.7323319292326579,
+                "support": 3246.0
+              },
+              "weighted avg": {
+                "precision": 0.7614692897347498,
+                "recall": 0.7587800369685767,
+                "f1-score": 0.7577323818746434,
+                "support": 3246.0
+              }
+            },
+            "confusion_matrix": [
+              [
+                130,
+                8,
+                19,
+                0,
+                7,
+                4,
+                3,
+                6,
+                23,
+                17,
+                1,
+                4,
+                5,
+                17
+              ],
+              [
+                4,
+                139,
+                5,
+                1,
+                6,
+                1,
+                3,
+                8,
+                3,
+                3,
+                0,
+                4,
+                2,
+                6
+              ],
+              [
+                10,
+                7,
+                302,
+                1,
+                7,
+                4,
+                8,
+                9,
+                7,
+                13,
+                12,
+                0,
+                11,
+                4
+              ],
+              [
+                0,
+                1,
+                1,
+                105,
+                0,
+                0,
+                1,
+                2,
+                8,
+                2,
+                0,
+                0,
+                0,
+                1
+              ],
+              [
+                9,
+                2,
+                3,
+                0,
+                128,
+                1,
+                0,
+                6,
+                6,
+                1,
+                0,
+                0,
+                1,
+                4
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                43,
+                0,
+                2,
+                1,
+                0,
+                0,
+                0,
+                1,
+                1
+              ],
+              [
+                0,
+                2,
+                0,
+                1,
+                0,
+                2,
+                52,
+                0,
+                2,
+                1,
+                0,
+                0,
+                5,
+                0
+              ],
+              [
+                4,
+                8,
+                8,
+                2,
+                1,
+                0,
+                0,
+                216,
+                18,
+                1,
+                0,
+                0,
+                2,
+                4
+              ],
+              [
+                14,
+                2,
+                6,
+                31,
+                6,
+                5,
+                2,
+                32,
+                705,
+                10,
+                1,
+                3,
+                14,
+                11
+              ],
+              [
+                8,
+                9,
+                9,
+                0,
+                9,
+                1,
+                5,
+                6,
+                11,
+                221,
+                1,
+                0,
+                7,
+                12
+              ],
+              [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                2,
+                41,
+                0,
+                2,
+                1
+              ],
+              [
+                0,
+                1,
+                0,
+                0,
+                2,
+                0,
+                0,
+                0,
+                1,
+                1,
+                0,
+                31,
+                0,
+                2
+              ],
+              [
+                11,
+                7,
+                5,
+                4,
+                7,
+                3,
+                5,
+                4,
+                12,
+                10,
+                3,
+                2,
+                103,
+                18
+              ],
+              [
+                17,
+                2,
+                9,
+                1,
+                15,
+                10,
+                0,
+                7,
+                9,
+                14,
+                0,
+                2,
+                10,
+                247
+              ]
+            ]
+          },
+          "description_only": null,
+          "primary_task_only": {
+            "rows": 102,
+            "groups": 68,
+            "accuracy": 0.8431372549019608,
+            "macro_f1": 0.6636854741896759,
+            "group_weighted_macro_f1": 0.6320949591957995,
+            "per_category": {
+              "Ai And Machine Learning": {
+                "precision": 0.6666666666666666,
+                "recall": 0.75,
+                "f1-score": 0.7058823529411765,
+                "support": 8.0
+              },
+              "Business And Finance": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1-score": 1.0,
+                "support": 10.0
+              },
+              "Communication And Support": {
+                "precision": 1.0,
+                "recall": 0.75,
+                "f1-score": 0.8571428571428571,
+                "support": 12.0
+              },
+              "Creative And Entertainment": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 0.0
+              },
+              "Data And Analytics": {
+                "precision": 0.6666666666666666,
+                "recall": 0.6666666666666666,
+                "f1-score": 0.6666666666666666,
+                "support": 3.0
+              },
+              "Education And Learning": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 0.0
+              },
+              "Industry Specific": {
+                "precision": 1.0,
+                "recall": 0.6666666666666666,
+                "f1-score": 0.8,
+                "support": 3.0
+              },
+              "Marketing And Sales": {
+                "precision": 1.0,
+                "recall": 0.8666666666666667,
+                "f1-score": 0.9285714285714286,
+                "support": 15.0
+              },
+              "Media And Content Creation": {
+                "precision": 0.9411764705882353,
+                "recall": 0.8888888888888888,
+                "f1-score": 0.9142857142857143,
+                "support": 18.0
+              },
+              "Operations And Management": {
+                "precision": 1.0,
+                "recall": 0.9090909090909091,
+                "f1-score": 0.9523809523809523,
+                "support": 11.0
+              },
+              "Personal And Lifestyle": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 0.0
+              },
+              "Security And Privacy": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1-score": 1.0,
+                "support": 1.0
+              },
+              "Specialized Technologies": {
+                "precision": 0.6363636363636364,
+                "recall": 0.7,
+                "f1-score": 0.6666666666666666,
+                "support": 10.0
+              },
+              "Technology And Development": {
+                "precision": 0.7142857142857143,
+                "recall": 0.9090909090909091,
+                "f1-score": 0.8,
+                "support": 11.0
+              },
+              "accuracy": 0.8431372549019608,
+              "macro avg": {
+                "precision": 0.687511368183637,
+                "recall": 0.6505050505050505,
+                "f1-score": 0.6636854741896759,
+                "support": 102.0
+              },
+              "weighted avg": {
+                "precision": 0.8872087159284391,
+                "recall": 0.8431372549019608,
+                "f1-score": 0.8594249464491679,
+                "support": 102.0
+              }
+            },
+            "confusion_matrix": [
+              [
+                6,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                10,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                9,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                3,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0,
+                0,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                13,
+                0,
+                0,
+                0,
+                0,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                2,
+                0,
+                0,
+                0,
+                0,
+                16,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                10,
+                0,
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                7,
+                0
+              ],
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                10
+              ]
+            ]
+          }
+        }
+      }
+    },
+    "embeddings": {
+      "development_cv": {
+        "model": "embeddings",
+        "C": 2.0,
+        "class_weight": "none",
+        "cv_macro_f1": 0.5644262881765364,
+        "cv_group_weighted_macro_f1": 0.55955447017741,
+        "cv_accuracy": 0.6450048496605237,
+        "seconds": 2.88
+      },
+      "test": {
+        "rows": 3348,
+        "groups": 3274,
+        "accuracy": 0.6499402628434886,
+        "macro_f1": 0.6034738727389639,
+        "group_weighted_macro_f1": 0.6006858429026495,
+        "per_category": {
+          "Ai And Machine Learning": {
+            "precision": 0.4470588235294118,
+            "recall": 0.30158730158730157,
+            "f1-score": 0.36018957345971564,
+            "support": 252.0
+          },
+          "Business And Finance": {
+            "precision": 0.6818181818181818,
+            "recall": 0.6923076923076923,
+            "f1-score": 0.6870229007633588,
+            "support": 195.0
+          },
+          "Communication And Support": {
+            "precision": 0.642691415313225,
+            "recall": 0.6805896805896806,
+            "f1-score": 0.6610978520286396,
+            "support": 407.0
+          },
+          "Creative And Entertainment": {
+            "precision": 0.7777777777777778,
+            "recall": 0.5785123966942148,
+            "f1-score": 0.6635071090047393,
+            "support": 121.0
+          },
+          "Data And Analytics": {
+            "precision": 0.6308724832214765,
+            "recall": 0.573170731707317,
+            "f1-score": 0.6006389776357828,
+            "support": 164.0
+          },
+          "Education And Learning": {
+            "precision": 0.56,
+            "recall": 0.5833333333333334,
+            "f1-score": 0.5714285714285714,
+            "support": 48.0
+          },
+          "Industry Specific": {
+            "precision": 0.5892857142857143,
+            "recall": 0.4852941176470588,
+            "f1-score": 0.532258064516129,
+            "support": 68.0
+          },
+          "Marketing And Sales": {
+            "precision": 0.6819787985865724,
+            "recall": 0.6917562724014337,
+            "f1-score": 0.6868327402135231,
+            "support": 279.0
+          },
+          "Media And Content Creation": {
+            "precision": 0.7428571428571429,
+            "recall": 0.8767441860465116,
+            "f1-score": 0.8042666666666667,
+            "support": 860.0
+          },
+          "Operations And Management": {
+            "precision": 0.5714285714285714,
+            "recall": 0.5548387096774193,
+            "f1-score": 0.563011456628478,
+            "support": 310.0
+          },
+          "Personal And Lifestyle": {
+            "precision": 0.6578947368421053,
+            "recall": 0.5319148936170213,
+            "f1-score": 0.5882352941176471,
+            "support": 47.0
+          },
+          "Security And Privacy": {
+            "precision": 0.75,
+            "recall": 0.7692307692307693,
+            "f1-score": 0.759493670886076,
+            "support": 39.0
+          },
+          "Specialized Technologies": {
+            "precision": 0.3974358974358974,
+            "recall": 0.30392156862745096,
+            "f1-score": 0.34444444444444444,
+            "support": 204.0
+          },
+          "Technology And Development": {
+            "precision": 0.6118598382749326,
+            "recall": 0.6412429378531074,
+            "f1-score": 0.6262068965517241,
+            "support": 354.0
+          },
+          "accuracy": 0.6499402628434886,
+          "macro avg": {
+            "precision": 0.6244970986693579,
+            "recall": 0.5903174708085936,
+            "f1-score": 0.6034738727389639,
+            "support": 3348.0
+          },
+          "weighted avg": {
+            "precision": 0.6379429047821934,
+            "recall": 0.6499402628434886,
+            "f1-score": 0.6401600285889092,
+            "support": 3348.0
+          }
+        },
+        "confusion_matrix": [
+          [
+            76,
+            6,
+            31,
+            0,
+            7,
+            2,
+            3,
+            9,
+            55,
+            22,
+            0,
+            0,
+            12,
+            29
+          ],
+          [
+            0,
+            135,
+            14,
+            0,
+            4,
+            0,
+            2,
+            13,
+            7,
+            12,
+            0,
+            1,
+            3,
+            4
+          ],
+          [
+            15,
+            8,
+            277,
+            2,
+            9,
+            5,
+            5,
+            12,
+            21,
+            27,
+            3,
+            0,
+            17,
+            6
+          ],
+          [
+            0,
+            0,
+            1,
+            70,
+            0,
+            0,
+            2,
+            0,
+            40,
+            2,
+            0,
+            0,
+            5,
+            1
+          ],
+          [
+            9,
+            12,
+            7,
+            0,
+            94,
+            0,
+            0,
+            10,
+            13,
+            5,
+            0,
+            1,
+            3,
+            10
+          ],
+          [
+            0,
+            1,
+            2,
+            0,
+            0,
+            28,
+            0,
+            1,
+            3,
+            1,
+            0,
+            0,
+            6,
+            6
+          ],
+          [
+            2,
+            7,
+            3,
+            0,
+            1,
+            1,
+            33,
+            0,
+            4,
+            1,
+            5,
+            0,
+            11,
+            0
+          ],
+          [
+            8,
+            6,
+            10,
+            1,
+            2,
+            0,
+            0,
+            193,
+            40,
+            7,
+            0,
+            0,
+            0,
+            12
+          ],
+          [
+            12,
+            1,
+            12,
+            14,
+            7,
+            1,
+            1,
+            22,
+            754,
+            7,
+            0,
+            3,
+            11,
+            15
+          ],
+          [
+            13,
+            10,
+            33,
+            0,
+            2,
+            0,
+            3,
+            11,
+            25,
+            172,
+            2,
+            0,
+            13,
+            26
+          ],
+          [
+            2,
+            0,
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            9,
+            25,
+            0,
+            0,
+            2
+          ],
+          [
+            1,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            30,
+            0,
+            3
+          ],
+          [
+            11,
+            5,
+            18,
+            3,
+            7,
+            7,
+            6,
+            5,
+            29,
+            18,
+            3,
+            0,
+            62,
+            30
+          ],
+          [
+            21,
+            5,
+            13,
+            0,
+            16,
+            6,
+            1,
+            7,
+            22,
+            18,
+            0,
+            5,
+            13,
+            227
+          ]
+        ],
+        "subsets": {
+          "description_plus_primary_task": {
+            "rows": 3246,
+            "groups": 3210,
+            "accuracy": 0.6463339494762785,
+            "macro_f1": 0.5997960006933372,
+            "group_weighted_macro_f1": 0.5996432705992335,
+            "per_category": {
+              "Ai And Machine Learning": {
+                "precision": 0.4444444444444444,
+                "recall": 0.29508196721311475,
+                "f1-score": 0.35467980295566504,
+                "support": 244.0
+              },
+              "Business And Finance": {
+                "precision": 0.6648936170212766,
+                "recall": 0.6756756756756757,
+                "f1-score": 0.6702412868632708,
+                "support": 185.0
+              },
+              "Communication And Support": {
+                "precision": 0.6342042755344418,
+                "recall": 0.6759493670886076,
+                "f1-score": 0.6544117647058824,
+                "support": 395.0
+              },
+              "Creative And Entertainment": {
+                "precision": 0.7777777777777778,
+                "recall": 0.5785123966942148,
+                "f1-score": 0.6635071090047393,
+                "support": 121.0
+              },
+              "Data And Analytics": {
+                "precision": 0.6388888888888888,
+                "recall": 0.5714285714285714,
+                "f1-score": 0.6032786885245902,
+                "support": 161.0
+              },
+              "Education And Learning": {
+                "precision": 0.56,
+                "recall": 0.5833333333333334,
+                "f1-score": 0.5714285714285714,
+                "support": 48.0
+              },
+              "Industry Specific": {
+                "precision": 0.5849056603773585,
+                "recall": 0.47692307692307695,
+                "f1-score": 0.5254237288135594,
+                "support": 65.0
+              },
+              "Marketing And Sales": {
+                "precision": 0.6715328467153284,
+                "recall": 0.696969696969697,
+                "f1-score": 0.6840148698884758,
+                "support": 264.0
+              },
+              "Media And Content Creation": {
+                "precision": 0.7426841574167508,
+                "recall": 0.8741092636579573,
+                "f1-score": 0.8030551009274414,
+                "support": 842.0
+              },
+              "Operations And Management": {
+                "precision": 0.5605536332179931,
+                "recall": 0.5418060200668896,
+                "f1-score": 0.5510204081632653,
+                "support": 299.0
+              },
+              "Personal And Lifestyle": {
+                "precision": 0.6756756756756757,
+                "recall": 0.5319148936170213,
+                "f1-score": 0.5952380952380952,
+                "support": 47.0
+              },
+              "Security And Privacy": {
+                "precision": 0.7435897435897436,
+                "recall": 0.7631578947368421,
+                "f1-score": 0.7532467532467533,
+                "support": 38.0
+              },
+              "Specialized Technologies": {
+                "precision": 0.39215686274509803,
+                "recall": 0.30927835051546393,
+                "f1-score": 0.345821325648415,
+                "support": 194.0
+              },
+              "Technology And Development": {
+                "precision": 0.6112676056338028,
+                "recall": 0.6326530612244898,
+                "f1-score": 0.6217765042979942,
+                "support": 343.0
+              },
+              "accuracy": 0.6463339494762785,
+              "macro avg": {
+                "precision": 0.6216125135027557,
+                "recall": 0.5861995406532111,
+                "f1-score": 0.5997960006933372,
+                "support": 3246.0
+              },
+              "weighted avg": {
+                "precision": 0.6345712255404427,
+                "recall": 0.6463339494762785,
+                "f1-score": 0.6366260529313146,
+                "support": 3246.0
+              }
+            },
+            "confusion_matrix": [
+              [
+                72,
+                6,
+                31,
+                0,
+                6,
+                2,
+                3,
+                9,
+                53,
+                22,
+                0,
+                0,
+                12,
+                28
+              ],
+              [
+                0,
+                125,
+                14,
+                0,
+                4,
+                0,
+                2,
+                13,
+                7,
+                12,
+                0,
+                1,
+                3,
+                4
+              ],
+              [
+                15,
+                8,
+                267,
+                2,
+                7,
+                5,
+                5,
+                12,
+                21,
+                27,
+                3,
+                0,
+                17,
+                6
+              ],
+              [
+                0,
+                0,
+                1,
+                70,
+                0,
+                0,
+                2,
+                0,
+                40,
+                2,
+                0,
+                0,
+                5,
+                1
+              ],
+              [
+                8,
+                12,
+                7,
+                0,
+                92,
+                0,
+                0,
+                10,
+                13,
+                5,
+                0,
+                1,
+                3,
+                10
+              ],
+              [
+                0,
+                1,
+                2,
+                0,
+                0,
+                28,
+                0,
+                1,
+                3,
+                1,
+                0,
+                0,
+                6,
+                6
+              ],
+              [
+                2,
+                7,
+                3,
+                0,
+                1,
+                1,
+                31,
+                0,
+                4,
+                1,
+                5,
+                0,
+                10,
+                0
+              ],
+              [
+                7,
+                6,
+                10,
+                1,
+                2,
+                0,
+                0,
+                184,
+                39,
+                7,
+                0,
+                0,
+                0,
+                8
+              ],
+              [
+                12,
+                1,
+                12,
+                14,
+                7,
+                1,
+                1,
+                22,
+                736,
+                7,
+                0,
+                3,
+                11,
+                15
+              ],
+              [
+                13,
+                10,
+                33,
+                0,
+                2,
+                0,
+                2,
+                11,
+                25,
+                162,
+                2,
+                0,
+                13,
+                26
+              ],
+              [
+                2,
+                0,
+                9,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                9,
+                25,
+                0,
+                0,
+                2
+              ],
+              [
+                1,
+                2,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                2,
+                0,
+                0,
+                29,
+                0,
+                3
+              ],
+              [
+                10,
+                5,
+                18,
+                3,
+                7,
+                7,
+                6,
+                5,
+                26,
+                16,
+                2,
+                0,
+                60,
+                29
+              ],
+              [
+                20,
+                5,
+                13,
+                0,
+                16,
+                6,
+                1,
+                7,
+                22,
+                18,
+                0,
+                5,
+                13,
+                217
+              ]
+            ]
+          },
+          "description_only": null,
+          "primary_task_only": {
+            "rows": 102,
+            "groups": 68,
+            "accuracy": 0.7647058823529411,
+            "macro_f1": 0.5786356213374847,
+            "group_weighted_macro_f1": 0.5212311498025783,
+            "per_category": {
+              "Ai And Machine Learning": {
+                "precision": 0.5,
+                "recall": 0.5,
+                "f1-score": 0.5,
+                "support": 8.0
+              },
+              "Business And Finance": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1-score": 1.0,
+                "support": 10.0
+              },
+              "Communication And Support": {
+                "precision": 1.0,
+                "recall": 0.8333333333333334,
+                "f1-score": 0.9090909090909091,
+                "support": 12.0
+              },
+              "Creative And Entertainment": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 0.0
+              },
+              "Data And Analytics": {
+                "precision": 0.4,
+                "recall": 0.6666666666666666,
+                "f1-score": 0.5,
+                "support": 3.0
+              },
+              "Education And Learning": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 0.0
+              },
+              "Industry Specific": {
+                "precision": 0.6666666666666666,
+                "recall": 0.6666666666666666,
+                "f1-score": 0.6666666666666666,
+                "support": 3.0
+              },
+              "Marketing And Sales": {
+                "precision": 1.0,
+                "recall": 0.6,
+                "f1-score": 0.75,
+                "support": 15.0
+              },
+              "Media And Content Creation": {
+                "precision": 0.75,
+                "recall": 1.0,
+                "f1-score": 0.8571428571428571,
+                "support": 18.0
+              },
+              "Operations And Management": {
+                "precision": 0.8333333333333334,
+                "recall": 0.9090909090909091,
+                "f1-score": 0.8695652173913043,
+                "support": 11.0
+              },
+              "Personal And Lifestyle": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 0.0
+              },
+              "Security And Privacy": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1-score": 1.0,
+                "support": 1.0
+              },
+              "Specialized Technologies": {
+                "precision": 0.6666666666666666,
+                "recall": 0.2,
+                "f1-score": 0.3076923076923077,
+                "support": 10.0
+              },
+              "Technology And Development": {
+                "precision": 0.625,
+                "recall": 0.9090909090909091,
+                "f1-score": 0.7407407407407407,
+                "support": 11.0
+              },
+              "accuracy": 0.7647058823529411,
+              "macro avg": {
+                "precision": 0.6029761904761904,
+                "recall": 0.5917748917748918,
+                "f1-score": 0.5786356213374847,
+                "support": 102.0
+              },
+              "weighted avg": {
+                "precision": 0.7981209150326799,
+                "recall": 0.7647058823529411,
+                "f1-score": 0.7537054015101756,
+                "support": 102.0
+              }
+            },
+            "confusion_matrix": [
+              [
+                4,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                2,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                10,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                10,
+                0,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0,
+                0,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
+              ],
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                9,
+                1,
+                0,
+                0,
+                0,
+                0,
+                4
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                18,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                10,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                3,
+                2,
+                1,
+                0,
+                2,
+                1
+              ],
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                10
+              ]
+            ]
+          }
+        }
+      }
+    }
+  },
+  "baseline": {
+    "label": "Media And Content Creation",
+    "rows": 3348,
+    "groups": 3274,
+    "accuracy": 0.25686977299880526,
+    "macro_f1": 0.029196089082020642,
+    "group_weighted_macro_f1": 0.02927084815031972,
+    "per_category": {
+      "Ai And Machine Learning": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 252.0
+      },
+      "Business And Finance": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 195.0
+      },
+      "Communication And Support": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 407.0
+      },
+      "Creative And Entertainment": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 121.0
+      },
+      "Data And Analytics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 164.0
+      },
+      "Education And Learning": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 48.0
+      },
+      "Industry Specific": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 68.0
+      },
+      "Marketing And Sales": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 279.0
+      },
+      "Media And Content Creation": {
+        "precision": 0.25686977299880526,
+        "recall": 1.0,
+        "f1-score": 0.40874524714828897,
+        "support": 860.0
+      },
+      "Operations And Management": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 310.0
+      },
+      "Personal And Lifestyle": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 47.0
+      },
+      "Security And Privacy": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 39.0
+      },
+      "Specialized Technologies": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 204.0
+      },
+      "Technology And Development": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 354.0
+      },
+      "accuracy": 0.25686977299880526,
+      "macro avg": {
+        "precision": 0.01834784092848609,
+        "recall": 0.07142857142857142,
+        "f1-score": 0.029196089082020642,
+        "support": 3348.0
+      },
+      "weighted avg": {
+        "precision": 0.06598208028045774,
+        "recall": 0.25686977299880526,
+        "f1-score": 0.10499429884932153,
+        "support": 3348.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        252,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        195,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        407,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        121,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        164,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        48,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        68,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        279,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        860,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        310,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        47,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        39,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        204,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        354,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "description_ablation": {
+    "scope": "development OOF, same description-bearing validation rows; fixed combined-selected TF-IDF hyperparameters",
+    "description_only": {
+      "rows": 12975,
+      "groups": 12822,
+      "accuracy": 0.5226974951830443,
+      "macro_f1": 0.44895453336620916,
+      "group_weighted_macro_f1": 0.44896511278882845,
+      "per_category": {
+        "Ai And Machine Learning": {
+          "precision": 0.2886473429951691,
+          "recall": 0.2302504816955684,
+          "f1-score": 0.25616291532690244,
+          "support": 1038.0
+        },
+        "Business And Finance": {
+          "precision": 0.5392156862745098,
+          "recall": 0.535931790499391,
+          "f1-score": 0.5375687232742822,
+          "support": 821.0
+        },
+        "Communication And Support": {
+          "precision": 0.5263509006004002,
+          "recall": 0.5060936497754971,
+          "f1-score": 0.5160235448005233,
+          "support": 1559.0
+        },
+        "Creative And Entertainment": {
+          "precision": 0.3700787401574803,
+          "recall": 0.5377574370709383,
+          "f1-score": 0.43843283582089554,
+          "support": 437.0
+        },
+        "Data And Analytics": {
+          "precision": 0.4248447204968944,
+          "recall": 0.5796610169491525,
+          "f1-score": 0.49032258064516127,
+          "support": 590.0
+        },
+        "Education And Learning": {
+          "precision": 0.31141868512110726,
+          "recall": 0.4072398190045249,
+          "f1-score": 0.35294117647058826,
+          "support": 221.0
+        },
+        "Industry Specific": {
+          "precision": 0.421259842519685,
+          "recall": 0.4246031746031746,
+          "f1-score": 0.42292490118577075,
+          "support": 252.0
+        },
+        "Marketing And Sales": {
+          "precision": 0.5730994152046783,
+          "recall": 0.6405228758169934,
+          "f1-score": 0.6049382716049383,
+          "support": 1071.0
+        },
+        "Media And Content Creation": {
+          "precision": 0.7276021080368906,
+          "recall": 0.6647607583508878,
+          "f1-score": 0.6947633275672276,
+          "support": 3323.0
+        },
+        "Operations And Management": {
+          "precision": 0.4805091487669053,
+          "recall": 0.5004142502071252,
+          "f1-score": 0.4902597402597403,
+          "support": 1207.0
+        },
+        "Personal And Lifestyle": {
+          "precision": 0.2555066079295154,
+          "recall": 0.2857142857142857,
+          "f1-score": 0.26976744186046514,
+          "support": 203.0
+        },
+        "Security And Privacy": {
+          "precision": 0.38686131386861317,
+          "recall": 0.3333333333333333,
+          "f1-score": 0.3581081081081081,
+          "support": 159.0
+        },
+        "Specialized Technologies": {
+          "precision": 0.34293948126801155,
+          "recall": 0.32075471698113206,
+          "f1-score": 0.33147632311977715,
+          "support": 742.0
+        },
+        "Technology And Development": {
+          "precision": 0.5318985395849347,
+          "recall": 0.5118343195266272,
+          "f1-score": 0.521673577082548,
+          "support": 1352.0
+        },
+        "accuracy": 0.5226974951830443,
+        "macro avg": {
+          "precision": 0.4414451809160568,
+          "recall": 0.46277656496633085,
+          "f1-score": 0.44895453336620916,
+          "support": 12975.0
+        },
+        "weighted avg": {
+          "precision": 0.5278465827323348,
+          "recall": 0.5226974951830443,
+          "f1-score": 0.5231965550628402,
+          "support": 12975.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          239,
+          34,
+          140,
+          12,
+          75,
+          23,
+          25,
+          46,
+          160,
+          97,
+          10,
+          8,
+          56,
+          113
+        ],
+        [
+          23,
+          440,
+          55,
+          8,
+          61,
+          5,
+          16,
+          57,
+          21,
+          60,
+          4,
+          10,
+          22,
+          39
+        ],
+        [
+          99,
+          61,
+          789,
+          17,
+          55,
+          24,
+          26,
+          89,
+          82,
+          135,
+          32,
+          6,
+          79,
+          65
+        ],
+        [
+          6,
+          4,
+          10,
+          235,
+          4,
+          3,
+          6,
+          7,
+          121,
+          11,
+          6,
+          0,
+          13,
+          11
+        ],
+        [
+          33,
+          35,
+          39,
+          3,
+          342,
+          8,
+          3,
+          12,
+          32,
+          31,
+          2,
+          3,
+          12,
+          35
+        ],
+        [
+          11,
+          7,
+          9,
+          3,
+          13,
+          90,
+          2,
+          1,
+          28,
+          9,
+          0,
+          4,
+          18,
+          26
+        ],
+        [
+          14,
+          16,
+          17,
+          12,
+          10,
+          7,
+          107,
+          7,
+          12,
+          12,
+          9,
+          3,
+          16,
+          10
+        ],
+        [
+          30,
+          40,
+          78,
+          12,
+          30,
+          2,
+          2,
+          686,
+          104,
+          42,
+          3,
+          2,
+          10,
+          30
+        ],
+        [
+          149,
+          45,
+          70,
+          254,
+          40,
+          23,
+          19,
+          215,
+          2209,
+          63,
+          17,
+          22,
+          103,
+          94
+        ],
+        [
+          59,
+          54,
+          104,
+          24,
+          47,
+          12,
+          13,
+          27,
+          71,
+          604,
+          55,
+          6,
+          41,
+          90
+        ],
+        [
+          8,
+          1,
+          33,
+          9,
+          2,
+          0,
+          9,
+          2,
+          3,
+          57,
+          58,
+          0,
+          15,
+          6
+        ],
+        [
+          13,
+          10,
+          8,
+          3,
+          8,
+          2,
+          1,
+          5,
+          26,
+          4,
+          1,
+          53,
+          6,
+          19
+        ],
+        [
+          53,
+          24,
+          55,
+          20,
+          33,
+          44,
+          21,
+          11,
+          89,
+          57,
+          24,
+          2,
+          238,
+          71
+        ],
+        [
+          91,
+          45,
+          92,
+          23,
+          85,
+          46,
+          4,
+          32,
+          78,
+          75,
+          6,
+          18,
+          65,
+          692
+        ]
+      ]
+    },
+    "combined_on_same_rows": {
+      "rows": 12975,
+      "groups": 12822,
+      "accuracy": 0.7449710982658959,
+      "macro_f1": 0.7099166150913157,
+      "group_weighted_macro_f1": 0.7097165365179442,
+      "per_category": {
+        "Ai And Machine Learning": {
+          "precision": 0.58,
+          "recall": 0.5028901734104047,
+          "f1-score": 0.5386996904024768,
+          "support": 1038.0
+        },
+        "Business And Finance": {
+          "precision": 0.7431761786600496,
+          "recall": 0.7295980511571255,
+          "f1-score": 0.7363245236631838,
+          "support": 821.0
+        },
+        "Communication And Support": {
+          "precision": 0.7909836065573771,
+          "recall": 0.7427838357921744,
+          "f1-score": 0.7661263645385379,
+          "support": 1559.0
+        },
+        "Creative And Entertainment": {
+          "precision": 0.6564748201438849,
+          "recall": 0.8352402745995423,
+          "f1-score": 0.7351460221550856,
+          "support": 437.0
+        },
+        "Data And Analytics": {
+          "precision": 0.6607629427792916,
+          "recall": 0.8220338983050848,
+          "f1-score": 0.7326283987915407,
+          "support": 590.0
+        },
+        "Education And Learning": {
+          "precision": 0.6451612903225806,
+          "recall": 0.8144796380090498,
+          "f1-score": 0.72,
+          "support": 221.0
+        },
+        "Industry Specific": {
+          "precision": 0.6350877192982456,
+          "recall": 0.7182539682539683,
+          "f1-score": 0.6741154562383612,
+          "support": 252.0
+        },
+        "Marketing And Sales": {
+          "precision": 0.7480785653287788,
+          "recall": 0.8179271708683473,
+          "f1-score": 0.7814451382694023,
+          "support": 1071.0
+        },
+        "Media And Content Creation": {
+          "precision": 0.8539534883720931,
+          "recall": 0.8287691844718628,
+          "f1-score": 0.8411728772144166,
+          "support": 3323.0
+        },
+        "Operations And Management": {
+          "precision": 0.7491638795986622,
+          "recall": 0.7423363711681856,
+          "f1-score": 0.7457344985434873,
+          "support": 1207.0
+        },
+        "Personal And Lifestyle": {
+          "precision": 0.6284403669724771,
+          "recall": 0.6748768472906403,
+          "f1-score": 0.6508313539192399,
+          "support": 203.0
+        },
+        "Security And Privacy": {
+          "precision": 0.676829268292683,
+          "recall": 0.6981132075471698,
+          "f1-score": 0.6873065015479877,
+          "support": 159.0
+        },
+        "Specialized Technologies": {
+          "precision": 0.622356495468278,
+          "recall": 0.555256064690027,
+          "f1-score": 0.5868945868945868,
+          "support": 742.0
+        },
+        "Technology And Development": {
+          "precision": 0.752851711026616,
+          "recall": 0.7322485207100592,
+          "f1-score": 0.7424071991001124,
+          "support": 1352.0
+        },
+        "accuracy": 0.7449710982658959,
+        "macro avg": {
+          "precision": 0.6959514523443584,
+          "recall": 0.729629086162403,
+          "f1-score": 0.7099166150913157,
+          "support": 12975.0
+        },
+        "weighted avg": {
+          "precision": 0.7462533439285186,
+          "recall": 0.7449710982658959,
+          "f1-score": 0.7440036952512192,
+          "support": 12975.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          522,
+          34,
+          76,
+          7,
+          55,
+          14,
+          17,
+          21,
+          120,
+          49,
+          4,
+          7,
+          37,
+          75
+        ],
+        [
+          13,
+          599,
+          26,
+          1,
+          30,
+          3,
+          12,
+          38,
+          18,
+          40,
+          2,
+          7,
+          11,
+          21
+        ],
+        [
+          66,
+          28,
+          1158,
+          7,
+          15,
+          11,
+          21,
+          60,
+          42,
+          57,
+          21,
+          5,
+          45,
+          23
+        ],
+        [
+          2,
+          2,
+          4,
+          365,
+          1,
+          0,
+          4,
+          2,
+          44,
+          1,
+          1,
+          0,
+          10,
+          1
+        ],
+        [
+          17,
+          15,
+          13,
+          1,
+          485,
+          3,
+          0,
+          5,
+          27,
+          6,
+          0,
+          1,
+          3,
+          14
+        ],
+        [
+          2,
+          4,
+          1,
+          2,
+          4,
+          180,
+          1,
+          0,
+          7,
+          1,
+          0,
+          2,
+          10,
+          7
+        ],
+        [
+          6,
+          11,
+          5,
+          4,
+          7,
+          3,
+          181,
+          2,
+          6,
+          7,
+          2,
+          2,
+          10,
+          6
+        ],
+        [
+          15,
+          25,
+          37,
+          7,
+          10,
+          2,
+          1,
+          876,
+          51,
+          21,
+          2,
+          1,
+          8,
+          15
+        ],
+        [
+          93,
+          19,
+          31,
+          127,
+          31,
+          7,
+          10,
+          115,
+          2754,
+          22,
+          6,
+          10,
+          48,
+          50
+        ],
+        [
+          30,
+          25,
+          38,
+          7,
+          24,
+          8,
+          10,
+          23,
+          44,
+          896,
+          27,
+          0,
+          24,
+          51
+        ],
+        [
+          4,
+          0,
+          12,
+          2,
+          0,
+          0,
+          4,
+          2,
+          2,
+          30,
+          137,
+          0,
+          8,
+          2
+        ],
+        [
+          7,
+          3,
+          3,
+          3,
+          5,
+          1,
+          2,
+          2,
+          8,
+          2,
+          0,
+          111,
+          4,
+          8
+        ],
+        [
+          42,
+          20,
+          28,
+          12,
+          21,
+          25,
+          18,
+          4,
+          60,
+          30,
+          15,
+          3,
+          412,
+          52
+        ],
+        [
+          81,
+          21,
+          32,
+          11,
+          46,
+          22,
+          4,
+          21,
+          42,
+          34,
+          1,
+          15,
+          32,
+          990
+        ]
+      ]
+    },
+    "note": "Task-only rows excluded from this diagnostic. Descriptive comparison, not independent model selection."
+  },
+  "limitations": [
+    "Kaggle labels are supplied ground truth, not independently validated business-purpose truth.",
+    "Prepared groups cover documented duplicate signals; undetected paraphrases and aliases remain a leakage risk.",
+    "Kaggle text and web-enriched text differ. Kaggle holdout scores do not establish discovery accuracy.",
+    "Scores are uncalibrated; no automatic category-acceptance threshold or API fallback is implemented.",
+    "Saved models were fitted on development rows only. Held-out test products were not used for training.",
+    "A frozen pretrained encoder may have encountered product names in pretraining; held-out means absent from supervised fitting.",
+    "Do not choose a new winner based on these test scores; any further tuning needs a fresh final evaluation."
+  ]
+}

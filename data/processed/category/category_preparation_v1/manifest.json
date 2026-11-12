@@ -1,0 +1,48 @@
+{
+  "version": "category-preparation-v1",
+  "created_at": "2026-11-12T19:30:52.576578+00:00",
+  "inputs": {
+    "raw": {
+      "path": "C:\\Users\\Sadit\\Desktop\\Cyera-1B-ai-tool-discovery-and-risk-classification\\data\\raw\\kaggle.csv",
+      "sha256": "a7d86e4cb4e569cc230d80e96622013e638eebe424fd20d029350e765eb8c32f"
+    },
+    "catalog": {
+      "path": "C:\\Users\\Sadit\\Desktop\\Cyera-1B-ai-tool-discovery-and-risk-classification\\data\\processed\\kaggle_dataset_b\\kaggle_dataset_b_filled.csv",
+      "sha256": "c53c787bdfa06abc8f91aaf935782f4da2ed4f419ccca0b5eff18316c5fa18e1"
+    },
+    "reference": {
+      "path": "C:\\Users\\Sadit\\Desktop\\Cyera-1B-ai-tool-discovery-and-risk-classification\\data\\processed\\final\\dataset_b_final_kaggle_categories.csv",
+      "sha256": "82538f385e2256c877736c8b1857b80a9ad52f9188a3c8bc215bd6c15ce503c4"
+    },
+    "discovery": {
+      "path": "C:\\Users\\Sadit\\Desktop\\Cyera-1B-ai-tool-discovery-and-risk-classification\\data\\processed\\ai_discovery_classification.json",
+      "sha256": "32fdf0b723f39c27d845f7de1f086988c90fdbaded3f8e043247016567c85868"
+    }
+  },
+  "script_sha256": "599c3410fd4e480c20e33f3eec5242db20325ea2617b2f58105e7b6e7f583d41",
+  "text_contract_version": "purpose-description-functionality-v1",
+  "min_words": 1,
+  "feature_column": "model_text",
+  "comparison_feature_column": "description_only_text",
+  "target_column": "category",
+  "split_group_column": "group_id",
+  "source_fields": [
+    "Short Description",
+    "Primary Task"
+  ],
+  "inference_fields": [
+    "Product Description",
+    "AI Functionality"
+  ],
+  "outputs": {
+    "audit.json": "a0895d5cbc58aad072f8feaef634fba5275b90bf082860de82b7b6af8bbdebd8",
+    "catalog_join_audit.csv": "4847ebd3d9733f362b98006dcf30555f182ba798364dc6e20b5967152700924f",
+    "discovery_input_preview.json": "5ab4719a011a92ea693efa56d5e42513ea7b0eb4078316a8377f8d7cb99cdee7",
+    "excluded_rows.csv": "d3a9e2cc135aeef850249fc726c94684b322ac3904556bd721bf12175737a9c8",
+    "group_links.csv": "aad61d56a31593fcfbc1e45db2e535b081c6d6724c41e8506dbfed93807b654a",
+    "label_conflicts.csv": "73ee2d9a811d29b6234542a7a7fd623ff7070e93d16e16bf1fe4ce09b5e1ac78",
+    "reference_overlap.csv": "6328c40164762d0e78edcfc42a26a0bfcf4f449367cd4cacae0145527488f4fd",
+    "taxonomy.json": "00824c11b7fb88ad9c0f1325150282c38dc0db7386a0a9b2cd4c609d9a995989",
+    "training_rows.csv": "5ebf36ffcc760ff57bccd875a6f8cd0761718b13c417e5225f2710f9cd9c6a91"
+  }
+}

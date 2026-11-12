@@ -1,0 +1,61 @@
+{
+  "run_id": "53d1b8e0ad9a93e97a6753769e6ff2bf19d8b0be42f61df0a09319701b19e5fa",
+  "config": {
+    "version": "kaggle14-training-v1",
+    "script_sha256": "02258f4e565b80b4e1d95f2dad3a0c681cbb961650cd0f9798001c8f44a3a546",
+    "data_sha256": "5ebf36ffcc760ff57bccd875a6f8cd0761718b13c417e5225f2710f9cd9c6a91",
+    "preparation_manifest_sha256": "efeebbb08c3bb0ad858b84d88e494ade21db2dd679e6c84d711b27d744610657",
+    "taxonomy_sha256": "00824c11b7fb88ad9c0f1325150282c38dc0db7386a0a9b2cd4c609d9a995989",
+    "models": [
+      "tfidf",
+      "embeddings"
+    ],
+    "seed": 42,
+    "cv_folds": 3,
+    "outer_folds": 5,
+    "c_values": [
+      0.5,
+      2.0
+    ],
+    "class_weights": [
+      null,
+      "balanced"
+    ],
+    "max_iter": 3000,
+    "encoder": "sentence-transformers/all-MiniLM-L6-v2",
+    "encoder_revision": null,
+    "description_ablation": true,
+    "text_contract_version": "purpose-description-functionality-v1",
+    "embedding_version": "token-chunks-mean-normalized-v1",
+    "python": "3.12.2",
+    "packages": {
+      "numpy": "2.3.4",
+      "scipy": "1.16.3",
+      "scikit-learn": "1.7.2",
+      "joblib": "1.5.2",
+      "sentence-transformers": "5.1.2",
+      "torch": "2.15.0",
+      "transformers": "4.57.6"
+    }
+  },
+  "winner": "tfidf",
+  "artifacts": {
+    "confusion_pairs.csv": "99e310b55922d456febd8e50dee3b8c428e2ef86cd9597df60045b33fb072ef1",
+    "cv_predictions.csv": "9f5c6e115faa41b780fda1e8b835ad95ece7a33801cfafdb1b938bad4d1d7c8b",
+    "embedding_manifest.json": "540de59f16e9d17e3b961a1af654b810534f7d671c8af2be08d6bdd5c73d40c2",
+    "embeddings.joblib": "4419906682222f17f0392f7d7a0f110fb209afc25783fda4e79a7702dba07a3e",
+    "embeddings_confusion_matrix.csv": "80923e68eb940e08a180999d2e2114c1ba1651950c396442c52951cbe1b282d1",
+    "metrics.json": "0d87e9d068abdf51fa1aecfc90624642a6a721624ffe0319e855acdaa44f3eb5",
+    "model_comparison.csv": "ebd4bf207b53a4220d269426eb1e66b4d913654d2b9d3bacabf67858676729ec",
+    "per_category.csv": "bc5392a2a79ad88307e373bbc79a0673fc93a782b7c42b5a9e8b47e7b92191d3",
+    "run_config.json": "d121dbda285da1d7035b9bb621dd2ece04cfdaab985babeacfdfae3de24f20a7",
+    "selection.json": "55c4a928cb6b4f8d0dd06b7afcbcac22ed4a855f7397bfe988986196bdb8a7cf",
+    "split_manifest.csv": "a219998839bae1d896f5dfdf181caf685ac812f3ea7212c2094fba0c2304f21a",
+    "taxonomy.json": "00824c11b7fb88ad9c0f1325150282c38dc0db7386a0a9b2cd4c609d9a995989",
+    "test_errors.csv": "81d927eb48bbeee49d08ce4c2d349d052c21e4ab6589f63934d15e377eb47e9b",
+    "test_predictions.csv": "374f0bcfcd21181c9fe1fb9406db6934ec09470a6ee95a47803ad4f8e589f413",
+    "tfidf.joblib": "c8f394860cecd9d5094192f18c3019d8b0248b5e67cb1aafe1c00a2d7d8ce7da",
+    "tfidf_confusion_matrix.csv": "58640c54697a74f742fca0d426c68e3e26ca15874d83c954e7bf52551e8fcff7",
+    "winner.joblib": "c8f394860cecd9d5094192f18c3019d8b0248b5e67cb1aafe1c00a2d7d8ce7da"
+  }
+}
