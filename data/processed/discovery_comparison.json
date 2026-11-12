@@ -1,0 +1,2068 @@
+{
+  "results": [
+    {
+      "application_name": "cursor",
+      "endpoint": "cursor.com",
+      "variant": "description",
+      "method": "tfidf_logistic",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": 0.5891472868217055,
+      "ai_probability_uncalibrated": 0.2580211548210346,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "cursor",
+      "endpoint": "cursor.com",
+      "variant": "description",
+      "method": "tfidf_svm",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": 0.5891472868217055,
+      "ai_decision_margin": -0.9122018694827505,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "cursor",
+      "endpoint": "cursor.com",
+      "variant": "description",
+      "method": "embeddings_logistic",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": null,
+      "ai_probability_uncalibrated": 0.2760307490825653,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "cursor",
+      "endpoint": "cursor.com",
+      "variant": "description",
+      "method": "embeddings_knn",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": null,
+      "ai_probability_uncalibrated": 0.20225312333253861,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "cursor",
+      "endpoint": "cursor.com",
+      "variant": "description",
+      "method": "embeddings_forest",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": null,
+      "ai_probability_uncalibrated": 0.26466666666666666,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "cursor",
+      "endpoint": "cursor.com",
+      "variant": "description",
+      "method": "gemini",
+      "identity_verified": false,
+      "needs_review": true,
+      "label": "non_ai",
+      "reason": "The provided text describes an integrated development environment with general-purpose features such as code editing, file navigation, and terminal execution, without any mention of AI or machine learning.",
+      "usage": {
+        "initial_input_tokens": 209,
+        "input_tokens_by_modality": [
+          {
+            "modality": "text",
+            "tokens": 209
+          }
+        ],
+        "total_cached_tokens": 0,
+        "total_input_tokens": 209,
+        "total_output_tokens": 58,
+        "total_thought_tokens": 891,
+        "total_tokens": 1158,
+        "total_tool_use_tokens": 0
+      },
+      "returned_model": "gemini-3.8-flash",
+      "status": "provisional_prediction",
+      "cache_hit": true
+    },
+    {
+      "application_name": "cursor",
+      "endpoint": "cursor.com",
+      "variant": "description",
+      "method": "jev",
+      "identity_verified": false,
+      "needs_review": true,
+      "label": "non_ai",
+      "provider_probabilities": {
+        "ai": 0.01,
+        "non_ai": 0.85,
+        "unknown": 0.14
+      },
+      "provider_confidence": 0.77,
+      "returned_model": "jev-1.14.0",
+      "usage": {
+        "input_tokens": 531,
+        "output_tokens": 40
+      },
+      "status": "provisional_prediction",
+      "cache_hit": true
+    },
+    {
+      "application_name": "cursor",
+      "endpoint": "cursor.com",
+      "variant": "description_plus_ai",
+      "method": "tfidf_logistic",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": 0.5391849529780565,
+      "ai_probability_uncalibrated": 0.42554453071547665,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "cursor",
+      "endpoint": "cursor.com",
+      "variant": "description_plus_ai",
+      "method": "tfidf_svm",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": 0.5391849529780565,
+      "ai_decision_margin": -0.316273330576219,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "cursor",
+      "endpoint": "cursor.com",
+      "variant": "description_plus_ai",
+      "method": "embeddings_logistic",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": null,
+      "ai_probability_uncalibrated": 0.6261388063430786,
+      "label": "ai"
+    },
+    {
+      "application_name": "cursor",
+      "endpoint": "cursor.com",
+      "variant": "description_plus_ai",
+      "method": "embeddings_knn",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": null,
+      "ai_probability_uncalibrated": 0.8039150408096851,
+      "label": "ai"
+    },
+    {
+      "application_name": "cursor",
+      "endpoint": "cursor.com",
+      "variant": "description_plus_ai",
+      "method": "embeddings_forest",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": null,
+      "ai_probability_uncalibrated": 0.5366666666666667,
+      "label": "ai"
+    },
+    {
+      "application_name": "cursor",
+      "endpoint": "cursor.com",
+      "variant": "description_plus_ai",
+      "method": "gemini",
+      "identity_verified": false,
+      "needs_review": true,
+      "label": "ai",
+      "reason": "AI is explicitly described as central to the product architecture, providing core features like autonomous coding agents, codebase chat, automated code review, and LLM orchestration.",
+      "usage": {
+        "initial_input_tokens": 346,
+        "input_tokens_by_modality": [
+          {
+            "modality": "text",
+            "tokens": 346
+          }
+        ],
+        "total_cached_tokens": 0,
+        "total_input_tokens": 346,
+        "total_output_tokens": 52,
+        "total_thought_tokens": 158,
+        "total_tokens": 556,
+        "total_tool_use_tokens": 0
+      },
+      "returned_model": "gemini-3.8-flash",
+      "status": "provisional_prediction",
+      "cache_hit": true
+    },
+    {
+      "application_name": "cursor",
+      "endpoint": "cursor.com",
+      "variant": "description_plus_ai",
+      "method": "jev",
+      "identity_verified": false,
+      "needs_review": true,
+      "label": "ai",
+      "provider_probabilities": {
+        "ai": 1.0,
+        "non_ai": 0.0,
+        "unknown": 0.0
+      },
+      "provider_confidence": 1.0,
+      "returned_model": "jev-1.14.0",
+      "usage": {
+        "input_tokens": 665,
+        "output_tokens": 39
+      },
+      "status": "provisional_prediction",
+      "cache_hit": true
+    },
+    {
+      "application_name": "github",
+      "endpoint": "github.com",
+      "variant": "description",
+      "method": "tfidf_logistic",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": 0.6689655172413793,
+      "ai_probability_uncalibrated": 0.2415209887079741,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "github",
+      "endpoint": "github.com",
+      "variant": "description",
+      "method": "tfidf_svm",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": 0.6689655172413793,
+      "ai_decision_margin": -1.093000709622612,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "github",
+      "endpoint": "github.com",
+      "variant": "description",
+      "method": "embeddings_logistic",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": null,
+      "ai_probability_uncalibrated": 0.06795720756053925,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "github",
+      "endpoint": "github.com",
+      "variant": "description",
+      "method": "embeddings_knn",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": null,
+      "ai_probability_uncalibrated": 0.0,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "github",
+      "endpoint": "github.com",
+      "variant": "description",
+      "method": "embeddings_forest",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": null,
+      "ai_probability_uncalibrated": 0.125,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "github",
+      "endpoint": "github.com",
+      "variant": "description",
+      "method": "gemini",
+      "identity_verified": false,
+      "needs_review": true,
+      "label": "non_ai",
+      "reason": "The provided text describes GitHub as a cloud-based source code hosting and collaboration platform focused on Git version control, CI/CD, and project tracking, with no primary AI or ML functionality mentioned.",
+      "usage": {
+        "initial_input_tokens": 210,
+        "input_tokens_by_modality": [
+          {
+            "modality": "text",
+            "tokens": 210
+          }
+        ],
+        "total_cached_tokens": 0,
+        "total_input_tokens": 210,
+        "total_output_tokens": 63,
+        "total_thought_tokens": 488,
+        "total_tokens": 761,
+        "total_tool_use_tokens": 0
+      },
+      "returned_model": "gemini-3.8-flash",
+      "status": "provisional_prediction",
+      "cache_hit": true
+    },
+    {
+      "application_name": "github",
+      "endpoint": "github.com",
+      "variant": "description",
+      "method": "jev",
+      "identity_verified": false,
+      "needs_review": true,
+      "label": "non_ai",
+      "provider_probabilities": {
+        "ai": 0.0,
+        "non_ai": 1.0,
+        "unknown": 0.0
+      },
+      "provider_confidence": 1.0,
+      "returned_model": "jev-1.14.0",
+      "usage": {
+        "input_tokens": 527,
+        "output_tokens": 40
+      },
+      "status": "provisional_prediction",
+      "cache_hit": true
+    },
+    {
+      "application_name": "github",
+      "endpoint": "github.com",
+      "variant": "description_plus_ai",
+      "method": "tfidf_logistic",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": 0.6156583629893239,
+      "ai_probability_uncalibrated": 0.3259594281475484,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "github",
+      "endpoint": "github.com",
+      "variant": "description_plus_ai",
+      "method": "tfidf_svm",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": 0.6156583629893239,
+      "ai_decision_margin": -0.7831949328224224,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "github",
+      "endpoint": "github.com",
+      "variant": "description_plus_ai",
+      "method": "embeddings_logistic",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": null,
+      "ai_probability_uncalibrated": 0.473222017288208,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "github",
+      "endpoint": "github.com",
+      "variant": "description_plus_ai",
+      "method": "embeddings_knn",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": null,
+      "ai_probability_uncalibrated": 0.0,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "github",
+      "endpoint": "github.com",
+      "variant": "description_plus_ai",
+      "method": "embeddings_forest",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": null,
+      "ai_probability_uncalibrated": 0.4861666666666667,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "github",
+      "endpoint": "github.com",
+      "variant": "description_plus_ai",
+      "method": "gemini",
+      "identity_verified": false,
+      "needs_review": true,
+      "label": "non_ai",
+      "reason": "GitHub is primarily a cloud-based source code hosting and collaboration platform, and its AI features (GitHub Copilot) are an optional add-on rather than its central purpose.",
+      "usage": {
+        "initial_input_tokens": 303,
+        "input_tokens_by_modality": [
+          {
+            "modality": "text",
+            "tokens": 303
+          }
+        ],
+        "total_cached_tokens": 0,
+        "total_input_tokens": 303,
+        "total_output_tokens": 59,
+        "total_thought_tokens": 271,
+        "total_tokens": 633,
+        "total_tool_use_tokens": 0
+      },
+      "returned_model": "gemini-3.8-flash",
+      "status": "provisional_prediction",
+      "cache_hit": true
+    },
+    {
+      "application_name": "github",
+      "endpoint": "github.com",
+      "variant": "description_plus_ai",
+      "method": "jev",
+      "identity_verified": false,
+      "needs_review": true,
+      "label": "non_ai",
+      "provider_probabilities": {
+        "ai": 0.0,
+        "non_ai": 1.0,
+        "unknown": 0.0
+      },
+      "provider_confidence": 1.0,
+      "returned_model": "jev-1.14.0",
+      "usage": {
+        "input_tokens": 617,
+        "output_tokens": 40
+      },
+      "status": "provisional_prediction",
+      "cache_hit": true
+    },
+    {
+      "application_name": "github copilot",
+      "endpoint": "github.com/copilot",
+      "variant": "description",
+      "method": "tfidf_logistic",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": 0.5284552845528455,
+      "ai_probability_uncalibrated": 0.5966467753888471,
+      "label": "ai"
+    },
+    {
+      "application_name": "github copilot",
+      "endpoint": "github.com/copilot",
+      "variant": "description",
+      "method": "tfidf_svm",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": 0.5284552845528455,
+      "ai_decision_margin": 0.2115312761526353,
+      "label": "ai"
+    },
+    {
+      "application_name": "github copilot",
+      "endpoint": "github.com/copilot",
+      "variant": "description",
+      "method": "embeddings_logistic",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": null,
+      "ai_probability_uncalibrated": 0.5643519163131714,
+      "label": "ai"
+    },
+    {
+      "application_name": "github copilot",
+      "endpoint": "github.com/copilot",
+      "variant": "description",
+      "method": "embeddings_knn",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": null,
+      "ai_probability_uncalibrated": 0.0,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "github copilot",
+      "endpoint": "github.com/copilot",
+      "variant": "description",
+      "method": "embeddings_forest",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": null,
+      "ai_probability_uncalibrated": 0.47041666666666665,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "github copilot",
+      "endpoint": "github.com/copilot",
+      "variant": "description",
+      "method": "gemini",
+      "identity_verified": false,
+      "needs_review": true,
+      "label": "ai",
+      "reason": "The product is explicitly described as an AI-powered developer assistant whose primary purpose is code generation, coding assistance, and natural language question answering.",
+      "usage": {
+        "initial_input_tokens": 206,
+        "input_tokens_by_modality": [
+          {
+            "modality": "text",
+            "tokens": 206
+          }
+        ],
+        "total_cached_tokens": 0,
+        "total_input_tokens": 206,
+        "total_output_tokens": 50,
+        "total_thought_tokens": 365,
+        "total_tokens": 621,
+        "total_tool_use_tokens": 0
+      },
+      "returned_model": "gemini-3.8-flash",
+      "status": "provisional_prediction",
+      "cache_hit": false
+    },
+    {
+      "application_name": "github copilot",
+      "endpoint": "github.com/copilot",
+      "variant": "description",
+      "method": "jev",
+      "identity_verified": false,
+      "needs_review": true,
+      "label": "ai",
+      "provider_probabilities": {
+        "ai": 1.0,
+        "non_ai": 0.0,
+        "unknown": 0.0
+      },
+      "provider_confidence": 1.0,
+      "returned_model": "jev-1.14.0",
+      "usage": {
+        "input_tokens": 522,
+        "output_tokens": 39
+      },
+      "status": "provisional_prediction",
+      "cache_hit": false
+    },
+    {
+      "application_name": "github copilot",
+      "endpoint": "github.com/copilot",
+      "variant": "description_plus_ai",
+      "method": "tfidf_logistic",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": 0.49063670411985016,
+      "ai_probability_uncalibrated": 0.5677276757000626,
+      "label": "ai"
+    },
+    {
+      "application_name": "github copilot",
+      "endpoint": "github.com/copilot",
+      "variant": "description_plus_ai",
+      "method": "tfidf_svm",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": 0.49063670411985016,
+      "ai_decision_margin": 0.18190983734356106,
+      "label": "ai"
+    },
+    {
+      "application_name": "github copilot",
+      "endpoint": "github.com/copilot",
+      "variant": "description_plus_ai",
+      "method": "embeddings_logistic",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": null,
+      "ai_probability_uncalibrated": 0.7513138055801392,
+      "label": "ai"
+    },
+    {
+      "application_name": "github copilot",
+      "endpoint": "github.com/copilot",
+      "variant": "description_plus_ai",
+      "method": "embeddings_knn",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": null,
+      "ai_probability_uncalibrated": 0.8013044972424377,
+      "label": "ai"
+    },
+    {
+      "application_name": "github copilot",
+      "endpoint": "github.com/copilot",
+      "variant": "description_plus_ai",
+      "method": "embeddings_forest",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": null,
+      "ai_probability_uncalibrated": 0.6165,
+      "label": "ai"
+    },
+    {
+      "application_name": "github copilot",
+      "endpoint": "github.com/copilot",
+      "variant": "description_plus_ai",
+      "method": "gemini",
+      "identity_verified": false,
+      "needs_review": true,
+      "label": "ai",
+      "reason": "AI capabilities and underlying large language models are central and foundational to its core purpose of developer assistance and code generation.",
+      "usage": {
+        "initial_input_tokens": 297,
+        "input_tokens_by_modality": [
+          {
+            "modality": "text",
+            "tokens": 297
+          }
+        ],
+        "total_cached_tokens": 0,
+        "total_input_tokens": 297,
+        "total_output_tokens": 44,
+        "total_thought_tokens": 165,
+        "total_tokens": 506,
+        "total_tool_use_tokens": 0
+      },
+      "returned_model": "gemini-3.8-flash",
+      "status": "provisional_prediction",
+      "cache_hit": false
+    },
+    {
+      "application_name": "github copilot",
+      "endpoint": "github.com/copilot",
+      "variant": "description_plus_ai",
+      "method": "jev",
+      "identity_verified": false,
+      "needs_review": true,
+      "label": "ai",
+      "provider_probabilities": {
+        "ai": 1.0,
+        "non_ai": 0.0,
+        "unknown": 0.0
+      },
+      "provider_confidence": 1.0,
+      "returned_model": "jev-1.14.0",
+      "usage": {
+        "input_tokens": 615,
+        "output_tokens": 39
+      },
+      "status": "provisional_prediction",
+      "cache_hit": false
+    },
+    {
+      "application_name": "google docs",
+      "endpoint": "docs.google.com",
+      "variant": "description",
+      "method": "tfidf_logistic",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": 0.5912408759124088,
+      "ai_probability_uncalibrated": 0.24430380182728617,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "google docs",
+      "endpoint": "docs.google.com",
+      "variant": "description",
+      "method": "tfidf_svm",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": 0.5912408759124088,
+      "ai_decision_margin": -0.9461013961120088,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "google docs",
+      "endpoint": "docs.google.com",
+      "variant": "description",
+      "method": "embeddings_logistic",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": null,
+      "ai_probability_uncalibrated": 0.12419286370277405,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "google docs",
+      "endpoint": "docs.google.com",
+      "variant": "description",
+      "method": "embeddings_knn",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": null,
+      "ai_probability_uncalibrated": 0.0,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "google docs",
+      "endpoint": "docs.google.com",
+      "variant": "description",
+      "method": "embeddings_forest",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": null,
+      "ai_probability_uncalibrated": 0.23916666666666667,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "google docs",
+      "endpoint": "docs.google.com",
+      "variant": "description",
+      "method": "gemini",
+      "identity_verified": false,
+      "needs_review": true,
+      "label": "non_ai",
+      "reason": "The product is described as a cloud-based word processor and document editing tool with no AI functionality mentioned as central to its primary purpose.",
+      "usage": {
+        "initial_input_tokens": 208,
+        "input_tokens_by_modality": [
+          {
+            "modality": "text",
+            "tokens": 208
+          }
+        ],
+        "total_cached_tokens": 0,
+        "total_input_tokens": 208,
+        "total_output_tokens": 51,
+        "total_thought_tokens": 437,
+        "total_tokens": 696,
+        "total_tool_use_tokens": 0
+      },
+      "returned_model": "gemini-3.8-flash",
+      "status": "provisional_prediction",
+      "cache_hit": false
+    },
+    {
+      "application_name": "google docs",
+      "endpoint": "docs.google.com",
+      "variant": "description",
+      "method": "jev",
+      "identity_verified": false,
+      "needs_review": true,
+      "label": "non_ai",
+      "provider_probabilities": {
+        "ai": 0.0,
+        "non_ai": 1.0,
+        "unknown": 0.0
+      },
+      "provider_confidence": 1.0,
+      "returned_model": "jev-1.14.0",
+      "usage": {
+        "input_tokens": 519,
+        "output_tokens": 40
+      },
+      "status": "provisional_prediction",
+      "cache_hit": false
+    },
+    {
+      "application_name": "google docs",
+      "endpoint": "docs.google.com",
+      "variant": "description_plus_ai",
+      "method": "tfidf_logistic",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": 0.531986531986532,
+      "ai_probability_uncalibrated": 0.4051525118321873,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "google docs",
+      "endpoint": "docs.google.com",
+      "variant": "description_plus_ai",
+      "method": "tfidf_svm",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": 0.531986531986532,
+      "ai_decision_margin": -0.39643005033445244,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "google docs",
+      "endpoint": "docs.google.com",
+      "variant": "description_plus_ai",
+      "method": "embeddings_logistic",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": null,
+      "ai_probability_uncalibrated": 0.6759222149848938,
+      "label": "ai"
+    },
+    {
+      "application_name": "google docs",
+      "endpoint": "docs.google.com",
+      "variant": "description_plus_ai",
+      "method": "embeddings_knn",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": null,
+      "ai_probability_uncalibrated": 0.5930026927178638,
+      "label": "ai"
+    },
+    {
+      "application_name": "google docs",
+      "endpoint": "docs.google.com",
+      "variant": "description_plus_ai",
+      "method": "embeddings_forest",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": null,
+      "ai_probability_uncalibrated": 0.5425000000000001,
+      "label": "ai"
+    },
+    {
+      "application_name": "google docs",
+      "endpoint": "docs.google.com",
+      "variant": "description_plus_ai",
+      "method": "gemini",
+      "identity_verified": false,
+      "needs_review": true,
+      "label": "non_ai",
+      "reason": "Google Docs is primarily a cloud-based word processor and document editor whose core functionality functions independently, with AI features being optional additions.",
+      "usage": {
+        "initial_input_tokens": 310,
+        "input_tokens_by_modality": [
+          {
+            "modality": "text",
+            "tokens": 310
+          }
+        ],
+        "total_cached_tokens": 0,
+        "total_input_tokens": 310,
+        "total_output_tokens": 50,
+        "total_thought_tokens": 394,
+        "total_tokens": 754,
+        "total_tool_use_tokens": 0
+      },
+      "returned_model": "gemini-3.8-flash",
+      "status": "provisional_prediction",
+      "cache_hit": false
+    },
+    {
+      "application_name": "google docs",
+      "endpoint": "docs.google.com",
+      "variant": "description_plus_ai",
+      "method": "jev",
+      "identity_verified": false,
+      "needs_review": true,
+      "label": "non_ai",
+      "provider_probabilities": {
+        "ai": 0.0,
+        "non_ai": 1.0,
+        "unknown": 0.0
+      },
+      "provider_confidence": 1.0,
+      "returned_model": "jev-1.14.0",
+      "usage": {
+        "input_tokens": 625,
+        "output_tokens": 40
+      },
+      "status": "provisional_prediction",
+      "cache_hit": false
+    },
+    {
+      "application_name": "google drive",
+      "endpoint": "drive.google.com",
+      "variant": "description",
+      "method": "tfidf_logistic",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": 0.6713286713286714,
+      "ai_probability_uncalibrated": 0.22840651308154591,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "google drive",
+      "endpoint": "drive.google.com",
+      "variant": "description",
+      "method": "tfidf_svm",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": 0.6713286713286714,
+      "ai_decision_margin": -0.9882326014880005,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "google drive",
+      "endpoint": "drive.google.com",
+      "variant": "description",
+      "method": "embeddings_logistic",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": null,
+      "ai_probability_uncalibrated": 0.055447325110435486,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "google drive",
+      "endpoint": "drive.google.com",
+      "variant": "description",
+      "method": "embeddings_knn",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": null,
+      "ai_probability_uncalibrated": 0.0,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "google drive",
+      "endpoint": "drive.google.com",
+      "variant": "description",
+      "method": "embeddings_forest",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": null,
+      "ai_probability_uncalibrated": 0.10666666666666666,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "google drive",
+      "endpoint": "drive.google.com",
+      "variant": "description",
+      "method": "gemini",
+      "identity_verified": false,
+      "needs_review": true,
+      "label": "non_ai",
+      "reason": "The evidence describes Google Drive strictly as a cloud storage, file synchronization, and collaboration service with no mention of AI/ML features.",
+      "usage": {
+        "initial_input_tokens": 215,
+        "input_tokens_by_modality": [
+          {
+            "modality": "text",
+            "tokens": 215
+          }
+        ],
+        "total_cached_tokens": 0,
+        "total_input_tokens": 215,
+        "total_output_tokens": 50,
+        "total_thought_tokens": 371,
+        "total_tokens": 636,
+        "total_tool_use_tokens": 0
+      },
+      "returned_model": "gemini-3.8-flash",
+      "status": "provisional_prediction",
+      "cache_hit": false
+    },
+    {
+      "application_name": "google drive",
+      "endpoint": "drive.google.com",
+      "variant": "description",
+      "method": "jev",
+      "identity_verified": false,
+      "needs_review": true,
+      "label": "non_ai",
+      "provider_probabilities": {
+        "ai": 0.0,
+        "non_ai": 1.0,
+        "unknown": 0.0
+      },
+      "provider_confidence": 1.0,
+      "returned_model": "jev-1.14.0",
+      "usage": {
+        "input_tokens": 531,
+        "output_tokens": 40
+      },
+      "status": "provisional_prediction",
+      "cache_hit": false
+    },
+    {
+      "application_name": "google drive",
+      "endpoint": "drive.google.com",
+      "variant": "description_plus_ai",
+      "method": "tfidf_logistic",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": 0.5868945868945868,
+      "ai_probability_uncalibrated": 0.2512663250294783,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "google drive",
+      "endpoint": "drive.google.com",
+      "variant": "description_plus_ai",
+      "method": "tfidf_svm",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": 0.5868945868945868,
+      "ai_decision_margin": -0.9571960419826049,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "google drive",
+      "endpoint": "drive.google.com",
+      "variant": "description_plus_ai",
+      "method": "embeddings_logistic",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": null,
+      "ai_probability_uncalibrated": 0.2540110945701599,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "google drive",
+      "endpoint": "drive.google.com",
+      "variant": "description_plus_ai",
+      "method": "embeddings_knn",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": null,
+      "ai_probability_uncalibrated": 0.18425131102801262,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "google drive",
+      "endpoint": "drive.google.com",
+      "variant": "description_plus_ai",
+      "method": "embeddings_forest",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": null,
+      "ai_probability_uncalibrated": 0.3,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "google drive",
+      "endpoint": "drive.google.com",
+      "variant": "description_plus_ai",
+      "method": "gemini",
+      "identity_verified": false,
+      "needs_review": true,
+      "label": "non_ai",
+      "reason": "Google Drive is primarily a cloud storage and file management service, and the evidence explicitly states that its AI functionality is optional, supplementary, and not central to its core operation.",
+      "usage": {
+        "initial_input_tokens": 346,
+        "input_tokens_by_modality": [
+          {
+            "modality": "text",
+            "tokens": 346
+          }
+        ],
+        "total_cached_tokens": 0,
+        "total_input_tokens": 346,
+        "total_output_tokens": 58,
+        "total_thought_tokens": 168,
+        "total_tokens": 572,
+        "total_tool_use_tokens": 0
+      },
+      "returned_model": "gemini-3.8-flash",
+      "status": "provisional_prediction",
+      "cache_hit": false
+    },
+    {
+      "application_name": "google drive",
+      "endpoint": "drive.google.com",
+      "variant": "description_plus_ai",
+      "method": "jev",
+      "identity_verified": false,
+      "needs_review": true,
+      "label": "non_ai",
+      "provider_probabilities": {
+        "ai": 0.0,
+        "non_ai": 1.0,
+        "unknown": 0.0
+      },
+      "provider_confidence": 1.0,
+      "returned_model": "jev-1.14.0",
+      "usage": {
+        "input_tokens": 668,
+        "output_tokens": 40
+      },
+      "status": "provisional_prediction",
+      "cache_hit": false
+    },
+    {
+      "application_name": "microsoft excel",
+      "endpoint": "office.com",
+      "variant": "description",
+      "method": "tfidf_logistic",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": 0.6535433070866141,
+      "ai_probability_uncalibrated": 0.34317136588824393,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "microsoft excel",
+      "endpoint": "office.com",
+      "variant": "description",
+      "method": "tfidf_svm",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": 0.6535433070866141,
+      "ai_decision_margin": -0.5281164583818193,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "microsoft excel",
+      "endpoint": "office.com",
+      "variant": "description",
+      "method": "embeddings_logistic",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": null,
+      "ai_probability_uncalibrated": 0.20229418575763702,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "microsoft excel",
+      "endpoint": "office.com",
+      "variant": "description",
+      "method": "embeddings_knn",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": null,
+      "ai_probability_uncalibrated": 0.4456894989602562,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "microsoft excel",
+      "endpoint": "office.com",
+      "variant": "description",
+      "method": "embeddings_forest",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": null,
+      "ai_probability_uncalibrated": 0.27541666666666664,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "microsoft excel",
+      "endpoint": "office.com",
+      "variant": "description",
+      "method": "gemini",
+      "identity_verified": false,
+      "needs_review": true,
+      "label": "non_ai",
+      "reason": "The evidence describes a spreadsheet and data analysis application centered on formulas, grid calculations, PivotTables, and charts, with no mention of AI or machine learning.",
+      "usage": {
+        "initial_input_tokens": 203,
+        "input_tokens_by_modality": [
+          {
+            "modality": "text",
+            "tokens": 203
+          }
+        ],
+        "total_cached_tokens": 0,
+        "total_input_tokens": 203,
+        "total_output_tokens": 55,
+        "total_thought_tokens": 456,
+        "total_tokens": 714,
+        "total_tool_use_tokens": 0
+      },
+      "returned_model": "gemini-3.8-flash",
+      "status": "provisional_prediction",
+      "cache_hit": false
+    },
+    {
+      "application_name": "microsoft excel",
+      "endpoint": "office.com",
+      "variant": "description",
+      "method": "jev",
+      "identity_verified": false,
+      "needs_review": true,
+      "label": "non_ai",
+      "provider_probabilities": {
+        "ai": 0.0,
+        "non_ai": 1.0,
+        "unknown": 0.0
+      },
+      "provider_confidence": 1.0,
+      "returned_model": "jev-1.14.0",
+      "usage": {
+        "input_tokens": 520,
+        "output_tokens": 40
+      },
+      "status": "provisional_prediction",
+      "cache_hit": false
+    },
+    {
+      "application_name": "microsoft excel",
+      "endpoint": "office.com",
+      "variant": "description_plus_ai",
+      "method": "tfidf_logistic",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": 0.5940959409594095,
+      "ai_probability_uncalibrated": 0.43226691978643256,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "microsoft excel",
+      "endpoint": "office.com",
+      "variant": "description_plus_ai",
+      "method": "tfidf_svm",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": 0.5940959409594095,
+      "ai_decision_margin": -0.256546513966012,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "microsoft excel",
+      "endpoint": "office.com",
+      "variant": "description_plus_ai",
+      "method": "embeddings_logistic",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": null,
+      "ai_probability_uncalibrated": 0.5563928484916687,
+      "label": "ai"
+    },
+    {
+      "application_name": "microsoft excel",
+      "endpoint": "office.com",
+      "variant": "description_plus_ai",
+      "method": "embeddings_knn",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": null,
+      "ai_probability_uncalibrated": 0.6561157593341393,
+      "label": "ai"
+    },
+    {
+      "application_name": "microsoft excel",
+      "endpoint": "office.com",
+      "variant": "description_plus_ai",
+      "method": "embeddings_forest",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": null,
+      "ai_probability_uncalibrated": 0.5655833333333333,
+      "label": "ai"
+    },
+    {
+      "application_name": "microsoft excel",
+      "endpoint": "office.com",
+      "variant": "description_plus_ai",
+      "method": "gemini",
+      "identity_verified": false,
+      "needs_review": true,
+      "label": "non_ai",
+      "reason": "Microsoft Excel is primarily a spreadsheet and data analysis application where AI functionality is an optional add-on feature.",
+      "usage": {
+        "initial_input_tokens": 297,
+        "input_tokens_by_modality": [
+          {
+            "modality": "text",
+            "tokens": 297
+          }
+        ],
+        "total_cached_tokens": 0,
+        "total_input_tokens": 297,
+        "total_output_tokens": 45,
+        "total_thought_tokens": 170,
+        "total_tokens": 512,
+        "total_tool_use_tokens": 0
+      },
+      "returned_model": "gemini-3.8-flash",
+      "status": "provisional_prediction",
+      "cache_hit": false
+    },
+    {
+      "application_name": "microsoft excel",
+      "endpoint": "office.com",
+      "variant": "description_plus_ai",
+      "method": "jev",
+      "identity_verified": false,
+      "needs_review": true,
+      "label": "non_ai",
+      "provider_probabilities": {
+        "ai": 0.0,
+        "non_ai": 1.0,
+        "unknown": 0.0
+      },
+      "provider_confidence": 1.0,
+      "returned_model": "jev-1.14.0",
+      "usage": {
+        "input_tokens": 620,
+        "output_tokens": 40
+      },
+      "status": "provisional_prediction",
+      "cache_hit": false
+    },
+    {
+      "application_name": "microsoft teams",
+      "endpoint": "teams.microsoft.com",
+      "variant": "description",
+      "method": "tfidf_logistic",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": 0.616,
+      "ai_probability_uncalibrated": 0.29166744594088045,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "microsoft teams",
+      "endpoint": "teams.microsoft.com",
+      "variant": "description",
+      "method": "tfidf_svm",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": 0.616,
+      "ai_decision_margin": -0.7692994538899776,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "microsoft teams",
+      "endpoint": "teams.microsoft.com",
+      "variant": "description",
+      "method": "embeddings_logistic",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": null,
+      "ai_probability_uncalibrated": 0.08085422962903976,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "microsoft teams",
+      "endpoint": "teams.microsoft.com",
+      "variant": "description",
+      "method": "embeddings_knn",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": null,
+      "ai_probability_uncalibrated": 0.0,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "microsoft teams",
+      "endpoint": "teams.microsoft.com",
+      "variant": "description",
+      "method": "embeddings_forest",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": null,
+      "ai_probability_uncalibrated": 0.15916666666666665,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "microsoft teams",
+      "endpoint": "teams.microsoft.com",
+      "variant": "description",
+      "method": "gemini",
+      "identity_verified": false,
+      "needs_review": true,
+      "label": "non_ai",
+      "reason": "The evidence describes its primary purpose as workspace communication and collaboration (chat, calling, video conferencing, file sharing) with no AI functionality mentioned.",
+      "usage": {
+        "initial_input_tokens": 212,
+        "input_tokens_by_modality": [
+          {
+            "modality": "text",
+            "tokens": 212
+          }
+        ],
+        "total_cached_tokens": 0,
+        "total_input_tokens": 212,
+        "total_output_tokens": 52,
+        "total_thought_tokens": 436,
+        "total_tokens": 700,
+        "total_tool_use_tokens": 0
+      },
+      "returned_model": "gemini-3.8-flash",
+      "status": "provisional_prediction",
+      "cache_hit": false
+    },
+    {
+      "application_name": "microsoft teams",
+      "endpoint": "teams.microsoft.com",
+      "variant": "description",
+      "method": "jev",
+      "identity_verified": false,
+      "needs_review": true,
+      "label": "non_ai",
+      "provider_probabilities": {
+        "ai": 0.0,
+        "non_ai": 1.0,
+        "unknown": 0.0
+      },
+      "provider_confidence": 1.0,
+      "returned_model": "jev-1.14.0",
+      "usage": {
+        "input_tokens": 534,
+        "output_tokens": 40
+      },
+      "status": "provisional_prediction",
+      "cache_hit": false
+    },
+    {
+      "application_name": "microsoft teams",
+      "endpoint": "teams.microsoft.com",
+      "variant": "description_plus_ai",
+      "method": "tfidf_logistic",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": 0.5259938837920489,
+      "ai_probability_uncalibrated": 0.4329959387797572,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "microsoft teams",
+      "endpoint": "teams.microsoft.com",
+      "variant": "description_plus_ai",
+      "method": "tfidf_svm",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": 0.5259938837920489,
+      "ai_decision_margin": -0.3089806321698034,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "microsoft teams",
+      "endpoint": "teams.microsoft.com",
+      "variant": "description_plus_ai",
+      "method": "embeddings_logistic",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": null,
+      "ai_probability_uncalibrated": 0.6594115495681763,
+      "label": "ai"
+    },
+    {
+      "application_name": "microsoft teams",
+      "endpoint": "teams.microsoft.com",
+      "variant": "description_plus_ai",
+      "method": "embeddings_knn",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": null,
+      "ai_probability_uncalibrated": 0.8051511060428259,
+      "label": "ai"
+    },
+    {
+      "application_name": "microsoft teams",
+      "endpoint": "teams.microsoft.com",
+      "variant": "description_plus_ai",
+      "method": "embeddings_forest",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": null,
+      "ai_probability_uncalibrated": 0.631,
+      "label": "ai"
+    },
+    {
+      "application_name": "microsoft teams",
+      "endpoint": "teams.microsoft.com",
+      "variant": "description_plus_ai",
+      "method": "gemini",
+      "identity_verified": false,
+      "needs_review": true,
+      "label": "non_ai",
+      "reason": "Microsoft Teams is primarily a communication and collaboration platform for chat, calling, and conferencing, where AI features are baseline enhancements or optional add-ons rather than its central purpose.",
+      "usage": {
+        "initial_input_tokens": 359,
+        "input_tokens_by_modality": [
+          {
+            "modality": "text",
+            "tokens": 359
+          }
+        ],
+        "total_cached_tokens": 0,
+        "total_input_tokens": 359,
+        "total_output_tokens": 58,
+        "total_thought_tokens": 211,
+        "total_tokens": 628,
+        "total_tool_use_tokens": 0
+      },
+      "returned_model": "gemini-3.8-flash",
+      "status": "provisional_prediction",
+      "cache_hit": false
+    },
+    {
+      "application_name": "microsoft teams",
+      "endpoint": "teams.microsoft.com",
+      "variant": "description_plus_ai",
+      "method": "jev",
+      "identity_verified": false,
+      "needs_review": true,
+      "label": "non_ai",
+      "provider_probabilities": {
+        "ai": 0.0,
+        "non_ai": 1.0,
+        "unknown": 0.0
+      },
+      "provider_confidence": 1.0,
+      "returned_model": "jev-1.14.0",
+      "usage": {
+        "input_tokens": 664,
+        "output_tokens": 40
+      },
+      "status": "provisional_prediction",
+      "cache_hit": false
+    },
+    {
+      "application_name": "midjourney",
+      "endpoint": "midjourney.com",
+      "variant": "description",
+      "method": "tfidf_logistic",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": 0.5213675213675214,
+      "ai_probability_uncalibrated": 0.4421899997629927,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "midjourney",
+      "endpoint": "midjourney.com",
+      "variant": "description",
+      "method": "tfidf_svm",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": 0.5213675213675214,
+      "ai_decision_margin": -0.16208872399457652,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "midjourney",
+      "endpoint": "midjourney.com",
+      "variant": "description",
+      "method": "embeddings_logistic",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": null,
+      "ai_probability_uncalibrated": 0.25017985701560974,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "midjourney",
+      "endpoint": "midjourney.com",
+      "variant": "description",
+      "method": "embeddings_knn",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": null,
+      "ai_probability_uncalibrated": 0.0,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "midjourney",
+      "endpoint": "midjourney.com",
+      "variant": "description",
+      "method": "embeddings_forest",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": null,
+      "ai_probability_uncalibrated": 0.3300833333333334,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "midjourney",
+      "endpoint": "midjourney.com",
+      "variant": "description",
+      "method": "gemini",
+      "identity_verified": false,
+      "needs_review": true,
+      "label": "ai",
+      "reason": "Midjourney is a generative media platform whose primary purpose is generating and modifying visual media from natural language text prompts.",
+      "usage": {
+        "initial_input_tokens": 201,
+        "input_tokens_by_modality": [
+          {
+            "modality": "text",
+            "tokens": 201
+          }
+        ],
+        "total_cached_tokens": 0,
+        "total_input_tokens": 201,
+        "total_output_tokens": 44,
+        "total_thought_tokens": 369,
+        "total_tokens": 614,
+        "total_tool_use_tokens": 0
+      },
+      "returned_model": "gemini-3.8-flash",
+      "status": "provisional_prediction",
+      "cache_hit": false
+    },
+    {
+      "application_name": "midjourney",
+      "endpoint": "midjourney.com",
+      "variant": "description",
+      "method": "jev",
+      "identity_verified": false,
+      "needs_review": true,
+      "label": "ai",
+      "provider_probabilities": {
+        "ai": 0.99,
+        "non_ai": 0.0,
+        "unknown": 0.01
+      },
+      "provider_confidence": 0.98,
+      "returned_model": "jev-1.14.0",
+      "usage": {
+        "input_tokens": 520,
+        "output_tokens": 39
+      },
+      "status": "provisional_prediction",
+      "cache_hit": false
+    },
+    {
+      "application_name": "midjourney",
+      "endpoint": "midjourney.com",
+      "variant": "description_plus_ai",
+      "method": "tfidf_logistic",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": 0.49382716049382713,
+      "ai_probability_uncalibrated": 0.41274884098865117,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "midjourney",
+      "endpoint": "midjourney.com",
+      "variant": "description_plus_ai",
+      "method": "tfidf_svm",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": 0.49382716049382713,
+      "ai_decision_margin": -0.25472075880037437,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "midjourney",
+      "endpoint": "midjourney.com",
+      "variant": "description_plus_ai",
+      "method": "embeddings_logistic",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": null,
+      "ai_probability_uncalibrated": 0.733138382434845,
+      "label": "ai"
+    },
+    {
+      "application_name": "midjourney",
+      "endpoint": "midjourney.com",
+      "variant": "description_plus_ai",
+      "method": "embeddings_knn",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": null,
+      "ai_probability_uncalibrated": 1.0,
+      "label": "ai"
+    },
+    {
+      "application_name": "midjourney",
+      "endpoint": "midjourney.com",
+      "variant": "description_plus_ai",
+      "method": "embeddings_forest",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": null,
+      "ai_probability_uncalibrated": 0.6964166666666665,
+      "label": "ai"
+    },
+    {
+      "application_name": "midjourney",
+      "endpoint": "midjourney.com",
+      "variant": "description_plus_ai",
+      "method": "gemini",
+      "identity_verified": false,
+      "needs_review": true,
+      "label": "ai",
+      "reason": "Midjourney is a generative media platform whose central, core functionality centers entirely on proprietary generative machine learning models to synthesize visual media from text prompts.",
+      "usage": {
+        "initial_input_tokens": 288,
+        "input_tokens_by_modality": [
+          {
+            "modality": "text",
+            "tokens": 288
+          }
+        ],
+        "total_cached_tokens": 0,
+        "total_input_tokens": 288,
+        "total_output_tokens": 50,
+        "total_thought_tokens": 138,
+        "total_tokens": 476,
+        "total_tool_use_tokens": 0
+      },
+      "returned_model": "gemini-3.8-flash",
+      "status": "provisional_prediction",
+      "cache_hit": false
+    },
+    {
+      "application_name": "midjourney",
+      "endpoint": "midjourney.com",
+      "variant": "description_plus_ai",
+      "method": "jev",
+      "identity_verified": false,
+      "needs_review": true,
+      "label": "ai",
+      "provider_probabilities": {
+        "ai": 1.0,
+        "non_ai": 0.0,
+        "unknown": 0.0
+      },
+      "provider_confidence": 1.0,
+      "returned_model": "jev-1.14.0",
+      "usage": {
+        "input_tokens": 615,
+        "output_tokens": 39
+      },
+      "status": "provisional_prediction",
+      "cache_hit": false
+    },
+    {
+      "application_name": "vs code",
+      "endpoint": "code.visualstudio.com",
+      "variant": "description",
+      "method": "tfidf_logistic",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": 0.5590551181102362,
+      "ai_probability_uncalibrated": 0.29816736310660136,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "vs code",
+      "endpoint": "code.visualstudio.com",
+      "variant": "description",
+      "method": "tfidf_svm",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": 0.5590551181102362,
+      "ai_decision_margin": -0.7813296320518333,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "vs code",
+      "endpoint": "code.visualstudio.com",
+      "variant": "description",
+      "method": "embeddings_logistic",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": null,
+      "ai_probability_uncalibrated": 0.23367685079574585,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "vs code",
+      "endpoint": "code.visualstudio.com",
+      "variant": "description",
+      "method": "embeddings_knn",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": null,
+      "ai_probability_uncalibrated": 0.0,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "vs code",
+      "endpoint": "code.visualstudio.com",
+      "variant": "description",
+      "method": "embeddings_forest",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": null,
+      "ai_probability_uncalibrated": 0.24174999999999996,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "vs code",
+      "endpoint": "code.visualstudio.com",
+      "variant": "description",
+      "method": "gemini",
+      "identity_verified": false,
+      "needs_review": true,
+      "label": "non_ai",
+      "reason": "Visual Studio Code is described as a general-purpose source code editor and extensible workbench, with no mention of AI or machine learning being central to its primary purpose.",
+      "usage": {
+        "initial_input_tokens": 206,
+        "input_tokens_by_modality": [
+          {
+            "modality": "text",
+            "tokens": 206
+          }
+        ],
+        "total_cached_tokens": 0,
+        "total_input_tokens": 206,
+        "total_output_tokens": 56,
+        "total_thought_tokens": 423,
+        "total_tokens": 685,
+        "total_tool_use_tokens": 0
+      },
+      "returned_model": "gemini-3.8-flash",
+      "status": "provisional_prediction",
+      "cache_hit": false
+    },
+    {
+      "application_name": "vs code",
+      "endpoint": "code.visualstudio.com",
+      "variant": "description",
+      "method": "jev",
+      "identity_verified": false,
+      "needs_review": true,
+      "label": "non_ai",
+      "provider_probabilities": {
+        "ai": 0.0,
+        "non_ai": 0.98,
+        "unknown": 0.02
+      },
+      "provider_confidence": 0.97,
+      "returned_model": "jev-1.14.0",
+      "usage": {
+        "input_tokens": 526,
+        "output_tokens": 40
+      },
+      "status": "provisional_prediction",
+      "cache_hit": false
+    },
+    {
+      "application_name": "vs code",
+      "endpoint": "code.visualstudio.com",
+      "variant": "description_plus_ai",
+      "method": "tfidf_logistic",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": 0.5236593059936908,
+      "ai_probability_uncalibrated": 0.38309518192637576,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "vs code",
+      "endpoint": "code.visualstudio.com",
+      "variant": "description_plus_ai",
+      "method": "tfidf_svm",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": 0.5236593059936908,
+      "ai_decision_margin": -0.5158240470066286,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "vs code",
+      "endpoint": "code.visualstudio.com",
+      "variant": "description_plus_ai",
+      "method": "embeddings_logistic",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": null,
+      "ai_probability_uncalibrated": 0.628600001335144,
+      "label": "ai"
+    },
+    {
+      "application_name": "vs code",
+      "endpoint": "code.visualstudio.com",
+      "variant": "description_plus_ai",
+      "method": "embeddings_knn",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": null,
+      "ai_probability_uncalibrated": 0.40359921868869425,
+      "label": "non_ai"
+    },
+    {
+      "application_name": "vs code",
+      "endpoint": "code.visualstudio.com",
+      "variant": "description_plus_ai",
+      "method": "embeddings_forest",
+      "identity_verified": false,
+      "needs_review": true,
+      "status": "provisional_prediction",
+      "vocabulary_coverage": null,
+      "ai_probability_uncalibrated": 0.55,
+      "label": "ai"
+    },
+    {
+      "application_name": "vs code",
+      "endpoint": "code.visualstudio.com",
+      "variant": "description_plus_ai",
+      "method": "gemini",
+      "identity_verified": false,
+      "needs_review": true,
+      "label": "non_ai",
+      "reason": "Visual Studio Code is a general-purpose source code editor where AI capabilities are optional extensions rather than central to its core operation.",
+      "usage": {
+        "initial_input_tokens": 326,
+        "input_tokens_by_modality": [
+          {
+            "modality": "text",
+            "tokens": 326
+          }
+        ],
+        "total_cached_tokens": 0,
+        "total_input_tokens": 326,
+        "total_output_tokens": 49,
+        "total_thought_tokens": 211,
+        "total_tokens": 586,
+        "total_tool_use_tokens": 0
+      },
+      "returned_model": "gemini-3.8-flash",
+      "status": "provisional_prediction",
+      "cache_hit": false
+    },
+    {
+      "application_name": "vs code",
+      "endpoint": "code.visualstudio.com",
+      "variant": "description_plus_ai",
+      "method": "jev",
+      "identity_verified": false,
+      "needs_review": true,
+      "label": "non_ai",
+      "provider_probabilities": {
+        "ai": 0.0,
+        "non_ai": 1.0,
+        "unknown": 0.0
+      },
+      "provider_confidence": 1.0,
+      "returned_model": "jev-1.14.0",
+      "usage": {
+        "input_tokens": 645,
+        "output_tokens": 40
+      },
+      "status": "provisional_prediction",
+      "cache_hit": false
+    }
+  ],
+  "evidence": [
+    {
+      "application_name": "cursor",
+      "endpoint": "cursor.com",
+      "inputs": {
+        "description": "Cursor is an integrated development environment (IDE) and software development platform designed to assist engineers with building, navigating, and debugging codebases. Available as a native desktop application across macOS, Windows, and Linux, it provides code editing, file navigation, and terminal execution. The platform also offers command-line tools (CLI), cloud agent environments, and integrations with source control systems such as GitHub, GitLab, Bitbucket, and Azure DevOps.",
+        "description_plus_ai": "Cursor is an integrated development environment (IDE) and software development platform designed to assist engineers with building, navigating, and debugging codebases. Available as a native desktop application across macOS, Windows, and Linux, it provides code editing, file navigation, and terminal execution. The platform also offers command-line tools (CLI), cloud agent environments, and integrations with source control systems such as GitHub, GitLab, Bitbucket, and Azure DevOps.\n\nAI is central to Cursor's product architecture rather than an optional add-on. Documented AI capabilities include: - Agent and Composer: Autonomous workflows capable of searching repositories, planning changes, editing across multiple files, and executing shell commands from natural-language instructions. - Codebase Understanding & Chat: Semantic code indexing to answer questions, explain architectures, and assist with debugging. - Code Review & Automated Workflows: Features such as Bugbot for automated pull-request reviews, automated tracking of AI-generated commits, and cloud-hosted agent tasks. - Model Orchestration: Support for routing queries across frontier large language models (including Claude, Gemini, and Grok)."
+      },
+      "source_retrieved_at": "2026-11-12T00:13:20.340678+00:00"
+    },
+    {
+      "application_name": "github",
+      "endpoint": "github.com",
+      "inputs": {
+        "description": "GitHub is a cloud-based development and source code hosting platform built around the Git version control system. It enables software teams and individuals to store, manage, and collaborate on repositories, review code via pull requests, and track tasks through GitHub Issues and Projects. The platform also provides integrated automation for continuous integration and continuous deployment (CI/CD) via GitHub Actions, code security and secret scanning, package management, and web hosting via GitHub Pages.",
+        "description_plus_ai": "GitHub is a cloud-based development and source code hosting platform built around the Git version control system. It enables software teams and individuals to store, manage, and collaborate on repositories, review code via pull requests, and track tasks through GitHub Issues and Projects. The platform also provides integrated automation for continuous integration and continuous deployment (CI/CD) via GitHub Actions, code security and secret scanning, package management, and web hosting via GitHub Pages.\n\nGitHub offers AI functionality primarily via GitHub Copilot, an AI-powered developer assistant and suite of tools. Documented capabilities include code suggestions and completion, chat-based troubleshooting, automated pull request summaries, agentic workflow automation, and security fix suggestions (Copilot Autofix). This AI functionality is an optional add-on and workflow enhancement; it is not the central requirement for the platform's core Git repository hosting, tracking, and collaboration capabilities."
+      },
+      "source_retrieved_at": "2026-11-12T00:13:35.026965+00:00"
+    },
+    {
+      "application_name": "github copilot",
+      "endpoint": "github.com/copilot",
+      "inputs": {
+        "description": "GitHub Copilot is an AI-powered developer assistant designed to assist engineers throughout the software development lifecycle. It provides real-time code completions, generates multi-step implementation plans, answers natural language questions about codebases, and automates pull request reviews. Copilot operates natively across several surfaces, including integrated development environments (IDEs), command-line interfaces (CLI), dedicated desktop applications, and directly within GitHub.com.",
+        "description_plus_ai": "GitHub Copilot is an AI-powered developer assistant designed to assist engineers throughout the software development lifecycle. It provides real-time code completions, generates multi-step implementation plans, answers natural language questions about codebases, and automates pull request reviews. Copilot operates natively across several surfaces, including integrated development environments (IDEs), command-line interfaces (CLI), dedicated desktop applications, and directly within GitHub.com.\n\nAI capabilities are central and foundational to GitHub Copilot, not an optional secondary feature. The product relies on underlying large language models to deliver its core capabilities, which GitHub documents across assistive and agentic categories: real-time code generation, interactive contextual chat, automated test generation, pull request explanation and review, and autonomous agent tasks (such as editing files, running tools via the Model Context Protocol [MCP], and submitting changes for developer review)."
+      },
+      "source_retrieved_at": "2026-11-12T00:13:58.660003+00:00"
+    },
+    {
+      "application_name": "google docs",
+      "endpoint": "docs.google.com",
+      "inputs": {
+        "description": "Google Docs is a cloud-based word processor and document editing software included as part of Google Workspace and available to personal Google accounts. It enables users to create, format, and store text documents directly within a web browser without local software installation. The platform offers core features such as real-time multi-user co-authoring, commenting, suggestion modes, automated version history, and file import/export support across common document formats.",
+        "description_plus_ai": "Google Docs is a cloud-based word processor and document editing software included as part of Google Workspace and available to personal Google accounts. It enables users to create, format, and store text documents directly within a web browser without local software installation. The platform offers core features such as real-time multi-user co-authoring, commenting, suggestion modes, automated version history, and file import/export support across common document formats.\n\nGoogle Docs includes generative AI features powered by Gemini for Google Workspace (incorporating writing assistance features like \"Help me write\"). Documented AI capabilities include generating initial text drafts from prompts, summarizing long documents, rewriting or adjusting the tone of existing text, proofreading, and generating contextual templates. These AI capabilities are optional features; the core word processing, formatting, and real-time collaboration tools function independently, and generative AI features require an eligible Google Workspace plan or Google AI add-on subscription."
+      },
+      "source_retrieved_at": "2026-11-12T00:14:18.590055+00:00"
+    },
+    {
+      "application_name": "google drive",
+      "endpoint": "drive.google.com",
+      "inputs": {
+        "description": "Google Drive is a cloud-based storage, file synchronization, and collaboration service designed for individuals and enterprise organizations. It serves as a centralized repository where users can upload, organize, search, and securely share files and folders across web and mobile platforms. In business and enterprise environments, it provides team collaboration spaces (Shared Drives), integration with Google Docs editors (Docs, Sheets, Slides), and administrative security features such as Data Loss Prevention (DLP) and access controls.",
+        "description_plus_ai": "Google Drive is a cloud-based storage, file synchronization, and collaboration service designed for individuals and enterprise organizations. It serves as a centralized repository where users can upload, organize, search, and securely share files and folders across web and mobile platforms. In business and enterprise environments, it provides team collaboration spaces (Shared Drives), integration with Google Docs editors (Docs, Sheets, Slides), and administrative security features such as Data Loss Prevention (DLP) and access controls.\n\nGoogle Drive incorporates machine learning and generative artificial intelligence capabilities, primarily through features branded as Gemini in Google Drive (and legacy algorithmic tools such as \"Quick Access\"). Documented capabilities include: * Using a Gemini side panel or file-viewer integration to search across stored content, summarize documents (such as PDFs), and synthesize data from multiple files. * Assisting with enterprise content categorization and security labeling. AI functionality is optional and supplementary, not central to the application's core operation. Google Drive functions independently as a file storage and management tool; Gemini capabilities require eligible Google Workspace or Google AI licensing and can be turned on or off by administrators."
+      },
+      "source_retrieved_at": "2026-11-12T00:14:35.989712+00:00"
+    },
+    {
+      "application_name": "microsoft excel",
+      "endpoint": "office.com",
+      "inputs": {
+        "description": "Microsoft Excel is a spreadsheet and data analysis software application developed by Microsoft, available as a desktop program, mobile application, and web application. It provides a grid interface for organizing data, performing complex calculations, and automating workflows using formulas and built-in functions. Users can model and summarize information using tools like PivotTables, charts, and data queries, as well as collaborate on shared workbooks in real time.",
+        "description_plus_ai": "Microsoft Excel is a spreadsheet and data analysis software application developed by Microsoft, available as a desktop program, mobile application, and web application. It provides a grid interface for organizing data, performing complex calculations, and automating workflows using formulas and built-in functions. Users can model and summarize information using tools like PivotTables, charts, and data queries, as well as collaborate on shared workbooks in real time.\n\nMicrosoft Excel integrates generative AI capabilities via Microsoft Copilot in Excel (as well as legacy automated insight tools such as Analyze Data). Copilot assists users in generating formulas, uncovering trends, summarizing datasets, and creating charts or PivotTables through natural-language prompts. AI functionality is an optional add-on feature that requires an eligible Microsoft 365 subscription and Copilot license; the core spreadsheet calculations, data modeling, and editing functions operate independently without AI."
+      },
+      "source_retrieved_at": "2026-11-12T00:14:55.930630+00:00"
+    },
+    {
+      "application_name": "microsoft teams",
+      "endpoint": "teams.microsoft.com",
+      "inputs": {
+        "description": "Microsoft Teams is a cloud-based communication and collaboration platform integrated into the Microsoft 365 suite. Its primary purpose is to provide unified workspace communication through persistent 1:1 and channel-based chat, VoIP calling, and video conferencing. It also functions as a hub for real-time collaboration, integrating with Microsoft 365 apps (such as SharePoint, OneDrive, and Planner) for file sharing, calendar coordination, and workflow orchestration.",
+        "description_plus_ai": "Microsoft Teams is a cloud-based communication and collaboration platform integrated into the Microsoft 365 suite. Its primary purpose is to provide unified workspace communication through persistent 1:1 and channel-based chat, VoIP calling, and video conferencing. It also functions as a hub for real-time collaboration, integrating with Microsoft 365 apps (such as SharePoint, OneDrive, and Planner) for file sharing, calendar coordination, and workflow orchestration.\n\nMicrosoft Teams incorporates both standard baseline AI features and optional generative AI add-ons: * Standard Platform AI: Teams includes built-in AI-powered capabilities that do not require add-on licenses, such as AI voice isolation (background noise reduction and speaker detection), video feed optimization (auto-brightness, facial framing), and suggested chat replies. * Optional AI Add-ons: Advanced generative AI capabilities—including automated meeting summaries, action-item extraction, chat Q&A, and task-tailored agents—are provided through Microsoft Copilot in Teams or Teams Premium. These advanced features are optional and depend on additional licensing; they are not mandatory for core Teams communication."
+      },
+      "source_retrieved_at": "2026-11-12T00:15:14.287460+00:00"
+    },
+    {
+      "application_name": "midjourney",
+      "endpoint": "midjourney.com",
+      "inputs": {
+        "description": "Midjourney is a generative media platform developed and hosted by Midjourney, Inc. that creates visual media from natural language text prompts. The service allows users to generate, upscale, remix, and modify images either via its dedicated web interface or through commands in Discord. Documented platform features include prompt-based generation, region variation (inpainting), panning, style referencing, and character consistency controls.",
+        "description_plus_ai": "Midjourney is a generative media platform developed and hosted by Midjourney, Inc. that creates visual media from natural language text prompts. The service allows users to generate, upscale, remix, and modify images either via its dedicated web interface or through commands in Discord. Documented platform features include prompt-based generation, region variation (inpainting), panning, style referencing, and character consistency controls.\n\nArtificial intelligence is the central, core functionality of Midjourney rather than an optional add-on. Documented capabilities center entirely on proprietary generative machine learning models (such as the Midjourney Image and Video model families) designed to parse user text inputs (prompts) and reference images to synthesize media. Additional documented generative features include parameter tuning, image remixing, style referencing (--sref), and character referencing (--cref)."
+      },
+      "source_retrieved_at": "2026-11-12T00:15:31.807917+00:00"
+    },
+    {
+      "application_name": "vs code",
+      "endpoint": "code.visualstudio.com",
+      "inputs": {
+        "description": "Visual Studio Code is a cross-platform source code editor developed by Microsoft for Windows, macOS, and Linux. It provides tools across the software development lifecycle, including syntax highlighting, IntelliSense code completion, an integrated terminal, interactive debugging, and built-in Git source control. VS Code functions as an extensible workbench that developers can customize with language runtimes, toolchains, remote development environments, and community-built extensions.",
+        "description_plus_ai": "Visual Studio Code is a cross-platform source code editor developed by Microsoft for Windows, macOS, and Linux. It provides tools across the software development lifecycle, including syntax highlighting, IntelliSense code completion, an integrated terminal, interactive debugging, and built-in Git source control. VS Code functions as an extensible workbench that developers can customize with language runtimes, toolchains, remote development environments, and community-built extensions.\n\nVS Code documents integrations for AI-assisted development, such as inline code suggestions, an integrated chat panel, and agent-based workflows that can inspect codebases, execute terminal commands, and draft file edits. These AI capabilities are optional features rather than central to the editor's operation. The core editor operates fully as a traditional text and code editor without an AI account, assistant, or internet-connected language model. Advanced AI workflows operate via external extensions or agent harnesses (such as GitHub Copilot or third-party model providers via custom API keys) rather than being mandatory platform dependencies."
+      },
+      "source_retrieved_at": "2026-11-12T00:15:48.266592+00:00"
+    }
+  ],
+  "metrics": []
+}

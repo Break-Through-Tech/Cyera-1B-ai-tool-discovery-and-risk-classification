@@ -1,0 +1,18 @@
+{
+  "version": "binary-comparison-1",
+  "script_sha256": "b82191cc10561e2f0aef62f4ff9de8f661d934af759d9e15d3c6af8a3456d7f4",
+  "input_sha256": "82538f385e2256c877736c8b1857b80a9ad52f9188a3c8bc215bd6c15ce503c4",
+  "seed": 42,
+  "folds": 5,
+  "encoder": "sentence-transformers/all-MiniLM-L6-v2",
+  "encoder_revision": null,
+  "device": "cpu",
+  "versions": {
+    "numpy": "2.5.3",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0",
+    "sentence-transformers": "6.2.0",
+    "torch": "2.15.0"
+  },
+  "python": "3.14.2"
+}

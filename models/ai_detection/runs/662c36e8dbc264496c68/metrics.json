@@ -1,0 +1,163 @@
+{
+  "comparison": [
+    {
+      "model": "tfidf_logistic",
+      "cv_scores": {
+        "accuracy": 0.9730215827338129,
+        "ai_precision": 0.9914163090128756,
+        "ai_recall": 0.9467213114754098,
+        "non_ai_recall": 0.9935897435897436,
+        "macro_f1": 0.9724657059377012,
+        "confusion_matrix_labels_0_1": [
+          [
+            310,
+            2
+          ],
+          [
+            13,
+            231
+          ]
+        ]
+      },
+      "cv_fit_seconds": 0.33546999999953186,
+      "cv_predict_ms_per_description": 0.05999334532278475
+    },
+    {
+      "model": "tfidf_svm",
+      "cv_scores": {
+        "accuracy": 0.9712230215827338,
+        "ai_precision": 0.9913793103448276,
+        "ai_recall": 0.9426229508196722,
+        "non_ai_recall": 0.9935897435897436,
+        "macro_f1": 0.9706146609587232,
+        "confusion_matrix_labels_0_1": [
+          [
+            310,
+            2
+          ],
+          [
+            14,
+            230
+          ]
+        ]
+      },
+      "cv_fit_seconds": 0.1845404000000599,
+      "cv_predict_ms_per_description": 0.061908453237671024
+    },
+    {
+      "model": "embeddings_logistic",
+      "cv_scores": {
+        "accuracy": 0.9586330935251799,
+        "ai_precision": 0.9742489270386266,
+        "ai_recall": 0.930327868852459,
+        "non_ai_recall": 0.9807692307692307,
+        "macro_f1": 0.9577807491044752,
+        "confusion_matrix_labels_0_1": [
+          [
+            306,
+            6
+          ],
+          [
+            17,
+            227
+          ]
+        ]
+      },
+      "cv_fit_seconds": 0.023265899999842077,
+      "cv_predict_ms_per_description": 0.002358992805770115
+    },
+    {
+      "model": "embeddings_knn",
+      "cv_scores": {
+        "accuracy": 0.9388489208633094,
+        "ai_precision": 0.92,
+        "ai_recall": 0.9426229508196722,
+        "non_ai_recall": 0.9358974358974359,
+        "macro_f1": 0.9380789539195262,
+        "confusion_matrix_labels_0_1": [
+          [
+            292,
+            20
+          ],
+          [
+            14,
+            230
+          ]
+        ]
+      },
+      "cv_fit_seconds": 0.006165599999803817,
+      "cv_predict_ms_per_description": 0.09431133093467454
+    },
+    {
+      "model": "embeddings_forest",
+      "cv_scores": {
+        "accuracy": 0.9388489208633094,
+        "ai_precision": 0.981651376146789,
+        "ai_recall": 0.8770491803278688,
+        "non_ai_recall": 0.9871794871794872,
+        "macro_f1": 0.9370496170496171,
+        "confusion_matrix_labels_0_1": [
+          [
+            308,
+            4
+          ],
+          [
+            30,
+            214
+          ]
+        ]
+      },
+      "cv_fit_seconds": 2.4095251999992797,
+      "cv_predict_ms_per_description": 0.10187697841629677
+    }
+  ],
+  "winner": "tfidf_logistic",
+  "test_scores": {
+    "accuracy": 0.9574468085106383,
+    "ai_precision": 0.9375,
+    "ai_recall": 0.967741935483871,
+    "non_ai_recall": 0.9493670886075949,
+    "macro_f1": 0.9569597069597069,
+    "confusion_matrix_labels_0_1": [
+      [
+        75,
+        4
+      ],
+      [
+        2,
+        60
+      ]
+    ]
+  },
+  "majority_test_baseline": {
+    "accuracy": 0.5602836879432624,
+    "ai_precision": 0.0,
+    "ai_recall": 0.0,
+    "non_ai_recall": 1.0,
+    "macro_f1": 0.35909090909090907,
+    "confusion_matrix_labels_0_1": [
+      [
+        79,
+        0
+      ],
+      [
+        62,
+        0
+      ]
+    ]
+  },
+  "eligible_rows": 697,
+  "excluded_rows": 0,
+  "development_rows": 556,
+  "test_rows": 141,
+  "embedding_cache": "C:\\Users\\Sadit\\Desktop\\Cyera-1B-ai-tool-discovery-and-risk-classification\\models\\ai_detection\\embeddings\\46472166a6fa7a853491",
+  "notes": [
+    "Only descriptions are model inputs.",
+    "Winner selected on development CV macro-F1; only winner evaluated on test.",
+    "Fixed model settings; no hyperparameter search.",
+    "Repeated experiments after inspecting this test require fresh final evaluation.",
+    "Related names, hosts and exact normalized descriptions grouped; near-duplicates may remain.",
+    "Timing excludes shared encoder computation. Probabilities are not calibrated.",
+    "This does not yet connect predictions to enrich.py or choose an abstention threshold."
+  ]
+}
