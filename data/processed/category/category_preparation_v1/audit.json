@@ -1,0 +1,90 @@
+{
+  "raw_rows": 16762,
+  "eligible_rows": 16751,
+  "excluded_rows": 11,
+  "raw_category_counts": {
+    "Communication And Support": 2022,
+    "Operations And Management": 1567,
+    "Ai And Machine Learning": 1320,
+    "Technology And Development": 1739,
+    "Specialized Technologies": 967,
+    "Media And Content Creation": 4289,
+    "Marketing And Sales": 1389,
+    "Education And Learning": 277,
+    "Industry Specific": 328,
+    "Business And Finance": 1053,
+    "Security And Privacy": 204,
+    "Creative And Entertainment": 580,
+    "Personal And Lifestyle": 262,
+    "Data And Analytics": 765
+  },
+  "eligible_category_counts": {
+    "Communication And Support": 2020,
+    "Operations And Management": 1565,
+    "Ai And Machine Learning": 1320,
+    "Technology And Development": 1739,
+    "Specialized Technologies": 966,
+    "Media And Content Creation": 4288,
+    "Marketing And Sales": 1387,
+    "Education And Learning": 277,
+    "Industry Specific": 328,
+    "Business And Finance": 1053,
+    "Security And Privacy": 204,
+    "Creative And Entertainment": 580,
+    "Personal And Lifestyle": 261,
+    "Data And Analytics": 763
+  },
+  "eligible_groups_by_category": {
+    "Ai And Machine Learning": 1314,
+    "Business And Finance": 1045,
+    "Communication And Support": 1986,
+    "Creative And Entertainment": 557,
+    "Data And Analytics": 759,
+    "Education And Learning": 271,
+    "Industry Specific": 324,
+    "Marketing And Sales": 1362,
+    "Media And Content Creation": 4189,
+    "Operations And Management": 1529,
+    "Personal And Lifestyle": 254,
+    "Security And Privacy": 202,
+    "Specialized Technologies": 957,
+    "Technology And Development": 1708
+  },
+  "groups": 16372,
+  "blank_descriptions": 530,
+  "short_nonempty_descriptions": 2703,
+  "eligible_text_origins": {
+    "description_plus_primary_task": 16221,
+    "primary_task_only": 530
+  },
+  "duplicate_group_counts": {
+    "name": 160,
+    "description": 19,
+    "text": 105,
+    "endpoint": 1,
+    "identity": 0
+  },
+  "conflicting_group_counts": {
+    "name": 88,
+    "description": 5
+  },
+  "exact_non_ai_exclusions": 11,
+  "catalog_join_status": {
+    "verified_name_host": 16743
+  },
+  "category_reference_rows": 697,
+  "discovery_previews": 9,
+  "discovery_status_counts": {
+    "ready_for_category_model": 3,
+    "not_applicable": 6
+  },
+  "warnings": [
+    "Kaggle purpose text is a proxy for web-enriched descriptions/functionality, not an identical distribution.",
+    "Group IDs prevent documented overlaps crossing splits; use group-aware splitting, never row-random splitting.",
+    "Name-only groups are conservative leakage controls, not verified aliases. Different labels in those groups are not automatically dropped.",
+    "Near-duplicate paraphrases and aliases with different names/endpoints are not automatically detected in v1. Review before final evaluation.",
+    "Task-only rows are retained when eligible; report their results separately from description-bearing products.",
+    "Reference/discovery rows are audits only, never appended as category training examples.",
+    "No split, training, model metrics, API fallback, or production integration is performed."
+  ]
+}

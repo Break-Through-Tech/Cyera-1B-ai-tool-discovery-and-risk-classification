@@ -1,0 +1,94 @@
+﻿signal,source_ids,categories,action
+name,raw_00013;raw_00242,Media And Content Creation;Operations And Management,group_only_review_identity
+name,raw_00052;raw_01129,Operations And Management;Technology And Development,group_only_review_identity
+name,raw_00092;raw_13551,Communication And Support;Marketing And Sales,group_only_review_identity
+name,raw_00103;raw_00131,Business And Finance;Operations And Management,group_only_review_identity
+name,raw_00136;raw_01331;raw_13256,Communication And Support;Technology And Development,group_only_review_identity
+name,raw_00237;raw_10088,Media And Content Creation;Operations And Management,group_only_review_identity
+name,raw_00385;raw_15657,Marketing And Sales;Media And Content Creation,group_only_review_identity
+name,raw_00426;raw_15019,Education And Learning;Technology And Development,group_only_review_identity
+name,raw_00475;raw_01448,Industry Specific;Media And Content Creation,group_only_review_identity
+name,raw_00541;raw_03694;raw_07286,Specialized Technologies;Technology And Development,group_only_review_identity
+name,raw_00718;raw_14910,Communication And Support;Industry Specific,group_only_review_identity
+name,raw_00933;raw_14890,Data And Analytics;Specialized Technologies,group_only_review_identity
+name,raw_00968;raw_02224;raw_02419,Ai And Machine Learning;Communication And Support;Operations And Management,group_only_review_identity
+name,raw_00988;raw_15027,Creative And Entertainment;Media And Content Creation,group_only_review_identity
+name,raw_01194;raw_14686,Communication And Support;Marketing And Sales,group_only_review_identity
+name,raw_01341;raw_15835,Media And Content Creation;Operations And Management,group_only_review_identity
+name,raw_01533;raw_14694,Communication And Support;Media And Content Creation,group_only_review_identity
+name,raw_01822;raw_15090,Communication And Support;Personal And Lifestyle,group_only_review_identity
+name,raw_02038;raw_11910,Ai And Machine Learning;Specialized Technologies,group_only_review_identity
+name,raw_02110;raw_03414,Communication And Support;Specialized Technologies,group_only_review_identity
+name,raw_02117;raw_14813,Communication And Support;Specialized Technologies,group_only_review_identity
+name,raw_02148;raw_15971,Ai And Machine Learning;Specialized Technologies,group_only_review_identity
+name,raw_02338;raw_16477,Operations And Management;Specialized Technologies,group_only_review_identity
+name,raw_02589;raw_07216,Operations And Management;Technology And Development,group_only_review_identity
+name,raw_02725;raw_05014,Communication And Support;Technology And Development,group_only_review_identity
+name,raw_02737;raw_14706,Business And Finance;Operations And Management,group_only_review_identity
+name,raw_02746;raw_16646,Creative And Entertainment;Media And Content Creation,group_only_review_identity
+name,raw_02818;raw_15501,Ai And Machine Learning;Media And Content Creation,group_only_review_identity
+name,raw_03232;raw_15710,Business And Finance;Media And Content Creation,group_only_review_identity
+name,raw_03258;raw_16697,Ai And Machine Learning;Communication And Support,group_only_review_identity
+name,raw_03283;raw_15379,Communication And Support;Personal And Lifestyle,group_only_review_identity
+name,raw_03451;raw_16438,Marketing And Sales;Media And Content Creation,group_only_review_identity
+name,raw_03635;raw_11540,Business And Finance;Communication And Support,group_only_review_identity
+name,raw_03667;raw_05654,Ai And Machine Learning;Data And Analytics,group_only_review_identity
+name,raw_03885;raw_15965,Business And Finance;Specialized Technologies,group_only_review_identity
+name,raw_04310;raw_14812,Data And Analytics;Operations And Management,group_only_review_identity
+name,raw_04522;raw_15475,Operations And Management;Technology And Development,group_only_review_identity
+name,raw_04663;raw_07672,Education And Learning;Operations And Management,group_only_review_identity
+name,raw_04667;raw_07616,Ai And Machine Learning;Communication And Support,group_only_review_identity
+name,raw_05013;raw_16352,Specialized Technologies;Technology And Development,group_only_review_identity
+name,raw_05055;raw_15930,Creative And Entertainment;Media And Content Creation,group_only_review_identity
+name,raw_05324;raw_14858,Operations And Management;Personal And Lifestyle,group_only_review_identity
+name,raw_05390;raw_14766,Media And Content Creation;Security And Privacy,group_only_review_identity
+name,raw_06268;raw_15024,Ai And Machine Learning;Communication And Support,group_only_review_identity
+name,raw_06299;raw_15329,Marketing And Sales;Media And Content Creation,group_only_review_identity
+name,raw_06328;raw_16008,Creative And Entertainment;Media And Content Creation,group_only_review_identity
+name,raw_06976;raw_08691,Communication And Support;Creative And Entertainment,group_only_review_identity
+name,raw_07142;raw_16199,Ai And Machine Learning;Data And Analytics,group_only_review_identity
+name,raw_07319;raw_16722,Marketing And Sales;Operations And Management,group_only_review_identity
+name,raw_07549;raw_16686,Ai And Machine Learning;Media And Content Creation,group_only_review_identity
+name,raw_07770;raw_16526,Data And Analytics;Technology And Development,group_only_review_identity
+name,raw_07937;raw_15068,Communication And Support;Data And Analytics,group_only_review_identity
+name,raw_08038;raw_15857,Ai And Machine Learning;Marketing And Sales,group_only_review_identity
+name,raw_08044;raw_15087,Communication And Support;Operations And Management,group_only_review_identity
+name,raw_08219;raw_15008,Education And Learning;Industry Specific,group_only_review_identity
+name,raw_08268;raw_14659,Business And Finance;Industry Specific,group_only_review_identity
+name,raw_08422;raw_09266,Operations And Management;Technology And Development,group_only_review_identity
+name,raw_08929;raw_15425,Operations And Management;Personal And Lifestyle,group_only_review_identity
+name,raw_08954;raw_15128,Communication And Support;Marketing And Sales,group_only_review_identity
+name,raw_09095;raw_15149,Communication And Support;Creative And Entertainment,group_only_review_identity
+name,raw_09320;raw_16420,Communication And Support;Media And Content Creation,group_only_review_identity
+name,raw_09408;raw_14662,Industry Specific;Marketing And Sales,group_only_review_identity
+name,raw_09428;raw_16648,Marketing And Sales;Media And Content Creation,group_only_review_identity
+name,raw_09473;raw_09903;raw_15055,Creative And Entertainment;Media And Content Creation,group_only_review_identity
+name,raw_10378;raw_13005,Media And Content Creation;Specialized Technologies,group_only_review_identity
+name,raw_10575;raw_15712,Creative And Entertainment;Media And Content Creation,group_only_review_identity
+name,raw_10964;raw_14600,Education And Learning;Media And Content Creation,group_only_review_identity
+name,raw_10981;raw_16290,Media And Content Creation;Technology And Development,group_only_review_identity
+name,raw_10998;raw_14806,Data And Analytics;Operations And Management,group_only_review_identity
+name,raw_11024;raw_16172,Education And Learning;Technology And Development,group_only_review_identity
+name,raw_11095;raw_15785,Ai And Machine Learning;Technology And Development,group_only_review_identity
+name,raw_11567;raw_15054,Marketing And Sales;Media And Content Creation,group_only_review_identity
+name,raw_11572;raw_16361,Communication And Support;Specialized Technologies,group_only_review_identity
+name,raw_12224;raw_12766,Creative And Entertainment;Media And Content Creation,group_only_review_identity
+name,raw_12228;raw_14227;raw_14875;raw_15931;raw_15993,Ai And Machine Learning;Communication And Support;Media And Content Creation;Specialized Technologies,group_only_review_identity
+name,raw_12260;raw_15190,Ai And Machine Learning;Operations And Management,group_only_review_identity
+name,raw_12555;raw_14723,Communication And Support;Marketing And Sales,group_only_review_identity
+name,raw_13515;raw_16053;raw_16532,Creative And Entertainment;Media And Content Creation,group_only_review_identity
+name,raw_13661;raw_16097,Ai And Machine Learning;Operations And Management,group_only_review_identity
+name,raw_13711;raw_15037,Specialized Technologies;Technology And Development,group_only_review_identity
+name,raw_13715;raw_15789,Marketing And Sales;Media And Content Creation,group_only_review_identity
+name,raw_14254;raw_15958,Marketing And Sales;Media And Content Creation,group_only_review_identity
+name,raw_14594;raw_16300,Ai And Machine Learning;Business And Finance,group_only_review_identity
+name,raw_14831;raw_16479,Communication And Support;Operations And Management,group_only_review_identity
+name,raw_15081;raw_16370,Data And Analytics;Technology And Development,group_only_review_identity
+name,raw_15249;raw_16390,Media And Content Creation;Technology And Development,group_only_review_identity
+name,raw_15544;raw_16683,Creative And Entertainment;Industry Specific,group_only_review_identity
+name,raw_16213;raw_16564,Communication And Support;Creative And Entertainment,group_only_review_identity
+description,raw_00172;raw_05007,Communication And Support;Media And Content Creation,group_only_review_identity
+description,raw_00808;raw_13961,Education And Learning;Technology And Development,group_only_review_identity
+description,raw_02445;raw_07736,Ai And Machine Learning;Communication And Support,group_only_review_identity
+description,raw_05149;raw_05150,Communication And Support;Operations And Management,group_only_review_identity
+description,raw_07417;raw_07847,Marketing And Sales;Media And Content Creation,group_only_review_identity
