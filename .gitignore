@@ -12,11 +12,16 @@
 *.safetensors
 *.npy
 
-# Downloaded encoders, trained run outputs, and embedding caches
+# Downloaded encoders (Hugging Face / sentence-transformers caches)
+**/encoder/
+
+# Derived embedding caches and local category training run outputs
 /artifacts/embedding_cache/
-/artifacts/**/encoder/
 /data/cache/category_embeddings/
 /models/categories/
 /models/ai_detection/embeddings/
+/models/category_embeddings/
+/models/category_embeddings_tuned/
+/models/category/
 
 **/__pycache__/
