@@ -1,7 +1,7 @@
 # AI discovery pipeline: implementation and next steps
 
 **Project:** AI Tool Discovery and Risk Classification  
-**Status:** November 12, 2026 — Component 3 preparation complete; training code delivered; results pending
+**Status:** November 14, 2026 - Kaggle-14 results reviewed; Component 3 inference and Components 1-3 runner delivered
 
 This guide documents the scripts delivered and the runs reviewed so far. Commands
 assume the project root is the working directory and the Python virtual environment
@@ -17,7 +17,7 @@ to decide whether each researched product is primarily an AI tool.
 The operational scripts are `ingest.py`, `catalog.py`, `enrich.py`, and `classify.py`.
 Binary local-model scripts remain experimental and are not required for normal
 discovery. Component 3 now has separate data-preparation and local-training scripts;
-these do not change the operational binary AI-detection workflow.
+these do not change the operational binary AI-detection policy. `categorize.py` adds purpose categories; `run_pipeline.py` connects Components 1-3.
 
 The successful latest classification run produced three AI labels and six non-AI
 labels for the nine researched applications. An identical rerun returned
@@ -26,8 +26,7 @@ not establish accuracy on arbitrary unseen products.
 
 **Current boundary:** `classify.py` processes entries already in the enrichment
 cache. It does not extract new activity, rerun catalog matching, or merge known and
-newly classified products into a complete enterprise report. That integration is
-still to be completed.
+newly classified products into a complete enterprise report. The new `run_pipeline.py` now combines Components 1-3 for an activity input. Governance remains in the older `report.py` workflow.
 
 ### Team status at a glance
 
@@ -36,9 +35,9 @@ still to be completed.
 | Application extraction and catalog lookup | Implemented in the supplied scripts; results are returned in memory. | Preserve identity and event mappings when integrating. |
 | Evidence retrieval and AI detection | Implemented; latest supplied report has 3 AI and 6 non-AI decisions. | Broaden validation; preserve unknown decisions and provenance. |
 | Category data preparation | Run completed: 16,751 eligible rows using Kaggle's exact 14 categories. | Keep the prepared files and manifest together. |
-| Category model training | Code delivered; input/guard checks passed; no reviewed full training results. | Run the local smoke test and comparison commands in section 8. |
-| Category inference and prediction cache | Not implemented. | Evaluate model results, then build the catalog/model adapter. |
-| Merged enterprise report | Not integrated with the supplied discovery scripts. | Resolve the report/catalog interface mismatch before wiring categories. |
+| Category model training | Completed locally; TF-IDF won development selection, held-out macro-F1 0.735. | Broaden independent discovery-evidence evaluation. |
+| Category inference and prediction cache | Implemented in `categorize.py`; catalog, model and human provenance. | Run locally against saved discovery/model artifacts. |
+| Combined activity run | `run_pipeline.py` connects Components 1-3 and preserves ingestion. | Governance/dashboard integration with the new schema remains separate. |
 
 Section 8 is the current Component 3 handoff. Sections 6–7 retain historical results
 for context; they are not performance claims for the newly delivered Kaggle-14 models.
@@ -505,7 +504,7 @@ python preprocessing_scripts/prepare_category_data.py `
   --catalog "data/processed/kaggle_dataset_b/kaggle_dataset_b_filled.csv" `
   --reference "data/processed/final/dataset_b_final_kaggle_categories.csv" `
   --discovery "data/processed/ai_discovery_classification.json" `
-  --out "data/processed/category_preparation_v1"
+  --out "data/processed/category"
 ```
 
 `--discovery` expects the classification report containing a `results` array, not
@@ -541,38 +540,36 @@ The new training script compares **TF-IDF + multiclass logistic regression** and
 sanity baseline. Neither option fine-tunes a language model. Both use the same
 prepared text and product-grouped partitions.
 
-Use the project-root `.venv`. PowerShell commands from the project root:
+Use Python 3.11 or 3.12. PowerShell commands from the project root:
 
 ```powershell
-python -m venv .venv
-.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+python -m pip install -r category_training/requirements-embeddings.txt
 
-.\.venv\Scripts\python.exe category_training/train_categories.py `
-  --prepared "data/processed/category_preparation_v1" `
+python category_training/train_categories.py `
+  --prepared "data/processed/category" `
   --out "models/categories/kaggle14_run1" `
   --description-ablation
 ```
 
-Invoking the environment's Python directly avoids requiring PowerShell activation.
-The first embedding run downloads the public MiniLM encoder; there is no paid API
-call or API key. CPU is the default.
+Use your already activated Python environment (3.11 or 3.12 for the pinned training dependencies). The first embedding run downloads the public MiniLM encoder;
+there is no paid API call or API key. CPU is the default.
 
 For input validation without packages, downloads, or file writes:
 
 ```powershell
-python category_training/train_categories.py --prepared "data/processed/category_preparation_v1" --out "models/categories/check" --validate-only
+python category_training/train_categories.py --prepared "data/processed/category" --out "models/categories/check" --validate-only
 ```
 
 After dependency installation, the small synthetic TF-IDF smoke test is:
 
 ```powershell
-.\.venv\Scripts\python.exe category_training/smoke_test.py
+python category_training/smoke_test.py
 ```
 
 For TF-IDF only, install `category_training/requirements.txt`, pass `--models tfidf`,
 and choose a separate output directory. The full package README includes that command.
 
-**Evaluation implemented in the script, not yet measured in a reviewed full run:**
+**Evaluation implemented and run locally; reviewed results follow below:**
 
 1. Reserve the first fold of seeded, shuffled 5-fold `StratifiedGroupKFold` as the test set (about 20%). No group crosses the development/test boundary.
 2. Use 3-fold grouped cross-validation on development rows. Compare C = 0.5 and 2.0, with and without balanced class weights. Fit TF-IDF within each training fold.
@@ -612,76 +609,241 @@ The separate `data/cache/category_embeddings/` contains the local encoder,
 `encoder_source.json`, and fingerprinted `.npy` matrices/JSON metadata. These are
 feature caches, not category-decision caches. Keep the encoder with an embedding
 model; its `.joblib` alone is insufficient. Do not run concurrent cache writers.
-Trained model bundles (`.joblib`), encoder weights (`.safetensors`), embedding
-matrices (`.npy`), and category run output dirs are gitignored so teammates train
-on their own machines; the repo keeps training code and prepared data.
 
 An identical completed training command verifies its artifacts and exits without
 retraining. Changed or incomplete runs require a new output directory. Normal
-inference must load a saved model and must not invoke training. No category
-prediction cache or operational inference adapter has been delivered yet.
+inference must load a saved model and must not invoke training. Operational inference and caching are now delivered separately in `categorize.py`.
 
-**Validation boundary:** preparation ran successfully; five preparation tests passed.
-Training syntax, input validation and dependency-free guard checks passed. Actual
-classifier fitting, the real MiniLM path and the full TF-IDF smoke test were not
-executed in the delivery environment because dependencies were unavailable and
-package downloads were blocked. No current Kaggle-14 macro-F1, accuracy, or model
-winner is established. Historical scores in sections 6–7 are different experiments.
+The delivered scripts were checked here with standard-library guards. The user
+subsequently ran full training locally: 13,403 development rows and 3,348
+held-out rows, with product grouping. TF-IDF was selected by development CV;
+held-out macro-F1 was **0.735**, accuracy **0.761**. MiniLM + logistic regression
+achieved macro-F1 **0.603**, accuracy **0.650**. The description-only diagnostic
+was substantially weaker than description plus task, so transfer to discovery
+evidence still needs broader evaluation. These are the new Kaggle-14 results,
+not the older 12-category experiments.
 
-### F. Remaining category and reporting integration
+The subsequent discovery review predicted Technology And Development for Cursor
+and GitHub Copilot, and Media And Content Creation for Midjourney. All six inputs
+marked non-AI stayed uncategorized. Cursor had development overlap; none was
+detected for the other two. There were no human category labels, so this run is
+an integration check, not an independent accuracy estimate.
 
-`categorize.py` is **not yet built**. Its required behavior is:
+### F. Operational categorization and combined runner
 
-| Existing evidence/decision | Category handling |
+Copy the `ai_discovery/` and `tests/` contents into the same folders in your repository.
+This adds `categorize.py`, `run_pipeline.py`, and tests; includes the unchanged
+`review_discovery_categories.py` dependency; and updates `PIPELINE_GUIDE.md`.
+It does not replace `classify.py`, `catalog.py`, `enrich.py`, `report.py`,
+`pipeline.json`, models, source CSVs, or existing discovery decisions.
+
+Run every command from the repository root with your selected environment.
+Training remains a separate operation. Neither command below trains a model.
+
+#### Categorize the discovery results you already have
+
+```powershell
+python -m ai_discovery.categorize `
+  --discovery "data/processed/ai_discovery_classification.json" `
+  --model-dir "models/categories/kaggle14_run1" `
+  --out "data/processed/category_results/run1"
+```
+
+Defaults use these catalog files:
+
+- `data/processed/kaggle_dataset_b/kaggle_dataset_b_filled.csv`
+- `data/processed/final/dataset_b_final_kaggle_categories.csv`
+
+Use `--catalog` and `--known-tools` to supply different files. The first accepts
+raw Kaggle or Dataset B; the second is the finalized reference and overrides
+the first only for the exact same normalized product name AND endpoint.
+Dataset B `is_ai_tool` labels are respected. Raw Kaggle is AI by the project's
+catalog assumption. Unrecognized labels remain unresolved.
+
+`--catalog-context PATH` optionally supplies `tool_id,website_url_clean` for the
+first catalog, restoring product paths lost from Dataset B domains. No shared
+domain, fuzzy name, alias guess, or URL-prefix match alone establishes identity.
+Query/fragment identities remain pending. Non-default ports and path case remain
+significant. This policy favors missed catalog reuse over wrong-product reuse.
+
+The standalone command covers only records in its discovery input. Catalog-known
+products absent from that file appear when you use the activity runner below.
+
+#### Run Components 1-3 together using saved research decisions
+
+```powershell
+python -m ai_discovery.run_pipeline `
+  --activity "data/raw/novatech_usage.csv" `
+  --discovery "data/processed/ai_discovery_classification.json" `
+  --model-dir "models/categories/kaggle14_run1" `
+  --out "data/processed/pipeline_runs/novatech_run1"
+```
+
+This is offline: extracts activity, resolves exact catalog identities, joins saved
+discovery by name AND endpoint, and categorizes confirmed AI. All extracted apps,
+usage aggregates, event mappings and rejected rows are preserved. Historical cache
+entries not in this activity do not become current usage. Without `--discovery`,
+offline detection uses catalog identities only; other apps stay pending.
+
+Existing discovery decisions remain authoritative input, including unresolved
+decisions; the runner does not silently replace them with catalog labels. A
+catalog/discovery label conflict is recorded and blocks categorization.
+
+#### Allow online discovery in the same command
+
+```powershell
+python -m ai_discovery.run_pipeline `
+  --activity "data/raw/novatech_usage.csv" `
+  --discovery "data/processed/ai_discovery_classification.json" `
+  --online `
+  --trust-application-names `
+  --out "data/processed/pipeline_runs/novatech_online1"
+```
+
+Use `--trust-application-names` only if the activity names reliably identify
+products; omit it for strict endpoint identity assessment. `--online` may incur
+Gemini/search costs. Only product names and sanitized endpoints/evidence go to
+the existing services, not activity users or usage totals.
+
+The runner uses existing `enrich.enrich_applications` and invokes
+`python -m ai_discovery.classify` on a scoped cache of current unresolved targets.
+Resolved catalog labels and saved classified decisions avoid AI-detection calls.
+Confirmed AI with no catalog category and no reports can receive purpose research
+without replacing its detection decision. Failed research remains pending.
+Multiple reports require an explicit selection; no last-report-wins policy.
+
+Set `GEMINI_API_KEY` in your existing `.env` or environment. API model defaults to
+the value used by the supplied scripts; override with `--api-model` if needed.
+Online dependencies: `google-genai` and `python-dotenv` already used by discovery.
+
+Successful enrichment updates `data/cache/enrichment_cache.json` through the
+existing cache implementation. AI decision caching operates on a new snapshot,
+not by overwriting your existing decision cache. To reuse a completed combined
+run next time, supply its `categorized_applications.json` as `--discovery` and,
+if it was produced, its `discovery_decision_cache.json` as `--decision-cache`.
+There is no automatic refresh of accepted saved detection decisions; explicit
+reassessment remains in `classify.py`.
+
+#### Category rules and provenance
+
+| Case | Result |
 |---|---|
-| Confirmed non-AI | Null AI category; `category_status: not_applicable`. |
-| Unresolved AI detection/identity | Keep pending; do not invent a category or overwrite detection. |
-| AI with resolved catalog identity and valid unambiguous category | Reuse the category with `category_source: catalog`. |
-| AI with resolved identity, no resolved category and sufficient purpose evidence | Use the saved classifier; retain model provenance and evidence. |
-| Missing evidence, conflicting catalog categories or uncertain prediction | Keep pending/reviewable; a model must not silently erase a catalog conflict. |
-| Explicit category review or evaluated API fallback | Record `human_review` or `api` provenance separately. |
+| Confirmed non-AI | Null category; `not_applicable` |
+| Unresolved detection / technical error | Null category; `pending_ai_detection` |
+| Unsupported identity | Null category; `pending_identity_review` |
+| Catalog disagrees with discovery AI decision | Null category; `pending_detection_conflict` |
+| Valid explicit human category review | `assigned`, source `human_review` |
+| Exact product match with one valid catalog category | `assigned`, source `catalog` |
+| Conflicting or out-of-taxonomy catalog categories | `pending_catalog_category_review` |
+| Confirmed AI, no catalog category, sufficient purpose evidence | `provisional_prediction`, source `model` |
+| Missing/ambiguous evidence or no known TF-IDF vocabulary | Explicit pending/review status, null category |
 
-Keep categorization status separate from AI-detection status. Cache predictions with
-product identity, evidence/text-contract, model, taxonomy and policy fingerprints;
-record catalog record IDs/version when reusing catalog assignments. Human decisions
-need explicit precedence and re-review rules. Shared domains and fuzzy names alone
-must never establish product identity. None of this adapter/cache behavior should
-be described as implemented by the training script.
+All category fields live inside `categorization`; original detection fields and
+reports remain in the output. The taxonomy preserves the original 14 spellings.
+There is no category API fallback in this release. An API category adapter, if
+later evaluated and implemented, must use source `api`; the Gemini AI-detection
+source must not be confused with the source of a purpose category.
 
-The supplied `report.py` is not a working completion of this integration: it calls
-`discover_known()` with a fifth `corrections` argument, while the supplied `catalog.py`
-accepts four arguments. It also references separate governance/modeling modules and
-older configuration paths. `pipeline.json` naming a category-model directory does
-not establish that this model exists or that the new training bundle is compatible.
-Reconcile those interfaces deliberately before wiring in Component 3.
+Purpose features are only the existing explicit Product Description + AI
+Functionality extraction contract. Governance, risk and category labels are not
+prediction features. Top-three scores are uncalibrated; no arbitrary acceptance
+threshold is imposed. Human reviews take precedence over catalog *categories*,
+but cannot override non-AI/unresolved detection or catalog detection conflicts.
 
-A merged activity report must combine catalog matches and applicable discovery
-decisions for one specific activity input, preserve event mappings and provenance,
-and avoid treating every historical cache entry as current usage.
+Fill a copy of `category_review_template.csv`, using exact category spellings,
+reviewer and reason, then run again with `--reviews PATH` and a new `--out`.
+Supply the review file on future runs too; accepted reviews are not silently
+stored as model predictions. Reviews are bound to the full reports hash and are
+rejected when evidence changes. For multiple reports, fill zero-based
+`report_index` in `report_selection_template.csv` and supply
+`--report-selections PATH`; selection is also bound to that reports hash.
+Use `review_discovery_categories.py` for blind model evaluation: the operational
+review template can contain catalog/model text already seen by the reviewer.
 
-### G. Immediate team handoff
+#### Every output
 
-1. Run the training smoke test locally, then the full grouped comparison.
-2. Share `model_comparison.csv`, `metrics.json`, `per_category.csv`, and `confusion_pairs.csv`; use `test_errors.csv` for qualitative review without repeatedly tuning against the test set.
-3. Review label conflicts and evaluate a broader independently labeled set of discovery-style descriptions/functionality, including unseen products and ambiguous identities.
-4. Decide whether local categorization is sufficient and whether an API fallback provides measured value. Binary AI-detection performance does not answer this category question; fallback is deferred, not implemented.
-5. Build the inference/catalog adapter and category cache, reconcile the report interfaces, then integrate governance and dashboard reporting.
+Both commands require a new `--out` directory and write:
 
-No production acceptance threshold is set. Model scores are uncalibrated and are
-not proof of correctness. Synthetic governance fields remain demonstration values,
-not verified vendor policies or enterprise approval decisions.
+| File | Contents |
+|---|---|
+| `categorized_applications.json` | Full input decisions/reports plus separate category status, provenance, catalog record IDs/source hashes, selected evidence, model run/hash and top-three scores. Activity runner also includes ingestion and online outcomes. |
+| `categories.csv` | Flat application/detection/category/status/provenance table with evidence hash and cache-hit flag. |
+| `category_review_template.csv` | Editable evidence-bound category review fields; blank labels are ignored. |
+| `report_selection_template.csv` | Only cases needing a choice among reports, with evidence hash. |
+| `taxonomy.json` | Exact 14 labels and taxonomy version. |
+| `manifest.json` | Input/script hashes and metadata for the saved model if prediction was needed. |
 
-## 9. Practical operating checklist
+The activity runner also writes `pipeline_summary.json` (ingestion, detection
+and category counts). When online AI classification runs it additionally writes:
 
-1. For new activity, run enrichment with the activity file and intended catalogs; it performs ingestion and lookup before researching selected products.
-2. Run `python ai_discovery/classify.py --trust-application-names` only when activity names are trustworthy; otherwise use strict endpoint mode.
-3. Inspect the discovery report, especially unresolved cases, source evidence and next actions. Repeat unchanged settings to verify cache reuse; refresh deliberately.
-4. For Component 3 development, preserve preparation outputs and run the new local training comparison as described in section 8. These are separate from routine discovery.
-5. Review metrics before selecting operational category behavior. Do not reuse the old 12-category models or present historical metrics as new Kaggle-14 results.
-6. Complete category inference and the merged activity report before claiming end-to-end categorization coverage.
+| File | Contents |
+|---|---|
+| `scoped_enrichment.json` | Existing-service cache format restricted to current research targets submitted for detection. |
+| `discovery_classification.json` | Original `classify.py` output for those targets, including unresolved/error records. |
+| `discovery_decision_cache.json` | New decision-cache snapshot, seeded from `--decision-cache` if present; input cache is untouched. |
 
-Operational discovery dependencies remain `google-genai` and `python-dotenv`.
-The configured Gemini model in the supplied discovery scripts is `gemini-3.8-flash`;
-`--model` permits another supported model. `.env` supplies `GEMINI_API_KEY`.
-Category training has separate dependency files and does not require a Gemini key.
-No SQL database or separate local model server is required for these scripts.
+Outside the output directory, `data/cache/purpose_categories.json` caches only
+model predictions. Override with `--cache`. Fingerprints include product
+identity, complete research evidence, extracted text, detection context, catalog
+hashes, model bytes, taxonomy and runtime/extraction/encoding code. Changed
+inputs invalidate reuse. No simultaneous writers to either JSON cache.
+
+#### Dependencies and checks
+
+Existing required helpers: `preprocessing_scripts/prepare_category_data.py`,
+`category_training/train_categories.py`, and the included review helper.
+The training module is imported only for encoding helpers; its training entry
+point is never called. Routine inference needs no prepared training CSVs.
+
+TF-IDF uses the saved training environment. Your model was saved with
+scikit-learn 1.7.2; if necessary:
+
+```powershell
+python -m pip install "scikit-learn==1.7.2"
+python -m unittest discover -s tests -p test_component3_pipeline.py
+```
+
+The runtime validates model/taxonomy hashes and text contract before inference,
+and sklearn version before deserialization. Load only trusted local joblib files.
+Embedding inference additionally requires the existing sentence-transformers
+dependencies and local encoder snapshot; `--encoder-dir` can relocate it, with
+content verification. No encoder download or retraining happens here.
+
+Validation in the delivery environment: standard-library tests cover catalog
+identity restrictions, conflicting categories, detection gates, human review,
+evidence selection, cache reuse/invalidation, activity joining and input/output
+protection. Prediction tests use a test double. Real saved-model inference and
+live Gemini calls must be exercised locally; they were not rerun here.
+
+#### Existing release boundary
+
+`classify.py` handles AI detection; it was never the entire activity pipeline.
+`report.py` is the older combined governance/release command. This delivery
+adds a complete Components 1-3 runner without replacing its governance behavior.
+The new runner does not consume `pipeline.json`, its corrections file, binary
+model, synthetic policy overlays or older category artifact. Pass intended
+catalogs explicitly when defaults differ from your active release. Governance,
+dashboard and deployment integration with this new result schema remain work
+for a later step. Do not claim the new command recomputes risk.
+
+The independently uploaded `catalog.py` and `report.py` have different historical
+function signatures; this runner calls ingestion directly and does not depend
+on that interface. This observation is about uploaded snapshots, not a claim
+that your current repository is broken.
+
+### G. Next integration work
+
+1. Run the new offline command with the actual saved model and review the full
+   activity output, especially pending identities and conflicting categories.
+2. Use the optional online command for missing evidence and unresolved detection;
+   preserve saved snapshots and do not treat failures as non-AI.
+3. Collect independently reviewed discovery examples across the 14 categories.
+   Do not tune repeatedly against the original held-out products.
+4. Integrate this result schema with the existing governance/report/dashboard
+   path, preserving risk evidence and keeping synthetic controls visibly marked.
+5. Evaluate a category API fallback only if broader review demonstrates value.
+
+No production acceptance threshold is set. Model predictions remain provisional.
+Human reviews resolve category questions; category review never changes the
+underlying AI-detection decision. Training and preparation remain separate from
+routine inference. Existing datasets and detection decisions are not rewritten.

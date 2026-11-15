@@ -1,0 +1,607 @@
+{
+  "version": "discovery-category-review-v1",
+  "scope": "Diagnostic evaluation of researched products only; no catalog or enterprise report changes.",
+  "summary": {
+    "provisional_prediction": 3,
+    "not_applicable": 6
+  },
+  "results": [
+    {
+      "application_name": "cursor",
+      "endpoint": "cursor.com",
+      "is_ai_tool": true,
+      "ai_classification_status": "classified",
+      "ai_decision_source": "gemini",
+      "identity_mode": "trusted_application_name",
+      "category_status": "provisional_prediction",
+      "suggested_category": "Technology And Development",
+      "category_source": "model",
+      "top_three": [
+        {
+          "category": "Technology And Development",
+          "score_uncalibrated": 0.7063355910426774
+        },
+        {
+          "category": "Ai And Machine Learning",
+          "score_uncalibrated": 0.1285161644376047
+        },
+        {
+          "category": "Specialized Technologies",
+          "score_uncalibrated": 0.02760618266389563
+        }
+      ],
+      "cache_hit": false,
+      "overlap_status": "development_overlap",
+      "overlap_matches": [
+        {
+          "signal": "name",
+          "group_id": "group_c326fb4cbd6fbffa",
+          "partitions": [
+            "development"
+          ]
+        }
+      ],
+      "reviewed_category": "",
+      "reviewer": "",
+      "review_reason": "",
+      "evidence_sha256": "1be4dbbe43a98033afafb81c4005d643942a1bdbe04ab46d08ba59720ee5a401",
+      "model_text": "Cursor is an integrated development environment (IDE) and software development platform designed to assist engineers with building, navigating, and debugging codebases. Available as a native desktop application across macOS, Windows, and Linux, it provides code editing, file navigation, and terminal execution. The platform also offers command-line tools (CLI), cloud agent environments, and integrations with source control systems such as GitHub, GitLab, Bitbucket, and Azure DevOps.\nAI is central to Cursor's product architecture rather than an optional add-on. Documented AI capabilities include: - Agent and Composer: Autonomous workflows capable of searching repositories, planning changes, editing across multiple files, and executing shell commands from natural-language instructions. - Codebase Understanding & Chat: Semantic code indexing to answer questions, explain architectures, and assist with debugging. - Code Review & Automated Workflows: Features such as Bugbot for automated pull-request reviews, automated tracking of AI-generated commits, and cloud-hosted agent tasks. - Model Orchestration: Support for routing queries across frontier large language models (including Claude, Gemini, and Grok).",
+      "description_only_text": "Cursor is an integrated development environment (IDE) and software development platform designed to assist engineers with building, navigating, and debugging codebases. Available as a native desktop application across macOS, Windows, and Linux, it provides code editing, file navigation, and terminal execution. The platform also offers command-line tools (CLI), cloud agent environments, and integrations with source control systems such as GitHub, GitLab, Bitbucket, and Azure DevOps.",
+      "sections": {
+        "description": [
+          {
+            "text": "Cursor is an integrated development environment (IDE) and software development platform designed to assist engineers with building, navigating, and debugging codebases. Available as a native desktop application across macOS, Windows, and Linux, it provides code editing, file navigation, and terminal execution. The platform also offers command-line tools (CLI), cloud agent environments, and integrations with source control systems such as GitHub, GitLab, Bitbucket, and Azure DevOps.",
+            "block_index": 0,
+            "start": 293,
+            "end": 782,
+            "citations": [
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4FeWrWs0AIiXZin1HR4AVg4vWz3nKamblKhSJEZQyR55TV-FtHb1r9z9O0t2_f2yXI5X0luiCygS-S-ZQGxTzyC_wtfCZTl-KDKnY3w==",
+                "title": "cursor.com",
+                "start_index": 294,
+                "end_index": 461
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1daHrntUSOIuqqSg8Pmz_G5QuouRPF6Ew_d5l7pxeBttweO4o6zoHfC0clOZ3zbNkzDwwWImMf6fOJ_f9xP8wasNhrS9dPSlurEIUGxWE_dKdnE4bgf88jg97bAQs1iQac_sA",
+                "title": "wikipedia.org",
+                "start_index": 294,
+                "end_index": 461
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3SDtWrsAAOs4y4myB5MAhcBQI166x5MgiMxhIs4qprikfbsljfdW7X1T5c4amWvhkZLLBqwi_vKdb8nJTtjmbThvJ4CVU2cFSaA2-Zl4a4F3-LGcm7Cj0Mk13x02gg5LQbChJHw==",
+                "title": "cursor.com",
+                "start_index": 463,
+                "end_index": 604
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1daHrntUSOIuqqSg8Pmz_G5QuouRPF6Ew_d5l7pxeBttweO4o6zoHfC0clOZ3zbNkzDwwWImMf6fOJ_f9xP8wasNhrS9dPSlurEIUGxWE_dKdnE4bgf88jg97bAQs1iQac_sA",
+                "title": "wikipedia.org",
+                "start_index": 463,
+                "end_index": 604
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1ylFirHPq_i6sDGg1yrKWjysgbG057jOZcV_h3ceX2Ef7W2EGHuLTx0Q4fjHaMBGwvOMzy-vocWuYob8H4hINWZpU9Zsv4ZM9jTgxlVaWL4mR990Mt9HKHL6dwpkvPgfh9dvS",
+                "title": "cursor.com",
+                "start_index": 463,
+                "end_index": 604
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4FeWrWs0AIiXZin1HR4AVg4vWz3nKamblKhSJEZQyR55TV-FtHb1r9z9O0t2_f2yXI5X0luiCygS-S-ZQGxTzyC_wtfCZTl-KDKnY3w==",
+                "title": "cursor.com",
+                "start_index": 606,
+                "end_index": 779
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGESaOdQRhI2DoFond84VJWP80WzECBb59iKz-goQ2t-d-SRi2mGRCySIVcM8MkFLmifLGGj-B--eSxZFqHgJV3ARQOQqcvHmK_L4qC2OJL_V0=",
+                "title": "cursor.com",
+                "start_index": 606,
+                "end_index": 779
+              }
+            ]
+          }
+        ],
+        "functionality": [
+          {
+            "text": "AI is central to Cursor's product architecture rather than an optional add-on. Documented AI capabilities include: - Agent and Composer: Autonomous workflows capable of searching repositories, planning changes, editing across multiple files, and executing shell commands from natural-language instructions. - Codebase Understanding & Chat: Semantic code indexing to answer questions, explain architectures, and assist with debugging. - Code Review & Automated Workflows: Features such as Bugbot for automated pull-request reviews, automated tracking of AI-generated commits, and cloud-hosted agent tasks. - Model Orchestration: Support for routing queries across frontier large language models (including Claude, Gemini, and Grok).",
+            "block_index": 0,
+            "start": 805,
+            "end": 1555,
+            "citations": [
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMPsO0HdJTnSguXFyIAWG_Ekl14Cg85VXYjie0gHq5bfafuUugKi-nvTEQCUMR0HReSKozcB9pEF1J4Ens4J4T56Tb7NsiojMiXQWWJftoVQg=",
+                "title": "cursor.com",
+                "start_index": 806,
+                "end_index": 883
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4FeWrWs0AIiXZin1HR4AVg4vWz3nKamblKhSJEZQyR55TV-FtHb1r9z9O0t2_f2yXI5X0luiCygS-S-ZQGxTzyC_wtfCZTl-KDKnY3w==",
+                "title": "cursor.com",
+                "start_index": 806,
+                "end_index": 883
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4FeWrWs0AIiXZin1HR4AVg4vWz3nKamblKhSJEZQyR55TV-FtHb1r9z9O0t2_f2yXI5X0luiCygS-S-ZQGxTzyC_wtfCZTl-KDKnY3w==",
+                "title": "cursor.com",
+                "start_index": 923,
+                "end_index": 1115
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1daHrntUSOIuqqSg8Pmz_G5QuouRPF6Ew_d5l7pxeBttweO4o6zoHfC0clOZ3zbNkzDwwWImMf6fOJ_f9xP8wasNhrS9dPSlurEIUGxWE_dKdnE4bgf88jg97bAQs1iQac_sA",
+                "title": "wikipedia.org",
+                "start_index": 923,
+                "end_index": 1115
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZaFSM7rN3PwiD2tpLRAUOiCM9h7hF_CTC6bc15Ix987q0dwz5O6ra971H4QUJsR9GFrLAs-CzPYbvJya-oLMIOPESCkrjuXOeKc1lXRf9_67sZgDfcwRKtyt1mw==",
+                "title": "cursor.com",
+                "start_index": 923,
+                "end_index": 1115
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4FeWrWs0AIiXZin1HR4AVg4vWz3nKamblKhSJEZQyR55TV-FtHb1r9z9O0t2_f2yXI5X0luiCygS-S-ZQGxTzyC_wtfCZTl-KDKnY3w==",
+                "title": "cursor.com",
+                "start_index": 1119,
+                "end_index": 1246
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1ylFirHPq_i6sDGg1yrKWjysgbG057jOZcV_h3ceX2Ef7W2EGHuLTx0Q4fjHaMBGwvOMzy-vocWuYob8H4hINWZpU9Zsv4ZM9jTgxlVaWL4mR990Mt9HKHL6dwpkvPgfh9dvS",
+                "title": "cursor.com",
+                "start_index": 1119,
+                "end_index": 1246
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGESaOdQRhI2DoFond84VJWP80WzECBb59iKz-goQ2t-d-SRi2mGRCySIVcM8MkFLmifLGGj-B--eSxZFqHgJV3ARQOQqcvHmK_L4qC2OJL_V0=",
+                "title": "cursor.com",
+                "start_index": 1250,
+                "end_index": 1421
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4VCS8Flm2RP2EXYRQNBBzbrVGzNz4I-tUxEn2SALD30ukcQTxaH0b82-lszwdUYF6vpzIMK1BjpRfeN4EgSGTiUL011K1IGEk-6jFpsyZSrDD3tbgD0Dgx_shXPfL68I=",
+                "title": "cursor.com",
+                "start_index": 1250,
+                "end_index": 1421
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4FeWrWs0AIiXZin1HR4AVg4vWz3nKamblKhSJEZQyR55TV-FtHb1r9z9O0t2_f2yXI5X0luiCygS-S-ZQGxTzyC_wtfCZTl-KDKnY3w==",
+                "title": "cursor.com",
+                "start_index": 1425,
+                "end_index": 1552
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4VCS8Flm2RP2EXYRQNBBzbrVGzNz4I-tUxEn2SALD30ukcQTxaH0b82-lszwdUYF6vpzIMK1BjpRfeN4EgSGTiUL011K1IGEk-6jFpsyZSrDD3tbgD0Dgx_shXPfL68I=",
+                "title": "cursor.com",
+                "start_index": 1425,
+                "end_index": 1552
+              }
+            ]
+          }
+        ]
+      },
+      "report_index": 0,
+      "status": "ready"
+    },
+    {
+      "application_name": "github",
+      "endpoint": "github.com",
+      "is_ai_tool": false,
+      "ai_classification_status": "classified",
+      "ai_decision_source": "gemini",
+      "identity_mode": "trusted_application_name",
+      "category_status": "not_applicable",
+      "suggested_category": null,
+      "category_source": null,
+      "top_three": [],
+      "cache_hit": false,
+      "overlap_status": "no_detected_overlap",
+      "overlap_matches": [],
+      "reviewed_category": "",
+      "reviewer": "",
+      "review_reason": "",
+      "evidence_sha256": "7cce6fd1ec6c9ff0ac987aa2297c1974bf55f5b78d3156b972c509c48511f122",
+      "model_text": "",
+      "description_only_text": "",
+      "sections": {},
+      "report_index": null,
+      "status": "not_applicable"
+    },
+    {
+      "application_name": "github copilot",
+      "endpoint": "github.com/copilot",
+      "is_ai_tool": true,
+      "ai_classification_status": "classified",
+      "ai_decision_source": "gemini",
+      "identity_mode": "trusted_application_name",
+      "category_status": "provisional_prediction",
+      "suggested_category": "Technology And Development",
+      "category_source": "model",
+      "top_three": [
+        {
+          "category": "Technology And Development",
+          "score_uncalibrated": 0.5118033852159235
+        },
+        {
+          "category": "Ai And Machine Learning",
+          "score_uncalibrated": 0.31500403480684563
+        },
+        {
+          "category": "Operations And Management",
+          "score_uncalibrated": 0.03229894707770916
+        }
+      ],
+      "cache_hit": false,
+      "overlap_status": "no_detected_overlap",
+      "overlap_matches": [],
+      "reviewed_category": "",
+      "reviewer": "",
+      "review_reason": "",
+      "evidence_sha256": "0f2172856ab3a203de86e7488338bbe6659c3a0a314889192341e2bc0fb5205a",
+      "model_text": "GitHub Copilot is an AI-powered developer assistant designed to assist engineers throughout the software development lifecycle. It provides real-time code completions, generates multi-step implementation plans, answers natural language questions about codebases, and automates pull request reviews. Copilot operates natively across several surfaces, including integrated development environments (IDEs), command-line interfaces (CLI), dedicated desktop applications, and directly within GitHub.com.\nAI capabilities are central and foundational to GitHub Copilot, not an optional secondary feature. The product relies on underlying large language models to deliver its core capabilities, which GitHub documents across assistive and agentic categories: real-time code generation, interactive contextual chat, automated test generation, pull request explanation and review, and autonomous agent tasks (such as editing files, running tools via the Model Context Protocol [MCP], and submitting changes for developer review).",
+      "description_only_text": "GitHub Copilot is an AI-powered developer assistant designed to assist engineers throughout the software development lifecycle. It provides real-time code completions, generates multi-step implementation plans, answers natural language questions about codebases, and automates pull request reviews. Copilot operates natively across several surfaces, including integrated development environments (IDEs), command-line interfaces (CLI), dedicated desktop applications, and directly within GitHub.com.",
+      "sections": {
+        "description": [
+          {
+            "text": "GitHub Copilot is an AI-powered developer assistant designed to assist engineers throughout the software development lifecycle. It provides real-time code completions, generates multi-step implementation plans, answers natural language questions about codebases, and automates pull request reviews. Copilot operates natively across several surfaces, including integrated development environments (IDEs), command-line interfaces (CLI), dedicated desktop applications, and directly within GitHub.com.",
+            "block_index": 0,
+            "start": 551,
+            "end": 1052,
+            "citations": [
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFy4tP9BXndgFNdGb4bUA-4GhmeaNMEgzoN7R9zkwBRyVpWn5DjUI5v3kuw_AE1FxvHbBkJIy9qvHn_M9yBrAcwZ6AJ5lg4ELBG0NCJEHERB9Nusq3dQ2OaJQVU-tqE6x5EcIZnlQvRAolzhLBIVLGHrJQ4IWIv8L3dwRY8HFU3q90=",
+                "title": "github.com",
+                "start_index": 552,
+                "end_index": 678
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWhEy3O12myOyFD0G4gOn2dsY2q9SLgprh4hBJLHwkopQDUVilj4Hnn9ejETcQ5o40Fkbryij62bNPdLUTxMmTD0hAwsJvRuokplDYNnLxFeZ4Ysw9",
+                "title": "github.com",
+                "start_index": 552,
+                "end_index": 678
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiROjEOgO-3Va5wesXvxAizSqhBiWQmqvhmxTz8NnHrUyLEU815_PvmRbVuweZc47T6TWoPuj6SkJKQJIKL6zrc0vHEvm1cSPyIwpA2VjJcrM6cvVpmjwX6AB4TmbeYlk7tdF5vf7KqUs-X-zn_oO204eKzQWb_8SJkFRnY_4=",
+                "title": "github.com",
+                "start_index": 680,
+                "end_index": 849
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFy4tP9BXndgFNdGb4bUA-4GhmeaNMEgzoN7R9zkwBRyVpWn5DjUI5v3kuw_AE1FxvHbBkJIy9qvHn_M9yBrAcwZ6AJ5lg4ELBG0NCJEHERB9Nusq3dQ2OaJQVU-tqE6x5EcIZnlQvRAolzhLBIVLGHrJQ4IWIv8L3dwRY8HFU3q90=",
+                "title": "github.com",
+                "start_index": 680,
+                "end_index": 849
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiROjEOgO-3Va5wesXvxAizSqhBiWQmqvhmxTz8NnHrUyLEU815_PvmRbVuweZc47T6TWoPuj6SkJKQJIKL6zrc0vHEvm1cSPyIwpA2VjJcrM6cvVpmjwX6AB4TmbeYlk7tdF5vf7KqUs-X-zn_oO204eKzQWb_8SJkFRnY_4=",
+                "title": "github.com",
+                "start_index": 851,
+                "end_index": 1049
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxajCs1nVReFVcLNzxeKO94VHfwXLM166BCEJ1KjWmR_nIdkM9_8E0E7VYhh5a4vTtrXnNlbvWjFRDPIodiIkiSqdvstTMVe-H5y98VGxkSGX5FoEU3DDAAGITPlmVMQPa7U_TALoYldBvnzTff4FGeYjK_wBkvzRBm2fdxvPgeAZoRzfk",
+                "title": "github.com",
+                "start_index": 851,
+                "end_index": 1049
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGINsjOWXXim4CPNHYp8FF0Z51IscQFfmH3eSxzDvdmzDJMBn2EyMrd2bmcTvAPAjfmvifO-FKiVYipROOtwzucngFZPMhrZrPn_nflsD--UqYHq72EqZarf2cyn3gtosT",
+                "title": "github.com",
+                "start_index": 851,
+                "end_index": 1049
+              }
+            ]
+          }
+        ],
+        "functionality": [
+          {
+            "text": "AI capabilities are central and foundational to GitHub Copilot, not an optional secondary feature. The product relies on underlying large language models to deliver its core capabilities, which GitHub documents across assistive and agentic categories: real-time code generation, interactive contextual chat, automated test generation, pull request explanation and review, and autonomous agent tasks (such as editing files, running tools via the Model Context Protocol [MCP], and submitting changes for developer review).",
+            "block_index": 0,
+            "start": 1072,
+            "end": 1595,
+            "citations": [
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFy4tP9BXndgFNdGb4bUA-4GhmeaNMEgzoN7R9zkwBRyVpWn5DjUI5v3kuw_AE1FxvHbBkJIy9qvHn_M9yBrAcwZ6AJ5lg4ELBG0NCJEHERB9Nusq3dQ2OaJQVU-tqE6x5EcIZnlQvRAolzhLBIVLGHrJQ4IWIv8L3dwRY8HFU3q90=",
+                "title": "github.com",
+                "start_index": 1073,
+                "end_index": 1170
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWhEy3O12myOyFD0G4gOn2dsY2q9SLgprh4hBJLHwkopQDUVilj4Hnn9ejETcQ5o40Fkbryij62bNPdLUTxMmTD0hAwsJvRuokplDYNnLxFeZ4Ysw9",
+                "title": "github.com",
+                "start_index": 1073,
+                "end_index": 1170
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiROjEOgO-3Va5wesXvxAizSqhBiWQmqvhmxTz8NnHrUyLEU815_PvmRbVuweZc47T6TWoPuj6SkJKQJIKL6zrc0vHEvm1cSPyIwpA2VjJcrM6cvVpmjwX6AB4TmbeYlk7tdF5vf7KqUs-X-zn_oO204eKzQWb_8SJkFRnY_4=",
+                "title": "github.com",
+                "start_index": 1172,
+                "end_index": 1592
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFy4tP9BXndgFNdGb4bUA-4GhmeaNMEgzoN7R9zkwBRyVpWn5DjUI5v3kuw_AE1FxvHbBkJIy9qvHn_M9yBrAcwZ6AJ5lg4ELBG0NCJEHERB9Nusq3dQ2OaJQVU-tqE6x5EcIZnlQvRAolzhLBIVLGHrJQ4IWIv8L3dwRY8HFU3q90=",
+                "title": "github.com",
+                "start_index": 1172,
+                "end_index": 1592
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOGDHc433EsnOp_dTLNl5e6urVQnRJxJ17XNOlKybPKUGgsqk-yV45SIEe-rwXKTAMuWp-TcsGbGFSQI9LDU4kE32IehxURIrcEy1PRUj4rMN4JSgGqNyWd_2IKEjYLIl39H-Qm6ikr1utURO_PTcHMM-64F5SKsifEK63fdUgsa4Nu8W8xPYO_XULEPWeYpt4GOlQDOZy-96iOtObIQufnMl-Rk4G",
+                "title": "github.com",
+                "start_index": 1172,
+                "end_index": 1592
+              }
+            ]
+          }
+        ]
+      },
+      "report_index": 0,
+      "status": "ready"
+    },
+    {
+      "application_name": "google docs",
+      "endpoint": "docs.google.com",
+      "is_ai_tool": false,
+      "ai_classification_status": "classified",
+      "ai_decision_source": "gemini",
+      "identity_mode": "trusted_application_name",
+      "category_status": "not_applicable",
+      "suggested_category": null,
+      "category_source": null,
+      "top_three": [],
+      "cache_hit": false,
+      "overlap_status": "no_detected_overlap",
+      "overlap_matches": [],
+      "reviewed_category": "",
+      "reviewer": "",
+      "review_reason": "",
+      "evidence_sha256": "b4394b142ada0525f83a88773dfa689e6fcc342e1e9eb4a0df28a097c24dff18",
+      "model_text": "",
+      "description_only_text": "",
+      "sections": {},
+      "report_index": null,
+      "status": "not_applicable"
+    },
+    {
+      "application_name": "google drive",
+      "endpoint": "drive.google.com",
+      "is_ai_tool": false,
+      "ai_classification_status": "classified",
+      "ai_decision_source": "gemini",
+      "identity_mode": "trusted_application_name",
+      "category_status": "not_applicable",
+      "suggested_category": null,
+      "category_source": null,
+      "top_three": [],
+      "cache_hit": false,
+      "overlap_status": "no_detected_overlap",
+      "overlap_matches": [],
+      "reviewed_category": "",
+      "reviewer": "",
+      "review_reason": "",
+      "evidence_sha256": "00a4d7290002a2cd53c72af972133c6713d7795055d97d180a08005ec085747b",
+      "model_text": "",
+      "description_only_text": "",
+      "sections": {},
+      "report_index": null,
+      "status": "not_applicable"
+    },
+    {
+      "application_name": "microsoft excel",
+      "endpoint": "office.com",
+      "is_ai_tool": false,
+      "ai_classification_status": "classified",
+      "ai_decision_source": "gemini",
+      "identity_mode": "trusted_application_name",
+      "category_status": "not_applicable",
+      "suggested_category": null,
+      "category_source": null,
+      "top_three": [],
+      "cache_hit": false,
+      "overlap_status": "no_detected_overlap",
+      "overlap_matches": [],
+      "reviewed_category": "",
+      "reviewer": "",
+      "review_reason": "",
+      "evidence_sha256": "fe98b467df10de9d583d24a301b10108a32d0aedcaa082dcb0856c2bfb22e856",
+      "model_text": "",
+      "description_only_text": "",
+      "sections": {},
+      "report_index": null,
+      "status": "not_applicable"
+    },
+    {
+      "application_name": "microsoft teams",
+      "endpoint": "teams.microsoft.com",
+      "is_ai_tool": false,
+      "ai_classification_status": "classified",
+      "ai_decision_source": "gemini",
+      "identity_mode": "trusted_application_name",
+      "category_status": "not_applicable",
+      "suggested_category": null,
+      "category_source": null,
+      "top_three": [],
+      "cache_hit": false,
+      "overlap_status": "no_detected_overlap",
+      "overlap_matches": [],
+      "reviewed_category": "",
+      "reviewer": "",
+      "review_reason": "",
+      "evidence_sha256": "bcd3a0c977a84ea24b9c597e35d22dc85056cd944b6a5457892f5cabbb9b38d8",
+      "model_text": "",
+      "description_only_text": "",
+      "sections": {},
+      "report_index": null,
+      "status": "not_applicable"
+    },
+    {
+      "application_name": "midjourney",
+      "endpoint": "midjourney.com",
+      "is_ai_tool": true,
+      "ai_classification_status": "classified",
+      "ai_decision_source": "gemini",
+      "identity_mode": "trusted_application_name",
+      "category_status": "provisional_prediction",
+      "suggested_category": "Media And Content Creation",
+      "category_source": "model",
+      "top_three": [
+        {
+          "category": "Media And Content Creation",
+          "score_uncalibrated": 0.37751259314519936
+        },
+        {
+          "category": "Ai And Machine Learning",
+          "score_uncalibrated": 0.21671924587893118
+        },
+        {
+          "category": "Specialized Technologies",
+          "score_uncalibrated": 0.13121297598001436
+        }
+      ],
+      "cache_hit": false,
+      "overlap_status": "no_detected_overlap",
+      "overlap_matches": [],
+      "reviewed_category": "",
+      "reviewer": "",
+      "review_reason": "",
+      "evidence_sha256": "5e485e9604344e463a2463001fecc8b51898497ceabfffcbad7df01930322207",
+      "model_text": "Midjourney is a generative media platform developed and hosted by Midjourney, Inc. that creates visual media from natural language text prompts. The service allows users to generate, upscale, remix, and modify images either via its dedicated web interface or through commands in Discord. Documented platform features include prompt-based generation, region variation (inpainting), panning, style referencing, and character consistency controls.\nArtificial intelligence is the central, core functionality of Midjourney rather than an optional add-on. Documented capabilities center entirely on proprietary generative machine learning models (such as the Midjourney Image and Video model families) designed to parse user text inputs (prompts) and reference images to synthesize media. Additional documented generative features include parameter tuning, image remixing, style referencing (--sref), and character referencing (--cref).",
+      "description_only_text": "Midjourney is a generative media platform developed and hosted by Midjourney, Inc. that creates visual media from natural language text prompts. The service allows users to generate, upscale, remix, and modify images either via its dedicated web interface or through commands in Discord. Documented platform features include prompt-based generation, region variation (inpainting), panning, style referencing, and character consistency controls.",
+      "sections": {
+        "description": [
+          {
+            "text": "Midjourney is a generative media platform developed and hosted by Midjourney, Inc. that creates visual media from natural language text prompts. The service allows users to generate, upscale, remix, and modify images either via its dedicated web interface or through commands in Discord. Documented platform features include prompt-based generation, region variation (inpainting), panning, style referencing, and character consistency controls.",
+            "block_index": 0,
+            "start": 346,
+            "end": 793,
+            "citations": [
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrYewaDK7JnKUYBf65a1wfppsSWDKq_gLiYOhzCPYBPYsnCNwq6a99DBdGjpT7kfghKR2eqUip_PGuMINwqEHj1n5O0dgi3G_5FFDiHwqjz-7Ey2v6hICDo2AqC_Lh",
+                "title": "wikipedia.org",
+                "start_index": 347,
+                "end_index": 490
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6JAoyG4eeYP2pzbkdReltjfZwBTTRcAyUqkRfXVo-glQRqr2Lsc-ibGxoqwri52xUunTX_DRvOC2xR99H0WVCVKuZxrxXcWUPr6fyYuqRXwAhLD7SvyokWP96Ap1nQunOj0Foil1zIDowDSisEtxYe_CtpABj9PpCpS846fgSmmpZRA==",
+                "title": "midjourney.com",
+                "start_index": 347,
+                "end_index": 490
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrYewaDK7JnKUYBf65a1wfppsSWDKq_gLiYOhzCPYBPYsnCNwq6a99DBdGjpT7kfghKR2eqUip_PGuMINwqEHj1n5O0dgi3G_5FFDiHwqjz-7Ey2v6hICDo2AqC_Lh",
+                "title": "wikipedia.org",
+                "start_index": 492,
+                "end_index": 633
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6JAoyG4eeYP2pzbkdReltjfZwBTTRcAyUqkRfXVo-glQRqr2Lsc-ibGxoqwri52xUunTX_DRvOC2xR99H0WVCVKuZxrxXcWUPr6fyYuqRXwAhLD7SvyokWP96Ap1nQunOj0Foil1zIDowDSisEtxYe_CtpABj9PpCpS846fgSmmpZRA==",
+                "title": "midjourney.com",
+                "start_index": 492,
+                "end_index": 633
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrYewaDK7JnKUYBf65a1wfppsSWDKq_gLiYOhzCPYBPYsnCNwq6a99DBdGjpT7kfghKR2eqUip_PGuMINwqEHj1n5O0dgi3G_5FFDiHwqjz-7Ey2v6hICDo2AqC_Lh",
+                "title": "wikipedia.org",
+                "start_index": 635,
+                "end_index": 790
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrYewaDK7JnKUYBf65a1wfppsSWDKq_gLiYOhzCPYBPYsnCNwq6a99DBdGjpT7kfghKR2eqUip_PGuMINwqEHj1n5O0dgi3G_5FFDiHwqjz-7Ey2v6hICDo2AqC_Lh",
+                "title": "wikipedia.org",
+                "start_index": 635,
+                "end_index": 790
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAHOAv5ebioFfsrliAOJRBgcnjqR49fnBJJYX2fdDhY7GVxAhKHgjvi8UvOqYhcqKEzlAcJNIc_nmUdNSI1Jmjhhn05yrtHlj_1IpyBP9cZPa0qQ45-g==",
+                "title": "notion.site",
+                "start_index": 635,
+                "end_index": 790
+              }
+            ]
+          }
+        ],
+        "functionality": [
+          {
+            "text": "Artificial intelligence is the central, core functionality of Midjourney rather than an optional add-on. Documented capabilities center entirely on proprietary generative machine learning models (such as the Midjourney Image and Video model families) designed to parse user text inputs (prompts) and reference images to synthesize media. Additional documented generative features include parameter tuning, image remixing, style referencing (--sref), and character referencing (--cref).",
+            "block_index": 0,
+            "start": 816,
+            "end": 1308,
+            "citations": [
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrYewaDK7JnKUYBf65a1wfppsSWDKq_gLiYOhzCPYBPYsnCNwq6a99DBdGjpT7kfghKR2eqUip_PGuMINwqEHj1n5O0dgi3G_5FFDiHwqjz-7Ey2v6hICDo2AqC_Lh",
+                "title": "wikipedia.org",
+                "start_index": 817,
+                "end_index": 920
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpLAfitgJL4KwCzxM5o6A0wT3JxdQozumVW76SwiZsHkl-J4MI3S3d_8ZpKuPKb2qbJYKebZNaGo-neEmtPcjh7XNTbT0IYXovFXXncEmbEhDE6kYvigbDjE3nfJO6tPxVHveS1uCPM0_munJFwL5DC3LXQ47DZLrnQo_aQ0h4TZ0=",
+                "title": "midjourney.com",
+                "start_index": 817,
+                "end_index": 920
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrYewaDK7JnKUYBf65a1wfppsSWDKq_gLiYOhzCPYBPYsnCNwq6a99DBdGjpT7kfghKR2eqUip_PGuMINwqEHj1n5O0dgi3G_5FFDiHwqjz-7Ey2v6hICDo2AqC_Lh",
+                "title": "wikipedia.org",
+                "start_index": 922,
+                "end_index": 1153
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6JAoyG4eeYP2pzbkdReltjfZwBTTRcAyUqkRfXVo-glQRqr2Lsc-ibGxoqwri52xUunTX_DRvOC2xR99H0WVCVKuZxrxXcWUPr6fyYuqRXwAhLD7SvyokWP96Ap1nQunOj0Foil1zIDowDSisEtxYe_CtpABj9PpCpS846fgSmmpZRA==",
+                "title": "midjourney.com",
+                "start_index": 922,
+                "end_index": 1153
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRsgd8HcMXEvRSEFcxltqOoqONzVRE6nhmvaDVOYnxDlt7qiL91ZIUK9dPjrEaSycjRH1kTi6eEmYzHB1kg2zC5vi7KpvyDtdV4_okmHsWJcc82WTm_om7kpZgvJ1lKQiCzsRCla_tuOOEyaqheA6UiIPz-luubynmDxnbwX-LBKw8_6VmoLoA124eY2B-9WgEVPJfkw==",
+                "title": "midjourney.com",
+                "start_index": 922,
+                "end_index": 1153
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrYewaDK7JnKUYBf65a1wfppsSWDKq_gLiYOhzCPYBPYsnCNwq6a99DBdGjpT7kfghKR2eqUip_PGuMINwqEHj1n5O0dgi3G_5FFDiHwqjz-7Ey2v6hICDo2AqC_Lh",
+                "title": "wikipedia.org",
+                "start_index": 1155,
+                "end_index": 1305
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAHOAv5ebioFfsrliAOJRBgcnjqR49fnBJJYX2fdDhY7GVxAhKHgjvi8UvOqYhcqKEzlAcJNIc_nmUdNSI1Jmjhhn05yrtHlj_1IpyBP9cZPa0qQ45-g==",
+                "title": "notion.site",
+                "start_index": 1155,
+                "end_index": 1305
+              }
+            ]
+          }
+        ]
+      },
+      "report_index": 0,
+      "status": "ready"
+    },
+    {
+      "application_name": "vs code",
+      "endpoint": "code.visualstudio.com",
+      "is_ai_tool": false,
+      "ai_classification_status": "classified",
+      "ai_decision_source": "gemini",
+      "identity_mode": "trusted_application_name",
+      "category_status": "not_applicable",
+      "suggested_category": null,
+      "category_source": null,
+      "top_three": [],
+      "cache_hit": false,
+      "overlap_status": "no_detected_overlap",
+      "overlap_matches": [],
+      "reviewed_category": "",
+      "reviewer": "",
+      "review_reason": "",
+      "evidence_sha256": "108c9a568443b6944d6ab8b7aa25adbd9eaee89449db6d7056bd421ddb2e0634",
+      "model_text": "",
+      "description_only_text": "",
+      "sections": {},
+      "report_index": null,
+      "status": "not_applicable"
+    }
+  ],
+  "limitations": [
+    "Model suggestions are provisional, not accepted catalog assignments.",
+    "No detected overlap is not proof of an unseen product; aliases and paraphrases may be missed.",
+    "Development overlaps are seen during fitting; prior-test overlaps are previously evaluated products, not a fresh benchmark.",
+    "Review labels independently, preferably using the blind review template before inspecting predictions.",
+    "Scores are uncalibrated; no arbitrary acceptance threshold is applied."
+  ]
+}

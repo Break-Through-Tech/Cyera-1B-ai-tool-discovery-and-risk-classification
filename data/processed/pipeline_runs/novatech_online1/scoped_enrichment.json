@@ -1,0 +1,367 @@
+{
+  "version": 1,
+  "entries": {
+    "[\"gemini\",\"gemini.google.com\"]": {
+      "model": "gemini-3.8-flash",
+      "prompt_hash": "feea7b3d28ef0e5fc8a98eff3c64fd0dcdd9362e2fa80b8ece0a1cbeb7665e70",
+      "retrieved_at": "2026-11-15T02:45:27.206211+00:00",
+      "report": {
+        "enrichment_status": "cited_report_for_review",
+        "report_blocks": [
+          {
+            "text": "### 1. Product Identity\nThe application name **Gemini** and the endpoint `gemini.google.com` directly correspond. The URL `gemini.google.com` is the official web application endpoint for Google's conversational AI assistant, Google Gemini.\n\n### 2. Product Description\nGoogle Gemini is a web-based generative AI conversational assistant developed by Google. It allows users to query, summarize, brainstorm, analyze complex documents, draft content, and generate code using natural language prompts. When accessed by enterprise users signed in through managed accounts (such as Google Workspace or Gemini Enterprise), it can connect to organization data sources—including Gmail, Google Docs, Drive, and third-party tools—to assist with organizational workflows and information retrieval under enterprise administrative controls.\n\n### 3. AI Functionality\nArtificial intelligence is the **central, core functionality** of `gemini.google.com`, rather than an optional add-on feature. The entire interface and utility are built around interacting with Google's proprietary Gemini foundation models to handle tasks such as text generation, multimodal reasoning (processing text, audio, images, video, and code), summarization, conversational search, and agentic workflows. \n\n### 4. Alternate Names / Domains\n* **Bard / `bard.google.com`**: The application was originally launched as Google Bard on `bard.google.com`; in February 2024, Google rebranded the service to Gemini and redirected `bard.google.com` to `gemini.google.com`.\n* **Google Gemini / Gemini App**: Commonly referenced across Google documentation and consumer portals as \"Google Gemini\" or the \"Gemini app\".\n* **Gemini Enterprise / Gemini for Google Workspace**: The product is deployed for enterprise users under the Gemini Enterprise and Google Workspace product lines (formerly associated with \"Duet AI\" prior to the rebrand).\n\n### 5. Uncertainty\nThe web endpoint `gemini.google.com` serves both personal consumer Google accounts and enterprise-managed accounts (e.g., Google Workspace Business/Enterprise tiers). The exact features available (such as grounding against corporate drives or access to enterprise-grade data protection) depend entirely on the credentials of the logged-in user and cannot be determined from the endpoint URL alone.",
+            "citations": [
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFU5XPeSRjz6zTTIF0n4y7wpFCjtY5V8QkU31flJDgpqf-MPo2QkantTU0OpAXFH04IjmPgoNEsEFFoCAJdQ8leGoq2nm6MEaiJRzNykx7TkXUGnNQJ5-SLYWa5Vxe7xOg51OVN8uWAyX49BnlM0XE0T1H9VGokyFRV76mD2iNB-YyH_yw=",
+                "title": "pasqualepillitteri.it",
+                "start_index": 24,
+                "end_index": 112
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpt1JbpJorZgGH-yLcN7Qk1jHjxRwJqgDJ7QMZdkugzdpaWGuJvRHDPFmZoE9an8Nz4NG12jofuBX5O1XNA3AfjXM82UPzikYCaSGB42sZpQ==",
+                "title": "google.com",
+                "start_index": 114,
+                "end_index": 238
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyOtagd5Ph_AkknnwrDbiYZBv5FXG8Xg6dXvIP384SFhliMyLJ454-G3Y73XZZf-uMLlbJdpKtIvu6sNEz1-7t4uYOnuc3m6Fa4f9Q2i-xOk4rR9iY-LUxqQdJUXbUi_X0AP3_uiI3T_NhzsrPrWUPZ11YN_Ffpw==",
+                "title": "thereisanaitool.com",
+                "start_index": 114,
+                "end_index": 238
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpt1JbpJorZgGH-yLcN7Qk1jHjxRwJqgDJ7QMZdkugzdpaWGuJvRHDPFmZoE9an8Nz4NG12jofuBX5O1XNA3AfjXM82UPzikYCaSGB42sZpQ==",
+                "title": "google.com",
+                "start_index": 268,
+                "end_index": 355
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFtOB24ab90cYDQZ3mBzZmAXBlvE9Zj90MWDoCYSss5hCi9PJlil9huk2s4bfVrsakSWScC-hhj_-eHXq1gAAr7oJfCqqUXEFAeXcBwlUcKbT5xpCPg",
+                "title": "gemini.google",
+                "start_index": 357,
+                "end_index": 496
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF38Pj63C7Mvfpknbc-ABr8u9WR41lklyCbyNwDN4O0NDobawOp0JZypfz0H_zYTxE0pORWuaVhkeu2NjTrm6DqHs5junBwNKsRiDGZwBKeRILjWStnjpl_KWMx88i1Pj98_6AEBYEhaC5YRxXiQrgmhUFb0Ehs7dr8vKkKVleAchpljYs4Yhvtnk7lMRwDDvLdJu4L3yS0Qu0Wy63FL3JpDJUa",
+                "title": "google.com",
+                "start_index": 357,
+                "end_index": 496
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8SQ-7KDSh7a2pgKkkLtSivwoTHKM1jAnOTeUqyqVaWhJgKeouZTg8cytr084fZXpASlg1lVd5TIYT8TYsGZbd7YhIulj9zPAwY6bYrj6eihkZqb6KmT2PzrT_ObOy7w==",
+                "title": "gemini.google",
+                "start_index": 498,
+                "end_index": 829
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHB034Q5FTvti-pj_jQjjICQmRcnq2COFqUfTDn4AMDuwYCoFzKnO5V6hRjv7zy7T_7ipTi4H6qFCkpqptlfrHkHtPe6FxaVYI_dlGxV0KzGu6oBtIYI8GRyaoClcU12hEJSsKKZP46YsqQjbWJZaG3tI6Lc3iFqRTLYLNiBgPjzsoILHhWzIWM3kreldfrCwwTMUbWufJrt-ywSClaB6pH",
+                "title": "google.com",
+                "start_index": 498,
+                "end_index": 829
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDAoQpRBynTNNEuyhm2sWUz6WVPQ3oQitGJt5kPyFRTy0v63YXesU_Q_FMgfOawIOVOvEeRjPemMqAvTLmpsKYqRsbWqoHiXo8pdkHrwxoXZB8A63wB3uer8VOttMwpFA=",
+                "title": "google.com",
+                "start_index": 498,
+                "end_index": 829
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpt1JbpJorZgGH-yLcN7Qk1jHjxRwJqgDJ7QMZdkugzdpaWGuJvRHDPFmZoE9an8Nz4NG12jofuBX5O1XNA3AfjXM82UPzikYCaSGB42sZpQ==",
+                "title": "google.com",
+                "start_index": 856,
+                "end_index": 981
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyOtagd5Ph_AkknnwrDbiYZBv5FXG8Xg6dXvIP384SFhliMyLJ454-G3Y73XZZf-uMLlbJdpKtIvu6sNEz1-7t4uYOnuc3m6Fa4f9Q2i-xOk4rR9iY-LUxqQdJUXbUi_X0AP3_uiI3T_NhzsrPrWUPZ11YN_Ffpw==",
+                "title": "thereisanaitool.com",
+                "start_index": 856,
+                "end_index": 981
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8SQ-7KDSh7a2pgKkkLtSivwoTHKM1jAnOTeUqyqVaWhJgKeouZTg8cytr084fZXpASlg1lVd5TIYT8TYsGZbd7YhIulj9zPAwY6bYrj6eihkZqb6KmT2PzrT_ObOy7w==",
+                "title": "gemini.google",
+                "start_index": 983,
+                "end_index": 1268
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1rglruuv0-c-zP2YaSFBXyIC6q1QJvBvendm3ztAP6PahKG-92-EynQYtErt4Jy8ndeDjDKVlzo-fc0RTgx7fCO_Q0KUGWLM9lgGogFm8CfJFe7DHwQ==",
+                "title": "google.com",
+                "start_index": 983,
+                "end_index": 1268
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF38Pj63C7Mvfpknbc-ABr8u9WR41lklyCbyNwDN4O0NDobawOp0JZypfz0H_zYTxE0pORWuaVhkeu2NjTrm6DqHs5junBwNKsRiDGZwBKeRILjWStnjpl_KWMx88i1Pj98_6AEBYEhaC5YRxXiQrgmhUFb0Ehs7dr8vKkKVleAchpljYs4Yhvtnk7lMRwDDvLdJu4L3yS0Qu0Wy63FL3JpDJUa",
+                "title": "google.com",
+                "start_index": 983,
+                "end_index": 1268
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEj5ycgAz-4T2LymcZjQp25m3bfhMucbvsC7TwuCxtXfjX9NJmFSiLZJvK2A1RlLhxCc7fEN6jiqZxJNyGvZ5aGao2PlnPj4fWG3iYRWe2FRTXLGiSPAO8_YsVRRGWVtnbc410v9H9ymuV7RMv82NZIWoq4nf49XN8ViJCj0DOyf7YmY3ADezqT4fnJYHZvNJsLQ==",
+                "title": "searchengineland.com",
+                "start_index": 1307,
+                "end_index": 1526
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyOtagd5Ph_AkknnwrDbiYZBv5FXG8Xg6dXvIP384SFhliMyLJ454-G3Y73XZZf-uMLlbJdpKtIvu6sNEz1-7t4uYOnuc3m6Fa4f9Q2i-xOk4rR9iY-LUxqQdJUXbUi_X0AP3_uiI3T_NhzsrPrWUPZ11YN_Ffpw==",
+                "title": "thereisanaitool.com",
+                "start_index": 1307,
+                "end_index": 1526
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFk8ZuuxZzzJ56HTveF1xNdYLRtNeXfg4ATq3ZCVoWcHotiYQz1aqlcg-PokZPo866iyA_72NSA0bC2tnQYVsCdHd9Cdsbay5_mor6Mw0z1iceT_KYYbOEHNo8KOIBov5RYaXAL1FF-3vKz8LRO7mIE4hagP0oVsk6Iq6IL83vp5HJXV-8Z82LCUClsj4M16A==",
+                "title": "google.com",
+                "start_index": 1530,
+                "end_index": 1669
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpt1JbpJorZgGH-yLcN7Qk1jHjxRwJqgDJ7QMZdkugzdpaWGuJvRHDPFmZoE9an8Nz4NG12jofuBX5O1XNA3AfjXM82UPzikYCaSGB42sZpQ==",
+                "title": "google.com",
+                "start_index": 1530,
+                "end_index": 1669
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzDNpAVcEnMuUrHFCa-RlkF5LPB5gyVTCv4QdQeaWeJPvXPFzUP3lU9nm5bffhKX7rpZ_OKarn51oqXtEdknb9yrVS03q6mkQ5a7EpcWlXWDWSHo1DnpmAX-aEZ-v7",
+                "title": "google.com",
+                "start_index": 1673,
+                "end_index": 1891
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEj5ycgAz-4T2LymcZjQp25m3bfhMucbvsC7TwuCxtXfjX9NJmFSiLZJvK2A1RlLhxCc7fEN6jiqZxJNyGvZ5aGao2PlnPj4fWG3iYRWe2FRTXLGiSPAO8_YsVRRGWVtnbc410v9H9ymuV7RMv82NZIWoq4nf49XN8ViJCj0DOyf7YmY3ADezqT4fnJYHZvNJsLQ==",
+                "title": "searchengineland.com",
+                "start_index": 1673,
+                "end_index": 1891
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFU5XPeSRjz6zTTIF0n4y7wpFCjtY5V8QkU31flJDgpqf-MPo2QkantTU0OpAXFH04IjmPgoNEsEFFoCAJdQ8leGoq2nm6MEaiJRzNykx7TkXUGnNQJ5-SLYWa5Vxe7xOg51OVN8uWAyX49BnlM0XE0T1H9VGokyFRV76mD2iNB-YyH_yw=",
+                "title": "pasqualepillitteri.it",
+                "start_index": 1673,
+                "end_index": 1891
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFk8ZuuxZzzJ56HTveF1xNdYLRtNeXfg4ATq3ZCVoWcHotiYQz1aqlcg-PokZPo866iyA_72NSA0bC2tnQYVsCdHd9Cdsbay5_mor6Mw0z1iceT_KYYbOEHNo8KOIBov5RYaXAL1FF-3vKz8LRO7mIE4hagP0oVsk6Iq6IL83vp5HJXV-8Z82LCUClsj4M16A==",
+                "title": "google.com",
+                "start_index": 1913,
+                "end_index": 2078
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFU5XPeSRjz6zTTIF0n4y7wpFCjtY5V8QkU31flJDgpqf-MPo2QkantTU0OpAXFH04IjmPgoNEsEFFoCAJdQ8leGoq2nm6MEaiJRzNykx7TkXUGnNQJ5-SLYWa5Vxe7xOg51OVN8uWAyX49BnlM0XE0T1H9VGokyFRV76mD2iNB-YyH_yw=",
+                "title": "pasqualepillitteri.it",
+                "start_index": 1913,
+                "end_index": 2078
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8SQ-7KDSh7a2pgKkkLtSivwoTHKM1jAnOTeUqyqVaWhJgKeouZTg8cytr084fZXpASlg1lVd5TIYT8TYsGZbd7YhIulj9zPAwY6bYrj6eihkZqb6KmT2PzrT_ObOy7w==",
+                "title": "gemini.google",
+                "start_index": 2080,
+                "end_index": 2309
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHB034Q5FTvti-pj_jQjjICQmRcnq2COFqUfTDn4AMDuwYCoFzKnO5V6hRjv7zy7T_7ipTi4H6qFCkpqptlfrHkHtPe6FxaVYI_dlGxV0KzGu6oBtIYI8GRyaoClcU12hEJSsKKZP46YsqQjbWJZaG3tI6Lc3iFqRTLYLNiBgPjzsoILHhWzIWM3kreldfrCwwTMUbWufJrt-ywSClaB6pH",
+                "title": "google.com",
+                "start_index": 2080,
+                "end_index": 2309
+              }
+            ]
+          }
+        ],
+        "search_queries": [
+          "gemini google com enterprise Google Workspace gemini app",
+          "gemini google com overview documentation",
+          "\"bard.google.com\" \"gemini.google.com\" rename"
+        ],
+        "search_suggestions_html": [
+          "<style>\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n</style>\n<div class=\"container\">\n  <div class=\"headline\">\n    <svg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/>\n    </svg>\n    <svg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/>\n      <path d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/>\n      <path d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/>\n      <path d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/>\n      <path d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/>\n    </svg>\n    <div class=\"gradient-container\"><div class=\"gradient\"></div></div>\n  </div>\n  <div class=\"carousel\">\n<a class=\"chip\" href=\"https://www.google.com/search?q=gemini+google+com+enterprise+Google+Workspace+gemini+app&client=app-vertex-grounding&safesearch=active\">gemini google com enterprise Google Workspace gemini app</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=gemini+google+com+overview+documentation&client=app-vertex-grounding&safesearch=active\">gemini google com overview documentation</a>\n  </div>\n</div>",
+          "<style>\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n</style>\n<div class=\"container\">\n  <div class=\"headline\">\n    <svg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/>\n    </svg>\n    <svg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/>\n      <path d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/>\n      <path d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/>\n      <path d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/>\n      <path d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/>\n    </svg>\n    <div class=\"gradient-container\"><div class=\"gradient\"></div></div>\n  </div>\n  <div class=\"carousel\">\n<a class=\"chip\" href=\"https://www.google.com/search?q=%22bard.google.com%22+%22gemini.google.com%22+rename&client=app-vertex-grounding&safesearch=active\">&quot;bard.google.com&quot; &quot;gemini.google.com&quot; rename</a>\n  </div>\n</div>"
+        ],
+        "identity_verified": false,
+        "is_ai_tool": null
+      }
+    },
+    "[\"jasper\",\"jasper.ai\"]": {
+      "model": "gemini-3.8-flash",
+      "prompt_hash": "930e05d882017d6f13f89fd043882a6e8dfd820b8276c4d5da84d206c25c362f",
+      "retrieved_at": "2026-11-15T02:45:37.518287+00:00",
+      "report": {
+        "enrichment_status": "cited_report_for_review",
+        "report_blocks": [
+          {
+            "text": "### 1. Product Identity\nThe application name **Jasper** directly corresponds to the endpoint **jasper.ai**. It serves as the primary domain and web application endpoint for Jasper (legally Jasper Technologies, Inc.), an AI platform designed for enterprise marketing and content operations.\n\n### 2. Product Description\nJasper is an enterprise marketing platform designed to help teams plan, generate, govern, and scale on-brand content across multiple channels. Its primary capabilities include long-form content generation, ad copy creation, campaign coordination, and brand voice alignment using knowledge bases and style guides (Brand IQ). The platform also offers collaborative workspaces (Jasper Canvas), bulk content automation (Jasper Grid), and tools for search and AI engine optimization (GEO and SEO).\n\n### 3. AI Functionality\nAI functionality is central to Jasper’s entire platform and core architecture, rather than an optional add-on. The software relies on large language models and autonomous AI agents to execute multi-step marketing workflows, such as translating content, drafting briefs, generating channel-specific copy, and analyzing competitive positioning. Additional integrated AI tools include Jasper IQ (for ingesting company brand voice, style, and product data to guide generated outputs) and no-code AI app creation via Jasper Studio.\n\n### 4. Alternate Names and Domains\n* **Conversion.ai**: The original name of the product when it launched in January 2021.\n* **Jarvis / Jarvis.ai**: The software rebranded to \"Jarvis\" (and used the domain `jarvis.ai`) later in 2021 before rebranding to Jasper in January 2022 to avoid trademark conflicts with Marvel/Disney.\n* **Jasper AI**: Commonly used informal and trade name for the platform and corporate identity.\n\n### 5. Uncertainty\nThere is no significant ambiguity or conflicting evidence regarding the correspondence between the application name \"Jasper\" and the `jasper.ai` endpoint.",
+            "citations": [
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5pk9n4PFJyAhzcOSYAtDf7jKyWPZT3Ej0OBLFAT6SM9Y1AWQqrwFlg9ziKL5wv_UgxV2j9FhupmhBsKyGNxlhLa347FtWhyF6wJU5",
+                "title": "jasper.ai",
+                "start_index": 24,
+                "end_index": 106
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtiHrSYQ8FqTi5Uo9ptewlpkixTfOYFqnmygYUF-YWNyNaC-yrjMq9oUsbPBrA8aef6sdExjvYn5FH6yvmjP4vRpn6fa7pSLGxqHwlnvzwYlgyczA=",
+                "title": "jasper.ai",
+                "start_index": 24,
+                "end_index": 106
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtiHrSYQ8FqTi5Uo9ptewlpkixTfOYFqnmygYUF-YWNyNaC-yrjMq9oUsbPBrA8aef6sdExjvYn5FH6yvmjP4vRpn6fa7pSLGxqHwlnvzwYlgyczA=",
+                "title": "jasper.ai",
+                "start_index": 108,
+                "end_index": 288
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJPlSSDM8xkFxHNPq5R4igPSVO_8s_mnNgq4xHbeKc4B_ZyAXcNAdrHdT9S5ZXp1Nr04WLaK6Y2Qg3SFG82xLfceAsO2t1muSwtKXwI4XfftF2xGODblnlXMuT6B3VhuX0yPrLZea6H36wVEy_Fjr6zd3zuMprqw==",
+                "title": "rework.com",
+                "start_index": 108,
+                "end_index": 288
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtiHrSYQ8FqTi5Uo9ptewlpkixTfOYFqnmygYUF-YWNyNaC-yrjMq9oUsbPBrA8aef6sdExjvYn5FH6yvmjP4vRpn6fa7pSLGxqHwlnvzwYlgyczA=",
+                "title": "jasper.ai",
+                "start_index": 318,
+                "end_index": 459
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJPlSSDM8xkFxHNPq5R4igPSVO_8s_mnNgq4xHbeKc4B_ZyAXcNAdrHdT9S5ZXp1Nr04WLaK6Y2Qg3SFG82xLfceAsO2t1muSwtKXwI4XfftF2xGODblnlXMuT6B3VhuX0yPrLZea6H36wVEy_Fjr6zd3zuMprqw==",
+                "title": "rework.com",
+                "start_index": 318,
+                "end_index": 459
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5pk9n4PFJyAhzcOSYAtDf7jKyWPZT3Ej0OBLFAT6SM9Y1AWQqrwFlg9ziKL5wv_UgxV2j9FhupmhBsKyGNxlhLa347FtWhyF6wJU5",
+                "title": "jasper.ai",
+                "start_index": 461,
+                "end_index": 640
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExs5X_MsTVAmMmpmMY3jEgPMgPdnv2oB4kANn5ucQgUvKT1wPq5BSZLl1SGybosZ_FJXuC87sjl-dl6GHF_drdFvegZHMD2lfmTan4fwxKIZRkpEAbircuKgdgUPd-SbA4wSx195A7nTOtR6PfAlth36rKPqkgQC3a",
+                "title": "jasper.ai",
+                "start_index": 461,
+                "end_index": 640
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZ_mO0MUKbN0xF0zzu-Y2uy1NUmaf8Z-DbUi1qtFt3R3nCfgEigD1FY-waluOyuzXIh2-mkfxyxfyAeGyBxCiokG4Dc_DOyia9XKxc3WIf-gkYs4HCHXSNo5jdlQ-BWEmB7jw=",
+                "title": "contentpen.ai",
+                "start_index": 461,
+                "end_index": 640
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5pk9n4PFJyAhzcOSYAtDf7jKyWPZT3Ej0OBLFAT6SM9Y1AWQqrwFlg9ziKL5wv_UgxV2j9FhupmhBsKyGNxlhLa347FtWhyF6wJU5",
+                "title": "jasper.ai",
+                "start_index": 642,
+                "end_index": 809
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwwunymYMAcqtOKJ2Yv61jH0vHwpEu8paBFL84_pV2MfsQqj_KxGdPeglNUW3qNuInTkxXukmIFNkWAzTLdZiV33y4zFLhI5ouwCTaSEmi2R37ASMQNNTCCPHb_Tr27F1NhH2lkecUm2bzQ4akkjpP-spl77Ax_uFGayCwzblRz1Zgjevsju6TeSbBJ1GVhrwVZmjcQe1-4k1-y-rLhXUIkWXN4YMwYF3HnoEpdcx_2SSA4XI=",
+                "title": "bitdefender.com",
+                "start_index": 642,
+                "end_index": 809
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZ_mO0MUKbN0xF0zzu-Y2uy1NUmaf8Z-DbUi1qtFt3R3nCfgEigD1FY-waluOyuzXIh2-mkfxyxfyAeGyBxCiokG4Dc_DOyia9XKxc3WIf-gkYs4HCHXSNo5jdlQ-BWEmB7jw=",
+                "title": "contentpen.ai",
+                "start_index": 642,
+                "end_index": 809
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtiHrSYQ8FqTi5Uo9ptewlpkixTfOYFqnmygYUF-YWNyNaC-yrjMq9oUsbPBrA8aef6sdExjvYn5FH6yvmjP4vRpn6fa7pSLGxqHwlnvzwYlgyczA=",
+                "title": "jasper.ai",
+                "start_index": 836,
+                "end_index": 947
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzGzHoiLEXtt4CLsED9SqRC2jrBJRMZw-LccfJMQ3fO9chrBlMZsESTsP6Iv8rdtSM69ErJDdYNQjwU3P2xj-xFaMULGZMZCG6jHtVNmrSIImYjNQb7Nm5",
+                "title": "zapier.com",
+                "start_index": 836,
+                "end_index": 947
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5pk9n4PFJyAhzcOSYAtDf7jKyWPZT3Ej0OBLFAT6SM9Y1AWQqrwFlg9ziKL5wv_UgxV2j9FhupmhBsKyGNxlhLa347FtWhyF6wJU5",
+                "title": "jasper.ai",
+                "start_index": 949,
+                "end_index": 1179
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZ_mO0MUKbN0xF0zzu-Y2uy1NUmaf8Z-DbUi1qtFt3R3nCfgEigD1FY-waluOyuzXIh2-mkfxyxfyAeGyBxCiokG4Dc_DOyia9XKxc3WIf-gkYs4HCHXSNo5jdlQ-BWEmB7jw=",
+                "title": "contentpen.ai",
+                "start_index": 949,
+                "end_index": 1179
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5pk9n4PFJyAhzcOSYAtDf7jKyWPZT3Ej0OBLFAT6SM9Y1AWQqrwFlg9ziKL5wv_UgxV2j9FhupmhBsKyGNxlhLa347FtWhyF6wJU5",
+                "title": "jasper.ai",
+                "start_index": 1181,
+                "end_index": 1363
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZ_mO0MUKbN0xF0zzu-Y2uy1NUmaf8Z-DbUi1qtFt3R3nCfgEigD1FY-waluOyuzXIh2-mkfxyxfyAeGyBxCiokG4Dc_DOyia9XKxc3WIf-gkYs4HCHXSNo5jdlQ-BWEmB7jw=",
+                "title": "contentpen.ai",
+                "start_index": 1181,
+                "end_index": 1363
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJPlSSDM8xkFxHNPq5R4igPSVO_8s_mnNgq4xHbeKc4B_ZyAXcNAdrHdT9S5ZXp1Nr04WLaK6Y2Qg3SFG82xLfceAsO2t1muSwtKXwI4XfftF2xGODblnlXMuT6B3VhuX0yPrLZea6H36wVEy_Fjr6zd3zuMprqw==",
+                "title": "rework.com",
+                "start_index": 1403,
+                "end_index": 1487
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEyMuv2XFIEef0EJ-edPLjrD4ZMTObnCTgejYOu-mcVRGYwpdsyG2mU9VQUg7YLV_-wFf0HT6G2hubBAVfBTHqOn76QRTcBgZKPrqZ1QJ7kuClqbEkp1oDfe4onXUDgGWyEXirPvfcalG7ZKa2PZAmg2UqTfwX00K406Az00F6R4_rAZoO4wnBb934GhilltjX6GOMGdUS1",
+                "title": "tc-creatives.com",
+                "start_index": 1403,
+                "end_index": 1487
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJPlSSDM8xkFxHNPq5R4igPSVO_8s_mnNgq4xHbeKc4B_ZyAXcNAdrHdT9S5ZXp1Nr04WLaK6Y2Qg3SFG82xLfceAsO2t1muSwtKXwI4XfftF2xGODblnlXMuT6B3VhuX0yPrLZea6H36wVEy_Fjr6zd3zuMprqw==",
+                "title": "rework.com",
+                "start_index": 1491,
+                "end_index": 1689
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6CzysFil8-YxKy-aQZe2hlPNMMSGKCE_q20YZvFfhsOHq5m7EMTZ-A_8m7vFAv_aDDby3XfkZA8jQomIqbHVAGXOFMur06aiYUzaBr1xEAQL-YDQO6ZES0OPhlu_rF-2IzAeQoDwNCQn_QqhL",
+                "title": "chadfullerton.com",
+                "start_index": 1491,
+                "end_index": 1689
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEyMuv2XFIEef0EJ-edPLjrD4ZMTObnCTgejYOu-mcVRGYwpdsyG2mU9VQUg7YLV_-wFf0HT6G2hubBAVfBTHqOn76QRTcBgZKPrqZ1QJ7kuClqbEkp1oDfe4onXUDgGWyEXirPvfcalG7ZKa2PZAmg2UqTfwX00K406Az00F6R4_rAZoO4wnBb934GhilltjX6GOMGdUS1",
+                "title": "tc-creatives.com",
+                "start_index": 1491,
+                "end_index": 1689
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwwunymYMAcqtOKJ2Yv61jH0vHwpEu8paBFL84_pV2MfsQqj_KxGdPeglNUW3qNuInTkxXukmIFNkWAzTLdZiV33y4zFLhI5ouwCTaSEmi2R37ASMQNNTCCPHb_Tr27F1NhH2lkecUm2bzQ4akkjpP-spl77Ax_uFGayCwzblRz1Zgjevsju6TeSbBJ1GVhrwVZmjcQe1-4k1-y-rLhXUIkWXN4YMwYF3HnoEpdcx_2SSA4XI=",
+                "title": "bitdefender.com",
+                "start_index": 1693,
+                "end_index": 1785
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJPlSSDM8xkFxHNPq5R4igPSVO_8s_mnNgq4xHbeKc4B_ZyAXcNAdrHdT9S5ZXp1Nr04WLaK6Y2Qg3SFG82xLfceAsO2t1muSwtKXwI4XfftF2xGODblnlXMuT6B3VhuX0yPrLZea6H36wVEy_Fjr6zd3zuMprqw==",
+                "title": "rework.com",
+                "start_index": 1693,
+                "end_index": 1785
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5pk9n4PFJyAhzcOSYAtDf7jKyWPZT3Ej0OBLFAT6SM9Y1AWQqrwFlg9ziKL5wv_UgxV2j9FhupmhBsKyGNxlhLa347FtWhyF6wJU5",
+                "title": "jasper.ai",
+                "start_index": 1807,
+                "end_index": 1960
+              },
+              {
+                "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtiHrSYQ8FqTi5Uo9ptewlpkixTfOYFqnmygYUF-YWNyNaC-yrjMq9oUsbPBrA8aef6sdExjvYn5FH6yvmjP4vRpn6fa7pSLGxqHwlnvzwYlgyczA=",
+                "title": "jasper.ai",
+                "start_index": 1807,
+                "end_index": 1960
+              }
+            ]
+          }
+        ],
+        "search_queries": [
+          "jasper ai product overview site jasper ai",
+          "jasper ai previous names jarvis conversion ai"
+        ],
+        "search_suggestions_html": [
+          "<style>\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n</style>\n<div class=\"container\">\n  <div class=\"headline\">\n    <svg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/>\n    </svg>\n    <svg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/>\n      <path d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/>\n      <path d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/>\n      <path d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/>\n      <path d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/>\n    </svg>\n    <div class=\"gradient-container\"><div class=\"gradient\"></div></div>\n  </div>\n  <div class=\"carousel\">\n<a class=\"chip\" href=\"https://www.google.com/search?q=jasper+ai+product+overview+site+jasper+ai&client=app-vertex-grounding&safesearch=active\">jasper ai product overview site jasper ai</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=jasper+ai+previous+names+jarvis+conversion+ai&client=app-vertex-grounding&safesearch=active\">jasper ai previous names jarvis conversion ai</a>\n  </div>\n</div>"
+        ],
+        "identity_verified": false,
+        "is_ai_tool": null
+      }
+    }
+  }
+}
