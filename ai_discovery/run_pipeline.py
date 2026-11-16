@@ -1,7 +1,7 @@
-"""Run Components 1-3: activity extraction, AI discovery, purpose categorization.
+"""Run Components 1-4: extraction, discovery, categorization and governance.
 
 Offline by default. --online enables existing enrich/classify services for
-unresolved products. Governance stays in the separate legacy report workflow.
+unresolved products. Governance uses explicit evidence; unknown is the default.
 """
 import argparse
 from collections import Counter
@@ -15,6 +15,7 @@ import tempfile
 
 from . import categorize as cat
 from .ingest import extract_applications
+from governance import risk, evidence as governance_evidence
 
 
 def index_discovery(data, prep):
@@ -163,11 +164,21 @@ def main():
     p.add_argument('--trust-application-names', action='store_true')
     p.add_argument('--enrichment-cache', type=Path, default=cat.ROOT/'data/cache/enrichment_cache.json')
     p.add_argument('--decision-cache', type=Path, default=cat.ROOT/'data/cache/ai_classification_cache.json')
+    p.add_argument('--company', help='Company scope for governance approval evidence')
+    p.add_argument('--governance-policy', type=Path, default=risk.POLICY)
+    p.add_argument('--governance-evidence', type=Path, help='Version 1 evidence keyed by ingestion application_id')
+    p.add_argument('--activity-provenance', choices=['unknown', 'synthetic', 'verified'], default='unknown')
+    governance_evidence.options(p)
     a = p.parse_args()
     try:
-        cat.preflight(a, [a.activity, a.discovery, a.enrichment_cache, a.decision_cache])
+        cat.preflight(a, [a.activity, a.discovery, a.enrichment_cache, a.decision_cache,
+                         a.governance_policy, a.governance_evidence, *governance_evidence.input_paths(a)])
+        policy = cat.helpers.read_json(a.governance_policy)
+        risk.validate_policy(policy)
+        evidence = cat.helpers.read_json(a.governance_evidence) if a.governance_evidence else None
         sources = [a.activity, a.discovery, a.catalog, a.known_tools, a.catalog_context,
-                   a.reviews, a.report_selections, a.decision_cache, a.prep_script, a.training_script]
+                   a.reviews, a.report_selections, a.decision_cache, a.prep_script, a.training_script,
+                   a.governance_policy, a.governance_evidence, *governance_evidence.input_paths(a)]
         if (a.enrichment_cache.resolve() in {s.resolve() for s in sources if s}
                 or a.enrichment_cache.resolve().is_relative_to(a.model_dir.resolve())
                 or a.enrichment_cache.resolve().is_relative_to(a.out.resolve())):
@@ -186,8 +197,18 @@ def main():
                 if r['catalog_detection_conflict']:
                     r['categorization'].update(category=None, category_source=None,
                         category_status='pending_detection_conflict', top_three=[])
+            evidence, evidence_report, research_cache = governance_evidence.prepare(records, a.company, a, evidence)
+            records = risk.assess_records(records, ingestion, a.activity, policy, a.company,
+                                          evidence, a.activity_provenance)
+            governance_counts = dict(Counter(r['governance']['assessment_status'] for r in records))
             report = cat.save_outputs(a, records, engine, {
-                'scope': 'All extracted activity applications; Components 1-3. Governance is not recomputed.',
+                'scope': 'All extracted activity applications; Components 1-4.',
+                'governance_counts': governance_counts,
+                'governance_evidence_report': evidence_report,
+                'governance_research_cache': research_cache,
+                'governance_inputs': {str(f): cat.helpers.sha(f) for f in
+                    [a.governance_policy, a.governance_evidence, *governance_evidence.input_paths(a)] if f},
+                'governance_engine_sha256': cat.helpers.sha(Path(risk.__file__)),
                 'ingestion': ingestion, 'online_enabled': a.online, 'enrichment_outcomes': outcomes,
                 'detection_counts': dict(Counter(str(r.get('is_ai_tool')) for r in records)),
                 'runner_sha256': cat.helpers.sha(Path(__file__))})
@@ -195,7 +216,10 @@ def main():
                 shutil.copyfile(f, a.out/f.name)
             cat.helpers.write_json(a.out/'pipeline_summary.json', {
                 'ingestion': ingestion['summary'], 'detection_counts': report['detection_counts'],
-                'category_counts': report['summary'], 'online_enabled': a.online})
+                'category_counts': report['summary'], 'online_enabled': a.online,
+                'governance_counts': governance_counts})
+    except KeyboardInterrupt:
+        p.exit(130, 'Interrupted; governance checkpoints can be reused on the next run.\n')
     except (OSError, ValueError, KeyError, ImportError, subprocess.CalledProcessError) as exc:
         p.exit(1, f'Error: {exc}\n')
 

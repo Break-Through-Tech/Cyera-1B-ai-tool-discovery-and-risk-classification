@@ -1,7 +1,30 @@
 # AI discovery pipeline: implementation and next steps
 
 **Project:** AI Tool Discovery and Risk Classification  
-**Status:** November 14, 2026 - Kaggle-14 results reviewed; Component 3 inference and Components 1-3 runner delivered
+**Status:** November 15, 2026 - Components 1-4 integrated in the Component 4 delivery.
+
+## Latest validated status (Component 4 v2)
+
+Components 1-3: 30,000 events, 21 applications, 9 AI (4 catalog categories and
+5 provisional model predictions), 12 non-AI uncategorized, no unresolved detections.
+Prediction caching was verified in the original local run.
+
+Component 4 now accepts synthetic controls and activity in its PRIMARY prototype
+score, per VISION.md. It reuses explicitly supplied governance catalogs by exact
+name/endpoint, applies fictional-company scenarios, and optionally researches
+missing vendor controls with citations. Approval remains company-scoped. Existing
+risk_label values are never reused as assessments. AI-only checks stay conditional.
+
+52 targeted tests pass. Offline NovaTech with both catalogs, synthetic approval
+adoption and the NovaTech scenario yields 9 complete and 12 incomplete assessments
+(13 low, 5 medium, 3 high), preserving all upstream records and ingestion. These
+are fictional scenario scores. Online research is implemented and fake-tested;
+a live Gemini run remains to be validated. Grammarly's Security And Privacy
+category is still flagged for review, not silently changed.
+
+See [Component 4 v2 contract and commands](../docs/component4_integration.md).
+This section supersedes historical Component 4 boundaries and verified-only
+scoring descriptions elsewhere in older notes.
 
 This guide documents the scripts delivered and the runs reviewed so far. Commands
 assume the project root is the working directory and the Python virtual environment
@@ -17,7 +40,7 @@ to decide whether each researched product is primarily an AI tool.
 The operational scripts are `ingest.py`, `catalog.py`, `enrich.py`, and `classify.py`.
 Binary local-model scripts remain experimental and are not required for normal
 discovery. Component 3 now has separate data-preparation and local-training scripts;
-these do not change the operational binary AI-detection policy. `categorize.py` adds purpose categories; `run_pipeline.py` connects Components 1-3.
+these do not change the operational binary AI-detection policy. `categorize.py` adds purpose categories; `run_pipeline.py` connects Components 1-4.
 
 The successful latest classification run produced three AI labels and six non-AI
 labels for the nine researched applications. An identical rerun returned
@@ -26,7 +49,7 @@ not establish accuracy on arbitrary unseen products.
 
 **Current boundary:** `classify.py` processes entries already in the enrichment
 cache. It does not extract new activity, rerun catalog matching, or merge known and
-newly classified products into a complete enterprise report. The new `run_pipeline.py` now combines Components 1-3 for an activity input. Governance remains in the older `report.py` workflow.
+newly classified products into a complete enterprise report. The current `run_pipeline.py` combines Components 1-4 for an activity input. `report.py` retains its legacy governance workflow; use the new runner or `governance.assess_pipeline` for the new evidence contract.
 
 ### Team status at a glance
 
@@ -37,7 +60,7 @@ newly classified products into a complete enterprise report. The new `run_pipeli
 | Category data preparation | Run completed: 16,751 eligible rows using Kaggle's exact 14 categories. | Keep the prepared files and manifest together. |
 | Category model training | Completed locally; TF-IDF won development selection, held-out macro-F1 0.735. | Broaden independent discovery-evidence evaluation. |
 | Category inference and prediction cache | Implemented in `categorize.py`; catalog, model and human provenance. | Run locally against saved discovery/model artifacts. |
-| Combined activity run | `run_pipeline.py` connects Components 1-3 and preserves ingestion. | Governance/dashboard integration with the new schema remains separate. |
+| Combined activity run | `run_pipeline.py` connects Components 1-4 and preserves ingestion. | Collect verified governance evidence; dashboard integration remains separate. |
 
 Section 8 is the current Component 3 handoff. Sections 6–7 retain historical results
 for context; they are not performance claims for the newly delivered Kaggle-14 models.

@@ -1,0 +1,249 @@
+{
+  "version": 1,
+  "entries": {
+    "249aa475f68377ba490ed5ecf72193a0ccadffda06d8f0475e129ef302b5efa8": {
+      "created_at": "2026-11-15T23:31:44.867982+00:00",
+      "extraction": {
+        "identity_matches": true,
+        "fields": {
+          "sso_available": {
+            "value": true,
+            "source_blocks": [
+              0
+            ],
+            "plan_context": "Enterprise / Google Workspace Plans",
+            "explanation": "When accessed with an enterprise work or school Google Workspace account, Gemini supports Single Sign-On (SSO) via SAML 2.0 or OIDC third-party Identity Providers."
+          },
+          "training_on_customer_data": {
+            "value": false,
+            "source_blocks": [
+              0
+            ],
+            "plan_context": "Enterprise / Google Workspace Plans",
+            "explanation": "Under Google Workspace enterprise data protections, customer prompts, uploaded files, and generated responses are not used to train Google's foundation AI models."
+          },
+          "admin_controls_available": {
+            "value": true,
+            "source_blocks": [
+              0
+            ],
+            "plan_context": "Enterprise / Google Workspace Plans",
+            "explanation": "The Google Admin Console offers granular administrative governance, including enabling/disabling Gemini, retention settings, and data loss prevention policies."
+          },
+          "enterprise_plan_available": {
+            "value": true,
+            "source_blocks": [
+              0
+            ],
+            "explanation": "Enterprise plans are available via Google Workspace with Gemini Business, Gemini Enterprise, and Google Workspace for Education editions."
+          }
+        }
+      },
+      "report_blocks": [
+        {
+          "text": "### Applicable Subscription Plans\nThe web interface at `gemini.google.com` (Gemini Apps) can be accessed under two distinct tiers of service:\n* **Consumer / Personal Plans:** Free Google accounts and **Gemini Advanced** (via Google One AI Premium).\n* **Business & Enterprise Plans:** **Google Workspace** editions with Gemini (including **Gemini Business**, **Gemini Enterprise**, and **Gemini for Education**) which grant enterprise-grade data protections and administrative governance.\n\n---\n\n### Governance Attributes\n\n#### 1. `sso_available`\n* **Consumer Plans:** Not available. Access relies on standard personal Google Account authentication.\n* **Enterprise / Google Workspace Plans:** **Yes.** When accessed with a work or school account, `gemini.google.com` inherits the Google Workspace organization's identity configuration, which supports Single Sign-On (SSO) via SAML 2.0 or OIDC third-party Identity Providers (IdPs), as well as Google as the IdP.\n\n#### 2. `data_retention`\n* **Consumer Plans:** Managed under **Gemini Apps Activity**. By default, conversations are retained for **18 months**, with user settings to set auto-deletion at 3 months, 36 months, or indefinite. If Gemini Apps Activity is turned off, conversations are temporarily retained for up to **72 hours** to provide the service and process feedback. Data selected for human review is decoupled from the Google account and kept for up to **3 years**.\n* **Enterprise / Google Workspace Plans:** Admins control conversation history policies. Conversation history is retained by default for **18 months**, and administrators can configure auto-deletion at 3, 18, or 36 months, or turn history off completely. Organizations can also govern retention, legal holds, and eDiscovery using **Google Vault**.\n\n#### 3. `training_on_customer_data`\n* **Consumer Plans:** **Yes.** Conversations, prompts, and related usage data may be human-reviewed and used by Google to train and improve machine learning models and Google products.\n* **Enterprise / Google Workspace Plans:** **No.** Under Google Workspace enterprise data protections, prompts, uploaded files, and generated responses stay within the organization and are **not** reviewed by humans or used to train Google's foundation AI models without explicit customer permission.\n\n#### 4. `admin_controls_available`\n* **Consumer Plans:** **No.** Controls are restricted to personal user-level settings.\n* **Enterprise / Google Workspace Plans:** **Yes.** Google Admin Console provides granular administrative controls, including:\n  * Turning the Gemini app on or off for specific organizational units (OUs) or groups.\n  * Managing organization-wide conversation history and retention settings.\n  * Restricting sharing of Gemini app conversations.\n  * Regulating data access permissions, Data Loss Prevention (DLP) policies, and auditing activities through Google Vault and the Security Investigation Tool.\n\n#### 5. `enterprise_plan_available`\n* **Yes.** Enterprise plans are available via Google Workspace with **Gemini Business**, **Gemini Enterprise**, and Google Workspace for Education editions, enabling enterprise-level agreements, compliance coverage (e.g., HIPAA, FERPA), and enterprise data protection terms for `gemini.google.com`.",
+          "citations": [
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRQRnrnvs8TzV0BVRrOotT2Tm4c_V49LNwnOfXNT8ETWZj4ZvM3apfkLkmCvAN0T4cR8chFt8MG_uC5rf_r-sQ_Fnh18orqVVINS2bjHJD2NUYlUnIuwiO1pUxMbT-w8iVFwJaMIi6",
+              "title": "safety.google",
+              "start_index": 144,
+              "end_index": 247
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYv7nNnpjsGKZYCfIO_-PHuVkONCckHGpWlBi0O156POHt7kuHFWtsItDMaV3UsS9S9ZVgtm2X32Pairkpa5kIpDvhg8oowOGDH-zTfD1VoEJbSTrBlBBfSy8ZSdrF13ZdshM7nG8K6wszDiR1",
+              "title": "google.com",
+              "start_index": 144,
+              "end_index": 247
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNY_KevXOI8KkJZmpi3Qf-2qm-2wMGm3C3y9hLwo3M2w-4wDQ1IY541Sj3_4Lkbz-QZ3fAGTktAVfhIn0pItHDbbmvsPgIgjcKzISDAZSL7c5jBzfWO23VgGO85c2LxE7NZjY5xhaFiNPmhdRck47D2qqbH1oG6HoEVeBC8lWgeKkf54R5iNMRJStwIopcX2HbyLxamFjOYVuinxfPUA==",
+              "title": "google.com",
+              "start_index": 251,
+              "end_index": 486
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEu9uL2qMPHXRVkDvNSsthxyWEHkeBLItsdON97lBtEzJP1b4TzeQiFvyOJ0ptUxyg0vJUW2EfTF2qCWMdGfFW-ZsdHAssykH6uGiSg1sJ3mC7Il1gYqozc04ywexpxFjc8dJ9JZvyBgEGeLTvNwz5p04P5LKb37Z69g5QJJeqpwrkg50zbNRuH1Qeglm1OQfxLV7EargIGuj6NNC4=",
+              "title": "blog.google",
+              "start_index": 251,
+              "end_index": 486
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdKKWrJ1Tr0wr3Ml1Sl_oJaTBawrHF8V5xCUwBmC-za0p8voYkMlaM_NN8iz5u3BxYxQUXIUEPzUjsueH3AOdhdjHdCETQz5d1B-troinUTbcpfcVkR_6nIepVsso4eIRlhazZccGsIQFJSX4DYsOKD77dmDIUWkL9Bq3w20UAmf0PfOt4CJE5l7_h_u80ojoQvsfAow==",
+              "title": "google.com",
+              "start_index": 251,
+              "end_index": 486
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYv7nNnpjsGKZYCfIO_-PHuVkONCckHGpWlBi0O156POHt7kuHFWtsItDMaV3UsS9S9ZVgtm2X32Pairkpa5kIpDvhg8oowOGDH-zTfD1VoEJbSTrBlBBfSy8ZSdrF13ZdshM7nG8K6wszDiR1",
+              "title": "google.com",
+              "start_index": 582,
+              "end_index": 646
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGf_GKeD6FGT1o_QdoGbcPJ160uhIAbzpcLgz-ARQhbhBnBit1T6bQr_owxJaVKa0sBv8tyCuJuUMMUQsQ8sJK7yBbkTNewYGRnhFXWw6oAxbYiiNkGzqA1d0s-xRvAaSK10rygpqZDm6TcfJ8TqmvbZEU=",
+              "title": "google.com",
+              "start_index": 700,
+              "end_index": 958
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHkptJLbLGfLh1KxO2e4sVNq4Yi6r-lFvx9N2CcxbH6-0Bc5sy53GrvnjJR1tyY092SSwsbi-3-PaugBszlc-Q0nmtJTbVnwE4DQj5uAhIdLNBzlS58JioFTuSyirtbvqMUGYlhvKxXMZqiF7E",
+              "title": "google.com",
+              "start_index": 700,
+              "end_index": 958
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYv7nNnpjsGKZYCfIO_-PHuVkONCckHGpWlBi0O156POHt7kuHFWtsItDMaV3UsS9S9ZVgtm2X32Pairkpa5kIpDvhg8oowOGDH-zTfD1VoEJbSTrBlBBfSy8ZSdrF13ZdshM7nG8K6wszDiR1",
+              "title": "google.com",
+              "start_index": 1048,
+              "end_index": 1183
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKXRR5VeHRJiS_3wuq0QGCsQYmeMtfj-MBr-UyedU4Hwy14HM_U18Os0MznAwSfEDsTPs8xNYob-4l30Ff7WLOityKjWBDcTWJHH1zLHzHCLlQ0U_YQA-7oZH6XWr4wysSjHC3DlDCjJ1lu-04dCdVfTStTivMBSBbgE0X1F6t-Uz8ZNTlwfqQBAFOphXt1I_-1B4qYHOKKQE_vOSAngMraxzxf94ZrmhnciYx41v4Nh8Cv8tDaA4VDu-v-TGaoU1XM1pHzjYJtvYdXKV8ADlUlg==",
+              "title": "google.com",
+              "start_index": 1185,
+              "end_index": 1329
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKXRR5VeHRJiS_3wuq0QGCsQYmeMtfj-MBr-UyedU4Hwy14HM_U18Os0MznAwSfEDsTPs8xNYob-4l30Ff7WLOityKjWBDcTWJHH1zLHzHCLlQ0U_YQA-7oZH6XWr4wysSjHC3DlDCjJ1lu-04dCdVfTStTivMBSBbgE0X1F6t-Uz8ZNTlwfqQBAFOphXt1I_-1B4qYHOKKQE_vOSAngMraxzxf94ZrmhnciYx41v4Nh8Cv8tDaA4VDu-v-TGaoU1XM1pHzjYJtvYdXKV8ADlUlg==",
+              "title": "google.com",
+              "start_index": 1185,
+              "end_index": 1329
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYv7nNnpjsGKZYCfIO_-PHuVkONCckHGpWlBi0O156POHt7kuHFWtsItDMaV3UsS9S9ZVgtm2X32Pairkpa5kIpDvhg8oowOGDH-zTfD1VoEJbSTrBlBBfSy8ZSdrF13ZdshM7nG8K6wszDiR1",
+              "title": "google.com",
+              "start_index": 1331,
+              "end_index": 1429
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKXRR5VeHRJiS_3wuq0QGCsQYmeMtfj-MBr-UyedU4Hwy14HM_U18Os0MznAwSfEDsTPs8xNYob-4l30Ff7WLOityKjWBDcTWJHH1zLHzHCLlQ0U_YQA-7oZH6XWr4wysSjHC3DlDCjJ1lu-04dCdVfTStTivMBSBbgE0X1F6t-Uz8ZNTlwfqQBAFOphXt1I_-1B4qYHOKKQE_vOSAngMraxzxf94ZrmhnciYx41v4Nh8Cv8tDaA4VDu-v-TGaoU1XM1pHzjYJtvYdXKV8ADlUlg==",
+              "title": "google.com",
+              "start_index": 1331,
+              "end_index": 1429
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdKKWrJ1Tr0wr3Ml1Sl_oJaTBawrHF8V5xCUwBmC-za0p8voYkMlaM_NN8iz5u3BxYxQUXIUEPzUjsueH3AOdhdjHdCETQz5d1B-troinUTbcpfcVkR_6nIepVsso4eIRlhazZccGsIQFJSX4DYsOKD77dmDIUWkL9Bq3w20UAmf0PfOt4CJE5l7_h_u80ojoQvsfAow==",
+              "title": "google.com",
+              "start_index": 1520,
+              "end_index": 1684
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHz36XMHbh90vGvm9cuqUMfp06qks8SotMLQDAQPyLhpC9BI5HKkyloPTzB6jkd1o-Kip8jVkPWZmRSTOE5-cix0sJLHEaos2A677bBECNh5834WploHExaN1EJqcifT7LaMTZ_JNL58mOWiq6hz-42iuRvUXJFDaLHQYfsD-3W2AQ5nm455HqovfM7X3-mRmVRZsrktwktEDNzXfOTrhbuh4pWUG9jW7t7xnDEPioE",
+              "title": "google.com",
+              "start_index": 1686,
+              "end_index": 1777
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELxU4_a1g_iAiBjKjqAIcmiOH84c5CXM1qMGNSzjlBptRYDPQdZNJav985tuMBV-fyNzIlKEWWAez3XCl0W3pVZ0Z2r9UhwAObwAmVQP8UB-0cf3lx1i-2kmeM8iX_VTldy-TFBpSABe651w==",
+              "title": "google.com",
+              "start_index": 1847,
+              "end_index": 1999
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGN4QwIIIHOuRYCzKVU0UvGWA_P99CJQ4fvNHSShdN0WIE8Kh_cglnjiO8mJCVLnGG8B_k4md3PyJGKIaO8R7ZUg6F-GI8iiN-Z4oqXQYwH-Qov4LtV8qKzAO1t7HcoBUUsCwp4zmXZzdg0DzuJxVIPehs1COPGf7fTvACVZNm4T91S06lAkY39e5JzwMq1KdvHNTe4S-gJpEd5xEcXaF4=",
+              "title": "google.com",
+              "start_index": 1847,
+              "end_index": 1999
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNY_KevXOI8KkJZmpi3Qf-2qm-2wMGm3C3y9hLwo3M2w-4wDQ1IY541Sj3_4Lkbz-QZ3fAGTktAVfhIn0pItHDbbmvsPgIgjcKzISDAZSL7c5jBzfWO23VgGO85c2LxE7NZjY5xhaFiNPmhdRck47D2qqbH1oG6HoEVeBC8lWgeKkf54R5iNMRJStwIopcX2HbyLxamFjOYVuinxfPUA==",
+              "title": "google.com",
+              "start_index": 2052,
+              "end_index": 2300
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNY_KevXOI8KkJZmpi3Qf-2qm-2wMGm3C3y9hLwo3M2w-4wDQ1IY541Sj3_4Lkbz-QZ3fAGTktAVfhIn0pItHDbbmvsPgIgjcKzISDAZSL7c5jBzfWO23VgGO85c2LxE7NZjY5xhaFiNPmhdRck47D2qqbH1oG6HoEVeBC8lWgeKkf54R5iNMRJStwIopcX2HbyLxamFjOYVuinxfPUA==",
+              "title": "google.com",
+              "start_index": 2052,
+              "end_index": 2300
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELxU4_a1g_iAiBjKjqAIcmiOH84c5CXM1qMGNSzjlBptRYDPQdZNJav985tuMBV-fyNzIlKEWWAez3XCl0W3pVZ0Z2r9UhwAObwAmVQP8UB-0cf3lx1i-2kmeM8iX_VTldy-TFBpSABe651w==",
+              "title": "google.com",
+              "start_index": 2052,
+              "end_index": 2300
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHz36XMHbh90vGvm9cuqUMfp06qks8SotMLQDAQPyLhpC9BI5HKkyloPTzB6jkd1o-Kip8jVkPWZmRSTOE5-cix0sJLHEaos2A677bBECNh5834WploHExaN1EJqcifT7LaMTZ_JNL58mOWiq6hz-42iuRvUXJFDaLHQYfsD-3W2AQ5nm455HqovfM7X3-mRmVRZsrktwktEDNzXfOTrhbuh4pWUG9jW7t7xnDEPioE",
+              "title": "google.com",
+              "start_index": 2368,
+              "end_index": 2423
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuamUuLMm44dkIF1ev_U67nKS9q8oqPpcYfj1YV1Pbxvg5MxyfWKNsZMDlhm3rvaOT846jpCGyI4etV26ikPzWhS278Ey0RPEfu1z8iSAQs7t8ThxqqpPT8NMFCNyBeUVb",
+              "title": "youtube.com",
+              "start_index": 2556,
+              "end_index": 2638
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUUtWW-cIY8KOFPGd0DheR8AjJ9acpwhOSyHZzIxOWXLsSZnjwfjVzA6QG1vai6ZFiywroEt_NkYGBt14rTdPQx4O1sXRrAZVpOpqZgpwXjwDYx5RBzXEQUfNuwr9sRVldrKGlD3Ojwo8J2N19vvReu2BZsVTRIbwV",
+              "title": "google.com",
+              "start_index": 2556,
+              "end_index": 2638
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaysX2QkaTpTcT1Ap-2y16aWYYyAZ7ZptLE63VDle3Eq2RHn5DZCVJBsFcQ0UGldNvrDvMVswIlY3A5sVTAnVpUPSImd-kl8r8Gkezlk-iOoDGOHGkSFQUIEtLGZR0cS0gMMiY3q5hA_E_D_KvhKaQ8gIfWFArgE9l4yztliJdhXH3wxu-HVamrA4b6-G8IHtecf6t6Fl_CEvMuQI307IP",
+              "title": "google.com",
+              "start_index": 2556,
+              "end_index": 2638
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHz36XMHbh90vGvm9cuqUMfp06qks8SotMLQDAQPyLhpC9BI5HKkyloPTzB6jkd1o-Kip8jVkPWZmRSTOE5-cix0sJLHEaos2A677bBECNh5834WploHExaN1EJqcifT7LaMTZ_JNL58mOWiq6hz-42iuRvUXJFDaLHQYfsD-3W2AQ5nm455HqovfM7X3-mRmVRZsrktwktEDNzXfOTrhbuh4pWUG9jW7t7xnDEPioE",
+              "title": "google.com",
+              "start_index": 2644,
+              "end_index": 2714
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdKKWrJ1Tr0wr3Ml1Sl_oJaTBawrHF8V5xCUwBmC-za0p8voYkMlaM_NN8iz5u3BxYxQUXIUEPzUjsueH3AOdhdjHdCETQz5d1B-troinUTbcpfcVkR_6nIepVsso4eIRlhazZccGsIQFJSX4DYsOKD77dmDIUWkL9Bq3w20UAmf0PfOt4CJE5l7_h_u80ojoQvsfAow==",
+              "title": "google.com",
+              "start_index": 2644,
+              "end_index": 2714
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFe77L18SaUw8lDrcM6N_AAZnKypWfLTnbILwKvgj9liqEt7Hyi9T2JYw9BN33UyrHb_c5zwtmVA2iPykC-92HEk9hSP0dYHE_4WfyAniymmhp15Taj_B6LWE7dCp-eeG24z9-GrYxiIkH9jWY_nw==",
+              "title": "google.com",
+              "start_index": 2720,
+              "end_index": 2767
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFe77L18SaUw8lDrcM6N_AAZnKypWfLTnbILwKvgj9liqEt7Hyi9T2JYw9BN33UyrHb_c5zwtmVA2iPykC-92HEk9hSP0dYHE_4WfyAniymmhp15Taj_B6LWE7dCp-eeG24z9-GrYxiIkH9jWY_nw==",
+              "title": "google.com",
+              "start_index": 2773,
+              "end_index": 2926
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHz36XMHbh90vGvm9cuqUMfp06qks8SotMLQDAQPyLhpC9BI5HKkyloPTzB6jkd1o-Kip8jVkPWZmRSTOE5-cix0sJLHEaos2A677bBECNh5834WploHExaN1EJqcifT7LaMTZ_JNL58mOWiq6hz-42iuRvUXJFDaLHQYfsD-3W2AQ5nm455HqovfM7X3-mRmVRZsrktwktEDNzXfOTrhbuh4pWUG9jW7t7xnDEPioE",
+              "title": "google.com",
+              "start_index": 2773,
+              "end_index": 2926
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNY_KevXOI8KkJZmpi3Qf-2qm-2wMGm3C3y9hLwo3M2w-4wDQ1IY541Sj3_4Lkbz-QZ3fAGTktAVfhIn0pItHDbbmvsPgIgjcKzISDAZSL7c5jBzfWO23VgGO85c2LxE7NZjY5xhaFiNPmhdRck47D2qqbH1oG6HoEVeBC8lWgeKkf54R5iNMRJStwIopcX2HbyLxamFjOYVuinxfPUA==",
+              "title": "google.com",
+              "start_index": 2976,
+              "end_index": 3262
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEu9uL2qMPHXRVkDvNSsthxyWEHkeBLItsdON97lBtEzJP1b4TzeQiFvyOJ0ptUxyg0vJUW2EfTF2qCWMdGfFW-ZsdHAssykH6uGiSg1sJ3mC7Il1gYqozc04ywexpxFjc8dJ9JZvyBgEGeLTvNwz5p04P5LKb37Z69g5QJJeqpwrkg50zbNRuH1Qeglm1OQfxLV7EargIGuj6NNC4=",
+              "title": "blog.google",
+              "start_index": 2976,
+              "end_index": 3262
+            },
+            {
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQ6IKaEK6leD_HQA6zhoK4YhdN7_34_pEVXaPA9kOn-sLKBGYN2CuJ88mjloKqYzZTXKyyaFSUB6DT-4TN5o3-hCtH6f_kg3qOnho7LZeEMu0SUvY6HKGG0FimxMkxW8iXAz9ikdrm5GCp-IY-5KtfzpfXt0pSqQafU44ii1ZmJHNJmjIE4vFaxctpmwzpf3Cc1GfdhjkUO9j_s_3EG-5nJykhHpJLUvw8YQUuJ2b8",
+              "title": "google.com",
+              "start_index": 2976,
+              "end_index": 3262
+            }
+          ]
+        }
+      ],
+      "model": "gemini-3.8-flash",
+      "identity": {
+        "name": "Gemini",
+        "endpoint": "gemini.google.com"
+      }
+    }
+  },
+  "checkpoint_kind": "governance-research-v1"
+}
