@@ -1,0 +1,20 @@
+{
+  "company": "NovaTech",
+  "question": "How many Finance users use Salesforce?",
+  "applied_filters": {},
+  "mode": "offline_evidence",
+  "answer": "Distinct user counts across applications and department-specific user counts cannot be calculated from these application summaries. They require scoped employee-level activity; whole-application recorded counts are not interchangeable.",
+  "total_matches": null,
+  "hits": [],
+  "matching_application_ids": [],
+  "answer_status": "abstained",
+  "count_scope": "Not computed for unsupported questions.",
+  "sources": [
+    {
+      "company": "NovaTech",
+      "path": "novatech_component4_v2.json",
+      "sha256": "9528ccefd2d4b1878d15f364e90f4bfbfef788f50fc5bf1242cde697ab8dd251"
+    }
+  ],
+  "caveat": "Report evidence and predictions are not independently verified. Citation validation does not establish factual correctness."
+}

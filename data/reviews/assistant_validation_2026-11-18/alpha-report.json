@@ -1,0 +1,282 @@
+{
+  "fixture": true,
+  "note": "Fictional QA contract fixtures, not real enterprise/vendor facts or risk-rule benchmarks.",
+  "results": [
+    {
+      "application_id": "fixture_ledgerlens",
+      "application_name": "LedgerLens",
+      "endpoint": "ledgerlens.example",
+      "is_ai_tool": true,
+      "decision_source": "fictional_fixture",
+      "observed_identity": {
+        "event_count": 12,
+        "unique_employee_count": 5,
+        "departments": [
+          "Finance"
+        ],
+        "events_missing_employee_id": 0
+      },
+      "categorization": {
+        "category": "Data And Analytics",
+        "category_source": "model",
+        "category_status": "provisional"
+      },
+      "governance": {
+        "company": "EvalCo Alpha",
+        "risk_score": 35,
+        "risk_level": "medium",
+        "evidence": {
+          "approved_status": {
+            "value": null,
+            "provenance": "unknown",
+            "source": "Fictional QA fixture; not a vendor claim",
+            "company": "EvalCo Alpha"
+          },
+          "sso_available": {
+            "value": false,
+            "provenance": "synthetic",
+            "source": "Fictional QA fixture; not a vendor claim"
+          },
+          "training_on_customer_data": {
+            "value": null,
+            "provenance": "unknown",
+            "source": "Fictional QA fixture; not a vendor claim",
+            "reason": "conflicting_catalog_values",
+            "sources": [
+              "fixture-A",
+              "fixture-B"
+            ]
+          }
+        },
+        "checks": [
+          {
+            "rule": "no_sso",
+            "status": "triggered"
+          },
+          {
+            "rule": "customer_data_training",
+            "status": "unknown"
+          }
+        ],
+        "activity_provenance": "synthetic",
+        "contains_synthetic_evidence": true,
+        "assessment_basis": "test_fixture",
+        "assessment_status": "incomplete",
+        "needs_review": true,
+        "missing_evidence_rules": [
+          "customer_data_training"
+        ],
+        "reasons": [
+          {
+            "rule": "fixture_priority",
+            "points": 35,
+            "explanation": "Fictional precomputed QA priority, not a risk-engine correctness test."
+          }
+        ],
+        "data_quality_warnings": [
+          "Purpose suggestion requires review."
+        ]
+      }
+    },
+    {
+      "application_id": "fixture_codeharbor",
+      "application_name": "CodeHarbor",
+      "endpoint": "codeharbor.example",
+      "is_ai_tool": true,
+      "decision_source": "fictional_fixture",
+      "observed_identity": {
+        "event_count": 12,
+        "unique_employee_count": 5,
+        "departments": [
+          "Engineering",
+          "Finance"
+        ],
+        "events_missing_employee_id": 0
+      },
+      "categorization": {
+        "category": "Data And Analytics",
+        "category_source": "model",
+        "category_status": "provisional"
+      },
+      "governance": {
+        "company": "EvalCo Alpha",
+        "risk_score": 60,
+        "risk_level": "high",
+        "evidence": {
+          "approved_status": {
+            "value": "unapproved",
+            "provenance": "synthetic",
+            "source": "Fictional QA fixture; not a vendor claim",
+            "company": "EvalCo Alpha"
+          },
+          "sso_available": {
+            "value": false,
+            "provenance": "synthetic",
+            "source": "Fictional QA fixture; not a vendor claim"
+          },
+          "training_on_customer_data": {
+            "value": false,
+            "provenance": "synthetic",
+            "source": "Fictional QA fixture; not a vendor claim"
+          }
+        },
+        "checks": [
+          {
+            "rule": "no_sso",
+            "status": "triggered"
+          },
+          {
+            "rule": "customer_data_training",
+            "status": "not_triggered"
+          }
+        ],
+        "activity_provenance": "synthetic",
+        "contains_synthetic_evidence": true,
+        "assessment_basis": "test_fixture",
+        "assessment_status": "complete",
+        "needs_review": true,
+        "missing_evidence_rules": [],
+        "reasons": [
+          {
+            "rule": "fixture_priority",
+            "points": 60,
+            "explanation": "Fictional precomputed QA priority, not a risk-engine correctness test."
+          }
+        ],
+        "data_quality_warnings": [
+          "Purpose suggestion requires review."
+        ]
+      }
+    },
+    {
+      "application_id": "fixture_plainstore",
+      "application_name": "PlainStore",
+      "endpoint": "plainstore.example",
+      "is_ai_tool": false,
+      "decision_source": "fictional_fixture",
+      "observed_identity": {
+        "event_count": 12,
+        "unique_employee_count": 5,
+        "departments": [
+          "Operations"
+        ],
+        "events_missing_employee_id": 0
+      },
+      "categorization": {
+        "category": null,
+        "category_source": null,
+        "category_status": "not_applicable"
+      },
+      "governance": {
+        "company": "EvalCo Alpha",
+        "risk_score": 5,
+        "risk_level": "low",
+        "evidence": {
+          "approved_status": {
+            "value": "approved",
+            "provenance": "synthetic",
+            "source": "Fictional QA fixture; not a vendor claim",
+            "company": "EvalCo Alpha"
+          },
+          "sso_available": {
+            "value": true,
+            "provenance": "synthetic",
+            "source": "Fictional QA fixture; not a vendor claim"
+          },
+          "training_on_customer_data": {
+            "value": null,
+            "provenance": "unknown",
+            "source": "Fictional QA fixture; not a vendor claim"
+          }
+        },
+        "checks": [
+          {
+            "rule": "no_sso",
+            "status": "not_triggered"
+          },
+          {
+            "rule": "customer_data_training",
+            "status": "not_applicable"
+          }
+        ],
+        "activity_provenance": "synthetic",
+        "contains_synthetic_evidence": true,
+        "assessment_basis": "test_fixture",
+        "assessment_status": "incomplete",
+        "needs_review": true,
+        "missing_evidence_rules": [],
+        "reasons": [
+          {
+            "rule": "fixture_priority",
+            "points": 5,
+            "explanation": "Fictional precomputed QA priority, not a risk-engine correctness test."
+          }
+        ],
+        "data_quality_warnings": []
+      }
+    },
+    {
+      "application_id": "fixture_pendingbox",
+      "application_name": "PendingBox",
+      "endpoint": "pendingbox.example",
+      "is_ai_tool": null,
+      "decision_source": "fictional_fixture",
+      "observed_identity": {
+        "event_count": null,
+        "unique_employee_count": null,
+        "departments": [
+          "Finance"
+        ],
+        "events_missing_employee_id": 2
+      },
+      "categorization": {
+        "category": null,
+        "category_source": null,
+        "category_status": "not_applicable"
+      },
+      "governance": {
+        "company": "EvalCo Alpha",
+        "risk_score": null,
+        "risk_level": "unknown",
+        "evidence": {
+          "approved_status": {
+            "value": null,
+            "provenance": "unknown",
+            "source": "Fictional QA fixture; not a vendor claim",
+            "company": "EvalCo Alpha"
+          },
+          "sso_available": {
+            "value": null,
+            "provenance": "unknown",
+            "source": "Fictional QA fixture; not a vendor claim"
+          },
+          "training_on_customer_data": {
+            "value": null,
+            "provenance": "unknown",
+            "source": "Fictional QA fixture; not a vendor claim"
+          }
+        },
+        "checks": [
+          {
+            "rule": "no_sso",
+            "status": "unknown"
+          },
+          {
+            "rule": "customer_data_training",
+            "status": "pending_ai_detection"
+          }
+        ],
+        "activity_provenance": "synthetic",
+        "contains_synthetic_evidence": true,
+        "assessment_basis": "test_fixture",
+        "assessment_status": "incomplete",
+        "needs_review": true,
+        "missing_evidence_rules": [
+          "customer_data_training"
+        ],
+        "reasons": [],
+        "data_quality_warnings": []
+      }
+    }
+  ]
+}

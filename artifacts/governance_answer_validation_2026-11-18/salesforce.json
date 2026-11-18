@@ -1,0 +1,242 @@
+{
+  "company": "NovaTech",
+  "question": "Why was Salesforce flagged?",
+  "applied_filters": {
+    "application": "Salesforce"
+  },
+  "mode": "offline_evidence",
+  "answer": "Recorded evidence for NovaTech (semantic relevance; not a complete list):\n[ev_2fc10573302778bfdf7f] Salesforce (salesforce.com): conventional; priority high (60); approval unapproved; departments Customer Support, Engineering, Finance, HR, Marketing, Sales; 317 recorded users across all application departments. Reasons: Explicitly unapproved in this company scenario. SSO unavailable in supplied metadata. Retention exceeds the configured review threshold. Activity comes from a potentially sensitive business function; content sensitivity is not observed. Broad adoption increases the scope of governance review. Includes fictional scenario/activity evidence. Supplied controls: admin_controls_available=True (synthetic), approved_status=unapproved (synthetic), data_retention=indefinite (synthetic), enterprise_plan_available=True (synthetic), sso_available=False (synthetic), training_on_customer_data=False (synthetic).\nSemantic similarity is relevance, not identity verification, prediction confidence or breach probability. Only the displayed filters restrict the results.",
+  "total_matches": 1,
+  "hits": [
+    {
+      "evidence_id": "ev_2fc10573302778bfdf7f",
+      "facts": {
+        "activity_provenance": "synthetic",
+        "ai_status": "non_ai",
+        "application_id": "app_96a58c1e329dc62b90c833b30aa8824c7c6d8ac9e6816c7c1707e2fbe7a5a3bf",
+        "application_name": "Salesforce",
+        "approval": "unapproved",
+        "assessment_basis": "prototype",
+        "assessment_status": "complete",
+        "category": null,
+        "category_source": null,
+        "category_status": "not_applicable",
+        "caveat": "Prototype assessment using explicitly labeled synthetic and sourced inputs. Missing evidence is not safety; scores are not real-world security guarantees.",
+        "checks": [
+          {
+            "evidence_provenance": "synthetic",
+            "partial_evidence": false,
+            "points": 25,
+            "rule": "unapproved",
+            "status": "triggered"
+          },
+          {
+            "evidence_provenance": "synthetic",
+            "partial_evidence": false,
+            "points": 10,
+            "rule": "no_sso",
+            "status": "triggered"
+          },
+          {
+            "evidence_provenance": "synthetic",
+            "partial_evidence": false,
+            "points": 0,
+            "rule": "customer_data_training",
+            "status": "not_applicable"
+          },
+          {
+            "evidence_provenance": "synthetic",
+            "partial_evidence": false,
+            "points": 10,
+            "rule": "long_retention",
+            "status": "triggered"
+          },
+          {
+            "evidence_provenance": "synthetic",
+            "partial_evidence": false,
+            "points": 0,
+            "rule": "no_admin_controls",
+            "status": "not_triggered"
+          },
+          {
+            "evidence_provenance": "synthetic",
+            "partial_evidence": false,
+            "points": 0,
+            "rule": "no_enterprise_plan",
+            "status": "not_triggered"
+          },
+          {
+            "evidence_provenance": "synthetic",
+            "partial_evidence": false,
+            "points": 10,
+            "rule": "sensitive_department",
+            "status": "triggered"
+          },
+          {
+            "evidence_provenance": "synthetic",
+            "partial_evidence": false,
+            "points": 0,
+            "rule": "large_upload",
+            "status": "not_triggered"
+          },
+          {
+            "evidence_provenance": "synthetic",
+            "partial_evidence": false,
+            "points": 0,
+            "rule": "large_download",
+            "status": "not_triggered"
+          },
+          {
+            "evidence_provenance": "synthetic",
+            "partial_evidence": false,
+            "points": 5,
+            "rule": "broad_adoption",
+            "status": "triggered"
+          }
+        ],
+        "company": "NovaTech",
+        "contains_synthetic_evidence": true,
+        "controls": {
+          "admin_controls_available": {
+            "provenance": "synthetic",
+            "row": 489,
+            "source": "data\\processed\\final\\dataset_b_final_kaggle_categories.csv",
+            "source_sha256": "82538f385e2256c877736c8b1857b80a9ad52f9188a3c8bc215bd6c15ce503c4",
+            "value": true
+          },
+          "approved_status": {
+            "company": "NovaTech",
+            "provenance": "synthetic",
+            "row": 489,
+            "source": "data\\processed\\final\\dataset_b_final_kaggle_categories.csv",
+            "source_sha256": "82538f385e2256c877736c8b1857b80a9ad52f9188a3c8bc215bd6c15ce503c4",
+            "value": "unapproved"
+          },
+          "data_retention": {
+            "provenance": "synthetic",
+            "row": 489,
+            "source": "data\\processed\\final\\dataset_b_final_kaggle_categories.csv",
+            "source_sha256": "82538f385e2256c877736c8b1857b80a9ad52f9188a3c8bc215bd6c15ce503c4",
+            "value": "indefinite"
+          },
+          "enterprise_plan_available": {
+            "provenance": "synthetic",
+            "row": 489,
+            "source": "data\\processed\\final\\dataset_b_final_kaggle_categories.csv",
+            "source_sha256": "82538f385e2256c877736c8b1857b80a9ad52f9188a3c8bc215bd6c15ce503c4",
+            "value": true
+          },
+          "sso_available": {
+            "provenance": "synthetic",
+            "row": 489,
+            "source": "data\\processed\\final\\dataset_b_final_kaggle_categories.csv",
+            "source_sha256": "82538f385e2256c877736c8b1857b80a9ad52f9188a3c8bc215bd6c15ce503c4",
+            "value": false
+          },
+          "training_on_customer_data": {
+            "provenance": "synthetic",
+            "row": 489,
+            "source": "data\\processed\\final\\dataset_b_final_kaggle_categories.csv",
+            "source_sha256": "82538f385e2256c877736c8b1857b80a9ad52f9188a3c8bc215bd6c15ce503c4",
+            "value": false
+          }
+        },
+        "data_quality_warnings": [],
+        "departments": [
+          "Customer Support",
+          "Engineering",
+          "Finance",
+          "HR",
+          "Marketing",
+          "Sales"
+        ],
+        "detection_source": "catalog",
+        "endpoint": "salesforce.com",
+        "events": 952,
+        "missing_evidence_rules": [],
+        "needs_review": true,
+        "policy_version": "demo-1.0",
+        "reasons": [
+          {
+            "evidence": {
+              "approved_status": "unapproved"
+            },
+            "evidence_provenance": "synthetic",
+            "explanation": "Explicitly unapproved in this company scenario.",
+            "points": 25,
+            "rule": "unapproved",
+            "source": "data\\processed\\final\\dataset_b_final_kaggle_categories.csv"
+          },
+          {
+            "evidence": {
+              "sso_available": false
+            },
+            "evidence_provenance": "synthetic",
+            "explanation": "SSO unavailable in supplied metadata.",
+            "points": 10,
+            "rule": "no_sso",
+            "source": "data\\processed\\final\\dataset_b_final_kaggle_categories.csv"
+          },
+          {
+            "evidence": {
+              "data_retention": "indefinite",
+              "threshold_days": 90
+            },
+            "evidence_provenance": "synthetic",
+            "explanation": "Retention exceeds the configured review threshold.",
+            "points": 10,
+            "rule": "long_retention",
+            "source": "data\\processed\\final\\dataset_b_final_kaggle_categories.csv"
+          },
+          {
+            "evidence": {
+              "departments": [
+                "finance",
+                "hr"
+              ]
+            },
+            "evidence_provenance": "synthetic",
+            "explanation": "Activity comes from a potentially sensitive business function; content sensitivity is not observed.",
+            "points": 10,
+            "rule": "sensitive_department"
+          },
+          {
+            "evidence": {
+              "threshold": 50,
+              "unique_users": 317
+            },
+            "evidence_provenance": "synthetic",
+            "explanation": "Broad adoption increases the scope of governance review.",
+            "points": 5,
+            "rule": "broad_adoption"
+          }
+        ],
+        "risk_level": "high",
+        "risk_score": 60,
+        "unique_users": 317,
+        "user_count_incomplete": false,
+        "user_count_scope": "Whole application across all departments, not a department-specific count"
+      },
+      "source": {
+        "file": "novatech_component4_v2.json",
+        "json_pointer": "/results/16",
+        "report_sha256": "9528ccefd2d4b1878d15f364e90f4bfbfef788f50fc5bf1242cde697ab8dd251"
+      },
+      "text": "Salesforce (salesforce.com). Company NovaTech. AI status non_ai. Purpose unknown. Departments Customer Support, Engineering, Finance, HR, Marketing, Sales. Governance priority high, score 60. Approval unapproved. Explicitly unapproved in this company scenario. SSO unavailable in supplied metadata. Retention exceeds the configured review threshold. Activity comes from a potentially sensitive business function; content sensitivity is not observed. Broad adoption increases the scope of governance review. Missing evidence: ",
+      "similarity": 0.36785006523132324
+    }
+  ],
+  "matching_application_ids": [
+    "app_96a58c1e329dc62b90c833b30aa8824c7c6d8ac9e6816c7c1707e2fbe7a5a3bf"
+  ],
+  "answer_status": "evidence_available",
+  "count_scope": "All applications matching explicit/inferred filters in one supplied company snapshot; user counts remain whole-application counts.",
+  "sources": [
+    {
+      "company": "NovaTech",
+      "path": "novatech_component4_v2.json",
+      "sha256": "9528ccefd2d4b1878d15f364e90f4bfbfef788f50fc5bf1242cde697ab8dd251"
+    }
+  ],
+  "caveat": "Report evidence and predictions are not independently verified. Citation validation does not establish factual correctness."
+}

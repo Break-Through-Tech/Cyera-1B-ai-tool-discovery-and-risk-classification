@@ -132,9 +132,9 @@ class RetrievalTests(unittest.TestCase):
             def generate_content(self,**kwargs):
                 self.calls+=1
                 return SimpleNamespace(text=json.dumps(self.payload))
-        client=Client({'claims':[{'text':'A recorded scenario concern.','evidence_ids':[identifier]}],'insufficient_evidence':False})
-        self.assertEqual(generate(result,'Why?',client,'fake-model')['claims'][0]['evidence_ids'],[identifier])
-        client=Client({'claims':[{'text':'Unsupported claim.','evidence_ids':['invented']}],'insufficient_evidence':False})
+        client=Client({'claims':[{'evidence_id':identifier,'field':'/approval','value':'unapproved'}],'insufficient_evidence':False})
+        self.assertEqual(generate(result,'Why?',client,'fake-model')['claims'][0]['evidence_id'],identifier)
+        client=Client({'claims':[{'evidence_id':'invented','field':'/approval','value':'approved'}],'insufficient_evidence':False})
         with self.assertRaisesRegex(ValueError,'citations'):generate(result,'Why?',client,'fake-model')
         counted=answer(self.index,'How many applications?','Company A',client=client,model='fake-model')
         self.assertEqual(client.calls,1);self.assertEqual(counted['total_matches'],2)

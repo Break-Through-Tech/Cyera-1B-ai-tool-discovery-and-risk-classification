@@ -17,6 +17,7 @@ flowchart LR
 ```
 
 - **Components 1–4:** Sadit's current operational workflow is `ai_discovery/run_pipeline.py`. Read [the pipeline guide](ai_discovery/PIPELINE_GUIDE.md) and [Component 4 contract](docs/component4_integration.md). The report preserves exact identities, accepted/rejected events, category provenance, governance evidence and missingness. Online discovery/research are separately enabled; they are not automatic defaults.
+- **Grounded answer validation:** [26 functional cases and strict fact selection](docs/answer_validation.md), including unknown scores, control predicates and abstention.
 - **Evidence search and analyst questions:** `ai_discovery/retrieval.py` and `ai_discovery/ask.py` consume saved Component 4 reports. They do not rerun paid discovery, retrain models or change scores. Read [the assistant guide](docs/governance_assistant.md).
 - **Earlier local-model backend:** `ai_discovery/report.py` and `pipeline.json` retain the November 11 experimental binary/category workflow. Its compatibility with current catalog code is restored, but it is not the latest operational Components 1–4 runner. Read [that historical release](docs/backend_release.md).
 
@@ -60,7 +61,7 @@ Default answers are local evidence summaries with citations, not LLM-generated p
 
 ## Validation and limitations
 
-The November 18 delivery passes **151 automated tests** in the local validation environment, including 14 new retrieval/answer tests. Six named-application search smoke queries returned the intended application first; this small developer-authored set is not a broad or independent retrieval benchmark. Live answer-quality evaluation is still needed.
+The November 18 delivery passes **160 automated tests** in the local validation environment, including 14 retrieval/answer checks and 9 additional grounding/QA checks. Six named-application search smoke queries returned the intended application first; this small developer-authored set is not a broad or independent retrieval benchmark. The 26 developer-authored functional cases also pass; this is not a general answer-accuracy benchmark. Live answer-quality evaluation is still needed.
 
 Model accuracy figures refer to specific datasets and contracts; do not present earlier 306-row category results as results of the newer full-Kaggle category pipeline. Source-assigned labels, provisional predictions and generated controls are not independently verified truth. Synthetic governance settings demonstrate the project workflow and are labeled; missing evidence never establishes safety.
 

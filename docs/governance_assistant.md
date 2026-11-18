@@ -1,5 +1,7 @@
 # Governance evidence retrieval and analyst questions
 
+**Current extension:** [answer validation and schema-2 indexes](answer_validation.md) supersedes the earlier generated-prose contract. Rebuild indexes with current code; optional generation now selects exact field/value facts rather than accepting free text. Unknown scores, control predicates and unsupported-question abstention are supported.
+
 This adds a report-search and analyst-question layer on top of Sadit's Component 4 reports. It does not change model training, AI decisions, categories, governance points or the paused dashboard.
 
 ## What runs
@@ -91,9 +93,7 @@ python -m ai_discovery.ask \
   --generate --api-model YOUR_SUPPORTED_MODEL_ID
 ```
 
-This sends the question and retrieved application/control facts to Gemini, may incur cost, and has a 60-second request timeout with automatic retries disabled. It does not send raw activity or employee identifiers. Deterministic count questions never invoke generation. The provider returns structured claims with evidence IDs. Missing or out-of-scope citation IDs are rejected; counts remain directly calculated, and generated text is a separately labeled draft.
-
-Citation validation does **not** prove that every generated claim is factually supported. Report text and questions are treated as untrusted data in the prompt, but that is not a guarantee against all prompt injection. Synthetic data, sourced research and verified evidence must remain distinguished. Live Gemini generation and human answer-quality evaluation remain unvalidated; simulated-client tests check schema/citation/error handling only.
+This sends the question and retrieved application/control facts to Gemini, may incur cost, and has a 60-second request timeout with automatic retries disabled. It does not send raw activity or employee identifiers. Deterministic count questions never invoke generation. The provider selects exact cited fields/values; application code validates equality and renders them with provenance. Invented values/prose are rejected. This does not establish source truth or question relevance. See [the current generation contract and limitations](answer_validation.md). Live Gemini generation and independent answer-quality evaluation remain unvalidated.
 
 ## Compatibility repair included
 
@@ -105,6 +105,6 @@ Build a broader independently reviewed question set with paraphrases, negative q
 
 Implementation references: [FAISS getting started](https://github.com/facebookresearch/faiss/wiki/Getting-started), [Google Gen AI SDK](https://googleapis.github.io/python-genai/).
 
-## Delivery validation
+## Initial retrieval delivery validation
 
 All **151 tests pass** in the local validation environment: 137 existing checks plus 14 new retrieval/answer checks. The new cases cover company isolation before top-k, full-snapshot counts, AI/approval filtering, numeric priority ranking, no-match behavior, source/index changes, duplicate/mixed company snapshots, approval scope, synthetic/provisional caveats, explicit-filter overrides, provider failures without retries and citation validation. `pip check` found no broken requirements. The installed Gemini SDK accepted the configured timeout and disabled retries in a no-request configuration check. No live generation, discovery or governance-research calls were made.

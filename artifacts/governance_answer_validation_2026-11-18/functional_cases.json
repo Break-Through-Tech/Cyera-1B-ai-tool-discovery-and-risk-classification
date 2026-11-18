@@ -1,0 +1,366 @@
+{
+  "cases": 26,
+  "passed": 26,
+  "results": [
+    {
+      "id": "all_apps",
+      "question": "How many applications?",
+      "passed": true,
+      "failures": [],
+      "answer_status": "evidence_available",
+      "count": 4,
+      "names": [
+        "LedgerLens",
+        "CodeHarbor",
+        "PlainStore",
+        "PendingBox"
+      ],
+      "applied_filters": {}
+    },
+    {
+      "id": "ai_paraphrase",
+      "question": "How many applications are AI?",
+      "passed": true,
+      "failures": [],
+      "answer_status": "evidence_available",
+      "count": 2,
+      "names": [
+        "LedgerLens",
+        "CodeHarbor"
+      ],
+      "applied_filters": {
+        "ai_status": "ai"
+      }
+    },
+    {
+      "id": "non_ai",
+      "question": "How many conventional applications?",
+      "passed": true,
+      "failures": [],
+      "answer_status": "evidence_available",
+      "count": 1,
+      "names": [
+        "PlainStore"
+      ],
+      "applied_filters": {
+        "ai_status": "non_ai"
+      }
+    },
+    {
+      "id": "unknown_ai",
+      "question": "How many unknown applications?",
+      "passed": true,
+      "failures": [],
+      "answer_status": "evidence_available",
+      "count": 1,
+      "names": [
+        "PendingBox"
+      ],
+      "applied_filters": {
+        "ai_status": "unknown"
+      }
+    },
+    {
+      "id": "high_priority",
+      "question": "How many high-priority applications?",
+      "passed": true,
+      "failures": [],
+      "answer_status": "evidence_available",
+      "count": 1,
+      "names": [
+        "CodeHarbor"
+      ],
+      "applied_filters": {
+        "risk_level": "high"
+      }
+    },
+    {
+      "id": "unknown_priority",
+      "question": "How many unknown-risk applications?",
+      "passed": true,
+      "failures": [],
+      "answer_status": "evidence_available",
+      "count": 1,
+      "names": [
+        "PendingBox"
+      ],
+      "applied_filters": {
+        "risk_level": "unknown"
+      }
+    },
+    {
+      "id": "approved",
+      "question": "How many approved applications?",
+      "passed": true,
+      "failures": [],
+      "answer_status": "evidence_available",
+      "count": 1,
+      "names": [
+        "PlainStore"
+      ],
+      "applied_filters": {
+        "approval": "approved"
+      }
+    },
+    {
+      "id": "unapproved",
+      "question": "How many unapproved applications?",
+      "passed": true,
+      "failures": [],
+      "answer_status": "evidence_available",
+      "count": 1,
+      "names": [
+        "CodeHarbor"
+      ],
+      "applied_filters": {
+        "approval": "unapproved"
+      }
+    },
+    {
+      "id": "unknown_approval",
+      "question": "How many applications?",
+      "passed": true,
+      "failures": [],
+      "answer_status": "evidence_available",
+      "count": 2,
+      "names": [
+        "LedgerLens",
+        "PendingBox"
+      ],
+      "applied_filters": {
+        "approval": "unknown"
+      }
+    },
+    {
+      "id": "no_sso",
+      "question": "Which applications do not support SSO?",
+      "passed": true,
+      "failures": [],
+      "answer_status": "evidence_available",
+      "count": 2,
+      "names": [
+        "LedgerLens",
+        "CodeHarbor"
+      ],
+      "applied_filters": {
+        "control_filters": {
+          "sso_available": false
+        }
+      }
+    },
+    {
+      "id": "no_sso_contraction",
+      "question": "Which applications don't support SSO?",
+      "passed": true,
+      "failures": [],
+      "answer_status": "evidence_available",
+      "count": 2,
+      "names": [
+        "LedgerLens",
+        "CodeHarbor"
+      ],
+      "applied_filters": {
+        "control_filters": {
+          "sso_available": false
+        }
+      }
+    },
+    {
+      "id": "has_sso",
+      "question": "Which applications have SSO?",
+      "passed": true,
+      "failures": [],
+      "answer_status": "evidence_available",
+      "count": 1,
+      "names": [
+        "PlainStore"
+      ],
+      "applied_filters": {
+        "control_filters": {
+          "sso_available": true
+        }
+      }
+    },
+    {
+      "id": "unknown_sso",
+      "question": "Which applications have unknown SSO?",
+      "passed": true,
+      "failures": [],
+      "answer_status": "evidence_available",
+      "count": 1,
+      "names": [
+        "PendingBox"
+      ],
+      "applied_filters": {
+        "control_filters": {
+          "sso_available": null
+        }
+      }
+    },
+    {
+      "id": "unknown_training",
+      "question": "How many applications?",
+      "passed": true,
+      "failures": [],
+      "answer_status": "evidence_available",
+      "count": 2,
+      "names": [
+        "LedgerLens",
+        "PendingBox"
+      ],
+      "applied_filters": {
+        "control_filters": {
+          "training_on_customer_data": null
+        }
+      }
+    },
+    {
+      "id": "training_false",
+      "question": "How many AI tools do not use customer data for training?",
+      "passed": true,
+      "failures": [],
+      "answer_status": "evidence_available",
+      "count": 1,
+      "names": [
+        "CodeHarbor"
+      ],
+      "applied_filters": {
+        "ai_status": "ai",
+        "control_filters": {
+          "training_on_customer_data": false
+        }
+      }
+    },
+    {
+      "id": "training_true",
+      "question": "How many AI tools use customer data for training?",
+      "passed": true,
+      "failures": [],
+      "answer_status": "no_matching_evidence",
+      "count": 0,
+      "names": [],
+      "applied_filters": {
+        "ai_status": "ai",
+        "control_filters": {
+          "training_on_customer_data": true
+        }
+      }
+    },
+    {
+      "id": "highest_priority",
+      "question": "What are the highest-risk applications?",
+      "passed": true,
+      "failures": [],
+      "answer_status": "evidence_available",
+      "count": 4,
+      "names": [
+        "CodeHarbor"
+      ],
+      "applied_filters": {}
+    },
+    {
+      "id": "named_evidence",
+      "question": "Why was LedgerLens flagged?",
+      "passed": true,
+      "failures": [],
+      "answer_status": "evidence_available",
+      "count": 1,
+      "names": [
+        "LedgerLens"
+      ],
+      "applied_filters": {
+        "application": "LedgerLens"
+      }
+    },
+    {
+      "id": "missing_identity",
+      "question": "Why was AbsentProduct flagged?",
+      "passed": true,
+      "failures": [],
+      "answer_status": "no_matching_evidence",
+      "count": 0,
+      "names": [],
+      "applied_filters": {
+        "application": "AbsentProduct"
+      }
+    },
+    {
+      "id": "company_boundary",
+      "question": "Explain CodeHarbor for EvalCo Beta",
+      "passed": true,
+      "failures": [],
+      "answer_status": "abstained",
+      "count": null,
+      "names": [],
+      "applied_filters": {}
+    },
+    {
+      "id": "safety_claim",
+      "question": "Is CodeHarbor safe?",
+      "passed": true,
+      "failures": [],
+      "answer_status": "abstained",
+      "count": null,
+      "names": [],
+      "applied_filters": {}
+    },
+    {
+      "id": "temporal_claim",
+      "question": "Which AI tools are growing fastest over time?",
+      "passed": true,
+      "failures": [],
+      "answer_status": "abstained",
+      "count": null,
+      "names": [],
+      "applied_filters": {}
+    },
+    {
+      "id": "department_users",
+      "question": "How many Finance users use CodeHarbor?",
+      "passed": true,
+      "failures": [],
+      "answer_status": "abstained",
+      "count": null,
+      "names": [],
+      "applied_filters": {}
+    },
+    {
+      "id": "cross_app_users",
+      "question": "How many unique users are there?",
+      "passed": true,
+      "failures": [],
+      "answer_status": "abstained",
+      "count": null,
+      "names": [],
+      "applied_filters": {}
+    },
+    {
+      "id": "ambiguous_approval",
+      "question": "How many applications are not approved?",
+      "passed": true,
+      "failures": [],
+      "answer_status": "abstained",
+      "count": null,
+      "names": [],
+      "applied_filters": {}
+    },
+    {
+      "id": "null_priority",
+      "question": "Why was PendingBox flagged?",
+      "passed": true,
+      "failures": [],
+      "answer_status": "evidence_available",
+      "count": 1,
+      "names": [
+        "PendingBox"
+      ],
+      "applied_filters": {
+        "application": "PendingBox"
+      }
+    }
+  ],
+  "fixture_file_sha256": "9788c02749910cc7c161c532f1bed26d5a197a86bd410d987e3962545f6a57b2",
+  "index_manifest_sha256": "ea5e27f2f22b3c296b2b8364286135adef900409343727125f069025f60f77a6",
+  "scope": "Developer-authored functional/abstention cases on fictional contract fixtures; not an independent answer-quality or vendor benchmark.",
+  "live_generation_evaluated": false
+}

@@ -3,8 +3,14 @@ import argparse
 import hashlib
 import json
 import math
+import os
 from pathlib import Path
 import tempfile
+
+# Small local indexes do not need nested BLAS/OpenMP thread pools. Apply before
+# lazy imports of FAISS/PyTorch; preserve an explicitly configured environment.
+os.environ.setdefault('OMP_NUM_THREADS','1')
+os.environ.setdefault('MKL_NUM_THREADS','1')
 
 ROOT=Path(__file__).resolve().parents[1]
 DEFAULT_ENCODER=ROOT/'artifacts/category_embeddings/encoder'
@@ -47,8 +53,10 @@ def documents(reports):
             label=row.get('is_ai_tool')
             if label is not None and not isinstance(label,bool):raise ValueError('AI status must be boolean or null')
             score=g.get('risk_score');level=g.get('risk_level')
-            if isinstance(score,bool) or not isinstance(score,(int,float)) or not math.isfinite(score) or not 0<=score<=100:raise ValueError('Invalid risk score')
-            if level not in ('low','medium','high'):raise ValueError('Invalid risk level')
+            if score is None:
+                if level!='unknown':raise ValueError('Missing score must have unknown risk level')
+            elif isinstance(score,bool) or not isinstance(score,(int,float)) or not math.isfinite(score) or not 0<=score<=100:raise ValueError('Invalid risk score')
+            elif level not in ('low','medium','high'):raise ValueError('Invalid risk level')
             controls=dict(g.get('evidence',{}));approval=controls.get('approved_status',{})
             approval_value=approval.get('value') if approval.get('company')==company else None
             if approval.get('value') is not None and approval.get('company')!=company:
@@ -60,8 +68,9 @@ def documents(reports):
                 category_source=row.get('categorization',{}).get('category_source'),
                 category_status=row.get('categorization',{}).get('category_status'),
                 departments=sorted(set(departments)),
-                unique_users=integer(observed.get('unique_employee_count',0),'user count'),
-                events=integer(observed.get('event_count',0),'event count'),
+                unique_users=integer(observed['unique_employee_count'],'user count') if observed.get('unique_employee_count') is not None else None,
+                events=integer(observed['event_count'],'event count') if observed.get('event_count') is not None else None,
+                user_count_incomplete=bool(observed.get('events_missing_employee_id')) or observed.get('unique_employee_count') is None,
                 user_count_scope='Whole application across all departments, not a department-specific count',
                 risk_score=score,risk_level=level,approval=approval_value,
                 assessment_status=g.get('assessment_status','unknown'),needs_review=g.get('needs_review',True),
@@ -69,7 +78,8 @@ def documents(reports):
                 contains_synthetic_evidence=g.get('contains_synthetic_evidence',False),
                 activity_provenance=g.get('activity_provenance','unknown'),
                 assessment_basis=g.get('assessment_basis','unknown'),policy_version=g.get('policy_version'),
-                controls=controls,reasons=g.get('reasons',[]),caveat=g.get('caveat',''))
+                controls=controls,reasons=g.get('reasons',[]),checks=g.get('checks',[]),
+                data_quality_warnings=g.get('data_quality_warnings',[]),caveat=g.get('caveat',''))
             # No raw enrichment instructions/HTML, individual users or event logs.
             text=(f"{name} ({endpoint}). Company {company}. AI status {facts['ai_status']}. "
                   f"Purpose {facts['category'] or 'unknown'}. Departments {', '.join(facts['departments'])}. "
@@ -107,7 +117,7 @@ def build(reports,out,encoder_path=DEFAULT_ENCODER,encoder=None):
     with tempfile.TemporaryDirectory(prefix='retrieval_',dir=out.parent) as temp:
         stage=Path(temp);(stage/'documents.json').write_text(dump(docs)+'\n',encoding='utf-8')
         faiss.write_index(index,str(stage/'vectors.faiss'))
-        manifest=dict(version=1,documents=len(docs),dimension=int(matrix.shape[1]),metric='cosine_via_normalized_inner_product',
+        manifest=dict(version=2,documents=len(docs),dimension=int(matrix.shape[1]),metric='cosine_via_normalized_inner_product',
             sources=sources,encoder_path=str(Path(encoder_path).resolve()),encoder_sha256=fingerprint,
             files_sha256={p.name:sha(p) for p in stage.iterdir()},faiss_version=faiss.__version__)
         (stage/'manifest.json').write_text(dump(manifest)+'\n',encoding='utf-8')
@@ -119,7 +129,7 @@ class EvidenceIndex:
     def __init__(self,path,encoder=None):
         import faiss
         self.path=Path(path);self.manifest=read(self.path/'manifest.json')
-        if self.manifest.get('version')!=1:raise ValueError('Unsupported retrieval schema')
+        if self.manifest.get('version')!=2:raise ValueError('Unsupported retrieval schema; rebuild the index with current code')
         for name in ('documents.json','vectors.faiss'):
             if sha(self.path/name)!=self.manifest['files_sha256'][name]:raise ValueError('Index bundle hash mismatch')
         for source in self.manifest['sources']:
@@ -131,10 +141,12 @@ class EvidenceIndex:
         if any((d['source']['report_sha256'],d['facts']['company']) not in source_keys for d in self.docs):raise ValueError('Document/source scope mismatch')
         self.encoder=encoder
 
-    def matching(self,company,department=None,ai_status=None,risk_level=None,approval=None,application=None):
+    def matching(self,company,department=None,ai_status=None,risk_level=None,approval=None,application=None,control_filters=None):
         if not company or not company.strip():raise ValueError('Company scope is required')
-        if ai_status not in (None,'ai','non_ai','unknown') or risk_level not in (None,'low','medium','high'):raise ValueError('Invalid status filter')
+        if ai_status not in (None,'ai','non_ai','unknown') or risk_level not in (None,'low','medium','high','unknown'):raise ValueError('Invalid status filter')
         if approval not in (None,'approved','unapproved','under_review','unknown'):raise ValueError('Invalid approval filter')
+        allowed_controls={'sso_available','training_on_customer_data','admin_controls_available','enterprise_plan_available','data_retention'}
+        if any(k not in allowed_controls for k in (control_filters or {})):raise ValueError('Unsupported control filter')
         matches=[]
         for i,doc in enumerate(self.docs):
             f=doc['facts']
@@ -143,6 +155,9 @@ class EvidenceIndex:
             if ai_status and f['ai_status']!=ai_status:continue
             if risk_level and f['risk_level']!=risk_level:continue
             if approval and (f['approval'] or 'unknown')!=approval:continue
+            rule_for={'sso_available':'no_sso','training_on_customer_data':'customer_data_training','admin_controls_available':'no_admin_controls','enterprise_plan_available':'no_enterprise_plan','data_retention':'long_retention'}
+            statuses={c['rule']:c['status'] for c in f.get('checks',[])}
+            if any(statuses.get(rule_for[k])=='not_applicable' or dump(f['controls'].get(k,{}).get('value'))!=dump(v) for k,v in (control_filters or {}).items()):continue
             if application and application.casefold() not in (f['application_name'].casefold(),f['endpoint'].casefold(),f['application_id'].casefold()):continue
             matches.append(i)
         return matches

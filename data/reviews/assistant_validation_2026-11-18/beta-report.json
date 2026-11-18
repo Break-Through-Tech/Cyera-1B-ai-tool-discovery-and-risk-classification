@@ -1,0 +1,75 @@
+{
+  "fixture": true,
+  "note": "Fictional QA contract fixtures, not real enterprise/vendor facts or risk-rule benchmarks.",
+  "results": [
+    {
+      "application_id": "fixture_codeharbor",
+      "application_name": "CodeHarbor",
+      "endpoint": "codeharbor.example",
+      "is_ai_tool": true,
+      "decision_source": "fictional_fixture",
+      "observed_identity": {
+        "event_count": 12,
+        "unique_employee_count": 5,
+        "departments": [
+          "Engineering"
+        ],
+        "events_missing_employee_id": 0
+      },
+      "categorization": {
+        "category": "Data And Analytics",
+        "category_source": "model",
+        "category_status": "provisional"
+      },
+      "governance": {
+        "company": "EvalCo Beta",
+        "risk_score": 10,
+        "risk_level": "low",
+        "evidence": {
+          "approved_status": {
+            "value": "approved",
+            "provenance": "synthetic",
+            "source": "Fictional QA fixture; not a vendor claim",
+            "company": "EvalCo Beta"
+          },
+          "sso_available": {
+            "value": true,
+            "provenance": "synthetic",
+            "source": "Fictional QA fixture; not a vendor claim"
+          },
+          "training_on_customer_data": {
+            "value": false,
+            "provenance": "synthetic",
+            "source": "Fictional QA fixture; not a vendor claim"
+          }
+        },
+        "checks": [
+          {
+            "rule": "no_sso",
+            "status": "not_triggered"
+          },
+          {
+            "rule": "customer_data_training",
+            "status": "not_triggered"
+          }
+        ],
+        "activity_provenance": "synthetic",
+        "contains_synthetic_evidence": true,
+        "assessment_basis": "test_fixture",
+        "assessment_status": "complete",
+        "needs_review": true,
+        "missing_evidence_rules": [],
+        "reasons": [
+          {
+            "rule": "fixture_priority",
+            "points": 10,
+            "explanation": "Fictional precomputed QA priority, not a risk-engine correctness test."
+          }
+        ],
+        "data_quality_warnings": [
+          "Purpose suggestion requires review."
+        ]
+      }
+    }
+  ]
+}
