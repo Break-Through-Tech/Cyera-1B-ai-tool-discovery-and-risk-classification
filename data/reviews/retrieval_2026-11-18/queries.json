@@ -1,0 +1,50 @@
+{
+  "report": "data/processed/pipeline_runs/novatech_component4_v2.json",
+  "report_sha256": "9528ccefd2d4b1878d15f364e90f4bfbfef788f50fc5bf1242cde697ab8dd251",
+  "company": "NovaTech",
+  "evaluation_scope": "Six developer-authored named-application smoke queries against one fictional report. Not independently reviewed, not a general retrieval benchmark, and not LLM answer-quality evaluation.",
+  "queries": [
+    {
+      "id": "salesforce",
+      "question": "Why was Salesforce flagged?",
+      "relevant_application_names": [
+        "Salesforce"
+      ]
+    },
+    {
+      "id": "slack",
+      "question": "What raised Slack governance priority?",
+      "relevant_application_names": [
+        "Slack"
+      ]
+    },
+    {
+      "id": "linkedin",
+      "question": "Explain the LinkedIn risk assessment.",
+      "relevant_application_names": [
+        "LinkedIn"
+      ]
+    },
+    {
+      "id": "zoom",
+      "question": "What controls are missing or under review for Zoom?",
+      "relevant_application_names": [
+        "Zoom"
+      ]
+    },
+    {
+      "id": "jira",
+      "question": "What governance concerns apply to Jira?",
+      "relevant_application_names": [
+        "Jira"
+      ]
+    },
+    {
+      "id": "grammarly",
+      "question": "Why is Grammarly marked for investigation?",
+      "relevant_application_names": [
+        "Grammarly"
+      ]
+    }
+  ]
+}

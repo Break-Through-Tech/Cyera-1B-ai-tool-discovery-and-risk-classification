@@ -25,3 +25,7 @@
 /models/category/
 
 **/__pycache__/
+
+# Local report search indexes (snapshots and derived vectors)
+/data/cache/governance_retrieval/
+*.faiss

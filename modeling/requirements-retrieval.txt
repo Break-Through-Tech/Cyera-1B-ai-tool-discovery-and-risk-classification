@@ -1,0 +1,3 @@
+-r requirements-pipeline.txt
+faiss-cpu==1.15.1
+# Optional --generate mode also needs google-genai from the team's root requirements.

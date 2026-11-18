@@ -870,3 +870,7 @@ No production acceptance threshold is set. Model predictions remain provisional.
 Human reviews resolve category questions; category review never changes the
 underlying AI-detection decision. Training and preparation remain separate from
 routine inference. Existing datasets and detection decisions are not rewritten.
+
+## November 18 extension: report retrieval and analyst questions
+
+Saved Component 4 reports can now be indexed locally with `python -m ai_discovery.retrieval` and queried with `python -m ai_discovery.ask`. Company scope is required; exact metadata filters are separate from semantic ranking. Default answers use report evidence and citations without paid calls. Optional Gemini drafting is explicitly enabled and not live-validated in this extension. This does not change Components 1–4 scores or predictions. See [the report-assistant guide](../docs/governance_assistant.md). The dashboard remains paused.
