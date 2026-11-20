@@ -1,6 +1,15 @@
 # Cyera — AI Tool Discovery & Risk Classification
 
-Investigate application usage at a fictional enterprise: identify AI tools, suggest their purpose, summarize usage, explain governance concerns, and retrieve the evidence behind findings. The dashboard remains paused.
+Investigate application usage at a fictional enterprise: identify AI tools, suggest their purpose, summarize usage, explain governance concerns, and retrieve the evidence behind findings. An offline dashboard now presents the saved findings and can analyze synthetic activity CSVs. Live Jev detection remains pending.
+
+## Try the dashboard
+
+```bash
+python -m pip install -r dashboard/requirements.txt
+python -m streamlit run dashboard/app.py
+```
+
+See the [dashboard recording guide](docs/dashboard_demo.md) for input requirements, a walkthrough, and the distinction between saved decisions and fresh activity analysis. No API key is needed for this offline demo.
 
 ## Current workflow
 
@@ -35,6 +44,7 @@ flowchart LR
 | `preprocessing_scripts/` | Data preparation, correction, enrichment and comparison utilities |
 | `data/` | Source data, prepared tables, review evidence and saved pipeline runs |
 | `artifacts/` | Historical model metrics/reports and small validation examples |
+| `dashboard/app.py`, `ai_discovery/dashboard_data.py` | Offline interface and adapter for current reports/activity |
 | `tests/` | Automated behavior and consistency checks |
 | `docs/`, `notebooks/` | Methods, limitations, history and exploratory analysis |
 
@@ -61,7 +71,7 @@ Default answers are local evidence summaries with citations, not LLM-generated p
 
 ## Validation and limitations
 
-The November 18 delivery passes **160 automated tests** in the local validation environment, including 14 retrieval/answer checks and 9 additional grounding/QA checks. Six named-application search smoke queries returned the intended application first; this small developer-authored set is not a broad or independent retrieval benchmark. The 26 developer-authored functional cases also pass; this is not a general answer-accuracy benchmark. Live answer-quality evaluation is still needed.
+The November 19 dashboard delivery passes **178 automated tests** in the local validation environment, including 14 retrieval/answer checks and 9 additional grounding/QA checks. Six named-application search smoke queries returned the intended application first; this small developer-authored set is not a broad or independent retrieval benchmark. The 26 developer-authored functional cases also pass; this is not a general answer-accuracy benchmark. Live answer-quality evaluation is still needed.
 
 Model accuracy figures refer to specific datasets and contracts; do not present earlier 306-row category results as results of the newer full-Kaggle category pipeline. Source-assigned labels, provisional predictions and generated controls are not independently verified truth. Synthetic governance settings demonstrate the project workflow and are labeled; missing evidence never establishes safety.
 
@@ -74,6 +84,6 @@ Model accuracy figures refer to specific datasets and contracts; do not present 
 - [November 11 model experiment](docs/backend_release.md), [older baseline](docs/baseline_classification.md), [older embeddings](docs/embedding_classification.md)
 - [Dataset corrections](docs/corrected_labels.md), [historical project notes](docs/project_history.md)
 
-Next: broader independently reviewed retrieval/answer evaluation, optional live RAG-provider validation, stronger discovery evidence/model validation, and Jev comparison. Dashboard development remains paused.
+Next: broader independently reviewed retrieval/answer evaluation, optional live RAG-provider validation, stronger discovery evidence/model validation, and Jev comparison. The offline dashboard is available; live Jev integration remains pending.
 
 Challenge advisor: Shubham Arya. AI coach: Aram Ramos. Fellows: Forum Shah, Sheila Aquino, Sadit Hussain, Min Thaw Zin, Abigail De Leon, Joshua Hu and Abdulfattah Ahmed.
