@@ -1,0 +1,73 @@
+{
+  "version": "purpose-categorization-v1",
+  "inputs": {
+    "/Users/minthawzin/Desktop/btt_cyera/data/processed/kaggle_dataset_b/kaggle_dataset_b_filled.csv": "a21d09aa3c72c38a46ebd0cb15c936401ed2d4b34ea3912cf8bc7f676f456a6f",
+    "/Users/minthawzin/Desktop/btt_cyera/data/processed/final/dataset_b_final_kaggle_categories.csv": "61957c48fbe6143331d13f9b2dc57380708ed0d86a0d0e9d1f8009dd2fb33858",
+    "/Users/minthawzin/Desktop/btt_cyera/preprocessing_scripts/prepare_category_data.py": "599c3410fd4e480c20e33f3eec5242db20325ea2617b2f58105e7b6e7f583d41",
+    "/Users/minthawzin/Desktop/btt_cyera/category_training/train_categories.py": "02258f4e565b80b4e1d95f2dad3a0c681cbb961650cd0f9798001c8f44a3a546",
+    "data/processed/pipeline_runs/novatech_online1/categorized_applications.json": "3fac55a67de0c10c2449b57006f0def53c0f2484b324068a72176b83f1789266",
+    "data/raw/summit_financial_usage (1).csv": "b4f412dc01fa2e4fb16dee79b4d645d564a8a8473c65505065eb4cca23c413a5"
+  },
+  "script_sha256": "1051c1f147d93d0692f367bb5ebc49d3564b342eb5ea901f077033fbb8758e7c",
+  "model": {
+    "run_id": "c0e2cd6883aca8f3eb89871a78920df4de97628e71b1609fa99eb353f4f9a409",
+    "config": {
+      "version": "kaggle14-training-v1",
+      "script_sha256": "02258f4e565b80b4e1d95f2dad3a0c681cbb961650cd0f9798001c8f44a3a546",
+      "data_sha256": "5ebf36ffcc760ff57bccd875a6f8cd0761718b13c417e5225f2710f9cd9c6a91",
+      "preparation_manifest_sha256": "1c4a6af3733fca153c65b2537c028d495bc2f8bec84cb0c592f4301823f523e7",
+      "taxonomy_sha256": "a23ac5dd97163e15d097c9bd252ddcbfdd20467b642417dae0fbdac647ff49d7",
+      "models": [
+        "tfidf",
+        "embeddings"
+      ],
+      "seed": 42,
+      "cv_folds": 3,
+      "outer_folds": 5,
+      "c_values": [
+        0.5,
+        2.0
+      ],
+      "class_weights": [
+        null,
+        "balanced"
+      ],
+      "max_iter": 3000,
+      "encoder": "sentence-transformers/all-MiniLM-L6-v2",
+      "encoder_revision": null,
+      "description_ablation": true,
+      "text_contract_version": "purpose-description-functionality-v1",
+      "embedding_version": "token-chunks-mean-normalized-v1",
+      "python": "3.12.11",
+      "packages": {
+        "numpy": "2.3.4",
+        "scipy": "1.16.3",
+        "scikit-learn": "1.7.2",
+        "joblib": "1.5.2",
+        "sentence-transformers": "5.1.2",
+        "torch": "2.15.0",
+        "transformers": "4.57.6"
+      }
+    },
+    "winner": "tfidf",
+    "artifacts": {
+      "confusion_pairs.csv": "5ef7e590eb639d2d37a8a08dc58518fa90a8989cb93504a9918dfcbd72348b82",
+      "cv_predictions.csv": "6aaa1215d60b5d36cb83efe2c3111e97829c28250ad978f06100e6039e4d240e",
+      "embedding_manifest.json": "169de2f29f8d279048554462fbb41158e31136af8b0dde9485db9795d5bbf3ce",
+      "embeddings.joblib": "1cdad5e3a125751e97516215cc0fb7c49973d5b9fbbefa228a84aa3805add5c3",
+      "embeddings_confusion_matrix.csv": "fa5ed9faceefbf117c168dda8d809266988fddab57e8d12122c785c9d5277b60",
+      "metrics.json": "d1161fde33c7ee210acc819c05cbe4c95a0fbd3004a71c5e7999b72ecf45d535",
+      "model_comparison.csv": "fc34fe2aa27dc8777a4ad89475bcd895a99f7b2aca97c5bc8552803b33b564eb",
+      "per_category.csv": "8abad10af2fe29b223d46a48a15cc113cb813bad0eca293ffae0323896ef5ba4",
+      "run_config.json": "3e33e98266a477ce310a42bae52d39ba12c6d4ecb288390f13b87bff9744c76c",
+      "selection.json": "84b423a4971251d716b69120677ba6adfe7f8871e61ebeb151fafa5d732a9c1d",
+      "split_manifest.csv": "a219998839bae1d896f5dfdf181caf685ac812f3ea7212c2094fba0c2304f21a",
+      "taxonomy.json": "a23ac5dd97163e15d097c9bd252ddcbfdd20467b642417dae0fbdac647ff49d7",
+      "test_errors.csv": "e0b4412104ec9df412c19fcc95eee113229939b6903f6de202003aab10396890",
+      "test_predictions.csv": "b5c05e7630a38cfcfc9c6a3a42355da8cfdb0da2b1534abced077302aa5eacd3",
+      "tfidf.joblib": "b8bb9393ddd42fa8e90cc96bccfda54fe756360e3e91b0a4029e912a62f68352",
+      "tfidf_confusion_matrix.csv": "e617b5ef86891f30a894d14f1ef372c32ead7851278f892766a07ada7815983a",
+      "winner.joblib": "b8bb9393ddd42fa8e90cc96bccfda54fe756360e3e91b0a4029e912a62f68352"
+    }
+  }
+}
