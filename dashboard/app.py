@@ -110,7 +110,7 @@ with tab_inv:
         st.dataframe(
             qv.rename(columns={"name": "Application", "flag": "Why it's here", "risk_score": "Score",
                                "category_label": "Category", "users": "Users"}),
-            hide_index=True, use_container_width=True,
+            hide_index=True, width="stretch",
         )
 
     st.divider()
@@ -171,14 +171,14 @@ with tab_inv:
                      color_discrete_sequence=[SERIES])
         fig.update_traces(hovertemplate="%{y}: %{x} employees<extra></extra>", marker_line_width=0)
         c1.markdown("**Employees by department**")
-        c1.plotly_chart(style_fig(fig, 260), use_container_width=True)
+        c1.plotly_chart(style_fig(fig, 260), width="stretch")
 
         daily = (app_events.set_index("timestamp").resample("D")["event_id"].count()
                  .reset_index(name="events"))
         fig = px.line(daily, x="timestamp", y="events", color_discrete_sequence=[SERIES])
         fig.update_traces(line_width=2, hovertemplate="%{x|%b %d}: %{y} events<extra></extra>")
         c2.markdown("**Daily activity**")
-        c2.plotly_chart(style_fig(fig, 260), use_container_width=True)
+        c2.plotly_chart(style_fig(fig, 260), width="stretch")
 
 # ---------------------------------------------------------------- overview
 with tab_over:
@@ -194,7 +194,7 @@ with tab_over:
         fig.update_traces(hovertemplate="%{y}<br>%{x} tool(s): %{customdata[0]}<extra></extra>",
                           marker_line_width=0)
         fig.update_xaxes(dtick=1)
-        st.plotly_chart(style_fig(fig), use_container_width=True)
+        st.plotly_chart(style_fig(fig), width="stretch")
         st.caption("Categories use the 14 Kaggle labels; '(provisional)' model guesses are counted too.")
 
     with c2:
@@ -212,7 +212,7 @@ with tab_over:
         fig.update_yaxes(autorange="reversed")
         fig.update_traces(cliponaxis=False)
         fig.update_xaxes(range=[0, max(counts.max(), 1) * 1.6], dtick=1)
-        st.plotly_chart(style_fig(fig), use_container_width=True)
+        st.plotly_chart(style_fig(fig), width="stretch")
         st.caption("'Incomplete' = some governance evidence missing, so the score may be understated.")
 
     st.markdown("**Who uses which AI tools** — unique employees by department")
@@ -225,7 +225,7 @@ with tab_over:
         fig = px.imshow(heat, color_continuous_scale=SEQUENTIAL, aspect="auto", text_auto=True)
         fig.update_traces(hovertemplate="%{y} · %{x}: %{z} employees<extra></extra>")
         fig.update_layout(coloraxis_showscale=False)
-        st.plotly_chart(style_fig(fig, 40 + 34 * len(heat)), use_container_width=True)
+        st.plotly_chart(style_fig(fig, 40 + 34 * len(heat)), width="stretch")
 
     st.markdown("**AI tool activity over time** (events per day, all AI tools)")
     if not ai_events.empty:
@@ -234,7 +234,7 @@ with tab_over:
         fig = px.line(daily, x="timestamp", y="events", color_discrete_sequence=[SERIES])
         fig.update_traces(line_width=2, hovertemplate="%{x|%a %b %d}: %{y:,} events<extra></extra>")
         fig.update_yaxes(rangemode="tozero")
-        st.plotly_chart(style_fig(fig, 260), use_container_width=True)
+        st.plotly_chart(style_fig(fig, 260), width="stretch")
 
 # ---------------------------------------------------------------- all apps
 with tab_all:
@@ -252,6 +252,6 @@ with tab_all:
         "category_label": "Category", "risk_score": "Score", "approval": "Approval",
         "assessment_status": "Assessment", "users": "Users", "events": "Events",
         "upload_mb": "Avg upload (MB)"})
-    st.dataframe(table, hide_index=True, use_container_width=True)
+    st.dataframe(table, hide_index=True, width="stretch")
     st.download_button("Download as CSV", table.to_csv(index=False).encode("utf-8"),
                        file_name=f"{choice.lower().replace(' ', '_')}_applications.csv", mime="text/csv")

@@ -16,14 +16,33 @@ An AI tool with **no approval record** is listed as needing investigation:
 missing evidence is not evidence of safety, and VISION.md's shadow-AI case is
 a tool missing from the approved list.
 
-## Run
+## Quick start (no API keys or trained model needed)
 
-From the project root, with the project virtual environment:
+The saved pipeline results are in the repository, so viewing needs only three
+packages. From the repository root:
 
 ```bash
-.venv/bin/pip install streamlit plotly        # once
-.venv/bin/streamlit run dashboard/app.py
+git switch component5-dashboard
+python3 -m venv .venv && source .venv/bin/activate     # Windows: .venv\Scripts\activate
+pip install streamlit plotly pandas
+streamlit run dashboard/app.py
 ```
+
+It opens at http://localhost:8501. Things to look at:
+
+1. **Summit Financial → Investigate**: ChatGPT and **DocuMind AI** are high risk.
+   DocuMind AI was not in any catalog: online discovery researched it and classified
+   it as an AI document-analysis tool. It is used only by Finance (84 employees),
+   is unapproved, and uploads about 2.6× more per event than the company's typical app.
+2. **Why this risk level** lists every rule that added points, in plain language,
+   and which evidence is missing.
+3. AI tools with **no approval record** (Gemini, Copilot, Jasper, Midjourney) are
+   flagged, because a low score built on missing evidence is not a safe score.
+4. **Overview**: AI tools by category, risk levels, and a department × tool heatmap.
+
+All AI-tool categories in these runs were set by human review
+(`data/reviews/categories_2026-11-21/`), correcting catalog labels such as
+ChatGPT → "Communication And Support" and Grammarly → "Security And Privacy".
 
 ## Data it reads
 

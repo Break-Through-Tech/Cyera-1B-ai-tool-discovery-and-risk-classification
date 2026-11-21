@@ -2,12 +2,12 @@
   "companies": [
     {
       "company": "Summit Financial",
-      "run_dir": "data/processed/dashboard_runs/summit_online",
+      "run_dir": "data/processed/dashboard_runs/summit_reviewed",
       "activity": "data/raw/summit_financial_usage (1).csv"
     },
     {
       "company": "NovaTech",
-      "run_dir": "data/processed/dashboard_runs/novatech",
+      "run_dir": "data/processed/dashboard_runs/novatech_reviewed",
       "activity": "data/raw/novatech_usage.csv"
     }
   ]
