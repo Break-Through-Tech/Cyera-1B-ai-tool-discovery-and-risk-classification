@@ -1,6 +1,6 @@
 # Cyera — AI Tool Discovery & Risk Classification
 
-Investigate application usage at a fictional enterprise: identify AI tools, suggest their purpose, summarize usage, explain governance concerns, and retrieve the evidence behind findings. An offline dashboard now presents the saved findings and can analyze synthetic activity CSVs. Live Jev detection remains pending.
+Investigate application usage at a fictional enterprise: identify AI tools, suggest their purpose, summarize usage, explain governance concerns, and retrieve the evidence behind findings. An offline dashboard now presents the saved findings and can analyze synthetic activity CSVs. Jev has processed all 17,107 unique identities in the current catalog (9,814 AI-focused, 1,412 conventional, 5,881 unknown/review). The separate 21-app enterprise demo remains available; viewing saved results makes no paid calls.
 
 ## Try the dashboard
 
@@ -35,6 +35,7 @@ flowchart LR
 | Location | Job |
 |---|---|
 | `ai_discovery/ingest.py`, `catalog.py` | Extract observed applications and match exact known identities |
+| `ai_discovery/jev.py`, `jev_catalog.py` | Jev product classification for enterprise samples and the full current catalog |
 | `ai_discovery/enrich.py`, `classify.py` | Optional cited product research and AI/non-AI decisions |
 | `ai_discovery/categorize.py`, `run_pipeline.py` | Category inference/cache and integrated Components 1–4 |
 | `governance/risk.py`, `evidence.py`, `research.py` | Scoring, company-scoped evidence and optional control research |
@@ -71,12 +72,13 @@ Default answers are local evidence summaries with citations, not LLM-generated p
 
 ## Validation and limitations
 
-The November 19 dashboard delivery passes **178 automated tests** in the local validation environment, including 14 retrieval/answer checks and 9 additional grounding/QA checks. Six named-application search smoke queries returned the intended application first; this small developer-authored set is not a broad or independent retrieval benchmark. The 26 developer-authored functional cases also pass; this is not a general answer-accuracy benchmark. Live answer-quality evaluation is still needed.
+The Jev integration delivery passes **187 automated tests** in the local validation environment, including 14 retrieval/answer checks and 9 additional grounding/QA checks. Six named-application search smoke queries returned the intended application first; this small developer-authored set is not a broad or independent retrieval benchmark. The 26 developer-authored functional cases also pass; this is not a general answer-accuracy benchmark. Live answer-quality evaluation is still needed.
 
 Model accuracy figures refer to specific datasets and contracts; do not present earlier 306-row category results as results of the newer full-Kaggle category pipeline. Source-assigned labels, provisional predictions and generated controls are not independently verified truth. Synthetic governance settings demonstrate the project workflow and are labeled; missing evidence never establishes safety.
 
 ## Guides and remaining work
 
+- [Jev classification and completed sample run](docs/jev_classification.md)
 - [Current discovery/category/governance pipeline](ai_discovery/PIPELINE_GUIDE.md)
 - [Component 4 evidence and scoring](docs/component4_integration.md)
 - [New report retrieval and analyst assistant](docs/governance_assistant.md)
@@ -84,6 +86,6 @@ Model accuracy figures refer to specific datasets and contracts; do not present 
 - [November 11 model experiment](docs/backend_release.md), [older baseline](docs/baseline_classification.md), [older embeddings](docs/embedding_classification.md)
 - [Dataset corrections](docs/corrected_labels.md), [historical project notes](docs/project_history.md)
 
-Next: broader independently reviewed retrieval/answer evaluation, optional live RAG-provider validation, stronger discovery evidence/model validation, and Jev comparison. The offline dashboard is available; live Jev integration remains pending.
+Next: broader independently reviewed retrieval/answer evaluation, optional live RAG-provider validation, stronger discovery evidence/model validation, and a held-out Jev/local-model comparison. The offline dashboard is available; Jev sample classification is complete; new identities require a separate API classification run.
 
 Challenge advisor: Shubham Arya. AI coach: Aram Ramos. Fellows: Forum Shah, Sheila Aquino, Sadit Hussain, Min Thaw Zin, Abigail De Leon, Joshua Hu and Abdulfattah Ahmed.

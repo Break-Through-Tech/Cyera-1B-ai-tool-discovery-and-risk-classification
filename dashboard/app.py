@@ -21,13 +21,15 @@ st.caption('Fictional enterprise demonstration · Evidence-based priorities, not
 @st.cache_data
 def sample_bytes():return SAMPLE.read_bytes()
 
+JEV_REPORT=ROOT/'data/processed/pipeline_runs/novatech_jev_component4.json'
+
 if 'report' not in st.session_state:
-    st.session_state.report=load_report(sample_bytes())
-    st.session_state.source_name='NovaTech saved Component 4 report'
+    st.session_state.report=load_report(JEV_REPORT.read_bytes() if JEV_REPORT.exists() else sample_bytes())
+    st.session_state.source_name='NovaTech saved Jev report' if JEV_REPORT.exists() else 'NovaTech saved Component 4 report'
 
 with st.sidebar:
     st.header('Data source')
-    mode=st.radio('Choose an input',['Saved NovaTech report','Analyze activity CSV','Open saved report'])
+    mode=st.radio('Choose an input',['Saved NovaTech report','Analyze activity CSV','Open saved report']+(['Saved Jev results'] if JEV_REPORT.exists() else []),index=3 if JEV_REPORT.exists() else 0)
     activity=None;uploaded=None;metadata=None;demo=False;company=''
     if mode=='Analyze activity CSV':
         company=st.text_input('Fictional company',value='NovaTech')
@@ -47,22 +49,31 @@ with st.sidebar:
     if st.button('Analyze / load data',type='primary'):
         try:
             with st.spinner('Preparing findings…'):
-                if mode=='Saved NovaTech report':
+                if mode=='Saved Jev results':
+                    report=load_report(JEV_REPORT.read_bytes());source='NovaTech saved Jev report'
+                elif mode=='Saved NovaTech report':
                     report=load_report(sample_bytes());source='NovaTech saved Component 4 report'
                 elif mode=='Open saved report':
                     if uploaded is None:raise ValueError('Choose a report JSON file')
                     report=load_report(uploaded.getvalue());source=uploaded.name
                 else:
                     if activity is None:raise ValueError('Choose an activity CSV')
-                    report=analyze(activity,company,load_report(sample_bytes()) if reuse else None,demo,metadata.getvalue() if metadata else None)
+                    report=analyze(activity,company,load_report(JEV_REPORT.read_bytes() if JEV_REPORT.exists() else sample_bytes()) if reuse else None,demo,metadata.getvalue() if metadata else None)
                     source='Fresh offline activity analysis'
                 st.session_state.report=report;st.session_state.source_name=source
                 st.session_state.pop('question_result',None)
         except (ValueError,KeyError,OSError,UnicodeError) as error:st.error('Unable to analyze this input: '+str(error))
     st.divider()
-    st.markdown('**Jev status: pending integration**')
-    st.caption('No live Jev, Gemini or web calls run in this dashboard. Known decisions retain their saved source; unfamiliar tools stay unknown.')
+    st.markdown('**Jev status: saved classifications available**' if JEV_REPORT.exists() else '**Jev status: no saved run available**')
+    st.caption('Jev runs through the separate classification command. This dashboard reuses saved decisions without API calls; unfamiliar tools stay unknown until classified.')
     st.download_button('Download sample activity',ACTIVITY.read_bytes(),'novatech_usage.csv','text/csv')
+    catalog_directory=ROOT/'data/processed/jev_catalog'
+    if (catalog_directory/'summary.json').exists():
+        catalog_summary=json.loads((catalog_directory/'summary.json').read_text())
+        st.caption(f"Catalog classification coverage: {catalog_summary['completed_applications']:,} / {catalog_summary['expected_unique_applications']:,} products. Company usage counts below cover only the selected activity file.")
+        if catalog_summary.get('run_status')=='complete':
+            st.download_button('Download full Jev catalog', (catalog_directory/'all_classified.csv').read_bytes(),'jev_catalog_classifications.csv','text/csv')
+
 
 report=st.session_state.report;context=report['dashboard_context'];rows=flattened(report)
 st.subheader(context['company'])
@@ -124,6 +135,9 @@ with investigation:
         st.write('Departments:',', '.join(flat['departments']) or 'Unknown')
         st.write('AI decision:',flat['ai_status'],'· Source:',flat['classification_source'])
         st.write('Purpose:',flat['category'],'· Source:',flat['category_source'],'· Status:',flat['category_status'])
+        if item.get('probabilities'):
+            st.write('Jev product-classification probabilities:',item['probabilities'])
+            st.caption('These describe AI/non-AI product classification, not security risk or independently measured accuracy.')
         st.markdown('**Why it was flagged**')
         reasons=g.get('reasons',[])
         if reasons:st.dataframe(pd.DataFrame([{'Rule':r['rule'],'Points':r['points'],'Explanation':r['explanation'],'Evidence':r.get('evidence_provenance','unknown')} for r in reasons]),hide_index=True,width='stretch')
@@ -143,7 +157,7 @@ with about:
     st.markdown('#### What this demonstration does')
     st.write('Activity CSV → application identities → exact catalog / saved product decisions → purpose categories → usage-based and supplied-evidence governance rules → findings.')
     st.write('Saved-report mode shows an existing pipeline result. CSV mode freshly ingests events and recalculates usage and risk. It can reuse exact saved product decisions; those are explicitly labeled and are not new Jev inference.')
-    st.write('Jev is planned for AI/non-AI classification. It is not connected in this version. No key, API billing, model training or web research is required for the offline demonstration.')
+    st.write('Jev has classified the 21 unique sample applications through a separate API command. Saved results include product-choice probabilities. Viewing them here requires no key or paid calls. New unfamiliar products require a separate classification run.')
     st.markdown('**Limitations**')
     st.write('Synthetic usage can differ from real companies. Source-assigned labels and provisional predictions can be wrong. Shared domains and missing product evidence can leave applications unresolved. Scores are explained prototype priorities—not breach probabilities, compliance certification or proof of safety.')
     with st.expander('Rejected activity records'):

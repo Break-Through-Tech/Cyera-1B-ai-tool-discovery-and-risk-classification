@@ -29,3 +29,8 @@
 # Local report search indexes (snapshots and derived vectors)
 /data/cache/governance_retrieval/
 *.faiss
+
+# Provider response cache; share reviewed run outputs instead.
+/data/cache/jev_classification.json
+
+/data/cache/jev_catalog/

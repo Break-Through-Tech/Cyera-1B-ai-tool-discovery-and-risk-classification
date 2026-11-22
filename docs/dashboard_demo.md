@@ -7,7 +7,7 @@ python -m pip install -r dashboard/requirements.txt
 python -m streamlit run dashboard/app.py
 ```
 
-The dashboard works offline without API keys. It opens the team's saved NovaTech Component 4 report: 21 applications, 9 AI-focused, 12 conventional, and 3 high governance priorities. These are demonstration findings, not classifier accuracy measurements.
+The dashboard works offline without API keys. It opens the saved Jev-classified NovaTech report when available, falling back to the earlier Component 4 report: 21 applications, 9 AI-focused, 12 conventional, and 3 high governance priorities. These are demonstration findings, not classifier accuracy measurements.
 
 ## Recording walkthrough
 
@@ -39,7 +39,7 @@ flowchart LR
 - `ai_discovery/dashboard_data.py`: validates input, calls the existing ingestion/catalog/governance code, scopes evidence to the company, and prepares display/export rows.
 - `tests/test_dashboard.py`: six automated checks covering sample totals, new activity, unknown products, company isolation, input validation, exports, and interface startup.
 
-This interface does not run live Jev, Gemini, web research, model training, or fresh category-model inference. It can reuse saved product classifications/categories and exact catalog entries. Unresolved applications remain unknown. Live Jev detection is a separate integration requiring a locally configured key and an agreed request budget; no key is required for this demo.
+This interface does not run live Jev, Gemini, web research, model training, or fresh category-model inference. It can reuse saved product classifications/categories and exact catalog entries. Unresolved applications remain unknown. Jev sample classification has completed through the separate API command; see [the Jev run guide](jev_classification.md). New identities require another explicit classification run. No key is required to view saved results.
 
 The optional report question feature needs the separately installed `modeling/requirements-retrieval.txt` dependencies and existing local encoder at the project's default encoder path. It retrieves evidence from the current report and does not make paid calls. Counts and explanations remain usable without that feature.
 

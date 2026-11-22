@@ -1,0 +1,29 @@
+{
+  "generated_at": "2026-11-22T01:15:45.332084+00:00",
+  "run_status": "complete",
+  "expected_unique_applications": 17107,
+  "completed_applications": 17107,
+  "remaining_applications": 0,
+  "summary": {
+    "ai": 9814,
+    "unknown": 5881,
+    "non_ai": 1412
+  },
+  "source_label_disagreements": 1052,
+  "successful_http_requests_total": 226,
+  "new_successful_http_requests_this_run": 0,
+  "request_attempts_this_run": 0,
+  "reported_input_tokens_total": 2942542,
+  "public_price_usd_per_million_input_tokens": 0.042,
+  "estimated_usd_at_public_price": 0.123587,
+  "pricing_source": "https://docs.typesafe.ai/models",
+  "message": null,
+  "limitations": [
+    "Predictions, not human-verified corrections.",
+    "Unknown is retained; 0.70 is an unvalidated review threshold.",
+    "Catalog descriptions may be incomplete or outdated. No new web research was performed.",
+    "Source agreement is not independent model accuracy.",
+    "Billing estimate excludes account-specific pricing or tax."
+  ],
+  "input_manifest_sha256": "a0830eb9c5bd7d5d1c7ca8eb7fbe07a9e41c119baaf51880668ec58664f6a2cf"
+}

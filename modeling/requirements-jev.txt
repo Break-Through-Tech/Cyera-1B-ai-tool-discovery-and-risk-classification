@@ -1,0 +1,2 @@
+# TLS certificate roots for the direct HTTPS API client.
+certifi>=2024.8.30

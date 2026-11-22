@@ -36,7 +36,7 @@ def load_report(content):
     report=copy.deepcopy(report)
     report['dashboard_context']={'mode':'saved_report','company':next(iter(companies)),
         'source_sha256':digest(content),'online_calls_made':0,
-        'classification_note':'Saved catalog/research decisions; no classification was rerun. Jev is not connected.'}
+        'classification_note':('Saved Jev product classifications; no live classification was rerun.' if all(r.get('decision_source')=='jev' for r in report['results']) else 'Saved catalog/research decisions; no classification was rerun.')}
     return report
 
 
@@ -110,7 +110,7 @@ def analyze(content,company,reference=None,demo_controls=False,metadata=None):
             limitations=['Fictional usage and explicitly synthetic supplied controls; not verified vendor claims.',
                 'Categories can be provisional; cached product decisions are not independent verification.',
                 'Distinct user counts belong to each application and must not be summed across applications.',
-                'No online model or web calls are performed. Jev integration remains pending.'])
+                'No online model or web calls are performed by the dashboard. Jev decisions can be supplied from a saved classification run.'])
 
 
 def flattened(report):
