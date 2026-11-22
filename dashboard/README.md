@@ -18,7 +18,7 @@ a tool missing from the approved list.
 ## Quick start (no API keys or trained model needed)
 
 The saved pipeline results are in the repository, so viewing needs only three
-packages. From the repository root:
+packages. From the repository root, on `main`:
 
 ```bash
 python3 -m venv .venv && source .venv/bin/activate     # Windows: .venv\Scripts\activate
