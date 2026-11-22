@@ -78,7 +78,7 @@ Model accuracy figures refer to specific datasets and contracts; do not present 
 
 ## Guides and remaining work
 
-- [Jev classification and completed sample run](docs/jev_classification.md)
+- [Jev classification and completed catalog/sample runs](docs/jev_classification.md)
 - [Current discovery/category/governance pipeline](ai_discovery/PIPELINE_GUIDE.md)
 - [Component 4 evidence and scoring](docs/component4_integration.md)
 - [New report retrieval and analyst assistant](docs/governance_assistant.md)
@@ -86,6 +86,6 @@ Model accuracy figures refer to specific datasets and contracts; do not present 
 - [November 11 model experiment](docs/backend_release.md), [older baseline](docs/baseline_classification.md), [older embeddings](docs/embedding_classification.md)
 - [Dataset corrections](docs/corrected_labels.md), [historical project notes](docs/project_history.md)
 
-Next: broader independently reviewed retrieval/answer evaluation, optional live RAG-provider validation, stronger discovery evidence/model validation, and a held-out Jev/local-model comparison. The offline dashboard is available; Jev sample classification is complete; new identities require a separate API classification run.
+Next: broader independently reviewed retrieval/answer evaluation, optional live RAG-provider validation, stronger discovery evidence/model validation, and a held-out Jev/local-model comparison. The offline dashboard is available; Jev catalog and sample classification runs are complete; new identities require a separate API classification run.
 
 Challenge advisor: Shubham Arya. AI coach: Aram Ramos. Fellows: Forum Shah, Sheila Aquino, Sadit Hussain, Min Thaw Zin, Abigail De Leon, Joshua Hu and Abdulfattah Ahmed.

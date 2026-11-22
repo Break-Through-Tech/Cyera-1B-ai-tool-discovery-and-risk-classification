@@ -10,8 +10,6 @@ import csv
 import hashlib
 import io
 import json
-import os
-from pathlib import Path
 import time
 
 from . import jev
@@ -162,13 +160,6 @@ def run(directory=DIRECTORY,cache=CACHE,key=None,sender=jev.call,paths=(CATALOG,
         raise
     return save('complete')
 
-def local_key():
-    key=os.environ.get('TYPESAFE_API_KEY')
-    if not key and (ROOT/'.env').exists():
-        for line in (ROOT/'.env').read_text().splitlines():
-            if line.startswith('TYPESAFE_API_KEY='):return line.split('=',1)[1].strip().strip(chr(34)).strip(chr(39))
-    return key
-
 def main():
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('--batch-size',type=int,default=100);p.add_argument('--prepare-only',action='store_true');a=p.parse_args()
     if not 1<=a.batch_size<=100:p.error('Batch size must be 1..100')
@@ -177,7 +168,7 @@ def main():
         print(json.dumps({'applications':len(products),'http_batches':len(groups),
             'serialized_payload_bytes':sum(len(json.dumps(payload(b),ensure_ascii=False).encode()) for b in groups),
             'max_payload_bytes':max(len(json.dumps(payload(b),ensure_ascii=False).encode()) for b in groups)},indent=2));return
-    try:report=run(key=local_key(),batch_size=a.batch_size)
+    try:report=run(key=jev.local_key(),batch_size=a.batch_size)
     except (jev.JevError,ValueError) as exc:p.exit(1,str(exc)+'\n')
     print(json.dumps(report,indent=2))
 if __name__=='__main__':main()

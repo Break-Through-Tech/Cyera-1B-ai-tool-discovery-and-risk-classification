@@ -12,7 +12,7 @@ Inputs were product names, exact observed endpoints, exact-match catalog descrip
 
 - `ai_discovery/jev.py`: builds product-only evidence, sends authenticated HTTPS requests, validates typed choices/probabilities, caches responses, and writes a resumable classification report.
 - `data/processed/pipeline_runs/novatech_jev_classification.json`: all 21 model decisions, evidence inputs, probabilities, model version, token usage, and input fingerprints.
-- `data/processed/pipeline_runs/novatech_jev_component4.json`: Jev classifications combined with locally recalculated usage/governance and explicitly fictional NovaTech controls. Existing purpose categories are retained only where the binary decision agrees.
+- The dashboard reconstructs the Jev company demo locally from the compact classification JSON and existing activity file. The duplicate `novatech_jev_component4.json` is no longer tracked. This reconstruction makes no API calls; fictional controls are explicit, and existing purpose categories are retained only where the binary decision agrees.
 - `data/cache/jev_classification.json`: local ignored response cache. Credentials are not stored in this cache.
 - `.env`: local ignored credentials. Never commit this file or share its contents.
 

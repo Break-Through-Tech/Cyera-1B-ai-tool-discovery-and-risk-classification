@@ -21,10 +21,20 @@ st.caption('Fictional enterprise demonstration · Evidence-based priorities, not
 @st.cache_data
 def sample_bytes():return SAMPLE.read_bytes()
 
-JEV_REPORT=ROOT/'data/processed/pipeline_runs/novatech_jev_component4.json'
+JEV_REPORT=ROOT/'data/processed/pipeline_runs/novatech_jev_classification.json'
+
+@st.cache_data
+def jev_report_bytes(classification_content,activity_content):
+    # Rebuild the demo locally instead of tracking a duplicate multi-megabyte report.
+    from ai_discovery.jev import dashboard_report
+    report=dashboard_report(json.loads(classification_content),activity_content,demo_controls=True)
+    return json.dumps(report,ensure_ascii=False,allow_nan=False).encode('utf-8')
+
+def saved_jev_bytes():
+    return jev_report_bytes(JEV_REPORT.read_bytes(),ACTIVITY.read_bytes())
 
 if 'report' not in st.session_state:
-    st.session_state.report=load_report(JEV_REPORT.read_bytes() if JEV_REPORT.exists() else sample_bytes())
+    st.session_state.report=load_report(saved_jev_bytes() if JEV_REPORT.exists() else sample_bytes())
     st.session_state.source_name='NovaTech saved Jev report' if JEV_REPORT.exists() else 'NovaTech saved Component 4 report'
 
 with st.sidebar:
@@ -50,7 +60,7 @@ with st.sidebar:
         try:
             with st.spinner('Preparing findings…'):
                 if mode=='Saved Jev results':
-                    report=load_report(JEV_REPORT.read_bytes());source='NovaTech saved Jev report'
+                    report=load_report(saved_jev_bytes());source='NovaTech saved Jev report'
                 elif mode=='Saved NovaTech report':
                     report=load_report(sample_bytes());source='NovaTech saved Component 4 report'
                 elif mode=='Open saved report':
@@ -58,7 +68,7 @@ with st.sidebar:
                     report=load_report(uploaded.getvalue());source=uploaded.name
                 else:
                     if activity is None:raise ValueError('Choose an activity CSV')
-                    report=analyze(activity,company,load_report(JEV_REPORT.read_bytes() if JEV_REPORT.exists() else sample_bytes()) if reuse else None,demo,metadata.getvalue() if metadata else None)
+                    report=analyze(activity,company,load_report(saved_jev_bytes() if JEV_REPORT.exists() else sample_bytes()) if reuse else None,demo,metadata.getvalue() if metadata else None)
                     source='Fresh offline activity analysis'
                 st.session_state.report=report;st.session_state.source_name=source
                 st.session_state.pop('question_result',None)
@@ -157,7 +167,7 @@ with about:
     st.markdown('#### What this demonstration does')
     st.write('Activity CSV → application identities → exact catalog / saved product decisions → purpose categories → usage-based and supplied-evidence governance rules → findings.')
     st.write('Saved-report mode shows an existing pipeline result. CSV mode freshly ingests events and recalculates usage and risk. It can reuse exact saved product decisions; those are explicitly labeled and are not new Jev inference.')
-    st.write('Jev has classified the 21 unique sample applications through a separate API command. Saved results include product-choice probabilities. Viewing them here requires no key or paid calls. New unfamiliar products require a separate classification run.')
+    st.write('Jev has processed all 17,107 identities in the current catalog. Download the full results from the sidebar. This company demonstration separately uses 21 applications from its activity file. Saved results include product-choice probabilities; viewing them makes no paid calls. Uncertain results remain unknown.')
     st.markdown('**Limitations**')
     st.write('Synthetic usage can differ from real companies. Source-assigned labels and provisional predictions can be wrong. Shared domains and missing product evidence can leave applications unresolved. Scores are explained prototype priorities—not breach probabilities, compliance certification or proof of safety.')
     with st.expander('Rejected activity records'):

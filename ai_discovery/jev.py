@@ -21,7 +21,6 @@ from .classify import identity_key,write,now,compact_evidence
 from . import categorize as cat
 
 ENDPOINT='https://api.typesafe.ai/v1/systemone'
-ANALYSIS=ROOT/'data/processed/pipeline_runs/novatech_jev_component4.json'
 OUTPUT=ROOT/'data/processed/pipeline_runs/novatech_jev_classification.json'
 CACHE=ROOT/'data/cache/jev_classification.json'
 POLICY_VERSION='primary-purpose-v1'
@@ -150,23 +149,26 @@ def dashboard_report(report,activity,company='NovaTech',demo_controls=False):
         if old.get('is_ai_tool')==item['is_ai_tool'] and item['is_ai_tool'] is True and old.get('categorization'):
             item['categorization']=old['categorization']
         records.append(item)
-    result=analyze(activity.read_bytes(),company,{'results':records},demo_controls)
+    content=activity if isinstance(activity,bytes) else activity.read_bytes()
+    result=analyze(content,company,{'results':records},demo_controls)
     result['jev_run']={k:report[k] for k in ('generated_at','activity_sha256','summary','completed_applications','online_calls_made')}
     result['dashboard_context']['classification_note']='Saved Jev product classifications; usage and governance recalculated locally. No live calls in the dashboard.'
     return result
+
+def local_key():
+    key=os.environ.get('TYPESAFE_API_KEY')
+    if not key and (ROOT/'.env').exists():
+        for line in (ROOT/'.env').read_text().splitlines():
+            if line.startswith('TYPESAFE_API_KEY='):
+                return line.split('=',1)[1].strip().strip(chr(34)).strip(chr(39))
+    return key
 
 def main():
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('--activity',type=Path,default=ROOT/'data/raw/novatech_usage.csv')
     p.add_argument('--output',type=Path,default=OUTPUT);p.add_argument('--cache',type=Path,default=CACHE);p.add_argument('--model',default='jev-latest')
     a=p.parse_args()
-    # Only read this provider's literal value; never execute configuration text.
-    if not os.environ.get('TYPESAFE_API_KEY') and (ROOT/'.env').exists():
-        for line in (ROOT/'.env').read_text().splitlines():
-            if line.startswith('TYPESAFE_API_KEY='):
-                os.environ['TYPESAFE_API_KEY']=line.split('=',1)[1].strip().strip(chr(34)).strip(chr(39))
-                break
     try:
-        report=run(a.activity,a.output,a.cache,a.model,key=os.environ.get('TYPESAFE_API_KEY'))
+        report=run(a.activity,a.output,a.cache,a.model,key=local_key())
     except (JevError,ValueError) as exc:p.exit(1,str(exc)+'\n')
     print(json.dumps({'completed':report['completed_applications'],'online_calls':report['online_calls_made'],'summary':report['summary']}))
 if __name__=='__main__':main()

@@ -34,3 +34,6 @@
 /data/cache/jev_classification.json
 
 /data/cache/jev_catalog/
+
+# Redundant local demo reconstruction, built from saved Jev decisions when needed.
+/data/processed/pipeline_runs/novatech_jev_component4.json

@@ -60,7 +60,9 @@ class JevTests(unittest.TestCase):
             self.assertFalse((root/'cache.json').exists())
 
     def test_completed_live_artifact_and_dashboard_agree(self):
-        report=json.loads(jev.OUTPUT.read_text());analysis=json.loads(jev.ANALYSIS.read_text())
+        report=json.loads(jev.OUTPUT.read_text())
+        with patch.object(jev.request.OpenerDirector,'open',side_effect=AssertionError('Demo reconstruction must stay offline')):
+            analysis=jev.dashboard_report(report,ACTIVITY.read_bytes(),demo_controls=True)
         self.assertEqual(report['run_status'],'complete')
         self.assertEqual(report['completed_applications'],report['expected_unique_applications'])
         self.assertEqual(report['summary'],{'ai':9,'non_ai':12})
