@@ -1,0 +1,10 @@
+application_name,endpoint,evidence_sha256,reviewed_category,reviewer,reason,model_text
+ChatGPT,chatgpt.com,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945,Ai And Machine Learning,Min-13,General AI assistant; grouped with other assistants (Kaggle files ChatGPT-type tools here),
+Claude,claude.ai,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945,Ai And Machine Learning,Min-13,General AI assistant; catalog label Operations And Management does not describe its purpose,
+cursor,cursor.com,1be4dbbe43a98033afafb81c4005d643942a1bdbe04ab46d08ba59720ee5a401,Technology And Development,Min-13,AI coding assistant; confirms model prediction,
+gemini,gemini.google.com,91e1a766245cfcea318613e950f9c7dd7b1975ff390e39cd3099afcf08cca4cb,Ai And Machine Learning,Min-13,General AI assistant; confirms model prediction,
+github copilot,github.com/copilot,0f2172856ab3a203de86e7488338bbe6659c3a0a314889192341e2bc0fb5205a,Technology And Development,Min-13,AI coding assistant; confirms model prediction,
+Grammarly,grammarly.com,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945,Media And Content Creation,Min-13,AI writing assistant (Kaggle files Writing tools here); not a security product,
+jasper,jasper.ai,9245a22dc678997f54562b7f1277f6ef913ba2e7ff07ff28fa48b07c292fb15c,Marketing And Sales,Min-13,AI marketing content platform; confirms model prediction,
+midjourney,midjourney.com,5e485e9604344e463a2463001fecc8b51898497ceabfffcbad7df01930322207,Media And Content Creation,Min-13,AI image generation; confirms model prediction,
+Perplexity,perplexity.ai,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945,Ai And Machine Learning,Min-13,AI answer engine / assistant; grouped with general assistants,

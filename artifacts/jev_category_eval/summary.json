@@ -1,0 +1,33 @@
+{
+  "version": "jev-category-eval-v1",
+  "created_at": "2026-11-21T23:53:15.737210+00:00",
+  "input": "description only (no Kaggle primary task), held-out test partition",
+  "jev_model_requested": "jev-latest",
+  "jev_models_returned": [
+    "jev-1.14.0"
+  ],
+  "rows_evaluated": 154,
+  "per_category_target": 11,
+  "seed": 42,
+  "jev": {
+    "accuracy": 0.5974025974025974,
+    "macro_f1": 0.5911586348706322,
+    "rows": 154
+  },
+  "local_tfidf": {
+    "accuracy": 0.4675324675324675,
+    "macro_f1": 0.47723124108186027,
+    "rows": 154
+  },
+  "agreement_jev_local": 0.5584415584415584,
+  "jev_usage_totals": {
+    "input_tokens": 161345,
+    "output_tokens": 25281
+  },
+  "limits": [
+    "Kaggle categories are the reference labels; they are noisy, so neither score is true accuracy.",
+    "Small stratified sample; per-category scores rest on about 11 rows each.",
+    "Jev probabilities are provider outputs, not calibrated or verified confidence.",
+    "Category definitions given to Jev were derived from development-set primary tasks only."
+  ]
+}
