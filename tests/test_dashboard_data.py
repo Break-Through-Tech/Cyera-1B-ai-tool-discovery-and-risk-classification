@@ -4,8 +4,11 @@ from pathlib import Path
 
 import pandas as pd
 
+import tempfile
+
 from dashboard.data import (
-    attach_events, build_apps, investigation_queue, load_company, load_config, plain_reason,
+    attach_events, build_apps, investigation_queue, jev_check, load_company, load_config, load_jev,
+    plain_reason,
 )
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -85,6 +88,23 @@ class EventJoinTest(unittest.TestCase):
         act = pd.DataFrame({"event_id": ["other"], "timestamp": ["2026-09-01"]})
         with self.assertRaises(ValueError):
             attach_events(report, act)
+
+
+class JevTest(unittest.TestCase):
+    def test_check_labels_agreement_and_disagreement(self):
+        op = {"category": "Data And Analytics", "probability": 0.64}
+        self.assertEqual(jev_check("Data And Analytics", op), "✓ agrees (64%)")
+        self.assertEqual(jev_check("Business And Finance", op), "≠ Data And Analytics (64%)")
+        self.assertEqual(jev_check(None, op), "—")      # uncategorized (e.g. non-AI) app
+        self.assertEqual(jev_check("Data And Analytics", None), "—")
+
+    def test_missing_second_opinion_file_is_optional(self):
+        with tempfile.TemporaryDirectory() as d:
+            cfg = Path(d) / "companies.json"
+            cfg.write_text(json.dumps({"jev_second_opinion": "does/not/exist.json", "companies": []}))
+            self.assertEqual(load_jev(cfg), {})
+            cfg.write_text(json.dumps({"companies": []}))
+            self.assertEqual(load_jev(cfg), {})
 
 
 class SavedRunTest(unittest.TestCase):

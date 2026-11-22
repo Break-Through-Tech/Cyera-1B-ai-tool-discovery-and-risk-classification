@@ -39,6 +39,13 @@ It opens at http://localhost:8501. Things to look at:
 3. AI tools with **no approval record** (Gemini, Copilot, Jasper, Midjourney) are
    flagged, because a low score built on missing evidence is not a safe score.
 4. **Overview**: AI tools by category, risk levels, and a department × tool heatmap.
+5. **Jev check**: every AI tool's category also has a second opinion from the Jev
+   API, with its probability. Jev agrees with 9 of 10 reviewed categories and
+   questions Claude's. On 154 held-out tools Jev beat the local category model
+   (macro-F1 0.59 vs 0.48); see `docs/jev_category_evaluation.md`. The saved
+   opinions are in `data/processed/dashboard_runs/jev_second_opinion.json`, so
+   viewing needs no Jev key. Regenerate with
+   `python category_training/jev_second_opinion.py`.
 
 All AI-tool categories in these runs were set by human review
 (`data/reviews/categories_2026-11-21/`), correcting catalog labels such as

@@ -18,7 +18,7 @@ import streamlit as st
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from dashboard.data import (  # noqa: E402
-    investigation_queue, load_company, load_config, missing_evidence_text,
+    investigation_queue, jev_check, load_company, load_config, load_jev, missing_evidence_text,
 )
 
 # Reference palette (dataviz skill): status colours are reserved for risk and
@@ -70,6 +70,12 @@ apps, events, warnings = get_run(entry)
 for w in warnings:
     st.warning(w)
 
+jev = load_jev()
+apps = apps.assign(
+    jev_opinion=apps["endpoint"].map(lambda e: jev.get(e)),
+)
+apps["jev_check"] = [jev_check(c, o) for c, o in zip(apps["category"], apps["jev_opinion"])]
+
 ai_ids = set(apps.loc[apps["is_ai_tool"].isin([True]), "application_id"])
 ai_apps = apps[apps["application_id"].isin(ai_ids)]
 unresolved = apps[apps["is_ai_tool"].isna()]
@@ -106,10 +112,10 @@ with tab_inv:
         qv = queue.assign(
             Risk=queue["risk_level"].map(lambda l: f"{RISK_ICON.get(l, '⚪')} {l.title()}"),
             Departments=queue["departments"].map(", ".join),
-        )[["name", "flag", "Risk", "risk_score", "category_label", "users", "Departments"]]
+        )[["name", "flag", "Risk", "risk_score", "category_label", "jev_check", "users", "Departments"]]
         st.dataframe(
             qv.rename(columns={"name": "Application", "flag": "Why it's here", "risk_score": "Score",
-                               "category_label": "Category", "users": "Users"}),
+                               "category_label": "Category", "jev_check": "Jev check", "users": "Users"}),
             hide_index=True, width="stretch",
         )
 
@@ -149,6 +155,18 @@ with tab_inv:
         if app["category_source"] == "model" and app["top_three"]:
             st.caption("Model's top guesses (scores uncalibrated): " + " · ".join(
                 f"{t['category']} {t.get('score_uncalibrated', 0):.0%}" for t in app["top_three"]))
+
+        op = app["jev_opinion"]
+        if isinstance(op, dict):
+            agrees = op["category"] == app["category"]
+            msg = (f"**Jev second opinion:** {op['category']} ({op['probability']:.0%})  \n"
+                   + " · ".join(f"{t['category']} {t['probability']:.0%}" for t in op["top_three"])
+                   + f"  \n_Based on the {op['evidence_source']}. "
+                   "Jev beat the local model on held-out tools (macro-F1 0.59 vs 0.48); "
+                   "below 50% probability it is right only about 30% of the time._")
+            (st.success if agrees else st.warning)(
+                ("✓ Agrees with the assigned category. " if agrees
+                 else "≠ Disagrees with the assigned category; worth a second look. ") + msg)
 
     with right:
         st.markdown("#### Usage")
@@ -245,11 +263,11 @@ with tab_all:
         Departments=view["departments"].map(", ".join),
         Reasons=view["reasons"].map(lambda rs: " · ".join(r["text"] for r in rs)),
         upload_mb=(view["mean_upload"] / 1e6).round(2),
-    )[["name", "endpoint", "ai_status", "category_label", "Risk", "risk_score", "approval",
+    )[["name", "endpoint", "ai_status", "category_label", "jev_check", "Risk", "risk_score", "approval",
        "assessment_status", "users", "events", "upload_mb", "Departments", "Reasons"]]
     table = table.rename(columns={
         "name": "Application", "endpoint": "Endpoint", "ai_status": "AI status",
-        "category_label": "Category", "risk_score": "Score", "approval": "Approval",
+        "category_label": "Category", "jev_check": "Jev check", "risk_score": "Score", "approval": "Approval",
         "assessment_status": "Assessment", "users": "Users", "events": "Events",
         "upload_mb": "Avg upload (MB)"})
     st.dataframe(table, hide_index=True, width="stretch")

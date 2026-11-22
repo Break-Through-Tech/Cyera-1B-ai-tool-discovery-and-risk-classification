@@ -47,6 +47,29 @@ def load_config(path: Path = CONFIG) -> list[dict]:
     return json.loads(Path(path).read_text(encoding="utf-8"))["companies"]
 
 
+def load_jev(path: Path = CONFIG) -> dict:
+    """Jev second-opinion categories keyed by endpoint; {} when not generated.
+
+    Written by category_training/jev_second_opinion.py. Advisory only: it never
+    replaces the assigned category.
+    """
+    rel = json.loads(Path(path).read_text(encoding="utf-8")).get("jev_second_opinion")
+    if not rel or not _path(rel).exists():
+        return {}
+    data = json.loads(_path(rel).read_text(encoding="utf-8"))
+    return {k: v for k, v in data.get("apps", {}).items() if v.get("status") == "ok"}
+
+
+def jev_check(category, opinion) -> str:
+    """Short table label: does Jev's category agree with the assigned one?"""
+    if not opinion or not isinstance(category, str) or not category:
+        return "—"
+    pct = f"{opinion['probability']:.0%}"
+    if opinion["category"] == category:
+        return f"✓ agrees ({pct})"
+    return f"≠ {opinion['category']} ({pct})"
+
+
 def _path(p: str) -> Path:
     p = Path(p)
     return p if p.is_absolute() else ROOT / p

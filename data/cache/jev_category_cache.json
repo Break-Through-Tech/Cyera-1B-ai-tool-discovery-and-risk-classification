@@ -4466,6 +4466,296 @@
         }
       },
       "retrieved_at": "2026-11-21T23:53:15.721344+00:00"
+    },
+    "4d65b92185337a00e135033fcf4f93fd7c0ccd530a2a9e48e0570cb5beb1a601": {
+      "endpoint": "chatgpt.com",
+      "result": {
+        "choice": "ai_and_machine_learning",
+        "probabilities": {
+          "ai_and_machine_learning": 0.97,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.01,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.02,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.97,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1064,
+          "output_tokens": 164
+        }
+      },
+      "retrieved_at": "2026-11-22T00:00:59.787802+00:00"
+    },
+    "584c1f548d072eb3cdf76f8532670bafde8526f3aa14ac982614459365122c7e": {
+      "endpoint": "claude.ai",
+      "result": {
+        "choice": "communication_and_support",
+        "probabilities": {
+          "ai_and_machine_learning": 0.29,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.6,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.11,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.57,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1041,
+          "output_tokens": 163
+        }
+      },
+      "retrieved_at": "2026-11-22T00:01:00.053400+00:00"
+    },
+    "8df01f74f5a8b7d60b9b7d08af8124f02b14c63531216222b5480ded51ec6cc7": {
+      "endpoint": "cursor.com",
+      "result": {
+        "choice": "technology_and_development",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 1.0
+        },
+        "confidence": 1.0,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1126,
+          "output_tokens": 166
+        }
+      },
+      "retrieved_at": "2026-11-22T00:01:00.281010+00:00"
+    },
+    "a3e431db8e4c8846264bf1c04524a560f34d239ce250feb09a24f6c45d0c214e": {
+      "endpoint": "documind-ai.com",
+      "result": {
+        "choice": "data_and_analytics",
+        "probabilities": {
+          "ai_and_machine_learning": 0.06,
+          "business_and_finance": 0.29,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.64,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.01,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.61,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1112,
+          "output_tokens": 165
+        }
+      },
+      "retrieved_at": "2026-11-22T00:01:00.535064+00:00"
+    },
+    "746ee1c0160fabce8aa8ce007ae33b7c3a839981cd01152923ee2c8a05506e70": {
+      "endpoint": "gemini.google.com",
+      "result": {
+        "choice": "ai_and_machine_learning",
+        "probabilities": {
+          "ai_and_machine_learning": 0.99,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.01,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.99,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1126,
+          "output_tokens": 164
+        }
+      },
+      "retrieved_at": "2026-11-22T00:01:00.762329+00:00"
+    },
+    "36ba78aff5574dce9c4779f0ec4b5439e81ded527ffa7d834e832c9aa71bb606": {
+      "endpoint": "github.com/copilot",
+      "result": {
+        "choice": "technology_and_development",
+        "probabilities": {
+          "ai_and_machine_learning": 0.08,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.92
+        },
+        "confidence": 0.91,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1117,
+          "output_tokens": 166
+        }
+      },
+      "retrieved_at": "2026-11-22T00:01:01.012468+00:00"
+    },
+    "01d8f992d55ebee04f940508e963017ac0eda57d689d4c3a6a81cfb0d99d6409": {
+      "endpoint": "grammarly.com",
+      "result": {
+        "choice": "media_and_content_creation",
+        "probabilities": {
+          "ai_and_machine_learning": 0.38,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.01,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.58,
+          "operations_and_management": 0.02,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.01,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.55,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1040,
+          "output_tokens": 164
+        }
+      },
+      "retrieved_at": "2026-11-22T00:01:01.244105+00:00"
+    },
+    "077204756992b598e685b966acb45f0e81d77a13091e10b0133093a2d4da6f3e": {
+      "endpoint": "jasper.ai",
+      "result": {
+        "choice": "marketing_and_sales",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.99,
+          "media_and_content_creation": 0.01,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.99,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1126,
+          "output_tokens": 163
+        }
+      },
+      "retrieved_at": "2026-11-22T00:01:01.485289+00:00"
+    },
+    "15b67e9d61cecb5c1aad550d39eef62e754637d22e7b881c28ecdd42de189349": {
+      "endpoint": "midjourney.com",
+      "result": {
+        "choice": "media_and_content_creation",
+        "probabilities": {
+          "ai_and_machine_learning": 0.03,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.27,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.7,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.68,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1115,
+          "output_tokens": 164
+        }
+      },
+      "retrieved_at": "2026-11-22T00:01:01.733736+00:00"
+    },
+    "fa6ad98033c53a2f86234c770edce319d3dc2fc3d533d0e96756cfa9bc1960d5": {
+      "endpoint": "perplexity.ai",
+      "result": {
+        "choice": "ai_and_machine_learning",
+        "probabilities": {
+          "ai_and_machine_learning": 0.69,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.15,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.01,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.15,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.67,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1042,
+          "output_tokens": 164
+        }
+      },
+      "retrieved_at": "2026-11-22T00:01:01.969743+00:00"
     }
   }
 }
