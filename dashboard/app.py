@@ -106,11 +106,6 @@ with st.sidebar:
         st.caption("Viewing the last analyzed upload. Edits take effect after Analyze activity.")
     st.divider()
     st.caption("Prototype on synthetic activity and fictional company approvals. Risk scores are rule totals, not breach probabilities. Missing evidence is not evidence of safety.")
-    catalog_dir=ROOT/'data/processed/jev_catalog'
-    if (catalog_dir/'summary.json').exists():
-        coverage=json.loads((catalog_dir/'summary.json').read_text())
-        st.caption(f"Catalog: {coverage['completed_applications']:,} / {coverage['expected_unique_applications']:,} products processed. Company counts cover only this activity file.")
-        if coverage['run_status']=='complete':st.download_button("Download full Jev catalog",(catalog_dir/'all_classified.csv').read_bytes(),"jev_catalog.csv","text/csv")
     department=st.selectbox("Applications used by department",['All',*sorted({d for ds in apps['departments'] for d in ds})])
     status=st.selectbox("AI status",['All','AI tool','Not AI','Unresolved'])
     search=st.text_input("Search application or endpoint")

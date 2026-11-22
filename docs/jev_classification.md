@@ -49,7 +49,7 @@ Outputs live in `data/processed/jev_catalog/`:
 - `summary.json`: completion status, counts, reported input tokens and public-price estimate. This is not an account billing statement.
 - `input_manifest.json`: exact source hashes, model version, policy and deduplication method.
 
-Immutable successful batch responses are stored under ignored `data/cache/jev_catalog/`. Restarting the same command reuses checkpoints and sends only missing products. The process stops on an HTTP/network/validation failure rather than entering a retry loop. `--prepare-only` computes coverage and batching without paid calls. The dashboard offers the complete catalog CSV when the run finishes; enterprise usage remains a separate, much smaller dataset.
+Immutable successful batch responses are stored under ignored `data/cache/jev_catalog/`. Restarting the same command reuses checkpoints and sends only missing products. The process stops on an HTTP/network/validation failure rather than entering a retry loop. `--prepare-only` computes coverage and batching without paid calls. The complete catalog CSV remains a team artifact in this repository. Dashboard downloads are scoped to company findings; enterprise usage remains a separate, much smaller dataset.
 
 
 ### Completed full-catalog results

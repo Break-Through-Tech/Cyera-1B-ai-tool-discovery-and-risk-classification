@@ -93,7 +93,7 @@ The lookup combines the full saved Jev catalog (17,107 identities), the richer 2
 
 The default upload does not adopt catalog approvals. **Adopt fictional catalog controls and approvals** explicitly scopes these synthetic values to the selected fictional company. Optional control metadata remains synthetic. Product classification probabilities, optional category second opinions, and governance scores are displayed separately.
 
-Sidebar filters select applications; usage/risk figures for each selected application retain their whole-company scope. Investigation, heatmaps, daily activity and company switching are preserved. **Download full Jev catalog** exports the broader catalog rather than the selected company's smaller application list. The All applications tab exports filtered findings; Evidence & exports offers the complete company report and ingestion details.
+Sidebar filters select applications; usage/risk figures for each selected application retain their whole-company scope. Investigation, heatmaps, daily activity and company switching are preserved. The full Jev catalog remains a team artifact in the repository; the dashboard exports only company findings. The All applications tab exports filtered findings; Evidence & exports offers the complete company report and ingestion details.
 
 **Evidence & exports** also supports local report questions with citations using the report assistant. Install `modeling/requirements-retrieval.txt` and supply the existing local encoder at its configured path. No encoder is downloaded and no Gemini generation is enabled by this interface. Questions use the complete current-company report, independently of display filters. Missing encoders produce a visible setup message.
 
