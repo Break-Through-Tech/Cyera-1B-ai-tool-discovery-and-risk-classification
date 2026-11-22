@@ -1,46 +1,22 @@
-# Dashboard demo
+# Unified dashboard recording guide
 
-Run from the repository root in your Python environment:
+Run `python -m pip install -r dashboard/requirements.txt`, then `python -m streamlit run dashboard/app.py` from the repository root. The interface uses the team's Component 5 dashboard, with integrated upload analysis, Jev catalog coverage, reviewed purposes, and evidence questions. Full setup and input details are in [dashboard/README.md](../dashboard/README.md).
 
-```bash
-python -m pip install -r dashboard/requirements.txt
-python -m streamlit run dashboard/app.py
-```
+## Recording sequence
 
-The dashboard works offline without API keys. It opens the saved Jev-classified NovaTech report when available, falling back to the earlier Component 4 report: 21 applications, 9 AI-focused, 12 conventional, and 3 high governance priorities. These are demonstration findings, not classifier accuracy measurements.
+1. Explain the problem: companies need visibility into AI usage and explainable governance concerns.
+2. Open **Summit Financial → Investigate**. Show DocuMind AI, an application originally absent from the catalog, its saved discovery source, reviewed purpose, employee departments, and governance reasons. Its saved discovery used the earlier pipeline; do not call it a live Jev discovery result.
+3. Show **Overview**: categories, risk distribution including missing evidence, department heatmap, and daily activity. These are synthetic event counts, not measured real-world adoption.
+4. Switch to **NovaTech** to demonstrate company-scoped reports. Department filters select applications; the figures for each selected tool remain whole-company figures.
+5. Select **Analyze activity CSV**, enter a different fictional company, and choose a sample or upload the operational schema. Click **Analyze activity**. Explain that saved product knowledge is reusable, while usage and governance are recalculated. Approvals are not borrowed from the saved company's report. Fictional controls require explicit adoption.
+6. Investigate a matched product: show Jev AI/non-AI probabilities separately from the purpose-category opinion and the governance rule total. Unknown and conflicting identities remain under review.
+7. Download the filtered findings, complete company report, or full catalog. Catalog coverage is 17,107 identities; each company's activity uses only a small subset.
+8. If the local encoder is installed, ask **Why was DocuMind AI flagged?** under **Evidence & exports** and show the cited report facts. This is local evidence retrieval, not a live Gemini response.
 
-## Recording walkthrough
+## Explain the limits
 
-1. Explain the problem: an analyst needs to discover AI usage and understand governance concerns across departments.
-2. Show **Overview** for counts, priority distribution, and departmental coverage. Counts at the top cover the entire analyzed file; charts and tables follow the sidebar filters. User counts belong to individual applications and cannot be added to obtain unique enterprise users.
-3. Show **Applications**, filter by department or AI status, and download the filtered findings CSV.
-4. Show **Investigate**, select an application, and explain its score using the displayed rules, points, evidence gaps, and control provenance. High priority can also apply to conventional tools. Synthetic controls are fictional; scores are priorities rather than breach probabilities.
-5. Select **Analyze activity CSV** in the sidebar. Start with the sample, or upload a CSV. Click **Analyze / load data**. Usage and governance are recalculated from the input. Product decisions may be reused only for exact saved identities; previous company approvals and usage are not carried over. Fictional controls and approvals require the explicit checkbox.
-6. Export the complete analysis JSON to preserve findings and explanations. **Open saved report** accepts a single-company Component 4 report.
+The original labels and Jev predictions are preserved separately. Of 17,107 catalog identities, 9,814 have AI predictions, 1,412 conventional predictions, and 5,881 unknown/review results. There are 1,052 resolved disagreements with source labels. Neither agreement with noisy labels nor passing code checks establishes real-world accuracy.
 
-## Input contract
+The team's category comparison covers 154 held-out tools using noisy reference labels. It measures purpose categorization, not AI/non-AI detection. A reviewed binary Jev/local-model comparison remains separate evaluation work.
 
-Activity requires `application_name` and `domain`. Use the downloadable sample for the complete operational schema, including `user_id`, `department`, and `timestamp`. Missing usage fields remain missing evidence. Malformed identities are rejected and their ingestion details are available in Workflow & evidence. The prototype accepts at most 100,000 rows and 25 MB of activity data.
-
-Optional control CSVs use `tool_name` and `domain` plus the operational governance fields. Uploaded controls are treated as synthetic. Uploading metadata by itself does not adopt approval values.
-
-## What runs and what remains
-
-```mermaid
-flowchart LR
-    A[Saved report or activity CSV] --> B[Dashboard adapter]
-    B --> C[Operational ingestion and exact catalog matching]
-    C --> D[Saved product decisions or unknown]
-    D --> E[Company evidence and rule-based governance]
-    E --> F[Overview / applications / explanations / exports]
-```
-
-- `dashboard/app.py`: interface, filters, charts, downloads, and investigation view.
-- `ai_discovery/dashboard_data.py`: validates input, calls the existing ingestion/catalog/governance code, scopes evidence to the company, and prepares display/export rows.
-- `tests/test_dashboard.py`: six automated checks covering sample totals, new activity, unknown products, company isolation, input validation, exports, and interface startup.
-
-This interface does not run live Jev, Gemini, web research, model training, or fresh category-model inference. It can reuse saved product classifications/categories and exact catalog entries. Unresolved applications remain unknown. Jev sample classification has completed through the separate API command; see [the Jev run guide](jev_classification.md). New identities require another explicit classification run. No key is required to view saved results.
-
-The optional report question feature needs the separately installed `modeling/requirements-retrieval.txt` dependencies and existing local encoder at the project's default encoder path. It retrieves evidence from the current report and does not make paid calls. Counts and explanations remain usable without that feature.
-
-Synthetic activity, source-assigned labels, saved predictions, and fictional security controls limit what this demonstration establishes. Evaluating Jev against the local classifier on a shared held-out set and validating on representative real data remain future work.
+No paid calls occur while viewing reports, asking local evidence questions or analyzing uploaded activity. Unfamiliar products without saved evidence remain unresolved in the interface. The explicit online pipeline can research products with Gemini and classify them with Jev; live validation of the newly connected provider path and stronger independent evaluation remain necessary.

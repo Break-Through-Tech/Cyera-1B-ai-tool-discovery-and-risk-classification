@@ -1,0 +1,15 @@
+{
+  "jev_second_opinion": "data/processed/dashboard_runs/jev_second_opinion.json",
+  "companies": [
+    {
+      "company": "Summit Financial",
+      "run_dir": "data/processed/dashboard_runs/summit_reviewed",
+      "activity": "data/raw/summit_financial_usage (1).csv"
+    },
+    {
+      "company": "NovaTech",
+      "run_dir": "data/processed/dashboard_runs/novatech_reviewed",
+      "activity": "data/raw/novatech_usage.csv"
+    }
+  ]
+}

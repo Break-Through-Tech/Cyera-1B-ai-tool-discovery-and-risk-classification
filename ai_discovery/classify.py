@@ -235,7 +235,9 @@ def main():
     p.add_argument('--cache', type=Path, default=ROOT/'data/cache/enrichment_cache.json')
     p.add_argument('--decision-cache', type=Path, default=ROOT/'data/cache/ai_classification_cache.json')
     p.add_argument('--output', type=Path, default=ROOT/'data/processed/ai_discovery_classification.json')
-    p.add_argument('--model', default='gemini-3.8-flash')
+    p.add_argument('--model', default='gemini-3.8-flash',help='Gemini research / legacy classifier model')
+    p.add_argument('--provider',choices=['gemini','jev'],default='gemini')
+    p.add_argument('--jev-model',default='jev-1.14.0')
     p.add_argument('--trust-application-names', action='store_true',
                    help='Use reliable enterprise product names with compatible shared domains')
     p.add_argument('--refresh', action='store_true')
@@ -265,14 +267,20 @@ def main():
             from google import genai
             client = genai.Client(api_key=os.environ['GEMINI_API_KEY'], http_options={'timeout':60000})
         return client
+    def detect(identity,reports):
+        if args.provider=='jev':
+            from .jev import classify_reports
+            return classify_reports(identity,reports,args.trust_application_names,args.jev_model)
+        return classify(api(),args.model,identity,reports,args.trust_application_names)
     results = []
     try:
         for source_key, entry in list(source['entries'].items())[:args.limit]:
             name, endpoint = json.loads(source_key)
             key = identity_key(name,endpoint)
             identity = dict(application_name=name,endpoint=endpoint)
-            fingerprint = hashlib.sha256(json.dumps({'version':VERSION,'policy':POLICY,'model':args.model,
-                'identity':identity,'source':entry,'identity_policy':identity_policy(args.trust_application_names)},sort_keys=True).encode()).hexdigest()
+            fingerprint = hashlib.sha256(json.dumps({'version':VERSION,'policy':POLICY,'model':args.model,'provider':args.provider,'jev_model':args.jev_model if args.provider=='jev' else None,
+                'identity':identity,'source':entry,'identity_policy':identity_policy(args.trust_application_names),
+                'provider_runtime_sha256':hashlib.sha256(Path(__file__).with_name('jev.py').read_bytes()).hexdigest() if args.provider=='jev' else None},sort_keys=True).encode()).hexdigest()
             old = saved['entries'].get(key)
             human = key in reviews or (old and old.get('decision_source') == 'human_review')
             hit = bool(old and old.get('fingerprint') == fingerprint and not args.refresh
@@ -287,12 +295,12 @@ def main():
                 reports, attempts = [entry['report']], []
                 failed = False
                 try:
-                    decision, meta = classify(api(), args.model, identity, reports, args.trust_application_names)
+                    decision,meta=detect(identity,reports)
                     attempts.append({'stage':'initial_classification','decision':decision,'metadata':meta})
                     if should_research(decision):
                         extra = research(api(),args.model,identity,decision,args.trust_application_names)
                         reports.append(extra)
-                        decision, meta = classify(api(),args.model,identity,reports,args.trust_application_names)
+                        decision,meta=detect(identity,reports)
                         attempts.append({'stage':'classification_after_research','decision':decision,'metadata':meta})
                     if decision['label'] == 'unknown' and decision['next_action'] == 'web_research':
                         decision = dict(decision, next_action='human_review')
@@ -301,9 +309,12 @@ def main():
                     decision = dict(label='unknown',identity_supported=False,reason_code='technical_error',
                         reason='API/setup/response error: '+type(exc).__name__,missing_information='Resolve technical error and rerun.',next_action='retry_after_error')
                 result = dict(identity, **decision, reports=reports, attempts=attempts, fingerprint=fingerprint,
-                    classified_at=now(), decision_source='gemini', requested_model=args.model,cache_hit=False,
+                    classified_at=now(), decision_source=args.provider, requested_model=args.jev_model if args.provider=='jev' else args.model,cache_hit=False,
                     identity_mode='trusted_application_name' if args.trust_application_names else 'strict_endpoint')
                 result['technical_error'] = failed
+                if attempts and (attempts[-1].get('metadata') or {}).get('probabilities'):
+                    result['probabilities']=attempts[-1]['metadata']['probabilities']
+                    result['returned_model']=attempts[-1]['metadata']['model']
             result.setdefault('next_action', 'human_review' if result['label']=='unknown' else 'none')
             result.update(is_ai_tool=None if result['label']=='unknown' else result['label']=='ai',
                           classification_status='unresolved' if result['label']=='unknown' else 'classified',

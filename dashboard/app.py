@@ -1,200 +1,361 @@
-"""Run from repository root: python -m streamlit run dashboard/app.py."""
+"""AI Governance Console - Component 5 (VISION.md).
+
+Run from the project root:
+    .venv/bin/streamlit run dashboard/app.py
+
+Reads saved Components 1-4 output listed in dashboard/companies.json. It does not
+re-run detection, categorization or risk scoring.
+"""
+from __future__ import annotations
+
 import sys
-from pathlib import Path
-sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 import json
-import tempfile
+import hashlib
+from pathlib import Path
+
 import pandas as pd
+import plotly.express as px
+import plotly.graph_objects as go
 import streamlit as st
-from ai_discovery.dashboard_data import ROOT,SAMPLE,ACTIVITY,load_report,analyze,flattened,csv_export
 
-st.set_page_config(page_title='AI Usage & Governance',page_icon='🔎',layout='wide')
-st.markdown('''<style>
-.block-container {padding-top:2rem; max-width:1450px}
-[data-testid="stMetric"] {border:1px solid #334155;border-radius:12px;padding:16px}
-h1 {letter-spacing:-.03em} .stCaption {color:#94a3b8}
-</style>''',unsafe_allow_html=True)
-st.title('AI Usage & Governance')
-st.write('Explore application usage, distinguish AI-focused tools, and investigate governance priorities.')
-st.caption('Fictional enterprise demonstration · Evidence-based priorities, not breach probabilities')
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from dashboard.data import (  # noqa: E402
+    investigation_queue, jev_check, load_company, load_config, load_jev, missing_evidence_text,
+    ROOT, _path,
+)
 
-@st.cache_data
-def sample_bytes():return SAMPLE.read_bytes()
+from dashboard.workflow import product_reference, uploaded_run, report_answer, csv_export
 
-JEV_REPORT=ROOT/'data/processed/pipeline_runs/novatech_jev_classification.json'
+# Reference palette (dataviz skill): status colours are reserved for risk and
+# always shown with an icon + text label; one blue for single-series marks.
+RISK_COLOR = {"high": "#d03b3b", "medium": "#fab219", "low": "#0ca30c", "unknown": "#8a8984"}
+RISK_ICON = {"high": "🔴", "medium": "🟠", "low": "🟢", "unknown": "⚪"}
+SERIES = "#2a78d6"
+SEQUENTIAL = ["#cde2fb", "#9ec5f4", "#6da7ec", "#3987e5", "#256abf", "#184f95", "#0d366b"]
+SOURCE_TEXT = {"catalog": "AI-tool catalog", "model": "category model (provisional)",
+               "human_review": "human review", None: "—"}
 
-@st.cache_data
-def jev_report_bytes(classification_content,activity_content):
-    # Rebuild the demo locally instead of tracking a duplicate multi-megabyte report.
-    from ai_discovery.jev import dashboard_report
-    report=dashboard_report(json.loads(classification_content),activity_content,demo_controls=True)
-    return json.dumps(report,ensure_ascii=False,allow_nan=False).encode('utf-8')
+st.set_page_config(page_title="AI Governance Console", page_icon="🛡️", layout="wide")
 
-def saved_jev_bytes():
-    return jev_report_bytes(JEV_REPORT.read_bytes(),ACTIVITY.read_bytes())
 
-if 'report' not in st.session_state:
-    st.session_state.report=load_report(saved_jev_bytes() if JEV_REPORT.exists() else sample_bytes())
-    st.session_state.source_name='NovaTech saved Jev report' if JEV_REPORT.exists() else 'NovaTech saved Component 4 report'
+@st.cache_data(show_spinner="Loading pipeline results…")
+def get_run(entry: dict):
+    run = load_company(entry)
+    return run.apps, run.events, run.warnings, run.raw
+
+
+def risk_badge(level: str, score=None) -> str:
+    s = f" ({score:g})" if score is not None and pd.notna(score) else " (unknown score)"
+    return f"{RISK_ICON.get(level, '⚪')} **{level.title()} risk{s}**"
+
+
+def style_fig(fig, height=320):
+    fig.update_layout(height=height, margin=dict(l=8, r=8, t=8, b=8), bargap=0.4,
+                      showlegend=False, hoverlabel=dict(font_size=13))
+    fig.update_xaxes(showgrid=False, title=None)
+    fig.update_yaxes(gridcolor="rgba(128,128,128,0.18)", title=None)
+    return fig
+
+
+# ---------------------------------------------------------------- sidebar
+companies = load_config()
+
+@st.cache_data(show_spinner="Loading saved product evidence…")
+def get_reference(signature):
+    return product_reference()
+
+def reference_signature():
+    paths=[ROOT/'data/processed/jev_catalog/all_classified.csv',ROOT/'data/processed/pipeline_runs/novatech_jev_classification.json']
+    paths += [_path(c['run_dir'])/'categorized_applications.json' for c in companies]
+    return tuple((str(p),p.stat().st_mtime_ns,p.stat().st_size) for p in paths if p.exists())
 
 with st.sidebar:
-    st.header('Data source')
-    mode=st.radio('Choose an input',['Saved NovaTech report','Analyze activity CSV','Open saved report']+(['Saved Jev results'] if JEV_REPORT.exists() else []),index=3 if JEV_REPORT.exists() else 0)
-    activity=None;uploaded=None;metadata=None;demo=False;company=''
-    if mode=='Analyze activity CSV':
-        company=st.text_input('Fictional company',value='NovaTech')
-        use_sample=st.checkbox('Use the sample activity CSV',value=True)
+    st.header("AI Governance Console")
+    source=st.radio("Data source",["Saved company","Analyze activity CSV"])
+    if source=="Saved company":
+        choice=st.radio("Company",[c["company"] for c in companies])
+        entry=next(c for c in companies if c["company"]==choice)
+        apps,events,warnings,raw=get_run(entry)
+    else:
+        company=st.text_input("Fictional company",value="ExampleCorp")
+        use_sample=st.checkbox("Use sample activity CSV",value=False)
+        content=None
         if use_sample:
-            activity=ACTIVITY.read_bytes()
-            st.caption('30,000 synthetic activity events. Usage and risk are recalculated on Analyze.')
+            sample=st.selectbox("Sample activity",[c["company"] for c in companies])
+            sample_entry=next(c for c in companies if c["company"]==sample)
+            content=_path(sample_entry['activity']).read_bytes()
         else:
-            file=st.file_uploader('Activity CSV',type=['csv'])
-            if file:activity=file.getvalue()
-        reuse=st.checkbox('Reuse exact saved product decisions',value=True,help='Reuses product classifications/categories, not old usage or company controls. It does not call Jev.')
-        demo=st.checkbox('Use provided fictional controls and approvals',value=False,help='Explicitly adopts invented catalog approval values for this fictional company. These are not verified vendor controls.')
-        metadata=st.file_uploader('Optional synthetic control metadata CSV',type=['csv'])
-        st.caption('Metadata needs tool_name and domain; security fields remain synthetic. Uploading metadata alone does not adopt its approval values.')
-    elif mode=='Open saved report':
-        uploaded=st.file_uploader('Component 4 report JSON',type=['json'])
-    if st.button('Analyze / load data',type='primary'):
-        try:
-            with st.spinner('Preparing findings…'):
-                if mode=='Saved Jev results':
-                    report=load_report(saved_jev_bytes());source='NovaTech saved Jev report'
-                elif mode=='Saved NovaTech report':
-                    report=load_report(sample_bytes());source='NovaTech saved Component 4 report'
-                elif mode=='Open saved report':
-                    if uploaded is None:raise ValueError('Choose a report JSON file')
-                    report=load_report(uploaded.getvalue());source=uploaded.name
-                else:
-                    if activity is None:raise ValueError('Choose an activity CSV')
-                    report=analyze(activity,company,load_report(saved_jev_bytes() if JEV_REPORT.exists() else sample_bytes()) if reuse else None,demo,metadata.getvalue() if metadata else None)
-                    source='Fresh offline activity analysis'
-                st.session_state.report=report;st.session_state.source_name=source
-                st.session_state.pop('question_result',None)
-        except (ValueError,KeyError,OSError,UnicodeError) as error:st.error('Unable to analyze this input: '+str(error))
+            uploaded=st.file_uploader("Activity CSV",type=['csv'])
+            if uploaded:content=uploaded.getvalue()
+        controls=st.checkbox("Adopt fictional catalog controls and approvals",value=False,
+            help="Explicitly adopts synthetic approval/control values for this fictional company only.")
+        metadata=st.file_uploader("Optional synthetic control metadata CSV",type=['csv'])
+        if st.button("Analyze activity",type="primary"):
+            try:
+                if content is None:raise ValueError("Choose an activity CSV or sample.")
+                with st.spinner("Recalculating company usage and governance…"):
+                    reference=get_reference(reference_signature())
+                    st.session_state.upload_run=uploaded_run(content,company,reference,controls,metadata.getvalue() if metadata else None)
+                st.session_state.pop('report_answer',None)
+            except (ValueError,KeyError,OSError,UnicodeError) as error:st.error(str(error))
+        if 'upload_run' not in st.session_state:
+            st.info("Choose a CSV and click Analyze activity. No API calls are made.")
+            st.stop()
+        run=st.session_state.upload_run
+        choice=run.company;apps,events,warnings,raw=run.apps,run.events,run.warnings,run.raw
+        st.caption("Viewing the last analyzed upload. Edits take effect after Analyze activity.")
     st.divider()
-    st.markdown('**Jev status: saved classifications available**' if JEV_REPORT.exists() else '**Jev status: no saved run available**')
-    st.caption('Jev runs through the separate classification command. This dashboard reuses saved decisions without API calls; unfamiliar tools stay unknown until classified.')
-    st.download_button('Download sample activity',ACTIVITY.read_bytes(),'novatech_usage.csv','text/csv')
-    catalog_directory=ROOT/'data/processed/jev_catalog'
-    if (catalog_directory/'summary.json').exists():
-        catalog_summary=json.loads((catalog_directory/'summary.json').read_text())
-        st.caption(f"Catalog classification coverage: {catalog_summary['completed_applications']:,} / {catalog_summary['expected_unique_applications']:,} products. Company usage counts below cover only the selected activity file.")
-        if catalog_summary.get('run_status')=='complete':
-            st.download_button('Download full Jev catalog', (catalog_directory/'all_classified.csv').read_bytes(),'jev_catalog_classifications.csv','text/csv')
+    st.caption("Prototype on synthetic activity and fictional company approvals. Risk scores are rule totals, not breach probabilities. Missing evidence is not evidence of safety.")
+    catalog_dir=ROOT/'data/processed/jev_catalog'
+    if (catalog_dir/'summary.json').exists():
+        coverage=json.loads((catalog_dir/'summary.json').read_text())
+        st.caption(f"Catalog: {coverage['completed_applications']:,} / {coverage['expected_unique_applications']:,} products processed. Company counts cover only this activity file.")
+        if coverage['run_status']=='complete':st.download_button("Download full Jev catalog",(catalog_dir/'all_classified.csv').read_bytes(),"jev_catalog.csv","text/csv")
+    department=st.selectbox("Applications used by department",['All',*sorted({d for ds in apps['departments'] for d in ds})])
+    status=st.selectbox("AI status",['All','AI tool','Not AI','Unresolved'])
+    search=st.text_input("Search application or endpoint")
+    mask=apps['departments'].map(lambda ds:department=='All' or department in ds)
+    if status!='All':mask &= apps['ai_status'].eq(status)
+    if search:mask &= (apps['name']+' '+apps['endpoint']).str.contains(search,case=False,regex=False)
+    apps=apps[mask].copy();events=events[events['application_id'].isin(apps['application_id'])].copy()
+    st.caption("Filters select applications. Usage and governance remain whole-company figures for each selected application.")
+for w in warnings:
+    st.warning(w)
+
+jev = load_jev()
+apps = apps.assign(
+    jev_opinion=apps["endpoint"].map(lambda e: jev.get(e)),
+)
+apps["jev_check"] = [jev_check(c, o) for c, o in zip(apps["category"], apps["jev_opinion"])]
+
+ai_ids = set(apps.loc[apps["is_ai_tool"].isin([True]), "application_id"])
+ai_apps = apps[apps["application_id"].isin(ai_ids)]
+unresolved = apps[apps["is_ai_tool"].isna()]
+queue = investigation_queue(apps)
+ai_events = events[events["application_id"].isin(ai_ids)]
+
+period = ""
+if not events.empty:
+    valid_times=events["timestamp"].dropna()
+    if not valid_times.empty:period = f"{valid_times.min():%b %d} – {valid_times.max():%b %d, %Y}"
+
+st.title(f"{choice}")
+if source=="Saved company":
+    st.caption("Saved reviewed pipeline report; original detection sources are preserved. CSV analysis uses the current saved Jev product lookup.")
+else:
+    st.caption("Fresh offline company analysis using saved product knowledge. No live API requests.")
+st.caption(f"Activity {period} · {len(events):,} events · {events['employee_id'].nunique():,} employees · "
+           f"{len(apps)} applications observed")
+
+k1, k2, k3, k4, k5 = st.columns(5)
+k1.metric("AI tools discovered", len(ai_apps))
+k2.metric("AI tools not approved", int((ai_apps["approval"] != "approved").sum()),
+          help="Unapproved, under review, or with no approval record.")
+k3.metric("High-risk AI tools", int((ai_apps["risk_level"] == "high").sum()))
+k4.metric("Unknown apps to resolve", len(unresolved),
+          help="Apps whose AI status could not be determined yet.")
+k5.metric("Employees using AI", f"{ai_events['employee_id'].nunique():,}",
+          help=f"of {events['employee_id'].nunique():,} employees in the activity log")
+
+tab_inv, tab_over, tab_all, tab_evidence = st.tabs(["🔎 Investigate", "📊 Overview", "📋 All applications", "💬 Evidence & exports"])
+if apps.empty:
+    st.info("No applications match these filters.")
+    st.stop()
+
+# ---------------------------------------------------------------- investigate
+with tab_inv:
+    st.subheader("Needs investigation")
+    if queue.empty:
+        st.success("No AI tools are high risk or missing from the approved list.")
+    else:
+        st.caption("AI tools (and unknown apps) that are high risk or not on the approved list.")
+        qv = queue.assign(
+            Risk=queue["risk_level"].map(lambda l: f"{RISK_ICON.get(l, '⚪')} {l.title()}"),
+            Departments=queue["departments"].map(", ".join),
+        )[["name", "flag", "Risk", "risk_score", "category_label", "jev_check", "users", "Departments"]]
+        st.dataframe(
+            qv.rename(columns={"name": "Application", "flag": "Why it's here", "risk_score": "Score",
+                               "category_label": "Category", "jev_check": "Jev check", "users": "Users"}),
+            hide_index=True, width="stretch",
+        )
+
+    st.divider()
+    order = list(queue["application_id"]) + [a for a in apps["application_id"] if a not in set(queue["application_id"])]
+    labels={r["application_id"]:r["name"]+" — "+r["endpoint"] for _,r in apps.iterrows()}
+    selected = st.selectbox("Investigate an application", order, index=0,format_func=labels.get)
+    app = apps[apps["application_id"] == selected].iloc[0]
+    app_events = events[events["application_id"] == app["application_id"]]
+
+    st.markdown(f"### {app['name']}  \n`{app['endpoint']}`")
+    b1, b2, b3, b4 = st.columns(4)
+    b1.markdown(risk_badge(app["risk_level"], app["risk_score"]))
+    b2.markdown(f"**AI status:** {app['ai_status']}")
+    b3.markdown(f"**Approval:** {app['approval'].replace('_', ' ')}")
+    b4.markdown(f"**Assessment:** {app['assessment_status']}")
+
+    left, right = st.columns([3, 2], gap="large")
+    with left:
+        st.markdown("#### Why this risk level")
+        if app["reasons"]:
+            for r in app["reasons"]:
+                st.markdown(f"- **+{r['points']}** {r['text']}")
+        else:
+            st.markdown("_No risk rules were triggered._")
+        if app["missing_evidence"]:
+            st.warning("**Incomplete assessment.** No evidence was available for: "
+                       + ", ".join(missing_evidence_text(app["missing_evidence"]))
+                       + ". The score could be higher once these are known.")
+        if pd.isna(app["is_ai_tool"]):
+            st.info("**AI status unresolved.** " + (app["detection_reason"] or "")
+                    + " Product evidence or review is required before assigning a binary label.")
+
+        st.caption("Detection source: "+app["detection_source"])
+        if app["detection_probabilities"]:
+            st.write("Jev AI/non-AI probabilities",app["detection_probabilities"])
+            st.caption("Product-classification probabilities are separate from governance scores and category opinions.")
+        if app["catalog_detection_conflict"]:st.warning("Jev/discovery and catalog labels disagree. The effective AI status stays unresolved pending review.")
+        st.markdown("#### Purpose category")
+        source = app["category_source"] if isinstance(app["category_source"], str) else None
+        st.markdown(f"**{app['category_label']}**"
+                    + (f"  \nSource: {SOURCE_TEXT.get(source, source)}" if source else ""))
+        if app["category_source"] == "model" and app["top_three"]:
+            st.caption("Model's top guesses (scores uncalibrated): " + " · ".join(
+                f"{t['category']} {t.get('score_uncalibrated', 0):.0%}" for t in app["top_three"]))
+
+        op = app["jev_opinion"]
+        if isinstance(op, dict):
+            agrees = op["category"] == app["category"]
+            msg = (f"**Jev second opinion:** {op['category']} ({op['probability']:.0%})  \n"
+                   + " · ".join(f"{t['category']} {t['probability']:.0%}" for t in op["top_three"])
+                   + f"  \n_Based on the {op['evidence_source']}. "
+                   "Category evaluation used 154 tools with noisy reference labels (macro-F1 0.59 vs 0.48 for the local model). This is a small category benchmark, not AI/non-AI detection accuracy._")
+            (st.success if agrees else st.warning)(
+                ("✓ Agrees with the assigned category. " if agrees
+                 else "≠ Disagrees with the assigned category; worth a second look. ") + msg)
+
+    with right:
+        st.markdown("#### Usage")
+        u1, u2 = st.columns(2)
+        u1.metric("Employees", f"{app['users']:,}")
+        u2.metric("Events", f"{app['events']:,}")
+        u3, u4 = st.columns(2)
+        u3.metric("Avg upload / event", f"{(app['mean_upload'] or 0) / 1e6:.1f} MB")
+        ratio = app["upload_vs_typical"]
+        u4.metric("vs. typical app", f"{ratio:.1f}×" if pd.notna(ratio) else "—",
+                  help="Average upload per event compared with the median application at this company.")
+        if not app_events.empty and app_events["timestamp"].notna().any():
+            st.caption(f"First seen {app_events['timestamp'].min():%b %d} · last seen {app_events['timestamp'].max():%b %d}")
+
+    if not app_events.empty:
+        c1, c2 = st.columns(2)
+        by_dept = (app_events.groupby("department")["employee_id"].nunique()
+                   .sort_values().reset_index(name="employees"))
+        fig = px.bar(by_dept, x="employees", y="department", orientation="h",
+                     color_discrete_sequence=[SERIES])
+        fig.update_traces(hovertemplate="%{y}: %{x} employees<extra></extra>", marker_line_width=0)
+        c1.markdown("**Employees by department**")
+        c1.plotly_chart(style_fig(fig, 260), width="stretch")
+
+        daily = (app_events.dropna(subset=["timestamp"]).set_index("timestamp").resample("D")["event_id"].count()
+                 .reset_index(name="events"))
+        fig = px.line(daily, x="timestamp", y="events", color_discrete_sequence=[SERIES])
+        fig.update_traces(line_width=2, hovertemplate="%{x|%b %d}: %{y} events<extra></extra>")
+        c2.markdown("**Daily activity**")
+        c2.plotly_chart(style_fig(fig, 260), width="stretch")
+
+# ---------------------------------------------------------------- overview
+with tab_over:
+    c1, c2 = st.columns(2)
+    with c1:
+        st.markdown("**AI tools by category**")
+        cats = ai_apps.assign(category=ai_apps["category"].fillna("Uncategorized"))
+        by_cat = (cats.groupby("category")
+                  .agg(tools=("name", "count"), names=("name", ", ".join), users=("users", "sum"))
+                  .sort_values("tools").reset_index())
+        fig = px.bar(by_cat, x="tools", y="category", orientation="h",
+                     color_discrete_sequence=[SERIES], custom_data=["names"])
+        fig.update_traces(hovertemplate="%{y}<br>%{x} tool(s): %{customdata[0]}<extra></extra>",
+                          marker_line_width=0)
+        fig.update_xaxes(dtick=1)
+        st.plotly_chart(style_fig(fig), width="stretch")
+        st.caption("Categories use the 14 Kaggle labels; '(provisional)' model guesses are counted too.")
+
+    with c2:
+        st.markdown("**Risk level of AI tools**")
+        levels = ["high", "medium", "low", "unknown"]
+        counts = ai_apps["risk_level"].value_counts().reindex(levels, fill_value=0)
+        incomplete = (ai_apps[ai_apps["assessment_status"] != "complete"]["risk_level"]
+                      .value_counts().reindex(levels, fill_value=0))
+        fig = go.Figure(go.Bar(
+            x=counts.values, y=[f"{RISK_ICON[l]} {l.title()}" for l in levels], orientation="h",
+            marker_color=[RISK_COLOR[l] for l in levels], marker_line_width=0,
+            text=[f"{c}  ({i} incomplete)" if i else str(c) for c, i in zip(counts, incomplete)],
+            textposition="outside", hovertemplate="%{y}: %{x} AI tools<extra></extra>",
+        ))
+        fig.update_yaxes(autorange="reversed")
+        fig.update_traces(cliponaxis=False)
+        fig.update_xaxes(range=[0, max(counts.max(), 1) * 1.6], dtick=1)
+        st.plotly_chart(style_fig(fig), width="stretch")
+        st.caption("'Incomplete' = some governance evidence missing, so the score may be understated.")
+
+    st.markdown("**Who uses which AI tools** — unique employees by department")
+    if not ai_events.empty:
+        names = apps.set_index("application_id")["name"]
+        heat = (ai_events.assign(app=ai_events["application_id"].map(names))
+                .pivot_table(index="app", columns="department", values="employee_id",
+                             aggfunc="nunique", fill_value=0))
+        heat = heat.loc[heat.sum(axis=1).sort_values(ascending=False).index]
+        fig = px.imshow(heat, color_continuous_scale=SEQUENTIAL, aspect="auto", text_auto=True)
+        fig.update_traces(hovertemplate="%{y} · %{x}: %{z} employees<extra></extra>")
+        fig.update_layout(coloraxis_showscale=False)
+        st.plotly_chart(style_fig(fig, 40 + 34 * len(heat)), width="stretch")
+
+    st.markdown("**AI tool activity over time** (events per day, all AI tools)")
+    if not ai_events.empty:
+        daily = (ai_events.dropna(subset=["timestamp"]).set_index("timestamp").resample("D")["event_id"]
+                 .count().reset_index(name="events"))
+        fig = px.line(daily, x="timestamp", y="events", color_discrete_sequence=[SERIES])
+        fig.update_traces(line_width=2, hovertemplate="%{x|%a %b %d}: %{y:,} events<extra></extra>")
+        fig.update_yaxes(rangemode="tozero")
+        st.plotly_chart(style_fig(fig, 260), width="stretch")
+
+# ---------------------------------------------------------------- all apps
+with tab_all:
+    only_ai = st.toggle("AI tools and unknown apps only", value=False)
+    view = apps[apps["is_ai_tool"].isin([True]) | apps["is_ai_tool"].isna()] if only_ai else apps
+    table = view.assign(
+        Risk=view["risk_level"].map(lambda l: f"{RISK_ICON.get(l, '⚪')} {l.title()}"),
+        Departments=view["departments"].map(", ".join),
+        Reasons=view["reasons"].map(lambda rs: " · ".join(r["text"] for r in rs)),
+        upload_mb=(view["mean_upload"] / 1e6).round(2),
+    )[["name", "endpoint", "ai_status", "category_label", "jev_check", "Risk", "risk_score", "approval",
+       "assessment_status", "users", "events", "upload_mb", "Departments", "Reasons"]]
+    table = table.rename(columns={
+        "name": "Application", "endpoint": "Endpoint", "ai_status": "AI status",
+        "category_label": "Category", "jev_check": "Jev check", "risk_score": "Score", "approval": "Approval",
+        "assessment_status": "Assessment", "users": "Users", "events": "Events",
+        "upload_mb": "Avg upload (MB)"})
+    st.dataframe(table, hide_index=True, width="stretch")
+    st.download_button("Download as CSV", csv_export(table.to_dict("records")),
+                       file_name=f"{choice.lower().replace(' ', '_')}_applications.csv", mime="text/csv")
 
 
-report=st.session_state.report;context=report['dashboard_context'];rows=flattened(report)
-st.subheader(context['company'])
-st.caption('Viewing: '+st.session_state.source_name+' · '+context['mode'].replace('_',' '))
-st.info(context['classification_note'])
-columns=st.columns(5)
-values=[len(rows),sum(r['ai_status']=='AI' for r in rows),sum(r['ai_status']=='Conventional' for r in rows),sum(r['ai_status']=='Unknown' for r in rows),sum(r['risk_level']=='high' for r in rows)]
-for column,label,value in zip(columns,['Applications','AI-focused','Conventional','Unknown AI status','High priority'],values):column.metric(label,value)
-st.caption('Overview counts cover the whole analyzed file. “Conventional” describes primary purpose, not the absence of AI features. High priority can apply to conventional applications too.')
-
-with st.sidebar:
-    st.header('Explore results')
-    department=st.selectbox('Department',['All',*sorted({d for r in rows for d in r['departments']})])
-    ai=st.selectbox('AI status',['All','AI','Conventional','Unknown'])
-    priority=st.selectbox('Governance priority',['All','high','medium','low','unknown'])
-    approval=st.selectbox('Approval',['All',*sorted({r['approval'] for r in rows})])
-    search=st.text_input('Search application or endpoint')
-visible=[r for r in rows if (department=='All' or department in r['departments']) and (ai=='All' or r['ai_status']==ai) and (priority=='All' or r['risk_level']==priority) and (approval=='All' or r['approval']==approval) and (not search or search.casefold() in (r['application']+' '+r['endpoint']).casefold())]
-frame=pd.DataFrame([{**r,'departments':', '.join(r['departments'])} for r in visible])
-overview,applications,investigation,about=st.tabs(['Overview','Applications','Investigate','Workflow & evidence'])
-with overview:
-    st.markdown('#### Usage and priorities')
-    st.caption(f'{len(visible)} applications match the current filters. User counts are per application and must not be summed across tools.')
-    a,b=st.columns(2)
-    if visible:
-        a.markdown('**Applications by priority**')
-        a.bar_chart(pd.Series({level:sum(r['risk_level']==level for r in visible) for level in ('high','medium','low','unknown')},name='Applications'))
-        b.markdown('**Applications by department**')
-        b.bar_chart(pd.Series({d:sum(d in r['departments'] for r in visible) for d in sorted({d for r in visible for d in r['departments']})},name='Applications'))
-    else:st.info('No applications match these filters.')
-    summary=report.get('ingestion',{}).get('summary',{})
-    st.write('Activity accounting:',{'input events':summary.get('input_rows'),'accepted':summary.get('accepted_events'),'rejected':summary.get('rejected_events')})
-    daily=context.get('daily_events')
-    if daily:
-        st.markdown('**Recorded daily activity**')
-        daily_frame=pd.DataFrame({'Date':pd.to_datetime(list(daily)),'Events':list(daily.values())}).set_index('Date')
-        st.line_chart(daily_frame)
-        st.caption('Event volume in synthetic input—not distinct users, adoption growth, or real-world behavior. Invalid/missing timestamps: '+str(context.get('events_missing_or_invalid_timestamp',0)))
-    st.markdown('#### Applications to investigate')
-    queue=[r for r in visible if r['needs_review'] or r['risk_level'] in ('high','medium')]
-    if queue:st.dataframe(pd.DataFrame([{k:r[k] for k in ('application','ai_status','risk_level','risk_score','evidence_status')} for r in queue]),hide_index=True,width='stretch')
-    else:st.caption('No review items under the current filters. This is not an assurance of safety.')
-
-with applications:
-    st.markdown('#### Application findings')
-    if not frame.empty:
-        st.dataframe(frame.drop(columns=['application_id']),hide_index=True,width='stretch')
-    else:st.info('No matching applications.')
-    st.caption('Purpose categories may be catalog-assigned or provisional model predictions. The source/status columns distinguish them.')
-    st.download_button('Download filtered findings CSV',csv_export(visible),'application_findings.csv','text/csv')
-
-with investigation:
-    if visible:
-        choices={r['application_id']:r['application']+' — '+r['endpoint'] for r in visible}
-        selected=st.selectbox('Select an application',list(choices),format_func=choices.get)
-        item=next(r for r in report['results'] if r['application_id']==selected);flat=next(r for r in visible if r['application_id']==selected)
-        g=item['governance'];st.markdown('#### '+flat['application'])
-        a,b,c=st.columns(3);a.metric('Priority',flat['risk_level']);b.metric('Score',flat['risk_score'] if flat['risk_score'] is not None else 'Unknown');c.metric('Recorded users',flat['users'] if flat['users'] is not None else 'Unknown')
-        st.write('Departments:',', '.join(flat['departments']) or 'Unknown')
-        st.write('AI decision:',flat['ai_status'],'· Source:',flat['classification_source'])
-        st.write('Purpose:',flat['category'],'· Source:',flat['category_source'],'· Status:',flat['category_status'])
-        if item.get('probabilities'):
-            st.write('Jev product-classification probabilities:',item['probabilities'])
-            st.caption('These describe AI/non-AI product classification, not security risk or independently measured accuracy.')
-        st.markdown('**Why it was flagged**')
-        reasons=g.get('reasons',[])
-        if reasons:st.dataframe(pd.DataFrame([{'Rule':r['rule'],'Points':r['points'],'Explanation':r['explanation'],'Evidence':r.get('evidence_provenance','unknown')} for r in reasons]),hide_index=True,width='stretch')
-        else:st.write('No triggered rules recorded. Missing evidence can still require review.')
-        if g.get('missing_evidence_rules'):st.warning('Missing or pending evidence: '+', '.join(g['missing_evidence_rules']))
-        if g.get('contains_synthetic_evidence'):st.warning('This assessment includes fictional activity or control settings. It is not a verified vendor-security assessment.')
-        if g.get('data_quality_warnings'):
-            for warning in g['data_quality_warnings']:st.warning(warning)
-        st.caption(g.get('caveat',''))
-        with st.expander('Control evidence and provenance'):
-            fields=g.get('evidence',{})
-            st.dataframe(pd.DataFrame([{'Control':k,'Value':str(v.get('value')),'Provenance':v.get('provenance','unknown'),'Source':v.get('source','Unknown')} for k,v in fields.items()]),hide_index=True,width='stretch')
-        with st.expander('Full application record'):st.json(item)
-    else:st.info('Change the filters to select an application.')
-
-with about:
-    st.markdown('#### What this demonstration does')
-    st.write('Activity CSV → application identities → exact catalog / saved product decisions → purpose categories → usage-based and supplied-evidence governance rules → findings.')
-    st.write('Saved-report mode shows an existing pipeline result. CSV mode freshly ingests events and recalculates usage and risk. It can reuse exact saved product decisions; those are explicitly labeled and are not new Jev inference.')
-    st.write('Jev has processed all 17,107 identities in the current catalog. Download the full results from the sidebar. This company demonstration separately uses 21 applications from its activity file. Saved results include product-choice probabilities; viewing them makes no paid calls. Uncertain results remain unknown.')
-    st.markdown('**Limitations**')
-    st.write('Synthetic usage can differ from real companies. Source-assigned labels and provisional predictions can be wrong. Shared domains and missing product evidence can leave applications unresolved. Scores are explained prototype priorities—not breach probabilities, compliance certification or proof of safety.')
-    with st.expander('Rejected activity records'):
-        rejected=report.get('ingestion',{}).get('rejected_rows',[])
-        if rejected:st.dataframe(pd.DataFrame(rejected),hide_index=True,width='stretch')
-        else:st.write('No rejected records in this result.')
-    st.markdown('#### Optional local evidence questions')
-    st.caption('Uses the report-search assistant locally. Requires the existing local MiniLM encoder and retrieval packages; no Gemini calls.')
-    question=st.text_input('Question',placeholder='Why was Salesforce flagged?')
-    if st.button('Find report evidence'):
+with tab_evidence:
+    st.subheader("Ask about report evidence")
+    st.caption("Local retrieval over this company's complete report, independent of display filters. No Gemini or Jev calls are made. Unsupported questions are left unanswered.")
+    question=st.text_input("Question",placeholder="Why was DocuMind AI flagged?")
+    if st.button("Find report evidence"):
         try:
-            from ai_discovery.retrieval import build,EvidenceIndex,DEFAULT_ENCODER,load_encoder
-            from ai_discovery.ask import answer
-            if not DEFAULT_ENCODER.exists():raise ValueError('Local search encoder is not installed. Core dashboard analysis still works.')
-            @st.cache_resource
-            def search_encoder():return load_encoder(DEFAULT_ENCODER)
-            encoder=search_encoder()
-            with st.spinner('Retrieving cited report facts…'),tempfile.TemporaryDirectory(prefix='dashboard_evidence_') as temp:
-                folder=Path(temp);source=folder/'analysis.json';source.write_text(json.dumps(report,indent=2,allow_nan=False)+'\n')
-                build([source],folder/'index',DEFAULT_ENCODER,encoder)
-                result=answer(EvidenceIndex(folder/'index',encoder),question,context['company'])
-            st.session_state.question_result=result
+            with st.spinner("Retrieving report evidence…"):
+                answer=report_answer(raw,choice,question)
+            st.session_state.report_answer={'company':choice,'report_hash':hashlib.sha256(json.dumps(raw,sort_keys=True).encode()).hexdigest(),'result':answer}
         except (ValueError,OSError,ImportError,KeyError) as error:st.error(str(error))
-    if st.session_state.get('question_result'):
-        response=st.session_state.question_result;st.write(response['answer'])
-        with st.expander('Question filters and report citations'):st.json(response)
-
-st.divider()
-st.download_button('Download complete analysis JSON',json.dumps(report,indent=2,allow_nan=False)+'\n','analysis.json','application/json')
-st.caption('The export includes methods, reasons, evidence gaps and provenance. It does not turn unknown evidence into confirmed facts.')
+    saved=st.session_state.get('report_answer')
+    if saved and saved['company']==choice and saved['report_hash']==hashlib.sha256(json.dumps(raw,sort_keys=True).encode()).hexdigest():
+        st.write(saved['result']['answer'])
+        with st.expander("Evidence citations and question interpretation"):st.json(saved['result'])
+    st.download_button("Download complete company report",json.dumps(raw,indent=2,ensure_ascii=False,allow_nan=False),"company_report.json","application/json")
+    with st.expander("Ingestion and evidence gaps"):
+        st.json(raw.get('ingestion',{}).get('summary',{}))
+        st.json(raw.get('ingestion',{}).get('rejected_rows',[]))
+    st.caption("Saved company views preserve the team's reviewed reports. Uploads reuse exact saved product predictions and reviewed purposes, then recalculate usage and risk. No approval or usage is inherited from another company. Unknown products remain unresolved. Generated Gemini explanations are not enabled.")

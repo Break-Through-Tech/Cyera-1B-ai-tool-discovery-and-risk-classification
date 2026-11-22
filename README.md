@@ -1,6 +1,6 @@
 # Cyera — AI Tool Discovery & Risk Classification
 
-Investigate application usage at a fictional enterprise: identify AI tools, suggest their purpose, summarize usage, explain governance concerns, and retrieve the evidence behind findings. An offline dashboard now presents the saved findings and can analyze synthetic activity CSVs. Jev has processed all 17,107 unique identities in the current catalog (9,814 AI-focused, 1,412 conventional, 5,881 unknown/review). The separate 21-app enterprise demo remains available; viewing saved results makes no paid calls.
+Investigate application usage at a fictional enterprise: identify AI tools, suggest their purpose, summarize usage, explain governance concerns, and retrieve the evidence behind findings. The unified dashboard preserves the team’s reviewed company reports, investigation views, heatmaps and trends, and adds offline CSV analysis and local evidence questions. Jev has processed all 17,107 unique identities in the current catalog (9,814 AI-focused, 1,412 conventional, 5,881 unknown/review). The separate 21-app enterprise demo remains available; viewing saved results makes no paid calls.
 
 ## Try the dashboard
 
@@ -9,7 +9,7 @@ python -m pip install -r dashboard/requirements.txt
 python -m streamlit run dashboard/app.py
 ```
 
-See the [dashboard recording guide](docs/dashboard_demo.md) for input requirements, a walkthrough, and the distinction between saved decisions and fresh activity analysis. No API key is needed for this offline demo.
+See [dashboard setup and modes](dashboard/README.md) and the [dashboard recording guide](docs/dashboard_demo.md) for input requirements, a walkthrough, and the distinction between saved decisions and fresh activity analysis. No API key is needed for this offline demo.
 
 ## Current workflow
 
@@ -45,7 +45,8 @@ flowchart LR
 | `preprocessing_scripts/` | Data preparation, correction, enrichment and comparison utilities |
 | `data/` | Source data, prepared tables, review evidence and saved pipeline runs |
 | `artifacts/` | Historical model metrics/reports and small validation examples |
-| `dashboard/app.py`, `ai_discovery/dashboard_data.py` | Offline interface and adapter for current reports/activity |
+| `dashboard/app.py`, `data.py`, `workflow.py` | Unified interface, team report views, saved Jev lookup, uploads and report questions |
+| `ai_discovery/dashboard_data.py` | Operational ingestion/catalog/governance adapter for fresh uploaded activity |
 | `tests/` | Automated behavior and consistency checks |
 | `docs/`, `notebooks/` | Methods, limitations, history and exploratory analysis |
 
@@ -72,7 +73,7 @@ Default answers are local evidence summaries with citations, not LLM-generated p
 
 ## Validation and limitations
 
-The Jev integration delivery passes **187 automated tests** in the local validation environment, including 14 retrieval/answer checks and 9 additional grounding/QA checks. Six named-application search smoke queries returned the intended application first; this small developer-authored set is not a broad or independent retrieval benchmark. The 26 developer-authored functional cases also pass; this is not a general answer-accuracy benchmark. Live answer-quality evaluation is still needed.
+The unified dashboard integration passes **203 automated tests** in the local validation environment, including 14 retrieval/answer checks and 9 additional grounding/QA checks. Six named-application search smoke queries returned the intended application first; this small developer-authored set is not a broad or independent retrieval benchmark. The 26 developer-authored functional cases also pass; this is not a general answer-accuracy benchmark. Live answer-quality evaluation is still needed.
 
 Model accuracy figures refer to specific datasets and contracts; do not present earlier 306-row category results as results of the newer full-Kaggle category pipeline. Source-assigned labels, provisional predictions and generated controls are not independently verified truth. Synthetic governance settings demonstrate the project workflow and are labeled; missing evidence never establishes safety.
 
