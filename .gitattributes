@@ -6,3 +6,7 @@
 *.joblib binary
 *.safetensors binary
 *.npz binary
+
+# Category preparation outputs are hash-verified byte for byte (manifest.json).
+# They were written with CRLF line endings; store them exactly as-is.
+data/processed/category/category_preparation_v1/** -text

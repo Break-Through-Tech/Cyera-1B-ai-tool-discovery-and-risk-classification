@@ -1,0 +1,9 @@
+# Minimal, pinned packages for the CI test jobs (no deep-learning stack).
+joblib==1.6.0
+numpy==2.5.5
+pandas==3.1.1
+plotly==7.1.0
+python-dotenv==1.2.4
+scikit-learn==1.7.2
+scipy==1.18.1
+streamlit==1.67.0
