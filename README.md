@@ -62,10 +62,10 @@ python -m pip install -r modeling/requirements-retrieval.txt
 python -m ai_discovery.retrieval \
   --report data/processed/pipeline_runs/novatech_component4_v2.json \
   --encoder /path/to/local/MiniLM/encoder \
-  --out data/cache/governance_retrieval/novatech-v2
+  --out data/cache/governance_retrieval/novatech-chroma-v3
 
 python -m ai_discovery.ask \
-  --index data/cache/governance_retrieval/novatech-v2 \
+  --index data/cache/governance_retrieval/novatech-chroma-v3 \
   --company NovaTech --question 'Why was Salesforce flagged?'
 ```
 

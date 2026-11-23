@@ -75,7 +75,7 @@ On the saved **NovaTech Component 4 v2 snapshot**, containing 21 application ide
 - Unapproved **AI** applications used by Finance: 0 matching records in this snapshot. This differs from counting every unapproved application.
 - Highest priorities: Slack 75, LinkedIn 65, Salesforce 60. These are prototype scenario priorities, not real-world vendor-security ratings.
 
-Results depend on the exact snapshot; later research/repaired reports can differ. Checked-in examples and the original small search evaluation are in `artifacts/governance_retrieval_2026-11-18/`; their manifest hashes refer to the historical FAISS backend. The ChromaDB migration reran the same six queries successfully without changing the labels or encoder.
+Results depend on the exact snapshot; later research/repaired reports can differ. The same six query fixtures were rerun successfully with ChromaDB without changing labels or the encoder. Superseded generated FAISS answer/evaluation files were removed; the source reports and query fixtures remain so these checks can be reproduced.
 
 Six developer-authored, named-application smoke queries were evaluated with semantic ranking **without** natural-language metadata inference. Intended applications ranked first for 6/6 queries (hit@1=1.0, hit@3=1.0, MRR@3=1.0). The six labels refer to one fictional report, are easy name-bearing examples and are not independently reviewed. This is a wiring smoke check, not evidence of general retrieval quality or generated-answer accuracy. Queries and source hash are saved in `data/reviews/retrieval_2026-11-18/queries.json`. No model/threshold was tuned against these queries.
 
@@ -99,20 +99,11 @@ python -m ai_discovery.ask \
 
 This sends the question and retrieved application/control facts to Gemini, may incur cost, and has a 60-second request timeout with automatic retries disabled. It does not send raw activity or employee identifiers. Deterministic count questions never invoke generation. The provider selects exact cited fields/values; application code validates equality and renders them with provenance. Invented values/prose are rejected. This does not establish source truth or question relevance. See [the current generation contract and limitations](answer_validation.md). Live Gemini generation and independent answer-quality evaluation remain unvalidated.
 
-## Compatibility repair included
-
-The November 15 catalog update had removed optional full-correction support while the older `report.py` still called it, causing seven baseline errors and one unresolved-label failure. This change restores the optional correction argument and unresolved-label safeguard while preserving Sadit's newer shared-suite-host restrictions. The operational runner's default matching policy is unchanged when no corrections are passed. Existing and new workflows now coexist without reverting the new Component 3/4 work.
-
 ## Next validation
 
 Build a broader independently reviewed question set with paraphrases, negative queries, conflicting controls, multiple companies and held-out applications. Then validate generated answers for citation support and useful abstention, and test a live provider call only when desired. The dashboard integrates local evidence questions; live generated-answer validation and reviewed binary Jev comparison remain separate work.
 
 Implementation references: [Chroma collection reference](https://docs.trychroma.com/reference/python/collection), [Chroma collection configuration](https://docs.trychroma.com/docs/collections/configure), [Google Gen AI SDK](https://googleapis.github.io/python-genai/).
-
-## Initial retrieval delivery validation
-
-All **151 tests pass** in the local validation environment: 137 existing checks plus 14 new retrieval/answer checks. The new cases cover company isolation before top-k, full-snapshot counts, AI/approval filtering, numeric priority ranking, no-match behavior, source/index changes, duplicate/mixed company snapshots, approval scope, synthetic/provisional caveats, explicit-filter overrides, provider failures without retries and citation validation. `pip check` found no broken requirements. The installed Gemini SDK accepted the configured timeout and disabled retries in a no-request configuration check. No live generation, discovery or governance-research calls were made.
-
 
 ## ChromaDB migration validation
 

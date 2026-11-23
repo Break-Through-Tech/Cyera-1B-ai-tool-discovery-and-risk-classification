@@ -82,12 +82,12 @@ python -m ai_discovery.evaluate_answers \
   --out /tmp/assistant-functional-evaluation.json
 ```
 
-The original results remain in `artifacts/governance_answer_validation_2026-11-18/functional_cases.json`, with historical FAISS fixture/index hashes, statuses, counts, names and failures per case. The ChromaDB migration reran all 26 cases successfully with the same fixtures and local encoder; the original artifact is preserved rather than relabeled as a new Chroma run. The earlier six-query named-application semantic smoke evaluation is retained separately and is not replaced by this functional score.
+The source fixtures and evaluation command above reproduce the 26 functional cases with ChromaDB. Superseded generated FAISS output files were removed. The six-query semantic search check remains a separate test and is not replaced by this functional score.
 
 Next: independent analyst-reviewed questions on real project snapshots, including paraphrases and difficult negative cases, then an explicitly desired live-provider smoke test and answer-usefulness review. Dashboard work remains paused.
 
 ## Runtime and final checks
 
-Indexing/search defaults `OMP_NUM_THREADS` and `MKL_NUM_THREADS` to 1 before lazy native imports, preserving explicit user settings. The small local indexes do not require nested numerical thread pools. These defaults were originally introduced after a macOS crash in the former FAISS backend. They remain conservative defaults for the ChromaDB/local-encoder implementation. The complete suite is validated with these defaults; an explicitly overridden threaded environment has not been validated here.
+Indexing/search defaults `OMP_NUM_THREADS` and `MKL_NUM_THREADS` to 1 before lazy native imports, preserving explicit user settings. The small local indexes do not require nested numerical thread pools. The complete suite is validated with these defaults; an explicitly overridden threaded environment has not been validated here.
 
 The final suite contains 160 tests, including 9 additional grounding/QA checks. The 26 functional cases pass separately using the local MiniLM encoder. No live provider calls were made. Overlapping suite/product names are resolved by full, non-contained mentions (GitHub Copilot does not become GitHub); questions mentioning both still require explicit scope.
