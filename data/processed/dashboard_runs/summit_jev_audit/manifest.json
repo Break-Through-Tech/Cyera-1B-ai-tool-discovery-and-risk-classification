@@ -1,0 +1,23 @@
+{
+  "version": "purpose-categorization-v1",
+  "inputs": {
+    "/Users/minthawzin/Projects/btt_cyera/data/processed/kaggle_dataset_b/kaggle_dataset_b_filled.csv": "a21d09aa3c72c38a46ebd0cb15c936401ed2d4b34ea3912cf8bc7f676f456a6f",
+    "/Users/minthawzin/Projects/btt_cyera/data/processed/final/dataset_b_final_kaggle_categories.csv": "61957c48fbe6143331d13f9b2dc57380708ed0d86a0d0e9d1f8009dd2fb33858",
+    "/Users/minthawzin/Projects/btt_cyera/preprocessing_scripts/prepare_category_data.py": "599c3410fd4e480c20e33f3eec5242db20325ea2617b2f58105e7b6e7f583d41",
+    "/Users/minthawzin/Projects/btt_cyera/category_training/train_categories.py": "02258f4e565b80b4e1d95f2dad3a0c681cbb961650cd0f9798001c8f44a3a546",
+    "data/processed/dashboard_runs/summit_online/categorized_applications.json": "21967c84bbf3ecfd6ad7783f6a2e297b364c0046fb83da7947fc62192ea3be97",
+    "data/raw/summit_financial_usage (1).csv": "b4f412dc01fa2e4fb16dee79b4d645d564a8a8473c65505065eb4cca23c413a5",
+    "/Users/minthawzin/Projects/btt_cyera/artifacts/jev_category_eval/criteria.json": "20db9dfd9d10463d78547dd83424987cc67a98309d6e5182520b520112d078ac",
+    "/Users/minthawzin/Projects/btt_cyera/category_training/jev_category_eval.py": "b09cce8d994b6641a245ed46aafa1e05d4cd487aab907c3457220899c352d4ae"
+  },
+  "script_sha256": "2638c4e10f9052a3302870513af76273e353dcdb16cfa541aa28dc66b346e059",
+  "model": null,
+  "category_api": {
+    "provider": "jev",
+    "model": "jev-latest",
+    "review_threshold": 0.5,
+    "criteria_sha256": "20db9dfd9d10463d78547dd83424987cc67a98309d6e5182520b520112d078ac",
+    "question_version": "jev-category-eval-v1",
+    "evaluation": "docs/jev_category_evaluation.md"
+  }
+}

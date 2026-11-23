@@ -137,5 +137,102 @@ class JevCategoryTests(unittest.TestCase):
             StubEngine(self.args)
 
 
+class CatalogAuditTests(JevCategoryTests):
+    """--audit-catalog-categories: Jev second opinion on catalog categories, never an override."""
+
+    def setUp(self):
+        super().setUp()
+        self.args.audit_catalog_categories = True
+        self.args.audit_flag_threshold = 0.7
+        self.catalog_desc = 'A chat assistant that answers questions and writes text.'
+        self.write_catalog_desc('Communication And Support')
+
+    def write_catalog_desc(self, category):
+        with self.catalog.open('w', newline='', encoding='utf-8') as f:
+            f.write('tool_id,tool_name,domain,category,is_ai_tool,description\n')
+            f.write(f'x,Code Tool,example.com,{category},true,{self.catalog_desc}\n')
+
+    # Inherited JevCategoryTests run again with the audit on; they must still pass.
+
+    def test_confident_disagreement_is_flagged_but_category_unchanged(self):
+        e, calls = self.engine(answer('ai_and_machine_learning', 0.9))
+        r = e.categorize(self.record)
+        self.assertEqual((r['category'], r['category_source']), ('Communication And Support', 'catalog'))
+        check = r['catalog_check']
+        self.assertEqual((check['jev_category'], check['agrees'], check['flagged_for_review']),
+                         ('Ai And Machine Learning', False, True))
+        self.assertEqual(calls, [self.catalog_desc])        # catalog description, nothing else
+
+    def test_low_confidence_disagreement_not_flagged(self):
+        e, _ = self.engine(answer('ai_and_machine_learning', 0.6))
+        check = e.categorize(self.record)['catalog_check']
+        self.assertEqual((check['agrees'], check['flagged_for_review']), (False, False))
+
+    def test_agreement_not_flagged(self):
+        e, _ = self.engine(answer('communication_and_support', 0.95))
+        check = e.categorize(self.record)['catalog_check']
+        self.assertEqual((check['agrees'], check['flagged_for_review']), (True, False))
+
+    def test_unavailable_jev_leaves_catalog_category(self):
+        e, _ = self.engine(error=urllib.error.URLError('offline'))
+        r = e.categorize(self.record)
+        self.assertEqual(r['category_source'], 'catalog')
+        self.assertEqual(r['catalog_check']['status'], 'unavailable')
+
+    def test_human_review_skips_audit(self):
+        e, calls = self.engine(answer('ai_and_machine_learning', 0.9))
+        review = {'reviewed_category': 'Technology And Development', 'reviewer': 'Tester', 'reason': 'Reviewed',
+                  'evidence_sha256': c.helpers.fingerprint(self.record['reports'])}
+        r = e.categorize(self.record, review)
+        self.assertNotIn('catalog_check', r)
+        self.assertEqual(calls, [])
+
+    def test_audit_requires_jev(self):
+        self.args.category_api = 'none'
+        with self.assertRaisesRegex(ValueError, 'requires --category-api jev'):
+            StubEngine(self.args)
+
+    # Inherited tests that assume an empty catalog: run them without the audit catalog.
+    def test_confident_answer_is_provisional_api_category(self):
+        self.write_catalog(self.catalog, [])
+        super().test_confident_answer_is_provisional_api_category()
+
+    def test_low_probability_goes_to_human_review(self):
+        self.write_catalog(self.catalog, [])
+        super().test_low_probability_goes_to_human_review()
+
+    def test_threshold_is_inclusive(self):
+        self.write_catalog(self.catalog, [])
+        super().test_threshold_is_inclusive()
+
+    def test_request_failure_falls_back_to_local_model(self):
+        self.write_catalog(self.catalog, [])
+        super().test_request_failure_falls_back_to_local_model()
+
+    def test_missing_key_falls_back_without_calling(self):
+        self.write_catalog(self.catalog, [])
+        super().test_missing_key_falls_back_without_calling()
+
+    def test_out_of_taxonomy_answer_falls_back(self):
+        self.write_catalog(self.catalog, [])
+        super().test_out_of_taxonomy_answer_falls_back()
+
+    def test_cached_answer_is_reused_across_runs(self):
+        self.write_catalog(self.catalog, [])
+        super().test_cached_answer_is_reused_across_runs()
+
+    def test_changed_evidence_makes_a_new_request(self):
+        self.write_catalog(self.catalog, [])
+        super().test_changed_evidence_makes_a_new_request()
+
+    def test_catalog_and_human_review_still_take_precedence(self):
+        self.args.audit_catalog_categories = False
+        super().test_catalog_and_human_review_still_take_precedence()
+
+    def test_off_by_default_and_invalid_threshold_rejected(self):
+        self.args.audit_catalog_categories = False
+        super().test_off_by_default_and_invalid_threshold_rejected()
+
+
 if __name__ == '__main__':
     unittest.main()

@@ -473,6 +473,21 @@ python -m ai_discovery.run_pipeline --activity data/raw/novatech_usage.csv \
 
 Tests: `python -m unittest tests.test_component3_jev` (Jev simulated, no network).
 
+**Catalog audit (`--audit-catalog-categories`, needs `--category-api jev`).** Jev
+also checks AI tools that already have a catalog category, using the catalog's own
+description. It **never changes the catalog category**. When Jev picks a different
+category with probability ≥ `--audit-flag-threshold` (default 0.5, the categorizer's
+cut-off), the row is flagged for human review. Results go to `category_audit.csv`
+and `catalog_audit` in the report. Fill `category_review_template.csv` for flagged
+rows and re-run with `--reviews`.
+
+On the NovaTech and Summit runs Jev disagreed with all four catalog categories and
+flagged all four: ChatGPT (Communication And Support → Ai And Machine Learning,
+0.97), Perplexity (Specialized Technologies → Ai And Machine Learning, 0.69), Claude
+(Operations And Management → Communication And Support, 0.60) and Grammarly
+(Security And Privacy → Media And Content Creation, 0.58). An independent human
+review had judged all four catalog labels wrong; for three it chose Jev's category.
+
 If revisiting local category training, use **all eligible labeled Kaggle entries**,
 not only the 306 sampled AI rows. Retain original descriptions and other appropriate
 product text before lookup-only cleaning; empty descriptions cannot train a text

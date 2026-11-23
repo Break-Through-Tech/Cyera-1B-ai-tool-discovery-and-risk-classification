@@ -1,0 +1,5 @@
+﻿application_name,endpoint,catalog_category,jev_category,jev_probability,agrees,flagged_for_review
+ChatGPT,chatgpt.com,Communication And Support,Ai And Machine Learning,0.97,False,True
+Claude,claude.ai,Operations And Management,Communication And Support,0.6,False,True
+Grammarly,grammarly.com,Security And Privacy,Media And Content Creation,0.58,False,True
+Perplexity,perplexity.ai,Specialized Technologies,Ai And Machine Learning,0.69,False,True

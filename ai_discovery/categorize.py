@@ -62,7 +62,8 @@ class Catalog:
                     continue
                 self.rows[key].append({'tool_id': tid, 'file': str(path), 'row': i,
                     'source_sha256': self.inputs[str(path)], 'source_index': source_index,
-                    'is_ai_tool': label, 'category': (r['Category'] if raw else r['category']).strip()})
+                    'is_ai_tool': label, 'category': (r['Category'] if raw else r['category']).strip(),
+                    'description': (r.get('Short Description') if raw else r.get('description')) or ''})
         # A supplied finalized reference overrides the AI-catalog assumption only
         # for this exact name AND endpoint, never a hostname or fuzzy name alone.
         for key, records in self.rows.items():
@@ -107,6 +108,13 @@ class Engine:
         self.jev = None
         if getattr(args, 'category_api', 'none') == 'jev':
             self.jev = JevCategorizer(args, self.taxonomy)
+        self.audit = bool(getattr(args, 'audit_catalog_categories', False))
+        if self.audit:
+            if self.jev is None:
+                raise ValueError('--audit-catalog-categories requires --category-api jev')
+            self.audit_threshold = args.audit_flag_threshold
+            if not 0 <= self.audit_threshold <= 1:
+                raise ValueError('--audit-flag-threshold must be between 0 and 1')
 
     def api_settings(self):
         return self.jev.settings() if self.jev else {'provider': None}
@@ -171,6 +179,8 @@ class Engine:
         if categories:
             result.update(category=next(iter(categories)), category_status='assigned', category_source='catalog',
                           identity_resolution='exact_normalized_name_and_endpoint')
+            if self.audit:
+                result['catalog_check'] = self.check_catalog(result['category'], records)
             return result
         if selection and selection[1] != evidence_hash:
             raise ValueError('Report selection is stale; evidence changed')
@@ -207,6 +217,22 @@ class Engine:
                       top_three=prediction['top_three'], model_run_id=m['run_id'],
                       model_sha256=helpers.sha(self.model_path), prediction_key=cache_key)
         return result
+
+    def check_catalog(self, category, records):
+        """Ask Jev about a catalog-categorized AI tool. Advisory: never changes the category."""
+        desc = next((r['description'] for r in records if r.get('description', '').strip()), '')
+        if not desc:
+            return {'status': 'no_catalog_description'}
+        answer, info = self.jev.ask(self.prep.build_model_text(desc, mode='description_only'))
+        if answer is None:
+            return {'status': 'unavailable', 'reason': info}
+        choice = self.jev.by_slug[answer['choice']]
+        p = round(float(answer['probabilities'][answer['choice']]), 4)
+        agrees = choice == category
+        return {'status': 'checked', 'jev_category': choice, 'jev_probability': p, 'agrees': agrees,
+                'flagged_for_review': (not agrees) and p >= self.audit_threshold,
+                'flag_threshold': self.audit_threshold, 'text_source': 'catalog description',
+                'cache_hit': info['cache_hit']}
 
     def save_cache(self):
         if self.changed:
@@ -264,28 +290,37 @@ class JevCategorizer:
             self.key = os.environ.get('TYPESAFE_API_KEY') or ''
         return self.key
 
-    def categorize(self, text):
-        """Return (categorization fields, None) or (None, fallback reason)."""
+    def ask(self, text):
+        """Return (validated Jev answer, {'cache_hit', 'key'}) or (None, failure reason)."""
         key = self.request_key(text)
         entry = self.cache['entries'].get(key)
         hit = entry is not None
         if not hit:
             if not self.api_key():
-                return None, 'TYPESAFE_API_KEY not set; used local model'
+                return None, 'TYPESAFE_API_KEY not set'
             try:
                 answer = self.mod.call_jev(self.args.jev_model, text, self.criteria,
                                            self.args.api_timeout, self.api_key())
             except self.ERRORS as exc:
-                return None, f'Jev request failed ({type(exc).__name__}); used local model'
+                return None, f'Jev request failed ({type(exc).__name__})'
             self.calls += 1
             entry = {'source': 'ai_discovery.categorize', 'result': answer,
                      'retrieved_at': datetime.now(timezone.utc).isoformat()}
             self.cache['entries'][key] = entry
             self.changed = True
         answer = entry['result']
+        probs = answer.get('probabilities') or {}
+        if set(probs) != set(self.criteria) or answer.get('choice') not in self.criteria:
+            return None, 'Jev answer outside the taxonomy'
+        return answer, {'cache_hit': hit, 'key': key}
+
+    def categorize(self, text):
+        """Return (categorization fields, None) or (None, fallback reason)."""
+        answer, info = self.ask(text)
+        if answer is None:
+            return None, info + '; used local model'
+        hit, key = info['cache_hit'], info['key']
         probs = answer['probabilities']
-        if set(probs) != set(self.criteria) or answer['choice'] not in self.criteria:
-            return None, 'Jev answer outside the taxonomy; used local model'
         p = float(probs[answer['choice']])
         top = sorted(probs.items(), key=lambda kv: -kv[1])[:3]
         accepted = p >= self.threshold
@@ -327,6 +362,12 @@ def options(p):
     p.add_argument('--jev-cache', type=Path, default=ROOT/'data/cache/jev_category_cache.json')
     p.add_argument('--jev-script', type=Path, default=ROOT/'category_training/jev_category_eval.py')
     p.add_argument('--api-timeout', type=float, default=60)
+    p.add_argument('--audit-catalog-categories', action='store_true',
+                   help='With --category-api jev: also ask Jev about catalog-categorized AI tools and flag '
+                        'confident disagreements for human review. Never changes the catalog category.')
+    p.add_argument('--audit-flag-threshold', type=float, default=0.5,
+                   help='Jev probability needed to flag a disagreement with the catalog (default 0.5, '
+                        'the same cut-off the categorizer uses)')
     p.add_argument('--out', type=Path, required=True, help='New output directory')
 
 
@@ -381,8 +422,24 @@ def save_outputs(args, records, engine, extra=None):
     sources_note = ('Category sources: human_review, catalog, api (Jev; below the review threshold the '
                     'category is left empty for human review), then model when Jev is unavailable.'
                     if api['provider'] else 'No API categorizer used; category sources are catalog, model or human_review.')
+    checks = [(r, r['categorization']['catalog_check']) for r in records
+              if r['categorization'].get('catalog_check', {}).get('status') == 'checked']
+    audit = None
+    if engine.audit:
+        audit = {'checked': len(checks), 'agree': sum(c['agrees'] for _, c in checks),
+                 'flagged_for_review': sum(c['flagged_for_review'] for _, c in checks),
+                 'flag_threshold': engine.audit_threshold,
+                 'note': 'Advisory only; catalog categories are not changed. Review flagged rows with --reviews.'}
+        helpers.write_csv(args.out/'category_audit.csv', [dict(
+            application_name=r['application_name'], endpoint=r['endpoint'],
+            catalog_category=r['categorization']['category'], jev_category=c['jev_category'],
+            jev_probability=c['jev_probability'], agrees=c['agrees'],
+            flagged_for_review=c['flagged_for_review']) for r, c in checks],
+            ['application_name', 'endpoint', 'catalog_category', 'jev_category', 'jev_probability',
+             'agrees', 'flagged_for_review'])
     report = {'version': VERSION, 'summary': dict(Counter(r['category_status'] for r in flat)),
               'results': records, 'catalog_warnings': engine.catalog.warnings, 'category_api': api,
+              'catalog_audit': audit,
               'limitations': ['Model and Jev scores are not calibrated; predictions remain provisional.',
                   'Exact name/endpoint matching is an identity policy, not independent usage verification.',
                   sources_note], **(extra or {})}
