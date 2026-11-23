@@ -4756,6 +4756,4066 @@
         }
       },
       "retrieved_at": "2026-11-22T00:01:01.969743+00:00"
+    },
+    "ad64d8c6e27a48ef9b21cf1ee3367fef3842b29f8c9936678d53ff98a816a960": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "personal_and_lifestyle",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.01,
+          "industry_specific": 0.02,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.06,
+          "personal_and_lifestyle": 0.89,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.02
+        },
+        "confidence": 0.88,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1046,
+          "output_tokens": 165
+        }
+      },
+      "retrieved_at": "2026-11-23T02:35:52.364337+00:00"
+    },
+    "9fafa03bd6438c749c0b5c0ced99cdba71c73de7e363a8eb0eeb2c55893f7395": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "operations_and_management",
+        "probabilities": {
+          "ai_and_machine_learning": 0.05,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.05,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.76,
+          "personal_and_lifestyle": 0.13,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.01,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.74,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1039,
+          "output_tokens": 163
+        }
+      },
+      "retrieved_at": "2026-11-23T02:35:52.560116+00:00"
+    },
+    "ce4f824b4606fc4e4b18fb1eb385e7b3fdf97789f7397936a003a75b1de4b76e": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "technology_and_development",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.01,
+          "marketing_and_sales": 0.2,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.02,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.77
+        },
+        "confidence": 0.75,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1091,
+          "output_tokens": 166
+        }
+      },
+      "retrieved_at": "2026-11-23T02:35:52.776884+00:00"
+    },
+    "9c975098f6a1922e2f07c5eb83b07494deeece77a207f8387a29895654dac22a": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "technology_and_development",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.01,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.12,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.01,
+          "technology_and_development": 0.86
+        },
+        "confidence": 0.85,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1165,
+          "output_tokens": 166
+        }
+      },
+      "retrieved_at": "2026-11-23T02:35:52.990968+00:00"
+    },
+    "c4b9c960adc554bc6fbcfccd5ba032e2ae6eb517c9e391a265b726b9cb443b87": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "business_and_finance",
+        "probabilities": {
+          "ai_and_machine_learning": 0.24,
+          "business_and_finance": 0.61,
+          "communication_and_support": 0.02,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.05,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.01,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.02,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.02,
+          "technology_and_development": 0.03
+        },
+        "confidence": 0.58,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1041,
+          "output_tokens": 165
+        }
+      },
+      "retrieved_at": "2026-11-23T02:35:53.206330+00:00"
+    },
+    "909450491065c5dca32b7df7dba088335021435f1580f53c958ffd2b33958bf7": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "industry_specific",
+        "probabilities": {
+          "ai_and_machine_learning": 0.17,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.32,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.48,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.01,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.01,
+          "technology_and_development": 0.01
+        },
+        "confidence": 0.44,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1076,
+          "output_tokens": 162
+        }
+      },
+      "retrieved_at": "2026-11-23T02:35:53.423867+00:00"
+    },
+    "f0d4adc9a86c0683d77a8cb499453b70dd9f719c971867aed222599bcc6bab5b": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "specialized_technologies",
+        "probabilities": {
+          "ai_and_machine_learning": 0.01,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.03,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.96,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.96,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1043,
+          "output_tokens": 167
+        }
+      },
+      "retrieved_at": "2026-11-23T02:35:53.677623+00:00"
+    },
+    "9b025dcbe8c9552723129fc8fd1432f5699f1b8041ada31d2e907baee4394803": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "technology_and_development",
+        "probabilities": {
+          "ai_and_machine_learning": 0.07,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.93
+        },
+        "confidence": 0.92,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1057,
+          "output_tokens": 166
+        }
+      },
+      "retrieved_at": "2026-11-23T02:35:53.929781+00:00"
+    },
+    "d9346bddb9e9901c03a19cab9e9f031e0ff8a433f66e1b4868dc9966f07a16b5": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "marketing_and_sales",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.95,
+          "media_and_content_creation": 0.05,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.95,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1043,
+          "output_tokens": 163
+        }
+      },
+      "retrieved_at": "2026-11-23T02:35:54.140157+00:00"
+    },
+    "92df383e1944463acc913016c4780b4ab8f2954ba40b0681e2231d947b82dfe5": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "data_and_analytics",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.11,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.81,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.06,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.01,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.01
+        },
+        "confidence": 0.8,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1132,
+          "output_tokens": 165
+        }
+      },
+      "retrieved_at": "2026-11-23T02:35:54.382667+00:00"
+    },
+    "6b1a06b3acf219916d08716aa359979b11c68df76a653811f99b817f54ecbfba": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "communication_and_support",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.83,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.17,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.82,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1129,
+          "output_tokens": 163
+        }
+      },
+      "retrieved_at": "2026-11-23T02:35:54.597852+00:00"
+    },
+    "6ffeb56820ecbf6258b274de6b2f40671ed168fb81bb5e14588c807f2c56d172": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "personal_and_lifestyle",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.13,
+          "personal_and_lifestyle": 0.87,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.86,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1056,
+          "output_tokens": 165
+        }
+      },
+      "retrieved_at": "2026-11-23T02:35:54.812120+00:00"
+    },
+    "b92231df37848868fc60f6499e52d01d91a3504c6ee6590732e7ee60415ee73d": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "education_and_learning",
+        "probabilities": {
+          "ai_and_machine_learning": 0.05,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.93,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.01,
+          "operations_and_management": 0.01,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.92,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1044,
+          "output_tokens": 163
+        }
+      },
+      "retrieved_at": "2026-11-23T02:35:55.042534+00:00"
+    },
+    "b1fd01619ae9fe5254a88f5369ab95916ce78b5a34c40ac3464b5feeb82dc89b": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "operations_and_management",
+        "probabilities": {
+          "ai_and_machine_learning": 0.06,
+          "business_and_finance": 0.03,
+          "communication_and_support": 0.23,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.01,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.01,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.36,
+          "personal_and_lifestyle": 0.01,
+          "security_and_privacy": 0.1,
+          "specialized_technologies": 0.04,
+          "technology_and_development": 0.15
+        },
+        "confidence": 0.31,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1044,
+          "output_tokens": 163
+        }
+      },
+      "retrieved_at": "2026-11-23T02:35:55.270879+00:00"
+    },
+    "cf372446093e69bd76f03f2d0203645ccf444a99f09cd6fc37abb2b40861f2c4": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "media_and_content_creation",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.01,
+          "media_and_content_creation": 0.78,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.01,
+          "technology_and_development": 0.2
+        },
+        "confidence": 0.76,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1113,
+          "output_tokens": 164
+        }
+      },
+      "retrieved_at": "2026-11-23T02:35:55.580175+00:00"
+    },
+    "f22413728d1268cb0aea5817beb34ae06c36a2ec6dd5e42863e2dc6d69d1231f": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "data_and_analytics",
+        "probabilities": {
+          "ai_and_machine_learning": 0.11,
+          "business_and_finance": 0.16,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.73,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.71,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1049,
+          "output_tokens": 165
+        }
+      },
+      "retrieved_at": "2026-11-23T02:35:55.827490+00:00"
+    },
+    "9dd6cd85ee114bb634802517644c2fd7875843b46b3d02140d1a1b6d6b3bd033": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "industry_specific",
+        "probabilities": {
+          "ai_and_machine_learning": 0.27,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.7,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.02,
+          "technology_and_development": 0.01
+        },
+        "confidence": 0.68,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1049,
+          "output_tokens": 162
+        }
+      },
+      "retrieved_at": "2026-11-23T02:35:56.035666+00:00"
+    },
+    "9a17ebb695badb13b64e7fa641476930ab5fd8d511d5fb62fc9aeef0e0874008": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "data_and_analytics",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.07,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.9,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.02,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.01
+        },
+        "confidence": 0.89,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1042,
+          "output_tokens": 165
+        }
+      },
+      "retrieved_at": "2026-11-23T02:35:56.247327+00:00"
+    },
+    "0b7e6d1b499d3cbba884a270aa2806e50c07c402797dea3ab7166b07872c6d46": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "creative_and_entertainment",
+        "probabilities": {
+          "ai_and_machine_learning": 0.24,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.36,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.26,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.1,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.03,
+          "technology_and_development": 0.01
+        },
+        "confidence": 0.31,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1040,
+          "output_tokens": 166
+        }
+      },
+      "retrieved_at": "2026-11-23T02:35:56.455881+00:00"
+    },
+    "b5c7dd7e9355a554384e632ecae44ecf8662a7f06e262ea309b28844fedc653c": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "media_and_content_creation",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 1.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 1.0,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1040,
+          "output_tokens": 164
+        }
+      },
+      "retrieved_at": "2026-11-23T02:35:56.667075+00:00"
+    },
+    "cbd3137edb60d10ec0a01eced88f5d1812ed179270978cda4ea5bbf0493965f4": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "industry_specific",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.94,
+          "marketing_and_sales": 0.01,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.05
+        },
+        "confidence": 0.94,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1073,
+          "output_tokens": 162
+        }
+      },
+      "retrieved_at": "2026-11-23T02:35:56.916245+00:00"
+    },
+    "95534d7a75a45bfc7bf8958b9d493f9f8c0b2cccc450b679ed11d238dc98bf28": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "technology_and_development",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.02,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.04,
+          "industry_specific": 0.03,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.02,
+          "operations_and_management": 0.11,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.78
+        },
+        "confidence": 0.76,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1156,
+          "output_tokens": 166
+        }
+      },
+      "retrieved_at": "2026-11-23T02:35:57.102292+00:00"
+    },
+    "65de51c2c775ebf889e523d4804fd400db3442ebf9c14de0f73452120f3ebe02": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "industry_specific",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.93,
+          "marketing_and_sales": 0.01,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.06
+        },
+        "confidence": 0.92,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1103,
+          "output_tokens": 162
+        }
+      },
+      "retrieved_at": "2026-11-23T02:35:57.293444+00:00"
+    },
+    "3ce8b4a0b0ef1318a1c9e1f938ec14de0eca511c4c7fe2988c6d1fa9bdb3f05a": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "education_and_learning",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.91,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.09,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.9,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1039,
+          "output_tokens": 163
+        }
+      },
+      "retrieved_at": "2026-11-23T02:35:57.541793+00:00"
+    },
+    "36a39d88e23d69165e5c390179d495e000f5bb33368efd1048f9a43cecc04c1a": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "security_and_privacy",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 1.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 1.0,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1038,
+          "output_tokens": 164
+        }
+      },
+      "retrieved_at": "2026-11-23T02:35:57.768308+00:00"
+    },
+    "fe762afe2762dd973028cadd1e00fe196e6397df9223d3b19fcdb41fe5f841b5": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "operations_and_management",
+        "probabilities": {
+          "ai_and_machine_learning": 0.01,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.99,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.99,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1058,
+          "output_tokens": 163
+        }
+      },
+      "retrieved_at": "2026-11-23T02:35:57.985410+00:00"
+    },
+    "f03b740e5c81061253211e21381d3a0f72c4d8a750a90feefb387a6440868dd5": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "operations_and_management",
+        "probabilities": {
+          "ai_and_machine_learning": 0.04,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.01,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.01,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.02,
+          "operations_and_management": 0.9,
+          "personal_and_lifestyle": 0.02,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.89,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1038,
+          "output_tokens": 163
+        }
+      },
+      "retrieved_at": "2026-11-23T02:35:58.204468+00:00"
+    },
+    "fb8ca34a2662671020bb827e3902cc2ef9179020bd71b2519ffb4ac7cde5d7e0": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "education_and_learning",
+        "probabilities": {
+          "ai_and_machine_learning": 0.01,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.81,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.18
+        },
+        "confidence": 0.8,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1044,
+          "output_tokens": 163
+        }
+      },
+      "retrieved_at": "2026-11-23T02:35:58.476396+00:00"
+    },
+    "6d6e9562e57fd81dbc93671456ece7a8cfd76a50c46d6bec1c40713e915b5ce9": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "education_and_learning",
+        "probabilities": {
+          "ai_and_machine_learning": 0.01,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.94,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.05
+        },
+        "confidence": 0.94,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1076,
+          "output_tokens": 163
+        }
+      },
+      "retrieved_at": "2026-11-23T02:35:58.677525+00:00"
+    },
+    "1da450bb246c58871996dea239f8fd251e2a464ebed189e106bf6fb70f7502bf": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "business_and_finance",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 1.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 1.0,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1042,
+          "output_tokens": 165
+        }
+      },
+      "retrieved_at": "2026-11-23T02:35:58.883702+00:00"
+    },
+    "3d6649dd81762efe4abe777c46db5fe3be2dc31d3985a2dbbe3004602b99325f": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "operations_and_management",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.01,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.16,
+          "operations_and_management": 0.83,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.82,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1115,
+          "output_tokens": 163
+        }
+      },
+      "retrieved_at": "2026-11-23T02:35:59.094851+00:00"
+    },
+    "eb9c795c74fc823dff9d1c35140bb8a53fde36733995f8e6792f206cb98e4b24": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "media_and_content_creation",
+        "probabilities": {
+          "ai_and_machine_learning": 0.19,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.81,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.8,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1044,
+          "output_tokens": 164
+        }
+      },
+      "retrieved_at": "2026-11-23T02:35:59.298772+00:00"
+    },
+    "2525e6d148c1c0c74c7840a74e7cb09aab9b6cb080fa70179e6bde3004e8c707": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "data_and_analytics",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.56,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.01,
+          "technology_and_development": 0.43
+        },
+        "confidence": 0.53,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1160,
+          "output_tokens": 165
+        }
+      },
+      "retrieved_at": "2026-11-23T02:35:59.534450+00:00"
+    },
+    "c0ca60840aeff288f546708afec7051d68065173831aedae65945e157b0187f4": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "operations_and_management",
+        "probabilities": {
+          "ai_and_machine_learning": 0.02,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.12,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.01,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.05,
+          "operations_and_management": 0.78,
+          "personal_and_lifestyle": 0.02,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.76,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1048,
+          "output_tokens": 163
+        }
+      },
+      "retrieved_at": "2026-11-23T02:35:59.752260+00:00"
+    },
+    "62c1f96883f7a4ee6a321a63b717ed5119ef3bbb148bd6823d4106e85fa9c498": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "education_and_learning",
+        "probabilities": {
+          "ai_and_machine_learning": 0.01,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.99,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.99,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1078,
+          "output_tokens": 163
+        }
+      },
+      "retrieved_at": "2026-11-23T02:35:59.959729+00:00"
+    },
+    "f4e0555db4dca79d07dc964f2ed77b3909b553d5ad47eeeb6198bbce63c61113": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "technology_and_development",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.01,
+          "marketing_and_sales": 0.14,
+          "media_and_content_creation": 0.06,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.79
+        },
+        "confidence": 0.77,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1081,
+          "output_tokens": 166
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:00.167487+00:00"
+    },
+    "0a3fe3201a8836efaddac56ff6d004445859e0003b61f5742ea7f6d6808de3c0": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "education_and_learning",
+        "probabilities": {
+          "ai_and_machine_learning": 0.03,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.97,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.97,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1039,
+          "output_tokens": 163
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:00.374823+00:00"
+    },
+    "3087931eb0ed63748a3e29c59e5829d44db7e34eb9b41034e101cc66584339a5": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "marketing_and_sales",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.01,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.99,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.99,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1043,
+          "output_tokens": 163
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:00.585694+00:00"
+    },
+    "eafab81014559a2094e92e0f175f3e5faf17ce9e341be3575e51470c04a6850e": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "operations_and_management",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.04,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.01,
+          "marketing_and_sales": 0.1,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.63,
+          "personal_and_lifestyle": 0.22,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.6,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1039,
+          "output_tokens": 163
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:00.799815+00:00"
+    },
+    "9005e8f21f5e19a2336d1f64067c1f4ce00875b2ba7cec32dbd63b2c46bdf537": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "communication_and_support",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.61,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.37,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.02
+        },
+        "confidence": 0.58,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1105,
+          "output_tokens": 163
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:00.999996+00:00"
+    },
+    "dee0f43b67423144db9135463a41389f1a21e4ba270659a93e2e0d12e54a7a6d": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "media_and_content_creation",
+        "probabilities": {
+          "ai_and_machine_learning": 0.16,
+          "business_and_finance": 0.01,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.02,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.01,
+          "media_and_content_creation": 0.64,
+          "operations_and_management": 0.16,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.61,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1041,
+          "output_tokens": 164
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:01.248412+00:00"
+    },
+    "e0235c58a6766ed23e2371015284715ecfd0937bfff205751f8a6871eb8b4dc9": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "industry_specific",
+        "probabilities": {
+          "ai_and_machine_learning": 0.04,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.88,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.08,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.87,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1038,
+          "output_tokens": 162
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:01.489289+00:00"
+    },
+    "44a263c7d6fe491eaaeb406421fe3ca5e870600bd1fa7e2e0e5c21e73fe4e6c5": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "education_and_learning",
+        "probabilities": {
+          "ai_and_machine_learning": 0.02,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.96,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.02
+        },
+        "confidence": 0.96,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1077,
+          "output_tokens": 163
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:01.699009+00:00"
+    },
+    "eecd7512ca970d619e4511a7d961640f1481ff84a8ebb61ecd2b93717af9f99a": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "marketing_and_sales",
+        "probabilities": {
+          "ai_and_machine_learning": 0.14,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.86,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.85,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1051,
+          "output_tokens": 163
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:01.918217+00:00"
+    },
+    "b1d44c7afbdfb049764b4902fde19aec43c24d24b365654198b7413d585977f3": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "technology_and_development",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 1.0
+        },
+        "confidence": 1.0,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1040,
+          "output_tokens": 166
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:02.136274+00:00"
+    },
+    "084ade00f35c14bc84f1487e779b903ed6966bb9205e13cbb0539f6257165619": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "specialized_technologies",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.01,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.03,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.96,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.96,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1040,
+          "output_tokens": 167
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:02.348421+00:00"
+    },
+    "884195bdf986b13b72256ffb3686f7e4c6ad14baf2970bc7dbb5f434ed6c6fde": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "ai_and_machine_learning",
+        "probabilities": {
+          "ai_and_machine_learning": 0.59,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.01,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.14,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.01,
+          "marketing_and_sales": 0.03,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.02,
+          "personal_and_lifestyle": 0.08,
+          "security_and_privacy": 0.08,
+          "specialized_technologies": 0.03,
+          "technology_and_development": 0.01
+        },
+        "confidence": 0.56,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1045,
+          "output_tokens": 164
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:02.562191+00:00"
+    },
+    "300e2bc0302e33e11e6de96c198ac85627b1ee09d0812425d8d0c9421ba2cebc": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "media_and_content_creation",
+        "probabilities": {
+          "ai_and_machine_learning": 0.01,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.27,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.05,
+          "media_and_content_creation": 0.67,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.64,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1043,
+          "output_tokens": 164
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:02.788102+00:00"
+    },
+    "7a7f21b7fd2d71854b1e15a3e3e2a277418241b5e8ddd3042788cc9d2fea2b11": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "creative_and_entertainment",
+        "probabilities": {
+          "ai_and_machine_learning": 0.01,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.59,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.38,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.01,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.01,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.56,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1039,
+          "output_tokens": 166
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:02.996136+00:00"
+    },
+    "d706c9b7f6cf191467a661146db3818207b2892fa239a5a7d62da5057f1037a9": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "media_and_content_creation",
+        "probabilities": {
+          "ai_and_machine_learning": 0.11,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.02,
+          "creative_and_entertainment": 0.02,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.75,
+          "operations_and_management": 0.1,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.73,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1066,
+          "output_tokens": 164
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:03.206935+00:00"
+    },
+    "a51e400d96f7ed005bb70907952a020dc5e0cf0a2f40e86461e501dee26ce2ce": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "ai_and_machine_learning",
+        "probabilities": {
+          "ai_and_machine_learning": 0.53,
+          "business_and_finance": 0.42,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.01,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.04,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.49,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1040,
+          "output_tokens": 164
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:03.504361+00:00"
+    },
+    "64b6f5a74d51b8cc8e4bce75e945f178492d4b8716b5a2ca8735fa1dd3dc9abb": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "ai_and_machine_learning",
+        "probabilities": {
+          "ai_and_machine_learning": 0.93,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.04,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.03
+        },
+        "confidence": 0.92,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1058,
+          "output_tokens": 164
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:03.706994+00:00"
+    },
+    "dbede4167ac5b5d1f83bf770a0ea357db14fe1358845dbbf303ea38a11a0c955": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "technology_and_development",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 1.0
+        },
+        "confidence": 1.0,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1122,
+          "output_tokens": 166
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:03.914739+00:00"
+    },
+    "216df1f5636d948686c4c4d27957c475c7ecc89b4c5a9c7d6d04f71c7300b960": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "data_and_analytics",
+        "probabilities": {
+          "ai_and_machine_learning": 0.01,
+          "business_and_finance": 0.11,
+          "communication_and_support": 0.12,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.5,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.05,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.2,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.01,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.46,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1037,
+          "output_tokens": 165
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:04.145348+00:00"
+    },
+    "26f4ce371096dd5178cc75f11b6655603333fc046043088241196f5b96d6934a": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "media_and_content_creation",
+        "probabilities": {
+          "ai_and_machine_learning": 0.04,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.07,
+          "media_and_content_creation": 0.89,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.88,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1040,
+          "output_tokens": 164
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:04.399971+00:00"
+    },
+    "d0c5995e6c40a6856032524913bbd4a5dca2c95effae6361239d042b799cac7d": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "personal_and_lifestyle",
+        "probabilities": {
+          "ai_and_machine_learning": 0.09,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.02,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.3,
+          "personal_and_lifestyle": 0.58,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.01
+        },
+        "confidence": 0.55,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1039,
+          "output_tokens": 165
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:04.617963+00:00"
+    },
+    "473074559dae22839f61504df92f730606503954502503920753e90604def476": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "marketing_and_sales",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.08,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.92,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.91,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1065,
+          "output_tokens": 163
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:04.848548+00:00"
+    },
+    "6d02e0e07f215f7f07215e396fdcb241ee6085aa667104a04632b3c5a9e4147b": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "creative_and_entertainment",
+        "probabilities": {
+          "ai_and_machine_learning": 0.22,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.44,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.34,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.4,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1068,
+          "output_tokens": 166
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:05.055354+00:00"
+    },
+    "cf493b2db91d8cac02b465a79e06105d3a3501e521925b15334883d19af312c3": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "business_and_finance",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.93,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.07,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.92,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1122,
+          "output_tokens": 165
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:05.289228+00:00"
+    },
+    "f8eee656d1c3ff37bc879bcef7565b7430ae9c43e62538d20acaf61988ee5b94": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "operations_and_management",
+        "probabilities": {
+          "ai_and_machine_learning": 0.01,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.01,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.98,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.98,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1046,
+          "output_tokens": 163
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:05.507318+00:00"
+    },
+    "f17af2e37a7be31b84b035ecd0ac9bf4d38174ba4279d1cce0ec7f8cee27c4fb": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "security_and_privacy",
+        "probabilities": {
+          "ai_and_machine_learning": 0.01,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.99,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.99,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1042,
+          "output_tokens": 164
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:05.737286+00:00"
+    },
+    "4c359c113527cf86a8d74e5253cb5ecccaf0f8134ecdf5e82786eb1f88049691": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "marketing_and_sales",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.93,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.02,
+          "personal_and_lifestyle": 0.05,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.92,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1040,
+          "output_tokens": 163
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:05.959785+00:00"
+    },
+    "8d6994d5e256c0321481ea9c5c1930d01c6c0dde35214caa4bf8e2098b09635b": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "ai_and_machine_learning",
+        "probabilities": {
+          "ai_and_machine_learning": 0.68,
+          "business_and_finance": 0.04,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.28,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.66,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1043,
+          "output_tokens": 164
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:06.194882+00:00"
+    },
+    "444473741a0f82e3dd01ac6a30c12f92c59a4caf4ac3393897c5e258382df7b4": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "marketing_and_sales",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.04,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.96,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.96,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1063,
+          "output_tokens": 163
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:06.409146+00:00"
+    },
+    "26309c944b76923fff144f62216659890bf5b96ccfe8373eaad0f46991846233": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "operations_and_management",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.06,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.94,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.94,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1135,
+          "output_tokens": 163
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:06.642943+00:00"
+    },
+    "041aa528bb0167f8ca8e508627ef9dd7892b4a23335b747dfc5e2a1e99b1f245": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "media_and_content_creation",
+        "probabilities": {
+          "ai_and_machine_learning": 0.23,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.77,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.75,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1040,
+          "output_tokens": 164
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:06.857573+00:00"
+    },
+    "7e531d64b1b6fe4027124f60086234d0b83576ecfb421136a055dae9c3302ff5": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "industry_specific",
+        "probabilities": {
+          "ai_and_machine_learning": 0.11,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.01,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.83,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.02,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.03,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.82,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1077,
+          "output_tokens": 162
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:07.062128+00:00"
+    },
+    "30287251519babb776a2d8d19ad6d26065baf6cf73ff08abcb41fa3b63c2b161": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "industry_specific",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.96,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.04,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.96,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1068,
+          "output_tokens": 162
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:07.367494+00:00"
+    },
+    "0e03d7ca747615a7f61213280363bcc008f72cc7cbcbb633357e04cba86e57c1": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "creative_and_entertainment",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.99,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.01,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.99,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1041,
+          "output_tokens": 166
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:07.588144+00:00"
+    },
+    "8e85472c159ecf64b4a9b3a03869056c1360910eb7a3558d9396e2114ad549d1": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "technology_and_development",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 1.0
+        },
+        "confidence": 1.0,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1122,
+          "output_tokens": 166
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:07.790167+00:00"
+    },
+    "d780ed14c9a815cc27be521da4e41200bc600a279bbcaa127f6bab9b4f5da7e6": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "security_and_privacy",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.06,
+          "industry_specific": 0.01,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.93,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.92,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1041,
+          "output_tokens": 164
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:08.006953+00:00"
+    },
+    "a3197bfbd68927b0c627932d0d58bfacf222e5c76d2201d6f5cd81f737164ffe": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "communication_and_support",
+        "probabilities": {
+          "ai_and_machine_learning": 0.06,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.91,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.02,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.01,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.9,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1045,
+          "output_tokens": 163
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:08.214510+00:00"
+    },
+    "e62b3a8d207791665abcec18377696a7552be7232504f5604e0d4a5fe0d9ce8b": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "operations_and_management",
+        "probabilities": {
+          "ai_and_machine_learning": 0.02,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.07,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.85,
+          "personal_and_lifestyle": 0.06,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.84,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1043,
+          "output_tokens": 163
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:08.427049+00:00"
+    },
+    "095ecd1633448f82027e787d77847ea5404b972d50e9aa8201235163db57e5c7": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "data_and_analytics",
+        "probabilities": {
+          "ai_and_machine_learning": 0.01,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.98,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.01
+        },
+        "confidence": 0.98,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1041,
+          "output_tokens": 165
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:08.649176+00:00"
+    },
+    "b2049628576f68e6ce3fe552e4f15ee1ca8d725702d3b14356518562bed9e1a2": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "operations_and_management",
+        "probabilities": {
+          "ai_and_machine_learning": 0.47,
+          "business_and_finance": 0.05,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.48,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.44,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1076,
+          "output_tokens": 163
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:08.858360+00:00"
+    },
+    "7356027619f8a232eea494834f350ce5da69f22fbb445a1c5ac58f9d7a144040": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "personal_and_lifestyle",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 1.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 1.0,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1043,
+          "output_tokens": 165
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:09.077013+00:00"
+    },
+    "5fccef8cdb6cbeca995d66c9604d48886f7f4c5d78ee3b33d8865ff6c80a4c09": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "ai_and_machine_learning",
+        "probabilities": {
+          "ai_and_machine_learning": 0.47,
+          "business_and_finance": 0.01,
+          "communication_and_support": 0.02,
+          "creative_and_entertainment": 0.04,
+          "data_and_analytics": 0.01,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.15,
+          "marketing_and_sales": 0.02,
+          "media_and_content_creation": 0.02,
+          "operations_and_management": 0.04,
+          "personal_and_lifestyle": 0.1,
+          "security_and_privacy": 0.03,
+          "specialized_technologies": 0.07,
+          "technology_and_development": 0.02
+        },
+        "confidence": 0.43,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1042,
+          "output_tokens": 164
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:09.412476+00:00"
+    },
+    "59582663aae15d800d317821eee3e577321ab2d138a9c8b4231eba97d01fb971": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "ai_and_machine_learning",
+        "probabilities": {
+          "ai_and_machine_learning": 0.56,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.43,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.01,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.53,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1058,
+          "output_tokens": 164
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:09.643759+00:00"
+    },
+    "4a45bb457f6cc3be0ffb6afced74e0a4f155c18c53a8b8e7ec6fcdb59e4d521c": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "operations_and_management",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.04,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.02,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.92,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.02
+        },
+        "confidence": 0.91,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1126,
+          "output_tokens": 163
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:09.846931+00:00"
+    },
+    "e5596c6fe1e196ef8c901ea106acf2417bb0a79dc447393520d25067e1ec35bd": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "operations_and_management",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.01,
+          "communication_and_support": 0.44,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.55,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.52,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1092,
+          "output_tokens": 163
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:10.060520+00:00"
+    },
+    "1cbfa7c68e44299898a3770bed38035fbf36036da93b3acc294224fd528a6894": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "marketing_and_sales",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.01,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.94,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.03,
+          "personal_and_lifestyle": 0.02,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.94,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1039,
+          "output_tokens": 163
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:10.330432+00:00"
+    },
+    "f71fdf3451ed5589d4ee0c203c77b41d29edf4f5da0c5e34472a06e18c049759": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "personal_and_lifestyle",
+        "probabilities": {
+          "ai_and_machine_learning": 0.04,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.01,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.91,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.04,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.9,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1041,
+          "output_tokens": 165
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:10.537529+00:00"
+    },
+    "3d0c2c25c4748a19f74199c3bb6772c41967a2efac709adcfd505e5c7cbabd59": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "creative_and_entertainment",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.99,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.01,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.99,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1040,
+          "output_tokens": 166
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:10.743570+00:00"
+    },
+    "08399ed780f4690c39f8ff9fa9bca10bbbbcd57473c63cc635dd2b6f9026cb75": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "marketing_and_sales",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.06,
+          "communication_and_support": 0.02,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.01,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.89,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.02,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.88,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1106,
+          "output_tokens": 163
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:10.987293+00:00"
+    },
+    "3ab3f715932b4ee93582c681315ad645bbbe845b077bee61defb331720f84e6c": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "ai_and_machine_learning",
+        "probabilities": {
+          "ai_and_machine_learning": 0.31,
+          "business_and_finance": 0.01,
+          "communication_and_support": 0.25,
+          "creative_and_entertainment": 0.01,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.07,
+          "media_and_content_creation": 0.18,
+          "operations_and_management": 0.11,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.03,
+          "technology_and_development": 0.03
+        },
+        "confidence": 0.26,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1039,
+          "output_tokens": 164
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:11.201111+00:00"
+    },
+    "80ee555570aff8a65bf9f477d91e98ed53dde2dcbc37a43be09037b50289a606": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "creative_and_entertainment",
+        "probabilities": {
+          "ai_and_machine_learning": 0.03,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.69,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.26,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.02,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.67,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1044,
+          "output_tokens": 166
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:11.451065+00:00"
+    },
+    "78c568830aabdf13a9f54732c8e87d7cf06a663f7743bd798a53e0a55c006171": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "technology_and_development",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.05,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.18,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.02,
+          "technology_and_development": 0.75
+        },
+        "confidence": 0.73,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1088,
+          "output_tokens": 166
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:11.654048+00:00"
+    },
+    "32d11399420498dbdb767a664f6181c07e5cb21e4c8cd6767b6c2fbdd555dacb": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "personal_and_lifestyle",
+        "probabilities": {
+          "ai_and_machine_learning": 0.08,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.09,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.83,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.82,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1040,
+          "output_tokens": 165
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:11.881333+00:00"
+    },
+    "425efb9a9f0093869606b561dea595ea16b8d1063bfe27a69c543cc886830adb": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "marketing_and_sales",
+        "probabilities": {
+          "ai_and_machine_learning": 0.01,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.88,
+          "media_and_content_creation": 0.11,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.87,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1080,
+          "output_tokens": 163
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:12.127099+00:00"
+    },
+    "ac2d38c29b0ad88b5df0c937bb68b95da62a29ebe229374f38b845b83c124009": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "education_and_learning",
+        "probabilities": {
+          "ai_and_machine_learning": 0.04,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.82,
+          "industry_specific": 0.04,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.1,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.81,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1087,
+          "output_tokens": 163
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:12.332220+00:00"
+    },
+    "c3c06b6d3109e149b0713f01530bb77d25d98fd154d9ae710ca0a2f49d49f2a9": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "media_and_content_creation",
+        "probabilities": {
+          "ai_and_machine_learning": 0.01,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.01,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.98,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.98,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1042,
+          "output_tokens": 164
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:12.532052+00:00"
+    },
+    "46b0ba578bdd42658e6b2e625110e2d5ef0b0dd00969936909b7f9f49f018bdd": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "operations_and_management",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.75,
+          "personal_and_lifestyle": 0.25,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.73,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1041,
+          "output_tokens": 163
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:12.733048+00:00"
+    },
+    "f44316d4fde1e0282e106be8bb892f014848ea7a9b2fe52eebdbcd6c586046c3": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "security_and_privacy",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.18,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.4,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.01,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.41,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.36,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1084,
+          "output_tokens": 164
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:12.968471+00:00"
+    },
+    "dc162e69f4e28b353511255148eb2a7dde6fa9370c752befc88edd016bb0ed7d": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "security_and_privacy",
+        "probabilities": {
+          "ai_and_machine_learning": 0.14,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.09,
+          "media_and_content_creation": 0.23,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.53,
+          "specialized_technologies": 0.01,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.49,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1043,
+          "output_tokens": 164
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:13.300790+00:00"
+    },
+    "71e19140d6e4d7c715af3386265ddb12369b0eac942152c5c69522705748f920": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "security_and_privacy",
+        "probabilities": {
+          "ai_and_machine_learning": 0.03,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.92,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.05
+        },
+        "confidence": 0.91,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1041,
+          "output_tokens": 164
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:13.502156+00:00"
+    },
+    "b84bbe9de80a25a1693f9f0970309ac2392e8033c48bb512d3068978cab35a42": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "media_and_content_creation",
+        "probabilities": {
+          "ai_and_machine_learning": 0.02,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.1,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.01,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.8,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.07,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.78,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1040,
+          "output_tokens": 164
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:13.710398+00:00"
+    },
+    "2eed903f7b001d0f9d7189d8340cfbfaf7b6bcaf2537f096123d4202c0261a44": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "specialized_technologies",
+        "probabilities": {
+          "ai_and_machine_learning": 0.08,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.06,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.2,
+          "media_and_content_creation": 0.2,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.46,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.42,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1041,
+          "output_tokens": 167
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:13.956838+00:00"
+    },
+    "c98e16f4b80a93b5fb8d4b67b08c1f8caa66563a6c6f404644bc48743b3e0120": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "industry_specific",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.01,
+          "industry_specific": 0.92,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.02,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.05,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.91,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1038,
+          "output_tokens": 162
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:14.196152+00:00"
+    },
+    "8848b6b1057583d7e11cfb1fa0dfc2c4975a54d223c5df08e4f954443b843730": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "business_and_finance",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.74,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.19,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.04,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.01,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.01,
+          "technology_and_development": 0.01
+        },
+        "confidence": 0.72,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1051,
+          "output_tokens": 165
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:14.432130+00:00"
+    },
+    "c2f796df21adc805bba2ea9e8c557289ba548f96e34416fdf038fdd13120e165": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "personal_and_lifestyle",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 1.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 1.0,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1043,
+          "output_tokens": 165
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:14.667916+00:00"
+    },
+    "5764f0500b66d4f278dbf8b21b90f4dbc3af5e8739bf1be7259f079bd5ea9afb": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "data_and_analytics",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 1.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 1.0,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1043,
+          "output_tokens": 165
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:14.884813+00:00"
+    },
+    "d7107e6c35ab90e73496a49e00132448ba416446586f8a8977d852352f495644": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "media_and_content_creation",
+        "probabilities": {
+          "ai_and_machine_learning": 0.07,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.01,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.92,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.91,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1040,
+          "output_tokens": 164
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:15.228652+00:00"
+    },
+    "76b73f1a23dd5ab9fa5d063599220cc829294cb479485d57672aaca60bd0b4b4": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "education_and_learning",
+        "probabilities": {
+          "ai_and_machine_learning": 0.01,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.93,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.01,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.05
+        },
+        "confidence": 0.92,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1062,
+          "output_tokens": 163
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:15.433442+00:00"
+    },
+    "82c0d90a2318cbf5b3701b67c313fc4361b4a31ad3ee4df24d9bd270d189fbf7": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "ai_and_machine_learning",
+        "probabilities": {
+          "ai_and_machine_learning": 0.46,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.15,
+          "education_and_learning": 0.33,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.05,
+          "operations_and_management": 0.01,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.42,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1070,
+          "output_tokens": 164
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:15.636359+00:00"
+    },
+    "2a8f4989f0749ed59445361decb1a2bba43a457d140dab622c8e8dc4055aeb7e": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "industry_specific",
+        "probabilities": {
+          "ai_and_machine_learning": 0.03,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.01,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.64,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.32,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.61,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1045,
+          "output_tokens": 162
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:15.849844+00:00"
+    },
+    "c30d0788f32b055f120af80205b19d65741dab3ebf7de3b079f1d728bc0807f5": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "data_and_analytics",
+        "probabilities": {
+          "ai_and_machine_learning": 0.24,
+          "business_and_finance": 0.01,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.75,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.73,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1042,
+          "output_tokens": 165
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:16.043823+00:00"
+    },
+    "ba45d529f7269e03c9b0a8b29ba953991b7a500fdf45aae3e399d7cf5818bf51": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "data_and_analytics",
+        "probabilities": {
+          "ai_and_machine_learning": 0.06,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.9,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.04,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.89,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1057,
+          "output_tokens": 165
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:16.264101+00:00"
+    },
+    "d3180510fd7d4daa301ce8e6b9c02ff03ba03e7e048a8ed6841032df6bd12df3": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "technology_and_development",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.06,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.08,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.86
+        },
+        "confidence": 0.85,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1086,
+          "output_tokens": 166
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:16.495257+00:00"
+    },
+    "fbf02c93810735907793e38e295385eb9646cebafa36d385bff3661ba43a84f8": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "marketing_and_sales",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.02,
+          "communication_and_support": 0.02,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.01,
+          "marketing_and_sales": 0.43,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.38,
+          "personal_and_lifestyle": 0.14,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.39,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1103,
+          "output_tokens": 163
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:16.738749+00:00"
+    },
+    "c1e14c3fa3230ed43ce57c6e65adecc232ae0f698c7f58e874daacb25d7ceb20": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "media_and_content_creation",
+        "probabilities": {
+          "ai_and_machine_learning": 0.05,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.95,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.95,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1068,
+          "output_tokens": 164
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:16.960258+00:00"
+    },
+    "847b4e01967782f8e11b3e92e1a84b84c067869a72ea9dff6a10e7d42457c39b": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "technology_and_development",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 1.0
+        },
+        "confidence": 1.0,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1084,
+          "output_tokens": 166
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:17.257793+00:00"
+    },
+    "313a562983bdc00c93d7e521095da94092e6d1a14fa6779505527f604b2928b9": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "marketing_and_sales",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.99,
+          "media_and_content_creation": 0.01,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.99,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1042,
+          "output_tokens": 163
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:17.457800+00:00"
+    },
+    "13565eb886db57bd7efe4f3781b0be9327c20f1aa018394c4a37de3d294fb3ed": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "education_and_learning",
+        "probabilities": {
+          "ai_and_machine_learning": 0.21,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.01,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.05,
+          "education_and_learning": 0.56,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.14,
+          "operations_and_management": 0.03,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.53,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1041,
+          "output_tokens": 163
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:17.670366+00:00"
+    },
+    "cc8b7235a113d018009430d90815b4b1a2125810aaa8260033e65f8718d0035c": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "communication_and_support",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.99,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.01
+        },
+        "confidence": 0.99,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1038,
+          "output_tokens": 163
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:17.874501+00:00"
+    },
+    "352963607c1d96ca006c5b3a96541021408534da90606758290e2389e74b73a7": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "communication_and_support",
+        "probabilities": {
+          "ai_and_machine_learning": 0.03,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.97,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.97,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1040,
+          "output_tokens": 163
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:18.092176+00:00"
+    },
+    "2df9dd2fe461f3c76368bb8fe3db85cb24d578fd5a0f536fdf36b67642f9a030": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "technology_and_development",
+        "probabilities": {
+          "ai_and_machine_learning": 0.01,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.02,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.02,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.95
+        },
+        "confidence": 0.95,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1040,
+          "output_tokens": 166
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:18.316212+00:00"
+    },
+    "f4e7af4e64a3be38f661db6f53527903e6908922af28c8701d8083c607593e6b": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "technology_and_development",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 1.0
+        },
+        "confidence": 1.0,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1040,
+          "output_tokens": 166
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:18.529698+00:00"
+    },
+    "1bb905eb8a9b596a3e8751459ea15b6cbc9977ad333332068abea9776191984e": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "communication_and_support",
+        "probabilities": {
+          "ai_and_machine_learning": 0.05,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.75,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.08,
+          "personal_and_lifestyle": 0.12,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.73,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1040,
+          "output_tokens": 163
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:18.742998+00:00"
+    },
+    "35444580a3acf7774882e481d9c3591a54cec3c99509856935c47ce99df737fe": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "marketing_and_sales",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.03,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.88,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.08,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.01
+        },
+        "confidence": 0.87,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1036,
+          "output_tokens": 163
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:18.995786+00:00"
+    },
+    "4589bb5325f360e3166ba81c3927fdcf3ae1b5af525b6341c69c83d9aeeba3d8": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "operations_and_management",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.01,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.99,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.99,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1040,
+          "output_tokens": 163
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:19.191675+00:00"
+    },
+    "48f10949f8305b4abde6e2aa847dc4a42d2b676dfa7908b8980c1639ab99cc56": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "data_and_analytics",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 1.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 1.0,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1115,
+          "output_tokens": 165
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:19.421465+00:00"
+    },
+    "0a357779f78913ba24f24dd9aa68225e1e0ed2fb771ce5dff55ef64aeab3bdec": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "communication_and_support",
+        "probabilities": {
+          "ai_and_machine_learning": 0.16,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.61,
+          "creative_and_entertainment": 0.06,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.17,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.58,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1037,
+          "output_tokens": 163
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:19.620993+00:00"
+    },
+    "b1f2d3cedf0a886b7358d4d10391814d5ca97dda266553210742913c0c1b6634": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "operations_and_management",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 1.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 1.0,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1041,
+          "output_tokens": 163
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:19.834537+00:00"
+    },
+    "691a4b734df917d51f95729c0554df3cb92fcdcca80bc0b53e007c63fe231080": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "communication_and_support",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.84,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.16,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.83,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1051,
+          "output_tokens": 163
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:20.048513+00:00"
+    },
+    "57cb162c98e0e40fc8f94371d7353fa056c56ab4ec918c30eacb6b9920a53ca0": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "communication_and_support",
+        "probabilities": {
+          "ai_and_machine_learning": 0.15,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.83,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.01,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.01,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.82,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1048,
+          "output_tokens": 163
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:20.272499+00:00"
+    },
+    "fa96961d8214a5d5a13ddbaa3f0876650785c7421222ef8714aa1ca5825afd2d": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "ai_and_machine_learning",
+        "probabilities": {
+          "ai_and_machine_learning": 0.62,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.23,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.01,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.13,
+          "technology_and_development": 0.01
+        },
+        "confidence": 0.59,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1041,
+          "output_tokens": 164
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:20.493478+00:00"
+    },
+    "fa4a3b780348597eeb37d233d440cecb83ac6f6804f86cc252c9bb14eac4d70c": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "communication_and_support",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.03,
+          "communication_and_support": 0.74,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.02,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.09,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.12
+        },
+        "confidence": 0.72,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1042,
+          "output_tokens": 163
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:20.834251+00:00"
+    },
+    "e730037b399b70853fc4c0d553b94c946cc848ece312ad518d07067a792783d1": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "education_and_learning",
+        "probabilities": {
+          "ai_and_machine_learning": 0.15,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.6,
+          "industry_specific": 0.1,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.14,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.01,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.57,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1041,
+          "output_tokens": 163
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:21.124494+00:00"
+    },
+    "5e901aff2b86521fd2b184384a1ff5f99257ed4a336195507d238f028ad282e6": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "security_and_privacy",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 1.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 1.0,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1098,
+          "output_tokens": 164
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:21.369908+00:00"
+    },
+    "f1950441f284d586366c13b4281929b6342457c216b157c99bec3ed83037654f": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "industry_specific",
+        "probabilities": {
+          "ai_and_machine_learning": 0.01,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.78,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.21,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.76,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1039,
+          "output_tokens": 162
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:21.601317+00:00"
+    },
+    "51c5329d68ace1dc170c9182e1fb3ed30bcff0bcfd554032411a77dcd35714b1": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "media_and_content_creation",
+        "probabilities": {
+          "ai_and_machine_learning": 0.15,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.01,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.07,
+          "industry_specific": 0.32,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.41,
+          "operations_and_management": 0.04,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.36,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1059,
+          "output_tokens": 164
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:21.809970+00:00"
+    },
+    "4545baa2ed78d4e27cc8706c3586ed6b4f64a9e8f7523e8e4bb81cf85d0945f9": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "creative_and_entertainment",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.97,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.03,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.97,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1038,
+          "output_tokens": 166
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:22.012269+00:00"
+    },
+    "9f5234e166742ef0801945629ef98c2fbc0f57abb07a54724588e87653cf5d6e": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "personal_and_lifestyle",
+        "probabilities": {
+          "ai_and_machine_learning": 0.11,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.01,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.02,
+          "personal_and_lifestyle": 0.82,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.01,
+          "technology_and_development": 0.03
+        },
+        "confidence": 0.81,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1051,
+          "output_tokens": 165
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:22.208908+00:00"
+    },
+    "9d421812ee923d9fa23246262aadffe399b9bc10a47fac3d4b6083cd3e249126": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "security_and_privacy",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.01,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.99,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.99,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1044,
+          "output_tokens": 164
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:22.430028+00:00"
+    },
+    "fa2582902c23c704c70a43deda60ad9a0735c44029edfb5dfeb8ab335f49f071": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "ai_and_machine_learning",
+        "probabilities": {
+          "ai_and_machine_learning": 0.99,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.01,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.99,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1066,
+          "output_tokens": 164
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:22.659072+00:00"
+    },
+    "0812395c66d330b40796b7f378a2c6d3dd0d879d32d77116a39024938dd2ea82": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "personal_and_lifestyle",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.0,
+          "communication_and_support": 0.07,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.01,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.87,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.05,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.86,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1039,
+          "output_tokens": 165
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:22.996119+00:00"
+    },
+    "449e7c3c25fe316c1491f6e4a39cc71969e101f9abf6ce9e2fbedb1356375ac3": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "industry_specific",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.03,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.46,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.47,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.04,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.43,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1045,
+          "output_tokens": 162
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:23.220314+00:00"
+    },
+    "39c9ff8589cd961ad0724e3c27a62c88b52e275e0253603affbaf2f9497aea15": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "security_and_privacy",
+        "probabilities": {
+          "ai_and_machine_learning": 0.04,
+          "business_and_finance": 0.01,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.03,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.8,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.12
+        },
+        "confidence": 0.78,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1063,
+          "output_tokens": 164
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:23.457964+00:00"
+    },
+    "dc9a0410ed42072dffdba4d9a325460681c7270c66194eceb401ab1ddc140144": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "industry_specific",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.03,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.97,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.0,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.0
+        },
+        "confidence": 0.97,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1039,
+          "output_tokens": 162
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:23.681590+00:00"
+    },
+    "66027e52e203dd889927a17dedff10cf68a68ea94277fca94999330ccc14f21d": {
+      "source": "evaluation.build_trusted_test_set",
+      "result": {
+        "choice": "operations_and_management",
+        "probabilities": {
+          "ai_and_machine_learning": 0.0,
+          "business_and_finance": 0.01,
+          "communication_and_support": 0.0,
+          "creative_and_entertainment": 0.0,
+          "data_and_analytics": 0.0,
+          "education_and_learning": 0.0,
+          "industry_specific": 0.0,
+          "marketing_and_sales": 0.0,
+          "media_and_content_creation": 0.0,
+          "operations_and_management": 0.83,
+          "personal_and_lifestyle": 0.0,
+          "security_and_privacy": 0.0,
+          "specialized_technologies": 0.0,
+          "technology_and_development": 0.16
+        },
+        "confidence": 0.82,
+        "returned_model": "jev-1.14.0",
+        "usage": {
+          "input_tokens": 1053,
+          "output_tokens": 163
+        }
+      },
+      "retrieved_at": "2026-11-23T02:36:23.918227+00:00"
     }
   }
 }
