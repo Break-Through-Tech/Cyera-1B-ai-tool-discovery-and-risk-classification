@@ -39,9 +39,15 @@ st.set_page_config(page_title="AI Governance Console", page_icon="🛡️", layo
 
 
 @st.cache_data(show_spinner="Loading pipeline results…")
-def get_run(entry: dict):
+def get_run(entry: dict, source_signature: tuple):
+    # Signature includes the loader and input files, so cached view columns cannot go stale.
     run = load_company(entry)
     return run.apps, run.events, run.warnings, run.raw
+
+
+def run_signature(entry):
+    paths=[Path(__file__).with_name('data.py'),_path(entry['run_dir'])/'categorized_applications.json',_path(entry['activity'])]
+    return tuple((str(p),p.stat().st_mtime_ns,p.stat().st_size) for p in paths)
 
 
 def risk_badge(level: str, score=None) -> str:
@@ -75,7 +81,7 @@ with st.sidebar:
     if source=="Saved company":
         choice=st.radio("Company",[c["company"] for c in companies])
         entry=next(c for c in companies if c["company"]==choice)
-        apps,events,warnings,raw=get_run(entry)
+        apps,events,warnings,raw=get_run(entry,run_signature(entry))
     else:
         company=st.text_input("Fictional company",value="ExampleCorp")
         use_sample=st.checkbox("Use sample activity CSV",value=False)
@@ -170,7 +176,7 @@ with tab_inv:
         )[["name", "flag", "Risk", "risk_score", "category_label", "jev_check", "users", "Departments"]]
         st.dataframe(
             qv.rename(columns={"name": "Application", "flag": "Why it's here", "risk_score": "Score",
-                               "category_label": "Category", "jev_check": "Jev check", "users": "Users"}),
+                               "category_label": "Category", "jev_check": "Jev category opinion", "users": "Users"}),
             hide_index=True, width="stretch",
         )
 
@@ -220,7 +226,7 @@ with tab_inv:
         op = app["jev_opinion"]
         if isinstance(op, dict):
             agrees = op["category"] == app["category"]
-            msg = (f"**Jev second opinion:** {op['category']} ({op['probability']:.0%})  \n"
+            msg = (f"**Jev category second opinion:** {op['category']} ({op['probability']:.0%})  \n"
                    + " · ".join(f"{t['category']} {t['probability']:.0%}" for t in op["top_three"])
                    + f"  \n_Based on the {op['evidence_source']}. "
                    "Category evaluation used 154 tools with noisy reference labels (macro-F1 0.59 vs 0.48 for the local model). This is a small category benchmark, not AI/non-AI detection accuracy._")
@@ -324,11 +330,13 @@ with tab_all:
         Reasons=view["reasons"].map(lambda rs: " · ".join(r["text"] for r in rs)),
         upload_mb=(view["mean_upload"] / 1e6).round(2),
     )[["name", "endpoint", "ai_status", "category_label", "jev_check", "Risk", "risk_score", "approval",
-       "assessment_status", "users", "events", "upload_mb", "Departments", "Reasons"]]
+       "assessment_status", "detection_source", "category_source", "activity_provenance", "contains_synthetic_evidence", "users", "events", "upload_mb", "Departments", "Reasons"]]
     table = table.rename(columns={
         "name": "Application", "endpoint": "Endpoint", "ai_status": "AI status",
-        "category_label": "Category", "jev_check": "Jev check", "risk_score": "Score", "approval": "Approval",
-        "assessment_status": "Assessment", "users": "Users", "events": "Events",
+        "category_label": "Category", "jev_check": "Jev category opinion", "risk_score": "Score", "approval": "Approval",
+        "assessment_status": "Assessment", "detection_source": "AI label source", "category_source": "Purpose label source",
+        "activity_provenance": "Usage data provenance", "contains_synthetic_evidence": "Contains synthetic evidence",
+        "users": "Users", "events": "Events",
         "upload_mb": "Avg upload (MB)"})
     st.dataframe(table, hide_index=True, width="stretch")
     st.download_button("Download as CSV", csv_export(table.to_dict("records")),

@@ -199,6 +199,8 @@ def _app_row(rec: dict, company: str) -> dict:
         "catalog_detection_conflict": bool(rec.get("catalog_detection_conflict")),
         "jev_prediction": rec.get("jev_prediction"),
         "assessment_status": gov.get("assessment_status") or "unknown",
+        "activity_provenance": gov.get("activity_provenance") or "unknown",
+        "contains_synthetic_evidence": gov.get("contains_synthetic_evidence"),
         "needs_review": bool(gov.get("needs_review")),
         "approval": approval,
         "missing_evidence": gov.get("missing_evidence_rules") or [],

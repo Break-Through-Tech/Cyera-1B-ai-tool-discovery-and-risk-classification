@@ -4,12 +4,18 @@ Investigate application usage at a fictional enterprise: identify AI tools, sugg
 
 ## Try the dashboard
 
+For PR #22, run from `recording-dashboard`; use `main` after the PR is merged.
+
 ```bash
 python -m pip install -r dashboard/requirements.txt
 python -m streamlit run dashboard/app.py
 ```
 
 See [dashboard setup and modes](dashboard/README.md) and the [dashboard recording guide](docs/dashboard_demo.md) for input requirements, a walkthrough, and the distinction between saved decisions and fresh activity analysis. No API key is needed for this offline demo.
+
+## Prototype and artifact labels
+
+This PR contains a runnable Streamlit prototype. Start with the [setup and acceptance walkthrough](dashboard/README.md), then use the [artifact guide](docs/artifacts.md) to distinguish synthetic demo reports, source-assigned labels, Jev predictions, purpose-category evaluation and local ChromaDB evidence. The core demo works without paid provider calls; optional evidence questions require local retrieval dependencies and an encoder.
 
 ## Current workflow
 

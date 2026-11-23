@@ -54,6 +54,11 @@ class DashboardTests(unittest.TestCase):
         app=AppTest.from_file(str(ROOT/'dashboard/app.py')).run(timeout=30)
         self.assertEqual(len(app.exception),0)
         self.assertEqual(app.metric[0].value,'10')
+        provenance_headers={'AI label source','Purpose label source','Usage data provenance','Contains synthetic evidence'}
+        tables=[frame.value for frame in app.dataframe if provenance_headers<=set(frame.value.columns)]
+        self.assertEqual(len(tables),1)
+        self.assertEqual(set(tables[0]['Usage data provenance']),{'synthetic'})
+        self.assertTrue(tables[0]['Contains synthetic evidence'].all())
         app.sidebar.radio[1].set_value('NovaTech').run()
         self.assertEqual(len(app.exception),0)
         self.assertEqual(app.metric[0].value,'9')
