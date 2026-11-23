@@ -71,6 +71,32 @@ python -m ai_discovery.ask \
 
 Default answers are local evidence summaries with citations, not LLM-generated prose. Optional `--generate --api-model YOUR_MODEL` enables a Gemini RAG draft and may incur cost. Live generation remains unvalidated in this delivery. Company/department/status filters, synthetic controls, incomplete evidence and whole-application user-count scope remain visible. Similarity is relevance, not verification or security confidence.
 
+## Results
+
+**Shadow-AI case (VISION.md §4).** In Summit Financial's 25,120 events, **DocuMind AI** was in no catalog. Online discovery researched it and classified it as an AI document-analysis tool. Governance scored it **high (55)**: unapproved, used only by Finance (84 employees), and uploading 2.6× more per event than the company's typical app. Saved run: `data/processed/dashboard_runs/summit_reviewed/`.
+
+**AI detection.** Jev processed all 17,107 catalog identities: 9,814 AI-focused, 1,412 conventional and 5,881 unknown/review. It disagreed with 1,052 source labels ([details](docs/jev_classification.md)). The local binary model's 99.4% test score is measured against source-assigned labels, not human review.
+
+**Purpose categories (14 Kaggle categories).** All scores are measured against Kaggle's own labels, which are noisy:
+
+| Model and input | Macro-F1 |
+|---|---:|
+| Local TF-IDF, description **plus** Kaggle task phrase (held-out, 3,348 tools) | 0.734 |
+| Local TF-IDF, description only (same 154 held-out tools as below) | 0.477 |
+| **Jev, description only** (154 held-out tools) | **0.591** |
+
+The 0.734 is inflated. Kaggle's task phrase maps to a category almost one-to-one, and a plain lookup of it scores 85.8% accuracy. Description-only text is what a newly discovered app actually has. On that text Jev beats the local model (McNemar p = 0.004; better in 12 of 14 categories). Below 0.5 probability, Jev was right only 29% of the time, so those cases go to human review ([evaluation](docs/jev_category_evaluation.md)).
+
+- **In the pipeline:** `--category-api jev` makes Jev the categorizer for AI apps without a catalog category. The local model is the offline fallback.
+- **Catalog audit:** `--audit-catalog-categories` flags catalog categories Jev disputes. It flagged all four well-known catalog-categorized tools: ChatGPT ("Communication And Support"), Claude, Perplexity and Grammarly ("Security And Privacy"). An independent human review had judged all four catalog labels wrong.
+- **Spot check:** on the 10 AI tools in the usage logs, Jev agreed with the human-reviewed category for 9 (`data/reviews/categories_2026-11-21/`).
+
+**Governance.** Every score lists the rules and points behind it, plus any missing evidence. Example: ChatGPT at Summit scores 95 (unapproved, may train on customer data, no SSO, indefinite retention). Weights are a demonstration policy (`governance/policy.json`, demo-1.0) and have not been reviewed against independent judgments ([advisor worksheet](docs/component4_advisor_evaluation.md)).
+
+**Not yet validated against people.** No detection or category score above has been checked against human labels. A 150-tool trusted test set is built and ready to label: blind labelling sheet, hidden model predictions and a scorer reporting labeller agreement ([evaluation/README.md](evaluation/README.md)). That, and the advisor worksheet, are the next steps that turn these measurements into validated results.
+
+**Reproducing.** The trained category model can be downloaded instead of retrained: `python category_training/fetch_category_model.py` (GitHub Release, hash-verified). CI (`.github/workflows/tests.yml`) runs the core tests on every pull request.
+
 ## Validation and limitations
 
 The unified dashboard integration passes **205 automated tests** in the local validation environment, including 14 retrieval/answer checks and 9 additional grounding/QA checks. Six named-application search smoke queries returned the intended application first; this small developer-authored set is not a broad or independent retrieval benchmark. The 26 developer-authored functional cases also pass; this is not a general answer-accuracy benchmark. Live answer-quality evaluation is still needed.
