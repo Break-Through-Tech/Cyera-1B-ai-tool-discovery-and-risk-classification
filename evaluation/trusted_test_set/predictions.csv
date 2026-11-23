@@ -1,0 +1,151 @@
+item_id,local_tfidf_category,jev_category,jev_probability
+T001,Communication And Support,Personal And Lifestyle,0.89
+T002,Personal And Lifestyle,Operations And Management,0.76
+T003,Technology And Development,Technology And Development,0.77
+T004,Technology And Development,Technology And Development,0.86
+T005,Communication And Support,Business And Finance,0.61
+T006,Media And Content Creation,Industry Specific,0.48
+T007,Technology And Development,Technology And Development,0.92
+T008,Specialized Technologies,Specialized Technologies,0.96
+T009,Technology And Development,Technology And Development,0.93
+T010,Marketing And Sales,Marketing And Sales,0.95
+T011,Business And Finance,Data And Analytics,0.81
+T012,Technology And Development,Communication And Support,0.83
+T013,Operations And Management,Personal And Lifestyle,0.87
+T014,Specialized Technologies,Education And Learning,0.93
+T015,Ai And Machine Learning,Operations And Management,0.36
+T016,Media And Content Creation,Media And Content Creation,0.78
+T017,Ai And Machine Learning,Data And Analytics,0.73
+T018,Security And Privacy,Industry Specific,0.7
+T019,Business And Finance,Data And Analytics,0.9
+T020,Specialized Technologies,Creative And Entertainment,0.36
+T021,Media And Content Creation,Media And Content Creation,1.0
+T022,Business And Finance,Industry Specific,0.94
+T023,Technology And Development,Technology And Development,0.78
+T024,Business And Finance,Industry Specific,0.93
+T025,Marketing And Sales,Marketing And Sales,0.99
+T026,Operations And Management,Education And Learning,0.91
+T027,Communication And Support,Security And Privacy,1.0
+T028,Operations And Management,Operations And Management,0.99
+T029,Technology And Development,Technology And Development,1.0
+T030,Operations And Management,Operations And Management,0.9
+T031,Education And Learning,Education And Learning,0.81
+T032,Education And Learning,Education And Learning,0.94
+T033,Business And Finance,Business And Finance,1.0
+T034,Technology And Development,Operations And Management,0.83
+T035,Media And Content Creation,Media And Content Creation,0.81
+T036,Technology And Development,Data And Analytics,0.56
+T037,Media And Content Creation,Operations And Management,0.78
+T038,Business And Finance,Data And Analytics,0.64
+T039,Education And Learning,Education And Learning,0.99
+T040,Marketing And Sales,Technology And Development,0.79
+T041,Education And Learning,Education And Learning,0.97
+T042,Business And Finance,Marketing And Sales,0.99
+T043,Communication And Support,Operations And Management,0.63
+T044,Communication And Support,Communication And Support,0.61
+T045,Media And Content Creation,Media And Content Creation,0.64
+T046,Specialized Technologies,Industry Specific,0.88
+T047,Technology And Development,Education And Learning,0.96
+T048,Marketing And Sales,Marketing And Sales,0.86
+T049,Technology And Development,Technology And Development,1.0
+T050,Specialized Technologies,Specialized Technologies,0.96
+T051,Ai And Machine Learning,Ai And Machine Learning,0.59
+T052,Creative And Entertainment,Media And Content Creation,0.67
+T053,Industry Specific,Creative And Entertainment,0.59
+T054,Media And Content Creation,Media And Content Creation,0.75
+T055,Business And Finance,Ai And Machine Learning,0.53
+T056,Ai And Machine Learning,Ai And Machine Learning,0.93
+T057,Technology And Development,Technology And Development,1.0
+T058,Ai And Machine Learning,Data And Analytics,0.5
+T059,Media And Content Creation,Media And Content Creation,0.89
+T060,Specialized Technologies,Personal And Lifestyle,0.58
+T061,Marketing And Sales,Marketing And Sales,0.92
+T062,Media And Content Creation,Creative And Entertainment,0.44
+T063,Business And Finance,Business And Finance,0.93
+T064,Operations And Management,Operations And Management,0.98
+T065,Security And Privacy,Security And Privacy,0.99
+T066,Marketing And Sales,Marketing And Sales,0.93
+T067,Operations And Management,Ai And Machine Learning,0.68
+T068,Marketing And Sales,Marketing And Sales,0.96
+T069,Business And Finance,Operations And Management,0.94
+T070,Media And Content Creation,Media And Content Creation,0.77
+T071,Industry Specific,Industry Specific,0.83
+T072,Industry Specific,Industry Specific,0.96
+T073,Creative And Entertainment,Creative And Entertainment,0.99
+T074,Technology And Development,Technology And Development,1.0
+T075,Security And Privacy,Security And Privacy,0.93
+T076,Technology And Development,Communication And Support,0.91
+T077,Operations And Management,Operations And Management,0.85
+T078,Data And Analytics,Data And Analytics,0.98
+T079,Ai And Machine Learning,Operations And Management,0.48
+T080,Personal And Lifestyle,Personal And Lifestyle,1.0
+T081,Media And Content Creation,Ai And Machine Learning,0.47
+T082,Operations And Management,Ai And Machine Learning,0.56
+T083,Technology And Development,Operations And Management,0.92
+T084,Operations And Management,Operations And Management,0.55
+T085,Marketing And Sales,Marketing And Sales,0.94
+T086,Personal And Lifestyle,Personal And Lifestyle,0.91
+T087,Creative And Entertainment,Creative And Entertainment,0.99
+T088,Business And Finance,Marketing And Sales,0.89
+T089,Ai And Machine Learning,Ai And Machine Learning,0.31
+T090,Media And Content Creation,Creative And Entertainment,0.69
+T091,Technology And Development,Technology And Development,0.75
+T092,Communication And Support,Personal And Lifestyle,0.83
+T093,Marketing And Sales,Marketing And Sales,0.88
+T094,Media And Content Creation,Education And Learning,0.82
+T095,Media And Content Creation,Media And Content Creation,0.98
+T096,Ai And Machine Learning,Operations And Management,0.75
+T097,Business And Finance,Security And Privacy,0.41
+T098,Media And Content Creation,Security And Privacy,0.53
+T099,Technology And Development,Security And Privacy,0.92
+T100,Media And Content Creation,Media And Content Creation,0.8
+T101,Specialized Technologies,Specialized Technologies,0.46
+T102,Media And Content Creation,Media And Content Creation,0.7
+T103,Specialized Technologies,Industry Specific,0.92
+T104,Business And Finance,Business And Finance,0.74
+T105,Personal And Lifestyle,Personal And Lifestyle,1.0
+T106,Operations And Management,Communication And Support,0.6
+T107,Data And Analytics,Data And Analytics,1.0
+T108,Media And Content Creation,Media And Content Creation,0.92
+T109,Technology And Development,Education And Learning,0.93
+T110,Ai And Machine Learning,Ai And Machine Learning,0.46
+T111,Specialized Technologies,Industry Specific,0.64
+T112,Specialized Technologies,Ai And Machine Learning,0.69
+T113,Media And Content Creation,Media And Content Creation,0.58
+T114,Data And Analytics,Data And Analytics,0.75
+T115,Business And Finance,Data And Analytics,0.9
+T116,Business And Finance,Technology And Development,0.86
+T117,Marketing And Sales,Marketing And Sales,0.43
+T118,Media And Content Creation,Media And Content Creation,0.95
+T119,Technology And Development,Technology And Development,1.0
+T120,Marketing And Sales,Marketing And Sales,0.99
+T121,Data And Analytics,Education And Learning,0.56
+T122,Communication And Support,Communication And Support,0.99
+T123,Communication And Support,Communication And Support,0.97
+T124,Operations And Management,Technology And Development,0.95
+T125,Operations And Management,Technology And Development,1.0
+T126,Ai And Machine Learning,Communication And Support,0.75
+T127,Ai And Machine Learning,Marketing And Sales,0.88
+T128,Operations And Management,Operations And Management,0.99
+T129,Data And Analytics,Data And Analytics,1.0
+T130,Communication And Support,Communication And Support,0.61
+T131,Operations And Management,Operations And Management,1.0
+T132,Operations And Management,Communication And Support,0.84
+T133,Specialized Technologies,Communication And Support,0.83
+T134,Communication And Support,Ai And Machine Learning,0.62
+T135,Technology And Development,Communication And Support,0.74
+T136,Industry Specific,Education And Learning,0.6
+T137,Security And Privacy,Security And Privacy,1.0
+T138,Industry Specific,Industry Specific,0.78
+T139,Business And Finance,Media And Content Creation,0.41
+T140,Creative And Entertainment,Creative And Entertainment,0.97
+T141,Data And Analytics,Personal And Lifestyle,0.82
+T142,Ai And Machine Learning,Ai And Machine Learning,0.97
+T143,Ai And Machine Learning,Security And Privacy,0.99
+T144,Creative And Entertainment,Ai And Machine Learning,0.99
+T145,Personal And Lifestyle,Personal And Lifestyle,0.87
+T146,Business And Finance,Industry Specific,0.47
+T147,Data And Analytics,Ai And Machine Learning,0.99
+T148,Business And Finance,Security And Privacy,0.8
+T149,Industry Specific,Industry Specific,0.97
+T150,Business And Finance,Operations And Management,0.83
