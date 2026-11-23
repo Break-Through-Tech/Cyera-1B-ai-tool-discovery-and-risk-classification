@@ -442,6 +442,37 @@ An API categorizer is a practical initial candidate because evidence retrieval a
 Gemini integration already exist. It still needs its own evaluation; good binary
 classification does not establish good category accuracy.
 
+**Update (2026-11-22): Jev API categorizer implemented and evaluated.**
+`categorize.py` (and `run_pipeline.py`) accept `--category-api jev`. It is opt-in;
+the default remains fully offline.
+
+- **Evaluation first.** On 154 held-out Kaggle tools using description text only,
+  Jev reached macro-F1 0.591 vs 0.477 for the local TF-IDF model (McNemar p = 0.004).
+  Below 0.5 probability Jev was right only 29% of the time. See
+  `docs/jev_category_evaluation.md`.
+- **Where it runs.** Only for confirmed AI apps with no catalog category. Precedence
+  is unchanged otherwise: AI/identity gate → human review → catalog → **Jev** →
+  local model.
+- **What it sends.** The product's description section only (the same text and the
+  same 14 category definitions, `artifacts/jev_category_eval/criteria.json`, that
+  were evaluated). No employee, usage or company data.
+- **Results.** Probability ≥ `--api-review-threshold` (default 0.5): category set,
+  `category_source: api`, status `provisional_prediction`. Below it: category left
+  empty, status `needs_category_review`, Jev's choice kept as `suggested_category`.
+- **Fallback.** No `TYPESAFE_API_KEY`, a request failure, or an answer outside the
+  taxonomy falls back to the local model and records `api_fallback_reason`.
+- **Cache.** Answers are stored in `data/cache/jev_category_cache.json`, keyed by
+  model, question, definitions and text, so re-runs and the evaluation share answers
+  without new paid calls. Changed evidence makes a new request.
+
+```bash
+python -m ai_discovery.run_pipeline --activity data/raw/novatech_usage.csv \
+  --discovery data/processed/pipeline_runs/novatech_online1/categorized_applications.json \
+  --category-api jev --out data/processed/pipeline_runs/novatech_jev
+```
+
+Tests: `python -m unittest tests.test_component3_jev` (Jev simulated, no network).
+
 If revisiting local category training, use **all eligible labeled Kaggle entries**,
 not only the 306 sampled AI rows. Retain original descriptions and other appropriate
 product text before lookup-only cleaning; empty descriptions cannot train a text

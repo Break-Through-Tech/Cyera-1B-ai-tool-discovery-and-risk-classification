@@ -31,6 +31,7 @@ CATEGORY_STATUS_TEXT = {
     "pending_identity_review": "Pending identity review",
     "pending_detection_conflict": "Pending: catalog and discovery disagree",
     "pending_catalog_category_review": "Pending catalog category review",
+    "needs_category_review": "Needs category review (low Jev confidence)",
 }
 
 
