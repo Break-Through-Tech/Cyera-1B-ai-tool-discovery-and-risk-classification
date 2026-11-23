@@ -1,13 +1,19 @@
 """Component 3: conservative catalog reuse and saved-model purpose categorization.
 
 Run from the repository root: python -m ai_discovery.categorize --help
-No training or network calls. Inputs and AI decisions are never edited.
+No training. Inputs and AI decisions are never edited. No network calls unless
+--category-api jev is given; then Jev categorizes confirmed AI apps that have no
+catalog category, and the local model remains the offline fallback.
 """
 import argparse
 from collections import Counter, defaultdict
+from datetime import datetime, timezone
+import hashlib
 import importlib.metadata
 import json
+import os
 from pathlib import Path
+import urllib.error
 from urllib.parse import urlsplit
 
 from . import review_discovery_categories as helpers
@@ -98,6 +104,12 @@ class Engine:
         self.model_meta = None
         self.model_path = args.model_dir / (args.model + '.joblib')
         self.changed = False
+        self.jev = None
+        if getattr(args, 'category_api', 'none') == 'jev':
+            self.jev = JevCategorizer(args, self.taxonomy)
+
+    def api_settings(self):
+        return self.jev.settings() if self.jev else {'provider': None}
 
     def model_metadata(self):
         if self.model_meta is None:
@@ -167,6 +179,13 @@ class Engine:
                       sections=evidence['sections'], category_status=evidence['status'])
         if evidence['status'] != 'ready':
             return result
+        if self.jev is not None:
+            text = evidence.get('description_only_text') or ''
+            api, reason = self.jev.categorize(text) if text.strip() else (None, 'no Product Description section for API input')
+            if api is not None:
+                result.update(api)
+                return result
+            result['api_fallback_reason'] = reason
         m = self.model_metadata()
         cache_key = helpers.fingerprint({'version': VERSION, 'identity': key,
             'evidence': evidence_hash, 'text': evidence['model_text'], 'model': helpers.sha(self.model_path),
@@ -192,6 +211,98 @@ class Engine:
     def save_cache(self):
         if self.changed:
             helpers.atomic_cache(self.args.cache, self.cache)
+        if self.jev is not None:
+            self.jev.save_cache()
+
+
+class JevCategorizer:
+    """Jev (Typesafe System One) category choice, exactly as evaluated.
+
+    Same question, category definitions (artifacts/jev_category_eval/criteria.json),
+    description-only text and request key as category_training/jev_category_eval.py,
+    so that evaluation's result (macro-F1 0.59 vs 0.48 for the local model) describes
+    this step, and its cached answers are reused without new paid calls.
+    """
+
+    ERRORS = (urllib.error.URLError, TimeoutError, OSError, ValueError, KeyError)
+
+    def __init__(self, args, taxonomy):
+        self.args = args
+        self.mod = helpers.import_file(args.jev_script, 'jev_category_contract')
+        named = helpers.read_json(args.jev_criteria)
+        if set(named) != set(taxonomy):
+            raise ValueError('Jev criteria must cover exactly the Kaggle-14 taxonomy')
+        self.criteria = {self.mod.slug(c): text for c, text in named.items()}
+        self.by_slug = {self.mod.slug(c): c for c in taxonomy}
+        if not 0 <= args.api_review_threshold <= 1:
+            raise ValueError('--api-review-threshold must be between 0 and 1')
+        self.threshold = args.api_review_threshold
+        self.cache_path = args.jev_cache
+        self.cache = helpers.read_json(self.cache_path) if self.cache_path.exists() else {
+            'version': self.mod.VERSION, 'entries': {}}
+        self.changed = False
+        self.key = None
+        self.calls = 0
+
+    def settings(self):
+        return {'provider': 'jev', 'model': self.args.jev_model, 'review_threshold': self.threshold,
+                'criteria_sha256': helpers.sha(self.args.jev_criteria),
+                'question_version': self.mod.VERSION, 'evaluation': 'docs/jev_category_evaluation.md'}
+
+    def request_key(self, text):
+        spec = {'v': self.mod.VERSION, 'model': self.args.jev_model, 'instructions': self.mod.INSTRUCTIONS,
+                'criteria': self.criteria, 'evidence': text}
+        return hashlib.sha256(json.dumps(spec, sort_keys=True).encode()).hexdigest()
+
+    def api_key(self):
+        if self.key is None:
+            try:
+                from dotenv import load_dotenv
+                load_dotenv(ROOT/'.env', override=False)
+            except ImportError:
+                pass
+            self.key = os.environ.get('TYPESAFE_API_KEY') or ''
+        return self.key
+
+    def categorize(self, text):
+        """Return (categorization fields, None) or (None, fallback reason)."""
+        key = self.request_key(text)
+        entry = self.cache['entries'].get(key)
+        hit = entry is not None
+        if not hit:
+            if not self.api_key():
+                return None, 'TYPESAFE_API_KEY not set; used local model'
+            try:
+                answer = self.mod.call_jev(self.args.jev_model, text, self.criteria,
+                                           self.args.api_timeout, self.api_key())
+            except self.ERRORS as exc:
+                return None, f'Jev request failed ({type(exc).__name__}); used local model'
+            self.calls += 1
+            entry = {'source': 'ai_discovery.categorize', 'result': answer,
+                     'retrieved_at': datetime.now(timezone.utc).isoformat()}
+            self.cache['entries'][key] = entry
+            self.changed = True
+        answer = entry['result']
+        probs = answer['probabilities']
+        if set(probs) != set(self.criteria) or answer['choice'] not in self.criteria:
+            return None, 'Jev answer outside the taxonomy; used local model'
+        p = float(probs[answer['choice']])
+        top = sorted(probs.items(), key=lambda kv: -kv[1])[:3]
+        accepted = p >= self.threshold
+        fields = {'category': self.by_slug[answer['choice']] if accepted else None,
+                  'category_status': 'provisional_prediction' if accepted else 'needs_category_review',
+                  'category_source': 'api', 'api_provider': 'jev',
+                  'api_model': answer.get('returned_model') or self.args.jev_model,
+                  'api_probability': round(p, 4), 'api_review_threshold': self.threshold,
+                  'top_three': [{'category': self.by_slug[k], 'probability': round(float(v), 4)} for k, v in top],
+                  'cache_hit': hit, 'api_request_key': key}
+        if not accepted:
+            fields['suggested_category'] = self.by_slug[answer['choice']]
+        return fields, None
+
+    def save_cache(self):
+        if self.changed:
+            helpers.atomic_cache(self.cache_path, self.cache)
 
 
 def options(p):
@@ -206,6 +317,16 @@ def options(p):
     p.add_argument('--encoder-dir', type=Path)
     p.add_argument('--reviews', type=Path, help='Evidence-bound human category reviews')
     p.add_argument('--report-selections', type=Path)
+    p.add_argument('--category-api', choices=['none', 'jev'], default='none',
+                   help='Categorize confirmed AI apps without a catalog category with Jev; '
+                        'the local model is the fallback. Default: none (fully offline).')
+    p.add_argument('--api-review-threshold', type=float, default=0.5,
+                   help='Jev probability below this leaves the category empty and marks it for human review')
+    p.add_argument('--jev-model', default='jev-latest')
+    p.add_argument('--jev-criteria', type=Path, default=ROOT/'artifacts/jev_category_eval/criteria.json')
+    p.add_argument('--jev-cache', type=Path, default=ROOT/'data/cache/jev_category_cache.json')
+    p.add_argument('--jev-script', type=Path, default=ROOT/'category_training/jev_category_eval.py')
+    p.add_argument('--api-timeout', type=float, default=60)
     p.add_argument('--out', type=Path, required=True, help='New output directory')
 
 
@@ -214,10 +335,15 @@ def preflight(args, extra_inputs=()):
         raise ValueError('Output directory exists; choose a new --out')
     inputs = [args.catalog, args.known_tools, args.catalog_context, args.prep_script,
               args.training_script, args.reviews, args.report_selections, *extra_inputs]
-    cache = args.cache.resolve()
-    if (cache in {p.resolve() for p in inputs if p} or cache.is_relative_to(args.model_dir.resolve())
-            or cache.is_relative_to(args.out.resolve())):
-        raise ValueError('Cache must not overwrite a source or model file')
+    caches = [args.cache]
+    if getattr(args, 'category_api', 'none') == 'jev':
+        inputs += [args.jev_criteria, args.jev_script]
+        caches.append(args.jev_cache)
+    sources = {p.resolve() for p in inputs if p}
+    for cache in (c.resolve() for c in caches):
+        if (cache in sources or cache.is_relative_to(args.model_dir.resolve())
+                or cache.is_relative_to(args.out.resolve())):
+            raise ValueError('Cache must not overwrite a source or model file')
 
 
 def categorize_records(records, engine, args):
@@ -251,11 +377,15 @@ def save_outputs(args, records, engine, extra=None):
     flat = [dict(application_name=r['application_name'], endpoint=r['endpoint'],
                  is_ai_tool=r.get('is_ai_tool'), classification_status=r.get('classification_status'),
                  **r['categorization']) for r in records]
+    api = engine.api_settings()
+    sources_note = ('Category sources: human_review, catalog, api (Jev; below the review threshold the '
+                    'category is left empty for human review), then model when Jev is unavailable.'
+                    if api['provider'] else 'No API categorizer used; category sources are catalog, model or human_review.')
     report = {'version': VERSION, 'summary': dict(Counter(r['category_status'] for r in flat)),
-              'results': records, 'catalog_warnings': engine.catalog.warnings,
-              'limitations': ['Model scores are uncalibrated; predictions remain provisional.',
+              'results': records, 'catalog_warnings': engine.catalog.warnings, 'category_api': api,
+              'limitations': ['Model and Jev scores are not calibrated; predictions remain provisional.',
                   'Exact name/endpoint matching is an identity policy, not independent usage verification.',
-                  'No API category fallback; category sources are catalog, model or human_review.'], **(extra or {})}
+                  sources_note], **(extra or {})}
     helpers.write_json(args.out/'categorized_applications.json', report)
     helpers.write_csv(args.out/'categories.csv', flat, ['application_name', 'endpoint', 'is_ai_tool',
         'classification_status', 'category', 'category_status', 'category_source', 'cache_hit', 'evidence_sha256'])
@@ -267,9 +397,11 @@ def save_outputs(args, records, engine, extra=None):
     helpers.write_json(args.out/'taxonomy.json', {'categories': engine.taxonomy, 'version': 'original_kaggle_14'})
     paths = [args.catalog, args.known_tools, args.catalog_context, args.prep_script, args.training_script,
              args.reviews, args.report_selections, getattr(args, 'discovery', None), getattr(args, 'activity', None)]
+    if api['provider']:
+        paths += [args.jev_criteria, args.jev_script]
     helpers.write_json(args.out/'manifest.json', {'version': VERSION,
         'inputs': {str(p): helpers.sha(p) for p in paths if p and p.is_file()},
-        'script_sha256': helpers.sha(Path(__file__)), 'model': engine.model_meta})
+        'script_sha256': helpers.sha(Path(__file__)), 'model': engine.model_meta, 'category_api': api})
     engine.save_cache()
     print(json.dumps(report['summary'], indent=2))
     return report

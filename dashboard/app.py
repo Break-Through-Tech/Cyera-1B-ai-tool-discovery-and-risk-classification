@@ -27,8 +27,8 @@ RISK_COLOR = {"high": "#d03b3b", "medium": "#fab219", "low": "#0ca30c", "unknown
 RISK_ICON = {"high": "🔴", "medium": "🟠", "low": "🟢", "unknown": "⚪"}
 SERIES = "#2a78d6"
 SEQUENTIAL = ["#cde2fb", "#9ec5f4", "#6da7ec", "#3987e5", "#256abf", "#184f95", "#0d366b"]
-SOURCE_TEXT = {"catalog": "AI-tool catalog", "model": "category model (provisional)",
-               "human_review": "human review", None: "—"}
+SOURCE_TEXT = {"catalog": "AI-tool catalog", "model": "local category model (provisional)",
+               "api": "Jev API (provisional)", "human_review": "human review", None: "—"}
 
 st.set_page_config(page_title="AI Governance Console", page_icon="🛡️", layout="wide")
 
