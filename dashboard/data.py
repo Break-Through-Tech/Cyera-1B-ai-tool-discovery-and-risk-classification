@@ -184,8 +184,8 @@ def _app_row(rec: dict, company: str) -> dict:
         "application_id": rec.get("application_id") or oi.get("application_id"),
         "name": display_name(rec),
         "endpoint": rec.get("endpoint") or oi.get("observed_endpoint"),
-        "is_ai_tool": rec.get("is_ai_tool"),
-        "ai_status": AI_STATUS.get(rec.get("is_ai_tool"), "Unresolved"),
+        "is_ai_tool": None if rec.get("catalog_detection_conflict") else rec.get("is_ai_tool"),
+        "ai_status": AI_STATUS.get(None if rec.get("catalog_detection_conflict") else rec.get("is_ai_tool"), "Unresolved"),
         "detection_reason": rec.get("reason") or "",
         "category": cat.get("category"),
         "category_status": cat.get("category_status"),
@@ -193,8 +193,14 @@ def _app_row(rec: dict, company: str) -> dict:
         "category_label": _category_label(cat),
         "top_three": cat.get("top_three") or [],
         "risk_level": gov.get("risk_level") or "unknown",
-        "risk_score": _num(gov.get("risk_score")),
+        "risk_score": _num(gov.get("risk_score"), None),
+        "detection_source": rec.get("decision_source") or "unknown",
+        "detection_probabilities": rec.get("probabilities") or {},
+        "catalog_detection_conflict": bool(rec.get("catalog_detection_conflict")),
+        "jev_prediction": rec.get("jev_prediction"),
         "assessment_status": gov.get("assessment_status") or "unknown",
+        "activity_provenance": gov.get("activity_provenance") or "unknown",
+        "contains_synthetic_evidence": gov.get("contains_synthetic_evidence"),
         "needs_review": bool(gov.get("needs_review")),
         "approval": approval,
         "missing_evidence": gov.get("missing_evidence_rules") or [],
@@ -234,12 +240,16 @@ def attach_events(report: dict, activity: pd.DataFrame) -> pd.DataFrame:
     merged = act.merge(emap[["source_row", "application_id", "event_id"]],
                        on="source_row", how="inner", suffixes=("", "_map"))
     if "event_id" in act.columns:
-        mismatched = (merged["event_id"].astype(str) != merged["event_id_map"].astype(str)).sum()
+        mismatched = ((merged["event_id"].fillna("").astype(str) != "") & (merged["event_id"].astype(str) != merged["event_id_map"].astype(str))).sum()
         if mismatched:
             raise ValueError(f"{mismatched} activity rows do not line up with the pipeline event map; "
                              "the activity CSV is not the one this run was built from.")
-    merged["timestamp"] = pd.to_datetime(merged["timestamp"], errors="coerce")
-    return merged.drop(columns=["event_id_map"])
+    merged["timestamp"] = pd.to_datetime(merged.get("timestamp"), errors="coerce", utc=True,format="mixed")
+    if "event_id_map" in merged:merged["event_id"]=merged["event_id_map"]
+    for field in ("employee_id","department"):
+        if field not in merged:merged[field]=pd.NA
+        merged[field]=merged[field].replace("",pd.NA)
+    return merged.drop(columns=["event_id_map"],errors="ignore")
 
 
 MISSING_EVIDENCE_TEXT = {

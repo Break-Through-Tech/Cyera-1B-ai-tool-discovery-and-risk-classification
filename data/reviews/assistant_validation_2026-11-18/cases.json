@@ -1,0 +1,213 @@
+{
+  "scope": "Developer-authored functional/abstention cases on fictional contract fixtures; not an independent answer-quality or vendor benchmark.",
+  "reports": [
+    "alpha-report.json",
+    "beta-report.json"
+  ],
+  "cases": [
+    {
+      "id": "all_apps",
+      "company": "EvalCo Alpha",
+      "question": "How many applications?",
+      "expected_status": "evidence_available",
+      "expected_count": 4
+    },
+    {
+      "id": "ai_paraphrase",
+      "company": "EvalCo Alpha",
+      "question": "How many applications are AI?",
+      "expected_status": "evidence_available",
+      "expected_count": 2
+    },
+    {
+      "id": "non_ai",
+      "company": "EvalCo Alpha",
+      "question": "How many conventional applications?",
+      "expected_status": "evidence_available",
+      "expected_count": 1
+    },
+    {
+      "id": "unknown_ai",
+      "company": "EvalCo Alpha",
+      "question": "How many unknown applications?",
+      "expected_status": "evidence_available",
+      "expected_count": 1
+    },
+    {
+      "id": "high_priority",
+      "company": "EvalCo Alpha",
+      "question": "How many high-priority applications?",
+      "expected_status": "evidence_available",
+      "expected_count": 1
+    },
+    {
+      "id": "unknown_priority",
+      "company": "EvalCo Alpha",
+      "question": "How many unknown-risk applications?",
+      "expected_status": "evidence_available",
+      "expected_count": 1
+    },
+    {
+      "id": "approved",
+      "company": "EvalCo Alpha",
+      "question": "How many approved applications?",
+      "expected_status": "evidence_available",
+      "expected_count": 1
+    },
+    {
+      "id": "unapproved",
+      "company": "EvalCo Alpha",
+      "question": "How many unapproved applications?",
+      "expected_status": "evidence_available",
+      "expected_count": 1
+    },
+    {
+      "id": "unknown_approval",
+      "company": "EvalCo Alpha",
+      "question": "How many applications?",
+      "expected_status": "evidence_available",
+      "expected_count": 2,
+      "filters": {
+        "approval": "unknown"
+      }
+    },
+    {
+      "id": "no_sso",
+      "company": "EvalCo Alpha",
+      "question": "Which applications do not support SSO?",
+      "expected_status": "evidence_available",
+      "expected_count": 2,
+      "expected_names": [
+        "LedgerLens",
+        "CodeHarbor"
+      ]
+    },
+    {
+      "id": "no_sso_contraction",
+      "company": "EvalCo Alpha",
+      "question": "Which applications don't support SSO?",
+      "expected_status": "evidence_available",
+      "expected_count": 2
+    },
+    {
+      "id": "has_sso",
+      "company": "EvalCo Alpha",
+      "question": "Which applications have SSO?",
+      "expected_status": "evidence_available",
+      "expected_count": 1,
+      "expected_names": [
+        "PlainStore"
+      ]
+    },
+    {
+      "id": "unknown_sso",
+      "company": "EvalCo Alpha",
+      "question": "Which applications have unknown SSO?",
+      "expected_status": "evidence_available",
+      "expected_count": 1,
+      "expected_names": [
+        "PendingBox"
+      ]
+    },
+    {
+      "id": "unknown_training",
+      "company": "EvalCo Alpha",
+      "question": "How many applications?",
+      "expected_status": "evidence_available",
+      "expected_count": 2,
+      "filters": {
+        "control_filters": {
+          "training_on_customer_data": null
+        }
+      }
+    },
+    {
+      "id": "training_false",
+      "company": "EvalCo Alpha",
+      "question": "How many AI tools do not use customer data for training?",
+      "expected_status": "evidence_available",
+      "expected_count": 1
+    },
+    {
+      "id": "training_true",
+      "company": "EvalCo Alpha",
+      "question": "How many AI tools use customer data for training?",
+      "expected_status": "no_matching_evidence",
+      "expected_count": 0
+    },
+    {
+      "id": "highest_priority",
+      "company": "EvalCo Alpha",
+      "question": "What are the highest-risk applications?",
+      "expected_status": "evidence_available",
+      "expected_count": 4,
+      "top_k": 1,
+      "expected_names": [
+        "CodeHarbor"
+      ]
+    },
+    {
+      "id": "named_evidence",
+      "company": "EvalCo Alpha",
+      "question": "Why was LedgerLens flagged?",
+      "expected_status": "evidence_available",
+      "expected_count": 1,
+      "expected_names": [
+        "LedgerLens"
+      ]
+    },
+    {
+      "id": "missing_identity",
+      "company": "EvalCo Alpha",
+      "question": "Why was AbsentProduct flagged?",
+      "expected_status": "no_matching_evidence",
+      "expected_count": 0
+    },
+    {
+      "id": "company_boundary",
+      "company": "EvalCo Alpha",
+      "question": "Explain CodeHarbor for EvalCo Beta",
+      "expected_status": "abstained"
+    },
+    {
+      "id": "safety_claim",
+      "company": "EvalCo Alpha",
+      "question": "Is CodeHarbor safe?",
+      "expected_status": "abstained"
+    },
+    {
+      "id": "temporal_claim",
+      "company": "EvalCo Alpha",
+      "question": "Which AI tools are growing fastest over time?",
+      "expected_status": "abstained"
+    },
+    {
+      "id": "department_users",
+      "company": "EvalCo Alpha",
+      "question": "How many Finance users use CodeHarbor?",
+      "expected_status": "abstained"
+    },
+    {
+      "id": "cross_app_users",
+      "company": "EvalCo Alpha",
+      "question": "How many unique users are there?",
+      "expected_status": "abstained"
+    },
+    {
+      "id": "ambiguous_approval",
+      "company": "EvalCo Alpha",
+      "question": "How many applications are not approved?",
+      "expected_status": "abstained"
+    },
+    {
+      "id": "null_priority",
+      "company": "EvalCo Alpha",
+      "question": "Why was PendingBox flagged?",
+      "expected_status": "evidence_available",
+      "expected_count": 1,
+      "expected_names": [
+        "PendingBox"
+      ]
+    }
+  ]
+}

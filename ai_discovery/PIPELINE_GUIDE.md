@@ -489,3 +489,7 @@ Dependencies for operational API calls are `google-genai` and `python-dotenv`.
 The current configured Gemini model is `gemini-3.8-flash`, matching the successful
 project runs; `--model` permits a different supported model. The project-root `.env`
 contains `GEMINI_API_KEY`. No SQL database or separate local model server is required.
+
+## Report assistant extension
+
+The separate report-assistant work adds `ai_discovery.retrieval`, `ai_discovery.ask`, strict fact/value grounding, and unsupported-question abstention. See [the assistant guide](../docs/governance_assistant.md) and [validation contract](../docs/answer_validation.md). This does not change operational Components 1-4 decisions or scores.

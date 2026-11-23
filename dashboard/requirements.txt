@@ -1,0 +1,6 @@
+-r ../modeling/requirements-jev.txt
+streamlit==1.67.0
+pandas>=2.2,<4
+# Optional local evidence search: install modeling/requirements-retrieval.txt separately.
+
+plotly>=5.24,<7

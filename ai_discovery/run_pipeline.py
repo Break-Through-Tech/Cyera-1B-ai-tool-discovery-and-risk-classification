@@ -1,7 +1,7 @@
 """Run Components 1-4: extraction, discovery, categorization and governance.
 
-Offline by default. --online enables existing enrich/classify services for
-unresolved products. Governance uses explicit evidence; unknown is the default.
+Offline by default. --online enables Gemini public-product research and Jev
+AI/non-AI detection for unresolved products (legacy Gemini detection is optional). Governance uses explicit evidence; unknown is the default.
 """
 import argparse
 from collections import Counter
@@ -145,7 +145,8 @@ def online_discovery(args, apps, engine, prior, stage):
     if args.decision_cache and args.decision_cache.exists():
         shutil.copyfile(args.decision_cache, decisions)
     command = [sys.executable, '-m', 'ai_discovery.classify', '--cache', str(source),
-        '--decision-cache', str(decisions), '--output', str(output), '--model', args.api_model]
+        '--decision-cache', str(decisions), '--output', str(output), '--model', args.api_model,
+        '--provider',getattr(args,'detection_provider','jev'),'--jev-model',getattr(args,'jev_model','jev-1.14.0')]
     if args.trust_application_names:
         command.append('--trust-application-names')
     subprocess.run(command, check=True, cwd=cat.ROOT)
@@ -160,7 +161,9 @@ def main():
     p.add_argument('--activity', type=Path, required=True)
     p.add_argument('--discovery', type=Path, help='Existing classify.py report; omitted means catalog-only detection offline')
     p.add_argument('--online', action='store_true', help='Allow enrichment and AI-detection API calls')
-    p.add_argument('--api-model', default='gemini-3.8-flash')
+    p.add_argument('--api-model', default='gemini-3.8-flash',help='Gemini public-product research model')
+    p.add_argument('--detection-provider',choices=['jev','gemini'],default='jev')
+    p.add_argument('--jev-model',default='jev-1.14.0')
     p.add_argument('--trust-application-names', action='store_true')
     p.add_argument('--enrichment-cache', type=Path, default=cat.ROOT/'data/cache/enrichment_cache.json')
     p.add_argument('--decision-cache', type=Path, default=cat.ROOT/'data/cache/ai_classification_cache.json')
@@ -183,6 +186,9 @@ def main():
                 or a.enrichment_cache.resolve().is_relative_to(a.model_dir.resolve())
                 or a.enrichment_cache.resolve().is_relative_to(a.out.resolve())):
             raise ValueError('Enrichment cache must not overwrite a source/model file')
+        if a.online and a.detection_provider=='jev':
+            from .jev import local_key
+            if not local_key():raise ValueError('Set TYPESAFE_API_KEY before enabling Jev online detection')
         engine = cat.Engine(a)
         ingestion = extract_applications(a.activity)
         prior = index_discovery(cat.helpers.read_json(a.discovery), engine.prep) if a.discovery else {}

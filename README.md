@@ -1,110 +1,98 @@
 # Cyera — AI Tool Discovery & Risk Classification
 
-A prototype for discovering AI applications in fictional enterprise activity, classifying their purpose and explaining governance concerns. This page describes code currently on `main`; experimental branches are listed separately.
+Investigate application usage at a fictional enterprise: identify AI tools, suggest their purpose, summarize usage, explain governance concerns, and retrieve the evidence behind findings. The unified dashboard preserves the team’s reviewed company reports, investigation views, heatmaps and trends, and adds offline CSV analysis and local evidence questions. Jev has processed all 17,107 unique identities in the current catalog (9,814 AI-focused, 1,412 conventional, 5,881 unknown/review). The separate 21-app enterprise demo remains available; viewing saved results makes no paid calls.
 
-## Where everything lives
+## Try the dashboard
 
-| Folder | Job | Key files |
-|---|---|---|
-| `ai_discovery/` | Ingest, match, optionally research, and produce combined findings | `report.py`, `pipeline.json`, `ingest.py`, `catalog.py`, `enrich.py` |
-| `governance/` | Explainable risk calculations and fictional policy scenarios | `risk.py`, `policy.json`, `synthetic_scenarios.json` |
-| `modeling/` | All model training, comparison and prediction code | `train_categories.py`, `predict_categories.py`, `train_corrected_binary.py`; earlier reproduction scripts |
-| `preprocessing_scripts/` | Cleaning, labeling, category mapping and data enrichment | `apply_conflict_review.py`, `fix_final_ai_labels.py`, `map_kaggle_categories.py` |
-| `data/` | Source datasets, prepared tables and evidence | `raw/`, `processed/`, `reviews/`, `cache/` |
-| `artifacts/` | All saved models and experiment outputs | See below |
-| `tests/` | Automated checks | Dataset, baseline, embedding and governance tests |
-| `docs/` | Explanations, limitations and history | [Repository map](docs/repository_map.md) |
-| `notebooks/` | Exploratory analysis and earlier experiments | `eda.ipynb` |
+For PR #22, run from `recording-dashboard`; use `main` after the PR is merged.
 
-## Current integrated workflow
+```bash
+python -m pip install -r dashboard/requirements.txt
+python -m streamlit run dashboard/app.py
+```
+
+See [dashboard setup and modes](dashboard/README.md) and the [dashboard recording guide](docs/dashboard_demo.md) for input requirements, a walkthrough, and the distinction between saved decisions and fresh activity analysis. No API key is needed for this offline demo.
+
+## Prototype and artifact labels
+
+This PR contains a runnable Streamlit prototype. Start with the [setup and acceptance walkthrough](dashboard/README.md), then use the [artifact guide](docs/artifacts.md) to distinguish synthetic demo reports, source-assigned labels, Jev predictions, purpose-category evaluation and local ChromaDB evidence. The core demo works without paid provider calls; optional evidence questions require local retrieval dependencies and an encoder.
+
+## Current workflow
 
 ```mermaid
 flowchart LR
-    A[Activity CSV] --> B[Ingest and catalog matching]
-    C[Reconciled full labels] --> B
-    D[Supplied product descriptions] --> E[Binary prediction for unmatched identities]
-    B --> E
-    E --> F[14-category purpose suggestions]
-    B --> G[Explainable risk assessment]
-    F --> H[Combined JSON findings]
-    G --> H
+    A[Synthetic enterprise activity] --> B[Ingestion and catalog matching]
+    B --> C[Optional evidence retrieval and AI classification]
+    C --> D[Purpose categorization]
+    D --> E[Governance evidence and explainable scoring]
+    E --> F[Saved Component 4 report]
+    F --> G[Local ChromaDB semantic search]
+    G --> H[Company-scoped analyst questions and citations]
+    H --> I[Optional generated RAG draft]
 ```
 
-`ai_discovery/report.py` coordinates Sadit's ingestion/catalog matching, optional description-based predictions and the governance engine. `ai_discovery/pipeline.json` names the active data/model versions. Unknown and ambiguous applications remain visible; a model does not automatically override ambiguous identities. Enrichment is a separate optional research command. No web/API calls occur automatically.
+- **Components 1–4:** Sadit's current operational workflow is `ai_discovery/run_pipeline.py`. Read [the pipeline guide](ai_discovery/PIPELINE_GUIDE.md) and [Component 4 contract](docs/component4_integration.md). The report preserves exact identities, accepted/rejected events, category provenance, governance evidence and missingness. Online discovery/research are separately enabled; they are not automatic defaults.
+- **Grounded answer validation:** [26 functional cases and strict fact selection](docs/answer_validation.md), including unknown scores, control predicates and abstention.
+- **Evidence search and analyst questions:** `ai_discovery/retrieval.py` and `ai_discovery/ask.py` consume saved Component 4 reports. They do not rerun paid discovery, retrain models or change scores. Read [the assistant guide](docs/governance_assistant.md).
+- **Earlier local-model backend:** `ai_discovery/report.py` and `pipeline.json` retain the November 11 experimental binary/category workflow. Its compatibility with current catalog code is restored, but it is not the latest operational Components 1–4 runner. Read [that historical release](docs/backend_release.md).
 
-```bash
-python -m pip install -r modeling/requirements-pipeline.txt
-python -m ai_discovery.report --company 'Summit Financial' \
-  --activity 'data/raw/summit_financial_usage (1).csv' \
-  --out /tmp/summit-current.json
+## Where code lives
 
-# Also exercise unfamiliar applications with supplied descriptions:
-python -m ai_discovery.report --company 'Example Enterprise' \
-  --activity data/examples/unseen_activity.csv \
-  --descriptions data/examples/unseen_descriptions.csv \
-  --out /tmp/example-current.json
-```
-
-Read [the release guide](docs/backend_release.md) for results, limitations, preparation/reproduction commands and known diagnostic failures. The dashboard remains paused.
-
-## Saved models
-
-All checked-in saved models now live under `artifacts/`; the old `models/` directory is retired.
-
-| Directory | Contents |
+| Location | Job |
 |---|---|
-| `artifacts/reconciled_binary_2026-11-11/` | Active description-only binary model, config and test results |
-| `artifacts/categories_kaggle14_2026-11-11/` | Active 14-category comparison, three classifiers and selected runtime config |
-| `artifacts/backend_release_2026-11-11/` | Current company report summaries and known diagnostic failures |
-| `artifacts/category_tfidf/` | Sadit's TF-IDF + Logistic Regression category experiment |
-| `artifacts/category_embeddings/` | Sadit's default MiniLM embedding/category experiment |
-| `artifacts/category_embeddings_tuned/` | Sadit's tuned embedding/category experiment |
-| `artifacts/baseline/` | Earlier binary and category baseline models |
-| `artifacts/embeddings/` | Earlier binary/category embeddings and similarity experiment |
-| `artifacts/governance/` | Standalone example risk reports |
+| `ai_discovery/ingest.py`, `catalog.py` | Extract observed applications and match exact known identities |
+| `ai_discovery/jev.py`, `jev_catalog.py` | Jev product classification for enterprise samples and the full current catalog |
+| `ai_discovery/enrich.py`, `classify.py` | Optional cited product research and AI/non-AI decisions |
+| `ai_discovery/categorize.py`, `run_pipeline.py` | Category inference/cache and integrated Components 1–4 |
+| `governance/risk.py`, `evidence.py`, `research.py` | Scoring, company-scoped evidence and optional control research |
+| `ai_discovery/retrieval.py`, `ask.py`, `evaluate_retrieval.py` | Index report evidence, answer questions and run labeled search checks |
+| `category_training/` | Current larger Kaggle-14 category training package; see the pipeline guide |
+| `modeling/` | Earlier binary/category experiments and optional dependency lists |
+| `preprocessing_scripts/` | Data preparation, correction, enrichment and comparison utilities |
+| `data/` | Source data, prepared tables, review evidence and saved pipeline runs |
+| `artifacts/` | Historical model metrics/reports and small validation examples |
+| `dashboard/app.py`, `data.py`, `workflow.py` | Unified interface, team report views, saved Jev lookup, uploads and report questions |
+| `ai_discovery/dashboard_data.py` | Operational ingestion/catalog/governance adapter for fresh uploaded activity |
+| `tests/` | Automated behavior and consistency checks |
+| `docs/`, `notebooks/` | Methods, limitations, history and exploratory analysis |
 
-The new comparison uses 306 eligible AI records and the same 14 original Kaggle categories as lookup. Tuned embeddings achieved 45.75% cross-validation accuracy (macro F1 0.3939). The new binary test score is 99.44% (macro F1 0.9537), against mostly source-assigned labels. These do not establish real-world reliability: the saved diagnostic examples include a false AI prediction for plain file storage and an incorrect coding-helper purpose suggestion. Earlier 12-category and binary experiments remain historical; their scores are not directly comparable. All model predictions request review.
+Trained weights, encoders, virtual environments and derived vector indexes are **local artifacts**, excluded from Git. Do not force-add them. Preserve run manifests and metrics; train locally or supply your existing encoder/model bundles. Different training experiments have different environments and data contracts.
 
-Active category training uses `python -m modeling.train_categories`. Earlier category scripts remain available for 12-category reproduction:
+## Try report search without paid calls
 
-```bash
-python -m modeling.train_category_model --help
-python -m modeling.train_category_embeddings --help
-python -m modeling.tune_category_embeddings --help
-```
-
-## Data versions and limitations
-
-- `data/processed/source_membership/`: all 17,292 source-assigned labels, preserved as originally assigned.
-- `data/processed/corrected_labels_2026-11-05/`: full reviewed-correction export; 16,740 AI, 516 conventional, 36 unresolved.
-- `data/processed/final/dataset_b_final_fixed.csv`: later 697-row subset with six additional resolved labels; 306 AI and 391 conventional.
-- `data/processed/final/dataset_b_final_kaggle_categories.csv`: the same subset mapped to 14 original Kaggle categories.
-- `data/processed/kaggle_dataset_b/`: prepared catalog/context and a separate synthetic-governance-filled version. Generated security settings are fictional, not verified vendor policies or company approvals.
-
-The later six resolutions are propagated only in the new reconciled release; historical exports remain unchanged. Source-assigned labels and original Kaggle categories are not independently verified truth. Unknown does not mean conventional or safe.
-
-## Current releases and unfinished work
-
-- New full export: `data/processed/reconciled_labels_2026-11-11/`, with 16,741 AI, 521 conventional and 30 unresolved. This propagates the six documented subset resolutions while preserving older source releases.
-- New grouped binary splits: `data/processed/classification_reconciled_2026-11-11/`, 16,680 retained applications; 612 set aside with reasons.
-- `artifacts/corrected_full_binary/` and `classification_corrected_full/` preserve the earlier PR #19 experiment. It is not the active model.
-- Current examples: `artifacts/backend_release_2026-11-11/`. Older shared/combined reports remain historical.
-- Dashboard/upload draft: paused outside the repository. Retrieval/RAG and Jev comparison remain unfinished. Independent representative validation and stronger purpose labels are still needed.
-
-## Setup, tests and documentation
-
-The root `requirements.txt` records the broader team environment. Earlier binary/embedding experiments have their own pinned lists in `modeling/requirements*.txt`; package versions differ between experiments. Use a suitable dedicated virtual environment and do not assume every saved model is compatible with every environment.
+Install the optional search dependencies in a dedicated environment. You need an existing local Sentence Transformers encoder bundle; index building does not download one.
 
 ```bash
-python -m unittest discover -s tests
+python -m pip install -r modeling/requirements-retrieval.txt
+
+python -m ai_discovery.retrieval \
+  --report data/processed/pipeline_runs/novatech_component4_v2.json \
+  --encoder /path/to/local/MiniLM/encoder \
+  --out data/cache/governance_retrieval/novatech-chroma-v3
+
+python -m ai_discovery.ask \
+  --index data/cache/governance_retrieval/novatech-chroma-v3 \
+  --company NovaTech --question 'Why was Salesforce flagged?'
 ```
 
-- [Current backend release, results and limitations](docs/backend_release.md)
-- [Repository map and cleanup details](docs/repository_map.md)
-- [Corrected labels and vendor provenance](docs/corrected_labels.md)
-- [Governance engine](docs/governance_risk.md)
-- [Earlier baseline](docs/baseline_classification.md) and [embedding experiment](docs/embedding_classification.md)
-- [Historical README and EDA findings](docs/project_history.md)
-- [Project requirements](Challenge-Project-Overview.md) and [vision](VISION.md)
+Default answers are local evidence summaries with citations, not LLM-generated prose. Optional `--generate --api-model YOUR_MODEL` enables a Gemini RAG draft and may incur cost. Live generation remains unvalidated in this delivery. Company/department/status filters, synthetic controls, incomplete evidence and whole-application user-count scope remain visible. Similarity is relevance, not verification or security confidence.
 
-Challenge advisor: Shubham Arya. AI coach: Aram Ramos. Fellows: Forum Shah, Sheila Aquino, Sadit Hussain, Min Thaw Zin, Abigail De Leon, Joshua Hu and Abdulfattah Ahmed. Joshua's EDA contributions are preserved in the notebook and historical guide.
+## Validation and limitations
+
+The unified dashboard integration passes **205 automated tests** in the local validation environment, including 14 retrieval/answer checks and 9 additional grounding/QA checks. Six named-application search smoke queries returned the intended application first; this small developer-authored set is not a broad or independent retrieval benchmark. The 26 developer-authored functional cases also pass; this is not a general answer-accuracy benchmark. Live answer-quality evaluation is still needed.
+
+Model accuracy figures refer to specific datasets and contracts; do not present earlier 306-row category results as results of the newer full-Kaggle category pipeline. Source-assigned labels, provisional predictions and generated controls are not independently verified truth. Synthetic governance settings demonstrate the project workflow and are labeled; missing evidence never establishes safety.
+
+## Guides and remaining work
+
+- [Jev classification and completed catalog/sample runs](docs/jev_classification.md)
+- [Current discovery/category/governance pipeline](ai_discovery/PIPELINE_GUIDE.md)
+- [Component 4 evidence and scoring](docs/component4_integration.md)
+- [New report retrieval and analyst assistant](docs/governance_assistant.md)
+- [Original requirements](Challenge-Project-Overview.md) and [vision](VISION.md)
+- [November 11 model experiment](docs/backend_release.md), [older baseline](docs/baseline_classification.md), [older embeddings](docs/embedding_classification.md)
+- [Dataset corrections](docs/corrected_labels.md), [historical project notes](docs/project_history.md)
+
+Next: broader independently reviewed retrieval/answer evaluation, optional live RAG-provider validation, stronger discovery evidence/model validation, and a held-out Jev/local-model comparison. The offline dashboard is available; Jev catalog and sample classification runs are complete; new identities require a separate API classification run.
+
+Challenge advisor: Shubham Arya. AI coach: Aram Ramos. Fellows: Forum Shah, Sheila Aquino, Sadit Hussain, Min Thaw Zin, Abigail De Leon, Joshua Hu and Abdulfattah Ahmed.

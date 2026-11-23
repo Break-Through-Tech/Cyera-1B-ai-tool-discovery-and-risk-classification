@@ -1,0 +1,1960 @@
+{
+  "generated_at": "2026-11-21T21:02:35.765248+00:00",
+  "provider": "TypeSafe Jev",
+  "scope": "Unique applications in the specified enterprise activity file",
+  "activity_sha256": "3fc0deafbb6f2fc53a0f44914a873ad7fc7e1e374f2c5c57b54ee02d52a6056d",
+  "activity_file": "novatech_usage.csv",
+  "expected_unique_applications": 21,
+  "completed_applications": 21,
+  "run_status": "complete",
+  "online_calls_made": 21,
+  "summary": {
+    "ai": 9,
+    "non_ai": 12
+  },
+  "limitations": [
+    "Model predictions, not verified labels or risk probabilities.",
+    "No independent held-out accuracy evaluation.",
+    "Evidence may include previously generated research; this is not an independent comparison against that research provider."
+  ],
+  "results": [
+    {
+      "application_name": "ChatGPT",
+      "endpoint": "chatgpt.com",
+      "application_id": "app_dd92109cc601540df42c7df0df3fbd6548f5608e73dc4aa42c1189e566c4c52d",
+      "label": "ai",
+      "is_ai_tool": true,
+      "classification_status": "classified",
+      "identity_supported": true,
+      "identity_verified": false,
+      "decision_source": "jev",
+      "identity_mode": "trusted_application_name",
+      "probabilities": {
+        "ai": 0.95,
+        "non_ai": 0.0,
+        "unknown": 0.05
+      },
+      "raw_choice": "ai",
+      "review_threshold": 0.7,
+      "needs_review": false,
+      "reason": "Jev primary-purpose choice from supplied evidence; inspect probabilities and inputs.",
+      "reports": [],
+      "evidence_state": {
+        "observed_application": {
+          "application_name": "ChatGPT",
+          "endpoint": "chatgpt.com"
+        },
+        "catalog_descriptions": [
+          "ChatGPT is an advanced AI language model by OpenAI that generates human-like text, answers questions, automates tasks, and enhances productivity across diverse applications."
+        ],
+        "reports": [],
+        "sources": []
+      },
+      "evidence_sources": [
+        {
+          "file": "data/processed/kaggle_dataset_b/kaggle_dataset_b_filled.csv",
+          "row": 1,
+          "sha256": "a21d09aa3c72c38a46ebd0cb15c936401ed2d4b34ea3912cf8bc7f676f456a6f"
+        }
+      ],
+      "requested_model": "jev-latest",
+      "returned_model": "jev-1.14.0",
+      "usage": {
+        "input_tokens": 526,
+        "output_tokens": 40
+      },
+      "classified_at": "2026-11-21T21:02:33.116296+00:00",
+      "cache_hit": false,
+      "fingerprint": "4002cef7db73cedfab64c82f61e5eb057062a2cadc1b8369a6e9d2e5de868783"
+    },
+    {
+      "application_name": "Claude",
+      "endpoint": "claude.ai",
+      "application_id": "app_16fb473cfaddf3ba88ec0c0917e9035a05c98c88ab7c9a910b67e4c8b9e4fc9d",
+      "label": "ai",
+      "is_ai_tool": true,
+      "classification_status": "classified",
+      "identity_supported": true,
+      "identity_verified": false,
+      "decision_source": "jev",
+      "identity_mode": "trusted_application_name",
+      "probabilities": {
+        "ai": 0.93,
+        "non_ai": 0.0,
+        "unknown": 0.07
+      },
+      "raw_choice": "ai",
+      "review_threshold": 0.7,
+      "needs_review": false,
+      "reason": "Jev primary-purpose choice from supplied evidence; inspect probabilities and inputs.",
+      "reports": [],
+      "evidence_state": {
+        "observed_application": {
+          "application_name": "Claude",
+          "endpoint": "claude.ai"
+        },
+        "catalog_descriptions": [
+          "Automated assistant handles tasks and talks naturally."
+        ],
+        "reports": [],
+        "sources": []
+      },
+      "evidence_sources": [
+        {
+          "file": "data/processed/kaggle_dataset_b/kaggle_dataset_b_filled.csv",
+          "row": 2,
+          "sha256": "a21d09aa3c72c38a46ebd0cb15c936401ed2d4b34ea3912cf8bc7f676f456a6f"
+        }
+      ],
+      "requested_model": "jev-latest",
+      "returned_model": "jev-1.14.0",
+      "usage": {
+        "input_tokens": 501,
+        "output_tokens": 40
+      },
+      "classified_at": "2026-11-21T21:02:33.228279+00:00",
+      "cache_hit": false,
+      "fingerprint": "f03177e20e000fc846acfa874a063475ebd4da34a1485e5d033440009f956716"
+    },
+    {
+      "application_name": "Cursor",
+      "endpoint": "cursor.com",
+      "application_id": "app_823b08aa130691796057b19a38888334c9f68199dbb310e59b22c91b50c16290",
+      "label": "ai",
+      "is_ai_tool": true,
+      "classification_status": "classified",
+      "identity_supported": true,
+      "identity_verified": false,
+      "decision_source": "jev",
+      "identity_mode": "trusted_application_name",
+      "probabilities": {
+        "ai": 0.86,
+        "non_ai": 0.02,
+        "unknown": 0.12
+      },
+      "raw_choice": "ai",
+      "review_threshold": 0.7,
+      "needs_review": false,
+      "reason": "Jev primary-purpose choice from supplied evidence; inspect probabilities and inputs.",
+      "reports": [],
+      "evidence_state": {
+        "observed_application": {
+          "application_name": "Cursor",
+          "endpoint": "cursor.com"
+        },
+        "catalog_descriptions": [],
+        "reports": [
+          {
+            "report_index": 0,
+            "blocks": [
+              {
+                "block_index": 0,
+                "text": "### 1. Product Identity\nThe application name \"Cursor\" corresponds directly to the observed endpoint `cursor.com`. Official documentation and download resources hosted at `cursor.com` confirm it is the primary web domain for the product developed by Anysphere, Inc..\n\n### 2. Product Description\nCursor is an integrated development environment (IDE) and software development platform designed to assist engineers with building, navigating, and debugging codebases. Available as a native desktop application across macOS, Windows, and Linux, it provides code editing, file navigation, and terminal execution. The platform also offers command-line tools (CLI), cloud agent environments, and integrations with source control systems such as GitHub, GitLab, Bitbucket, and Azure DevOps.\n\n### 3. AI Functionality\nAI is central to Cursor's product architecture rather than an optional add-on. Documented AI capabilities include:\n- **Agent and Composer:** Autonomous workflows capable of searching repositories, planning changes, editing across multiple files, and executing shell commands from natural-language instructions.\n- **Codebase Understanding & Chat:** Semantic code indexing to answer questions, explain architectures, and assist with debugging.\n- **Code Review & Automated Workflows:** Features such as Bugbot for automated pull-request reviews, automated tracking of AI-generated commits, and cloud-hosted agent tasks.\n- **Model Orchestration:** Support for routing queries across frontier large language models (including Claude, Gemini, and Grok).\n\n### 4. Alternate Names / Domains\n- **Alternate Names:** Commonly referenced as \"Cursor AI\" or \"Cursor Code Editor\" in tutorials and third-party catalogs.\n- **Associated Domains:** Related subdomains include `api.cursor.com` (serving enterprise administrative, agent, and analytics APIs) and `downloads.cursor.com` (distribution repository for Linux packages and binaries). The parent company also operates `anysphere.inc`.\n\n### 5. Uncertainty\nThere is no documented ambiguity or conflicting evidence regarding the application's identity, primary domain, or core functionality.",
+                "source_refs": [
+                  "S1",
+                  "S2",
+                  "S3",
+                  "S4",
+                  "S5",
+                  "S6",
+                  "S7",
+                  "S8",
+                  "S9",
+                  "S10",
+                  "S11",
+                  "S12",
+                  "S13"
+                ]
+              }
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "id": "S1",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "cursor.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMPsO0HdJTnSguXFyIAWG_Ekl14Cg85VXYjie0gHq5bfafuUugKi-nvTEQCUMR0HReSKozcB9pEF1J4Ens4J4T56Tb7NsiojMiXQWWJftoVQg="
+          },
+          {
+            "id": "S2",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "cursor.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4FeWrWs0AIiXZin1HR4AVg4vWz3nKamblKhSJEZQyR55TV-FtHb1r9z9O0t2_f2yXI5X0luiCygS-S-ZQGxTzyC_wtfCZTl-KDKnY3w=="
+          },
+          {
+            "id": "S3",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "cursor.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1ylFirHPq_i6sDGg1yrKWjysgbG057jOZcV_h3ceX2Ef7W2EGHuLTx0Q4fjHaMBGwvOMzy-vocWuYob8H4hINWZpU9Zsv4ZM9jTgxlVaWL4mR990Mt9HKHL6dwpkvPgfh9dvS"
+          },
+          {
+            "id": "S4",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "cursor.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHphkDMH7qOL7wLK5gG5VnbPztSXswSAR5w1eigh7oGTD0DMJhi85g43K3H5JRfNxf6K_hhubaXYxTR4BLT3BCV28RRdcsp67nM"
+          },
+          {
+            "id": "S5",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "wikipedia.org",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1daHrntUSOIuqqSg8Pmz_G5QuouRPF6Ew_d5l7pxeBttweO4o6zoHfC0clOZ3zbNkzDwwWImMf6fOJ_f9xP8wasNhrS9dPSlurEIUGxWE_dKdnE4bgf88jg97bAQs1iQac_sA"
+          },
+          {
+            "id": "S6",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "cursor.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3SDtWrsAAOs4y4myB5MAhcBQI166x5MgiMxhIs4qprikfbsljfdW7X1T5c4amWvhkZLLBqwi_vKdb8nJTtjmbThvJ4CVU2cFSaA2-Zl4a4F3-LGcm7Cj0Mk13x02gg5LQbChJHw=="
+          },
+          {
+            "id": "S7",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "cursor.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGESaOdQRhI2DoFond84VJWP80WzECBb59iKz-goQ2t-d-SRi2mGRCySIVcM8MkFLmifLGGj-B--eSxZFqHgJV3ARQOQqcvHmK_L4qC2OJL_V0="
+          },
+          {
+            "id": "S8",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "cursor.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZaFSM7rN3PwiD2tpLRAUOiCM9h7hF_CTC6bc15Ix987q0dwz5O6ra971H4QUJsR9GFrLAs-CzPYbvJya-oLMIOPESCkrjuXOeKc1lXRf9_67sZgDfcwRKtyt1mw=="
+          },
+          {
+            "id": "S9",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "cursor.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4VCS8Flm2RP2EXYRQNBBzbrVGzNz4I-tUxEn2SALD30ukcQTxaH0b82-lszwdUYF6vpzIMK1BjpRfeN4EgSGTiUL011K1IGEk-6jFpsyZSrDD3tbgD0Dgx_shXPfL68I="
+          },
+          {
+            "id": "S10",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "youtube.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJTiUQFBERsUN_ZV_swqy2Ia76GT2QmcYmrhrklBE9EAUXx6bmYHrfSyYdIMg9H6rD0gsmt5tVqE97tHfNhswcju4RcWA2dbu8y_MmF7e_EqqH5QxjVhM__RIjAm9KcImD"
+          },
+          {
+            "id": "S11",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "google.com",
+            "url_omitted": "Long URL retained in original report citations."
+          },
+          {
+            "id": "S12",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "apis.io",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8tafi1uhDugl4ngfAcCgjO5zEqMkWYUXYMN-mgYYmOv82PRk0StjoK-FQP4gnNGfSV-WvIj6aKqB9hxJPF5hyI1dD01SuowOufw5CnqK73ae9iXX4XqBNGr_6tv79nT4oFHPE"
+          },
+          {
+            "id": "S13",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "anysphere.inc",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERJKy2LdoE4b6ZX9wtgHCFVUHWgEgbHo47psbgFIwd910FowgU_YZy0P6KoqQ_y8WgsMNchSKWP919woTlvS9FhzozY3WFsa6ggK1g"
+          }
+        ]
+      },
+      "evidence_sources": [],
+      "requested_model": "jev-latest",
+      "returned_model": "jev-1.14.0",
+      "usage": {
+        "input_tokens": 2883,
+        "output_tokens": 40
+      },
+      "classified_at": "2026-11-21T21:02:33.326635+00:00",
+      "cache_hit": false,
+      "fingerprint": "ab55817d83eebb1de2ea665d44594d768a77d01bb97ff8e03fdc1c1252d157d9"
+    },
+    {
+      "application_name": "Gemini",
+      "endpoint": "gemini.google.com",
+      "application_id": "app_9c7ac443384f8f2bcdd050372dd9952e5f37c22c236933526f68b8a9a1268687",
+      "label": "ai",
+      "is_ai_tool": true,
+      "classification_status": "classified",
+      "identity_supported": true,
+      "identity_verified": false,
+      "decision_source": "jev",
+      "identity_mode": "trusted_application_name",
+      "probabilities": {
+        "ai": 0.91,
+        "non_ai": 0.0,
+        "unknown": 0.09
+      },
+      "raw_choice": "ai",
+      "review_threshold": 0.7,
+      "needs_review": false,
+      "reason": "Jev primary-purpose choice from supplied evidence; inspect probabilities and inputs.",
+      "reports": [],
+      "evidence_state": {
+        "observed_application": {
+          "application_name": "Gemini",
+          "endpoint": "gemini.google.com"
+        },
+        "catalog_descriptions": [],
+        "reports": [
+          {
+            "report_index": 0,
+            "blocks": [
+              {
+                "block_index": 0,
+                "text": "### 1. Product Identity\nThe application name **Gemini** and the endpoint `gemini.google.com` directly correspond. The URL `gemini.google.com` is the official web application endpoint for Google's conversational AI assistant, Google Gemini.\n\n### 2. Product Description\nGoogle Gemini is a web-based generative AI conversational assistant developed by Google. It allows users to query, summarize, brainstorm, analyze complex documents, draft content, and generate code using natural language prompts. When accessed by enterprise users signed in through managed accounts (such as Google Workspace or Gemini Enterprise), it can connect to organization data sources—including Gmail, Google Docs, Drive, and third-party tools—to assist with organizational workflows and information retrieval under enterprise administrative controls.\n\n### 3. AI Functionality\nArtificial intelligence is the **central, core functionality** of `gemini.google.com`, rather than an optional add-on feature. The entire interface and utility are built around interacting with Google's proprietary Gemini foundation models to handle tasks such as text generation, multimodal reasoning (processing text, audio, images, video, and code), summarization, conversational search, and agentic workflows. \n\n### 4. Alternate Names / Domains\n* **Bard / `bard.google.com`**: The application was originally launched as Google Bard on `bard.google.com`; in February 2024, Google rebranded the service to Gemini and redirected `bard.google.com` to `gemini.google.com`.\n* **Google Gemini / Gemini App**: Commonly referenced across Google documentation and consumer portals as \"Google Gemini\" or the \"Gemini app\".\n* **Gemini Enterprise / Gemini for Google Workspace**: The product is deployed for enterprise users under the Gemini Enterprise and Google Workspace product lines (formerly associated with \"Duet AI\" prior to the rebrand).\n\n### 5. Uncertainty\nThe web endpoint `gemini.google.com` serves both personal consumer Google accounts and enterprise-managed accounts (e.g., Google Workspace Business/Enterprise tiers). The exact features available (such as grounding against corporate drives or access to enterprise-grade data protection) depend entirely on the credentials of the logged-in user and cannot be determined from the endpoint URL alone.",
+                "source_refs": [
+                  "S1",
+                  "S2",
+                  "S3",
+                  "S4",
+                  "S5",
+                  "S6",
+                  "S7",
+                  "S8",
+                  "S9",
+                  "S10",
+                  "S11",
+                  "S12"
+                ]
+              }
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "id": "S1",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "pasqualepillitteri.it",
+            "url_omitted": "Long URL retained in original report citations."
+          },
+          {
+            "id": "S2",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "google.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpt1JbpJorZgGH-yLcN7Qk1jHjxRwJqgDJ7QMZdkugzdpaWGuJvRHDPFmZoE9an8Nz4NG12jofuBX5O1XNA3AfjXM82UPzikYCaSGB42sZpQ=="
+          },
+          {
+            "id": "S3",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "thereisanaitool.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyOtagd5Ph_AkknnwrDbiYZBv5FXG8Xg6dXvIP384SFhliMyLJ454-G3Y73XZZf-uMLlbJdpKtIvu6sNEz1-7t4uYOnuc3m6Fa4f9Q2i-xOk4rR9iY-LUxqQdJUXbUi_X0AP3_uiI3T_NhzsrPrWUPZ11YN_Ffpw=="
+          },
+          {
+            "id": "S4",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "gemini.google",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFtOB24ab90cYDQZ3mBzZmAXBlvE9Zj90MWDoCYSss5hCi9PJlil9huk2s4bfVrsakSWScC-hhj_-eHXq1gAAr7oJfCqqUXEFAeXcBwlUcKbT5xpCPg"
+          },
+          {
+            "id": "S5",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "google.com",
+            "url_omitted": "Long URL retained in original report citations."
+          },
+          {
+            "id": "S6",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "gemini.google",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8SQ-7KDSh7a2pgKkkLtSivwoTHKM1jAnOTeUqyqVaWhJgKeouZTg8cytr084fZXpASlg1lVd5TIYT8TYsGZbd7YhIulj9zPAwY6bYrj6eihkZqb6KmT2PzrT_ObOy7w=="
+          },
+          {
+            "id": "S7",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "google.com",
+            "url_omitted": "Long URL retained in original report citations."
+          },
+          {
+            "id": "S8",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "google.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDAoQpRBynTNNEuyhm2sWUz6WVPQ3oQitGJt5kPyFRTy0v63YXesU_Q_FMgfOawIOVOvEeRjPemMqAvTLmpsKYqRsbWqoHiXo8pdkHrwxoXZB8A63wB3uer8VOttMwpFA="
+          },
+          {
+            "id": "S9",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "google.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1rglruuv0-c-zP2YaSFBXyIC6q1QJvBvendm3ztAP6PahKG-92-EynQYtErt4Jy8ndeDjDKVlzo-fc0RTgx7fCO_Q0KUGWLM9lgGogFm8CfJFe7DHwQ=="
+          },
+          {
+            "id": "S10",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "searchengineland.com",
+            "url_omitted": "Long URL retained in original report citations."
+          },
+          {
+            "id": "S11",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "google.com",
+            "url_omitted": "Long URL retained in original report citations."
+          },
+          {
+            "id": "S12",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "google.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzDNpAVcEnMuUrHFCa-RlkF5LPB5gyVTCv4QdQeaWeJPvXPFzUP3lU9nm5bffhKX7rpZ_OKarn51oqXtEdknb9yrVS03q6mkQ5a7EpcWlXWDWSHo1DnpmAX-aEZ-v7"
+          }
+        ]
+      },
+      "evidence_sources": [],
+      "requested_model": "jev-latest",
+      "returned_model": "jev-1.14.0",
+      "usage": {
+        "input_tokens": 2417,
+        "output_tokens": 40
+      },
+      "classified_at": "2026-11-21T21:02:33.484620+00:00",
+      "cache_hit": false,
+      "fingerprint": "f978167ed77820be94a677100008efa3acea6d013ef8ea6b443fde8013af42c3"
+    },
+    {
+      "application_name": "GitHub",
+      "endpoint": "github.com",
+      "application_id": "app_0d4fc2e5b6a6ee692bff153c4002da9a3cd6c974cf5c9fbbf03f300dc60c7f23",
+      "label": "non_ai",
+      "is_ai_tool": false,
+      "classification_status": "classified",
+      "identity_supported": true,
+      "identity_verified": false,
+      "decision_source": "jev",
+      "identity_mode": "trusted_application_name",
+      "probabilities": {
+        "ai": 0.0,
+        "non_ai": 0.98,
+        "unknown": 0.02
+      },
+      "raw_choice": "non_ai",
+      "review_threshold": 0.7,
+      "needs_review": false,
+      "reason": "Jev primary-purpose choice from supplied evidence; inspect probabilities and inputs.",
+      "reports": [],
+      "evidence_state": {
+        "observed_application": {
+          "application_name": "GitHub",
+          "endpoint": "github.com"
+        },
+        "catalog_descriptions": [],
+        "reports": [
+          {
+            "report_index": 0,
+            "blocks": [
+              {
+                "block_index": 0,
+                "text": "### 1. Product Identity\nThe application name \"GitHub\" corresponds directly to the observed endpoint `github.com`. `github.com` is the primary web domain and hosting platform for GitHub (operated by GitHub, Inc., a Microsoft subsidiary).\n\n### 2. Product Description\nGitHub is a cloud-based development and source code hosting platform built around the Git version control system. It enables software teams and individuals to store, manage, and collaborate on repositories, review code via pull requests, and track tasks through GitHub Issues and Projects. The platform also provides integrated automation for continuous integration and continuous deployment (CI/CD) via GitHub Actions, code security and secret scanning, package management, and web hosting via GitHub Pages.\n\n### 3. AI Functionality\nGitHub offers AI functionality primarily via **GitHub Copilot**, an AI-powered developer assistant and suite of tools. Documented capabilities include code suggestions and completion, chat-based troubleshooting, automated pull request summaries, agentic workflow automation, and security fix suggestions (Copilot Autofix). This AI functionality is an optional add-on and workflow enhancement; it is not the central requirement for the platform's core Git repository hosting, tracking, and collaboration capabilities.\n\n### 4. Alternate Names and Domains\n* **Associated Domains:** Official documentation is hosted at `docs.github.com`, corporate and product news at `github.blog`, and user/platform assets on related subdomains such as `avatars.githubusercontent.com`.\n* **Alternate Editions / Plan Names:** The platform is offered under various tiers and deployments, including *GitHub Free*, *GitHub Pro*, *GitHub Team*, and *GitHub Enterprise* (which includes *GitHub Enterprise Cloud* and *GitHub Enterprise Server*).\n\n### 5. Uncertainty\nThere is no ambiguity or conflicting evidence regarding the product's identity or its correspondence with `github.com`.",
+                "source_refs": [
+                  "S1",
+                  "S2",
+                  "S3",
+                  "S4",
+                  "S5",
+                  "S6",
+                  "S7",
+                  "S8",
+                  "S9"
+                ]
+              }
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "id": "S1",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "github.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhOQ4CreB6F6e4uUQeEQHznzXgTK5QoUkw7cVTjtZi1ZoXDYnCnkuutq-t99S3XmiFwFPF7izNmsimJSyuQd20RQA2TIlNr4nq1mNHpGA="
+          },
+          {
+            "id": "S2",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "github.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFg4_4XIyy43Ii28y8kbRrPhx84emSO_b4nQy984UsTz6KE5d-z64FVmSyZnQ2w-9-Kr5DeCDQG14PsB9-wkDu9RSN_35XBp8ZajmZcHRXb3cFa7fuZhwzXw_sRcYFu2MLjLdMyz5MpHW-UgJXChwg8DvbYi6PaUbNCr-5lwIc="
+          },
+          {
+            "id": "S3",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "coursera.org",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7012qdLIlj8s1MKtGWdHk8yUHc620xT1AalB8yCTwYCApgPHROmb2s9chZfcd6L7TMgiLxkuo3iCNaoW_vA6kX77gGCUxNRReQpPrKBQhWJEcYxfRMNKzLiLM_HyjrZAzY_gzvAQ="
+          },
+          {
+            "id": "S4",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "github.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0skezb1Q4ojngbrxIeg9heOEGR3khS5o9mrrzRA45Uzcs0SierqpQ38X9rCik70Nw0usi0PThI9o2Vkor9QZv4WYO-lYdod9GIMqXjFASXDE="
+          },
+          {
+            "id": "S5",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "github.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFssCaaRJ6o1FAdk8H79AFYrJM5ffQN11x5OP--Quy8IGNYjuljoPGiGc6znX6091JYPezNEMB7ZzQvMvS-PqvfUs9YWX4H4JJg4SXOJq3xV-0="
+          },
+          {
+            "id": "S6",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "github.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETV-GbloiO_-8qYliW2lEcmWLBAhRoPFGq5BWGnDzMXZ8O99RoT4eheznEWsl9cERDz3Ja7t_BJBOP4YOEpfcGxCC2vpooz4CEhgaTOg=="
+          },
+          {
+            "id": "S7",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "github.blog",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTvye6jDNJR2Ltgy-9M9yCIMwVjXpNnV-o1-jl00uHneFZbu7JwBuqMi9hVv0Ouar6kBtQPNaKj70anD59vwNhOZP60ymJ6oTEkn3j6O6ZF_XL10Yyo_E="
+          },
+          {
+            "id": "S8",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "github.com",
+            "url_omitted": "Long URL retained in original report citations."
+          },
+          {
+            "id": "S9",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "github.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-mdGC7luTS4hEXxlO2nPmW2mBvrDkkdFbHpyq_U_ZlaQgyYqXpemnv_0m3m6nRIyGjBRKMVz9DllKDcG2tI-Ca75GbbgmtbgFK12_AeMbeiv0WQ=="
+          }
+        ]
+      },
+      "evidence_sources": [],
+      "requested_model": "jev-latest",
+      "returned_model": "jev-1.14.0",
+      "usage": {
+        "input_tokens": 2227,
+        "output_tokens": 41
+      },
+      "classified_at": "2026-11-21T21:02:33.658291+00:00",
+      "cache_hit": false,
+      "fingerprint": "72805c7f188988c2b1500c15f9f5b6ab1e515307cc7696efeed2621d58134d96"
+    },
+    {
+      "application_name": "GitHub Copilot",
+      "endpoint": "github.com/copilot",
+      "application_id": "app_d7883b7a5020a8df76690760e4632545b1f12666f93aa453f2ce55e919af998e",
+      "label": "ai",
+      "is_ai_tool": true,
+      "classification_status": "classified",
+      "identity_supported": true,
+      "identity_verified": false,
+      "decision_source": "jev",
+      "identity_mode": "trusted_application_name",
+      "probabilities": {
+        "ai": 0.9,
+        "non_ai": 0.0,
+        "unknown": 0.1
+      },
+      "raw_choice": "ai",
+      "review_threshold": 0.7,
+      "needs_review": false,
+      "reason": "Jev primary-purpose choice from supplied evidence; inspect probabilities and inputs.",
+      "reports": [],
+      "evidence_state": {
+        "observed_application": {
+          "application_name": "GitHub Copilot",
+          "endpoint": "github.com/copilot"
+        },
+        "catalog_descriptions": [],
+        "reports": [
+          {
+            "report_index": 0,
+            "blocks": [
+              {
+                "block_index": 0,
+                "text": "### Product Identity\nThe application name **GitHub Copilot** corresponds directly to the observed endpoint `github.com/copilot`. GitHub official documentation designates `github.com/copilot` as the dedicated web interface and home page for Copilot, hosting its full-page immersive chat, agent sessions, and repository interactions on the GitHub platform. While the host domain `github.com` belongs to the broader GitHub hosting platform, the `/copilot` path identifies the dedicated web surface for the GitHub Copilot product.\n\n### Product Description\nGitHub Copilot is an AI-powered developer assistant designed to assist engineers throughout the software development lifecycle. It provides real-time code completions, generates multi-step implementation plans, answers natural language questions about codebases, and automates pull request reviews. Copilot operates natively across several surfaces, including integrated development environments (IDEs), command-line interfaces (CLI), dedicated desktop applications, and directly within GitHub.com.\n\n### AI Functionality\nAI capabilities are central and foundational to GitHub Copilot, not an optional secondary feature. The product relies on underlying large language models to deliver its core capabilities, which GitHub documents across assistive and agentic categories: real-time code generation, interactive contextual chat, automated test generation, pull request explanation and review, and autonomous agent tasks (such as editing files, running tools via the Model Context Protocol [MCP], and submitting changes for developer review).\n\n### Alternate Names and Domains\n* **Alternate Names / Components:** Commonly referred to simply as **Copilot**; specific sub-surfaces and tooling include **GitHub Copilot Chat**, **GitHub Copilot CLI**, and the standalone **GitHub Copilot app**.\n* **Alternate Domains / Endpoints:**\n  * `api.githubcopilot.com`: Documented official host for Copilot API routing, Model Context Protocol (MCP) servers, chat threads, and connectivity diagnostics.\n  * `copilot-proxy.githubusercontent.com`: Documented telemetry/proxy endpoint used in Copilot network configuration and diagnostic troubleshooting.\n  * `github.com/features/copilot`: Product marketing and feature portal hosted on GitHub's main domain.\n\n### Uncertainty\nThere is no conflicting evidence regarding the product's identity or the role of `github.com/copilot`. However, because GitHub Copilot is primarily utilized via IDE extensions (such as Visual Studio Code, JetBrains, and Visual Studio), CLI binaries, and desktop applications, the observed web URL (`github.com/copilot`) represents only the browser-based chat and agent interface rather than the exclusive execution environment of the product.",
+                "source_refs": [
+                  "S1",
+                  "S2",
+                  "S3",
+                  "S4",
+                  "S5",
+                  "S6",
+                  "S7",
+                  "S8",
+                  "S9",
+                  "S10",
+                  "S11"
+                ]
+              }
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "id": "S1",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "github.com",
+            "url_omitted": "Long URL retained in original report citations."
+          },
+          {
+            "id": "S2",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "devactivity.com",
+            "url_omitted": "Long URL retained in original report citations."
+          },
+          {
+            "id": "S3",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "github.com",
+            "url_omitted": "Long URL retained in original report citations."
+          },
+          {
+            "id": "S4",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "github.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWhEy3O12myOyFD0G4gOn2dsY2q9SLgprh4hBJLHwkopQDUVilj4Hnn9ejETcQ5o40Fkbryij62bNPdLUTxMmTD0hAwsJvRuokplDYNnLxFeZ4Ysw9"
+          },
+          {
+            "id": "S5",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "github.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiROjEOgO-3Va5wesXvxAizSqhBiWQmqvhmxTz8NnHrUyLEU815_PvmRbVuweZc47T6TWoPuj6SkJKQJIKL6zrc0vHEvm1cSPyIwpA2VjJcrM6cvVpmjwX6AB4TmbeYlk7tdF5vf7KqUs-X-zn_oO204eKzQWb_8SJkFRnY_4="
+          },
+          {
+            "id": "S6",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "github.com",
+            "url_omitted": "Long URL retained in original report citations."
+          },
+          {
+            "id": "S7",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "github.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGINsjOWXXim4CPNHYp8FF0Z51IscQFfmH3eSxzDvdmzDJMBn2EyMrd2bmcTvAPAjfmvifO-FKiVYipROOtwzucngFZPMhrZrPn_nflsD--UqYHq72EqZarf2cyn3gtosT"
+          },
+          {
+            "id": "S8",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "github.com",
+            "url_omitted": "Long URL retained in original report citations."
+          },
+          {
+            "id": "S9",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "youtube.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGTn0LhRJMWCo6Hk6KOxxEeFdjsZqZVTh2gJXo-DijNgcz1Illjvm0JLKwzIa0PyRVvwZZoNobe1XEF6dAGyRNtOjAW2kQXDbc_nQ_wjGSUlBuUK0gH2i6Mo5oYECZY-sS"
+          },
+          {
+            "id": "S10",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "github.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGExte63Bc2q4XkpB4L27JguYVWiRxC-R5Lf8KDlhpO8nmLkZFOUxpG6uoiKX0EudylhlbOJd4EQU2sr82epyGvtf1YHvp0dwX4g0_T79CdFJOFDPt-aMbk9_fnEUQEzNd7QI9ZBw15waqzQLBKK_2CiuZHHnQE1WeX"
+          },
+          {
+            "id": "S11",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "github.com",
+            "url_omitted": "Long URL retained in original report citations."
+          }
+        ]
+      },
+      "evidence_sources": [],
+      "requested_model": "jev-latest",
+      "returned_model": "jev-1.14.0",
+      "usage": {
+        "input_tokens": 2272,
+        "output_tokens": 40
+      },
+      "classified_at": "2026-11-21T21:02:33.803331+00:00",
+      "cache_hit": false,
+      "fingerprint": "637dc7d255915653bbac3bd39d979992c08a2e5b6678bcb1c65ef990d1c9d6c8"
+    },
+    {
+      "application_name": "Google Docs",
+      "endpoint": "docs.google.com",
+      "application_id": "app_81138b923c56ede71dcff8f6588e4362f4efa501fcd0cd12222b63d07283467b",
+      "label": "non_ai",
+      "is_ai_tool": false,
+      "classification_status": "classified",
+      "identity_supported": true,
+      "identity_verified": false,
+      "decision_source": "jev",
+      "identity_mode": "trusted_application_name",
+      "probabilities": {
+        "ai": 0.0,
+        "non_ai": 0.97,
+        "unknown": 0.03
+      },
+      "raw_choice": "non_ai",
+      "review_threshold": 0.7,
+      "needs_review": false,
+      "reason": "Jev primary-purpose choice from supplied evidence; inspect probabilities and inputs.",
+      "reports": [],
+      "evidence_state": {
+        "observed_application": {
+          "application_name": "Google Docs",
+          "endpoint": "docs.google.com"
+        },
+        "catalog_descriptions": [],
+        "reports": [
+          {
+            "report_index": 0,
+            "blocks": [
+              {
+                "block_index": 0,
+                "text": "### 1. Product Identity\nThe application name **Google Docs** corresponds to the endpoint `docs.google.com`. Official Google documentation identifies `docs.google.com` (and its subpath `docs.google.com/document/`) as the web home screen and editor URL for the Google Docs word processor. However, `docs.google.com` is also a shared platform domain used to host other applications in the Google Docs Editors suite (such as Sheets at `/spreadsheets/`, Slides at `/presentation/`, and Forms at `/forms/`).\n\n---\n\n### 2. Product Description\nGoogle Docs is a cloud-based word processor and document editing software included as part of Google Workspace and available to personal Google accounts. It enables users to create, format, and store text documents directly within a web browser without local software installation. The platform offers core features such as real-time multi-user co-authoring, commenting, suggestion modes, automated version history, and file import/export support across common document formats.\n\n---\n\n### 3. AI Functionality\nGoogle Docs includes generative AI features powered by **Gemini for Google Workspace** (incorporating writing assistance features like \"Help me write\"). Documented AI capabilities include generating initial text drafts from prompts, summarizing long documents, rewriting or adjusting the tone of existing text, proofreading, and generating contextual templates. \n\nThese AI capabilities are **optional features**; the core word processing, formatting, and real-time collaboration tools function independently, and generative AI features require an eligible Google Workspace plan or Google AI add-on subscription.\n\n---\n\n### 4. Alternate Names and Domains\n* **Alternate Names:** Commonly referred to simply as **Docs**, and historically as part of **Google Docs Editors** or **G Suite** (now Google Workspace).\n* **Associated Domains and Paths:** \n  * `docs.google.com/document/` – The direct application path for Google Docs documents and the Docs-specific dashboard.\n  * `docs.new` – A shortcut URL domain operated by Google to automatically launch a new blank Google Doc.\n  * *Note on shared domain usage:* The host `docs.google.com` also serves Google Sheets (`docs.google.com/spreadsheets/`), Google Slides (`docs.google.com/presentation/`), and Google Forms (`docs.google.com/forms/`).\n\n---\n\n### 5. Uncertainty\nWhile `docs.google.com` resolves directly to the Google Docs document interface, the root hostname is shared across several distinct web applications in Google’s office suite. Traffic to `docs.google.com` cannot be uniquely attributed to the Google Docs word processor without path-level inspection (e.g., distinguishing `/document/` from `/spreadsheets/`).",
+                "source_refs": [
+                  "S1",
+                  "S2",
+                  "S3",
+                  "S4",
+                  "S5",
+                  "S6",
+                  "S7",
+                  "S8",
+                  "S9",
+                  "S10",
+                  "S11",
+                  "S12"
+                ]
+              }
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "id": "S1",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "google.com",
+            "url_omitted": "Long URL retained in original report citations."
+          },
+          {
+            "id": "S2",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "google.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFv1WRTwJ3HQ-Xi4VIMhWTAwuaN6J_d_XCNR18RqScXo_UDfMkYL8Zjw7aiaPzCXfTX_xFZ8hfu1z5hOz_6QCawlolW1_Wsr92Lc_Q9AggeMbUb-VsXNia74YAFLBw5rUj1MqZlV1ujJtHnqUGU"
+          },
+          {
+            "id": "S3",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "dragapp.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGG0p6Cqgf_Afv9qWkPMY9wkdTT0m71JSBn3Y5fpQKf0kUQC10GdKsB_xbupiPn-XUzlIOT8JRS1JvB2xdIvttMY7JlkZzwg3YIIeOp-rapHu4EHpyL0GCsB20GmW1SoXY9mtplxA=="
+          },
+          {
+            "id": "S4",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "gvsu.edu",
+            "url_omitted": "Long URL retained in original report citations."
+          },
+          {
+            "id": "S5",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "google.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGc8wmVVT4LKB8zFaAEzjsMzDkcetXFb0d42YEXYebDOzCNr2KHzDtS2Z6vz5L1UbhvLoQT42_jgZDz0GyYR6uhAOrbL1fOO-MWl2gcef6EejPG91i8MZkFPL-fY9c="
+          },
+          {
+            "id": "S6",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "google.com",
+            "url_omitted": "Long URL retained in original report citations."
+          },
+          {
+            "id": "S7",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "hamdenlibrary.org",
+            "url_omitted": "Long URL retained in original report citations."
+          },
+          {
+            "id": "S8",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "google.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvAoD8a00wpFoZ_mBt_JpDhm-D6FFFMckKqZb2WFD0pqAVd0rFC9G7kJbO22RA_WsGtXaIDRx3VPrZLkbzjVGTtH3GUZV5v4iuNvpemjw_JyJ812vtrZaO4VZM1F9gBb_eB1UjKCr7xcu0hQ=="
+          },
+          {
+            "id": "S9",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "google.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhYa8sAaksYS-jgoP01MG5f9Ifhfv-ka9XYe0U3HkHrhYsadJ8Qpcc_-mQk2XgwXnGKvrLWz89cf_ZmSJTZU6fkznkU7s4FxZBvg7oN0lT6t0MA1LF6fJWVZVOr3KQ6Y33"
+          },
+          {
+            "id": "S10",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "youtube.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5NLe-MoO89A-UIm_stMXgzT5812bofNeZgGSFjj4m1ho0fQZv8B9z4_rPHi-X8sY3GTw4DGOebg8wVZ-qGS0LQNgVn6Q705c4mUOrEJi3ZDcZxgxusVDtmiME6XK-o3wt"
+          },
+          {
+            "id": "S11",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "reddit.com",
+            "url_omitted": "Long URL retained in original report citations."
+          },
+          {
+            "id": "S12",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "google.com",
+            "url_omitted": "Long URL retained in original report citations."
+          }
+        ]
+      },
+      "evidence_sources": [],
+      "requested_model": "jev-latest",
+      "returned_model": "jev-1.14.0",
+      "usage": {
+        "input_tokens": 2467,
+        "output_tokens": 41
+      },
+      "classified_at": "2026-11-21T21:02:33.944239+00:00",
+      "cache_hit": false,
+      "fingerprint": "7f2e8e724a3bd4e5c3e7622b60b5931a1010c3e3decb5f035cab70123d7fb3ff"
+    },
+    {
+      "application_name": "Google Drive",
+      "endpoint": "drive.google.com",
+      "application_id": "app_790138a465d345920ef03fcb93ae095cd75ae8f3d2fac2565d5dd80d8dca8b64",
+      "label": "non_ai",
+      "is_ai_tool": false,
+      "classification_status": "classified",
+      "identity_supported": true,
+      "identity_verified": false,
+      "decision_source": "jev",
+      "identity_mode": "trusted_application_name",
+      "probabilities": {
+        "ai": 0.0,
+        "non_ai": 0.98,
+        "unknown": 0.02
+      },
+      "raw_choice": "non_ai",
+      "review_threshold": 0.7,
+      "needs_review": false,
+      "reason": "Jev primary-purpose choice from supplied evidence; inspect probabilities and inputs.",
+      "reports": [],
+      "evidence_state": {
+        "observed_application": {
+          "application_name": "Google Drive",
+          "endpoint": "drive.google.com"
+        },
+        "catalog_descriptions": [],
+        "reports": [
+          {
+            "report_index": 0,
+            "blocks": [
+              {
+                "block_index": 0,
+                "text": "### 1. Product Identity\nThe application name **Google Drive** directly corresponds to the observed endpoint `drive.google.com`. This URL serves as the primary web application interface for Google’s cloud storage, file synchronization, and document management platform within the Google Workspace suite.\n\n### 2. Product Description\nGoogle Drive is a cloud-based storage, file synchronization, and collaboration service designed for individuals and enterprise organizations. It serves as a centralized repository where users can upload, organize, search, and securely share files and folders across web and mobile platforms. In business and enterprise environments, it provides team collaboration spaces (Shared Drives), integration with Google Docs editors (Docs, Sheets, Slides), and administrative security features such as Data Loss Prevention (DLP) and access controls.\n\n### 3. AI Functionality\nGoogle Drive incorporates machine learning and generative artificial intelligence capabilities, primarily through features branded as **Gemini in Google Drive** (and legacy algorithmic tools such as \"Quick Access\"). Documented capabilities include:\n* Using a Gemini side panel or file-viewer integration to search across stored content, summarize documents (such as PDFs), and synthesize data from multiple files.\n* Assisting with enterprise content categorization and security labeling.\n\nAI functionality is **optional and supplementary**, not central to the application's core operation. Google Drive functions independently as a file storage and management tool; Gemini capabilities require eligible Google Workspace or Google AI licensing and can be turned on or off by administrators.\n\n### 4. Alternate Names and Domains\n* **Alternate Names:** Commonly referred to simply as **Drive**. Enterprise team-shared repositories were formerly known as **Team Drives** (now **Shared Drives**). Historically, the service evolved out of Google Docs storage, and is delivered under the broader umbrella of **Google Workspace** (formerly **G Suite** and **Google Apps for Work**).\n* **Alternate Domains:** The primary application interface resides at `drive.google.com`. Product information is hosted at `workspace.google.com`, and document viewers/editors launched from Drive resolve under `docs.google.com`.\n\n### 5. Uncertainty\nThere is no identity conflict; `drive.google.com` unambiguously identifies Google Drive. Because Google Drive links natively with online editors (Docs, Sheets, Slides) and Google Gemini services, browser URLs frequently transition between `drive.google.com` and related subdomains (such as `docs.google.com`), though the underlying drive interface remains distinct.",
+                "source_refs": [
+                  "S1",
+                  "S2",
+                  "S3",
+                  "S4",
+                  "S5",
+                  "S6",
+                  "S7",
+                  "S8",
+                  "S9",
+                  "S10",
+                  "S11",
+                  "S12"
+                ]
+              }
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "id": "S1",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "spin.ai",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6hbGtgKqqJL8zmpSoUOZ6j40uHVy32WhCPGVvrdLaNGDiAennQkoN64XcZfUBXSptXZ7pIXZy03iH1q9Hm3rB-eA7Wm8jrPm3iYU7BTCvR2RrB39pbuwV6U4Ngl_AyEPMMaPsNA-Yf6V0WWtYzGw359G_"
+          },
+          {
+            "id": "S2",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "google.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYQFuCTkALdEcR6-cyz_3boypzA3UPCALL3K3VU1M1Ymet2SGiKTR3wLXaKruAriZr19mPE6mlMrgJoP_ztTiQeq3yRe7WiTPPDzIcumulfKiqyJXbHV04Da3fyniskcFy6liFUg=="
+          },
+          {
+            "id": "S3",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "google.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5LqWkG2JpQByNnWFZY3SzIFIQjGnIcZXCCwjCE8fNcZap2UawySj-OG3yPD16VeyR7_d-0f4Q1wD2pLsfgr-ckeSFfDdk3Sg93E6EzCYrqMakGA=="
+          },
+          {
+            "id": "S4",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "xfanatical.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsu8ZFcsXIIyVf_mkV2SwkdV2mhNmP0Uo2MymUOFjdHj8Eyut0Nb2tnWaDlqyJM0vQRCpNfeuvKeayBFyZUGCXDphaRC0C4JewDpi82s-CrFG0AthjJ4lOIT4NRHYprtd5SNw9bmGdKr98b0qqwXZ8XcJDbH8eg2zSAB0="
+          },
+          {
+            "id": "S5",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "google.com",
+            "url_omitted": "Long URL retained in original report citations."
+          },
+          {
+            "id": "S6",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "google.com",
+            "url_omitted": "Long URL retained in original report citations."
+          },
+          {
+            "id": "S7",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "youtube.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAprQSMxCAmeU9WTUvTc3EcYkCrn-FSfKYqAtJauMUQkE48XnDcKNpobgGESNQ1JbKdJb6qjkrxExPqC0mm6QPHZsIe6Kz56iJhV0Xf0WJJAri8vngoZ8rh0PCiqluJZmf"
+          },
+          {
+            "id": "S8",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "google.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGK3Vg-4lV5IWShItkJGNqsR0JwU43n_He3xtTF46miliYYUmVhbwXNBcSUJRPuneKrszrZKYt5afBcf5gneXnV9qNQ-goawbl6lLdiV7WLnQzuEc2tlpBu6KoFLkYn-Hamw65D3MbFE9L_F4="
+          },
+          {
+            "id": "S9",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "google.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7L-8wTqmN2FDYhBkfss7iFAFhI8saQaanTXz9YXA28waYwpXXtCy4-tYlm3-_LL931bsiR8wKl7NEvPmNvNU2lcXl9QUFoc0Eq0xwatf7cZj8z0UMBz5viShReyZx-NbPDubkbadsquuRAgk="
+          },
+          {
+            "id": "S10",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "youtube.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGS0_2RNU3T3KT2C2nRppWWl70pD8H528YDxiU8XjQ8Mou8UolePkZ6mfKSHwoj-I39c9wqh9Wmpix7sLczr5B7hoDT4zrCLPq1AOAOiIZZIfOSF3ausAVK-yWgRBx-c-WG"
+          },
+          {
+            "id": "S11",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "hiviewsolutions.com",
+            "url_omitted": "Long URL retained in original report citations."
+          },
+          {
+            "id": "S12",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "youtube.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmgW8Dhcc1BLC14MlR_c5L4vm7dOF6-1ekCWvtZKv-qxVH0aVtt0fUio6udI17KEKPOFIVmJCvd767ljXles12R9WMPwpUXxq0wJpTtYF_QxQerHRxAv6H2i17P05K_t0PB-P1SiMR"
+          }
+        ]
+      },
+      "evidence_sources": [],
+      "requested_model": "jev-latest",
+      "returned_model": "jev-1.14.0",
+      "usage": {
+        "input_tokens": 2755,
+        "output_tokens": 41
+      },
+      "classified_at": "2026-11-21T21:02:34.072357+00:00",
+      "cache_hit": false,
+      "fingerprint": "70ce5f58289037c17b6ed5d5c73d782843dcce25864aa8811877bdaaa40be1e7"
+    },
+    {
+      "application_name": "Grammarly",
+      "endpoint": "grammarly.com",
+      "application_id": "app_aed5234c07b5262a80ee8f9538152fe2d494e929b589e35a81135faf5d0deca9",
+      "label": "ai",
+      "is_ai_tool": true,
+      "classification_status": "classified",
+      "identity_supported": true,
+      "identity_verified": false,
+      "decision_source": "jev",
+      "identity_mode": "trusted_application_name",
+      "probabilities": {
+        "ai": 0.89,
+        "non_ai": 0.03,
+        "unknown": 0.08
+      },
+      "raw_choice": "ai",
+      "review_threshold": 0.7,
+      "needs_review": false,
+      "reason": "Jev primary-purpose choice from supplied evidence; inspect probabilities and inputs.",
+      "reports": [],
+      "evidence_state": {
+        "observed_application": {
+          "application_name": "Grammarly",
+          "endpoint": "grammarly.com"
+        },
+        "catalog_descriptions": [
+          "Work smarter with personalized AI writing guidance."
+        ],
+        "reports": [],
+        "sources": []
+      },
+      "evidence_sources": [
+        {
+          "file": "data/processed/kaggle_dataset_b/kaggle_dataset_b_filled.csv",
+          "row": 1658,
+          "sha256": "a21d09aa3c72c38a46ebd0cb15c936401ed2d4b34ea3912cf8bc7f676f456a6f"
+        }
+      ],
+      "requested_model": "jev-latest",
+      "returned_model": "jev-1.14.0",
+      "usage": {
+        "input_tokens": 503,
+        "output_tokens": 40
+      },
+      "classified_at": "2026-11-21T21:02:34.188466+00:00",
+      "cache_hit": false,
+      "fingerprint": "f38816e6643d3b41f843407d4cf4c6f6c379d4daf28066e53eabe408aa24a811"
+    },
+    {
+      "application_name": "Jasper",
+      "endpoint": "jasper.ai",
+      "application_id": "app_1cd3877a479691c0c760e9ba585b38d3debdfff6d59b8437539302fcb9938d62",
+      "label": "ai",
+      "is_ai_tool": true,
+      "classification_status": "classified",
+      "identity_supported": true,
+      "identity_verified": false,
+      "decision_source": "jev",
+      "identity_mode": "trusted_application_name",
+      "probabilities": {
+        "ai": 0.89,
+        "non_ai": 0.0,
+        "unknown": 0.11
+      },
+      "raw_choice": "ai",
+      "review_threshold": 0.7,
+      "needs_review": false,
+      "reason": "Jev primary-purpose choice from supplied evidence; inspect probabilities and inputs.",
+      "reports": [],
+      "evidence_state": {
+        "observed_application": {
+          "application_name": "Jasper",
+          "endpoint": "jasper.ai"
+        },
+        "catalog_descriptions": [],
+        "reports": [
+          {
+            "report_index": 0,
+            "blocks": [
+              {
+                "block_index": 0,
+                "text": "### 1. Product Identity\nThe application name **Jasper** directly corresponds to the endpoint **jasper.ai**. It serves as the primary domain and web application endpoint for Jasper (legally Jasper Technologies, Inc.), an AI platform designed for enterprise marketing and content operations.\n\n### 2. Product Description\nJasper is an enterprise marketing platform designed to help teams plan, generate, govern, and scale on-brand content across multiple channels. Its primary capabilities include long-form content generation, ad copy creation, campaign coordination, and brand voice alignment using knowledge bases and style guides (Brand IQ). The platform also offers collaborative workspaces (Jasper Canvas), bulk content automation (Jasper Grid), and tools for search and AI engine optimization (GEO and SEO).\n\n### 3. AI Functionality\nAI functionality is central to Jasper’s entire platform and core architecture, rather than an optional add-on. The software relies on large language models and autonomous AI agents to execute multi-step marketing workflows, such as translating content, drafting briefs, generating channel-specific copy, and analyzing competitive positioning. Additional integrated AI tools include Jasper IQ (for ingesting company brand voice, style, and product data to guide generated outputs) and no-code AI app creation via Jasper Studio.\n\n### 4. Alternate Names and Domains\n* **Conversion.ai**: The original name of the product when it launched in January 2021.\n* **Jarvis / Jarvis.ai**: The software rebranded to \"Jarvis\" (and used the domain `jarvis.ai`) later in 2021 before rebranding to Jasper in January 2022 to avoid trademark conflicts with Marvel/Disney.\n* **Jasper AI**: Commonly used informal and trade name for the platform and corporate identity.\n\n### 5. Uncertainty\nThere is no significant ambiguity or conflicting evidence regarding the correspondence between the application name \"Jasper\" and the `jasper.ai` endpoint.",
+                "source_refs": [
+                  "S1",
+                  "S2",
+                  "S3",
+                  "S4",
+                  "S5",
+                  "S6",
+                  "S7",
+                  "S8",
+                  "S9"
+                ]
+              }
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "id": "S1",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "jasper.ai",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5pk9n4PFJyAhzcOSYAtDf7jKyWPZT3Ej0OBLFAT6SM9Y1AWQqrwFlg9ziKL5wv_UgxV2j9FhupmhBsKyGNxlhLa347FtWhyF6wJU5"
+          },
+          {
+            "id": "S2",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "jasper.ai",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtiHrSYQ8FqTi5Uo9ptewlpkixTfOYFqnmygYUF-YWNyNaC-yrjMq9oUsbPBrA8aef6sdExjvYn5FH6yvmjP4vRpn6fa7pSLGxqHwlnvzwYlgyczA="
+          },
+          {
+            "id": "S3",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "rework.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJPlSSDM8xkFxHNPq5R4igPSVO_8s_mnNgq4xHbeKc4B_ZyAXcNAdrHdT9S5ZXp1Nr04WLaK6Y2Qg3SFG82xLfceAsO2t1muSwtKXwI4XfftF2xGODblnlXMuT6B3VhuX0yPrLZea6H36wVEy_Fjr6zd3zuMprqw=="
+          },
+          {
+            "id": "S4",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "jasper.ai",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExs5X_MsTVAmMmpmMY3jEgPMgPdnv2oB4kANn5ucQgUvKT1wPq5BSZLl1SGybosZ_FJXuC87sjl-dl6GHF_drdFvegZHMD2lfmTan4fwxKIZRkpEAbircuKgdgUPd-SbA4wSx195A7nTOtR6PfAlth36rKPqkgQC3a"
+          },
+          {
+            "id": "S5",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "contentpen.ai",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZ_mO0MUKbN0xF0zzu-Y2uy1NUmaf8Z-DbUi1qtFt3R3nCfgEigD1FY-waluOyuzXIh2-mkfxyxfyAeGyBxCiokG4Dc_DOyia9XKxc3WIf-gkYs4HCHXSNo5jdlQ-BWEmB7jw="
+          },
+          {
+            "id": "S6",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "bitdefender.com",
+            "url_omitted": "Long URL retained in original report citations."
+          },
+          {
+            "id": "S7",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "zapier.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzGzHoiLEXtt4CLsED9SqRC2jrBJRMZw-LccfJMQ3fO9chrBlMZsESTsP6Iv8rdtSM69ErJDdYNQjwU3P2xj-xFaMULGZMZCG6jHtVNmrSIImYjNQb7Nm5"
+          },
+          {
+            "id": "S8",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "tc-creatives.com",
+            "url_omitted": "Long URL retained in original report citations."
+          },
+          {
+            "id": "S9",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "chadfullerton.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6CzysFil8-YxKy-aQZe2hlPNMMSGKCE_q20YZvFfhsOHq5m7EMTZ-A_8m7vFAv_aDDby3XfkZA8jQomIqbHVAGXOFMur06aiYUzaBr1xEAQL-YDQO6ZES0OPhlu_rF-2IzAeQoDwNCQn_QqhL"
+          }
+        ]
+      },
+      "evidence_sources": [],
+      "requested_model": "jev-latest",
+      "returned_model": "jev-1.14.0",
+      "usage": {
+        "input_tokens": 2202,
+        "output_tokens": 40
+      },
+      "classified_at": "2026-11-21T21:02:34.299821+00:00",
+      "cache_hit": false,
+      "fingerprint": "96168c0531aca2913e1e2af891d1b72df488ab73ba60e5010bac4a46752e7537"
+    },
+    {
+      "application_name": "Jira",
+      "endpoint": "atlassian.com",
+      "application_id": "app_4302bec2786f78d6f70e39f77769c2a212c4e08bfb1485164639710be64258ae",
+      "label": "non_ai",
+      "is_ai_tool": false,
+      "classification_status": "classified",
+      "identity_supported": true,
+      "identity_verified": false,
+      "decision_source": "jev",
+      "identity_mode": "trusted_application_name",
+      "probabilities": {
+        "ai": 0.0,
+        "non_ai": 0.95,
+        "unknown": 0.05
+      },
+      "raw_choice": "non_ai",
+      "review_threshold": 0.7,
+      "needs_review": false,
+      "reason": "Jev primary-purpose choice from supplied evidence; inspect probabilities and inputs.",
+      "reports": [],
+      "evidence_state": {
+        "observed_application": {
+          "application_name": "Jira",
+          "endpoint": "atlassian.com"
+        },
+        "catalog_descriptions": [
+          "An issue and project tracking tool used by software and business teams to plan, track, and manage work."
+        ],
+        "reports": [],
+        "sources": []
+      },
+      "evidence_sources": [
+        {
+          "file": "data/processed/final/dataset_b_final_kaggle_categories.csv",
+          "row": 321,
+          "sha256": "61957c48fbe6143331d13f9b2dc57380708ed0d86a0d0e9d1f8009dd2fb33858"
+        }
+      ],
+      "requested_model": "jev-latest",
+      "returned_model": "jev-1.14.0",
+      "usage": {
+        "input_tokens": 515,
+        "output_tokens": 41
+      },
+      "classified_at": "2026-11-21T21:02:34.390498+00:00",
+      "cache_hit": false,
+      "fingerprint": "38c65a012f6f50c4c344e46793707bb307ed77f2567d7d488db6c92f405905bb"
+    },
+    {
+      "application_name": "LinkedIn",
+      "endpoint": "linkedin.com",
+      "application_id": "app_34f8b1ca14ad669df00ab25c6fe0d335bbaa5b5bc41d04bb9ef431170a82355d",
+      "label": "non_ai",
+      "is_ai_tool": false,
+      "classification_status": "classified",
+      "identity_supported": true,
+      "identity_verified": false,
+      "decision_source": "jev",
+      "identity_mode": "trusted_application_name",
+      "probabilities": {
+        "ai": 0.0,
+        "non_ai": 0.98,
+        "unknown": 0.02
+      },
+      "raw_choice": "non_ai",
+      "review_threshold": 0.7,
+      "needs_review": false,
+      "reason": "Jev primary-purpose choice from supplied evidence; inspect probabilities and inputs.",
+      "reports": [],
+      "evidence_state": {
+        "observed_application": {
+          "application_name": "LinkedIn",
+          "endpoint": "linkedin.com"
+        },
+        "catalog_descriptions": [
+          "LinkedIn is a leading professional networking platform that connects individuals and businesses worldwide. The company offers a platform for professionals to network, search for jobs, and share industry insights. It also provides solutions for talent acquisition, marketing, and sales to businesses. LinkedIn, founded in 2002, is headquartered in Sunnyvale, California."
+        ],
+        "reports": [],
+        "sources": []
+      },
+      "evidence_sources": [
+        {
+          "file": "data/processed/final/dataset_b_final_kaggle_categories.csv",
+          "row": 460,
+          "sha256": "61957c48fbe6143331d13f9b2dc57380708ed0d86a0d0e9d1f8009dd2fb33858"
+        }
+      ],
+      "requested_model": "jev-latest",
+      "returned_model": "jev-1.14.0",
+      "usage": {
+        "input_tokens": 564,
+        "output_tokens": 41
+      },
+      "classified_at": "2026-11-21T21:02:34.513684+00:00",
+      "cache_hit": false,
+      "fingerprint": "953489d07c8bbc1d64646fa09ec2a7b39c4e057e49cf7148f5dd96497b50269a"
+    },
+    {
+      "application_name": "Microsoft Excel",
+      "endpoint": "office.com",
+      "application_id": "app_4a8ceff02924c8d92c4acfe24d1fef7a44e3ef4c39496c1288bcd96a0d491a5c",
+      "label": "non_ai",
+      "is_ai_tool": false,
+      "classification_status": "classified",
+      "identity_supported": true,
+      "identity_verified": false,
+      "decision_source": "jev",
+      "identity_mode": "trusted_application_name",
+      "probabilities": {
+        "ai": 0.0,
+        "non_ai": 0.97,
+        "unknown": 0.03
+      },
+      "raw_choice": "non_ai",
+      "review_threshold": 0.7,
+      "needs_review": false,
+      "reason": "Jev primary-purpose choice from supplied evidence; inspect probabilities and inputs.",
+      "reports": [],
+      "evidence_state": {
+        "observed_application": {
+          "application_name": "Microsoft Excel",
+          "endpoint": "office.com"
+        },
+        "catalog_descriptions": [],
+        "reports": [
+          {
+            "report_index": 0,
+            "blocks": [
+              {
+                "block_index": 0,
+                "text": "### 1. Product Identity\nThe application name **Microsoft Excel** corresponds to the endpoint **`office.com`**, though `office.com` is a platform-level domain rather than a dedicated host for Excel alone. `office.com` (along with its umbrella platform Microsoft 365) serves as the web portal and hosting endpoint for Microsoft Office applications, through which users access **Excel for the web** (formerly Excel Online). \n\n### 2. Product Description\nMicrosoft Excel is a spreadsheet and data analysis software application developed by Microsoft, available as a desktop program, mobile application, and web application. It provides a grid interface for organizing data, performing complex calculations, and automating workflows using formulas and built-in functions. Users can model and summarize information using tools like PivotTables, charts, and data queries, as well as collaborate on shared workbooks in real time.\n\n### 3. AI Functionality\nMicrosoft Excel integrates generative AI capabilities via **Microsoft Copilot in Excel** (as well as legacy automated insight tools such as Analyze Data). Copilot assists users in generating formulas, uncovering trends, summarizing datasets, and creating charts or PivotTables through natural-language prompts. AI functionality is an optional add-on feature that requires an eligible Microsoft 365 subscription and Copilot license; the core spreadsheet calculations, data modeling, and editing functions operate independently without AI.\n\n### 4. Alternate Names and Domains\n* **Alternate Names:** \n  * *Excel for the web* (official name for the browser-based version hosted under Office/Microsoft 365).\n  * *Excel Online* (legacy branding for the browser-based service).\n  * *MS Excel* or *Excel*.\n* **Alternate Domains:**\n  * `microsoft365.com` (Microsoft’s primary portal domain that mirrors and succeeds `office.com` for launching web apps).\n  * `microsoft.com` (official corporate domain hosting Excel product downloads, subscriptions, and documentation).\n  * `excel.new` (an official shortcut domain redirecting users directly into a new Excel workbook on the web).\n\n### 5. Uncertainty\nThe provided endpoint `office.com` is a generic root domain for the entire Microsoft 365/Office productivity suite (encompassing Word, PowerPoint, Outlook, and OneDrive) rather than a standalone URL unique to Excel. Without path information (such as `office.com/launch/excel`), network traffic to `office.com` could indicate access to any suite service rather than Excel specifically.",
+                "source_refs": [
+                  "S1",
+                  "S2",
+                  "S3",
+                  "S4",
+                  "S5",
+                  "S6",
+                  "S7",
+                  "S8",
+                  "S9",
+                  "S10",
+                  "S11",
+                  "S12",
+                  "S13",
+                  "S14"
+                ]
+              }
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "id": "S1",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "office.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGpmR0NBWArMEQTCkAm2Q2CaWq7yIY-b9auTHwjuqtOl_am-yzfHwgHIDogTaKWqo3MzhEBU0mWSkz1W-D9SwF-NYAGm8IvfFlE0o5lUqwfzczR9k="
+          },
+          {
+            "id": "S2",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "microsoft.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcgG5y8uVmcCYmyT7vb58bFqG5jZDk1WqSiD8KMdIvDtsAjCTw0QKL9jdKncR5H_Cyruhg7exXgCwULMycjqAATq7LpXJ9zyflHuaQoFEfIt8HeBGp1P8ZErn4Te5JlcWISgttaDAefkmE3kyoYMWg_6Z0iSze9pi3szLz"
+          },
+          {
+            "id": "S3",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "microsoft.com",
+            "url_omitted": "Long URL retained in original report citations."
+          },
+          {
+            "id": "S4",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "office.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtXzHellnybO92vl6ZcPmR4p6TBkeBsJlijv3egNqqJuR94QS21yZoAsdjtjh0SDTqgM-E00C4ArOQmGYBLKu5g45izVonqVPbEOWf_Vn-PyO51JYRcPk="
+          },
+          {
+            "id": "S5",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "office.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3ELar7DmcwABi2Q7BvJHuhq-6Zepfv4_wsz6G2KbLkP0Xng-hFmwvfldFkHCWR8OaSy1euiOAT-iAKZzsJoXvIP4c083_Ro9G2G_IJAvmojTrWkLzsa6FxZxldXMQU0O5"
+          },
+          {
+            "id": "S6",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "office.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwsGY2b76tAmVhx3qkCHHXhkWMFSKhhEjQWvXRgFK5apSOutXN4fb9GsddjJ_NruCLj2b6NJLT02vkIohdHyfOBgOcOdUjY22tJO9fkKv0rjgkCf8AeAzF6pHNNYyAY0miNGY0IuGQFBp5P1SWlA=="
+          },
+          {
+            "id": "S7",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "microsoft.com",
+            "url_omitted": "Long URL retained in original report citations."
+          },
+          {
+            "id": "S8",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "youtube.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPIRfM9e0p8t_ldFuq7btVbTBmrvYucM3L3uxCl-RW0M15pgkfynzQzfyqAOrBByn3n2N1t9EwtZposma7JeV2ZdWh1O4SO4xUBQxDv4gZNrg63Et5PD_p4tWMPb2nldl7"
+          },
+          {
+            "id": "S9",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "youtube.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcyNV_9xPJybIRehI1AGkUPHt16xYoYh-R0Ct_3SJrWzz5zddoUFShOjap_5Ub2FeYQdrmzxIAzTnvgYCd9OaRvaNlk-TogwmDLIlw9U6XMH4dJKC9vfm3_rbJylARdC-J"
+          },
+          {
+            "id": "S10",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "microsoft.com",
+            "url_omitted": "Long URL retained in original report citations."
+          },
+          {
+            "id": "S11",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "microsoft.com",
+            "url_omitted": "Long URL retained in original report citations."
+          },
+          {
+            "id": "S12",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "office.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjaY_thlPr5j-0oX9MHFuE0huXZD_kTW7RZzHTD_pI_YF290AUC5mCXzZgxeiO5kUseBukS1wOR_SEzrI1fm0LbO-WRaubxrVdoBvZADu2y6dtNtyQlabwhb0MsJyTg5l8TBQH3yj2qbRnkA=="
+          },
+          {
+            "id": "S13",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "youtube.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHKZRdjWVIdzu1miQ5jl1cYS-7j69P8DCwFg1FfzXdlgAfVM33jypUMg2aLPCKw7xtG6Fk6QdKwFs35rd92CPaJEeY4S7LCLnGDA1ZY4vG3gbsj4xiBlImlyN3VL6DwLNY"
+          },
+          {
+            "id": "S14",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "microsoft.com",
+            "url_omitted": "Long URL retained in original report citations."
+          }
+        ]
+      },
+      "evidence_sources": [],
+      "requested_model": "jev-latest",
+      "returned_model": "jev-1.14.0",
+      "usage": {
+        "input_tokens": 2867,
+        "output_tokens": 41
+      },
+      "classified_at": "2026-11-21T21:02:34.662492+00:00",
+      "cache_hit": false,
+      "fingerprint": "1f298b2d75739e3d347cf84b51d607c3d06dd955958a863b9609b9f4f8c48ef1"
+    },
+    {
+      "application_name": "Microsoft Teams",
+      "endpoint": "teams.microsoft.com",
+      "application_id": "app_f489d4b1012f5559a46748ae37e6c653712915858b8ae1810f96a84247830431",
+      "label": "non_ai",
+      "is_ai_tool": false,
+      "classification_status": "classified",
+      "identity_supported": true,
+      "identity_verified": false,
+      "decision_source": "jev",
+      "identity_mode": "trusted_application_name",
+      "probabilities": {
+        "ai": 0.0,
+        "non_ai": 1.0,
+        "unknown": 0.0
+      },
+      "raw_choice": "non_ai",
+      "review_threshold": 0.7,
+      "needs_review": false,
+      "reason": "Jev primary-purpose choice from supplied evidence; inspect probabilities and inputs.",
+      "reports": [],
+      "evidence_state": {
+        "observed_application": {
+          "application_name": "Microsoft Teams",
+          "endpoint": "teams.microsoft.com"
+        },
+        "catalog_descriptions": [],
+        "reports": [
+          {
+            "report_index": 0,
+            "blocks": [
+              {
+                "block_index": 0,
+                "text": "### Evidence Report: Microsoft Teams\n\n#### 1. Product Identity\n* **Application Name:** Microsoft Teams\n* **Observed Endpoint:** `teams.microsoft.com`\n* **Correspondence:** Confirmed. Official Microsoft 365 network documentation explicitly lists `teams.microsoft.com` as the primary service domain and web client endpoint for Microsoft Teams.\n\n#### 2. Product Description\nMicrosoft Teams is a cloud-based communication and collaboration platform integrated into the Microsoft 365 suite. Its primary purpose is to provide unified workspace communication through persistent 1:1 and channel-based chat, VoIP calling, and video conferencing. It also functions as a hub for real-time collaboration, integrating with Microsoft 365 apps (such as SharePoint, OneDrive, and Planner) for file sharing, calendar coordination, and workflow orchestration.\n\n#### 3. AI Functionality\nMicrosoft Teams incorporates both standard baseline AI features and optional generative AI add-ons:\n* **Standard Platform AI:** Teams includes built-in AI-powered capabilities that do not require add-on licenses, such as AI voice isolation (background noise reduction and speaker detection), video feed optimization (auto-brightness, facial framing), and suggested chat replies. \n* **Optional AI Add-ons:** Advanced generative AI capabilities—including automated meeting summaries, action-item extraction, chat Q&A, and task-tailored agents—are provided through **Microsoft Copilot in Teams** or **Teams Premium**. These advanced features are optional and depend on additional licensing; they are not mandatory for core Teams communication.\n\n#### 4. Alternate Names and Domains\n* **Alternate Names:** \n  * \"MS Teams\" (widely cited in technical and integration documentation).\n* **Alternate Domains:**\n  * `teams.cloud.microsoft`: Under Microsoft’s Unified Domains initiative, Microsoft has migrated the Teams web client and associated services from `teams.microsoft.com` to `teams.cloud.microsoft`.\n  * Subdomains and related operational domains include `*.teams.microsoft.com`, `*.teams.cloud.microsoft`, `teams.office.com`, and sovereign cloud domains such as `*.teams.microsoft.us` (GCC High).\n\n#### 5. Uncertainty\nThere is no ambiguity regarding the identity of Microsoft Teams or its correspondence to `teams.microsoft.com`. However, Microsoft is progressively phasing in `teams.cloud.microsoft` as the standard destination for web-based access, with automatic redirects handling traffic originally pointed to `teams.microsoft.com`.",
+                "source_refs": [
+                  "S1",
+                  "S2",
+                  "S3",
+                  "S4",
+                  "S5",
+                  "S6",
+                  "S7",
+                  "S8",
+                  "S9",
+                  "S10",
+                  "S11",
+                  "S12"
+                ]
+              }
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "id": "S1",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "microsoft.com",
+            "url_omitted": "Long URL retained in original report citations."
+          },
+          {
+            "id": "S2",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "windowsforum.com",
+            "url_omitted": "Long URL retained in original report citations."
+          },
+          {
+            "id": "S3",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "microsoft.com",
+            "url_omitted": "Long URL retained in original report citations."
+          },
+          {
+            "id": "S4",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "netify.ai",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvJ76qAn49GWI8Jl0Zdrq72OiUuMNOiM0qIyKYYh13tbmoz-X8vuxxWxWq43xe12H9H-lWMRi8mgDLNj5wSUsIciOZdmt0Rx2546p7yvEyKT9j8UouAhcyU9AMLqart8hWA5KA0Gf9"
+          },
+          {
+            "id": "S5",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "microsoft.com",
+            "url_omitted": "Long URL retained in original report citations."
+          },
+          {
+            "id": "S6",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "microsoft.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4h7R64lnuKOQAKq5KW9leZ-SM3FVZkgLl82G7zTTwlPdlvpapJSRJaHl4gCgry1ZLRWhy6XNRiOqTFH_8k353WvRoVWSU8VTXxxr2m421jV6hu_wTSGxRbqRFoxVRndRNuPW-PJEYr1E8qYLo4w=="
+          },
+          {
+            "id": "S7",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "microsoft.com",
+            "url_omitted": "Long URL retained in original report citations."
+          },
+          {
+            "id": "S8",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "microfocus.com",
+            "url_omitted": "Long URL retained in original report citations."
+          },
+          {
+            "id": "S9",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "microsoft.com",
+            "url_omitted": "Long URL retained in original report citations."
+          },
+          {
+            "id": "S10",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "microsoft.com",
+            "url_omitted": "Long URL retained in original report citations."
+          },
+          {
+            "id": "S11",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "helpdesk.live",
+            "url_omitted": "Long URL retained in original report citations."
+          },
+          {
+            "id": "S12",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "nuno-silva.net",
+            "url_omitted": "Long URL retained in original report citations."
+          }
+        ]
+      },
+      "evidence_sources": [],
+      "requested_model": "jev-latest",
+      "returned_model": "jev-1.14.0",
+      "usage": {
+        "input_tokens": 1993,
+        "output_tokens": 41
+      },
+      "classified_at": "2026-11-21T21:02:34.786665+00:00",
+      "cache_hit": false,
+      "fingerprint": "873be7db76ed304e18b5ff7d49cfdca37a6f81611487fbb2919503ca964d69f3"
+    },
+    {
+      "application_name": "Midjourney",
+      "endpoint": "midjourney.com",
+      "application_id": "app_7c50300353797d72a036f39fb3538b392082256d4cf368fad5dcd5cfb0ac661c",
+      "label": "ai",
+      "is_ai_tool": true,
+      "classification_status": "classified",
+      "identity_supported": true,
+      "identity_verified": false,
+      "decision_source": "jev",
+      "identity_mode": "trusted_application_name",
+      "probabilities": {
+        "ai": 0.97,
+        "non_ai": 0.0,
+        "unknown": 0.03
+      },
+      "raw_choice": "ai",
+      "review_threshold": 0.7,
+      "needs_review": false,
+      "reason": "Jev primary-purpose choice from supplied evidence; inspect probabilities and inputs.",
+      "reports": [],
+      "evidence_state": {
+        "observed_application": {
+          "application_name": "Midjourney",
+          "endpoint": "midjourney.com"
+        },
+        "catalog_descriptions": [],
+        "reports": [
+          {
+            "report_index": 0,
+            "blocks": [
+              {
+                "block_index": 0,
+                "text": "### 1. Product Identity\nThe application name **Midjourney** corresponds directly to the endpoint `midjourney.com`. The domain `midjourney.com` is the official website and service portal operated by Midjourney, Inc., used for accessing its generative media generation platform, account management, and related services.\n\n### 2. Product Description\nMidjourney is a generative media platform developed and hosted by Midjourney, Inc. that creates visual media from natural language text prompts. The service allows users to generate, upscale, remix, and modify images either via its dedicated web interface or through commands in Discord. Documented platform features include prompt-based generation, region variation (inpainting), panning, style referencing, and character consistency controls.\n\n### 3. AI Functionality\nArtificial intelligence is the central, core functionality of Midjourney rather than an optional add-on. Documented capabilities center entirely on proprietary generative machine learning models (such as the Midjourney Image and Video model families) designed to parse user text inputs (prompts) and reference images to synthesize media. Additional documented generative features include parameter tuning, image remixing, style referencing (`--sref`), and character referencing (`--cref`).\n\n### 4. Alternate Names and Domains\n* **Associated Domains / Subdomains:**\n  * `docs.midjourney.com`: Official documentation and user guide portal operated by Midjourney, Inc..\n* **Associated Product Names / Trademarks:**\n  * **Niji Journey** / **Niji·Journey**: Listed under official Midjourney Trademarks for its anime-focused model variant and collaboration.\n  * **MJ**: Frequently used standard abbreviation across documentation and community guidelines.\n\n### 5. Uncertainty\nWhile Midjourney offers commercial subscription tiers and terms governing business use, official documentation does not detail a distinct \"enterprise\" product variant or dedicated enterprise subdomains (such as dedicated single-tenant instances or standalone enterprise administrative consoles) separate from the general web and Discord-based platform.",
+                "source_refs": [
+                  "S1",
+                  "S2",
+                  "S3",
+                  "S4",
+                  "S5",
+                  "S6",
+                  "S7",
+                  "S8",
+                  "S9",
+                  "S10"
+                ]
+              }
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "id": "S1",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "wikipedia.org",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrYewaDK7JnKUYBf65a1wfppsSWDKq_gLiYOhzCPYBPYsnCNwq6a99DBdGjpT7kfghKR2eqUip_PGuMINwqEHj1n5O0dgi3G_5FFDiHwqjz-7Ey2v6hICDo2AqC_Lh"
+          },
+          {
+            "id": "S2",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "midjourney.com",
+            "url_omitted": "Long URL retained in original report citations."
+          },
+          {
+            "id": "S3",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "midjourney.com",
+            "url_omitted": "Long URL retained in original report citations."
+          },
+          {
+            "id": "S4",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "notion.site",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAHOAv5ebioFfsrliAOJRBgcnjqR49fnBJJYX2fdDhY7GVxAhKHgjvi8UvOqYhcqKEzlAcJNIc_nmUdNSI1Jmjhhn05yrtHlj_1IpyBP9cZPa0qQ45-g=="
+          },
+          {
+            "id": "S5",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "midjourney.com",
+            "url_omitted": "Long URL retained in original report citations."
+          },
+          {
+            "id": "S6",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "midjourney.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHh6_hMrp1rv3taGILW9UEAf8OoILICRSmYsCQQHA5Yz-4EQOzN15MVFEVp0dhf0rRAA1HXK4qECGaCBw_t55HzJ9OMHO0eQlXRVbTO2h7YXpl2swWlVO_yqUw="
+          },
+          {
+            "id": "S7",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "gitbook.io",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFtn9SYIVPXIapY4mVYpQ072uRIIDo453GpLfQ6sU6AfZgoUYgxrnO67vRPB_pgLUhdqAy8SgaCD426V9Ux3OParvv6YinbDxpFHrfWyXx2Egm817HdWIsB"
+          },
+          {
+            "id": "S8",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "midjourney.com",
+            "url_omitted": "Long URL retained in original report citations."
+          },
+          {
+            "id": "S9",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "reddit.com",
+            "url_omitted": "Long URL retained in original report citations."
+          },
+          {
+            "id": "S10",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "bosukete.com",
+            "url_omitted": "Long URL retained in original report citations."
+          }
+        ]
+      },
+      "evidence_sources": [],
+      "requested_model": "jev-latest",
+      "returned_model": "jev-1.14.0",
+      "usage": {
+        "input_tokens": 1945,
+        "output_tokens": 40
+      },
+      "classified_at": "2026-11-21T21:02:34.915135+00:00",
+      "cache_hit": false,
+      "fingerprint": "ea1c7fb379626148704ddc71c7f1110924afa9a719985743630e6fbc120e90ef"
+    },
+    {
+      "application_name": "Perplexity",
+      "endpoint": "perplexity.ai",
+      "application_id": "app_a4e9915bc883fd2738e22856141a76b4b65b12490224b9b3bdce26c5f39b3518",
+      "label": "ai",
+      "is_ai_tool": true,
+      "classification_status": "classified",
+      "identity_supported": true,
+      "identity_verified": false,
+      "decision_source": "jev",
+      "identity_mode": "trusted_application_name",
+      "probabilities": {
+        "ai": 0.87,
+        "non_ai": 0.0,
+        "unknown": 0.13
+      },
+      "raw_choice": "ai",
+      "review_threshold": 0.7,
+      "needs_review": false,
+      "reason": "Jev primary-purpose choice from supplied evidence; inspect probabilities and inputs.",
+      "reports": [],
+      "evidence_state": {
+        "observed_application": {
+          "application_name": "Perplexity",
+          "endpoint": "perplexity.ai"
+        },
+        "catalog_descriptions": [
+          "Provides accurate, real-time answers to any question."
+        ],
+        "reports": [],
+        "sources": []
+      },
+      "evidence_sources": [
+        {
+          "file": "data/processed/kaggle_dataset_b/kaggle_dataset_b_filled.csv",
+          "row": 7,
+          "sha256": "a21d09aa3c72c38a46ebd0cb15c936401ed2d4b34ea3912cf8bc7f676f456a6f"
+        }
+      ],
+      "requested_model": "jev-latest",
+      "returned_model": "jev-1.14.0",
+      "usage": {
+        "input_tokens": 505,
+        "output_tokens": 40
+      },
+      "classified_at": "2026-11-21T21:02:35.077842+00:00",
+      "cache_hit": false,
+      "fingerprint": "55bbbdf729423731c04bfa6a7123e0a5b102633d04b3f25b2dbe8ef427fbee7e"
+    },
+    {
+      "application_name": "Salesforce",
+      "endpoint": "salesforce.com",
+      "application_id": "app_96a58c1e329dc62b90c833b30aa8824c7c6d8ac9e6816c7c1707e2fbe7a5a3bf",
+      "label": "non_ai",
+      "is_ai_tool": false,
+      "classification_status": "classified",
+      "identity_supported": true,
+      "identity_verified": false,
+      "decision_source": "jev",
+      "identity_mode": "trusted_application_name",
+      "probabilities": {
+        "ai": 0.0,
+        "non_ai": 0.98,
+        "unknown": 0.02
+      },
+      "raw_choice": "non_ai",
+      "review_threshold": 0.7,
+      "needs_review": false,
+      "reason": "Jev primary-purpose choice from supplied evidence; inspect probabilities and inputs.",
+      "reports": [],
+      "evidence_state": {
+        "observed_application": {
+          "application_name": "Salesforce",
+          "endpoint": "salesforce.com"
+        },
+        "catalog_descriptions": [
+          "Salesforce is a leading customer relationship management (CRM) platform based in San Francisco, California. The company provides a comprehensive suite of services that integrate CRM, data management, artificial intelligence, and security solutions, enabling businesses to connect with their customers effectively. Salesforce focuses on delivering innovative cloud-based solutions that help organizations improve sales, service, and marketing, fostering stronger customer relationships."
+        ],
+        "reports": [],
+        "sources": []
+      },
+      "evidence_sources": [
+        {
+          "file": "data/processed/final/dataset_b_final_kaggle_categories.csv",
+          "row": 489,
+          "sha256": "61957c48fbe6143331d13f9b2dc57380708ed0d86a0d0e9d1f8009dd2fb33858"
+        }
+      ],
+      "requested_model": "jev-latest",
+      "returned_model": "jev-1.14.0",
+      "usage": {
+        "input_tokens": 567,
+        "output_tokens": 41
+      },
+      "classified_at": "2026-11-21T21:02:35.194011+00:00",
+      "cache_hit": false,
+      "fingerprint": "fdee8731bf28db50225f67a46b37c8a37a6938273ca1e658d385d5297a195dc5"
+    },
+    {
+      "application_name": "Slack",
+      "endpoint": "slack.com",
+      "application_id": "app_7e69132e0967e8eb047fd7b29dbe4a11a63dd46cfbb6689d91cad788933da11a",
+      "label": "non_ai",
+      "is_ai_tool": false,
+      "classification_status": "classified",
+      "identity_supported": true,
+      "identity_verified": false,
+      "decision_source": "jev",
+      "identity_mode": "trusted_application_name",
+      "probabilities": {
+        "ai": 0.0,
+        "non_ai": 0.97,
+        "unknown": 0.03
+      },
+      "raw_choice": "non_ai",
+      "review_threshold": 0.7,
+      "needs_review": false,
+      "reason": "Jev primary-purpose choice from supplied evidence; inspect probabilities and inputs.",
+      "reports": [],
+      "evidence_state": {
+        "observed_application": {
+          "application_name": "Slack",
+          "endpoint": "slack.com"
+        },
+        "catalog_descriptions": [
+          "Slack is a productivity platform designed to enhance workplace collaboration and efficiency. Integrated with Salesforce Customer 360, it empowers teams through no-code automation, seamless knowledge sharing, and constant connectivity. Slack promotes a diverse and inclusive work culture, aiming to make work simpler and more enjoyable for everyone."
+        ],
+        "reports": [],
+        "sources": []
+      },
+      "evidence_sources": [
+        {
+          "file": "data/processed/final/dataset_b_final_kaggle_categories.csv",
+          "row": 585,
+          "sha256": "61957c48fbe6143331d13f9b2dc57380708ed0d86a0d0e9d1f8009dd2fb33858"
+        }
+      ],
+      "requested_model": "jev-latest",
+      "returned_model": "jev-1.14.0",
+      "usage": {
+        "input_tokens": 553,
+        "output_tokens": 41
+      },
+      "classified_at": "2026-11-21T21:02:35.350505+00:00",
+      "cache_hit": false,
+      "fingerprint": "5e67cc26590502d7173510079c45ba9645dacb51f2a9a1c783ff7d6061e238a2"
+    },
+    {
+      "application_name": "VS Code",
+      "endpoint": "code.visualstudio.com",
+      "application_id": "app_a41717927a77162d6f55b73303b010267a11e496fb72c2bacbc4ffe7cccc148f",
+      "label": "non_ai",
+      "is_ai_tool": false,
+      "classification_status": "classified",
+      "identity_supported": true,
+      "identity_verified": false,
+      "decision_source": "jev",
+      "identity_mode": "trusted_application_name",
+      "probabilities": {
+        "ai": 0.0,
+        "non_ai": 0.98,
+        "unknown": 0.02
+      },
+      "raw_choice": "non_ai",
+      "review_threshold": 0.7,
+      "needs_review": false,
+      "reason": "Jev primary-purpose choice from supplied evidence; inspect probabilities and inputs.",
+      "reports": [],
+      "evidence_state": {
+        "observed_application": {
+          "application_name": "VS Code",
+          "endpoint": "code.visualstudio.com"
+        },
+        "catalog_descriptions": [],
+        "reports": [
+          {
+            "report_index": 0,
+            "blocks": [
+              {
+                "block_index": 0,
+                "text": "### 1. Product Identity\nThe application name **VS Code** corresponds directly to the endpoint `code.visualstudio.com`. Official Microsoft documentation identifies `code.visualstudio.com` as the primary web domain, distribution portal, and documentation repository for Visual Studio Code.\n\n---\n\n### 2. Product Description\nVisual Studio Code is a cross-platform source code editor developed by Microsoft for Windows, macOS, and Linux. It provides tools across the software development lifecycle, including syntax highlighting, IntelliSense code completion, an integrated terminal, interactive debugging, and built-in Git source control. VS Code functions as an extensible workbench that developers can customize with language runtimes, toolchains, remote development environments, and community-built extensions.\n\n---\n\n### 3. AI Functionality\nVS Code documents integrations for AI-assisted development, such as inline code suggestions, an integrated chat panel, and agent-based workflows that can inspect codebases, execute terminal commands, and draft file edits. \n\nThese AI capabilities are **optional features** rather than central to the editor's operation. The core editor operates fully as a traditional text and code editor without an AI account, assistant, or internet-connected language model. Advanced AI workflows operate via external extensions or agent harnesses (such as GitHub Copilot or third-party model providers via custom API keys) rather than being mandatory platform dependencies.\n\n---\n\n### 4. Alternate Names and Domains\n* **Alternate Names:**\n  * **Visual Studio Code:** The full, official product name used across official documentation and product downloads, with \"VS Code\" serving as its official short form.\n  * **Visual Studio Code for the Web:** The zero-install, browser-based deployment of the editor.\n* **Alternate Domains:**\n  * `vscode.dev`: Documented by Microsoft as the web-hosted version of the editor (*Visual Studio Code for the Web*).\n  * `visualstudio.com`: The parent domain owned by Microsoft that hosts the Visual Studio product family.\n\n---\n\n### 5. Uncertainty\nThere is no ambiguity or conflicting evidence regarding the correspondence between VS Code and `code.visualstudio.com`.",
+                "source_refs": [
+                  "S1",
+                  "S2",
+                  "S3",
+                  "S4",
+                  "S5",
+                  "S6",
+                  "S7",
+                  "S8"
+                ]
+              }
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "id": "S1",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "visualstudio.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHL70dWolG176kWHC8zIRoKOr6pe9B-CUyUg7rT6VhRT8JdONG7BwmskqiZGwN0KOjDQLE75UF05XtihV1DJ4GtJpdE3w6Ck6s7aLxn9AV2BB9fQtFhBxxV3-LOH9D_dcONP91Rdbn2vO5cKQbp_a8b-oERgKL0yDKD"
+          },
+          {
+            "id": "S2",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "visualstudio.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3DexY5MJPbtefCR6ahq0PxKI4oBmZM12a5WgLR8woHwtLGJnPqIZnVaO249IknY5bKkCNCqrb84VlEmwx9SkYoF0cQcmdXb1hkX31ULUgBVjVKNF_Wfk0U1dDiSut2Q=="
+          },
+          {
+            "id": "S3",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "visualstudio.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzp1Ezmp5lc7BKnz21umDveNLayzEFuYgx2NuDv7J420rzWCB1mglle0YeRoUZvAZDbAaXms2oA_A42D9w-_g_ddnrGHfm1ODC-IF3KXbg2rjJx788Hq3r1XNJ3jSg8YBawebHygmowksmSQ=="
+          },
+          {
+            "id": "S4",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "visualstudio.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGn04AiNjkoF5oS5yoc5ZYzJDC2wNwodNCUXZckHbTB88Y3nBvnvDqAEegMEX_yHV394CHWYjM8KYsU4oF_z325Ewi9vdrMOijai-7IoyahDi49CgZnjnHYXAf1_QFowYw6a4Utwkt2A6AFQbiciD7AZUn4asfk2lzy6dynZyA="
+          },
+          {
+            "id": "S5",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "visualstudio.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtSDLC0GR1SxYGoYGtkn_RQ23j1zeEs9yCT1V4dVYeTs3667NWBZhcbHWmjkurEoYvcUj15_fOlYgjEd08GaJfAzZ_Nmvx-BzLiRhvKhAHYWadk-t7dKzQvTMY1RKFoSahLpvW--OhhQ=="
+          },
+          {
+            "id": "S6",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "visualstudio.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFZuOxAZutGuA51X2byxGpE8Du1wnL8vatq7BbNbj29Lj-Pv-bCZmfoZGe-lYrk2fKAC_TQvTFFIbyGpZyX3b60A2zYj49qzx07Q_xO6oko7WpnRrszHWGhKV3nr6wwHzdNqYwpGOO4kV7CcOKaG0="
+          },
+          {
+            "id": "S7",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "visualstudio.com",
+            "url_omitted": "Long URL retained in original report citations."
+          },
+          {
+            "id": "S8",
+            "host": "vertexaisearch.cloud.google.com",
+            "title": "visualstudio.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5VVNAGPdvZyfBLQOsehLyT19H0Wb3Y1rd-uCeJeeN2t3Xjtpsk3qIdSnHSPEEShUryrp7y3bbqT88Z1M5XtM0mA11X7l5vW5stidqxcOSzmO-r8mYqVsypoJrqSDZ7A=="
+          }
+        ]
+      },
+      "evidence_sources": [],
+      "requested_model": "jev-latest",
+      "returned_model": "jev-1.14.0",
+      "usage": {
+        "input_tokens": 2299,
+        "output_tokens": 41
+      },
+      "classified_at": "2026-11-21T21:02:35.495195+00:00",
+      "cache_hit": false,
+      "fingerprint": "06f78f7c9f0e402e5ae53ac0b3471b7d6c30823fcba8363055b25e8063186025"
+    },
+    {
+      "application_name": "Workday",
+      "endpoint": "workday.com",
+      "application_id": "app_a254e36a3a3228d577cd9ebd56f97c66a95d45a09f213c77995067b67d35fef0",
+      "label": "non_ai",
+      "is_ai_tool": false,
+      "classification_status": "classified",
+      "identity_supported": true,
+      "identity_verified": false,
+      "decision_source": "jev",
+      "identity_mode": "trusted_application_name",
+      "probabilities": {
+        "ai": 0.0,
+        "non_ai": 0.98,
+        "unknown": 0.02
+      },
+      "raw_choice": "non_ai",
+      "review_threshold": 0.7,
+      "needs_review": false,
+      "reason": "Jev primary-purpose choice from supplied evidence; inspect probabilities and inputs.",
+      "reports": [],
+      "evidence_state": {
+        "observed_application": {
+          "application_name": "Workday",
+          "endpoint": "workday.com"
+        },
+        "catalog_descriptions": [
+          "Workday is a premier provider of cloud-based enterprise applications focusing on finance and human resources. The company offers solutions for financial management, human resources, planning, spend management, and analytics, integrating artificial intelligence and machine learning to support organizations in adapting to the evolving workplace landscape. With a global clientele of over 10,000 organizations, including a significant portion of the Fortune 500, Workday serves various industries effectively."
+        ],
+        "reports": [],
+        "sources": []
+      },
+      "evidence_sources": [
+        {
+          "file": "data/processed/final/dataset_b_final_kaggle_categories.csv",
+          "row": 506,
+          "sha256": "61957c48fbe6143331d13f9b2dc57380708ed0d86a0d0e9d1f8009dd2fb33858"
+        }
+      ],
+      "requested_model": "jev-latest",
+      "returned_model": "jev-1.14.0",
+      "usage": {
+        "input_tokens": 584,
+        "output_tokens": 41
+      },
+      "classified_at": "2026-11-21T21:02:35.615758+00:00",
+      "cache_hit": false,
+      "fingerprint": "26cc6d0369e73bad17d09d34d21205a1265e7707c4cc6d6148587d451d9f6d7d"
+    },
+    {
+      "application_name": "Zoom",
+      "endpoint": "zoom.us",
+      "application_id": "app_393113e5be3e4a46a9d1ed071da1fddcd16232c3adce72103b2c91d42ea4a7a3",
+      "label": "non_ai",
+      "is_ai_tool": false,
+      "classification_status": "classified",
+      "identity_supported": true,
+      "identity_verified": false,
+      "decision_source": "jev",
+      "identity_mode": "trusted_application_name",
+      "probabilities": {
+        "ai": 0.0,
+        "non_ai": 0.97,
+        "unknown": 0.03
+      },
+      "raw_choice": "non_ai",
+      "review_threshold": 0.7,
+      "needs_review": false,
+      "reason": "Jev primary-purpose choice from supplied evidence; inspect probabilities and inputs.",
+      "reports": [],
+      "evidence_state": {
+        "observed_application": {
+          "application_name": "Zoom",
+          "endpoint": "zoom.us"
+        },
+        "catalog_descriptions": [
+          "A video conferencing platform offering meetings, webinars, chat, and phone services."
+        ],
+        "reports": [],
+        "sources": []
+      },
+      "evidence_sources": [
+        {
+          "file": "data/processed/final/dataset_b_final_kaggle_categories.csv",
+          "row": 309,
+          "sha256": "61957c48fbe6143331d13f9b2dc57380708ed0d86a0d0e9d1f8009dd2fb33858"
+        }
+      ],
+      "requested_model": "jev-latest",
+      "returned_model": "jev-1.14.0",
+      "usage": {
+        "input_tokens": 510,
+        "output_tokens": 41
+      },
+      "classified_at": "2026-11-21T21:02:35.755323+00:00",
+      "cache_hit": false,
+      "fingerprint": "896d8e8e3169b23eccff80928452201f960498a32ef2ee20802cc9ad8502ca55"
+    }
+  ]
+}

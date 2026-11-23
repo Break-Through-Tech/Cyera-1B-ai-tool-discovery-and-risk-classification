@@ -1,5 +1,6 @@
 # Reconciled backend and modeling release — November 11, 2026
 
+> Historical November 11 backend release. For the current dashboard, ChromaDB retrieval and Jev workflows, see [README.md](../README.md).
 This release completes the current data/model consistency and backend integration work. It does not complete the entire project: the dashboard remains paused, and retrieval/RAG, Jev comparison and stronger independent validation remain future work.
 
 ## What is now connected

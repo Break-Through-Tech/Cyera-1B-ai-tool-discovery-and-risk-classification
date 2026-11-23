@@ -1,44 +1,47 @@
-# Current backend location
+# Repository map
 
-See [backend_release.md](backend_release.md) for the active data/models, combined reporting and current results. `ai_discovery/report.py` is now integrated and `pipeline.json` names its releases. All training code stays in `modeling/`, all saved models in `artifacts/`. The obsolete `discovery/` wrapper is removed. The following records the earlier cleanup-only stage and is retained as history.
-
-# Repository map — cleanup on main
+Start with [README.md](../README.md) for current capabilities and [dashboard/README.md](../dashboard/README.md) for running the application.
 
 ```text
-ai_discovery/           Activity extraction, catalog matching, optional research
-  ingest.py            Reads activity; applications, accepted/rejected rows, source-row map
-  catalog.py           Known AI/conventional/ambiguous/unknown matches
-  enrich.py            Optional Gemini/search evidence collection
+dashboard/
+  app.py                 Company views, upload controls, charts and report questions
+  data.py                Team report loading, usage/event joins and investigation queue
+  workflow.py            Saved Jev lookup, fresh-upload analysis and local evidence questions
+  companies.json         Saved company/report/activity configuration
 
-governance/            Risk engine, point policy and explicit fictional company scenarios
-modeling/              All training, model comparison and prediction scripts
-preprocessing_scripts/ Data cleaning, label correction, preparation and enrichment
+ai_discovery/
+  ingest.py, catalog.py  Activity extraction and exact known-product matching
+  enrich.py              Optional cited product research
+  classify.py, jev.py     Provider selection and Jev AI/non-AI decisions
+  jev_catalog.py         Resumable full-catalog Jev classification
+  categorize.py          Catalog/review/local-model purpose assignment
+  run_pipeline.py        Operational discovery, category and governance workflow
+  dashboard_data.py      Offline adapter for uploaded activity
+  retrieval.py           Local embeddings and ChromaDB report evidence storage/search
+  ask.py                 Company-scoped evidence answers and optional generated drafts
+  evaluate_*.py          Retrieval and answer-contract evaluation commands
 
-data/                  Sources, prepared data, reviews and research cache
-artifacts/             All saved models and experiment results
-  category_tfidf/      Previously models/category/
-  category_embeddings/ Previously models/category_embeddings/
-  category_embeddings_tuned/ Previously models/category_embeddings_tuned/
-  baseline/            Earlier baseline experiment
-  embeddings/          Earlier embedding/similarity experiment
-  governance/          Risk reports
+governance/              Explainable scoring, evidence and fictional company scenarios
+category_training/       Current Kaggle-14 category training and team's Jev category checks
+modeling/                Earlier model experiments and optional dependency lists
+preprocessing_scripts/   Dataset preparation and correction utilities
 
-tests/                 Automated behavior/consistency checks
-notebooks/             Exploratory analysis and experiments
-docs/                  Methods, limitations, historical records
-README.md              Current starting point
+data/
+  raw/                   Input catalogs and synthetic activity
+  processed/jev_catalog/ Full Jev predictions, input manifest and run summary
+  processed/dashboard_runs/ Team company reports and reviewed categories
+  reviews/               Review records and evaluation fixtures
+  cache/                 Reusable caches; local Chroma indexes are ignored by Git
+
+artifacts/               Experiment metrics and validation artifacts
+models/                  Locally supplied/trained model bundles, excluded from Git
+tests/                   Automated behavior and consistency checks
+docs/                    Current methods and clearly historical releases
+notebooks/               Exploratory analyses
 ```
 
-## Changes merged by this cleanup
+The dashboard's saved company views preserve the team's reviewed outputs. Uploads reuse exact product knowledge while recalculating company usage and governance. Local report questions use ChromaDB; no cloud database or paid call is needed to view or query saved evidence.
 
-Three category training scripts moved from `preprocessing_scripts/` to `modeling/`, preserving filenames. Their imports support direct script and module execution. Saved category output directories moved from `models/` to `artifacts/`; executable defaults/examples now use those new paths. All 40 category artifact files are byte-for-byte unchanged.
+Model weights, local encoders, provider credentials and derived vector databases are not committed. Current category bundles are expected under `models/categories/`; older local encoder paths are documented in [the report assistant guide](governance_assistant.md).
 
-The old long README, including historical results and EDA findings, is preserved in `docs/project_history.md`. The new root README describes current main, corrected sample paths, known limitations and explicitly unmerged features. Original experiment metadata retains historical path strings as provenance.
-
-No source data, research evidence, trained model contents or results were deleted. No model retraining, label changes, dependency upgrades or risk-rule changes were performed.
-
-## Why not merge the original simplification branch?
-
-That branch also contains pending binary training and combined reporting changes. To respect the request to merge only simplification, this cleanup was built directly on main and includes only the applicable moves/path/documentation changes. PR #19 and the reporting branches remain separate.
-
-The duplicate `discovery/` package, combined-report test consolidation, and relocation of earlier combined reports belong to those unmerged branches; they do not exist on current main and were not pulled in just to remove them. The paused dashboard draft remains outside the repository at `/Users/forumshah/Documents/Codex/2026-11-02/can-yo/outputs/paused-dashboard-backup-2026-11-11/`.
+Earlier backend experiments remain documented in [backend_release.md](backend_release.md), [project_history.md](project_history.md) and their method guides. They are historical context, not the current dashboard setup instructions.

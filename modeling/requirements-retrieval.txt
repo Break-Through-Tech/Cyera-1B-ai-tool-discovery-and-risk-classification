@@ -1,0 +1,3 @@
+-r requirements-pipeline.txt
+chromadb==1.5.9
+# Optional --generate mode also needs google-genai from the team's root requirements.

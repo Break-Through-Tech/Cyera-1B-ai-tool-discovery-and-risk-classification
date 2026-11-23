@@ -9,6 +9,8 @@ re-run detection, categorization or risk scoring.
 from __future__ import annotations
 
 import sys
+import json
+import hashlib
 from pathlib import Path
 
 import pandas as pd
@@ -19,7 +21,10 @@ import streamlit as st
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from dashboard.data import (  # noqa: E402
     investigation_queue, jev_check, load_company, load_config, load_jev, missing_evidence_text,
+    ROOT, _path,
 )
+
+from dashboard.workflow import product_reference, uploaded_run, report_answer, csv_export
 
 # Reference palette (dataviz skill): status colours are reserved for risk and
 # always shown with an icon + text label; one blue for single-series marks.
@@ -34,13 +39,19 @@ st.set_page_config(page_title="AI Governance Console", page_icon="🛡️", layo
 
 
 @st.cache_data(show_spinner="Loading pipeline results…")
-def get_run(entry: dict):
+def get_run(entry: dict, source_signature: tuple):
+    # Signature includes the loader and input files, so cached view columns cannot go stale.
     run = load_company(entry)
-    return run.apps, run.events, run.warnings
+    return run.apps, run.events, run.warnings, run.raw
+
+
+def run_signature(entry):
+    paths=[Path(__file__).with_name('data.py'),_path(entry['run_dir'])/'categorized_applications.json',_path(entry['activity'])]
+    return tuple((str(p),p.stat().st_mtime_ns,p.stat().st_size) for p in paths)
 
 
 def risk_badge(level: str, score=None) -> str:
-    s = f" ({score})" if score is not None else ""
+    s = f" ({score:g})" if score is not None and pd.notna(score) else " (unknown score)"
     return f"{RISK_ICON.get(level, '⚪')} **{level.title()} risk{s}**"
 
 
@@ -54,19 +65,61 @@ def style_fig(fig, height=320):
 
 # ---------------------------------------------------------------- sidebar
 companies = load_config()
+
+@st.cache_data(show_spinner="Loading saved product evidence…")
+def get_reference(signature):
+    return product_reference()
+
+def reference_signature():
+    paths=[ROOT/'data/processed/jev_catalog/all_classified.csv',ROOT/'data/processed/pipeline_runs/novatech_jev_classification.json']
+    paths += [_path(c['run_dir'])/'categorized_applications.json' for c in companies]
+    return tuple((str(p),p.stat().st_mtime_ns,p.stat().st_size) for p in paths if p.exists())
+
 with st.sidebar:
     st.header("AI Governance Console")
-    names = [c["company"] for c in companies]
-    choice = st.radio("Company", names)
-    entry = next(c for c in companies if c["company"] == choice)
+    source=st.radio("Data source",["Saved company","Analyze activity CSV"])
+    if source=="Saved company":
+        choice=st.radio("Company",[c["company"] for c in companies])
+        entry=next(c for c in companies if c["company"]==choice)
+        apps,events,warnings,raw=get_run(entry,run_signature(entry))
+    else:
+        company=st.text_input("Fictional company",value="ExampleCorp")
+        use_sample=st.checkbox("Use sample activity CSV",value=False)
+        content=None
+        if use_sample:
+            sample=st.selectbox("Sample activity",[c["company"] for c in companies])
+            sample_entry=next(c for c in companies if c["company"]==sample)
+            content=_path(sample_entry['activity']).read_bytes()
+        else:
+            uploaded=st.file_uploader("Activity CSV",type=['csv'])
+            if uploaded:content=uploaded.getvalue()
+        controls=st.checkbox("Adopt fictional catalog controls and approvals",value=False,
+            help="Explicitly adopts synthetic approval/control values for this fictional company only.")
+        metadata=st.file_uploader("Optional synthetic control metadata CSV",type=['csv'])
+        if st.button("Analyze activity",type="primary"):
+            try:
+                if content is None:raise ValueError("Choose an activity CSV or sample.")
+                with st.spinner("Recalculating company usage and governance…"):
+                    reference=get_reference(reference_signature())
+                    st.session_state.upload_run=uploaded_run(content,company,reference,controls,metadata.getvalue() if metadata else None)
+                st.session_state.pop('report_answer',None)
+            except (ValueError,KeyError,OSError,UnicodeError) as error:st.error(str(error))
+        if 'upload_run' not in st.session_state:
+            st.info("Choose a CSV and click Analyze activity. No API calls are made.")
+            st.stop()
+        run=st.session_state.upload_run
+        choice=run.company;apps,events,warnings,raw=run.apps,run.events,run.warnings,run.raw
+        st.caption("Viewing the last analyzed upload. Edits take effect after Analyze activity.")
     st.divider()
-    st.caption(
-        "Prototype on **synthetic** activity and fictional company approvals. "
-        "Risk scores are explainable rule totals, not security guarantees. "
-        "Missing evidence is not evidence of safety."
-    )
-
-apps, events, warnings = get_run(entry)
+    st.caption("Prototype on synthetic activity and fictional company approvals. Risk scores are rule totals, not breach probabilities. Missing evidence is not evidence of safety.")
+    department=st.selectbox("Applications used by department",['All',*sorted({d for ds in apps['departments'] for d in ds})])
+    status=st.selectbox("AI status",['All','AI tool','Not AI','Unresolved'])
+    search=st.text_input("Search application or endpoint")
+    mask=apps['departments'].map(lambda ds:department=='All' or department in ds)
+    if status!='All':mask &= apps['ai_status'].eq(status)
+    if search:mask &= (apps['name']+' '+apps['endpoint']).str.contains(search,case=False,regex=False)
+    apps=apps[mask].copy();events=events[events['application_id'].isin(apps['application_id'])].copy()
+    st.caption("Filters select applications. Usage and governance remain whole-company figures for each selected application.")
 for w in warnings:
     st.warning(w)
 
@@ -84,9 +137,14 @@ ai_events = events[events["application_id"].isin(ai_ids)]
 
 period = ""
 if not events.empty:
-    period = f"{events['timestamp'].min():%b %d} – {events['timestamp'].max():%b %d, %Y}"
+    valid_times=events["timestamp"].dropna()
+    if not valid_times.empty:period = f"{valid_times.min():%b %d} – {valid_times.max():%b %d, %Y}"
 
 st.title(f"{choice}")
+if source=="Saved company":
+    st.caption("Saved reviewed pipeline report; original detection sources are preserved. CSV analysis uses the current saved Jev product lookup.")
+else:
+    st.caption("Fresh offline company analysis using saved product knowledge. No live API requests.")
 st.caption(f"Activity {period} · {len(events):,} events · {events['employee_id'].nunique():,} employees · "
            f"{len(apps)} applications observed")
 
@@ -100,7 +158,10 @@ k4.metric("Unknown apps to resolve", len(unresolved),
 k5.metric("Employees using AI", f"{ai_events['employee_id'].nunique():,}",
           help=f"of {events['employee_id'].nunique():,} employees in the activity log")
 
-tab_inv, tab_over, tab_all = st.tabs(["🔎 Investigate", "📊 Overview", "📋 All applications"])
+tab_inv, tab_over, tab_all, tab_evidence = st.tabs(["🔎 Investigate", "📊 Overview", "📋 All applications", "💬 Evidence & exports"])
+if apps.empty:
+    st.info("No applications match these filters.")
+    st.stop()
 
 # ---------------------------------------------------------------- investigate
 with tab_inv:
@@ -115,14 +176,15 @@ with tab_inv:
         )[["name", "flag", "Risk", "risk_score", "category_label", "jev_check", "users", "Departments"]]
         st.dataframe(
             qv.rename(columns={"name": "Application", "flag": "Why it's here", "risk_score": "Score",
-                               "category_label": "Category", "jev_check": "Jev check", "users": "Users"}),
+                               "category_label": "Category", "jev_check": "Jev category opinion", "users": "Users"}),
             hide_index=True, width="stretch",
         )
 
     st.divider()
-    order = list(queue["name"]) + [n for n in apps["name"] if n not in set(queue["name"])]
-    selected = st.selectbox("Investigate an application", order, index=0)
-    app = apps[apps["name"] == selected].iloc[0]
+    order = list(queue["application_id"]) + [a for a in apps["application_id"] if a not in set(queue["application_id"])]
+    labels={r["application_id"]:r["name"]+" — "+r["endpoint"] for _,r in apps.iterrows()}
+    selected = st.selectbox("Investigate an application", order, index=0,format_func=labels.get)
+    app = apps[apps["application_id"] == selected].iloc[0]
     app_events = events[events["application_id"] == app["application_id"]]
 
     st.markdown(f"### {app['name']}  \n`{app['endpoint']}`")
@@ -146,8 +208,13 @@ with tab_inv:
                        + ". The score could be higher once these are known.")
         if pd.isna(app["is_ai_tool"]):
             st.info("**AI status unresolved.** " + (app["detection_reason"] or "")
-                    + " Run the pipeline with `--online` (needs a Gemini key) to research it.")
+                    + " Product evidence or review is required before assigning a binary label.")
 
+        st.caption("Detection source: "+app["detection_source"])
+        if app["detection_probabilities"]:
+            st.write("Jev AI/non-AI probabilities",app["detection_probabilities"])
+            st.caption("Product-classification probabilities are separate from governance scores and category opinions.")
+        if app["catalog_detection_conflict"]:st.warning("Jev/discovery and catalog labels disagree. The effective AI status stays unresolved pending review.")
         st.markdown("#### Purpose category")
         source = app["category_source"] if isinstance(app["category_source"], str) else None
         st.markdown(f"**{app['category_label']}**"
@@ -159,11 +226,10 @@ with tab_inv:
         op = app["jev_opinion"]
         if isinstance(op, dict):
             agrees = op["category"] == app["category"]
-            msg = (f"**Jev second opinion:** {op['category']} ({op['probability']:.0%})  \n"
+            msg = (f"**Jev category second opinion:** {op['category']} ({op['probability']:.0%})  \n"
                    + " · ".join(f"{t['category']} {t['probability']:.0%}" for t in op["top_three"])
                    + f"  \n_Based on the {op['evidence_source']}. "
-                   "Jev beat the local model on held-out tools (macro-F1 0.59 vs 0.48); "
-                   "below 50% probability it is right only about 30% of the time._")
+                   "Category evaluation used 154 tools with noisy reference labels (macro-F1 0.59 vs 0.48 for the local model). This is a small category benchmark, not AI/non-AI detection accuracy._")
             (st.success if agrees else st.warning)(
                 ("✓ Agrees with the assigned category. " if agrees
                  else "≠ Disagrees with the assigned category; worth a second look. ") + msg)
@@ -178,7 +244,7 @@ with tab_inv:
         ratio = app["upload_vs_typical"]
         u4.metric("vs. typical app", f"{ratio:.1f}×" if pd.notna(ratio) else "—",
                   help="Average upload per event compared with the median application at this company.")
-        if not app_events.empty:
+        if not app_events.empty and app_events["timestamp"].notna().any():
             st.caption(f"First seen {app_events['timestamp'].min():%b %d} · last seen {app_events['timestamp'].max():%b %d}")
 
     if not app_events.empty:
@@ -191,7 +257,7 @@ with tab_inv:
         c1.markdown("**Employees by department**")
         c1.plotly_chart(style_fig(fig, 260), width="stretch")
 
-        daily = (app_events.set_index("timestamp").resample("D")["event_id"].count()
+        daily = (app_events.dropna(subset=["timestamp"]).set_index("timestamp").resample("D")["event_id"].count()
                  .reset_index(name="events"))
         fig = px.line(daily, x="timestamp", y="events", color_discrete_sequence=[SERIES])
         fig.update_traces(line_width=2, hovertemplate="%{x|%b %d}: %{y} events<extra></extra>")
@@ -217,7 +283,7 @@ with tab_over:
 
     with c2:
         st.markdown("**Risk level of AI tools**")
-        levels = ["high", "medium", "low"]
+        levels = ["high", "medium", "low", "unknown"]
         counts = ai_apps["risk_level"].value_counts().reindex(levels, fill_value=0)
         incomplete = (ai_apps[ai_apps["assessment_status"] != "complete"]["risk_level"]
                       .value_counts().reindex(levels, fill_value=0))
@@ -247,7 +313,7 @@ with tab_over:
 
     st.markdown("**AI tool activity over time** (events per day, all AI tools)")
     if not ai_events.empty:
-        daily = (ai_events.set_index("timestamp").resample("D")["event_id"]
+        daily = (ai_events.dropna(subset=["timestamp"]).set_index("timestamp").resample("D")["event_id"]
                  .count().reset_index(name="events"))
         fig = px.line(daily, x="timestamp", y="events", color_discrete_sequence=[SERIES])
         fig.update_traces(line_width=2, hovertemplate="%{x|%a %b %d}: %{y:,} events<extra></extra>")
@@ -264,12 +330,35 @@ with tab_all:
         Reasons=view["reasons"].map(lambda rs: " · ".join(r["text"] for r in rs)),
         upload_mb=(view["mean_upload"] / 1e6).round(2),
     )[["name", "endpoint", "ai_status", "category_label", "jev_check", "Risk", "risk_score", "approval",
-       "assessment_status", "users", "events", "upload_mb", "Departments", "Reasons"]]
+       "assessment_status", "detection_source", "category_source", "activity_provenance", "contains_synthetic_evidence", "users", "events", "upload_mb", "Departments", "Reasons"]]
     table = table.rename(columns={
         "name": "Application", "endpoint": "Endpoint", "ai_status": "AI status",
-        "category_label": "Category", "jev_check": "Jev check", "risk_score": "Score", "approval": "Approval",
-        "assessment_status": "Assessment", "users": "Users", "events": "Events",
+        "category_label": "Category", "jev_check": "Jev category opinion", "risk_score": "Score", "approval": "Approval",
+        "assessment_status": "Assessment", "detection_source": "AI label source", "category_source": "Purpose label source",
+        "activity_provenance": "Usage data provenance", "contains_synthetic_evidence": "Contains synthetic evidence",
+        "users": "Users", "events": "Events",
         "upload_mb": "Avg upload (MB)"})
     st.dataframe(table, hide_index=True, width="stretch")
-    st.download_button("Download as CSV", table.to_csv(index=False).encode("utf-8"),
+    st.download_button("Download as CSV", csv_export(table.to_dict("records")),
                        file_name=f"{choice.lower().replace(' ', '_')}_applications.csv", mime="text/csv")
+
+
+with tab_evidence:
+    st.subheader("Ask about report evidence")
+    st.caption("Local retrieval over this company's complete report, independent of display filters. No Gemini or Jev calls are made. Unsupported questions are left unanswered.")
+    question=st.text_input("Question",placeholder="Why was DocuMind AI flagged?")
+    if st.button("Find report evidence"):
+        try:
+            with st.spinner("Retrieving report evidence…"):
+                answer=report_answer(raw,choice,question)
+            st.session_state.report_answer={'company':choice,'report_hash':hashlib.sha256(json.dumps(raw,sort_keys=True).encode()).hexdigest(),'result':answer}
+        except (ValueError,OSError,ImportError,KeyError) as error:st.error(str(error))
+    saved=st.session_state.get('report_answer')
+    if saved and saved['company']==choice and saved['report_hash']==hashlib.sha256(json.dumps(raw,sort_keys=True).encode()).hexdigest():
+        st.write(saved['result']['answer'])
+        with st.expander("Evidence citations and question interpretation"):st.json(saved['result'])
+    st.download_button("Download complete company report",json.dumps(raw,indent=2,ensure_ascii=False,allow_nan=False),"company_report.json","application/json")
+    with st.expander("Ingestion and evidence gaps"):
+        st.json(raw.get('ingestion',{}).get('summary',{}))
+        st.json(raw.get('ingestion',{}).get('rejected_rows',[]))
+    st.caption("Saved company views preserve the team's reviewed reports. Uploads reuse exact saved product predictions and reviewed purposes, then recalculate usage and risk. No approval or usage is inherited from another company. Unknown products remain unresolved. Generated Gemini explanations are not enabled.")
