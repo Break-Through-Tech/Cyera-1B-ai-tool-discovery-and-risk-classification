@@ -3,6 +3,19 @@
 Use Python 3.11 or 3.12 on Windows. This package supplies training code, not trained
 models. It consumes the unchanged output of `prepare_category_data.py`.
 
+**Just need the trained model?** Download it instead of retraining:
+
+```bash
+python category_training/fetch_category_model.py
+```
+
+It fetches the `category-model-kaggle14-run1` GitHub Release, checks its SHA-256 and
+every file against the run manifest, and extracts to `models/categories/kaggle14_run1`.
+
+The prepared data in `data/processed/category/category_preparation_v1` is stored
+byte-exact (see `.gitattributes`), so `--validate-only` passes on a fresh clone on
+any OS. CI checks this on every pull request.
+
 ## What we are comparing
 
 1. TF-IDF + multiclass logistic regression: learns category associations from words
