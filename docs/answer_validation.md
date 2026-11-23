@@ -13,23 +13,23 @@ This extends the report assistant with harder question contracts and stricter ge
 
 The wording parser is deliberately narrow, not general natural-language understanding. Every applied filter is returned. Unsupported wording may require explicit flags or a reformulated question. Explicit scope does not override unsupported safety or aggregation conclusions.
 
-## Index schema 2
+## Current index schema 3 (ChromaDB)
 
-Rebuild existing indexes with the current `ai_discovery.retrieval` code, using a **new output directory**. Version 1 bundles are refused rather than silently treating absent evidence fields as known.
+Rebuild existing indexes with the current `ai_discovery.retrieval` code, using a **new output directory**. Legacy schema-1/2 bundles are refused rather than silently treating an old FAISS index as a Chroma collection. Evidence facts and answer validation retain the same contract.
 
 ```bash
 python -m ai_discovery.retrieval \
   --report data/processed/pipeline_runs/novatech_component4_v2.json \
   --encoder /path/to/local/MiniLM/encoder \
-  --out data/cache/governance_retrieval/novatech-grounded-v2
+  --out data/cache/governance_retrieval/novatech-grounded-chroma-v3
 
 python -m ai_discovery.ask \
-  --index data/cache/governance_retrieval/novatech-grounded-v2 \
+  --index data/cache/governance_retrieval/novatech-grounded-chroma-v3 \
   --company NovaTech --question 'Which applications do not support SSO?'
 
 # Explicit predicates avoid relying on wording inference:
 python -m ai_discovery.ask \
-  --index data/cache/governance_retrieval/novatech-grounded-v2 \
+  --index data/cache/governance_retrieval/novatech-grounded-chroma-v3 \
   --company NovaTech --question 'Show matching report evidence' --no-infer \
   --control sso_available=false
 ```
@@ -65,7 +65,7 @@ These checks establish only exact consistency with the supplied report projectio
 - numeric priority ranking and absent application identities;
 - company scope, unsupported safety/trend/user-total questions and abstention.
 
-All **26/26 functional cases pass** against a local MiniLM/FAISS index. This is a functional contract result, **not** 100% general question-answering accuracy or an independent benchmark. The cases were authored to specify desired behavior; fixes addressed implementation behavior, not model tuning. No model weights or relevance threshold were trained on them.
+All **26/26 functional cases pass** against a local MiniLM/ChromaDB index. This is a functional contract result, **not** 100% general question-answering accuracy or an independent benchmark. The cases were authored to specify desired behavior; fixes addressed implementation behavior, not model tuning. No model weights or relevance threshold were trained on them.
 
 Reproduce using a local encoder:
 
@@ -74,20 +74,20 @@ python -m ai_discovery.retrieval \
   --report data/reviews/assistant_validation_2026-11-18/alpha-report.json \
   --report data/reviews/assistant_validation_2026-11-18/beta-report.json \
   --encoder /path/to/local/MiniLM/encoder \
-  --out data/cache/governance_retrieval/qa-v2
+  --out data/cache/governance_retrieval/qa-chroma-v3
 
 python -m ai_discovery.evaluate_answers \
-  --index data/cache/governance_retrieval/qa-v2 \
+  --index data/cache/governance_retrieval/qa-chroma-v3 \
   --cases data/reviews/assistant_validation_2026-11-18/cases.json \
   --out /tmp/assistant-functional-evaluation.json
 ```
 
-Results are saved in `artifacts/governance_answer_validation_2026-11-18/functional_cases.json`, with fixture/index hashes, statuses, counts, names and failures per case. The earlier six-query named-application semantic smoke evaluation is retained separately and is not replaced by this functional score.
+The original results remain in `artifacts/governance_answer_validation_2026-11-18/functional_cases.json`, with historical FAISS fixture/index hashes, statuses, counts, names and failures per case. The ChromaDB migration reran all 26 cases successfully with the same fixtures and local encoder; the original artifact is preserved rather than relabeled as a new Chroma run. The earlier six-query named-application semantic smoke evaluation is retained separately and is not replaced by this functional score.
 
 Next: independent analyst-reviewed questions on real project snapshots, including paraphrases and difficult negative cases, then an explicitly desired live-provider smoke test and answer-usefulness review. Dashboard work remains paused.
 
 ## Runtime and final checks
 
-Indexing/search defaults `OMP_NUM_THREADS` and `MKL_NUM_THREADS` to 1 before lazy native imports, preserving explicit user settings. The small local indexes do not require nested numerical thread pools. This avoids an observed macOS native crash when FAISS tests ran before a PyTorch model check. The complete suite is validated with these defaults; an explicitly overridden threaded environment has not been validated here.
+Indexing/search defaults `OMP_NUM_THREADS` and `MKL_NUM_THREADS` to 1 before lazy native imports, preserving explicit user settings. The small local indexes do not require nested numerical thread pools. These defaults were originally introduced after a macOS crash in the former FAISS backend. They remain conservative defaults for the ChromaDB/local-encoder implementation. The complete suite is validated with these defaults; an explicitly overridden threaded environment has not been validated here.
 
 The final suite contains 160 tests, including 9 additional grounding/QA checks. The 26 functional cases pass separately using the local MiniLM encoder. No live provider calls were made. Overlapping suite/product names are resolved by full, non-contained mentions (GitHub Copilot does not become GitHub); questions mentioning both still require explicit scope.

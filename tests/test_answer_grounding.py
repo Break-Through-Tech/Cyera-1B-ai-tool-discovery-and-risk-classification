@@ -13,7 +13,7 @@ from test_retrieval_assistant import Encoder
 FIXTURE=ROOT/'data/reviews/assistant_validation_2026-11-18'
 
 
-@unittest.skipUnless(importlib.util.find_spec('faiss'),'Install retrieval dependencies')
+@unittest.skipUnless(importlib.util.find_spec('chromadb'),'Install retrieval dependencies')
 class AnswerGroundingTests(unittest.TestCase):
     def setUp(self):
         self.temp=tempfile.TemporaryDirectory();self.path=Path(self.temp.name)
@@ -21,7 +21,9 @@ class AnswerGroundingTests(unittest.TestCase):
         self.out=self.path/'index'
         build([FIXTURE/'alpha-report.json',FIXTURE/'beta-report.json'],self.out,self.encoder,Encoder())
         self.index=EvidenceIndex(self.out,Encoder())
-    def tearDown(self):self.temp.cleanup()
+    def tearDown(self):
+        self.index.close()
+        self.temp.cleanup()
     def client(self,payload):
         return SimpleNamespace(models=SimpleNamespace(generate_content=lambda **kw:SimpleNamespace(text=json.dumps(payload))))
     def evidence(self):

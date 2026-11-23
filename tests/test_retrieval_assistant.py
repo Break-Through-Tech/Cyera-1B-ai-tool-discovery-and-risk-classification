@@ -10,7 +10,7 @@ import unittest
 from ai_discovery.retrieval import build,documents,EvidenceIndex
 from ai_discovery.ask import answer,generate
 
-AVAILABLE=importlib.util.find_spec('faiss') is not None
+AVAILABLE=importlib.util.find_spec('chromadb') is not None
 
 
 class Encoder:
@@ -43,7 +43,9 @@ class RetrievalTests(unittest.TestCase):
         self.b.write_text(json.dumps({'results':[app('Alpha','Company B',10,approval='approved')]}))
         self.path=self.root/'index';build([self.a,self.b],self.path,self.encoder,Encoder())
         self.index=EvidenceIndex(self.path,Encoder())
-    def tearDown(self):self.temp.cleanup()
+    def tearDown(self):
+        self.index.close()
+        self.temp.cleanup()
 
     def test_company_filter_before_top_k_and_source_citations(self):
         result=self.index.search('Alpha company approval','Company B',1)
@@ -52,6 +54,24 @@ class RetrievalTests(unittest.TestCase):
         self.assertEqual(hit['source']['json_pointer'],'/results/0')
         self.assertEqual(hit['source']['file'],'b.json')
         self.assertNotIn('employee_id',json.dumps(hit))
+
+    def test_chroma_persistence_and_database_metadata_integrity(self):
+        self.assertEqual(self.index.manifest['backend'],'chromadb')
+        self.assertTrue((self.path/'chroma'/'chroma.sqlite3').exists())
+        self.index.close()
+        self.index=EvidenceIndex(self.path,Encoder())
+        self.assertEqual(self.index.search('Beta','Company A',1)['total_matches'],2)
+        identifier=self.index.docs[0]['evidence_id']
+        self.index.collection.update(ids=[identifier],documents=['Altered report evidence'],
+            embeddings=self.index.collection.get(ids=[identifier],include=['embeddings'])['embeddings'].tolist())
+        self.index.close()
+        with self.assertRaisesRegex(ValueError,'evidence metadata mismatch'):EvidenceIndex(self.path,Encoder())
+
+    def test_old_faiss_schema_requires_an_explicit_rebuild(self):
+        self.index.close()
+        manifest=json.loads((self.path/'manifest.json').read_text());manifest.update(version=2,backend='faiss')
+        (self.path/'manifest.json').write_text(json.dumps(manifest))
+        with self.assertRaisesRegex(ValueError,'rebuild the index with ChromaDB'):EvidenceIndex(self.path,Encoder())
 
     def test_counts_use_full_filtered_snapshot_not_top_k(self):
         result=answer(self.index,'How many unapproved applications are used by Finance?','Company A',1)

@@ -20,7 +20,7 @@ flowchart LR
     C --> D[Purpose categorization]
     D --> E[Governance evidence and explainable scoring]
     E --> F[Saved Component 4 report]
-    F --> G[Local FAISS semantic search]
+    F --> G[Local ChromaDB semantic search]
     G --> H[Company-scoped analyst questions and citations]
     H --> I[Optional generated RAG draft]
 ```
@@ -73,7 +73,7 @@ Default answers are local evidence summaries with citations, not LLM-generated p
 
 ## Validation and limitations
 
-The unified dashboard integration passes **203 automated tests** in the local validation environment, including 14 retrieval/answer checks and 9 additional grounding/QA checks. Six named-application search smoke queries returned the intended application first; this small developer-authored set is not a broad or independent retrieval benchmark. The 26 developer-authored functional cases also pass; this is not a general answer-accuracy benchmark. Live answer-quality evaluation is still needed.
+The unified dashboard integration passes **205 automated tests** in the local validation environment, including 14 retrieval/answer checks and 9 additional grounding/QA checks. Six named-application search smoke queries returned the intended application first; this small developer-authored set is not a broad or independent retrieval benchmark. The 26 developer-authored functional cases also pass; this is not a general answer-accuracy benchmark. Live answer-quality evaluation is still needed.
 
 Model accuracy figures refer to specific datasets and contracts; do not present earlier 306-row category results as results of the newer full-Kaggle category pipeline. Source-assigned labels, provisional predictions and generated controls are not independently verified truth. Synthetic governance settings demonstrate the project workflow and are labeled; missing evidence never establishes safety.
 

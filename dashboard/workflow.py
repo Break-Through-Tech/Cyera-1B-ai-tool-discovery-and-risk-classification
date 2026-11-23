@@ -116,4 +116,5 @@ def report_answer(report,company,question,encoder_path=None):
         folder=Path(directory);source=folder/'report.json'
         source.write_text(json.dumps(report,ensure_ascii=False,allow_nan=False),encoding='utf-8')
         build([source],folder/'index',encoder,encoder_model)
-        return answer(EvidenceIndex(folder/'index',encoder_model),question,company)
+        with EvidenceIndex(folder/'index',encoder_model) as index:
+            return answer(index,question,company)

@@ -27,7 +27,8 @@ def main():
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('--index',type=Path,required=True)
     p.add_argument('--cases',type=Path,required=True);p.add_argument('--out',type=Path,required=True);a=p.parse_args()
     if a.out.exists():p.error('Output exists; choose a new file')
-    result=evaluate(EvidenceIndex(a.index),a.cases)
+    with EvidenceIndex(a.index) as index:
+        result=evaluate(index,a.cases)
     a.out.parent.mkdir(parents=True,exist_ok=True)
     with a.out.open('x',encoding='utf-8') as f:json.dump(result,f,indent=2);f.write('\n')
     print(json.dumps({'cases':result['cases'],'passed':result['passed']},indent=2))

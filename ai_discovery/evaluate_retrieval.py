@@ -32,7 +32,8 @@ def main():
     p.add_argument('--queries',type=Path,required=True);p.add_argument('--out',type=Path,required=True)
     a=p.parse_args()
     if a.out.exists():p.error('Output exists; choose a new file')
-    result=evaluate(EvidenceIndex(a.index),a.queries)
+    with EvidenceIndex(a.index) as index:
+        result=evaluate(index,a.queries)
     a.out.parent.mkdir(parents=True,exist_ok=True)
     with a.out.open('x',encoding='utf-8') as f:json.dump(result,f,indent=2);f.write('\n')
     print(json.dumps({k:result[k] for k in ('queries','hit_rate_at_1','hit_rate_at_k','mean_reciprocal_rank_at_k')},indent=2))

@@ -26,7 +26,7 @@
 
 **/__pycache__/
 
-# Local report search indexes (snapshots and derived vectors)
+# Local report search indexes (Chroma databases, snapshots and derived vectors)
 /data/cache/governance_retrieval/
 *.faiss
 

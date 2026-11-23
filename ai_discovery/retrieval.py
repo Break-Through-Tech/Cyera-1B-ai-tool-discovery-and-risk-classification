@@ -8,7 +8,7 @@ from pathlib import Path
 import tempfile
 
 # Small local indexes do not need nested BLAS/OpenMP thread pools. Apply before
-# lazy imports of FAISS/PyTorch; preserve an explicitly configured environment.
+# lazy imports of ChromaDB/PyTorch; preserve an explicitly configured environment.
 os.environ.setdefault('OMP_NUM_THREADS','1')
 os.environ.setdefault('MKL_NUM_THREADS','1')
 
@@ -104,22 +104,49 @@ def vectors(encoder,texts):
     if (norms==0).any():raise ValueError('Zero embedding')
     return np.ascontiguousarray(values/norms,dtype='float32')
 
+def chroma_client(path):
+    import chromadb
+    from chromadb.config import Settings
+    # Supply our existing local embeddings explicitly; no default encoder/cloud key.
+    return chromadb.PersistentClient(path=str(Path(path).resolve()),
+        settings=Settings(anonymized_telemetry=False))
+
+
+def metadata(doc):
+    facts=doc['facts']
+    return dict(company_key=facts['company'].casefold(),application_id=facts['application_id'],
+        ai_status=facts['ai_status'],risk_level=facts['risk_level'],approval=facts['approval'] or 'unknown',
+        facts_json=dump(facts),source_json=dump(doc['source']))
+
+
 def build(reports,out,encoder_path=DEFAULT_ENCODER,encoder=None):
-    import faiss
+    import chromadb
+    import numpy as np
     out=Path(out)
     if out.exists():raise ValueError('Index output already exists; use a new directory')
     if any(Path(p).resolve().is_relative_to(out.resolve()) for p in reports):raise ValueError('Report cannot be inside output directory')
     docs,sources=documents(reports)
     fingerprint=encoder_hash(encoder_path);encoder=encoder or load_encoder(encoder_path)
-    matrix=vectors(encoder,[d['text'] for d in docs]);index=faiss.IndexFlatIP(matrix.shape[1]);index.add(matrix)
-    # Stage the complete bundle before making it visible; never overwrite an index.
+    matrix=vectors(encoder,[d['text'] for d in docs])
     out.parent.mkdir(parents=True,exist_ok=True)
     with tempfile.TemporaryDirectory(prefix='retrieval_',dir=out.parent) as temp:
         stage=Path(temp);(stage/'documents.json').write_text(dump(docs)+'\n',encoding='utf-8')
-        faiss.write_index(index,str(stage/'vectors.faiss'))
-        manifest=dict(version=2,documents=len(docs),dimension=int(matrix.shape[1]),metric='cosine_via_normalized_inner_product',
-            sources=sources,encoder_path=str(Path(encoder_path).resolve()),encoder_sha256=fingerprint,
-            files_sha256={p.name:sha(p) for p in stage.iterdir()},faiss_version=faiss.__version__)
+        np.save(stage/'embeddings.npy',matrix,allow_pickle=False)
+        client=chroma_client(stage/'chroma')
+        try:
+            collection=client.create_collection(name='report_evidence',embedding_function=None,
+                configuration={'hnsw':{'space':'cosine','num_threads':1}})
+            for start in range(0,len(docs),1000):
+                batch=docs[start:start+1000]
+                collection.add(ids=[d['evidence_id'] for d in batch],embeddings=matrix[start:start+1000].tolist(),
+                    documents=[d['text'] for d in batch],metadatas=[metadata(d) for d in batch])
+            if collection.count()!=len(docs):raise ValueError('Chroma document count mismatch')
+        finally:client.close()
+        manifest=dict(version=3,backend='chromadb',collection='report_evidence',documents=len(docs),
+            dimension=int(matrix.shape[1]),metric='cosine',sources=sources,
+            encoder_path=str(Path(encoder_path).resolve()),encoder_sha256=fingerprint,
+            files_sha256={name:sha(stage/name) for name in ('documents.json','embeddings.npy')},
+            chromadb_version=chromadb.__version__)
         (stage/'manifest.json').write_text(dump(manifest)+'\n',encoding='utf-8')
         stage.rename(out)
     return manifest
@@ -127,19 +154,47 @@ def build(reports,out,encoder_path=DEFAULT_ENCODER,encoder=None):
 
 class EvidenceIndex:
     def __init__(self,path,encoder=None):
-        import faiss
+        import numpy as np
+        self.client=None
         self.path=Path(path);self.manifest=read(self.path/'manifest.json')
-        if self.manifest.get('version')!=2:raise ValueError('Unsupported retrieval schema; rebuild the index with current code')
-        for name in ('documents.json','vectors.faiss'):
+        if self.manifest.get('version')!=3 or self.manifest.get('backend')!='chromadb':
+            raise ValueError('Unsupported retrieval schema; rebuild the index with ChromaDB (legacy FAISS indexes are not reused)')
+        for name in ('documents.json','embeddings.npy'):
             if sha(self.path/name)!=self.manifest['files_sha256'][name]:raise ValueError('Index bundle hash mismatch')
         for source in self.manifest['sources']:
             if sha(source['path'])!=source['sha256']:raise ValueError('Source report changed; rebuild index')
-        self.docs=read(self.path/'documents.json');self.index=faiss.read_index(str(self.path/'vectors.faiss'))
-        if self.index.ntotal!=len(self.docs) or len(self.docs)!=self.manifest['documents'] or self.index.d!=self.manifest['dimension']:raise ValueError('Index/document dimensions mismatch')
+        self.docs=read(self.path/'documents.json')
+        matrix=np.load(self.path/'embeddings.npy',allow_pickle=False)
+        if matrix.shape!=(len(self.docs),self.manifest['dimension']) or len(self.docs)!=self.manifest['documents']:
+            raise ValueError('Index/document dimensions mismatch')
         if len({d['evidence_id'] for d in self.docs})!=len(self.docs):raise ValueError('Duplicate evidence IDs')
+        self.by_id={d['evidence_id']:d for d in self.docs}
         source_keys={(s['sha256'],s['company']) for s in self.manifest['sources']}
         if any((d['source']['report_sha256'],d['facts']['company']) not in source_keys for d in self.docs):raise ValueError('Document/source scope mismatch')
+        if not (self.path/'chroma'/'chroma.sqlite3').exists():raise ValueError('Chroma database is missing; rebuild index')
+        self.client=chroma_client(self.path/'chroma')
+        try:
+            self.collection=self.client.get_collection(self.manifest['collection'],embedding_function=None)
+            if self.collection.configuration.get('hnsw',{}).get('space')!='cosine':raise ValueError('Chroma distance metric mismatch')
+            stored=self.collection.get(include=['documents','metadatas','embeddings'])
+            if len(stored['ids'])!=len(self.docs) or set(stored['ids'])!=set(self.by_id):raise ValueError('Chroma document IDs/count mismatch')
+            positions={identifier:i for i,identifier in enumerate(stored['ids'])}
+            for i,doc in enumerate(self.docs):
+                j=positions[doc['evidence_id']]
+                if stored['documents'][j]!=doc['text'] or stored['metadatas'][j]!=metadata(doc):raise ValueError('Chroma evidence metadata mismatch')
+                embedding=np.asarray(stored['embeddings'][j],dtype='float32')
+                if embedding.shape!=(self.manifest['dimension'],) or not np.allclose(embedding,matrix[i],atol=1e-6,rtol=1e-6):
+                    raise ValueError('Chroma embedding integrity mismatch')
+        except Exception:
+            self.close();raise
         self.encoder=encoder
+
+    def close(self):
+        if self.client is not None:
+            self.client.close();self.client=None
+
+    def __enter__(self):return self
+    def __exit__(self,*args):self.close()
 
     def matching(self,company,department=None,ai_status=None,risk_level=None,approval=None,application=None,control_filters=None):
         if not company or not company.strip():raise ValueError('Company scope is required')
@@ -172,12 +227,19 @@ class EvidenceIndex:
             if encoder_hash(path)!=self.manifest['encoder_sha256']:raise ValueError('Encoder changed; rebuild index')
             self.encoder=load_encoder(path)
         query=vectors(self.encoder,[question])
-        if query.shape[1]!=self.index.d:raise ValueError('Query/index dimension mismatch')
-        # Exact full ranking; metadata filters are applied before selecting top-k.
-        scores,ids=self.index.search(query,self.index.ntotal);allowed=set(eligible)
-        hits=[dict(self.docs[int(i)],similarity=float(score)) for i,score in zip(ids[0],scores[0]) if int(i) in allowed][:top_k]
-        return dict(total_matches=len(eligible),hits=hits,
-                    matching_application_ids=[self.docs[i]['facts']['application_id'] for i in eligible])
+        if query.shape[1]!=self.manifest['dimension']:raise ValueError('Query/index dimension mismatch')
+        # Chroma applies company and eligible-ID restrictions before vector ranking.
+        eligible_ids=[self.docs[i]['evidence_id'] for i in eligible]
+        result=self.collection.query(query_embeddings=query.tolist(),ids=eligible_ids,
+            where={'company_key':company.strip().casefold()},n_results=min(top_k,len(eligible)),
+            include=['distances'])
+        hits=[]
+        for identifier,distance in zip(result['ids'][0],result['distances'][0]):
+            if identifier not in eligible_ids:raise ValueError('Chroma returned evidence outside the requested scope')
+            if not math.isfinite(distance):raise ValueError('Invalid Chroma distance')
+            hits.append(dict(self.by_id[identifier],similarity=max(-1.0,min(1.0,1.0-float(distance)))))
+        return dict(total_matches=len(eligible),hits=hits,matching_application_ids=[self.docs[i]['facts']['application_id'] for i in eligible])
+
 
 
 def main():

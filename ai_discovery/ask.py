@@ -160,7 +160,7 @@ def main():
     p.add_argument('--generate',action='store_true',help='Send retrieved report facts to Gemini for a cited draft; may incur API cost')
     p.add_argument('--api-model',help='Required with --generate; use a model supported by your account')
     p.add_argument('--out',type=Path)
-    a=p.parse_args();client=None
+    a=p.parse_args();client=None;index=None
     try:
         if a.out and a.out.exists():raise ValueError('Output exists; choose a new file')
         index=EvidenceIndex(a.index)
@@ -188,5 +188,6 @@ def main():
     except (ValueError,OSError,KeyError,ImportError) as error:p.exit(1,'Error: '+str(error)+'\n')
     finally:
         if client:client.close()
+        if index:index.close()
 
 if __name__=='__main__':main()
