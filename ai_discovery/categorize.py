@@ -254,8 +254,8 @@ class JevCategorizer:
 
     def __init__(self, args, taxonomy):
         self.args = args
-        self.mod = helpers.import_file(args.jev_script, 'jev_category_contract')
-        named = helpers.read_json(args.jev_criteria)
+        self.mod = helpers.import_file(args.category_jev_script, 'jev_category_contract')
+        named = helpers.read_json(args.category_jev_criteria)
         if set(named) != set(taxonomy):
             raise ValueError('Jev criteria must cover exactly the Kaggle-14 taxonomy')
         self.criteria = {self.mod.slug(c): text for c, text in named.items()}
@@ -263,7 +263,7 @@ class JevCategorizer:
         if not 0 <= args.api_review_threshold <= 1:
             raise ValueError('--api-review-threshold must be between 0 and 1')
         self.threshold = args.api_review_threshold
-        self.cache_path = args.jev_cache
+        self.cache_path = args.category_jev_cache
         self.cache = helpers.read_json(self.cache_path) if self.cache_path.exists() else {
             'version': self.mod.VERSION, 'entries': {}}
         self.changed = False
@@ -271,12 +271,12 @@ class JevCategorizer:
         self.calls = 0
 
     def settings(self):
-        return {'provider': 'jev', 'model': self.args.jev_model, 'review_threshold': self.threshold,
-                'criteria_sha256': helpers.sha(self.args.jev_criteria),
+        return {'provider': 'jev', 'model': self.args.category_jev_model, 'review_threshold': self.threshold,
+                'criteria_sha256': helpers.sha(self.args.category_jev_criteria),
                 'question_version': self.mod.VERSION, 'evaluation': 'docs/jev_category_evaluation.md'}
 
     def request_key(self, text):
-        spec = {'v': self.mod.VERSION, 'model': self.args.jev_model, 'instructions': self.mod.INSTRUCTIONS,
+        spec = {'v': self.mod.VERSION, 'model': self.args.category_jev_model, 'instructions': self.mod.INSTRUCTIONS,
                 'criteria': self.criteria, 'evidence': text}
         return hashlib.sha256(json.dumps(spec, sort_keys=True).encode()).hexdigest()
 
@@ -299,7 +299,7 @@ class JevCategorizer:
             if not self.api_key():
                 return None, 'TYPESAFE_API_KEY not set'
             try:
-                answer = self.mod.call_jev(self.args.jev_model, text, self.criteria,
+                answer = self.mod.call_jev(self.args.category_jev_model, text, self.criteria,
                                            self.args.api_timeout, self.api_key())
             except self.ERRORS as exc:
                 return None, f'Jev request failed ({type(exc).__name__})'
@@ -327,7 +327,7 @@ class JevCategorizer:
         fields = {'category': self.by_slug[answer['choice']] if accepted else None,
                   'category_status': 'provisional_prediction' if accepted else 'needs_category_review',
                   'category_source': 'api', 'api_provider': 'jev',
-                  'api_model': answer.get('returned_model') or self.args.jev_model,
+                  'api_model': answer.get('returned_model') or self.args.category_jev_model,
                   'api_probability': round(p, 4), 'api_review_threshold': self.threshold,
                   'top_three': [{'category': self.by_slug[k], 'probability': round(float(v), 4)} for k, v in top],
                   'cache_hit': hit, 'api_request_key': key}
@@ -357,10 +357,10 @@ def options(p):
                         'the local model is the fallback. Default: none (fully offline).')
     p.add_argument('--api-review-threshold', type=float, default=0.5,
                    help='Jev probability below this leaves the category empty and marks it for human review')
-    p.add_argument('--jev-model', default='jev-latest')
-    p.add_argument('--jev-criteria', type=Path, default=ROOT/'artifacts/jev_category_eval/criteria.json')
-    p.add_argument('--jev-cache', type=Path, default=ROOT/'data/cache/jev_category_cache.json')
-    p.add_argument('--jev-script', type=Path, default=ROOT/'category_training/jev_category_eval.py')
+    p.add_argument('--category-jev-model', default='jev-latest')
+    p.add_argument('--category-jev-criteria', type=Path, default=ROOT/'artifacts/jev_category_eval/criteria.json')
+    p.add_argument('--category-jev-cache', type=Path, default=ROOT/'data/cache/jev_category_cache.json')
+    p.add_argument('--category-jev-script', type=Path, default=ROOT/'category_training/jev_category_eval.py')
     p.add_argument('--api-timeout', type=float, default=60)
     p.add_argument('--audit-catalog-categories', action='store_true',
                    help='With --category-api jev: also ask Jev about catalog-categorized AI tools and flag '
@@ -378,8 +378,8 @@ def preflight(args, extra_inputs=()):
               args.training_script, args.reviews, args.report_selections, *extra_inputs]
     caches = [args.cache]
     if getattr(args, 'category_api', 'none') == 'jev':
-        inputs += [args.jev_criteria, args.jev_script]
-        caches.append(args.jev_cache)
+        inputs += [args.category_jev_criteria, args.category_jev_script]
+        caches.append(args.category_jev_cache)
     sources = {p.resolve() for p in inputs if p}
     for cache in (c.resolve() for c in caches):
         if (cache in sources or cache.is_relative_to(args.model_dir.resolve())
@@ -455,7 +455,7 @@ def save_outputs(args, records, engine, extra=None):
     paths = [args.catalog, args.known_tools, args.catalog_context, args.prep_script, args.training_script,
              args.reviews, args.report_selections, getattr(args, 'discovery', None), getattr(args, 'activity', None)]
     if api['provider']:
-        paths += [args.jev_criteria, args.jev_script]
+        paths += [args.category_jev_criteria, args.category_jev_script]
     helpers.write_json(args.out/'manifest.json', {'version': VERSION,
         'inputs': {str(p): helpers.sha(p) for p in paths if p and p.is_file()},
         'script_sha256': helpers.sha(Path(__file__)), 'model': engine.model_meta, 'category_api': api})

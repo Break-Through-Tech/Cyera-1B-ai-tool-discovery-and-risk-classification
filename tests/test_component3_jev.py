@@ -31,10 +31,10 @@ class JevCategoryTests(unittest.TestCase):
         base.CategorizationTests.taxonomy = c.helpers.import_file(self.args.prep_script, 'tp').TAXONOMY
         self.args.category_api = 'jev'
         self.args.api_review_threshold = 0.5
-        self.args.jev_model = 'jev-latest'
-        self.args.jev_criteria = c.ROOT/'artifacts/jev_category_eval/criteria.json'
-        self.args.jev_cache = self.root/'jev_cache.json'
-        self.args.jev_script = c.ROOT/'category_training/jev_category_eval.py'
+        self.args.category_jev_model = 'jev-latest'
+        self.args.category_jev_criteria = c.ROOT/'artifacts/jev_category_eval/criteria.json'
+        self.args.category_jev_cache = self.root/'jev_cache.json'
+        self.args.category_jev_script = c.ROOT/'category_training/jev_category_eval.py'
         self.args.api_timeout = 5
 
     def engine(self, response=None, error=None, key='test-key'):
