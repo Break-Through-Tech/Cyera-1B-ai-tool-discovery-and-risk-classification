@@ -1,0 +1,36 @@
+{
+  "ingestion": {
+    "input_file": "/Users/minthawzin/Projects/btt_cyera/data/raw/novatech_usage.csv",
+    "input_sha256": "3fc0deafbb6f2fc53a0f44914a873ad7fc7e1e374f2c5c57b54ee02d52a6056d",
+    "input_rows": 30000,
+    "accepted_events": 30000,
+    "rejected_events": 0,
+    "unique_applications": 21,
+    "unique_hostnames": 20,
+    "rejection_reasons": {},
+    "invalid_metrics": {
+      "session_duration_seconds": 0,
+      "bytes_uploaded": 0,
+      "bytes_downloaded": 0
+    },
+    "identity_policy": "Case-folded normalized name plus normalized endpoint; product paths/subdomains preserved; aliases not merged.",
+    "metric_policy": "Nonnegative integer metrics only; blanks are missing; invalid values excluded from totals and counted.",
+    "source_row_policy": "1-based data-record index, excluding header; join to original records using this index.",
+    "event_policy": "All accepted records count; no duplicate event-ID removal.",
+    "scope": "Extraction only; no AI labels or categories assigned."
+  },
+  "detection_counts": {
+    "True": 9,
+    "False": 12
+  },
+  "category_counts": {
+    "assigned": 4,
+    "provisional_prediction": 5,
+    "not_applicable": 12
+  },
+  "online_enabled": false,
+  "governance_counts": {
+    "complete": 9,
+    "incomplete": 12
+  }
+}
